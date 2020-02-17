@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-12 09:03+1000\n"
+"POT-Creation-Date: 2020-02-17 11:45+1000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -35,7 +35,7 @@ msgstr ""
 msgid " (on)"
 msgstr ""
 
-#: qt/aqt/deckbrowser.py:309
+#: qt/aqt/deckbrowser.py:310
 #, python-format
 msgid " It has %d card."
 msgid_plural " It has %d cards."
@@ -43,7 +43,7 @@ msgstr[0] ""
 msgstr[1] ""
 
 #. T: include a font for your language on Windows, eg: "Segoe UI", "MS Mincho"
-#: qt/aqt/webview.py:268
+#: qt/aqt/webview.py:343
 msgid "\"Segoe UI\""
 msgstr ""
 
@@ -53,16 +53,16 @@ msgstr ""
 msgid "%"
 msgstr ""
 
-#: pylib/anki/stats.py:815 pylib/anki/stats.py:837
+#: pylib/anki/stats.py:820 pylib/anki/stats.py:842
 msgid "% Correct"
 msgstr ""
 
-#: pylib/anki/stats.py:1119
+#: pylib/anki/stats.py:1124
 #, python-format
 msgid "%(a)0.1f %(b)s/day"
 msgstr ""
 
-#: qt/aqt/sync.py:92
+#: qt/aqt/sync.py:91
 #, python-format
 msgid "%(a)0.1fkB up, %(b)0.1fkB down"
 msgstr ""
@@ -71,12 +71,12 @@ msgstr ""
 #. answer time: 16.8s (3.6 cards/minute)", then
 #. "%(a)0.1fs" represents "16.8s" and "%(b)s" represents
 #. "3.6 cards/minutes")
-#: pylib/anki/stats.py:464
+#: pylib/anki/stats.py:469
 #, python-format
 msgid "%(a)0.1fs (%(b)s)"
 msgstr ""
 
-#: qt/aqt/browser.py:2134
+#: qt/aqt/browser.py:2159
 #, python-format
 msgid "%(a)d of %(b)d note updated"
 msgid_plural "%(a)d of %(b)d notes updated"
@@ -85,30 +85,30 @@ msgstr[1] ""
 
 #. T: name is a card type name. n it's order in the list of card type.
 #. T: this is shown in browser's filter, when seeing the list of card type of a note type.
-#: qt/aqt/browser.py:1317
+#: qt/aqt/browser.py:1345
 #, python-format
 msgid "%(n)d: %(name)s"
 msgstr ""
 
-#: pylib/anki/stats.py:438
+#: pylib/anki/stats.py:443
 #, python-format
 msgid "%(tot)s %(unit)s"
 msgstr ""
 
-#: pylib/anki/stats.py:456
+#: pylib/anki/stats.py:461
 #, python-format
 msgid "%.01f cards/minute"
 msgstr ""
 
-#: pylib/anki/stats.py:288 pylib/anki/stats.py:344 qt/aqt/clayout.py:241
-#: qt/aqt/main.py:1374
+#: pylib/anki/stats.py:293 pylib/anki/stats.py:349 qt/aqt/clayout.py:241
+#: qt/aqt/main.py:1312
 #, python-format
 msgid "%d card"
 msgid_plural "%d cards"
 msgstr[0] ""
 msgstr[1] ""
 
-#: qt/aqt/main.py:1386
+#: qt/aqt/main.py:1324
 #, python-format
 msgid "%d card deleted."
 msgid_plural "%d cards deleted."
@@ -143,42 +143,14 @@ msgid_plural "%d decks updated."
 msgstr[0] ""
 msgstr[1] ""
 
-#: qt/aqt/main.py:1282
-#, python-format
-msgid "%d file found in media folder not used by any cards:"
-msgid_plural "%d files found in media folder not used by any cards:"
-msgstr[0] ""
-msgstr[1] ""
-
-#: qt/aqt/main.py:1339
-#, python-format
-msgid "%d file remaining..."
-msgid_plural "%d files remaining..."
-msgstr[0] ""
-msgstr[1] ""
-
-#: qt/aqt/browser.py:2190
+#: qt/aqt/browser.py:2217
 #, python-format
 msgid "%d group"
 msgid_plural "%d groups"
 msgstr[0] ""
 msgstr[1] ""
 
-#: pylib/anki/sync.py:775
-#, python-format
-msgid "%d media change to upload"
-msgid_plural "%d media changes to upload"
-msgstr[0] ""
-msgstr[1] ""
-
-#: pylib/anki/sync.py:825
-#, python-format
-msgid "%d media file downloaded"
-msgid_plural "%d media files downloaded"
-msgstr[0] ""
-msgstr[1] ""
-
-#: qt/aqt/browser.py:2191 qt/aqt/browser.py:2199 qt/aqt/fields.py:96
+#: qt/aqt/browser.py:2218 qt/aqt/browser.py:2226 qt/aqt/fields.py:96
 #: qt/aqt/models.py:82
 #, python-format
 msgid "%d note"
@@ -186,14 +158,14 @@ msgid_plural "%d notes"
 msgstr[0] ""
 msgstr[1] ""
 
-#: pylib/anki/importing/noteimp.py:212
+#: pylib/anki/importing/noteimp.py:215
 #, python-format
 msgid "%d note added"
 msgid_plural "%d notes added"
 msgstr[0] ""
 msgstr[1] ""
 
-#: qt/aqt/browser.py:1801
+#: qt/aqt/browser.py:1825
 #, python-format
 msgid "%d note deleted."
 msgid_plural "%d notes deleted."
@@ -214,28 +186,28 @@ msgid_plural "%d notes imported."
 msgstr[0] ""
 msgstr[1] ""
 
-#: pylib/anki/importing/noteimp.py:224
+#: pylib/anki/importing/noteimp.py:227
 #, python-format
 msgid "%d note unchanged"
 msgid_plural "%d notes unchanged"
 msgstr[0] ""
 msgstr[1] ""
 
-#: pylib/anki/importing/noteimp.py:214
+#: pylib/anki/importing/noteimp.py:217
 #, python-format
 msgid "%d note updated"
 msgid_plural "%d notes updated"
 msgstr[0] ""
 msgstr[1] ""
 
-#: pylib/anki/stats.py:279
+#: pylib/anki/stats.py:284
 #, python-format
 msgid "%d review"
 msgid_plural "%d reviews"
 msgstr[0] ""
 msgstr[1] ""
 
-#: qt/aqt/browser.py:801
+#: qt/aqt/browser.py:813
 #, python-format
 msgid "%d selected"
 msgid_plural "%d selected"
@@ -282,14 +254,14 @@ msgid_plural "%s months"
 msgstr[0] ""
 msgstr[1] ""
 
-#: pylib/anki/utils.py:44 qt/aqt/main.py:1132
+#: pylib/anki/utils.py:44 qt/aqt/main.py:1148
 #, python-format
 msgid "%s second"
 msgid_plural "%s seconds"
 msgstr[0] ""
 msgstr[1] ""
 
-#: qt/aqt/main.py:1375
+#: qt/aqt/main.py:1313
 #, python-format
 msgid "%s to delete:"
 msgstr ""
@@ -446,7 +418,7 @@ msgstr ""
 msgid "'%(row)s' had %(num1)d fields, expected %(num2)d"
 msgstr ""
 
-#: pylib/anki/stats.py:186
+#: pylib/anki/stats.py:191
 #, python-format
 msgid "(%s correct)"
 msgstr ""
@@ -459,19 +431,19 @@ msgstr ""
 msgid "(disabled)"
 msgstr ""
 
-#: pylib/anki/sched.py:1342 pylib/anki/schedv2.py:1550
+#: pylib/anki/sched.py:1356 pylib/anki/schedv2.py:1550
 msgid "(end)"
 msgstr ""
 
-#: qt/aqt/browser.py:352
+#: qt/aqt/browser.py:353
 msgid "(filtered)"
 msgstr ""
 
-#: qt/aqt/browser.py:319
+#: qt/aqt/browser.py:320
 msgid "(learning)"
 msgstr ""
 
-#: qt/aqt/browser.py:317 qt/aqt/browser.py:323
+#: qt/aqt/browser.py:318 qt/aqt/browser.py:324
 msgid "(new)"
 msgstr ""
 
@@ -480,7 +452,7 @@ msgstr ""
 msgid "(parent limit: %d)"
 msgstr ""
 
-#: qt/aqt/browser.py:1700
+#: qt/aqt/browser.py:1724
 msgid "(please select 1 card)"
 msgstr ""
 
@@ -497,48 +469,48 @@ msgstr ""
 msgid ".anki2 files are not directly importable - please import the .apkg or .zip file you have received instead."
 msgstr ""
 
-#: qt/aqt/browser.py:1462
+#: qt/aqt/browser.py:1483
 msgid "0d"
 msgstr ""
 
-#: pylib/anki/stats.py:966 qt/aqt/forms/stats.py:78
+#: pylib/anki/stats.py:971 qt/aqt/forms/stats.py:78
 msgid "1 month"
 msgstr ""
 
-#: pylib/anki/stats.py:966 qt/aqt/forms/stats.py:79
+#: pylib/anki/stats.py:971 qt/aqt/forms/stats.py:79
 msgid "1 year"
 msgstr ""
 
-#: pylib/anki/stats.py:829
+#: pylib/anki/stats.py:834
 msgid "10AM"
 msgstr ""
 
-#: pylib/anki/stats.py:831
+#: pylib/anki/stats.py:836
 msgid "10PM"
 msgstr ""
 
-#: pylib/anki/stats.py:832
+#: pylib/anki/stats.py:837
 msgid "3AM"
 msgstr ""
 
-#: pylib/anki/stats.py:828
+#: pylib/anki/stats.py:833
 msgid "4AM"
 msgstr ""
 
-#: pylib/anki/stats.py:830
+#: pylib/anki/stats.py:835
 msgid "4PM"
 msgstr ""
 
-#: qt/aqt/sync.py:211
+#: qt/aqt/sync.py:200
 msgid "504 gateway timeout error received. Please try temporarily disabling your antivirus."
 msgstr ""
 
 #. T: Symbols separating first and second column in a statistics table. Eg in "Total:    3 reviews".
-#: pylib/anki/stats.py:915
+#: pylib/anki/stats.py:920
 msgid ":"
 msgstr ""
 
-#: pylib/anki/stats.py:175 qt/aqt/deckbrowser.py:131
+#: pylib/anki/stats.py:180 qt/aqt/deckbrowser.py:132
 #, python-format
 msgid "<!--studied-->%d card"
 msgid_plural "<!--studied-->%d cards"
@@ -550,12 +522,12 @@ msgstr[1] ""
 msgid "<a href='%s'>Visit website</a>"
 msgstr ""
 
-#: pylib/anki/stats.py:428
+#: pylib/anki/stats.py:433
 #, python-format
 msgid "<b>%(pct)d%%</b> (%(x)s of %(y)s)"
 msgstr ""
 
-#: qt/aqt/browser.py:1441
+#: qt/aqt/browser.py:1462
 msgid "<b>%Y-%m-%d</b> @ %H:%M"
 msgstr ""
 
@@ -614,7 +586,7 @@ msgid ""
 "Not currently enabled; click the sync button in the main window to enable."
 msgstr ""
 
-#: qt/aqt/sync.py:257
+#: qt/aqt/sync.py:246
 #, python-format
 msgid ""
 "<h1>Account Required</h1>\n"
@@ -652,11 +624,11 @@ msgstr ""
 msgid "<ignored>"
 msgstr ""
 
-#: qt/aqt/main.py:1476
+#: qt/aqt/main.py:1414
 msgid "<non-unicode text>"
 msgstr ""
 
-#: qt/aqt/browser.py:736
+#: qt/aqt/browser.py:748
 msgid "<type here to search; hit enter to show current deck>"
 msgstr ""
 
@@ -664,16 +636,12 @@ msgstr ""
 msgid "A big thanks to all the people who have provided suggestions, bug reports and donations."
 msgstr ""
 
-#: pylib/anki/stats.py:901
+#: pylib/anki/stats.py:906
 msgid "A card's <i>ease</i> is the size of the next interval when you answer \"good\" on a review."
 msgstr ""
 
 #: pylib/anki/decks.py:287
 msgid "A filtered deck cannot have subdecks."
-msgstr ""
-
-#: qt/aqt/sync.py:160
-msgid "A problem occurred while syncing media. Please use Tools>Check Media, then sync again to correct the issue."
 msgstr ""
 
 #: pylib/anki/importing/csvfile.py:56
@@ -686,7 +654,7 @@ msgid "About Anki"
 msgstr ""
 
 #: qt/aqt/addcards.py:36 qt/aqt/addcards.py:65 qt/aqt/deckconf.py:81
-#: qt/aqt/models.py:47 qt/aqt/studydeck.py:46 qt/aqt/toolbar.py:51
+#: qt/aqt/models.py:47 qt/aqt/studydeck.py:46 qt/aqt/toolbar.py:64
 #: qt/aqt/forms/addcards.py:58 qt/aqt/forms/fields.py:101
 #: qt/aqt/forms/profiles.py:76
 msgid "Add"
@@ -724,7 +692,7 @@ msgstr ""
 msgid "Add Reverse"
 msgstr ""
 
-#: qt/aqt/browser.py:1871
+#: qt/aqt/browser.py:1895
 msgid "Add Tags"
 msgstr ""
 
@@ -736,7 +704,7 @@ msgstr ""
 msgid "Add to:"
 msgstr ""
 
-#: qt/aqt/browser.py:158
+#: qt/aqt/browser.py:159
 msgid "Add-on"
 msgstr ""
 
@@ -752,7 +720,7 @@ msgstr ""
 msgid "Add-on was not downloaded from AnkiWeb."
 msgstr ""
 
-#: qt/aqt/main.py:1535
+#: qt/aqt/main.py:1473
 msgid "Add-on will be installed when a profile is opened."
 msgstr ""
 
@@ -769,29 +737,29 @@ msgstr ""
 msgid "Add: %s"
 msgstr ""
 
-#: pylib/anki/stats.py:27 pylib/anki/stats.py:335
-#: pylib/anki/importing/anki2.py:168 qt/aqt/addcards.py:209
+#: pylib/anki/stats.py:32 pylib/anki/stats.py:340
+#: pylib/anki/importing/anki2.py:169 qt/aqt/addcards.py:209
 msgid "Added"
 msgstr ""
 
-#: qt/aqt/browser.py:1228
+#: qt/aqt/browser.py:1256
 msgid "Added Today"
 msgstr ""
 
-#: pylib/anki/importing/noteimp.py:133
+#: pylib/anki/importing/noteimp.py:136
 #, python-format
 msgid "Added duplicate with first field: %s"
 msgstr ""
 
-#: qt/aqt/reviewer.py:612
+#: qt/aqt/reviewer.py:614
 msgid "Again"
 msgstr ""
 
-#: qt/aqt/browser.py:1230
+#: qt/aqt/browser.py:1258
 msgid "Again Today"
 msgstr ""
 
-#: pylib/anki/stats.py:184
+#: pylib/anki/stats.py:189
 #, python-format
 msgid "Again count: %s"
 msgstr ""
@@ -800,7 +768,7 @@ msgstr ""
 msgid "All Buried Cards"
 msgstr ""
 
-#: qt/aqt/browser.py:1310
+#: qt/aqt/browser.py:1338
 msgid "All Card Types"
 msgstr ""
 
@@ -808,19 +776,19 @@ msgstr ""
 msgid "All Decks"
 msgstr ""
 
-#: qt/aqt/browser.py:2100
+#: qt/aqt/browser.py:2125
 msgid "All Fields"
 msgstr ""
 
-#: qt/aqt/forms/customstudy.py:116
+#: qt/aqt/forms/customstudy.py:117
 msgid "All cards in random order (don't reschedule)"
 msgstr ""
 
-#: qt/aqt/main.py:281
+#: qt/aqt/main.py:282
 msgid "All cards, notes, and media for this profile will be deleted. Are you sure?"
 msgstr ""
 
-#: qt/aqt/forms/customstudy.py:114
+#: qt/aqt/forms/customstudy.py:115
 msgid "All review cards in random order"
 msgstr ""
 
@@ -894,10 +862,6 @@ msgstr ""
 msgid "Anki couldn't find the line between the question and answer. Please adjust the template manually to switch the question and answer."
 msgstr ""
 
-#: pylib/anki/media.py:340
-msgid "Anki does not support files in subfolders of the collection.media folder."
-msgstr ""
-
 #: qt/aqt/about.py:97
 msgid "Anki is a friendly, intelligent spaced learning system. It's free and open source."
 msgstr ""
@@ -906,63 +870,63 @@ msgstr ""
 msgid "Anki is licensed under the AGPL3 license. Please see the license file in the source distribution for more information."
 msgstr ""
 
-#: qt/aqt/main.py:437
+#: qt/aqt/main.py:443
 msgid ""
 "Anki was unable to open your collection file. If problems persist after restarting your computer, please use the Open Backup button in the profile manager.\n"
 "\n"
 "Debug info:\n"
 msgstr ""
 
-#: qt/aqt/sync.py:107
+#: qt/aqt/sync.py:106
 msgid "AnkiWeb ID or password was incorrect; please try again."
 msgstr ""
 
-#: qt/aqt/sync.py:270
+#: qt/aqt/sync.py:259
 msgid "AnkiWeb ID:"
 msgstr ""
 
-#: qt/aqt/sync.py:191
+#: qt/aqt/sync.py:180
 msgid "AnkiWeb encountered an error. Please try again in a few minutes, and if the problem persists, please file a bug report."
 msgstr ""
 
-#: qt/aqt/sync.py:206
+#: qt/aqt/sync.py:195
 msgid "AnkiWeb is too busy at the moment. Please try again in a few minutes."
 msgstr ""
 
-#: qt/aqt/sync.py:203
+#: qt/aqt/sync.py:192
 msgid "AnkiWeb is under maintenance. Please try again in a few minutes."
 msgstr ""
 
-#: qt/aqt/browser.py:712
+#: qt/aqt/browser.py:724
 msgid "Answer"
 msgstr ""
 
-#: pylib/anki/stats.py:700
+#: pylib/anki/stats.py:705
 msgid "Answer Buttons"
 msgstr ""
 
-#: pylib/anki/stats.py:383 pylib/anki/stats.py:711 pylib/anki/stats.py:819
+#: pylib/anki/stats.py:388 pylib/anki/stats.py:716 pylib/anki/stats.py:824
 msgid "Answers"
 msgstr ""
 
-#: qt/aqt/sync.py:219
+#: qt/aqt/sync.py:208
 msgid "Antivirus or firewall software is preventing Anki from connecting to the internet."
 msgstr ""
 
-#: qt/aqt/browser.py:1254
+#: qt/aqt/browser.py:1282
 msgid "Any Flag"
 msgstr ""
 
-#: qt/aqt/browser.py:2455
+#: qt/aqt/browser.py:2482
 msgid "Any cards mapped to nothing will be deleted. If a note has no remaining cards, it will be lost. Are you sure you want to continue?"
 msgstr ""
 
-#: pylib/anki/importing/noteimp.py:158
+#: pylib/anki/importing/noteimp.py:161
 #, python-format
 msgid "Appeared twice in file: %s"
 msgstr ""
 
-#: qt/aqt/deckbrowser.py:316
+#: qt/aqt/deckbrowser.py:317
 #, python-format
 msgid "Are you sure you wish to delete %s?"
 msgstr ""
@@ -975,19 +939,19 @@ msgstr ""
 msgid "At least one step is required."
 msgstr ""
 
-#: qt/aqt/editor.py:140
+#: qt/aqt/editor.py:139
 msgid "Attach pictures/audio/video (F3)"
 msgstr ""
 
-#: qt/aqt/reviewer.py:712
+#: qt/aqt/reviewer.py:714
 msgid "Audio +5s"
 msgstr ""
 
-#: qt/aqt/reviewer.py:711
+#: qt/aqt/reviewer.py:713
 msgid "Audio -5s"
 msgstr ""
 
-#: qt/aqt/main.py:331
+#: qt/aqt/main.py:332
 msgid "Automatic syncing and backups have been disabled while restoring. To enable them again, close the profile or restart Anki."
 msgstr ""
 
@@ -999,34 +963,33 @@ msgstr ""
 msgid "Automatically sync on profile open/close"
 msgstr ""
 
-#: pylib/anki/stats.py:280 pylib/anki/stats.py:345
+#: pylib/anki/stats.py:285 pylib/anki/stats.py:350
 msgid "Average"
 msgstr ""
 
-#: pylib/anki/stats.py:53
+#: pylib/anki/stats.py:58
 msgid "Average Time"
 msgstr ""
 
-#: pylib/anki/stats.py:459
+#: pylib/anki/stats.py:464
 msgid "Average answer time"
 msgstr ""
 
-#: pylib/anki/stats.py:897
+#: pylib/anki/stats.py:902
 msgid "Average ease"
 msgstr ""
 
-#: pylib/anki/stats.py:443
+#: pylib/anki/stats.py:448
 msgid "Average for days studied"
 msgstr ""
 
-#: pylib/anki/stats.py:637
+#: pylib/anki/stats.py:642
 msgid "Average interval"
 msgstr ""
 
 #: pylib/anki/stdmodels.py:21 pylib/anki/stdmodels.py:25
 #: pylib/anki/stdmodels.py:46 pylib/anki/stdmodels.py:47
-#: pylib/anki/stdmodels.py:62 pylib/anki/template.py:129
-#: qt/aqt/forms/addfield.py:78
+#: pylib/anki/stdmodels.py:62 qt/aqt/forms/addfield.py:78
 msgid "Back"
 msgstr ""
 
@@ -1038,7 +1001,7 @@ msgstr ""
 msgid "Back Template"
 msgstr ""
 
-#: qt/aqt/main.py:485
+#: qt/aqt/main.py:491
 msgid "Backing Up..."
 msgstr ""
 
@@ -1063,19 +1026,19 @@ msgstr ""
 msgid "Basic (type in the answer)"
 msgstr ""
 
-#: qt/aqt/browser.py:1252 qt/aqt/reviewer.py:694 qt/aqt/forms/browser.py:336
+#: qt/aqt/browser.py:1280 qt/aqt/reviewer.py:696 qt/aqt/forms/browser.py:336
 msgid "Blue Flag"
 msgstr ""
 
-#: qt/aqt/editor.py:104
+#: qt/aqt/editor.py:103
 msgid "Bold text (Ctrl+B)"
 msgstr ""
 
-#: qt/aqt/toolbar.py:52
+#: qt/aqt/toolbar.py:65
 msgid "Browse"
 msgstr ""
 
-#: qt/aqt/browser.py:795
+#: qt/aqt/browser.py:807
 #, python-format
 msgid "Browse (%(cur)d card shown; %(sel)s)"
 msgid_plural "Browse (%(cur)d cards shown; %(sel)s)"
@@ -1102,7 +1065,7 @@ msgstr ""
 msgid "Build"
 msgstr ""
 
-#: qt/aqt/browser.py:1247
+#: qt/aqt/browser.py:1275
 msgid "Buried"
 msgstr ""
 
@@ -1110,15 +1073,15 @@ msgstr ""
 msgid "Buried Siblings"
 msgstr ""
 
-#: qt/aqt/reviewer.py:799 qt/aqt/reviewer.py:805
+#: qt/aqt/reviewer.py:801 qt/aqt/reviewer.py:807
 msgid "Bury"
 msgstr ""
 
-#: qt/aqt/reviewer.py:702
+#: qt/aqt/reviewer.py:704
 msgid "Bury Card"
 msgstr ""
 
-#: qt/aqt/reviewer.py:703
+#: qt/aqt/reviewer.py:705
 msgid "Bury Note"
 msgstr ""
 
@@ -1137,12 +1100,12 @@ msgid ""
 "you can enter it here. Use \\t to represent tab."
 msgstr ""
 
-#: qt/aqt/overview.py:115 qt/aqt/sound.py:522 qt/aqt/sync.py:299
-#: qt/aqt/sync.py:321
+#: qt/aqt/overview.py:115 qt/aqt/sound.py:522 qt/aqt/sync.py:288
+#: qt/aqt/sync.py:310
 msgid "Cancel"
 msgstr ""
 
-#: qt/aqt/browser.py:713
+#: qt/aqt/browser.py:725
 msgid "Card"
 msgstr ""
 
@@ -1159,7 +1122,7 @@ msgstr ""
 msgid "Card 2"
 msgstr ""
 
-#: pylib/anki/stats.py:61
+#: pylib/anki/stats.py:66
 msgid "Card ID"
 msgstr ""
 
@@ -1167,11 +1130,11 @@ msgstr ""
 msgid "Card List"
 msgstr ""
 
-#: qt/aqt/browser.py:1237
+#: qt/aqt/browser.py:1265
 msgid "Card State"
 msgstr ""
 
-#: pylib/anki/stats.py:57
+#: pylib/anki/stats.py:62
 msgid "Card Type"
 msgstr ""
 
@@ -1179,7 +1142,7 @@ msgstr ""
 msgid "Card Type:"
 msgstr ""
 
-#: pylib/anki/stats.py:905 qt/aqt/clayout.py:45
+#: pylib/anki/stats.py:910 qt/aqt/clayout.py:45
 msgid "Card Types"
 msgstr ""
 
@@ -1188,24 +1151,24 @@ msgstr ""
 msgid "Card Types for %s"
 msgstr ""
 
-#: qt/aqt/reviewer.py:802
+#: qt/aqt/reviewer.py:804
 msgid "Card buried."
 msgstr ""
 
-#: qt/aqt/reviewer.py:779
+#: qt/aqt/reviewer.py:781
 msgid "Card suspended."
 msgstr ""
 
-#: qt/aqt/reviewer.py:660
+#: qt/aqt/reviewer.py:662
 msgid "Card was a leech."
 msgstr ""
 
-#: pylib/anki/stats.py:336 pylib/anki/stats.py:973 qt/aqt/editor.py:159
+#: pylib/anki/stats.py:341 pylib/anki/stats.py:978 qt/aqt/editor.py:158
 #: qt/aqt/forms/changemodel.py:112
 msgid "Cards"
 msgstr ""
 
-#: qt/aqt/browser.py:1831
+#: qt/aqt/browser.py:1855
 msgid "Cards can't be manually moved into a filtered deck."
 msgstr ""
 
@@ -1213,7 +1176,7 @@ msgstr ""
 msgid "Cards in Plain Text"
 msgstr ""
 
-#: qt/aqt/overview.py:163
+#: qt/aqt/overview.py:164
 msgid "Cards will be automatically returned to their original decks after you review them."
 msgstr ""
 
@@ -1221,7 +1184,7 @@ msgstr ""
 msgid "Cards..."
 msgstr ""
 
-#: pylib/anki/consts.py:79
+#: pylib/anki/consts.py:115
 msgid "Center"
 msgstr ""
 
@@ -1229,12 +1192,12 @@ msgstr ""
 msgid "Change"
 msgstr ""
 
-#: qt/aqt/browser.py:2376
+#: qt/aqt/browser.py:2403
 #, python-format
 msgid "Change %s to:"
 msgstr ""
 
-#: qt/aqt/browser.py:1822 qt/aqt/browser.py:1834
+#: qt/aqt/browser.py:1846 qt/aqt/browser.py:1858
 msgid "Change Deck"
 msgstr ""
 
@@ -1242,7 +1205,7 @@ msgstr ""
 msgid "Change Deck..."
 msgstr ""
 
-#: qt/aqt/browser.py:2462 qt/aqt/forms/changemodel.py:109
+#: qt/aqt/browser.py:2489 qt/aqt/forms/changemodel.py:109
 msgid "Change Note Type"
 msgstr ""
 
@@ -1254,7 +1217,7 @@ msgstr ""
 msgid "Change Note Type..."
 msgstr ""
 
-#: qt/aqt/editor.py:127
+#: qt/aqt/editor.py:126
 msgid "Change colour (F8)"
 msgstr ""
 
@@ -1262,7 +1225,7 @@ msgstr ""
 msgid "Change deck depending on note type"
 msgstr ""
 
-#: qt/aqt/browser.py:718
+#: qt/aqt/browser.py:730
 msgid "Changed"
 msgstr ""
 
@@ -1277,7 +1240,7 @@ msgstr[1] ""
 msgid "Changes will take effect when Anki is restarted."
 msgstr ""
 
-#: qt/aqt/preferences.py:109 qt/aqt/preferences.py:249
+#: qt/aqt/preferences.py:109 qt/aqt/preferences.py:252
 msgid "Changes will take effect when you restart Anki."
 msgstr ""
 
@@ -1293,11 +1256,7 @@ msgstr ""
 msgid "Check the files in the media directory"
 msgstr ""
 
-#: qt/aqt/sync.py:136
-msgid "Checking media..."
-msgstr ""
-
-#: qt/aqt/addons.py:852 qt/aqt/sync.py:134
+#: qt/aqt/addons.py:852 qt/aqt/sync.py:133
 msgid "Checking..."
 msgstr ""
 
@@ -1317,7 +1276,7 @@ msgstr ""
 msgid "Choose Tags"
 msgstr ""
 
-#: qt/aqt/browser.py:1263
+#: qt/aqt/browser.py:1291
 msgid "Clear Unused"
 msgstr ""
 
@@ -1338,16 +1297,16 @@ msgstr ""
 msgid "Close and lose current input?"
 msgstr ""
 
-#: qt/aqt/main.py:483
+#: qt/aqt/main.py:489
 msgid "Closing..."
 msgstr ""
 
 #: pylib/anki/stdmodels.py:100 pylib/anki/stdmodels.py:105
-#: pylib/anki/stdmodels.py:124 pylib/anki/storage.py:219
+#: pylib/anki/stdmodels.py:124 pylib/anki/storage.py:221
 msgid "Cloze"
 msgstr ""
 
-#: qt/aqt/editor.py:137
+#: qt/aqt/editor.py:136
 msgid "Cloze deletion (Ctrl+Shift+C)"
 msgstr ""
 
@@ -1383,15 +1342,15 @@ msgstr ""
 msgid "Configure interface language and options"
 msgstr ""
 
-#: pylib/anki/sched.py:1261 pylib/anki/schedv2.py:1459
+#: pylib/anki/sched.py:1271 pylib/anki/schedv2.py:1456
 msgid "Congratulations! You have finished this deck for now."
 msgstr ""
 
-#: qt/aqt/sync.py:50
+#: qt/aqt/sync.py:49
 msgid "Connecting..."
 msgstr ""
 
-#: qt/aqt/sync.py:223
+#: qt/aqt/sync.py:212
 msgid "Connection timed out. Either your internet connection is experiencing problems, or you have a very large file in your media folder."
 msgstr ""
 
@@ -1403,7 +1362,7 @@ msgstr ""
 msgid "Copied to clipboard"
 msgstr ""
 
-#: qt/aqt/editor.py:1115 qt/aqt/webview.py:188
+#: qt/aqt/editor.py:1118 qt/aqt/webview.py:251
 msgid "Copy"
 msgstr ""
 
@@ -1411,16 +1370,16 @@ msgstr ""
 msgid "Copy Debug Info"
 msgstr ""
 
-#: qt/aqt/utils.py:129
+#: qt/aqt/utils.py:139
 msgid "Copy to Clipboard"
 msgstr ""
 
-#: pylib/anki/stats.py:205
+#: pylib/anki/stats.py:210
 #, python-format
 msgid "Correct answers on mature cards: %(a)d/%(b)d (%(c).1f%%)"
 msgstr ""
 
-#: pylib/anki/stats.py:732
+#: pylib/anki/stats.py:737
 #, python-format
 msgid "Correct: <b>%(pct)0.2f%%</b><br>(%(good)d of %(tot)d)"
 msgstr ""
@@ -1429,7 +1388,7 @@ msgstr ""
 msgid "Corrupt add-on file."
 msgstr ""
 
-#: qt/aqt/sync.py:179
+#: qt/aqt/sync.py:168
 msgid "Couldn't connect to AnkiWeb. Please check your network connection and try again."
 msgstr ""
 
@@ -1442,11 +1401,11 @@ msgstr ""
 msgid "Couldn't save file: %s"
 msgstr ""
 
-#: pylib/anki/stats.py:376 pylib/anki/stats.py:396
+#: pylib/anki/stats.py:381 pylib/anki/stats.py:401
 msgid "Cram"
 msgstr ""
 
-#: qt/aqt/deckbrowser.py:329
+#: qt/aqt/deckbrowser.py:330
 msgid "Create Deck"
 msgstr ""
 
@@ -1458,7 +1417,7 @@ msgstr ""
 msgid "Create scalable images with dvisvgm"
 msgstr ""
 
-#: qt/aqt/browser.py:716
+#: qt/aqt/browser.py:728
 msgid "Created"
 msgstr ""
 
@@ -1466,24 +1425,24 @@ msgstr ""
 msgid "Ctrl+Shift+E"
 msgstr ""
 
-#: pylib/anki/stats.py:253
+#: pylib/anki/stats.py:258
 msgid "Cumulative"
 msgstr ""
 
-#: pylib/anki/stats.py:408
+#: pylib/anki/stats.py:413
 #, python-format
 msgid "Cumulative %s"
 msgstr ""
 
-#: pylib/anki/stats.py:383
+#: pylib/anki/stats.py:388
 msgid "Cumulative Answers"
 msgstr ""
 
-#: pylib/anki/stats.py:268 pylib/anki/stats.py:336
+#: pylib/anki/stats.py:273 pylib/anki/stats.py:341
 msgid "Cumulative Cards"
 msgstr ""
 
-#: qt/aqt/browser.py:1096 qt/aqt/browser.py:1220
+#: qt/aqt/browser.py:1124 qt/aqt/browser.py:1248
 msgid "Current Deck"
 msgstr ""
 
@@ -1491,7 +1450,7 @@ msgstr ""
 msgid "Current note type:"
 msgstr ""
 
-#: qt/aqt/overview.py:234 qt/aqt/forms/customstudy.py:100
+#: qt/aqt/overview.py:235 qt/aqt/forms/customstudy.py:101
 msgid "Custom Study"
 msgstr ""
 
@@ -1503,15 +1462,15 @@ msgstr ""
 msgid "Custom steps (in minutes)"
 msgstr ""
 
-#: qt/aqt/editor.py:162
+#: qt/aqt/editor.py:161
 msgid "Customize Card Templates (Ctrl+L)"
 msgstr ""
 
-#: qt/aqt/editor.py:161
+#: qt/aqt/editor.py:160
 msgid "Customize Fields"
 msgstr ""
 
-#: qt/aqt/editor.py:1113
+#: qt/aqt/editor.py:1116
 msgid "Cut"
 msgstr ""
 
@@ -1519,11 +1478,11 @@ msgstr ""
 msgid "Database rebuilt and optimized."
 msgstr ""
 
-#: qt/aqt/browser.py:1429
+#: qt/aqt/browser.py:1450
 msgid "Date"
 msgstr ""
 
-#: pylib/anki/stats.py:427
+#: pylib/anki/stats.py:432
 msgid "Days studied"
 msgstr ""
 
@@ -1535,7 +1494,7 @@ msgstr ""
 msgid "Debug Console"
 msgstr ""
 
-#: pylib/anki/stats.py:59 qt/aqt/browser.py:714 qt/aqt/deckbrowser.py:161
+#: pylib/anki/stats.py:64 qt/aqt/browser.py:726 qt/aqt/deckbrowser.py:162
 #: qt/aqt/deckchooser.py:26 qt/aqt/forms/importing.py:106
 msgid "Deck"
 msgstr ""
@@ -1544,59 +1503,55 @@ msgstr ""
 msgid "Deck Override..."
 msgstr ""
 
-#: qt/aqt/main.py:1537
+#: qt/aqt/main.py:1475
 msgid "Deck will be imported when a profile is opened."
 msgstr ""
 
-#: qt/aqt/browser.py:1291 qt/aqt/toolbar.py:50
+#: qt/aqt/browser.py:1319 qt/aqt/toolbar.py:63
 msgid "Decks"
 msgstr ""
 
-#: pylib/anki/consts.py:90
+#: pylib/anki/consts.py:126
 msgid "Decreasing intervals"
 msgstr ""
 
-#: pylib/anki/decks.py:57 pylib/anki/storage.py:333 qt/aqt/deckchooser.py:48
+#: pylib/anki/decks.py:57 pylib/anki/storage.py:335 qt/aqt/deckchooser.py:48
 #: qt/aqt/deckchooser.py:52 qt/aqt/deckchooser.py:74
 msgid "Default"
 msgstr ""
 
-#: pylib/anki/stats.py:615
+#: pylib/anki/stats.py:620
 msgid "Delays until reviews are shown again."
 msgstr ""
 
-#: qt/aqt/deckbrowser.py:257 qt/aqt/deckconf.py:83 qt/aqt/models.py:51
-#: qt/aqt/reviewer.py:787 qt/aqt/forms/addons.py:76 qt/aqt/forms/browser.py:330
+#: qt/aqt/deckbrowser.py:258 qt/aqt/deckconf.py:83 qt/aqt/models.py:51
+#: qt/aqt/reviewer.py:789 qt/aqt/forms/addons.py:76 qt/aqt/forms/browser.py:330
 #: qt/aqt/forms/fields.py:102 qt/aqt/forms/profiles.py:78
 msgid "Delete"
 msgstr ""
 
-#: qt/aqt/main.py:1377
+#: qt/aqt/main.py:1315
 msgid "Delete Cards"
 msgstr ""
 
-#: qt/aqt/deckbrowser.py:300
+#: qt/aqt/deckbrowser.py:301
 msgid "Delete Deck"
 msgstr ""
 
-#: qt/aqt/main.py:1383
+#: qt/aqt/main.py:1321
 msgid "Delete Empty"
 msgstr ""
 
-#: qt/aqt/reviewer.py:706
+#: qt/aqt/reviewer.py:708
 msgid "Delete Note"
 msgstr ""
 
-#: qt/aqt/browser.py:1775
+#: qt/aqt/browser.py:1799
 msgid "Delete Notes"
 msgstr ""
 
-#: qt/aqt/browser.py:1881
+#: qt/aqt/browser.py:1905
 msgid "Delete Tags"
-msgstr ""
-
-#: qt/aqt/main.py:1309
-msgid "Delete Unused Files"
 msgstr ""
 
 #: qt/aqt/fields.py:97
@@ -1624,10 +1579,6 @@ msgstr ""
 msgid "Delete this unused note type?"
 msgstr ""
 
-#: qt/aqt/main.py:1322
-msgid "Delete unused media?"
-msgstr ""
-
 #: pylib/anki/collection.py:874
 #, python-format
 msgid "Deleted %d card with missing note."
@@ -1639,13 +1590,6 @@ msgstr[1] ""
 #, python-format
 msgid "Deleted %d card with missing template."
 msgid_plural "Deleted %d cards with missing template."
-msgstr[0] ""
-msgstr[1] ""
-
-#: qt/aqt/main.py:1352
-#, python-format
-msgid "Deleted %d file."
-msgid_plural "Deleted %d files."
 msgstr[0] ""
 msgstr[1] ""
 
@@ -1670,7 +1614,7 @@ msgid_plural "Deleted %d notes with wrong field count."
 msgstr[0] ""
 msgstr[1] ""
 
-#: qt/aqt/overview.py:168
+#: qt/aqt/overview.py:169
 msgid "Deleting this deck from the deck list will return all remaining cards to their original deck."
 msgstr ""
 
@@ -1691,7 +1635,7 @@ msgstr ""
 msgid "Download complete. Please restart Anki to apply changes."
 msgstr ""
 
-#: qt/aqt/sync.py:299 qt/aqt/sync.py:321 qt/aqt/sync.py:327
+#: qt/aqt/sync.py:288 qt/aqt/sync.py:310 qt/aqt/sync.py:316
 msgid "Download from AnkiWeb"
 msgstr ""
 
@@ -1710,20 +1654,20 @@ msgstr ""
 msgid "Downloading %(a)d/%(b)d (%(kb)0.2fKB)..."
 msgstr ""
 
-#: qt/aqt/sync.py:132
+#: qt/aqt/sync.py:131
 msgid "Downloading from AnkiWeb..."
 msgstr ""
 
-#: pylib/anki/stats.py:43 qt/aqt/browser.py:719 qt/aqt/browser.py:1244
-#: qt/aqt/deckbrowser.py:162
+#: pylib/anki/stats.py:48 qt/aqt/browser.py:731 qt/aqt/browser.py:1272
+#: qt/aqt/deckbrowser.py:163
 msgid "Due"
 msgstr ""
 
-#: qt/aqt/forms/customstudy.py:112
+#: qt/aqt/forms/customstudy.py:113
 msgid "Due cards only"
 msgstr ""
 
-#: pylib/anki/stats.py:289
+#: pylib/anki/stats.py:294
 msgid "Due tomorrow"
 msgstr ""
 
@@ -1731,11 +1675,11 @@ msgstr ""
 msgid "E&xit"
 msgstr ""
 
-#: pylib/anki/stats.py:46 qt/aqt/browser.py:721 qt/aqt/browser.py:1434
+#: pylib/anki/stats.py:51 qt/aqt/browser.py:733 qt/aqt/browser.py:1455
 msgid "Ease"
 msgstr ""
 
-#: qt/aqt/reviewer.py:617 qt/aqt/reviewer.py:619
+#: qt/aqt/reviewer.py:619 qt/aqt/reviewer.py:621
 msgid "Easy"
 msgstr ""
 
@@ -1747,7 +1691,7 @@ msgstr ""
 msgid "Easy interval"
 msgstr ""
 
-#: qt/aqt/reviewer.py:555
+#: qt/aqt/reviewer.py:557
 msgid "Edit"
 msgstr ""
 
@@ -1760,11 +1704,11 @@ msgstr ""
 msgid "Edit Current"
 msgstr ""
 
-#: qt/aqt/editor.py:879
+#: qt/aqt/editor.py:882
 msgid "Edit HTML"
 msgstr ""
 
-#: qt/aqt/browser.py:717
+#: qt/aqt/browser.py:729
 msgid "Edited"
 msgstr ""
 
@@ -1772,7 +1716,7 @@ msgstr ""
 msgid "Editing Font"
 msgstr ""
 
-#: qt/aqt/overview.py:232
+#: qt/aqt/overview.py:233
 msgid "Empty"
 msgstr ""
 
@@ -1788,11 +1732,11 @@ msgid ""
 "\n"
 msgstr ""
 
-#: pylib/anki/importing/noteimp.py:201
+#: pylib/anki/importing/noteimp.py:204
 msgid "Empty cards found. Please run Tools>Empty Cards."
 msgstr ""
 
-#: pylib/anki/importing/noteimp.py:153
+#: pylib/anki/importing/noteimp.py:156
 #, python-format
 msgid "Empty first field: %s"
 msgstr ""
@@ -1815,11 +1759,11 @@ msgstr ""
 msgid "Enter new card position (1...%s):"
 msgstr ""
 
-#: qt/aqt/browser.py:1861
+#: qt/aqt/browser.py:1885
 msgid "Enter tags to add:"
 msgstr ""
 
-#: qt/aqt/browser.py:1883
+#: qt/aqt/browser.py:1907
 msgid "Enter tags to delete:"
 msgstr ""
 
@@ -1828,18 +1772,18 @@ msgstr ""
 msgid "Error downloading <i>%(id)s</i>: %(error)s"
 msgstr ""
 
-#: qt/aqt/main.py:95
+#: qt/aqt/main.py:96
 #, python-format
 msgid ""
 "Error during startup:\n"
 "%s"
 msgstr ""
 
-#: qt/aqt/sync.py:237 qt/aqt/sync.py:244
+#: qt/aqt/sync.py:226 qt/aqt/sync.py:233
 msgid "Error establishing a secure connection. This is usually caused by antivirus, firewall or VPN software, or problems with your ISP."
 msgstr ""
 
-#: pylib/anki/latex.py:173
+#: pylib/anki/latex.py:146
 #, python-format
 msgid "Error executing %s."
 msgstr ""
@@ -1854,7 +1798,7 @@ msgstr ""
 msgid "Error running %s"
 msgstr ""
 
-#: qt/aqt/deckbrowser.py:255 qt/aqt/exporting.py:122
+#: qt/aqt/deckbrowser.py:256 qt/aqt/exporting.py:122
 #: qt/aqt/forms/exporting.py:74
 msgid "Export"
 msgstr ""
@@ -1887,7 +1831,7 @@ msgstr ""
 msgid "Field:"
 msgstr ""
 
-#: qt/aqt/editor.py:158 qt/aqt/fields.py:20 qt/aqt/forms/changemodel.py:113
+#: qt/aqt/editor.py:157 qt/aqt/fields.py:20 qt/aqt/forms/changemodel.py:113
 #: qt/aqt/forms/fields.py:100
 msgid "Fields"
 msgstr ""
@@ -1914,7 +1858,7 @@ msgstr ""
 msgid "File version unknown, trying import anyway."
 msgstr ""
 
-#: qt/aqt/browser.py:1280 qt/aqt/forms/dyndconf.py:134
+#: qt/aqt/browser.py:1308 qt/aqt/forms/dyndconf.py:134
 msgid "Filter"
 msgstr ""
 
@@ -1930,11 +1874,11 @@ msgstr ""
 msgid "Filter:"
 msgstr ""
 
-#: qt/aqt/browser.py:1443
+#: qt/aqt/browser.py:1464
 msgid "Filtered"
 msgstr ""
 
-#: qt/aqt/main.py:1076 qt/aqt/main.py:1078
+#: qt/aqt/main.py:1092 qt/aqt/main.py:1094
 #, python-format
 msgid "Filtered Deck %d"
 msgstr ""
@@ -1951,7 +1895,7 @@ msgstr ""
 msgid "Find and Re&place..."
 msgstr ""
 
-#: qt/aqt/browser.py:2111 qt/aqt/forms/findreplace.py:68
+#: qt/aqt/browser.py:2136 qt/aqt/forms/findreplace.py:68
 msgid "Find and Replace"
 msgstr ""
 
@@ -1963,11 +1907,11 @@ msgstr ""
 msgid "First Card"
 msgstr ""
 
-#: pylib/anki/stats.py:31
+#: pylib/anki/stats.py:36
 msgid "First Review"
 msgstr ""
 
-#: pylib/anki/importing/noteimp.py:132
+#: pylib/anki/importing/noteimp.py:135
 #, python-format
 msgid "First field matched: %s"
 msgstr ""
@@ -1992,7 +1936,7 @@ msgstr ""
 msgid "Flag"
 msgstr ""
 
-#: qt/aqt/reviewer.py:673
+#: qt/aqt/reviewer.py:675
 msgid "Flag Card"
 msgstr ""
 
@@ -2012,12 +1956,12 @@ msgstr ""
 msgid "Footer"
 msgstr ""
 
-#: pylib/anki/latex.py:133
+#: pylib/anki/latex.py:105
 #, python-format
 msgid "For security reasons, '%s' is not allowed on cards. You can still use it by placing the command in a different package, and importing that package in the LaTeX header instead."
 msgstr ""
 
-#: pylib/anki/stats.py:260
+#: pylib/anki/stats.py:265
 msgid "Forecast"
 msgstr ""
 
@@ -2026,7 +1970,7 @@ msgstr ""
 msgid "Form"
 msgstr ""
 
-#: qt/aqt/browser.py:2192
+#: qt/aqt/browser.py:2219
 #, python-format
 msgid "Found %(a)s across %(b)s."
 msgstr ""
@@ -2034,7 +1978,7 @@ msgstr ""
 #: pylib/anki/exporting.py:376 pylib/anki/stdmodels.py:19
 #: pylib/anki/stdmodels.py:24 pylib/anki/stdmodels.py:46
 #: pylib/anki/stdmodels.py:47 pylib/anki/stdmodels.py:63
-#: pylib/anki/template.py:127 qt/aqt/forms/addfield.py:74
+#: qt/aqt/forms/addfield.py:74
 msgid "Front"
 msgstr ""
 
@@ -2050,12 +1994,12 @@ msgstr ""
 msgid "General"
 msgstr ""
 
-#: pylib/anki/latex.py:174
+#: pylib/anki/latex.py:147
 #, python-format
 msgid "Generated file: %s"
 msgstr ""
 
-#: pylib/anki/stats.py:958
+#: pylib/anki/stats.py:963
 #, python-format
 msgid "Generated on %s"
 msgstr ""
@@ -2064,11 +2008,11 @@ msgstr ""
 msgid "Get Add-ons..."
 msgstr ""
 
-#: qt/aqt/deckbrowser.py:328
+#: qt/aqt/deckbrowser.py:329
 msgid "Get Shared"
 msgstr ""
 
-#: qt/aqt/reviewer.py:615 qt/aqt/reviewer.py:617 qt/aqt/reviewer.py:619
+#: qt/aqt/reviewer.py:617 qt/aqt/reviewer.py:619 qt/aqt/reviewer.py:621
 msgid "Good"
 msgstr ""
 
@@ -2076,7 +2020,7 @@ msgstr ""
 msgid "Graduating interval"
 msgstr ""
 
-#: qt/aqt/browser.py:1251 qt/aqt/reviewer.py:688 qt/aqt/forms/browser.py:335
+#: qt/aqt/browser.py:1279 qt/aqt/reviewer.py:690 qt/aqt/forms/browser.py:335
 msgid "Green Flag"
 msgstr ""
 
@@ -2084,7 +2028,7 @@ msgstr ""
 msgid "HTML Editor"
 msgstr ""
 
-#: qt/aqt/reviewer.py:619
+#: qt/aqt/reviewer.py:621
 msgid "Hard"
 msgstr ""
 
@@ -2096,7 +2040,7 @@ msgstr ""
 msgid "Hardware acceleration (faster, may cause display issues)"
 msgstr ""
 
-#: pylib/anki/latex.py:182
+#: pylib/anki/latex.py:155
 msgid "Have you installed latex and dvipng/dvisvgm?"
 msgstr ""
 
@@ -2104,12 +2048,12 @@ msgstr ""
 msgid "Header"
 msgstr ""
 
-#: qt/aqt/addcards.py:74 qt/aqt/clayout.py:268 qt/aqt/utils.py:193
-#: qt/aqt/utils.py:194
+#: qt/aqt/addcards.py:74 qt/aqt/clayout.py:268 qt/aqt/utils.py:203
+#: qt/aqt/utils.py:204
 msgid "Help"
 msgstr ""
 
-#: pylib/anki/stats.py:898
+#: pylib/anki/stats.py:903
 msgid "Highest ease"
 msgstr ""
 
@@ -2121,19 +2065,19 @@ msgstr ""
 msgid "Home"
 msgstr ""
 
-#: pylib/anki/stats.py:810
+#: pylib/anki/stats.py:815
 msgid "Hourly Breakdown"
 msgstr ""
 
-#: pylib/anki/stats.py:403
+#: pylib/anki/stats.py:408
 msgid "Hours"
 msgstr ""
 
-#: pylib/anki/stats.py:840
+#: pylib/anki/stats.py:845
 msgid "Hours with less than 30 reviews are not shown."
 msgstr ""
 
-#: pylib/anki/importing/anki2.py:171
+#: pylib/anki/importing/anki2.py:172
 msgid "Identical"
 msgstr ""
 
@@ -2141,7 +2085,7 @@ msgstr ""
 msgid "If you have contributed and are not on this list, please get in touch."
 msgstr ""
 
-#: pylib/anki/stats.py:447
+#: pylib/anki/stats.py:452
 msgid "If you studied every day"
 msgstr ""
 
@@ -2170,7 +2114,7 @@ msgstr ""
 msgid "Import"
 msgstr ""
 
-#: qt/aqt/deckbrowser.py:330
+#: qt/aqt/deckbrowser.py:331
 msgid "Import File"
 msgstr ""
 
@@ -2194,7 +2138,7 @@ msgstr ""
 msgid "Importing complete."
 msgstr ""
 
-#: qt/aqt/main.py:1135
+#: qt/aqt/main.py:1151
 #, python-format
 msgid ""
 "In order to ensure your collection works correctly when moved between devices, Anki requires your computer's internal clock to be set correctly. The internal clock can be wrong even if your system is showing the correct local time.\n"
@@ -2226,7 +2170,7 @@ msgstr ""
 msgid "Include tags"
 msgstr ""
 
-#: qt/aqt/forms/customstudy.py:103
+#: qt/aqt/forms/customstudy.py:104
 msgid "Increase today's new card limit"
 msgstr ""
 
@@ -2234,7 +2178,7 @@ msgstr ""
 msgid "Increase today's new card limit by"
 msgstr ""
 
-#: qt/aqt/forms/customstudy.py:104
+#: qt/aqt/forms/customstudy.py:105
 msgid "Increase today's review card limit"
 msgstr ""
 
@@ -2242,7 +2186,7 @@ msgstr ""
 msgid "Increase today's review limit by"
 msgstr ""
 
-#: pylib/anki/consts.py:89
+#: pylib/anki/consts.py:125
 msgid "Increasing intervals"
 msgstr ""
 
@@ -2283,7 +2227,7 @@ msgstr ""
 msgid "Interrupt current audio when answering"
 msgstr ""
 
-#: pylib/anki/stats.py:45 qt/aqt/browser.py:720 qt/aqt/browser.py:1433
+#: pylib/anki/stats.py:50 qt/aqt/browser.py:732 qt/aqt/browser.py:1454
 msgid "Interval"
 msgstr ""
 
@@ -2291,7 +2235,7 @@ msgstr ""
 msgid "Interval modifier"
 msgstr ""
 
-#: pylib/anki/stats.py:615
+#: pylib/anki/stats.py:620
 msgid "Intervals"
 msgstr ""
 
@@ -2315,32 +2259,27 @@ msgstr ""
 msgid "Invalid configuration: top level object must be a map"
 msgstr ""
 
-#: pylib/anki/media.py:306
-#, python-format
-msgid "Invalid file name, please rename: %s"
-msgstr ""
-
 #: qt/aqt/importing.py:394
 msgid "Invalid file. Please restore from backup."
 msgstr ""
 
-#: qt/aqt/main.py:1185
+#: qt/aqt/main.py:1209
 msgid "Invalid property found on card. Please use Tools>Check Database, and if the problem comes up again, please ask on the support site."
 msgstr ""
 
-#: qt/aqt/browser.py:2124
+#: qt/aqt/browser.py:2149
 msgid "Invalid regular expression."
 msgstr ""
 
-#: qt/aqt/browser.py:188
+#: qt/aqt/browser.py:189
 msgid "Invalid search - please check for typing mistakes."
 msgstr ""
 
-#: qt/aqt/reviewer.py:662
+#: qt/aqt/reviewer.py:664
 msgid "It has been suspended."
 msgstr ""
 
-#: qt/aqt/editor.py:106
+#: qt/aqt/editor.py:105
 msgid "Italic text (Ctrl+I)"
 msgstr ""
 
@@ -2352,19 +2291,19 @@ msgstr ""
 msgid "Keep"
 msgstr ""
 
-#: qt/aqt/editor.py:876 qt/aqt/forms/modelopts.py:67
+#: qt/aqt/editor.py:879 qt/aqt/forms/modelopts.py:67
 msgid "LaTeX"
 msgstr ""
 
-#: qt/aqt/editor.py:877
+#: qt/aqt/editor.py:880
 msgid "LaTeX equation"
 msgstr ""
 
-#: qt/aqt/editor.py:878
+#: qt/aqt/editor.py:881
 msgid "LaTeX math env."
 msgstr ""
 
-#: pylib/anki/stats.py:48 qt/aqt/browser.py:723 qt/aqt/forms/dconf.py:372
+#: pylib/anki/stats.py:53 qt/aqt/browser.py:735 qt/aqt/forms/dconf.py:372
 msgid "Lapses"
 msgstr ""
 
@@ -2372,15 +2311,15 @@ msgstr ""
 msgid "Last Card"
 msgstr ""
 
-#: pylib/anki/stats.py:32
+#: pylib/anki/stats.py:37
 msgid "Latest Review"
 msgstr ""
 
-#: pylib/anki/consts.py:94
+#: pylib/anki/consts.py:130
 msgid "Latest added first"
 msgstr ""
 
-#: pylib/anki/stats.py:375 pylib/anki/stats.py:395 qt/aqt/browser.py:1443
+#: pylib/anki/stats.py:380 pylib/anki/stats.py:400 qt/aqt/browser.py:1464
 msgid "Learn"
 msgstr ""
 
@@ -2388,12 +2327,12 @@ msgstr ""
 msgid "Learn ahead limit"
 msgstr ""
 
-#: pylib/anki/stats.py:192
+#: pylib/anki/stats.py:197
 #, python-format
 msgid "Learn: %(a)s, Review: %(b)s, Relearn: %(c)s, Filtered: %(d)s"
 msgstr ""
 
-#: pylib/anki/stats.py:705 qt/aqt/browser.py:1242 qt/aqt/overview.py:207
+#: pylib/anki/stats.py:710 qt/aqt/browser.py:1270 qt/aqt/overview.py:208
 msgid "Learning"
 msgstr ""
 
@@ -2405,7 +2344,7 @@ msgstr ""
 msgid "Leech threshold"
 msgstr ""
 
-#: pylib/anki/consts.py:80
+#: pylib/anki/consts.py:116
 msgid "Left"
 msgstr ""
 
@@ -2413,19 +2352,19 @@ msgstr ""
 msgid "Limit to"
 msgstr ""
 
-#: qt/aqt/utils.py:38
+#: qt/aqt/utils.py:48
 msgid "Loading..."
 msgstr ""
 
-#: qt/aqt/sync.py:298
+#: qt/aqt/sync.py:287
 msgid "Local collection has no cards. Download from AnkiWeb?"
 msgstr ""
 
-#: pylib/anki/stats.py:638
+#: pylib/anki/stats.py:643
 msgid "Longest interval"
 msgstr ""
 
-#: pylib/anki/stats.py:896
+#: pylib/anki/stats.py:901
 msgid "Lowest ease"
 msgstr ""
 
@@ -2441,7 +2380,7 @@ msgstr ""
 msgid "Manage Note Types..."
 msgstr ""
 
-#: qt/aqt/browser.py:1299 qt/aqt/forms/dconf.py:339
+#: qt/aqt/browser.py:1327 qt/aqt/forms/dconf.py:339
 msgid "Manage..."
 msgstr ""
 
@@ -2458,24 +2397,24 @@ msgstr ""
 msgid "Map to Tags"
 msgstr ""
 
-#: qt/aqt/reviewer.py:701
+#: qt/aqt/reviewer.py:703
 msgid "Mark Note"
 msgstr ""
 
-#: qt/aqt/editor.py:874
+#: qt/aqt/editor.py:877
 msgid "MathJax block"
 msgstr ""
 
-#: qt/aqt/editor.py:875
+#: qt/aqt/editor.py:878
 msgid "MathJax chemistry"
 msgstr ""
 
-#: qt/aqt/editor.py:873
+#: qt/aqt/editor.py:876
 msgid "MathJax inline"
 msgstr ""
 
-#: pylib/anki/stats.py:245 pylib/anki/stats.py:372 pylib/anki/stats.py:392
-#: pylib/anki/stats.py:707 pylib/anki/stats.py:877
+#: pylib/anki/stats.py:250 pylib/anki/stats.py:377 pylib/anki/stats.py:397
+#: pylib/anki/stats.py:712 pylib/anki/stats.py:882
 msgid "Mature"
 msgstr ""
 
@@ -2495,11 +2434,11 @@ msgstr ""
 msgid "Minimum interval"
 msgstr ""
 
-#: pylib/anki/stats.py:400
+#: pylib/anki/stats.py:405
 msgid "Minutes"
 msgstr ""
 
-#: pylib/anki/consts.py:71
+#: pylib/anki/consts.py:107
 msgid "Mix new cards and reviews"
 msgstr ""
 
@@ -2507,19 +2446,15 @@ msgstr ""
 msgid "Mnemosyne 2.0 Deck (*.db)"
 msgstr ""
 
-#: qt/aqt/reviewer.py:557
+#: qt/aqt/reviewer.py:559
 msgid "More"
 msgstr ""
 
-#: pylib/anki/template.py:132 pylib/anki/template.py:143
-msgid "More info"
-msgstr ""
-
-#: pylib/anki/consts.py:91
+#: pylib/anki/consts.py:127
 msgid "Most lapses"
 msgstr ""
 
-#: qt/aqt/browser.py:1821
+#: qt/aqt/browser.py:1845
 msgid "Move Cards"
 msgstr ""
 
@@ -2535,7 +2470,7 @@ msgstr ""
 msgid "N&ote"
 msgstr ""
 
-#: qt/aqt/main.py:254 qt/aqt/main.py:268
+#: qt/aqt/main.py:255 qt/aqt/main.py:269
 msgid "Name exists."
 msgstr ""
 
@@ -2543,7 +2478,7 @@ msgstr ""
 msgid "Name for deck:"
 msgstr ""
 
-#: qt/aqt/main.py:251 qt/aqt/models.py:96
+#: qt/aqt/main.py:252 qt/aqt/models.py:96
 msgid "Name:"
 msgstr ""
 
@@ -2551,7 +2486,7 @@ msgstr ""
 msgid "Network"
 msgstr ""
 
-#: qt/aqt/browser.py:1241 qt/aqt/deckbrowser.py:163 qt/aqt/overview.py:205
+#: qt/aqt/browser.py:1269 qt/aqt/deckbrowser.py:164 qt/aqt/overview.py:206
 msgid "New"
 msgstr ""
 
@@ -2564,7 +2499,7 @@ msgstr ""
 msgid "New cards in deck over today limit: %s"
 msgstr ""
 
-#: qt/aqt/forms/customstudy.py:110
+#: qt/aqt/forms/customstudy.py:111
 msgid "New cards only"
 msgstr ""
 
@@ -2572,7 +2507,7 @@ msgstr ""
 msgid "New cards/day"
 msgstr ""
 
-#: qt/aqt/deckbrowser.py:269 qt/aqt/studydeck.py:142
+#: qt/aqt/deckbrowser.py:270 qt/aqt/studydeck.py:142
 msgid "New deck name:"
 msgstr ""
 
@@ -2581,7 +2516,7 @@ msgid "New interval"
 msgstr ""
 
 #: qt/aqt/clayout.py:388 qt/aqt/deckconf.py:139 qt/aqt/fields.py:72
-#: qt/aqt/main.py:262 qt/aqt/models.py:67
+#: qt/aqt/main.py:263 qt/aqt/models.py:67
 msgid "New name:"
 msgstr ""
 
@@ -2606,7 +2541,7 @@ msgstr ""
 msgid "Night mode"
 msgstr ""
 
-#: qt/aqt/browser.py:1253
+#: qt/aqt/browser.py:1281
 msgid "No Flag"
 msgstr ""
 
@@ -2614,7 +2549,7 @@ msgstr ""
 msgid "No cards are due yet."
 msgstr ""
 
-#: pylib/anki/stats.py:210
+#: pylib/anki/stats.py:215
 msgid "No cards have been studied today."
 msgstr ""
 
@@ -2622,50 +2557,46 @@ msgstr ""
 msgid "No cards matched the criteria you provided."
 msgstr ""
 
-#: qt/aqt/main.py:1370
+#: qt/aqt/main.py:1308
 msgid "No empty cards."
 msgstr ""
 
-#: pylib/anki/stats.py:208
+#: pylib/anki/stats.py:213
 msgid "No mature cards were studied today."
-msgstr ""
-
-#: qt/aqt/main.py:1295
-msgid "No unused or missing files found."
 msgstr ""
 
 #: qt/aqt/addons.py:836
 msgid "No updates available."
 msgstr ""
 
-#: qt/aqt/browser.py:725
+#: qt/aqt/browser.py:737
 msgid "Note"
 msgstr ""
 
-#: pylib/anki/stats.py:60
+#: pylib/anki/stats.py:65
 msgid "Note ID"
 msgstr ""
 
-#: pylib/anki/stats.py:58
+#: pylib/anki/stats.py:63
 msgid "Note Type"
 msgstr ""
 
-#: qt/aqt/browser.py:1297 qt/aqt/models.py:31 qt/aqt/forms/models.py:54
+#: qt/aqt/browser.py:1325 qt/aqt/models.py:31 qt/aqt/forms/models.py:54
 msgid "Note Types"
 msgstr ""
 
-#: qt/aqt/reviewer.py:793
+#: qt/aqt/reviewer.py:795
 #, python-format
 msgid "Note and its %d card deleted."
 msgid_plural "Note and its %d cards deleted."
 msgstr[0] ""
 msgstr[1] ""
 
-#: qt/aqt/reviewer.py:808
+#: qt/aqt/reviewer.py:810
 msgid "Note buried."
 msgstr ""
 
-#: qt/aqt/reviewer.py:773
+#: qt/aqt/reviewer.py:775
 msgid "Note suspended."
 msgstr ""
 
@@ -2673,16 +2604,16 @@ msgstr ""
 msgid "Note: Media is not backed up. Please create a periodic backup of your Anki folder to be safe."
 msgstr ""
 
-#: qt/aqt/browser.py:1477
+#: qt/aqt/browser.py:1498
 msgid "Note: Some of the history is missing. For more information, please see the browser documentation."
 msgstr ""
 
-#: pylib/anki/importing/anki2.py:151
+#: pylib/anki/importing/anki2.py:152
 #, python-format
 msgid "Notes added from file: %d"
 msgstr ""
 
-#: pylib/anki/importing/anki2.py:139
+#: pylib/anki/importing/anki2.py:140
 #, python-format
 msgid "Notes found in file: %d"
 msgstr ""
@@ -2695,26 +2626,26 @@ msgstr ""
 msgid "Notes require at least one field."
 msgstr ""
 
-#: pylib/anki/importing/anki2.py:154
+#: pylib/anki/importing/anki2.py:155
 #, python-format
 msgid "Notes skipped, as they're already in your collection: %d"
 msgstr ""
 
-#: qt/aqt/browser.py:2219
+#: qt/aqt/browser.py:2246
 msgid "Notes tagged."
 msgstr ""
 
-#: pylib/anki/importing/anki2.py:143
+#: pylib/anki/importing/anki2.py:144
 #, python-format
 msgid "Notes that could not be imported as note type has changed: %d"
 msgstr ""
 
-#: pylib/anki/importing/anki2.py:148
+#: pylib/anki/importing/anki2.py:149
 #, python-format
 msgid "Notes updated, as file had newer version: %d"
 msgstr ""
 
-#: qt/aqt/browser.py:2373
+#: qt/aqt/browser.py:2400
 msgid "Nothing"
 msgstr ""
 
@@ -2722,7 +2653,7 @@ msgstr ""
 msgid "OK"
 msgstr ""
 
-#: pylib/anki/consts.py:87
+#: pylib/anki/consts.py:123
 msgid "Oldest seen first"
 msgstr ""
 
@@ -2734,15 +2665,15 @@ msgstr ""
 msgid "One or more errors occurred:"
 msgstr ""
 
-#: pylib/anki/importing/noteimp.py:231
+#: pylib/anki/importing/noteimp.py:234
 msgid "One or more notes were not imported, because they didn't generate any cards. This can happen when you have empty fields or when you have not mapped the content in the text file to the correct fields."
 msgstr ""
 
-#: qt/aqt/browser.py:1971
+#: qt/aqt/browser.py:1996
 msgid "Only new cards can be repositioned."
 msgstr ""
 
-#: qt/aqt/sync.py:215
+#: qt/aqt/sync.py:204
 msgid "Only one client can access AnkiWeb at a time. If a previous sync failed, please try again in a few minutes."
 msgstr ""
 
@@ -2754,7 +2685,7 @@ msgstr ""
 msgid "Open Backup..."
 msgstr ""
 
-#: qt/aqt/main.py:570
+#: qt/aqt/main.py:576
 msgid "Optimizing..."
 msgstr ""
 
@@ -2762,8 +2693,8 @@ msgstr ""
 msgid "Optional filter:"
 msgstr ""
 
-#: qt/aqt/clayout.py:107 qt/aqt/deckbrowser.py:253 qt/aqt/deckconf.py:31
-#: qt/aqt/dyndeckconf.py:24 qt/aqt/overview.py:228 qt/aqt/reviewer.py:707
+#: qt/aqt/clayout.py:107 qt/aqt/deckbrowser.py:254 qt/aqt/deckconf.py:31
+#: qt/aqt/dyndeckconf.py:24 qt/aqt/overview.py:229 qt/aqt/reviewer.py:709
 #: qt/aqt/forms/dyndconf.py:142 qt/aqt/forms/fields.py:108
 msgid "Options"
 msgstr ""
@@ -2781,7 +2712,7 @@ msgstr ""
 msgid "Options..."
 msgstr ""
 
-#: qt/aqt/browser.py:1250 qt/aqt/reviewer.py:682 qt/aqt/forms/browser.py:334
+#: qt/aqt/browser.py:1278 qt/aqt/reviewer.py:684 qt/aqt/forms/browser.py:334
 msgid "Orange Flag"
 msgstr ""
 
@@ -2789,11 +2720,11 @@ msgstr ""
 msgid "Order"
 msgstr ""
 
-#: pylib/anki/consts.py:92
+#: pylib/anki/consts.py:128
 msgid "Order added"
 msgstr ""
 
-#: pylib/anki/consts.py:93
+#: pylib/anki/consts.py:129
 msgid "Order due"
 msgstr ""
 
@@ -2817,11 +2748,11 @@ msgstr ""
 msgid "Packaged Anki Deck/Collection (*.apkg *.colpkg *.zip)"
 msgstr ""
 
-#: qt/aqt/sync.py:274
+#: qt/aqt/sync.py:263
 msgid "Password:"
 msgstr ""
 
-#: qt/aqt/editor.py:1117
+#: qt/aqt/editor.py:1120
 msgid "Paste"
 msgstr ""
 
@@ -2837,15 +2768,15 @@ msgstr ""
 msgid "Pauker 1.8 Lesson (*.pau.gz)"
 msgstr ""
 
-#: qt/aqt/reviewer.py:710
+#: qt/aqt/reviewer.py:712
 msgid "Pause Audio"
 msgstr ""
 
-#: pylib/anki/stats.py:618
+#: pylib/anki/stats.py:623
 msgid "Percentage"
 msgstr ""
 
-#: pylib/anki/stats.py:966
+#: pylib/anki/stats.py:971
 #, python-format
 msgid "Period: %s"
 msgstr ""
@@ -2870,11 +2801,11 @@ msgstr ""
 msgid "Please connect a microphone, and ensure other programs are not using the audio device."
 msgstr ""
 
-#: qt/aqt/main.py:1544
+#: qt/aqt/main.py:1482
 msgid "Please ensure a profile is open and Anki is not busy, then try again."
 msgstr ""
 
-#: qt/aqt/browser.py:1352
+#: qt/aqt/browser.py:1380
 msgid "Please give your filter a name:"
 msgstr ""
 
@@ -2895,11 +2826,11 @@ msgstr ""
 msgid "Please restart Anki to complete language change."
 msgstr ""
 
-#: qt/aqt/reviewer.py:373
+#: qt/aqt/reviewer.py:375
 msgid "Please run Tools>Empty Cards"
 msgstr ""
 
-#: qt/aqt/main.py:609
+#: qt/aqt/main.py:615
 msgid "Please select a deck."
 msgstr ""
 
@@ -2907,7 +2838,7 @@ msgstr ""
 msgid "Please select a single add-on first."
 msgstr ""
 
-#: qt/aqt/browser.py:1522
+#: qt/aqt/browser.py:1543
 msgid "Please select cards from only one note type."
 msgstr ""
 
@@ -2915,19 +2846,19 @@ msgstr ""
 msgid "Please select something."
 msgstr ""
 
-#: qt/aqt/sync.py:197
+#: qt/aqt/sync.py:186
 msgid "Please upgrade to the latest version of Anki."
 msgstr ""
 
-#: qt/aqt/main.py:1033
+#: qt/aqt/main.py:1049
 msgid "Please use File>Import to import this file."
 msgstr ""
 
-#: qt/aqt/sync.py:140
+#: qt/aqt/sync.py:137
 msgid "Please visit AnkiWeb, upgrade your deck, then try again."
 msgstr ""
 
-#: pylib/anki/stats.py:56
+#: pylib/anki/stats.py:61
 msgid "Position"
 msgstr ""
 
@@ -2935,16 +2866,16 @@ msgstr ""
 msgid "Preferences"
 msgstr ""
 
-#: qt/aqt/browser.py:1558 qt/aqt/forms/browser.py:296
+#: qt/aqt/browser.py:1579 qt/aqt/forms/browser.py:296
 msgid "Preview"
 msgstr ""
 
-#: qt/aqt/browser.py:593
+#: qt/aqt/browser.py:605
 #, python-format
 msgid "Preview Selected Card (%s)"
 msgstr ""
 
-#: qt/aqt/forms/customstudy.py:106
+#: qt/aqt/forms/customstudy.py:107
 msgid "Preview new cards"
 msgstr ""
 
@@ -2959,7 +2890,7 @@ msgid_plural "Processed %d media files"
 msgstr[0] ""
 msgstr[1] ""
 
-#: qt/aqt/progress.py:119
+#: qt/aqt/progress.py:100
 msgid "Processing..."
 msgstr ""
 
@@ -2971,20 +2902,20 @@ msgstr ""
 msgid "Profiles"
 msgstr ""
 
-#: qt/aqt/sync.py:231
+#: qt/aqt/sync.py:220
 msgid "Proxy authentication required."
 msgstr ""
 
-#: qt/aqt/browser.py:711
+#: qt/aqt/browser.py:723
 msgid "Question"
 msgstr ""
 
-#: qt/aqt/browser.py:1982
+#: qt/aqt/browser.py:2007
 #, python-format
 msgid "Queue bottom: %d"
 msgstr ""
 
-#: qt/aqt/browser.py:1981
+#: qt/aqt/browser.py:2006
 #, python-format
 msgid "Queue top: %d"
 msgstr ""
@@ -2993,7 +2924,7 @@ msgstr ""
 msgid "Quit"
 msgstr ""
 
-#: pylib/anki/consts.py:88
+#: pylib/anki/consts.py:124
 msgid "Random"
 msgstr ""
 
@@ -3001,19 +2932,19 @@ msgstr ""
 msgid "Randomize order"
 msgstr ""
 
-#: qt/aqt/browser.py:1432
+#: qt/aqt/browser.py:1453
 msgid "Rating"
 msgstr ""
 
-#: qt/aqt/dyndeckconf.py:22 qt/aqt/overview.py:231
+#: qt/aqt/dyndeckconf.py:22 qt/aqt/overview.py:232
 msgid "Rebuild"
 msgstr ""
 
-#: qt/aqt/reviewer.py:713
+#: qt/aqt/reviewer.py:715
 msgid "Record Own Voice"
 msgstr ""
 
-#: qt/aqt/editor.py:142
+#: qt/aqt/editor.py:141
 msgid "Record audio (F5)"
 msgstr ""
 
@@ -3022,15 +2953,15 @@ msgstr ""
 msgid "Recording...<br>Time: %0.1f"
 msgstr ""
 
-#: qt/aqt/browser.py:1249 qt/aqt/reviewer.py:676 qt/aqt/forms/browser.py:333
+#: qt/aqt/browser.py:1277 qt/aqt/reviewer.py:678 qt/aqt/forms/browser.py:333
 msgid "Red Flag"
 msgstr ""
 
-#: pylib/anki/consts.py:95
+#: pylib/anki/consts.py:131
 msgid "Relative overdueness"
 msgstr ""
 
-#: pylib/anki/stats.py:374 pylib/anki/stats.py:394 qt/aqt/browser.py:1443
+#: pylib/anki/stats.py:379 pylib/anki/stats.py:399 qt/aqt/browser.py:1464
 msgid "Relearn"
 msgstr ""
 
@@ -3038,7 +2969,7 @@ msgstr ""
 msgid "Remember last input when adding"
 msgstr ""
 
-#: qt/aqt/browser.py:1362
+#: qt/aqt/browser.py:1390
 #, python-format
 msgid "Remove %s from your saved searches?"
 msgstr ""
@@ -3047,7 +2978,7 @@ msgstr ""
 msgid "Remove Card Type..."
 msgstr ""
 
-#: qt/aqt/browser.py:1337
+#: qt/aqt/browser.py:1365
 msgid "Remove Current Filter..."
 msgstr ""
 
@@ -3055,7 +2986,7 @@ msgstr ""
 msgid "Remove Tags..."
 msgstr ""
 
-#: qt/aqt/editor.py:115
+#: qt/aqt/editor.py:114
 msgid "Remove formatting (Ctrl+R)"
 msgstr ""
 
@@ -3063,7 +2994,7 @@ msgstr ""
 msgid "Removing this card type would cause one or more notes to be deleted. Please create a new card type first."
 msgstr ""
 
-#: qt/aqt/deckbrowser.py:251 qt/aqt/deckconf.py:85 qt/aqt/models.py:49
+#: qt/aqt/deckbrowser.py:252 qt/aqt/deckconf.py:85 qt/aqt/models.py:49
 #: qt/aqt/forms/fields.py:103 qt/aqt/forms/profiles.py:77
 msgid "Rename"
 msgstr ""
@@ -3072,7 +3003,7 @@ msgstr ""
 msgid "Rename Card Type..."
 msgstr ""
 
-#: qt/aqt/deckbrowser.py:266
+#: qt/aqt/deckbrowser.py:267
 msgid "Rename Deck"
 msgstr ""
 
@@ -3080,19 +3011,19 @@ msgstr ""
 msgid "Repeat failed cards after"
 msgstr ""
 
-#: qt/aqt/main.py:295
+#: qt/aqt/main.py:296
 msgid "Replace your collection with an earlier backup?"
 msgstr ""
 
-#: qt/aqt/browser.py:1569 qt/aqt/reviewer.py:709
+#: qt/aqt/browser.py:1590 qt/aqt/reviewer.py:711
 msgid "Replay Audio"
 msgstr ""
 
-#: qt/aqt/reviewer.py:714
+#: qt/aqt/reviewer.py:716
 msgid "Replay Own Voice"
 msgstr ""
 
-#: qt/aqt/browser.py:1987 qt/aqt/forms/fields.py:104
+#: qt/aqt/browser.py:2012 qt/aqt/forms/fields.py:104
 msgid "Reposition"
 msgstr ""
 
@@ -3112,11 +3043,11 @@ msgstr ""
 msgid "Require one or more of these tags:"
 msgstr ""
 
-#: qt/aqt/browser.py:1443
+#: qt/aqt/browser.py:1464
 msgid "Resched"
 msgstr ""
 
-#: qt/aqt/browser.py:2013 qt/aqt/forms/reschedule.py:73
+#: qt/aqt/browser.py:2038 qt/aqt/forms/reschedule.py:73
 msgid "Reschedule"
 msgstr ""
 
@@ -3128,7 +3059,7 @@ msgstr ""
 msgid "Restored defaults"
 msgstr ""
 
-#: qt/aqt/main.py:670
+#: qt/aqt/main.py:675
 msgid "Resume Now"
 msgstr ""
 
@@ -3136,28 +3067,28 @@ msgstr ""
 msgid "Reverse text direction (RTL)"
 msgstr ""
 
-#: qt/aqt/main.py:308
+#: qt/aqt/main.py:309
 msgid "Revert to backup"
 msgstr ""
 
-#: qt/aqt/main.py:951
+#: qt/aqt/main.py:967
 #, python-format
 msgid "Reverted to state prior to '%s'."
 msgstr ""
 
-#: pylib/anki/collection.py:694 qt/aqt/browser.py:1243 qt/aqt/browser.py:1443
+#: pylib/anki/collection.py:694 qt/aqt/browser.py:1271 qt/aqt/browser.py:1464
 msgid "Review"
 msgstr ""
 
-#: pylib/anki/stats.py:380
+#: pylib/anki/stats.py:385
 msgid "Review Count"
 msgstr ""
 
-#: pylib/anki/stats.py:406
+#: pylib/anki/stats.py:411
 msgid "Review Time"
 msgstr ""
 
-#: qt/aqt/forms/customstudy.py:101
+#: qt/aqt/forms/customstudy.py:102
 msgid "Review ahead"
 msgstr ""
 
@@ -3169,15 +3100,15 @@ msgstr ""
 msgid "Review cards forgotten in last"
 msgstr ""
 
-#: qt/aqt/forms/customstudy.py:102
+#: qt/aqt/forms/customstudy.py:103
 msgid "Review forgotten cards"
 msgstr ""
 
-#: pylib/anki/stats.py:810
+#: pylib/anki/stats.py:815
 msgid "Review success rate for each hour of the day."
 msgstr ""
 
-#: pylib/anki/stats.py:47 pylib/anki/stats.py:838 qt/aqt/browser.py:722
+#: pylib/anki/stats.py:52 pylib/anki/stats.py:843 qt/aqt/browser.py:734
 #: qt/aqt/forms/dconf.py:361
 msgid "Reviews"
 msgstr ""
@@ -3187,7 +3118,7 @@ msgstr ""
 msgid "Reviews due in deck over today limit: %s"
 msgstr ""
 
-#: pylib/anki/consts.py:81
+#: pylib/anki/consts.py:117
 msgid "Right"
 msgstr ""
 
@@ -3195,7 +3126,7 @@ msgstr ""
 msgid "Save"
 msgstr ""
 
-#: qt/aqt/browser.py:1339
+#: qt/aqt/browser.py:1367
 msgid "Save Current Filter..."
 msgstr ""
 
@@ -3207,12 +3138,12 @@ msgstr ""
 msgid "Saved."
 msgstr ""
 
-#: pylib/anki/stats.py:964
+#: pylib/anki/stats.py:969
 #, python-format
 msgid "Scope: %s"
 msgstr ""
 
-#: qt/aqt/browser.py:2175 qt/aqt/forms/browser.py:295
+#: qt/aqt/browser.py:2202 qt/aqt/forms/browser.py:295
 #: qt/aqt/forms/dyndconf.py:136 qt/aqt/forms/dyndconf.py:140
 msgid "Search"
 msgstr ""
@@ -3257,7 +3188,7 @@ msgstr ""
 msgid "Semicolon"
 msgstr ""
 
-#: qt/aqt/sync.py:227
+#: qt/aqt/sync.py:216
 msgid "Server not found. Either your connection is down, or antivirus/firewall software is blocking Anki from connecting to the internet."
 msgstr ""
 
@@ -3270,11 +3201,11 @@ msgstr ""
 msgid "Set for all subdecks"
 msgstr ""
 
-#: qt/aqt/editor.py:118
+#: qt/aqt/editor.py:117
 msgid "Set foreground colour (F7)"
 msgstr ""
 
-#: qt/aqt/main.py:101
+#: qt/aqt/main.py:102
 msgid "Shift key was held down. Skipping automatic syncing and add-on loading."
 msgstr ""
 
@@ -3282,20 +3213,20 @@ msgstr ""
 msgid "Shift position of existing cards"
 msgstr ""
 
-#: qt/aqt/browser.py:1573 qt/aqt/browser.py:1591 qt/aqt/deckbrowser.py:338
-#: qt/aqt/main.py:698 qt/aqt/overview.py:241 qt/aqt/reviewer.py:556
-#: qt/aqt/reviewer.py:569 qt/aqt/reviewer.py:635 qt/aqt/toolbar.py:50
-#: qt/aqt/toolbar.py:51 qt/aqt/toolbar.py:52 qt/aqt/toolbar.py:53
-#: qt/aqt/toolbar.py:54
+#: qt/aqt/browser.py:1594 qt/aqt/browser.py:1612 qt/aqt/deckbrowser.py:339
+#: qt/aqt/main.py:704 qt/aqt/overview.py:242 qt/aqt/reviewer.py:558
+#: qt/aqt/reviewer.py:571 qt/aqt/reviewer.py:637 qt/aqt/toolbar.py:63
+#: qt/aqt/toolbar.py:64 qt/aqt/toolbar.py:65 qt/aqt/toolbar.py:66
+#: qt/aqt/toolbar.py:85
 #, python-format
 msgid "Shortcut key: %s"
 msgstr ""
 
-#: qt/aqt/browser.py:1578
+#: qt/aqt/browser.py:1599
 msgid "Shortcut key: Left arrow"
 msgstr ""
 
-#: qt/aqt/browser.py:1583
+#: qt/aqt/browser.py:1604
 msgid "Shortcut key: Right arrow or Enter"
 msgstr ""
 
@@ -3304,15 +3235,15 @@ msgstr ""
 msgid "Shortcut: %s"
 msgstr ""
 
-#: qt/aqt/reviewer.py:570
+#: qt/aqt/reviewer.py:572
 msgid "Show Answer"
 msgstr ""
 
-#: qt/aqt/browser.py:1589
+#: qt/aqt/browser.py:1610
 msgid "Show Both Sides"
 msgstr ""
 
-#: qt/aqt/editor.py:167
+#: qt/aqt/editor.py:166
 msgid "Show Duplicates"
 msgstr ""
 
@@ -3324,19 +3255,19 @@ msgstr ""
 msgid "Show learning cards with larger steps before reviews"
 msgstr ""
 
-#: pylib/anki/consts.py:72
+#: pylib/anki/consts.py:108
 msgid "Show new cards after reviews"
 msgstr ""
 
-#: pylib/anki/consts.py:73
+#: pylib/anki/consts.py:109
 msgid "Show new cards before reviews"
 msgstr ""
 
-#: pylib/anki/consts.py:65
+#: pylib/anki/consts.py:101
 msgid "Show new cards in order added"
 msgstr ""
 
-#: pylib/anki/consts.py:64
+#: pylib/anki/consts.py:100
 msgid "Show new cards in random order"
 msgstr ""
 
@@ -3352,7 +3283,7 @@ msgstr ""
 msgid "Show remaining card count during review"
 msgstr ""
 
-#: qt/aqt/browser.py:1043 qt/aqt/forms/browser.py:337
+#: qt/aqt/browser.py:1055 qt/aqt/forms/browser.py:337
 msgid "Sidebar"
 msgstr ""
 
@@ -3360,11 +3291,11 @@ msgstr ""
 msgid "Size:"
 msgstr ""
 
-#: pylib/anki/importing/anki2.py:162
+#: pylib/anki/importing/anki2.py:163
 msgid "Skipped"
 msgstr ""
 
-#: pylib/anki/sched.py:1296 pylib/anki/schedv2.py:1494
+#: pylib/anki/sched.py:1306 pylib/anki/schedv2.py:1491
 msgid "Some related or buried cards were delayed until a later session."
 msgstr ""
 
@@ -3372,7 +3303,7 @@ msgstr ""
 msgid "Some settings will take effect after you restart Anki."
 msgstr ""
 
-#: qt/aqt/browser.py:715
+#: qt/aqt/browser.py:727
 msgid "Sort Field"
 msgstr ""
 
@@ -3380,7 +3311,7 @@ msgstr ""
 msgid "Sort by this field in the browser"
 msgstr ""
 
-#: qt/aqt/browser.py:923
+#: qt/aqt/browser.py:935
 msgid "Sorting on this column is not supported. Please choose another."
 msgstr ""
 
@@ -3388,7 +3319,7 @@ msgstr ""
 msgid "Sound and video on cards will not function until mpv or mplayer is installed."
 msgstr ""
 
-#: qt/aqt/importing.py:165 qt/aqt/reviewer.py:569
+#: qt/aqt/importing.py:165 qt/aqt/reviewer.py:571
 msgid "Space"
 msgstr ""
 
@@ -3404,7 +3335,7 @@ msgstr ""
 msgid "Statistics"
 msgstr ""
 
-#: qt/aqt/toolbar.py:53
+#: qt/aqt/toolbar.py:66
 msgid "Stats"
 msgstr ""
 
@@ -3420,21 +3351,21 @@ msgstr ""
 msgid "Steps must be numbers."
 msgstr ""
 
-#: qt/aqt/sync.py:61
+#: qt/aqt/sync.py:60
 msgid "Stopping..."
 msgstr ""
 
-#: pylib/anki/stats.py:178
+#: pylib/anki/stats.py:183
 #, python-format
 msgid "Studied %(a)s %(b)s today (%(secs).1fs/card)"
 msgstr ""
 
-#: qt/aqt/deckbrowser.py:133
+#: qt/aqt/deckbrowser.py:134
 #, python-format
 msgid "Studied %(a)s %(b)s today."
 msgstr ""
 
-#: qt/aqt/browser.py:1229
+#: qt/aqt/browser.py:1257
 msgid "Studied Today"
 msgstr ""
 
@@ -3450,11 +3381,11 @@ msgstr ""
 msgid "Study Deck..."
 msgstr ""
 
-#: qt/aqt/overview.py:211
+#: qt/aqt/overview.py:212
 msgid "Study Now"
 msgstr ""
 
-#: qt/aqt/forms/customstudy.py:105
+#: qt/aqt/forms/customstudy.py:106
 msgid "Study by card state or tag"
 msgstr ""
 
@@ -3466,7 +3397,7 @@ msgstr ""
 msgid "Styling (shared between cards)"
 msgstr ""
 
-#: qt/aqt/editor.py:114
+#: qt/aqt/editor.py:113
 msgid "Subscript (Ctrl+=)"
 msgstr ""
 
@@ -3474,31 +3405,31 @@ msgstr ""
 msgid "Supermemo XML export (*.xml)"
 msgstr ""
 
-#: qt/aqt/editor.py:112
+#: qt/aqt/editor.py:111
 msgid "Superscript (Ctrl++)"
 msgstr ""
 
-#: qt/aqt/reviewer.py:771 qt/aqt/reviewer.py:777
+#: qt/aqt/reviewer.py:773 qt/aqt/reviewer.py:779
 msgid "Suspend"
 msgstr ""
 
-#: qt/aqt/reviewer.py:704 qt/aqt/forms/dconf.py:369
+#: qt/aqt/reviewer.py:706 qt/aqt/forms/dconf.py:369
 msgid "Suspend Card"
 msgstr ""
 
-#: qt/aqt/reviewer.py:705
+#: qt/aqt/reviewer.py:707
 msgid "Suspend Note"
 msgstr ""
 
-#: qt/aqt/browser.py:1246
+#: qt/aqt/browser.py:1274
 msgid "Suspended"
 msgstr ""
 
-#: pylib/anki/stats.py:880
+#: pylib/anki/stats.py:885
 msgid "Suspended+Buried"
 msgstr ""
 
-#: qt/aqt/toolbar.py:54 qt/aqt/forms/synclog.py:38
+#: qt/aqt/toolbar.py:84 qt/aqt/forms/synclog.py:38
 msgid "Sync"
 msgstr ""
 
@@ -3506,22 +3437,22 @@ msgstr ""
 msgid "Synchronize audio and images too"
 msgstr ""
 
-#: qt/aqt/sync.py:152
+#: qt/aqt/sync.py:149
 #, python-format
 msgid ""
 "Syncing failed:\n"
 "%s"
 msgstr ""
 
-#: qt/aqt/sync.py:119
+#: qt/aqt/sync.py:118
 msgid "Syncing failed; internet offline."
 msgstr ""
 
-#: qt/aqt/sync.py:336
+#: qt/aqt/sync.py:325
 msgid "Syncing requires the clock on your computer to be set correctly. Please fix the clock and try again."
 msgstr ""
 
-#: qt/aqt/sync.py:127
+#: qt/aqt/sync.py:126
 msgid "Syncing..."
 msgstr ""
 
@@ -3529,7 +3460,7 @@ msgstr ""
 msgid "Tab"
 msgstr ""
 
-#: qt/aqt/browser.py:2184 qt/aqt/browser.py:2211
+#: qt/aqt/browser.py:2211 qt/aqt/browser.py:2238
 msgid "Tag Duplicates"
 msgstr ""
 
@@ -3541,7 +3472,7 @@ msgstr ""
 msgid "Tag modified notes:"
 msgstr ""
 
-#: qt/aqt/browser.py:724 qt/aqt/browser.py:1261 qt/aqt/editor.py:518
+#: qt/aqt/browser.py:736 qt/aqt/browser.py:1289 qt/aqt/editor.py:518
 msgid "Tags"
 msgstr ""
 
@@ -3573,7 +3504,7 @@ msgstr ""
 msgid "That name is already used."
 msgstr ""
 
-#: qt/aqt/sync.py:185
+#: qt/aqt/sync.py:174
 msgid "The connection to AnkiWeb timed out. Please check your network connection and try again."
 msgstr ""
 
@@ -3581,11 +3512,11 @@ msgstr ""
 msgid "The default configuration can't be removed."
 msgstr ""
 
-#: qt/aqt/deckbrowser.py:299
+#: qt/aqt/deckbrowser.py:300
 msgid "The default deck can't be deleted."
 msgstr ""
 
-#: pylib/anki/stats.py:905
+#: pylib/anki/stats.py:910
 msgid "The division of cards in your deck(s)."
 msgstr ""
 
@@ -3606,7 +3537,7 @@ msgstr ""
 msgid "The following add-ons have updates available. Install them now?"
 msgstr ""
 
-#: qt/aqt/utils.py:586
+#: qt/aqt/utils.py:596
 #, python-format
 msgid "The following character can not be used: %s"
 msgstr ""
@@ -3615,11 +3546,7 @@ msgstr ""
 msgid "The following conflicting add-ons were disabled:"
 msgstr ""
 
-#: pylib/anki/template.py:142
-msgid "The front of this card is blank."
-msgstr ""
-
-#: qt/aqt/reviewer.py:179
+#: qt/aqt/reviewer.py:181
 msgid "The front of this card is empty. Please run Tools>Empty Cards."
 msgstr ""
 
@@ -3627,19 +3554,19 @@ msgstr ""
 msgid "The input you have provided would make an empty question on all cards."
 msgstr ""
 
-#: pylib/anki/stats.py:335
+#: pylib/anki/stats.py:340
 msgid "The number of new cards you have added."
 msgstr ""
 
-#: pylib/anki/stats.py:380
+#: pylib/anki/stats.py:385
 msgid "The number of questions you have answered."
 msgstr ""
 
-#: pylib/anki/stats.py:260
+#: pylib/anki/stats.py:265
 msgid "The number of reviews due in the future."
 msgstr ""
 
-#: pylib/anki/stats.py:700
+#: pylib/anki/stats.py:705
 msgid "The number of times you have pressed each button."
 msgstr ""
 
@@ -3651,15 +3578,15 @@ msgstr ""
 msgid "The provided search did not match any cards. Would you like to revise it?"
 msgstr ""
 
-#: qt/aqt/main.py:1235
+#: qt/aqt/main.py:1259
 msgid "The requested change will require a full upload of the database when you next synchronize your collection. If you have reviews or other changes waiting on another device that haven't been synchronized here yet, they will be lost. Continue?"
 msgstr ""
 
-#: pylib/anki/stats.py:406
+#: pylib/anki/stats.py:411
 msgid "The time taken to answer the questions."
 msgstr ""
 
-#: pylib/anki/sched.py:1282 pylib/anki/schedv2.py:1480
+#: pylib/anki/sched.py:1292 pylib/anki/schedv2.py:1477
 msgid ""
 "There are more new cards available, but the daily limit has been\n"
 "reached. You can increase the limit in the options, but please\n"
@@ -3667,7 +3594,7 @@ msgid ""
 "your short-term review workload will become."
 msgstr ""
 
-#: qt/aqt/main.py:277
+#: qt/aqt/main.py:278
 msgid "There must be at least one profile."
 msgstr ""
 
@@ -3675,11 +3602,11 @@ msgstr ""
 msgid "This add-on is not compatible with your version of Anki."
 msgstr ""
 
-#: qt/aqt/browser.py:907
+#: qt/aqt/browser.py:919
 msgid "This column can't be sorted on, but you can search for individual card types, such as 'card:1'."
 msgstr ""
 
-#: qt/aqt/browser.py:915
+#: qt/aqt/browser.py:927
 msgid "This column can't be sorted on, but you can search for specific decks by clicking on one on the left."
 msgstr ""
 
@@ -3687,7 +3614,7 @@ msgstr ""
 msgid "This file does not appear to be a valid .apkg file. If you're getting this error from a file downloaded from AnkiWeb, chances are that your download failed. Please try again, and if the problem persists, please try again with a different browser."
 msgstr ""
 
-#: qt/aqt/utils.py:393
+#: qt/aqt/utils.py:403
 msgid "This file exists. Are you sure you want to overwrite it?"
 msgstr ""
 
@@ -3701,7 +3628,7 @@ msgid ""
 "%s\n"
 msgstr ""
 
-#: qt/aqt/overview.py:159
+#: qt/aqt/overview.py:160
 msgid "This is a special deck for studying outside of the normal schedule."
 msgstr ""
 
@@ -3724,7 +3651,7 @@ msgstr ""
 msgid "This will reset any cards in learning, clear filtered decks, and change the scheduler version. Proceed?"
 msgstr ""
 
-#: qt/aqt/browser.py:1435
+#: qt/aqt/browser.py:1456
 msgid "Time"
 msgstr ""
 
@@ -3732,7 +3659,7 @@ msgstr ""
 msgid "Timebox time limit"
 msgstr ""
 
-#: qt/aqt/overview.py:209
+#: qt/aqt/overview.py:210
 msgid "To Review"
 msgstr ""
 
@@ -3744,19 +3671,19 @@ msgstr ""
 msgid "To make a cloze deletion on an existing note, you need to change it to a cloze type first, via Edit>Change Note Type."
 msgstr ""
 
-#: pylib/anki/sched.py:1291 pylib/anki/schedv2.py:1489
+#: pylib/anki/sched.py:1301 pylib/anki/schedv2.py:1486
 msgid "To see them now, click the Unbury button below."
 msgstr ""
 
-#: pylib/anki/sched.py:1304 pylib/anki/schedv2.py:1502
+#: pylib/anki/sched.py:1314 pylib/anki/schedv2.py:1499
 msgid "To study outside of the normal schedule, click the Custom Study button below."
 msgstr ""
 
-#: pylib/anki/stats.py:146 qt/aqt/browser.py:1224
+#: pylib/anki/stats.py:151 qt/aqt/browser.py:1252
 msgid "Today"
 msgstr ""
 
-#: pylib/anki/sched.py:1273 pylib/anki/schedv2.py:1471
+#: pylib/anki/sched.py:1283 pylib/anki/schedv2.py:1468
 msgid ""
 "Today's review limit has been reached, but there are still cards\n"
 "waiting to be reviewed. For optimum memory, consider increasing\n"
@@ -3775,19 +3702,19 @@ msgstr ""
 msgid "Toggle Suspend"
 msgstr ""
 
-#: pylib/anki/stats.py:279 pylib/anki/stats.py:344 pylib/anki/stats.py:438
+#: pylib/anki/stats.py:284 pylib/anki/stats.py:349 pylib/anki/stats.py:443
 msgid "Total"
 msgstr ""
 
-#: pylib/anki/stats.py:54
+#: pylib/anki/stats.py:59
 msgid "Total Time"
 msgstr ""
 
-#: pylib/anki/stats.py:892
+#: pylib/anki/stats.py:897
 msgid "Total cards"
 msgstr ""
 
-#: pylib/anki/stats.py:893
+#: pylib/anki/stats.py:898
 msgid "Total notes"
 msgstr ""
 
@@ -3795,12 +3722,12 @@ msgstr ""
 msgid "Treat input as regular expression"
 msgstr ""
 
-#: qt/aqt/browser.py:1431 qt/aqt/modelchooser.py:26
+#: qt/aqt/browser.py:1452 qt/aqt/modelchooser.py:26
 #: qt/aqt/forms/importing.py:105
 msgid "Type"
 msgstr ""
 
-#: qt/aqt/reviewer.py:377
+#: qt/aqt/reviewer.py:379
 #, python-format
 msgid "Type answer: unknown field %s"
 msgstr ""
@@ -3813,7 +3740,7 @@ msgstr ""
 msgid "Unable to import from a read-only file."
 msgstr ""
 
-#: qt/aqt/main.py:321
+#: qt/aqt/main.py:322
 msgid "Unable to move existing file to trash - please try restarting your computer."
 msgstr ""
 
@@ -3825,19 +3752,19 @@ msgid ""
 "Debug info: %s"
 msgstr ""
 
-#: qt/aqt/overview.py:237
+#: qt/aqt/overview.py:238
 msgid "Unbury"
 msgstr ""
 
-#: qt/aqt/editor.py:109
+#: qt/aqt/editor.py:108
 msgid "Underline text (Ctrl+U)"
 msgstr ""
 
-#: qt/aqt/main.py:961
+#: qt/aqt/main.py:977
 msgid "Undo"
 msgstr ""
 
-#: qt/aqt/main.py:957
+#: qt/aqt/main.py:973
 #, python-format
 msgid "Undo %s"
 msgstr ""
@@ -3855,7 +3782,7 @@ msgstr ""
 msgid "Unknown file format."
 msgstr ""
 
-#: pylib/anki/stats.py:879
+#: pylib/anki/stats.py:884
 msgid "Unseen"
 msgstr ""
 
@@ -3863,20 +3790,16 @@ msgstr ""
 msgid "Update existing notes when first field matches"
 msgstr ""
 
-#: pylib/anki/importing/anki2.py:165
+#: pylib/anki/importing/anki2.py:166
 msgid "Updated"
 msgstr ""
 
-#: qt/aqt/sync.py:321 qt/aqt/sync.py:325
+#: qt/aqt/sync.py:310 qt/aqt/sync.py:314
 msgid "Upload to AnkiWeb"
 msgstr ""
 
-#: qt/aqt/sync.py:130
+#: qt/aqt/sync.py:129
 msgid "Uploading to AnkiWeb..."
-msgstr ""
-
-#: qt/aqt/main.py:1292
-msgid "Used on cards but missing from media folder:"
 msgstr ""
 
 #: qt/aqt/profiles.py:375
@@ -3900,7 +3823,7 @@ msgstr ""
 msgid "View Files"
 msgstr ""
 
-#: qt/aqt/main.py:669
+#: qt/aqt/main.py:674
 msgid "Waiting for editing to finish."
 msgstr ""
 
@@ -3916,7 +3839,7 @@ msgstr ""
 msgid "When adding, default to current deck"
 msgstr ""
 
-#: qt/aqt/browser.py:1095 qt/aqt/browser.py:1220
+#: qt/aqt/browser.py:1123 qt/aqt/browser.py:1248
 msgid "Whole Collection"
 msgstr ""
 
@@ -3937,29 +3860,29 @@ msgstr ""
 msgid "You have a cloze deletion note type but have not made any cloze deletions. Proceed?"
 msgstr ""
 
-#: qt/aqt/deckbrowser.py:142
+#: qt/aqt/deckbrowser.py:143
 #, python-format
 msgid "You have a lot of decks. Please see %(a)s. %(b)s"
 msgstr ""
 
-#: qt/aqt/reviewer.py:816
+#: qt/aqt/reviewer.py:818
 msgid "You haven't recorded your voice yet."
 msgstr ""
 
-#: qt/aqt/browser.py:975
+#: qt/aqt/browser.py:987
 msgid "You must have at least one column."
 msgstr ""
 
-#: pylib/anki/stats.py:246 pylib/anki/stats.py:373 pylib/anki/stats.py:393
-#: pylib/anki/stats.py:706
+#: pylib/anki/stats.py:251 pylib/anki/stats.py:378 pylib/anki/stats.py:398
+#: pylib/anki/stats.py:711
 msgid "Young"
 msgstr ""
 
-#: pylib/anki/stats.py:878
+#: pylib/anki/stats.py:883
 msgid "Young+Learn"
 msgstr ""
 
-#: qt/aqt/sync.py:172
+#: qt/aqt/sync.py:161
 msgid "Your AnkiWeb collection does not contain any cards. Please sync again and choose 'Upload' instead."
 msgstr ""
 
@@ -3967,19 +3890,19 @@ msgstr ""
 msgid "Your changes will affect multiple decks. If you wish to change only the current deck, please add a new options group first."
 msgstr ""
 
-#: qt/aqt/main.py:503
+#: qt/aqt/main.py:509
 msgid "Your collection file appears to be corrupt. This can happen when the file is copied or moved while Anki is open, or when the collection is stored on a network or cloud drive. If problems persist after restarting your computer, please open an automatic backup from the profile screen."
 msgstr ""
 
-#: qt/aqt/sync.py:345
+#: qt/aqt/sync.py:334
 msgid "Your collection is in an inconsistent state. Please run Tools>Check Database, then sync again."
 msgstr ""
 
-#: qt/aqt/sync.py:233
+#: qt/aqt/sync.py:222
 msgid "Your collection or a media file is too large to sync."
 msgstr ""
 
-#: qt/aqt/sync.py:75
+#: qt/aqt/sync.py:74
 msgid ""
 "Your collection was successfully uploaded to AnkiWeb.\n"
 "\n"
@@ -3990,7 +3913,7 @@ msgstr ""
 msgid "Your computer's storage may be full. Please delete some unneeded files, then try again."
 msgstr ""
 
-#: qt/aqt/sync.py:305
+#: qt/aqt/sync.py:294
 msgid ""
 "Your decks here and on AnkiWeb differ in such a way that they can't be merged together, so it's necessary to overwrite the decks on one side with the decks from the other.\n"
 "\n"
@@ -4013,7 +3936,7 @@ msgstr ""
 msgid "backups"
 msgstr ""
 
-#: pylib/anki/stats.py:345 qt/aqt/customstudy.py:53
+#: pylib/anki/stats.py:350 qt/aqt/customstudy.py:53
 msgid "cards"
 msgstr ""
 
@@ -4030,7 +3953,7 @@ msgid "collection"
 msgstr ""
 
 #. T: abbreviation of day
-#: pylib/anki/stats.py:992
+#: pylib/anki/stats.py:997
 msgid "d"
 msgstr ""
 
@@ -4045,19 +3968,19 @@ msgstr ""
 msgid "deck"
 msgstr ""
 
-#: pylib/anki/stats.py:966 qt/aqt/forms/stats.py:80
+#: pylib/anki/stats.py:971 qt/aqt/forms/stats.py:80
 msgid "deck life"
 msgstr ""
 
-#: qt/aqt/browser.py:2215
+#: qt/aqt/browser.py:2242
 msgid "duplicate"
 msgstr ""
 
-#: qt/aqt/deckbrowser.py:149
+#: qt/aqt/deckbrowser.py:150
 msgid "hide"
 msgstr ""
 
-#: pylib/anki/stats.py:433
+#: pylib/anki/stats.py:438
 msgid "hours"
 msgstr ""
 
@@ -4111,7 +4034,7 @@ msgstr[1] ""
 msgid "lapses"
 msgstr ""
 
-#: pylib/anki/stats.py:454
+#: pylib/anki/stats.py:459
 msgid "less than 0.1 cards/minute"
 msgstr ""
 
@@ -4128,16 +4051,16 @@ msgstr ""
 msgid "mins"
 msgstr ""
 
-#: pylib/anki/stats.py:410 qt/aqt/forms/dyndconf.py:146
+#: pylib/anki/stats.py:415 qt/aqt/forms/dyndconf.py:146
 msgid "minutes"
 msgstr ""
 
 #. T: abbreviation of month
-#: pylib/anki/stats.py:996
+#: pylib/anki/stats.py:1001
 msgid "mo"
 msgstr ""
 
-#: pylib/anki/stats.py:280 pylib/anki/stats.py:386
+#: pylib/anki/stats.py:285 pylib/anki/stats.py:391
 msgid "reviews"
 msgstr ""
 
@@ -4149,21 +4072,17 @@ msgstr ""
 msgid "stats"
 msgstr ""
 
-#: qt/aqt/deckbrowser.py:145
+#: qt/aqt/deckbrowser.py:146
 msgid "this page"
 msgstr ""
 
 #. T: abbreviation of week
-#: pylib/anki/stats.py:994
+#: pylib/anki/stats.py:999
 msgid "w"
 msgstr ""
 
-#: pylib/anki/stats.py:961
+#: pylib/anki/stats.py:966
 msgid "whole collection"
-msgstr ""
-
-#: pylib/anki/template.py:130
-msgid "{} template has a problem:"
 msgstr ""
 
 #: qt/aqt/forms/reschedule.py:76
