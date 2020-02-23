@@ -1,19 +1,21 @@
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: anki\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-12 09:03+1000\n"
-"PO-Revision-Date: 2020-02-16 02:23\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2020-02-22 17:49+0000\n"
+"Last-Translator: stoppos <stopposoknak@gmail.com>\n"
 "Language-Team: Hungarian\n"
-"Language: hu_HU\n"
+"Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Crowdin-Project: anki\n"
-"X-Crowdin-Language: hu\n"
 "X-Crowdin-File: anki.pot\n"
+"X-Crowdin-Language: hu\n"
+"X-Crowdin-Project: anki\n"
+"X-Generator: Pontoon\n"
 
 #: qt/aqt/clayout.py:234
 #, python-format
@@ -42,13 +44,11 @@ msgstr[1] " %d kártyát tartalmaz."
 #. T: include a font for your language on Windows, eg: "Segoe UI", "MS Mincho"
 #: qt/aqt/webview.py:268
 msgid "\"Segoe UI\""
-msgstr ""
+msgstr "\"Segoe UI\""
 
-#: qt/aqt/forms/dconf.py:341 qt/aqt/forms/dconf.py:352
-#: qt/aqt/forms/dconf.py:357 qt/aqt/forms/dconf.py:360
-#: qt/aqt/forms/dconf.py:371 qt/aqt/forms/preferences.py:271
+#: qt/aqt/forms/dconf.py:341 qt/aqt/forms/dconf.py:352 qt/aqt/forms/dconf.py:357 qt/aqt/forms/dconf.py:360 qt/aqt/forms/dconf.py:371 qt/aqt/forms/preferences.py:271
 msgid "%"
-msgstr ""
+msgstr "%"
 
 #: pylib/anki/stats.py:815 pylib/anki/stats.py:837
 msgid "% Correct"
@@ -85,20 +85,19 @@ msgstr[1] "%(b)d jegyzet közül %(a)d frissítve"
 #: qt/aqt/browser.py:1317
 #, python-format
 msgid "%(n)d: %(name)s"
-msgstr ""
+msgstr "%(n)d: %(name)s"
 
 #: pylib/anki/stats.py:438
 #, python-format
 msgid "%(tot)s %(unit)s"
-msgstr ""
+msgstr "%(tot)s %(unit)s"
 
 #: pylib/anki/stats.py:456
 #, python-format
 msgid "%.01f cards/minute"
 msgstr "%.01f kártya/perc"
 
-#: pylib/anki/stats.py:288 pylib/anki/stats.py:344 qt/aqt/clayout.py:241
-#: qt/aqt/main.py:1374
+#: pylib/anki/stats.py:288 pylib/anki/stats.py:344 qt/aqt/clayout.py:241 qt/aqt/main.py:1374
 #, python-format
 msgid "%d card"
 msgid_plural "%d cards"
@@ -175,8 +174,7 @@ msgid_plural "%d media files downloaded"
 msgstr[0] "%d médiafájl letöltve"
 msgstr[1] "%d médiafájl letöltve"
 
-#: qt/aqt/browser.py:2191 qt/aqt/browser.py:2199 qt/aqt/fields.py:96
-#: qt/aqt/models.py:82
+#: qt/aqt/browser.py:2191 qt/aqt/browser.py:2199 qt/aqt/fields.py:96 qt/aqt/models.py:82
 #, python-format
 msgid "%d note"
 msgid_plural "%d notes"
@@ -356,11 +354,11 @@ msgstr "&Magolás..."
 
 #: qt/aqt/forms/browser.py:298 qt/aqt/forms/main.py:133
 msgid "&Edit"
-msgstr "Sz&erkesztés"
+msgstr "&Szerkesztés"
 
 #: qt/aqt/forms/browser.py:341
 msgid "&Export Notes..."
-msgstr ""
+msgstr "&Jegyzetek exportálása..."
 
 #: qt/aqt/forms/main.py:149
 msgid "&Export..."
@@ -454,7 +452,7 @@ msgstr "Jegyzet törölve"
 
 #: qt/aqt/addons.py:717
 msgid "(disabled)"
-msgstr ""
+msgstr "(tiltva)"
 
 #: pylib/anki/sched.py:1342 pylib/anki/schedv2.py:1550
 msgid "(end)"
@@ -484,7 +482,7 @@ msgstr "(kérlek, 1 kártyát válassz ki)"
 #: qt/aqt/addons.py:719
 #, python-format
 msgid "(requires %s)"
-msgstr ""
+msgstr "(kötelező %s)"
 
 #: qt/aqt/importing.py:319
 msgid ".anki files are from a very old version of Anki. You can import them with Anki 2.0, available on the Anki website."
@@ -533,7 +531,7 @@ msgstr "504: átjáró-időtúllépési hiba érkezett. Kérlek, próbáld meg �
 #. T: Symbols separating first and second column in a statistics table. Eg in "Total:    3 reviews".
 #: pylib/anki/stats.py:915
 msgid ":"
-msgstr ""
+msgstr ":"
 
 #: pylib/anki/stats.py:175 qt/aqt/deckbrowser.py:131
 #, python-format
@@ -578,7 +576,9 @@ msgstr "<b>Betűtípus</b>:"
 
 #: qt/aqt/addons.py:1341
 #, python-format
-msgid "<b>Important</b>: As add-ons are programs downloaded from the internet, they are potentially malicious.<b>You should only install add-ons you trust.</b><br><br>Are you sure you want to proceed with the installation of the following Anki add-on(s)?<br><br>%(names)s"
+msgid ""
+"<b>Important</b>: As add-ons are programs downloaded from the internet, they are potentially malicious.<b>You should only install add-ons you trust.</b><br><br>Are you sure you want to proceed with "
+"the installation of the following Anki add-on(s)?<br><br>%(names)s"
 msgstr ""
 
 #: qt/aqt/forms/findreplace.py:71
@@ -606,16 +606,20 @@ msgid "<b>Synchronisation</b>"
 msgstr "<b>Szinkronizálás</b>"
 
 #: qt/aqt/preferences.py:193
-msgid "<b>Synchronization</b><br>\n"
+msgid ""
+"<b>Synchronization</b><br>\n"
 "Not currently enabled; click the sync button in the main window to enable."
-msgstr "<b>Szinkronizálás</b><br>\n"
+msgstr ""
+"<b>Szinkronizálás</b><br>\n"
 "Jelenleg nem üzemel; a főablak „sync” gombjával lehet bekapcsolni."
 
 #: qt/aqt/sync.py:257
 #, python-format
-msgid "<h1>Account Required</h1>\n"
+msgid ""
+"<h1>Account Required</h1>\n"
 "A free account is required to keep your collection synchronized. Please <a href=\"%s\">sign up</a> for an account, then enter your details below."
-msgstr "<h1>Felhasználói fiók szükséges</h1>\n"
+msgstr ""
+"<h1>Felhasználói fiók szükséges</h1>\n"
 "A gyűjteményed szinkronizálásához ingyenes felhasználói fiókra van szükség. Kérlek, <a href=\"%s\">regisztrálj</a> magadnak egyet, majd add meg az adatait."
 
 #: qt/aqt/update.py:60
@@ -624,23 +628,39 @@ msgid "<h1>Anki Updated</h1>Anki %s has been released.<br><br>"
 msgstr "<h1>Frissült az Anki</h1>Megjelent az Anki %s verziója.<br><br>"
 
 #: qt/aqt/errors.py:143
-msgid "<h1>Error</h1>\n\n"
-"<p>An error occurred. Please start Anki while holding down the shift key, which will temporarily disable the add-ons you have installed.</p>\n\n"
-"<p>If the issue only occurs when add-ons are enabled, please use the Tools&gt;Add-ons menu item to disable some add-ons and restart Anki, repeating until you discover the add-on that is causing the problem.</p>\n\n"
-"<p>When you've discovered the add-on that is causing the problem, please report the issue on the <a href=\"https://help.ankiweb.net/discussions/add-ons/\">add-ons section</a> of our support site.\n\n"
+msgid ""
+"<h1>Error</h1>\n"
+"\n"
+"<p>An error occurred. Please start Anki while holding down the shift key, which will temporarily disable the add-ons you have installed.</p>\n"
+"\n"
+"<p>If the issue only occurs when add-ons are enabled, please use the Tools&gt;Add-ons menu item to disable some add-ons and restart Anki, repeating until you discover the add-on that is causing the problem.</p>\n"
+"\n"
+"<p>When you've discovered the add-on that is causing the problem, please report the issue on the <a href=\"https://help.ankiweb.net/discussions/add-ons/\">add-ons section</a> of our support site.\n"
+"\n"
 "<p>Debug info:</p>\n"
-msgstr "<h1>Hiba</h1>\n\n"
-"<p>Egy hiba történt. Kérlek, indítsd el az Ankit a SHIFT lenyomva tartása közben, így letiltva a telepített bővítményeket.</p>\n\n"
-"<p>Ha a hiba csak akkor bukkan fel, ha a bővítmények engedélyezve vannak, kérlek, az Eszközök&gt;Bővítmények menüpont alatt tilts le néhány bővítményt, majd indítsd újra az Ankit. Ezt ismételve derítsd ki, melyik bővítmény okozhatja a hibát.</p>\n\n"
-"<p>Ha sikerült beazonosítani, melyik bővítmény okozta a problémát, kérlek jelezd azt a <a href=\"https://help.ankiweb.net/discussions/add-ons/\">bővítmények rovatban</a>, a támogató oldalunkon.\n\n"
+msgstr ""
+"<h1>Hiba</h1>\n"
+"\n"
+"<p>Egy hiba történt. Kérlek, indítsd el az Ankit a SHIFT lenyomva tartása közben, így letiltva a telepített bővítményeket.</p>\n"
+"\n"
+"<p>Ha a hiba csak akkor bukkan fel, ha a bővítmények engedélyezve vannak, kérlek, az Eszközök&gt;Bővítmények menüpont alatt tilts le néhány bővítményt, majd indítsd újra az Ankit. Ezt ismételve derítsd ki, melyik bővítmény okozhatja a hibát.</p>\n"
+"\n"
+"<p>Ha sikerült beazonosítani, melyik bővítmény okozta a problémát, kérlek jelezd azt a <a href=\"https://help.ankiweb.net/discussions/add-ons/\">bővítmények rovatban</a>, a támogató oldalunkon.\n"
+"\n"
 "<p>Hibaelhárítási információ:</p>\n"
 
 #: qt/aqt/errors.py:131
-msgid "<h1>Error</h1>\n\n"
-"<p>An error occurred. Please use <b>Tools &gt; Check Database</b> to see if that fixes the problem.</p>\n\n"
+msgid ""
+"<h1>Error</h1>\n"
+"\n"
+"<p>An error occurred. Please use <b>Tools &gt; Check Database</b> to see if that fixes the problem.</p>\n"
+"\n"
 "<p>If problems persist, please report the problem on our <a href=\"https://help.ankiweb.net\">support site</a>. Please copy and paste  the information below into your report.</p>"
-msgstr "<h1>Hiba</h1>\n\n"
-"<p>Egy hiba történt. Kérlek, használd az <b>Eszközök &gt; Adatbázis ellenőrzése</b> menüpontot a probléma megoldásához.</p>\n\n"
+msgstr ""
+"<h1>Hiba</h1>\n"
+"\n"
+"<p>Egy hiba történt. Kérlek, használd az <b>Eszközök &gt; Adatbázis ellenőrzése</b> menüpontot a probléma megoldásához.</p>\n"
+"\n"
 "<p>Ha a probléma fennáll, kérlek jelezd a <a href=\"https://help.ankiweb.net\">támogató oldalunkon</a>. Kérlek csatold az információkat is az üzenetedhez.</p>"
 
 #: qt/aqt/importing.py:256
@@ -680,9 +700,7 @@ msgstr "Megszakítva: %s"
 msgid "About Anki"
 msgstr "Az Anki névjegye"
 
-#: qt/aqt/addcards.py:36 qt/aqt/addcards.py:65 qt/aqt/deckconf.py:81
-#: qt/aqt/models.py:47 qt/aqt/studydeck.py:46 qt/aqt/toolbar.py:51
-#: qt/aqt/forms/addcards.py:58 qt/aqt/forms/fields.py:101
+#: qt/aqt/addcards.py:36 qt/aqt/addcards.py:65 qt/aqt/deckconf.py:81 qt/aqt/models.py:47 qt/aqt/studydeck.py:46 qt/aqt/toolbar.py:51 qt/aqt/forms/addcards.py:58 qt/aqt/forms/fields.py:101
 #: qt/aqt/forms/profiles.py:76
 msgid "Add"
 msgstr "Hozzáadás"
@@ -764,8 +782,7 @@ msgstr "Lehetségesen közrejátszó bővítmények: {}\n"
 msgid "Add: %s"
 msgstr "Hozzáadás: %s"
 
-#: pylib/anki/stats.py:27 pylib/anki/stats.py:335
-#: pylib/anki/importing/anki2.py:168 qt/aqt/addcards.py:209
+#: pylib/anki/stats.py:27 pylib/anki/stats.py:335 pylib/anki/importing/anki2.py:168 qt/aqt/addcards.py:209
 msgid "Added"
 msgstr "Hozzáadva"
 
@@ -829,27 +846,37 @@ msgstr ""
 
 #: qt/aqt/addons.py:209
 #, python-format
-msgid "An add-on you installed failed to load. If problems persist, please go to the Tools>Add-ons menu, and disable or delete the add-on.\n\n"
+msgid ""
+"An add-on you installed failed to load. If problems persist, please go to the Tools>Add-ons menu, and disable or delete the add-on.\n"
+"\n"
 "When loading '%(name)s':\n"
 "%(traceback)s\n"
 msgstr ""
 
 #: qt/aqt/errors.py:111
-msgid "An error occurred while accessing the database.\n\n"
-"Possible causes:\n\n"
+msgid ""
+"An error occurred while accessing the database.\n"
+"\n"
+"Possible causes:\n"
+"\n"
 "- Antivirus, firewall, backup, or synchronization software may be   interfering with Anki. Try disabling such software and see if the   problem goes away.\n"
 "- Your disk may be full.\n"
 "- The Documents/Anki folder may be on a network drive.\n"
 "- Files in the Documents/Anki folder may not be writeable.\n"
-"- Your hard disk may have errors.\n\n"
+"- Your hard disk may have errors.\n"
+"\n"
 "It's a good idea to run Tools>Check Database to ensure your collection is not corrupt.\n"
-msgstr "Hiba történt az adatbázis elérése során.\n\n"
-"Lehetséges okai:\n\n"
+msgstr ""
+"Hiba történt az adatbázis elérése során.\n"
+"\n"
+"Lehetséges okai:\n"
+"\n"
 "- Valamely vírusirtó, tűzfal, illetve biztonsági mentést vagy szinkronizálást végző program akadályozhatja az Anki működését. Próbálkozz ezek letiltásával, majd ellenőrizd, megszűnt-e a probléma.\n"
 "- Előfordulhat, hogy megtelt a merevlemez.\n"
 "- A Dokuments/Anki mappa esetleg hálózati meghajtón van.\n"
 "- A Dokuments/Anki mappában lévő fájlok talán nem írhatók.\n"
-"- Hiba lehet a merevlemezen.\n\n"
+"- Hiba lehet a merevlemezen.\n"
+"\n"
 "Érdemes lefuttatni az Eszközök > Adatbázis ellenőrzése funkciót, hogy meggyőződj róla, nem sérült-e a gyűjteményed.\n"
 
 #: qt/aqt/editor.py:787 qt/aqt/editor.py:790
@@ -857,8 +884,7 @@ msgstr "Hiba történt az adatbázis elérése során.\n\n"
 msgid "An error occurred while opening %s"
 msgstr "Az alábbi fájl megnyitása során hiba történt: %s"
 
-#: qt/aqt/forms/main.py:131 qt/aqt/forms/setgroup.py:38
-#: qt/aqt/forms/setlang.py:39
+#: qt/aqt/forms/main.py:131 qt/aqt/forms/setgroup.py:38 qt/aqt/forms/setlang.py:39
 msgid "Anki"
 msgstr ""
 
@@ -883,8 +909,12 @@ msgid "Anki could not read your profile data. Window sizes and your sync login d
 msgstr ""
 
 #: qt/aqt/profiles.py:246
-msgid "Anki could not rename your profile because it could not rename the profile folder on disk. Please ensure you have permission to write to Documents/Anki and no other programs are accessing your profile folders, then try again."
-msgstr "Az Anki nem tudta átnevezni a profilod, mert a profil mappája nem nevezhető át a merevlemezen. Kérlek, győződj meg róla, hogy van írási jogosultságod a Documents/Anki mappához, és más program nem használja a profilmappáidat, majd próbálkozz újra."
+msgid ""
+"Anki could not rename your profile because it could not rename the profile folder on disk. Please ensure you have permission to write to Documents/Anki and no other programs are accessing your "
+"profile folders, then try again."
+msgstr ""
+"Az Anki nem tudta átnevezni a profilod, mert a profil mappája nem nevezhető át a merevlemezen. Kérlek, győződj meg róla, hogy van írási jogosultságod a Documents/Anki mappához, és más program nem "
+"használja a profilmappáidat, majd próbálkozz újra."
 
 #: qt/aqt/clayout.py:457
 msgid "Anki couldn't find the line between the question and answer. Please adjust the template manually to switch the question and answer."
@@ -903,7 +933,9 @@ msgid "Anki is licensed under the AGPL3 license. Please see the license file in 
 msgstr "Az Anki az AGPL3 licenc alatt áll. A további tájékozódáshoz, kérlek, nézd meg a forrásdisztribúcióban szereplő licencfájlt."
 
 #: qt/aqt/main.py:437
-msgid "Anki was unable to open your collection file. If problems persist after restarting your computer, please use the Open Backup button in the profile manager.\n\n"
+msgid ""
+"Anki was unable to open your collection file. If problems persist after restarting your computer, please use the Open Backup button in the profile manager.\n"
+"\n"
 "Debug info:\n"
 msgstr ""
 
@@ -945,7 +977,7 @@ msgstr "Az Anki egy vírusirtó vagy tűzfalprogram miatt nem tud csatlakozni az
 
 #: qt/aqt/browser.py:1254
 msgid "Any Flag"
-msgstr ""
+msgstr "Bármilyen jelölés"
 
 #: qt/aqt/browser.py:2455
 msgid "Any cards mapped to nothing will be deleted. If a note has no remaining cards, it will be lost. Are you sure you want to continue?"
@@ -1017,10 +1049,7 @@ msgstr "Átlagos időráfordítás a tanulással töltött napokon"
 msgid "Average interval"
 msgstr "Átlagos időköz"
 
-#: pylib/anki/stdmodels.py:21 pylib/anki/stdmodels.py:25
-#: pylib/anki/stdmodels.py:46 pylib/anki/stdmodels.py:47
-#: pylib/anki/stdmodels.py:62 pylib/anki/template.py:129
-#: qt/aqt/forms/addfield.py:78
+#: pylib/anki/stdmodels.py:21 pylib/anki/stdmodels.py:25 pylib/anki/stdmodels.py:46 pylib/anki/stdmodels.py:47 pylib/anki/stdmodels.py:62 pylib/anki/template.py:129 qt/aqt/forms/addfield.py:78
 msgid "Back"
 msgstr "Hátlap"
 
@@ -1040,8 +1069,7 @@ msgstr "Biztonsági mentés..."
 msgid "Backups"
 msgstr "Biztonsági mentések"
 
-#: pylib/anki/stdmodels.py:18 pylib/anki/stdmodels.py:36
-#: qt/aqt/forms/preferences.py:272
+#: pylib/anki/stdmodels.py:18 pylib/anki/stdmodels.py:36 qt/aqt/forms/preferences.py:272
 msgid "Basic"
 msgstr "Alap"
 
@@ -1059,7 +1087,7 @@ msgstr "Alap (írja be a választ)"
 
 #: qt/aqt/browser.py:1252 qt/aqt/reviewer.py:694 qt/aqt/forms/browser.py:336
 msgid "Blue Flag"
-msgstr ""
+msgstr "Megjelölés kékkel"
 
 #: qt/aqt/editor.py:104
 msgid "Bold text (Ctrl+B)"
@@ -1073,7 +1101,7 @@ msgstr "Böngésző"
 #, python-format
 msgid "Browse (%(cur)d card shown; %(sel)s)"
 msgid_plural "Browse (%(cur)d cards shown; %(sel)s)"
-msgstr[0] ""
+msgstr[0] "Böngészés (%(cur)d kártya megjelenítve; %(sel)s)"
 msgstr[1] ""
 
 #: qt/aqt/addons.py:889
@@ -1086,7 +1114,7 @@ msgstr "Böngésző-megjelenés"
 
 #: qt/aqt/clayout.py:493
 msgid "Browser Appearance..."
-msgstr ""
+msgstr "Böngésző-megjelenés"
 
 #: qt/aqt/forms/browseropts.py:69
 msgid "Browser Options"
@@ -1125,15 +1153,16 @@ msgid "Bury related reviews until the next day"
 msgstr "Kapcsolódó ismétlések félretevése másnapig"
 
 #: qt/aqt/importing.py:125
-msgid "By default, Anki will detect the character between fields, such as\n"
+msgid ""
+"By default, Anki will detect the character between fields, such as\n"
 "a tab, comma, and so on. If Anki is detecting the character incorrectly,\n"
 "you can enter it here. Use \\t to represent tab."
-msgstr "Az Anki alapértelmezés szerint felismeri a mezők közti karaktert, például\n"
+msgstr ""
+"Az Anki alapértelmezés szerint felismeri a mezők közti karaktert, például\n"
 "a tabulátort, a vesszőt stb. Ha rosszul ismerné fel, akkor itt megadhatod.\n"
 "A tabulátort a \\t jelöli."
 
-#: qt/aqt/overview.py:115 qt/aqt/sound.py:522 qt/aqt/sync.py:299
-#: qt/aqt/sync.py:321
+#: qt/aqt/overview.py:115 qt/aqt/sound.py:522 qt/aqt/sync.py:299 qt/aqt/sync.py:321
 msgid "Cancel"
 msgstr "Mégsem"
 
@@ -1195,8 +1224,7 @@ msgstr "Kártya felfüggesztve."
 msgid "Card was a leech."
 msgstr "Ezt a kártyát mumusként tároltam el."
 
-#: pylib/anki/stats.py:336 pylib/anki/stats.py:973 qt/aqt/editor.py:159
-#: qt/aqt/forms/changemodel.py:112
+#: pylib/anki/stats.py:336 pylib/anki/stats.py:973 qt/aqt/editor.py:159 qt/aqt/forms/changemodel.py:112
 msgid "Cards"
 msgstr "Kártyák"
 
@@ -1265,7 +1293,7 @@ msgstr "Módosítva"
 #, python-format
 msgid "Changes below will affect the %(cnt)d note that uses this card type."
 msgid_plural "Changes below will affect the %(cnt)d notes that use this card type."
-msgstr[0] ""
+msgstr[0] "A változtatás hatással lesz %(cnt)d kártyára."
 msgstr[1] ""
 
 #: qt/aqt/forms/addons.py:68
@@ -1318,7 +1346,7 @@ msgstr ""
 
 #: qt/aqt/forms/browser.py:338
 msgid "Clear Unused Tags"
-msgstr ""
+msgstr "Törölje a nem használt címkéket"
 
 #: qt/aqt/models.py:192
 #, python-format
@@ -1337,8 +1365,7 @@ msgstr "Bezárod az ablakot és veszni hagyod a beírt adatokat?"
 msgid "Closing..."
 msgstr ""
 
-#: pylib/anki/stdmodels.py:100 pylib/anki/stdmodels.py:105
-#: pylib/anki/stdmodels.py:124 pylib/anki/storage.py:219
+#: pylib/anki/stdmodels.py:100 pylib/anki/stdmodels.py:105 pylib/anki/stdmodels.py:124 pylib/anki/storage.py:219
 msgid "Cloze"
 msgstr "Lyukas szöveg"
 
@@ -1451,7 +1478,7 @@ msgstr "&Szűrt csomag létrehozása..."
 
 #: qt/aqt/forms/modelopts.py:64
 msgid "Create scalable images with dvisvgm"
-msgstr ""
+msgstr "Készítsen méretezhető képeket a dvisvgm segítségével"
 
 #: qt/aqt/browser.py:716
 msgid "Created"
@@ -1530,8 +1557,7 @@ msgstr "Letiltás"
 msgid "Debug Console"
 msgstr "Hibakereső konzol"
 
-#: pylib/anki/stats.py:59 qt/aqt/browser.py:714 qt/aqt/deckbrowser.py:161
-#: qt/aqt/deckchooser.py:26 qt/aqt/forms/importing.py:106
+#: pylib/anki/stats.py:59 qt/aqt/browser.py:714 qt/aqt/deckbrowser.py:161 qt/aqt/deckchooser.py:26 qt/aqt/forms/importing.py:106
 msgid "Deck"
 msgstr "Csomag"
 
@@ -1551,8 +1577,7 @@ msgstr "Kártyacsomagok"
 msgid "Decreasing intervals"
 msgstr "időközök csökkenő sorrendjében"
 
-#: pylib/anki/decks.py:57 pylib/anki/storage.py:333 qt/aqt/deckchooser.py:48
-#: qt/aqt/deckchooser.py:52 qt/aqt/deckchooser.py:74
+#: pylib/anki/decks.py:57 pylib/anki/storage.py:333 qt/aqt/deckchooser.py:48 qt/aqt/deckchooser.py:52 qt/aqt/deckchooser.py:74
 msgid "Default"
 msgstr "Alapértelmezés"
 
@@ -1560,9 +1585,8 @@ msgstr "Alapértelmezés"
 msgid "Delays until reviews are shown again."
 msgstr "A következő ismétlésig hátralevő idő"
 
-#: qt/aqt/deckbrowser.py:257 qt/aqt/deckconf.py:83 qt/aqt/models.py:51
-#: qt/aqt/reviewer.py:787 qt/aqt/forms/addons.py:76 qt/aqt/forms/browser.py:330
-#: qt/aqt/forms/fields.py:102 qt/aqt/forms/profiles.py:78
+#: qt/aqt/deckbrowser.py:257 qt/aqt/deckconf.py:83 qt/aqt/models.py:51 qt/aqt/reviewer.py:787 qt/aqt/forms/addons.py:76 qt/aqt/forms/browser.py:330 qt/aqt/forms/fields.py:102
+#: qt/aqt/forms/profiles.py:78
 msgid "Delete"
 msgstr "Törlés"
 
@@ -1677,8 +1701,7 @@ msgstr "Leírás"
 msgid "Description to show on overview screen, for current deck:"
 msgstr ""
 
-#: qt/aqt/forms/dyndconf.py:133 qt/aqt/forms/editaddon.py:40
-#: qt/aqt/forms/editcurrent.py:41 qt/aqt/forms/progress.py:40
+#: qt/aqt/forms/dyndconf.py:133 qt/aqt/forms/editaddon.py:40 qt/aqt/forms/editcurrent.py:41 qt/aqt/forms/progress.py:40
 msgid "Dialog"
 msgstr "Párbeszéd"
 
@@ -1709,8 +1732,7 @@ msgstr ""
 msgid "Downloading from AnkiWeb..."
 msgstr "Letöltés az AnkiWebről..."
 
-#: pylib/anki/stats.py:43 qt/aqt/browser.py:719 qt/aqt/browser.py:1244
-#: qt/aqt/deckbrowser.py:162
+#: pylib/anki/stats.py:43 qt/aqt/browser.py:719 qt/aqt/browser.py:1244 qt/aqt/deckbrowser.py:162
 msgid "Due"
 msgstr "Esedékes"
 
@@ -1777,10 +1799,14 @@ msgstr "&Üres kártyák..."
 
 #: pylib/anki/collection.py:583
 #, python-format
-msgid "Empty card numbers: %(c)s\n"
-"Fields: %(f)s\n\n"
-msgstr "Üres kártyák száma: %(c)s\n"
-"Mezők: %(f)s\n\n"
+msgid ""
+"Empty card numbers: %(c)s\n"
+"Fields: %(f)s\n"
+"\n"
+msgstr ""
+"Üres kártyák száma: %(c)s\n"
+"Mezők: %(f)s\n"
+"\n"
 
 #: pylib/anki/importing/noteimp.py:201
 msgid "Empty cards found. Please run Tools>Empty Cards."
@@ -1793,7 +1819,7 @@ msgstr "Üres az első mezője: %s"
 
 #: qt/aqt/forms/dyndconf.py:144
 msgid "Enable second filter"
-msgstr ""
+msgstr "A második szűrő engedélyezése"
 
 #: qt/aqt/forms/browser.py:324
 msgid "End"
@@ -1824,14 +1850,17 @@ msgstr ""
 
 #: qt/aqt/main.py:95
 #, python-format
-msgid "Error during startup:\n"
+msgid ""
+"Error during startup:\n"
 "%s"
-msgstr "Hiba a program indítása során:\n"
+msgstr ""
+"Hiba a program indítása során:\n"
 "%s"
 
 #: qt/aqt/sync.py:237 qt/aqt/sync.py:244
 msgid "Error establishing a secure connection. This is usually caused by antivirus, firewall or VPN software, or problems with your ISP."
-msgstr "Hiba történt a biztonságos kapcsolat létesítése során. Ezt általában vírusirtó, tűzfal, illetve VPN (virtuális magánhálózat) program okozza, vagy pedig az internetszolgáltatóddal lehet probléma."
+msgstr ""
+"Hiba történt a biztonságos kapcsolat létesítése során. Ezt általában vírusirtó, tűzfal, illetve VPN (virtuális magánhálózat) program okozza, vagy pedig az internetszolgáltatóddal lehet probléma."
 
 #: pylib/anki/latex.py:173
 #, python-format
@@ -1848,8 +1877,7 @@ msgstr ""
 msgid "Error running %s"
 msgstr "Hiba %s futtatásakor"
 
-#: qt/aqt/deckbrowser.py:255 qt/aqt/exporting.py:122
-#: qt/aqt/forms/exporting.py:74
+#: qt/aqt/deckbrowser.py:255 qt/aqt/exporting.py:122 qt/aqt/forms/exporting.py:74
 msgid "Export"
 msgstr "Exportálás"
 
@@ -1881,8 +1909,7 @@ msgstr "Mezőnév:"
 msgid "Field:"
 msgstr "Mező:"
 
-#: qt/aqt/editor.py:158 qt/aqt/fields.py:20 qt/aqt/forms/changemodel.py:113
-#: qt/aqt/forms/fields.py:100
+#: qt/aqt/editor.py:158 qt/aqt/fields.py:20 qt/aqt/forms/changemodel.py:113 qt/aqt/forms/fields.py:100
 msgid "Fields"
 msgstr "Mezők"
 
@@ -1984,11 +2011,11 @@ msgstr "Javított jegyzettípus: %s"
 
 #: qt/aqt/forms/browser.py:302
 msgid "Flag"
-msgstr ""
+msgstr "Jelölés"
 
 #: qt/aqt/reviewer.py:673
 msgid "Flag Card"
-msgstr ""
+msgstr "Megjelölt kártyák"
 
 #: qt/aqt/clayout.py:278
 msgid "Flip"
@@ -2015,8 +2042,7 @@ msgstr "'%s' biztonsági okból nem megengedett a kártyákon. Úgy lehet haszn�
 msgid "Forecast"
 msgstr "Előrejelzés"
 
-#: qt/aqt/forms/clayout_top.py:56 qt/aqt/forms/preview.py:39
-#: qt/aqt/forms/template.py:106
+#: qt/aqt/forms/clayout_top.py:56 qt/aqt/forms/preview.py:39 qt/aqt/forms/template.py:106
 msgid "Form"
 msgstr "Űrlap"
 
@@ -2025,10 +2051,8 @@ msgstr "Űrlap"
 msgid "Found %(a)s across %(b)s."
 msgstr "%(b)s közül %(a)s találat."
 
-#: pylib/anki/exporting.py:376 pylib/anki/stdmodels.py:19
-#: pylib/anki/stdmodels.py:24 pylib/anki/stdmodels.py:46
-#: pylib/anki/stdmodels.py:47 pylib/anki/stdmodels.py:63
-#: pylib/anki/template.py:127 qt/aqt/forms/addfield.py:74
+#: pylib/anki/exporting.py:376 pylib/anki/stdmodels.py:19 pylib/anki/stdmodels.py:24 pylib/anki/stdmodels.py:46 pylib/anki/stdmodels.py:47 pylib/anki/stdmodels.py:63 pylib/anki/template.py:127
+#: qt/aqt/forms/addfield.py:74
 msgid "Front"
 msgstr "Előlap"
 
@@ -2072,7 +2096,7 @@ msgstr "Előrelépési időköz"
 
 #: qt/aqt/browser.py:1251 qt/aqt/reviewer.py:688 qt/aqt/forms/browser.py:335
 msgid "Green Flag"
-msgstr ""
+msgstr "Megjelölés zöldel"
 
 #: qt/aqt/forms/edithtml.py:37
 msgid "HTML Editor"
@@ -2098,8 +2122,7 @@ msgstr ""
 msgid "Header"
 msgstr "Fejléc"
 
-#: qt/aqt/addcards.py:74 qt/aqt/clayout.py:268 qt/aqt/utils.py:193
-#: qt/aqt/utils.py:194
+#: qt/aqt/addcards.py:74 qt/aqt/clayout.py:268 qt/aqt/utils.py:193 qt/aqt/utils.py:194
 msgid "Help"
 msgstr "Súgó"
 
@@ -2159,8 +2182,7 @@ msgstr "Hagyja ki azokat a sorokat, ahol az első mező egyezik egy meglévő je
 msgid "Ignore this update"
 msgstr "Frissítés kihagyása"
 
-#: qt/aqt/importing.py:98 qt/aqt/importing.py:192 qt/aqt/importing.py:309
-#: qt/aqt/forms/changemap.py:41 qt/aqt/forms/importing.py:103
+#: qt/aqt/importing.py:98 qt/aqt/importing.py:192 qt/aqt/importing.py:309 qt/aqt/forms/changemap.py:41 qt/aqt/forms/importing.py:103
 msgid "Import"
 msgstr "Importálás"
 
@@ -2190,21 +2212,29 @@ msgstr "Az importálás befejeződött."
 
 #: qt/aqt/main.py:1135
 #, python-format
-msgid "In order to ensure your collection works correctly when moved between devices, Anki requires your computer's internal clock to be set correctly. The internal clock can be wrong even if your system is showing the correct local time.\n\n"
-"Please go to the time settings on your computer and check the following:\n\n"
+msgid ""
+"In order to ensure your collection works correctly when moved between devices, Anki requires your computer's internal clock to be set correctly. The internal clock can be wrong even if your system is showing the correct local time.\n"
+"\n"
+"Please go to the time settings on your computer and check the following:\n"
+"\n"
 "- AM/PM\n"
 "- Clock drift\n"
 "- Day, month and year\n"
 "- Timezone\n"
-"- Daylight savings\n\n"
+"- Daylight savings\n"
+"\n"
 "Difference to correct time: %s."
-msgstr "Ahhoz, hogy a gyűjteményed jól működjön akkor is, ha más eszközre kerül át, szükséges, hogy a számítógéped belső órája pontosan legyen beállítva. A belső óra olyankor is el lehet állítva, ha a rendszered pontosan mutatja a helyi időt.\n\n"
-"Kérlek, menj a számítógéped időbeállításaira, és ellenőrizd az alábbiakat:\n\n"
+msgstr ""
+"Ahhoz, hogy a gyűjteményed jól működjön akkor is, ha más eszközre kerül át, szükséges, hogy a számítógéped belső órája pontosan legyen beállítva. A belső óra olyankor is el lehet állítva, ha a rendszered pontosan mutatja a helyi időt.\n"
+"\n"
+"Kérlek, menj a számítógéped időbeállításaira, és ellenőrizd az alábbiakat:\n"
+"\n"
 "- de./du. (AM/PM)\n"
 "- órahiba (csúszás)\n"
 "- év, hónap, nap\n"
 "- időzóna\n"
-"- téli/nyári időszámítás\n\n"
+"- téli/nyári időszámítás\n"
+"\n"
 "A pontos időtől való eltérés: %s."
 
 #: qt/aqt/forms/exporting.py:80
@@ -2432,7 +2462,7 @@ msgstr "Műveletek"
 
 #: qt/aqt/forms/main.py:154
 msgid "Manage Note Types"
-msgstr ""
+msgstr "Jegyzet típusok kezelése"
 
 #: qt/aqt/forms/browser.py:339
 msgid "Manage Note Types..."
@@ -2440,7 +2470,7 @@ msgstr "&Jegyzettípusok kezelése..."
 
 #: qt/aqt/browser.py:1299 qt/aqt/forms/dconf.py:339
 msgid "Manage..."
-msgstr ""
+msgstr "Kezelés..."
 
 #: qt/aqt/overview.py:112
 msgid "Manually Buried Cards"
@@ -2471,8 +2501,7 @@ msgstr ""
 msgid "MathJax inline"
 msgstr ""
 
-#: pylib/anki/stats.py:245 pylib/anki/stats.py:372 pylib/anki/stats.py:392
-#: pylib/anki/stats.py:707 pylib/anki/stats.py:877
+#: pylib/anki/stats.py:245 pylib/anki/stats.py:372 pylib/anki/stats.py:392 pylib/anki/stats.py:707 pylib/anki/stats.py:877
 msgid "Mature"
 msgstr "Veterán"
 
@@ -2577,8 +2606,7 @@ msgstr "Új kártyacsomag neve:"
 msgid "New interval"
 msgstr "Új időköz"
 
-#: qt/aqt/clayout.py:388 qt/aqt/deckconf.py:139 qt/aqt/fields.py:72
-#: qt/aqt/main.py:262 qt/aqt/models.py:67
+#: qt/aqt/clayout.py:388 qt/aqt/deckconf.py:139 qt/aqt/fields.py:72 qt/aqt/main.py:262 qt/aqt/models.py:67
 msgid "New name:"
 msgstr "Új név:"
 
@@ -2605,7 +2633,7 @@ msgstr ""
 
 #: qt/aqt/browser.py:1253
 msgid "No Flag"
-msgstr ""
+msgstr "Nincs jelölés"
 
 #: qt/aqt/overview.py:49
 msgid "No cards are due yet."
@@ -2613,7 +2641,7 @@ msgstr "Egyetlen kártya sem esedékes még."
 
 #: pylib/anki/stats.py:210
 msgid "No cards have been studied today."
-msgstr ""
+msgstr "Ma még nem tanultál."
 
 #: qt/aqt/customstudy.py:185
 msgid "No cards matched the criteria you provided."
@@ -2717,7 +2745,7 @@ msgstr "Semmi"
 
 #: qt/aqt/customstudy.py:57
 msgid "OK"
-msgstr ""
+msgstr "OK"
 
 #: pylib/anki/consts.py:87
 msgid "Oldest seen first"
@@ -2732,8 +2760,12 @@ msgid "One or more errors occurred:"
 msgstr ""
 
 #: pylib/anki/importing/noteimp.py:231
-msgid "One or more notes were not imported, because they didn't generate any cards. This can happen when you have empty fields or when you have not mapped the content in the text file to the correct fields."
-msgstr "A program egyes jegyzeteket nem importált, mivel nem jött létre belőlük kártya. Ez olyankor fordul elő, ha valamelyik mező üres, illetve ha a szövegfájl tartalmát nem a megfelelő mezőkre képezted le."
+msgid ""
+"One or more notes were not imported, because they didn't generate any cards. This can happen when you have empty fields or when you have not mapped the content in the text file to the correct "
+"fields."
+msgstr ""
+"A program egyes jegyzeteket nem importált, mivel nem jött létre belőlük kártya. Ez olyankor fordul elő, ha valamelyik mező üres, illetve ha a szövegfájl tartalmát nem a megfelelő mezőkre képezted "
+"le."
 
 #: qt/aqt/browser.py:1971
 msgid "Only new cards can be repositioned."
@@ -2749,7 +2781,7 @@ msgstr "Megnyitás"
 
 #: qt/aqt/forms/profiles.py:80
 msgid "Open Backup..."
-msgstr ""
+msgstr "Biztonsági mentés megnyitása..."
 
 #: qt/aqt/main.py:570
 msgid "Optimizing..."
@@ -2759,9 +2791,7 @@ msgstr "Optimalizálás..."
 msgid "Optional filter:"
 msgstr ""
 
-#: qt/aqt/clayout.py:107 qt/aqt/deckbrowser.py:253 qt/aqt/deckconf.py:31
-#: qt/aqt/dyndeckconf.py:24 qt/aqt/overview.py:228 qt/aqt/reviewer.py:707
-#: qt/aqt/forms/dyndconf.py:142 qt/aqt/forms/fields.py:108
+#: qt/aqt/clayout.py:107 qt/aqt/deckbrowser.py:253 qt/aqt/deckconf.py:31 qt/aqt/dyndeckconf.py:24 qt/aqt/overview.py:228 qt/aqt/reviewer.py:707 qt/aqt/forms/dyndconf.py:142 qt/aqt/forms/fields.py:108
 msgid "Options"
 msgstr "Beállítások"
 
@@ -2780,7 +2810,7 @@ msgstr "Beállítások…"
 
 #: qt/aqt/browser.py:1250 qt/aqt/reviewer.py:682 qt/aqt/forms/browser.py:334
 msgid "Orange Flag"
-msgstr ""
+msgstr "Megjelölés narancsal"
 
 #: qt/aqt/forms/dconf.py:342
 msgid "Order"
@@ -3021,7 +3051,7 @@ msgstr "Felvétel...<br>Idő: %0.1f"
 
 #: qt/aqt/browser.py:1249 qt/aqt/reviewer.py:676 qt/aqt/forms/browser.py:333
 msgid "Red Flag"
-msgstr ""
+msgstr "Megjelölés pirossal"
 
 #: pylib/anki/consts.py:95
 msgid "Relative overdueness"
@@ -3038,30 +3068,29 @@ msgstr "Legutóbbi szöveg megjelenítése hozzáadáskor"
 #: qt/aqt/browser.py:1362
 #, python-format
 msgid "Remove %s from your saved searches?"
-msgstr ""
+msgstr "Eltávolítja a %s a mentett keresések közül?"
 
 #: qt/aqt/clayout.py:474
 msgid "Remove Card Type..."
-msgstr ""
+msgstr "Kártya típus eltávolítása ..."
 
 #: qt/aqt/browser.py:1337
 msgid "Remove Current Filter..."
-msgstr ""
+msgstr "Aktuális szűrő eltávolítása..."
 
 #: qt/aqt/forms/browser.py:328
 msgid "Remove Tags..."
-msgstr ""
+msgstr "Címkék eltávolítása..."
 
 #: qt/aqt/editor.py:115
 msgid "Remove formatting (Ctrl+R)"
-msgstr ""
+msgstr "A formázás eltávolítása (Ctrl+R)"
 
 #: qt/aqt/clayout.py:250
 msgid "Removing this card type would cause one or more notes to be deleted. Please create a new card type first."
 msgstr "Ha törlöd ezt a kártyatípust, akkor egy vagy több jegyzet is törlődni fog. Kérlek, hozz létre előbb egy új kártyatípust!"
 
-#: qt/aqt/deckbrowser.py:251 qt/aqt/deckconf.py:85 qt/aqt/models.py:49
-#: qt/aqt/forms/fields.py:103 qt/aqt/forms/profiles.py:77
+#: qt/aqt/deckbrowser.py:251 qt/aqt/deckconf.py:85 qt/aqt/models.py:49 qt/aqt/forms/fields.py:103 qt/aqt/forms/profiles.py:77
 msgid "Rename"
 msgstr "Átnevezés"
 
@@ -3079,7 +3108,7 @@ msgstr ""
 
 #: qt/aqt/main.py:295
 msgid "Replace your collection with an earlier backup?"
-msgstr ""
+msgstr "Cserélje le gyűjteményét egy korábbi biztonsági másolatra?"
 
 #: qt/aqt/browser.py:1569 qt/aqt/reviewer.py:709
 msgid "Replay Audio"
@@ -3123,7 +3152,7 @@ msgstr "Kártyák átütemezése az e csomagban adott válaszaimnak megfelelően
 
 #: qt/aqt/addons.py:1269
 msgid "Restored defaults"
-msgstr ""
+msgstr "Alakpértékek visszaállítása"
 
 #: qt/aqt/main.py:670
 msgid "Resume Now"
@@ -3174,8 +3203,7 @@ msgstr "Elfelejtett kártyák ismétlése"
 msgid "Review success rate for each hour of the day."
 msgstr "Ismétlés sikerességének aránya a nap egyes óráiban"
 
-#: pylib/anki/stats.py:47 pylib/anki/stats.py:838 qt/aqt/browser.py:722
-#: qt/aqt/forms/dconf.py:361
+#: pylib/anki/stats.py:47 pylib/anki/stats.py:838 qt/aqt/browser.py:722 qt/aqt/forms/dconf.py:361
 msgid "Reviews"
 msgstr "Ismétlések"
 
@@ -3190,27 +3218,26 @@ msgstr "Jobb"
 
 #: qt/aqt/sound.py:519
 msgid "Save"
-msgstr ""
+msgstr "Mentés"
 
 #: qt/aqt/browser.py:1339
 msgid "Save Current Filter..."
-msgstr ""
+msgstr "Aktuális szűrő mentése ..."
 
 #: qt/aqt/stats.py:40 qt/aqt/stats.py:70
 msgid "Save PDF"
-msgstr ""
+msgstr "Mentés PDF-ként"
 
 #: qt/aqt/stats.py:83
 msgid "Saved."
-msgstr ""
+msgstr "Mentve."
 
 #: pylib/anki/stats.py:964
 #, python-format
 msgid "Scope: %s"
 msgstr "Hatókör: %s"
 
-#: qt/aqt/browser.py:2175 qt/aqt/forms/browser.py:295
-#: qt/aqt/forms/dyndconf.py:136 qt/aqt/forms/dyndconf.py:140
+#: qt/aqt/browser.py:2175 qt/aqt/forms/browser.py:295 qt/aqt/forms/dyndconf.py:136 qt/aqt/forms/dyndconf.py:140
 msgid "Search"
 msgstr "Keresés"
 
@@ -3279,11 +3306,8 @@ msgstr "A Shift gomb le van nyomva. Az automatikus szinkronizálás és a kiegé
 msgid "Shift position of existing cards"
 msgstr "Meglévő kártyák eltolása"
 
-#: qt/aqt/browser.py:1573 qt/aqt/browser.py:1591 qt/aqt/deckbrowser.py:338
-#: qt/aqt/main.py:698 qt/aqt/overview.py:241 qt/aqt/reviewer.py:556
-#: qt/aqt/reviewer.py:569 qt/aqt/reviewer.py:635 qt/aqt/toolbar.py:50
-#: qt/aqt/toolbar.py:51 qt/aqt/toolbar.py:52 qt/aqt/toolbar.py:53
-#: qt/aqt/toolbar.py:54
+#: qt/aqt/browser.py:1573 qt/aqt/browser.py:1591 qt/aqt/deckbrowser.py:338 qt/aqt/main.py:698 qt/aqt/overview.py:241 qt/aqt/reviewer.py:556 qt/aqt/reviewer.py:569 qt/aqt/reviewer.py:635
+#: qt/aqt/toolbar.py:50 qt/aqt/toolbar.py:51 qt/aqt/toolbar.py:52 qt/aqt/toolbar.py:53 qt/aqt/toolbar.py:54
 #, python-format
 msgid "Shortcut key: %s"
 msgstr "Gyorsbillentyű: %s"
@@ -3419,7 +3443,7 @@ msgstr "A lépéseknek számoknak kell lenniük."
 
 #: qt/aqt/sync.py:61
 msgid "Stopping..."
-msgstr ""
+msgstr "Leállítás..."
 
 #: pylib/anki/stats.py:178
 #, python-format
@@ -3505,9 +3529,11 @@ msgstr "Hang- és képanyag szinkronizálása is"
 
 #: qt/aqt/sync.py:152
 #, python-format
-msgid "Syncing failed:\n"
+msgid ""
+"Syncing failed:\n"
 "%s"
-msgstr "A szinkronizálás sikertelen volt:\n"
+msgstr ""
+"A szinkronizálás sikertelen volt:\n"
 "%s"
 
 #: qt/aqt/sync.py:119
@@ -3649,19 +3675,25 @@ msgid "The provided search did not match any cards. Would you like to revise it?
 msgstr "A megadott keresésnek egyetlen kártya sem felelt meg. Szeretnéd módosítani?"
 
 #: qt/aqt/main.py:1235
-msgid "The requested change will require a full upload of the database when you next synchronize your collection. If you have reviews or other changes waiting on another device that haven't been synchronized here yet, they will be lost. Continue?"
-msgstr "A kívánt módosításhoz a teljes adatbázist fel kell tölteni, amikor legközelebb szinkronizálod a gyűjteményt. Ha más eszközön olyan változtatást végeztél, amit még nem szinkronizáltál, akkor az most el fog veszni. Akarod folytatni?"
+msgid ""
+"The requested change will require a full upload of the database when you next synchronize your collection. If you have reviews or other changes waiting on another device that haven't been "
+"synchronized here yet, they will be lost. Continue?"
+msgstr ""
+"A kívánt módosításhoz a teljes adatbázist fel kell tölteni, amikor legközelebb szinkronizálod a gyűjteményt. Ha más eszközön olyan változtatást végeztél, amit még nem szinkronizáltál, akkor az most "
+"el fog veszni. Akarod folytatni?"
 
 #: pylib/anki/stats.py:406
 msgid "The time taken to answer the questions."
 msgstr "A kérdések megválaszolásával eltöltött idő"
 
 #: pylib/anki/sched.py:1282 pylib/anki/schedv2.py:1480
-msgid "There are more new cards available, but the daily limit has been\n"
+msgid ""
+"There are more new cards available, but the daily limit has been\n"
 "reached. You can increase the limit in the options, but please\n"
 "bear in mind that the more new cards you introduce, the higher\n"
 "your short-term review workload will become."
-msgstr "Van még új kártya, de elérted a napi limitet. Növelheted a limitet\n"
+msgstr ""
+"Van még új kártya, de elérted a napi limitet. Növelheted a limitet\n"
 "a beállításoknál, de kérlek, tartsd szem előtt, hogy minél több\n"
 "új kártyát vezetsz be, annál megterhelőbb lesz a rövid távú ismétlés."
 
@@ -3682,8 +3714,12 @@ msgid "This column can't be sorted on, but you can search for specific decks by 
 msgstr "E szerint az oszlop szerint nem lehet rendezni, viszont kereshetsz konkrét kártyacsomagokra, ha baloldalt rákattintasz valamelyikre."
 
 #: qt/aqt/importing.py:422
-msgid "This file does not appear to be a valid .apkg file. If you're getting this error from a file downloaded from AnkiWeb, chances are that your download failed. Please try again, and if the problem persists, please try again with a different browser."
-msgstr "Úgy tűnik, ez nem érvényes .apkg fájl. Ha ezt a hibaüzenetet egy AnkiWebről letöltött fájlból kaptad, a letöltés valószínűleg sikertelen volt. Kérlek, próbáld újra, és ha a probléma továbbra is fennáll, próbálkozz egy másik böngészővel."
+msgid ""
+"This file does not appear to be a valid .apkg file. If you're getting this error from a file downloaded from AnkiWeb, chances are that your download failed. Please try again, and if the problem "
+"persists, please try again with a different browser."
+msgstr ""
+"Úgy tűnik, ez nem érvényes .apkg fájl. Ha ezt a hibaüzenetet egy AnkiWebről letöltött fájlból kaptad, a letöltés valószínűleg sikertelen volt. Kérlek, próbáld újra, és ha a probléma továbbra is "
+"fennáll, próbálkozz egy másik böngészővel."
 
 #: qt/aqt/utils.py:393
 msgid "This file exists. Are you sure you want to overwrite it?"
@@ -3691,13 +3727,17 @@ msgstr "A fájl már létezik. Biztosan felül szeretnéd írni?"
 
 #: qt/aqt/profiles.py:379
 #, python-format
-msgid "This folder stores all of your Anki data in a single location,\n"
+msgid ""
+"This folder stores all of your Anki data in a single location,\n"
 "to make backups easy. To tell Anki to use a different location,\n"
-"please see:\n\n"
+"please see:\n"
+"\n"
 "%s\n"
-msgstr "A biztonsági másolatok könnyebb mentése végett\n"
+msgstr ""
+"A biztonsági másolatok könnyebb mentése végett\n"
 "ebben a mappában, egy helyen szerepel minden\n"
-"Ankival kapcsolatos adat. Más hely beállításához lásd:\n\n"
+"Ankival kapcsolatos adat. Más hely beállításához lásd:\n"
+"\n"
 "%s\n"
 
 #: qt/aqt/overview.py:159
@@ -3712,8 +3752,8 @@ msgstr "Ez egy {{c1::minta}} lyukas szöveg."
 #, python-format
 msgid "This will create %d card. Proceed?"
 msgid_plural "This will create %d cards. Proceed?"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Ez létrehozza a %d kártyát. Folytassa?"
+msgstr[1] "Ez létrehozza a %d kártyákat. Folytassa?"
 
 #: qt/aqt/importing.py:442
 msgid "This will delete your existing collection and replace it with the data in the file you're importing. Are you sure?"
@@ -3721,7 +3761,7 @@ msgstr "Ez a művelet törli a meglévő gyűjteményed, és a most importált f
 
 #: qt/aqt/preferences.py:135
 msgid "This will reset any cards in learning, clear filtered decks, and change the scheduler version. Proceed?"
-msgstr ""
+msgstr "Ez alaphelyzetbe állítja a tanuláshoz szükséges összes kártyát, törli a szűrt kártyacsomagot, és visszaállítja az ütemezőt. Biztos benne?"
 
 #: qt/aqt/browser.py:1435
 msgid "Time"
@@ -3737,7 +3777,8 @@ msgstr "Ismételendő"
 
 #: qt/aqt/forms/getaddons.py:49
 msgid "To browse add-ons, please click the browse button below.<br><br>When you've found an add-on you like, please paste its code below. You can paste multiple codes, separated by spaces."
-msgstr "Bővítmények kereséséhez kattintson a lenti keresés gombra.<br><br>Ha megtalálta a kívánt bővítményt, kérjük, illessze be annak kódját alulra. Több kódot is beilleszthet, szóközökkel elválasztva."
+msgstr ""
+"Bővítmények kereséséhez kattintson a lenti keresés gombra.<br><br>Ha megtalálta a kívánt bővítményt, kérjük, illessze be annak kódját alulra. Több kódot is beilleszthet, szóközökkel elválasztva."
 
 #: qt/aqt/editor.py:595
 msgid "To make a cloze deletion on an existing note, you need to change it to a cloze type first, via Edit>Change Note Type."
@@ -3756,24 +3797,26 @@ msgid "Today"
 msgstr "Ma"
 
 #: pylib/anki/sched.py:1273 pylib/anki/schedv2.py:1471
-msgid "Today's review limit has been reached, but there are still cards\n"
+msgid ""
+"Today's review limit has been reached, but there are still cards\n"
 "waiting to be reviewed. For optimum memory, consider increasing\n"
 "the daily limit in the options."
-msgstr "A mai ismétlési limitet elérted, de vannak még ismételendő kártyák.\n"
+msgstr ""
+"A mai ismétlési limitet elérted, de vannak még ismételendő kártyák.\n"
 "Az optimális memorizálás érdekében hasznos lehet a beállítások között\n"
 "megnövelned a napi limitet."
 
 #: qt/aqt/forms/addons.py:75
 msgid "Toggle Enabled"
-msgstr ""
+msgstr "Kártya enkedélyezve"
 
 #: qt/aqt/forms/browser.py:340
 msgid "Toggle Mark"
-msgstr ""
+msgstr "Kártya megjelölés"
 
 #: qt/aqt/forms/browser.py:329
 msgid "Toggle Suspend"
-msgstr ""
+msgstr "Kártya felfüggesztése"
 
 #: pylib/anki/stats.py:279 pylib/anki/stats.py:344 pylib/anki/stats.py:438
 msgid "Total"
@@ -3795,8 +3838,7 @@ msgstr "Jegyzetek összesen"
 msgid "Treat input as regular expression"
 msgstr "A bevitt szöveg reguláris kifejezésként értendő"
 
-#: qt/aqt/browser.py:1431 qt/aqt/modelchooser.py:26
-#: qt/aqt/forms/importing.py:105
+#: qt/aqt/browser.py:1431 qt/aqt/modelchooser.py:26 qt/aqt/forms/importing.py:105
 msgid "Type"
 msgstr "Típus"
 
@@ -3819,7 +3861,9 @@ msgstr ""
 
 #: qt/aqt/addons.py:422
 #, python-format
-msgid "Unable to update or delete add-on. Please start Anki while holding down the shift key to temporarily disable add-ons, then try again.\n\n"
+msgid ""
+"Unable to update or delete add-on. Please start Anki while holding down the shift key to temporarily disable add-ons, then try again.\n"
+"\n"
 "Debug info: %s"
 msgstr ""
 
@@ -3929,7 +3973,7 @@ msgstr ""
 
 #: qt/aqt/forms/preferences.py:282
 msgid "You can restore backups via File>Switch Profile."
-msgstr ""
+msgstr "A biztonsági mentéseket visszaállíthatja a Fájl> Profilváltás menüponttal."
 
 #: qt/aqt/addcards.py:179
 msgid "You have a cloze deletion note type but have not made any cloze deletions. Proceed?"
@@ -3948,8 +3992,7 @@ msgstr "Még nem vetted fel a hangodat."
 msgid "You must have at least one column."
 msgstr "Legalább egy oszlopnak lennie kell."
 
-#: pylib/anki/stats.py:246 pylib/anki/stats.py:373 pylib/anki/stats.py:393
-#: pylib/anki/stats.py:706
+#: pylib/anki/stats.py:246 pylib/anki/stats.py:373 pylib/anki/stats.py:393 pylib/anki/stats.py:706
 msgid "Young"
 msgstr "Friss"
 
@@ -3966,7 +4009,9 @@ msgid "Your changes will affect multiple decks. If you wish to change only the c
 msgstr "A módosításaid több kártyacsomagot is érintenek. Ha csak az aktuális csomagot szeretnéd módosítani, kérlek, hozz létre előbb ehhez egy új opciócsoportot."
 
 #: qt/aqt/main.py:503
-msgid "Your collection file appears to be corrupt. This can happen when the file is copied or moved while Anki is open, or when the collection is stored on a network or cloud drive. If problems persist after restarting your computer, please open an automatic backup from the profile screen."
+msgid ""
+"Your collection file appears to be corrupt. This can happen when the file is copied or moved while Anki is open, or when the collection is stored on a network or cloud drive. If problems persist "
+"after restarting your computer, please open an automatic backup from the profile screen."
 msgstr ""
 
 #: qt/aqt/sync.py:345
@@ -3978,9 +4023,13 @@ msgid "Your collection or a media file is too large to sync."
 msgstr "A gyűjteményed vagy egy médiafájl túl nagy a szinkronizáláshoz."
 
 #: qt/aqt/sync.py:75
-msgid "Your collection was successfully uploaded to AnkiWeb.\n\n"
+msgid ""
+"Your collection was successfully uploaded to AnkiWeb.\n"
+"\n"
 "If you use any other devices, please sync them now, and choose to download the collection you have just uploaded from this computer. After doing so, future reviews and added cards will be merged automatically."
-msgstr "A gyűjteményed feltöltése az AnkiWebre sikeresen megtörtént.\n\n"
+msgstr ""
+"A gyűjteményed feltöltése az AnkiWebre sikeresen megtörtént.\n"
+"\n"
 "Ha bármely más eszközt is használsz, kérlek, szinkronizáld most ezeket, és a letöltést válaszd majd arra a gyűjteményre vonatkozóan, amit az imént töltöttél fel erről a gépről. A későbbi ismétlések és a hozzáadott kártyák ezt követően automatikusan be lesznek illesztve ebbe az állományba."
 
 #: qt/aqt/errors.py:105
@@ -3988,13 +4037,21 @@ msgid "Your computer's storage may be full. Please delete some unneeded files, t
 msgstr ""
 
 #: qt/aqt/sync.py:305
-msgid "Your decks here and on AnkiWeb differ in such a way that they can't be merged together, so it's necessary to overwrite the decks on one side with the decks from the other.\n\n"
-"If you choose download, Anki will download the collection from AnkiWeb, and any changes you have made on your computer since the last sync will be lost.\n\n"
-"If you choose upload, Anki will upload your collection to AnkiWeb, and any changes you have made on AnkiWeb or your other devices since the last sync to this device will be lost.\n\n"
+msgid ""
+"Your decks here and on AnkiWeb differ in such a way that they can't be merged together, so it's necessary to overwrite the decks on one side with the decks from the other.\n"
+"\n"
+"If you choose download, Anki will download the collection from AnkiWeb, and any changes you have made on your computer since the last sync will be lost.\n"
+"\n"
+"If you choose upload, Anki will upload your collection to AnkiWeb, and any changes you have made on AnkiWeb or your other devices since the last sync to this device will be lost.\n"
+"\n"
 "After all devices are in sync, future reviews and added cards can be merged automatically."
-msgstr "Az itteni és az AnkiWeben tárolt kártyacsomagjaid oly mértékben eltérnek, hogy nem lehet egyesíteni őket, így az egyiken lévő csomagokat felül kell írni a másikon lévőkkel.\n\n"
-"Ha a letöltést választod, az Anki letölti a gyűjteményt az AnkiWebről, és minden olyan változás el fog veszni, amit a számítógépeden végeztél a legutóbbi szinkronizálás óta.\n\n"
-"Ha a feltöltést választod, az Anki feltölti a gyűjteményedet az AnkiWebre, és minden olyan változás el fog veszni, amit az AnkiWeben vagy más eszközödön végeztél az ezzel a géppel való legutóbbi szinkronizálás óta.\n\n"
+msgstr ""
+"Az itteni és az AnkiWeben tárolt kártyacsomagjaid oly mértékben eltérnek, hogy nem lehet egyesíteni őket, így az egyiken lévő csomagokat felül kell írni a másikon lévőkkel.\n"
+"\n"
+"Ha a letöltést választod, az Anki letölti a gyűjteményt az AnkiWebről, és minden olyan változás el fog veszni, amit a számítógépeden végeztél a legutóbbi szinkronizálás óta.\n"
+"\n"
+"Ha a feltöltést választod, az Anki feltölti a gyűjteményedet az AnkiWebre, és minden olyan változás el fog veszni, amit az AnkiWeben vagy más eszközödön végeztél az ezzel a géppel való legutóbbi szinkronizálás óta.\n"
+"\n"
 "Miután minden eszköz szinkronba került, a későbbi ismétlések és hozzáadott kártyák automatikusan be lesznek illesztve."
 
 #: qt/aqt/errors.py:80
@@ -4030,9 +4087,7 @@ msgstr "gyűjtemény"
 msgid "d"
 msgstr "n"
 
-#: qt/aqt/customstudy.py:90 qt/aqt/customstudy.py:94 qt/aqt/customstudy.py:97
-#: qt/aqt/forms/dconf.py:348 qt/aqt/forms/dconf.py:349
-#: qt/aqt/forms/dconf.py:356 qt/aqt/forms/dconf.py:368
+#: qt/aqt/customstudy.py:90 qt/aqt/customstudy.py:94 qt/aqt/customstudy.py:97 qt/aqt/forms/dconf.py:348 qt/aqt/forms/dconf.py:349 qt/aqt/forms/dconf.py:356 qt/aqt/forms/dconf.py:368
 #: qt/aqt/forms/reschedule.py:77
 msgid "days"
 msgstr "nap"
@@ -4093,7 +4148,7 @@ msgstr[1] ""
 #, python-format
 msgid "in %s second"
 msgid_plural "in %s seconds"
-msgstr[0] ""
+msgstr[0] "%s másodpercben"
 msgstr[1] ""
 
 #: pylib/anki/utils.py:48
@@ -4165,4 +4220,3 @@ msgstr ""
 #: qt/aqt/forms/reschedule.py:76
 msgid "~"
 msgstr ""
-
