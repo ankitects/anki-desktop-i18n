@@ -49,7 +49,7 @@ def fix_po(path):
     problems = []
     strs = []
 
-    for line in open(path):
+    for line in open(path, encoding="UTF-8"):
         lines.append(line)
 
         # comment?
