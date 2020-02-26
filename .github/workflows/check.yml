@@ -1,4 +1,4 @@
-name: Lint
+name: Check
 
 on: [push, pull_request]
 
@@ -10,3 +10,4 @@ jobs:
       - name: Check
         run: |
           python3 check-po-files.py
+          ./check-merge.sh
