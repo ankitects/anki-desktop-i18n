@@ -9,5 +9,6 @@ jobs:
       - uses: actions/checkout@v1
       - name: Check
         run: |
+          sudo apt install gettext
           python3 check-po-files.py
           ./check-merge.sh
