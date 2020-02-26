@@ -1,0 +1,33 @@
+name: Checks
+
+on: [push, pull_request]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Checkout anki repo
+        uses: actions/checkout@v2
+        with:
+          repository: ankitects/anki
+          path: anki
+      - name: Set up python
+        uses: actions/setup-python@v1
+        with:
+          python-version: 3.7
+      - name: Set up node
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12
+      - name: Run checks
+        run: |
+          sudo apt update; sudo apt install portaudio19-dev gettext
+          cd anki
+
+          python -m pip install -r qt/requirements.qt
+          python -m pip install -r pylib/requirements.dev
+          make buildhash
+
+          cd qt
+          make check
