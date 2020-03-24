@@ -1,6 +1,6 @@
 #!/bin/bash
 
-set -eo pipefail
+set -eu -o pipefail ${SHELLFLAGS}
 
 for file in desktop/*/anki.po; do
   (msgmerge -q "$file" desktop/anki.pot | msgfmt - --output-file /dev/null) || (
