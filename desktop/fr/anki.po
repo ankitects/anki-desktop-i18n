@@ -1,19 +1,21 @@
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: anki\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-12 09:03+1000\n"
-"PO-Revision-Date: 2020-04-22 17:10\n"
-"Last-Translator: Erwan OLIVIERO <erwanolivieropro@gmail.com>\n"
+"PO-Revision-Date: 2020-04-24 19:07+0000\n"
+"Last-Translator: Neerwan <erwanolivieropro@gmail.com>\n"
 "Language-Team: French\n"
-"Language: fr_FR\n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Crowdin-Project: anki\n"
-"X-Crowdin-Language: fr\n"
 "X-Crowdin-File: anki.pot\n"
+"X-Crowdin-Language: fr\n"
+"X-Crowdin-Project: anki\n"
+"X-Generator: Pontoon\n"
 
 #: qt/aqt/clayout.py:234
 #, python-format
@@ -44,9 +46,7 @@ msgstr[1] " Contient %d cartes."
 msgid "\"Segoe UI\""
 msgstr ""
 
-#: qt/aqt/forms/dconf.py:341 qt/aqt/forms/dconf.py:352
-#: qt/aqt/forms/dconf.py:357 qt/aqt/forms/dconf.py:360
-#: qt/aqt/forms/dconf.py:371 qt/aqt/forms/preferences.py:271
+#: qt/aqt/forms/dconf.py:341 qt/aqt/forms/dconf.py:352 qt/aqt/forms/dconf.py:357 qt/aqt/forms/dconf.py:360 qt/aqt/forms/dconf.py:371 qt/aqt/forms/preferences.py:271
 msgid "%"
 msgstr "%"
 
@@ -97,8 +97,7 @@ msgstr "%(tot)s %(unit)s"
 msgid "%.01f cards/minute"
 msgstr "%.01f cartes/minute"
 
-#: pylib/anki/stats.py:288 pylib/anki/stats.py:344 qt/aqt/clayout.py:241
-#: qt/aqt/main.py:1374
+#: pylib/anki/stats.py:288 pylib/anki/stats.py:344 qt/aqt/clayout.py:241 qt/aqt/main.py:1374
 #, python-format
 msgid "%d card"
 msgid_plural "%d cards"
@@ -175,8 +174,7 @@ msgid_plural "%d media files downloaded"
 msgstr[0] "%d fichier média téléchargé"
 msgstr[1] "%d fichiers média téléchargés"
 
-#: qt/aqt/browser.py:2191 qt/aqt/browser.py:2199 qt/aqt/fields.py:96
-#: qt/aqt/models.py:82
+#: qt/aqt/browser.py:2191 qt/aqt/browser.py:2199 qt/aqt/fields.py:96 qt/aqt/models.py:82
 #, python-format
 msgid "%d note"
 msgid_plural "%d notes"
@@ -578,8 +576,12 @@ msgstr "<b>Police</b> :"
 
 #: qt/aqt/addons.py:1341
 #, python-format
-msgid "<b>Important</b>: As add-ons are programs downloaded from the internet, they are potentially malicious.<b>You should only install add-ons you trust.</b><br><br>Are you sure you want to proceed with the installation of the following Anki add-on(s)?<br><br>%(names)s"
-msgstr "<b>Important</b>: Comme les greffons sont des programmes téléchargés à partir d’Internet, ils sont potentiellement malveillants.<b>Vous ne devriez installer que des greffons en qui vous avez confiance.</b><br><br>Êtes-vous sûr de vouloir procéder à l’installation de(s) greffons(s) Anki suivants ?<br><br>%(names)s"
+msgid ""
+"<b>Important</b>: As add-ons are programs downloaded from the internet, they are potentially malicious.<b>You should only install add-ons you trust.</b><br><br>Are you sure you want to proceed with "
+"the installation of the following Anki add-on(s)?<br><br>%(names)s"
+msgstr ""
+"<b>Important</b>: Comme les greffons sont des programmes téléchargés à partir d’Internet, ils sont potentiellement malveillants.<b>Vous ne devriez installer que des greffons en qui vous avez "
+"confiance.</b><br><br>Êtes-vous sûr de vouloir procéder à l’installation de(s) greffons(s) Anki suivants ?<br><br>%(names)s"
 
 #: qt/aqt/forms/findreplace.py:71
 msgid "<b>In</b>:"
@@ -606,16 +608,20 @@ msgid "<b>Synchronisation</b>"
 msgstr "<b>Synchronisation</b>"
 
 #: qt/aqt/preferences.py:193
-msgid "<b>Synchronization</b><br>\n"
+msgid ""
+"<b>Synchronization</b><br>\n"
 "Not currently enabled; click the sync button in the main window to enable."
-msgstr "<b>Synchronisation</b><br>\n"
+msgstr ""
+"<b>Synchronisation</b><br>\n"
 "Désactivée pour le moment ; pour l’activer cliquez sur le bouton de synchronisation dans la fenêtre principale."
 
 #: qt/aqt/sync.py:257
 #, python-format
-msgid "<h1>Account Required</h1>\n"
+msgid ""
+"<h1>Account Required</h1>\n"
 "A free account is required to keep your collection synchronized. Please <a href=\"%s\">sign up</a> for an account, then enter your details below."
-msgstr "<h1>Compte requis</h1>\n"
+msgstr ""
+"<h1>Compte requis</h1>\n"
 "Vous devez posséder un compte pour pouvoir synchroniser votre collection. Merci de <a href=\"%s\">créer un compte</a> gratuitement, puis entrez les informations de connexion ci-dessous."
 
 #: qt/aqt/update.py:60
@@ -624,12 +630,18 @@ msgid "<h1>Anki Updated</h1>Anki %s has been released.<br><br>"
 msgstr "<h1>Mise à jour d’Anki</h1>La version %s vient de paraître.<br><br>"
 
 #: qt/aqt/errors.py:143
-msgid "<h1>Error</h1>\n\n"
-"<p>An error occurred. Please start Anki while holding down the shift key, which will temporarily disable the add-ons you have installed.</p>\n\n"
-"<p>If the issue only occurs when add-ons are enabled, please use the Tools&gt;Add-ons menu item to disable some add-ons and restart Anki, repeating until you discover the add-on that is causing the problem.</p>\n\n"
-"<p>When you've discovered the add-on that is causing the problem, please report the issue on the <a href=\"https://help.ankiweb.net/discussions/add-ons/\">add-ons section</a> of our support site.\n\n"
+msgid ""
+"<h1>Error</h1>\n"
+"\n"
+"<p>An error occurred. Please start Anki while holding down the shift key, which will temporarily disable the add-ons you have installed.</p>\n"
+"\n"
+"<p>If the issue only occurs when add-ons are enabled, please use the Tools&gt;Add-ons menu item to disable some add-ons and restart Anki, repeating until you discover the add-on that is causing the problem.</p>\n"
+"\n"
+"<p>When you've discovered the add-on that is causing the problem, please report the issue on the <a href=\"https://help.ankiweb.net/discussions/add-ons/\">add-ons section</a> of our support site.\n"
+"\n"
 "<p>Debug info:</p>\n"
-msgstr "<h1>Erreur</h1>￼\n"
+msgstr ""
+"<h1>Erreur</h1>￼\n"
 "￼\n"
 "<p>Une erreur est survenue. Veuillez démarrer Anki en maintenant la touche majuscule enfoncée, ce qui désactivera temporairement les greffons que vous avez installés.</p>￼\n"
 "￼\n"
@@ -640,11 +652,17 @@ msgstr "<h1>Erreur</h1>￼\n"
 "<p>Info de débogage :</p>￼\n"
 
 #: qt/aqt/errors.py:131
-msgid "<h1>Error</h1>\n\n"
-"<p>An error occurred. Please use <b>Tools &gt; Check Database</b> to see if that fixes the problem.</p>\n\n"
+msgid ""
+"<h1>Error</h1>\n"
+"\n"
+"<p>An error occurred. Please use <b>Tools &gt; Check Database</b> to see if that fixes the problem.</p>\n"
+"\n"
 "<p>If problems persist, please report the problem on our <a href=\"https://help.ankiweb.net\">support site</a>. Please copy and paste  the information below into your report.</p>"
-msgstr "<h1>Erreur</h1>\n\n"
-"<p>Une erreur est survenue. Veuillez utiliser <b>Outils &gt; Vérifier l’intégrité de la base de données...</b> afin de voir si cela règle le problème.</p>\n\n"
+msgstr ""
+"<h1>Erreur</h1>\n"
+"\n"
+"<p>Une erreur est survenue. Veuillez utiliser <b>Outils &gt; Vérifier l’intégrité de la base de données...</b> afin de voir si cela règle le problème.</p>\n"
+"\n"
 "<p>Si le problème persiste, merci de le signaler sur notre <a href=\"https://help.ankiweb.net\">site de support</a>. Veuillez copier et coller les informations ci-dessous dans votre signalement.</p>"
 
 #: qt/aqt/importing.py:256
@@ -684,9 +702,7 @@ msgstr "Annulé : %s"
 msgid "About Anki"
 msgstr "À propos d’Anki"
 
-#: qt/aqt/addcards.py:36 qt/aqt/addcards.py:65 qt/aqt/deckconf.py:81
-#: qt/aqt/models.py:47 qt/aqt/studydeck.py:46 qt/aqt/toolbar.py:51
-#: qt/aqt/forms/addcards.py:58 qt/aqt/forms/fields.py:101
+#: qt/aqt/addcards.py:36 qt/aqt/addcards.py:65 qt/aqt/deckconf.py:81 qt/aqt/models.py:47 qt/aqt/studydeck.py:46 qt/aqt/toolbar.py:51 qt/aqt/forms/addcards.py:58 qt/aqt/forms/fields.py:101
 #: qt/aqt/forms/profiles.py:76
 msgid "Add"
 msgstr "Ajouter"
@@ -768,8 +784,7 @@ msgstr "Greffons éventuellement inclus : {}\n"
 msgid "Add: %s"
 msgstr "Ajouter : %s"
 
-#: pylib/anki/stats.py:27 pylib/anki/stats.py:335
-#: pylib/anki/importing/anki2.py:168 qt/aqt/addcards.py:209
+#: pylib/anki/stats.py:27 pylib/anki/stats.py:335 pylib/anki/importing/anki2.py:168 qt/aqt/addcards.py:209
 msgid "Added"
 msgstr "Ajouté"
 
@@ -833,29 +848,41 @@ msgstr "Toujours inclure le côté question lors de la relecture audio"
 
 #: qt/aqt/addons.py:209
 #, python-format
-msgid "An add-on you installed failed to load. If problems persist, please go to the Tools>Add-ons menu, and disable or delete the add-on.\n\n"
+msgid ""
+"An add-on you installed failed to load. If problems persist, please go to the Tools>Add-ons menu, and disable or delete the add-on.\n"
+"\n"
 "When loading '%(name)s':\n"
 "%(traceback)s\n"
-msgstr "Un greffon que vous avez installé n’a pu se charger. Si le problème persiste, allez dans le menu Outils > Greffons et désactivez ou supprimez ce greffon.\n\n"
+msgstr ""
+"Un greffon que vous avez installé n’a pu se charger. Si le problème persiste, allez dans le menu Outils > Greffons et désactivez ou supprimez ce greffon.\n"
+"\n"
 "Lors du chargement de '%(name)s':\n"
 "%(traceback)s\n"
 
 #: qt/aqt/errors.py:111
-msgid "An error occurred while accessing the database.\n\n"
-"Possible causes:\n\n"
+msgid ""
+"An error occurred while accessing the database.\n"
+"\n"
+"Possible causes:\n"
+"\n"
 "- Antivirus, firewall, backup, or synchronization software may be   interfering with Anki. Try disabling such software and see if the   problem goes away.\n"
 "- Your disk may be full.\n"
 "- The Documents/Anki folder may be on a network drive.\n"
 "- Files in the Documents/Anki folder may not be writeable.\n"
-"- Your hard disk may have errors.\n\n"
+"- Your hard disk may have errors.\n"
+"\n"
 "It's a good idea to run Tools>Check Database to ensure your collection is not corrupt.\n"
-msgstr "Une erreur est survenue lors de l’accès à la base de données.\n\n"
-"Causes possibles :\n\n"
+msgstr ""
+"Une erreur est survenue lors de l’accès à la base de données.\n"
+"\n"
+"Causes possibles :\n"
+"\n"
 "- Un logiciel antivirus, pare-feu, de sauvegarde, ou de synchronisation interfère peut-être avec Anki. Essayez de désactiver ce genre de logiciels et voyez si le problème persiste.\n"
 "- Votre disque est peut-être plein.\n"
 "- Le dossier Documents/Anki est peut-être sur un disque réseau.\n"
 "- Anki n’a peut-être pas la possibilité d’écrire des fichiers dans le dossier Documents/Anki.\n"
-"- Votre disque présente peut-être des erreurs.\n\n"
+"- Votre disque présente peut-être des erreurs.\n"
+"\n"
 "Il serait bien de faire Outils > Vérifier l’intégrité de la base de données... pour s’assurer que la collection n’est pas corrompue.\n"
 
 #: qt/aqt/editor.py:787 qt/aqt/editor.py:790
@@ -863,8 +890,7 @@ msgstr "Une erreur est survenue lors de l’accès à la base de données.\n\n"
 msgid "An error occurred while opening %s"
 msgstr "Une erreur est survenue lors de l’ouverture de %s"
 
-#: qt/aqt/forms/main.py:131 qt/aqt/forms/setgroup.py:38
-#: qt/aqt/forms/setlang.py:39
+#: qt/aqt/forms/main.py:131 qt/aqt/forms/setgroup.py:38 qt/aqt/forms/setlang.py:39
 msgid "Anki"
 msgstr "Anki"
 
@@ -889,8 +915,12 @@ msgid "Anki could not read your profile data. Window sizes and your sync login d
 msgstr "Anki n’a pas pu lire les données de votre profil. Les tailles des fenêtres et les informations de connexion à la synchronisation ont été oubliées."
 
 #: qt/aqt/profiles.py:246
-msgid "Anki could not rename your profile because it could not rename the profile folder on disk. Please ensure you have permission to write to Documents/Anki and no other programs are accessing your profile folders, then try again."
-msgstr "Anki n’a pas pu renommer votre profil car il n’a pas réussi à renommer le dossier profil sur le disque. Veuillez vous assurer que vous avez bien la permission d’écrire dans Documents/Anki et qu’aucune autre application n’est en train d’accéder à vos dossiers profils, puis réessayez."
+msgid ""
+"Anki could not rename your profile because it could not rename the profile folder on disk. Please ensure you have permission to write to Documents/Anki and no other programs are accessing your "
+"profile folders, then try again."
+msgstr ""
+"Anki n’a pas pu renommer votre profil car il n’a pas réussi à renommer le dossier profil sur le disque. Veuillez vous assurer que vous avez bien la permission d’écrire dans Documents/Anki et "
+"qu’aucune autre application n’est en train d’accéder à vos dossiers profils, puis réessayez."
 
 #: qt/aqt/clayout.py:457
 msgid "Anki couldn't find the line between the question and answer. Please adjust the template manually to switch the question and answer."
@@ -909,9 +939,13 @@ msgid "Anki is licensed under the AGPL3 license. Please see the license file in 
 msgstr "Anki est sous licence AGPL3. Veuillez voir le fichier licence dans la distribution source pour plus d’informations."
 
 #: qt/aqt/main.py:437
-msgid "Anki was unable to open your collection file. If problems persist after restarting your computer, please use the Open Backup button in the profile manager.\n\n"
+msgid ""
+"Anki was unable to open your collection file. If problems persist after restarting your computer, please use the Open Backup button in the profile manager.\n"
+"\n"
 "Debug info:\n"
-msgstr "Anki n’a pas été capable d’ouvrir votre collection. Si le problème persiste après un redémarrage de votre ordinateur, veuillez utiliser le bouton Ouvrir une Sauvegarde dans le gestionnaire de profil.\n\n"
+msgstr ""
+"Anki n’a pas été capable d’ouvrir votre collection. Si le problème persiste après un redémarrage de votre ordinateur, veuillez utiliser le bouton Ouvrir une Sauvegarde dans le gestionnaire de profil.\n"
+"\n"
 "Info de débogage:\n"
 
 #: qt/aqt/sync.py:107
@@ -1024,10 +1058,7 @@ msgstr "Moyenne (par jour travaillé)&nbsp;"
 msgid "Average interval"
 msgstr "Intervalle moyen"
 
-#: pylib/anki/stdmodels.py:21 pylib/anki/stdmodels.py:25
-#: pylib/anki/stdmodels.py:46 pylib/anki/stdmodels.py:47
-#: pylib/anki/stdmodels.py:62 pylib/anki/template.py:129
-#: qt/aqt/forms/addfield.py:78
+#: pylib/anki/stdmodels.py:21 pylib/anki/stdmodels.py:25 pylib/anki/stdmodels.py:46 pylib/anki/stdmodels.py:47 pylib/anki/stdmodels.py:62 pylib/anki/template.py:129 qt/aqt/forms/addfield.py:78
 msgid "Back"
 msgstr "Verso"
 
@@ -1047,8 +1078,7 @@ msgstr "Sauvegarder en cours..."
 msgid "Backups"
 msgstr "Sauvegardes"
 
-#: pylib/anki/stdmodels.py:18 pylib/anki/stdmodels.py:36
-#: qt/aqt/forms/preferences.py:272
+#: pylib/anki/stdmodels.py:18 pylib/anki/stdmodels.py:36 qt/aqt/forms/preferences.py:272
 msgid "Basic"
 msgstr "Basique"
 
@@ -1132,16 +1162,17 @@ msgid "Bury related reviews until the next day"
 msgstr "Enfouir les révisions liées jusqu’au lendemain"
 
 #: qt/aqt/importing.py:125
-msgid "By default, Anki will detect the character between fields, such as\n"
+msgid ""
+"By default, Anki will detect the character between fields, such as\n"
 "a tab, comma, and so on. If Anki is detecting the character incorrectly,\n"
 "you can enter it here. Use \\t to represent tab."
-msgstr "Anki sait détecter les signes de ponctuation tels les\n"
+msgstr ""
+"Anki sait détecter les signes de ponctuation tels les\n"
 "virgules ou les tabulations. Mais si la détection automatique\n"
 "échoue, le caractère peut être entré manuellement ici.\n"
 "Pour écrire une tabulation, entrez \\t."
 
-#: qt/aqt/overview.py:115 qt/aqt/sound.py:522 qt/aqt/sync.py:299
-#: qt/aqt/sync.py:321
+#: qt/aqt/overview.py:115 qt/aqt/sound.py:522 qt/aqt/sync.py:299 qt/aqt/sync.py:321
 msgid "Cancel"
 msgstr "Annuler"
 
@@ -1203,8 +1234,7 @@ msgstr "Carte exclue."
 msgid "Card was a leech."
 msgstr "Cette carte est pénible."
 
-#: pylib/anki/stats.py:336 pylib/anki/stats.py:973 qt/aqt/editor.py:159
-#: qt/aqt/forms/changemodel.py:112
+#: pylib/anki/stats.py:336 pylib/anki/stats.py:973 qt/aqt/editor.py:159 qt/aqt/forms/changemodel.py:112
 msgid "Cards"
 msgstr "Cartes"
 
@@ -1286,7 +1316,7 @@ msgstr "Les modifications prendront effet au redémarrage d'Anki."
 
 #: qt/aqt/forms/main.py:141
 msgid "Check &Media..."
-msgstr "Vérification des &médias..."
+msgstr "Vérifier les &médias..."
 
 #: qt/aqt/forms/addons.py:71
 msgid "Check for Updates"
@@ -1345,8 +1375,7 @@ msgstr "Fermer en perdant la saisie en cours ?"
 msgid "Closing..."
 msgstr "Fermer..."
 
-#: pylib/anki/stdmodels.py:100 pylib/anki/stdmodels.py:105
-#: pylib/anki/stdmodels.py:124 pylib/anki/storage.py:219
+#: pylib/anki/stdmodels.py:100 pylib/anki/stdmodels.py:105 pylib/anki/stdmodels.py:124 pylib/anki/storage.py:219
 msgid "Cloze"
 msgstr "Texte à trous"
 
@@ -1538,8 +1567,7 @@ msgstr "Supprimer l’autorisation"
 msgid "Debug Console"
 msgstr "Console de débogage"
 
-#: pylib/anki/stats.py:59 qt/aqt/browser.py:714 qt/aqt/deckbrowser.py:161
-#: qt/aqt/deckchooser.py:26 qt/aqt/forms/importing.py:106
+#: pylib/anki/stats.py:59 qt/aqt/browser.py:714 qt/aqt/deckbrowser.py:161 qt/aqt/deckchooser.py:26 qt/aqt/forms/importing.py:106
 msgid "Deck"
 msgstr "Paquet"
 
@@ -1559,8 +1587,7 @@ msgstr "Paquets"
 msgid "Decreasing intervals"
 msgstr "Intervalles décroissants"
 
-#: pylib/anki/decks.py:57 pylib/anki/storage.py:333 qt/aqt/deckchooser.py:48
-#: qt/aqt/deckchooser.py:52 qt/aqt/deckchooser.py:74
+#: pylib/anki/decks.py:57 pylib/anki/storage.py:333 qt/aqt/deckchooser.py:48 qt/aqt/deckchooser.py:52 qt/aqt/deckchooser.py:74
 msgid "Default"
 msgstr "Par défaut"
 
@@ -1568,9 +1595,8 @@ msgstr "Par défaut"
 msgid "Delays until reviews are shown again."
 msgstr "Le nombre de cartes en fonction de leur intervalle de révision."
 
-#: qt/aqt/deckbrowser.py:257 qt/aqt/deckconf.py:83 qt/aqt/models.py:51
-#: qt/aqt/reviewer.py:787 qt/aqt/forms/addons.py:76 qt/aqt/forms/browser.py:330
-#: qt/aqt/forms/fields.py:102 qt/aqt/forms/profiles.py:78
+#: qt/aqt/deckbrowser.py:257 qt/aqt/deckconf.py:83 qt/aqt/models.py:51 qt/aqt/reviewer.py:787 qt/aqt/forms/addons.py:76 qt/aqt/forms/browser.py:330 qt/aqt/forms/fields.py:102
+#: qt/aqt/forms/profiles.py:78
 msgid "Delete"
 msgstr "Supprimer"
 
@@ -1685,8 +1711,7 @@ msgstr "Description"
 msgid "Description to show on overview screen, for current deck:"
 msgstr "Description affichée sur l’écran d’aperçu, pour le paquet actuel :"
 
-#: qt/aqt/forms/dyndconf.py:133 qt/aqt/forms/editaddon.py:40
-#: qt/aqt/forms/editcurrent.py:41 qt/aqt/forms/progress.py:40
+#: qt/aqt/forms/dyndconf.py:133 qt/aqt/forms/editaddon.py:40 qt/aqt/forms/editcurrent.py:41 qt/aqt/forms/progress.py:40
 msgid "Dialog"
 msgstr "Dialogue"
 
@@ -1717,8 +1742,7 @@ msgstr "Téléchargement de %(a)d/%(b)d (%(kb)0.2fKB)..."
 msgid "Downloading from AnkiWeb..."
 msgstr "Téléchargement depuis Ankiweb..."
 
-#: pylib/anki/stats.py:43 qt/aqt/browser.py:719 qt/aqt/browser.py:1244
-#: qt/aqt/deckbrowser.py:162
+#: pylib/anki/stats.py:43 qt/aqt/browser.py:719 qt/aqt/browser.py:1244 qt/aqt/deckbrowser.py:162
 msgid "Due"
 msgstr "Dû"
 
@@ -1785,10 +1809,14 @@ msgstr "Chercher des cartes vides..."
 
 #: pylib/anki/collection.py:583
 #, python-format
-msgid "Empty card numbers: %(c)s\n"
-"Fields: %(f)s\n\n"
-msgstr "Numéro(s) des cartes vides : %(c)s\n"
-"Champs : %(f)s\n\n"
+msgid ""
+"Empty card numbers: %(c)s\n"
+"Fields: %(f)s\n"
+"\n"
+msgstr ""
+"Numéro(s) des cartes vides : %(c)s\n"
+"Champs : %(f)s\n"
+"\n"
 
 #: pylib/anki/importing/noteimp.py:201
 msgid "Empty cards found. Please run Tools>Empty Cards."
@@ -1832,14 +1860,17 @@ msgstr "Erreur en téléchargeant <i>%(id)s</i> : %(error)s"
 
 #: qt/aqt/main.py:95
 #, python-format
-msgid "Error during startup:\n"
+msgid ""
+"Error during startup:\n"
 "%s"
-msgstr "Erreur au démarrage : \n"
+msgstr ""
+"Erreur au démarrage : \n"
 "%s"
 
 #: qt/aqt/sync.py:237 qt/aqt/sync.py:244
 msgid "Error establishing a secure connection. This is usually caused by antivirus, firewall or VPN software, or problems with your ISP."
-msgstr "Erreur lors de l’établissement d’une connexion sécurisée. Cela est généralement causé par des antivirus, pare-feux ou des logiciels VPN, ou des problèmes avec votre fournisseur d’accès à Internet."
+msgstr ""
+"Erreur lors de l’établissement d’une connexion sécurisée. Cela est généralement causé par des antivirus, pare-feux ou des logiciels VPN, ou des problèmes avec votre fournisseur d’accès à Internet."
 
 #: pylib/anki/latex.py:173
 #, python-format
@@ -1856,8 +1887,7 @@ msgstr "Erreur d’installation <i>%(base)s</i> : %(error)s"
 msgid "Error running %s"
 msgstr "Problème à l’exécution de %s"
 
-#: qt/aqt/deckbrowser.py:255 qt/aqt/exporting.py:122
-#: qt/aqt/forms/exporting.py:74
+#: qt/aqt/deckbrowser.py:255 qt/aqt/exporting.py:122 qt/aqt/forms/exporting.py:74
 msgid "Export"
 msgstr "Exporter"
 
@@ -1889,8 +1919,7 @@ msgstr "Nom du champ :"
 msgid "Field:"
 msgstr "Champ :"
 
-#: qt/aqt/editor.py:158 qt/aqt/fields.py:20 qt/aqt/forms/changemodel.py:113
-#: qt/aqt/forms/fields.py:100
+#: qt/aqt/editor.py:158 qt/aqt/fields.py:20 qt/aqt/forms/changemodel.py:113 qt/aqt/forms/fields.py:100
 msgid "Fields"
 msgstr "Champs"
 
@@ -2023,8 +2052,7 @@ msgstr "Pour des raisons de sécurité, on ne peut réaliser « %s » sur les 
 msgid "Forecast"
 msgstr "Charge de travail"
 
-#: qt/aqt/forms/clayout_top.py:56 qt/aqt/forms/preview.py:39
-#: qt/aqt/forms/template.py:106
+#: qt/aqt/forms/clayout_top.py:56 qt/aqt/forms/preview.py:39 qt/aqt/forms/template.py:106
 msgid "Form"
 msgstr "Formulaire"
 
@@ -2033,10 +2061,8 @@ msgstr "Formulaire"
 msgid "Found %(a)s across %(b)s."
 msgstr "%(a)s doublons parmi %(b)s."
 
-#: pylib/anki/exporting.py:376 pylib/anki/stdmodels.py:19
-#: pylib/anki/stdmodels.py:24 pylib/anki/stdmodels.py:46
-#: pylib/anki/stdmodels.py:47 pylib/anki/stdmodels.py:63
-#: pylib/anki/template.py:127 qt/aqt/forms/addfield.py:74
+#: pylib/anki/exporting.py:376 pylib/anki/stdmodels.py:19 pylib/anki/stdmodels.py:24 pylib/anki/stdmodels.py:46 pylib/anki/stdmodels.py:47 pylib/anki/stdmodels.py:63 pylib/anki/template.py:127
+#: qt/aqt/forms/addfield.py:74
 msgid "Front"
 msgstr "Recto"
 
@@ -2106,8 +2132,7 @@ msgstr "Avez-vous installé latex et dvipng/dvisvgm ?"
 msgid "Header"
 msgstr "En-tête"
 
-#: qt/aqt/addcards.py:74 qt/aqt/clayout.py:268 qt/aqt/utils.py:193
-#: qt/aqt/utils.py:194
+#: qt/aqt/addcards.py:74 qt/aqt/clayout.py:268 qt/aqt/utils.py:193 qt/aqt/utils.py:194
 msgid "Help"
 msgstr "Aide"
 
@@ -2167,8 +2192,7 @@ msgstr "Ignorer les cartes dont le premier champ existe déjà."
 msgid "Ignore this update"
 msgstr "Ignorer cette mise à jour"
 
-#: qt/aqt/importing.py:98 qt/aqt/importing.py:192 qt/aqt/importing.py:309
-#: qt/aqt/forms/changemap.py:41 qt/aqt/forms/importing.py:103
+#: qt/aqt/importing.py:98 qt/aqt/importing.py:192 qt/aqt/importing.py:309 qt/aqt/forms/changemap.py:41 qt/aqt/forms/importing.py:103
 msgid "Import"
 msgstr "Importer"
 
@@ -2198,21 +2222,29 @@ msgstr "Importation complète."
 
 #: qt/aqt/main.py:1135
 #, python-format
-msgid "In order to ensure your collection works correctly when moved between devices, Anki requires your computer's internal clock to be set correctly. The internal clock can be wrong even if your system is showing the correct local time.\n\n"
-"Please go to the time settings on your computer and check the following:\n\n"
+msgid ""
+"In order to ensure your collection works correctly when moved between devices, Anki requires your computer's internal clock to be set correctly. The internal clock can be wrong even if your system is showing the correct local time.\n"
+"\n"
+"Please go to the time settings on your computer and check the following:\n"
+"\n"
 "- AM/PM\n"
 "- Clock drift\n"
 "- Day, month and year\n"
 "- Timezone\n"
-"- Daylight savings\n\n"
+"- Daylight savings\n"
+"\n"
 "Difference to correct time: %s."
-msgstr "Afin que votre collection fonctionne correctement lors des déplacements entre appareils, Anki requiert que l’horloge interne de votre ordinateur soit correcte. Cette horloge interne peut être fausse même si votre système affiche une heure valide.\n\n"
-"Veuillez aller dans les réglages de l’horloge de votre ordinateur, et vérifier :\n\n"
+msgstr ""
+"Afin que votre collection fonctionne correctement lors des déplacements entre appareils, Anki requiert que l’horloge interne de votre ordinateur soit correcte. Cette horloge interne peut être fausse même si votre système affiche une heure valide.\n"
+"\n"
+"Veuillez aller dans les réglages de l’horloge de votre ordinateur, et vérifier :\n"
+"\n"
 "- Réglage AM/PM\n"
 "- Dérive de l’horloge\n"
 "- Jour, mois et année\n"
 "- Fuseau horaire \n"
-"- Heure d’été\n\n"
+"- Heure d’été\n"
+"\n"
 "Différence avec l’heure correcte : %s."
 
 #: qt/aqt/forms/exporting.py:80
@@ -2479,8 +2511,7 @@ msgstr "MathJax chimie"
 msgid "MathJax inline"
 msgstr "MathJax en ligne"
 
-#: pylib/anki/stats.py:245 pylib/anki/stats.py:372 pylib/anki/stats.py:392
-#: pylib/anki/stats.py:707 pylib/anki/stats.py:877
+#: pylib/anki/stats.py:245 pylib/anki/stats.py:372 pylib/anki/stats.py:392 pylib/anki/stats.py:707 pylib/anki/stats.py:877
 msgid "Mature"
 msgstr "Mature"
 
@@ -2585,8 +2616,7 @@ msgstr "Nouveau nom du paquet :"
 msgid "New interval"
 msgstr "Nouvel intervalle"
 
-#: qt/aqt/clayout.py:388 qt/aqt/deckconf.py:139 qt/aqt/fields.py:72
-#: qt/aqt/main.py:262 qt/aqt/models.py:67
+#: qt/aqt/clayout.py:388 qt/aqt/deckconf.py:139 qt/aqt/fields.py:72 qt/aqt/main.py:262 qt/aqt/models.py:67
 msgid "New name:"
 msgstr "Nouveau nom :"
 
@@ -2740,8 +2770,12 @@ msgid "One or more errors occurred:"
 msgstr "Une ou plusieurs erreurs sont survenues :"
 
 #: pylib/anki/importing/noteimp.py:231
-msgid "One or more notes were not imported, because they didn't generate any cards. This can happen when you have empty fields or when you have not mapped the content in the text file to the correct fields."
-msgstr "Les notes n’ont pu être importées parce qu’elles ne disposaient pas de cartes. C’est la réponse habituelle lorsque des champs sont manquants, ou qu’ils ont été intervertis lors de l’élaboration du fichier."
+msgid ""
+"One or more notes were not imported, because they didn't generate any cards. This can happen when you have empty fields or when you have not mapped the content in the text file to the correct "
+"fields."
+msgstr ""
+"Les notes n’ont pu être importées parce qu’elles ne disposaient pas de cartes. C’est la réponse habituelle lorsque des champs sont manquants, ou qu’ils ont été intervertis lors de l’élaboration du "
+"fichier."
 
 #: qt/aqt/browser.py:1971
 msgid "Only new cards can be repositioned."
@@ -2767,9 +2801,7 @@ msgstr "Optimisation..."
 msgid "Optional filter:"
 msgstr "Filtre optionnel :"
 
-#: qt/aqt/clayout.py:107 qt/aqt/deckbrowser.py:253 qt/aqt/deckconf.py:31
-#: qt/aqt/dyndeckconf.py:24 qt/aqt/overview.py:228 qt/aqt/reviewer.py:707
-#: qt/aqt/forms/dyndconf.py:142 qt/aqt/forms/fields.py:108
+#: qt/aqt/clayout.py:107 qt/aqt/deckbrowser.py:253 qt/aqt/deckconf.py:31 qt/aqt/dyndeckconf.py:24 qt/aqt/overview.py:228 qt/aqt/reviewer.py:707 qt/aqt/forms/dyndconf.py:142 qt/aqt/forms/fields.py:108
 msgid "Options"
 msgstr "Options"
 
@@ -3068,8 +3100,7 @@ msgstr "Supprimer le formatage (Ctrl-R)"
 msgid "Removing this card type would cause one or more notes to be deleted. Please create a new card type first."
 msgstr "Supprimer cette carte impliquerait la suppression d’une ou plusieurs autres notes. Ajouter d’abord un nouveau type de note."
 
-#: qt/aqt/deckbrowser.py:251 qt/aqt/deckconf.py:85 qt/aqt/models.py:49
-#: qt/aqt/forms/fields.py:103 qt/aqt/forms/profiles.py:77
+#: qt/aqt/deckbrowser.py:251 qt/aqt/deckconf.py:85 qt/aqt/models.py:49 qt/aqt/forms/fields.py:103 qt/aqt/forms/profiles.py:77
 msgid "Rename"
 msgstr "Renommer"
 
@@ -3182,8 +3213,7 @@ msgstr "Revoir les cartes oubliées"
 msgid "Review success rate for each hour of the day."
 msgstr "Taux de révisions réussies en fonction de l’heure du jour."
 
-#: pylib/anki/stats.py:47 pylib/anki/stats.py:838 qt/aqt/browser.py:722
-#: qt/aqt/forms/dconf.py:361
+#: pylib/anki/stats.py:47 pylib/anki/stats.py:838 qt/aqt/browser.py:722 qt/aqt/forms/dconf.py:361
 msgid "Reviews"
 msgstr "Révisions"
 
@@ -3217,8 +3247,7 @@ msgstr "Enregistré"
 msgid "Scope: %s"
 msgstr "Portée : %s"
 
-#: qt/aqt/browser.py:2175 qt/aqt/forms/browser.py:295
-#: qt/aqt/forms/dyndconf.py:136 qt/aqt/forms/dyndconf.py:140
+#: qt/aqt/browser.py:2175 qt/aqt/forms/browser.py:295 qt/aqt/forms/dyndconf.py:136 qt/aqt/forms/dyndconf.py:140
 msgid "Search"
 msgstr "Chercher"
 
@@ -3287,11 +3316,8 @@ msgstr "La touche majuscule était maintenue enfoncée. Aucune synchronisation a
 msgid "Shift position of existing cards"
 msgstr "Changer la position de cartes existantes"
 
-#: qt/aqt/browser.py:1573 qt/aqt/browser.py:1591 qt/aqt/deckbrowser.py:338
-#: qt/aqt/main.py:698 qt/aqt/overview.py:241 qt/aqt/reviewer.py:556
-#: qt/aqt/reviewer.py:569 qt/aqt/reviewer.py:635 qt/aqt/toolbar.py:50
-#: qt/aqt/toolbar.py:51 qt/aqt/toolbar.py:52 qt/aqt/toolbar.py:53
-#: qt/aqt/toolbar.py:54
+#: qt/aqt/browser.py:1573 qt/aqt/browser.py:1591 qt/aqt/deckbrowser.py:338 qt/aqt/main.py:698 qt/aqt/overview.py:241 qt/aqt/reviewer.py:556 qt/aqt/reviewer.py:569 qt/aqt/reviewer.py:635
+#: qt/aqt/toolbar.py:50 qt/aqt/toolbar.py:51 qt/aqt/toolbar.py:52 qt/aqt/toolbar.py:53 qt/aqt/toolbar.py:54
 #, python-format
 msgid "Shortcut key: %s"
 msgstr "Raccourci : %s"
@@ -3513,9 +3539,11 @@ msgstr "Synchroniser l’audio et les images également"
 
 #: qt/aqt/sync.py:152
 #, python-format
-msgid "Syncing failed:\n"
+msgid ""
+"Syncing failed:\n"
 "%s"
-msgstr "La synchronisation a échoué :\n"
+msgstr ""
+"La synchronisation a échoué :\n"
 "%s"
 
 #: qt/aqt/sync.py:119
@@ -3657,8 +3685,11 @@ msgid "The provided search did not match any cards. Would you like to revise it?
 msgstr "Aucune carte ne correspond à cette recherche. Voulez-vous la modifier ?"
 
 #: qt/aqt/main.py:1235
-msgid "The requested change will require a full upload of the database when you next synchronize your collection. If you have reviews or other changes waiting on another device that haven't been synchronized here yet, they will be lost. Continue?"
-msgstr "Une telle modification suppose de réenvoyer la totalité de la base de données lors de la prochaine synchronisation de la collection. \n"
+msgid ""
+"The requested change will require a full upload of the database when you next synchronize your collection. If you have reviews or other changes waiting on another device that haven't been "
+"synchronized here yet, they will be lost. Continue?"
+msgstr ""
+"Une telle modification suppose de réenvoyer la totalité de la base de données lors de la prochaine synchronisation de la collection. \n"
 "S’il y a des modifications plus récentes à partir d’un appareil tiers, qui n’ont pu être synchronisées, celles-ci seront perdues.\n"
 "Continuer ?"
 
@@ -3667,11 +3698,13 @@ msgid "The time taken to answer the questions."
 msgstr "Le temps passé à répondre selon le jour et selon le statut de la carte."
 
 #: pylib/anki/sched.py:1282 pylib/anki/schedv2.py:1480
-msgid "There are more new cards available, but the daily limit has been\n"
+msgid ""
+"There are more new cards available, but the daily limit has been\n"
 "reached. You can increase the limit in the options, but please\n"
 "bear in mind that the more new cards you introduce, the higher\n"
 "your short-term review workload will become."
-msgstr "Il y a d’autres cartes inédites mais la limite quotidienne est atteinte.\n"
+msgstr ""
+"Il y a d’autres cartes inédites mais la limite quotidienne est atteinte.\n"
 "Cette limite peut-être rehaussée (dans les options), mais n’oubliez pas\n"
 "que plus vous introduisez des cartes inédites, plus votre charge de\n"
 "travail à court terme sera intense."
@@ -3693,8 +3726,12 @@ msgid "This column can't be sorted on, but you can search for specific decks by 
 msgstr "Cette colonne ne peut pas être triée, mais vous pouvez rechercher des paquets spécifiques en cliquant sur celle de gauche."
 
 #: qt/aqt/importing.py:422
-msgid "This file does not appear to be a valid .apkg file. If you're getting this error from a file downloaded from AnkiWeb, chances are that your download failed. Please try again, and if the problem persists, please try again with a different browser."
-msgstr "Ce fichier ne semble pas être un fichier .apkg valide. Si vous obtenez cette erreur d’un fichier téléchargé depuis AnkiWeb, il se peut que votre téléchargement ait échoué. Merci de réessayer ; si le problème persiste, merci de réessayer en utilisant un autre navigateur."
+msgid ""
+"This file does not appear to be a valid .apkg file. If you're getting this error from a file downloaded from AnkiWeb, chances are that your download failed. Please try again, and if the problem "
+"persists, please try again with a different browser."
+msgstr ""
+"Ce fichier ne semble pas être un fichier .apkg valide. Si vous obtenez cette erreur d’un fichier téléchargé depuis AnkiWeb, il se peut que votre téléchargement ait échoué. Merci de réessayer ; si le"
+" problème persiste, merci de réessayer en utilisant un autre navigateur."
 
 #: qt/aqt/utils.py:393
 msgid "This file exists. Are you sure you want to overwrite it?"
@@ -3702,13 +3739,17 @@ msgstr "Ce fichier existe. Êtes-vous sûr de vouloir l’écraser ?"
 
 #: qt/aqt/profiles.py:379
 #, python-format
-msgid "This folder stores all of your Anki data in a single location,\n"
+msgid ""
+"This folder stores all of your Anki data in a single location,\n"
 "to make backups easy. To tell Anki to use a different location,\n"
-"please see:\n\n"
+"please see:\n"
+"\n"
 "%s\n"
-msgstr "Ce dossier contient l’ensemble de vos données Anki en un seul endroit,\n"
+msgstr ""
+"Ce dossier contient l’ensemble de vos données Anki en un seul endroit,\n"
 "pour faciliter les sauvegardes. Si vous souhaitez utiliser un dossier différent,\n"
-"allez voir :\n\n"
+"allez voir :\n"
+"\n"
 "%s\n"
 
 #: qt/aqt/overview.py:159
@@ -3748,7 +3789,9 @@ msgstr "À réviser"
 
 #: qt/aqt/forms/getaddons.py:49
 msgid "To browse add-ons, please click the browse button below.<br><br>When you've found an add-on you like, please paste its code below. You can paste multiple codes, separated by spaces."
-msgstr "Pour parcourir les greffons de cliquez sur le bouton Parcourir ci-dessous. <br><br>Quand vous trouvez un greffon qui vous plaît, collez le code ci-bas. Vous pouvez coller plusieurs codes en les séparant par une espace."
+msgstr ""
+"Pour parcourir les greffons de cliquez sur le bouton Parcourir ci-dessous. <br><br>Quand vous trouvez un greffon qui vous plaît, collez le code ci-bas. Vous pouvez coller plusieurs codes en les "
+"séparant par une espace."
 
 #: qt/aqt/editor.py:595
 msgid "To make a cloze deletion on an existing note, you need to change it to a cloze type first, via Edit>Change Note Type."
@@ -3767,10 +3810,12 @@ msgid "Today"
 msgstr "Aujourd’hui"
 
 #: pylib/anki/sched.py:1273 pylib/anki/schedv2.py:1471
-msgid "Today's review limit has been reached, but there are still cards\n"
+msgid ""
+"Today's review limit has been reached, but there are still cards\n"
 "waiting to be reviewed. For optimum memory, consider increasing\n"
 "the daily limit in the options."
-msgstr "La limite de révision a été atteinte pour aujourd’hui,  mais il y a encore des cartes\n"
+msgstr ""
+"La limite de révision a été atteinte pour aujourd’hui,  mais il y a encore des cartes\n"
 "en attente de révision. Pour une mémorisation optimale, pensez à augmenter\n"
 "la limite quotidienne dans les options."
 
@@ -3806,8 +3851,7 @@ msgstr "Nombre total de notes"
 msgid "Treat input as regular expression"
 msgstr "Traiter la saisie comme une expression régulière"
 
-#: qt/aqt/browser.py:1431 qt/aqt/modelchooser.py:26
-#: qt/aqt/forms/importing.py:105
+#: qt/aqt/browser.py:1431 qt/aqt/modelchooser.py:26 qt/aqt/forms/importing.py:105
 msgid "Type"
 msgstr "Type"
 
@@ -3830,9 +3874,13 @@ msgstr "Impossible de déplacer le fichier à la corbeille - s.v.p. réessayer a
 
 #: qt/aqt/addons.py:422
 #, python-format
-msgid "Unable to update or delete add-on. Please start Anki while holding down the shift key to temporarily disable add-ons, then try again.\n\n"
+msgid ""
+"Unable to update or delete add-on. Please start Anki while holding down the shift key to temporarily disable add-ons, then try again.\n"
+"\n"
 "Debug info: %s"
-msgstr "Impossible de mettre à jour ou de supprimer le greffon. Veuillez démarrer Anki en maintenant la touche majuscule enfoncée pour désactiver temporairement les greffons et réessayez.\n\n"
+msgstr ""
+"Impossible de mettre à jour ou de supprimer le greffon. Veuillez démarrer Anki en maintenant la touche majuscule enfoncée pour désactiver temporairement les greffons et réessayez.\n"
+"\n"
 "Info de débogage: %s"
 
 #: qt/aqt/overview.py:237
@@ -3960,8 +4008,7 @@ msgstr "Vous ne vous êtes pas encore enregistré."
 msgid "You must have at least one column."
 msgstr "Vous devez avoir au moins une colonne."
 
-#: pylib/anki/stats.py:246 pylib/anki/stats.py:373 pylib/anki/stats.py:393
-#: pylib/anki/stats.py:706
+#: pylib/anki/stats.py:246 pylib/anki/stats.py:373 pylib/anki/stats.py:393 pylib/anki/stats.py:706
 msgid "Young"
 msgstr "Récentes"
 
@@ -3978,8 +4025,12 @@ msgid "Your changes will affect multiple decks. If you wish to change only the c
 msgstr "Votre modification aura un impact sur plusieurs paquets. Si vous souhaitez modifier uniquement le paquet sélectionné, veuillez d’abord ajouter un nouveau profil de réglages."
 
 #: qt/aqt/main.py:503
-msgid "Your collection file appears to be corrupt. This can happen when the file is copied or moved while Anki is open, or when the collection is stored on a network or cloud drive. If problems persist after restarting your computer, please open an automatic backup from the profile screen."
-msgstr "Le fichier contenant votre collection semble être corrompu. Cela peut se produire si le fichier est copié ou déplacé alors qu’Anki est ouvert. Cela peut aussi se produire si ce fichier est stocké à distance. Si les problèmes persistent après le redémarrage de votre ordinateur, ouvrez une sauvegarde automatique à partir de l’écran de profil."
+msgid ""
+"Your collection file appears to be corrupt. This can happen when the file is copied or moved while Anki is open, or when the collection is stored on a network or cloud drive. If problems persist "
+"after restarting your computer, please open an automatic backup from the profile screen."
+msgstr ""
+"Le fichier contenant votre collection semble être corrompu. Cela peut se produire si le fichier est copié ou déplacé alors qu’Anki est ouvert. Cela peut aussi se produire si ce fichier est stocké à "
+"distance. Si les problèmes persistent après le redémarrage de votre ordinateur, ouvrez une sauvegarde automatique à partir de l’écran de profil."
 
 #: qt/aqt/sync.py:345
 msgid "Your collection is in an inconsistent state. Please run Tools>Check Database, then sync again."
@@ -3990,9 +4041,13 @@ msgid "Your collection or a media file is too large to sync."
 msgstr "Votre collection ou un fichier média est trop lourd pour être synchronisé."
 
 #: qt/aqt/sync.py:75
-msgid "Your collection was successfully uploaded to AnkiWeb.\n\n"
+msgid ""
+"Your collection was successfully uploaded to AnkiWeb.\n"
+"\n"
 "If you use any other devices, please sync them now, and choose to download the collection you have just uploaded from this computer. After doing so, future reviews and added cards will be merged automatically."
-msgstr "Votre collection a été téléchargée avec succès sur AnkiWeb.\n\n"
+msgstr ""
+"Votre collection a été téléchargée avec succès sur AnkiWeb.\n"
+"\n"
 "Si vous utilisez d’autres appareils, veuillez les synchroniser maintenant et choisir de télécharger la collection que vous venez d’uploader depuis cet ordinateur. Après cela, les futures révisions et les cartes ajoutées seront fusionnées automatiquement."
 
 #: qt/aqt/errors.py:105
@@ -4000,13 +4055,21 @@ msgid "Your computer's storage may be full. Please delete some unneeded files, t
 msgstr "La mémoire de votre ordinateur est peut-être pleine. Veuillez supprimer certains fichiers inutiles, puis réessayez."
 
 #: qt/aqt/sync.py:305
-msgid "Your decks here and on AnkiWeb differ in such a way that they can't be merged together, so it's necessary to overwrite the decks on one side with the decks from the other.\n\n"
-"If you choose download, Anki will download the collection from AnkiWeb, and any changes you have made on your computer since the last sync will be lost.\n\n"
-"If you choose upload, Anki will upload your collection to AnkiWeb, and any changes you have made on AnkiWeb or your other devices since the last sync to this device will be lost.\n\n"
+msgid ""
+"Your decks here and on AnkiWeb differ in such a way that they can't be merged together, so it's necessary to overwrite the decks on one side with the decks from the other.\n"
+"\n"
+"If you choose download, Anki will download the collection from AnkiWeb, and any changes you have made on your computer since the last sync will be lost.\n"
+"\n"
+"If you choose upload, Anki will upload your collection to AnkiWeb, and any changes you have made on AnkiWeb or your other devices since the last sync to this device will be lost.\n"
+"\n"
 "After all devices are in sync, future reviews and added cards can be merged automatically."
-msgstr "Vos paquets ici et sur AnkiWeb diffèrent de telle sorte qu'ils ne peuvent pas être fusionnés ensemble, il est donc nécessaire de remplacer les paquets d'un côté avec les paquets de l'autre.\n\n"
-"Si vous choisissez de télécharger, Anki va télécharger la collection d'AnkiWeb, et tous les changements que vous avez effectués sur votre ordinateur depuis la dernière synchronisation seront perdues.\n\n"
-"Si vous choisissez d'uploader, Anki va envoyer votre collection vers AnkiWeb, et toutes les modifications que vous avez apportées sur AnkiWeb ou vos autres appareils depuis la dernière synchronisation pour ces appareils seront perdues.\n\n"
+msgstr ""
+"Vos paquets ici et sur AnkiWeb diffèrent de telle sorte qu'ils ne peuvent pas être fusionnés ensemble, il est donc nécessaire de remplacer les paquets d'un côté avec les paquets de l'autre.\n"
+"\n"
+"Si vous choisissez de télécharger, Anki va télécharger la collection d'AnkiWeb, et tous les changements que vous avez effectués sur votre ordinateur depuis la dernière synchronisation seront perdues.\n"
+"\n"
+"Si vous choisissez d'uploader, Anki va envoyer votre collection vers AnkiWeb, et toutes les modifications que vous avez apportées sur AnkiWeb ou vos autres appareils depuis la dernière synchronisation pour ces appareils seront perdues.\n"
+"\n"
 "Après que tous les appareils soient synchronisés, les futurs révisions et les cartes ajoutées peuvent être fusionnées automatiquement."
 
 #: qt/aqt/errors.py:80
@@ -4042,9 +4105,7 @@ msgstr "collection"
 msgid "d"
 msgstr "j"
 
-#: qt/aqt/customstudy.py:90 qt/aqt/customstudy.py:94 qt/aqt/customstudy.py:97
-#: qt/aqt/forms/dconf.py:348 qt/aqt/forms/dconf.py:349
-#: qt/aqt/forms/dconf.py:356 qt/aqt/forms/dconf.py:368
+#: qt/aqt/customstudy.py:90 qt/aqt/customstudy.py:94 qt/aqt/customstudy.py:97 qt/aqt/forms/dconf.py:348 qt/aqt/forms/dconf.py:349 qt/aqt/forms/dconf.py:356 qt/aqt/forms/dconf.py:368
 #: qt/aqt/forms/reschedule.py:77
 msgid "days"
 msgstr "jour(s)"
@@ -4177,4 +4238,3 @@ msgstr ""
 #: qt/aqt/forms/reschedule.py:76
 msgid "~"
 msgstr "~"
-
