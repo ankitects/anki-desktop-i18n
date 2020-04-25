@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: anki\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-12 09:03+1000\n"
-"PO-Revision-Date: 2020-04-24 19:07+0000\n"
+"PO-Revision-Date: 2020-04-25 11:18+0000\n"
 "Last-Translator: Neerwan <erwanolivieropro@gmail.com>\n"
 "Language-Team: French\n"
 "Language: fr\n"
@@ -44,7 +44,7 @@ msgstr[1] " Contient %d cartes."
 #. T: include a font for your language on Windows, eg: "Segoe UI", "MS Mincho"
 #: qt/aqt/webview.py:268
 msgid "\"Segoe UI\""
-msgstr ""
+msgstr "« Segoe UI »"
 
 #: qt/aqt/forms/dconf.py:341 qt/aqt/forms/dconf.py:352 qt/aqt/forms/dconf.py:357 qt/aqt/forms/dconf.py:360 qt/aqt/forms/dconf.py:371 qt/aqt/forms/preferences.py:271
 msgid "%"
@@ -62,7 +62,7 @@ msgstr "%(a)0.1f %(b)s par jour"
 #: qt/aqt/sync.py:92
 #, python-format
 msgid "%(a)0.1fkB up, %(b)0.1fkB down"
-msgstr "%(a)0.1fkB montant, %(b)0.1fkB descendant"
+msgstr "%(a)0.1f Ko montant, %(b)0.1f Ko descendant"
 
 #. T: For example, in the statistics line: " Average
 #. answer time: 16.8s (3.6 cards/minute)", then
@@ -85,7 +85,7 @@ msgstr[1] "%(a)d sur %(b)d notes mises à jour."
 #: qt/aqt/browser.py:1317
 #, python-format
 msgid "%(n)d: %(name)s"
-msgstr "%(n)d: %(name)s"
+msgstr "%(n)d : %(name)s"
 
 #: pylib/anki/stats.py:438
 #, python-format
@@ -129,8 +129,8 @@ msgstr[1] "%d cartes importées."
 #, python-format
 msgid "%d card studied in"
 msgid_plural "%d cards studied in"
-msgstr[0] "%d carte étudiée."
-msgstr[1] "%d cartes étudiées."
+msgstr[0] "%d carte étudiée en"
+msgstr[1] "%d cartes étudiées en"
 
 #: qt/aqt/deckconf.py:157
 #, python-format
@@ -206,8 +206,8 @@ msgstr[1] "%d notes ont été exportées."
 #, python-format
 msgid "%d note imported."
 msgid_plural "%d notes imported."
-msgstr[0] "%d note importée"
-msgstr[1] "%d notes importées"
+msgstr[0] "%d note importée."
+msgstr[1] "%d notes importées."
 
 #: pylib/anki/importing/noteimp.py:224
 #, python-format
@@ -346,7 +346,7 @@ msgstr "&Cartes"
 
 #: qt/aqt/forms/main.py:146
 msgid "&Check Database"
-msgstr "&Vérifier l’intégrité la base de données"
+msgstr "&Vérifier l’intégrité de la base de données"
 
 #: qt/aqt/forms/browser.py:316
 msgid "&Cram..."
@@ -486,7 +486,7 @@ msgstr "(nécessite %s)"
 
 #: qt/aqt/importing.py:319
 msgid ".anki files are from a very old version of Anki. You can import them with Anki 2.0, available on the Anki website."
-msgstr "Les fichiers .anki proviennent d’une version très ancienne d’Anki. Vous pouvez les importer avec Anki 2.0, disponible sur le site web d'Anki."
+msgstr "Les fichiers .anki proviennent d’une version très ancienne d’Anki. Vous pouvez les importer avec Anki 2.0, disponible sur le site web d’Anki."
 
 #: qt/aqt/importing.py:326
 msgid ".anki2 files are not directly importable - please import the .apkg or .zip file you have received instead."
@@ -580,7 +580,7 @@ msgid ""
 "<b>Important</b>: As add-ons are programs downloaded from the internet, they are potentially malicious.<b>You should only install add-ons you trust.</b><br><br>Are you sure you want to proceed with "
 "the installation of the following Anki add-on(s)?<br><br>%(names)s"
 msgstr ""
-"<b>Important</b>: Comme les greffons sont des programmes téléchargés à partir d’Internet, ils sont potentiellement malveillants.<b>Vous ne devriez installer que des greffons en qui vous avez "
+"<b>Important</b> : Comme les greffons sont des programmes téléchargés à partir d’Internet, ils sont potentiellement malveillants.<b>Vous ne devriez installer que des greffons en qui vous avez "
 "confiance.</b><br><br>Êtes-vous sûr de vouloir procéder à l’installation de(s) greffons(s) Anki suivants ?<br><br>%(names)s"
 
 #: qt/aqt/forms/findreplace.py:71
@@ -1643,7 +1643,7 @@ msgstr[1] "Supprimer les greffons %(num)d sélectionnés ?"
 #: qt/aqt/clayout.py:242
 #, python-format
 msgid "Delete the '%(a)s' card type, and its %(b)s?"
-msgstr "Supprimer le type de carte '%(a)s', et ses %(b)s ?"
+msgstr "Supprimer le type de carte « %(a)s », et ses %(b)s ?"
 
 #: qt/aqt/models.py:108
 msgid "Delete this note type and all its cards?"
@@ -1736,7 +1736,7 @@ msgstr "%(fname)s téléchargé(s)"
 #: qt/aqt/addons.py:1061
 #, python-format
 msgid "Downloading %(a)d/%(b)d (%(kb)0.2fKB)..."
-msgstr "Téléchargement de %(a)d/%(b)d (%(kb)0.2fKB)..."
+msgstr "Téléchargement de %(a)d/%(b)d (%(kb)0.2f Ko)..."
 
 #: qt/aqt/sync.py:132
 msgid "Downloading from AnkiWeb..."
@@ -1781,7 +1781,7 @@ msgstr "Modifier"
 #: qt/aqt/addcards.py:154
 #, python-format
 msgid "Edit \"%s\""
-msgstr "Modifier \"%s\""
+msgstr "Modifier « %s »"
 
 #: qt/aqt/editcurrent.py:19
 msgid "Edit Current"
@@ -3719,7 +3719,7 @@ msgstr "Ce greffon n’est pas compatible avec votre version d’Anki."
 
 #: qt/aqt/browser.py:907
 msgid "This column can't be sorted on, but you can search for individual card types, such as 'card:1'."
-msgstr "Cette colonne ne peut pas être triée, mais vous pouvez rechercher des types de carte individuels, tels que 'carte:1'."
+msgstr "Cette colonne ne peut pas être triée, mais vous pouvez rechercher des types de carte individuels, tels que « carte:1 »."
 
 #: qt/aqt/browser.py:915
 msgid "This column can't be sorted on, but you can search for specific decks by clicking on one on the left."
@@ -3758,7 +3758,7 @@ msgstr "Ce paquet permet de réviser indépendamment de la planification d’Ank
 
 #: qt/aqt/models.py:143
 msgid "This is a {{c1::sample}} cloze deletion."
-msgstr "Il s’agit d’une suppression de {{c1::echantillon }} ."
+msgstr "Il s’agit d’une suppression de {{c1::echantillon }}."
 
 #: qt/aqt/clayout.py:430
 #, python-format
