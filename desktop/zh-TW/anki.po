@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: anki\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-12 09:03+1000\n"
-"PO-Revision-Date: 2020-05-31 21:05+0000\n"
+"PO-Revision-Date: 2020-06-01 06:23+0000\n"
 "Last-Translator: ausskenyu <changkenyu@gmail.com>\n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
@@ -757,7 +757,7 @@ msgstr "再一次"
 
 #: qt/aqt/browser.py:1230
 msgid "Again Today"
-msgstr "今日按「再一次」的"
+msgstr "今天按「再一次」的"
 
 #: pylib/anki/stats.py:184
 #, python-format
@@ -961,11 +961,11 @@ msgstr "附加圖片/音訊/影片(F3)"
 
 #: qt/aqt/reviewer.py:712
 msgid "Audio +5s"
-msgstr "音訊+5秒"
+msgstr "音訊快轉5秒"
 
 #: qt/aqt/reviewer.py:711
 msgid "Audio -5s"
-msgstr "音訊-5秒"
+msgstr "音訊倒轉5秒"
 
 #: qt/aqt/main.py:331
 msgid "Automatic syncing and backups have been disabled while restoring. To enable them again, close the profile or restart Anki."
@@ -997,7 +997,7 @@ msgstr "中等容易程度"
 
 #: pylib/anki/stats.py:443
 msgid "Average for days studied"
-msgstr "只算學習天數的平均"
+msgstr "平均值（只計算有學習的天數）"
 
 #: pylib/anki/stats.py:637
 msgid "Average interval"
@@ -1170,7 +1170,7 @@ msgstr "已暫時隱藏卡片。"
 
 #: qt/aqt/reviewer.py:779
 msgid "Card suspended."
-msgstr "已暫止卡片。"
+msgstr "已暫時停止卡片。"
 
 #: qt/aqt/reviewer.py:660
 msgid "Card was a leech."
@@ -1686,7 +1686,7 @@ msgstr "僅到期的卡片"
 
 #: pylib/anki/stats.py:289
 msgid "Due tomorrow"
-msgstr "明日到期"
+msgstr "明天到期"
 
 #: qt/aqt/forms/main.py:136
 msgid "E&xit"
@@ -2101,7 +2101,7 @@ msgstr "如果您有貢獻但是未列於清單中，請跟我們聯絡。"
 
 #: pylib/anki/stats.py:447
 msgid "If you studied every day"
-msgstr "如果您每天學習的話"
+msgstr "平均值（如果每天都學習）"
 
 #: qt/aqt/forms/dconf.py:373
 msgid "Ignore answer times longer than"
@@ -2306,7 +2306,7 @@ msgstr "無效的搜尋 - 請檢查有否輸入錯誤"
 
 #: qt/aqt/reviewer.py:662
 msgid "It has been suspended."
-msgstr "已暫止。"
+msgstr "已暫時停止。"
 
 #: qt/aqt/editor.py:106
 msgid "Italic text (Ctrl+I)"
@@ -2334,7 +2334,7 @@ msgstr "LaTeX數學環境。"
 
 #: pylib/anki/stats.py:48 qt/aqt/browser.py:723 qt/aqt/forms/dconf.py:372
 msgid "Lapses"
-msgstr "忘記"
+msgstr "忘記次數"
 
 #: qt/aqt/forms/browser.py:323
 msgid "Last Card"
@@ -2342,7 +2342,7 @@ msgstr "最後一張卡片"
 
 #: pylib/anki/stats.py:32
 msgid "Latest Review"
-msgstr "最近的複習"
+msgstr "最近複習"
 
 #: pylib/anki/consts.py:94
 msgid "Latest added first"
@@ -2359,7 +2359,7 @@ msgstr "超前進度"
 #: pylib/anki/stats.py:192
 #, python-format
 msgid "Learn: %(a)s, Review: %(b)s, Relearn: %(c)s, Filtered: %(d)s"
-msgstr "學習：%(a)s，複習：%(b)s，重新學習：%(c)s，已篩選：%(d)s"
+msgstr "學習：%(a)s　複習：%(b)s　重新學習：%(c)s　已篩選：%(d)s"
 
 #: pylib/anki/stats.py:705 qt/aqt/browser.py:1242 qt/aqt/overview.py:207
 msgid "Learning"
@@ -2632,7 +2632,7 @@ msgstr "已暫時隱藏筆記。"
 
 #: qt/aqt/reviewer.py:773
 msgid "Note suspended."
-msgstr "已暫止筆記。"
+msgstr "已暫時停止筆記。"
 
 #: qt/aqt/forms/preferences.py:283
 msgid "Note: Media is not backed up. Please create a periodic backup of your Anki folder to be safe."
@@ -3138,11 +3138,11 @@ msgstr "複習忘記的卡片"
 
 #: pylib/anki/stats.py:810
 msgid "Review success rate for each hour of the day."
-msgstr "當日每小時的複習成功率。"
+msgstr "當天的每小時複習成功率。"
 
 #: pylib/anki/stats.py:47 pylib/anki/stats.py:838 qt/aqt/browser.py:722 qt/aqt/forms/dconf.py:361
 msgid "Reviews"
-msgstr "複習卡"
+msgstr "複習"
 
 #: qt/aqt/customstudy.py:83
 #, python-format
@@ -3394,7 +3394,7 @@ msgstr ""
 
 #: qt/aqt/browser.py:1229
 msgid "Studied Today"
-msgstr "今日已學習"
+msgstr "今天已學習"
 
 #: qt/aqt/studydeck.py:62
 msgid "Study"
@@ -3438,23 +3438,23 @@ msgstr "上標(Ctrl++)"
 
 #: qt/aqt/reviewer.py:771 qt/aqt/reviewer.py:777
 msgid "Suspend"
-msgstr "暫止"
+msgstr "暫時停止"
 
 #: qt/aqt/reviewer.py:704 qt/aqt/forms/dconf.py:369
 msgid "Suspend Card"
-msgstr "暫止卡片"
+msgstr "暫時停止卡片"
 
 #: qt/aqt/reviewer.py:705
 msgid "Suspend Note"
-msgstr "暫止筆記"
+msgstr "暫時停止筆記"
 
 #: qt/aqt/browser.py:1246
 msgid "Suspended"
-msgstr "已暫止"
+msgstr "已暫時停止"
 
 #: pylib/anki/stats.py:880
 msgid "Suspended+Buried"
-msgstr "已暫止+已暫時隱藏"
+msgstr "已暫時停止+暫時隱藏"
 
 #: qt/aqt/toolbar.py:54 qt/aqt/forms/synclog.py:38
 msgid "Sync"
@@ -3597,7 +3597,7 @@ msgstr "您回答過的題目數量。"
 
 #: pylib/anki/stats.py:260
 msgid "The number of reviews due in the future."
-msgstr "未來的複習卡到期數量。"
+msgstr "將在未來到期的複習卡數量。"
 
 #: pylib/anki/stats.py:700
 msgid "The number of times you have pressed each button."
@@ -3747,7 +3747,7 @@ msgstr "切換標記"
 
 #: qt/aqt/forms/browser.py:329
 msgid "Toggle Suspend"
-msgstr "切換暫止狀態"
+msgstr "切換暫時停止狀態"
 
 #: pylib/anki/stats.py:279 pylib/anki/stats.py:344 pylib/anki/stats.py:438
 msgid "Total"
@@ -4019,7 +4019,7 @@ msgstr "集合"
 #. T: abbreviation of day
 #: pylib/anki/stats.py:992
 msgid "d"
-msgstr "日"
+msgstr "天"
 
 #: qt/aqt/customstudy.py:90 qt/aqt/customstudy.py:94 qt/aqt/customstudy.py:97 qt/aqt/forms/dconf.py:348 qt/aqt/forms/dconf.py:349 qt/aqt/forms/dconf.py:356 qt/aqt/forms/dconf.py:368
 #: qt/aqt/forms/reschedule.py:77
@@ -4088,7 +4088,7 @@ msgstr[0] ""
 
 #: qt/aqt/forms/dconf.py:365
 msgid "lapses"
-msgstr "忘記"
+msgstr "忘記次數"
 
 #: pylib/anki/stats.py:454
 msgid "less than 0.1 cards/minute"
