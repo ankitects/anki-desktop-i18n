@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: anki\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-12 09:03+1000\n"
-"PO-Revision-Date: 2020-06-01 06:23+0000\n"
+"PO-Revision-Date: 2020-06-04 17:23+0000\n"
 "Last-Translator: ausskenyu <changkenyu@gmail.com>\n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
@@ -20,7 +20,7 @@ msgstr ""
 #: qt/aqt/clayout.py:234
 #, python-format
 msgid " (1 of %d)"
-msgstr "（%d分之1）"
+msgstr "（1/%d）"
 
 #: qt/aqt/addons.py:308
 msgid " (disabled)"
@@ -38,7 +38,7 @@ msgstr "（開啟）"
 #, python-format
 msgid " It has %d card."
 msgid_plural " It has %d cards."
-msgstr[0] "有 %d 張卡片。"
+msgstr[0] "有%d張卡片。"
 
 #. T: include a font for your language on Windows, eg: "Segoe UI", "MS Mincho"
 #: qt/aqt/webview.py:268
@@ -99,7 +99,7 @@ msgstr "%.01f 卡片/分鐘"
 #, python-format
 msgid "%d card"
 msgid_plural "%d cards"
-msgstr[0] "%d 張卡片"
+msgstr[0] "%d張卡片"
 
 #: qt/aqt/main.py:1386
 #, python-format
@@ -345,11 +345,11 @@ msgstr "尋找(&F)"
 
 #: qt/aqt/forms/browser.py:299
 msgid "&Go"
-msgstr "前往(&G)"
+msgstr "移至(&G)"
 
 #: qt/aqt/forms/browser.py:312 qt/aqt/forms/main.py:147
 msgid "&Guide..."
-msgstr "用戶指南(&G)"
+msgstr "用戶手冊(&G)"
 
 #: qt/aqt/forms/browser.py:300 qt/aqt/forms/main.py:132
 msgid "&Help"
@@ -589,8 +589,8 @@ msgid ""
 "<h1>Account Required</h1>\n"
 "A free account is required to keep your collection synchronized. Please <a href=\"%s\">sign up</a> for an account, then enter your details below."
 msgstr ""
-"<h1>需要有帳號</h1>\n"
-"要同步您的集合需要一個免費的帳號，請<a href=\"%s\">註冊</a>一個帳號，並且在下方輸入資料。"
+"<h1>需要帳號</h1>\n"
+"您需要先建立一個免費的帳號來同步您的集合。請先<a href=\"{ $link }\">註冊</a>一個帳號，然後在下方輸入詳細資訊。"
 
 #: qt/aqt/update.py:60
 #, python-format
@@ -691,7 +691,7 @@ msgstr "新增筆記..."
 
 #: pylib/anki/stdmodels.py:83
 msgid "Add Reverse"
-msgstr "新增反向的資料"
+msgstr "新增反向卡片"
 
 #: qt/aqt/browser.py:1871
 msgid "Add Tags"
@@ -744,7 +744,7 @@ msgstr "已新增"
 
 #: qt/aqt/browser.py:1228
 msgid "Added Today"
-msgstr "今日新增"
+msgstr "今天新增的"
 
 #: pylib/anki/importing/noteimp.py:133
 #, python-format
@@ -790,7 +790,7 @@ msgstr "確定要刪除此設定檔的所有卡片、筆記和媒體檔？"
 
 #: qt/aqt/forms/customstudy.py:114
 msgid "All review cards in random order"
-msgstr "所有複習卡以隨機順序排列"
+msgstr "所有待複習卡片以隨機順序排列"
 
 #: qt/aqt/forms/importing.py:110
 msgid "Allow HTML in fields"
@@ -872,7 +872,7 @@ msgstr "由於無法重新命名硬碟上設定檔的資料夾，所以無法重
 
 #: qt/aqt/clayout.py:457
 msgid "Anki couldn't find the line between the question and answer. Please adjust the template manually to switch the question and answer."
-msgstr "Anki 找不到問題和答案之間的水平線，請手動調整模板以交換問題和答案。"
+msgstr "Anki找不到問題和答案之間的水平線，請手動調整模板以交換問題和答案。"
 
 #: pylib/anki/media.py:340
 msgid "Anki does not support files in subfolders of the collection.media folder."
@@ -880,11 +880,11 @@ msgstr ""
 
 #: qt/aqt/about.py:97
 msgid "Anki is a friendly, intelligent spaced learning system. It's free and open source."
-msgstr "Anki 是個好用的智慧型間隔式學習系統，是開放原始碼的自由軟體。"
+msgstr "Anki是個好用的智慧型間隔式學習系統，是開放原始碼的自由軟體。"
 
 #: qt/aqt/about.py:101
 msgid "Anki is licensed under the AGPL3 license. Please see the license file in the source distribution for more information."
-msgstr "Anki 採用AGPL-3.0 授權條款。更多資訊請參閱軟體原始碼的授權檔案。"
+msgstr "Anki採用AGPL-3.0授權條款。更多資訊請參閱軟體原始碼的授權檔案。"
 
 #: qt/aqt/main.py:437
 msgid ""
@@ -903,15 +903,15 @@ msgstr "AnkiWeb ID："
 
 #: qt/aqt/sync.py:191
 msgid "AnkiWeb encountered an error. Please try again in a few minutes, and if the problem persists, please file a bug report."
-msgstr "AnkiWeb 發生錯誤，請幾分鐘後再試一次，如果問題依舊存在，請提交錯誤報告。"
+msgstr "AnkiWeb發生錯誤，請幾分鐘後再試一次，如果問題依舊存在，請提交錯誤報告。"
 
 #: qt/aqt/sync.py:206
 msgid "AnkiWeb is too busy at the moment. Please try again in a few minutes."
-msgstr "AnkiWeb 現在相當忙碌，請幾分鐘後再試一次。"
+msgstr "AnkiWeb現在相當忙碌，請幾分鐘後再試一次。"
 
 #: qt/aqt/sync.py:203
 msgid "AnkiWeb is under maintenance. Please try again in a few minutes."
-msgstr "AnkiWeb 正在進行維護，請幾分鐘後重試一次。"
+msgstr "AnkiWeb正在進行維護，請幾分鐘後重試一次。"
 
 #: qt/aqt/browser.py:712
 msgid "Answer"
@@ -927,7 +927,7 @@ msgstr "答案"
 
 #: qt/aqt/sync.py:219
 msgid "Antivirus or firewall software is preventing Anki from connecting to the internet."
-msgstr "防毒軟體或防火牆導致 Anki 無法連至網際網路。"
+msgstr "防毒軟體或防火牆導致Anki無法連至網際網路。"
 
 #: qt/aqt/browser.py:1254
 msgid "Any Flag"
@@ -973,7 +973,7 @@ msgstr "自動同步和備份已在恢復時被停用。要重新啟用，請關
 
 #: qt/aqt/forms/dconf.py:376
 msgid "Automatically play audio"
-msgstr "自動播放聲音檔"
+msgstr "自動播放音訊檔"
 
 #: qt/aqt/forms/preferences.py:275
 msgid "Automatically sync on profile open/close"
@@ -997,7 +997,7 @@ msgstr "中等容易程度"
 
 #: pylib/anki/stats.py:443
 msgid "Average for days studied"
-msgstr "平均值（只計算有學習的天數）"
+msgstr "平均值（實際學習天數）"
 
 #: pylib/anki/stats.py:637
 msgid "Average interval"
@@ -1029,11 +1029,11 @@ msgstr "基本型"
 
 #: pylib/anki/stdmodels.py:60 pylib/anki/stdmodels.py:74
 msgid "Basic (and reversed card)"
-msgstr "基本型（含反向的卡片）"
+msgstr "基本型（含反向卡片）"
 
 #: pylib/anki/stdmodels.py:82 pylib/anki/stdmodels.py:92
 msgid "Basic (optional reversed card)"
-msgstr "基本型（可選用反向的卡片）"
+msgstr "基本型（可選用反向卡片）"
 
 #: pylib/anki/stdmodels.py:44 pylib/anki/stdmodels.py:52
 msgid "Basic (type in the answer)"
@@ -1103,7 +1103,7 @@ msgstr "明天前暫時隱藏關聯的新卡片"
 
 #: qt/aqt/forms/dconf.py:358
 msgid "Bury related reviews until the next day"
-msgstr "明天前暫時隱藏關聯的複習卡"
+msgstr "明天前暫時隱藏關聯的待複習卡片"
 
 #: qt/aqt/importing.py:125
 msgid ""
@@ -1111,8 +1111,8 @@ msgid ""
 "a tab, comma, and so on. If Anki is detecting the character incorrectly,\n"
 "you can enter it here. Use \\t to represent tab."
 msgstr ""
-"Anki 會自動偵測欄位間的間隔字元，像是定位字元（tab）或是逗點。\n"
-"假如 Anki 偵測錯誤的話，您可以在此輸入。 用 \\t 以代表 tab。"
+"Anki會自動偵測欄位間的間隔字元，像是定位字元（tab）或是逗號。\n"
+"假如Anki偵測錯誤的話，您可以在此輸入。 用 \\t 以代表 tab。"
 
 #: qt/aqt/overview.py:115 qt/aqt/sound.py:522 qt/aqt/sync.py:299 qt/aqt/sync.py:321
 msgid "Cancel"
@@ -1239,7 +1239,7 @@ msgstr "依照筆記類型來更改牌組"
 
 #: qt/aqt/browser.py:718
 msgid "Changed"
-msgstr "已變更"
+msgstr "變更日期"
 
 #: qt/aqt/clayout.py:115
 #, python-format
@@ -1404,7 +1404,7 @@ msgstr "損毀的附加元件檔案。"
 
 #: qt/aqt/sync.py:179
 msgid "Couldn't connect to AnkiWeb. Please check your network connection and try again."
-msgstr "無法連接上 AnkiWeb。請檢查您的網路連線，然後再試一次。"
+msgstr "無法連接上AnkiWeb。請檢查您的網路連線，然後再試一次。"
 
 #: qt/aqt/editor.py:686
 msgid "Couldn't record audio. Have you installed 'lame'?"
@@ -1433,7 +1433,7 @@ msgstr "以dvisvgm建立可縮放的圖像"
 
 #: qt/aqt/browser.py:716
 msgid "Created"
-msgstr "建立"
+msgstr "建立日期"
 
 #: qt/aqt/forms/browser.py:342
 msgid "Ctrl+Shift+E"
@@ -1534,7 +1534,7 @@ msgstr "預設"
 
 #: pylib/anki/stats.py:615
 msgid "Delays until reviews are shown again."
-msgstr "複習卡再次出現前的延遲。"
+msgstr "待複習卡片再次出現前的延遲。"
 
 #: qt/aqt/deckbrowser.py:257 qt/aqt/deckconf.py:83 qt/aqt/models.py:51 qt/aqt/reviewer.py:787 qt/aqt/forms/addons.py:76 qt/aqt/forms/browser.py:330 qt/aqt/forms/fields.py:102
 #: qt/aqt/forms/profiles.py:78
@@ -1639,7 +1639,7 @@ msgstr "如果在牌組清單中刪除這個牌組，剩下的卡片將會返回
 
 #: qt/aqt/forms/dconf.py:380
 msgid "Description"
-msgstr "敘述"
+msgstr "描述"
 
 #: qt/aqt/forms/dconf.py:379
 msgid "Description to show on overview screen, for current deck:"
@@ -1651,7 +1651,7 @@ msgstr "對話視窗"
 
 #: qt/aqt/addons.py:1082
 msgid "Download complete. Please restart Anki to apply changes."
-msgstr "下載完成。請重新啟動 Anki 以套用變更。"
+msgstr "下載完成。請重新啟動Anki以套用變更。"
 
 #: qt/aqt/sync.py:299 qt/aqt/sync.py:321 qt/aqt/sync.py:327
 msgid "Download from AnkiWeb"
@@ -1727,7 +1727,7 @@ msgstr "編輯HTML"
 
 #: qt/aqt/browser.py:717
 msgid "Edited"
-msgstr "已編輯"
+msgstr "編輯日期"
 
 #: qt/aqt/forms/fields.py:105
 msgid "Editing Font"
@@ -2012,12 +2012,12 @@ msgstr "一般"
 #: pylib/anki/latex.py:174
 #, python-format
 msgid "Generated file: %s"
-msgstr "生成檔案： %s"
+msgstr "已產生檔案： %s"
 
 #: pylib/anki/stats.py:958
 #, python-format
 msgid "Generated on %s"
-msgstr "建立日期： %s"
+msgstr "產生日期： %s"
 
 #: qt/aqt/forms/addons.py:69
 msgid "Get Add-ons..."
@@ -2033,7 +2033,7 @@ msgstr "良好"
 
 #: qt/aqt/forms/dconf.py:344
 msgid "Graduating interval"
-msgstr "晉階成複習卡的間隔"
+msgstr "晉階為待複習卡片的間隔"
 
 #: qt/aqt/browser.py:1251 qt/aqt/reviewer.py:688 qt/aqt/forms/browser.py:335
 msgid "Green Flag"
@@ -2166,7 +2166,7 @@ msgid ""
 "\n"
 "Difference to correct time: %s."
 msgstr ""
-"為了確保您的集合能在不同裝置中運作，Anki 要求您電腦的內部時鐘設定正確。即使系統顯示的當地時間是對的，內部時鐘還是有可能有錯。\n"
+"為了確保您的集合能在不同裝置中運作，Anki要求您電腦的內部時鐘設定正確。即使系統顯示的當地時間是對的，內部時鐘還是有可能有錯。\n"
 "\n"
 "請在電腦上的時間設定中確定下列幾點：\n"
 "\n"
@@ -2204,11 +2204,11 @@ msgstr "增加今日新卡片的數量上限："
 
 #: qt/aqt/forms/customstudy.py:104
 msgid "Increase today's review card limit"
-msgstr "增加今日複習卡的上限"
+msgstr "增加今日待複習卡片的上限"
 
 #: qt/aqt/customstudy.py:84
 msgid "Increase today's review limit by"
-msgstr "增加今日複習卡的數量上限："
+msgstr "增加今日待複習卡片的數量上限："
 
 #: pylib/anki/consts.py:89
 msgid "Increasing intervals"
@@ -2326,11 +2326,11 @@ msgstr "LaTeX"
 
 #: qt/aqt/editor.py:877
 msgid "LaTeX equation"
-msgstr "LaTeX 公式"
+msgstr "LaTeX公式"
 
 #: qt/aqt/editor.py:878
 msgid "LaTeX math env."
-msgstr "LaTeX數學環境。"
+msgstr "LaTeX數學環境"
 
 #: pylib/anki/stats.py:48 qt/aqt/browser.py:723 qt/aqt/forms/dconf.py:372
 msgid "Lapses"
@@ -2440,7 +2440,7 @@ msgstr "MathJax化學"
 
 #: qt/aqt/editor.py:873
 msgid "MathJax inline"
-msgstr "內嵌MathJax"
+msgstr "MathJax行內"
 
 #: pylib/anki/stats.py:245 pylib/anki/stats.py:372 pylib/anki/stats.py:392 pylib/anki/stats.py:707 pylib/anki/stats.py:877
 msgid "Mature"
@@ -2468,7 +2468,7 @@ msgstr "分鐘"
 
 #: pylib/anki/consts.py:71
 msgid "Mix new cards and reviews"
-msgstr "新卡片與複習卡混合"
+msgstr "新卡片與待複習卡片混合"
 
 #: pylib/anki/importing/__init__.py:15
 msgid "Mnemosyne 2.0 Deck (*.db)"
@@ -2557,7 +2557,7 @@ msgstr "新的筆記類型："
 
 #: qt/aqt/deckconf.py:117
 msgid "New options group name:"
-msgstr "新選項組的名稱："
+msgstr "新選項群組名稱："
 
 #: qt/aqt/fields.py:109
 #, python-format
@@ -2636,7 +2636,7 @@ msgstr "已暫時停止筆記。"
 
 #: qt/aqt/forms/preferences.py:283
 msgid "Note: Media is not backed up. Please create a periodic backup of your Anki folder to be safe."
-msgstr "注意：媒體並不會被備份，保險起見，請定期備份 Anki 資料夾。"
+msgstr "注意：媒體不會被備份。保險起見，請定期備份Anki資料夾。"
 
 #: qt/aqt/browser.py:1477
 msgid "Note: Some of the history is missing. For more information, please see the browser documentation."
@@ -2711,7 +2711,7 @@ msgstr "僅新卡片能調整順序。"
 
 #: qt/aqt/sync.py:215
 msgid "Only one client can access AnkiWeb at a time. If a previous sync failed, please try again in a few minutes."
-msgstr "同一時間內僅容許一個裝置來存取 AnkiWeb，如果之前的同步失敗，請幾分鐘後再試一次。"
+msgstr "同一時間內僅容許一個裝置來存取AnkiWeb，如果之前的同步失敗，請幾分鐘後再試一次。"
 
 #: qt/aqt/forms/profiles.py:75
 msgid "Open"
@@ -2740,7 +2740,7 @@ msgstr "%s 的選項"
 
 #: qt/aqt/forms/dconf.py:338
 msgid "Options group:"
-msgstr "選項組："
+msgstr "選項群組："
 
 #: qt/aqt/models.py:58
 msgid "Options..."
@@ -2792,7 +2792,7 @@ msgstr "貼上"
 
 #: qt/aqt/forms/preferences.py:257
 msgid "Paste clipboard images as PNG"
-msgstr "把剪貼簿圖像存為PNG格式"
+msgstr "以PNG格式貼上剪貼簿圖像"
 
 #: qt/aqt/forms/preferences.py:258
 msgid "Paste without shift key strips formatting"
@@ -2837,7 +2837,7 @@ msgstr "請連接麥克風，並且確保沒有其他程式佔用音效裝置。
 
 #: qt/aqt/main.py:1544
 msgid "Please ensure a profile is open and Anki is not busy, then try again."
-msgstr "請確定已開啟設定檔，而且 Anki 不在忙碌中，然後再試一次。"
+msgstr "請確定已開啟設定檔，而且Anki不在忙碌中，然後再試一次。"
 
 #: qt/aqt/browser.py:1352
 msgid "Please give your filter a name:"
@@ -2882,7 +2882,7 @@ msgstr "請選取一個牌組。"
 
 #: qt/aqt/sync.py:197
 msgid "Please upgrade to the latest version of Anki."
-msgstr "請把 Anki 升級到最新版本。"
+msgstr "請把Anki升級到最新版本。"
 
 #: qt/aqt/main.py:1033
 msgid "Please use File>Import to import this file."
@@ -2890,7 +2890,7 @@ msgstr "請使用「檔案>匯入」來匯入這個檔案。"
 
 #: qt/aqt/sync.py:140
 msgid "Please visit AnkiWeb, upgrade your deck, then try again."
-msgstr "請拜訪 AnkiWeb，升級您的牌組之後再試一次。"
+msgstr "請造訪AnkiWeb，升級您的牌組之後再試一次。"
 
 #: pylib/anki/stats.py:56
 msgid "Position"
@@ -3049,7 +3049,7 @@ msgstr "是否用較早的備份取代您的集合？"
 
 #: qt/aqt/browser.py:1569 qt/aqt/reviewer.py:709
 msgid "Replay Audio"
-msgstr "重播聲音"
+msgstr "重播音訊"
 
 #: qt/aqt/reviewer.py:714
 msgid "Replay Own Voice"
@@ -3147,7 +3147,7 @@ msgstr "複習"
 #: qt/aqt/customstudy.py:83
 #, python-format
 msgid "Reviews due in deck over today limit: %s"
-msgstr "牌組中到期的複習卡超過今日上限：%s"
+msgstr "牌組中到期的待複習卡片超過今日上限：%s"
 
 #: pylib/anki/consts.py:81
 msgid "Right"
@@ -3225,7 +3225,7 @@ msgstr "找不到伺服器。有可能是您的連線中斷了，或是Anki被�
 #: qt/aqt/deckconf.py:147
 #, python-format
 msgid "Set all decks below %s to this option group?"
-msgstr "要將 %s 裡所有的牌組都設定為此選項組？"
+msgstr "是否將 %s 裡的所有牌組都設為此選項群組？"
 
 #: qt/aqt/deckconf.py:87
 msgid "Set for all subdecks"
@@ -3280,15 +3280,15 @@ msgstr "顯示回答計時器"
 
 #: qt/aqt/forms/preferences.py:260
 msgid "Show learning cards with larger steps before reviews"
-msgstr "在複習前以更大的間距顯示學習中的卡片"
+msgstr "在待複習卡片前以更大的間距顯示學習中的卡片"
 
 #: pylib/anki/consts.py:72
 msgid "Show new cards after reviews"
-msgstr "複習後再顯示新卡片"
+msgstr "先顯示待複習卡片，後顯示新卡片"
 
 #: pylib/anki/consts.py:73
 msgid "Show new cards before reviews"
-msgstr "在複習前先學習新卡片"
+msgstr "先顯示新卡片，後顯示待複習卡片"
 
 #: pylib/anki/consts.py:65
 msgid "Show new cards in order added"
@@ -3328,7 +3328,7 @@ msgstr "已將一些關聯的或已暫時隱藏的卡片延遲到下一階段。
 
 #: qt/aqt/forms/preferences.py:284
 msgid "Some settings will take effect after you restart Anki."
-msgstr "部分設定在重新啟動 Anki 後才會生效。"
+msgstr "部分設定在重新啟動Anki後才會生效。"
 
 #: qt/aqt/browser.py:715
 msgid "Sort Field"
@@ -3344,7 +3344,7 @@ msgstr "不支援此行排序。請選另一行。"
 
 #: qt/aqt/errors.py:88
 msgid "Sound and video on cards will not function until mpv or mplayer is installed."
-msgstr "卡片上的聲音和影片需要安裝mpv或mplayer才能正常播放。"
+msgstr "卡片上的音訊和影片需要安裝mpv或mplayer才能正常播放。"
 
 #: qt/aqt/importing.py:165 qt/aqt/reviewer.py:569
 msgid "Space"
@@ -3394,7 +3394,7 @@ msgstr ""
 
 #: qt/aqt/browser.py:1229
 msgid "Studied Today"
-msgstr "今天已學習"
+msgstr "今天已學習的"
 
 #: qt/aqt/studydeck.py:62
 msgid "Study"
@@ -3462,7 +3462,7 @@ msgstr "同步"
 
 #: qt/aqt/forms/preferences.py:274
 msgid "Synchronize audio and images too"
-msgstr "同步聲音與影像"
+msgstr "同步音訊與圖像"
 
 #: qt/aqt/sync.py:152
 #, python-format
@@ -3535,7 +3535,7 @@ msgstr "此名稱已被使用。"
 
 #: qt/aqt/sync.py:185
 msgid "The connection to AnkiWeb timed out. Please check your network connection and try again."
-msgstr "AnkiWeb 的連接已逾時，請檢查您的網路並且再試一次。"
+msgstr "AnkiWeb的連接已逾時，請檢查您的網路並且再試一次。"
 
 #: qt/aqt/deckconf.py:131
 msgid "The default configuration can't be removed."
@@ -3597,7 +3597,7 @@ msgstr "您回答過的題目數量。"
 
 #: pylib/anki/stats.py:260
 msgid "The number of reviews due in the future."
-msgstr "將在未來到期的複習卡數量。"
+msgstr "將在未來到期的待複習卡片數量。"
 
 #: pylib/anki/stats.py:700
 msgid "The number of times you have pressed each button."
@@ -3615,7 +3615,7 @@ msgstr "無任何卡片符合此搜尋條件，您要試著修改嗎？"
 msgid ""
 "The requested change will require a full upload of the database when you next synchronize your collection. If you have reviews or other changes waiting on another device that haven't been "
 "synchronized here yet, they will be lost. Continue?"
-msgstr "此變動會使您下一次同步您的集合時，需要完整上傳您的資料庫。如果同步的話，您其他的裝置上尚未同步的複習卡片或其他變動的部分將會遺失，您是否要繼續？"
+msgstr "此變動會使您下一次同步您的集合時，需要完整上傳您的資料庫。如果同步的話，您其他的裝置上尚未同步的待複習卡片或其他變動的部分將會遺失，您是否要繼續？"
 
 #: pylib/anki/stats.py:406
 msgid "The time taken to answer the questions."
@@ -3627,10 +3627,7 @@ msgid ""
 "reached. You can increase the limit in the options, but please\n"
 "bear in mind that the more new cards you introduce, the higher\n"
 "your short-term review workload will become."
-msgstr ""
-"牌組裡還有其他新的卡片，只是您已經達到今天的進度了。您可以\n"
-"在選項中增加每日卡片數量上限，但請注意，如果您設定更多新\n"
-"卡片，那麼您短期複習量的負荷就會隨之增加。"
+msgstr "牌組裡還有其他新的卡片，但您已達到今日上限。您可以在選項中增加上限，但請注意，如果您設定更多新卡片，那麼您短期複習量的負荷就會隨之增加。"
 
 #: qt/aqt/main.py:277
 msgid "There must be at least one profile."
@@ -3652,7 +3649,7 @@ msgstr "此欄位無法進行排序，不過您可以點一下左側的牌組，
 msgid ""
 "This file does not appear to be a valid .apkg file. If you're getting this error from a file downloaded from AnkiWeb, chances are that your download failed. Please try again, and if the problem "
 "persists, please try again with a different browser."
-msgstr "此檔案看來不是有效的 apkg 檔，如果您是從 AnkiWeb 下載檔案後收到此錯誤訊息，那有可能是下載失敗。請再試一次，如果又發生錯誤，請換另一個網頁瀏覽器再試一次。"
+msgstr "此檔案看來不是有效的 .apkg檔，如果您是從AnkiWeb下載檔案後收到此錯誤訊息，那有可能是下載失敗。請再試一次，如果又發生錯誤，請換另一個網頁瀏覽器再試一次。"
 
 #: qt/aqt/utils.py:393
 msgid "This file exists. Are you sure you want to overwrite it?"
@@ -3940,7 +3937,7 @@ msgstr "您的AnkiWeb集合不包含任何卡片。請再次同步，並選擇�
 
 #: qt/aqt/deckconf.py:109
 msgid "Your changes will affect multiple decks. If you wish to change only the current deck, please add a new options group first."
-msgstr "此變動會影響許多牌組，若您只想更動當前的牌組，請先新增一個選項組。"
+msgstr "此變更將會影響多個牌組，若您只想變更當前牌組，請先新增一個選項群組。"
 
 #: qt/aqt/main.py:503
 msgid ""
@@ -3964,7 +3961,7 @@ msgid ""
 msgstr ""
 "您的集合已成功上傳至AnkiWeb。\n"
 "\n"
-"如果您也使用其他裝置，請現在進行同步，並選擇下載您剛剛從電腦上傳的您的集合。以後您的複習卡片和新增的卡片都會自動合併。"
+"如果您也使用其他裝置，請現在進行同步，並選擇下載您剛剛從電腦上傳的您的集合。以後您的待複習卡片和新增的卡片都會自動合併。"
 
 #: qt/aqt/errors.py:105
 msgid "Your computer's storage may be full. Please delete some unneeded files, then try again."
@@ -3980,11 +3977,11 @@ msgid ""
 "\n"
 "After all devices are in sync, future reviews and added cards can be merged automatically."
 msgstr ""
-"您本地的牌組與 AnkiWeb 牌組之間的差異無法合併，因此需要以某一方的牌組來覆寫另一方的牌組。\n"
+"您本地的牌組與AnkiWeb牌組之間的差異無法合併，因此需要以某一方的牌組來覆寫另一方的牌組。\n"
 "\n"
-"如果您選的是下載， Anki 會從 AnkiWeb 下載您的集合，而您電腦上次同步以後的變動將會遺失。\n"
+"如果您選的是下載，Anki會從AnkiWeb下載您的集合，而您電腦上次同步以後的變動將會遺失。\n"
 "\n"
-"如果您選的是上傳， Anki 會上傳您的集合至 AnkiWeb，而您的AnkiWeb 或其他裝置上次同步以後的變動將會遺失。\n"
+"如果您選的是上傳，Anki會上傳您的集合至AnkiWeb，而您的AnkiWeb或其他裝置上次同步以後的變動將會遺失。\n"
 "\n"
 "當所有的裝置都同步以後，新增的卡片和複習的卡片都能自動合併。"
 
@@ -4006,7 +4003,7 @@ msgstr "卡片"
 
 #: qt/aqt/customstudy.py:101
 msgid "cards from the deck"
-msgstr "牌組中的卡片"
+msgstr "張牌組中的卡片"
 
 #: qt/aqt/forms/dyndconf.py:137 qt/aqt/forms/dyndconf.py:141
 msgid "cards selected by"
