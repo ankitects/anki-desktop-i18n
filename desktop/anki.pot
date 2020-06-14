@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-06-09 19:14+1000\n"
+"POT-Creation-Date: 2020-06-14 13:52+1000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -410,7 +410,7 @@ msgstr ""
 msgid "<b>Export format</b>:"
 msgstr ""
 
-#: qt/aqt/forms/findreplace.py:84
+#: qt/aqt/forms/findreplace.py:70
 msgid "<b>Find</b>:"
 msgstr ""
 
@@ -427,7 +427,7 @@ msgstr ""
 msgid "<b>Important</b>: As add-ons are programs downloaded from the internet, they are potentially malicious.<b>You should only install add-ons you trust.</b><br><br>Are you sure you want to proceed with the installation of the following Anki add-on(s)?<br><br>%(names)s"
 msgstr ""
 
-#: qt/aqt/forms/findreplace.py:86
+#: qt/aqt/forms/findreplace.py:72
 msgid "<b>In</b>:"
 msgstr ""
 
@@ -443,7 +443,7 @@ msgstr ""
 msgid "<b>Please restart Anki to complete the installation.</b>"
 msgstr ""
 
-#: qt/aqt/forms/findreplace.py:85
+#: qt/aqt/forms/findreplace.py:71
 msgid "<b>Replace With</b>:"
 msgstr ""
 
@@ -506,7 +506,7 @@ msgstr ""
 msgid "Add Card Type..."
 msgstr ""
 
-#: qt/aqt/clayout.py:345 qt/aqt/forms/addfield.py:61
+#: qt/aqt/clayout.py:345 qt/aqt/forms/addfield.py:74
 msgid "Add Field"
 msgstr ""
 
@@ -532,6 +532,10 @@ msgstr ""
 
 #: qt/aqt/forms/browser.py:327
 msgid "Add Tags..."
+msgstr ""
+
+#: qt/aqt/forms/addfield.py:80
+msgid "Add to:"
 msgstr ""
 
 #: qt/aqt/browser.py:166
@@ -758,6 +762,18 @@ msgstr ""
 msgid "Average interval"
 msgstr ""
 
+#: qt/aqt/forms/addfield.py:79
+msgid "Back"
+msgstr ""
+
+#: qt/aqt/forms/preview.py:42
+msgid "Back Preview"
+msgstr ""
+
+#: qt/aqt/forms/template.py:110
+msgid "Back Template"
+msgstr ""
+
 #: qt/aqt/main.py:535
 msgid "Backing Up..."
 msgstr ""
@@ -873,6 +889,10 @@ msgstr ""
 msgid "Card Type"
 msgstr ""
 
+#: qt/aqt/forms/clayout_top.py:58
+msgid "Card Type:"
+msgstr ""
+
 #: pylib/anki/stats.py:912 qt/aqt/clayout.py:61
 msgid "Card Types"
 msgstr ""
@@ -984,11 +1004,11 @@ msgstr ""
 msgid "Checking..."
 msgstr ""
 
-#: qt/aqt/deckchooser.py:84 qt/aqt/modelchooser.py:71
+#: qt/aqt/deckchooser.py:87 qt/aqt/modelchooser.py:71
 msgid "Choose"
 msgstr ""
 
-#: qt/aqt/deckchooser.py:85
+#: qt/aqt/deckchooser.py:88
 msgid "Choose Deck"
 msgstr ""
 
@@ -1194,12 +1214,12 @@ msgstr ""
 msgid "Deauthorize"
 msgstr ""
 
-#: qt/aqt/forms/debug.py:55
+#: qt/aqt/forms/debug.py:52
 msgid "Debug Console"
 msgstr ""
 
 #: pylib/anki/stats.py:69 qt/aqt/browser.py:732 qt/aqt/deckbrowser.py:155
-#: qt/aqt/deckchooser.py:26 qt/aqt/forms/importing.py:106
+#: qt/aqt/deckchooser.py:29 qt/aqt/forms/importing.py:106
 msgid "Deck"
 msgstr ""
 
@@ -1219,7 +1239,7 @@ msgstr ""
 msgid "Decreasing intervals"
 msgstr ""
 
-#: qt/aqt/deckchooser.py:48 qt/aqt/deckchooser.py:52 qt/aqt/deckchooser.py:74
+#: qt/aqt/deckchooser.py:51 qt/aqt/deckchooser.py:55 qt/aqt/deckchooser.py:77
 msgid "Default"
 msgstr ""
 
@@ -1458,7 +1478,7 @@ msgstr ""
 msgid "Field name:"
 msgstr ""
 
-#: qt/aqt/forms/addfield.py:62
+#: qt/aqt/forms/addfield.py:76
 msgid "Field:"
 msgstr ""
 
@@ -1518,7 +1538,7 @@ msgstr ""
 msgid "Find &Duplicates..."
 msgstr ""
 
-#: qt/aqt/forms/finddupes.py:70
+#: qt/aqt/forms/finddupes.py:63
 msgid "Find Duplicates"
 msgstr ""
 
@@ -1526,7 +1546,7 @@ msgstr ""
 msgid "Find and Re&place..."
 msgstr ""
 
-#: qt/aqt/browser.py:1971 qt/aqt/forms/findreplace.py:83
+#: qt/aqt/browser.py:1971 qt/aqt/forms/findreplace.py:69
 msgid "Find and Replace"
 msgstr ""
 
@@ -1563,7 +1583,7 @@ msgstr ""
 msgid "Folder already exists."
 msgstr ""
 
-#: qt/aqt/forms/addfield.py:64
+#: qt/aqt/forms/addfield.py:77
 msgid "Font:"
 msgstr ""
 
@@ -1580,7 +1600,8 @@ msgstr ""
 msgid "Forecast"
 msgstr ""
 
-#: qt/aqt/forms/clayout_top.py:53 qt/aqt/forms/template.py:72
+#: qt/aqt/forms/clayout_top.py:57 qt/aqt/forms/preview.py:40
+#: qt/aqt/forms/template.py:107
 msgid "Form"
 msgstr ""
 
@@ -1589,8 +1610,16 @@ msgstr ""
 msgid "Found %(a)s across %(b)s."
 msgstr ""
 
-#: pylib/anki/exporting.py:377
+#: pylib/anki/exporting.py:377 qt/aqt/forms/addfield.py:75
 msgid "Front"
+msgstr ""
+
+#: qt/aqt/forms/preview.py:41
+msgid "Front Preview"
+msgstr ""
+
+#: qt/aqt/forms/template.py:108
+msgid "Front Template"
 msgstr ""
 
 #: qt/aqt/forms/dconf.py:378
@@ -1696,7 +1725,7 @@ msgstr ""
 msgid "Ignore answer times longer than"
 msgstr ""
 
-#: qt/aqt/forms/findreplace.py:88
+#: qt/aqt/forms/findreplace.py:74
 msgid "Ignore case"
 msgstr ""
 
@@ -2256,7 +2285,7 @@ msgstr ""
 msgid "Optimizing..."
 msgstr ""
 
-#: qt/aqt/forms/finddupes.py:71
+#: qt/aqt/forms/finddupes.py:64
 msgid "Optional filter:"
 msgstr ""
 
@@ -2695,7 +2724,7 @@ msgstr ""
 msgid "Search"
 msgstr ""
 
-#: qt/aqt/forms/finddupes.py:72
+#: qt/aqt/forms/finddupes.py:65
 msgid "Search in:"
 msgstr ""
 
@@ -2834,7 +2863,7 @@ msgstr ""
 msgid "Sidebar"
 msgstr ""
 
-#: qt/aqt/forms/addfield.py:63
+#: qt/aqt/forms/addfield.py:78
 msgid "Size:"
 msgstr ""
 
@@ -2922,6 +2951,10 @@ msgstr ""
 msgid "Study by card state or tag"
 msgstr ""
 
+#: qt/aqt/forms/template.py:109
+msgid "Styling"
+msgstr ""
+
 #: qt/aqt/editor.py:125
 msgid "Subscript (Ctrl+=)"
 msgstr ""
@@ -2982,7 +3015,7 @@ msgstr ""
 msgid "Tags"
 msgstr ""
 
-#: qt/aqt/deckchooser.py:31
+#: qt/aqt/deckchooser.py:34
 msgid "Target Deck (Ctrl+D)"
 msgstr ""
 
@@ -3124,7 +3157,7 @@ msgid "To browse add-ons, please click the browse button below.<br><br>When you'
 msgstr ""
 
 #: qt/aqt/editor.py:636
-msgid "To make a cloze deletion on an existing note, you need to change it to a cloze type first, via Edit>Change Note Type."
+msgid "To make a cloze deletion on an existing note, you need to change it to a cloze type first, via 'Notes>Change Note Type'"
 msgstr ""
 
 #: pylib/anki/schedv2.py:1334
@@ -3174,7 +3207,7 @@ msgstr ""
 msgid "Total notes"
 msgstr ""
 
-#: qt/aqt/forms/findreplace.py:87
+#: qt/aqt/forms/findreplace.py:73
 msgid "Treat input as regular expression"
 msgstr ""
 
