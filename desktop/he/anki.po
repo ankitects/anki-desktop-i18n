@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: anki\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-02-12 09:03+1000\n"
-"PO-Revision-Date: 2020-06-26 04:11+0000\n"
+"PO-Revision-Date: 2020-06-28 19:58+0000\n"
 "Last-Translator: sivan22 <sivan.ratson@gmail.com>\n"
 "Language-Team: Hebrew\n"
 "Language: he\n"
@@ -38,17 +38,17 @@ msgstr " פעיל"
 #, python-format
 msgid " It has %d card."
 msgid_plural " It has %d cards."
-msgstr[0] " קיימת %d כרטיסייה."
+msgstr[0] "קיים %d כרטיס."
 msgstr[1] " קיימות %d כרטיסיות."
 
 #. T: include a font for your language on Windows, eg: "Segoe UI", "MS Mincho"
 #: qt/aqt/webview.py:268
 msgid "\"Segoe UI\""
-msgstr ""
+msgstr "\"Arial\""
 
 #: qt/aqt/forms/dconf.py:341 qt/aqt/forms/dconf.py:352 qt/aqt/forms/dconf.py:357 qt/aqt/forms/dconf.py:360 qt/aqt/forms/dconf.py:371 qt/aqt/forms/preferences.py:271
 msgid "%"
-msgstr ""
+msgstr "%"
 
 #: pylib/anki/stats.py:815 pylib/anki/stats.py:837
 msgid "% Correct"
@@ -85,12 +85,12 @@ msgstr[1] "%(a)d מתוך %(b)d הערות עודכנו"
 #: qt/aqt/browser.py:1317
 #, python-format
 msgid "%(n)d: %(name)s"
-msgstr ""
+msgstr "%(n)d: %(name)s"
 
 #: pylib/anki/stats.py:438
 #, python-format
 msgid "%(tot)s %(unit)s"
-msgstr ""
+msgstr "%(tot)s %(unit)s"
 
 #: pylib/anki/stats.py:456
 #, python-format
@@ -482,7 +482,7 @@ msgstr "(אנא בחר 1 כרטיסייה)"
 #: qt/aqt/addons.py:719
 #, python-format
 msgid "(requires %s)"
-msgstr ""
+msgstr "(נדרש %s)"
 
 #: qt/aqt/importing.py:319
 msgid ".anki files are from a very old version of Anki. You can import them with Anki 2.0, available on the Anki website."
@@ -531,7 +531,7 @@ msgstr "התקבלה שגיאת 504 gateway timeout error. אנא נסה לנט�
 #. T: Symbols separating first and second column in a statistics table. Eg in "Total:    3 reviews".
 #: pylib/anki/stats.py:915
 msgid ":"
-msgstr ""
+msgstr ":"
 
 #: pylib/anki/stats.py:175 qt/aqt/deckbrowser.py:131
 #, python-format
@@ -670,7 +670,7 @@ msgstr "<התעלם>"
 
 #: qt/aqt/main.py:1476
 msgid "<non-unicode text>"
-msgstr ""
+msgstr "<טקסט שאינו בפורמט unicode>"
 
 #: qt/aqt/browser.py:736
 msgid "<type here to search; hit enter to show current deck>"
@@ -682,7 +682,7 @@ msgstr "תודה גדולה לכל מי שסיפק הצעות, תיקוני בא
 
 #: pylib/anki/stats.py:901
 msgid "A card's <i>ease</i> is the size of the next interval when you answer \"good\" on a review."
-msgstr "ה<i>קלות</i> של כרטיסייה היא גודל מרווח-הזמן עד החזרה הבאה, כאשר ענית \"טוב\" בשעת החזרה."
+msgstr "ה<i>קלות</i> של כרטיסייה היא גודל מרווח-הזמן עד הסקירה הבאה, כאשר ענית \"טוב\" בשעת הסקירה."
 
 #: pylib/anki/decks.py:287
 msgid "A filtered deck cannot have subdecks."
@@ -843,7 +843,7 @@ msgstr "אפשר HTML בתוך שדות"
 
 #: qt/aqt/forms/dconf.py:377
 msgid "Always include question side when replaying audio"
-msgstr ""
+msgstr "כלול תמיד את צד השאלה כאשר אודיו מופעל שנית"
 
 #: qt/aqt/addons.py:209
 #, python-format
@@ -899,7 +899,7 @@ msgstr "חפיסת Anki 2.0"
 
 #: qt/aqt/forms/preferences.py:261
 msgid "Anki 2.1 scheduler (beta)"
-msgstr ""
+msgstr "מתזמן Anki 2.1 (גרסת בטא)"
 
 #: pylib/anki/exporting.py:391
 msgid "Anki Collection Package"
@@ -982,7 +982,7 @@ msgstr "תוכנת אנטי-וירוס או חומת אש מונעות מ-Anki �
 
 #: qt/aqt/browser.py:1254
 msgid "Any Flag"
-msgstr ""
+msgstr "כל דגל"
 
 #: qt/aqt/browser.py:2455
 msgid "Any cards mapped to nothing will be deleted. If a note has no remaining cards, it will be lost. Are you sure you want to continue?"
@@ -991,7 +991,7 @@ msgstr "כל כרטיסייה שממופת לכלום תמחק. אם להערה 
 #: pylib/anki/importing/noteimp.py:158
 #, python-format
 msgid "Appeared twice in file: %s"
-msgstr ""
+msgstr "מופיע פעמיים בקובץ: %s"
 
 #: qt/aqt/deckbrowser.py:316
 #, python-format
@@ -1004,7 +1004,7 @@ msgstr "נדרש לפחות 1 סוג כרטיסייה."
 
 #: qt/aqt/deckconf.py:260 qt/aqt/dyndeckconf.py:159
 msgid "At least one step is required."
-msgstr ""
+msgstr "נדרש לפחות צעד אחד."
 
 #: qt/aqt/editor.py:140
 msgid "Attach pictures/audio/video (F3)"
@@ -1012,15 +1012,15 @@ msgstr "צרף תמונה\\אודיו\\ווידאו (F3)"
 
 #: qt/aqt/reviewer.py:712
 msgid "Audio +5s"
-msgstr ""
+msgstr "אודיו +5 שניות"
 
 #: qt/aqt/reviewer.py:711
 msgid "Audio -5s"
-msgstr ""
+msgstr "אודיו -5 שניות"
 
 #: qt/aqt/main.py:331
 msgid "Automatic syncing and backups have been disabled while restoring. To enable them again, close the profile or restart Anki."
-msgstr ""
+msgstr "סנכרון וגיבוי אוטומטיים בוטלו בעת השחזור. להפעיל אותם שנית, סגור את הפרופיל או הפעל מחדש את Anki."
 
 #: qt/aqt/forms/dconf.py:376
 msgid "Automatically play audio"
@@ -1048,7 +1048,7 @@ msgstr "קלות ממוצעת"
 
 #: pylib/anki/stats.py:443
 msgid "Average for days studied"
-msgstr ""
+msgstr "ממוצע עבור ימים שנלמדו"
 
 #: pylib/anki/stats.py:637
 msgid "Average interval"
@@ -1056,15 +1056,15 @@ msgstr "מרווח ממוצע"
 
 #: pylib/anki/stdmodels.py:21 pylib/anki/stdmodels.py:25 pylib/anki/stdmodels.py:46 pylib/anki/stdmodels.py:47 pylib/anki/stdmodels.py:62 pylib/anki/template.py:129 qt/aqt/forms/addfield.py:78
 msgid "Back"
-msgstr "חזרה"
+msgstr "סקירה"
 
 #: qt/aqt/forms/preview.py:41
 msgid "Back Preview"
-msgstr ""
+msgstr "תצוגה-מקדימה גב"
 
 #: qt/aqt/forms/template.py:109
 msgid "Back Template"
-msgstr ""
+msgstr "תבנית גב"
 
 #: qt/aqt/main.py:485
 msgid "Backing Up..."
@@ -1092,7 +1092,7 @@ msgstr "בסיסית (הקלד את התשובה)"
 
 #: qt/aqt/browser.py:1252 qt/aqt/reviewer.py:694 qt/aqt/forms/browser.py:336
 msgid "Blue Flag"
-msgstr ""
+msgstr "דגל כחול"
 
 #: qt/aqt/editor.py:104
 msgid "Bold text (Ctrl+B)"
@@ -1115,11 +1115,11 @@ msgstr "חפש בתוספים"
 
 #: qt/aqt/forms/browserdisp.py:69
 msgid "Browser Appearance"
-msgstr ""
+msgstr "מראה דפדפן"
 
 #: qt/aqt/clayout.py:493
 msgid "Browser Appearance..."
-msgstr ""
+msgstr "מראה דפדפן..."
 
 #: qt/aqt/forms/browseropts.py:69
 msgid "Browser Options"
@@ -1127,15 +1127,15 @@ msgstr "אפשרויות חיפוש"
 
 #: qt/aqt/dyndeckconf.py:20
 msgid "Build"
-msgstr ""
+msgstr "בנה"
 
 #: qt/aqt/browser.py:1247
 msgid "Buried"
-msgstr ""
+msgstr "נקברו"
 
 #: qt/aqt/overview.py:113
 msgid "Buried Siblings"
-msgstr ""
+msgstr "קבר אחים"
 
 #: qt/aqt/reviewer.py:799 qt/aqt/reviewer.py:805
 msgid "Bury"
@@ -1227,7 +1227,7 @@ msgstr "כרטיסייה הושהתה."
 
 #: qt/aqt/reviewer.py:660
 msgid "Card was a leech."
-msgstr ""
+msgstr "הכרטיסייה היתה עלוקה."
 
 #: pylib/anki/stats.py:336 pylib/anki/stats.py:973 qt/aqt/editor.py:159 qt/aqt/forms/changemodel.py:112
 msgid "Cards"
@@ -1243,7 +1243,7 @@ msgstr "כרטיסיות בטקסט פשוט"
 
 #: qt/aqt/overview.py:163
 msgid "Cards will be automatically returned to their original decks after you review them."
-msgstr "כרטיסיות יוחזרו אוטומטית לחפיסות המקוריות שלהן לאחר שתסקור אותן."
+msgstr "כרטיסים יוחזרו אוטומטית לחפיסות המקוריות שלהם לאחר שתסקור אותם."
 
 #: qt/aqt/models.py:56
 msgid "Cards..."
@@ -1356,7 +1356,7 @@ msgstr "נקה תגיות שאינן בשימוש"
 #: qt/aqt/models.py:192
 #, python-format
 msgid "Clone: %s"
-msgstr ""
+msgstr "שוכפל: %s"
 
 #: qt/aqt/addcards.py:70 qt/aqt/clayout.py:283 qt/aqt/forms/browser.py:325
 msgid "Close"
@@ -1376,15 +1376,15 @@ msgstr ""
 
 #: qt/aqt/editor.py:137
 msgid "Cloze deletion (Ctrl+Shift+C)"
-msgstr ""
+msgstr "השלם את החסר (Ctrl+Shift+C)"
 
 #: qt/aqt/forms/getaddons.py:50
 msgid "Code:"
-msgstr ""
+msgstr "קוד:"
 
 #: qt/aqt/exporting.py:154
 msgid "Collection exported."
-msgstr ""
+msgstr "התבצע ייצוא האוסף."
 
 #: pylib/anki/collection.py:785
 msgid "Collection is corrupt. Please see the manual."
@@ -1400,7 +1400,7 @@ msgstr "פסיק"
 
 #: qt/aqt/forms/addons.py:73
 msgid "Config"
-msgstr ""
+msgstr "הגדר"
 
 #: qt/aqt/forms/addonconf.py:70
 msgid "Configuration"
@@ -1436,7 +1436,7 @@ msgstr "העתק"
 
 #: qt/aqt/about.py:88
 msgid "Copy Debug Info"
-msgstr ""
+msgstr "העתק מידע ניפוי שגיאות"
 
 #: qt/aqt/utils.py:129
 msgid "Copy to Clipboard"
@@ -1524,11 +1524,11 @@ msgstr "לימוד מותאם-אישית"
 
 #: qt/aqt/customstudy.py:137 qt/aqt/customstudy.py:149
 msgid "Custom Study Session"
-msgstr ""
+msgstr "אוסף לימוד מותאם"
 
 #: qt/aqt/forms/dyndconf.py:147
 msgid "Custom steps (in minutes)"
-msgstr ""
+msgstr "צעדים מותאמים אישית (דקות)"
 
 #: qt/aqt/editor.py:162
 msgid "Customize Card Templates (Ctrl+L)"
@@ -1560,7 +1560,7 @@ msgstr "התנתק"
 
 #: qt/aqt/forms/debug.py:46
 msgid "Debug Console"
-msgstr ""
+msgstr "קונסולת ניפוי שגיאות"
 
 #: pylib/anki/stats.py:59 qt/aqt/browser.py:714 qt/aqt/deckbrowser.py:161 qt/aqt/deckchooser.py:26 qt/aqt/forms/importing.py:106
 msgid "Deck"
@@ -1580,7 +1580,7 @@ msgstr "חפיסות"
 
 #: pylib/anki/consts.py:90
 msgid "Decreasing intervals"
-msgstr ""
+msgstr "הפחתת מרווחי זמן"
 
 #: pylib/anki/decks.py:57 pylib/anki/storage.py:333 qt/aqt/deckchooser.py:48 qt/aqt/deckchooser.py:52 qt/aqt/deckchooser.py:74
 msgid "Default"
@@ -1708,11 +1708,11 @@ msgstr "תיאור להצגה במסך הסקירה, לחפיסה זאת:"
 
 #: qt/aqt/forms/dyndconf.py:133 qt/aqt/forms/editaddon.py:40 qt/aqt/forms/editcurrent.py:41 qt/aqt/forms/progress.py:40
 msgid "Dialog"
-msgstr ""
+msgstr "דו שיח"
 
 #: qt/aqt/addons.py:1082
 msgid "Download complete. Please restart Anki to apply changes."
-msgstr ""
+msgstr "ההורדה הושלמה. הפעל מחדש את Anki להחיל שינויים."
 
 #: qt/aqt/sync.py:299 qt/aqt/sync.py:321 qt/aqt/sync.py:327
 msgid "Download from AnkiWeb"
@@ -1743,11 +1743,11 @@ msgstr ""
 
 #: qt/aqt/forms/customstudy.py:112
 msgid "Due cards only"
-msgstr ""
+msgstr "כרטיסיות מתוכננות בלבד"
 
 #: pylib/anki/stats.py:289
 msgid "Due tomorrow"
-msgstr ""
+msgstr "מתוכנן למחר"
 
 #: qt/aqt/forms/main.py:136
 msgid "E&xit"
@@ -1763,7 +1763,7 @@ msgstr "קל"
 
 #: qt/aqt/forms/dconf.py:351
 msgid "Easy bonus"
-msgstr ""
+msgstr "בונוס קל"
 
 #: qt/aqt/forms/dconf.py:343
 msgid "Easy interval"
@@ -1817,7 +1817,7 @@ msgstr "כרטיסיות ריקות נמצאו. אנא הרץ כלים>כרטי�
 #: pylib/anki/importing/noteimp.py:153
 #, python-format
 msgid "Empty first field: %s"
-msgstr ""
+msgstr "שדה ראשון ריק: %s"
 
 #: qt/aqt/forms/dyndconf.py:144
 msgid "Enable second filter"
@@ -1825,12 +1825,12 @@ msgstr "אפשר פילטר שני"
 
 #: qt/aqt/forms/browser.py:324
 msgid "End"
-msgstr ""
+msgstr "סוף"
 
 #: qt/aqt/clayout.py:534
 #, python-format
 msgid "Enter deck to place new %s cards in, or leave blank:"
-msgstr ""
+msgstr "הכנס חפיסה למקם %s כרטיסים חדשים בתוכה, או הותר ריק:"
 
 #: qt/aqt/clayout.py:401
 #, python-format
@@ -2037,7 +2037,7 @@ msgstr "כותרת תחתונה"
 #: pylib/anki/latex.py:133
 #, python-format
 msgid "For security reasons, '%s' is not allowed on cards. You can still use it by placing the command in a different package, and importing that package in the LaTeX header instead."
-msgstr ""
+msgstr "מסיבות אבטחה, '%s' אינו מורשה בכרטיסים. עדיין תוכל להשתמש בו באמצעות הצבת הפקודה בחבילה נפרדת, וייבוא אותה החבילה בכותרת הLaTeX לחילופין."
 
 #: pylib/anki/stats.py:260
 msgid "Forecast"
@@ -2050,12 +2050,12 @@ msgstr "טופס"
 #: qt/aqt/browser.py:2192
 #, python-format
 msgid "Found %(a)s across %(b)s."
-msgstr ""
+msgstr "נמצא %(a)s מעבר ל%(b)s."
 
 #: pylib/anki/exporting.py:376 pylib/anki/stdmodels.py:19 pylib/anki/stdmodels.py:24 pylib/anki/stdmodels.py:46 pylib/anki/stdmodels.py:47 pylib/anki/stdmodels.py:63 pylib/anki/template.py:127
 #: qt/aqt/forms/addfield.py:74
 msgid "Front"
-msgstr ""
+msgstr "חזית"
 
 #: qt/aqt/forms/preview.py:40
 msgid "Front Preview"
@@ -2640,7 +2640,7 @@ msgstr "לא מסומן בדגל"
 
 #: qt/aqt/overview.py:49
 msgid "No cards are due yet."
-msgstr ""
+msgstr "אין כרטיסים מתוכננים."
 
 #: pylib/anki/stats.py:210
 msgid "No cards have been studied today."
@@ -2823,7 +2823,7 @@ msgstr ""
 
 #: pylib/anki/consts.py:93
 msgid "Order due"
-msgstr ""
+msgstr "סדר תאריך יעד"
 
 #: qt/aqt/forms/browserdisp.py:71
 msgid "Override back template:"
@@ -3056,7 +3056,7 @@ msgstr ""
 
 #: pylib/anki/consts.py:95
 msgid "Relative overdueness"
-msgstr ""
+msgstr "עודף תכנון יחסי"
 
 #: pylib/anki/stats.py:374 pylib/anki/stats.py:394 qt/aqt/browser.py:1443
 msgid "Relearn"
@@ -3211,7 +3211,7 @@ msgstr "סקירות"
 #: qt/aqt/customstudy.py:83
 #, python-format
 msgid "Reviews due in deck over today limit: %s"
-msgstr ""
+msgstr "סקירות מתוכננות בחפיסה מעבר להגבלת היום: %s"
 
 #: pylib/anki/consts.py:81
 msgid "Right"
@@ -3661,7 +3661,7 @@ msgstr ""
 
 #: pylib/anki/stats.py:260
 msgid "The number of reviews due in the future."
-msgstr ""
+msgstr "מספר הסקירות המתוכננות בעתיד."
 
 #: pylib/anki/stats.py:700
 msgid "The number of times you have pressed each button."
@@ -3933,7 +3933,7 @@ msgstr "ממתין לסיום עריכה."
 
 #: qt/aqt/editor.py:588
 msgid "Warning, cloze deletions will not work until you switch the type at the top to Cloze."
-msgstr ""
+msgstr "אזהרה, השלם את החסר לא יעבוד עד שתשנה את הסוג למעלה להשלם את החסר."
 
 #: qt/aqt/overview.py:118
 msgid "What would you like to unbury?"
@@ -3962,7 +3962,7 @@ msgstr ""
 
 #: qt/aqt/addcards.py:179
 msgid "You have a cloze deletion note type but have not made any cloze deletions. Proceed?"
-msgstr ""
+msgstr "סוג ההערה הוא השלמת החסר, אך אין שום חסר להשלמה. להמשיך?"
 
 #: qt/aqt/deckbrowser.py:142
 #, python-format
