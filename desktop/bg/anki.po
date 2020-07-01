@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anki\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-12 09:03+1000\n"
+"POT-Creation-Date: 2020-07-02 09:49+1000\n"
 "PO-Revision-Date: 2020-02-16 02:23\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Bulgarian\n"
@@ -15,24 +15,29 @@ msgstr ""
 "X-Crowdin-Language: bg\n"
 "X-Crowdin-File: anki.pot\n"
 
-#: qt/aqt/clayout.py:234
-#, python-format
-msgid " (1 of %d)"
-msgstr " (1 от %d)"
+#: qt/aqt/importing.py:410
+#, fuzzy
+msgid "    Invalid file. Please restore from backup."
+msgstr "Невалиден файл. Моля, възстановете от резервно копие."
 
-#: qt/aqt/addons.py:308
+#: qt/aqt/importing.py:419
+#, fuzzy
+msgid "    Unable to import from a read-only file."
+msgstr "Не може да се импортира от файл, достъпен само за четене."
+
+#: qt/aqt/addons.py:313
 msgid " (disabled)"
 msgstr ""
 
-#: qt/aqt/clayout.py:489
+#: qt/aqt/clayout.py:641
 msgid " (off)"
 msgstr " (изключено)"
 
-#: qt/aqt/clayout.py:487
+#: qt/aqt/clayout.py:639
 msgid " (on)"
 msgstr " (включено)"
 
-#: qt/aqt/deckbrowser.py:309
+#: qt/aqt/deckbrowser.py:297
 #, python-format
 msgid " It has %d card."
 msgid_plural " It has %d cards."
@@ -40,143 +45,81 @@ msgstr[0] " То съдържа %d карта."
 msgstr[1] " То съдържа %d карти."
 
 #. T: include a font for your language on Windows, eg: "Segoe UI", "MS Mincho"
-#: qt/aqt/webview.py:268
+#: qt/aqt/webview.py:375
 msgid "\"Segoe UI\""
 msgstr ""
 
 #: qt/aqt/forms/dconf.py:341 qt/aqt/forms/dconf.py:352
 #: qt/aqt/forms/dconf.py:357 qt/aqt/forms/dconf.py:360
-#: qt/aqt/forms/dconf.py:371 qt/aqt/forms/preferences.py:271
+#: qt/aqt/forms/dconf.py:371 qt/aqt/forms/preferences.py:286
 msgid "%"
 msgstr ""
 
-#: pylib/anki/stats.py:815 pylib/anki/stats.py:837
+#: pylib/anki/stats.py:789 pylib/anki/stats.py:811
 msgid "% Correct"
 msgstr "% правилни"
 
-#: pylib/anki/stats.py:1119
+#: pylib/anki/stats.py:1105
 #, python-format
 msgid "%(a)0.1f %(b)s/day"
 msgstr "%(a)0.1f %(b)s/ден"
 
-#: qt/aqt/sync.py:92
-#, python-format
-msgid "%(a)0.1fkB up, %(b)0.1fkB down"
-msgstr ""
-
-#. T: For example, in the statistics line: " Average
-#. answer time: 16.8s (3.6 cards/minute)", then
-#. "%(a)0.1fs" represents "16.8s" and "%(b)s" represents
-#. "3.6 cards/minutes")
-#: pylib/anki/stats.py:464
-#, python-format
-msgid "%(a)0.1fs (%(b)s)"
-msgstr "%(a)0.1fсек. (%(b)s)"
-
-#: qt/aqt/browser.py:2134
-#, python-format
-msgid "%(a)d of %(b)d note updated"
-msgid_plural "%(a)d of %(b)d notes updated"
-msgstr[0] "%(a)d от %(b)d бележка обновена"
-msgstr[1] "%(a)d от %(b)d бележки обновени"
-
 #. T: name is a card type name. n it's order in the list of card type.
 #. T: this is shown in browser's filter, when seeing the list of card type of a note type.
-#: qt/aqt/browser.py:1317
+#: qt/aqt/browser.py:1352
 #, python-format
 msgid "%(n)d: %(name)s"
 msgstr ""
 
-#: pylib/anki/stats.py:438
+#: pylib/anki/stats.py:413
 #, python-format
 msgid "%(tot)s %(unit)s"
 msgstr ""
 
-#: pylib/anki/stats.py:456
-#, python-format
-msgid "%.01f cards/minute"
-msgstr "%.01f карти в минута"
-
-#: pylib/anki/stats.py:288 pylib/anki/stats.py:344 qt/aqt/clayout.py:241
-#: qt/aqt/main.py:1374
+#: pylib/anki/stats.py:255 pylib/anki/stats.py:313 qt/aqt/clayout.py:507
 #, python-format
 msgid "%d card"
 msgid_plural "%d cards"
 msgstr[0] "%d карта"
 msgstr[1] "%d карти"
 
-#: qt/aqt/main.py:1386
-#, python-format
-msgid "%d card deleted."
-msgid_plural "%d cards deleted."
-msgstr[0] "%d карта беше изтрита"
-msgstr[1] "%d карти бяха изтрити"
-
-#: qt/aqt/exporting.py:168
+#: qt/aqt/exporting.py:186
 #, python-format
 msgid "%d card exported."
 msgid_plural "%d cards exported."
 msgstr[0] "%d карта беше експортирана."
 msgstr[1] "%d карти бяха експортирани."
 
-#: pylib/anki/importing/supermemo_xml.py:194
+#: pylib/anki/importing/supermemo_xml.py:202
 #, python-format
 msgid "%d card imported."
 msgid_plural "%d cards imported."
 msgstr[0] "%d карта беше импортирана"
 msgstr[1] "%d карти бяха импортирани"
 
-#: qt/aqt/reviewer.py:75
+#: qt/aqt/reviewer.py:88
 #, python-format
 msgid "%d card studied in"
 msgid_plural "%d cards studied in"
 msgstr[0] "%d карта научена за"
 msgstr[1] "%d карти научени за"
 
-#: qt/aqt/deckconf.py:157
+#: qt/aqt/deckconf.py:167
 #, python-format
 msgid "%d deck updated."
 msgid_plural "%d decks updated."
 msgstr[0] "%d тесте беше обновено"
 msgstr[1] "%d тестета бяха обновени"
 
-#: qt/aqt/main.py:1282
-#, python-format
-msgid "%d file found in media folder not used by any cards:"
-msgid_plural "%d files found in media folder not used by any cards:"
-msgstr[0] ""
-msgstr[1] ""
-
-#: qt/aqt/main.py:1339
-#, python-format
-msgid "%d file remaining..."
-msgid_plural "%d files remaining..."
-msgstr[0] ""
-msgstr[1] ""
-
-#: qt/aqt/browser.py:2190
+#: qt/aqt/browser.py:1995
 #, python-format
 msgid "%d group"
 msgid_plural "%d groups"
 msgstr[0] "%d група"
 msgstr[1] "%d групи"
 
-#: pylib/anki/sync.py:775
-#, python-format
-msgid "%d media change to upload"
-msgid_plural "%d media changes to upload"
-msgstr[0] "%d промяна в медийните файлове за качване"
-msgstr[1] "%d промени в медийните файлове за качване"
-
-#: pylib/anki/sync.py:825
-#, python-format
-msgid "%d media file downloaded"
-msgid_plural "%d media files downloaded"
-msgstr[0] "%d медиен файл беше изтеглен"
-msgstr[1] "%d медийни файла бяха изтеглени"
-
-#: qt/aqt/browser.py:2191 qt/aqt/browser.py:2199 qt/aqt/fields.py:96
-#: qt/aqt/models.py:82
+#: qt/aqt/browser.py:1996 qt/aqt/browser.py:2004 qt/aqt/fields.py:123
+#: qt/aqt/models.py:100
 #, python-format
 msgid "%d note"
 msgid_plural "%d notes"
@@ -190,21 +133,21 @@ msgid_plural "%d notes added"
 msgstr[0] "%d бележка беше добавена"
 msgstr[1] "%d бележки бяха добавени"
 
-#: qt/aqt/browser.py:1801
+#: qt/aqt/browser.py:1567
 #, python-format
 msgid "%d note deleted."
 msgid_plural "%d notes deleted."
 msgstr[0] "%d бележка беше изтрита."
 msgstr[1] "Бяха изтрити %d бележки."
 
-#: qt/aqt/exporting.py:159
+#: qt/aqt/exporting.py:179
 #, python-format
 msgid "%d note exported."
 msgid_plural "%d notes exported."
 msgstr[0] "%d бележка беше експортирана"
 msgstr[1] "%d бележки бяха експортирани"
 
-#: pylib/anki/importing/mnemo.py:105
+#: pylib/anki/importing/mnemo.py:104
 #, python-format
 msgid "%d note imported."
 msgid_plural "%d notes imported."
@@ -225,114 +168,31 @@ msgid_plural "%d notes updated"
 msgstr[0] "%d бележка беше обновена"
 msgstr[1] "%d бележки бяха обновени"
 
-#: pylib/anki/stats.py:279
-#, python-format
-msgid "%d review"
-msgid_plural "%d reviews"
-msgstr[0] "%d преговор"
-msgstr[1] "%d преговора"
-
-#: qt/aqt/browser.py:801
+#: qt/aqt/browser.py:820
 #, python-format
 msgid "%d selected"
 msgid_plural "%d selected"
 msgstr[0] "%d избрани"
 msgstr[1] "%d избрани"
 
-#: pylib/anki/models.py:257
+#: pylib/anki/models.py:263
 #, python-format
 msgid "%s copy"
 msgstr "%s копиране"
 
-#: pylib/anki/utils.py:41
-#, python-format
-msgid "%s day"
-msgid_plural "%s days"
-msgstr[0] "%s ден"
-msgstr[1] "%s дни"
-
-#: pylib/anki/utils.py:42
-#, python-format
-msgid "%s hour"
-msgid_plural "%s hours"
-msgstr[0] "%s час"
-msgstr[1] "%s часа"
-
-#: pylib/anki/utils.py:43
-#, python-format
-msgid "%s minute"
-msgid_plural "%s minutes"
-msgstr[0] "%s минута"
-msgstr[1] "%s минути"
-
-#: qt/aqt/reviewer.py:79
+#: qt/aqt/reviewer.py:92
 #, python-format
 msgid "%s minute."
 msgid_plural "%s minutes."
 msgstr[0] "%s минута"
 msgstr[1] "%s минути"
 
-#: pylib/anki/utils.py:40
-#, python-format
-msgid "%s month"
-msgid_plural "%s months"
-msgstr[0] "%s месец"
-msgstr[1] "%s месеца"
-
-#: pylib/anki/utils.py:44 qt/aqt/main.py:1132
+#: qt/aqt/main.py:1193
 #, python-format
 msgid "%s second"
 msgid_plural "%s seconds"
 msgstr[0] "%s секунда"
 msgstr[1] "%s секунди"
-
-#: qt/aqt/main.py:1375
-#, python-format
-msgid "%s to delete:"
-msgstr "%s за изтриване:"
-
-#: pylib/anki/utils.py:39
-#, python-format
-msgid "%s year"
-msgid_plural "%s years"
-msgstr[0] "%s година"
-msgstr[1] "%s години"
-
-#. T: d is an abbreviation for day. %s is a number of days
-#: pylib/anki/utils.py:64
-#, python-format
-msgid "%sd"
-msgstr ""
-
-#. T: h is an abbreviation for hour. %s is a number of hours
-#: pylib/anki/utils.py:66
-#, python-format
-msgid "%sh"
-msgstr ""
-
-#. T: m is an abbreviation for minute. %s is a number of minutes
-#: pylib/anki/utils.py:68
-#, python-format
-msgid "%sm"
-msgstr ""
-
-#. T: m is an abbreviation for month. %s is a number of months
-#: pylib/anki/utils.py:62
-#, python-format
-msgid "%smo"
-msgstr "%s мес."
-
-#. T: s is an abbreviation for second. %s is a number of seconds
-#: pylib/anki/utils.py:70
-#, python-format
-msgid "%ss"
-msgstr ""
-
-#. T: year is an abbreviation for year. %s is a number of years
-#: pylib/anki/utils.py:60
-#, python-format
-msgid "%sy"
-msgstr ""
 
 #: qt/aqt/forms/main.py:139
 msgid "&About..."
@@ -443,120 +303,101 @@ msgstr "&Отмяна"
 msgid "'%(row)s' had %(num1)d fields, expected %(num2)d"
 msgstr "'%(row)s' има %(num1)d полета, очакват се %(num2)d"
 
-#: pylib/anki/stats.py:186
+#: pylib/anki/stats.py:151
 #, python-format
 msgid "(%s correct)"
 msgstr "(%s верни)"
 
-#: qt/aqt/addcards.py:157
+#: qt/aqt/addcards.py:148
 msgid "(Note deleted)"
 msgstr ""
 
-#: qt/aqt/addons.py:717
+#: qt/aqt/addons.py:744
 msgid "(disabled)"
 msgstr ""
 
-#: pylib/anki/sched.py:1342 pylib/anki/schedv2.py:1550
+#: pylib/anki/schedv2.py:1398
 msgid "(end)"
 msgstr "(край)"
 
-#: qt/aqt/browser.py:352
+#: qt/aqt/browser.py:364
 msgid "(filtered)"
 msgstr "(филтрирани)"
 
-#: qt/aqt/browser.py:319
+#: qt/aqt/browser.py:331
 msgid "(learning)"
 msgstr "(в процес на научаване)"
 
-#: qt/aqt/browser.py:317 qt/aqt/browser.py:323
+#: qt/aqt/browser.py:329 qt/aqt/browser.py:335
 msgid "(new)"
 msgstr "(нов)"
 
-#: qt/aqt/deckconf.py:179
+#: qt/aqt/deckconf.py:195
 #, python-format
 msgid "(parent limit: %d)"
 msgstr ""
 
-#: qt/aqt/browser.py:1700
+#: qt/aqt/previewer.py:156
 msgid "(please select 1 card)"
 msgstr "(моля, изберете една карта)"
 
-#: qt/aqt/addons.py:719
+#: qt/aqt/addons.py:746
 #, python-format
 msgid "(requires %s)"
 msgstr ""
 
-#: qt/aqt/importing.py:319
+#: qt/aqt/importing.py:328
 msgid ".anki files are from a very old version of Anki. You can import them with Anki 2.0, available on the Anki website."
 msgstr ""
 
-#: qt/aqt/importing.py:326
+#: qt/aqt/importing.py:335
 msgid ".anki2 files are not directly importable - please import the .apkg or .zip file you have received instead."
 msgstr ""
 
-#: qt/aqt/browser.py:1462
-msgid "0d"
-msgstr "0 д"
-
-#: pylib/anki/stats.py:966 qt/aqt/forms/stats.py:78
+#: pylib/anki/stats.py:942 qt/aqt/forms/stats.py:82
 msgid "1 month"
 msgstr "1 месец"
 
-#: pylib/anki/stats.py:966 qt/aqt/forms/stats.py:79
+#: pylib/anki/stats.py:942 qt/aqt/forms/stats.py:83
 msgid "1 year"
 msgstr "1 година"
 
-#: pylib/anki/stats.py:829
+#: pylib/anki/stats.py:803
 msgid "10AM"
 msgstr "10 ч."
 
-#: pylib/anki/stats.py:831
+#: pylib/anki/stats.py:805
 msgid "10PM"
 msgstr "22 ч."
 
-#: pylib/anki/stats.py:832
+#: pylib/anki/stats.py:806
 msgid "3AM"
 msgstr "3 ч."
 
-#: pylib/anki/stats.py:828
+#: pylib/anki/stats.py:802
 msgid "4AM"
 msgstr "4 ч."
 
-#: pylib/anki/stats.py:830
+#: pylib/anki/stats.py:804
 msgid "4PM"
 msgstr "16 ч."
 
-#: qt/aqt/sync.py:211
-msgid "504 gateway timeout error received. Please try temporarily disabling your antivirus."
-msgstr "Получена грешка \"504 gateway timeout\". Опитайте с временно изключване на антивирусната програма."
-
 #. T: Symbols separating first and second column in a statistics table. Eg in "Total:    3 reviews".
-#: pylib/anki/stats.py:915
+#: pylib/anki/stats.py:891
 msgid ":"
 msgstr ""
-
-#: pylib/anki/stats.py:175 qt/aqt/deckbrowser.py:131
-#, python-format
-msgid "<!--studied-->%d card"
-msgid_plural "<!--studied-->%d cards"
-msgstr[0] "%d карта"
-msgstr[1] "%d карти"
 
 #: qt/aqt/about.py:110
 #, python-format
 msgid "<a href='%s'>Visit website</a>"
 msgstr "<a href='%s'>Посетете уебсайта</a>"
 
-#: pylib/anki/stats.py:428
+#: pylib/anki/stats.py:403
 #, python-format
 msgid "<b>%(pct)d%%</b> (%(x)s of %(y)s)"
 msgstr "<b>%(pct)d%%</b> (%(x)s от %(y)s)"
 
-#: qt/aqt/browser.py:1441
-msgid "<b>%Y-%m-%d</b> @ %H:%M"
-msgstr ""
-
-#: qt/aqt/forms/preferences.py:279
+#: qt/aqt/forms/preferences.py:306
 msgid "<b>Backups</b><br>Anki will create a backup of your collection each time it is closed or synchronized."
 msgstr "<b>Резервни копия</b><br> създават се всеки път, когато затворите или синхронизирате Anki."
 
@@ -564,7 +405,7 @@ msgstr "<b>Резервни копия</b><br> създават се всеки 
 msgid "<b>Export format</b>:"
 msgstr "<b>Формат за експортиране</b>:"
 
-#: qt/aqt/forms/findreplace.py:69
+#: qt/aqt/forms/findreplace.py:84
 msgid "<b>Find</b>:"
 msgstr "<b>Търсене</b>:"
 
@@ -576,12 +417,12 @@ msgstr "<b>Големина на шрифта</b?"
 msgid "<b>Font</b>:"
 msgstr "<b>Шрифт</b>:"
 
-#: qt/aqt/addons.py:1341
+#: qt/aqt/addons.py:1399
 #, python-format
 msgid "<b>Important</b>: As add-ons are programs downloaded from the internet, they are potentially malicious.<b>You should only install add-ons you trust.</b><br><br>Are you sure you want to proceed with the installation of the following Anki add-on(s)?<br><br>%(names)s"
 msgstr ""
 
-#: qt/aqt/forms/findreplace.py:71
+#: qt/aqt/forms/findreplace.py:86
 msgid "<b>In</b>:"
 msgstr "<b>В</b>:"
 
@@ -593,76 +434,48 @@ msgstr "<b>Включване на:</b>"
 msgid "<b>Line Size</b>:"
 msgstr "<b>Размер на линиите</b>:"
 
-#: qt/aqt/addons.py:1365
+#: qt/aqt/addons.py:1423
 msgid "<b>Please restart Anki to complete the installation.</b>"
 msgstr ""
 
-#: qt/aqt/forms/findreplace.py:70
+#: qt/aqt/forms/findreplace.py:85
 msgid "<b>Replace With</b>:"
 msgstr "<b>Замени с</b>:"
 
-#: qt/aqt/forms/preferences.py:273
+#: qt/aqt/forms/preferences.py:299
 msgid "<b>Synchronisation</b>"
 msgstr "<b>Синхронизиране</b>"
 
-#: qt/aqt/preferences.py:193
-msgid "<b>Synchronization</b><br>\n"
+#: qt/aqt/preferences.py:187
+msgid ""
+"<b>Synchronization</b><br>\n"
 "Not currently enabled; click the sync button in the main window to enable."
 msgstr "<b>Синхронизиране</b><br>"
-
-#: qt/aqt/sync.py:257
-#, python-format
-msgid "<h1>Account Required</h1>\n"
-"A free account is required to keep your collection synchronized. Please <a href=\"%s\">sign up</a> for an account, then enter your details below."
-msgstr "<h1>Необходим е профил</h1>\n"
-"За синхронизиране на колекциите е необходим безплатен профил. Моля <a href=\"%s\">регистрирайте се</a> и  въведете данните си по-долу след това."
 
 #: qt/aqt/update.py:60
 #, python-format
 msgid "<h1>Anki Updated</h1>Anki %s has been released.<br><br>"
 msgstr "<h1>Anki беше обновен</h1>Anki %s беше издаден.<br><br>"
 
-#: qt/aqt/errors.py:143
-msgid "<h1>Error</h1>\n\n"
-"<p>An error occurred. Please start Anki while holding down the shift key, which will temporarily disable the add-ons you have installed.</p>\n\n"
-"<p>If the issue only occurs when add-ons are enabled, please use the Tools&gt;Add-ons menu item to disable some add-ons and restart Anki, repeating until you discover the add-on that is causing the problem.</p>\n\n"
-"<p>When you've discovered the add-on that is causing the problem, please report the issue on the <a href=\"https://help.ankiweb.net/discussions/add-ons/\">add-ons section</a> of our support site.\n\n"
-"<p>Debug info:</p>\n"
-msgstr ""
-
-#: qt/aqt/errors.py:131
-msgid "<h1>Error</h1>\n\n"
-"<p>An error occurred. Please use <b>Tools &gt; Check Database</b> to see if that fixes the problem.</p>\n\n"
-"<p>If problems persist, please report the problem on our <a href=\"https://help.ankiweb.net\">support site</a>. Please copy and paste  the information below into your report.</p>"
-msgstr ""
-
-#: qt/aqt/importing.py:256
+#: qt/aqt/importing.py:265
 msgid "<ignored>"
 msgstr "<игнорирано>"
 
-#: qt/aqt/main.py:1476
+#: qt/aqt/main.py:1502
 msgid "<non-unicode text>"
 msgstr ""
 
-#: qt/aqt/browser.py:736
+#: qt/aqt/browser.py:755
 msgid "<type here to search; hit enter to show current deck>"
 msgstr "<текст за търсене, натиснете Enter за отваряне на текущото тесте>"
 
-#: qt/aqt/about.py:216
+#: qt/aqt/about.py:222
 msgid "A big thanks to all the people who have provided suggestions, bug reports and donations."
 msgstr "Много благодарности към всички хора, които помогнаха с предложения, докладваха проблеми и допринесоха с парични дарения."
 
-#: pylib/anki/stats.py:901
+#: pylib/anki/stats.py:875
 msgid "A card's <i>ease</i> is the size of the next interval when you answer \"good\" on a review."
 msgstr "\"Спокойствието\" (Ease) на една карта е дължината на следващия интервал, когато отговорите \"добро\" при преговор."
-
-#: pylib/anki/decks.py:287
-msgid "A filtered deck cannot have subdecks."
-msgstr "Филтрирано тесте не може да има под-тестета."
-
-#: qt/aqt/sync.py:160
-msgid "A problem occurred while syncing media. Please use Tools>Check Media, then sync again to correct the issue."
-msgstr "Възникна проблем при синхронизирането на медийните файлове. Използвайте Инструменти->Проверка на медийните файлове, след това синхронизирайте отново за поправяне на проблема."
 
 #: pylib/anki/importing/csvfile.py:56
 #, python-format
@@ -673,26 +486,26 @@ msgstr ""
 msgid "About Anki"
 msgstr "Относно Anki"
 
-#: qt/aqt/addcards.py:36 qt/aqt/addcards.py:65 qt/aqt/deckconf.py:81
-#: qt/aqt/models.py:47 qt/aqt/studydeck.py:46 qt/aqt/toolbar.py:51
-#: qt/aqt/forms/addcards.py:58 qt/aqt/forms/fields.py:101
-#: qt/aqt/forms/profiles.py:76
+#: qt/aqt/addcards.py:37 qt/aqt/addcards.py:67 qt/aqt/deckconf.py:87
+#: qt/aqt/models.py:52 qt/aqt/studydeck.py:46 qt/aqt/toolbar.py:111
+#: qt/aqt/forms/addcards.py:58 qt/aqt/forms/fields.py:102
+#: qt/aqt/forms/profiles.py:81
 msgid "Add"
 msgstr "Добавяне"
 
-#: qt/aqt/addcards.py:68
+#: qt/aqt/addcards.py:70
 msgid "Add (shortcut: ctrl+enter)"
 msgstr "Добавяне (пряк път: Ctrl+Enter)"
 
-#: qt/aqt/clayout.py:471
+#: qt/aqt/clayout.py:623
 msgid "Add Card Type..."
 msgstr ""
 
-#: qt/aqt/clayout.py:273 qt/aqt/forms/addfield.py:73
+#: qt/aqt/clayout.py:345 qt/aqt/forms/addfield.py:61
 msgid "Add Field"
 msgstr "Добавяне на поле"
 
-#: qt/aqt/editor.py:657
+#: qt/aqt/editor.py:698
 msgid "Add Media"
 msgstr "Добавяне на медийни файлове"
 
@@ -708,11 +521,7 @@ msgstr "Добавяне на тип на бележка"
 msgid "Add Notes..."
 msgstr ""
 
-#: pylib/anki/stdmodels.py:83
-msgid "Add Reverse"
-msgstr "Добавяне на обратната карта"
-
-#: qt/aqt/browser.py:1871
+#: qt/aqt/browser.py:1637
 msgid "Add Tags"
 msgstr "Добавяне на етикети"
 
@@ -720,27 +529,23 @@ msgstr "Добавяне на етикети"
 msgid "Add Tags..."
 msgstr ""
 
-#: qt/aqt/forms/addfield.py:79
-msgid "Add to:"
-msgstr "Добавяне към:"
-
-#: qt/aqt/browser.py:158
+#: qt/aqt/browser.py:167
 msgid "Add-on"
 msgstr ""
 
-#: qt/aqt/addons.py:869
+#: qt/aqt/addons.py:897
 msgid "Add-on has no configuration."
 msgstr ""
 
-#: qt/aqt/addons.py:1382
+#: qt/aqt/addons.py:1440
 msgid "Add-on installation error"
 msgstr ""
 
-#: qt/aqt/addons.py:791
+#: qt/aqt/addons.py:819
 msgid "Add-on was not downloaded from AnkiWeb."
 msgstr ""
 
-#: qt/aqt/main.py:1535
+#: qt/aqt/main.py:1565
 msgid "Add-on will be installed when a profile is opened."
 msgstr ""
 
@@ -748,67 +553,63 @@ msgstr ""
 msgid "Add-ons"
 msgstr ""
 
-#: qt/aqt/errors.py:179
-msgid "Add-ons possibly involved: {}\n"
-msgstr ""
-
-#: qt/aqt/models.py:187
+#: qt/aqt/models.py:199
 #, python-format
 msgid "Add: %s"
 msgstr "Добавяне: %s"
 
-#: pylib/anki/stats.py:27 pylib/anki/stats.py:335
-#: pylib/anki/importing/anki2.py:168 qt/aqt/addcards.py:209
+#: pylib/anki/stats.py:304 pylib/anki/importing/anki2.py:166
+#: qt/aqt/addcards.py:192
 msgid "Added"
 msgstr "Добавени"
 
-#: qt/aqt/browser.py:1228
+#: qt/aqt/browser.py:1262
 msgid "Added Today"
 msgstr "Добавени днес"
 
-#: pylib/anki/importing/noteimp.py:133
+#: pylib/anki/importing/noteimp.py:139
 #, python-format
 msgid "Added duplicate with first field: %s"
 msgstr "Добавен дубликат с първо поле: %s"
 
-#: qt/aqt/reviewer.py:612
+#: qt/aqt/reviewer.py:617
 msgid "Again"
 msgstr "Отново"
 
-#: qt/aqt/browser.py:1230
+#: qt/aqt/browser.py:1264
 msgid "Again Today"
 msgstr "Отново днес"
 
-#: pylib/anki/stats.py:184
+#: pylib/anki/stats.py:149
 #, python-format
 msgid "Again count: %s"
 msgstr "Брой отговори \"Отново\": %s"
 
-#: qt/aqt/overview.py:114
+#: qt/aqt/overview.py:134
 msgid "All Buried Cards"
 msgstr ""
 
-#: qt/aqt/browser.py:1310
+#: qt/aqt/browser.py:1345
 msgid "All Card Types"
 msgstr ""
 
-#: qt/aqt/exporting.py:44
+#: qt/aqt/exporting.py:52
 msgid "All Decks"
 msgstr "Всички тестета"
 
-#: qt/aqt/browser.py:2100
+#: qt/aqt/browser.py:1885
 msgid "All Fields"
 msgstr "Всички полета"
 
-#: qt/aqt/forms/customstudy.py:116
+#: qt/aqt/forms/customstudy.py:117
 msgid "All cards in random order (don't reschedule)"
 msgstr ""
 
-#: qt/aqt/main.py:281
+#: qt/aqt/main.py:301
 msgid "All cards, notes, and media for this profile will be deleted. Are you sure?"
 msgstr "Всички карти, бележки и медийни файлове в този профил ще бъдат изтрити. Сигурни ли сте?"
 
-#: qt/aqt/forms/customstudy.py:114
+#: qt/aqt/forms/customstudy.py:115
 msgid "All review cards in random order"
 msgstr ""
 
@@ -820,25 +621,7 @@ msgstr "Разрешаване на HTML в полетата."
 msgid "Always include question side when replaying audio"
 msgstr ""
 
-#: qt/aqt/addons.py:209
-#, python-format
-msgid "An add-on you installed failed to load. If problems persist, please go to the Tools>Add-ons menu, and disable or delete the add-on.\n\n"
-"When loading '%(name)s':\n"
-"%(traceback)s\n"
-msgstr ""
-
-#: qt/aqt/errors.py:111
-msgid "An error occurred while accessing the database.\n\n"
-"Possible causes:\n\n"
-"- Antivirus, firewall, backup, or synchronization software may be   interfering with Anki. Try disabling such software and see if the   problem goes away.\n"
-"- Your disk may be full.\n"
-"- The Documents/Anki folder may be on a network drive.\n"
-"- Files in the Documents/Anki folder may not be writeable.\n"
-"- Your hard disk may have errors.\n\n"
-"It's a good idea to run Tools>Check Database to ensure your collection is not corrupt.\n"
-msgstr ""
-
-#: qt/aqt/editor.py:787 qt/aqt/editor.py:790
+#: qt/aqt/editor.py:836
 #, python-format
 msgid "An error occurred while opening %s"
 msgstr "Възникна грешка при отварянето на %s"
@@ -852,33 +635,29 @@ msgstr ""
 msgid "Anki 2.0 Deck"
 msgstr "Anki 2.0 тесте"
 
-#: qt/aqt/forms/preferences.py:261
+#: qt/aqt/forms/preferences.py:291
 msgid "Anki 2.1 scheduler (beta)"
 msgstr ""
 
-#: pylib/anki/exporting.py:391
+#: pylib/anki/exporting.py:392
 msgid "Anki Collection Package"
 msgstr ""
 
-#: pylib/anki/exporting.py:310
+#: pylib/anki/exporting.py:311
 msgid "Anki Deck Package"
 msgstr "Anki Deck пакет"
 
-#: qt/aqt/profiles.py:176
+#: qt/aqt/profiles.py:251
 msgid "Anki could not read your profile data. Window sizes and your sync login details have been forgotten."
 msgstr ""
 
-#: qt/aqt/profiles.py:246
+#: qt/aqt/profiles.py:321
 msgid "Anki could not rename your profile because it could not rename the profile folder on disk. Please ensure you have permission to write to Documents/Anki and no other programs are accessing your profile folders, then try again."
 msgstr "Anki не можа да преименува профила Ви, защото не можа да преименува профилната директория на диска. Моля, уверете се, че имате права да записвате в Documents/Anki и че няма други програми, използващи профилните директории; след това опитайте отново."
 
-#: qt/aqt/clayout.py:457
+#: qt/aqt/clayout.py:608
 msgid "Anki couldn't find the line between the question and answer. Please adjust the template manually to switch the question and answer."
 msgstr "Anki не можа да намери линията между въпроса и отговора. Моля, настройте шаблона ръчно да превключва между въпроса и отговора."
-
-#: pylib/anki/media.py:340
-msgid "Anki does not support files in subfolders of the collection.media folder."
-msgstr ""
 
 #: qt/aqt/about.py:97
 msgid "Anki is a friendly, intelligent spaced learning system. It's free and open source."
@@ -888,86 +667,57 @@ msgstr "Anki е приятна и интелигентно организира�
 msgid "Anki is licensed under the AGPL3 license. Please see the license file in the source distribution for more information."
 msgstr "Програмата Anki е лицензирана под лиценза AGPL 3. За повече информация вижте лицензионния файл в изходния код."
 
-#: qt/aqt/main.py:437
-msgid "Anki was unable to open your collection file. If problems persist after restarting your computer, please use the Open Backup button in the profile manager.\n\n"
-"Debug info:\n"
-msgstr ""
-
-#: qt/aqt/sync.py:107
-msgid "AnkiWeb ID or password was incorrect; please try again."
-msgstr "AnkiWeb ID или паролата са грешни; моля, опитайте отново."
-
-#: qt/aqt/sync.py:270
-msgid "AnkiWeb ID:"
-msgstr ""
-
-#: qt/aqt/sync.py:191
-msgid "AnkiWeb encountered an error. Please try again in a few minutes, and if the problem persists, please file a bug report."
-msgstr "AnkiWeb се сблъска с грешка. Моля, опитайте отново след няколко минути, и ако отново имате проблеми, моля, докладвайте за неизправност."
-
-#: qt/aqt/sync.py:206
-msgid "AnkiWeb is too busy at the moment. Please try again in a few minutes."
-msgstr "AnkiWeb е твърде зает в момента. Моля, опитайте отново след няколко минути."
-
-#: qt/aqt/sync.py:203
-msgid "AnkiWeb is under maintenance. Please try again in a few minutes."
-msgstr "AnkiWeb е в процес на поддръжка. Моля, опитайте след няколко минути."
-
-#: qt/aqt/browser.py:712
+#: qt/aqt/browser.py:731
 msgid "Answer"
 msgstr "Отговор"
 
-#: pylib/anki/stats.py:700
+#: pylib/anki/stats.py:674
 msgid "Answer Buttons"
 msgstr "Бутони за отговор"
 
-#: pylib/anki/stats.py:383 pylib/anki/stats.py:711 pylib/anki/stats.py:819
+#: pylib/anki/stats.py:352 pylib/anki/stats.py:685 pylib/anki/stats.py:793
 msgid "Answers"
 msgstr "Отговори"
 
-#: qt/aqt/sync.py:219
-msgid "Antivirus or firewall software is preventing Anki from connecting to the internet."
-msgstr "Антивирусна програма или защитна стена забранява на anki достъпа до интернет."
-
-#: qt/aqt/browser.py:1254
+#: qt/aqt/browser.py:1288
 msgid "Any Flag"
 msgstr ""
 
-#: qt/aqt/browser.py:2455
+#: qt/aqt/browser.py:2261
 msgid "Any cards mapped to nothing will be deleted. If a note has no remaining cards, it will be lost. Are you sure you want to continue?"
 msgstr "Всички карти, които не са прехвърлени към нова карта, ще бъдат изтрити. Бележка без останали карти се изтрива. Сигурни ли сте, че искате да продължите?"
 
-#: pylib/anki/importing/noteimp.py:158
+#: pylib/anki/importing/noteimp.py:161
 #, python-format
 msgid "Appeared twice in file: %s"
 msgstr "Появяващи се два пъти във файла: %s"
 
-#: qt/aqt/deckbrowser.py:316
+#: qt/aqt/deckbrowser.py:304
 #, python-format
 msgid "Are you sure you wish to delete %s?"
 msgstr "Сигурни ли сте, че искате да изтриете %s?"
 
-#: qt/aqt/clayout.py:238
+#: qt/aqt/clayout.py:498
 msgid "At least one card type is required."
 msgstr "Необходим е поне един тип карта."
 
-#: qt/aqt/deckconf.py:260 qt/aqt/dyndeckconf.py:159
+#: qt/aqt/deckconf.py:277 qt/aqt/dyndeckconf.py:159
 msgid "At least one step is required."
 msgstr "Необходима е поне една стъпка."
 
-#: qt/aqt/editor.py:140
+#: qt/aqt/editor.py:166
 msgid "Attach pictures/audio/video (F3)"
 msgstr ""
 
-#: qt/aqt/reviewer.py:712
+#: qt/aqt/reviewer.py:717
 msgid "Audio +5s"
 msgstr ""
 
-#: qt/aqt/reviewer.py:711
+#: qt/aqt/reviewer.py:716
 msgid "Audio -5s"
 msgstr ""
 
-#: qt/aqt/main.py:331
+#: qt/aqt/main.py:351
 msgid "Automatic syncing and backups have been disabled while restoring. To enable them again, close the profile or restart Anki."
 msgstr ""
 
@@ -975,94 +725,62 @@ msgstr ""
 msgid "Automatically play audio"
 msgstr "Автоматично възпроизвеждане на звукови файлове"
 
-#: qt/aqt/forms/preferences.py:275
+#: qt/aqt/forms/preferences.py:301
 msgid "Automatically sync on profile open/close"
 msgstr "Автоматична синхронизаци при отваряне/затваряне на профила"
 
-#: pylib/anki/stats.py:280 pylib/anki/stats.py:345
+#: pylib/anki/stats.py:247 pylib/anki/stats.py:314
 msgid "Average"
 msgstr "Средно"
 
-#: pylib/anki/stats.py:53
-msgid "Average Time"
-msgstr "Средно време"
-
-#: pylib/anki/stats.py:459
+#: pylib/anki/stats.py:429
 msgid "Average answer time"
 msgstr "Средно време на отговаряне"
 
-#: pylib/anki/stats.py:897
+#: pylib/anki/stats.py:871
 msgid "Average ease"
 msgstr "Средно \"спокойствие\" (Ease)"
 
-#: pylib/anki/stats.py:443
+#: pylib/anki/stats.py:418
 msgid "Average for days studied"
 msgstr "Средно за броя учебни дни"
 
-#: pylib/anki/stats.py:637
+#: pylib/anki/stats.py:611
 msgid "Average interval"
 msgstr "Среден интервал"
 
-#: pylib/anki/stdmodels.py:21 pylib/anki/stdmodels.py:25
-#: pylib/anki/stdmodels.py:46 pylib/anki/stdmodels.py:47
-#: pylib/anki/stdmodels.py:62 pylib/anki/template.py:129
-#: qt/aqt/forms/addfield.py:78
-msgid "Back"
-msgstr "Гръб"
-
-#: qt/aqt/forms/preview.py:41
-msgid "Back Preview"
-msgstr "Преглед на задната част"
-
-#: qt/aqt/forms/template.py:109
-msgid "Back Template"
-msgstr "Шаблон за гърба"
-
-#: qt/aqt/main.py:485
+#: qt/aqt/main.py:535
 msgid "Backing Up..."
 msgstr ""
 
-#: qt/aqt/forms/preferences.py:285
+#: qt/aqt/forms/preferences.py:312
 msgid "Backups"
 msgstr "Резервни копия"
 
-#: pylib/anki/stdmodels.py:18 pylib/anki/stdmodels.py:36
-#: qt/aqt/forms/preferences.py:272
+#: qt/aqt/forms/preferences.py:287
 msgid "Basic"
 msgstr "Основен"
 
-#: pylib/anki/stdmodels.py:60 pylib/anki/stdmodels.py:74
-msgid "Basic (and reversed card)"
-msgstr "Основна (и обърната карта)"
-
-#: pylib/anki/stdmodels.py:82 pylib/anki/stdmodels.py:92
-msgid "Basic (optional reversed card)"
-msgstr "Основна (+ обърната карта по избор)"
-
-#: pylib/anki/stdmodels.py:44 pylib/anki/stdmodels.py:52
-msgid "Basic (type in the answer)"
-msgstr ""
-
-#: qt/aqt/browser.py:1252 qt/aqt/reviewer.py:694 qt/aqt/forms/browser.py:336
+#: qt/aqt/browser.py:1286 qt/aqt/reviewer.py:699 qt/aqt/forms/browser.py:336
 msgid "Blue Flag"
 msgstr ""
 
-#: qt/aqt/editor.py:104
+#: qt/aqt/editor.py:115
 msgid "Bold text (Ctrl+B)"
 msgstr ""
 
-#: qt/aqt/toolbar.py:52
+#: qt/aqt/toolbar.py:118
 msgid "Browse"
 msgstr "Преглед"
 
-#: qt/aqt/browser.py:795
+#: qt/aqt/browser.py:814
 #, python-format
 msgid "Browse (%(cur)d card shown; %(sel)s)"
 msgid_plural "Browse (%(cur)d cards shown; %(sel)s)"
 msgstr[0] ""
 msgstr[1] ""
 
-#: qt/aqt/addons.py:889
+#: qt/aqt/addons.py:917
 msgid "Browse Add-ons"
 msgstr ""
 
@@ -1070,7 +788,7 @@ msgstr ""
 msgid "Browser Appearance"
 msgstr "Изглед на браузъра"
 
-#: qt/aqt/clayout.py:493
+#: qt/aqt/clayout.py:645
 msgid "Browser Appearance..."
 msgstr ""
 
@@ -1082,23 +800,23 @@ msgstr "Настройки на четеца"
 msgid "Build"
 msgstr "Построяване"
 
-#: qt/aqt/browser.py:1247
+#: qt/aqt/browser.py:1281
 msgid "Buried"
 msgstr ""
 
-#: qt/aqt/overview.py:113
+#: qt/aqt/overview.py:133
 msgid "Buried Siblings"
 msgstr ""
 
-#: qt/aqt/reviewer.py:799 qt/aqt/reviewer.py:805
+#: qt/aqt/reviewer.py:804 qt/aqt/reviewer.py:810
 msgid "Bury"
 msgstr "Скриване за по-късно"
 
-#: qt/aqt/reviewer.py:702
+#: qt/aqt/reviewer.py:707
 msgid "Bury Card"
 msgstr ""
 
-#: qt/aqt/reviewer.py:703
+#: qt/aqt/reviewer.py:708
 msgid "Bury Note"
 msgstr "Скриване на бележката за по-късно"
 
@@ -1110,82 +828,63 @@ msgstr "Заравяне на свързаните нови карти до сл
 msgid "Bury related reviews until the next day"
 msgstr "Заравяне на свързаните карти за преглед до следващия ден."
 
-#: qt/aqt/importing.py:125
-msgid "By default, Anki will detect the character between fields, such as\n"
+#: qt/aqt/importing.py:129
+msgid ""
+"By default, Anki will detect the character between fields, such as\n"
 "a tab, comma, and so on. If Anki is detecting the character incorrectly,\n"
 "you can enter it here. Use \\t to represent tab."
-msgstr "По подразбиране Anki ще разпознае символът между полетата като запетайка, табулация и т.н. Ако Anki разпознава символа погрешно,\n"
+msgstr ""
+"По подразбиране Anki ще разпознае символът между полетата като запетайка, табулация и т.н. Ако Anki разпознава символа погрешно,\n"
 "въведете го тук. Използвайте \\t за да изобразите табулация."
 
-#: qt/aqt/overview.py:115 qt/aqt/sound.py:522 qt/aqt/sync.py:299
-#: qt/aqt/sync.py:321
+#: qt/aqt/clayout.py:360 qt/aqt/overview.py:135 qt/aqt/sound.py:548
 msgid "Cancel"
 msgstr "Отказ"
 
-#: qt/aqt/browser.py:713
+#: qt/aqt/browser.py:732
 msgid "Card"
 msgstr "Карта"
 
-#: qt/aqt/clayout.py:420
+#: qt/aqt/clayout.py:569
 #, python-format
 msgid "Card %d"
 msgstr "Карта %d"
-
-#: pylib/anki/stdmodels.py:23
-msgid "Card 1"
-msgstr "Карта 1"
-
-#: pylib/anki/stdmodels.py:61
-msgid "Card 2"
-msgstr "Карта 1"
-
-#: pylib/anki/stats.py:61
-msgid "Card ID"
-msgstr "Идентификатор на картата"
 
 #: qt/aqt/forms/browser.py:318
 msgid "Card List"
 msgstr "Списък с карти"
 
-#: qt/aqt/browser.py:1237
+#: qt/aqt/browser.py:1271
 msgid "Card State"
 msgstr ""
 
-#: pylib/anki/stats.py:57
-msgid "Card Type"
-msgstr "Тип карта"
-
-#: qt/aqt/forms/clayout_top.py:57
-msgid "Card Type:"
-msgstr ""
-
-#: pylib/anki/stats.py:905 qt/aqt/clayout.py:45
+#: pylib/anki/stats.py:879 qt/aqt/clayout.py:61
 msgid "Card Types"
 msgstr "Видове карти"
 
-#: qt/aqt/clayout.py:61
+#: qt/aqt/clayout.py:67
 #, python-format
 msgid "Card Types for %s"
 msgstr "Типове карти за %s"
 
-#: qt/aqt/reviewer.py:802
+#: qt/aqt/reviewer.py:807
 msgid "Card buried."
 msgstr "Картата беше заровена."
 
-#: qt/aqt/reviewer.py:779
+#: qt/aqt/reviewer.py:784
 msgid "Card suspended."
 msgstr ""
 
-#: qt/aqt/reviewer.py:660
+#: qt/aqt/reviewer.py:665
 msgid "Card was a leech."
 msgstr ""
 
-#: pylib/anki/stats.py:336 pylib/anki/stats.py:973 qt/aqt/editor.py:159
+#: pylib/anki/stats.py:305 pylib/anki/stats.py:955 qt/aqt/editor.py:185
 #: qt/aqt/forms/changemodel.py:112
 msgid "Cards"
 msgstr "Карти"
 
-#: qt/aqt/browser.py:1831
+#: qt/aqt/browser.py:1597
 msgid "Cards can't be manually moved into a filtered deck."
 msgstr "Картите не можаха да бъдат ръчно преместени във филтрирано тесте."
 
@@ -1193,28 +892,28 @@ msgstr "Картите не можаха да бъдат ръчно премес
 msgid "Cards in Plain Text"
 msgstr "Карти в чист текст."
 
-#: qt/aqt/overview.py:163
+#: qt/aqt/overview.py:185
 msgid "Cards will be automatically returned to their original decks after you review them."
 msgstr "Картите автоматично ще се върнат в първоначалното им тесте, след като ги прегледате."
 
-#: qt/aqt/models.py:56
+#: qt/aqt/models.py:61
 msgid "Cards..."
 msgstr "Карти"
 
-#: pylib/anki/consts.py:79
+#: pylib/anki/consts.py:108
 msgid "Center"
 msgstr "Център"
 
-#: qt/aqt/importing.py:258
+#: qt/aqt/importing.py:267
 msgid "Change"
 msgstr "Промяна"
 
-#: qt/aqt/browser.py:2376
+#: qt/aqt/browser.py:2181
 #, python-format
 msgid "Change %s to:"
 msgstr "Променете %s на:"
 
-#: qt/aqt/browser.py:1822 qt/aqt/browser.py:1834
+#: qt/aqt/browser.py:1588 qt/aqt/browser.py:1600
 msgid "Change Deck"
 msgstr "Промяна на тесте"
 
@@ -1222,7 +921,7 @@ msgstr "Промяна на тесте"
 msgid "Change Deck..."
 msgstr ""
 
-#: qt/aqt/browser.py:2462 qt/aqt/forms/changemodel.py:109
+#: qt/aqt/browser.py:2268 qt/aqt/forms/changemodel.py:109
 msgid "Change Note Type"
 msgstr "Промяна на типа на бележката"
 
@@ -1234,30 +933,19 @@ msgstr "Промяна на типа на бележката (Ctrl + N)"
 msgid "Change Note Type..."
 msgstr "Промяна на типа на бележката..."
 
-#: qt/aqt/editor.py:127
+#: qt/aqt/editor.py:146
 msgid "Change colour (F8)"
 msgstr ""
 
-#: qt/aqt/forms/preferences.py:263
+#: qt/aqt/forms/preferences.py:284
 msgid "Change deck depending on note type"
 msgstr "Промяна на тестето в зависимост от типа на бележката."
-
-#: qt/aqt/browser.py:718
-msgid "Changed"
-msgstr "Променено"
-
-#: qt/aqt/clayout.py:115
-#, python-format
-msgid "Changes below will affect the %(cnt)d note that uses this card type."
-msgid_plural "Changes below will affect the %(cnt)d notes that use this card type."
-msgstr[0] ""
-msgstr[1] ""
 
 #: qt/aqt/forms/addons.py:68
 msgid "Changes will take effect when Anki is restarted."
 msgstr ""
 
-#: qt/aqt/preferences.py:109 qt/aqt/preferences.py:249
+#: qt/aqt/preferences.py:120 qt/aqt/preferences.py:250
 msgid "Changes will take effect when you restart Anki."
 msgstr ""
 
@@ -1273,19 +961,15 @@ msgstr ""
 msgid "Check the files in the media directory"
 msgstr "Проверка на директорията с медийните файлове."
 
-#: qt/aqt/sync.py:136
-msgid "Checking media..."
-msgstr ""
-
-#: qt/aqt/addons.py:852 qt/aqt/sync.py:134
+#: qt/aqt/addons.py:880
 msgid "Checking..."
 msgstr "Проверява се..."
 
-#: qt/aqt/deckchooser.py:84 qt/aqt/modelchooser.py:71
+#: qt/aqt/deckchooser.py:87 qt/aqt/modelchooser.py:71
 msgid "Choose"
 msgstr "Избиране"
 
-#: qt/aqt/deckchooser.py:85
+#: qt/aqt/deckchooser.py:88
 msgid "Choose Deck"
 msgstr "Избор на тесте"
 
@@ -1297,7 +981,7 @@ msgstr "Избор на тип за бележката"
 msgid "Choose Tags"
 msgstr "Избор на етикети"
 
-#: qt/aqt/browser.py:1263
+#: qt/aqt/browser.py:1297
 msgid "Clear Unused"
 msgstr ""
 
@@ -1305,29 +989,29 @@ msgstr ""
 msgid "Clear Unused Tags"
 msgstr ""
 
-#: qt/aqt/models.py:192
+#: qt/aqt/models.py:204
 #, python-format
 msgid "Clone: %s"
 msgstr "Клониране: %s"
 
-#: qt/aqt/addcards.py:70 qt/aqt/clayout.py:283 qt/aqt/forms/browser.py:325
+#: qt/aqt/addcards.py:72 qt/aqt/forms/browser.py:325
 msgid "Close"
 msgstr "Затвори"
 
-#: qt/aqt/addcards.py:240
+#: qt/aqt/addcards.py:222
 msgid "Close and lose current input?"
 msgstr "При затваряне досега въведеният текст ще се загуби!"
 
-#: qt/aqt/main.py:483
+#: qt/aqt/main.py:533
 msgid "Closing..."
 msgstr ""
 
-#: pylib/anki/stdmodels.py:100 pylib/anki/stdmodels.py:105
-#: pylib/anki/stdmodels.py:124 pylib/anki/storage.py:219
-msgid "Cloze"
+#: qt/aqt/clayout.py:235
+#, python-format
+msgid "Cloze %d"
 msgstr ""
 
-#: qt/aqt/editor.py:137
+#: qt/aqt/editor.py:163
 msgid "Cloze deletion (Ctrl+Shift+C)"
 msgstr ""
 
@@ -1335,19 +1019,15 @@ msgstr ""
 msgid "Code:"
 msgstr "Код:"
 
-#: qt/aqt/exporting.py:154
+#: qt/aqt/exporting.py:173
 msgid "Collection exported."
 msgstr ""
 
-#: pylib/anki/collection.py:785
-msgid "Collection is corrupt. Please see the manual."
-msgstr "Колекцията е повередена. Моля, проверете в ръководството."
-
-#: qt/aqt/importing.py:169
+#: qt/aqt/importing.py:173
 msgid "Colon"
 msgstr "Двоеточие"
 
-#: qt/aqt/importing.py:163
+#: qt/aqt/importing.py:167
 msgid "Comma"
 msgstr "Запетайка"
 
@@ -1355,7 +1035,7 @@ msgstr "Запетайка"
 msgid "Config"
 msgstr ""
 
-#: qt/aqt/forms/addonconf.py:70
+#: qt/aqt/forms/addonconf.py:72
 msgid "Configuration"
 msgstr ""
 
@@ -1363,19 +1043,11 @@ msgstr ""
 msgid "Configure interface language and options"
 msgstr "Конфигурирация на езика на интерфейса и опциите"
 
-#: pylib/anki/sched.py:1261 pylib/anki/schedv2.py:1459
+#: pylib/anki/schedv2.py:1281
 msgid "Congratulations! You have finished this deck for now."
 msgstr "Поздравления! Приключихте с това тесте засега."
 
-#: qt/aqt/sync.py:50
-msgid "Connecting..."
-msgstr "Свързване..."
-
-#: qt/aqt/sync.py:223
-msgid "Connection timed out. Either your internet connection is experiencing problems, or you have a very large file in your media folder."
-msgstr "Връзката изтече. Възникват или проблеми с интернета, или имате твърде голям файл в медийната директория."
-
-#: qt/aqt/reviewer.py:81
+#: qt/aqt/reviewer.py:94
 msgid "Continue"
 msgstr "Продължаване"
 
@@ -1383,7 +1055,7 @@ msgstr "Продължаване"
 msgid "Copied to clipboard"
 msgstr ""
 
-#: qt/aqt/editor.py:1115 qt/aqt/webview.py:188
+#: qt/aqt/editor.py:1174 qt/aqt/webview.py:280
 msgid "Copy"
 msgstr "Копиране"
 
@@ -1391,42 +1063,38 @@ msgstr "Копиране"
 msgid "Copy Debug Info"
 msgstr ""
 
-#: qt/aqt/utils.py:129
+#: qt/aqt/utils.py:142
 msgid "Copy to Clipboard"
 msgstr ""
 
-#: pylib/anki/stats.py:205
+#: pylib/anki/stats.py:170
 #, python-format
 msgid "Correct answers on mature cards: %(a)d/%(b)d (%(c).1f%%)"
 msgstr "Правилни отговори на зрели карти: %(a)d/%(b)d (%(c).1f%%)"
 
-#: pylib/anki/stats.py:732
+#: pylib/anki/stats.py:706
 #, python-format
 msgid "Correct: <b>%(pct)0.2f%%</b><br>(%(good)d of %(tot)d)"
 msgstr "Правилни: <b>%(pct)0.2f%%</b><br>(%(good)d от %(tot)d)"
 
-#: qt/aqt/addons.py:466
+#: qt/aqt/addons.py:471
 msgid "Corrupt add-on file."
 msgstr ""
 
-#: qt/aqt/sync.py:179
-msgid "Couldn't connect to AnkiWeb. Please check your network connection and try again."
-msgstr "Не може да се установи връзка с AnkiWeb. Проверете интернет връзката си и опитайте отново."
-
-#: qt/aqt/editor.py:686
+#: qt/aqt/editor.py:731
 msgid "Couldn't record audio. Have you installed 'lame'?"
 msgstr ""
 
-#: qt/aqt/exporting.py:140
+#: qt/aqt/exporting.py:141
 #, python-format
 msgid "Couldn't save file: %s"
 msgstr "Файлът %s не можа да бъде запазен"
 
-#: pylib/anki/stats.py:376 pylib/anki/stats.py:396
+#: pylib/anki/stats.py:345 pylib/anki/stats.py:365
 msgid "Cram"
 msgstr ""
 
-#: qt/aqt/deckbrowser.py:329
+#: qt/aqt/deckbrowser.py:317
 msgid "Create Deck"
 msgstr "Създаване на тесте"
 
@@ -1438,7 +1106,7 @@ msgstr "Създаване на филтрирано тесте"
 msgid "Create scalable images with dvisvgm"
 msgstr ""
 
-#: qt/aqt/browser.py:716
+#: qt/aqt/browser.py:735
 msgid "Created"
 msgstr "Създадена"
 
@@ -1446,24 +1114,24 @@ msgstr "Създадена"
 msgid "Ctrl+Shift+E"
 msgstr ""
 
-#: pylib/anki/stats.py:253
+#: pylib/anki/stats.py:218
 msgid "Cumulative"
 msgstr "Нарастващо"
 
-#: pylib/anki/stats.py:408
+#: pylib/anki/stats.py:377
 #, python-format
 msgid "Cumulative %s"
 msgstr "Нарастващо в %s"
 
-#: pylib/anki/stats.py:383
+#: pylib/anki/stats.py:352
 msgid "Cumulative Answers"
 msgstr "Нарастващи отговори"
 
-#: pylib/anki/stats.py:268 pylib/anki/stats.py:336
+#: pylib/anki/stats.py:233 pylib/anki/stats.py:305
 msgid "Cumulative Cards"
 msgstr "Нарастващи карти"
 
-#: qt/aqt/browser.py:1096 qt/aqt/browser.py:1220
+#: qt/aqt/browser.py:1122 qt/aqt/browser.py:1254
 msgid "Current Deck"
 msgstr "Текущо тесте"
 
@@ -1471,11 +1139,11 @@ msgstr "Текущо тесте"
 msgid "Current note type:"
 msgstr "Текущ тип на бележката:"
 
-#: qt/aqt/overview.py:234 qt/aqt/forms/customstudy.py:100
+#: qt/aqt/overview.py:252 qt/aqt/forms/customstudy.py:101
 msgid "Custom Study"
 msgstr "Учене извън програмата"
 
-#: qt/aqt/customstudy.py:137 qt/aqt/customstudy.py:149
+#: qt/aqt/customstudy.py:141 qt/aqt/customstudy.py:153
 msgid "Custom Study Session"
 msgstr "Учене извън програмата"
 
@@ -1483,174 +1151,107 @@ msgstr "Учене извън програмата"
 msgid "Custom steps (in minutes)"
 msgstr ""
 
-#: qt/aqt/editor.py:162
+#: qt/aqt/editor.py:188
 msgid "Customize Card Templates (Ctrl+L)"
 msgstr ""
 
-#: qt/aqt/editor.py:161
+#: qt/aqt/editor.py:187
 msgid "Customize Fields"
 msgstr ""
 
-#: qt/aqt/editor.py:1113
+#: qt/aqt/editor.py:1172
 msgid "Cut"
 msgstr "Изрязване"
 
-#: pylib/anki/collection.py:970
-msgid "Database rebuilt and optimized."
-msgstr "Базата данни беше създадена наново и оптимизирана."
-
-#: qt/aqt/browser.py:1429
-msgid "Date"
-msgstr "Дата"
-
-#: pylib/anki/stats.py:427
+#: pylib/anki/stats.py:402
 msgid "Days studied"
 msgstr "Учебни дни"
 
-#: qt/aqt/forms/preferences.py:277
+#: qt/aqt/forms/preferences.py:304
 msgid "Deauthorize"
 msgstr "Премахване на упълномощаването"
 
-#: qt/aqt/forms/debug.py:46
+#: qt/aqt/forms/debug.py:55
 msgid "Debug Console"
 msgstr ""
 
-#: pylib/anki/stats.py:59 qt/aqt/browser.py:714 qt/aqt/deckbrowser.py:161
-#: qt/aqt/deckchooser.py:26 qt/aqt/forms/importing.py:106
+#: qt/aqt/browser.py:733 qt/aqt/deckbrowser.py:155 qt/aqt/deckchooser.py:29
+#: qt/aqt/forms/importing.py:106
 msgid "Deck"
 msgstr "Тесте"
 
-#: qt/aqt/clayout.py:490
+#: qt/aqt/clayout.py:642
 msgid "Deck Override..."
 msgstr ""
 
-#: qt/aqt/main.py:1537
+#: qt/aqt/main.py:1567
 msgid "Deck will be imported when a profile is opened."
 msgstr "Тестето ще бъде импортирано при отваряне на нов профил."
 
-#: qt/aqt/browser.py:1291 qt/aqt/toolbar.py:50
+#: qt/aqt/browser.py:1326 qt/aqt/toolbar.py:104
 msgid "Decks"
 msgstr "Тестета"
 
-#: pylib/anki/consts.py:90
+#: pylib/anki/consts.py:119
 msgid "Decreasing intervals"
 msgstr "Намаляващи интервали"
 
-#: pylib/anki/decks.py:57 pylib/anki/storage.py:333 qt/aqt/deckchooser.py:48
-#: qt/aqt/deckchooser.py:52 qt/aqt/deckchooser.py:74
+#: qt/aqt/deckchooser.py:51 qt/aqt/deckchooser.py:55 qt/aqt/deckchooser.py:77
 msgid "Default"
 msgstr "По подразбиране"
 
-#: pylib/anki/stats.py:615
+#: pylib/anki/stats.py:589
 msgid "Delays until reviews are shown again."
 msgstr "Време до следващия преговор"
 
-#: qt/aqt/deckbrowser.py:257 qt/aqt/deckconf.py:83 qt/aqt/models.py:51
-#: qt/aqt/reviewer.py:787 qt/aqt/forms/addons.py:76 qt/aqt/forms/browser.py:330
-#: qt/aqt/forms/fields.py:102 qt/aqt/forms/profiles.py:78
+#: qt/aqt/deckbrowser.py:242 qt/aqt/deckconf.py:89 qt/aqt/models.py:56
+#: qt/aqt/reviewer.py:792 qt/aqt/forms/addons.py:76 qt/aqt/forms/browser.py:330
+#: qt/aqt/forms/fields.py:103 qt/aqt/forms/profiles.py:83
 msgid "Delete"
 msgstr "Изтриване"
 
-#: qt/aqt/main.py:1377
-msgid "Delete Cards"
-msgstr "Изтриване на картите"
-
-#: qt/aqt/deckbrowser.py:300
+#: qt/aqt/deckbrowser.py:288
 msgid "Delete Deck"
 msgstr "Изтриване на тестето"
 
-#: qt/aqt/main.py:1383
-msgid "Delete Empty"
-msgstr "Изтриване на празните"
-
-#: qt/aqt/reviewer.py:706
+#: qt/aqt/reviewer.py:711
 msgid "Delete Note"
 msgstr "Изтриване на бележката"
 
-#: qt/aqt/browser.py:1775
+#: qt/aqt/browser.py:1541
 msgid "Delete Notes"
 msgstr "Изтриване на бележките"
 
-#: qt/aqt/browser.py:1881
+#: qt/aqt/browser.py:1647
 msgid "Delete Tags"
 msgstr "Изтриване на етикети"
 
-#: qt/aqt/main.py:1309
-msgid "Delete Unused Files"
-msgstr ""
-
-#: qt/aqt/fields.py:97
+#: qt/aqt/fields.py:124
 #, python-format
 msgid "Delete field from %s?"
 msgstr "Изтриване на поле от %s?"
 
-#: qt/aqt/addons.py:813
+#: qt/aqt/addons.py:841
 #, python-format
 msgid "Delete the %(num)d selected add-on?"
 msgid_plural "Delete the %(num)d selected add-ons?"
 msgstr[0] ""
 msgstr[1] ""
 
-#: qt/aqt/clayout.py:242
+#: qt/aqt/clayout.py:508
 #, python-format
 msgid "Delete the '%(a)s' card type, and its %(b)s?"
 msgstr "Изтриване на типа карти '%(a)s' и неговите %(b)s?"
 
-#: qt/aqt/models.py:108
+#: qt/aqt/models.py:123
 msgid "Delete this note type and all its cards?"
 msgstr "Изтриване на този тип бележки и всичките карти в него?"
 
-#: qt/aqt/models.py:110
+#: qt/aqt/models.py:125
 msgid "Delete this unused note type?"
 msgstr "Изтриване на този неизползван тип бележки?"
 
-#: qt/aqt/main.py:1322
-msgid "Delete unused media?"
-msgstr "Изтриване на неизползваните медийни файлове?"
-
-#: pylib/anki/collection.py:874
-#, python-format
-msgid "Deleted %d card with missing note."
-msgid_plural "Deleted %d cards with missing note."
-msgstr[0] "Беше изтрита %d карт с липсващи бележки"
-msgstr[1] "Бяха изтрити %d карти с липсващи бележки"
-
-#: pylib/anki/collection.py:825
-#, python-format
-msgid "Deleted %d card with missing template."
-msgid_plural "Deleted %d cards with missing template."
-msgstr[0] "Беше изтрита %d карта с липсващ шаблон."
-msgstr[1] "Бяха изтрити %d карти с липсващ шаблон"
-
-#: qt/aqt/main.py:1352
-#, python-format
-msgid "Deleted %d file."
-msgid_plural "Deleted %d files."
-msgstr[0] ""
-msgstr[1] ""
-
-#: pylib/anki/collection.py:795
-#, python-format
-msgid "Deleted %d note with missing note type."
-msgid_plural "Deleted %d notes with missing note type."
-msgstr[0] "Беше изтрита %d бележка без тип."
-msgstr[1] "Бяха изтрити %d бележки без тип."
-
-#: pylib/anki/collection.py:858
-#, python-format
-msgid "Deleted %d note with no cards."
-msgid_plural "Deleted %d notes with no cards."
-msgstr[0] "Беше изтрита %d бележка без карти"
-msgstr[1] "Бяха изтрити %d бележки без карти."
-
-#: pylib/anki/collection.py:842
-#, python-format
-msgid "Deleted %d note with wrong field count."
-msgid_plural "Deleted %d notes with wrong field count."
-msgstr[0] "Беше изтрита %d бележка с грешен брой полета."
-msgstr[1] "Бяха изтрити %d бележки с грешен брой полета."
-
-#: qt/aqt/overview.py:168
+#: qt/aqt/overview.py:190
 msgid "Deleting this deck from the deck list will return all remaining cards to their original deck."
 msgstr "Изтриването на това тесте от списъка с тестета ще върне всички останали карти в първоначалното им тесте."
 
@@ -1667,15 +1268,11 @@ msgstr ""
 msgid "Dialog"
 msgstr "Диалогов прозорец"
 
-#: qt/aqt/addons.py:1082
+#: qt/aqt/addons.py:1110
 msgid "Download complete. Please restart Anki to apply changes."
 msgstr ""
 
-#: qt/aqt/sync.py:299 qt/aqt/sync.py:321 qt/aqt/sync.py:327
-msgid "Download from AnkiWeb"
-msgstr "Изтегляне от AnkiWeb"
-
-#: qt/aqt/addons.py:486
+#: qt/aqt/addons.py:491
 #, python-format
 msgid "Downloaded %(fname)s"
 msgstr ""
@@ -1685,25 +1282,16 @@ msgstr ""
 #. and "%(kb)0.2f" is the number of downloaded
 #. kilobytes. This lead for example to "Downloading 3/5
 #. (27KB)"
-#: qt/aqt/addons.py:1061
+#: qt/aqt/addons.py:1089
 #, python-format
 msgid "Downloading %(a)d/%(b)d (%(kb)0.2fKB)..."
 msgstr ""
 
-#: qt/aqt/sync.py:132
-msgid "Downloading from AnkiWeb..."
-msgstr "Изтегля се от AnkiWeb..."
-
-#: pylib/anki/stats.py:43 qt/aqt/browser.py:719 qt/aqt/browser.py:1244
-#: qt/aqt/deckbrowser.py:162
-msgid "Due"
-msgstr "Насрочено"
-
-#: qt/aqt/forms/customstudy.py:112
+#: qt/aqt/forms/customstudy.py:113
 msgid "Due cards only"
 msgstr "O"
 
-#: pylib/anki/stats.py:289
+#: pylib/anki/stats.py:256
 msgid "Due tomorrow"
 msgstr "За преглед утре"
 
@@ -1711,11 +1299,11 @@ msgstr "За преглед утре"
 msgid "E&xit"
 msgstr "&Изход"
 
-#: pylib/anki/stats.py:46 qt/aqt/browser.py:721 qt/aqt/browser.py:1434
+#: qt/aqt/browser.py:740
 msgid "Ease"
 msgstr "Лекота"
 
-#: qt/aqt/reviewer.py:617 qt/aqt/reviewer.py:619
+#: qt/aqt/reviewer.py:622 qt/aqt/reviewer.py:624
 msgid "Easy"
 msgstr "Лесно"
 
@@ -1727,11 +1315,11 @@ msgstr "Бонус при отговор \"Лесно\""
 msgid "Easy interval"
 msgstr "Интервал при отговор \"Лесно\""
 
-#: qt/aqt/reviewer.py:555
+#: qt/aqt/reviewer.py:560
 msgid "Edit"
 msgstr "Редактиране"
 
-#: qt/aqt/addcards.py:154
+#: qt/aqt/addcards.py:143
 #, python-format
 msgid "Edit \"%s\""
 msgstr ""
@@ -1740,19 +1328,15 @@ msgstr ""
 msgid "Edit Current"
 msgstr "Редактиране на текущата"
 
-#: qt/aqt/editor.py:879
+#: qt/aqt/editor.py:935
 msgid "Edit HTML"
 msgstr "Редактиране на HTML"
 
-#: qt/aqt/browser.py:717
-msgid "Edited"
-msgstr "Редактирано"
-
-#: qt/aqt/forms/fields.py:105
+#: qt/aqt/forms/fields.py:106
 msgid "Editing Font"
 msgstr "Промяна на шрифта:"
 
-#: qt/aqt/overview.py:232
+#: qt/aqt/overview.py:250
 msgid "Empty"
 msgstr "Изпразване"
 
@@ -1760,18 +1344,7 @@ msgstr "Изпразване"
 msgid "Empty Cards..."
 msgstr ""
 
-#: pylib/anki/collection.py:583
-#, python-format
-msgid "Empty card numbers: %(c)s\n"
-"Fields: %(f)s\n\n"
-msgstr "Номера на празните карти: %(c)s\n"
-"Полета: %(f)s\n\n"
-
-#: pylib/anki/importing/noteimp.py:201
-msgid "Empty cards found. Please run Tools>Empty Cards."
-msgstr "Бяха намерени празни карти. Моля, стартирайте Инструменти->Празни карти"
-
-#: pylib/anki/importing/noteimp.py:153
+#: pylib/anki/importing/noteimp.py:156
 #, python-format
 msgid "Empty first field: %s"
 msgstr ""
@@ -1784,72 +1357,70 @@ msgstr ""
 msgid "End"
 msgstr "Край"
 
-#: qt/aqt/clayout.py:534
+#: qt/aqt/clayout.py:687
 #, python-format
 msgid "Enter deck to place new %s cards in, or leave blank:"
 msgstr "Изберете тесте за %sте нови карти, или оставете празно:"
 
-#: qt/aqt/clayout.py:401
+#: qt/aqt/clayout.py:547
 #, python-format
 msgid "Enter new card position (1...%s):"
 msgstr "Въведете нова позиция за картата (1..%s)"
 
-#: qt/aqt/browser.py:1861
+#: qt/aqt/browser.py:1627
 msgid "Enter tags to add:"
 msgstr "Въведете етикети за добавяне:"
 
-#: qt/aqt/browser.py:1883
+#: qt/aqt/browser.py:1649
 msgid "Enter tags to delete:"
 msgstr "Въведете етикети за изтриване:"
 
-#: qt/aqt/addons.py:473
+#: qt/aqt/addons.py:478
 #, python-format
 msgid "Error downloading <i>%(id)s</i>: %(error)s"
 msgstr ""
 
-#: qt/aqt/main.py:95
+#: qt/aqt/main.py:105
 #, python-format
-msgid "Error during startup:\n"
+msgid ""
+"Error during startup:\n"
 "%s"
-msgstr "Грешка при стартирането:\n"
+msgstr ""
+"Грешка при стартирането:\n"
 "%s"
 
-#: qt/aqt/sync.py:237 qt/aqt/sync.py:244
-msgid "Error establishing a secure connection. This is usually caused by antivirus, firewall or VPN software, or problems with your ISP."
-msgstr "Грешка при установяването на сигурна връзка. Това обикновено се причинява от антивирусен софтуер, VPN или Firewall, или проблеми с вашия интернет доставчик."
-
-#: pylib/anki/latex.py:173
+#: pylib/anki/latex.py:176
 #, python-format
 msgid "Error executing %s."
 msgstr "Грешка при изпълнението на %s."
 
-#: qt/aqt/addons.py:475
+#: qt/aqt/addons.py:480
 #, python-format
 msgid "Error installing <i>%(base)s</i>: %(error)s"
 msgstr ""
 
-#: qt/aqt/sound.py:431
+#: qt/aqt/sound.py:453
 #, python-format
 msgid "Error running %s"
 msgstr "Грешка при изпълнението на %s"
 
-#: qt/aqt/deckbrowser.py:255 qt/aqt/exporting.py:122
+#: qt/aqt/deckbrowser.py:240 qt/aqt/exporting.py:120
 #: qt/aqt/forms/exporting.py:74
 msgid "Export"
 msgstr "Експортиране"
 
-#: qt/aqt/exporting.py:49
+#: qt/aqt/exporting.py:58
 msgid "Export..."
 msgstr "Експортиране..."
 
-#: qt/aqt/exporting.py:145
+#: qt/aqt/exporting.py:150
 #, python-format
 msgid "Exported %d media file"
 msgid_plural "Exported %d media files"
 msgstr[0] "%d медиен файл беше експортиран."
 msgstr[1] "Бяха експортирани %d медийни файла."
 
-#: qt/aqt/importing.py:249
+#: qt/aqt/importing.py:258
 #, python-format
 msgid "Field <b>%d</b> of file is:"
 msgstr "<b>%d</b> поле от файла е:"
@@ -1858,30 +1429,30 @@ msgstr "<b>%d</b> поле от файла е:"
 msgid "Field mapping"
 msgstr ""
 
-#: qt/aqt/fields.py:81
+#: qt/aqt/fields.py:108
 msgid "Field name:"
 msgstr "Име на полето:"
 
-#: qt/aqt/forms/addfield.py:75
+#: qt/aqt/forms/addfield.py:62
 msgid "Field:"
 msgstr "Поле:"
 
-#: qt/aqt/editor.py:158 qt/aqt/fields.py:20 qt/aqt/forms/changemodel.py:113
-#: qt/aqt/forms/fields.py:100
+#: qt/aqt/editor.py:184 qt/aqt/fields.py:23 qt/aqt/forms/changemodel.py:113
+#: qt/aqt/forms/fields.py:101
 msgid "Fields"
 msgstr "Полета"
 
-#: qt/aqt/fields.py:23
+#: qt/aqt/fields.py:27
 #, python-format
 msgid "Fields for %s"
 msgstr "Полета за %s"
 
-#: qt/aqt/importing.py:172
+#: qt/aqt/importing.py:176
 #, python-format
 msgid "Fields separated by: %s"
 msgstr "Полетата се разделят от: %s"
 
-#: qt/aqt/models.py:54
+#: qt/aqt/models.py:59
 msgid "Fields..."
 msgstr "Полета"
 
@@ -1893,7 +1464,7 @@ msgstr ""
 msgid "File version unknown, trying import anyway."
 msgstr ""
 
-#: qt/aqt/browser.py:1280 qt/aqt/forms/dyndconf.py:134
+#: qt/aqt/browser.py:1315 qt/aqt/forms/dyndconf.py:134
 msgid "Filter"
 msgstr "Филтър"
 
@@ -1909,11 +1480,7 @@ msgstr ""
 msgid "Filter:"
 msgstr "Филтър:"
 
-#: qt/aqt/browser.py:1443
-msgid "Filtered"
-msgstr ""
-
-#: qt/aqt/main.py:1076 qt/aqt/main.py:1078
+#: qt/aqt/main.py:1135 qt/aqt/main.py:1137
 #, python-format
 msgid "Filtered Deck %d"
 msgstr "Филтрирано тесте %d"
@@ -1922,7 +1489,7 @@ msgstr "Филтрирано тесте %d"
 msgid "Find &Duplicates..."
 msgstr "&Търсене на дубликати"
 
-#: qt/aqt/forms/finddupes.py:62
+#: qt/aqt/forms/finddupes.py:70
 msgid "Find Duplicates"
 msgstr "Търсене на дубликати"
 
@@ -1930,11 +1497,11 @@ msgstr "Търсене на дубликати"
 msgid "Find and Re&place..."
 msgstr "Търсене и заместване"
 
-#: qt/aqt/browser.py:2111 qt/aqt/forms/findreplace.py:68
+#: qt/aqt/browser.py:1910 qt/aqt/forms/findreplace.py:83
 msgid "Find and Replace"
 msgstr "Търсене и заместване"
 
-#: qt/aqt/reviewer.py:80
+#: qt/aqt/reviewer.py:93
 msgid "Finish"
 msgstr "Завършване"
 
@@ -1942,48 +1509,28 @@ msgstr "Завършване"
 msgid "First Card"
 msgstr "Първа карта"
 
-#: pylib/anki/stats.py:31
-msgid "First Review"
-msgstr "Първи преговор"
-
-#: pylib/anki/importing/noteimp.py:132
+#: pylib/anki/importing/noteimp.py:138
 #, python-format
 msgid "First field matched: %s"
 msgstr "Първо съответстващо поле: %s"
-
-#: pylib/anki/collection.py:890 pylib/anki/collection.py:908
-#, python-format
-msgid "Fixed %d card with invalid properties."
-msgid_plural "Fixed %d cards with invalid properties."
-msgstr[0] "Поправена %d карта с невалидни атрибути."
-msgstr[1] "Поправени %d карти с невалидни атрибути."
-
-#: pylib/anki/collection.py:807
-msgid "Fixed AnkiDroid deck override bug."
-msgstr ""
-
-#: pylib/anki/collection.py:813
-#, python-format
-msgid "Fixed note type: %s"
-msgstr ""
 
 #: qt/aqt/forms/browser.py:302
 msgid "Flag"
 msgstr ""
 
-#: qt/aqt/reviewer.py:673
+#: qt/aqt/reviewer.py:678
 msgid "Flag Card"
 msgstr ""
 
-#: qt/aqt/clayout.py:278
+#: qt/aqt/clayout.py:350
 msgid "Flip"
 msgstr "Обръщане"
 
-#: qt/aqt/profiles.py:232
+#: qt/aqt/profiles.py:307
 msgid "Folder already exists."
 msgstr "Директорията вече съществува."
 
-#: qt/aqt/forms/addfield.py:76
+#: qt/aqt/forms/addfield.py:64
 msgid "Font:"
 msgstr "Шрифт:"
 
@@ -1991,51 +1538,40 @@ msgstr "Шрифт:"
 msgid "Footer"
 msgstr ""
 
-#: pylib/anki/latex.py:133
+#: pylib/anki/latex.py:134
 #, python-format
 msgid "For security reasons, '%s' is not allowed on cards. You can still use it by placing the command in a different package, and importing that package in the LaTeX header instead."
-msgstr "От мерки за сигурност, използването на '%s' не се разрешава в картите.\n"
+msgstr ""
+"От мерки за сигурност, използването на '%s' не се разрешава в картите.\n"
 "Вместо това може да го използвате, поставяйки командата в друг пакет, и включвайки този пакет в LaTeX header-a."
 
-#: pylib/anki/stats.py:260
+#: pylib/anki/stats.py:225
 msgid "Forecast"
 msgstr "Прогноза"
 
-#: qt/aqt/forms/clayout_top.py:56 qt/aqt/forms/preview.py:39
-#: qt/aqt/forms/template.py:106
+#: qt/aqt/forms/clayout_top.py:53 qt/aqt/forms/template.py:72
 msgid "Form"
 msgstr ""
 
-#: qt/aqt/browser.py:2192
+#: qt/aqt/browser.py:1997
 #, python-format
 msgid "Found %(a)s across %(b)s."
 msgstr "Бяха намерени %(a)s сред %(b)s"
 
-#: pylib/anki/exporting.py:376 pylib/anki/stdmodels.py:19
-#: pylib/anki/stdmodels.py:24 pylib/anki/stdmodels.py:46
-#: pylib/anki/stdmodels.py:47 pylib/anki/stdmodels.py:63
-#: pylib/anki/template.py:127 qt/aqt/forms/addfield.py:74
+#: pylib/anki/exporting.py:377
 msgid "Front"
 msgstr "Лицева част"
-
-#: qt/aqt/forms/preview.py:40
-msgid "Front Preview"
-msgstr "Преглед на лицевата част"
-
-#: qt/aqt/forms/template.py:107
-msgid "Front Template"
-msgstr "Шаблон на лицевата част"
 
 #: qt/aqt/forms/dconf.py:378
 msgid "General"
 msgstr "Общи"
 
-#: pylib/anki/latex.py:174
+#: pylib/anki/latex.py:177
 #, python-format
 msgid "Generated file: %s"
 msgstr "Генериран файл: %s"
 
-#: pylib/anki/stats.py:958
+#: pylib/anki/stats.py:934
 #, python-format
 msgid "Generated on %s"
 msgstr "Генерирано на %s"
@@ -2044,11 +1580,11 @@ msgstr "Генерирано на %s"
 msgid "Get Add-ons..."
 msgstr ""
 
-#: qt/aqt/deckbrowser.py:328
+#: qt/aqt/deckbrowser.py:316
 msgid "Get Shared"
 msgstr "Изтегляне на споделени тестета"
 
-#: qt/aqt/reviewer.py:615 qt/aqt/reviewer.py:617 qt/aqt/reviewer.py:619
+#: qt/aqt/reviewer.py:620 qt/aqt/reviewer.py:622 qt/aqt/reviewer.py:624
 msgid "Good"
 msgstr "Добре"
 
@@ -2056,7 +1592,7 @@ msgstr "Добре"
 msgid "Graduating interval"
 msgstr ""
 
-#: qt/aqt/browser.py:1251 qt/aqt/reviewer.py:688 qt/aqt/forms/browser.py:335
+#: qt/aqt/browser.py:1285 qt/aqt/reviewer.py:693 qt/aqt/forms/browser.py:335
 msgid "Green Flag"
 msgstr ""
 
@@ -2064,7 +1600,7 @@ msgstr ""
 msgid "HTML Editor"
 msgstr "HTML редактор"
 
-#: qt/aqt/reviewer.py:619
+#: qt/aqt/reviewer.py:624
 msgid "Hard"
 msgstr "Трудно"
 
@@ -2072,11 +1608,11 @@ msgstr "Трудно"
 msgid "Hard interval"
 msgstr ""
 
-#: qt/aqt/forms/preferences.py:252
+#: qt/aqt/forms/preferences.py:277
 msgid "Hardware acceleration (faster, may cause display issues)"
 msgstr ""
 
-#: pylib/anki/latex.py:182
+#: pylib/anki/latex.py:185
 msgid "Have you installed latex and dvipng/dvisvgm?"
 msgstr ""
 
@@ -2084,16 +1620,16 @@ msgstr ""
 msgid "Header"
 msgstr "Заглавна част"
 
-#: qt/aqt/addcards.py:74 qt/aqt/clayout.py:268 qt/aqt/utils.py:193
-#: qt/aqt/utils.py:194
+#: qt/aqt/addcards.py:76 qt/aqt/clayout.py:340 qt/aqt/utils.py:206
+#: qt/aqt/utils.py:207
 msgid "Help"
 msgstr "Помощ"
 
-#: pylib/anki/stats.py:898
+#: pylib/anki/stats.py:872
 msgid "Highest ease"
 msgstr "Най-голяма лекота"
 
-#: qt/aqt/addcards.py:78
+#: qt/aqt/addcards.py:80
 msgid "History"
 msgstr "Хронология"
 
@@ -2101,27 +1637,27 @@ msgstr "Хронология"
 msgid "Home"
 msgstr "Начало"
 
-#: pylib/anki/stats.py:810
+#: pylib/anki/stats.py:784
 msgid "Hourly Breakdown"
 msgstr "Почасово разпределение"
 
-#: pylib/anki/stats.py:403
+#: pylib/anki/stats.py:372
 msgid "Hours"
 msgstr "Часове"
 
-#: pylib/anki/stats.py:840
+#: pylib/anki/stats.py:814
 msgid "Hours with less than 30 reviews are not shown."
 msgstr "Часове с по-малко от 30 преговора не са показани."
 
-#: pylib/anki/importing/anki2.py:171
+#: pylib/anki/importing/anki2.py:169
 msgid "Identical"
 msgstr ""
 
-#: qt/aqt/about.py:212
+#: qt/aqt/about.py:218
 msgid "If you have contributed and are not on this list, please get in touch."
 msgstr ""
 
-#: pylib/anki/stats.py:447
+#: pylib/anki/stats.py:422
 msgid "If you studied every day"
 msgstr "Ако учехте всеки ден"
 
@@ -2129,11 +1665,11 @@ msgstr "Ако учехте всеки ден"
 msgid "Ignore answer times longer than"
 msgstr "Игнориране на отговори, по-дълги от"
 
-#: qt/aqt/forms/findreplace.py:73
+#: qt/aqt/forms/findreplace.py:88
 msgid "Ignore case"
 msgstr "Без различаване главни/малки букви"
 
-#: qt/aqt/importing.py:49
+#: qt/aqt/importing.py:52
 msgid "Ignore field"
 msgstr "Игнориране на полето"
 
@@ -2145,12 +1681,12 @@ msgstr "Игнориране на редове, в които първото п�
 msgid "Ignore this update"
 msgstr "Игнориране на това обновяване"
 
-#: qt/aqt/importing.py:98 qt/aqt/importing.py:192 qt/aqt/importing.py:309
+#: qt/aqt/importing.py:102 qt/aqt/importing.py:196 qt/aqt/importing.py:318
 #: qt/aqt/forms/changemap.py:41 qt/aqt/forms/importing.py:103
 msgid "Import"
 msgstr "Импортиране"
 
-#: qt/aqt/deckbrowser.py:330
+#: qt/aqt/deckbrowser.py:318
 msgid "Import File"
 msgstr "Импортиране на файл"
 
@@ -2158,31 +1694,27 @@ msgstr "Импортиране на файл"
 msgid "Import even if existing note has same first field"
 msgstr "Импортиране дори ако първото поле на съществуваща бележка е същото."
 
-#: qt/aqt/importing.py:199 qt/aqt/importing.py:408
-msgid "Import failed.\n"
-msgstr "Импортирането се провали.\n"
-
-#: qt/aqt/importing.py:363
-msgid "Import failed. Debugging info:\n"
-msgstr "Импортирането се провали. Информация за изследване:\n"
-
 #: qt/aqt/forms/importing.py:104
 msgid "Import options"
 msgstr "Опции на импортирането"
 
-#: qt/aqt/importing.py:211
+#: qt/aqt/importing.py:218 qt/aqt/importing.py:529
 msgid "Importing complete."
 msgstr "Импортирането завърши"
 
-#: qt/aqt/main.py:1135
+#: qt/aqt/main.py:1196
 #, python-format
-msgid "In order to ensure your collection works correctly when moved between devices, Anki requires your computer's internal clock to be set correctly. The internal clock can be wrong even if your system is showing the correct local time.\n\n"
-"Please go to the time settings on your computer and check the following:\n\n"
+msgid ""
+"In order to ensure your collection works correctly when moved between devices, Anki requires your computer's internal clock to be set correctly. The internal clock can be wrong even if your system is showing the correct local time.\n"
+"\n"
+"Please go to the time settings on your computer and check the following:\n"
+"\n"
 "- AM/PM\n"
 "- Clock drift\n"
 "- Day, month and year\n"
 "- Timezone\n"
-"- Daylight savings\n\n"
+"- Daylight savings\n"
+"\n"
 "Difference to correct time: %s."
 msgstr ""
 
@@ -2202,7 +1734,7 @@ msgstr "Включване на сроковете от учебната про�
 msgid "Include tags"
 msgstr "Включване на таговете"
 
-#: qt/aqt/forms/customstudy.py:103
+#: qt/aqt/forms/customstudy.py:104
 msgid "Increase today's new card limit"
 msgstr "Увеличаване на днешния лимит за нови карти"
 
@@ -2210,7 +1742,7 @@ msgstr "Увеличаване на днешния лимит за нови ка
 msgid "Increase today's new card limit by"
 msgstr "Увеличаване на днешния лимит за нови карти с"
 
-#: qt/aqt/forms/customstudy.py:104
+#: qt/aqt/forms/customstudy.py:105
 msgid "Increase today's review card limit"
 msgstr "Увеличаване на днешния лимит за карти за преговор"
 
@@ -2218,7 +1750,7 @@ msgstr "Увеличаване на днешния лимит за карти з
 msgid "Increase today's review limit by"
 msgstr "Увеличаване на днешния лимит за карти за преговор с"
 
-#: pylib/anki/consts.py:89
+#: pylib/anki/consts.py:118
 msgid "Increasing intervals"
 msgstr ""
 
@@ -2226,11 +1758,11 @@ msgstr ""
 msgid "Install Add-on"
 msgstr "Инсталиране на приставката"
 
-#: qt/aqt/addons.py:842
+#: qt/aqt/addons.py:870
 msgid "Install Add-on(s)"
 msgstr ""
 
-#: qt/aqt/addons.py:1351
+#: qt/aqt/addons.py:1409
 msgid "Install Anki add-on"
 msgstr ""
 
@@ -2238,28 +1770,28 @@ msgstr ""
 msgid "Install from file..."
 msgstr ""
 
-#: qt/aqt/addons.py:1374
+#: qt/aqt/addons.py:1432
 msgid "Installation complete"
 msgstr ""
 
-#: qt/aqt/addons.py:488
+#: qt/aqt/addons.py:493
 #, python-format
 msgid "Installed %(name)s"
 msgstr ""
 
-#: qt/aqt/addons.py:991
+#: qt/aqt/addons.py:1019
 msgid "Installed successfully."
 msgstr ""
 
-#: qt/aqt/forms/preferences.py:251 qt/aqt/forms/setlang.py:40
+#: qt/aqt/forms/setlang.py:40
 msgid "Interface language:"
 msgstr "Език на програмата:"
 
-#: qt/aqt/forms/preferences.py:256
+#: qt/aqt/forms/preferences.py:279
 msgid "Interrupt current audio when answering"
 msgstr ""
 
-#: pylib/anki/stats.py:45 qt/aqt/browser.py:720 qt/aqt/browser.py:1433
+#: qt/aqt/browser.py:739
 msgid "Interval"
 msgstr "Интервал"
 
@@ -2267,80 +1799,63 @@ msgstr "Интервал"
 msgid "Interval modifier"
 msgstr ""
 
-#: pylib/anki/stats.py:615
+#: pylib/anki/stats.py:589
 msgid "Intervals"
 msgstr "Интервали"
 
-#: qt/aqt/addons.py:467
+#: qt/aqt/addons.py:472
 msgid "Invalid add-on manifest."
 msgstr ""
 
-#: qt/aqt/addons.py:978
+#: qt/aqt/addons.py:1006
 msgid "Invalid code, or add-on not available for your version of Anki."
 msgstr ""
 
-#: qt/aqt/addons.py:904
+#: qt/aqt/addons.py:932
 msgid "Invalid code."
 msgstr "Невалиден код."
 
-#: qt/aqt/addons.py:1307
+#: qt/aqt/addons.py:1365
 msgid "Invalid configuration: "
 msgstr ""
 
-#: qt/aqt/addons.py:1311
+#: qt/aqt/addons.py:1369
 msgid "Invalid configuration: top level object must be a map"
 msgstr ""
 
-#: pylib/anki/media.py:306
-#, python-format
-msgid "Invalid file name, please rename: %s"
-msgstr ""
-
-#: qt/aqt/importing.py:394
-msgid "Invalid file. Please restore from backup."
-msgstr "Невалиден файл. Моля, възстановете от резервно копие."
-
-#: qt/aqt/main.py:1185
+#: qt/aqt/main.py:1256
 msgid "Invalid property found on card. Please use Tools>Check Database, and if the problem comes up again, please ask on the support site."
 msgstr ""
 
-#: qt/aqt/browser.py:2124
-msgid "Invalid regular expression."
-msgstr "Грешен регулярен израз."
-
-#: qt/aqt/browser.py:188
-msgid "Invalid search - please check for typing mistakes."
-msgstr ""
-
-#: qt/aqt/reviewer.py:662
+#: qt/aqt/reviewer.py:667
 msgid "It has been suspended."
 msgstr ""
 
-#: qt/aqt/editor.py:106
+#: qt/aqt/editor.py:117
 msgid "Italic text (Ctrl+I)"
 msgstr ""
 
-#: qt/aqt/editor.py:522
+#: qt/aqt/editor.py:565
 msgid "Jump to tags with Ctrl+Shift+T"
 msgstr "Прескачане към етикетите с Ctrl+Shift+T"
 
-#: qt/aqt/forms/preferences.py:280
+#: qt/aqt/forms/preferences.py:307
 msgid "Keep"
 msgstr "Запазване на"
 
-#: qt/aqt/editor.py:876 qt/aqt/forms/modelopts.py:67
+#: qt/aqt/editor.py:932 qt/aqt/forms/modelopts.py:67
 msgid "LaTeX"
 msgstr ""
 
-#: qt/aqt/editor.py:877
+#: qt/aqt/editor.py:933
 msgid "LaTeX equation"
 msgstr "LaTeX уравнение"
 
-#: qt/aqt/editor.py:878
+#: qt/aqt/editor.py:934
 msgid "LaTeX math env."
 msgstr ""
 
-#: pylib/anki/stats.py:48 qt/aqt/browser.py:723 qt/aqt/forms/dconf.py:372
+#: qt/aqt/browser.py:742 qt/aqt/forms/dconf.py:372
 msgid "Lapses"
 msgstr ""
 
@@ -2348,28 +1863,24 @@ msgstr ""
 msgid "Last Card"
 msgstr "Последна карта"
 
-#: pylib/anki/stats.py:32
-msgid "Latest Review"
-msgstr "Най-скорошен преговор"
-
-#: pylib/anki/consts.py:94
+#: pylib/anki/consts.py:123
 msgid "Latest added first"
 msgstr ""
 
-#: pylib/anki/stats.py:375 pylib/anki/stats.py:395 qt/aqt/browser.py:1443
+#: pylib/anki/stats.py:344 pylib/anki/stats.py:364
 msgid "Learn"
 msgstr "Учене"
 
-#: qt/aqt/forms/preferences.py:267
+#: qt/aqt/forms/preferences.py:295
 msgid "Learn ahead limit"
 msgstr "Ограничение на ученето напред"
 
-#: pylib/anki/stats.py:192
+#: pylib/anki/stats.py:157
 #, python-format
 msgid "Learn: %(a)s, Review: %(b)s, Relearn: %(c)s, Filtered: %(d)s"
 msgstr "Научение (нови): %(a)s, Преговорени: %(b)s, Научени отново: %(c)s, Филтрирани: %(d)s"
 
-#: pylib/anki/stats.py:705 qt/aqt/browser.py:1242 qt/aqt/overview.py:207
+#: pylib/anki/stats.py:679 qt/aqt/browser.py:1276 qt/aqt/overview.py:225
 msgid "Learning"
 msgstr "В процес на научаване"
 
@@ -2381,7 +1892,7 @@ msgstr ""
 msgid "Leech threshold"
 msgstr ""
 
-#: pylib/anki/consts.py:80
+#: pylib/anki/consts.py:109
 msgid "Left"
 msgstr "Отляво"
 
@@ -2389,19 +1900,15 @@ msgstr "Отляво"
 msgid "Limit to"
 msgstr "Ограничаване до"
 
-#: qt/aqt/utils.py:38
+#: qt/aqt/utils.py:51
 msgid "Loading..."
 msgstr "Зареждане..."
 
-#: qt/aqt/sync.py:298
-msgid "Local collection has no cards. Download from AnkiWeb?"
-msgstr ""
-
-#: pylib/anki/stats.py:638
+#: pylib/anki/stats.py:612
 msgid "Longest interval"
 msgstr "Най-дълъг интервал"
 
-#: pylib/anki/stats.py:896
+#: pylib/anki/stats.py:870
 msgid "Lowest ease"
 msgstr "Най-ниска лекота"
 
@@ -2417,41 +1924,41 @@ msgstr ""
 msgid "Manage Note Types..."
 msgstr "Управление на типовете бележки"
 
-#: qt/aqt/browser.py:1299 qt/aqt/forms/dconf.py:339
+#: qt/aqt/browser.py:1334 qt/aqt/forms/dconf.py:339
 msgid "Manage..."
 msgstr ""
 
-#: qt/aqt/overview.py:112
+#: qt/aqt/overview.py:132
 msgid "Manually Buried Cards"
 msgstr ""
 
-#: qt/aqt/importing.py:42
+#: qt/aqt/importing.py:45
 #, python-format
 msgid "Map to %s"
 msgstr "Превръщане в %s"
 
-#: qt/aqt/importing.py:48
+#: qt/aqt/importing.py:51
 msgid "Map to Tags"
 msgstr ""
 
-#: qt/aqt/reviewer.py:701
+#: qt/aqt/reviewer.py:706
 msgid "Mark Note"
 msgstr ""
 
-#: qt/aqt/editor.py:874
+#: qt/aqt/editor.py:930
 msgid "MathJax block"
 msgstr ""
 
-#: qt/aqt/editor.py:875
+#: qt/aqt/editor.py:931
 msgid "MathJax chemistry"
 msgstr ""
 
-#: qt/aqt/editor.py:873
+#: qt/aqt/editor.py:929
 msgid "MathJax inline"
 msgstr ""
 
-#: pylib/anki/stats.py:245 pylib/anki/stats.py:372 pylib/anki/stats.py:392
-#: pylib/anki/stats.py:707 pylib/anki/stats.py:877
+#: pylib/anki/stats.py:210 pylib/anki/stats.py:341 pylib/anki/stats.py:361
+#: pylib/anki/stats.py:681 pylib/anki/stats.py:851
 msgid "Mature"
 msgstr "Зрели"
 
@@ -2463,7 +1970,7 @@ msgstr "Максимално дълъг интервал"
 msgid "Maximum reviews/day"
 msgstr "Максимум преговаряния на ден"
 
-#: qt/aqt/editor.py:652
+#: qt/aqt/editor.py:693
 msgid "Media"
 msgstr "Медийни файлове"
 
@@ -2471,11 +1978,11 @@ msgstr "Медийни файлове"
 msgid "Minimum interval"
 msgstr "Минимален интервал"
 
-#: pylib/anki/stats.py:400
+#: pylib/anki/stats.py:369
 msgid "Minutes"
 msgstr "Минути"
 
-#: pylib/anki/consts.py:71
+#: pylib/anki/consts.py:100
 msgid "Mix new cards and reviews"
 msgstr "Разбъркване на новите карти и картите за преглед."
 
@@ -2483,19 +1990,15 @@ msgstr "Разбъркване на новите карти и картите з
 msgid "Mnemosyne 2.0 Deck (*.db)"
 msgstr "Mnemosyne 2.0 Тесте (*.db)"
 
-#: qt/aqt/reviewer.py:557
+#: qt/aqt/reviewer.py:562
 msgid "More"
 msgstr "Още"
 
-#: pylib/anki/template.py:132 pylib/anki/template.py:143
-msgid "More info"
-msgstr ""
-
-#: pylib/anki/consts.py:91
+#: pylib/anki/consts.py:120
 msgid "Most lapses"
 msgstr ""
 
-#: qt/aqt/browser.py:1821
+#: qt/aqt/browser.py:1587
 msgid "Move Cards"
 msgstr "Преместване на картите"
 
@@ -2503,7 +2006,7 @@ msgstr "Преместване на картите"
 msgid "Move cards to deck:"
 msgstr "Преместване на картите в тесте:"
 
-#: qt/aqt/importing.py:139
+#: qt/aqt/importing.py:143
 msgid "Multi-character separators are not supported. Please enter one character only."
 msgstr ""
 
@@ -2511,23 +2014,23 @@ msgstr ""
 msgid "N&ote"
 msgstr "Бележка"
 
-#: qt/aqt/main.py:254 qt/aqt/main.py:268
+#: qt/aqt/main.py:274 qt/aqt/main.py:288
 msgid "Name exists."
 msgstr "Името съществува."
 
-#: qt/aqt/deckbrowser.py:67
+#: qt/aqt/deckbrowser.py:82
 msgid "Name for deck:"
 msgstr "Име на тестето:"
 
-#: qt/aqt/main.py:251 qt/aqt/models.py:96
+#: qt/aqt/main.py:271 qt/aqt/models.py:112
 msgid "Name:"
 msgstr "Име:"
 
-#: qt/aqt/forms/preferences.py:278
+#: qt/aqt/forms/preferences.py:305
 msgid "Network"
 msgstr "Мрежа"
 
-#: qt/aqt/browser.py:1241 qt/aqt/deckbrowser.py:163 qt/aqt/overview.py:205
+#: qt/aqt/browser.py:1275 qt/aqt/deckbrowser.py:157 qt/aqt/overview.py:223
 msgid "New"
 msgstr "Нови"
 
@@ -2540,7 +2043,7 @@ msgstr "Нови карти"
 msgid "New cards in deck over today limit: %s"
 msgstr ""
 
-#: qt/aqt/forms/customstudy.py:110
+#: qt/aqt/forms/customstudy.py:111
 msgid "New cards only"
 msgstr "Само нови карти"
 
@@ -2548,7 +2051,7 @@ msgstr "Само нови карти"
 msgid "New cards/day"
 msgstr "Нови карти за ден"
 
-#: qt/aqt/deckbrowser.py:269 qt/aqt/studydeck.py:142
+#: qt/aqt/deckbrowser.py:254 qt/aqt/studydeck.py:147
 msgid "New deck name:"
 msgstr "Име на новото тесте:"
 
@@ -2556,8 +2059,8 @@ msgstr "Име на новото тесте:"
 msgid "New interval"
 msgstr "Нов интервал"
 
-#: qt/aqt/clayout.py:388 qt/aqt/deckconf.py:139 qt/aqt/fields.py:72
-#: qt/aqt/main.py:262 qt/aqt/models.py:67
+#: qt/aqt/clayout.py:533 qt/aqt/deckconf.py:146 qt/aqt/fields.py:97
+#: qt/aqt/main.py:282 qt/aqt/models.py:76
 msgid "New name:"
 msgstr "Ново име:"
 
@@ -2565,100 +2068,80 @@ msgstr "Ново име:"
 msgid "New note type:"
 msgstr "Нов тип за бележката:"
 
-#: qt/aqt/deckconf.py:117
+#: qt/aqt/deckconf.py:119
 msgid "New options group name:"
 msgstr "Име за новата група от опции:"
 
-#: qt/aqt/fields.py:109
+#: qt/aqt/fields.py:136
 #, python-format
 msgid "New position (1...%d):"
 msgstr "Нова позиция (1...%d):"
 
-#: qt/aqt/forms/preferences.py:266
+#: qt/aqt/forms/preferences.py:297
 msgid "Next day starts at"
 msgstr "Следващият ден започва"
 
-#: qt/aqt/forms/preferences.py:259
+#: qt/aqt/forms/preferences.py:282
 msgid "Night mode"
 msgstr ""
 
-#: qt/aqt/browser.py:1253
+#: qt/aqt/browser.py:1287
 msgid "No Flag"
 msgstr ""
 
-#: qt/aqt/overview.py:49
+#: qt/aqt/overview.py:69
 msgid "No cards are due yet."
 msgstr "Няма карти за преглед, все още"
 
-#: pylib/anki/stats.py:210
+#: pylib/anki/stats.py:175
 msgid "No cards have been studied today."
 msgstr ""
 
-#: qt/aqt/customstudy.py:185
+#: qt/aqt/customstudy.py:190
 msgid "No cards matched the criteria you provided."
 msgstr "Нямаше карти, отговарящи на условията."
 
-#: qt/aqt/main.py:1370
-msgid "No empty cards."
-msgstr "Няма празни карти."
-
-#: pylib/anki/stats.py:208
+#: pylib/anki/stats.py:173
 msgid "No mature cards were studied today."
 msgstr "Зрели карти не бяха учени днес."
 
-#: qt/aqt/main.py:1295
-msgid "No unused or missing files found."
-msgstr "Не бяха намерени неизползвани или липсващи файлове."
-
-#: qt/aqt/addons.py:836
+#: qt/aqt/addons.py:864
 msgid "No updates available."
 msgstr ""
 
-#: qt/aqt/browser.py:725
+#: qt/aqt/browser.py:744
 msgid "Note"
 msgstr "Бележка"
 
-#: pylib/anki/stats.py:60
-msgid "Note ID"
-msgstr "Идентификатор на бележката"
-
-#: pylib/anki/stats.py:58
-msgid "Note Type"
-msgstr "Тип бележка"
-
-#: qt/aqt/browser.py:1297 qt/aqt/models.py:31 qt/aqt/forms/models.py:54
+#: qt/aqt/browser.py:1332 qt/aqt/models.py:35 qt/aqt/forms/models.py:54
 msgid "Note Types"
 msgstr "Типове бележки"
 
-#: qt/aqt/reviewer.py:793
+#: qt/aqt/reviewer.py:798
 #, python-format
 msgid "Note and its %d card deleted."
 msgid_plural "Note and its %d cards deleted."
 msgstr[0] "Бележката и неийната %d карта бяха изтрити."
 msgstr[1] "Бележката и неийните %d карти бяха изтрити."
 
-#: qt/aqt/reviewer.py:808
+#: qt/aqt/reviewer.py:813
 msgid "Note buried."
 msgstr "Бележката беше заровена."
 
-#: qt/aqt/reviewer.py:773
+#: qt/aqt/reviewer.py:778
 msgid "Note suspended."
 msgstr ""
 
-#: qt/aqt/forms/preferences.py:283
+#: qt/aqt/forms/preferences.py:310
 msgid "Note: Media is not backed up. Please create a periodic backup of your Anki folder to be safe."
 msgstr "Внимание: медийните файлове нямат резервни копия. Създавайте периодично резерни копия на директорията на Anki за по-сигурно."
 
-#: qt/aqt/browser.py:1477
-msgid "Note: Some of the history is missing. For more information, please see the browser documentation."
-msgstr "Внимание: част от историята липсва. За повече информация, проверете документацията на браузъра."
-
-#: pylib/anki/importing/anki2.py:151
+#: pylib/anki/importing/anki2.py:149
 #, python-format
 msgid "Notes added from file: %d"
 msgstr ""
 
-#: pylib/anki/importing/anki2.py:139
+#: pylib/anki/importing/anki2.py:137
 #, python-format
 msgid "Notes found in file: %d"
 msgstr ""
@@ -2667,30 +2150,30 @@ msgstr ""
 msgid "Notes in Plain Text"
 msgstr "Бележки в чист текст"
 
-#: qt/aqt/fields.py:94
+#: qt/aqt/fields.py:121
 msgid "Notes require at least one field."
 msgstr "Бележките изискват поне едно поле"
 
-#: pylib/anki/importing/anki2.py:154
+#: pylib/anki/importing/anki2.py:152
 #, python-format
 msgid "Notes skipped, as they're already in your collection: %d"
 msgstr ""
 
-#: qt/aqt/browser.py:2219
+#: qt/aqt/browser.py:2024
 msgid "Notes tagged."
 msgstr ""
 
-#: pylib/anki/importing/anki2.py:143
+#: pylib/anki/importing/anki2.py:141
 #, python-format
 msgid "Notes that could not be imported as note type has changed: %d"
 msgstr ""
 
-#: pylib/anki/importing/anki2.py:148
+#: pylib/anki/importing/anki2.py:146
 #, python-format
 msgid "Notes updated, as file had newer version: %d"
 msgstr ""
 
-#: qt/aqt/browser.py:2373
+#: qt/aqt/browser.py:2178
 msgid "Nothing"
 msgstr "Нищо"
 
@@ -2698,53 +2181,45 @@ msgstr "Нищо"
 msgid "OK"
 msgstr "ОК"
 
-#: pylib/anki/consts.py:87
+#: pylib/anki/consts.py:116
 msgid "Oldest seen first"
 msgstr "Показване на най-старите най-отпред"
 
-#: qt/aqt/forms/preferences.py:276
+#: qt/aqt/forms/preferences.py:303
 msgid "On next sync, force changes in one direction"
 msgstr "Еднопосочно качване на промените при следващо синхронизиране."
 
-#: qt/aqt/addons.py:1080
+#: qt/aqt/addons.py:1108
 msgid "One or more errors occurred:"
 msgstr ""
 
-#: pylib/anki/importing/noteimp.py:231
-msgid "One or more notes were not imported, because they didn't generate any cards. This can happen when you have empty fields or when you have not mapped the content in the text file to the correct fields."
-msgstr "Някои бележки не бяха импортирани, защото не генерираха никакви карти. Това може да се случи, когато имате празни полета или когато не сте свързали съдържанието на текстовия файл с правилните полета."
-
-#: qt/aqt/browser.py:1971
+#: qt/aqt/browser.py:1738
 msgid "Only new cards can be repositioned."
 msgstr "Само нови карти могат да се разместват."
 
-#: qt/aqt/sync.py:215
-msgid "Only one client can access AnkiWeb at a time. If a previous sync failed, please try again in a few minutes."
-msgstr "Само един клиент може да използва AnkiWeb по едно и също време. Ако предишното синхронизиране се е провалило, опитайте отново след няколко минути."
-
-#: qt/aqt/forms/profiles.py:75
+#: qt/aqt/forms/profiles.py:80
 msgid "Open"
 msgstr "Отваряне"
 
-#: qt/aqt/forms/profiles.py:80
+#: qt/aqt/forms/profiles.py:85
 msgid "Open Backup..."
 msgstr ""
 
-#: qt/aqt/main.py:570
+#: qt/aqt/main.py:622
 msgid "Optimizing..."
 msgstr "Оптимизиране..."
 
-#: qt/aqt/forms/finddupes.py:63
+#: qt/aqt/forms/finddupes.py:71
 msgid "Optional filter:"
 msgstr ""
 
-#: qt/aqt/clayout.py:107 qt/aqt/deckbrowser.py:253 qt/aqt/deckconf.py:31
-#: qt/aqt/dyndeckconf.py:24 qt/aqt/overview.py:228 qt/aqt/reviewer.py:707
-#: qt/aqt/forms/dyndconf.py:142 qt/aqt/forms/fields.py:108
+#: qt/aqt/clayout.py:109 qt/aqt/deckbrowser.py:238 qt/aqt/deckconf.py:35
+#: qt/aqt/dyndeckconf.py:24 qt/aqt/overview.py:246 qt/aqt/reviewer.py:712
+#: qt/aqt/forms/dyndconf.py:142 qt/aqt/forms/fields.py:109
 msgid "Options"
 msgstr "Опции"
 
-#: qt/aqt/deckconf.py:40 qt/aqt/dyndeckconf.py:27 qt/aqt/models.py:124
+#: qt/aqt/deckconf.py:45 qt/aqt/dyndeckconf.py:27 qt/aqt/models.py:150
 #, python-format
 msgid "Options for %s"
 msgstr "Опции за %s"
@@ -2753,11 +2228,11 @@ msgstr "Опции за %s"
 msgid "Options group:"
 msgstr "Група опции:"
 
-#: qt/aqt/models.py:58
+#: qt/aqt/models.py:63
 msgid "Options..."
 msgstr "Опции..."
 
-#: qt/aqt/browser.py:1250 qt/aqt/reviewer.py:682 qt/aqt/forms/browser.py:334
+#: qt/aqt/browser.py:1284 qt/aqt/reviewer.py:687 qt/aqt/forms/browser.py:334
 msgid "Orange Flag"
 msgstr ""
 
@@ -2765,11 +2240,11 @@ msgstr ""
 msgid "Order"
 msgstr "Ред"
 
-#: pylib/anki/consts.py:92
+#: pylib/anki/consts.py:121
 msgid "Order added"
 msgstr ""
 
-#: pylib/anki/consts.py:93
+#: pylib/anki/consts.py:122
 msgid "Order due"
 msgstr ""
 
@@ -2785,7 +2260,7 @@ msgstr "Презаписване на шрифт:"
 msgid "Override front template:"
 msgstr ""
 
-#: qt/aqt/addons.py:840
+#: qt/aqt/addons.py:868
 msgid "Packaged Anki Add-on"
 msgstr ""
 
@@ -2793,19 +2268,15 @@ msgstr ""
 msgid "Packaged Anki Deck/Collection (*.apkg *.colpkg *.zip)"
 msgstr ""
 
-#: qt/aqt/sync.py:274
-msgid "Password:"
-msgstr "Парола:"
-
-#: qt/aqt/editor.py:1117
+#: qt/aqt/editor.py:1176
 msgid "Paste"
 msgstr "Поставяне"
 
-#: qt/aqt/forms/preferences.py:257
+#: qt/aqt/forms/preferences.py:280
 msgid "Paste clipboard images as PNG"
 msgstr "Поставяна на изображения от клипборда като PNG."
 
-#: qt/aqt/forms/preferences.py:258
+#: qt/aqt/forms/preferences.py:281
 msgid "Paste without shift key strips formatting"
 msgstr ""
 
@@ -2813,18 +2284,22 @@ msgstr ""
 msgid "Pauker 1.8 Lesson (*.pau.gz)"
 msgstr "Pauker 1.8 Урок (*.pau.gz)"
 
-#: qt/aqt/reviewer.py:710
+#: qt/aqt/reviewer.py:715
 msgid "Pause Audio"
 msgstr ""
 
-#: pylib/anki/stats.py:618
+#: pylib/anki/stats.py:592
 msgid "Percentage"
 msgstr "В проценти"
 
-#: pylib/anki/stats.py:966
+#: pylib/anki/stats.py:942
 #, python-format
 msgid "Period: %s"
 msgstr "Период: %s"
+
+#: qt/aqt/forms/preferences.py:302
+msgid "Periodically sync media"
+msgstr ""
 
 #: qt/aqt/forms/reschedule.py:74
 msgid "Place at end of new card queue"
@@ -2834,93 +2309,77 @@ msgstr "Поставяне в края на списъка с нови карт�
 msgid "Place in review queue with interval between:"
 msgstr "Поставяне за преглед в интервал между:"
 
-#: qt/aqt/models.py:105
+#: qt/aqt/models.py:119
 msgid "Please add another note type first."
 msgstr "Моля, първо добавете друг тип бележка."
 
-#: qt/aqt/addons.py:984
+#: qt/aqt/addons.py:1012
 msgid "Please check your internet connection."
 msgstr ""
 
-#: qt/aqt/errors.py:94
+#: qt/aqt/errors.py:88
 msgid "Please connect a microphone, and ensure other programs are not using the audio device."
 msgstr "Моля свържете микрофон и се уверете, че другите програми не използват аудио устройството."
 
-#: qt/aqt/main.py:1544
+#: qt/aqt/main.py:1574
 msgid "Please ensure a profile is open and Anki is not busy, then try again."
 msgstr "Убедете се, че има отворен профил и че Anki не е зает, и опитайте отново."
 
-#: qt/aqt/browser.py:1352
+#: qt/aqt/browser.py:1387
 msgid "Please give your filter a name:"
 msgstr ""
 
-#: qt/aqt/errors.py:84
-msgid "Please install PyAudio"
-msgstr "Моля, инсталирайте PyAudio"
-
-#: qt/aqt/profiles.py:227
+#: qt/aqt/profiles.py:302
 #, python-format
 msgid "Please remove the folder %s and try again."
 msgstr "Моля, премахнете папката %s и опитайте отново."
 
-#: qt/aqt/addons.py:1377
+#: qt/aqt/addons.py:1435
 msgid "Please report this to the respective add-on author(s)."
 msgstr ""
 
-#: qt/aqt/preferences.py:69
+#: qt/aqt/preferences.py:72
 msgid "Please restart Anki to complete language change."
 msgstr "Рестартирайте Anki за завършване на избора на език."
 
-#: qt/aqt/reviewer.py:373
+#: qt/aqt/reviewer.py:375
 msgid "Please run Tools>Empty Cards"
 msgstr "Моля, отворете Инструменти->Празни карти"
 
-#: qt/aqt/main.py:609
+#: qt/aqt/main.py:653
 msgid "Please select a deck."
 msgstr "Моля, изберете тесте."
 
-#: qt/aqt/addons.py:775
+#: qt/aqt/addons.py:803
 msgid "Please select a single add-on first."
 msgstr ""
 
-#: qt/aqt/browser.py:1522
+#: qt/aqt/browser.py:1487
 msgid "Please select cards from only one note type."
 msgstr "Моля, избирайте карти само от един тип."
 
-#: qt/aqt/studydeck.py:126
+#: qt/aqt/studydeck.py:131
 msgid "Please select something."
 msgstr "Моля, изберете нещо."
 
-#: qt/aqt/sync.py:197
-msgid "Please upgrade to the latest version of Anki."
-msgstr "Моля, обновете до най-новата версия на Anki."
-
-#: qt/aqt/main.py:1033
+#: qt/aqt/main.py:1093
 msgid "Please use File>Import to import this file."
 msgstr "Моля, използвайте Файл->Импортиране, за да импортирате този файл."
 
-#: qt/aqt/sync.py:140
-msgid "Please visit AnkiWeb, upgrade your deck, then try again."
-msgstr "Моля, посетете AnkiWeb, ъпгрейднете тестето и опитайте отново."
-
-#: pylib/anki/stats.py:56
-msgid "Position"
-msgstr "Позиция"
-
-#: qt/aqt/forms/preferences.py:250
+#: qt/aqt/forms/preferences.py:276
 msgid "Preferences"
 msgstr "Предпочитания"
 
-#: qt/aqt/browser.py:1558 qt/aqt/forms/browser.py:296
+#: qt/aqt/previewer.py:62 qt/aqt/forms/browser.py:296
 msgid "Preview"
 msgstr "Предварителен преглед"
 
-#: qt/aqt/browser.py:593
+#: qt/aqt/browser.py:614
 #, python-format
 msgid "Preview Selected Card (%s)"
 msgstr "Предварителен преглед на избраната карта (%s)"
 
-#: qt/aqt/forms/customstudy.py:106
+#: qt/aqt/forms/customstudy.py:107
 msgid "Preview new cards"
 msgstr "Предварителен преглед на новите карти"
 
@@ -2928,48 +2387,44 @@ msgstr "Предварителен преглед на новите карти"
 msgid "Preview new cards added in the last"
 msgstr "Преглед на новите карти, добавени през последните"
 
-#: qt/aqt/importing.py:486
+#: qt/aqt/importing.py:499
 #, python-format
 msgid "Processed %d media file"
 msgid_plural "Processed %d media files"
 msgstr[0] "%d медиен файл беше обработен."
 msgstr[1] "%d медийни файла бяха обработени."
 
-#: qt/aqt/progress.py:119
+#: qt/aqt/progress.py:66
 msgid "Processing..."
 msgstr "Обработка…"
 
-#: qt/aqt/profiles.py:174
+#: qt/aqt/profiles.py:249
 msgid "Profile Corrupt"
 msgstr ""
 
-#: qt/aqt/forms/profiles.py:74
+#: qt/aqt/forms/profiles.py:79
 msgid "Profiles"
 msgstr "Профили"
 
-#: qt/aqt/sync.py:231
-msgid "Proxy authentication required."
-msgstr "Необходима е идентификация за прокси"
-
-#: qt/aqt/browser.py:711
+#: qt/aqt/browser.py:730
 msgid "Question"
 msgstr "Въпрос"
 
-#: qt/aqt/browser.py:1982
+#: qt/aqt/browser.py:1749
 #, python-format
 msgid "Queue bottom: %d"
 msgstr "На дъното на опашката: %d"
 
-#: qt/aqt/browser.py:1981
+#: qt/aqt/browser.py:1748
 #, python-format
 msgid "Queue top: %d"
 msgstr "В началото на опашката: %d"
 
-#: qt/aqt/forms/profiles.py:79
+#: qt/aqt/forms/profiles.py:84
 msgid "Quit"
 msgstr "Изход"
 
-#: pylib/anki/consts.py:88
+#: pylib/anki/consts.py:117
 msgid "Random"
 msgstr "Произволен"
 
@@ -2977,53 +2432,49 @@ msgstr "Произволен"
 msgid "Randomize order"
 msgstr "Разбъркване на реда"
 
-#: qt/aqt/browser.py:1432
-msgid "Rating"
-msgstr "Рейтинг"
-
-#: qt/aqt/dyndeckconf.py:22 qt/aqt/overview.py:231
+#: qt/aqt/dyndeckconf.py:22 qt/aqt/overview.py:249
 msgid "Rebuild"
 msgstr "Прегенериране"
 
-#: qt/aqt/reviewer.py:713
+#: qt/aqt/reviewer.py:718
 msgid "Record Own Voice"
 msgstr "Записване на собствения Ви глас"
 
-#: qt/aqt/editor.py:142
+#: qt/aqt/editor.py:168
 msgid "Record audio (F5)"
 msgstr ""
 
-#: qt/aqt/sound.py:530
+#: qt/aqt/sound.py:556
 #, python-format
 msgid "Recording...<br>Time: %0.1f"
 msgstr "Записване... <br>Време: %0.1f"
 
-#: qt/aqt/browser.py:1249 qt/aqt/reviewer.py:676 qt/aqt/forms/browser.py:333
+#: qt/aqt/browser.py:1283 qt/aqt/reviewer.py:681 qt/aqt/forms/browser.py:333
 msgid "Red Flag"
 msgstr ""
 
-#: pylib/anki/consts.py:95
+#: pylib/anki/consts.py:124
 msgid "Relative overdueness"
 msgstr ""
 
-#: pylib/anki/stats.py:374 pylib/anki/stats.py:394 qt/aqt/browser.py:1443
+#: pylib/anki/stats.py:343 pylib/anki/stats.py:363
 msgid "Relearn"
 msgstr "Повторно научени"
 
-#: qt/aqt/forms/fields.py:107
+#: qt/aqt/forms/fields.py:108
 msgid "Remember last input when adding"
 msgstr "Запомняне на последния текст при добавяне"
 
-#: qt/aqt/browser.py:1362
+#: qt/aqt/browser.py:1398
 #, python-format
 msgid "Remove %s from your saved searches?"
 msgstr ""
 
-#: qt/aqt/clayout.py:474
+#: qt/aqt/clayout.py:626
 msgid "Remove Card Type..."
 msgstr ""
 
-#: qt/aqt/browser.py:1337
+#: qt/aqt/browser.py:1372
 msgid "Remove Current Filter..."
 msgstr ""
 
@@ -3031,24 +2482,20 @@ msgstr ""
 msgid "Remove Tags..."
 msgstr ""
 
-#: qt/aqt/editor.py:115
+#: qt/aqt/editor.py:126
 msgid "Remove formatting (Ctrl+R)"
 msgstr ""
 
-#: qt/aqt/clayout.py:250
-msgid "Removing this card type would cause one or more notes to be deleted. Please create a new card type first."
-msgstr "Изтриването на този тип карти ще изтрие една или повече бележки. Моля, създайте първо нов тип карти."
-
-#: qt/aqt/deckbrowser.py:251 qt/aqt/deckconf.py:85 qt/aqt/models.py:49
-#: qt/aqt/forms/fields.py:103 qt/aqt/forms/profiles.py:77
+#: qt/aqt/deckbrowser.py:236 qt/aqt/deckconf.py:91 qt/aqt/models.py:54
+#: qt/aqt/forms/fields.py:104 qt/aqt/forms/profiles.py:82
 msgid "Rename"
 msgstr "Преименуване"
 
-#: qt/aqt/clayout.py:477
+#: qt/aqt/clayout.py:629
 msgid "Rename Card Type..."
 msgstr ""
 
-#: qt/aqt/deckbrowser.py:266
+#: qt/aqt/deckbrowser.py:251
 msgid "Rename Deck"
 msgstr "Преименуване на тестето"
 
@@ -3056,23 +2503,23 @@ msgstr "Преименуване на тестето"
 msgid "Repeat failed cards after"
 msgstr ""
 
-#: qt/aqt/main.py:295
+#: qt/aqt/main.py:315
 msgid "Replace your collection with an earlier backup?"
 msgstr ""
 
-#: qt/aqt/browser.py:1569 qt/aqt/reviewer.py:709
+#: qt/aqt/previewer.py:73 qt/aqt/reviewer.py:714
 msgid "Replay Audio"
 msgstr "Повторно стартиране на аудиото"
 
-#: qt/aqt/reviewer.py:714
+#: qt/aqt/reviewer.py:719
 msgid "Replay Own Voice"
 msgstr "Повторно стартиране на собствения глас"
 
-#: qt/aqt/browser.py:1987 qt/aqt/forms/fields.py:104
+#: qt/aqt/browser.py:1754 qt/aqt/forms/fields.py:105
 msgid "Reposition"
 msgstr "Разместване"
 
-#: qt/aqt/clayout.py:480
+#: qt/aqt/clayout.py:632
 msgid "Reposition Card Type..."
 msgstr ""
 
@@ -3088,11 +2535,7 @@ msgstr "Разместване..."
 msgid "Require one or more of these tags:"
 msgstr "Включване на един или повече етикети сред тези:"
 
-#: qt/aqt/browser.py:1443
-msgid "Resched"
-msgstr ""
-
-#: qt/aqt/browser.py:2013 qt/aqt/forms/reschedule.py:73
+#: qt/aqt/browser.py:1780 qt/aqt/forms/reschedule.py:73
 msgid "Reschedule"
 msgstr ""
 
@@ -3100,40 +2543,40 @@ msgstr ""
 msgid "Reschedule cards based on my answers in this deck"
 msgstr "Пренасрочване на картите според отговорите в това тесте"
 
-#: qt/aqt/addons.py:1269
+#: qt/aqt/addons.py:1303
 msgid "Restored defaults"
 msgstr ""
 
-#: qt/aqt/main.py:670
+#: qt/aqt/main.py:712
 msgid "Resume Now"
 msgstr "Продължаване сега"
 
-#: qt/aqt/forms/fields.py:106
+#: qt/aqt/forms/fields.py:107
 msgid "Reverse text direction (RTL)"
 msgstr "Обърната посока на текста (RTL, отдясно наляво)"
 
-#: qt/aqt/main.py:308
+#: qt/aqt/main.py:328
 msgid "Revert to backup"
 msgstr ""
 
-#: qt/aqt/main.py:951
+#: qt/aqt/main.py:1007
 #, python-format
 msgid "Reverted to state prior to '%s'."
 msgstr "Възстановено до състояние преди/към '%s'"
 
-#: pylib/anki/collection.py:694 qt/aqt/browser.py:1243 qt/aqt/browser.py:1443
+#: pylib/anki/collection.py:567 qt/aqt/browser.py:1277
 msgid "Review"
 msgstr ""
 
-#: pylib/anki/stats.py:380
+#: pylib/anki/stats.py:349
 msgid "Review Count"
 msgstr "Брой прегледи"
 
-#: pylib/anki/stats.py:406
+#: pylib/anki/stats.py:375
 msgid "Review Time"
 msgstr "Преглеждано време"
 
-#: qt/aqt/forms/customstudy.py:101
+#: qt/aqt/forms/customstudy.py:102
 msgid "Review ahead"
 msgstr "Преглеждане на бъдещи карти"
 
@@ -3145,16 +2588,15 @@ msgstr "Преглеждане на бъдещи карти с"
 msgid "Review cards forgotten in last"
 msgstr "Преговор на забравените карти през последните"
 
-#: qt/aqt/forms/customstudy.py:102
+#: qt/aqt/forms/customstudy.py:103
 msgid "Review forgotten cards"
 msgstr "Преговор на забравени карти"
 
-#: pylib/anki/stats.py:810
+#: pylib/anki/stats.py:784
 msgid "Review success rate for each hour of the day."
 msgstr "Успешен"
 
-#: pylib/anki/stats.py:47 pylib/anki/stats.py:838 qt/aqt/browser.py:722
-#: qt/aqt/forms/dconf.py:361
+#: pylib/anki/stats.py:812 qt/aqt/browser.py:741 qt/aqt/forms/dconf.py:361
 msgid "Reviews"
 msgstr "Прегледи"
 
@@ -3163,37 +2605,42 @@ msgstr "Прегледи"
 msgid "Reviews due in deck over today limit: %s"
 msgstr ""
 
-#: pylib/anki/consts.py:81
+#: pylib/anki/consts.py:110
 msgid "Right"
 msgstr "Отдясно"
 
-#: qt/aqt/sound.py:519
+#: qt/aqt/clayout.py:355 qt/aqt/sound.py:545
 msgid "Save"
 msgstr ""
 
-#: qt/aqt/browser.py:1339
+#: qt/aqt/browser.py:1374
 msgid "Save Current Filter..."
 msgstr ""
 
-#: qt/aqt/stats.py:40 qt/aqt/stats.py:70
+#: qt/aqt/stats.py:41 qt/aqt/stats.py:65 qt/aqt/stats.py:117
+#: qt/aqt/stats.py:147
 msgid "Save PDF"
 msgstr ""
 
-#: qt/aqt/stats.py:83
+#: qt/aqt/stats.py:78 qt/aqt/stats.py:160
 msgid "Saved."
 msgstr ""
 
-#: pylib/anki/stats.py:964
+#: qt/aqt/forms/preferences.py:298
+msgid "Scheduling"
+msgstr ""
+
+#: pylib/anki/stats.py:940
 #, python-format
 msgid "Scope: %s"
 msgstr "Обхват: %s"
 
-#: qt/aqt/browser.py:2175 qt/aqt/forms/browser.py:295
+#: qt/aqt/browser.py:1980 qt/aqt/forms/browser.py:295
 #: qt/aqt/forms/dyndconf.py:136 qt/aqt/forms/dyndconf.py:140
 msgid "Search"
 msgstr "Търсене"
 
-#: qt/aqt/forms/finddupes.py:64
+#: qt/aqt/forms/finddupes.py:72
 msgid "Search in:"
 msgstr ""
 
@@ -3217,11 +2664,11 @@ msgstr "Избор на бележки"
 msgid "Select tags to exclude:"
 msgstr "Избор на етикети за изключване:"
 
-#: qt/aqt/exporting.py:46
+#: qt/aqt/exporting.py:55
 msgid "Selected Notes"
 msgstr ""
 
-#: qt/aqt/importing.py:301
+#: qt/aqt/importing.py:310
 msgid "Selected file was not in UTF-8 format. Please see the importing section of the manual."
 msgstr "Избраният файл не е във формат UTF-8. Моля, проверете в ръководството секцията за импортиране."
 
@@ -3229,28 +2676,24 @@ msgstr "Избраният файл не е във формат UTF-8. Моля,
 msgid "Selective Study"
 msgstr "Избирателно учене"
 
-#: qt/aqt/importing.py:167
+#: qt/aqt/importing.py:171
 msgid "Semicolon"
 msgstr "Точка и запетая"
 
-#: qt/aqt/sync.py:227
-msgid "Server not found. Either your connection is down, or antivirus/firewall software is blocking Anki from connecting to the internet."
-msgstr "Сървърът не е намерен. Или няма интернет връзка, или антивирусна програмa/firewall блокира връзката на Anki с интернет."
-
-#: qt/aqt/deckconf.py:147
+#: qt/aqt/deckconf.py:157
 #, python-format
 msgid "Set all decks below %s to this option group?"
 msgstr "Задаване на тази група опции за всички тестета под %s?"
 
-#: qt/aqt/deckconf.py:87
+#: qt/aqt/deckconf.py:93
 msgid "Set for all subdecks"
 msgstr "Задаване за всички под-тестета."
 
-#: qt/aqt/editor.py:118
+#: qt/aqt/editor.py:129
 msgid "Set foreground colour (F7)"
 msgstr ""
 
-#: qt/aqt/main.py:101
+#: qt/aqt/main.py:111
 msgid "Shift key was held down. Skipping automatic syncing and add-on loading."
 msgstr "Клавишът Shift беше задържан. Пропускане на автоматичното синхронизиране и зареждане на приставките."
 
@@ -3258,37 +2701,42 @@ msgstr "Клавишът Shift беше задържан. Пропускане �
 msgid "Shift position of existing cards"
 msgstr "Изместване на позицията на съществуващите карти"
 
-#: qt/aqt/browser.py:1573 qt/aqt/browser.py:1591 qt/aqt/deckbrowser.py:338
-#: qt/aqt/main.py:698 qt/aqt/overview.py:241 qt/aqt/reviewer.py:556
-#: qt/aqt/reviewer.py:569 qt/aqt/reviewer.py:635 qt/aqt/toolbar.py:50
-#: qt/aqt/toolbar.py:51 qt/aqt/toolbar.py:52 qt/aqt/toolbar.py:53
-#: qt/aqt/toolbar.py:54
+#: qt/aqt/deckbrowser.py:326 qt/aqt/main.py:741 qt/aqt/overview.py:259
+#: qt/aqt/previewer.py:77 qt/aqt/previewer.py:82 qt/aqt/reviewer.py:561
+#: qt/aqt/reviewer.py:574 qt/aqt/reviewer.py:640 qt/aqt/toolbar.py:106
+#: qt/aqt/toolbar.py:113 qt/aqt/toolbar.py:120 qt/aqt/toolbar.py:127
+#: qt/aqt/toolbar.py:143
 #, python-format
 msgid "Shortcut key: %s"
 msgstr "Бутон за бърз достъп: %s"
 
-#: qt/aqt/browser.py:1578
+#: qt/aqt/previewer.py:231
 msgid "Shortcut key: Left arrow"
 msgstr "Бутон за бърз достъп: стрелка наляво"
 
-#: qt/aqt/browser.py:1583
+#: qt/aqt/previewer.py:382
+#, fuzzy
+msgid "Shortcut key: Left or Right arrow"
+msgstr "Бутон за бърз достъп: стрелка наляво"
+
+#: qt/aqt/previewer.py:236
 msgid "Shortcut key: Right arrow or Enter"
 msgstr "Бутон за бърз достъп: стрелка надясно или Enter"
 
-#: qt/aqt/addcards.py:84
+#: qt/aqt/addcards.py:86
 #, python-format
 msgid "Shortcut: %s"
 msgstr "Пряк път: %s"
 
-#: qt/aqt/reviewer.py:570
+#: qt/aqt/reviewer.py:575
 msgid "Show Answer"
 msgstr "Разкриване на отговора"
 
-#: qt/aqt/browser.py:1589
+#: qt/aqt/previewer.py:80
 msgid "Show Both Sides"
 msgstr ""
 
-#: qt/aqt/editor.py:167
+#: qt/aqt/editor.py:193
 msgid "Show Duplicates"
 msgstr "Показване на повторенията"
 
@@ -3296,75 +2744,75 @@ msgstr "Показване на повторенията"
 msgid "Show answer timer"
 msgstr "Показване на хронометър при отговаряне"
 
-#: qt/aqt/forms/preferences.py:260
+#: qt/aqt/forms/preferences.py:290
 msgid "Show learning cards with larger steps before reviews"
 msgstr ""
 
-#: pylib/anki/consts.py:72
+#: pylib/anki/consts.py:101
 msgid "Show new cards after reviews"
 msgstr "Показване на нови карти само след преговор на старите"
 
-#: pylib/anki/consts.py:73
+#: pylib/anki/consts.py:102
 msgid "Show new cards before reviews"
 msgstr "Показване на нови карти преди преговора на старите"
 
-#: pylib/anki/consts.py:65
+#: pylib/anki/consts.py:94
 msgid "Show new cards in order added"
 msgstr "Показване на новите карти в реда на добавяне в тестето"
 
-#: pylib/anki/consts.py:64
+#: pylib/anki/consts.py:93
 msgid "Show new cards in random order"
 msgstr "Показване на новите карти в разбъркан ред"
 
-#: qt/aqt/forms/preferences.py:253
+#: qt/aqt/forms/preferences.py:288
 msgid "Show next review time above answer buttons"
 msgstr "Показване на следващото време за преговор над бутоните за отговор"
 
-#: qt/aqt/forms/preferences.py:255
+#: qt/aqt/forms/preferences.py:278
 msgid "Show play buttons on cards with audio"
 msgstr ""
 
-#: qt/aqt/forms/preferences.py:254
+#: qt/aqt/forms/preferences.py:289
 msgid "Show remaining card count during review"
 msgstr "Показване на броя оставащи карти по време на преглед"
 
-#: qt/aqt/browser.py:1043 qt/aqt/forms/browser.py:337
+#: qt/aqt/browser.py:1053 qt/aqt/forms/browser.py:337
 msgid "Sidebar"
 msgstr ""
 
-#: qt/aqt/forms/addfield.py:77
+#: qt/aqt/forms/addfield.py:63
 msgid "Size:"
 msgstr "Размер:"
 
-#: pylib/anki/importing/anki2.py:162
+#: pylib/anki/importing/anki2.py:160
 msgid "Skipped"
 msgstr ""
 
-#: pylib/anki/sched.py:1296 pylib/anki/schedv2.py:1494
+#: pylib/anki/schedv2.py:1339
 msgid "Some related or buried cards were delayed until a later session."
 msgstr "Някои свързани или заровени карти са отложени за по-късно учене."
 
-#: qt/aqt/forms/preferences.py:284
+#: qt/aqt/forms/preferences.py:311
 msgid "Some settings will take effect after you restart Anki."
 msgstr "Някои настройки ще влязат в сила след рестартиране на Anki"
 
-#: qt/aqt/browser.py:715
+#: qt/aqt/browser.py:734
 msgid "Sort Field"
 msgstr "Поле за сортиране"
 
-#: qt/aqt/forms/fields.py:109
+#: qt/aqt/forms/fields.py:110
 msgid "Sort by this field in the browser"
 msgstr "Сортиране по това поле в браузъра"
 
-#: qt/aqt/browser.py:923
+#: qt/aqt/browser.py:929
 msgid "Sorting on this column is not supported. Please choose another."
 msgstr "Не се поддържа сортиране по тази колона. Моля, изберете друга."
 
-#: qt/aqt/errors.py:88
+#: qt/aqt/sound.py:285
 msgid "Sound and video on cards will not function until mpv or mplayer is installed."
 msgstr ""
 
-#: qt/aqt/importing.py:165 qt/aqt/reviewer.py:569
+#: qt/aqt/importing.py:169 qt/aqt/reviewer.py:574
 msgid "Space"
 msgstr ""
 
@@ -3376,11 +2824,11 @@ msgstr "Начална позиция:"
 msgid "Starting ease"
 msgstr "Начална лекота"
 
-#: qt/aqt/forms/stats.py:75
+#: qt/aqt/forms/stats.py:79
 msgid "Statistics"
 msgstr "Статистика"
 
-#: qt/aqt/toolbar.py:53
+#: qt/aqt/toolbar.py:125
 msgid "Stats"
 msgstr ""
 
@@ -3392,29 +2840,15 @@ msgstr "Стъпка:"
 msgid "Steps (in minutes)"
 msgstr ""
 
-#: qt/aqt/deckconf.py:257 qt/aqt/dyndeckconf.py:156
+#: qt/aqt/deckconf.py:274 qt/aqt/dyndeckconf.py:156
 msgid "Steps must be numbers."
 msgstr ""
 
-#: qt/aqt/sync.py:61
-msgid "Stopping..."
-msgstr ""
-
-#: pylib/anki/stats.py:178
-#, python-format
-msgid "Studied %(a)s %(b)s today (%(secs).1fs/card)"
-msgstr ""
-
-#: qt/aqt/deckbrowser.py:133
-#, python-format
-msgid "Studied %(a)s %(b)s today."
-msgstr ""
-
-#: qt/aqt/browser.py:1229
+#: qt/aqt/browser.py:1263
 msgid "Studied Today"
 msgstr "Научено днес"
 
-#: qt/aqt/studydeck.py:62
+#: qt/aqt/studydeck.py:67
 msgid "Study"
 msgstr "Учене"
 
@@ -3426,23 +2860,15 @@ msgstr "Научаване на тестето"
 msgid "Study Deck..."
 msgstr "Научаване на тесте"
 
-#: qt/aqt/overview.py:211
+#: qt/aqt/overview.py:229
 msgid "Study Now"
 msgstr "Учене сега"
 
-#: qt/aqt/forms/customstudy.py:105
+#: qt/aqt/forms/customstudy.py:106
 msgid "Study by card state or tag"
 msgstr "Учене според състоянието или етикетите на картите"
 
-#: qt/aqt/forms/template.py:108
-msgid "Styling"
-msgstr "Стилове"
-
-#: qt/aqt/clayout.py:185
-msgid "Styling (shared between cards)"
-msgstr "Стилове (споделени между картите)"
-
-#: qt/aqt/editor.py:114
+#: qt/aqt/editor.py:125
 msgid "Subscript (Ctrl+=)"
 msgstr ""
 
@@ -3450,62 +2876,43 @@ msgstr ""
 msgid "Supermemo XML export (*.xml)"
 msgstr ""
 
-#: qt/aqt/editor.py:112
+#: qt/aqt/editor.py:123
 msgid "Superscript (Ctrl++)"
 msgstr ""
 
-#: qt/aqt/reviewer.py:771 qt/aqt/reviewer.py:777
+#: qt/aqt/reviewer.py:776 qt/aqt/reviewer.py:782
 msgid "Suspend"
 msgstr ""
 
-#: qt/aqt/reviewer.py:704 qt/aqt/forms/dconf.py:369
+#: qt/aqt/reviewer.py:709 qt/aqt/forms/dconf.py:369
 msgid "Suspend Card"
 msgstr ""
 
-#: qt/aqt/reviewer.py:705
+#: qt/aqt/reviewer.py:710
 msgid "Suspend Note"
 msgstr ""
 
-#: qt/aqt/browser.py:1246
+#: qt/aqt/browser.py:1280
 msgid "Suspended"
 msgstr ""
 
-#: pylib/anki/stats.py:880
+#: pylib/anki/stats.py:854
 msgid "Suspended+Buried"
 msgstr ""
 
-#: qt/aqt/toolbar.py:54 qt/aqt/forms/synclog.py:38
+#: qt/aqt/toolbar.py:142
 msgid "Sync"
 msgstr ""
 
-#: qt/aqt/forms/preferences.py:274
+#: qt/aqt/forms/preferences.py:300
 msgid "Synchronize audio and images too"
 msgstr "Синхронизиране също и на аудио файловете и изображенията"
 
-#: qt/aqt/sync.py:152
-#, python-format
-msgid "Syncing failed:\n"
-"%s"
-msgstr "Синхронизирането се провали:\n"
-"%s"
-
-#: qt/aqt/sync.py:119
-msgid "Syncing failed; internet offline."
-msgstr "Синхронизирането пропадна; няма интернет."
-
-#: qt/aqt/sync.py:336
-msgid "Syncing requires the clock on your computer to be set correctly. Please fix the clock and try again."
-msgstr "Синхронизирането изисква правилна настройка на часовника на компютъра. Моля настройте часовника и опитайте отново."
-
-#: qt/aqt/sync.py:127
-msgid "Syncing..."
-msgstr "Синхронизиране..."
-
-#: qt/aqt/importing.py:161
+#: qt/aqt/importing.py:165
 msgid "Tab"
 msgstr "Табулация"
 
-#: qt/aqt/browser.py:2184 qt/aqt/browser.py:2211
+#: qt/aqt/browser.py:1989 qt/aqt/browser.py:2016
 msgid "Tag Duplicates"
 msgstr "Дублиращи се етикети"
 
@@ -3517,11 +2924,11 @@ msgstr ""
 msgid "Tag modified notes:"
 msgstr ""
 
-#: qt/aqt/browser.py:724 qt/aqt/browser.py:1261 qt/aqt/editor.py:518
+#: qt/aqt/browser.py:743 qt/aqt/browser.py:1295 qt/aqt/editor.py:561
 msgid "Tags"
 msgstr "Етикети"
 
-#: qt/aqt/deckchooser.py:31
+#: qt/aqt/deckchooser.py:34
 msgid "Target Deck (Ctrl+D)"
 msgstr "Целево тесте (Ctrl+D)"
 
@@ -3529,97 +2936,65 @@ msgstr "Целево тесте (Ctrl+D)"
 msgid "Target field:"
 msgstr "Целево поле:"
 
-#: pylib/anki/stdmodels.py:102
-msgid "Text"
-msgstr "Текст"
-
 #: pylib/anki/importing/__init__.py:13
 msgid "Text separated by tabs or semicolons (*)"
 msgstr "Текст, разделен с табулации или точка и запетайка (*)"
 
-#: pylib/anki/decks.py:283
-msgid "That deck already exists."
-msgstr "Това тесте вече съществува"
-
-#: qt/aqt/fields.py:65
+#: qt/aqt/fields.py:90
 msgid "That field name is already used."
 msgstr "Това име на поле е вече използвано."
 
-#: qt/aqt/clayout.py:394
-msgid "That name is already used."
-msgstr "Това име вече съществува."
-
-#: qt/aqt/sync.py:185
-msgid "The connection to AnkiWeb timed out. Please check your network connection and try again."
-msgstr "Връзката с AnkiWeb изтече. Моля проверете връзката си и опитайте отново."
-
-#: qt/aqt/deckconf.py:131
+#: qt/aqt/deckconf.py:135
 msgid "The default configuration can't be removed."
 msgstr "Конфигурацията по подразбиране не може да бъде изтрита."
 
-#: qt/aqt/deckbrowser.py:299
-msgid "The default deck can't be deleted."
-msgstr "Стандартното тесте не може да бъде изтрито."
-
-#: pylib/anki/stats.py:905
+#: pylib/anki/stats.py:879
 msgid "The division of cards in your deck(s)."
 msgstr "Разпределението на картите в тестетата."
 
-#: qt/aqt/addcards.py:171
+#: qt/aqt/addcards.py:163
 msgid "The first field is empty."
 msgstr "Първото поле е празно."
 
-#: qt/aqt/importing.py:178
+#: qt/aqt/importing.py:182
 msgid "The first field of the note type must be mapped."
 msgstr ""
 
-#: qt/aqt/addons.py:275
+#: qt/aqt/addons.py:280
 #, python-format
 msgid "The following add-ons are incompatible with %(name)s and have been disabled: %(found)s"
 msgstr ""
 
-#: qt/aqt/addons.py:1235
+#: qt/aqt/addons.py:1263
 msgid "The following add-ons have updates available. Install them now?"
 msgstr ""
 
-#: qt/aqt/utils.py:586
+#: qt/aqt/utils.py:653
 #, python-format
 msgid "The following character can not be used: %s"
 msgstr "Този символ не може да се използва: %s"
 
-#: qt/aqt/addons.py:495
+#: qt/aqt/addons.py:500
 msgid "The following conflicting add-ons were disabled:"
 msgstr ""
 
-#: pylib/anki/template.py:142
-msgid "The front of this card is blank."
-msgstr ""
-
-#: qt/aqt/reviewer.py:179
-msgid "The front of this card is empty. Please run Tools>Empty Cards."
-msgstr "Предната част на тази карта е празна. Моля, отворете Инструменти > Празни карти"
-
-#: qt/aqt/addcards.py:188
-msgid "The input you have provided would make an empty question on all cards."
-msgstr "Въведеният текст би генерирал празен въпрос във всички карти."
-
-#: pylib/anki/stats.py:335
+#: pylib/anki/stats.py:304
 msgid "The number of new cards you have added."
 msgstr "Броят на новодобавените карти."
 
-#: pylib/anki/stats.py:380
+#: pylib/anki/stats.py:349
 msgid "The number of questions you have answered."
 msgstr "Броят на въпросите, на които сте отговорили."
 
-#: pylib/anki/stats.py:260
+#: pylib/anki/stats.py:225
 msgid "The number of reviews due in the future."
 msgstr "Броят преглеждания, насрочени за по-късно."
 
-#: pylib/anki/stats.py:700
+#: pylib/anki/stats.py:674
 msgid "The number of times you have pressed each button."
 msgstr "Колко пъти сте натиснали всеки бутон."
 
-#: qt/aqt/importing.py:475
+#: qt/aqt/importing.py:521
 msgid "The provided file is not a valid .apkg file."
 msgstr "Даденият файл не е валиден .apkg файл."
 
@@ -3627,91 +3002,66 @@ msgstr "Даденият файл не е валиден .apkg файл."
 msgid "The provided search did not match any cards. Would you like to revise it?"
 msgstr "Даденото търсене няма резултати. Искате ли да го прегледате отново?"
 
-#: qt/aqt/main.py:1235
+#: qt/aqt/main.py:1311 qt/aqt/main.py:1330
 msgid "The requested change will require a full upload of the database when you next synchronize your collection. If you have reviews or other changes waiting on another device that haven't been synchronized here yet, they will be lost. Continue?"
 msgstr "Заявената промяна изисква пълно качване на базата данни при следващото синхронизиране. Ще бъдат загубени прегледите или промените по тестетата по всички други устройства, които не са синхронизирани все още. Продължаване?"
 
-#: pylib/anki/stats.py:406
+#: pylib/anki/stats.py:375
 msgid "The time taken to answer the questions."
 msgstr "Необходимото време за отговаряне на въпросите."
 
-#: pylib/anki/sched.py:1282 pylib/anki/schedv2.py:1480
-msgid "There are more new cards available, but the daily limit has been\n"
+#: pylib/anki/schedv2.py:1325
+msgid ""
+"There are more new cards available, but the daily limit has been\n"
 "reached. You can increase the limit in the options, but please\n"
 "bear in mind that the more new cards you introduce, the higher\n"
 "your short-term review workload will become."
-msgstr "Има още нови карти, но дневният лимит за преглеждане е достигнат.\n"
+msgstr ""
+"Има още нови карти, но дневният лимит за преглеждане е достигнат.\n"
 "Можете да увеличите лимита в \"опции\", но имайте предвид,\n"
 "че колкото повече нови карти се включват,\n"
 "толкова повече ще трябва да ги преговаряте."
 
-#: qt/aqt/main.py:277
+#: qt/aqt/main.py:297
 msgid "There must be at least one profile."
 msgstr "Трябва да има поне един профил."
 
-#: qt/aqt/addons.py:502
+#: qt/aqt/addons.py:507
 msgid "This add-on is not compatible with your version of Anki."
 msgstr ""
 
-#: qt/aqt/browser.py:907
-msgid "This column can't be sorted on, but you can search for individual card types, such as 'card:1'."
-msgstr ""
-
-#: qt/aqt/browser.py:915
-msgid "This column can't be sorted on, but you can search for specific decks by clicking on one on the left."
-msgstr "Не може да сортирате по тази карта, но може да изберете конкретни тестета от страничния панел отляво."
-
-#: qt/aqt/importing.py:422
+#: qt/aqt/importing.py:441
 msgid "This file does not appear to be a valid .apkg file. If you're getting this error from a file downloaded from AnkiWeb, chances are that your download failed. Please try again, and if the problem persists, please try again with a different browser."
 msgstr "Файлът не прилича на валиден .apkg файл. Ако получавате грешката при файл от AnkiWeb, вероятно изтеглянето се е провалило. Опитайте отново; ако проблемът продължава, опитайте с друг браузър."
 
-#: qt/aqt/utils.py:393
+#: qt/aqt/utils.py:406
 msgid "This file exists. Are you sure you want to overwrite it?"
 msgstr "Файлът съществува. Наистина ли искате да го презапишете?"
 
-#: qt/aqt/profiles.py:379
-#, python-format
-msgid "This folder stores all of your Anki data in a single location,\n"
-"to make backups easy. To tell Anki to use a different location,\n"
-"please see:\n\n"
-"%s\n"
-msgstr "Тази директория съдържа цялата Anki информация на едно място,\n"
-"за по-лесно създаване на резервни копия. За използване на друго място,\n"
-"погледнете тук:\n\n"
-"%s\n"
-
-#: qt/aqt/overview.py:159
+#: qt/aqt/overview.py:181
 msgid "This is a special deck for studying outside of the normal schedule."
 msgstr "Това е специално тесте за учене извън стандартната програма."
 
-#: qt/aqt/models.py:143
-msgid "This is a {{c1::sample}} cloze deletion."
-msgstr ""
-
-#: qt/aqt/clayout.py:430
+#: qt/aqt/clayout.py:579
 #, python-format
 msgid "This will create %d card. Proceed?"
 msgid_plural "This will create %d cards. Proceed?"
 msgstr[0] ""
 msgstr[1] ""
 
-#: qt/aqt/importing.py:442
+#: qt/aqt/importing.py:461
 msgid "This will delete your existing collection and replace it with the data in the file you're importing. Are you sure?"
 msgstr "Това ще изтрие сегашната колекция и ще я замени с данните от импортирания файл. Сигурни ли сте?"
 
-#: qt/aqt/preferences.py:135
+#: qt/aqt/preferences.py:154
 msgid "This will reset any cards in learning, clear filtered decks, and change the scheduler version. Proceed?"
 msgstr ""
 
-#: qt/aqt/browser.py:1435
-msgid "Time"
-msgstr "Време"
-
-#: qt/aqt/forms/preferences.py:268
+#: qt/aqt/forms/preferences.py:293
 msgid "Timebox time limit"
 msgstr ""
 
-#: qt/aqt/overview.py:209
+#: qt/aqt/overview.py:227
 msgid "To Review"
 msgstr "За преглед"
 
@@ -3719,27 +3069,29 @@ msgstr "За преглед"
 msgid "To browse add-ons, please click the browse button below.<br><br>When you've found an add-on you like, please paste its code below. You can paste multiple codes, separated by spaces."
 msgstr ""
 
-#: qt/aqt/editor.py:595
-msgid "To make a cloze deletion on an existing note, you need to change it to a cloze type first, via Edit>Change Note Type."
+#: qt/aqt/editor.py:636
+msgid "To make a cloze deletion on an existing note, you need to change it to a cloze type first, via 'Notes>Change Note Type'"
 msgstr ""
 
-#: pylib/anki/sched.py:1291 pylib/anki/schedv2.py:1489
+#: pylib/anki/schedv2.py:1334
 msgid "To see them now, click the Unbury button below."
 msgstr "За да ги прегледате сега, изберете бутон \"Изравяне\" по-долу."
 
-#: pylib/anki/sched.py:1304 pylib/anki/schedv2.py:1502
+#: pylib/anki/schedv2.py:1347
 msgid "To study outside of the normal schedule, click the Custom Study button below."
 msgstr "За да учите извън нормалната програма, изберете \"Учене извън програмата\" по-долу."
 
-#: pylib/anki/stats.py:146 qt/aqt/browser.py:1224
+#: pylib/anki/stats.py:118 qt/aqt/browser.py:1258
 msgid "Today"
 msgstr "Днес"
 
-#: pylib/anki/sched.py:1273 pylib/anki/schedv2.py:1471
-msgid "Today's review limit has been reached, but there are still cards\n"
+#: pylib/anki/schedv2.py:1316
+msgid ""
+"Today's review limit has been reached, but there are still cards\n"
 "waiting to be reviewed. For optimum memory, consider increasing\n"
 "the daily limit in the options."
-msgstr "Достигнахте дневното ограничение за преговори, но има още карти за преглед.\n"
+msgstr ""
+"Достигнахте дневното ограничение за преговори, но има още карти за преглед.\n"
 "За най-добра памет обмислете увеличаване на дневния лимит в опциите."
 
 #: qt/aqt/forms/addons.py:75
@@ -3754,85 +3106,78 @@ msgstr ""
 msgid "Toggle Suspend"
 msgstr ""
 
-#: pylib/anki/stats.py:279 pylib/anki/stats.py:344 pylib/anki/stats.py:438
+#: pylib/anki/stats.py:245 pylib/anki/stats.py:313 pylib/anki/stats.py:413
 msgid "Total"
 msgstr "Общо"
 
-#: pylib/anki/stats.py:54
-msgid "Total Time"
-msgstr "Общо време"
-
-#: pylib/anki/stats.py:892
+#: pylib/anki/stats.py:866
 msgid "Total cards"
 msgstr "Общо карти"
 
-#: pylib/anki/stats.py:893
+#: pylib/anki/stats.py:867
 msgid "Total notes"
 msgstr "Общо бележки"
 
-#: qt/aqt/forms/findreplace.py:72
+#: qt/aqt/forms/findreplace.py:87
 msgid "Treat input as regular expression"
 msgstr "Възприемане на входните данни като регулярен израз"
 
-#: qt/aqt/browser.py:1431 qt/aqt/modelchooser.py:26
-#: qt/aqt/forms/importing.py:105
+#: qt/aqt/modelchooser.py:26 qt/aqt/forms/importing.py:105
 msgid "Type"
 msgstr ""
 
-#: qt/aqt/reviewer.py:377
+#: qt/aqt/reviewer.py:379
 #, python-format
 msgid "Type answer: unknown field %s"
 msgstr ""
 
-#: qt/aqt/errors.py:67
+#: qt/aqt/errors.py:69
 msgid "Unable to access Anki media folder. The permissions on your system's temporary folder may be incorrect."
 msgstr ""
 
-#: qt/aqt/importing.py:403
-msgid "Unable to import from a read-only file."
-msgstr "Не може да се импортира от файл, достъпен само за четене."
-
-#: qt/aqt/main.py:321
+#: qt/aqt/main.py:341
 msgid "Unable to move existing file to trash - please try restarting your computer."
 msgstr ""
 
-#: qt/aqt/addons.py:422
+#: qt/aqt/addons.py:427
 #, python-format
-msgid "Unable to update or delete add-on. Please start Anki while holding down the shift key to temporarily disable add-ons, then try again.\n\n"
+msgid ""
+"Unable to update or delete add-on. Please start Anki while holding down the shift key to temporarily disable add-ons, then try again.\n"
+"\n"
 "Debug info: %s"
 msgstr ""
 
-#: qt/aqt/overview.py:237
+#: qt/aqt/overview.py:255
 msgid "Unbury"
 msgstr "Изравяне"
 
-#: qt/aqt/editor.py:109
+#: qt/aqt/editor.py:120
 msgid "Underline text (Ctrl+U)"
 msgstr ""
 
-#: qt/aqt/main.py:961
+#: qt/aqt/main.py:1017
 msgid "Undo"
 msgstr "Отмяна"
 
-#: qt/aqt/main.py:957
+#: qt/aqt/main.py:1013
 #, python-format
 msgid "Undo %s"
 msgstr "Отмяна на %s"
 
-#: qt/aqt/addons.py:981 qt/aqt/editor.py:782
+#: qt/aqt/addons.py:1009 qt/aqt/editor.py:830
 #, python-format
 msgid "Unexpected response code: %s"
 msgstr ""
 
-#: qt/aqt/addons.py:470
+#: qt/aqt/addons.py:475
 msgid "Unknown error: {}"
 msgstr ""
 
-#: qt/aqt/importing.py:361
+#: qt/aqt/importing.py:374
 msgid "Unknown file format."
 msgstr "Неразпознат файлов формат."
 
-#: pylib/anki/stats.py:879
+#: pylib/anki/stats.py:853
 msgid "Unseen"
 msgstr "Непрегледани"
 
@@ -3840,27 +3185,15 @@ msgstr "Непрегледани"
 msgid "Update existing notes when first field matches"
 msgstr "Обновяване на съществуващи бележки, когато първото поле пасва."
 
-#: pylib/anki/importing/anki2.py:165
+#: pylib/anki/importing/anki2.py:163
 msgid "Updated"
 msgstr ""
 
-#: qt/aqt/sync.py:321 qt/aqt/sync.py:325
-msgid "Upload to AnkiWeb"
-msgstr "Качване в AnkiWeb"
-
-#: qt/aqt/sync.py:130
-msgid "Uploading to AnkiWeb..."
-msgstr "Качване в AnkiWeb..."
-
-#: qt/aqt/main.py:1292
-msgid "Used on cards but missing from media folder:"
-msgstr "Използвани в картите, но липсващи в медийната директория:"
-
-#: qt/aqt/profiles.py:375
+#: qt/aqt/profiles.py:472
 msgid "User 1"
 msgstr "Потребител 1"
 
-#: qt/aqt/forms/preferences.py:270
+#: qt/aqt/forms/preferences.py:285
 msgid "User interface size"
 msgstr ""
 
@@ -3877,23 +3210,23 @@ msgstr ""
 msgid "View Files"
 msgstr ""
 
-#: qt/aqt/main.py:669
+#: qt/aqt/main.py:711
 msgid "Waiting for editing to finish."
 msgstr "Изчакване за приключване на редактирането."
 
-#: qt/aqt/editor.py:588
+#: qt/aqt/editor.py:629
 msgid "Warning, cloze deletions will not work until you switch the type at the top to Cloze."
 msgstr ""
 
-#: qt/aqt/overview.py:118
+#: qt/aqt/overview.py:138
 msgid "What would you like to unbury?"
 msgstr ""
 
-#: qt/aqt/forms/preferences.py:262
+#: qt/aqt/forms/preferences.py:283
 msgid "When adding, default to current deck"
 msgstr "При добавяне, по подразбиране на се използва текущото тесте."
 
-#: qt/aqt/browser.py:1095 qt/aqt/browser.py:1220
+#: qt/aqt/browser.py:1121 qt/aqt/browser.py:1254
 msgid "Whole Collection"
 msgstr "Цялата колекция"
 
@@ -3901,91 +3234,61 @@ msgstr "Цялата колекция"
 msgid "Would you like to download it now?"
 msgstr "Искате ли да го изтеглите сега?"
 
-#: qt/aqt/about.py:206
+#: qt/aqt/about.py:212
 #, python-format
 msgid "Written by Damien Elmes, with patches, translation,    testing and design from:<p>%(cont)s"
 msgstr ""
 
-#: qt/aqt/forms/preferences.py:282
+#: qt/aqt/forms/preferences.py:309
 msgid "You can restore backups via File>Switch Profile."
 msgstr ""
 
-#: qt/aqt/addcards.py:179
+#: qt/aqt/addcards.py:172
 msgid "You have a cloze deletion note type but have not made any cloze deletions. Proceed?"
 msgstr ""
 
-#: qt/aqt/deckbrowser.py:142
-#, python-format
-msgid "You have a lot of decks. Please see %(a)s. %(b)s"
-msgstr "Имате много тестета. Погледнете %(a)s. %(b)s"
-
-#: qt/aqt/reviewer.py:816
+#: qt/aqt/reviewer.py:821
 msgid "You haven't recorded your voice yet."
 msgstr "Не сте записали все още своя глас."
 
-#: qt/aqt/browser.py:975
+#: qt/aqt/browser.py:984
 msgid "You must have at least one column."
 msgstr "Трябва да имате поне една колона."
 
-#: pylib/anki/stats.py:246 pylib/anki/stats.py:373 pylib/anki/stats.py:393
-#: pylib/anki/stats.py:706
+#: pylib/anki/stats.py:211 pylib/anki/stats.py:342 pylib/anki/stats.py:362
+#: pylib/anki/stats.py:680
 msgid "Young"
 msgstr ""
 
-#: pylib/anki/stats.py:878
+#: pylib/anki/stats.py:852
 msgid "Young+Learn"
 msgstr ""
 
-#: qt/aqt/sync.py:172
-msgid "Your AnkiWeb collection does not contain any cards. Please sync again and choose 'Upload' instead."
-msgstr ""
-
-#: qt/aqt/deckconf.py:109
+#: qt/aqt/deckconf.py:111
 msgid "Your changes will affect multiple decks. If you wish to change only the current deck, please add a new options group first."
 msgstr "Промените ще повлияят на няколко тестета. За да промените само текущото тесте, създайте нова група от опции."
 
-#: qt/aqt/main.py:503
+#: qt/aqt/main.py:555
 msgid "Your collection file appears to be corrupt. This can happen when the file is copied or moved while Anki is open, or when the collection is stored on a network or cloud drive. If problems persist after restarting your computer, please open an automatic backup from the profile screen."
 msgstr ""
 
-#: qt/aqt/sync.py:345
-msgid "Your collection is in an inconsistent state. Please run Tools>Check Database, then sync again."
-msgstr ""
-
-#: qt/aqt/sync.py:233
-msgid "Your collection or a media file is too large to sync."
-msgstr "Някой медиен файл или колекцията са твърде големи за синхронизация."
-
-#: qt/aqt/sync.py:75
-msgid "Your collection was successfully uploaded to AnkiWeb.\n\n"
-"If you use any other devices, please sync them now, and choose to download the collection you have just uploaded from this computer. After doing so, future reviews and added cards will be merged automatically."
-msgstr "Колекцията беше успешно качена в AnkiWeb.\n\n"
-"Ако използвате други устройства, ги синхронизирайте сега, и изберете сваляне на колекцията, която току-що  качихте от този компютър. След това, бъдещите прегледи и добавените карти ще бъдат добавени и слети автоматично."
-
-#: qt/aqt/errors.py:105
+#: qt/aqt/errors.py:99
 msgid "Your computer's storage may be full. Please delete some unneeded files, then try again."
 msgstr ""
 
-#: qt/aqt/sync.py:305
-msgid "Your decks here and on AnkiWeb differ in such a way that they can't be merged together, so it's necessary to overwrite the decks on one side with the decks from the other.\n\n"
-"If you choose download, Anki will download the collection from AnkiWeb, and any changes you have made on your computer since the last sync will be lost.\n\n"
-"If you choose upload, Anki will upload your collection to AnkiWeb, and any changes you have made on AnkiWeb or your other devices since the last sync to this device will be lost.\n\n"
-"After all devices are in sync, future reviews and added cards can be merged automatically."
-msgstr ""
-
-#: qt/aqt/errors.py:80
+#: qt/aqt/errors.py:82
 msgid "Your firewall or antivirus program is preventing Anki from creating a connection to itself. Please add an exception for Anki."
 msgstr ""
 
-#: pylib/anki/decks.py:444
+#: pylib/anki/decks.py:362
 msgid "[no deck]"
 msgstr "[няма тесте]"
 
-#: qt/aqt/forms/preferences.py:281
+#: qt/aqt/forms/preferences.py:308
 msgid "backups"
 msgstr "резервни копия"
 
-#: pylib/anki/stats.py:345 qt/aqt/customstudy.py:53
+#: pylib/anki/stats.py:314 qt/aqt/customstudy.py:53
 msgid "cards"
 msgstr "карти"
 
@@ -3997,12 +3300,12 @@ msgstr "карти от тестето"
 msgid "cards selected by"
 msgstr ""
 
-#: qt/aqt/exporting.py:101 qt/aqt/forms/stats.py:77
+#: qt/aqt/exporting.py:110 qt/aqt/forms/stats.py:81
 msgid "collection"
 msgstr "колекцията"
 
 #. T: abbreviation of day
-#: pylib/anki/stats.py:992
+#: pylib/anki/stats.py:975
 msgid "d"
 msgstr "д"
 
@@ -4013,103 +3316,53 @@ msgstr "д"
 msgid "days"
 msgstr "дни"
 
-#: qt/aqt/forms/stats.py:76
+#: qt/aqt/forms/stats.py:80
 msgid "deck"
 msgstr "тесте"
 
-#: pylib/anki/stats.py:966 qt/aqt/forms/stats.py:80
+#: pylib/anki/stats.py:942 qt/aqt/forms/stats.py:84
 msgid "deck life"
 msgstr "целия живот на тестето"
 
-#: qt/aqt/browser.py:2215
+#: qt/aqt/browser.py:2020
 msgid "duplicate"
 msgstr "дубликат"
 
-#: qt/aqt/deckbrowser.py:149
-msgid "hide"
-msgstr "скриване"
-
-#: pylib/anki/stats.py:433
+#: pylib/anki/stats.py:408
 msgid "hours"
 msgstr "часа"
 
-#: qt/aqt/forms/preferences.py:264
+#: qt/aqt/forms/preferences.py:294
 msgid "hours past midnight"
 msgstr "часа след полунощ"
-
-#: pylib/anki/utils.py:50
-#, python-format
-msgid "in %s day"
-msgid_plural "in %s days"
-msgstr[0] ""
-msgstr[1] ""
-
-#: pylib/anki/utils.py:51
-#, python-format
-msgid "in %s hour"
-msgid_plural "in %s hours"
-msgstr[0] ""
-msgstr[1] ""
-
-#: pylib/anki/utils.py:52
-#, python-format
-msgid "in %s minute"
-msgid_plural "in %s minutes"
-msgstr[0] ""
-msgstr[1] ""
-
-#: pylib/anki/utils.py:49
-#, python-format
-msgid "in %s month"
-msgid_plural "in %s months"
-msgstr[0] ""
-msgstr[1] ""
-
-#: pylib/anki/utils.py:53
-#, python-format
-msgid "in %s second"
-msgid_plural "in %s seconds"
-msgstr[0] ""
-msgstr[1] ""
-
-#: pylib/anki/utils.py:48
-#, python-format
-msgid "in %s year"
-msgid_plural "in %s years"
-msgstr[0] ""
-msgstr[1] ""
 
 #: qt/aqt/forms/dconf.py:365
 msgid "lapses"
 msgstr ""
 
-#: pylib/anki/stats.py:454
-msgid "less than 0.1 cards/minute"
-msgstr "по-малко от 0.1 карти в минута"
-
-#: qt/aqt/importing.py:254
+#: qt/aqt/importing.py:263
 #, python-format
 msgid "mapped to <b>%s</b>"
 msgstr ""
 
-#: qt/aqt/importing.py:252
+#: qt/aqt/importing.py:261
 msgid "mapped to <b>Tags</b>"
 msgstr ""
 
-#: qt/aqt/forms/preferences.py:265 qt/aqt/forms/preferences.py:269
+#: qt/aqt/forms/preferences.py:292 qt/aqt/forms/preferences.py:296
 msgid "mins"
 msgstr "мин."
 
-#: pylib/anki/stats.py:410 qt/aqt/forms/dyndconf.py:146
+#: pylib/anki/stats.py:379 qt/aqt/forms/dyndconf.py:146
 msgid "minutes"
 msgstr "минути"
 
 #. T: abbreviation of month
-#: pylib/anki/stats.py:996
+#: pylib/anki/stats.py:979
 msgid "mo"
 msgstr "м"
 
-#: pylib/anki/stats.py:280 pylib/anki/stats.py:386
+#: pylib/anki/stats.py:247 pylib/anki/stats.py:355
 msgid "reviews"
 msgstr "прегледи"
 
@@ -4117,28 +3370,440 @@ msgstr "прегледи"
 msgid "seconds"
 msgstr "секунди"
 
-#: qt/aqt/stats.py:67
+#: qt/aqt/stats.py:62 qt/aqt/stats.py:144
 msgid "stats"
 msgstr "статистика"
 
-#: qt/aqt/deckbrowser.py:145
-msgid "this page"
-msgstr "тази страница"
-
 #. T: abbreviation of week
-#: pylib/anki/stats.py:994
+#: pylib/anki/stats.py:977
 msgid "w"
 msgstr "с."
 
-#: pylib/anki/stats.py:961
+#: pylib/anki/stats.py:937
 msgid "whole collection"
 msgstr "цялата колекция"
-
-#: pylib/anki/template.py:130
-msgid "{} template has a problem:"
-msgstr ""
 
 #: qt/aqt/forms/reschedule.py:76
 msgid "~"
 msgstr ""
 
+#, python-format
+#~ msgid " (1 of %d)"
+#~ msgstr " (1 от %d)"
+
+#, python-format
+#~ msgid "%(a)0.1fs (%(b)s)"
+#~ msgstr "%(a)0.1fсек. (%(b)s)"
+
+#, python-format
+#~ msgid "%(a)d of %(b)d note updated"
+#~ msgid_plural "%(a)d of %(b)d notes updated"
+#~ msgstr[0] "%(a)d от %(b)d бележка обновена"
+#~ msgstr[1] "%(a)d от %(b)d бележки обновени"
+
+#, python-format
+#~ msgid "%.01f cards/minute"
+#~ msgstr "%.01f карти в минута"
+
+#, python-format
+#~ msgid "%d card deleted."
+#~ msgid_plural "%d cards deleted."
+#~ msgstr[0] "%d карта беше изтрита"
+#~ msgstr[1] "%d карти бяха изтрити"
+
+#, python-format
+#~ msgid "%d media change to upload"
+#~ msgid_plural "%d media changes to upload"
+#~ msgstr[0] "%d промяна в медийните файлове за качване"
+#~ msgstr[1] "%d промени в медийните файлове за качване"
+
+#, python-format
+#~ msgid "%d media file downloaded"
+#~ msgid_plural "%d media files downloaded"
+#~ msgstr[0] "%d медиен файл беше изтеглен"
+#~ msgstr[1] "%d медийни файла бяха изтеглени"
+
+#, python-format
+#~ msgid "%d review"
+#~ msgid_plural "%d reviews"
+#~ msgstr[0] "%d преговор"
+#~ msgstr[1] "%d преговора"
+
+#, python-format
+#~ msgid "%s day"
+#~ msgid_plural "%s days"
+#~ msgstr[0] "%s ден"
+#~ msgstr[1] "%s дни"
+
+#, python-format
+#~ msgid "%s hour"
+#~ msgid_plural "%s hours"
+#~ msgstr[0] "%s час"
+#~ msgstr[1] "%s часа"
+
+#, python-format
+#~ msgid "%s minute"
+#~ msgid_plural "%s minutes"
+#~ msgstr[0] "%s минута"
+#~ msgstr[1] "%s минути"
+
+#, python-format
+#~ msgid "%s month"
+#~ msgid_plural "%s months"
+#~ msgstr[0] "%s месец"
+#~ msgstr[1] "%s месеца"
+
+#, python-format
+#~ msgid "%s to delete:"
+#~ msgstr "%s за изтриване:"
+
+#, python-format
+#~ msgid "%s year"
+#~ msgid_plural "%s years"
+#~ msgstr[0] "%s година"
+#~ msgstr[1] "%s години"
+
+#, python-format
+#~ msgid "%smo"
+#~ msgstr "%s мес."
+
+#~ msgid "0d"
+#~ msgstr "0 д"
+
+#~ msgid "504 gateway timeout error received. Please try temporarily disabling your antivirus."
+#~ msgstr "Получена грешка \"504 gateway timeout\". Опитайте с временно изключване на антивирусната програма."
+
+#, python-format
+#~ msgid "<!--studied-->%d card"
+#~ msgid_plural "<!--studied-->%d cards"
+#~ msgstr[0] "%d карта"
+#~ msgstr[1] "%d карти"
+
+#, python-format
+#~ msgid ""
+#~ "<h1>Account Required</h1>\n"
+#~ "A free account is required to keep your collection synchronized. Please <a href=\"%s\">sign up</a> for an account, then enter your details below."
+#~ msgstr ""
+#~ "<h1>Необходим е профил</h1>\n"
+#~ "За синхронизиране на колекциите е необходим безплатен профил. Моля <a href=\"%s\">регистрирайте се</a> и  въведете данните си по-долу след това."
+
+#~ msgid "A filtered deck cannot have subdecks."
+#~ msgstr "Филтрирано тесте не може да има под-тестета."
+
+#~ msgid "A problem occurred while syncing media. Please use Tools>Check Media, then sync again to correct the issue."
+#~ msgstr "Възникна проблем при синхронизирането на медийните файлове. Използвайте Инструменти->Проверка на медийните файлове, след това синхронизирайте отново за поправяне на проблема."
+
+#~ msgid "Add Reverse"
+#~ msgstr "Добавяне на обратната карта"
+
+#~ msgid "Add to:"
+#~ msgstr "Добавяне към:"
+
+#~ msgid "AnkiWeb ID or password was incorrect; please try again."
+#~ msgstr "AnkiWeb ID или паролата са грешни; моля, опитайте отново."
+
+#~ msgid "AnkiWeb encountered an error. Please try again in a few minutes, and if the problem persists, please file a bug report."
+#~ msgstr "AnkiWeb се сблъска с грешка. Моля, опитайте отново след няколко минути, и ако отново имате проблеми, моля, докладвайте за неизправност."
+
+#~ msgid "AnkiWeb is too busy at the moment. Please try again in a few minutes."
+#~ msgstr "AnkiWeb е твърде зает в момента. Моля, опитайте отново след няколко минути."
+
+#~ msgid "AnkiWeb is under maintenance. Please try again in a few minutes."
+#~ msgstr "AnkiWeb е в процес на поддръжка. Моля, опитайте след няколко минути."
+
+#~ msgid "Antivirus or firewall software is preventing Anki from connecting to the internet."
+#~ msgstr "Антивирусна програма или защитна стена забранява на anki достъпа до интернет."
+
+#~ msgid "Average Time"
+#~ msgstr "Средно време"
+
+#~ msgid "Back"
+#~ msgstr "Гръб"
+
+#~ msgid "Back Preview"
+#~ msgstr "Преглед на задната част"
+
+#~ msgid "Back Template"
+#~ msgstr "Шаблон за гърба"
+
+#~ msgid "Basic (and reversed card)"
+#~ msgstr "Основна (и обърната карта)"
+
+#~ msgid "Basic (optional reversed card)"
+#~ msgstr "Основна (+ обърната карта по избор)"
+
+#~ msgid "Card 1"
+#~ msgstr "Карта 1"
+
+#~ msgid "Card 2"
+#~ msgstr "Карта 1"
+
+#~ msgid "Card ID"
+#~ msgstr "Идентификатор на картата"
+
+#~ msgid "Card Type"
+#~ msgstr "Тип карта"
+
+#~ msgid "Changed"
+#~ msgstr "Променено"
+
+#~ msgid "Collection is corrupt. Please see the manual."
+#~ msgstr "Колекцията е повередена. Моля, проверете в ръководството."
+
+#~ msgid "Connecting..."
+#~ msgstr "Свързване..."
+
+#~ msgid "Connection timed out. Either your internet connection is experiencing problems, or you have a very large file in your media folder."
+#~ msgstr "Връзката изтече. Възникват или проблеми с интернета, или имате твърде голям файл в медийната директория."
+
+#~ msgid "Couldn't connect to AnkiWeb. Please check your network connection and try again."
+#~ msgstr "Не може да се установи връзка с AnkiWeb. Проверете интернет връзката си и опитайте отново."
+
+#~ msgid "Database rebuilt and optimized."
+#~ msgstr "Базата данни беше създадена наново и оптимизирана."
+
+#~ msgid "Date"
+#~ msgstr "Дата"
+
+#~ msgid "Delete Cards"
+#~ msgstr "Изтриване на картите"
+
+#~ msgid "Delete Empty"
+#~ msgstr "Изтриване на празните"
+
+#~ msgid "Delete unused media?"
+#~ msgstr "Изтриване на неизползваните медийни файлове?"
+
+#, python-format
+#~ msgid "Deleted %d card with missing note."
+#~ msgid_plural "Deleted %d cards with missing note."
+#~ msgstr[0] "Беше изтрита %d карт с липсващи бележки"
+#~ msgstr[1] "Бяха изтрити %d карти с липсващи бележки"
+
+#, python-format
+#~ msgid "Deleted %d card with missing template."
+#~ msgid_plural "Deleted %d cards with missing template."
+#~ msgstr[0] "Беше изтрита %d карта с липсващ шаблон."
+#~ msgstr[1] "Бяха изтрити %d карти с липсващ шаблон"
+
+#, python-format
+#~ msgid "Deleted %d note with missing note type."
+#~ msgid_plural "Deleted %d notes with missing note type."
+#~ msgstr[0] "Беше изтрита %d бележка без тип."
+#~ msgstr[1] "Бяха изтрити %d бележки без тип."
+
+#, python-format
+#~ msgid "Deleted %d note with no cards."
+#~ msgid_plural "Deleted %d notes with no cards."
+#~ msgstr[0] "Беше изтрита %d бележка без карти"
+#~ msgstr[1] "Бяха изтрити %d бележки без карти."
+
+#, python-format
+#~ msgid "Deleted %d note with wrong field count."
+#~ msgid_plural "Deleted %d notes with wrong field count."
+#~ msgstr[0] "Беше изтрита %d бележка с грешен брой полета."
+#~ msgstr[1] "Бяха изтрити %d бележки с грешен брой полета."
+
+#~ msgid "Download from AnkiWeb"
+#~ msgstr "Изтегляне от AnkiWeb"
+
+#~ msgid "Downloading from AnkiWeb..."
+#~ msgstr "Изтегля се от AnkiWeb..."
+
+#~ msgid "Due"
+#~ msgstr "Насрочено"
+
+#~ msgid "Edited"
+#~ msgstr "Редактирано"
+
+#, python-format
+#~ msgid ""
+#~ "Empty card numbers: %(c)s\n"
+#~ "Fields: %(f)s\n"
+#~ "\n"
+#~ msgstr ""
+#~ "Номера на празните карти: %(c)s\n"
+#~ "Полета: %(f)s\n"
+#~ "\n"
+
+#~ msgid "Empty cards found. Please run Tools>Empty Cards."
+#~ msgstr "Бяха намерени празни карти. Моля, стартирайте Инструменти->Празни карти"
+
+#~ msgid "Error establishing a secure connection. This is usually caused by antivirus, firewall or VPN software, or problems with your ISP."
+#~ msgstr "Грешка при установяването на сигурна връзка. Това обикновено се причинява от антивирусен софтуер, VPN или Firewall, или проблеми с вашия интернет доставчик."
+
+#~ msgid "First Review"
+#~ msgstr "Първи преговор"
+
+#, python-format
+#~ msgid "Fixed %d card with invalid properties."
+#~ msgid_plural "Fixed %d cards with invalid properties."
+#~ msgstr[0] "Поправена %d карта с невалидни атрибути."
+#~ msgstr[1] "Поправени %d карти с невалидни атрибути."
+
+#~ msgid "Front Preview"
+#~ msgstr "Преглед на лицевата част"
+
+#~ msgid "Front Template"
+#~ msgstr "Шаблон на лицевата част"
+
+#~ msgid "Import failed.\n"
+#~ msgstr "Импортирането се провали.\n"
+
+#~ msgid "Import failed. Debugging info:\n"
+#~ msgstr "Импортирането се провали. Информация за изследване:\n"
+
+#~ msgid "Invalid regular expression."
+#~ msgstr "Грешен регулярен израз."
+
+#~ msgid "Latest Review"
+#~ msgstr "Най-скорошен преговор"
+
+#~ msgid "No empty cards."
+#~ msgstr "Няма празни карти."
+
+#~ msgid "No unused or missing files found."
+#~ msgstr "Не бяха намерени неизползвани или липсващи файлове."
+
+#~ msgid "Note ID"
+#~ msgstr "Идентификатор на бележката"
+
+#~ msgid "Note Type"
+#~ msgstr "Тип бележка"
+
+#~ msgid "Note: Some of the history is missing. For more information, please see the browser documentation."
+#~ msgstr "Внимание: част от историята липсва. За повече информация, проверете документацията на браузъра."
+
+#~ msgid "One or more notes were not imported, because they didn't generate any cards. This can happen when you have empty fields or when you have not mapped the content in the text file to the correct fields."
+#~ msgstr "Някои бележки не бяха импортирани, защото не генерираха никакви карти. Това може да се случи, когато имате празни полета или когато не сте свързали съдържанието на текстовия файл с правилните полета."
+
+#~ msgid "Only one client can access AnkiWeb at a time. If a previous sync failed, please try again in a few minutes."
+#~ msgstr "Само един клиент може да използва AnkiWeb по едно и също време. Ако предишното синхронизиране се е провалило, опитайте отново след няколко минути."
+
+#~ msgid "Password:"
+#~ msgstr "Парола:"
+
+#~ msgid "Please install PyAudio"
+#~ msgstr "Моля, инсталирайте PyAudio"
+
+#~ msgid "Please upgrade to the latest version of Anki."
+#~ msgstr "Моля, обновете до най-новата версия на Anki."
+
+#~ msgid "Please visit AnkiWeb, upgrade your deck, then try again."
+#~ msgstr "Моля, посетете AnkiWeb, ъпгрейднете тестето и опитайте отново."
+
+#~ msgid "Position"
+#~ msgstr "Позиция"
+
+#~ msgid "Proxy authentication required."
+#~ msgstr "Необходима е идентификация за прокси"
+
+#~ msgid "Rating"
+#~ msgstr "Рейтинг"
+
+#~ msgid "Removing this card type would cause one or more notes to be deleted. Please create a new card type first."
+#~ msgstr "Изтриването на този тип карти ще изтрие една или повече бележки. Моля, създайте първо нов тип карти."
+
+#~ msgid "Server not found. Either your connection is down, or antivirus/firewall software is blocking Anki from connecting to the internet."
+#~ msgstr "Сървърът не е намерен. Или няма интернет връзка, или антивирусна програмa/firewall блокира връзката на Anki с интернет."
+
+#~ msgid "Styling"
+#~ msgstr "Стилове"
+
+#~ msgid "Styling (shared between cards)"
+#~ msgstr "Стилове (споделени между картите)"
+
+#, python-format
+#~ msgid ""
+#~ "Syncing failed:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Синхронизирането се провали:\n"
+#~ "%s"
+
+#~ msgid "Syncing failed; internet offline."
+#~ msgstr "Синхронизирането пропадна; няма интернет."
+
+#~ msgid "Syncing requires the clock on your computer to be set correctly. Please fix the clock and try again."
+#~ msgstr "Синхронизирането изисква правилна настройка на часовника на компютъра. Моля настройте часовника и опитайте отново."
+
+#~ msgid "Syncing..."
+#~ msgstr "Синхронизиране..."
+
+#~ msgid "Text"
+#~ msgstr "Текст"
+
+#~ msgid "That deck already exists."
+#~ msgstr "Това тесте вече съществува"
+
+#~ msgid "That name is already used."
+#~ msgstr "Това име вече съществува."
+
+#~ msgid "The connection to AnkiWeb timed out. Please check your network connection and try again."
+#~ msgstr "Връзката с AnkiWeb изтече. Моля проверете връзката си и опитайте отново."
+
+#~ msgid "The default deck can't be deleted."
+#~ msgstr "Стандартното тесте не може да бъде изтрито."
+
+#~ msgid "The front of this card is empty. Please run Tools>Empty Cards."
+#~ msgstr "Предната част на тази карта е празна. Моля, отворете Инструменти > Празни карти"
+
+#~ msgid "The input you have provided would make an empty question on all cards."
+#~ msgstr "Въведеният текст би генерирал празен въпрос във всички карти."
+
+#~ msgid "This column can't be sorted on, but you can search for specific decks by clicking on one on the left."
+#~ msgstr "Не може да сортирате по тази карта, но може да изберете конкретни тестета от страничния панел отляво."
+
+#, python-format
+#~ msgid ""
+#~ "This folder stores all of your Anki data in a single location,\n"
+#~ "to make backups easy. To tell Anki to use a different location,\n"
+#~ "please see:\n"
+#~ "\n"
+#~ "%s\n"
+#~ msgstr ""
+#~ "Тази директория съдържа цялата Anki информация на едно място,\n"
+#~ "за по-лесно създаване на резервни копия. За използване на друго място,\n"
+#~ "погледнете тук:\n"
+#~ "\n"
+#~ "%s\n"
+
+#~ msgid "Time"
+#~ msgstr "Време"
+
+#~ msgid "Total Time"
+#~ msgstr "Общо време"
+
+#~ msgid "Upload to AnkiWeb"
+#~ msgstr "Качване в AnkiWeb"
+
+#~ msgid "Uploading to AnkiWeb..."
+#~ msgstr "Качване в AnkiWeb..."
+
+#~ msgid "Used on cards but missing from media folder:"
+#~ msgstr "Използвани в картите, но липсващи в медийната директория:"
+
+#, python-format
+#~ msgid "You have a lot of decks. Please see %(a)s. %(b)s"
+#~ msgstr "Имате много тестета. Погледнете %(a)s. %(b)s"
+
+#~ msgid "Your collection or a media file is too large to sync."
+#~ msgstr "Някой медиен файл или колекцията са твърде големи за синхронизация."
+
+#~ msgid ""
+#~ "Your collection was successfully uploaded to AnkiWeb.\n"
+#~ "\n"
+#~ "If you use any other devices, please sync them now, and choose to download the collection you have just uploaded from this computer. After doing so, future reviews and added cards will be merged automatically."
+#~ msgstr ""
+#~ "Колекцията беше успешно качена в AnkiWeb.\n"
+#~ "\n"
+#~ "Ако използвате други устройства, ги синхронизирайте сега, и изберете сваляне на колекцията, която току-що  качихте от този компютър. След това, бъдещите прегледи и добавените карти ще бъдат добавени и слети автоматично."
+
+#~ msgid "hide"
+#~ msgstr "скриване"
+
+#~ msgid "less than 0.1 cards/minute"
+#~ msgstr "по-малко от 0.1 карти в минута"
+
+#~ msgid "this page"
+#~ msgstr "тази страница"

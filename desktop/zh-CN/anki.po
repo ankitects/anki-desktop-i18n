@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: anki\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-02-12 09:03+1000\n"
+"POT-Creation-Date: 2020-07-02 09:49+1000\n"
 "PO-Revision-Date: 2020-03-18 01:49+0000\n"
 "Last-Translator: Dax <zhangchaont@icloud.com>\n"
 "Language-Team: Chinese Simplified\n"
@@ -17,151 +17,104 @@ msgstr ""
 "X-Crowdin-Project: anki\n"
 "X-Generator: Pontoon\n"
 
-#: qt/aqt/clayout.py:234
-#, python-format
-msgid " (1 of %d)"
-msgstr " (%d分之1)"
+#: qt/aqt/importing.py:410
+#, fuzzy
+msgid "    Invalid file. Please restore from backup."
+msgstr "文件不合法. 请从备份恢复."
 
-#: qt/aqt/addons.py:308
+#: qt/aqt/importing.py:419
+#, fuzzy
+msgid "    Unable to import from a read-only file."
+msgstr "不能从只读文件中导入."
+
+#: qt/aqt/addons.py:313
 msgid " (disabled)"
 msgstr "（禁用）"
 
-#: qt/aqt/clayout.py:489
+#: qt/aqt/clayout.py:641
 msgid " (off)"
 msgstr "(关)"
 
-#: qt/aqt/clayout.py:487
+#: qt/aqt/clayout.py:639
 msgid " (on)"
 msgstr "(开)"
 
-#: qt/aqt/deckbrowser.py:309
+#: qt/aqt/deckbrowser.py:297
 #, python-format
 msgid " It has %d card."
 msgid_plural " It has %d cards."
 msgstr[0] " 有 %d张卡片"
 
 #. T: include a font for your language on Windows, eg: "Segoe UI", "MS Mincho"
-#: qt/aqt/webview.py:268
+#: qt/aqt/webview.py:375
 msgid "\"Segoe UI\""
 msgstr "Segoe UI字体"
 
-#: qt/aqt/forms/dconf.py:341 qt/aqt/forms/dconf.py:352 qt/aqt/forms/dconf.py:357 qt/aqt/forms/dconf.py:360 qt/aqt/forms/dconf.py:371 qt/aqt/forms/preferences.py:271
+#: qt/aqt/forms/dconf.py:341 qt/aqt/forms/dconf.py:352
+#: qt/aqt/forms/dconf.py:357 qt/aqt/forms/dconf.py:360
+#: qt/aqt/forms/dconf.py:371 qt/aqt/forms/preferences.py:286
 msgid "%"
 msgstr "%"
 
-#: pylib/anki/stats.py:815 pylib/anki/stats.py:837
+#: pylib/anki/stats.py:789 pylib/anki/stats.py:811
 msgid "% Correct"
 msgstr "% 正确"
 
-#: pylib/anki/stats.py:1119
+#: pylib/anki/stats.py:1105
 #, python-format
 msgid "%(a)0.1f %(b)s/day"
 msgstr "%(a)0.1f %(b)s/天"
 
-#: qt/aqt/sync.py:92
-#, python-format
-msgid "%(a)0.1fkB up, %(b)0.1fkB down"
-msgstr "上传 %(a)0.1fkB, 下载 %(b)0.1fkB"
-
-#. T: For example, in the statistics line: " Average
-#. answer time: 16.8s (3.6 cards/minute)", then
-#. "%(a)0.1fs" represents "16.8s" and "%(b)s" represents
-#. "3.6 cards/minutes")
-#: pylib/anki/stats.py:464
-#, python-format
-msgid "%(a)0.1fs (%(b)s)"
-msgstr "%(a)0.1f 秒 (%(b)s)"
-
-#: qt/aqt/browser.py:2134
-#, python-format
-msgid "%(a)d of %(b)d note updated"
-msgid_plural "%(a)d of %(b)d notes updated"
-msgstr[0] "更新了%(b)d条笔记中的%(a)d条"
-
 #. T: name is a card type name. n it's order in the list of card type.
 #. T: this is shown in browser's filter, when seeing the list of card type of a note type.
-#: qt/aqt/browser.py:1317
+#: qt/aqt/browser.py:1352
 #, python-format
 msgid "%(n)d: %(name)s"
 msgstr "%(n)d: %(name)s"
 
-#: pylib/anki/stats.py:438
+#: pylib/anki/stats.py:413
 #, python-format
 msgid "%(tot)s %(unit)s"
 msgstr "%(tot)s %(unit)s"
 
-#: pylib/anki/stats.py:456
-#, python-format
-msgid "%.01f cards/minute"
-msgstr "%.01f 卡片/分钟"
-
-#: pylib/anki/stats.py:288 pylib/anki/stats.py:344 qt/aqt/clayout.py:241 qt/aqt/main.py:1374
+#: pylib/anki/stats.py:255 pylib/anki/stats.py:313 qt/aqt/clayout.py:507
 #, python-format
 msgid "%d card"
 msgid_plural "%d cards"
 msgstr[0] "%d张卡片"
 
-#: qt/aqt/main.py:1386
-#, python-format
-msgid "%d card deleted."
-msgid_plural "%d cards deleted."
-msgstr[0] "删除了%d张卡片"
-
-#: qt/aqt/exporting.py:168
+#: qt/aqt/exporting.py:186
 #, python-format
 msgid "%d card exported."
 msgid_plural "%d cards exported."
 msgstr[0] "导出了%d张卡片"
 
-#: pylib/anki/importing/supermemo_xml.py:194
+#: pylib/anki/importing/supermemo_xml.py:202
 #, python-format
 msgid "%d card imported."
 msgid_plural "%d cards imported."
 msgstr[0] "导入了%d张卡片"
 
-#: qt/aqt/reviewer.py:75
+#: qt/aqt/reviewer.py:88
 #, python-format
 msgid "%d card studied in"
 msgid_plural "%d cards studied in"
 msgstr[0] "学习了%d张卡片，用时"
 
-#: qt/aqt/deckconf.py:157
+#: qt/aqt/deckconf.py:167
 #, python-format
 msgid "%d deck updated."
 msgid_plural "%d decks updated."
 msgstr[0] "上传了%d个牌组"
 
-#: qt/aqt/main.py:1282
-#, python-format
-msgid "%d file found in media folder not used by any cards:"
-msgid_plural "%d files found in media folder not used by any cards:"
-msgstr[0] ""
-
-#: qt/aqt/main.py:1339
-#, python-format
-msgid "%d file remaining..."
-msgid_plural "%d files remaining..."
-msgstr[0] ""
-
-#: qt/aqt/browser.py:2190
+#: qt/aqt/browser.py:1995
 #, python-format
 msgid "%d group"
 msgid_plural "%d groups"
 msgstr[0] "%d种组合"
 
-#: pylib/anki/sync.py:775
-#, python-format
-msgid "%d media change to upload"
-msgid_plural "%d media changes to upload"
-msgstr[0] "%d 多媒体文件更改需要上传"
-
-#: pylib/anki/sync.py:825
-#, python-format
-msgid "%d media file downloaded"
-msgid_plural "%d media files downloaded"
-msgstr[0] "已下载 %d 多媒体文件"
-
-#: qt/aqt/browser.py:2191 qt/aqt/browser.py:2199 qt/aqt/fields.py:96 qt/aqt/models.py:82
+#: qt/aqt/browser.py:1996 qt/aqt/browser.py:2004 qt/aqt/fields.py:123
+#: qt/aqt/models.py:100
 #, python-format
 msgid "%d note"
 msgid_plural "%d notes"
@@ -173,19 +126,19 @@ msgid "%d note added"
 msgid_plural "%d notes added"
 msgstr[0] "添加了%d条笔记"
 
-#: qt/aqt/browser.py:1801
+#: qt/aqt/browser.py:1567
 #, python-format
 msgid "%d note deleted."
 msgid_plural "%d notes deleted."
 msgstr[0] "删除 %d 处附注"
 
-#: qt/aqt/exporting.py:159
+#: qt/aqt/exporting.py:179
 #, python-format
 msgid "%d note exported."
 msgid_plural "%d notes exported."
 msgstr[0] "导出了%d处附注"
 
-#: pylib/anki/importing/mnemo.py:105
+#: pylib/anki/importing/mnemo.py:104
 #, python-format
 msgid "%d note imported."
 msgid_plural "%d notes imported."
@@ -203,105 +156,28 @@ msgid "%d note updated"
 msgid_plural "%d notes updated"
 msgstr[0] "更新了%d条笔记"
 
-#: pylib/anki/stats.py:279
-#, python-format
-msgid "%d review"
-msgid_plural "%d reviews"
-msgstr[0] "%d 次复习"
-
-#: qt/aqt/browser.py:801
+#: qt/aqt/browser.py:820
 #, python-format
 msgid "%d selected"
 msgid_plural "%d selected"
 msgstr[0] "选中 %d 个"
 
-#: pylib/anki/models.py:257
+#: pylib/anki/models.py:263
 #, python-format
 msgid "%s copy"
 msgstr "%s 复制"
 
-#: pylib/anki/utils.py:41
-#, python-format
-msgid "%s day"
-msgid_plural "%s days"
-msgstr[0] "%s 天"
-
-#: pylib/anki/utils.py:42
-#, python-format
-msgid "%s hour"
-msgid_plural "%s hours"
-msgstr[0] "%s小时"
-
-#: pylib/anki/utils.py:43
-#, python-format
-msgid "%s minute"
-msgid_plural "%s minutes"
-msgstr[0] "%s分钟"
-
-#: qt/aqt/reviewer.py:79
+#: qt/aqt/reviewer.py:92
 #, python-format
 msgid "%s minute."
 msgid_plural "%s minutes."
 msgstr[0] "%s 分钟"
 
-#: pylib/anki/utils.py:40
-#, python-format
-msgid "%s month"
-msgid_plural "%s months"
-msgstr[0] "%s个月"
-
-#: pylib/anki/utils.py:44 qt/aqt/main.py:1132
+#: qt/aqt/main.py:1193
 #, python-format
 msgid "%s second"
 msgid_plural "%s seconds"
 msgstr[0] "%s 秒"
-
-#: qt/aqt/main.py:1375
-#, python-format
-msgid "%s to delete:"
-msgstr "将要删除%s"
-
-#: pylib/anki/utils.py:39
-#, python-format
-msgid "%s year"
-msgid_plural "%s years"
-msgstr[0] "%s年"
-
-#. T: d is an abbreviation for day. %s is a number of days
-#: pylib/anki/utils.py:64
-#, python-format
-msgid "%sd"
-msgstr "%s天"
-
-#. T: h is an abbreviation for hour. %s is a number of hours
-#: pylib/anki/utils.py:66
-#, python-format
-msgid "%sh"
-msgstr "%s小时"
-
-#. T: m is an abbreviation for minute. %s is a number of minutes
-#: pylib/anki/utils.py:68
-#, python-format
-msgid "%sm"
-msgstr "%s分"
-
-#. T: m is an abbreviation for month. %s is a number of months
-#: pylib/anki/utils.py:62
-#, python-format
-msgid "%smo"
-msgstr "%s 个月"
-
-#. T: s is an abbreviation for second. %s is a number of seconds
-#: pylib/anki/utils.py:70
-#, python-format
-msgid "%ss"
-msgstr "%s秒"
-
-#. T: year is an abbreviation for year. %s is a number of years
-#: pylib/anki/utils.py:60
-#, python-format
-msgid "%sy"
-msgstr "%s年"
 
 #: qt/aqt/forms/main.py:139
 msgid "&About..."
@@ -412,119 +288,101 @@ msgstr "撤销(&U)"
 msgid "'%(row)s' had %(num1)d fields, expected %(num2)d"
 msgstr "'%(row)s' 行有 %(num1)d 个字段, 预期 %(num2)d"
 
-#: pylib/anki/stats.py:186
+#: pylib/anki/stats.py:151
 #, python-format
 msgid "(%s correct)"
 msgstr "%s正确"
 
-#: qt/aqt/addcards.py:157
+#: qt/aqt/addcards.py:148
 msgid "(Note deleted)"
 msgstr "笔记已删除"
 
-#: qt/aqt/addons.py:717
+#: qt/aqt/addons.py:744
 msgid "(disabled)"
 msgstr "(已禁止)"
 
-#: pylib/anki/sched.py:1342 pylib/anki/schedv2.py:1550
+#: pylib/anki/schedv2.py:1398
 msgid "(end)"
 msgstr "(完成)"
 
-#: qt/aqt/browser.py:352
+#: qt/aqt/browser.py:364
 msgid "(filtered)"
 msgstr "已过滤"
 
-#: qt/aqt/browser.py:319
+#: qt/aqt/browser.py:331
 msgid "(learning)"
 msgstr "正在进行的课程"
 
-#: qt/aqt/browser.py:317 qt/aqt/browser.py:323
+#: qt/aqt/browser.py:329 qt/aqt/browser.py:335
 msgid "(new)"
 msgstr "(新)"
 
-#: qt/aqt/deckconf.py:179
+#: qt/aqt/deckconf.py:195
 #, python-format
 msgid "(parent limit: %d)"
 msgstr "(父牌组限制: %d)"
 
-#: qt/aqt/browser.py:1700
+#: qt/aqt/previewer.py:156
 msgid "(please select 1 card)"
 msgstr "(请选择一张卡片)"
 
-#: qt/aqt/addons.py:719
+#: qt/aqt/addons.py:746
 #, python-format
 msgid "(requires %s)"
 msgstr "(需要%s)"
 
-#: qt/aqt/importing.py:319
+#: qt/aqt/importing.py:328
 msgid ".anki files are from a very old version of Anki. You can import them with Anki 2.0, available on the Anki website."
 msgstr ".anki文件来自Anki的一个很久之前的版本。您可以使用Anki网站上的Anki 2.0导入它们。"
 
-#: qt/aqt/importing.py:326
+#: qt/aqt/importing.py:335
 msgid ".anki2 files are not directly importable - please import the .apkg or .zip file you have received instead."
 msgstr ".anki2文件不可直接导入——请导入您接收到的.apkg或.zip文件。"
 
-#: qt/aqt/browser.py:1462
-msgid "0d"
-msgstr "0天"
-
-#: pylib/anki/stats.py:966 qt/aqt/forms/stats.py:78
+#: pylib/anki/stats.py:942 qt/aqt/forms/stats.py:82
 msgid "1 month"
 msgstr "1个月"
 
-#: pylib/anki/stats.py:966 qt/aqt/forms/stats.py:79
+#: pylib/anki/stats.py:942 qt/aqt/forms/stats.py:83
 msgid "1 year"
 msgstr "1年"
 
-#: pylib/anki/stats.py:829
+#: pylib/anki/stats.py:803
 msgid "10AM"
 msgstr "上午10点"
 
-#: pylib/anki/stats.py:831
+#: pylib/anki/stats.py:805
 msgid "10PM"
 msgstr "下午10点"
 
-#: pylib/anki/stats.py:832
+#: pylib/anki/stats.py:806
 msgid "3AM"
 msgstr "上午3点"
 
-#: pylib/anki/stats.py:828
+#: pylib/anki/stats.py:802
 msgid "4AM"
 msgstr "上午4点"
 
-#: pylib/anki/stats.py:830
+#: pylib/anki/stats.py:804
 msgid "4PM"
 msgstr "下午4点"
 
-#: qt/aqt/sync.py:211
-msgid "504 gateway timeout error received. Please try temporarily disabling your antivirus."
-msgstr "收到错误：504 网关超时。 请尝试暂时禁用你的杀毒软件。"
-
 #. T: Symbols separating first and second column in a statistics table. Eg in "Total:    3 reviews".
-#: pylib/anki/stats.py:915
+#: pylib/anki/stats.py:891
 msgid ":"
 msgstr "："
-
-#: pylib/anki/stats.py:175 qt/aqt/deckbrowser.py:131
-#, python-format
-msgid "<!--studied-->%d card"
-msgid_plural "<!--studied-->%d cards"
-msgstr[0] "<!--studied-->%d 卡片"
 
 #: qt/aqt/about.py:110
 #, python-format
 msgid "<a href='%s'>Visit website</a>"
 msgstr "<a href='%s'>访问网页</a>"
 
-#: pylib/anki/stats.py:428
+#: pylib/anki/stats.py:403
 #, python-format
 msgid "<b>%(pct)d%%</b> (%(x)s of %(y)s)"
 msgstr "<b>%(pct)d%%</b> (%(x)s 源于 %(y)s)"
 
-#: qt/aqt/browser.py:1441
-msgid "<b>%Y-%m-%d</b> @ %H:%M"
-msgstr "<b>%Y-%m-%d</b> @ %H:%M"
-
-#: qt/aqt/forms/preferences.py:279
+#: qt/aqt/forms/preferences.py:306
 msgid "<b>Backups</b><br>Anki will create a backup of your collection each time it is closed or synchronized."
 msgstr "<b>备份</b><br>每次关闭和同步之后Anki都会对你的数据进行备份"
 
@@ -532,7 +390,7 @@ msgstr "<b>备份</b><br>每次关闭和同步之后Anki都会对你的数据进
 msgid "<b>Export format</b>:"
 msgstr "<b>导出格式</b>"
 
-#: qt/aqt/forms/findreplace.py:69
+#: qt/aqt/forms/findreplace.py:84
 msgid "<b>Find</b>:"
 msgstr "<b>查找</b>"
 
@@ -544,14 +402,12 @@ msgstr "<b>字体大小</b>:"
 msgid "<b>Font</b>:"
 msgstr "<b>字体</b>:"
 
-#: qt/aqt/addons.py:1341
+#: qt/aqt/addons.py:1399
 #, python-format
-msgid ""
-"<b>Important</b>: As add-ons are programs downloaded from the internet, they are potentially malicious.<b>You should only install add-ons you trust.</b><br><br>Are you sure you want to proceed with "
-"the installation of the following Anki add-on(s)?<br><br>%(names)s"
+msgid "<b>Important</b>: As add-ons are programs downloaded from the internet, they are potentially malicious.<b>You should only install add-ons you trust.</b><br><br>Are you sure you want to proceed with the installation of the following Anki add-on(s)?<br><br>%(names)s"
 msgstr "<b>重要</b>: 因为插件来自互联网，有可能会是病毒。<b>您应该只安装您信任的加载项。</b><br><br>您确定要继续安装以下Anki插件吗？<br><br>%(names)s"
 
-#: qt/aqt/forms/findreplace.py:71
+#: qt/aqt/forms/findreplace.py:86
 msgid "<b>In</b>:"
 msgstr "<b>选择字段</b>:"
 
@@ -563,19 +419,19 @@ msgstr "<b>包含</b>:"
 msgid "<b>Line Size</b>:"
 msgstr "<b>行大小</b>:"
 
-#: qt/aqt/addons.py:1365
+#: qt/aqt/addons.py:1423
 msgid "<b>Please restart Anki to complete the installation.</b>"
 msgstr "<b>请重新启动Anki来完成安装。</b>"
 
-#: qt/aqt/forms/findreplace.py:70
+#: qt/aqt/forms/findreplace.py:85
 msgid "<b>Replace With</b>:"
 msgstr "<b>替换</b>:"
 
-#: qt/aqt/forms/preferences.py:273
+#: qt/aqt/forms/preferences.py:299
 msgid "<b>Synchronisation</b>"
 msgstr "<b>同步</b>"
 
-#: qt/aqt/preferences.py:193
+#: qt/aqt/preferences.py:187
 msgid ""
 "<b>Synchronization</b><br>\n"
 "Not currently enabled; click the sync button in the main window to enable."
@@ -583,79 +439,30 @@ msgstr ""
 "<b>同步</b><br>\n"
 "尚未启用，点击主界面的同步按钮启用。"
 
-#: qt/aqt/sync.py:257
-#, python-format
-msgid ""
-"<h1>Account Required</h1>\n"
-"A free account is required to keep your collection synchronized. Please <a href=\"%s\">sign up</a> for an account, then enter your details below."
-msgstr ""
-"<h1>需先注册</h1>\n"
-"你需要一个免费帐号来同步你的数据. 请<a href=\"%s\">注册</a> 一个帐号,并在下方填写详细资料。"
-
 #: qt/aqt/update.py:60
 #, python-format
 msgid "<h1>Anki Updated</h1>Anki %s has been released.<br><br>"
 msgstr "<h1>Anki有更新</h1>Anki %s 发布了。<br><br>"
 
-#: qt/aqt/errors.py:143
-msgid ""
-"<h1>Error</h1>\n"
-"\n"
-"<p>An error occurred. Please start Anki while holding down the shift key, which will temporarily disable the add-ons you have installed.</p>\n"
-"\n"
-"<p>If the issue only occurs when add-ons are enabled, please use the Tools&gt;Add-ons menu item to disable some add-ons and restart Anki, repeating until you discover the add-on that is causing the problem.</p>\n"
-"\n"
-"<p>When you've discovered the add-on that is causing the problem, please report the issue on the <a href=\"https://help.ankiweb.net/discussions/add-ons/\">add-ons section</a> of our support site.\n"
-"\n"
-"<p>Debug info:</p>\n"
-msgstr ""
-"<h1>错误</h1>\n"
-"<p>有一个错误发生了.请在按住shift键的同时启动Anki，这样可以临时的忽略掉你已经安装的插件。</p>\n"
-"<p>如果仅仅是因为插件引起的问题，请选择工具&gt;插件菜单项来将出错的的插件设置成失效，然后重启Anki，重复以上的步骤直到你发现了具体是哪个插件引起的问题。</p>\n"
-"<p>当你已经发现是因为插件引起的问题，请在我们的支持网站上 <a href=\"https://help.ankiweb.net/discussions/add-ons/\">add-ons section</a> 上报告问题。</p>\n"
-"<p>调试信息</p>\n"
-
-#: qt/aqt/errors.py:131
-msgid ""
-"<h1>Error</h1>\n"
-"\n"
-"<p>An error occurred. Please use <b>Tools &gt; Check Database</b> to see if that fixes the problem.</p>\n"
-"\n"
-"<p>If problems persist, please report the problem on our <a href=\"https://help.ankiweb.net\">support site</a>. Please copy and paste  the information below into your report.</p>"
-msgstr ""
-"<h1>错误信息</h1>\n"
-"\n"
-"<p> 发生了一个错误. 请尝试使用 <b>工具 &gt; 检查数据库</b>功能修复.</p>\n"
-"\n"
-"<p>如果问题仍然存在, 请复制粘贴下列信息并报告到我们的<a href=\"https://help.ankiweb.net\">支持站点</a>.</p>"
-
-#: qt/aqt/importing.py:256
+#: qt/aqt/importing.py:265
 msgid "<ignored>"
 msgstr "<忽略>"
 
-#: qt/aqt/main.py:1476
+#: qt/aqt/main.py:1502
 msgid "<non-unicode text>"
 msgstr "<非unicode文本>"
 
-#: qt/aqt/browser.py:736
+#: qt/aqt/browser.py:755
 msgid "<type here to search; hit enter to show current deck>"
 msgstr "<在这里输入进行搜索，点击回车键显示牌组>"
 
-#: qt/aqt/about.py:216
+#: qt/aqt/about.py:222
 msgid "A big thanks to all the people who have provided suggestions, bug reports and donations."
 msgstr "向所有提出过建议，报告过bug以及提供过捐助的人们致谢。"
 
-#: pylib/anki/stats.py:901
+#: pylib/anki/stats.py:875
 msgid "A card's <i>ease</i> is the size of the next interval when you answer \"good\" on a review."
 msgstr "卡片的难易程度衡量了你再次回答“犹豫/想起”的时间间隔的大小。"
-
-#: pylib/anki/decks.py:287
-msgid "A filtered deck cannot have subdecks."
-msgstr "经过滤的牌组不能有子牌组。"
-
-#: qt/aqt/sync.py:160
-msgid "A problem occurred while syncing media. Please use Tools>Check Media, then sync again to correct the issue."
-msgstr "同步媒体文件时出现问题。请使用 工具>检查媒体 后再次同步以纠正这种情况"
 
 #: pylib/anki/importing/csvfile.py:56
 #, python-format
@@ -666,24 +473,26 @@ msgstr "失败: %s"
 msgid "About Anki"
 msgstr "关于Anki"
 
-#: qt/aqt/addcards.py:36 qt/aqt/addcards.py:65 qt/aqt/deckconf.py:81 qt/aqt/models.py:47 qt/aqt/studydeck.py:46 qt/aqt/toolbar.py:51 qt/aqt/forms/addcards.py:58 qt/aqt/forms/fields.py:101
-#: qt/aqt/forms/profiles.py:76
+#: qt/aqt/addcards.py:37 qt/aqt/addcards.py:67 qt/aqt/deckconf.py:87
+#: qt/aqt/models.py:52 qt/aqt/studydeck.py:46 qt/aqt/toolbar.py:111
+#: qt/aqt/forms/addcards.py:58 qt/aqt/forms/fields.py:102
+#: qt/aqt/forms/profiles.py:81
 msgid "Add"
 msgstr "添加"
 
-#: qt/aqt/addcards.py:68
+#: qt/aqt/addcards.py:70
 msgid "Add (shortcut: ctrl+enter)"
 msgstr "添加（快捷键：ctrl+enter）"
 
-#: qt/aqt/clayout.py:471
+#: qt/aqt/clayout.py:623
 msgid "Add Card Type..."
 msgstr "添加卡片类型…"
 
-#: qt/aqt/clayout.py:273 qt/aqt/forms/addfield.py:73
+#: qt/aqt/clayout.py:345 qt/aqt/forms/addfield.py:61
 msgid "Add Field"
 msgstr "添加字段"
 
-#: qt/aqt/editor.py:657
+#: qt/aqt/editor.py:698
 msgid "Add Media"
 msgstr "添加多媒体文件"
 
@@ -699,11 +508,7 @@ msgstr "添加笔记类型"
 msgid "Add Notes..."
 msgstr "添加笔记…"
 
-#: pylib/anki/stdmodels.py:83
-msgid "Add Reverse"
-msgstr "反向添加"
-
-#: qt/aqt/browser.py:1871
+#: qt/aqt/browser.py:1637
 msgid "Add Tags"
 msgstr "添加标签"
 
@@ -711,27 +516,23 @@ msgstr "添加标签"
 msgid "Add Tags..."
 msgstr "添加标签..."
 
-#: qt/aqt/forms/addfield.py:79
-msgid "Add to:"
-msgstr "添加到："
-
-#: qt/aqt/browser.py:158
+#: qt/aqt/browser.py:167
 msgid "Add-on"
 msgstr "插件"
 
-#: qt/aqt/addons.py:869
+#: qt/aqt/addons.py:897
 msgid "Add-on has no configuration."
 msgstr "插件没有配置界面"
 
-#: qt/aqt/addons.py:1382
+#: qt/aqt/addons.py:1440
 msgid "Add-on installation error"
 msgstr "插件安装错误"
 
-#: qt/aqt/addons.py:791
+#: qt/aqt/addons.py:819
 msgid "Add-on was not downloaded from AnkiWeb."
 msgstr "插件不是来自 AnkiWeb"
 
-#: qt/aqt/main.py:1535
+#: qt/aqt/main.py:1565
 msgid "Add-on will be installed when a profile is opened."
 msgstr "登录个人账户后才能安装插件。"
 
@@ -739,66 +540,63 @@ msgstr "登录个人账户后才能安装插件。"
 msgid "Add-ons"
 msgstr "附加组件"
 
-#: qt/aqt/errors.py:179
-msgid "Add-ons possibly involved: {}\n"
-msgstr "相关扩展:{}\n"
-
-#: qt/aqt/models.py:187
+#: qt/aqt/models.py:199
 #, python-format
 msgid "Add: %s"
 msgstr "添加：%s"
 
-#: pylib/anki/stats.py:27 pylib/anki/stats.py:335 pylib/anki/importing/anki2.py:168 qt/aqt/addcards.py:209
+#: pylib/anki/stats.py:304 pylib/anki/importing/anki2.py:166
+#: qt/aqt/addcards.py:192
 msgid "Added"
 msgstr "已添加"
 
-#: qt/aqt/browser.py:1228
+#: qt/aqt/browser.py:1262
 msgid "Added Today"
 msgstr "今天添加的"
 
-#: pylib/anki/importing/noteimp.py:133
+#: pylib/anki/importing/noteimp.py:139
 #, python-format
 msgid "Added duplicate with first field: %s"
 msgstr "添加首字段%s的副本"
 
-#: qt/aqt/reviewer.py:612
+#: qt/aqt/reviewer.py:617
 msgid "Again"
 msgstr "生疏/错误"
 
-#: qt/aqt/browser.py:1230
+#: qt/aqt/browser.py:1264
 msgid "Again Today"
 msgstr "今天再来一次"
 
-#: pylib/anki/stats.py:184
+#: pylib/anki/stats.py:149
 #, python-format
 msgid "Again count: %s"
 msgstr "重复计数: %s"
 
-#: qt/aqt/overview.py:114
+#: qt/aqt/overview.py:134
 msgid "All Buried Cards"
 msgstr "所有已焚毁卡片"
 
-#: qt/aqt/browser.py:1310
+#: qt/aqt/browser.py:1345
 msgid "All Card Types"
 msgstr "所有卡片类型"
 
-#: qt/aqt/exporting.py:44
+#: qt/aqt/exporting.py:52
 msgid "All Decks"
 msgstr "所有的牌组"
 
-#: qt/aqt/browser.py:2100
+#: qt/aqt/browser.py:1885
 msgid "All Fields"
 msgstr "所有字段"
 
-#: qt/aqt/forms/customstudy.py:116
+#: qt/aqt/forms/customstudy.py:117
 msgid "All cards in random order (don't reschedule)"
 msgstr "随机排列的所有卡（不要重新安排）"
 
-#: qt/aqt/main.py:281
+#: qt/aqt/main.py:301
 msgid "All cards, notes, and media for this profile will be deleted. Are you sure?"
 msgstr "该本地帐户下所有的卡片、笔记、多媒体文件都会被删除，你确定么？"
 
-#: qt/aqt/forms/customstudy.py:114
+#: qt/aqt/forms/customstudy.py:115
 msgid "All review cards in random order"
 msgstr "随机复习所有卡片"
 
@@ -810,45 +608,13 @@ msgstr "允许在字段中使用HTML"
 msgid "Always include question side when replaying audio"
 msgstr "播放音频时总是包括问题面"
 
-#: qt/aqt/addons.py:209
-#, python-format
-msgid ""
-"An add-on you installed failed to load. If problems persist, please go to the Tools>Add-ons menu, and disable or delete the add-on.\n"
-"\n"
-"When loading '%(name)s':\n"
-"%(traceback)s\n"
-msgstr ""
-"您安装的某个插件加载失败。如果此问题仍无法解决，请移步 工具-插件 菜单，并禁用或者删除插件。\n"
-"When loading '%(name)s':\n"
-"%(traceback)s\n"
-
-#: qt/aqt/errors.py:111
-msgid ""
-"An error occurred while accessing the database.\n"
-"\n"
-"Possible causes:\n"
-"\n"
-"- Antivirus, firewall, backup, or synchronization software may be   interfering with Anki. Try disabling such software and see if the   problem goes away.\n"
-"- Your disk may be full.\n"
-"- The Documents/Anki folder may be on a network drive.\n"
-"- Files in the Documents/Anki folder may not be writeable.\n"
-"- Your hard disk may have errors.\n"
-"\n"
-"It's a good idea to run Tools>Check Database to ensure your collection is not corrupt.\n"
-msgstr ""
-"访问数据库时出现错误，可能的原因是：\n"
-"- 反病毒、防火墙、备份或数据同步软件可能干扰了Anki。试着禁用这些软件，看看问题是否消失。\n"
-"- 磁盘容量满了。\n"
-"- 文档/Anki 文件夹可能是网络硬盘。\n"
-"- 文档/Anki 文件夹不可写.\n"
-"- 硬盘出错了。\n"
-
-#: qt/aqt/editor.py:787 qt/aqt/editor.py:790
+#: qt/aqt/editor.py:836
 #, python-format
 msgid "An error occurred while opening %s"
 msgstr "当打开 %s 时出现一个错误"
 
-#: qt/aqt/forms/main.py:131 qt/aqt/forms/setgroup.py:38 qt/aqt/forms/setlang.py:39
+#: qt/aqt/forms/main.py:131 qt/aqt/forms/setgroup.py:38
+#: qt/aqt/forms/setlang.py:39
 msgid "Anki"
 msgstr "Anki"
 
@@ -856,35 +622,29 @@ msgstr "Anki"
 msgid "Anki 2.0 Deck"
 msgstr "Anki 2.0 版牌组"
 
-#: qt/aqt/forms/preferences.py:261
+#: qt/aqt/forms/preferences.py:291
 msgid "Anki 2.1 scheduler (beta)"
 msgstr "Anki2.1 记忆算法（测试版）"
 
-#: pylib/anki/exporting.py:391
+#: pylib/anki/exporting.py:392
 msgid "Anki Collection Package"
 msgstr "Anki记忆库文件"
 
-#: pylib/anki/exporting.py:310
+#: pylib/anki/exporting.py:311
 msgid "Anki Deck Package"
 msgstr "Anki 牌组包"
 
-#: qt/aqt/profiles.py:176
+#: qt/aqt/profiles.py:251
 msgid "Anki could not read your profile data. Window sizes and your sync login details have been forgotten."
 msgstr "Anki无法读取您的资料数据。窗口大小和您的同步登录细节已丢失。"
 
-#: qt/aqt/profiles.py:246
-msgid ""
-"Anki could not rename your profile because it could not rename the profile folder on disk. Please ensure you have permission to write to Documents/Anki and no other programs are accessing your "
-"profile folders, then try again."
+#: qt/aqt/profiles.py:321
+msgid "Anki could not rename your profile because it could not rename the profile folder on disk. Please ensure you have permission to write to Documents/Anki and no other programs are accessing your profile folders, then try again."
 msgstr "因为Anki不能重命名你的配置文件夹，所以不能重命名你的配置文件。请确定你有文档/Anki文件夹的写权限，同时没有其它程序正在访问你的配置文件目录后，再重试。"
 
-#: qt/aqt/clayout.py:457
+#: qt/aqt/clayout.py:608
 msgid "Anki couldn't find the line between the question and answer. Please adjust the template manually to switch the question and answer."
 msgstr "Anki无法区分问题与答案。请手动调整模版以明确问题与答案。"
-
-#: pylib/anki/media.py:340
-msgid "Anki does not support files in subfolders of the collection.media folder."
-msgstr "Anki 不支持 collection.media 目录下二级目录的文件"
 
 #: qt/aqt/about.py:97
 msgid "Anki is a friendly, intelligent spaced learning system. It's free and open source."
@@ -894,88 +654,57 @@ msgstr "Anki是一个基于重复学习原理的记忆软件，简单易用，�
 msgid "Anki is licensed under the AGPL3 license. Please see the license file in the source distribution for more information."
 msgstr "Anki以AGPL3协议发布. 请查看源代码分布中的协议文件获得更多信息."
 
-#: qt/aqt/main.py:437
-msgid ""
-"Anki was unable to open your collection file. If problems persist after restarting your computer, please use the Open Backup button in the profile manager.\n"
-"\n"
-"Debug info:\n"
-msgstr "Anki 无法打开您的记忆库文件。如果您尝试重启电脑后此问题仍然存在，请在主菜单中选择“切换配置方案”，在其界面中点击“打开备份”。\n"
-
-#: qt/aqt/sync.py:107
-msgid "AnkiWeb ID or password was incorrect; please try again."
-msgstr "用户名或密码错误，请重试。"
-
-#: qt/aqt/sync.py:270
-msgid "AnkiWeb ID:"
-msgstr "用户名"
-
-#: qt/aqt/sync.py:191
-msgid "AnkiWeb encountered an error. Please try again in a few minutes, and if the problem persists, please file a bug report."
-msgstr "Anki网络遇到了一个错误，请稍后重试。如果问题仍然存在，请填写一份bug报告。"
-
-#: qt/aqt/sync.py:206
-msgid "AnkiWeb is too busy at the moment. Please try again in a few minutes."
-msgstr "Anki服务器目前十分繁忙，请稍后重试。"
-
-#: qt/aqt/sync.py:203
-msgid "AnkiWeb is under maintenance. Please try again in a few minutes."
-msgstr "AnkiWeb在维护中，请几分钟后再试一遍"
-
-#: qt/aqt/browser.py:712
+#: qt/aqt/browser.py:731
 msgid "Answer"
 msgstr "答案"
 
-#: pylib/anki/stats.py:700
+#: pylib/anki/stats.py:674
 msgid "Answer Buttons"
 msgstr "回答按钮"
 
-#: pylib/anki/stats.py:383 pylib/anki/stats.py:711 pylib/anki/stats.py:819
+#: pylib/anki/stats.py:352 pylib/anki/stats.py:685 pylib/anki/stats.py:793
 msgid "Answers"
 msgstr "答案"
 
-#: qt/aqt/sync.py:219
-msgid "Antivirus or firewall software is preventing Anki from connecting to the internet."
-msgstr "杀毒软件或防火墙正在阻止Anki连接到因特网"
-
-#: qt/aqt/browser.py:1254
+#: qt/aqt/browser.py:1288
 msgid "Any Flag"
 msgstr "任何标注"
 
-#: qt/aqt/browser.py:2455
+#: qt/aqt/browser.py:2261
 msgid "Any cards mapped to nothing will be deleted. If a note has no remaining cards, it will be lost. Are you sure you want to continue?"
 msgstr "所有孤立的卡片都会被删除，没有保存到卡片中的笔记也会丢失，您确定要继续么？"
 
-#: pylib/anki/importing/noteimp.py:158
+#: pylib/anki/importing/noteimp.py:161
 #, python-format
 msgid "Appeared twice in file: %s"
 msgstr "在文件%s中出现了两次"
 
-#: qt/aqt/deckbrowser.py:316
+#: qt/aqt/deckbrowser.py:304
 #, python-format
 msgid "Are you sure you wish to delete %s?"
 msgstr "您确定要删除%s？"
 
-#: qt/aqt/clayout.py:238
+#: qt/aqt/clayout.py:498
 msgid "At least one card type is required."
 msgstr "至少需要一个卡片类型"
 
-#: qt/aqt/deckconf.py:260 qt/aqt/dyndeckconf.py:159
+#: qt/aqt/deckconf.py:277 qt/aqt/dyndeckconf.py:159
 msgid "At least one step is required."
 msgstr "请至少选择一个难易度"
 
-#: qt/aqt/editor.py:140
+#: qt/aqt/editor.py:166
 msgid "Attach pictures/audio/video (F3)"
 msgstr "附加图片/音频/视频 (F3)"
 
-#: qt/aqt/reviewer.py:712
+#: qt/aqt/reviewer.py:717
 msgid "Audio +5s"
 msgstr "音频前进5秒"
 
-#: qt/aqt/reviewer.py:711
+#: qt/aqt/reviewer.py:716
 msgid "Audio -5s"
 msgstr "音频后退5秒"
 
-#: qt/aqt/main.py:331
+#: qt/aqt/main.py:351
 msgid "Automatic syncing and backups have been disabled while restoring. To enable them again, close the profile or restart Anki."
 msgstr "自动同步和备份已关闭，重启 Anki 以启用。"
 
@@ -983,89 +712,61 @@ msgstr "自动同步和备份已关闭，重启 Anki 以启用。"
 msgid "Automatically play audio"
 msgstr "自动播放音频"
 
-#: qt/aqt/forms/preferences.py:275
+#: qt/aqt/forms/preferences.py:301
 msgid "Automatically sync on profile open/close"
 msgstr "打开本地帐户时自动同步"
 
-#: pylib/anki/stats.py:280 pylib/anki/stats.py:345
+#: pylib/anki/stats.py:247 pylib/anki/stats.py:314
 msgid "Average"
 msgstr "平均"
 
-#: pylib/anki/stats.py:53
-msgid "Average Time"
-msgstr "平均用时"
-
-#: pylib/anki/stats.py:459
+#: pylib/anki/stats.py:429
 msgid "Average answer time"
 msgstr "平均回答用时"
 
-#: pylib/anki/stats.py:897
+#: pylib/anki/stats.py:871
 msgid "Average ease"
 msgstr "平均难度"
 
-#: pylib/anki/stats.py:443
+#: pylib/anki/stats.py:418
 msgid "Average for days studied"
 msgstr "平均"
 
-#: pylib/anki/stats.py:637
+#: pylib/anki/stats.py:611
 msgid "Average interval"
 msgstr "平均间隔"
 
-#: pylib/anki/stdmodels.py:21 pylib/anki/stdmodels.py:25 pylib/anki/stdmodels.py:46 pylib/anki/stdmodels.py:47 pylib/anki/stdmodels.py:62 pylib/anki/template.py:129 qt/aqt/forms/addfield.py:78
-msgid "Back"
-msgstr "背面"
-
-#: qt/aqt/forms/preview.py:41
-msgid "Back Preview"
-msgstr "背面预览"
-
-#: qt/aqt/forms/template.py:109
-msgid "Back Template"
-msgstr "背面模版"
-
-#: qt/aqt/main.py:485
+#: qt/aqt/main.py:535
 msgid "Backing Up..."
 msgstr "备份中…"
 
-#: qt/aqt/forms/preferences.py:285
+#: qt/aqt/forms/preferences.py:312
 msgid "Backups"
 msgstr "备份"
 
-#: pylib/anki/stdmodels.py:18 pylib/anki/stdmodels.py:36 qt/aqt/forms/preferences.py:272
+#: qt/aqt/forms/preferences.py:287
 msgid "Basic"
 msgstr "基础"
 
-#: pylib/anki/stdmodels.py:60 pylib/anki/stdmodels.py:74
-msgid "Basic (and reversed card)"
-msgstr "基础的（和相反的卡片）"
-
-#: pylib/anki/stdmodels.py:82 pylib/anki/stdmodels.py:92
-msgid "Basic (optional reversed card)"
-msgstr "基础（任意相反的卡片）"
-
-#: pylib/anki/stdmodels.py:44 pylib/anki/stdmodels.py:52
-msgid "Basic (type in the answer)"
-msgstr "基础 （输入答案）"
-
-#: qt/aqt/browser.py:1252 qt/aqt/reviewer.py:694 qt/aqt/forms/browser.py:336
+#: qt/aqt/browser.py:1286 qt/aqt/reviewer.py:699 qt/aqt/forms/browser.py:336
 msgid "Blue Flag"
 msgstr "蓝色标注"
 
-#: qt/aqt/editor.py:104
+#: qt/aqt/editor.py:115
 msgid "Bold text (Ctrl+B)"
 msgstr "加粗（Ctrl+B）"
 
-#: qt/aqt/toolbar.py:52
+#: qt/aqt/toolbar.py:118
 msgid "Browse"
 msgstr "浏览"
 
-#: qt/aqt/browser.py:795
+#: qt/aqt/browser.py:814
 #, python-format
 msgid "Browse (%(cur)d card shown; %(sel)s)"
 msgid_plural "Browse (%(cur)d cards shown; %(sel)s)"
 msgstr[0] "浏览  (%(cur)d 已显示的卡片; %(sel)s)"
 
-#: qt/aqt/addons.py:889
+#: qt/aqt/addons.py:917
 msgid "Browse Add-ons"
 msgstr "浏览插件"
 
@@ -1073,7 +774,7 @@ msgstr "浏览插件"
 msgid "Browser Appearance"
 msgstr "浏览器外观"
 
-#: qt/aqt/clayout.py:493
+#: qt/aqt/clayout.py:645
 msgid "Browser Appearance..."
 msgstr "浏览器偏好…"
 
@@ -1085,23 +786,23 @@ msgstr "浏览器选项"
 msgid "Build"
 msgstr "创建动态牌组"
 
-#: qt/aqt/browser.py:1247
+#: qt/aqt/browser.py:1281
 msgid "Buried"
 msgstr "被占用"
 
-#: qt/aqt/overview.py:113
+#: qt/aqt/overview.py:133
 msgid "Buried Siblings"
 msgstr "搁置的关连卡片"
 
-#: qt/aqt/reviewer.py:799 qt/aqt/reviewer.py:805
+#: qt/aqt/reviewer.py:804 qt/aqt/reviewer.py:810
 msgid "Bury"
 msgstr "本次不复习"
 
-#: qt/aqt/reviewer.py:702
+#: qt/aqt/reviewer.py:707
 msgid "Bury Card"
 msgstr "搁置卡片"
 
-#: qt/aqt/reviewer.py:703
+#: qt/aqt/reviewer.py:708
 msgid "Bury Note"
 msgstr "搁置笔记"
 
@@ -1113,7 +814,7 @@ msgstr "搁置相关新卡片到隔日"
 msgid "Bury related reviews until the next day"
 msgstr "搁置相关复习到隔日"
 
-#: qt/aqt/importing.py:125
+#: qt/aqt/importing.py:129
 msgid ""
 "By default, Anki will detect the character between fields, such as\n"
 "a tab, comma, and so on. If Anki is detecting the character incorrectly,\n"
@@ -1123,73 +824,54 @@ msgstr ""
 "制表符，逗号等等。如果Anki未能正确检测字符，你\n"
 "可以在这里输入字符。用“\\t“代表制表符。"
 
-#: qt/aqt/overview.py:115 qt/aqt/sound.py:522 qt/aqt/sync.py:299 qt/aqt/sync.py:321
+#: qt/aqt/clayout.py:360 qt/aqt/overview.py:135 qt/aqt/sound.py:548
 msgid "Cancel"
 msgstr "取消"
 
-#: qt/aqt/browser.py:713
+#: qt/aqt/browser.py:732
 msgid "Card"
 msgstr "卡片"
 
-#: qt/aqt/clayout.py:420
+#: qt/aqt/clayout.py:569
 #, python-format
 msgid "Card %d"
 msgstr "卡片 %d"
-
-#: pylib/anki/stdmodels.py:23
-msgid "Card 1"
-msgstr "卡片1"
-
-#: pylib/anki/stdmodels.py:61
-msgid "Card 2"
-msgstr "卡片2"
-
-#: pylib/anki/stats.py:61
-msgid "Card ID"
-msgstr "卡片 ID"
 
 #: qt/aqt/forms/browser.py:318
 msgid "Card List"
 msgstr "卡片列表窗口"
 
-#: qt/aqt/browser.py:1237
+#: qt/aqt/browser.py:1271
 msgid "Card State"
 msgstr "卡片状态"
 
-#: pylib/anki/stats.py:57
-msgid "Card Type"
-msgstr "卡片类型"
-
-#: qt/aqt/forms/clayout_top.py:57
-msgid "Card Type:"
-msgstr "卡片类型："
-
-#: pylib/anki/stats.py:905 qt/aqt/clayout.py:45
+#: pylib/anki/stats.py:879 qt/aqt/clayout.py:61
 msgid "Card Types"
 msgstr "卡片类型"
 
-#: qt/aqt/clayout.py:61
+#: qt/aqt/clayout.py:67
 #, python-format
 msgid "Card Types for %s"
 msgstr "%s的卡片类型"
 
-#: qt/aqt/reviewer.py:802
+#: qt/aqt/reviewer.py:807
 msgid "Card buried."
 msgstr "已搁置的卡片"
 
-#: qt/aqt/reviewer.py:779
+#: qt/aqt/reviewer.py:784
 msgid "Card suspended."
 msgstr "暂停的卡片"
 
-#: qt/aqt/reviewer.py:660
+#: qt/aqt/reviewer.py:665
 msgid "Card was a leech."
 msgstr "子卡片为记忆难点"
 
-#: pylib/anki/stats.py:336 pylib/anki/stats.py:973 qt/aqt/editor.py:159 qt/aqt/forms/changemodel.py:112
+#: pylib/anki/stats.py:305 pylib/anki/stats.py:955 qt/aqt/editor.py:185
+#: qt/aqt/forms/changemodel.py:112
 msgid "Cards"
 msgstr "卡片"
 
-#: qt/aqt/browser.py:1831
+#: qt/aqt/browser.py:1597
 msgid "Cards can't be manually moved into a filtered deck."
 msgstr "不能手动移动卡片到过滤牌组"
 
@@ -1197,28 +879,28 @@ msgstr "不能手动移动卡片到过滤牌组"
 msgid "Cards in Plain Text"
 msgstr "纯文本卡片"
 
-#: qt/aqt/overview.py:163
+#: qt/aqt/overview.py:185
 msgid "Cards will be automatically returned to their original decks after you review them."
 msgstr "卡片在复习完后将会自动回到原始的记忆库中。"
 
-#: qt/aqt/models.py:56
+#: qt/aqt/models.py:61
 msgid "Cards..."
 msgstr "卡片…"
 
-#: pylib/anki/consts.py:79
+#: pylib/anki/consts.py:108
 msgid "Center"
 msgstr "居中"
 
-#: qt/aqt/importing.py:258
+#: qt/aqt/importing.py:267
 msgid "Change"
 msgstr "更改"
 
-#: qt/aqt/browser.py:2376
+#: qt/aqt/browser.py:2181
 #, python-format
 msgid "Change %s to:"
 msgstr "将%s改为："
 
-#: qt/aqt/browser.py:1822 qt/aqt/browser.py:1834
+#: qt/aqt/browser.py:1588 qt/aqt/browser.py:1600
 msgid "Change Deck"
 msgstr "改变记忆库"
 
@@ -1226,7 +908,7 @@ msgstr "改变记忆库"
 msgid "Change Deck..."
 msgstr "改变记忆库…"
 
-#: qt/aqt/browser.py:2462 qt/aqt/forms/changemodel.py:109
+#: qt/aqt/browser.py:2268 qt/aqt/forms/changemodel.py:109
 msgid "Change Note Type"
 msgstr "改变笔记类型"
 
@@ -1238,29 +920,19 @@ msgstr "改变笔记类型(Ctrl+N)"
 msgid "Change Note Type..."
 msgstr "改变笔记类型…"
 
-#: qt/aqt/editor.py:127
+#: qt/aqt/editor.py:146
 msgid "Change colour (F8)"
 msgstr "改变颜色（F8）"
 
-#: qt/aqt/forms/preferences.py:263
+#: qt/aqt/forms/preferences.py:284
 msgid "Change deck depending on note type"
 msgstr "根据笔记类型改变牌组"
-
-#: qt/aqt/browser.py:718
-msgid "Changed"
-msgstr "已更改"
-
-#: qt/aqt/clayout.py:115
-#, python-format
-msgid "Changes below will affect the %(cnt)d note that uses this card type."
-msgid_plural "Changes below will affect the %(cnt)d notes that use this card type."
-msgstr[0] "%(cnt)d 张使用此卡片类型的笔记将会受影响"
 
 #: qt/aqt/forms/addons.py:68
 msgid "Changes will take effect when Anki is restarted."
 msgstr "重启 Anki 以应用更改"
 
-#: qt/aqt/preferences.py:109 qt/aqt/preferences.py:249
+#: qt/aqt/preferences.py:120 qt/aqt/preferences.py:250
 msgid "Changes will take effect when you restart Anki."
 msgstr "重启Anki后改变将会生效。"
 
@@ -1276,19 +948,15 @@ msgstr "检查更新"
 msgid "Check the files in the media directory"
 msgstr "检查媒体文件目录中的文件"
 
-#: qt/aqt/sync.py:136
-msgid "Checking media..."
-msgstr "正在检查媒体…"
-
-#: qt/aqt/addons.py:852 qt/aqt/sync.py:134
+#: qt/aqt/addons.py:880
 msgid "Checking..."
 msgstr "正在检查..."
 
-#: qt/aqt/deckchooser.py:84 qt/aqt/modelchooser.py:71
+#: qt/aqt/deckchooser.py:87 qt/aqt/modelchooser.py:71
 msgid "Choose"
 msgstr "选择"
 
-#: qt/aqt/deckchooser.py:85
+#: qt/aqt/deckchooser.py:88
 msgid "Choose Deck"
 msgstr "选择记忆库"
 
@@ -1300,7 +968,7 @@ msgstr "选择笔记类型"
 msgid "Choose Tags"
 msgstr "选择标签"
 
-#: qt/aqt/browser.py:1263
+#: qt/aqt/browser.py:1297
 msgid "Clear Unused"
 msgstr "清除未使用的"
 
@@ -1308,28 +976,29 @@ msgstr "清除未使用的"
 msgid "Clear Unused Tags"
 msgstr "删除未被使用的标签"
 
-#: qt/aqt/models.py:192
+#: qt/aqt/models.py:204
 #, python-format
 msgid "Clone: %s"
 msgstr "克隆：%s"
 
-#: qt/aqt/addcards.py:70 qt/aqt/clayout.py:283 qt/aqt/forms/browser.py:325
+#: qt/aqt/addcards.py:72 qt/aqt/forms/browser.py:325
 msgid "Close"
 msgstr "关闭"
 
-#: qt/aqt/addcards.py:240
+#: qt/aqt/addcards.py:222
 msgid "Close and lose current input?"
 msgstr "关闭并放弃当前的输入吗？"
 
-#: qt/aqt/main.py:483
+#: qt/aqt/main.py:533
 msgid "Closing..."
 msgstr "关闭中…"
 
-#: pylib/anki/stdmodels.py:100 pylib/anki/stdmodels.py:105 pylib/anki/stdmodels.py:124 pylib/anki/storage.py:219
-msgid "Cloze"
+#: qt/aqt/clayout.py:235
+#, fuzzy, python-format
+msgid "Cloze %d"
 msgstr "填空题"
 
-#: qt/aqt/editor.py:137
+#: qt/aqt/editor.py:163
 msgid "Cloze deletion (Ctrl+Shift+C)"
 msgstr "创建填空 (Ctrl+Shift+C)"
 
@@ -1337,19 +1006,15 @@ msgstr "创建填空 (Ctrl+Shift+C)"
 msgid "Code:"
 msgstr "代码:"
 
-#: qt/aqt/exporting.py:154
+#: qt/aqt/exporting.py:173
 msgid "Collection exported."
 msgstr "集合导出成功"
 
-#: pylib/anki/collection.py:785
-msgid "Collection is corrupt. Please see the manual."
-msgstr "集合已经损坏。请查阅手册。"
-
-#: qt/aqt/importing.py:169
+#: qt/aqt/importing.py:173
 msgid "Colon"
 msgstr "冒号"
 
-#: qt/aqt/importing.py:163
+#: qt/aqt/importing.py:167
 msgid "Comma"
 msgstr "逗号"
 
@@ -1357,7 +1022,7 @@ msgstr "逗号"
 msgid "Config"
 msgstr "设置"
 
-#: qt/aqt/forms/addonconf.py:70
+#: qt/aqt/forms/addonconf.py:72
 msgid "Configuration"
 msgstr "设置"
 
@@ -1365,19 +1030,11 @@ msgstr "设置"
 msgid "Configure interface language and options"
 msgstr "设置界面语言和选项"
 
-#: pylib/anki/sched.py:1261 pylib/anki/schedv2.py:1459
+#: pylib/anki/schedv2.py:1281
 msgid "Congratulations! You have finished this deck for now."
 msgstr "恭喜！你目前已经完成了这个记忆库。"
 
-#: qt/aqt/sync.py:50
-msgid "Connecting..."
-msgstr "正在连接..."
-
-#: qt/aqt/sync.py:223
-msgid "Connection timed out. Either your internet connection is experiencing problems, or you have a very large file in your media folder."
-msgstr "连接超时。可能是网络连接有问题，或者在媒体目录里有很大的文件。"
-
-#: qt/aqt/reviewer.py:81
+#: qt/aqt/reviewer.py:94
 msgid "Continue"
 msgstr "继续"
 
@@ -1385,7 +1042,7 @@ msgstr "继续"
 msgid "Copied to clipboard"
 msgstr "已复制到剪贴板"
 
-#: qt/aqt/editor.py:1115 qt/aqt/webview.py:188
+#: qt/aqt/editor.py:1174 qt/aqt/webview.py:280
 msgid "Copy"
 msgstr "复制"
 
@@ -1393,42 +1050,38 @@ msgstr "复制"
 msgid "Copy Debug Info"
 msgstr "复制调试信息"
 
-#: qt/aqt/utils.py:129
+#: qt/aqt/utils.py:142
 msgid "Copy to Clipboard"
 msgstr "复制到剪贴板"
 
-#: pylib/anki/stats.py:205
+#: pylib/anki/stats.py:170
 #, python-format
 msgid "Correct answers on mature cards: %(a)d/%(b)d (%(c).1f%%)"
 msgstr "熟练卡片的正确答案：%(a)d/%(b)d (%(c).1f%%)"
 
-#: pylib/anki/stats.py:732
+#: pylib/anki/stats.py:706
 #, python-format
 msgid "Correct: <b>%(pct)0.2f%%</b><br>(%(good)d of %(tot)d)"
 msgstr "正确: <b>%(pct)0.2f%%</b><br>(%(good)d of %(tot)d)"
 
-#: qt/aqt/addons.py:466
+#: qt/aqt/addons.py:471
 msgid "Corrupt add-on file."
 msgstr "无效的扩展文件。"
 
-#: qt/aqt/sync.py:179
-msgid "Couldn't connect to AnkiWeb. Please check your network connection and try again."
-msgstr "无法连接到AnkiWeb。请确认你的网络连接没问题，然后再试一遍"
-
-#: qt/aqt/editor.py:686
+#: qt/aqt/editor.py:731
 msgid "Couldn't record audio. Have you installed 'lame'?"
 msgstr "无法录制音频。您是否已安装“lame”？"
 
-#: qt/aqt/exporting.py:140
+#: qt/aqt/exporting.py:141
 #, python-format
 msgid "Couldn't save file: %s"
 msgstr "不能保存文件: %s"
 
-#: pylib/anki/stats.py:376 pylib/anki/stats.py:396
+#: pylib/anki/stats.py:345 pylib/anki/stats.py:365
 msgid "Cram"
 msgstr "强记模式"
 
-#: qt/aqt/deckbrowser.py:329
+#: qt/aqt/deckbrowser.py:317
 msgid "Create Deck"
 msgstr "创建记忆库"
 
@@ -1440,7 +1093,7 @@ msgstr "创建筛选的牌组…"
 msgid "Create scalable images with dvisvgm"
 msgstr "用 dvisvgm 创建可缩放的图片"
 
-#: qt/aqt/browser.py:716
+#: qt/aqt/browser.py:735
 msgid "Created"
 msgstr "创建时间"
 
@@ -1448,24 +1101,24 @@ msgstr "创建时间"
 msgid "Ctrl+Shift+E"
 msgstr "Ctrl+Shift+E"
 
-#: pylib/anki/stats.py:253
+#: pylib/anki/stats.py:218
 msgid "Cumulative"
 msgstr "累计"
 
-#: pylib/anki/stats.py:408
+#: pylib/anki/stats.py:377
 #, python-format
 msgid "Cumulative %s"
 msgstr "总和 %s"
 
-#: pylib/anki/stats.py:383
+#: pylib/anki/stats.py:352
 msgid "Cumulative Answers"
 msgstr "累计回答"
 
-#: pylib/anki/stats.py:268 pylib/anki/stats.py:336
+#: pylib/anki/stats.py:233 pylib/anki/stats.py:305
 msgid "Cumulative Cards"
 msgstr "累计卡片"
 
-#: qt/aqt/browser.py:1096 qt/aqt/browser.py:1220
+#: qt/aqt/browser.py:1122 qt/aqt/browser.py:1254
 msgid "Current Deck"
 msgstr "当前记忆库"
 
@@ -1473,11 +1126,11 @@ msgstr "当前记忆库"
 msgid "Current note type:"
 msgstr "当前笔记类型："
 
-#: qt/aqt/overview.py:234 qt/aqt/forms/customstudy.py:100
+#: qt/aqt/overview.py:252 qt/aqt/forms/customstudy.py:101
 msgid "Custom Study"
 msgstr "自定义学习"
 
-#: qt/aqt/customstudy.py:137 qt/aqt/customstudy.py:149
+#: qt/aqt/customstudy.py:141 qt/aqt/customstudy.py:153
 msgid "Custom Study Session"
 msgstr "自定义学习进程"
 
@@ -1485,164 +1138,106 @@ msgstr "自定义学习进程"
 msgid "Custom steps (in minutes)"
 msgstr "自定义步长（以分钟计）"
 
-#: qt/aqt/editor.py:162
+#: qt/aqt/editor.py:188
 msgid "Customize Card Templates (Ctrl+L)"
 msgstr "自定义卡片模板 (Ctrl+L)"
 
-#: qt/aqt/editor.py:161
+#: qt/aqt/editor.py:187
 msgid "Customize Fields"
 msgstr "自定义字段"
 
-#: qt/aqt/editor.py:1113
+#: qt/aqt/editor.py:1172
 msgid "Cut"
 msgstr "剪切"
 
-#: pylib/anki/collection.py:970
-msgid "Database rebuilt and optimized."
-msgstr "数据库已重建并且被优化。"
-
-#: qt/aqt/browser.py:1429
-msgid "Date"
-msgstr "日期"
-
-#: pylib/anki/stats.py:427
+#: pylib/anki/stats.py:402
 msgid "Days studied"
 msgstr "打卡天数"
 
-#: qt/aqt/forms/preferences.py:277
+#: qt/aqt/forms/preferences.py:304
 msgid "Deauthorize"
 msgstr "解除授权"
 
-#: qt/aqt/forms/debug.py:46
+#: qt/aqt/forms/debug.py:55
 msgid "Debug Console"
 msgstr "调试控制台："
 
-#: pylib/anki/stats.py:59 qt/aqt/browser.py:714 qt/aqt/deckbrowser.py:161 qt/aqt/deckchooser.py:26 qt/aqt/forms/importing.py:106
+#: qt/aqt/browser.py:733 qt/aqt/deckbrowser.py:155 qt/aqt/deckchooser.py:29
+#: qt/aqt/forms/importing.py:106
 msgid "Deck"
 msgstr "牌组"
 
-#: qt/aqt/clayout.py:490
+#: qt/aqt/clayout.py:642
 msgid "Deck Override..."
 msgstr "集合覆盖…"
 
-#: qt/aqt/main.py:1537
+#: qt/aqt/main.py:1567
 msgid "Deck will be imported when a profile is opened."
 msgstr "当一个配置文件打开时记忆库将会被导入。"
 
-#: qt/aqt/browser.py:1291 qt/aqt/toolbar.py:50
+#: qt/aqt/browser.py:1326 qt/aqt/toolbar.py:104
 msgid "Decks"
 msgstr "记忆库"
 
-#: pylib/anki/consts.py:90
+#: pylib/anki/consts.py:119
 msgid "Decreasing intervals"
 msgstr "降低间隔"
 
-#: pylib/anki/decks.py:57 pylib/anki/storage.py:333 qt/aqt/deckchooser.py:48 qt/aqt/deckchooser.py:52 qt/aqt/deckchooser.py:74
+#: qt/aqt/deckchooser.py:51 qt/aqt/deckchooser.py:55 qt/aqt/deckchooser.py:77
 msgid "Default"
 msgstr "默认"
 
-#: pylib/anki/stats.py:615
+#: pylib/anki/stats.py:589
 msgid "Delays until reviews are shown again."
 msgstr "延迟直到复习再次出现。"
 
-#: qt/aqt/deckbrowser.py:257 qt/aqt/deckconf.py:83 qt/aqt/models.py:51 qt/aqt/reviewer.py:787 qt/aqt/forms/addons.py:76 qt/aqt/forms/browser.py:330 qt/aqt/forms/fields.py:102
-#: qt/aqt/forms/profiles.py:78
+#: qt/aqt/deckbrowser.py:242 qt/aqt/deckconf.py:89 qt/aqt/models.py:56
+#: qt/aqt/reviewer.py:792 qt/aqt/forms/addons.py:76 qt/aqt/forms/browser.py:330
+#: qt/aqt/forms/fields.py:103 qt/aqt/forms/profiles.py:83
 msgid "Delete"
 msgstr "删除"
 
-#: qt/aqt/main.py:1377
-msgid "Delete Cards"
-msgstr "删除卡片"
-
-#: qt/aqt/deckbrowser.py:300
+#: qt/aqt/deckbrowser.py:288
 msgid "Delete Deck"
 msgstr "删除记忆库"
 
-#: qt/aqt/main.py:1383
-msgid "Delete Empty"
-msgstr "删除空白"
-
-#: qt/aqt/reviewer.py:706
+#: qt/aqt/reviewer.py:711
 msgid "Delete Note"
 msgstr "删除笔记"
 
-#: qt/aqt/browser.py:1775
+#: qt/aqt/browser.py:1541
 msgid "Delete Notes"
 msgstr "删除笔记"
 
-#: qt/aqt/browser.py:1881
+#: qt/aqt/browser.py:1647
 msgid "Delete Tags"
 msgstr "删除标签"
 
-#: qt/aqt/main.py:1309
-msgid "Delete Unused Files"
-msgstr "删除未使用的文件"
-
-#: qt/aqt/fields.py:97
+#: qt/aqt/fields.py:124
 #, python-format
 msgid "Delete field from %s?"
 msgstr "从 %s 删除字段?"
 
-#: qt/aqt/addons.py:813
+#: qt/aqt/addons.py:841
 #, python-format
 msgid "Delete the %(num)d selected add-on?"
 msgid_plural "Delete the %(num)d selected add-ons?"
 msgstr[0] "删除%(num)d个已选择的插件？"
 
-#: qt/aqt/clayout.py:242
+#: qt/aqt/clayout.py:508
 #, python-format
 msgid "Delete the '%(a)s' card type, and its %(b)s?"
 msgstr "确定删除'%(a)s'卡片类型和它的%(b)s吗？"
 
-#: qt/aqt/models.py:108
+#: qt/aqt/models.py:123
 msgid "Delete this note type and all its cards?"
 msgstr "删除该笔记类型及其所有卡片?"
 
-#: qt/aqt/models.py:110
+#: qt/aqt/models.py:125
 msgid "Delete this unused note type?"
 msgstr "删除该未使用的笔记类型?"
 
-#: qt/aqt/main.py:1322
-msgid "Delete unused media?"
-msgstr "确定删除未用多媒体文件吗？"
-
-#: pylib/anki/collection.py:874
-#, python-format
-msgid "Deleted %d card with missing note."
-msgid_plural "Deleted %d cards with missing note."
-msgstr[0] "已删除 %d 没有笔记的卡片."
-
-#: pylib/anki/collection.py:825
-#, python-format
-msgid "Deleted %d card with missing template."
-msgid_plural "Deleted %d cards with missing template."
-msgstr[0] "已删除 %d 模板丢失的卡片."
-
-#: qt/aqt/main.py:1352
-#, python-format
-msgid "Deleted %d file."
-msgid_plural "Deleted %d files."
-msgstr[0] ""
-
-#: pylib/anki/collection.py:795
-#, python-format
-msgid "Deleted %d note with missing note type."
-msgid_plural "Deleted %d notes with missing note type."
-msgstr[0] "已删除 %d 条缺失类型的笔记."
-
-#: pylib/anki/collection.py:858
-#, python-format
-msgid "Deleted %d note with no cards."
-msgid_plural "Deleted %d notes with no cards."
-msgstr[0] "已删除 %d 没有卡片的笔记."
-
-#: pylib/anki/collection.py:842
-#, python-format
-msgid "Deleted %d note with wrong field count."
-msgid_plural "Deleted %d notes with wrong field count."
-msgstr[0] "删除了 %d 个有错误统计的笔记."
-
-#: qt/aqt/overview.py:168
+#: qt/aqt/overview.py:190
 msgid "Deleting this deck from the deck list will return all remaining cards to their original deck."
 msgstr "从牌组列表删除这个牌组将会把所有剩余卡片移动回原始牌组中去。"
 
@@ -1654,19 +1249,16 @@ msgstr "描述"
 msgid "Description to show on overview screen, for current deck:"
 msgstr "显示在概览界面上的当前牌组的描述："
 
-#: qt/aqt/forms/dyndconf.py:133 qt/aqt/forms/editaddon.py:40 qt/aqt/forms/editcurrent.py:41 qt/aqt/forms/progress.py:40
+#: qt/aqt/forms/dyndconf.py:133 qt/aqt/forms/editaddon.py:40
+#: qt/aqt/forms/editcurrent.py:41 qt/aqt/forms/progress.py:40
 msgid "Dialog"
 msgstr "对话"
 
-#: qt/aqt/addons.py:1082
+#: qt/aqt/addons.py:1110
 msgid "Download complete. Please restart Anki to apply changes."
 msgstr "下载结束。请重启Anki来应用变更。"
 
-#: qt/aqt/sync.py:299 qt/aqt/sync.py:321 qt/aqt/sync.py:327
-msgid "Download from AnkiWeb"
-msgstr "从 AnkiWeb 下载"
-
-#: qt/aqt/addons.py:486
+#: qt/aqt/addons.py:491
 #, python-format
 msgid "Downloaded %(fname)s"
 msgstr "下载 %(fname)s 成功"
@@ -1676,24 +1268,16 @@ msgstr "下载 %(fname)s 成功"
 #. and "%(kb)0.2f" is the number of downloaded
 #. kilobytes. This lead for example to "Downloading 3/5
 #. (27KB)"
-#: qt/aqt/addons.py:1061
+#: qt/aqt/addons.py:1089
 #, python-format
 msgid "Downloading %(a)d/%(b)d (%(kb)0.2fKB)..."
 msgstr "下载中 %(a)d/%(b)d (%(kb)0.2fKB)..."
 
-#: qt/aqt/sync.py:132
-msgid "Downloading from AnkiWeb..."
-msgstr "从 AnkiWeb 下载..."
-
-#: pylib/anki/stats.py:43 qt/aqt/browser.py:719 qt/aqt/browser.py:1244 qt/aqt/deckbrowser.py:162
-msgid "Due"
-msgstr "到期"
-
-#: qt/aqt/forms/customstudy.py:112
+#: qt/aqt/forms/customstudy.py:113
 msgid "Due cards only"
 msgstr "仅到期卡片"
 
-#: pylib/anki/stats.py:289
+#: pylib/anki/stats.py:256
 msgid "Due tomorrow"
 msgstr "明天到期"
 
@@ -1701,11 +1285,11 @@ msgstr "明天到期"
 msgid "E&xit"
 msgstr "退出(&X)"
 
-#: pylib/anki/stats.py:46 qt/aqt/browser.py:721 qt/aqt/browser.py:1434
+#: qt/aqt/browser.py:740
 msgid "Ease"
 msgstr "难度系数"
 
-#: qt/aqt/reviewer.py:617 qt/aqt/reviewer.py:619
+#: qt/aqt/reviewer.py:622 qt/aqt/reviewer.py:624
 msgid "Easy"
 msgstr "顺利/正确"
 
@@ -1717,11 +1301,11 @@ msgstr "简单奖励"
 msgid "Easy interval"
 msgstr "简单间隔"
 
-#: qt/aqt/reviewer.py:555
+#: qt/aqt/reviewer.py:560
 msgid "Edit"
 msgstr "编辑"
 
-#: qt/aqt/addcards.py:154
+#: qt/aqt/addcards.py:143
 #, python-format
 msgid "Edit \"%s\""
 msgstr "编辑 \"%s\""
@@ -1730,19 +1314,15 @@ msgstr "编辑 \"%s\""
 msgid "Edit Current"
 msgstr "编辑当前"
 
-#: qt/aqt/editor.py:879
+#: qt/aqt/editor.py:935
 msgid "Edit HTML"
 msgstr "编辑HTML"
 
-#: qt/aqt/browser.py:717
-msgid "Edited"
-msgstr "已编辑"
-
-#: qt/aqt/forms/fields.py:105
+#: qt/aqt/forms/fields.py:106
 msgid "Editing Font"
 msgstr "编辑字体"
 
-#: qt/aqt/overview.py:232
+#: qt/aqt/overview.py:250
 msgid "Empty"
 msgstr "空"
 
@@ -1750,22 +1330,7 @@ msgstr "空"
 msgid "Empty Cards..."
 msgstr "空卡片..."
 
-#: pylib/anki/collection.py:583
-#, python-format
-msgid ""
-"Empty card numbers: %(c)s\n"
-"Fields: %(f)s\n"
-"\n"
-msgstr ""
-"空卡片数量: %(c)s\\n\n"
-"字段: %(f)s\\n\\n\n"
-"\n"
-
-#: pylib/anki/importing/noteimp.py:201
-msgid "Empty cards found. Please run Tools>Empty Cards."
-msgstr "发现了空卡片。请运行工具>空卡片。"
-
-#: pylib/anki/importing/noteimp.py:153
+#: pylib/anki/importing/noteimp.py:156
 #, python-format
 msgid "Empty first field: %s"
 msgstr "首字段: %s 为空"
@@ -1778,30 +1343,30 @@ msgstr "使用第二个过滤器"
 msgid "End"
 msgstr "结束"
 
-#: qt/aqt/clayout.py:534
+#: qt/aqt/clayout.py:687
 #, python-format
 msgid "Enter deck to place new %s cards in, or leave blank:"
 msgstr "打开记忆库以放入 %s 张新卡片, 或者留空:"
 
-#: qt/aqt/clayout.py:401
+#: qt/aqt/clayout.py:547
 #, python-format
 msgid "Enter new card position (1...%s):"
 msgstr "键入新卡片位置 (1...%s):"
 
-#: qt/aqt/browser.py:1861
+#: qt/aqt/browser.py:1627
 msgid "Enter tags to add:"
 msgstr "输入要添加的标签："
 
-#: qt/aqt/browser.py:1883
+#: qt/aqt/browser.py:1649
 msgid "Enter tags to delete:"
 msgstr "输入要删除的标签："
 
-#: qt/aqt/addons.py:473
+#: qt/aqt/addons.py:478
 #, python-format
 msgid "Error downloading <i>%(id)s</i>: %(error)s"
 msgstr "下载错误 <i>%(id)s</i>: %(error)s"
 
-#: qt/aqt/main.py:95
+#: qt/aqt/main.py:105
 #, python-format
 msgid ""
 "Error during startup:\n"
@@ -1810,40 +1375,37 @@ msgstr ""
 "启动时出错:\n"
 "%s"
 
-#: qt/aqt/sync.py:237 qt/aqt/sync.py:244
-msgid "Error establishing a secure connection. This is usually caused by antivirus, firewall or VPN software, or problems with your ISP."
-msgstr "建立安全连接出错。这可能是反病毒、防火墙或VPN软件导致的，或者是你的网络服务提供商的问题。"
-
-#: pylib/anki/latex.py:173
+#: pylib/anki/latex.py:176
 #, python-format
 msgid "Error executing %s."
 msgstr "执行 %s 错误。"
 
-#: qt/aqt/addons.py:475
+#: qt/aqt/addons.py:480
 #, python-format
 msgid "Error installing <i>%(base)s</i>: %(error)s"
 msgstr "错误安装  <i>%(base)s</i>: %(error)s"
 
-#: qt/aqt/sound.py:431
+#: qt/aqt/sound.py:453
 #, python-format
 msgid "Error running %s"
 msgstr "运行 %s 出错"
 
-#: qt/aqt/deckbrowser.py:255 qt/aqt/exporting.py:122 qt/aqt/forms/exporting.py:74
+#: qt/aqt/deckbrowser.py:240 qt/aqt/exporting.py:120
+#: qt/aqt/forms/exporting.py:74
 msgid "Export"
 msgstr "导出"
 
-#: qt/aqt/exporting.py:49
+#: qt/aqt/exporting.py:58
 msgid "Export..."
 msgstr "导出..."
 
-#: qt/aqt/exporting.py:145
+#: qt/aqt/exporting.py:150
 #, python-format
 msgid "Exported %d media file"
 msgid_plural "Exported %d media files"
 msgstr[0] "导出了%d个媒体文件"
 
-#: qt/aqt/importing.py:249
+#: qt/aqt/importing.py:258
 #, python-format
 msgid "Field <b>%d</b> of file is:"
 msgstr "文件的第<b>%d</b>字段是:"
@@ -1852,29 +1414,30 @@ msgstr "文件的第<b>%d</b>字段是:"
 msgid "Field mapping"
 msgstr "字段对应"
 
-#: qt/aqt/fields.py:81
+#: qt/aqt/fields.py:108
 msgid "Field name:"
 msgstr "字段名称："
 
-#: qt/aqt/forms/addfield.py:75
+#: qt/aqt/forms/addfield.py:62
 msgid "Field:"
 msgstr "字段："
 
-#: qt/aqt/editor.py:158 qt/aqt/fields.py:20 qt/aqt/forms/changemodel.py:113 qt/aqt/forms/fields.py:100
+#: qt/aqt/editor.py:184 qt/aqt/fields.py:23 qt/aqt/forms/changemodel.py:113
+#: qt/aqt/forms/fields.py:101
 msgid "Fields"
 msgstr "字段"
 
-#: qt/aqt/fields.py:23
+#: qt/aqt/fields.py:27
 #, python-format
 msgid "Fields for %s"
 msgstr "%s 的字段"
 
-#: qt/aqt/importing.py:172
+#: qt/aqt/importing.py:176
 #, python-format
 msgid "Fields separated by: %s"
 msgstr "字段由%s分割"
 
-#: qt/aqt/models.py:54
+#: qt/aqt/models.py:59
 msgid "Fields..."
 msgstr "字段..."
 
@@ -1886,7 +1449,7 @@ msgstr "过滤器 (&T)"
 msgid "File version unknown, trying import anyway."
 msgstr "文件版本未知，仍尝试导入。"
 
-#: qt/aqt/browser.py:1280 qt/aqt/forms/dyndconf.py:134
+#: qt/aqt/browser.py:1315 qt/aqt/forms/dyndconf.py:134
 msgid "Filter"
 msgstr "过滤器"
 
@@ -1902,11 +1465,7 @@ msgstr "过滤..."
 msgid "Filter:"
 msgstr "过滤器:"
 
-#: qt/aqt/browser.py:1443
-msgid "Filtered"
-msgstr "已过滤"
-
-#: qt/aqt/main.py:1076 qt/aqt/main.py:1078
+#: qt/aqt/main.py:1135 qt/aqt/main.py:1137
 #, python-format
 msgid "Filtered Deck %d"
 msgstr "筛选牌组%d"
@@ -1915,7 +1474,7 @@ msgstr "筛选牌组%d"
 msgid "Find &Duplicates..."
 msgstr "查找重复(&D)"
 
-#: qt/aqt/forms/finddupes.py:62
+#: qt/aqt/forms/finddupes.py:70
 msgid "Find Duplicates"
 msgstr "查找重复"
 
@@ -1923,11 +1482,11 @@ msgstr "查找重复"
 msgid "Find and Re&place..."
 msgstr "查找替换(&P)"
 
-#: qt/aqt/browser.py:2111 qt/aqt/forms/findreplace.py:68
+#: qt/aqt/browser.py:1910 qt/aqt/forms/findreplace.py:83
 msgid "Find and Replace"
 msgstr "查找替换"
 
-#: qt/aqt/reviewer.py:80
+#: qt/aqt/reviewer.py:93
 msgid "Finish"
 msgstr "结束"
 
@@ -1935,47 +1494,28 @@ msgstr "结束"
 msgid "First Card"
 msgstr "第一张卡片"
 
-#: pylib/anki/stats.py:31
-msgid "First Review"
-msgstr "首次学习"
-
-#: pylib/anki/importing/noteimp.py:132
+#: pylib/anki/importing/noteimp.py:138
 #, python-format
 msgid "First field matched: %s"
 msgstr "首字段匹配的: %s"
-
-#: pylib/anki/collection.py:890 pylib/anki/collection.py:908
-#, python-format
-msgid "Fixed %d card with invalid properties."
-msgid_plural "Fixed %d cards with invalid properties."
-msgstr[0] "修正了%d 张无效属性的卡片"
-
-#: pylib/anki/collection.py:807
-msgid "Fixed AnkiDroid deck override bug."
-msgstr "修正AnkDroid牌组覆盖问题"
-
-#: pylib/anki/collection.py:813
-#, python-format
-msgid "Fixed note type: %s"
-msgstr "固定的笔记种类: %s"
 
 #: qt/aqt/forms/browser.py:302
 msgid "Flag"
 msgstr "标注"
 
-#: qt/aqt/reviewer.py:673
+#: qt/aqt/reviewer.py:678
 msgid "Flag Card"
 msgstr "已标注的卡片"
 
-#: qt/aqt/clayout.py:278
+#: qt/aqt/clayout.py:350
 msgid "Flip"
 msgstr "翻"
 
-#: qt/aqt/profiles.py:232
+#: qt/aqt/profiles.py:307
 msgid "Folder already exists."
 msgstr "文件夹已存在."
 
-#: qt/aqt/forms/addfield.py:76
+#: qt/aqt/forms/addfield.py:64
 msgid "Font:"
 msgstr "字体："
 
@@ -1983,47 +1523,38 @@ msgstr "字体："
 msgid "Footer"
 msgstr "底部"
 
-#: pylib/anki/latex.py:133
+#: pylib/anki/latex.py:134
 #, python-format
 msgid "For security reasons, '%s' is not allowed on cards. You can still use it by placing the command in a different package, and importing that package in the LaTeX header instead."
 msgstr "出于安全考虑, '%s' 不允许出现在卡片中. 你依然可以通过把命令放在不同的包中使用, 然后通过在LaTeX文件头中导入包的方式来替代."
 
-#: pylib/anki/stats.py:260
+#: pylib/anki/stats.py:225
 msgid "Forecast"
 msgstr "预测"
 
-#: qt/aqt/forms/clayout_top.py:56 qt/aqt/forms/preview.py:39 qt/aqt/forms/template.py:106
+#: qt/aqt/forms/clayout_top.py:53 qt/aqt/forms/template.py:72
 msgid "Form"
 msgstr "表格"
 
-#: qt/aqt/browser.py:2192
+#: qt/aqt/browser.py:1997
 #, python-format
 msgid "Found %(a)s across %(b)s."
 msgstr "在 %(b)s 中找到 %(a)s 。"
 
-#: pylib/anki/exporting.py:376 pylib/anki/stdmodels.py:19 pylib/anki/stdmodels.py:24 pylib/anki/stdmodels.py:46 pylib/anki/stdmodels.py:47 pylib/anki/stdmodels.py:63 pylib/anki/template.py:127
-#: qt/aqt/forms/addfield.py:74
+#: pylib/anki/exporting.py:377
 msgid "Front"
 msgstr "正面"
-
-#: qt/aqt/forms/preview.py:40
-msgid "Front Preview"
-msgstr "正面预览"
-
-#: qt/aqt/forms/template.py:107
-msgid "Front Template"
-msgstr "正面模版"
 
 #: qt/aqt/forms/dconf.py:378
 msgid "General"
 msgstr "总体"
 
-#: pylib/anki/latex.py:174
+#: pylib/anki/latex.py:177
 #, python-format
 msgid "Generated file: %s"
 msgstr "生成文件: %s"
 
-#: pylib/anki/stats.py:958
+#: pylib/anki/stats.py:934
 #, python-format
 msgid "Generated on %s"
 msgstr "已在 %s 上生成"
@@ -2032,11 +1563,11 @@ msgstr "已在 %s 上生成"
 msgid "Get Add-ons..."
 msgstr "获取插件…"
 
-#: qt/aqt/deckbrowser.py:328
+#: qt/aqt/deckbrowser.py:316
 msgid "Get Shared"
 msgstr "获取牌组"
 
-#: qt/aqt/reviewer.py:615 qt/aqt/reviewer.py:617 qt/aqt/reviewer.py:619
+#: qt/aqt/reviewer.py:620 qt/aqt/reviewer.py:622 qt/aqt/reviewer.py:624
 msgid "Good"
 msgstr "犹豫/想起"
 
@@ -2044,7 +1575,7 @@ msgstr "犹豫/想起"
 msgid "Graduating interval"
 msgstr "毕业间隔"
 
-#: qt/aqt/browser.py:1251 qt/aqt/reviewer.py:688 qt/aqt/forms/browser.py:335
+#: qt/aqt/browser.py:1285 qt/aqt/reviewer.py:693 qt/aqt/forms/browser.py:335
 msgid "Green Flag"
 msgstr "绿色标注"
 
@@ -2052,7 +1583,7 @@ msgstr "绿色标注"
 msgid "HTML Editor"
 msgstr "HTML编辑器"
 
-#: qt/aqt/reviewer.py:619
+#: qt/aqt/reviewer.py:624
 msgid "Hard"
 msgstr "困难/模糊"
 
@@ -2060,11 +1591,11 @@ msgstr "困难/模糊"
 msgid "Hard interval"
 msgstr "强制间断"
 
-#: qt/aqt/forms/preferences.py:252
+#: qt/aqt/forms/preferences.py:277
 msgid "Hardware acceleration (faster, may cause display issues)"
 msgstr "硬件加速（更快速，可能导致显示问题）"
 
-#: pylib/anki/latex.py:182
+#: pylib/anki/latex.py:185
 msgid "Have you installed latex and dvipng/dvisvgm?"
 msgstr "您是否安装了 Latex 和dvipng/dvisvgm？"
 
@@ -2072,15 +1603,16 @@ msgstr "您是否安装了 Latex 和dvipng/dvisvgm？"
 msgid "Header"
 msgstr "头部"
 
-#: qt/aqt/addcards.py:74 qt/aqt/clayout.py:268 qt/aqt/utils.py:193 qt/aqt/utils.py:194
+#: qt/aqt/addcards.py:76 qt/aqt/clayout.py:340 qt/aqt/utils.py:206
+#: qt/aqt/utils.py:207
 msgid "Help"
 msgstr "帮助"
 
-#: pylib/anki/stats.py:898
+#: pylib/anki/stats.py:872
 msgid "Highest ease"
 msgstr "最高减轻"
 
-#: qt/aqt/addcards.py:78
+#: qt/aqt/addcards.py:80
 msgid "History"
 msgstr "历史"
 
@@ -2088,27 +1620,27 @@ msgstr "历史"
 msgid "Home"
 msgstr "首页"
 
-#: pylib/anki/stats.py:810
+#: pylib/anki/stats.py:784
 msgid "Hourly Breakdown"
 msgstr "每小时的分析"
 
-#: pylib/anki/stats.py:403
+#: pylib/anki/stats.py:372
 msgid "Hours"
 msgstr "小时"
 
-#: pylib/anki/stats.py:840
+#: pylib/anki/stats.py:814
 msgid "Hours with less than 30 reviews are not shown."
 msgstr "少于 30 次/h 复习的小时数将不会显示."
 
-#: pylib/anki/importing/anki2.py:171
+#: pylib/anki/importing/anki2.py:169
 msgid "Identical"
 msgstr "相同的"
 
-#: qt/aqt/about.py:212
+#: qt/aqt/about.py:218
 msgid "If you have contributed and are not on this list, please get in touch."
 msgstr "如果你做出了贡献而你的名字却没有出现在这个列表里，请联系我们。"
 
-#: pylib/anki/stats.py:447
+#: pylib/anki/stats.py:422
 msgid "If you studied every day"
 msgstr "如果你每天学习"
 
@@ -2116,11 +1648,11 @@ msgstr "如果你每天学习"
 msgid "Ignore answer times longer than"
 msgstr "忽略回答时间长于"
 
-#: qt/aqt/forms/findreplace.py:73
+#: qt/aqt/forms/findreplace.py:88
 msgid "Ignore case"
 msgstr "忽略大小写"
 
-#: qt/aqt/importing.py:49
+#: qt/aqt/importing.py:52
 msgid "Ignore field"
 msgstr "忽略字段"
 
@@ -2132,11 +1664,12 @@ msgstr "当首字段匹配时忽略现有笔记"
 msgid "Ignore this update"
 msgstr "忽略这次更新"
 
-#: qt/aqt/importing.py:98 qt/aqt/importing.py:192 qt/aqt/importing.py:309 qt/aqt/forms/changemap.py:41 qt/aqt/forms/importing.py:103
+#: qt/aqt/importing.py:102 qt/aqt/importing.py:196 qt/aqt/importing.py:318
+#: qt/aqt/forms/changemap.py:41 qt/aqt/forms/importing.py:103
 msgid "Import"
 msgstr "导入"
 
-#: qt/aqt/deckbrowser.py:330
+#: qt/aqt/deckbrowser.py:318
 msgid "Import File"
 msgstr "导入文件"
 
@@ -2144,23 +1677,15 @@ msgstr "导入文件"
 msgid "Import even if existing note has same first field"
 msgstr "即使现有笔记含有相同首字段亦导入。"
 
-#: qt/aqt/importing.py:199 qt/aqt/importing.py:408
-msgid "Import failed.\n"
-msgstr "导入失败。\n"
-
-#: qt/aqt/importing.py:363
-msgid "Import failed. Debugging info:\n"
-msgstr "导入失败. 调试信息:\n"
-
 #: qt/aqt/forms/importing.py:104
 msgid "Import options"
 msgstr "导入选项"
 
-#: qt/aqt/importing.py:211
+#: qt/aqt/importing.py:218 qt/aqt/importing.py:529
 msgid "Importing complete."
 msgstr "导入成功。"
 
-#: qt/aqt/main.py:1135
+#: qt/aqt/main.py:1196
 #, python-format
 msgid ""
 "In order to ensure your collection works correctly when moved between devices, Anki requires your computer's internal clock to be set correctly. The internal clock can be wrong even if your system is showing the correct local time.\n"
@@ -2203,7 +1728,7 @@ msgstr "包含学习进度信息"
 msgid "Include tags"
 msgstr "包含标签"
 
-#: qt/aqt/forms/customstudy.py:103
+#: qt/aqt/forms/customstudy.py:104
 msgid "Increase today's new card limit"
 msgstr "增加今天的新卡片上限"
 
@@ -2211,7 +1736,7 @@ msgstr "增加今天的新卡片上限"
 msgid "Increase today's new card limit by"
 msgstr "增加了今天的新卡片上限"
 
-#: qt/aqt/forms/customstudy.py:104
+#: qt/aqt/forms/customstudy.py:105
 msgid "Increase today's review card limit"
 msgstr "增加今天的复习卡片上限"
 
@@ -2219,7 +1744,7 @@ msgstr "增加今天的复习卡片上限"
 msgid "Increase today's review limit by"
 msgstr "增加了今天的复习卡片上限"
 
-#: pylib/anki/consts.py:89
+#: pylib/anki/consts.py:118
 msgid "Increasing intervals"
 msgstr "增加间隔"
 
@@ -2227,11 +1752,11 @@ msgstr "增加间隔"
 msgid "Install Add-on"
 msgstr "安装插件"
 
-#: qt/aqt/addons.py:842
+#: qt/aqt/addons.py:870
 msgid "Install Add-on(s)"
 msgstr "安装附加组件"
 
-#: qt/aqt/addons.py:1351
+#: qt/aqt/addons.py:1409
 msgid "Install Anki add-on"
 msgstr "安装Anki插件"
 
@@ -2239,28 +1764,28 @@ msgstr "安装Anki插件"
 msgid "Install from file..."
 msgstr "从文件安装..."
 
-#: qt/aqt/addons.py:1374
+#: qt/aqt/addons.py:1432
 msgid "Installation complete"
 msgstr "安装结束"
 
-#: qt/aqt/addons.py:488
+#: qt/aqt/addons.py:493
 #, python-format
 msgid "Installed %(name)s"
 msgstr "已安装 %(name)s"
 
-#: qt/aqt/addons.py:991
+#: qt/aqt/addons.py:1019
 msgid "Installed successfully."
 msgstr "安装成功。"
 
-#: qt/aqt/forms/preferences.py:251 qt/aqt/forms/setlang.py:40
+#: qt/aqt/forms/setlang.py:40
 msgid "Interface language:"
 msgstr "界面语言:"
 
-#: qt/aqt/forms/preferences.py:256
+#: qt/aqt/forms/preferences.py:279
 msgid "Interrupt current audio when answering"
 msgstr "回答卡片时中断当前音频播放"
 
-#: pylib/anki/stats.py:45 qt/aqt/browser.py:720 qt/aqt/browser.py:1433
+#: qt/aqt/browser.py:739
 msgid "Interval"
 msgstr "间隔"
 
@@ -2268,80 +1793,63 @@ msgstr "间隔"
 msgid "Interval modifier"
 msgstr "间隔修饰符"
 
-#: pylib/anki/stats.py:615
+#: pylib/anki/stats.py:589
 msgid "Intervals"
 msgstr "间隔"
 
-#: qt/aqt/addons.py:467
+#: qt/aqt/addons.py:472
 msgid "Invalid add-on manifest."
 msgstr "无效的附加组件清单"
 
-#: qt/aqt/addons.py:978
+#: qt/aqt/addons.py:1006
 msgid "Invalid code, or add-on not available for your version of Anki."
 msgstr "无效代码，或该插件不支持此版本的 Anki"
 
-#: qt/aqt/addons.py:904
+#: qt/aqt/addons.py:932
 msgid "Invalid code."
 msgstr "代码非法。"
 
-#: qt/aqt/addons.py:1307
+#: qt/aqt/addons.py:1365
 msgid "Invalid configuration: "
 msgstr "配置无效： "
 
-#: qt/aqt/addons.py:1311
+#: qt/aqt/addons.py:1369
 msgid "Invalid configuration: top level object must be a map"
 msgstr "无效配置：顶层对象必须为map。"
 
-#: pylib/anki/media.py:306
-#, python-format
-msgid "Invalid file name, please rename: %s"
-msgstr "非法文件名，请重命名：%s"
-
-#: qt/aqt/importing.py:394
-msgid "Invalid file. Please restore from backup."
-msgstr "文件不合法. 请从备份恢复."
-
-#: qt/aqt/main.py:1185
+#: qt/aqt/main.py:1256
 msgid "Invalid property found on card. Please use Tools>Check Database, and if the problem comes up again, please ask on the support site."
 msgstr "在卡片中发现无效属性。请使用 工具>检查数据库，如果该问题仍存在，请到网站寻求帮助。"
 
-#: qt/aqt/browser.py:2124
-msgid "Invalid regular expression."
-msgstr "无效的正则表达式"
-
-#: qt/aqt/browser.py:188
-msgid "Invalid search - please check for typing mistakes."
-msgstr "非法的搜索 - 请检查拼写"
-
-#: qt/aqt/reviewer.py:662
+#: qt/aqt/reviewer.py:667
 msgid "It has been suspended."
 msgstr "已经被暂停."
 
-#: qt/aqt/editor.py:106
+#: qt/aqt/editor.py:117
 msgid "Italic text (Ctrl+I)"
 msgstr "斜体 (Ctrl+I)"
 
-#: qt/aqt/editor.py:522
+#: qt/aqt/editor.py:565
 msgid "Jump to tags with Ctrl+Shift+T"
 msgstr "用Ctrl+Shift+T跳到标签"
 
-#: qt/aqt/forms/preferences.py:280
+#: qt/aqt/forms/preferences.py:307
 msgid "Keep"
 msgstr "保留"
 
-#: qt/aqt/editor.py:876 qt/aqt/forms/modelopts.py:67
+#: qt/aqt/editor.py:932 qt/aqt/forms/modelopts.py:67
 msgid "LaTeX"
 msgstr "LaTeX"
 
-#: qt/aqt/editor.py:877
+#: qt/aqt/editor.py:933
 msgid "LaTeX equation"
 msgstr "LaTeX 公式"
 
-#: qt/aqt/editor.py:878
+#: qt/aqt/editor.py:934
 msgid "LaTeX math env."
 msgstr "LaTeX数学环境"
 
-#: pylib/anki/stats.py:48 qt/aqt/browser.py:723 qt/aqt/forms/dconf.py:372
+#: qt/aqt/browser.py:742 qt/aqt/forms/dconf.py:372
 msgid "Lapses"
 msgstr "失误次数"
 
@@ -2349,28 +1857,24 @@ msgstr "失误次数"
 msgid "Last Card"
 msgstr "最后一张卡片"
 
-#: pylib/anki/stats.py:32
-msgid "Latest Review"
-msgstr "最近的复习"
-
-#: pylib/anki/consts.py:94
+#: pylib/anki/consts.py:123
 msgid "Latest added first"
 msgstr "最后添加的先复习"
 
-#: pylib/anki/stats.py:375 pylib/anki/stats.py:395 qt/aqt/browser.py:1443
+#: pylib/anki/stats.py:344 pylib/anki/stats.py:364
 msgid "Learn"
 msgstr "学习"
 
-#: qt/aqt/forms/preferences.py:267
+#: qt/aqt/forms/preferences.py:295
 msgid "Learn ahead limit"
 msgstr "先学习的上限"
 
-#: pylib/anki/stats.py:192
+#: pylib/anki/stats.py:157
 #, python-format
 msgid "Learn: %(a)s, Review: %(b)s, Relearn: %(c)s, Filtered: %(d)s"
 msgstr "学习: %(a)s, 复习: %(b)s, 重新学习: %(c)s, 已过滤: %(d)s"
 
-#: pylib/anki/stats.py:705 qt/aqt/browser.py:1242 qt/aqt/overview.py:207
+#: pylib/anki/stats.py:679 qt/aqt/browser.py:1276 qt/aqt/overview.py:225
 msgid "Learning"
 msgstr "正在进行的课程"
 
@@ -2382,7 +1886,7 @@ msgstr "记忆难点动作"
 msgid "Leech threshold"
 msgstr "难点阈值"
 
-#: pylib/anki/consts.py:80
+#: pylib/anki/consts.py:109
 msgid "Left"
 msgstr "左对齐"
 
@@ -2390,19 +1894,15 @@ msgstr "左对齐"
 msgid "Limit to"
 msgstr "限制为"
 
-#: qt/aqt/utils.py:38
+#: qt/aqt/utils.py:51
 msgid "Loading..."
 msgstr "正在载入..."
 
-#: qt/aqt/sync.py:298
-msgid "Local collection has no cards. Download from AnkiWeb?"
-msgstr "本地集合没有任何卡片，您需要从 AnkiWeb 下载吗？"
-
-#: pylib/anki/stats.py:638
+#: pylib/anki/stats.py:612
 msgid "Longest interval"
 msgstr "最长间隔"
 
-#: pylib/anki/stats.py:896
+#: pylib/anki/stats.py:870
 msgid "Lowest ease"
 msgstr "最低简化"
 
@@ -2418,40 +1918,41 @@ msgstr "管理笔记类型"
 msgid "Manage Note Types..."
 msgstr "管理笔记类型…"
 
-#: qt/aqt/browser.py:1299 qt/aqt/forms/dconf.py:339
+#: qt/aqt/browser.py:1334 qt/aqt/forms/dconf.py:339
 msgid "Manage..."
 msgstr "管理..."
 
-#: qt/aqt/overview.py:112
+#: qt/aqt/overview.py:132
 msgid "Manually Buried Cards"
 msgstr "已手动焚毁的卡片"
 
-#: qt/aqt/importing.py:42
+#: qt/aqt/importing.py:45
 #, python-format
 msgid "Map to %s"
 msgstr "对应到 %s"
 
-#: qt/aqt/importing.py:48
+#: qt/aqt/importing.py:51
 msgid "Map to Tags"
 msgstr "对应到标签"
 
-#: qt/aqt/reviewer.py:701
+#: qt/aqt/reviewer.py:706
 msgid "Mark Note"
 msgstr "标注笔记"
 
-#: qt/aqt/editor.py:874
+#: qt/aqt/editor.py:930
 msgid "MathJax block"
 msgstr "MathJax 字块"
 
-#: qt/aqt/editor.py:875
+#: qt/aqt/editor.py:931
 msgid "MathJax chemistry"
 msgstr "MathJax 化学"
 
-#: qt/aqt/editor.py:873
+#: qt/aqt/editor.py:929
 msgid "MathJax inline"
 msgstr "内联MathJax"
 
-#: pylib/anki/stats.py:245 pylib/anki/stats.py:372 pylib/anki/stats.py:392 pylib/anki/stats.py:707 pylib/anki/stats.py:877
+#: pylib/anki/stats.py:210 pylib/anki/stats.py:341 pylib/anki/stats.py:361
+#: pylib/anki/stats.py:681 pylib/anki/stats.py:851
 msgid "Mature"
 msgstr "熟练"
 
@@ -2463,7 +1964,7 @@ msgstr "最大间隔"
 msgid "Maximum reviews/day"
 msgstr "最大复习数/天"
 
-#: qt/aqt/editor.py:652
+#: qt/aqt/editor.py:693
 msgid "Media"
 msgstr "媒体"
 
@@ -2471,11 +1972,11 @@ msgstr "媒体"
 msgid "Minimum interval"
 msgstr "最小间隔"
 
-#: pylib/anki/stats.py:400
+#: pylib/anki/stats.py:369
 msgid "Minutes"
 msgstr "分钟"
 
-#: pylib/anki/consts.py:71
+#: pylib/anki/consts.py:100
 msgid "Mix new cards and reviews"
 msgstr "混合新卡片和复习"
 
@@ -2483,19 +1984,15 @@ msgstr "混合新卡片和复习"
 msgid "Mnemosyne 2.0 Deck (*.db)"
 msgstr "Mnemosyne 2.0 牌组 (*.db)"
 
-#: qt/aqt/reviewer.py:557
+#: qt/aqt/reviewer.py:562
 msgid "More"
 msgstr "更多"
 
-#: pylib/anki/template.py:132 pylib/anki/template.py:143
-msgid "More info"
-msgstr ""
-
-#: pylib/anki/consts.py:91
+#: pylib/anki/consts.py:120
 msgid "Most lapses"
 msgstr "最多失误数"
 
-#: qt/aqt/browser.py:1821
+#: qt/aqt/browser.py:1587
 msgid "Move Cards"
 msgstr "移动卡片"
 
@@ -2503,7 +2000,7 @@ msgstr "移动卡片"
 msgid "Move cards to deck:"
 msgstr "移动卡片到牌组:"
 
-#: qt/aqt/importing.py:139
+#: qt/aqt/importing.py:143
 msgid "Multi-character separators are not supported. Please enter one character only."
 msgstr "不支持分隔多个字符，请只输入一个字符。"
 
@@ -2511,23 +2008,23 @@ msgstr "不支持分隔多个字符，请只输入一个字符。"
 msgid "N&ote"
 msgstr "笔记(N&)"
 
-#: qt/aqt/main.py:254 qt/aqt/main.py:268
+#: qt/aqt/main.py:274 qt/aqt/main.py:288
 msgid "Name exists."
 msgstr "姓名存在."
 
-#: qt/aqt/deckbrowser.py:67
+#: qt/aqt/deckbrowser.py:82
 msgid "Name for deck:"
 msgstr "记忆库名字:"
 
-#: qt/aqt/main.py:251 qt/aqt/models.py:96
+#: qt/aqt/main.py:271 qt/aqt/models.py:112
 msgid "Name:"
 msgstr "名称:"
 
-#: qt/aqt/forms/preferences.py:278
+#: qt/aqt/forms/preferences.py:305
 msgid "Network"
 msgstr "网络"
 
-#: qt/aqt/browser.py:1241 qt/aqt/deckbrowser.py:163 qt/aqt/overview.py:205
+#: qt/aqt/browser.py:1275 qt/aqt/deckbrowser.py:157 qt/aqt/overview.py:223
 msgid "New"
 msgstr "新建"
 
@@ -2540,7 +2037,7 @@ msgstr "新卡片"
 msgid "New cards in deck over today limit: %s"
 msgstr "集合中的新卡片超出今日上限：%s"
 
-#: qt/aqt/forms/customstudy.py:110
+#: qt/aqt/forms/customstudy.py:111
 msgid "New cards only"
 msgstr "仅新卡片"
 
@@ -2548,7 +2045,7 @@ msgstr "仅新卡片"
 msgid "New cards/day"
 msgstr "新卡片/天"
 
-#: qt/aqt/deckbrowser.py:269 qt/aqt/studydeck.py:142
+#: qt/aqt/deckbrowser.py:254 qt/aqt/studydeck.py:147
 msgid "New deck name:"
 msgstr "新记忆库名称:"
 
@@ -2556,7 +2053,8 @@ msgstr "新记忆库名称:"
 msgid "New interval"
 msgstr "新间隔"
 
-#: qt/aqt/clayout.py:388 qt/aqt/deckconf.py:139 qt/aqt/fields.py:72 qt/aqt/main.py:262 qt/aqt/models.py:67
+#: qt/aqt/clayout.py:533 qt/aqt/deckconf.py:146 qt/aqt/fields.py:97
+#: qt/aqt/main.py:282 qt/aqt/models.py:76
 msgid "New name:"
 msgstr "新名称："
 
@@ -2564,99 +2062,79 @@ msgstr "新名称："
 msgid "New note type:"
 msgstr "新笔记类型:"
 
-#: qt/aqt/deckconf.py:117
+#: qt/aqt/deckconf.py:119
 msgid "New options group name:"
 msgstr "新选项组名称:"
 
-#: qt/aqt/fields.py:109
+#: qt/aqt/fields.py:136
 #, python-format
 msgid "New position (1...%d):"
 msgstr "新位置 (1...%d):"
 
-#: qt/aqt/forms/preferences.py:266
+#: qt/aqt/forms/preferences.py:297
 msgid "Next day starts at"
 msgstr "下一天开始"
 
-#: qt/aqt/forms/preferences.py:259
+#: qt/aqt/forms/preferences.py:282
 msgid "Night mode"
 msgstr "夜间模式"
 
-#: qt/aqt/browser.py:1253
+#: qt/aqt/browser.py:1287
 msgid "No Flag"
 msgstr "无标注"
 
-#: qt/aqt/overview.py:49
+#: qt/aqt/overview.py:69
 msgid "No cards are due yet."
 msgstr "还没有卡片到期."
 
-#: pylib/anki/stats.py:210
+#: pylib/anki/stats.py:175
 msgid "No cards have been studied today."
 msgstr "今天无卡片被学习过"
 
-#: qt/aqt/customstudy.py:185
+#: qt/aqt/customstudy.py:190
 msgid "No cards matched the criteria you provided."
 msgstr "没有卡片满足你提供的标准."
 
-#: qt/aqt/main.py:1370
-msgid "No empty cards."
-msgstr "没有空卡片."
-
-#: pylib/anki/stats.py:208
+#: pylib/anki/stats.py:173
 msgid "No mature cards were studied today."
 msgstr "今天没有到期卡片被学习"
 
-#: qt/aqt/main.py:1295
-msgid "No unused or missing files found."
-msgstr "没有找到未使用或缺失的文件"
-
-#: qt/aqt/addons.py:836
+#: qt/aqt/addons.py:864
 msgid "No updates available."
 msgstr "没有可用更新"
 
-#: qt/aqt/browser.py:725
+#: qt/aqt/browser.py:744
 msgid "Note"
 msgstr "笔记"
 
-#: pylib/anki/stats.py:60
-msgid "Note ID"
-msgstr "笔记 ID"
-
-#: pylib/anki/stats.py:58
-msgid "Note Type"
-msgstr "笔记类型"
-
-#: qt/aqt/browser.py:1297 qt/aqt/models.py:31 qt/aqt/forms/models.py:54
+#: qt/aqt/browser.py:1332 qt/aqt/models.py:35 qt/aqt/forms/models.py:54
 msgid "Note Types"
 msgstr "笔记类型"
 
-#: qt/aqt/reviewer.py:793
+#: qt/aqt/reviewer.py:798
 #, python-format
 msgid "Note and its %d card deleted."
 msgid_plural "Note and its %d cards deleted."
 msgstr[0] "笔记及它的%d张卡片被删除."
 
-#: qt/aqt/reviewer.py:808
+#: qt/aqt/reviewer.py:813
 msgid "Note buried."
 msgstr "已搁置的笔记"
 
-#: qt/aqt/reviewer.py:773
+#: qt/aqt/reviewer.py:778
 msgid "Note suspended."
 msgstr "暂停的笔记"
 
-#: qt/aqt/forms/preferences.py:283
+#: qt/aqt/forms/preferences.py:310
 msgid "Note: Media is not backed up. Please create a periodic backup of your Anki folder to be safe."
 msgstr "注意: 媒体文件没有被备份. 为了安全请定期备份你的Anki文件夹."
 
-#: qt/aqt/browser.py:1477
-msgid "Note: Some of the history is missing. For more information, please see the browser documentation."
-msgstr "注意: 部分历史已经丢失. 更多详细信息请查看浏览器文档."
-
-#: pylib/anki/importing/anki2.py:151
+#: pylib/anki/importing/anki2.py:149
 #, python-format
 msgid "Notes added from file: %d"
 msgstr "从文件中添加的笔记：%d"
 
-#: pylib/anki/importing/anki2.py:139
+#: pylib/anki/importing/anki2.py:137
 #, python-format
 msgid "Notes found in file: %d"
 msgstr "文件中找到的笔记 : %d"
@@ -2665,30 +2143,30 @@ msgstr "文件中找到的笔记 : %d"
 msgid "Notes in Plain Text"
 msgstr "纯文本格式的笔记"
 
-#: qt/aqt/fields.py:94
+#: qt/aqt/fields.py:121
 msgid "Notes require at least one field."
 msgstr "笔记需要至少一个字段."
 
-#: pylib/anki/importing/anki2.py:154
+#: pylib/anki/importing/anki2.py:152
 #, python-format
 msgid "Notes skipped, as they're already in your collection: %d"
 msgstr "因已存在于您的收藏中而跳过的笔记：%d"
 
-#: qt/aqt/browser.py:2219
+#: qt/aqt/browser.py:2024
 msgid "Notes tagged."
 msgstr "已标注的笔记"
 
-#: pylib/anki/importing/anki2.py:143
+#: pylib/anki/importing/anki2.py:141
 #, python-format
 msgid "Notes that could not be imported as note type has changed: %d"
 msgstr "无法作为注释类型导入的笔记已经改变: %d"
 
-#: pylib/anki/importing/anki2.py:148
+#: pylib/anki/importing/anki2.py:146
 #, python-format
 msgid "Notes updated, as file had newer version: %d"
 msgstr "因文件有新版本而更新的笔记：%d"
 
-#: qt/aqt/browser.py:2373
+#: qt/aqt/browser.py:2178
 msgid "Nothing"
 msgstr "无"
 
@@ -2696,53 +2174,45 @@ msgstr "无"
 msgid "OK"
 msgstr "确定"
 
-#: pylib/anki/consts.py:87
+#: pylib/anki/consts.py:116
 msgid "Oldest seen first"
 msgstr "优先查看最旧的"
 
-#: qt/aqt/forms/preferences.py:276
+#: qt/aqt/forms/preferences.py:303
 msgid "On next sync, force changes in one direction"
 msgstr "在下一次同步时, 强制单方向的改变."
 
-#: qt/aqt/addons.py:1080
+#: qt/aqt/addons.py:1108
 msgid "One or more errors occurred:"
 msgstr "发生一个或多个错误："
 
-#: pylib/anki/importing/noteimp.py:231
-msgid ""
-"One or more notes were not imported, because they didn't generate any cards. This can happen when you have empty fields or when you have not mapped the content in the text file to the correct "
-"fields."
-msgstr "因其无法生成卡片，一个或多个笔记没有导入。这种情况通常是因为您把卡片的一栏空了出来或相应的文字无法映射到对应的卡片的栏目中。"
-
-#: qt/aqt/browser.py:1971
+#: qt/aqt/browser.py:1738
 msgid "Only new cards can be repositioned."
 msgstr "只有新卡片可以被重新定位."
 
-#: qt/aqt/sync.py:215
-msgid "Only one client can access AnkiWeb at a time. If a previous sync failed, please try again in a few minutes."
-msgstr "一次只能用一个用户登录AnkiWeb，如果之前的同步失败，请在几分钟后重试。"
-
-#: qt/aqt/forms/profiles.py:75
+#: qt/aqt/forms/profiles.py:80
 msgid "Open"
 msgstr "打开"
 
-#: qt/aqt/forms/profiles.py:80
+#: qt/aqt/forms/profiles.py:85
 msgid "Open Backup..."
 msgstr "打开备份..."
 
-#: qt/aqt/main.py:570
+#: qt/aqt/main.py:622
 msgid "Optimizing..."
 msgstr "优化中..."
 
-#: qt/aqt/forms/finddupes.py:63
+#: qt/aqt/forms/finddupes.py:71
 msgid "Optional filter:"
 msgstr "可选过滤器："
 
-#: qt/aqt/clayout.py:107 qt/aqt/deckbrowser.py:253 qt/aqt/deckconf.py:31 qt/aqt/dyndeckconf.py:24 qt/aqt/overview.py:228 qt/aqt/reviewer.py:707 qt/aqt/forms/dyndconf.py:142 qt/aqt/forms/fields.py:108
+#: qt/aqt/clayout.py:109 qt/aqt/deckbrowser.py:238 qt/aqt/deckconf.py:35
+#: qt/aqt/dyndeckconf.py:24 qt/aqt/overview.py:246 qt/aqt/reviewer.py:712
+#: qt/aqt/forms/dyndconf.py:142 qt/aqt/forms/fields.py:109
 msgid "Options"
 msgstr "选项"
 
-#: qt/aqt/deckconf.py:40 qt/aqt/dyndeckconf.py:27 qt/aqt/models.py:124
+#: qt/aqt/deckconf.py:45 qt/aqt/dyndeckconf.py:27 qt/aqt/models.py:150
 #, python-format
 msgid "Options for %s"
 msgstr "%s 选项"
@@ -2751,11 +2221,11 @@ msgstr "%s 选项"
 msgid "Options group:"
 msgstr "选项组:"
 
-#: qt/aqt/models.py:58
+#: qt/aqt/models.py:63
 msgid "Options..."
 msgstr "选项..."
 
-#: qt/aqt/browser.py:1250 qt/aqt/reviewer.py:682 qt/aqt/forms/browser.py:334
+#: qt/aqt/browser.py:1284 qt/aqt/reviewer.py:687 qt/aqt/forms/browser.py:334
 msgid "Orange Flag"
 msgstr "橙色标记"
 
@@ -2763,11 +2233,11 @@ msgstr "橙色标记"
 msgid "Order"
 msgstr "顺序"
 
-#: pylib/anki/consts.py:92
+#: pylib/anki/consts.py:121
 msgid "Order added"
 msgstr "增加顺序"
 
-#: pylib/anki/consts.py:93
+#: pylib/anki/consts.py:122
 msgid "Order due"
 msgstr "到期顺序"
 
@@ -2783,7 +2253,7 @@ msgstr "覆盖字体："
 msgid "Override front template:"
 msgstr "忽略正面模版"
 
-#: qt/aqt/addons.py:840
+#: qt/aqt/addons.py:868
 msgid "Packaged Anki Add-on"
 msgstr "已打包的Anki扩展组件"
 
@@ -2791,19 +2261,15 @@ msgstr "已打包的Anki扩展组件"
 msgid "Packaged Anki Deck/Collection (*.apkg *.colpkg *.zip)"
 msgstr "打包的 Anki 集合 (*.apkg *.colpkg *.zip)"
 
-#: qt/aqt/sync.py:274
-msgid "Password:"
-msgstr "密码："
-
-#: qt/aqt/editor.py:1117
+#: qt/aqt/editor.py:1176
 msgid "Paste"
 msgstr "粘贴"
 
-#: qt/aqt/forms/preferences.py:257
+#: qt/aqt/forms/preferences.py:280
 msgid "Paste clipboard images as PNG"
 msgstr "把剪切板图像保存为PNG"
 
-#: qt/aqt/forms/preferences.py:258
+#: qt/aqt/forms/preferences.py:281
 msgid "Paste without shift key strips formatting"
 msgstr "不按Shift键粘贴会删除格式化字符"
 
@@ -2811,18 +2277,22 @@ msgstr "不按Shift键粘贴会删除格式化字符"
 msgid "Pauker 1.8 Lesson (*.pau.gz)"
 msgstr "Pauker 1.8 课件 (*.pau.gz)"
 
-#: qt/aqt/reviewer.py:710
+#: qt/aqt/reviewer.py:715
 msgid "Pause Audio"
 msgstr "暂停音频"
 
-#: pylib/anki/stats.py:618
+#: pylib/anki/stats.py:592
 msgid "Percentage"
 msgstr "百分比"
 
-#: pylib/anki/stats.py:966
+#: pylib/anki/stats.py:942
 #, python-format
 msgid "Period: %s"
 msgstr "周期: %s"
+
+#: qt/aqt/forms/preferences.py:302
+msgid "Periodically sync media"
+msgstr ""
 
 #: qt/aqt/forms/reschedule.py:74
 msgid "Place at end of new card queue"
@@ -2832,93 +2302,77 @@ msgstr "放到新卡片队列队尾"
 msgid "Place in review queue with interval between:"
 msgstr "放入复习队列的时间间隔:"
 
-#: qt/aqt/models.py:105
+#: qt/aqt/models.py:119
 msgid "Please add another note type first."
 msgstr "请先加入另一个笔记类型."
 
-#: qt/aqt/addons.py:984
+#: qt/aqt/addons.py:1012
 msgid "Please check your internet connection."
 msgstr "请检查您的互联网连接。"
 
-#: qt/aqt/errors.py:94
+#: qt/aqt/errors.py:88
 msgid "Please connect a microphone, and ensure other programs are not using the audio device."
 msgstr "请连接一个麦克风, 并保证其他程序没有在使用音频设备."
 
-#: qt/aqt/main.py:1544
+#: qt/aqt/main.py:1574
 msgid "Please ensure a profile is open and Anki is not busy, then try again."
 msgstr "请确保打开了一个配置文件并且Anki没有处于繁忙中，然后再试一次。"
 
-#: qt/aqt/browser.py:1352
+#: qt/aqt/browser.py:1387
 msgid "Please give your filter a name:"
 msgstr "请命名您的过滤器："
 
-#: qt/aqt/errors.py:84
-msgid "Please install PyAudio"
-msgstr "请安装PyAudio"
-
-#: qt/aqt/profiles.py:227
+#: qt/aqt/profiles.py:302
 #, python-format
 msgid "Please remove the folder %s and try again."
 msgstr "请删除目录 %s 后再重试。"
 
-#: qt/aqt/addons.py:1377
+#: qt/aqt/addons.py:1435
 msgid "Please report this to the respective add-on author(s)."
 msgstr "请将此报告给相应的扩展组件开发者"
 
-#: qt/aqt/preferences.py:69
+#: qt/aqt/preferences.py:72
 msgid "Please restart Anki to complete language change."
 msgstr "请重启 Anki 以完成语言切换"
 
-#: qt/aqt/reviewer.py:373
+#: qt/aqt/reviewer.py:375
 msgid "Please run Tools>Empty Cards"
 msgstr "请运行 工具>空卡片"
 
-#: qt/aqt/main.py:609
+#: qt/aqt/main.py:653
 msgid "Please select a deck."
 msgstr "请选择一个记忆库."
 
-#: qt/aqt/addons.py:775
+#: qt/aqt/addons.py:803
 msgid "Please select a single add-on first."
 msgstr "请先选择一个插件。"
 
-#: qt/aqt/browser.py:1522
+#: qt/aqt/browser.py:1487
 msgid "Please select cards from only one note type."
 msgstr "请选择同一种笔记类型的卡片."
 
-#: qt/aqt/studydeck.py:126
+#: qt/aqt/studydeck.py:131
 msgid "Please select something."
 msgstr "请选择一些东西."
 
-#: qt/aqt/sync.py:197
-msgid "Please upgrade to the latest version of Anki."
-msgstr "请升级到最新版本的Anki."
-
-#: qt/aqt/main.py:1033
+#: qt/aqt/main.py:1093
 msgid "Please use File>Import to import this file."
 msgstr "请使用 文件>导入 来导入这个文件."
 
-#: qt/aqt/sync.py:140
-msgid "Please visit AnkiWeb, upgrade your deck, then try again."
-msgstr "请访问AnkiWeb, 升级你的记忆库并重试."
-
-#: pylib/anki/stats.py:56
-msgid "Position"
-msgstr "位置"
-
-#: qt/aqt/forms/preferences.py:250
+#: qt/aqt/forms/preferences.py:276
 msgid "Preferences"
 msgstr "偏好设置"
 
-#: qt/aqt/browser.py:1558 qt/aqt/forms/browser.py:296
+#: qt/aqt/previewer.py:62 qt/aqt/forms/browser.py:296
 msgid "Preview"
 msgstr "预览"
 
-#: qt/aqt/browser.py:593
+#: qt/aqt/browser.py:614
 #, python-format
 msgid "Preview Selected Card (%s)"
 msgstr "预览选择的卡片 (%s)"
 
-#: qt/aqt/forms/customstudy.py:106
+#: qt/aqt/forms/customstudy.py:107
 msgid "Preview new cards"
 msgstr "预览新卡片"
 
@@ -2926,47 +2380,43 @@ msgstr "预览新卡片"
 msgid "Preview new cards added in the last"
 msgstr "预览加到最后的新卡片"
 
-#: qt/aqt/importing.py:486
+#: qt/aqt/importing.py:499
 #, python-format
 msgid "Processed %d media file"
 msgid_plural "Processed %d media files"
 msgstr[0] "已处理%d个媒体文件"
 
-#: qt/aqt/progress.py:119
+#: qt/aqt/progress.py:66
 msgid "Processing..."
 msgstr "处理中..."
 
-#: qt/aqt/profiles.py:174
+#: qt/aqt/profiles.py:249
 msgid "Profile Corrupt"
 msgstr "资料损坏。"
 
-#: qt/aqt/forms/profiles.py:74
+#: qt/aqt/forms/profiles.py:79
 msgid "Profiles"
 msgstr "个人配置文件"
 
-#: qt/aqt/sync.py:231
-msgid "Proxy authentication required."
-msgstr "需要代理授权."
-
-#: qt/aqt/browser.py:711
+#: qt/aqt/browser.py:730
 msgid "Question"
 msgstr "问题"
 
-#: qt/aqt/browser.py:1982
+#: qt/aqt/browser.py:1749
 #, python-format
 msgid "Queue bottom: %d"
 msgstr "队尾: %d"
 
-#: qt/aqt/browser.py:1981
+#: qt/aqt/browser.py:1748
 #, python-format
 msgid "Queue top: %d"
 msgstr "队首: %d"
 
-#: qt/aqt/forms/profiles.py:79
+#: qt/aqt/forms/profiles.py:84
 msgid "Quit"
 msgstr "退出"
 
-#: pylib/anki/consts.py:88
+#: pylib/anki/consts.py:117
 msgid "Random"
 msgstr "随机"
 
@@ -2974,53 +2424,49 @@ msgstr "随机"
 msgid "Randomize order"
 msgstr "随机顺序"
 
-#: qt/aqt/browser.py:1432
-msgid "Rating"
-msgstr "评分"
-
-#: qt/aqt/dyndeckconf.py:22 qt/aqt/overview.py:231
+#: qt/aqt/dyndeckconf.py:22 qt/aqt/overview.py:249
 msgid "Rebuild"
 msgstr "重建"
 
-#: qt/aqt/reviewer.py:713
+#: qt/aqt/reviewer.py:718
 msgid "Record Own Voice"
 msgstr "录制自己的声音"
 
-#: qt/aqt/editor.py:142
+#: qt/aqt/editor.py:168
 msgid "Record audio (F5)"
 msgstr "录制音频 (F5)"
 
-#: qt/aqt/sound.py:530
+#: qt/aqt/sound.py:556
 #, python-format
 msgid "Recording...<br>Time: %0.1f"
 msgstr "录音中...<br>时间: %0.1f"
 
-#: qt/aqt/browser.py:1249 qt/aqt/reviewer.py:676 qt/aqt/forms/browser.py:333
+#: qt/aqt/browser.py:1283 qt/aqt/reviewer.py:681 qt/aqt/forms/browser.py:333
 msgid "Red Flag"
 msgstr "红色标注"
 
-#: pylib/anki/consts.py:95
+#: pylib/anki/consts.py:124
 msgid "Relative overdueness"
 msgstr "按照相对过期程度"
 
-#: pylib/anki/stats.py:374 pylib/anki/stats.py:394 qt/aqt/browser.py:1443
+#: pylib/anki/stats.py:343 pylib/anki/stats.py:363
 msgid "Relearn"
 msgstr "重新学习"
 
-#: qt/aqt/forms/fields.py:107
+#: qt/aqt/forms/fields.py:108
 msgid "Remember last input when adding"
 msgstr "当添加时记住上一次输入"
 
-#: qt/aqt/browser.py:1362
+#: qt/aqt/browser.py:1398
 #, python-format
 msgid "Remove %s from your saved searches?"
 msgstr "将 %s 从您保存的搜索中移除？"
 
-#: qt/aqt/clayout.py:474
+#: qt/aqt/clayout.py:626
 msgid "Remove Card Type..."
 msgstr "移除卡片类型…"
 
-#: qt/aqt/browser.py:1337
+#: qt/aqt/browser.py:1372
 msgid "Remove Current Filter..."
 msgstr "移除当前过滤器…"
 
@@ -3028,23 +2474,20 @@ msgstr "移除当前过滤器…"
 msgid "Remove Tags..."
 msgstr "移除标签…"
 
-#: qt/aqt/editor.py:115
+#: qt/aqt/editor.py:126
 msgid "Remove formatting (Ctrl+R)"
 msgstr "清除格式 (Ctrl+R)"
 
-#: qt/aqt/clayout.py:250
-msgid "Removing this card type would cause one or more notes to be deleted. Please create a new card type first."
-msgstr "移除这个卡片类型将会导致一个或多个卡片被删除。请先建立一个新的卡片类型。"
-
-#: qt/aqt/deckbrowser.py:251 qt/aqt/deckconf.py:85 qt/aqt/models.py:49 qt/aqt/forms/fields.py:103 qt/aqt/forms/profiles.py:77
+#: qt/aqt/deckbrowser.py:236 qt/aqt/deckconf.py:91 qt/aqt/models.py:54
+#: qt/aqt/forms/fields.py:104 qt/aqt/forms/profiles.py:82
 msgid "Rename"
 msgstr "重命名"
 
-#: qt/aqt/clayout.py:477
+#: qt/aqt/clayout.py:629
 msgid "Rename Card Type..."
 msgstr "重命名卡片类型…"
 
-#: qt/aqt/deckbrowser.py:266
+#: qt/aqt/deckbrowser.py:251
 msgid "Rename Deck"
 msgstr "重命名记忆库"
 
@@ -3052,23 +2495,23 @@ msgstr "重命名记忆库"
 msgid "Repeat failed cards after"
 msgstr "在 %s 后重复失败的卡片"
 
-#: qt/aqt/main.py:295
+#: qt/aqt/main.py:315
 msgid "Replace your collection with an earlier backup?"
 msgstr "用较早的备份替换现有的集合吗？"
 
-#: qt/aqt/browser.py:1569 qt/aqt/reviewer.py:709
+#: qt/aqt/previewer.py:73 qt/aqt/reviewer.py:714
 msgid "Replay Audio"
 msgstr "重新播放音频"
 
-#: qt/aqt/reviewer.py:714
+#: qt/aqt/reviewer.py:719
 msgid "Replay Own Voice"
 msgstr "重新播放自己的声音"
 
-#: qt/aqt/browser.py:1987 qt/aqt/forms/fields.py:104
+#: qt/aqt/browser.py:1754 qt/aqt/forms/fields.py:105
 msgid "Reposition"
 msgstr "重新定位"
 
-#: qt/aqt/clayout.py:480
+#: qt/aqt/clayout.py:632
 msgid "Reposition Card Type..."
 msgstr "改变卡片类型…"
 
@@ -3084,11 +2527,7 @@ msgstr "重新定位..."
 msgid "Require one or more of these tags:"
 msgstr "需要这些标签中的一个或者多个:"
 
-#: qt/aqt/browser.py:1443
-msgid "Resched"
-msgstr "重新计划"
-
-#: qt/aqt/browser.py:2013 qt/aqt/forms/reschedule.py:73
+#: qt/aqt/browser.py:1780 qt/aqt/forms/reschedule.py:73
 msgid "Reschedule"
 msgstr "重新安排进度"
 
@@ -3096,40 +2535,40 @@ msgstr "重新安排进度"
 msgid "Reschedule cards based on my answers in this deck"
 msgstr "基于我在此牌组中的回答重新定制卡片计划"
 
-#: qt/aqt/addons.py:1269
+#: qt/aqt/addons.py:1303
 msgid "Restored defaults"
 msgstr "已恢复初始状态"
 
-#: qt/aqt/main.py:670
+#: qt/aqt/main.py:712
 msgid "Resume Now"
 msgstr "现在恢复"
 
-#: qt/aqt/forms/fields.py:106
+#: qt/aqt/forms/fields.py:107
 msgid "Reverse text direction (RTL)"
 msgstr "文字反向(RTL)"
 
-#: qt/aqt/main.py:308
+#: qt/aqt/main.py:328
 msgid "Revert to backup"
 msgstr "恢复备份"
 
-#: qt/aqt/main.py:951
+#: qt/aqt/main.py:1007
 #, python-format
 msgid "Reverted to state prior to '%s'."
 msgstr "返回到\"%s\"之前的状态。"
 
-#: pylib/anki/collection.py:694 qt/aqt/browser.py:1243 qt/aqt/browser.py:1443
+#: pylib/anki/collection.py:567 qt/aqt/browser.py:1277
 msgid "Review"
 msgstr "复习"
 
-#: pylib/anki/stats.py:380
+#: pylib/anki/stats.py:349
 msgid "Review Count"
 msgstr "复习数量"
 
-#: pylib/anki/stats.py:406
+#: pylib/anki/stats.py:375
 msgid "Review Time"
 msgstr "复习时间"
 
-#: qt/aqt/forms/customstudy.py:101
+#: qt/aqt/forms/customstudy.py:102
 msgid "Review ahead"
 msgstr "提前复习"
 
@@ -3141,15 +2580,15 @@ msgstr "提前复习按"
 msgid "Review cards forgotten in last"
 msgstr "复习最后忘记的卡片"
 
-#: qt/aqt/forms/customstudy.py:102
+#: qt/aqt/forms/customstudy.py:103
 msgid "Review forgotten cards"
 msgstr "复习忘记的卡片"
 
-#: pylib/anki/stats.py:810
+#: pylib/anki/stats.py:784
 msgid "Review success rate for each hour of the day."
 msgstr "当天每小时的复习成功率"
 
-#: pylib/anki/stats.py:47 pylib/anki/stats.py:838 qt/aqt/browser.py:722 qt/aqt/forms/dconf.py:361
+#: pylib/anki/stats.py:812 qt/aqt/browser.py:741 qt/aqt/forms/dconf.py:361
 msgid "Reviews"
 msgstr "复习"
 
@@ -3158,36 +2597,43 @@ msgstr "复习"
 msgid "Reviews due in deck over today limit: %s"
 msgstr "集合中到期的复习数量超出今日上限：%s"
 
-#: pylib/anki/consts.py:81
+#: pylib/anki/consts.py:110
 msgid "Right"
 msgstr "右对齐"
 
-#: qt/aqt/sound.py:519
+#: qt/aqt/clayout.py:355 qt/aqt/sound.py:545
 msgid "Save"
 msgstr "保存"
 
-#: qt/aqt/browser.py:1339
+#: qt/aqt/browser.py:1374
 msgid "Save Current Filter..."
 msgstr "保存当前过滤器…"
 
-#: qt/aqt/stats.py:40 qt/aqt/stats.py:70
+#: qt/aqt/stats.py:41 qt/aqt/stats.py:65 qt/aqt/stats.py:117
+#: qt/aqt/stats.py:147
 msgid "Save PDF"
 msgstr "保存为 PDF"
 
-#: qt/aqt/stats.py:83
+#: qt/aqt/stats.py:78 qt/aqt/stats.py:160
 msgid "Saved."
 msgstr "已保存"
 
-#: pylib/anki/stats.py:964
+#: qt/aqt/forms/preferences.py:298
+#, fuzzy
+msgid "Scheduling"
+msgstr "重新安排进度"
+
+#: pylib/anki/stats.py:940
 #, python-format
 msgid "Scope: %s"
 msgstr "范围: %s"
 
-#: qt/aqt/browser.py:2175 qt/aqt/forms/browser.py:295 qt/aqt/forms/dyndconf.py:136 qt/aqt/forms/dyndconf.py:140
+#: qt/aqt/browser.py:1980 qt/aqt/forms/browser.py:295
+#: qt/aqt/forms/dyndconf.py:136 qt/aqt/forms/dyndconf.py:140
 msgid "Search"
 msgstr "搜索"
 
-#: qt/aqt/forms/finddupes.py:64
+#: qt/aqt/forms/finddupes.py:72
 msgid "Search in:"
 msgstr "搜寻位置："
 
@@ -3211,11 +2657,11 @@ msgstr "选择笔记(&N)"
 msgid "Select tags to exclude:"
 msgstr "选择排除的标签："
 
-#: qt/aqt/exporting.py:46
+#: qt/aqt/exporting.py:55
 msgid "Selected Notes"
 msgstr "选择的笔记"
 
-#: qt/aqt/importing.py:301
+#: qt/aqt/importing.py:310
 msgid "Selected file was not in UTF-8 format. Please see the importing section of the manual."
 msgstr "选择的文件不是UTF-8格式的。请查看帮助文档的导入部分。"
 
@@ -3223,28 +2669,24 @@ msgstr "选择的文件不是UTF-8格式的。请查看帮助文档的导入部�
 msgid "Selective Study"
 msgstr "选择性学习"
 
-#: qt/aqt/importing.py:167
+#: qt/aqt/importing.py:171
 msgid "Semicolon"
 msgstr "分号"
 
-#: qt/aqt/sync.py:227
-msgid "Server not found. Either your connection is down, or antivirus/firewall software is blocking Anki from connecting to the internet."
-msgstr "服务器没有找到。或者你的链接是中断的，或者杀毒软件/防火墙软件正在阻止Anki链接Internet。"
-
-#: qt/aqt/deckconf.py:147
+#: qt/aqt/deckconf.py:157
 #, python-format
 msgid "Set all decks below %s to this option group?"
 msgstr "将所有%s下的子记忆库设置到这个选项组?"
 
-#: qt/aqt/deckconf.py:87
+#: qt/aqt/deckconf.py:93
 msgid "Set for all subdecks"
 msgstr "对所有子记忆库设置"
 
-#: qt/aqt/editor.py:118
+#: qt/aqt/editor.py:129
 msgid "Set foreground colour (F7)"
 msgstr "设置前景色 (F7)"
 
-#: qt/aqt/main.py:101
+#: qt/aqt/main.py:111
 msgid "Shift key was held down. Skipping automatic syncing and add-on loading."
 msgstr "Shift键被按住。跳过自动同步以及插件加载。"
 
@@ -3252,34 +2694,42 @@ msgstr "Shift键被按住。跳过自动同步以及插件加载。"
 msgid "Shift position of existing cards"
 msgstr "改变已存在卡片状态"
 
-#: qt/aqt/browser.py:1573 qt/aqt/browser.py:1591 qt/aqt/deckbrowser.py:338 qt/aqt/main.py:698 qt/aqt/overview.py:241 qt/aqt/reviewer.py:556 qt/aqt/reviewer.py:569 qt/aqt/reviewer.py:635
-#: qt/aqt/toolbar.py:50 qt/aqt/toolbar.py:51 qt/aqt/toolbar.py:52 qt/aqt/toolbar.py:53 qt/aqt/toolbar.py:54
+#: qt/aqt/deckbrowser.py:326 qt/aqt/main.py:741 qt/aqt/overview.py:259
+#: qt/aqt/previewer.py:77 qt/aqt/previewer.py:82 qt/aqt/reviewer.py:561
+#: qt/aqt/reviewer.py:574 qt/aqt/reviewer.py:640 qt/aqt/toolbar.py:106
+#: qt/aqt/toolbar.py:113 qt/aqt/toolbar.py:120 qt/aqt/toolbar.py:127
+#: qt/aqt/toolbar.py:143
 #, python-format
 msgid "Shortcut key: %s"
 msgstr "快捷键: %s"
 
-#: qt/aqt/browser.py:1578
+#: qt/aqt/previewer.py:231
 msgid "Shortcut key: Left arrow"
 msgstr "快捷键：左方向键"
 
-#: qt/aqt/browser.py:1583
+#: qt/aqt/previewer.py:382
+#, fuzzy
+msgid "Shortcut key: Left or Right arrow"
+msgstr "快捷键：左方向键"
+
+#: qt/aqt/previewer.py:236
 msgid "Shortcut key: Right arrow or Enter"
 msgstr "快捷键：右方向键或回车键"
 
-#: qt/aqt/addcards.py:84
+#: qt/aqt/addcards.py:86
 #, python-format
 msgid "Shortcut: %s"
 msgstr "快捷键: %s"
 
-#: qt/aqt/reviewer.py:570
+#: qt/aqt/reviewer.py:575
 msgid "Show Answer"
 msgstr "显示答案"
 
-#: qt/aqt/browser.py:1589
+#: qt/aqt/previewer.py:80
 msgid "Show Both Sides"
 msgstr "显示双面"
 
-#: qt/aqt/editor.py:167
+#: qt/aqt/editor.py:193
 msgid "Show Duplicates"
 msgstr "显示重复"
 
@@ -3287,75 +2737,75 @@ msgstr "显示重复"
 msgid "Show answer timer"
 msgstr "显示回答计时器"
 
-#: qt/aqt/forms/preferences.py:260
+#: qt/aqt/forms/preferences.py:290
 msgid "Show learning cards with larger steps before reviews"
 msgstr "在复习前展示步伐更长且处于学习中的卡牌"
 
-#: pylib/anki/consts.py:72
+#: pylib/anki/consts.py:101
 msgid "Show new cards after reviews"
 msgstr "在复习后显示新卡片"
 
-#: pylib/anki/consts.py:73
+#: pylib/anki/consts.py:102
 msgid "Show new cards before reviews"
 msgstr "先学习新卡片，再复习"
 
-#: pylib/anki/consts.py:65
+#: pylib/anki/consts.py:94
 msgid "Show new cards in order added"
 msgstr "按创建顺序学习新卡片"
 
-#: pylib/anki/consts.py:64
+#: pylib/anki/consts.py:93
 msgid "Show new cards in random order"
 msgstr "按随机顺序学习新卡片"
 
-#: qt/aqt/forms/preferences.py:253
+#: qt/aqt/forms/preferences.py:288
 msgid "Show next review time above answer buttons"
 msgstr "在回答按钮上显示下一次复习时间"
 
-#: qt/aqt/forms/preferences.py:255
+#: qt/aqt/forms/preferences.py:278
 msgid "Show play buttons on cards with audio"
 msgstr "在卡片上显示音频按钮"
 
-#: qt/aqt/forms/preferences.py:254
+#: qt/aqt/forms/preferences.py:289
 msgid "Show remaining card count during review"
 msgstr "在复习的时候显示剩余的卡片计数"
 
-#: qt/aqt/browser.py:1043 qt/aqt/forms/browser.py:337
+#: qt/aqt/browser.py:1053 qt/aqt/forms/browser.py:337
 msgid "Sidebar"
 msgstr "侧边栏"
 
-#: qt/aqt/forms/addfield.py:77
+#: qt/aqt/forms/addfield.py:63
 msgid "Size:"
 msgstr "大小："
 
-#: pylib/anki/importing/anki2.py:162
+#: pylib/anki/importing/anki2.py:160
 msgid "Skipped"
 msgstr "已跳过"
 
-#: pylib/anki/sched.py:1296 pylib/anki/schedv2.py:1494
+#: pylib/anki/schedv2.py:1339
 msgid "Some related or buried cards were delayed until a later session."
 msgstr "一些相关或搁置卡片会被推迟到下一学习周期进行。"
 
-#: qt/aqt/forms/preferences.py:284
+#: qt/aqt/forms/preferences.py:311
 msgid "Some settings will take effect after you restart Anki."
 msgstr "某些设置将在Anki重新启动后生效"
 
-#: qt/aqt/browser.py:715
+#: qt/aqt/browser.py:734
 msgid "Sort Field"
 msgstr "排序字段"
 
-#: qt/aqt/forms/fields.py:109
+#: qt/aqt/forms/fields.py:110
 msgid "Sort by this field in the browser"
 msgstr "在浏览器中按照此字段排序"
 
-#: qt/aqt/browser.py:923
+#: qt/aqt/browser.py:929
 msgid "Sorting on this column is not supported. Please choose another."
 msgstr "不支持该列排序, 请选择另一列."
 
-#: qt/aqt/errors.py:88
+#: qt/aqt/sound.py:285
 msgid "Sound and video on cards will not function until mpv or mplayer is installed."
 msgstr "卡片上的音频及视频将不会被播放，除非已安装mpv或mplayer。"
 
-#: qt/aqt/importing.py:165 qt/aqt/reviewer.py:569
+#: qt/aqt/importing.py:169 qt/aqt/reviewer.py:574
 msgid "Space"
 msgstr "间隔"
 
@@ -3367,11 +2817,11 @@ msgstr "开始位置："
 msgid "Starting ease"
 msgstr "开始简化"
 
-#: qt/aqt/forms/stats.py:75
+#: qt/aqt/forms/stats.py:79
 msgid "Statistics"
 msgstr "统计"
 
-#: qt/aqt/toolbar.py:53
+#: qt/aqt/toolbar.py:125
 msgid "Stats"
 msgstr "统计"
 
@@ -3383,29 +2833,15 @@ msgstr "步幅:"
 msgid "Steps (in minutes)"
 msgstr "步伐 (以分钟计)"
 
-#: qt/aqt/deckconf.py:257 qt/aqt/dyndeckconf.py:156
+#: qt/aqt/deckconf.py:274 qt/aqt/dyndeckconf.py:156
 msgid "Steps must be numbers."
 msgstr "步伐必须是数字."
 
-#: qt/aqt/sync.py:61
-msgid "Stopping..."
-msgstr "正在停止..."
-
-#: pylib/anki/stats.py:178
-#, python-format
-msgid "Studied %(a)s %(b)s today (%(secs).1fs/card)"
-msgstr "今天学习了%(a)s %(b)s（%(secs).1f秒/张）"
-
-#: qt/aqt/deckbrowser.py:133
-#, python-format
-msgid "Studied %(a)s %(b)s today."
-msgstr "今天学习了%(a)s %(b)s。"
-
-#: qt/aqt/browser.py:1229
+#: qt/aqt/browser.py:1263
 msgid "Studied Today"
 msgstr "今天学习的"
 
-#: qt/aqt/studydeck.py:62
+#: qt/aqt/studydeck.py:67
 msgid "Study"
 msgstr "学习"
 
@@ -3417,23 +2853,15 @@ msgstr "学习牌组"
 msgid "Study Deck..."
 msgstr "学习牌组..."
 
-#: qt/aqt/overview.py:211
+#: qt/aqt/overview.py:229
 msgid "Study Now"
 msgstr "现在学习"
 
-#: qt/aqt/forms/customstudy.py:105
+#: qt/aqt/forms/customstudy.py:106
 msgid "Study by card state or tag"
 msgstr "按照卡片状态或者标签学习"
 
-#: qt/aqt/forms/template.py:108
-msgid "Styling"
-msgstr "样式"
-
-#: qt/aqt/clayout.py:185
-msgid "Styling (shared between cards)"
-msgstr "格式刷（卡片格式共享）"
-
-#: qt/aqt/editor.py:114
+#: qt/aqt/editor.py:125
 msgid "Subscript (Ctrl+=)"
 msgstr "下标(Ctrl+=)"
 
@@ -3441,64 +2869,43 @@ msgstr "下标(Ctrl+=)"
 msgid "Supermemo XML export (*.xml)"
 msgstr "Supermemo XML (*.xml)"
 
-#: qt/aqt/editor.py:112
+#: qt/aqt/editor.py:123
 msgid "Superscript (Ctrl++)"
 msgstr "上标(Ctrl++)"
 
-#: qt/aqt/reviewer.py:771 qt/aqt/reviewer.py:777
+#: qt/aqt/reviewer.py:776 qt/aqt/reviewer.py:782
 msgid "Suspend"
 msgstr "暂停"
 
-#: qt/aqt/reviewer.py:704 qt/aqt/forms/dconf.py:369
+#: qt/aqt/reviewer.py:709 qt/aqt/forms/dconf.py:369
 msgid "Suspend Card"
 msgstr "暂停卡片"
 
-#: qt/aqt/reviewer.py:705
+#: qt/aqt/reviewer.py:710
 msgid "Suspend Note"
 msgstr "暂停笔记"
 
-#: qt/aqt/browser.py:1246
+#: qt/aqt/browser.py:1280
 msgid "Suspended"
 msgstr "已暂停"
 
-#: pylib/anki/stats.py:880
+#: pylib/anki/stats.py:854
 msgid "Suspended+Buried"
 msgstr "暂停+搁置的"
 
-#: qt/aqt/toolbar.py:54 qt/aqt/forms/synclog.py:38
+#: qt/aqt/toolbar.py:142
 msgid "Sync"
 msgstr "同步"
 
-#: qt/aqt/forms/preferences.py:274
+#: qt/aqt/forms/preferences.py:300
 msgid "Synchronize audio and images too"
 msgstr "同时同步音频和图像"
 
-#: qt/aqt/sync.py:152
-#, python-format
-msgid ""
-"Syncing failed:\n"
-"%s"
-msgstr ""
-"同步失败:\n"
-"%s"
-
-#: qt/aqt/sync.py:119
-msgid "Syncing failed; internet offline."
-msgstr "同步失败; 网络离线."
-
-#: qt/aqt/sync.py:336
-msgid "Syncing requires the clock on your computer to be set correctly. Please fix the clock and try again."
-msgstr "同步需要计算机的时钟设置正确. 请检查时钟设置并重试."
-
-#: qt/aqt/sync.py:127
-msgid "Syncing..."
-msgstr "正在同步..."
-
-#: qt/aqt/importing.py:161
+#: qt/aqt/importing.py:165
 msgid "Tab"
 msgstr "制表符"
 
-#: qt/aqt/browser.py:2184 qt/aqt/browser.py:2211
+#: qt/aqt/browser.py:1989 qt/aqt/browser.py:2016
 msgid "Tag Duplicates"
 msgstr "复制标签"
 
@@ -3510,11 +2917,11 @@ msgstr "仅标记"
 msgid "Tag modified notes:"
 msgstr "已修改标签的笔记："
 
-#: qt/aqt/browser.py:724 qt/aqt/browser.py:1261 qt/aqt/editor.py:518
+#: qt/aqt/browser.py:743 qt/aqt/browser.py:1295 qt/aqt/editor.py:561
 msgid "Tags"
 msgstr "标签"
 
-#: qt/aqt/deckchooser.py:31
+#: qt/aqt/deckchooser.py:34
 msgid "Target Deck (Ctrl+D)"
 msgstr "目标牌组 (Ctrl+D)"
 
@@ -3522,99 +2929,67 @@ msgstr "目标牌组 (Ctrl+D)"
 msgid "Target field:"
 msgstr "目标栏目:"
 
-#: pylib/anki/stdmodels.py:102
-msgid "Text"
-msgstr "文字"
-
 #: pylib/anki/importing/__init__.py:13
 msgid "Text separated by tabs or semicolons (*)"
 msgstr "按制表符或者分号分隔的文本 (*)"
 
-#: pylib/anki/decks.py:283
-msgid "That deck already exists."
-msgstr "这个牌组已存在."
-
-#: qt/aqt/fields.py:65
+#: qt/aqt/fields.py:90
 msgid "That field name is already used."
 msgstr "卡片该面的文字已被使用。"
 
-#: qt/aqt/clayout.py:394
-msgid "That name is already used."
-msgstr "这个名字已被使用."
-
-#: qt/aqt/sync.py:185
-msgid "The connection to AnkiWeb timed out. Please check your network connection and try again."
-msgstr "链接到AnkiWeb 超时。 请检查你的网络连接，再试一次。"
-
-#: qt/aqt/deckconf.py:131
+#: qt/aqt/deckconf.py:135
 msgid "The default configuration can't be removed."
 msgstr "默认配置不能被删除."
 
-#: qt/aqt/deckbrowser.py:299
-msgid "The default deck can't be deleted."
-msgstr "默认记忆库不能被删除."
-
-#: pylib/anki/stats.py:905
+#: pylib/anki/stats.py:879
 msgid "The division of cards in your deck(s)."
 msgstr "牌组中的卡片分布"
 
-#: qt/aqt/addcards.py:171
+#: qt/aqt/addcards.py:163
 msgid "The first field is empty."
 msgstr "首字段为空."
 
-#: qt/aqt/importing.py:178
+#: qt/aqt/importing.py:182
 msgid "The first field of the note type must be mapped."
 msgstr "笔记类型的首字段必须被映射."
 
-#: qt/aqt/addons.py:275
+#: qt/aqt/addons.py:280
 #, python-format
 msgid "The following add-ons are incompatible with %(name)s and have been disabled: %(found)s"
 msgstr ""
 "The following add-ons are incompatible with and have been disabled: %(found)s\n"
 "下列扩展组件与 %(name)s 不兼容并已被禁用: %(found)s"
 
-#: qt/aqt/addons.py:1235
+#: qt/aqt/addons.py:1263
 msgid "The following add-ons have updates available. Install them now?"
 msgstr "以下插件有更新可用。需要现在安装吗？"
 
-#: qt/aqt/utils.py:586
+#: qt/aqt/utils.py:653
 #, python-format
 msgid "The following character can not be used: %s"
 msgstr "下列字符不能被使用: %s"
 
-#: qt/aqt/addons.py:495
+#: qt/aqt/addons.py:500
 msgid "The following conflicting add-ons were disabled:"
 msgstr "下列发生冲突的扩展组件已被禁用："
 
-#: pylib/anki/template.py:142
-msgid "The front of this card is blank."
-msgstr ""
-
-#: qt/aqt/reviewer.py:179
-msgid "The front of this card is empty. Please run Tools>Empty Cards."
-msgstr "卡片正面为空, 请运行 工具>空卡片."
-
-#: qt/aqt/addcards.py:188
-msgid "The input you have provided would make an empty question on all cards."
-msgstr "您的输入可能会使所有卡片的问题为空。"
-
-#: pylib/anki/stats.py:335
+#: pylib/anki/stats.py:304
 msgid "The number of new cards you have added."
 msgstr "您添加的卡片的数目。"
 
-#: pylib/anki/stats.py:380
+#: pylib/anki/stats.py:349
 msgid "The number of questions you have answered."
 msgstr "已经回答的问题的数量。"
 
-#: pylib/anki/stats.py:260
+#: pylib/anki/stats.py:225
 msgid "The number of reviews due in the future."
 msgstr "将来到期的复习的数目"
 
-#: pylib/anki/stats.py:700
+#: pylib/anki/stats.py:674
 msgid "The number of times you have pressed each button."
 msgstr "按下每个按钮的次数."
 
-#: qt/aqt/importing.py:475
+#: qt/aqt/importing.py:521
 msgid "The provided file is not a valid .apkg file."
 msgstr "提供的文件不是正确 . apkg文件。"
 
@@ -3622,17 +2997,15 @@ msgstr "提供的文件不是正确 . apkg文件。"
 msgid "The provided search did not match any cards. Would you like to revise it?"
 msgstr "您的搜索不能匹配任何卡片。您愿意修改一下您的"
 
-#: qt/aqt/main.py:1235
-msgid ""
-"The requested change will require a full upload of the database when you next synchronize your collection. If you have reviews or other changes waiting on another device that haven't been "
-"synchronized here yet, they will be lost. Continue?"
+#: qt/aqt/main.py:1311 qt/aqt/main.py:1330
+msgid "The requested change will require a full upload of the database when you next synchronize your collection. If you have reviews or other changes waiting on another device that haven't been synchronized here yet, they will be lost. Continue?"
 msgstr "请求的改变需要在下次同步你的集合时上传整个数据库. 如果你还有在其他设备上未同步的复习或者其他改变, 他们将会丢失, 是否继续?"
 
-#: pylib/anki/stats.py:406
+#: pylib/anki/stats.py:375
 msgid "The time taken to answer the questions."
 msgstr "答题用时"
 
-#: pylib/anki/sched.py:1282 pylib/anki/schedv2.py:1480
+#: pylib/anki/schedv2.py:1325
 msgid ""
 "There are more new cards available, but the daily limit has been\n"
 "reached. You can increase the limit in the options, but please\n"
@@ -3644,78 +3017,45 @@ msgstr ""
 "注意，您学习的新卡片越多，您所需的短期\n"
 "复习量就越大。"
 
-#: qt/aqt/main.py:277
+#: qt/aqt/main.py:297
 msgid "There must be at least one profile."
 msgstr "必须有至少一个个人配置文件."
 
-#: qt/aqt/addons.py:502
+#: qt/aqt/addons.py:507
 msgid "This add-on is not compatible with your version of Anki."
 msgstr "此插件与您Anki的版本不兼容。"
 
-#: qt/aqt/browser.py:907
-msgid "This column can't be sorted on, but you can search for individual card types, such as 'card:1'."
-msgstr "无法以该字段排序，但可用卡片类型来筛选（如“card:1”）"
-
-#: qt/aqt/browser.py:915
-msgid "This column can't be sorted on, but you can search for specific decks by clicking on one on the left."
-msgstr "本列不能被排序, 但是你能单击左侧搜索指定的牌组。"
-
-#: qt/aqt/importing.py:422
-msgid ""
-"This file does not appear to be a valid .apkg file. If you're getting this error from a file downloaded from AnkiWeb, chances are that your download failed. Please try again, and if the problem "
-"persists, please try again with a different browser."
+#: qt/aqt/importing.py:441
+msgid "This file does not appear to be a valid .apkg file. If you're getting this error from a file downloaded from AnkiWeb, chances are that your download failed. Please try again, and if the problem persists, please try again with a different browser."
 msgstr "这个文件不是可用的.apkg文件。如果您是从AnkiWeb下载的这个文件，有可能是您的下载失败了，请重试。如果问题依旧存在，请换一个不同的浏览器重试。"
 
-#: qt/aqt/utils.py:393
+#: qt/aqt/utils.py:406
 msgid "This file exists. Are you sure you want to overwrite it?"
 msgstr "文件已存在.确定要覆盖吗?"
 
-#: qt/aqt/profiles.py:379
-#, python-format
-msgid ""
-"This folder stores all of your Anki data in a single location,\n"
-"to make backups easy. To tell Anki to use a different location,\n"
-"please see:\n"
-"\n"
-"%s\n"
-msgstr ""
-"包含您所有Anki数据的文件夹只存放在单一位置\n"
-"以便备份。若需Anki使用其他位置，\n"
-"请看：\n"
-"\n"
-"%s\n"
-
-#: qt/aqt/overview.py:159
+#: qt/aqt/overview.py:181
 msgid "This is a special deck for studying outside of the normal schedule."
 msgstr "这是一个在正常计划外学习的特殊牌组。"
 
-#: qt/aqt/models.py:143
-msgid "This is a {{c1::sample}} cloze deletion."
-msgstr "这是一个 {{c1::示例}} 的完形填空。"
-
-#: qt/aqt/clayout.py:430
+#: qt/aqt/clayout.py:579
 #, python-format
 msgid "This will create %d card. Proceed?"
 msgid_plural "This will create %d cards. Proceed?"
 msgstr[0] "本次操作将创建 %d 张卡片，继续吗？"
 
-#: qt/aqt/importing.py:442
+#: qt/aqt/importing.py:461
 msgid "This will delete your existing collection and replace it with the data in the file you're importing. Are you sure?"
 msgstr "这将会删除你现有的集合并将它替换为你导入的文件中的集合. 是否确认?"
 
-#: qt/aqt/preferences.py:135
+#: qt/aqt/preferences.py:154
 msgid "This will reset any cards in learning, clear filtered decks, and change the scheduler version. Proceed?"
 msgstr "这将重置所有学习中卡片，清空已筛选卡组并将改变调度器版本。继续吗？"
 
-#: qt/aqt/browser.py:1435
-msgid "Time"
-msgstr "时间"
-
-#: qt/aqt/forms/preferences.py:268
+#: qt/aqt/forms/preferences.py:293
 msgid "Timebox time limit"
 msgstr "时间框的时间限制"
 
-#: qt/aqt/overview.py:209
+#: qt/aqt/overview.py:227
 msgid "To Review"
 msgstr "待复习"
 
@@ -3723,23 +3063,24 @@ msgstr "待复习"
 msgid "To browse add-ons, please click the browse button below.<br><br>When you've found an add-on you like, please paste its code below. You can paste multiple codes, separated by spaces."
 msgstr "浏览插件请点击下方的“浏览”按钮。<br><br>如果您找到适合您的插件，请将插件代码粘贴到下方的文本框中。您可以输入多个代码，请将代码之间用空格隔开。"
 
-#: qt/aqt/editor.py:595
-msgid "To make a cloze deletion on an existing note, you need to change it to a cloze type first, via Edit>Change Note Type."
+#: qt/aqt/editor.py:636
+#, fuzzy
+msgid "To make a cloze deletion on an existing note, you need to change it to a cloze type first, via 'Notes>Change Note Type'"
 msgstr "要为现存的笔记制作一个完形填空，你需要先把笔记更改成完形填空的类别，通过编辑>更改笔记类型。"
 
-#: pylib/anki/sched.py:1291 pylib/anki/schedv2.py:1489
+#: pylib/anki/schedv2.py:1334
 msgid "To see them now, click the Unbury button below."
 msgstr "欲现在查看，请点击“取消搁置”按钮"
 
-#: pylib/anki/sched.py:1304 pylib/anki/schedv2.py:1502
+#: pylib/anki/schedv2.py:1347
 msgid "To study outside of the normal schedule, click the Custom Study button below."
 msgstr "在正常计划外学习, 请单击下面的自定义学习按钮."
 
-#: pylib/anki/stats.py:146 qt/aqt/browser.py:1224
+#: pylib/anki/stats.py:118 qt/aqt/browser.py:1258
 msgid "Today"
 msgstr "今天"
 
-#: pylib/anki/sched.py:1273 pylib/anki/schedv2.py:1471
+#: pylib/anki/schedv2.py:1316
 msgid ""
 "Today's review limit has been reached, but there are still cards\n"
 "waiting to be reviewed. For optimum memory, consider increasing\n"
@@ -3760,48 +3101,40 @@ msgstr "切换标记"
 msgid "Toggle Suspend"
 msgstr "开关暂停状态"
 
-#: pylib/anki/stats.py:279 pylib/anki/stats.py:344 pylib/anki/stats.py:438
+#: pylib/anki/stats.py:245 pylib/anki/stats.py:313 pylib/anki/stats.py:413
 msgid "Total"
 msgstr "总计"
 
-#: pylib/anki/stats.py:54
-msgid "Total Time"
-msgstr "总计用时"
-
-#: pylib/anki/stats.py:892
+#: pylib/anki/stats.py:866
 msgid "Total cards"
 msgstr "所有卡片"
 
-#: pylib/anki/stats.py:893
+#: pylib/anki/stats.py:867
 msgid "Total notes"
 msgstr "所有笔记"
 
-#: qt/aqt/forms/findreplace.py:72
+#: qt/aqt/forms/findreplace.py:87
 msgid "Treat input as regular expression"
 msgstr "以正则表达式输入"
 
-#: qt/aqt/browser.py:1431 qt/aqt/modelchooser.py:26 qt/aqt/forms/importing.py:105
+#: qt/aqt/modelchooser.py:26 qt/aqt/forms/importing.py:105
 msgid "Type"
 msgstr "类型"
 
-#: qt/aqt/reviewer.py:377
+#: qt/aqt/reviewer.py:379
 #, python-format
 msgid "Type answer: unknown field %s"
 msgstr "键入答案：未知域 %s"
 
-#: qt/aqt/errors.py:67
+#: qt/aqt/errors.py:69
 msgid "Unable to access Anki media folder. The permissions on your system's temporary folder may be incorrect."
 msgstr "无法访问Anki多媒体文件夹。您的系统临时文件夹的权限可能不正确。"
 
-#: qt/aqt/importing.py:403
-msgid "Unable to import from a read-only file."
-msgstr "不能从只读文件中导入."
-
-#: qt/aqt/main.py:321
+#: qt/aqt/main.py:341
 msgid "Unable to move existing file to trash - please try restarting your computer."
 msgstr "无法删除现存的文件 - 请重启您的电脑。"
 
-#: qt/aqt/addons.py:422
+#: qt/aqt/addons.py:427
 #, python-format
 msgid ""
 "Unable to update or delete add-on. Please start Anki while holding down the shift key to temporarily disable add-ons, then try again.\n"
@@ -3811,37 +3144,37 @@ msgstr ""
 "无法更新或删除扩展组件。请在按下Shift键的同时打开Anki以临时禁用所有扩展组件，然后重试一次。\n"
 "调试信息: %s"
 
-#: qt/aqt/overview.py:237
+#: qt/aqt/overview.py:255
 msgid "Unbury"
 msgstr "取消搁置"
 
-#: qt/aqt/editor.py:109
+#: qt/aqt/editor.py:120
 msgid "Underline text (Ctrl+U)"
 msgstr "下划线 (Ctrl+U)"
 
-#: qt/aqt/main.py:961
+#: qt/aqt/main.py:1017
 msgid "Undo"
 msgstr "撤销"
 
-#: qt/aqt/main.py:957
+#: qt/aqt/main.py:1013
 #, python-format
 msgid "Undo %s"
 msgstr "撤销 %s"
 
-#: qt/aqt/addons.py:981 qt/aqt/editor.py:782
+#: qt/aqt/addons.py:1009 qt/aqt/editor.py:830
 #, python-format
 msgid "Unexpected response code: %s"
 msgstr "未知响应代码：%s"
 
-#: qt/aqt/addons.py:470
+#: qt/aqt/addons.py:475
 msgid "Unknown error: {}"
 msgstr "未知错误：{}"
 
-#: qt/aqt/importing.py:361
+#: qt/aqt/importing.py:374
 msgid "Unknown file format."
 msgstr "未知的文件格式."
 
-#: pylib/anki/stats.py:879
+#: pylib/anki/stats.py:853
 msgid "Unseen"
 msgstr "未看"
 
@@ -3849,27 +3182,15 @@ msgstr "未看"
 msgid "Update existing notes when first field matches"
 msgstr "当首字段匹配时更新现有笔记"
 
-#: pylib/anki/importing/anki2.py:165
+#: pylib/anki/importing/anki2.py:163
 msgid "Updated"
 msgstr "已更新"
 
-#: qt/aqt/sync.py:321 qt/aqt/sync.py:325
-msgid "Upload to AnkiWeb"
-msgstr "上传到AnkiWeb"
-
-#: qt/aqt/sync.py:130
-msgid "Uploading to AnkiWeb..."
-msgstr "正在上传到AnkiWeb..."
-
-#: qt/aqt/main.py:1292
-msgid "Used on cards but missing from media folder:"
-msgstr "卡片中有使用但媒体文件夹未找到"
-
-#: qt/aqt/profiles.py:375
+#: qt/aqt/profiles.py:472
 msgid "User 1"
 msgstr "用户1"
 
-#: qt/aqt/forms/preferences.py:270
+#: qt/aqt/forms/preferences.py:285
 msgid "User interface size"
 msgstr "用户界面尺寸"
 
@@ -3886,23 +3207,23 @@ msgstr "浏览插件页面"
 msgid "View Files"
 msgstr "查看文件"
 
-#: qt/aqt/main.py:669
+#: qt/aqt/main.py:711
 msgid "Waiting for editing to finish."
 msgstr "等待编辑完成."
 
-#: qt/aqt/editor.py:588
+#: qt/aqt/editor.py:629
 msgid "Warning, cloze deletions will not work until you switch the type at the top to Cloze."
 msgstr "警告，在你把上方的笔记类型改成 \"完形填空\" 之前，你的完形填空的填空内容将不会发挥功能。"
 
-#: qt/aqt/overview.py:118
+#: qt/aqt/overview.py:138
 msgid "What would you like to unbury?"
 msgstr "您想撤回焚毁操作吗？"
 
-#: qt/aqt/forms/preferences.py:262
+#: qt/aqt/forms/preferences.py:283
 msgid "When adding, default to current deck"
 msgstr "当添加时，默认是当前牌组"
 
-#: qt/aqt/browser.py:1095 qt/aqt/browser.py:1220
+#: qt/aqt/browser.py:1121 qt/aqt/browser.py:1254
 msgid "Whole Collection"
 msgstr "全部集合"
 
@@ -3910,107 +3231,61 @@ msgstr "全部集合"
 msgid "Would you like to download it now?"
 msgstr "你想现在就下载？"
 
-#: qt/aqt/about.py:206
+#: qt/aqt/about.py:212
 #, python-format
 msgid "Written by Damien Elmes, with patches, translation,    testing and design from:<p>%(cont)s"
 msgstr "作者：Damien Elmes，补丁﹑翻译、测试及设计：<p>%(cont)s"
 
-#: qt/aqt/forms/preferences.py:282
+#: qt/aqt/forms/preferences.py:309
 msgid "You can restore backups via File>Switch Profile."
 msgstr "您可以通过 文件->切换用户 来恢复备份。"
 
-#: qt/aqt/addcards.py:179
+#: qt/aqt/addcards.py:172
 msgid "You have a cloze deletion note type but have not made any cloze deletions. Proceed?"
 msgstr "你有一个完形填空类型的笔记，但是还没有制作任何填空内容。仍然要继续吗?"
 
-#: qt/aqt/deckbrowser.py:142
-#, python-format
-msgid "You have a lot of decks. Please see %(a)s. %(b)s"
-msgstr "您有许多牌组尚未学习，请看%(a)s. %(b)s"
-
-#: qt/aqt/reviewer.py:816
+#: qt/aqt/reviewer.py:821
 msgid "You haven't recorded your voice yet."
 msgstr "你还没有录制你的声音."
 
-#: qt/aqt/browser.py:975
+#: qt/aqt/browser.py:984
 msgid "You must have at least one column."
 msgstr "必须至少有一列."
 
-#: pylib/anki/stats.py:246 pylib/anki/stats.py:373 pylib/anki/stats.py:393 pylib/anki/stats.py:706
+#: pylib/anki/stats.py:211 pylib/anki/stats.py:342 pylib/anki/stats.py:362
+#: pylib/anki/stats.py:680
 msgid "Young"
 msgstr "新的"
 
-#: pylib/anki/stats.py:878
+#: pylib/anki/stats.py:852
 msgid "Young+Learn"
 msgstr "新的+学习中的"
 
-#: qt/aqt/sync.py:172
-msgid "Your AnkiWeb collection does not contain any cards. Please sync again and choose 'Upload' instead."
-msgstr "您的AnkiWeb收藏中没有卡片。请再次同步然后选择“上传”。"
-
-#: qt/aqt/deckconf.py:109
+#: qt/aqt/deckconf.py:111
 msgid "Your changes will affect multiple decks. If you wish to change only the current deck, please add a new options group first."
 msgstr "你的改变将会影响到很多牌组. 如果你只想要改变当前牌组, 请先添加一个选项组."
 
-#: qt/aqt/main.py:503
-msgid ""
-"Your collection file appears to be corrupt. This can happen when the file is copied or moved while Anki is open, or when the collection is stored on a network or cloud drive. If problems persist "
-"after restarting your computer, please open an automatic backup from the profile screen."
+#: qt/aqt/main.py:555
+msgid "Your collection file appears to be corrupt. This can happen when the file is copied or moved while Anki is open, or when the collection is stored on a network or cloud drive. If problems persist after restarting your computer, please open an automatic backup from the profile screen."
 msgstr "您的收藏文件似乎已损坏。当Anki还在运行时就拷贝文件或者将其存储于网络或云存储时就会发生这种情况。如果在重启电脑后问题依旧存在，请在资料页面打开一个自动备份。"
 
-#: qt/aqt/sync.py:345
-msgid "Your collection is in an inconsistent state. Please run Tools>Check Database, then sync again."
-msgstr "你的集合处于不一致的状态. 请运行 工具>检查数据库, 然后再次同步."
-
-#: qt/aqt/sync.py:233
-msgid "Your collection or a media file is too large to sync."
-msgstr "集合或者媒体文件过大而不能同步"
-
-#: qt/aqt/sync.py:75
-msgid ""
-"Your collection was successfully uploaded to AnkiWeb.\n"
-"\n"
-"If you use any other devices, please sync them now, and choose to download the collection you have just uploaded from this computer. After doing so, future reviews and added cards will be merged automatically."
-msgstr ""
-"你的集合成功上传到了 AnkiWeb.\n"
-"\n"
-"如果你使用任何其他设备的话, 请现在同步他们, 并选择下载你刚刚从这台电脑上上传的集合. 将来的复习和和加入的卡片将会自动合并."
-
-#: qt/aqt/errors.py:105
+#: qt/aqt/errors.py:99
 msgid "Your computer's storage may be full. Please delete some unneeded files, then try again."
 msgstr "您的电脑存储可能已满。请删除不需要的文件，然后重试一次。"
 
-#: qt/aqt/sync.py:305
-msgid ""
-"Your decks here and on AnkiWeb differ in such a way that they can't be merged together, so it's necessary to overwrite the decks on one side with the decks from the other.\n"
-"\n"
-"If you choose download, Anki will download the collection from AnkiWeb, and any changes you have made on your computer since the last sync will be lost.\n"
-"\n"
-"If you choose upload, Anki will upload your collection to AnkiWeb, and any changes you have made on AnkiWeb or your other devices since the last sync to this device will be lost.\n"
-"\n"
-"After all devices are in sync, future reviews and added cards can be merged automatically."
-msgstr ""
-"您的牌组与Ankiweb上的牌组存在不能合并的差异，所以必须覆盖其中之一。\n"
-"\n"
-"如果您选择下载，那么Anki会从Ankiweb下载牌组，而您电脑上最后一次同步后的更改将会丢失。\n"
-"\n"
-"如果您选择上传，那么Anki会上传牌组至Ankiweb，而您Ankiweb或其他设备上最后一次同步后的更改将会丢失。\n"
-"\n"
-"当所有设备完成同步后，将来复习和新增的卡片将会被自动合并。"
-
-#: qt/aqt/errors.py:80
+#: qt/aqt/errors.py:82
 msgid "Your firewall or antivirus program is preventing Anki from creating a connection to itself. Please add an exception for Anki."
 msgstr "您的防火墙或杀毒软件阻止了 Anki 创建连接，请将 Anki 添加到白名单中。"
 
-#: pylib/anki/decks.py:444
+#: pylib/anki/decks.py:362
 msgid "[no deck]"
 msgstr "[没有牌组]"
 
-#: qt/aqt/forms/preferences.py:281
+#: qt/aqt/forms/preferences.py:308
 msgid "backups"
 msgstr "备份"
 
-#: pylib/anki/stats.py:345 qt/aqt/customstudy.py:53
+#: pylib/anki/stats.py:314 qt/aqt/customstudy.py:53
 msgid "cards"
 msgstr "卡片"
 
@@ -4022,111 +3297,69 @@ msgstr "牌组中的卡片"
 msgid "cards selected by"
 msgstr "卡片选择按"
 
-#: qt/aqt/exporting.py:101 qt/aqt/forms/stats.py:77
+#: qt/aqt/exporting.py:110 qt/aqt/forms/stats.py:81
 msgid "collection"
 msgstr "集合"
 
 #. T: abbreviation of day
-#: pylib/anki/stats.py:992
+#: pylib/anki/stats.py:975
 msgid "d"
 msgstr "天"
 
-#: qt/aqt/customstudy.py:90 qt/aqt/customstudy.py:94 qt/aqt/customstudy.py:97 qt/aqt/forms/dconf.py:348 qt/aqt/forms/dconf.py:349 qt/aqt/forms/dconf.py:356 qt/aqt/forms/dconf.py:368
+#: qt/aqt/customstudy.py:90 qt/aqt/customstudy.py:94 qt/aqt/customstudy.py:97
+#: qt/aqt/forms/dconf.py:348 qt/aqt/forms/dconf.py:349
+#: qt/aqt/forms/dconf.py:356 qt/aqt/forms/dconf.py:368
 #: qt/aqt/forms/reschedule.py:77
 msgid "days"
 msgstr "天"
 
-#: qt/aqt/forms/stats.py:76
+#: qt/aqt/forms/stats.py:80
 msgid "deck"
 msgstr "牌组"
 
-#: pylib/anki/stats.py:966 qt/aqt/forms/stats.py:80
+#: pylib/anki/stats.py:942 qt/aqt/forms/stats.py:84
 msgid "deck life"
 msgstr "牌组使用期"
 
-#: qt/aqt/browser.py:2215
+#: qt/aqt/browser.py:2020
 msgid "duplicate"
 msgstr "复制"
 
-#: qt/aqt/deckbrowser.py:149
-msgid "hide"
-msgstr "隐藏"
-
-#: pylib/anki/stats.py:433
+#: pylib/anki/stats.py:408
 msgid "hours"
 msgstr "小时"
 
-#: qt/aqt/forms/preferences.py:264
+#: qt/aqt/forms/preferences.py:294
 msgid "hours past midnight"
 msgstr "点 (凌晨)"
-
-#: pylib/anki/utils.py:50
-#, python-format
-msgid "in %s day"
-msgid_plural "in %s days"
-msgstr[0] "%s天后"
-
-#: pylib/anki/utils.py:51
-#, python-format
-msgid "in %s hour"
-msgid_plural "in %s hours"
-msgstr[0] "%s小时后"
-
-#: pylib/anki/utils.py:52
-#, python-format
-msgid "in %s minute"
-msgid_plural "in %s minutes"
-msgstr[0] "%s分钟后"
-
-#: pylib/anki/utils.py:49
-#, python-format
-msgid "in %s month"
-msgid_plural "in %s months"
-msgstr[0] "%s月后"
-
-#: pylib/anki/utils.py:53
-#, python-format
-msgid "in %s second"
-msgid_plural "in %s seconds"
-msgstr[0] "%s秒后"
-
-#: pylib/anki/utils.py:48
-#, python-format
-msgid "in %s year"
-msgid_plural "in %s years"
-msgstr[0] "%s年后"
 
 #: qt/aqt/forms/dconf.py:365
 msgid "lapses"
 msgstr "失误次数"
 
-#: pylib/anki/stats.py:454
-msgid "less than 0.1 cards/minute"
-msgstr "小于 0.1张卡片/分钟"
-
-#: qt/aqt/importing.py:254
+#: qt/aqt/importing.py:263
 #, python-format
 msgid "mapped to <b>%s</b>"
 msgstr "对应到<b>%s</b>"
 
-#: qt/aqt/importing.py:252
+#: qt/aqt/importing.py:261
 msgid "mapped to <b>Tags</b>"
 msgstr "对应到<b>标签</b>"
 
-#: qt/aqt/forms/preferences.py:265 qt/aqt/forms/preferences.py:269
+#: qt/aqt/forms/preferences.py:292 qt/aqt/forms/preferences.py:296
 msgid "mins"
 msgstr "分钟"
 
-#: pylib/anki/stats.py:410 qt/aqt/forms/dyndconf.py:146
+#: pylib/anki/stats.py:379 qt/aqt/forms/dyndconf.py:146
 msgid "minutes"
 msgstr "分钟"
 
 #. T: abbreviation of month
-#: pylib/anki/stats.py:996
+#: pylib/anki/stats.py:979
 msgid "mo"
 msgstr "月"
 
-#: pylib/anki/stats.py:280 pylib/anki/stats.py:386
+#: pylib/anki/stats.py:247 pylib/anki/stats.py:355
 msgid "reviews"
 msgstr "复习"
 
@@ -4134,27 +3367,636 @@ msgstr "复习"
 msgid "seconds"
 msgstr "秒"
 
-#: qt/aqt/stats.py:67
+#: qt/aqt/stats.py:62 qt/aqt/stats.py:144
 msgid "stats"
 msgstr "状态"
 
-#: qt/aqt/deckbrowser.py:145
-msgid "this page"
-msgstr "此页"
-
 #. T: abbreviation of week
-#: pylib/anki/stats.py:994
+#: pylib/anki/stats.py:977
 msgid "w"
 msgstr "周"
 
-#: pylib/anki/stats.py:961
+#: pylib/anki/stats.py:937
 msgid "whole collection"
 msgstr "全部集合"
-
-#: pylib/anki/template.py:130
-msgid "{} template has a problem:"
-msgstr ""
 
 #: qt/aqt/forms/reschedule.py:76
 msgid "~"
 msgstr "~"
+
+#, python-format
+#~ msgid " (1 of %d)"
+#~ msgstr " (%d分之1)"
+
+#, python-format
+#~ msgid "%(a)0.1fkB up, %(b)0.1fkB down"
+#~ msgstr "上传 %(a)0.1fkB, 下载 %(b)0.1fkB"
+
+#, python-format
+#~ msgid "%(a)0.1fs (%(b)s)"
+#~ msgstr "%(a)0.1f 秒 (%(b)s)"
+
+#, python-format
+#~ msgid "%(a)d of %(b)d note updated"
+#~ msgid_plural "%(a)d of %(b)d notes updated"
+#~ msgstr[0] "更新了%(b)d条笔记中的%(a)d条"
+
+#, python-format
+#~ msgid "%.01f cards/minute"
+#~ msgstr "%.01f 卡片/分钟"
+
+#, python-format
+#~ msgid "%d card deleted."
+#~ msgid_plural "%d cards deleted."
+#~ msgstr[0] "删除了%d张卡片"
+
+#, python-format
+#~ msgid "%d media change to upload"
+#~ msgid_plural "%d media changes to upload"
+#~ msgstr[0] "%d 多媒体文件更改需要上传"
+
+#, python-format
+#~ msgid "%d media file downloaded"
+#~ msgid_plural "%d media files downloaded"
+#~ msgstr[0] "已下载 %d 多媒体文件"
+
+#, python-format
+#~ msgid "%d review"
+#~ msgid_plural "%d reviews"
+#~ msgstr[0] "%d 次复习"
+
+#, python-format
+#~ msgid "%s day"
+#~ msgid_plural "%s days"
+#~ msgstr[0] "%s 天"
+
+#, python-format
+#~ msgid "%s hour"
+#~ msgid_plural "%s hours"
+#~ msgstr[0] "%s小时"
+
+#, python-format
+#~ msgid "%s minute"
+#~ msgid_plural "%s minutes"
+#~ msgstr[0] "%s分钟"
+
+#, python-format
+#~ msgid "%s month"
+#~ msgid_plural "%s months"
+#~ msgstr[0] "%s个月"
+
+#, python-format
+#~ msgid "%s to delete:"
+#~ msgstr "将要删除%s"
+
+#, python-format
+#~ msgid "%s year"
+#~ msgid_plural "%s years"
+#~ msgstr[0] "%s年"
+
+#, python-format
+#~ msgid "%sd"
+#~ msgstr "%s天"
+
+#, python-format
+#~ msgid "%sh"
+#~ msgstr "%s小时"
+
+#, python-format
+#~ msgid "%sm"
+#~ msgstr "%s分"
+
+#, python-format
+#~ msgid "%smo"
+#~ msgstr "%s 个月"
+
+#, python-format
+#~ msgid "%ss"
+#~ msgstr "%s秒"
+
+#, python-format
+#~ msgid "%sy"
+#~ msgstr "%s年"
+
+#~ msgid "0d"
+#~ msgstr "0天"
+
+#~ msgid "504 gateway timeout error received. Please try temporarily disabling your antivirus."
+#~ msgstr "收到错误：504 网关超时。 请尝试暂时禁用你的杀毒软件。"
+
+#, python-format
+#~ msgid "<!--studied-->%d card"
+#~ msgid_plural "<!--studied-->%d cards"
+#~ msgstr[0] "<!--studied-->%d 卡片"
+
+#~ msgid "<b>%Y-%m-%d</b> @ %H:%M"
+#~ msgstr "<b>%Y-%m-%d</b> @ %H:%M"
+
+#, python-format
+#~ msgid ""
+#~ "<h1>Account Required</h1>\n"
+#~ "A free account is required to keep your collection synchronized. Please <a href=\"%s\">sign up</a> for an account, then enter your details below."
+#~ msgstr ""
+#~ "<h1>需先注册</h1>\n"
+#~ "你需要一个免费帐号来同步你的数据. 请<a href=\"%s\">注册</a> 一个帐号,并在下方填写详细资料。"
+
+#~ msgid ""
+#~ "<h1>Error</h1>\n"
+#~ "\n"
+#~ "<p>An error occurred. Please start Anki while holding down the shift key, which will temporarily disable the add-ons you have installed.</p>\n"
+#~ "\n"
+#~ "<p>If the issue only occurs when add-ons are enabled, please use the Tools&gt;Add-ons menu item to disable some add-ons and restart Anki, repeating until you discover the add-on that is causing the problem.</p>\n"
+#~ "\n"
+#~ "<p>When you've discovered the add-on that is causing the problem, please report the issue on the <a href=\"https://help.ankiweb.net/discussions/add-ons/\">add-ons section</a> of our support site.\n"
+#~ "\n"
+#~ "<p>Debug info:</p>\n"
+#~ msgstr ""
+#~ "<h1>错误</h1>\n"
+#~ "<p>有一个错误发生了.请在按住shift键的同时启动Anki，这样可以临时的忽略掉你已经安装的插件。</p>\n"
+#~ "<p>如果仅仅是因为插件引起的问题，请选择工具&gt;插件菜单项来将出错的的插件设置成失效，然后重启Anki，重复以上的步骤直到你发现了具体是哪个插件引起的问题。</p>\n"
+#~ "<p>当你已经发现是因为插件引起的问题，请在我们的支持网站上 <a href=\"https://help.ankiweb.net/discussions/add-ons/\">add-ons section</a> 上报告问题。</p>\n"
+#~ "<p>调试信息</p>\n"
+
+#~ msgid ""
+#~ "<h1>Error</h1>\n"
+#~ "\n"
+#~ "<p>An error occurred. Please use <b>Tools &gt; Check Database</b> to see if that fixes the problem.</p>\n"
+#~ "\n"
+#~ "<p>If problems persist, please report the problem on our <a href=\"https://help.ankiweb.net\">support site</a>. Please copy and paste  the information below into your report.</p>"
+#~ msgstr ""
+#~ "<h1>错误信息</h1>\n"
+#~ "\n"
+#~ "<p> 发生了一个错误. 请尝试使用 <b>工具 &gt; 检查数据库</b>功能修复.</p>\n"
+#~ "\n"
+#~ "<p>如果问题仍然存在, 请复制粘贴下列信息并报告到我们的<a href=\"https://help.ankiweb.net\">支持站点</a>.</p>"
+
+#~ msgid "A filtered deck cannot have subdecks."
+#~ msgstr "经过滤的牌组不能有子牌组。"
+
+#~ msgid "A problem occurred while syncing media. Please use Tools>Check Media, then sync again to correct the issue."
+#~ msgstr "同步媒体文件时出现问题。请使用 工具>检查媒体 后再次同步以纠正这种情况"
+
+#~ msgid "Add Reverse"
+#~ msgstr "反向添加"
+
+#~ msgid "Add to:"
+#~ msgstr "添加到："
+
+#~ msgid "Add-ons possibly involved: {}\n"
+#~ msgstr "相关扩展:{}\n"
+
+#, python-format
+#~ msgid ""
+#~ "An add-on you installed failed to load. If problems persist, please go to the Tools>Add-ons menu, and disable or delete the add-on.\n"
+#~ "\n"
+#~ "When loading '%(name)s':\n"
+#~ "%(traceback)s\n"
+#~ msgstr ""
+#~ "您安装的某个插件加载失败。如果此问题仍无法解决，请移步 工具-插件 菜单，并禁用或者删除插件。\n"
+#~ "When loading '%(name)s':\n"
+#~ "%(traceback)s\n"
+
+#~ msgid ""
+#~ "An error occurred while accessing the database.\n"
+#~ "\n"
+#~ "Possible causes:\n"
+#~ "\n"
+#~ "- Antivirus, firewall, backup, or synchronization software may be   interfering with Anki. Try disabling such software and see if the   problem goes away.\n"
+#~ "- Your disk may be full.\n"
+#~ "- The Documents/Anki folder may be on a network drive.\n"
+#~ "- Files in the Documents/Anki folder may not be writeable.\n"
+#~ "- Your hard disk may have errors.\n"
+#~ "\n"
+#~ "It's a good idea to run Tools>Check Database to ensure your collection is not corrupt.\n"
+#~ msgstr ""
+#~ "访问数据库时出现错误，可能的原因是：\n"
+#~ "- 反病毒、防火墙、备份或数据同步软件可能干扰了Anki。试着禁用这些软件，看看问题是否消失。\n"
+#~ "- 磁盘容量满了。\n"
+#~ "- 文档/Anki 文件夹可能是网络硬盘。\n"
+#~ "- 文档/Anki 文件夹不可写.\n"
+#~ "- 硬盘出错了。\n"
+
+#~ msgid "Anki does not support files in subfolders of the collection.media folder."
+#~ msgstr "Anki 不支持 collection.media 目录下二级目录的文件"
+
+#~ msgid ""
+#~ "Anki was unable to open your collection file. If problems persist after restarting your computer, please use the Open Backup button in the profile manager.\n"
+#~ "\n"
+#~ "Debug info:\n"
+#~ msgstr "Anki 无法打开您的记忆库文件。如果您尝试重启电脑后此问题仍然存在，请在主菜单中选择“切换配置方案”，在其界面中点击“打开备份”。\n"
+
+#~ msgid "AnkiWeb ID or password was incorrect; please try again."
+#~ msgstr "用户名或密码错误，请重试。"
+
+#~ msgid "AnkiWeb ID:"
+#~ msgstr "用户名"
+
+#~ msgid "AnkiWeb encountered an error. Please try again in a few minutes, and if the problem persists, please file a bug report."
+#~ msgstr "Anki网络遇到了一个错误，请稍后重试。如果问题仍然存在，请填写一份bug报告。"
+
+#~ msgid "AnkiWeb is too busy at the moment. Please try again in a few minutes."
+#~ msgstr "Anki服务器目前十分繁忙，请稍后重试。"
+
+#~ msgid "AnkiWeb is under maintenance. Please try again in a few minutes."
+#~ msgstr "AnkiWeb在维护中，请几分钟后再试一遍"
+
+#~ msgid "Antivirus or firewall software is preventing Anki from connecting to the internet."
+#~ msgstr "杀毒软件或防火墙正在阻止Anki连接到因特网"
+
+#~ msgid "Average Time"
+#~ msgstr "平均用时"
+
+#~ msgid "Back"
+#~ msgstr "背面"
+
+#~ msgid "Back Preview"
+#~ msgstr "背面预览"
+
+#~ msgid "Back Template"
+#~ msgstr "背面模版"
+
+#~ msgid "Basic (and reversed card)"
+#~ msgstr "基础的（和相反的卡片）"
+
+#~ msgid "Basic (optional reversed card)"
+#~ msgstr "基础（任意相反的卡片）"
+
+#~ msgid "Basic (type in the answer)"
+#~ msgstr "基础 （输入答案）"
+
+#~ msgid "Card 1"
+#~ msgstr "卡片1"
+
+#~ msgid "Card 2"
+#~ msgstr "卡片2"
+
+#~ msgid "Card ID"
+#~ msgstr "卡片 ID"
+
+#~ msgid "Card Type"
+#~ msgstr "卡片类型"
+
+#~ msgid "Card Type:"
+#~ msgstr "卡片类型："
+
+#~ msgid "Changed"
+#~ msgstr "已更改"
+
+#, python-format
+#~ msgid "Changes below will affect the %(cnt)d note that uses this card type."
+#~ msgid_plural "Changes below will affect the %(cnt)d notes that use this card type."
+#~ msgstr[0] "%(cnt)d 张使用此卡片类型的笔记将会受影响"
+
+#~ msgid "Checking media..."
+#~ msgstr "正在检查媒体…"
+
+#~ msgid "Collection is corrupt. Please see the manual."
+#~ msgstr "集合已经损坏。请查阅手册。"
+
+#~ msgid "Connecting..."
+#~ msgstr "正在连接..."
+
+#~ msgid "Connection timed out. Either your internet connection is experiencing problems, or you have a very large file in your media folder."
+#~ msgstr "连接超时。可能是网络连接有问题，或者在媒体目录里有很大的文件。"
+
+#~ msgid "Couldn't connect to AnkiWeb. Please check your network connection and try again."
+#~ msgstr "无法连接到AnkiWeb。请确认你的网络连接没问题，然后再试一遍"
+
+#~ msgid "Database rebuilt and optimized."
+#~ msgstr "数据库已重建并且被优化。"
+
+#~ msgid "Date"
+#~ msgstr "日期"
+
+#~ msgid "Delete Cards"
+#~ msgstr "删除卡片"
+
+#~ msgid "Delete Empty"
+#~ msgstr "删除空白"
+
+#~ msgid "Delete Unused Files"
+#~ msgstr "删除未使用的文件"
+
+#~ msgid "Delete unused media?"
+#~ msgstr "确定删除未用多媒体文件吗？"
+
+#, python-format
+#~ msgid "Deleted %d card with missing note."
+#~ msgid_plural "Deleted %d cards with missing note."
+#~ msgstr[0] "已删除 %d 没有笔记的卡片."
+
+#, python-format
+#~ msgid "Deleted %d card with missing template."
+#~ msgid_plural "Deleted %d cards with missing template."
+#~ msgstr[0] "已删除 %d 模板丢失的卡片."
+
+#, python-format
+#~ msgid "Deleted %d note with missing note type."
+#~ msgid_plural "Deleted %d notes with missing note type."
+#~ msgstr[0] "已删除 %d 条缺失类型的笔记."
+
+#, python-format
+#~ msgid "Deleted %d note with no cards."
+#~ msgid_plural "Deleted %d notes with no cards."
+#~ msgstr[0] "已删除 %d 没有卡片的笔记."
+
+#, python-format
+#~ msgid "Deleted %d note with wrong field count."
+#~ msgid_plural "Deleted %d notes with wrong field count."
+#~ msgstr[0] "删除了 %d 个有错误统计的笔记."
+
+#~ msgid "Download from AnkiWeb"
+#~ msgstr "从 AnkiWeb 下载"
+
+#~ msgid "Downloading from AnkiWeb..."
+#~ msgstr "从 AnkiWeb 下载..."
+
+#~ msgid "Due"
+#~ msgstr "到期"
+
+#~ msgid "Edited"
+#~ msgstr "已编辑"
+
+#, python-format
+#~ msgid ""
+#~ "Empty card numbers: %(c)s\n"
+#~ "Fields: %(f)s\n"
+#~ "\n"
+#~ msgstr ""
+#~ "空卡片数量: %(c)s\\n\n"
+#~ "字段: %(f)s\\n\\n\n"
+#~ "\n"
+
+#~ msgid "Empty cards found. Please run Tools>Empty Cards."
+#~ msgstr "发现了空卡片。请运行工具>空卡片。"
+
+#~ msgid "Error establishing a secure connection. This is usually caused by antivirus, firewall or VPN software, or problems with your ISP."
+#~ msgstr "建立安全连接出错。这可能是反病毒、防火墙或VPN软件导致的，或者是你的网络服务提供商的问题。"
+
+#~ msgid "Filtered"
+#~ msgstr "已过滤"
+
+#~ msgid "First Review"
+#~ msgstr "首次学习"
+
+#, python-format
+#~ msgid "Fixed %d card with invalid properties."
+#~ msgid_plural "Fixed %d cards with invalid properties."
+#~ msgstr[0] "修正了%d 张无效属性的卡片"
+
+#~ msgid "Fixed AnkiDroid deck override bug."
+#~ msgstr "修正AnkDroid牌组覆盖问题"
+
+#, python-format
+#~ msgid "Fixed note type: %s"
+#~ msgstr "固定的笔记种类: %s"
+
+#~ msgid "Front Preview"
+#~ msgstr "正面预览"
+
+#~ msgid "Front Template"
+#~ msgstr "正面模版"
+
+#~ msgid "Import failed.\n"
+#~ msgstr "导入失败。\n"
+
+#~ msgid "Import failed. Debugging info:\n"
+#~ msgstr "导入失败. 调试信息:\n"
+
+#, python-format
+#~ msgid "Invalid file name, please rename: %s"
+#~ msgstr "非法文件名，请重命名：%s"
+
+#~ msgid "Invalid regular expression."
+#~ msgstr "无效的正则表达式"
+
+#~ msgid "Invalid search - please check for typing mistakes."
+#~ msgstr "非法的搜索 - 请检查拼写"
+
+#~ msgid "Latest Review"
+#~ msgstr "最近的复习"
+
+#~ msgid "Local collection has no cards. Download from AnkiWeb?"
+#~ msgstr "本地集合没有任何卡片，您需要从 AnkiWeb 下载吗？"
+
+#~ msgid "No empty cards."
+#~ msgstr "没有空卡片."
+
+#~ msgid "No unused or missing files found."
+#~ msgstr "没有找到未使用或缺失的文件"
+
+#~ msgid "Note ID"
+#~ msgstr "笔记 ID"
+
+#~ msgid "Note Type"
+#~ msgstr "笔记类型"
+
+#~ msgid "Note: Some of the history is missing. For more information, please see the browser documentation."
+#~ msgstr "注意: 部分历史已经丢失. 更多详细信息请查看浏览器文档."
+
+#~ msgid "One or more notes were not imported, because they didn't generate any cards. This can happen when you have empty fields or when you have not mapped the content in the text file to the correct fields."
+#~ msgstr "因其无法生成卡片，一个或多个笔记没有导入。这种情况通常是因为您把卡片的一栏空了出来或相应的文字无法映射到对应的卡片的栏目中。"
+
+#~ msgid "Only one client can access AnkiWeb at a time. If a previous sync failed, please try again in a few minutes."
+#~ msgstr "一次只能用一个用户登录AnkiWeb，如果之前的同步失败，请在几分钟后重试。"
+
+#~ msgid "Password:"
+#~ msgstr "密码："
+
+#~ msgid "Please install PyAudio"
+#~ msgstr "请安装PyAudio"
+
+#~ msgid "Please upgrade to the latest version of Anki."
+#~ msgstr "请升级到最新版本的Anki."
+
+#~ msgid "Please visit AnkiWeb, upgrade your deck, then try again."
+#~ msgstr "请访问AnkiWeb, 升级你的记忆库并重试."
+
+#~ msgid "Position"
+#~ msgstr "位置"
+
+#~ msgid "Proxy authentication required."
+#~ msgstr "需要代理授权."
+
+#~ msgid "Rating"
+#~ msgstr "评分"
+
+#~ msgid "Removing this card type would cause one or more notes to be deleted. Please create a new card type first."
+#~ msgstr "移除这个卡片类型将会导致一个或多个卡片被删除。请先建立一个新的卡片类型。"
+
+#~ msgid "Resched"
+#~ msgstr "重新计划"
+
+#~ msgid "Server not found. Either your connection is down, or antivirus/firewall software is blocking Anki from connecting to the internet."
+#~ msgstr "服务器没有找到。或者你的链接是中断的，或者杀毒软件/防火墙软件正在阻止Anki链接Internet。"
+
+#~ msgid "Stopping..."
+#~ msgstr "正在停止..."
+
+#, python-format
+#~ msgid "Studied %(a)s %(b)s today (%(secs).1fs/card)"
+#~ msgstr "今天学习了%(a)s %(b)s（%(secs).1f秒/张）"
+
+#, python-format
+#~ msgid "Studied %(a)s %(b)s today."
+#~ msgstr "今天学习了%(a)s %(b)s。"
+
+#~ msgid "Styling"
+#~ msgstr "样式"
+
+#~ msgid "Styling (shared between cards)"
+#~ msgstr "格式刷（卡片格式共享）"
+
+#, python-format
+#~ msgid ""
+#~ "Syncing failed:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "同步失败:\n"
+#~ "%s"
+
+#~ msgid "Syncing failed; internet offline."
+#~ msgstr "同步失败; 网络离线."
+
+#~ msgid "Syncing requires the clock on your computer to be set correctly. Please fix the clock and try again."
+#~ msgstr "同步需要计算机的时钟设置正确. 请检查时钟设置并重试."
+
+#~ msgid "Syncing..."
+#~ msgstr "正在同步..."
+
+#~ msgid "Text"
+#~ msgstr "文字"
+
+#~ msgid "That deck already exists."
+#~ msgstr "这个牌组已存在."
+
+#~ msgid "That name is already used."
+#~ msgstr "这个名字已被使用."
+
+#~ msgid "The connection to AnkiWeb timed out. Please check your network connection and try again."
+#~ msgstr "链接到AnkiWeb 超时。 请检查你的网络连接，再试一次。"
+
+#~ msgid "The default deck can't be deleted."
+#~ msgstr "默认记忆库不能被删除."
+
+#~ msgid "The front of this card is empty. Please run Tools>Empty Cards."
+#~ msgstr "卡片正面为空, 请运行 工具>空卡片."
+
+#~ msgid "The input you have provided would make an empty question on all cards."
+#~ msgstr "您的输入可能会使所有卡片的问题为空。"
+
+#~ msgid "This column can't be sorted on, but you can search for individual card types, such as 'card:1'."
+#~ msgstr "无法以该字段排序，但可用卡片类型来筛选（如“card:1”）"
+
+#~ msgid "This column can't be sorted on, but you can search for specific decks by clicking on one on the left."
+#~ msgstr "本列不能被排序, 但是你能单击左侧搜索指定的牌组。"
+
+#, python-format
+#~ msgid ""
+#~ "This folder stores all of your Anki data in a single location,\n"
+#~ "to make backups easy. To tell Anki to use a different location,\n"
+#~ "please see:\n"
+#~ "\n"
+#~ "%s\n"
+#~ msgstr ""
+#~ "包含您所有Anki数据的文件夹只存放在单一位置\n"
+#~ "以便备份。若需Anki使用其他位置，\n"
+#~ "请看：\n"
+#~ "\n"
+#~ "%s\n"
+
+#~ msgid "This is a {{c1::sample}} cloze deletion."
+#~ msgstr "这是一个 {{c1::示例}} 的完形填空。"
+
+#~ msgid "Time"
+#~ msgstr "时间"
+
+#~ msgid "Total Time"
+#~ msgstr "总计用时"
+
+#~ msgid "Upload to AnkiWeb"
+#~ msgstr "上传到AnkiWeb"
+
+#~ msgid "Uploading to AnkiWeb..."
+#~ msgstr "正在上传到AnkiWeb..."
+
+#~ msgid "Used on cards but missing from media folder:"
+#~ msgstr "卡片中有使用但媒体文件夹未找到"
+
+#, python-format
+#~ msgid "You have a lot of decks. Please see %(a)s. %(b)s"
+#~ msgstr "您有许多牌组尚未学习，请看%(a)s. %(b)s"
+
+#~ msgid "Your AnkiWeb collection does not contain any cards. Please sync again and choose 'Upload' instead."
+#~ msgstr "您的AnkiWeb收藏中没有卡片。请再次同步然后选择“上传”。"
+
+#~ msgid "Your collection is in an inconsistent state. Please run Tools>Check Database, then sync again."
+#~ msgstr "你的集合处于不一致的状态. 请运行 工具>检查数据库, 然后再次同步."
+
+#~ msgid "Your collection or a media file is too large to sync."
+#~ msgstr "集合或者媒体文件过大而不能同步"
+
+#~ msgid ""
+#~ "Your collection was successfully uploaded to AnkiWeb.\n"
+#~ "\n"
+#~ "If you use any other devices, please sync them now, and choose to download the collection you have just uploaded from this computer. After doing so, future reviews and added cards will be merged automatically."
+#~ msgstr ""
+#~ "你的集合成功上传到了 AnkiWeb.\n"
+#~ "\n"
+#~ "如果你使用任何其他设备的话, 请现在同步他们, 并选择下载你刚刚从这台电脑上上传的集合. 将来的复习和和加入的卡片将会自动合并."
+
+#~ msgid ""
+#~ "Your decks here and on AnkiWeb differ in such a way that they can't be merged together, so it's necessary to overwrite the decks on one side with the decks from the other.\n"
+#~ "\n"
+#~ "If you choose download, Anki will download the collection from AnkiWeb, and any changes you have made on your computer since the last sync will be lost.\n"
+#~ "\n"
+#~ "If you choose upload, Anki will upload your collection to AnkiWeb, and any changes you have made on AnkiWeb or your other devices since the last sync to this device will be lost.\n"
+#~ "\n"
+#~ "After all devices are in sync, future reviews and added cards can be merged automatically."
+#~ msgstr ""
+#~ "您的牌组与Ankiweb上的牌组存在不能合并的差异，所以必须覆盖其中之一。\n"
+#~ "\n"
+#~ "如果您选择下载，那么Anki会从Ankiweb下载牌组，而您电脑上最后一次同步后的更改将会丢失。\n"
+#~ "\n"
+#~ "如果您选择上传，那么Anki会上传牌组至Ankiweb，而您Ankiweb或其他设备上最后一次同步后的更改将会丢失。\n"
+#~ "\n"
+#~ "当所有设备完成同步后，将来复习和新增的卡片将会被自动合并。"
+
+#~ msgid "hide"
+#~ msgstr "隐藏"
+
+#, python-format
+#~ msgid "in %s day"
+#~ msgid_plural "in %s days"
+#~ msgstr[0] "%s天后"
+
+#, python-format
+#~ msgid "in %s hour"
+#~ msgid_plural "in %s hours"
+#~ msgstr[0] "%s小时后"
+
+#, python-format
+#~ msgid "in %s minute"
+#~ msgid_plural "in %s minutes"
+#~ msgstr[0] "%s分钟后"
+
+#, python-format
+#~ msgid "in %s month"
+#~ msgid_plural "in %s months"
+#~ msgstr[0] "%s月后"
+
+#, python-format
+#~ msgid "in %s second"
+#~ msgid_plural "in %s seconds"
+#~ msgstr[0] "%s秒后"
+
+#, python-format
+#~ msgid "in %s year"
+#~ msgid_plural "in %s years"
+#~ msgstr[0] "%s年后"
+
+#~ msgid "less than 0.1 cards/minute"
+#~ msgstr "小于 0.1张卡片/分钟"
+
+#~ msgid "this page"
+#~ msgstr "此页"

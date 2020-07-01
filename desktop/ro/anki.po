@@ -7,37 +7,40 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anki\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-17 19:38+1000\n"
+"POT-Creation-Date: 2020-07-02 09:49+1000\n"
 "PO-Revision-Date: 2019-03-05 03:31+0000\n"
 "Last-Translator: Damien Elmes <Unknown>\n"
 "Language-Team: Romanian <ro@li.org>\n"
+"Language: ro\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n == 1 ? 0: (((n % 100 > 19) || ((n % 100 "
-"== 0) && (n != 0))) ? 2: 1));\n"
+"Plural-Forms: nplurals=3; plural=(n == 1 ? 0: (((n % 100 > 19) || ((n % 100 == 0) && (n != 0))) ? 2: 1));\n"
 "X-Launchpad-Export-Date: 2019-08-18 05:49+0000\n"
 "X-Generator: Launchpad (build 19022)\n"
-"Language: ro\n"
 
-#: ../dtop/aqt/clayout.py:203
-#, python-format
-msgid " (1 of %d)"
-msgstr " (1 din %d)"
+#: qt/aqt/importing.py:410
+#, fuzzy
+msgid "    Invalid file. Please restore from backup."
+msgstr "Fișier invalid. Te rog să-l restaurezi dintr-o copie de siguranță."
 
-#: ../dtop/aqt/addons.py:137
+#: qt/aqt/importing.py:419
+msgid "    Unable to import from a read-only file."
+msgstr ""
+
+#: qt/aqt/addons.py:313
 msgid " (disabled)"
 msgstr " (dezactivat)"
 
-#: ../dtop/aqt/clayout.py:439
+#: qt/aqt/clayout.py:641
 msgid " (off)"
 msgstr " (oprit)"
 
-#: ../dtop/aqt/clayout.py:437
+#: qt/aqt/clayout.py:639
 msgid " (on)"
 msgstr " (pornit)"
 
-#: ../dtop/aqt/deckbrowser.py:267
+#: qt/aqt/deckbrowser.py:297
 #, python-format
 msgid " It has %d card."
 msgid_plural " It has %d cards."
@@ -46,60 +49,38 @@ msgstr[1] " Are %d carduri."
 msgstr[2] " Are %d carduri."
 
 #. T: include a font for your language on Windows, eg: "Segoe UI", "MS Mincho"
-#: ../dtop/aqt/webview.py:242
+#: qt/aqt/webview.py:375
 msgid "\"Segoe UI\""
 msgstr ""
 
-#: ../dtop/aqt/forms/dconf.py:352 ../dtop/aqt/forms/dconf.py:364
-#: ../dtop/aqt/forms/dconf.py:365 ../dtop/aqt/forms/dconf.py:372
-#: ../dtop/aqt/forms/dconf.py:383
+#: qt/aqt/forms/dconf.py:341 qt/aqt/forms/dconf.py:352
+#: qt/aqt/forms/dconf.py:357 qt/aqt/forms/dconf.py:360
+#: qt/aqt/forms/dconf.py:371 qt/aqt/forms/preferences.py:286
 msgid "%"
 msgstr "%"
 
-#: ../dtop/anki/stats.py:679 ../dtop/anki/stats.py:686
+#: pylib/anki/stats.py:789 pylib/anki/stats.py:811
 msgid "% Correct"
 msgstr "% corecte"
 
-#: ../dtop/anki/stats.py:934
+#: pylib/anki/stats.py:1105
 #, python-format
 msgid "%(a)0.1f %(b)s/day"
 msgstr "%(a)0.1f %(b)s/zi"
 
-#: ../dtop/aqt/sync.py:82
-#, python-format
-msgid "%(a)0.1fkB up, %(b)0.1fkB down"
-msgstr ""
-
-#: ../dtop/anki/stats.py:403
-#, python-format
-msgid "%(a)0.1fs (%(b)s)"
-msgstr "%(a)0.1fs (%(b)s)"
-
-#: ../dtop/aqt/browser.py:1776
-#, python-format
-msgid "%(a)d of %(b)d note updated"
-msgid_plural "%(a)d of %(b)d notes updated"
-msgstr[0] "%(a)d din %(b)d note actualizate"
-msgstr[1] "%(a)d din %(b)d note actualize"
-msgstr[2] "%(a)d din %(b)d note actualize"
-
-#: ../dtop/aqt/browser.py:1063
+#. T: name is a card type name. n it's order in the list of card type.
+#. T: this is shown in browser's filter, when seeing the list of card type of a note type.
+#: qt/aqt/browser.py:1352
 #, python-format
 msgid "%(n)d: %(name)s"
 msgstr ""
 
-#: ../dtop/anki/stats.py:382
+#: pylib/anki/stats.py:413
 #, python-format
 msgid "%(tot)s %(unit)s"
 msgstr "%(tot)s %(unit)s"
 
-#: ../dtop/anki/stats.py:400
-#, python-format
-msgid "%.01f cards/minute"
-msgstr ""
-
-#: ../dtop/anki/stats.py:261 ../dtop/anki/stats.py:311
-#: ../dtop/aqt/clayout.py:210 ../dtop/aqt/main.py:1186
+#: pylib/anki/stats.py:255 pylib/anki/stats.py:313 qt/aqt/clayout.py:507
 #, python-format
 msgid "%d card"
 msgid_plural "%d cards"
@@ -107,15 +88,7 @@ msgstr[0] "%d card"
 msgstr[1] "%d carduri"
 msgstr[2] "%d carduri"
 
-#: ../dtop/aqt/main.py:1197
-#, python-format
-msgid "%d card deleted."
-msgid_plural "%d cards deleted."
-msgstr[0] "%d card șters."
-msgstr[1] "%d carduri șterse."
-msgstr[2] "%d carduri șterse."
-
-#: ../dtop/aqt/exporting.py:135
+#: qt/aqt/exporting.py:186
 #, python-format
 msgid "%d card exported."
 msgid_plural "%d cards exported."
@@ -123,7 +96,7 @@ msgstr[0] "%d card export at."
 msgstr[1] "%d carduri exportate."
 msgstr[2] "%d carduri exportate."
 
-#: ../dtop/anki/importing/supermemo_xml.py:181
+#: pylib/anki/importing/supermemo_xml.py:202
 #, python-format
 msgid "%d card imported."
 msgid_plural "%d cards imported."
@@ -131,7 +104,7 @@ msgstr[0] "%d card important."
 msgstr[1] "%d carduri importate."
 msgstr[2] "%d carduri importate."
 
-#: ../dtop/aqt/reviewer.py:66
+#: qt/aqt/reviewer.py:88
 #, python-format
 msgid "%d card studied in"
 msgid_plural "%d cards studied in"
@@ -139,7 +112,7 @@ msgstr[0] "%d card studiat în"
 msgstr[1] "%d carduri studiate în"
 msgstr[2] "%d carduri studiate în"
 
-#: ../dtop/aqt/deckconf.py:143
+#: qt/aqt/deckconf.py:167
 #, python-format
 msgid "%d deck updated."
 msgid_plural "%d decks updated."
@@ -147,7 +120,7 @@ msgstr[0] "%d pachet actualizat."
 msgstr[1] "%d pachete actualizate."
 msgstr[2] "%d pachete actualizate."
 
-#: ../dtop/aqt/browser.py:1824
+#: qt/aqt/browser.py:1995
 #, python-format
 msgid "%d group"
 msgid_plural "%d groups"
@@ -155,22 +128,8 @@ msgstr[0] "%d grup"
 msgstr[1] "%d grupuri"
 msgstr[2] "%d grupuri"
 
-#: ../dtop/anki/sync.py:770
-#, python-format
-msgid "%d media change to upload"
-msgid_plural "%d media changes to upload"
-msgstr[0] ""
-msgstr[1] ""
-
-#: ../dtop/anki/sync.py:817
-#, python-format
-msgid "%d media file downloaded"
-msgid_plural "%d media files downloaded"
-msgstr[0] ""
-msgstr[1] ""
-
-#: ../dtop/aqt/browser.py:1825 ../dtop/aqt/browser.py:1831
-#: ../dtop/aqt/fields.py:96 ../dtop/aqt/models.py:71
+#: qt/aqt/browser.py:1996 qt/aqt/browser.py:2004 qt/aqt/fields.py:123
+#: qt/aqt/models.py:100
 #, python-format
 msgid "%d note"
 msgid_plural "%d notes"
@@ -178,7 +137,7 @@ msgstr[0] "%d notiță"
 msgstr[1] "%d notițe"
 msgstr[2] "%d notițe"
 
-#: ../dtop/anki/importing/noteimp.py:201
+#: pylib/anki/importing/noteimp.py:212
 #, python-format
 msgid "%d note added"
 msgid_plural "%d notes added"
@@ -186,21 +145,21 @@ msgstr[0] "%d notă adăugată"
 msgstr[1] "%d note adăugate"
 msgstr[2] "%d note adăugate"
 
-#: ../dtop/aqt/browser.py:1485
+#: qt/aqt/browser.py:1567
 #, python-format
 msgid "%d note deleted."
 msgid_plural "%d notes deleted."
 msgstr[0] ""
 msgstr[1] ""
 
-#: ../dtop/aqt/exporting.py:132
+#: qt/aqt/exporting.py:179
 #, python-format
 msgid "%d note exported."
 msgid_plural "%d notes exported."
 msgstr[0] ""
 msgstr[1] ""
 
-#: ../dtop/anki/importing/mnemo.py:97
+#: pylib/anki/importing/mnemo.py:104
 #, python-format
 msgid "%d note imported."
 msgid_plural "%d notes imported."
@@ -208,7 +167,7 @@ msgstr[0] "%d notă importată."
 msgstr[1] "%d note importate."
 msgstr[2] "%d note importate."
 
-#: ../dtop/anki/importing/noteimp.py:210
+#: pylib/anki/importing/noteimp.py:224
 #, python-format
 msgid "%d note unchanged"
 msgid_plural "%d notes unchanged"
@@ -216,7 +175,7 @@ msgstr[0] "%d notă nemodificată"
 msgstr[1] "%d note nemodificate"
 msgstr[2] "%d de note nemodificate"
 
-#: ../dtop/anki/importing/noteimp.py:202
+#: pylib/anki/importing/noteimp.py:214
 #, python-format
 msgid "%d note updated"
 msgid_plural "%d notes updated"
@@ -224,15 +183,7 @@ msgstr[0] "%d notă actualizată"
 msgstr[1] "%d note actualizate"
 msgstr[2] "%d note actualize"
 
-#: ../dtop/anki/stats.py:255
-#, python-format
-msgid "%d review"
-msgid_plural "%d reviews"
-msgstr[0] "%d repetiție"
-msgstr[1] "%d repetiții"
-msgstr[2] "%d repetiții"
-
-#: ../dtop/aqt/browser.py:619
+#: qt/aqt/browser.py:820
 #, python-format
 msgid "%d selected"
 msgid_plural "%d selected"
@@ -240,36 +191,12 @@ msgstr[0] "%d selectată"
 msgstr[1] "%d selectate"
 msgstr[2] "%d selectate"
 
-#: ../dtop/anki/models.py:226
+#: pylib/anki/models.py:263
 #, python-format
 msgid "%s copy"
 msgstr "Copie a %s"
 
-#: ../dtop/anki/utils.py:36
-#, python-format
-msgid "%s day"
-msgid_plural "%s days"
-msgstr[0] "%s zi"
-msgstr[1] "%s zile"
-msgstr[2] "%s de zile"
-
-#: ../dtop/anki/utils.py:37
-#, python-format
-msgid "%s hour"
-msgid_plural "%s hours"
-msgstr[0] "%s oră"
-msgstr[1] "%s ore"
-msgstr[2] "%s de ore"
-
-#: ../dtop/anki/utils.py:38
-#, python-format
-msgid "%s minute"
-msgid_plural "%s minutes"
-msgstr[0] "%s minut"
-msgstr[1] "%s minute"
-msgstr[2] "%s de minute"
-
-#: ../dtop/aqt/reviewer.py:68
+#: qt/aqt/reviewer.py:92
 #, python-format
 msgid "%s minute."
 msgid_plural "%s minutes."
@@ -277,15 +204,7 @@ msgstr[0] "%s minut."
 msgstr[1] "%s minute."
 msgstr[2] "%s minute."
 
-#: ../dtop/anki/utils.py:35
-#, python-format
-msgid "%s month"
-msgid_plural "%s months"
-msgstr[0] "%s lună"
-msgstr[1] "%s luni"
-msgstr[2] "%s de luni"
-
-#: ../dtop/anki/utils.py:39 ../dtop/aqt/main.py:981
+#: qt/aqt/main.py:1193
 #, python-format
 msgid "%s second"
 msgid_plural "%s seconds"
@@ -293,903 +212,647 @@ msgstr[0] "%s secundă"
 msgstr[1] "%s secunde"
 msgstr[2] "%s de secunde"
 
-#: ../dtop/aqt/main.py:1187
-#, python-format
-msgid "%s to delete:"
-msgstr "%s de șters:"
-
-#: ../dtop/anki/utils.py:34
-#, python-format
-msgid "%s year"
-msgid_plural "%s years"
-msgstr[0] "%s an"
-msgstr[1] "%s ani"
-msgstr[2] "%s de ani"
-
-#: ../dtop/anki/utils.py:55
-#, python-format
-msgid "%sd"
-msgstr "%sd"
-
-#: ../dtop/anki/utils.py:56
-#, python-format
-msgid "%sh"
-msgstr "%sh"
-
-#: ../dtop/anki/utils.py:57
-#, python-format
-msgid "%sm"
-msgstr "%sm"
-
-#: ../dtop/anki/utils.py:54
-#, python-format
-msgid "%smo"
-msgstr "%smo"
-
-#: ../dtop/anki/utils.py:58
-#, python-format
-msgid "%ss"
-msgstr "%ss"
-
-#: ../dtop/anki/utils.py:53
-#, python-format
-msgid "%sy"
-msgstr "%sy"
-
-#: ../dtop/aqt/forms/main.py:128
+#: qt/aqt/forms/main.py:139
 msgid "&About..."
 msgstr "&Despre..."
 
-#: ../dtop/aqt/forms/main.py:135
+#: qt/aqt/forms/main.py:145
 msgid "&Browse and Install..."
 msgstr ""
 
-#: ../dtop/aqt/forms/browser.py:268
+#: qt/aqt/forms/browser.py:301
 msgid "&Cards"
 msgstr "&Carduri"
 
-#: ../dtop/aqt/forms/main.py:136
+#: qt/aqt/forms/main.py:146
 msgid "&Check Database"
 msgstr "Verifi&că baza de date"
 
-#: ../dtop/aqt/forms/browser.py:294
+#: qt/aqt/forms/browser.py:316
 msgid "&Cram..."
 msgstr "To&ceală"
 
-#: ../dtop/aqt/forms/browser.py:265 ../dtop/aqt/forms/main.py:120
+#: qt/aqt/forms/browser.py:298 qt/aqt/forms/main.py:133
 msgid "&Edit"
 msgstr "&Editează"
 
-#: ../dtop/aqt/forms/main.py:141
+#: qt/aqt/forms/browser.py:341
+#, fuzzy
+msgid "&Export Notes..."
+msgstr "&Exportă..."
+
+#: qt/aqt/forms/main.py:149
 msgid "&Export..."
 msgstr "&Exportă..."
 
-#: ../dtop/aqt/forms/main.py:121
+#: qt/aqt/forms/main.py:134
 msgid "&File"
 msgstr "&Fișier"
 
-#: ../dtop/aqt/forms/browser.py:279
+#: qt/aqt/forms/browser.py:308
 msgid "&Find"
 msgstr "&Caută"
 
-#: ../dtop/aqt/forms/browser.py:266
+#: qt/aqt/forms/browser.py:299
 msgid "&Go"
 msgstr "&Mergi"
 
-#: ../dtop/aqt/forms/browser.py:287
-msgid "&Guide"
-msgstr "&Ghid"
-
-#: ../dtop/aqt/forms/main.py:137
+#: qt/aqt/forms/browser.py:312 qt/aqt/forms/main.py:147
 msgid "&Guide..."
 msgstr "&Ghid…"
 
-#: ../dtop/aqt/forms/browser.py:267 ../dtop/aqt/forms/main.py:119
+#: qt/aqt/forms/browser.py:300 qt/aqt/forms/main.py:132
 msgid "&Help"
 msgstr "A&jutor"
 
-#: ../dtop/aqt/forms/main.py:143
+#: qt/aqt/forms/main.py:150
 msgid "&Import..."
 msgstr "&Importă..."
 
-#: ../dtop/aqt/forms/browser.py:308
+#: qt/aqt/forms/browser.py:326
 msgid "&Info..."
 msgstr "&Informații..."
 
-#: ../dtop/aqt/forms/browser.py:277
+#: qt/aqt/forms/browser.py:307
 msgid "&Invert Selection"
 msgstr "&Inversează selecția"
 
-#: ../dtop/aqt/forms/browser.py:283
+#: qt/aqt/forms/browser.py:310
 msgid "&Next Card"
 msgstr "Cartea ur&mătoare"
 
-#: ../dtop/aqt/forms/browser.py:270
+#: qt/aqt/forms/browser.py:303
 msgid "&Notes"
 msgstr "&Notițe"
 
-#: ../dtop/aqt/forms/main.py:133
+#: qt/aqt/forms/main.py:143
 msgid "&Open Add-ons Folder..."
 msgstr "Deschide dosarul cu suplimente..."
 
-#: ../dtop/aqt/forms/main.py:125
+#: qt/aqt/forms/main.py:137
 msgid "&Preferences..."
 msgstr "&Preferințe..."
 
-#: ../dtop/aqt/forms/browser.py:285
+#: qt/aqt/forms/browser.py:311
 msgid "&Previous Card"
 msgstr "Cartea a&nterioară"
 
-#: ../dtop/aqt/forms/browser.py:271
+#: qt/aqt/forms/browser.py:304
 msgid "&Reschedule..."
 msgstr "&Re-planifică"
 
-#: ../dtop/aqt/forms/main.py:134
+#: qt/aqt/forms/main.py:144
 msgid "&Support Anki..."
 msgstr "&Suport Anki…"
 
-#: ../dtop/aqt/forms/main.py:139
+#: qt/aqt/forms/main.py:148
 msgid "&Switch Profile"
 msgstr ""
 
-#: ../dtop/aqt/forms/main.py:122
+#: qt/aqt/forms/main.py:135
 msgid "&Tools"
 msgstr "Unel&te"
 
-#: ../dtop/aqt/forms/browser.py:275 ../dtop/aqt/forms/main.py:129
+#: qt/aqt/forms/browser.py:306 qt/aqt/forms/main.py:140
 msgid "&Undo"
 msgstr "R&efă"
 
-#: ../dtop/anki/importing/csvfile.py:40
+#: pylib/anki/importing/csvfile.py:44
 #, python-format
 msgid "'%(row)s' had %(num1)d fields, expected %(num2)d"
 msgstr "'%(row)s' are %(num1)d câmpuri, din %(num2)d prevăzute"
 
-#: ../dtop/anki/stats.py:178
+#: pylib/anki/stats.py:151
 #, python-format
 msgid "(%s correct)"
 msgstr "(%s corecte)"
 
-#: ../dtop/aqt/addcards.py:147
+#: qt/aqt/addcards.py:148
 msgid "(Note deleted)"
 msgstr ""
 
-#: ../dtop/anki/sched.py:1210 ../dtop/anki/schedv2.py:1312
+#: qt/aqt/addons.py:744
+#, fuzzy
+msgid "(disabled)"
+msgstr " (dezactivat)"
+
+#: pylib/anki/schedv2.py:1398
 msgid "(end)"
 msgstr "(sfârșit)"
 
-#: ../dtop/aqt/browser.py:308
+#: qt/aqt/browser.py:364
 msgid "(filtered)"
 msgstr "(filtrate)"
 
-#: ../dtop/aqt/browser.py:276
+#: qt/aqt/browser.py:331
 msgid "(learning)"
 msgstr "(învățare)"
 
-#: ../dtop/aqt/browser.py:274 ../dtop/aqt/browser.py:280
+#: qt/aqt/browser.py:329 qt/aqt/browser.py:335
 msgid "(new)"
 msgstr "(nou)"
 
-#: ../dtop/aqt/deckconf.py:164
+#: qt/aqt/deckconf.py:195
 #, python-format
 msgid "(parent limit: %d)"
 msgstr "(limita părintelui: %d)"
 
-#: ../dtop/aqt/browser.py:1389
+#: qt/aqt/previewer.py:156
 msgid "(please select 1 card)"
 msgstr "(te rog să selectezi 1 card)"
 
-#: ../dtop/aqt/forms/customstudy.py:102 ../dtop/aqt/forms/customstudy.py:103
-#: ../dtop/aqt/forms/customstudy.py:104
-msgid "..."
-msgstr "…"
-
-#: ../dtop/aqt/importing.py:280
-msgid ""
-".anki files are from a very old version of Anki. You can import them with "
-"Anki 2.0, available on the Anki website."
+#: qt/aqt/addons.py:746
+#, python-format
+msgid "(requires %s)"
 msgstr ""
 
-#: ../dtop/aqt/importing.py:283
-msgid ""
-".anki2 files are not directly importable - please import the .apkg or .zip "
-"file you have received instead."
+#: qt/aqt/importing.py:328
+msgid ".anki files are from a very old version of Anki. You can import them with Anki 2.0, available on the Anki website."
 msgstr ""
 
-#: ../dtop/aqt/forms/main.py:146
-msgid "/"
-msgstr "/"
+#: qt/aqt/importing.py:335
+msgid ".anki2 files are not directly importable - please import the .apkg or .zip file you have received instead."
+msgstr ""
 
-#: ../dtop/aqt/browser.py:1191
-msgid "0d"
-msgstr "0d"
-
-#: ../dtop/aqt/forms/dyndconf.py:144
-msgid "1 10"
-msgstr "1 10"
-
-#: ../dtop/anki/stats.py:790 ../dtop/aqt/forms/stats.py:76
+#: pylib/anki/stats.py:942 qt/aqt/forms/stats.py:82
 msgid "1 month"
 msgstr "1 lună"
 
-#: ../dtop/anki/stats.py:791 ../dtop/aqt/forms/stats.py:77
+#: pylib/anki/stats.py:942 qt/aqt/forms/stats.py:83
 msgid "1 year"
 msgstr "1 an"
 
-#: ../dtop/anki/stats.py:683
+#: pylib/anki/stats.py:803
 msgid "10AM"
 msgstr "10AM"
 
-#: ../dtop/anki/stats.py:684
+#: pylib/anki/stats.py:805
 msgid "10PM"
 msgstr "10PM"
 
-#: ../dtop/anki/stats.py:684
+#: pylib/anki/stats.py:806
 msgid "3AM"
 msgstr "3AM"
 
-#: ../dtop/anki/stats.py:683
+#: pylib/anki/stats.py:802
 msgid "4AM"
 msgstr "4AM"
 
-#: ../dtop/anki/stats.py:684
+#: pylib/anki/stats.py:804
 msgid "4PM"
 msgstr "4PM"
 
-#: ../dtop/aqt/sync.py:177
-msgid ""
-"504 gateway timeout error received. Please try temporarily disabling your "
-"antivirus."
-msgstr ""
-"S-a primit eroarea de pauză de intrare 504. Te rog să dezactivezi temporar "
-"antivirusul tău."
-
-#: ../dtop/anki/stats.py:750
+#. T: Symbols separating first and second column in a statistics table. Eg in "Total:    3 reviews".
+#: pylib/anki/stats.py:891
 msgid ":"
 msgstr ":"
 
-#: ../dtop/anki/stats.py:169 ../dtop/aqt/deckbrowser.py:113
-#, python-format
-msgid "<!--studied-->%d card"
-msgid_plural "<!--studied-->%d cards"
-msgstr[0] "<!--studied-->%d card"
-msgstr[1] "<!--studied-->%d carduri"
-msgstr[2] "<!--studied-->%d carduri"
-
-#: ../dtop/aqt/about.py:53
+#: qt/aqt/about.py:110
 #, python-format
 msgid "<a href='%s'>Visit website</a>"
 msgstr "<a href='%s'>Accesează  website-ul</a>"
 
-#: ../dtop/anki/stats.py:375
+#: pylib/anki/stats.py:403
 #, python-format
 msgid "<b>%(pct)d%%</b> (%(x)s of %(y)s)"
 msgstr "<b>%(pct)d%%</b> (%(x)s din %(y)s)"
 
-#: ../dtop/aqt/browser.py:1172
-msgid "<b>%Y-%m-%d</b> @ %H:%M"
-msgstr "<b>%Y-%m-%d</b> @ %H:%M"
+#: qt/aqt/forms/preferences.py:306
+msgid "<b>Backups</b><br>Anki will create a backup of your collection each time it is closed or synchronized."
+msgstr "<b> Backup </ b> <br> Anki va crea o copie de rezervă a colecției de fiecare dată când este închisă sau sincronizată."
 
-#: ../dtop/aqt/forms/preferences.py:250
-msgid ""
-"<b>Backups</b><br>Anki will create a backup of your collection each time it "
-"is closed or synchronized."
-msgstr ""
-"<b> Backup </ b> <br> Anki va crea o copie de rezervă a colecției de fiecare "
-"dată când este închisă sau sincronizată."
-
-#: ../dtop/aqt/forms/exporting.py:73
+#: qt/aqt/forms/exporting.py:75
 msgid "<b>Export format</b>:"
 msgstr "<b>Format export</b>:"
 
-#: ../dtop/aqt/forms/findreplace.py:67
+#: qt/aqt/forms/findreplace.py:84
 msgid "<b>Find</b>:"
 msgstr "<b>Caută</b>:"
 
-#: ../dtop/aqt/forms/browseropts.py:69
+#: qt/aqt/forms/browseropts.py:71
 msgid "<b>Font Size</b>:"
 msgstr "<b>Mărime font</b>:"
 
-#: ../dtop/aqt/forms/browseropts.py:68
+#: qt/aqt/forms/browseropts.py:70
 msgid "<b>Font</b>:"
 msgstr "<b>Font</b>:"
 
-#: ../dtop/aqt/forms/findreplace.py:69
+#: qt/aqt/addons.py:1399
+#, python-format
+msgid "<b>Important</b>: As add-ons are programs downloaded from the internet, they are potentially malicious.<b>You should only install add-ons you trust.</b><br><br>Are you sure you want to proceed with the installation of the following Anki add-on(s)?<br><br>%(names)s"
+msgstr ""
+
+#: qt/aqt/forms/findreplace.py:86
 msgid "<b>In</b>:"
 msgstr "<b>În</b>:"
 
-#: ../dtop/aqt/forms/exporting.py:74
+#: qt/aqt/forms/exporting.py:76
 msgid "<b>Include</b>:"
 msgstr "<b>Include</b>:"
 
-#: ../dtop/aqt/forms/browseropts.py:70
+#: qt/aqt/forms/browseropts.py:72
 msgid "<b>Line Size</b>:"
 msgstr "<b>Dimensiunea liniei</b>:"
 
-#: ../dtop/aqt/forms/findreplace.py:68
+#: qt/aqt/addons.py:1423
+msgid "<b>Please restart Anki to complete the installation.</b>"
+msgstr ""
+
+#: qt/aqt/forms/findreplace.py:85
 msgid "<b>Replace With</b>:"
 msgstr "<b>Înlocuiește cu</b>:"
 
-#: ../dtop/aqt/forms/preferences.py:244
+#: qt/aqt/forms/preferences.py:299
 msgid "<b>Synchronisation</b>"
 msgstr "<b>Sincronizare</b>"
 
-#: ../dtop/aqt/preferences.py:191
+#: qt/aqt/preferences.py:187
 msgid ""
 "<b>Synchronization</b><br>\n"
 "Not currently enabled; click the sync button in the main window to enable."
 msgstr ""
 "<b>Sincronizare</b><br>\n"
-"În acest moment sincronizarea nu este activată; apasă pe butonul de "
-"sincronizare din fereastra principală."
+"În acest moment sincronizarea nu este activată; apasă pe butonul de sincronizare din fereastra principală."
 
-#: ../dtop/aqt/sync.py:204
-#, python-format
-msgid ""
-"<h1>Account Required</h1>\n"
-"A free account is required to keep your collection synchronized. Please <a "
-"href=\"%s\">sign up</a> for an account, then enter your details below."
-msgstr ""
-"<h1>Cont obligatoriu</h1>\n"
-"Un cont gratuit este necesar pentru a păstra sincronizată colecția. Te rog, "
-"<a href=\"%s\">înscrie-te</a> pentru un cont, apoi introdu detaliile tale."
-
-#: ../dtop/aqt/update.py:57
+#: qt/aqt/update.py:60
 #, python-format
 msgid "<h1>Anki Updated</h1>Anki %s has been released.<br><br>"
 msgstr "<h1>Anki actualizat</h1>Anki %s a fost lansat.<br><br>"
 
-#: ../dtop/aqt/errors.py:113
-msgid ""
-"<h1>Error</h1>\n"
-"\n"
-"<p>An error occurred. Please start Anki while holding down the shift key, "
-"which will temporarily disable the add-ons you have installed.</p>\n"
-"\n"
-"<p>If the issue only occurs when add-ons are enabled, please use the "
-"Tools&gt;Add-ons menu item to disable some add-ons and restart Anki, "
-"repeating until you discover the add-on that is causing the problem.</p>\n"
-"\n"
-"<p>When you've discovered the add-on that is causing the problem, please "
-"report the issue on the <a href=\"https://help.ankiweb.net/discussions/add-"
-"ons/\">add-ons section</a> of our support site.\n"
-"\n"
-"<p>Debug info:</p>\n"
-msgstr ""
-
-#: ../dtop/aqt/errors.py:103
-msgid ""
-"<h1>Error</h1>\n"
-"\n"
-"<p>An error occurred. Please use <b>Tools &gt; Check Database</b> to see if "
-"that fixes the problem.</p>\n"
-"\n"
-"<p>If problems persist, please report the problem on our <a "
-"href=\"https://help.ankiweb.net\">support site</a>. Please copy and paste  "
-"the information below into your report.</p>"
-msgstr ""
-
-#: ../dtop/aqt/importing.py:229
+#: qt/aqt/importing.py:265
 msgid "<ignored>"
 msgstr "<ignorat>"
 
-#: ../dtop/aqt/main.py:1283
+#: qt/aqt/main.py:1502
 msgid "<non-unicode text>"
 msgstr "<non-unicode text>"
 
-#: ../dtop/aqt/browser.py:560
+#: qt/aqt/browser.py:755
 msgid "<type here to search; hit enter to show current deck>"
-msgstr ""
-"<tastați aici pentru a căuta; apăsați enter pentru a afișa pachetul curent>"
+msgstr "<tastați aici pentru a căuta; apăsați enter pentru a afișa pachetul curent>"
 
-#: ../dtop/aqt/about.py:146
-msgid ""
-"A big thanks to all the people who have provided suggestions, bug reports "
-"and donations."
-msgstr ""
-"Mulțumiri tuturor celor care au contribuit cu sugestii, rapoarte de erori și "
-"donații."
+#: qt/aqt/about.py:222
+msgid "A big thanks to all the people who have provided suggestions, bug reports and donations."
+msgstr "Mulțumiri tuturor celor care au contribuit cu sugestii, rapoarte de erori și donații."
 
-#: ../dtop/anki/stats.py:738
-msgid ""
-"A card's <i>ease</i> is the size of the next interval when you answer "
-"\"good\" on a review."
-msgstr ""
-"<i>Ușurința</i> unui card este mărimea următorului interval în care ați "
-"răspuns  \"bine\" la o repetiție."
+#: pylib/anki/stats.py:875
+msgid "A card's <i>ease</i> is the size of the next interval when you answer \"good\" on a review."
+msgstr "<i>Ușurința</i> unui card este mărimea următorului interval în care ați răspuns  \"bine\" la o repetiție."
 
-#: ../dtop/anki/decks.py:265
-msgid "A filtered deck cannot have subdecks."
-msgstr ""
-
-#: ../dtop/aqt/sync.py:136
-msgid ""
-"A problem occurred while syncing media. Please use Tools>Check Media, then "
-"sync again to correct the issue."
-msgstr ""
-"A apărut o problemă în timp ce se sincronizau fișierele media. Te rog să "
-"folosești Instrumente->Verifică media, apoi să sincronizezi din nou pentru a "
-"corecta problema."
-
-#: ../dtop/anki/importing/csvfile.py:51
+#: pylib/anki/importing/csvfile.py:56
 #, python-format
 msgid "Aborted: %s"
 msgstr "Nereușite: %s"
 
-#: ../dtop/aqt/forms/about.py:41
+#: qt/aqt/forms/about.py:43
 msgid "About Anki"
 msgstr "Despre Anki"
 
-#: ../dtop/aqt/addcards.py:23 ../dtop/aqt/addcards.py:54
-#: ../dtop/aqt/deckconf.py:70 ../dtop/aqt/models.py:36
-#: ../dtop/aqt/studydeck.py:33 ../dtop/aqt/toolbar.py:36
-#: ../dtop/aqt/forms/addcards.py:61 ../dtop/aqt/forms/fields.py:99
-#: ../dtop/aqt/forms/profiles.py:74
+#: qt/aqt/addcards.py:37 qt/aqt/addcards.py:67 qt/aqt/deckconf.py:87
+#: qt/aqt/models.py:52 qt/aqt/studydeck.py:46 qt/aqt/toolbar.py:111
+#: qt/aqt/forms/addcards.py:58 qt/aqt/forms/fields.py:102
+#: qt/aqt/forms/profiles.py:81
 msgid "Add"
 msgstr "Adaugă"
 
-#: ../dtop/aqt/addcards.py:57
+#: qt/aqt/addcards.py:70
 msgid "Add (shortcut: ctrl+enter)"
 msgstr "Adaugă (scurtătură: ctrl+enter)"
 
-#: ../dtop/aqt/clayout.py:421
+#: qt/aqt/clayout.py:623
 msgid "Add Card Type..."
 msgstr ""
 
-#: ../dtop/aqt/clayout.py:231 ../dtop/aqt/forms/addfield.py:71
+#: qt/aqt/clayout.py:345 qt/aqt/forms/addfield.py:61
 msgid "Add Field"
 msgstr "Adaugă câmp"
 
-#: ../dtop/aqt/editor.py:552
+#: qt/aqt/editor.py:698
 msgid "Add Media"
 msgstr "Adaugă fişierul multimedia"
 
-#: ../dtop/aqt/studydeck.py:35
+#: qt/aqt/studydeck.py:48
 msgid "Add New Deck (Ctrl+N)"
 msgstr "Adăugă pachet nou (Ctrl+N)"
 
-#: ../dtop/aqt/forms/addmodel.py:42
+#: qt/aqt/forms/addmodel.py:44
 msgid "Add Note Type"
 msgstr "Adaugă tip de notă"
 
-#: ../dtop/aqt/forms/browser.py:318
+#: qt/aqt/forms/browser.py:331
 msgid "Add Notes..."
 msgstr "Adaugă notițe..."
 
-#: ../dtop/anki/stdmodels.py:70
-msgid "Add Reverse"
-msgstr "Adaugă verso"
-
-#: ../dtop/aqt/browser.py:1544
+#: qt/aqt/browser.py:1637
 msgid "Add Tags"
 msgstr "Adaugă etichete"
 
-#: ../dtop/aqt/forms/browser.py:310
+#: qt/aqt/forms/browser.py:327
 msgid "Add Tags..."
 msgstr "Adaugă marcaje..."
 
-#: ../dtop/aqt/forms/addfield.py:77
-msgid "Add to:"
-msgstr "Adaugă în:"
+#: qt/aqt/browser.py:167
+#, fuzzy
+msgid "Add-on"
+msgstr "Obține suplimente..."
 
-#: ../dtop/aqt/addons.py:645
+#: qt/aqt/addons.py:897
 msgid "Add-on has no configuration."
 msgstr ""
 
-#: ../dtop/aqt/addons.py:550
+#: qt/aqt/addons.py:1440
+msgid "Add-on installation error"
+msgstr ""
+
+#: qt/aqt/addons.py:819
 msgid "Add-on was not downloaded from AnkiWeb."
 msgstr ""
 
-#: ../dtop/aqt/forms/addons.py:65 ../dtop/aqt/forms/main.py:152
+#: qt/aqt/main.py:1565
+#, fuzzy
+msgid "Add-on will be installed when a profile is opened."
+msgstr "Pachetul va fi importat dacă un profil este deschis"
+
+#: qt/aqt/forms/addons.py:67 qt/aqt/forms/main.py:155
 msgid "Add-ons"
 msgstr ""
 
-#: ../dtop/aqt/errors.py:147
-msgid "Add-ons possibly involved: {}\n"
-msgstr ""
-
-#: ../dtop/aqt/models.py:175
+#: qt/aqt/models.py:199
 #, python-format
 msgid "Add: %s"
 msgstr "Adaugă: %s"
 
-#: ../dtop/anki/stats.py:27 ../dtop/anki/stats.py:302
-#: ../dtop/anki/importing/anki2.py:161 ../dtop/aqt/addcards.py:190
+#: pylib/anki/stats.py:304 pylib/anki/importing/anki2.py:166
+#: qt/aqt/addcards.py:192
 msgid "Added"
 msgstr "Adăugat(e)"
 
-#: ../dtop/aqt/browser.py:983
+#: qt/aqt/browser.py:1262
 msgid "Added Today"
 msgstr "Adăugate astăzi"
 
-#: ../dtop/anki/importing/noteimp.py:118
+#: pylib/anki/importing/noteimp.py:139
 #, python-format
 msgid "Added duplicate with first field: %s"
 msgstr "Adaugă duplicat cu primul câmp: %s"
 
-#: ../dtop/aqt/reviewer.py:537
+#: qt/aqt/reviewer.py:617
 msgid "Again"
 msgstr "Din nou"
 
-#: ../dtop/aqt/browser.py:985
+#: qt/aqt/browser.py:1264
 msgid "Again Today"
 msgstr "Repetate astăzi"
 
-#: ../dtop/anki/stats.py:176
+#: pylib/anki/stats.py:149
 #, python-format
 msgid "Again count: %s"
 msgstr "Numărate din nou: %s"
 
-#: ../dtop/aqt/overview.py:103
+#: qt/aqt/overview.py:134
 msgid "All Buried Cards"
 msgstr ""
 
-#: ../dtop/aqt/browser.py:1058
+#: qt/aqt/browser.py:1345
 msgid "All Card Types"
 msgstr "Toate tipurile de carduri"
 
-#: ../dtop/aqt/exporting.py:42
+#: qt/aqt/exporting.py:52
 msgid "All Decks"
 msgstr "Toate pachetele"
 
-#: ../dtop/aqt/browser.py:1745
+#: qt/aqt/browser.py:1885
 msgid "All Fields"
 msgstr "Toate câmpurile"
 
-#: ../dtop/aqt/forms/customstudy.py:114
+#: qt/aqt/forms/customstudy.py:117
 msgid "All cards in random order (don't reschedule)"
 msgstr ""
 
-#: ../dtop/aqt/main.py:220
-msgid ""
-"All cards, notes, and media for this profile will be deleted. Are you sure?"
-msgstr ""
-"Toate cartelele, notele şi fișierele multimedia pentru acest profil vor fi "
-"şterse. Eşti sigur?"
+#: qt/aqt/main.py:301
+msgid "All cards, notes, and media for this profile will be deleted. Are you sure?"
+msgstr "Toate cartelele, notele şi fișierele multimedia pentru acest profil vor fi şterse. Eşti sigur?"
 
-#: ../dtop/aqt/forms/customstudy.py:112
+#: qt/aqt/forms/customstudy.py:115
 msgid "All review cards in random order"
 msgstr ""
 
-#: ../dtop/aqt/forms/importing.py:99
+#: qt/aqt/forms/importing.py:110
 msgid "Allow HTML in fields"
 msgstr "Permite HTML în câmpuri"
 
-#: ../dtop/aqt/forms/dconf.py:389
+#: qt/aqt/forms/dconf.py:377
 msgid "Always include question side when replaying audio"
 msgstr ""
 
-#: ../dtop/aqt/addons.py:82
-#, python-format
-msgid ""
-"An add-on you installed failed to load. If problems persist, please go to "
-"the Tools>Add-ons menu, and disable or delete the add-on.\n"
-"\n"
-"When loading '%(name)s':\n"
-"%(traceback)s\n"
-msgstr ""
-
-#: ../dtop/aqt/errors.py:86
-msgid ""
-"An error occurred while accessing the database.\n"
-"\n"
-"Possible causes:\n"
-"\n"
-"- Antivirus, firewall, backup, or synchronization software may be   "
-"interfering with Anki. Try disabling such software and see if the   problem "
-"goes away.\n"
-"- Your disk may be full.\n"
-"- The Documents/Anki folder may be on a network drive.\n"
-"- Files in the Documents/Anki folder may not be writeable.\n"
-"- Your hard disk may have errors.\n"
-"\n"
-"It's a good idea to run Tools>Check Database to ensure your collection is "
-"not corrupt.\n"
-msgstr ""
-
-#: ../dtop/aqt/editor.py:679 ../dtop/aqt/editor.py:682
+#: qt/aqt/editor.py:836
 #, python-format
 msgid "An error occurred while opening %s"
 msgstr "A apărut o eroare la deschiderea %s"
 
-#: ../dtop/aqt/forms/main.py:118 ../dtop/aqt/forms/setgroup.py:36
-#: ../dtop/aqt/forms/setlang.py:37
+#: qt/aqt/forms/main.py:131 qt/aqt/forms/setgroup.py:38
+#: qt/aqt/forms/setlang.py:39
 msgid "Anki"
 msgstr "Anki"
 
-#: ../dtop/anki/exporting.py:135
+#: pylib/anki/exporting.py:162
 msgid "Anki 2.0 Deck"
 msgstr "Pachet Anki 2.0"
 
-#: ../dtop/anki/exporting.py:361
+#: qt/aqt/forms/preferences.py:291
+msgid "Anki 2.1 scheduler (beta)"
+msgstr ""
+
+#: pylib/anki/exporting.py:392
 msgid "Anki Collection Package"
 msgstr ""
 
-#: ../dtop/anki/exporting.py:279
+#: pylib/anki/exporting.py:311
 msgid "Anki Deck Package"
 msgstr "Grup de pachete Anki"
 
-#: ../dtop/aqt/profiles.py:173
-msgid ""
-"Anki could not read your profile data. Window sizes and your sync login "
-"details have been forgotten."
+#: qt/aqt/profiles.py:251
+msgid "Anki could not read your profile data. Window sizes and your sync login details have been forgotten."
 msgstr ""
 
-#: ../dtop/aqt/profiles.py:239
-msgid ""
-"Anki could not rename your profile because it could not rename the profile "
-"folder on disk. Please ensure you have permission to write to Documents/Anki "
-"and no other programs are accessing your profile folders, then try again."
+#: qt/aqt/profiles.py:321
+msgid "Anki could not rename your profile because it could not rename the profile folder on disk. Please ensure you have permission to write to Documents/Anki and no other programs are accessing your profile folders, then try again."
 msgstr ""
 
-#: ../dtop/aqt/clayout.py:409
-msgid ""
-"Anki couldn't find the line between the question and answer. Please adjust "
-"the template manually to switch the question and answer."
-msgstr ""
-"Anki n-a putut găsi linia dintre întrebare și răspuns. Te rog să ajustezi "
-"manual șablonul pentru a comuta între întrebare și răspuns."
+#: qt/aqt/clayout.py:608
+msgid "Anki couldn't find the line between the question and answer. Please adjust the template manually to switch the question and answer."
+msgstr "Anki n-a putut găsi linia dintre întrebare și răspuns. Te rog să ajustezi manual șablonul pentru a comuta între întrebare și răspuns."
 
-#: ../dtop/anki/media.py:335
-msgid ""
-"Anki does not support files in subfolders of the collection.media folder."
-msgstr ""
+#: qt/aqt/about.py:97
+msgid "Anki is a friendly, intelligent spaced learning system. It's free and open source."
+msgstr "Anki este un sistem de învățare spațiată, inteligent și ușor de folosit. Este liber și are surse publice."
 
-#: ../dtop/aqt/about.py:47
-msgid ""
-"Anki is a friendly, intelligent spaced learning system. It's free and open "
-"source."
-msgstr ""
-"Anki este un sistem de învățare spațiată, inteligent și ușor de folosit. "
-"Este liber și are surse publice."
+#: qt/aqt/about.py:101
+msgid "Anki is licensed under the AGPL3 license. Please see the license file in the source distribution for more information."
+msgstr "Anki este licențiat sub licența AGPL3. Pentru mai multe informații, te rog să citești fișierul din distribuția sursă."
 
-#: ../dtop/aqt/about.py:49
-msgid ""
-"Anki is licensed under the AGPL3 license. Please see the license file in the "
-"source distribution for more information."
-msgstr ""
-"Anki este licențiat sub licența AGPL3. Pentru mai multe informații, te rog "
-"să citești fișierul din distribuția sursă."
-
-#: ../dtop/aqt/main.py:342
-msgid ""
-"Anki was unable to open your collection file. If problems persist after "
-"restarting your computer, please use the Open Backup button in the profile "
-"manager.\n"
-"\n"
-"Debug info:\n"
-msgstr ""
-
-#: ../dtop/aqt/sync.py:90
-msgid "AnkiWeb ID or password was incorrect; please try again."
-msgstr ""
-"ID-ul AnkiWeb sau parola au fost incorecte, te rog să încerci din nou."
-
-#: ../dtop/aqt/sync.py:215
-msgid "AnkiWeb ID:"
-msgstr "ID-ul AnkiWeb"
-
-#: ../dtop/aqt/sync.py:163
-msgid ""
-"AnkiWeb encountered an error. Please try again in a few minutes, and if the "
-"problem persists, please file a bug report."
-msgstr ""
-"AnkiWeb a întâmpinat o eroare. Te rog să încerci din nou în câteva minute, "
-"iar dacă problema persistă, te rog să trimiți un raport al erorii."
-
-#: ../dtop/aqt/sync.py:174
-msgid "AnkiWeb is too busy at the moment. Please try again in a few minutes."
-msgstr ""
-"AnkiWeb este prea ocupat în acest moment. Te rog să încerci din nou în "
-"câteva minute."
-
-#: ../dtop/aqt/sync.py:172
-msgid "AnkiWeb is under maintenance. Please try again in a few minutes."
-msgstr ""
-"AnkiWeb se află sub mentenanță. Te rog să încerci din nou în câteva minute."
-
-#: ../dtop/aqt/browser.py:536
+#: qt/aqt/browser.py:731
 msgid "Answer"
 msgstr "Răspuns"
 
-#: ../dtop/anki/stats.py:579
+#: pylib/anki/stats.py:674
 msgid "Answer Buttons"
 msgstr "Butoane de răspuns"
 
-#: ../dtop/anki/stats.py:340 ../dtop/anki/stats.py:587
-#: ../dtop/anki/stats.py:680
+#: pylib/anki/stats.py:352 pylib/anki/stats.py:685 pylib/anki/stats.py:793
 msgid "Answers"
 msgstr "Răspunsuri"
 
-#: ../dtop/aqt/sync.py:182
-msgid ""
-"Antivirus or firewall software is preventing Anki from connecting to the "
-"internet."
-msgstr ""
-"Antivirsul sau programul firewall nu permite lui Anki să se conecteze la "
-"internet."
-
-#: ../dtop/aqt/browser.py:1004
+#: qt/aqt/browser.py:1288
 msgid "Any Flag"
 msgstr "Orice fanion"
 
-#: ../dtop/aqt/browser.py:2077
-msgid ""
-"Any cards mapped to nothing will be deleted. If a note has no remaining "
-"cards, it will be lost. Are you sure you want to continue?"
-msgstr ""
-"Orice card mapat la nimic va fi șters. Dacă o notă nu mai are carduri, va fi "
-"ștearsă. Sigur vrei să continui?"
+#: qt/aqt/browser.py:2261
+msgid "Any cards mapped to nothing will be deleted. If a note has no remaining cards, it will be lost. Are you sure you want to continue?"
+msgstr "Orice card mapat la nimic va fi șters. Dacă o notă nu mai are carduri, va fi ștearsă. Sigur vrei să continui?"
 
-#: ../dtop/anki/importing/noteimp.py:144
+#: pylib/anki/importing/noteimp.py:161
 #, python-format
 msgid "Appeared twice in file: %s"
 msgstr "A apărut de două ori în fișierulȘ %s"
 
-#: ../dtop/aqt/deckbrowser.py:271
+#: qt/aqt/deckbrowser.py:304
 #, python-format
 msgid "Are you sure you wish to delete %s?"
 msgstr "Sigur vrei să ștergi %s?"
 
-#: ../dtop/aqt/clayout.py:207
+#: qt/aqt/clayout.py:498
 msgid "At least one card type is required."
 msgstr "E nevoie de cel puțin un tip de card."
 
-#: ../dtop/aqt/deckconf.py:246 ../dtop/aqt/dyndeckconf.py:157
+#: qt/aqt/deckconf.py:277 qt/aqt/dyndeckconf.py:159
 msgid "At least one step is required."
 msgstr "Cel puțin o etapă este necesară."
 
-#: ../dtop/aqt/editor.py:93
+#: qt/aqt/editor.py:166
 msgid "Attach pictures/audio/video (F3)"
 msgstr ""
 
-#: ../dtop/aqt/main.py:249
-msgid ""
-"Automatic syncing and backups have been disabled while restoring. To enable "
-"them again, close the profile or restart Anki."
+#: qt/aqt/reviewer.py:717
+msgid "Audio +5s"
 msgstr ""
 
-#: ../dtop/aqt/forms/dconf.py:388
+#: qt/aqt/reviewer.py:716
+msgid "Audio -5s"
+msgstr ""
+
+#: qt/aqt/main.py:351
+msgid "Automatic syncing and backups have been disabled while restoring. To enable them again, close the profile or restart Anki."
+msgstr ""
+
+#: qt/aqt/forms/dconf.py:376
 msgid "Automatically play audio"
 msgstr "Redare automată audio"
 
-#: ../dtop/aqt/forms/preferences.py:246
+#: qt/aqt/forms/preferences.py:301
 msgid "Automatically sync on profile open/close"
 msgstr "Sincronizare automată la deschiderea / închiderea profilului"
 
-#: ../dtop/anki/stats.py:256 ../dtop/anki/stats.py:312
+#: pylib/anki/stats.py:247 pylib/anki/stats.py:314
 msgid "Average"
 msgstr "Medie"
 
-#: ../dtop/anki/stats.py:55
-msgid "Average Time"
-msgstr "Media de timp"
-
-#: ../dtop/anki/stats.py:402
+#: pylib/anki/stats.py:429
 msgid "Average answer time"
 msgstr "Timp mediu de răspuns"
 
-#: ../dtop/anki/stats.py:735
+#: pylib/anki/stats.py:871
 msgid "Average ease"
 msgstr "Ușurință medie"
 
-#: ../dtop/anki/stats.py:387
+#: pylib/anki/stats.py:418
 msgid "Average for days studied"
 msgstr "Media zilelor studiate"
 
-#: ../dtop/anki/stats.py:541
+#: pylib/anki/stats.py:611
 msgid "Average interval"
 msgstr "Interval mediu"
 
-#: ../dtop/anki/stdmodels.py:18 ../dtop/anki/stdmodels.py:22
-#: ../dtop/anki/stdmodels.py:37 ../dtop/anki/stdmodels.py:40
-#: ../dtop/anki/stdmodels.py:41 ../dtop/anki/stdmodels.py:56
-#: ../dtop/anki/stdmodels.py:74 ../dtop/aqt/forms/addfield.py:76
-msgid "Back"
-msgstr "Verso"
-
-#: ../dtop/aqt/forms/preview.py:39
-msgid "Back Preview"
-msgstr "Previzualizare verso"
-
-#: ../dtop/aqt/forms/template.py:107
-msgid "Back Template"
-msgstr "Șablon verso"
-
-#: ../dtop/aqt/main.py:387
+#: qt/aqt/main.py:535
 msgid "Backing Up..."
 msgstr "Se creează copia de rezervă..."
 
-#: ../dtop/aqt/forms/preferences.py:256
+#: qt/aqt/forms/preferences.py:312
 msgid "Backups"
 msgstr "Salvări de siguranță"
 
-#: ../dtop/anki/stdmodels.py:15 ../dtop/anki/stdmodels.py:27
-#: ../dtop/aqt/forms/preferences.py:243
+#: qt/aqt/forms/preferences.py:287
 msgid "Basic"
 msgstr "De bază"
 
-#: ../dtop/anki/stdmodels.py:54 ../dtop/anki/stdmodels.py:61
-msgid "Basic (and reversed card)"
-msgstr "De bază (și cu card întors)"
-
-#: ../dtop/anki/stdmodels.py:69 ../dtop/anki/stdmodels.py:79
-msgid "Basic (optional reversed card)"
-msgstr "De bază (opțional cu card întors)"
-
-#: ../dtop/anki/stdmodels.py:34 ../dtop/anki/stdmodels.py:46
-msgid "Basic (type in the answer)"
-msgstr "De bază(tastați răspunsul)"
-
-#: ../dtop/aqt/browser.py:1002 ../dtop/aqt/reviewer.py:595
-#: ../dtop/aqt/forms/browser.py:328
+#: qt/aqt/browser.py:1286 qt/aqt/reviewer.py:699 qt/aqt/forms/browser.py:336
 msgid "Blue Flag"
 msgstr "Fanion albastru"
 
-#: ../dtop/aqt/editor.py:75
+#: qt/aqt/editor.py:115
 msgid "Bold text (Ctrl+B)"
 msgstr ""
 
-#: ../dtop/aqt/toolbar.py:37
+#: qt/aqt/toolbar.py:118
 msgid "Browse"
 msgstr "Răsfoire"
 
-#: ../dtop/aqt/browser.py:615
+#: qt/aqt/browser.py:814
 #, python-format
 msgid "Browse (%(cur)d card shown; %(sel)s)"
 msgid_plural "Browse (%(cur)d cards shown; %(sel)s)"
 msgstr[0] ""
 msgstr[1] ""
 
-#: ../dtop/aqt/addons.py:664
+#: qt/aqt/addons.py:917
 msgid "Browse Add-ons"
 msgstr ""
 
-#: ../dtop/aqt/forms/browserdisp.py:67
+#: qt/aqt/forms/browserdisp.py:69
 msgid "Browser Appearance"
 msgstr "Afișări browser"
 
-#: ../dtop/aqt/clayout.py:443
+#: qt/aqt/clayout.py:645
 msgid "Browser Appearance..."
 msgstr ""
 
-#: ../dtop/aqt/forms/browseropts.py:67
+#: qt/aqt/forms/browseropts.py:69
 msgid "Browser Options"
 msgstr "Optiuni browser"
 
-#: ../dtop/aqt/dyndeckconf.py:19
+#: qt/aqt/dyndeckconf.py:20
 msgid "Build"
 msgstr "Construieşte"
 
-#: ../dtop/aqt/browser.py:997
+#: qt/aqt/browser.py:1281
 msgid "Buried"
 msgstr ""
 
-#: ../dtop/aqt/overview.py:102
+#: qt/aqt/overview.py:133
 msgid "Buried Siblings"
 msgstr ""
 
-#: ../dtop/aqt/reviewer.py:693 ../dtop/aqt/reviewer.py:699
+#: qt/aqt/reviewer.py:804 qt/aqt/reviewer.py:810
 msgid "Bury"
 msgstr "Îngroapă"
 
-#: ../dtop/aqt/reviewer.py:599
+#: qt/aqt/reviewer.py:707
 msgid "Bury Card"
 msgstr "Ascunde card"
 
-#: ../dtop/aqt/reviewer.py:600
+#: qt/aqt/reviewer.py:708
 msgid "Bury Note"
 msgstr "Ascunde notă"
 
-#: ../dtop/aqt/forms/dconf.py:359
+#: qt/aqt/forms/dconf.py:347
 msgid "Bury related new cards until the next day"
 msgstr "Ascunde cardurile noi până în ziua următoare"
 
-#: ../dtop/aqt/forms/dconf.py:370
+#: qt/aqt/forms/dconf.py:358
 msgid "Bury related reviews until the next day"
 msgstr "Ascunde recapitulările asociate până în ziua următoare"
 
-#: ../dtop/aqt/importing.py:109
+#: qt/aqt/importing.py:129
 msgid ""
 "By default, Anki will detect the character between fields, such as\n"
 "a tab, comma, and so on. If Anki is detecting the character incorrectly,\n"
@@ -1199,836 +862,552 @@ msgstr ""
 "taburi, virgule, etc. Dacă Anki nu detectează corect caracterul,\n"
 "îl puteți specifica aici. Folosiți \\t pentru tab."
 
-#: ../dtop/aqt/overview.py:104 ../dtop/aqt/sound.py:29 ../dtop/aqt/sync.py:244
-#: ../dtop/aqt/sync.py:264
+#: qt/aqt/clayout.py:360 qt/aqt/overview.py:135 qt/aqt/sound.py:548
 msgid "Cancel"
 msgstr "Anulare"
 
-#: ../dtop/aqt/browser.py:537
+#: qt/aqt/browser.py:732
 msgid "Card"
 msgstr "Card"
 
-#: ../dtop/aqt/clayout.py:380
+#: qt/aqt/clayout.py:569
 #, python-format
 msgid "Card %d"
 msgstr "Card %d"
 
-#: ../dtop/anki/stdmodels.py:20 ../dtop/anki/stdmodels.py:39
-msgid "Card 1"
-msgstr "Card 1"
-
-#: ../dtop/anki/stdmodels.py:55 ../dtop/anki/stdmodels.py:73
-msgid "Card 2"
-msgstr "Card 2"
-
-#: ../dtop/anki/stats.py:63
-msgid "Card ID"
-msgstr "ID card"
-
-#: ../dtop/aqt/forms/browser.py:297
+#: qt/aqt/forms/browser.py:318
 msgid "Card List"
 msgstr "Listă carduri"
 
-#: ../dtop/aqt/browser.py:989
+#: qt/aqt/browser.py:1271
 msgid "Card State"
 msgstr ""
 
-#: ../dtop/anki/stats.py:59
-msgid "Card Type"
-msgstr "Tip card"
-
-#: ../dtop/aqt/forms/clayout_top.py:55
-msgid "Card Type:"
-msgstr ""
-
-#: ../dtop/anki/stats.py:741 ../dtop/aqt/clayout.py:33
+#: pylib/anki/stats.py:879 qt/aqt/clayout.py:61
 msgid "Card Types"
 msgstr "Tipuri de carduri"
 
-#: ../dtop/aqt/clayout.py:48
+#: qt/aqt/clayout.py:67
 #, python-format
 msgid "Card Types for %s"
 msgstr "Tipuri de card pentru %s"
 
-#: ../dtop/aqt/reviewer.py:696
+#: qt/aqt/reviewer.py:807
 msgid "Card buried."
 msgstr "Card ascuns."
 
-#: ../dtop/aqt/reviewer.py:675
+#: qt/aqt/reviewer.py:784
 msgid "Card suspended."
 msgstr "Card suspendat."
 
-#: ../dtop/aqt/reviewer.py:576
+#: qt/aqt/reviewer.py:665
 msgid "Card was a leech."
 msgstr "Cardul a fost un parazit."
 
-#: ../dtop/anki/stats.py:303 ../dtop/anki/stats.py:800
-#: ../dtop/aqt/editor.py:105 ../dtop/aqt/forms/changemodel.py:110
+#: pylib/anki/stats.py:305 pylib/anki/stats.py:955 qt/aqt/editor.py:185
+#: qt/aqt/forms/changemodel.py:112
 msgid "Cards"
 msgstr "Carduri"
 
-#: ../dtop/aqt/browser.py:1509
+#: qt/aqt/browser.py:1597
 msgid "Cards can't be manually moved into a filtered deck."
 msgstr "Cardurile nu pot fi mutate manual într-un pachet filtrat."
 
-#: ../dtop/anki/exporting.py:72
+#: pylib/anki/exporting.py:90
 msgid "Cards in Plain Text"
 msgstr "Carduri în Plain Text"
 
-#: ../dtop/aqt/overview.py:145
-msgid ""
-"Cards will be automatically returned to their original decks after you "
-"review them."
-msgstr ""
-"Cardurile vor fi automat returnate în pachetul lor original după ce le vei "
-"fi repetat."
+#: qt/aqt/overview.py:185
+msgid "Cards will be automatically returned to their original decks after you review them."
+msgstr "Cardurile vor fi automat returnate în pachetul lor original după ce le vei fi repetat."
 
-#: ../dtop/aqt/models.py:45
+#: qt/aqt/models.py:61
 msgid "Cards..."
 msgstr "Carduri…"
 
-#: ../dtop/anki/consts.py:75
+#: pylib/anki/consts.py:108
 msgid "Center"
 msgstr "Centrat"
 
-#: ../dtop/aqt/importing.py:231
+#: qt/aqt/importing.py:267
 msgid "Change"
 msgstr "Modifică"
 
-#: ../dtop/aqt/browser.py:2000
+#: qt/aqt/browser.py:2181
 #, python-format
 msgid "Change %s to:"
 msgstr "Schimbă %s în:"
 
-#: ../dtop/aqt/browser.py:1503 ../dtop/aqt/browser.py:1512
+#: qt/aqt/browser.py:1588 qt/aqt/browser.py:1600
 msgid "Change Deck"
 msgstr "Modifică pachet"
 
-#: ../dtop/aqt/forms/browser.py:320
+#: qt/aqt/forms/browser.py:332
 msgid "Change Deck..."
 msgstr ""
 
-#: ../dtop/aqt/browser.py:2082 ../dtop/aqt/forms/changemodel.py:107
+#: qt/aqt/browser.py:2268 qt/aqt/forms/changemodel.py:109
 msgid "Change Note Type"
 msgstr "Schimbă tipul notei"
 
-#: ../dtop/aqt/modelchooser.py:31
+#: qt/aqt/modelchooser.py:31
 msgid "Change Note Type (Ctrl+N)"
 msgstr "Schimbă tipul notei (Ctrl+N)"
 
-#: ../dtop/aqt/forms/browser.py:289
+#: qt/aqt/forms/browser.py:313
 msgid "Change Note Type..."
 msgstr "Schimbă tipul notei…"
 
-#: ../dtop/aqt/editor.py:87
+#: qt/aqt/editor.py:146
 msgid "Change colour (F8)"
 msgstr ""
 
-#: ../dtop/aqt/forms/preferences.py:236
+#: qt/aqt/forms/preferences.py:284
 msgid "Change deck depending on note type"
 msgstr "Schimbă pachetul în funcție de tipul notei"
 
-#: ../dtop/aqt/browser.py:542
-msgid "Changed"
-msgstr "Schimbat"
-
-#: ../dtop/aqt/clayout.py:97
-#, python-format
-msgid "Changes below will affect the %(cnt)d note that uses this card type."
-msgid_plural ""
-"Changes below will affect the %(cnt)d notes that use this card type."
-msgstr[0] ""
-msgstr[1] ""
-
-#: ../dtop/aqt/forms/addons.py:66
+#: qt/aqt/forms/addons.py:68
 msgid "Changes will take effect when Anki is restarted."
 msgstr ""
 
-#: ../dtop/aqt/preferences.py:106
+#: qt/aqt/preferences.py:120 qt/aqt/preferences.py:250
 msgid "Changes will take effect when you restart Anki."
 msgstr ""
 
-#: ../dtop/aqt/forms/main.py:131
+#: qt/aqt/forms/main.py:141
 msgid "Check &Media..."
 msgstr "Control & Media..."
 
-#: ../dtop/aqt/forms/addons.py:69
+#: qt/aqt/forms/addons.py:71
 msgid "Check for Updates"
 msgstr ""
 
-#: ../dtop/aqt/forms/main.py:132
+#: qt/aqt/forms/main.py:142
 msgid "Check the files in the media directory"
 msgstr "Verifică fișierele din dosarul multimedia"
 
-#: ../dtop/aqt/sync.py:117
-msgid "Checking media..."
-msgstr ""
-
-#: ../dtop/aqt/sync.py:115
+#: qt/aqt/addons.py:880
 msgid "Checking..."
 msgstr "Se verifică…"
 
-#: ../dtop/aqt/deckchooser.py:77 ../dtop/aqt/modelchooser.py:68
+#: qt/aqt/deckchooser.py:87 qt/aqt/modelchooser.py:71
 msgid "Choose"
 msgstr "Alege"
 
-#: ../dtop/aqt/deckchooser.py:78
+#: qt/aqt/deckchooser.py:88
 msgid "Choose Deck"
 msgstr "Alege pachet"
 
-#: ../dtop/aqt/modelchooser.py:68
+#: qt/aqt/modelchooser.py:72
 msgid "Choose Note Type"
 msgstr "Alege tipul notei"
 
-#: ../dtop/aqt/customstudy.py:92
+#: qt/aqt/customstudy.py:103
 msgid "Choose Tags"
 msgstr "Alege etichetele"
 
-#: ../dtop/aqt/browser.py:1011
+#: qt/aqt/browser.py:1297
 msgid "Clear Unused"
 msgstr ""
 
-#: ../dtop/aqt/forms/browser.py:332
+#: qt/aqt/forms/browser.py:338
 msgid "Clear Unused Tags"
 msgstr ""
 
-#: ../dtop/aqt/models.py:180
+#: qt/aqt/models.py:204
 #, python-format
 msgid "Clone: %s"
 msgstr "Clonează: %s"
 
-#: ../dtop/aqt/addcards.py:59 ../dtop/aqt/clayout.py:241
-#: ../dtop/aqt/forms/browser.py:306
+#: qt/aqt/addcards.py:72 qt/aqt/forms/browser.py:325
 msgid "Close"
 msgstr "Închide"
 
-#: ../dtop/aqt/addcards.py:223
+#: qt/aqt/addcards.py:222
 msgid "Close and lose current input?"
 msgstr "Închid și pierd ce ați introdus?"
 
-#: ../dtop/aqt/main.py:385
+#: qt/aqt/main.py:533
 msgid "Closing..."
 msgstr "Se închide..."
 
-#: ../dtop/anki/stdmodels.py:87 ../dtop/anki/stdmodels.py:94
-#: ../dtop/anki/stdmodels.py:110 ../dtop/anki/storage.py:193
-msgid "Cloze"
+#: qt/aqt/clayout.py:235
+#, fuzzy, python-format
+msgid "Cloze %d"
 msgstr "Test cu cuvinte lipsă"
 
-#: ../dtop/aqt/editor.py:92
+#: qt/aqt/editor.py:163
 msgid "Cloze deletion (Ctrl+Shift+C)"
 msgstr ""
 
-#: ../dtop/aqt/forms/getaddons.py:48
+#: qt/aqt/forms/getaddons.py:50
 msgid "Code:"
 msgstr "Cod:"
 
-#: ../dtop/aqt/exporting.py:129
+#: qt/aqt/exporting.py:173
 msgid "Collection exported."
 msgstr "Colecție exportată."
 
-#: ../dtop/anki/collection.py:761
-msgid "Collection is corrupt. Please see the manual."
-msgstr "Colecția este coruptă. Te rog să verifici manualul."
-
-#: ../dtop/aqt/importing.py:143
+#: qt/aqt/importing.py:173
 msgid "Colon"
 msgstr "Două puncte"
 
-#: ../dtop/aqt/importing.py:137
+#: qt/aqt/importing.py:167
 msgid "Comma"
 msgstr "Virgulă"
 
-#: ../dtop/aqt/forms/addons.py:71
+#: qt/aqt/forms/addons.py:73
 msgid "Config"
 msgstr ""
 
-#: ../dtop/aqt/forms/addonconf.py:68
+#: qt/aqt/forms/addonconf.py:72
 msgid "Configuration"
 msgstr ""
 
-#: ../dtop/aqt/forms/main.py:126
+#: qt/aqt/forms/main.py:138
 msgid "Configure interface language and options"
 msgstr "Configurează limba interfeței și alte opțiuni"
 
-#: ../dtop/anki/sched.py:1154 ../dtop/anki/schedv2.py:1247
+#: pylib/anki/schedv2.py:1281
 msgid "Congratulations! You have finished this deck for now."
 msgstr "Felicitări! Ai terminat acest pachet pentru moment."
 
-#: ../dtop/aqt/sync.py:48
-msgid "Connecting..."
-msgstr "Se conectează..."
-
-#: ../dtop/aqt/sync.py:184
-msgid ""
-"Connection timed out. Either your internet connection is experiencing "
-"problems, or you have a very large file in your media folder."
-msgstr ""
-"Conexiunea a expirat. Fie ai probleme cu conexiunea la internet, fie ai un "
-"fișier foarte mare în dosarul media."
-
-#: ../dtop/aqt/reviewer.py:71
+#: qt/aqt/reviewer.py:94
 msgid "Continue"
 msgstr "Continuă"
 
-#: ../dtop/aqt/about.py:37
+#: qt/aqt/about.py:86
 msgid "Copied to clipboard"
 msgstr ""
 
-#: ../dtop/aqt/editor.py:1007 ../dtop/aqt/webview.py:166
+#: qt/aqt/editor.py:1174 qt/aqt/webview.py:280
 msgid "Copy"
 msgstr "Copiaza"
 
-#: ../dtop/aqt/about.py:39
+#: qt/aqt/about.py:88
 msgid "Copy Debug Info"
 msgstr ""
 
-#: ../dtop/aqt/utils.py:80
+#: qt/aqt/utils.py:142
 msgid "Copy to Clipboard"
 msgstr ""
 
-#: ../dtop/anki/stats.py:190
+#: pylib/anki/stats.py:170
 #, python-format
 msgid "Correct answers on mature cards: %(a)d/%(b)d (%(c).1f%%)"
 msgstr "Răspunsuri corecte pentru cardurile mature: %(a)d/%(b)d (%(c).1f%%)"
 
-#: ../dtop/anki/stats.py:607
+#: pylib/anki/stats.py:706
 #, python-format
 msgid "Correct: <b>%(pct)0.2f%%</b><br>(%(good)d of %(tot)d)"
 msgstr "Corecte: <b>%(pct)0.2f%%</b><br>(%(good)d of %(tot)d)"
 
-#: ../dtop/aqt/addons.py:264 ../dtop/aqt/addons.py:299
+#: qt/aqt/addons.py:471
 msgid "Corrupt add-on file."
 msgstr ""
 
-#: ../dtop/aqt/sync.py:155
-msgid ""
-"Couldn't connect to AnkiWeb. Please check your network connection and try "
-"again."
-msgstr ""
-"Nu s-a putut conecta la AnkiWeb. Te rog să verifici conexiunea la rețea și "
-"să încerci din nou."
-
-#: ../dtop/aqt/editor.py:581
+#: qt/aqt/editor.py:731
 msgid "Couldn't record audio. Have you installed 'lame'?"
 msgstr ""
 
-#: ../dtop/aqt/exporting.py:117
+#: qt/aqt/exporting.py:141
 #, python-format
 msgid "Couldn't save file: %s"
 msgstr "Nu s-a putut salva fişierul: %s"
 
-#: ../dtop/anki/stats.py:337 ../dtop/anki/stats.py:351
+#: pylib/anki/stats.py:345 pylib/anki/stats.py:365
 msgid "Cram"
 msgstr "Toceală"
 
-#: ../dtop/aqt/deckbrowser.py:283
+#: qt/aqt/deckbrowser.py:317
 msgid "Create Deck"
 msgstr "Creează pachet"
 
-#: ../dtop/aqt/forms/main.py:148
+#: qt/aqt/forms/main.py:153
 msgid "Create Filtered Deck..."
 msgstr "Creează pachet filtrat…"
 
-#: ../dtop/aqt/forms/modelopts.py:62
+#: qt/aqt/forms/modelopts.py:64
 msgid "Create scalable images with dvisvgm"
 msgstr ""
 
-#: ../dtop/aqt/browser.py:540
+#: qt/aqt/browser.py:735
 msgid "Created"
 msgstr "Creată"
 
-#: ../dtop/aqt/forms/browser.py:323
-msgid "Ctrl+1"
-msgstr "Ctrl+1"
-
-#: ../dtop/aqt/forms/browser.py:325
-msgid "Ctrl+2"
-msgstr "Ctrl+2"
-
-#: ../dtop/aqt/forms/browser.py:327
-msgid "Ctrl+3"
-msgstr "Ctrl+3"
-
-#: ../dtop/aqt/forms/browser.py:329
-msgid "Ctrl+4"
-msgstr "Ctrl+4"
-
-#: ../dtop/aqt/forms/browser.py:274
-msgid "Ctrl+Alt+A"
-msgstr "Ctrl+Alt+A"
-
-#: ../dtop/aqt/forms/browser.py:293
-msgid "Ctrl+Alt+F"
-msgstr "Ctrl+Alt+F"
-
-#: ../dtop/aqt/forms/browser.py:272
-msgid "Ctrl+Alt+R"
-msgstr ""
-
-#: ../dtop/aqt/forms/browser.py:278
-msgid "Ctrl+Alt+S"
-msgstr ""
-
-#: ../dtop/aqt/main.py:949 ../dtop/aqt/forms/browser.py:276
-msgid "Ctrl+Alt+Z"
-msgstr "Ctrl+Alt+Z"
-
-#: ../dtop/aqt/deckchooser.py:32 ../dtop/aqt/forms/browser.py:321
-msgid "Ctrl+D"
-msgstr "Ctrl+D"
-
-#: ../dtop/aqt/forms/browser.py:317
-msgid "Ctrl+Del"
-msgstr "Ctrl+Del"
-
-#: ../dtop/aqt/forms/browser.py:319 ../dtop/aqt/forms/main.py:142
-msgid "Ctrl+E"
-msgstr "Ctrl+E"
-
-#: ../dtop/aqt/forms/browser.py:280
-msgid "Ctrl+F"
-msgstr "Ctrl+F"
-
-#: ../dtop/aqt/forms/browser.py:315
-msgid "Ctrl+J"
-msgstr "Ctrl+J"
-
-#: ../dtop/aqt/forms/browser.py:335
-msgid "Ctrl+K"
-msgstr "Ctrl+K"
-
-#: ../dtop/aqt/modelchooser.py:32 ../dtop/aqt/forms/browser.py:284
-msgid "Ctrl+N"
-msgstr "Ctrl+N"
-
-#: ../dtop/aqt/forms/browser.py:286 ../dtop/aqt/forms/main.py:127
-msgid "Ctrl+P"
-msgstr "Ctrl+P"
-
-#: ../dtop/aqt/forms/main.py:124
-msgid "Ctrl+Q"
-msgstr "Ctrl+Q"
-
-#: ../dtop/aqt/forms/browser.py:311 ../dtop/aqt/forms/main.py:153
-msgid "Ctrl+Shift+A"
+#: qt/aqt/forms/browser.py:342
+#, fuzzy
+msgid "Ctrl+Shift+E"
 msgstr "Ctrl+Shift+A"
 
-#: ../dtop/aqt/forms/browser.py:313
-msgid "Ctrl+Shift+D"
-msgstr "Ctrl+Shift+D"
-
-#: ../dtop/aqt/forms/browser.py:296
-msgid "Ctrl+Shift+F"
-msgstr "Ctrl+Shift+F"
-
-#: ../dtop/aqt/forms/browser.py:309 ../dtop/aqt/forms/main.py:144
-msgid "Ctrl+Shift+I"
-msgstr "Ctrl+Shift+I"
-
-#: ../dtop/aqt/forms/browser.py:298
-msgid "Ctrl+Shift+L"
-msgstr "Ctrl+Shift+L"
-
-#: ../dtop/aqt/forms/browser.py:290
-msgid "Ctrl+Shift+M"
-msgstr "Ctrl+Shift+M"
-
-#: ../dtop/aqt/forms/browser.py:282 ../dtop/aqt/forms/main.py:151
-msgid "Ctrl+Shift+N"
-msgstr "Ctrl+Shift+N"
-
-#: ../dtop/aqt/browser.py:419 ../dtop/aqt/forms/browser.py:263
-#: ../dtop/aqt/forms/main.py:140
-msgid "Ctrl+Shift+P"
-msgstr "Ctrl+Shift+P"
-
-#: ../dtop/aqt/forms/browser.py:331
-msgid "Ctrl+Shift+R"
-msgstr "Ctrl+Shift+R"
-
-#: ../dtop/aqt/forms/browser.py:301
-msgid "Ctrl+Shift+S"
-msgstr "Ctrl+Shift+S"
-
-#: ../dtop/aqt/forms/browser.py:307
-msgid "Ctrl+W"
-msgstr "Ctrl+W"
-
-#: ../dtop/aqt/forms/main.py:130
-msgid "Ctrl+Z"
-msgstr ""
-
-#: ../dtop/anki/stats.py:235
+#: pylib/anki/stats.py:218
 msgid "Cumulative"
 msgstr "Cumulate"
 
-#: ../dtop/anki/stats.py:359
+#: pylib/anki/stats.py:377
 #, python-format
 msgid "Cumulative %s"
 msgstr "Cumulate %s"
 
-#: ../dtop/anki/stats.py:341
+#: pylib/anki/stats.py:352
 msgid "Cumulative Answers"
 msgstr "Răspunsuri cumulate"
 
-#: ../dtop/anki/stats.py:244 ../dtop/anki/stats.py:303
+#: pylib/anki/stats.py:233 pylib/anki/stats.py:305
 msgid "Cumulative Cards"
 msgstr "Carduri cumulate"
 
-#: ../dtop/aqt/browser.py:871 ../dtop/aqt/browser.py:978
+#: qt/aqt/browser.py:1122 qt/aqt/browser.py:1254
 msgid "Current Deck"
 msgstr "Pachetul curent"
 
-#: ../dtop/aqt/forms/changemodel.py:108
+#: qt/aqt/forms/changemodel.py:110
 msgid "Current note type:"
 msgstr "Tipul notei curente:"
 
-#: ../dtop/aqt/overview.py:210 ../dtop/aqt/forms/customstudy.py:95
+#: qt/aqt/overview.py:252 qt/aqt/forms/customstudy.py:101
 msgid "Custom Study"
 msgstr "Studiu personalizat"
 
-#: ../dtop/aqt/customstudy.py:124 ../dtop/aqt/customstudy.py:136
+#: qt/aqt/customstudy.py:141 qt/aqt/customstudy.py:153
 msgid "Custom Study Session"
 msgstr "Sesiunea de studiu personalizat"
 
-#: ../dtop/aqt/forms/dyndconf.py:145
+#: qt/aqt/forms/dyndconf.py:147
 msgid "Custom steps (in minutes)"
 msgstr "Pași personalizați (în minute)"
 
-#: ../dtop/aqt/editor.py:107
+#: qt/aqt/editor.py:188
 msgid "Customize Card Templates (Ctrl+L)"
 msgstr ""
 
-#: ../dtop/aqt/editor.py:106
+#: qt/aqt/editor.py:187
 msgid "Customize Fields"
 msgstr ""
 
-#: ../dtop/aqt/editor.py:1005
+#: qt/aqt/editor.py:1172
 msgid "Cut"
 msgstr "Tăiere"
 
-#: ../dtop/anki/collection.py:883
-msgid "Database rebuilt and optimized."
-msgstr "Bază de date reconstruită și optimizată."
-
-#: ../dtop/aqt/browser.py:1166
-msgid "Date"
-msgstr "Data"
-
-#: ../dtop/anki/stats.py:374
+#: pylib/anki/stats.py:402
 msgid "Days studied"
 msgstr "Zile studiate"
 
-#: ../dtop/aqt/forms/preferences.py:248
+#: qt/aqt/forms/preferences.py:304
 msgid "Deauthorize"
 msgstr "Dezautorizează"
 
-#: ../dtop/aqt/forms/debug.py:44
+#: qt/aqt/forms/debug.py:55
 msgid "Debug Console"
 msgstr "Consolă pentru depanare"
 
-#: ../dtop/anki/stats.py:61 ../dtop/aqt/browser.py:538
-#: ../dtop/aqt/deckbrowser.py:137 ../dtop/aqt/deckchooser.py:26
-#: ../dtop/aqt/forms/importing.py:95
+#: qt/aqt/browser.py:733 qt/aqt/deckbrowser.py:155 qt/aqt/deckchooser.py:29
+#: qt/aqt/forms/importing.py:106
 msgid "Deck"
 msgstr "Pachet"
 
-#: ../dtop/aqt/clayout.py:440
+#: qt/aqt/clayout.py:642
 msgid "Deck Override..."
 msgstr ""
 
-#: ../dtop/aqt/main.py:1337
+#: qt/aqt/main.py:1567
 msgid "Deck will be imported when a profile is opened."
 msgstr "Pachetul va fi importat dacă un profil este deschis"
 
-#: ../dtop/aqt/browser.py:1039 ../dtop/aqt/toolbar.py:35
+#: qt/aqt/browser.py:1326 qt/aqt/toolbar.py:104
 msgid "Decks"
 msgstr "Pachete"
 
-#: ../dtop/anki/consts.py:85
+#: pylib/anki/consts.py:119
 msgid "Decreasing intervals"
 msgstr "Intervale de scădere"
 
-#: ../dtop/anki/decks.py:54 ../dtop/anki/storage.py:299
-#: ../dtop/aqt/deckchooser.py:49 ../dtop/aqt/deckchooser.py:52
-#: ../dtop/aqt/deckchooser.py:71
+#: qt/aqt/deckchooser.py:51 qt/aqt/deckchooser.py:55 qt/aqt/deckchooser.py:77
 msgid "Default"
 msgstr "Implicit"
 
-#: ../dtop/anki/stats.py:532
+#: pylib/anki/stats.py:589
 msgid "Delays until reviews are shown again."
 msgstr "Amână până când repetițiile sunt afișate din nou."
 
-#: ../dtop/aqt/deckbrowser.py:216 ../dtop/aqt/deckconf.py:72
-#: ../dtop/aqt/models.py:40 ../dtop/aqt/reviewer.py:683
-#: ../dtop/aqt/forms/addons.py:74 ../dtop/aqt/forms/browser.py:316
-#: ../dtop/aqt/forms/fields.py:100 ../dtop/aqt/forms/profiles.py:76
+#: qt/aqt/deckbrowser.py:242 qt/aqt/deckconf.py:89 qt/aqt/models.py:56
+#: qt/aqt/reviewer.py:792 qt/aqt/forms/addons.py:76 qt/aqt/forms/browser.py:330
+#: qt/aqt/forms/fields.py:103 qt/aqt/forms/profiles.py:83
 msgid "Delete"
 msgstr "Șterge"
 
-#: ../dtop/aqt/main.py:1190
-msgid "Delete Cards"
-msgstr "Șterge carduri"
-
-#: ../dtop/aqt/deckbrowser.py:259
+#: qt/aqt/deckbrowser.py:288
 msgid "Delete Deck"
 msgstr "Ştergere pachet"
 
-#: ../dtop/aqt/main.py:1195
-msgid "Delete Empty"
-msgstr "Șterge goale"
-
-#: ../dtop/aqt/reviewer.py:603
+#: qt/aqt/reviewer.py:711
 msgid "Delete Note"
 msgstr "Șterge notița"
 
-#: ../dtop/aqt/browser.py:1461
+#: qt/aqt/browser.py:1541
 msgid "Delete Notes"
 msgstr "Șterge notițele"
 
-#: ../dtop/aqt/browser.py:1554
+#: qt/aqt/browser.py:1647
 msgid "Delete Tags"
 msgstr "Șterge etichete"
 
-#: ../dtop/aqt/main.py:1133
-msgid "Delete Unused Files"
-msgstr "Șterge fișierele neutilizate"
-
-#: ../dtop/aqt/fields.py:97
+#: qt/aqt/fields.py:124
 #, python-format
 msgid "Delete field from %s?"
 msgstr "Ștergi câmpul de la %s?"
 
-#: ../dtop/aqt/addons.py:570
+#: qt/aqt/addons.py:841
 #, python-format
 msgid "Delete the %(num)d selected add-on?"
 msgid_plural "Delete the %(num)d selected add-ons?"
 msgstr[0] ""
 msgstr[1] ""
 
-#: ../dtop/aqt/clayout.py:211
+#: qt/aqt/clayout.py:508
 #, python-format
 msgid "Delete the '%(a)s' card type, and its %(b)s?"
 msgstr "Ștergi tipul de card '%(a)s' împreună cu %(b)s lui?"
 
-#: ../dtop/aqt/models.py:98
+#: qt/aqt/models.py:123
 msgid "Delete this note type and all its cards?"
 msgstr "Ștergi acest tip de notă și toate cardurile lui?"
 
-#: ../dtop/aqt/models.py:100
+#: qt/aqt/models.py:125
 msgid "Delete this unused note type?"
 msgstr "Ștergi acest tip de notă nefolosit?"
 
-#: ../dtop/aqt/main.py:1148
-msgid "Delete unused media?"
-msgstr "Ștergi fișierele media nefolosite?"
+#: qt/aqt/overview.py:190
+msgid "Deleting this deck from the deck list will return all remaining cards to their original deck."
+msgstr "Ștergerea acestui pachet din lista de pachete va repune toate cardurile rămase în pachetul lor original."
 
-#: ../dtop/anki/collection.py:822
-#, python-format
-msgid "Deleted %d card with missing note."
-msgid_plural "Deleted %d cards with missing note."
-msgstr[0] "A fost șters %d card cu nota lipsă."
-msgstr[1] "Au fost șterse %d carduri cu nota lipsă."
-msgstr[2] "Au fost șterse %d carduri cu nota lipsă."
-
-#: ../dtop/anki/collection.py:791
-#, python-format
-msgid "Deleted %d card with missing template."
-msgid_plural "Deleted %d cards with missing template."
-msgstr[0] "A fost șters %d card cu șablonul lipsă."
-msgstr[1] "Au fost șterse %d carduri cu șablonul lipsă."
-msgstr[2] "Au fost șterse %d carduri cu șablonul lipsă."
-
-#: ../dtop/anki/collection.py:767
-#, python-format
-msgid "Deleted %d note with missing note type."
-msgid_plural "Deleted %d notes with missing note type."
-msgstr[0] "A fost ștearsă %d notă cu tipul notei lipsă."
-msgstr[1] "Au fost șterse %d note cu tipul notei lipsă."
-msgstr[2] "Au fost șterse %d note cu tipul notei lipsă."
-
-#: ../dtop/anki/collection.py:813
-#, python-format
-msgid "Deleted %d note with no cards."
-msgid_plural "Deleted %d notes with no cards."
-msgstr[0] "A fost ștearsă %d notă fără carduri."
-msgstr[1] "Au fost șterse %d note fără carduri."
-msgstr[2] "Au fost șterse %d note fără carduri."
-
-#: ../dtop/anki/collection.py:803
-#, python-format
-msgid "Deleted %d note with wrong field count."
-msgid_plural "Deleted %d notes with wrong field count."
-msgstr[0] "A fost ștearsă %d notă cu câmpul de numărare greșit."
-msgstr[1] "Au fost șterse %d note cu câmpul de numărare greșit."
-msgstr[2] "Au fost șterse %d note cu câmpul de numărare greșit."
-
-#: ../dtop/aqt/main.py:1162
-#, python-format
-msgid "Deleted %s files..."
-msgstr ""
-
-#: ../dtop/aqt/main.py:1166
-msgid "Deleted."
-msgstr "Şters."
-
-#: ../dtop/aqt/overview.py:148
-msgid ""
-"Deleting this deck from the deck list will return all remaining cards to "
-"their original deck."
-msgstr ""
-"Ștergerea acestui pachet din lista de pachete va repune toate cardurile "
-"rămase în pachetul lor original."
-
-#: ../dtop/aqt/forms/dconf.py:392
+#: qt/aqt/forms/dconf.py:380
 msgid "Description"
 msgstr "Descriere"
 
-#: ../dtop/aqt/forms/dconf.py:391
-msgid "Description to show on study screen (current deck only):"
-msgstr ""
-"Descrierea pentru afișarea ecranului de studiu (numai pentru pachetul "
-"curent):"
+#: qt/aqt/forms/dconf.py:379
+#, fuzzy
+msgid "Description to show on overview screen, for current deck:"
+msgstr "Descrierea pentru afișarea ecranului de studiu (numai pentru pachetul curent):"
 
-#: ../dtop/aqt/forms/dyndconf.py:130 ../dtop/aqt/forms/editaddon.py:38
-#: ../dtop/aqt/forms/editcurrent.py:39 ../dtop/aqt/forms/progress.py:38
+#: qt/aqt/forms/dyndconf.py:133 qt/aqt/forms/editaddon.py:40
+#: qt/aqt/forms/editcurrent.py:41 qt/aqt/forms/progress.py:40
 msgid "Dialog"
 msgstr "Dialog"
 
-#: ../dtop/aqt/sync.py:244 ../dtop/aqt/sync.py:263 ../dtop/aqt/sync.py:269
-msgid "Download from AnkiWeb"
-msgstr "Descarcă de la AnkiWeb"
+#: qt/aqt/addons.py:1110
+msgid "Download complete. Please restart Anki to apply changes."
+msgstr ""
 
-#: ../dtop/aqt/addons.py:307
+#: qt/aqt/addons.py:491
 #, python-format
 msgid "Downloaded %(fname)s"
 msgstr ""
 
-#: ../dtop/aqt/sync.py:113
-msgid "Downloading from AnkiWeb..."
-msgstr "Descărcare de la AnkiWeb..."
+#. T: "%(a)d" is the index of the element currently
+#. downloaded. "%(b)d" is the number of element to download,
+#. and "%(kb)0.2f" is the number of downloaded
+#. kilobytes. This lead for example to "Downloading 3/5
+#. (27KB)"
+#: qt/aqt/addons.py:1089
+#, python-format
+msgid "Downloading %(a)d/%(b)d (%(kb)0.2fKB)..."
+msgstr ""
 
-#: ../dtop/anki/stats.py:45 ../dtop/aqt/browser.py:543
-#: ../dtop/aqt/browser.py:994 ../dtop/aqt/deckbrowser.py:137
-msgid "Due"
-msgstr "Programate"
-
-#: ../dtop/aqt/forms/customstudy.py:110
+#: qt/aqt/forms/customstudy.py:113
 msgid "Due cards only"
 msgstr "Doar cardurile programate"
 
-#: ../dtop/anki/stats.py:262
+#: pylib/anki/stats.py:256
 msgid "Due tomorrow"
 msgstr "Programate pentru mâine"
 
-#: ../dtop/aqt/forms/main.py:123
+#: qt/aqt/forms/main.py:136
 msgid "E&xit"
 msgstr "Ieși&re"
 
-#: ../dtop/anki/stats.py:48 ../dtop/aqt/browser.py:545
-#: ../dtop/aqt/browser.py:1168
+#: qt/aqt/browser.py:740
 msgid "Ease"
 msgstr "Ușurință"
 
-#: ../dtop/aqt/reviewer.py:542 ../dtop/aqt/reviewer.py:544
+#: qt/aqt/reviewer.py:622 qt/aqt/reviewer.py:624
 msgid "Easy"
 msgstr "Ușor"
 
-#: ../dtop/aqt/forms/dconf.py:363
+#: qt/aqt/forms/dconf.py:351
 msgid "Easy bonus"
 msgstr "Bonus ușor"
 
-#: ../dtop/aqt/forms/dconf.py:355
+#: qt/aqt/forms/dconf.py:343
 msgid "Easy interval"
 msgstr "Interval ușor"
 
-#: ../dtop/aqt/reviewer.py:486
+#: qt/aqt/reviewer.py:560
 msgid "Edit"
 msgstr "Editează"
 
-#: ../dtop/aqt/addcards.py:144
+#: qt/aqt/addcards.py:143
 #, python-format
 msgid "Edit \"%s\""
 msgstr "Editează „%s”"
 
-#: ../dtop/aqt/editcurrent.py:21
+#: qt/aqt/editcurrent.py:19
 msgid "Edit Current"
 msgstr "Editează curent"
 
-#: ../dtop/aqt/editor.py:778
+#: qt/aqt/editor.py:935
 msgid "Edit HTML"
 msgstr "Editează HTML"
 
-#: ../dtop/aqt/browser.py:541
-msgid "Edited"
-msgstr "Modificat"
-
-#: ../dtop/aqt/forms/fields.py:103
+#: qt/aqt/forms/fields.py:106
 msgid "Editing Font"
 msgstr "Editare font"
 
-#: ../dtop/aqt/overview.py:208
+#: qt/aqt/overview.py:250
 msgid "Empty"
 msgstr "Golește"
 
-#: ../dtop/aqt/forms/main.py:147
+#: qt/aqt/forms/main.py:152
 msgid "Empty Cards..."
 msgstr "Carduri goale…"
 
-#: ../dtop/anki/collection.py:510
-#, python-format
-msgid ""
-"Empty card numbers: %(c)s\n"
-"Fields: %(f)s\n"
-"\n"
-msgstr ""
-"Numere carduri goale: %(c)s\n"
-"Câmpuri: %(f)s\n"
-"\n"
-
-#: ../dtop/anki/importing/noteimp.py:190
-msgid "Empty cards found. Please run Tools>Empty Cards."
-msgstr "Au fost găsite carduri goale. Te rog să rulezi Unelte>Carduri goale."
-
-#: ../dtop/anki/importing/noteimp.py:138
+#: pylib/anki/importing/noteimp.py:156
 #, python-format
 msgid "Empty first field: %s"
 msgstr "Golește primul câmp: %s"
 
-#: ../dtop/aqt/forms/dyndconf.py:141
+#: qt/aqt/forms/dyndconf.py:144
 msgid "Enable second filter"
 msgstr "Activează al doilea filtru"
 
-#: ../dtop/aqt/forms/browser.py:305
+#: qt/aqt/forms/browser.py:324
 msgid "End"
 msgstr "Termină"
 
-#: ../dtop/aqt/clayout.py:481
+#: qt/aqt/clayout.py:687
 #, python-format
 msgid "Enter deck to place new %s cards in, or leave blank:"
-msgstr ""
-"Introdu pachetul pentru a plasa cele %s carduri noi sau lasă-l necompletat:"
+msgstr "Introdu pachetul pentru a plasa cele %s carduri noi sau lasă-l necompletat:"
 
-#: ../dtop/aqt/clayout.py:360
+#: qt/aqt/clayout.py:547
 #, python-format
 msgid "Enter new card position (1...%s):"
 msgstr "Introdu noua poziție a cardului (1...%s):"
 
-#: ../dtop/aqt/browser.py:1534
+#: qt/aqt/browser.py:1627
 msgid "Enter tags to add:"
 msgstr "Scrieți etichetele de adăugat:"
 
-#: ../dtop/aqt/browser.py:1555
+#: qt/aqt/browser.py:1649
 msgid "Enter tags to delete:"
 msgstr "Scrieți etichetele de șters:"
 
-#: ../dtop/aqt/addons.py:289 ../dtop/aqt/addons.py:304
-#, python-format
-msgid "Error downloading %(id)s: %(error)s"
+#: qt/aqt/addons.py:478
+#, fuzzy, python-format
+msgid "Error downloading <i>%(id)s</i>: %(error)s"
 msgstr "Eroare la descărcarea %(id)s: %(error)s"
 
-#: ../dtop/aqt/main.py:48
+#: qt/aqt/main.py:105
 #, python-format
 msgid ""
 "Error during startup:\n"
@@ -2037,406 +1416,321 @@ msgstr ""
 "Eroare în timpul pornirii aplicației:\n"
 "%s"
 
-#: ../dtop/aqt/sync.py:194 ../dtop/aqt/sync.py:196
-msgid ""
-"Error establishing a secure connection. This is usually caused by antivirus, "
-"firewall or VPN software, or problems with your ISP."
-msgstr ""
-
-#: ../dtop/anki/latex.py:133
+#: pylib/anki/latex.py:176
 #, python-format
 msgid "Error executing %s."
 msgstr "Eroare la execuția %s."
 
-#: ../dtop/aqt/addons.py:269
+#: qt/aqt/addons.py:480
 #, python-format
 msgid "Error installing <i>%(base)s</i>: %(error)s"
 msgstr ""
 
-#: ../dtop/anki/sound.py:340
+#: qt/aqt/sound.py:453
 #, python-format
 msgid "Error running %s"
 msgstr "Eroare la pornirea %s"
 
-#: ../dtop/aqt/forms/preferences.py:234
-msgid "Experimental V2 scheduler"
-msgstr ""
-
-#: ../dtop/aqt/deckbrowser.py:214 ../dtop/aqt/exporting.py:102
-#: ../dtop/aqt/forms/exporting.py:72
+#: qt/aqt/deckbrowser.py:240 qt/aqt/exporting.py:120
+#: qt/aqt/forms/exporting.py:74
 msgid "Export"
 msgstr "Exportă"
 
-#: ../dtop/aqt/exporting.py:45
+#: qt/aqt/exporting.py:58
 msgid "Export..."
 msgstr "Exportă..."
 
-#: ../dtop/aqt/exporting.py:121
+#: qt/aqt/exporting.py:150
 #, python-format
 msgid "Exported %d media file"
 msgid_plural "Exported %d media files"
 msgstr[0] ""
 msgstr[1] ""
 
-#: ../dtop/anki/stdmodels.py:92 ../dtop/anki/stdmodels.py:105
-msgid "Extra"
-msgstr "Extra"
-
-#: ../dtop/aqt/forms/main.py:149
-msgid "F"
-msgstr "F"
-
-#: ../dtop/aqt/forms/browser.py:288 ../dtop/aqt/forms/main.py:138
-msgid "F1"
-msgstr "F1"
-
-#: ../dtop/aqt/importing.py:222
+#: qt/aqt/importing.py:258
 #, python-format
 msgid "Field <b>%d</b> of file is:"
 msgstr "Câmpul <b>%d</b> al fișierului este:"
 
-#: ../dtop/aqt/forms/importing.py:100
+#: qt/aqt/forms/importing.py:112
 msgid "Field mapping"
 msgstr "Transformare câmpuri"
 
-#: ../dtop/aqt/fields.py:81
+#: qt/aqt/fields.py:108
 msgid "Field name:"
 msgstr "Nume câmp:"
 
-#: ../dtop/aqt/forms/addfield.py:73
+#: qt/aqt/forms/addfield.py:62
 msgid "Field:"
 msgstr "Câmp:"
 
-#: ../dtop/aqt/editor.py:105 ../dtop/aqt/fields.py:20
-#: ../dtop/aqt/forms/changemodel.py:111 ../dtop/aqt/forms/fields.py:98
+#: qt/aqt/editor.py:184 qt/aqt/fields.py:23 qt/aqt/forms/changemodel.py:113
+#: qt/aqt/forms/fields.py:101
 msgid "Fields"
 msgstr "Câmpuri"
 
-#: ../dtop/aqt/fields.py:23
+#: qt/aqt/fields.py:27
 #, python-format
 msgid "Fields for %s"
 msgstr "Câmpuri pentru %s"
 
-#: ../dtop/aqt/importing.py:146
+#: qt/aqt/importing.py:176
 #, python-format
 msgid "Fields separated by: %s"
 msgstr "Câmpuri separate de: %s"
 
-#: ../dtop/aqt/models.py:43
+#: qt/aqt/models.py:59
 msgid "Fields..."
 msgstr "Câmpuri..."
 
-#: ../dtop/aqt/forms/browser.py:295
+#: qt/aqt/forms/browser.py:317
 msgid "Fil&ter"
 msgstr "Fil&tru"
 
-#: ../dtop/anki/importing/mnemo.py:22
+#: pylib/anki/importing/mnemo.py:23
 msgid "File version unknown, trying import anyway."
 msgstr ""
 
-#: ../dtop/aqt/browser.py:1028 ../dtop/aqt/forms/dyndconf.py:131
+#: qt/aqt/browser.py:1315 qt/aqt/forms/dyndconf.py:134
 msgid "Filter"
 msgstr "Filtru"
 
-#: ../dtop/aqt/forms/dyndconf.py:135
+#: qt/aqt/forms/dyndconf.py:138
 msgid "Filter 2"
 msgstr "Filtru 2"
 
-#: ../dtop/aqt/forms/browser.py:264
+#: qt/aqt/forms/browser.py:297
 msgid "Filter..."
 msgstr "Filtrare..."
 
-#: ../dtop/aqt/forms/studydeck.py:44
+#: qt/aqt/forms/studydeck.py:46
 msgid "Filter:"
 msgstr "Filtru:"
 
-#: ../dtop/aqt/browser.py:1174
-msgid "Filtered"
-msgstr "Filtrate"
-
-#: ../dtop/aqt/main.py:925 ../dtop/aqt/main.py:927
+#: qt/aqt/main.py:1135 qt/aqt/main.py:1137
 #, python-format
 msgid "Filtered Deck %d"
 msgstr "Pachet filtrat %d"
 
-#: ../dtop/aqt/forms/browser.py:299
+#: qt/aqt/forms/browser.py:319
 msgid "Find &Duplicates..."
 msgstr "Găsește &dubluri..."
 
-#: ../dtop/aqt/forms/finddupes.py:60
+#: qt/aqt/forms/finddupes.py:70
 msgid "Find Duplicates"
 msgstr "Găsește dubluri"
 
-#: ../dtop/aqt/forms/browser.py:292
+#: qt/aqt/forms/browser.py:315
 msgid "Find and Re&place..."
 msgstr "Caută și î&nlocuiește"
 
-#: ../dtop/aqt/browser.py:1756 ../dtop/aqt/forms/findreplace.py:66
+#: qt/aqt/browser.py:1910 qt/aqt/forms/findreplace.py:83
 msgid "Find and Replace"
 msgstr "Caută și înlocuiește"
 
-#: ../dtop/aqt/reviewer.py:69
+#: qt/aqt/reviewer.py:93
 msgid "Finish"
 msgstr "Sfârșit"
 
-#: ../dtop/aqt/forms/browser.py:302
+#: qt/aqt/forms/browser.py:321
 msgid "First Card"
 msgstr "Primul card"
 
-#: ../dtop/anki/stats.py:33
-msgid "First Review"
-msgstr "Prima recapitulare"
-
-#: ../dtop/anki/importing/noteimp.py:117
+#: pylib/anki/importing/noteimp.py:138
 #, python-format
 msgid "First field matched: %s"
 msgstr "Primul câmp potrivit: %s"
 
-#: ../dtop/anki/collection.py:831 ../dtop/anki/collection.py:842
-#, python-format
-msgid "Fixed %d card with invalid properties."
-msgid_plural "Fixed %d cards with invalid properties."
-msgstr[0] "Rezolvat %d card cu proprietăți nevalide."
-msgstr[1] "Rezolvate %d carduri cu proprietăți nevalide."
-msgstr[2] "Rezolvate %d carduri cu proprietăți nevalide."
-
-#: ../dtop/anki/collection.py:776
-msgid "Fixed AnkiDroid deck override bug."
-msgstr "Rezolvat bug de suprascriere a pachetului AnkiDroid"
-
-#: ../dtop/anki/collection.py:782
-#, python-format
-msgid "Fixed note type: %s"
-msgstr "Rezolvat tipul notei: %s"
-
-#: ../dtop/aqt/forms/browser.py:269
+#: qt/aqt/forms/browser.py:302
 msgid "Flag"
 msgstr "Fanion"
 
-#: ../dtop/aqt/reviewer.py:588
+#: qt/aqt/reviewer.py:678
 msgid "Flag Card"
 msgstr ""
 
-#: ../dtop/aqt/clayout.py:236
+#: qt/aqt/clayout.py:350
 msgid "Flip"
 msgstr "Inversează"
 
-#: ../dtop/aqt/profiles.py:226
+#: qt/aqt/profiles.py:307
 msgid "Folder already exists."
 msgstr "Dosarul există deja."
 
-#: ../dtop/aqt/forms/addfield.py:74
+#: qt/aqt/forms/addfield.py:64
 msgid "Font:"
 msgstr "Font:"
 
-#: ../dtop/aqt/forms/modelopts.py:64
+#: qt/aqt/forms/modelopts.py:66
 msgid "Footer"
 msgstr "Subsol"
 
-#: ../dtop/anki/latex.py:97
+#: pylib/anki/latex.py:134
 #, python-format
-msgid ""
-"For security reasons, '%s' is not allowed on cards. You can still use it by "
-"placing the command in a different package, and importing that package in "
-"the LaTeX header instead."
-msgstr ""
-"Din rațiuni de securitate, '%s' nu pe permis pe carduri. În schimb poate fi "
-"folosit prin plasarea comenzii într-un pachet diferit și apoi prin "
-"importarea acelui pachet în antetul LaTeX."
+msgid "For security reasons, '%s' is not allowed on cards. You can still use it by placing the command in a different package, and importing that package in the LaTeX header instead."
+msgstr "Din rațiuni de securitate, '%s' nu pe permis pe carduri. În schimb poate fi folosit prin plasarea comenzii într-un pachet diferit și apoi prin importarea acelui pachet în antetul LaTeX."
 
-#: ../dtop/anki/stats.py:238
+#: pylib/anki/stats.py:225
 msgid "Forecast"
 msgstr "Previziune"
 
-#: ../dtop/aqt/forms/clayout_top.py:54 ../dtop/aqt/forms/preview.py:37
-#: ../dtop/aqt/forms/template.py:104
+#: qt/aqt/forms/clayout_top.py:53 qt/aqt/forms/template.py:72
 msgid "Form"
 msgstr "Formular"
 
-#: ../dtop/aqt/browser.py:1826
+#: qt/aqt/browser.py:1997
 #, python-format
 msgid "Found %(a)s across %(b)s."
 msgstr "Găsite %(a)s prin %(b)s."
 
-#: ../dtop/anki/exporting.py:348 ../dtop/anki/stdmodels.py:16
-#: ../dtop/anki/stdmodels.py:21 ../dtop/anki/stdmodels.py:35
-#: ../dtop/anki/stdmodels.py:40 ../dtop/anki/stdmodels.py:41
-#: ../dtop/anki/stdmodels.py:57 ../dtop/anki/stdmodels.py:75
-#: ../dtop/aqt/forms/addfield.py:72
+#: pylib/anki/exporting.py:377
 msgid "Front"
 msgstr "Față"
 
-#: ../dtop/aqt/forms/preview.py:38
-msgid "Front Preview"
-msgstr "Previzualizare față"
-
-#: ../dtop/aqt/forms/template.py:105
-msgid "Front Template"
-msgstr "Șablon față"
-
-#: ../dtop/aqt/forms/dconf.py:390
+#: qt/aqt/forms/dconf.py:378
 msgid "General"
 msgstr "Generalități"
 
-#: ../dtop/anki/latex.py:134
+#: pylib/anki/latex.py:177
 #, python-format
 msgid "Generated file: %s"
 msgstr "Fișier generat: %s"
 
-#: ../dtop/anki/stats.py:781
+#: pylib/anki/stats.py:934
 #, python-format
 msgid "Generated on %s"
 msgstr "Generat pe %s"
 
-#: ../dtop/aqt/forms/addons.py:67
+#: qt/aqt/forms/addons.py:69
 msgid "Get Add-ons..."
 msgstr "Obține suplimente..."
 
-#: ../dtop/aqt/deckbrowser.py:282
+#: qt/aqt/deckbrowser.py:316
 msgid "Get Shared"
 msgstr "Obține partajate"
 
-#: ../dtop/aqt/reviewer.py:540 ../dtop/aqt/reviewer.py:542
-#: ../dtop/aqt/reviewer.py:544
+#: qt/aqt/reviewer.py:620 qt/aqt/reviewer.py:622 qt/aqt/reviewer.py:624
 msgid "Good"
 msgstr "Bine"
 
-#: ../dtop/aqt/forms/dconf.py:356
+#: qt/aqt/forms/dconf.py:344
 msgid "Graduating interval"
 msgstr "Intervalul de divizare"
 
-#: ../dtop/aqt/browser.py:1001 ../dtop/aqt/reviewer.py:593
-#: ../dtop/aqt/forms/browser.py:326
+#: qt/aqt/browser.py:1285 qt/aqt/reviewer.py:693 qt/aqt/forms/browser.py:335
 msgid "Green Flag"
 msgstr "Fanion verde"
 
-#: ../dtop/aqt/forms/edithtml.py:35
+#: qt/aqt/forms/edithtml.py:37
 msgid "HTML Editor"
 msgstr "Editor HTML"
 
-#: ../dtop/aqt/reviewer.py:544
+#: qt/aqt/reviewer.py:624
 msgid "Hard"
 msgstr "Dificil"
 
-#: ../dtop/aqt/forms/dconf.py:371
+#: qt/aqt/forms/dconf.py:359
 msgid "Hard interval"
 msgstr ""
 
-#: ../dtop/aqt/forms/preferences.py:228
+#: qt/aqt/forms/preferences.py:277
 msgid "Hardware acceleration (faster, may cause display issues)"
 msgstr ""
 
-#: ../dtop/anki/latex.py:142
+#: pylib/anki/latex.py:185
 msgid "Have you installed latex and dvipng/dvisvgm?"
 msgstr "Ați instalat  latex și dvipng/dvisvgm?"
 
-#: ../dtop/aqt/forms/modelopts.py:63
+#: qt/aqt/forms/modelopts.py:65
 msgid "Header"
 msgstr "Antet"
 
-#: ../dtop/aqt/addcards.py:63 ../dtop/aqt/clayout.py:226
-#: ../dtop/aqt/utils.py:141 ../dtop/aqt/utils.py:142
+#: qt/aqt/addcards.py:76 qt/aqt/clayout.py:340 qt/aqt/utils.py:206
+#: qt/aqt/utils.py:207
 msgid "Help"
 msgstr "Ajutor"
 
-#: ../dtop/anki/stats.py:736
+#: pylib/anki/stats.py:872
 msgid "Highest ease"
 msgstr "Cea mai mare ușurință"
 
-#: ../dtop/aqt/addcards.py:69
+#: qt/aqt/addcards.py:80
 msgid "History"
 msgstr "Istoric"
 
-#: ../dtop/aqt/forms/browser.py:303
+#: qt/aqt/forms/browser.py:322
 msgid "Home"
 msgstr "Acasă"
 
-#: ../dtop/anki/stats.py:676
+#: pylib/anki/stats.py:784
 msgid "Hourly Breakdown"
 msgstr "Avarie orară"
 
-#: ../dtop/anki/stats.py:356
+#: pylib/anki/stats.py:372
 msgid "Hours"
 msgstr "Ore"
 
-#: ../dtop/anki/stats.py:687
+#: pylib/anki/stats.py:814
 msgid "Hours with less than 30 reviews are not shown."
 msgstr "Orele cu mai puțin de 30 de revederi nu sunt afișate."
 
-#: ../dtop/anki/importing/anki2.py:164
+#: pylib/anki/importing/anki2.py:169
 msgid "Identical"
 msgstr ""
 
-#: ../dtop/aqt/about.py:144
-msgid ""
-"If you have contributed and are not on this list, please get in touch."
+#: qt/aqt/about.py:218
+msgid "If you have contributed and are not on this list, please get in touch."
 msgstr "Dacă ați contribuit dar nu sunteți pe listă, contactați-ne."
 
-#: ../dtop/anki/stats.py:391
+#: pylib/anki/stats.py:422
 msgid "If you studied every day"
 msgstr "Dacă ai studiat în fiecare zi"
 
-#: ../dtop/aqt/forms/dconf.py:385
+#: qt/aqt/forms/dconf.py:373
 msgid "Ignore answer times longer than"
 msgstr "Ignoră timpul de răspuns mai mare de"
 
-#: ../dtop/aqt/forms/findreplace.py:71
+#: qt/aqt/forms/findreplace.py:88
 msgid "Ignore case"
 msgstr "Ignoră majusculele"
 
-#: ../dtop/aqt/importing.py:40
+#: qt/aqt/importing.py:52
 msgid "Ignore field"
 msgstr "Ignoră câmpul"
 
-#: ../dtop/aqt/forms/importing.py:97
+#: qt/aqt/forms/importing.py:108
 msgid "Ignore lines where first field matches existing note"
 msgstr "Ignoră liniile în care primul câmp se potrivește cu nota existentă"
 
-#: ../dtop/aqt/update.py:63
+#: qt/aqt/update.py:65
 msgid "Ignore this update"
 msgstr "Ignoră această actualizare"
 
-#: ../dtop/aqt/importing.py:85 ../dtop/aqt/importing.py:165
-#: ../dtop/aqt/importing.py:271 ../dtop/aqt/forms/changemap.py:39
-#: ../dtop/aqt/forms/importing.py:92
+#: qt/aqt/importing.py:102 qt/aqt/importing.py:196 qt/aqt/importing.py:318
+#: qt/aqt/forms/changemap.py:41 qt/aqt/forms/importing.py:103
 msgid "Import"
 msgstr "Importă"
 
-#: ../dtop/aqt/deckbrowser.py:284
+#: qt/aqt/deckbrowser.py:318
 msgid "Import File"
 msgstr "Importă fișier"
 
-#: ../dtop/aqt/forms/importing.py:98
+#: qt/aqt/forms/importing.py:109
 msgid "Import even if existing note has same first field"
 msgstr "Importă chiar dacă nota existentă are același prim câmp"
 
-#: ../dtop/aqt/importing.py:172 ../dtop/aqt/importing.py:356
-msgid "Import failed.\n"
-msgstr "Import eșuat.\n"
-
-#: ../dtop/aqt/importing.py:317
-msgid "Import failed. Debugging info:\n"
-msgstr "Import nereușit. Informații de depanare:\n"
-
-#: ../dtop/aqt/forms/importing.py:93
+#: qt/aqt/forms/importing.py:104
 msgid "Import options"
 msgstr "Opțiuni la importare"
 
-#: ../dtop/aqt/importing.py:184
+#: qt/aqt/importing.py:218 qt/aqt/importing.py:529
 msgid "Importing complete."
 msgstr "Import complet."
 
-#: ../dtop/aqt/main.py:1110
-msgid "In media folder but not used by any cards:"
-msgstr "Se află în dosarul media, dar nu sunt folosite de nicio carte:"
-
-#: ../dtop/aqt/main.py:982
+#: qt/aqt/main.py:1196
 #, python-format
 msgid ""
-"In order to ensure your collection works correctly when moved between "
-"devices, Anki requires your computer's internal clock to be set correctly. "
-"The internal clock can be wrong even if your system is showing the correct "
-"local time.\n"
+"In order to ensure your collection works correctly when moved between devices, Anki requires your computer's internal clock to be set correctly. The internal clock can be wrong even if your system is showing the correct local time.\n"
 "\n"
 "Please go to the time settings on your computer and check the following:\n"
 "\n"
@@ -2448,13 +1742,9 @@ msgid ""
 "\n"
 "Difference to correct time: %s."
 msgstr ""
-"Pentru a te asigura că, atunci când este mutată între dispozitive, colecția "
-"ta funcționează corect, Anki are nevoie de setarea corectă a ceasului intern "
-"al calculatorului tău. Ceasul intern poate fi eronat, chiar dacă sistemul "
-"afișează corect timpul local.\n"
+"Pentru a te asigura că, atunci când este mutată între dispozitive, colecția ta funcționează corect, Anki are nevoie de setarea corectă a ceasului intern al calculatorului tău. Ceasul intern poate fi eronat, chiar dacă sistemul afișează corect timpul local.\n"
 "\n"
-"Te rog să  mergi la setările de timp ale calculatorului tău și să verifici "
-"următoarele:\n"
+"Te rog să  mergi la setările de timp ale calculatorului tău și să verifici următoarele:\n"
 "\n"
 "- AM/PM\n"
 "- Abaterea ceasului\n"
@@ -2464,1477 +1754,1302 @@ msgstr ""
 "\n"
 "Diferența pentru corectarea timpului: %s."
 
-#: ../dtop/aqt/forms/exporting.py:78
+#: qt/aqt/forms/exporting.py:80
 msgid "Include HTML and media references"
 msgstr ""
 
-#: ../dtop/aqt/forms/exporting.py:76
+#: qt/aqt/forms/exporting.py:78
 msgid "Include media"
 msgstr "Include media"
 
-#: ../dtop/aqt/forms/exporting.py:75
+#: qt/aqt/forms/exporting.py:77
 msgid "Include scheduling information"
 msgstr "Include planificarea"
 
-#: ../dtop/aqt/forms/exporting.py:77
+#: qt/aqt/forms/exporting.py:79
 msgid "Include tags"
 msgstr "Include etichete"
 
-#: ../dtop/aqt/forms/customstudy.py:98
+#: qt/aqt/forms/customstudy.py:104
 msgid "Increase today's new card limit"
 msgstr "Crește limita cardurilor noi de astăzi"
 
-#: ../dtop/aqt/customstudy.py:63
+#: qt/aqt/customstudy.py:72
 msgid "Increase today's new card limit by"
 msgstr "Mărește limita cardurilor noi de astăzi la"
 
-#: ../dtop/aqt/forms/customstudy.py:99
+#: qt/aqt/forms/customstudy.py:105
 msgid "Increase today's review card limit"
 msgstr "Mărește limita cardurilor repetate astăzi"
 
-#: ../dtop/aqt/customstudy.py:73
+#: qt/aqt/customstudy.py:84
 msgid "Increase today's review limit by"
 msgstr "Mărește limita repetițiilor de astăzi la"
 
-#: ../dtop/anki/consts.py:84
+#: pylib/anki/consts.py:118
 msgid "Increasing intervals"
 msgstr "Creștere intervale"
 
-#: ../dtop/aqt/forms/getaddons.py:46
+#: qt/aqt/forms/getaddons.py:48
 msgid "Install Add-on"
 msgstr "Instalare suplimente"
 
-#: ../dtop/aqt/addons.py:587
+#: qt/aqt/addons.py:870
 msgid "Install Add-on(s)"
 msgstr ""
 
-#: ../dtop/aqt/forms/addons.py:68
+#: qt/aqt/addons.py:1409
+#, fuzzy
+msgid "Install Anki add-on"
+msgstr "Instalare suplimente"
+
+#: qt/aqt/forms/addons.py:70
 msgid "Install from file..."
 msgstr ""
 
-#: ../dtop/aqt/addons.py:272
+#: qt/aqt/addons.py:1432
+#, fuzzy
+msgid "Installation complete"
+msgstr "Import complet."
+
+#: qt/aqt/addons.py:493
 #, python-format
 msgid "Installed %(name)s"
 msgstr ""
 
-#: ../dtop/aqt/forms/preferences.py:227 ../dtop/aqt/forms/setlang.py:38
+#: qt/aqt/addons.py:1019
+msgid "Installed successfully."
+msgstr ""
+
+#: qt/aqt/forms/setlang.py:40
 msgid "Interface language:"
 msgstr "Limba interfeței:"
 
-#: ../dtop/anki/stats.py:47 ../dtop/aqt/browser.py:544
-#: ../dtop/aqt/browser.py:1168
+#: qt/aqt/forms/preferences.py:279
+msgid "Interrupt current audio when answering"
+msgstr ""
+
+#: qt/aqt/browser.py:739
 msgid "Interval"
 msgstr "Interval"
 
-#: ../dtop/aqt/forms/dconf.py:366
+#: qt/aqt/forms/dconf.py:353
 msgid "Interval modifier"
 msgstr "Modificator interval"
 
-#: ../dtop/anki/stats.py:531
+#: pylib/anki/stats.py:589
 msgid "Intervals"
 msgstr "Intervale"
 
-#: ../dtop/aqt/addons.py:266 ../dtop/aqt/addons.py:301
+#: qt/aqt/addons.py:472
 msgid "Invalid add-on manifest."
 msgstr ""
 
-#: ../dtop/aqt/downloader.py:60
+#: qt/aqt/addons.py:1006
 msgid "Invalid code, or add-on not available for your version of Anki."
 msgstr ""
 
-#: ../dtop/aqt/addons.py:678
+#: qt/aqt/addons.py:932
 msgid "Invalid code."
 msgstr "Cod invalid."
 
-#: ../dtop/aqt/addons.py:751
+#: qt/aqt/addons.py:1365
 msgid "Invalid configuration: "
 msgstr ""
 
-#: ../dtop/aqt/addons.py:755
+#: qt/aqt/addons.py:1369
 msgid "Invalid configuration: top level object must be a map"
 msgstr ""
 
-#: ../dtop/anki/media.py:302
-#, python-format
-msgid "Invalid file name, please rename: %s"
-msgstr ""
+#: qt/aqt/main.py:1256
+msgid "Invalid property found on card. Please use Tools>Check Database, and if the problem comes up again, please ask on the support site."
+msgstr "Proprietate invalidă găsită pe card. Te rog să folosești Instrumente>Verifică baza de date și, dacă problema revine, te rog să ceri ajutor pe site-ul de suport."
 
-#: ../dtop/aqt/importing.py:347
-msgid "Invalid file. Please restore from backup."
-msgstr "Fișier invalid. Te rog să-l restaurezi dintr-o copie de siguranță."
-
-#: ../dtop/aqt/main.py:1026
-msgid ""
-"Invalid property found on card. Please use Tools>Check Database, and if the "
-"problem comes up again, please ask on the support site."
-msgstr ""
-"Proprietate invalidă găsită pe card. Te rog să folosești "
-"Instrumente>Verifică baza de date și, dacă problema revine, te rog să ceri "
-"ajutor pe site-ul de suport."
-
-#: ../dtop/aqt/browser.py:1767
-msgid "Invalid regular expression."
-msgstr "Expresie regulată eronată."
-
-#: ../dtop/aqt/browser.py:145
-msgid "Invalid search - please check for typing mistakes."
-msgstr ""
-
-#: ../dtop/aqt/reviewer.py:578
+#: qt/aqt/reviewer.py:667
 msgid "It has been suspended."
 msgstr "A fost suspendat."
 
-#: ../dtop/aqt/editor.py:76
+#: qt/aqt/editor.py:117
 msgid "Italic text (Ctrl+I)"
 msgstr ""
 
-#: ../dtop/aqt/editor.py:428
+#: qt/aqt/editor.py:565
 msgid "Jump to tags with Ctrl+Shift+T"
 msgstr "Sări la etichete cu Ctrl+Shift+T"
 
-#: ../dtop/aqt/forms/preferences.py:251
+#: qt/aqt/forms/preferences.py:307
 msgid "Keep"
 msgstr "Păstrează"
 
-#: ../dtop/aqt/editor.py:769 ../dtop/aqt/forms/modelopts.py:65
+#: qt/aqt/editor.py:932 qt/aqt/forms/modelopts.py:67
 msgid "LaTeX"
 msgstr "LaTeX"
 
-#: ../dtop/aqt/editor.py:772
+#: qt/aqt/editor.py:933
 msgid "LaTeX equation"
 msgstr "Ecuație LaTeX"
 
-#: ../dtop/aqt/editor.py:775
+#: qt/aqt/editor.py:934
 msgid "LaTeX math env."
 msgstr "Mediu matematic LaTex"
 
-#: ../dtop/anki/stats.py:50 ../dtop/aqt/browser.py:547
-#: ../dtop/aqt/forms/dconf.py:384
+#: qt/aqt/browser.py:742 qt/aqt/forms/dconf.py:372
 msgid "Lapses"
 msgstr "Rateuri"
 
-#: ../dtop/aqt/forms/browser.py:304
+#: qt/aqt/forms/browser.py:323
 msgid "Last Card"
 msgstr "Ultimul card"
 
-#: ../dtop/anki/stats.py:34
-msgid "Latest Review"
-msgstr "Ultimele repetiții"
-
-#: ../dtop/anki/consts.py:89
+#: pylib/anki/consts.py:123
 msgid "Latest added first"
 msgstr "Ultimele adăugate mai întâi"
 
-#: ../dtop/anki/stats.py:336 ../dtop/anki/stats.py:350
-#: ../dtop/aqt/browser.py:1174
+#: pylib/anki/stats.py:344 pylib/anki/stats.py:364
 msgid "Learn"
 msgstr "Învățate"
 
-#: ../dtop/aqt/forms/preferences.py:238
+#: qt/aqt/forms/preferences.py:295
 msgid "Learn ahead limit"
 msgstr "Limita de sus pentru cele învățate"
 
-#: ../dtop/anki/stats.py:182
+#: pylib/anki/stats.py:157
 #, python-format
 msgid "Learn: %(a)s, Review: %(b)s, Relearn: %(c)s, Filtered: %(d)s"
 msgstr "Învățate: %(a)s, Repetate: %(b)s, Reînvățate: %(c)s, Filtrate: %(d)s"
 
-#: ../dtop/anki/stats.py:582 ../dtop/aqt/browser.py:992
-#: ../dtop/aqt/overview.py:185
+#: pylib/anki/stats.py:679 qt/aqt/browser.py:1276 qt/aqt/overview.py:225
 msgid "Learning"
 msgstr "Învățate"
 
-#: ../dtop/aqt/forms/dconf.py:378
+#: qt/aqt/forms/dconf.py:366
 msgid "Leech action"
 msgstr "Acțiune pentru lipitoare"
 
-#: ../dtop/aqt/forms/dconf.py:376
+#: qt/aqt/forms/dconf.py:364
 msgid "Leech threshold"
 msgstr "Prag pentru lipitoare"
 
-#: ../dtop/anki/consts.py:76
+#: pylib/anki/consts.py:109
 msgid "Left"
 msgstr "Stânga"
 
-#: ../dtop/aqt/forms/dyndconf.py:132 ../dtop/aqt/forms/dyndconf.py:136
+#: qt/aqt/forms/dyndconf.py:135 qt/aqt/forms/dyndconf.py:139
 msgid "Limit to"
 msgstr "Limitează la"
 
-#: ../dtop/aqt/utils.py:20
+#: qt/aqt/utils.py:51
 msgid "Loading..."
 msgstr "Se încarcă..."
 
-#: ../dtop/aqt/sync.py:243
-msgid "Local collection has no cards. Download from AnkiWeb?"
-msgstr ""
-
-#: ../dtop/anki/stats.py:542
+#: pylib/anki/stats.py:612
 msgid "Longest interval"
 msgstr "Cel mai lung interval"
 
-#: ../dtop/anki/stats.py:734
+#: pylib/anki/stats.py:870
 msgid "Lowest ease"
 msgstr "Cea mai mică ușurință"
 
-#: ../dtop/aqt/modelchooser.py:63
+#: qt/aqt/modelchooser.py:63
 msgid "Manage"
 msgstr "Administrează"
 
-#: ../dtop/aqt/forms/main.py:150
+#: qt/aqt/forms/main.py:154
 msgid "Manage Note Types"
 msgstr ""
 
-#: ../dtop/aqt/forms/browser.py:333
+#: qt/aqt/forms/browser.py:339
 msgid "Manage Note Types..."
 msgstr "Tipuri de note…"
 
-#: ../dtop/aqt/browser.py:1047 ../dtop/aqt/forms/dconf.py:351
+#: qt/aqt/browser.py:1334 qt/aqt/forms/dconf.py:339
 msgid "Manage..."
 msgstr "Administrare..."
 
-#: ../dtop/aqt/overview.py:101
+#: qt/aqt/overview.py:132
 msgid "Manually Buried Cards"
 msgstr ""
 
-#: ../dtop/aqt/importing.py:33
+#: qt/aqt/importing.py:45
 #, python-format
 msgid "Map to %s"
 msgstr "Transformă în %s"
 
-#: ../dtop/aqt/importing.py:39
+#: qt/aqt/importing.py:51
 msgid "Map to Tags"
 msgstr "Transformă în etichete"
 
-#: ../dtop/aqt/reviewer.py:598
+#: qt/aqt/reviewer.py:706
 msgid "Mark Note"
 msgstr ""
 
-#: ../dtop/aqt/editor.py:763
+#: qt/aqt/editor.py:930
 msgid "MathJax block"
 msgstr ""
 
-#: ../dtop/aqt/editor.py:766
+#: qt/aqt/editor.py:931
 msgid "MathJax chemistry"
 msgstr ""
 
-#: ../dtop/aqt/editor.py:760
+#: qt/aqt/editor.py:929
 msgid "MathJax inline"
 msgstr ""
 
-#: ../dtop/anki/stats.py:230 ../dtop/anki/stats.py:333
-#: ../dtop/anki/stats.py:347 ../dtop/anki/stats.py:584
-#: ../dtop/anki/stats.py:720
+#: pylib/anki/stats.py:210 pylib/anki/stats.py:341 pylib/anki/stats.py:361
+#: pylib/anki/stats.py:681 pylib/anki/stats.py:851
 msgid "Mature"
 msgstr "Matur(e)"
 
-#: ../dtop/aqt/forms/dconf.py:368
+#: qt/aqt/forms/dconf.py:355
 msgid "Maximum interval"
 msgstr "Interval maxim"
 
-#: ../dtop/aqt/forms/dconf.py:367
+#: qt/aqt/forms/dconf.py:354
 msgid "Maximum reviews/day"
 msgstr "Repetiții maxime/zi"
 
-#: ../dtop/aqt/editor.py:546
+#: qt/aqt/editor.py:693
 msgid "Media"
 msgstr "Media"
 
-#: ../dtop/aqt/forms/dconf.py:379
+#: qt/aqt/forms/dconf.py:367
 msgid "Minimum interval"
 msgstr "Interval minim"
 
-#: ../dtop/anki/stats.py:353
+#: pylib/anki/stats.py:369
 msgid "Minutes"
 msgstr "Minute"
 
-#: ../dtop/anki/consts.py:68
+#: pylib/anki/consts.py:100
 msgid "Mix new cards and reviews"
 msgstr "Fă un amestec între cardurile noi și cele repetate"
 
-#: ../dtop/anki/importing/__init__.py:16
+#: pylib/anki/importing/__init__.py:15
 msgid "Mnemosyne 2.0 Deck (*.db)"
 msgstr "Pachet Mnemosyne 2.0 (*.db)"
 
-#: ../dtop/aqt/reviewer.py:488
+#: qt/aqt/reviewer.py:562
 msgid "More"
 msgstr "Mai mult"
 
-#: ../dtop/anki/consts.py:86
+#: pylib/anki/consts.py:120
 msgid "Most lapses"
 msgstr "Cele mai multe greșeli"
 
-#: ../dtop/aqt/browser.py:1502
+#: qt/aqt/browser.py:1587
 msgid "Move Cards"
 msgstr "Mută carduri"
 
-#: ../dtop/aqt/forms/setgroup.py:37
+#: qt/aqt/forms/setgroup.py:39
 msgid "Move cards to deck:"
 msgstr "Mută carduri în pachet:"
 
-#: ../dtop/aqt/importing.py:117
-msgid ""
-"Multi-character separators are not supported. Please enter one character "
-"only."
+#: qt/aqt/importing.py:143
+msgid "Multi-character separators are not supported. Please enter one character only."
 msgstr ""
 
-#: ../dtop/aqt/forms/browser.py:281
+#: qt/aqt/forms/browser.py:309
 msgid "N&ote"
 msgstr "N&otă"
 
-#: ../dtop/aqt/main.py:195 ../dtop/aqt/main.py:209
+#: qt/aqt/main.py:274 qt/aqt/main.py:288
 msgid "Name exists."
 msgstr "Numele există."
 
-#: ../dtop/aqt/deckbrowser.py:55
+#: qt/aqt/deckbrowser.py:82
 msgid "Name for deck:"
 msgstr "Nume pentru pachet:"
 
-#: ../dtop/aqt/main.py:192 ../dtop/aqt/models.py:85
+#: qt/aqt/main.py:271 qt/aqt/models.py:112
 msgid "Name:"
 msgstr "Nume:"
 
-#: ../dtop/aqt/forms/preferences.py:249
+#: qt/aqt/forms/preferences.py:305
 msgid "Network"
 msgstr "Rețea"
 
-#: ../dtop/aqt/browser.py:991 ../dtop/aqt/deckbrowser.py:137
-#: ../dtop/aqt/overview.py:184
+#: qt/aqt/browser.py:1275 qt/aqt/deckbrowser.py:157 qt/aqt/overview.py:223
 msgid "New"
 msgstr "Noi"
 
-#: ../dtop/aqt/forms/dconf.py:362
+#: qt/aqt/forms/dconf.py:350
 msgid "New Cards"
 msgstr "Carduri noi"
 
-#: ../dtop/aqt/customstudy.py:62
+#: qt/aqt/customstudy.py:71
 #, python-format
 msgid "New cards in deck over today limit: %s"
 msgstr ""
 
-#: ../dtop/aqt/forms/customstudy.py:108
+#: qt/aqt/forms/customstudy.py:111
 msgid "New cards only"
 msgstr "Doar carduri noi"
 
-#: ../dtop/aqt/forms/dconf.py:357
+#: qt/aqt/forms/dconf.py:345
 msgid "New cards/day"
 msgstr "Carduri noi/zi"
 
-#: ../dtop/aqt/deckbrowser.py:228 ../dtop/aqt/studydeck.py:128
+#: qt/aqt/deckbrowser.py:254 qt/aqt/studydeck.py:147
 msgid "New deck name:"
 msgstr "Nume nou pentru pachet:"
 
-#: ../dtop/aqt/forms/dconf.py:375
+#: qt/aqt/forms/dconf.py:363
 msgid "New interval"
 msgstr "Interval nou"
 
-#: ../dtop/aqt/clayout.py:346 ../dtop/aqt/deckconf.py:126
-#: ../dtop/aqt/fields.py:72 ../dtop/aqt/main.py:203 ../dtop/aqt/models.py:56
+#: qt/aqt/clayout.py:533 qt/aqt/deckconf.py:146 qt/aqt/fields.py:97
+#: qt/aqt/main.py:282 qt/aqt/models.py:76
 msgid "New name:"
 msgstr "Nume nou:"
 
-#: ../dtop/aqt/forms/changemodel.py:109
+#: qt/aqt/forms/changemodel.py:111
 msgid "New note type:"
 msgstr "Tip de notă nou:"
 
-#: ../dtop/aqt/deckconf.py:104
+#: qt/aqt/deckconf.py:119
 msgid "New options group name:"
 msgstr "Nume nou pentru grupul de opțiuni"
 
-#: ../dtop/aqt/fields.py:109
+#: qt/aqt/fields.py:136
 #, python-format
 msgid "New position (1...%d):"
 msgstr "Poziție nouă (1...%d):"
 
-#: ../dtop/aqt/forms/preferences.py:237
+#: qt/aqt/forms/preferences.py:297
 msgid "Next day starts at"
 msgstr "Ziua următoare începe la"
 
-#: ../dtop/aqt/browser.py:1003
+#: qt/aqt/forms/preferences.py:282
+msgid "Night mode"
+msgstr ""
+
+#: qt/aqt/browser.py:1287
 msgid "No Flag"
 msgstr "Fără fanion"
 
-#: ../dtop/aqt/overview.py:39
+#: qt/aqt/overview.py:69
 msgid "No cards are due yet."
 msgstr "Niciun card nu este programat încă."
 
-#: ../dtop/anki/stats.py:195
+#: pylib/anki/stats.py:175
 msgid "No cards have been studied today."
 msgstr "Nu s-au studiat carduri astăzi."
 
-#: ../dtop/aqt/customstudy.py:171
+#: qt/aqt/customstudy.py:190
 msgid "No cards matched the criteria you provided."
 msgstr "Niciun card nu s-a potrivit cu criteriul pe care l-ai oferit"
 
-#: ../dtop/aqt/main.py:1182
-msgid "No empty cards."
-msgstr "Niciun card gol."
-
-#: ../dtop/anki/stats.py:193
+#: pylib/anki/stats.py:173
 msgid "No mature cards were studied today."
 msgstr "Niciun card matur nu a fost studiat astăzi."
 
-#: ../dtop/aqt/main.py:1119
-msgid "No unused or missing files found."
-msgstr "Nu s-au găsit fișiere nefolosite sau lipsă."
-
-#: ../dtop/aqt/addons.py:615
+#: qt/aqt/addons.py:864
 msgid "No updates available."
 msgstr "Nu sunt actualizări disponibile."
 
-#: ../dtop/aqt/browser.py:549
+#: qt/aqt/browser.py:744
 msgid "Note"
 msgstr "Notă"
 
-#: ../dtop/anki/stats.py:62
-msgid "Note ID"
-msgstr "ID notă"
-
-#: ../dtop/anki/stats.py:60
-msgid "Note Type"
-msgstr "Tip notă"
-
-#: ../dtop/aqt/browser.py:1045 ../dtop/aqt/models.py:21
-#: ../dtop/aqt/forms/models.py:52
+#: qt/aqt/browser.py:1332 qt/aqt/models.py:35 qt/aqt/forms/models.py:54
 msgid "Note Types"
 msgstr "Tipuri notă"
 
-#: ../dtop/aqt/reviewer.py:688
+#: qt/aqt/reviewer.py:798
 #, python-format
 msgid "Note and its %d card deleted."
 msgid_plural "Note and its %d cards deleted."
 msgstr[0] ""
 msgstr[1] ""
 
-#: ../dtop/aqt/reviewer.py:702
+#: qt/aqt/reviewer.py:813
 msgid "Note buried."
 msgstr ""
 
-#: ../dtop/aqt/reviewer.py:669
+#: qt/aqt/reviewer.py:778
 msgid "Note suspended."
 msgstr "Notă suspendată."
 
-#: ../dtop/aqt/forms/preferences.py:254
-msgid ""
-"Note: Media is not backed up. Please create a periodic backup of your Anki "
-"folder to be safe."
+#: qt/aqt/forms/preferences.py:310
+msgid "Note: Media is not backed up. Please create a periodic backup of your Anki folder to be safe."
 msgstr ""
 
-#: ../dtop/aqt/browser.py:1203
-msgid ""
-"Note: Some of the history is missing. For more information, please see the "
-"browser documentation."
-msgstr ""
-
-#: ../dtop/anki/importing/anki2.py:144
+#: pylib/anki/importing/anki2.py:149
 #, python-format
 msgid "Notes added from file: %d"
 msgstr ""
 
-#: ../dtop/anki/importing/anki2.py:132
+#: pylib/anki/importing/anki2.py:137
 #, python-format
 msgid "Notes found in file: %d"
 msgstr ""
 
-#: ../dtop/anki/exporting.py:98
+#: pylib/anki/exporting.py:120
 msgid "Notes in Plain Text"
 msgstr ""
 
-#: ../dtop/aqt/fields.py:94
+#: qt/aqt/fields.py:121
 msgid "Notes require at least one field."
 msgstr ""
 
-#: ../dtop/anki/importing/anki2.py:148
+#: pylib/anki/importing/anki2.py:152
 #, python-format
 msgid "Notes skipped, as they're already in your collection: %d"
 msgstr ""
 
-#: ../dtop/aqt/browser.py:1850
+#: qt/aqt/browser.py:2024
 msgid "Notes tagged."
 msgstr ""
 
-#: ../dtop/anki/importing/anki2.py:136
+#: pylib/anki/importing/anki2.py:141
 #, python-format
 msgid "Notes that could not be imported as note type has changed: %d"
 msgstr ""
 
-#: ../dtop/anki/importing/anki2.py:140
+#: pylib/anki/importing/anki2.py:146
 #, python-format
 msgid "Notes updated, as file had newer version: %d"
 msgstr ""
 
-#: ../dtop/aqt/browser.py:1997
+#: qt/aqt/browser.py:2178
 msgid "Nothing"
 msgstr "Nimic"
 
-#: ../dtop/aqt/customstudy.py:52
+#: qt/aqt/customstudy.py:57
 msgid "OK"
 msgstr "OK"
 
-#: ../dtop/anki/consts.py:82
+#: pylib/anki/consts.py:116
 msgid "Oldest seen first"
 msgstr ""
 
-#: ../dtop/aqt/forms/preferences.py:247
+#: qt/aqt/forms/preferences.py:303
 msgid "On next sync, force changes in one direction"
 msgstr ""
 
-#: ../dtop/anki/importing/noteimp.py:215
-msgid ""
-"One or more notes were not imported, because they didn't generate any cards. "
-"This can happen when you have empty fields or when you have not mapped the "
-"content in the text file to the correct fields."
+#: qt/aqt/addons.py:1108
+msgid "One or more errors occurred:"
 msgstr ""
 
-#: ../dtop/aqt/browser.py:1630
+#: qt/aqt/browser.py:1738
 msgid "Only new cards can be repositioned."
 msgstr "Doar cardurile noi pot fi repoziționate."
 
-#: ../dtop/aqt/sync.py:179
-msgid ""
-"Only one client can access AnkiWeb at a time. If a previous sync failed, "
-"please try again in a few minutes."
-msgstr ""
-
-#: ../dtop/aqt/forms/profiles.py:73
+#: qt/aqt/forms/profiles.py:80
 msgid "Open"
 msgstr "Deschide"
 
-#: ../dtop/aqt/forms/profiles.py:78
+#: qt/aqt/forms/profiles.py:85
 msgid "Open Backup..."
 msgstr ""
 
-#: ../dtop/aqt/main.py:466
+#: qt/aqt/main.py:622
 msgid "Optimizing..."
 msgstr "Se optimizează..."
 
-#: ../dtop/aqt/forms/finddupes.py:61
+#: qt/aqt/forms/finddupes.py:71
 msgid "Optional filter:"
 msgstr "Filtru opțional:"
 
-#: ../dtop/aqt/clayout.py:90 ../dtop/aqt/deckbrowser.py:212
-#: ../dtop/aqt/deckconf.py:23 ../dtop/aqt/dyndeckconf.py:24
-#: ../dtop/aqt/overview.py:204 ../dtop/aqt/reviewer.py:604
-#: ../dtop/aqt/forms/dyndconf.py:139 ../dtop/aqt/forms/fields.py:106
+#: qt/aqt/clayout.py:109 qt/aqt/deckbrowser.py:238 qt/aqt/deckconf.py:35
+#: qt/aqt/dyndeckconf.py:24 qt/aqt/overview.py:246 qt/aqt/reviewer.py:712
+#: qt/aqt/forms/dyndconf.py:142 qt/aqt/forms/fields.py:109
 msgid "Options"
 msgstr "Opțiuni"
 
-#: ../dtop/aqt/deckconf.py:30 ../dtop/aqt/dyndeckconf.py:27
-#: ../dtop/aqt/models.py:114
+#: qt/aqt/deckconf.py:45 qt/aqt/dyndeckconf.py:27 qt/aqt/models.py:150
 #, python-format
 msgid "Options for %s"
 msgstr "Opțiuni pentru %s"
 
-#: ../dtop/aqt/forms/dconf.py:350
+#: qt/aqt/forms/dconf.py:338
 msgid "Options group:"
 msgstr "Grup de opțiuni:"
 
-#: ../dtop/aqt/models.py:47
+#: qt/aqt/models.py:63
 msgid "Options..."
 msgstr "Opțiuni…"
 
-#: ../dtop/aqt/browser.py:1000 ../dtop/aqt/reviewer.py:591
-#: ../dtop/aqt/forms/browser.py:324
+#: qt/aqt/browser.py:1284 qt/aqt/reviewer.py:687 qt/aqt/forms/browser.py:334
 msgid "Orange Flag"
 msgstr ""
 
-#: ../dtop/aqt/forms/dconf.py:354
+#: qt/aqt/forms/dconf.py:342
 msgid "Order"
 msgstr "Ordine"
 
-#: ../dtop/anki/consts.py:87
+#: pylib/anki/consts.py:121
 msgid "Order added"
 msgstr "Ordine carburi adăugate"
 
-#: ../dtop/anki/consts.py:88
+#: pylib/anki/consts.py:122
 msgid "Order due"
 msgstr "Ordine dată scadentă"
 
-#: ../dtop/aqt/forms/browserdisp.py:69
+#: qt/aqt/forms/browserdisp.py:71
 msgid "Override back template:"
 msgstr ""
 
-#: ../dtop/aqt/forms/browserdisp.py:70
+#: qt/aqt/forms/browserdisp.py:72
 msgid "Override font:"
 msgstr ""
 
-#: ../dtop/aqt/forms/browserdisp.py:68
+#: qt/aqt/forms/browserdisp.py:70
 msgid "Override front template:"
 msgstr ""
 
-#: ../dtop/aqt/addons.py:586
+#: qt/aqt/addons.py:868
 msgid "Packaged Anki Add-on"
 msgstr ""
 
-#: ../dtop/anki/importing/__init__.py:15
+#: pylib/anki/importing/__init__.py:14
 msgid "Packaged Anki Deck/Collection (*.apkg *.colpkg *.zip)"
 msgstr ""
 
-#: ../dtop/aqt/sync.py:219
-msgid "Password:"
-msgstr "Parolă:"
-
-#: ../dtop/aqt/editor.py:1009
+#: qt/aqt/editor.py:1176
 msgid "Paste"
 msgstr "Lipește"
 
-#: ../dtop/aqt/forms/preferences.py:231
+#: qt/aqt/forms/preferences.py:280
 msgid "Paste clipboard images as PNG"
 msgstr ""
 
-#: ../dtop/anki/importing/__init__.py:18
+#: qt/aqt/forms/preferences.py:281
+msgid "Paste without shift key strips formatting"
+msgstr ""
+
+#: pylib/anki/importing/__init__.py:17
 msgid "Pauker 1.8 Lesson (*.pau.gz)"
 msgstr ""
 
-#: ../dtop/anki/stats.py:533
+#: qt/aqt/reviewer.py:715
+msgid "Pause Audio"
+msgstr ""
+
+#: pylib/anki/stats.py:592
 msgid "Percentage"
 msgstr "Procentaj"
 
-#: ../dtop/anki/stats.py:789
+#: pylib/anki/stats.py:942
 #, python-format
 msgid "Period: %s"
 msgstr "Perioadă: %s"
 
-#: ../dtop/aqt/forms/reschedule.py:72
+#: qt/aqt/forms/preferences.py:302
+msgid "Periodically sync media"
+msgstr ""
+
+#: qt/aqt/forms/reschedule.py:74
 msgid "Place at end of new card queue"
 msgstr ""
 
-#: ../dtop/aqt/forms/reschedule.py:73
+#: qt/aqt/forms/reschedule.py:75
 msgid "Place in review queue with interval between:"
 msgstr ""
 
-#: ../dtop/aqt/models.py:94
+#: qt/aqt/models.py:119
 msgid "Please add another note type first."
 msgstr ""
 
-#: ../dtop/aqt/addons.py:610 ../dtop/aqt/downloader.py:66
+#: qt/aqt/addons.py:1012
 msgid "Please check your internet connection."
 msgstr ""
 
-#: ../dtop/aqt/errors.py:77
-msgid ""
-"Please connect a microphone, and ensure other programs are not using the "
-"audio device."
+#: qt/aqt/errors.py:88
+msgid "Please connect a microphone, and ensure other programs are not using the audio device."
 msgstr ""
 
-#: ../dtop/anki/collection.py:597
-#, python-format
-msgid "Please edit this note and add some cloze deletions. (%s)"
-msgstr ""
-
-#: ../dtop/aqt/main.py:1341
+#: qt/aqt/main.py:1574
 msgid "Please ensure a profile is open and Anki is not busy, then try again."
 msgstr ""
 
-#: ../dtop/aqt/browser.py:1097
+#: qt/aqt/browser.py:1387
 msgid "Please give your filter a name:"
 msgstr ""
 
-#: ../dtop/aqt/errors.py:73
-msgid "Please install PyAudio"
-msgstr ""
-
-#: ../dtop/aqt/profiles.py:221
+#: qt/aqt/profiles.py:302
 #, python-format
 msgid "Please remove the folder %s and try again."
 msgstr ""
 
-#: ../dtop/aqt/addons.py:601
+#: qt/aqt/addons.py:1435
 msgid "Please report this to the respective add-on author(s)."
 msgstr ""
 
-#: ../dtop/aqt/preferences.py:66
+#: qt/aqt/preferences.py:72
 msgid "Please restart Anki to complete language change."
 msgstr ""
 
-#: ../dtop/aqt/reviewer.py:334
+#: qt/aqt/reviewer.py:375
 msgid "Please run Tools>Empty Cards"
 msgstr ""
 
-#: ../dtop/aqt/main.py:504
+#: qt/aqt/main.py:653
 msgid "Please select a deck."
 msgstr "Te rog să selectezi un pachet."
 
-#: ../dtop/aqt/addons.py:534
+#: qt/aqt/addons.py:803
 msgid "Please select a single add-on first."
 msgstr ""
 
-#: ../dtop/aqt/browser.py:1235
+#: qt/aqt/browser.py:1487
 msgid "Please select cards from only one note type."
 msgstr ""
 
-#: ../dtop/aqt/studydeck.py:112
+#: qt/aqt/studydeck.py:131
 msgid "Please select something."
 msgstr ""
 
-#: ../dtop/aqt/sync.py:167
-msgid "Please upgrade to the latest version of Anki."
-msgstr ""
-
-#: ../dtop/aqt/main.py:902
+#: qt/aqt/main.py:1093
 msgid "Please use File>Import to import this file."
 msgstr ""
 
-#: ../dtop/aqt/sync.py:119
-msgid "Please visit AnkiWeb, upgrade your deck, then try again."
-msgstr ""
-
-#: ../dtop/anki/stats.py:58
-msgid "Position"
-msgstr "Poziție"
-
-#: ../dtop/aqt/forms/preferences.py:226
+#: qt/aqt/forms/preferences.py:276
 msgid "Preferences"
 msgstr "Preferințe"
 
-#: ../dtop/aqt/browser.py:1270 ../dtop/aqt/forms/browser.py:262
+#: qt/aqt/previewer.py:62 qt/aqt/forms/browser.py:296
 msgid "Preview"
 msgstr "Previzualizare"
 
-#: ../dtop/aqt/browser.py:418
+#: qt/aqt/browser.py:614
 #, python-format
 msgid "Preview Selected Card (%s)"
 msgstr "Previzualizare card selectat (%s)"
 
-#: ../dtop/aqt/forms/customstudy.py:101
+#: qt/aqt/forms/customstudy.py:107
 msgid "Preview new cards"
 msgstr "Previzualizare carduri noi"
 
-#: ../dtop/aqt/customstudy.py:85
+#: qt/aqt/customstudy.py:96
 msgid "Preview new cards added in the last"
 msgstr "Previzualizare carduri noi adăugate în ultima/ultimele"
 
-#: ../dtop/aqt/importing.py:420
+#: qt/aqt/importing.py:499
 #, python-format
 msgid "Processed %d media file"
 msgid_plural "Processed %d media files"
 msgstr[0] ""
 msgstr[1] ""
 
-#: ../dtop/aqt/progress.py:116
+#: qt/aqt/progress.py:66
 msgid "Processing..."
 msgstr "Se procesează..."
 
-#: ../dtop/aqt/profiles.py:173
+#: qt/aqt/profiles.py:249
 msgid "Profile Corrupt"
 msgstr ""
 
-#: ../dtop/aqt/forms/profiles.py:72
+#: qt/aqt/forms/profiles.py:79
 msgid "Profiles"
 msgstr "Profiluri"
 
-#: ../dtop/aqt/sync.py:190
-msgid "Proxy authentication required."
-msgstr "Autentificare proxy necesară."
-
-#: ../dtop/aqt/browser.py:535
+#: qt/aqt/browser.py:730
 msgid "Question"
 msgstr "Întrebare"
 
-#: ../dtop/aqt/browser.py:1640
+#: qt/aqt/browser.py:1749
 #, python-format
 msgid "Queue bottom: %d"
 msgstr ""
 
-#: ../dtop/aqt/browser.py:1639
+#: qt/aqt/browser.py:1748
 #, python-format
 msgid "Queue top: %d"
 msgstr ""
 
-#: ../dtop/aqt/forms/profiles.py:77
+#: qt/aqt/forms/profiles.py:84
 msgid "Quit"
 msgstr "Părăsește"
 
-#: ../dtop/anki/consts.py:83
+#: pylib/anki/consts.py:117
 msgid "Random"
 msgstr "Aleator"
 
-#: ../dtop/aqt/forms/reposition.py:71
+#: qt/aqt/forms/reposition.py:73
 msgid "Randomize order"
 msgstr "Ordine aleatoare"
 
-#: ../dtop/aqt/browser.py:1168
-msgid "Rating"
-msgstr ""
-
-#: ../dtop/aqt/dyndeckconf.py:21 ../dtop/aqt/overview.py:207
+#: qt/aqt/dyndeckconf.py:22 qt/aqt/overview.py:249
 msgid "Rebuild"
 msgstr ""
 
-#: ../dtop/aqt/reviewer.py:607
+#: qt/aqt/reviewer.py:718
 msgid "Record Own Voice"
 msgstr ""
 
-#: ../dtop/aqt/editor.py:94
+#: qt/aqt/editor.py:168
 msgid "Record audio (F5)"
 msgstr ""
 
-#: ../dtop/aqt/sound.py:37
+#: qt/aqt/sound.py:556
 #, python-format
 msgid "Recording...<br>Time: %0.1f"
 msgstr "Se înregistrează...<br>Timp: %0.1f"
 
-#: ../dtop/aqt/browser.py:999 ../dtop/aqt/reviewer.py:589
-#: ../dtop/aqt/forms/browser.py:322
+#: qt/aqt/browser.py:1283 qt/aqt/reviewer.py:681 qt/aqt/forms/browser.py:333
 msgid "Red Flag"
 msgstr "Fanion roșu"
 
-#: ../dtop/anki/consts.py:90
+#: pylib/anki/consts.py:124
 msgid "Relative overdueness"
 msgstr ""
 
-#: ../dtop/anki/stats.py:335 ../dtop/anki/stats.py:349
-#: ../dtop/aqt/browser.py:1174
+#: pylib/anki/stats.py:343 pylib/anki/stats.py:363
 msgid "Relearn"
 msgstr ""
 
-#: ../dtop/aqt/forms/fields.py:105
+#: qt/aqt/forms/fields.py:108
 msgid "Remember last input when adding"
 msgstr ""
 
-#: ../dtop/aqt/browser.py:1107
+#: qt/aqt/browser.py:1398
 #, python-format
 msgid "Remove %s from your saved searches?"
 msgstr ""
 
-#: ../dtop/aqt/clayout.py:424
+#: qt/aqt/clayout.py:626
 msgid "Remove Card Type..."
 msgstr ""
 
-#: ../dtop/aqt/browser.py:1082
+#: qt/aqt/browser.py:1372
 msgid "Remove Current Filter..."
 msgstr ""
 
-#: ../dtop/aqt/forms/browser.py:312
+#: qt/aqt/forms/browser.py:328
 msgid "Remove Tags..."
 msgstr ""
 
-#: ../dtop/aqt/editor.py:80
+#: qt/aqt/editor.py:126
 msgid "Remove formatting (Ctrl+R)"
 msgstr ""
 
-#: ../dtop/aqt/clayout.py:216
-msgid ""
-"Removing this card type would cause one or more notes to be deleted. Please "
-"create a new card type first."
-msgstr ""
-
-#: ../dtop/aqt/deckbrowser.py:210 ../dtop/aqt/deckconf.py:74
-#: ../dtop/aqt/models.py:38 ../dtop/aqt/forms/fields.py:101
-#: ../dtop/aqt/forms/profiles.py:75
+#: qt/aqt/deckbrowser.py:236 qt/aqt/deckconf.py:91 qt/aqt/models.py:54
+#: qt/aqt/forms/fields.py:104 qt/aqt/forms/profiles.py:82
 msgid "Rename"
 msgstr "Redenumește"
 
-#: ../dtop/aqt/clayout.py:427
+#: qt/aqt/clayout.py:629
 msgid "Rename Card Type..."
 msgstr ""
 
-#: ../dtop/aqt/deckbrowser.py:225
+#: qt/aqt/deckbrowser.py:251
 msgid "Rename Deck"
 msgstr "Redenumire pachet"
 
-#: ../dtop/aqt/forms/dyndconf.py:142
+#: qt/aqt/forms/dyndconf.py:145
 msgid "Repeat failed cards after"
 msgstr ""
 
-#: ../dtop/aqt/main.py:228
+#: qt/aqt/main.py:315
 msgid "Replace your collection with an earlier backup?"
 msgstr ""
 
-#: ../dtop/aqt/browser.py:1280 ../dtop/aqt/reviewer.py:606
+#: qt/aqt/previewer.py:73 qt/aqt/reviewer.py:714
 msgid "Replay Audio"
 msgstr ""
 
-#: ../dtop/aqt/reviewer.py:608
+#: qt/aqt/reviewer.py:719
 msgid "Replay Own Voice"
 msgstr ""
 
-#: ../dtop/aqt/browser.py:1645 ../dtop/aqt/forms/fields.py:102
+#: qt/aqt/browser.py:1754 qt/aqt/forms/fields.py:105
 msgid "Reposition"
 msgstr "Repoziționează"
 
-#: ../dtop/aqt/clayout.py:430
+#: qt/aqt/clayout.py:632
 msgid "Reposition Card Type..."
 msgstr ""
 
-#: ../dtop/aqt/forms/reposition.py:68
+#: qt/aqt/forms/reposition.py:70
 msgid "Reposition New Cards"
 msgstr "Repoziționează cardurile noi"
 
-#: ../dtop/aqt/forms/browser.py:300
+#: qt/aqt/forms/browser.py:320
 msgid "Reposition..."
 msgstr "Repoziționează…"
 
-#: ../dtop/aqt/forms/taglimit.py:59
+#: qt/aqt/forms/taglimit.py:61
 msgid "Require one or more of these tags:"
 msgstr ""
 
-#: ../dtop/aqt/browser.py:1175
-msgid "Resched"
-msgstr "Reprogramează"
-
-#: ../dtop/aqt/browser.py:1667 ../dtop/aqt/forms/reschedule.py:71
+#: qt/aqt/browser.py:1780 qt/aqt/forms/reschedule.py:73
 msgid "Reschedule"
 msgstr "Re-planifică"
 
-#: ../dtop/aqt/forms/dyndconf.py:140
+#: qt/aqt/forms/dyndconf.py:143
 msgid "Reschedule cards based on my answers in this deck"
 msgstr ""
 
-#: ../dtop/aqt/addons.py:719
+#: qt/aqt/addons.py:1303
 msgid "Restored defaults"
 msgstr ""
 
-#: ../dtop/aqt/main.py:568
+#: qt/aqt/main.py:712
 msgid "Resume Now"
 msgstr ""
 
-#: ../dtop/aqt/forms/fields.py:104
+#: qt/aqt/forms/fields.py:107
 msgid "Reverse text direction (RTL)"
 msgstr "Direcție inversată a textului"
 
-#: ../dtop/aqt/main.py:235
+#: qt/aqt/main.py:328
 msgid "Revert to backup"
 msgstr ""
 
-#: ../dtop/aqt/main.py:823
+#: qt/aqt/main.py:1007
 #, python-format
 msgid "Reverted to state prior to '%s'."
 msgstr ""
 
-#: ../dtop/anki/collection.py:684 ../dtop/aqt/browser.py:993
-#: ../dtop/aqt/browser.py:1174
+#: pylib/anki/collection.py:567 qt/aqt/browser.py:1277
 msgid "Review"
 msgstr ""
 
-#: ../dtop/anki/stats.py:339
+#: pylib/anki/stats.py:349
 msgid "Review Count"
 msgstr "Număr repetiții"
 
-#: ../dtop/anki/stats.py:358
+#: pylib/anki/stats.py:375
 msgid "Review Time"
 msgstr "Timpul repetărilor"
 
-#: ../dtop/aqt/forms/customstudy.py:96
+#: qt/aqt/forms/customstudy.py:102
 msgid "Review ahead"
 msgstr ""
 
-#: ../dtop/aqt/customstudy.py:82
+#: qt/aqt/customstudy.py:93
 msgid "Review ahead by"
 msgstr ""
 
-#: ../dtop/aqt/customstudy.py:78
+#: qt/aqt/customstudy.py:89
 msgid "Review cards forgotten in last"
 msgstr ""
 
-#: ../dtop/aqt/forms/customstudy.py:97
+#: qt/aqt/forms/customstudy.py:103
 msgid "Review forgotten cards"
 msgstr ""
 
-#: ../dtop/anki/stats.py:677
+#: pylib/anki/stats.py:784
 msgid "Review success rate for each hour of the day."
 msgstr ""
 
-#: ../dtop/anki/stats.py:49 ../dtop/anki/stats.py:686
-#: ../dtop/aqt/browser.py:546 ../dtop/aqt/forms/dconf.py:373
+#: pylib/anki/stats.py:812 qt/aqt/browser.py:741 qt/aqt/forms/dconf.py:361
 msgid "Reviews"
 msgstr "Repetiții"
 
-#: ../dtop/aqt/customstudy.py:72
+#: qt/aqt/customstudy.py:83
 #, python-format
 msgid "Reviews due in deck over today limit: %s"
 msgstr ""
 
-#: ../dtop/anki/consts.py:77
+#: pylib/anki/consts.py:110
 msgid "Right"
 msgstr "Dreapta"
 
-#: ../dtop/aqt/sound.py:26
+#: qt/aqt/clayout.py:355 qt/aqt/sound.py:545
 msgid "Save"
 msgstr "Salvează"
 
-#: ../dtop/aqt/browser.py:1084
+#: qt/aqt/browser.py:1374
 msgid "Save Current Filter..."
 msgstr ""
 
-#: ../dtop/aqt/stats.py:30 ../dtop/aqt/stats.py:59
+#: qt/aqt/stats.py:41 qt/aqt/stats.py:65 qt/aqt/stats.py:117
+#: qt/aqt/stats.py:147
 msgid "Save PDF"
 msgstr ""
 
-#: ../dtop/aqt/stats.py:71
+#: qt/aqt/stats.py:78 qt/aqt/stats.py:160
 msgid "Saved."
 msgstr "Salvat."
 
-#: ../dtop/anki/stats.py:787
+#: qt/aqt/forms/preferences.py:298
+#, fuzzy
+msgid "Scheduling"
+msgstr "Re-planifică"
+
+#: pylib/anki/stats.py:940
 #, python-format
 msgid "Scope: %s"
 msgstr ""
 
-#: ../dtop/aqt/browser.py:1810 ../dtop/aqt/forms/browser.py:261
-#: ../dtop/aqt/forms/dyndconf.py:133 ../dtop/aqt/forms/dyndconf.py:137
+#: qt/aqt/browser.py:1980 qt/aqt/forms/browser.py:295
+#: qt/aqt/forms/dyndconf.py:136 qt/aqt/forms/dyndconf.py:140
 msgid "Search"
 msgstr "Caută"
 
-#: ../dtop/aqt/forms/finddupes.py:62
+#: qt/aqt/forms/finddupes.py:72
 msgid "Search in:"
 msgstr ""
 
-#: ../dtop/aqt/forms/browseropts.py:71
+#: qt/aqt/forms/browseropts.py:73
 msgid "Search within formatting (slow)"
 msgstr "Caută în formatări (lent)"
 
-#: ../dtop/aqt/customstudy.py:89
+#: qt/aqt/customstudy.py:100
 msgid "Select"
 msgstr "Selectează"
 
-#: ../dtop/aqt/forms/browser.py:273
+#: qt/aqt/forms/browser.py:305
 msgid "Select &All"
 msgstr "Selecte&ază tot"
 
-#: ../dtop/aqt/forms/browser.py:291
+#: qt/aqt/forms/browser.py:314
 msgid "Select &Notes"
 msgstr ""
 
-#: ../dtop/aqt/forms/taglimit.py:60
+#: qt/aqt/forms/taglimit.py:62
 msgid "Select tags to exclude:"
 msgstr ""
 
-#: ../dtop/aqt/importing.py:265
-msgid ""
-"Selected file was not in UTF-8 format. Please see the importing section of "
-"the manual."
+#: qt/aqt/exporting.py:55
+#, fuzzy
+msgid "Selected Notes"
+msgstr "Șterge notițele"
+
+#: qt/aqt/importing.py:310
+msgid "Selected file was not in UTF-8 format. Please see the importing section of the manual."
 msgstr ""
 
-#: ../dtop/aqt/forms/taglimit.py:58
+#: qt/aqt/forms/taglimit.py:60
 msgid "Selective Study"
 msgstr "Studiu selectiv"
 
-#: ../dtop/aqt/importing.py:141
+#: qt/aqt/importing.py:171
 msgid "Semicolon"
 msgstr ""
 
-#: ../dtop/aqt/sync.py:187
-msgid ""
-"Server not found. Either your connection is down, or antivirus/firewall "
-"software is blocking Anki from connecting to the internet."
-msgstr ""
-
-#: ../dtop/aqt/deckconf.py:134
+#: qt/aqt/deckconf.py:157
 #, python-format
 msgid "Set all decks below %s to this option group?"
 msgstr ""
 
-#: ../dtop/aqt/deckconf.py:76
+#: qt/aqt/deckconf.py:93
 msgid "Set for all subdecks"
 msgstr ""
 
-#: ../dtop/aqt/editor.py:82
+#: qt/aqt/editor.py:129
 msgid "Set foreground colour (F7)"
 msgstr ""
 
-#: ../dtop/aqt/main.py:52
-msgid ""
-"Shift key was held down. Skipping automatic syncing and add-on loading."
+#: qt/aqt/main.py:111
+msgid "Shift key was held down. Skipping automatic syncing and add-on loading."
 msgstr ""
 
-#: ../dtop/aqt/forms/reposition.py:72
+#: qt/aqt/forms/reposition.py:74
 msgid "Shift position of existing cards"
 msgstr ""
 
-#: ../dtop/aqt/browser.py:1283 ../dtop/aqt/browser.py:1301
-#: ../dtop/aqt/deckbrowser.py:292 ../dtop/aqt/main.py:585
-#: ../dtop/aqt/overview.py:217 ../dtop/aqt/reviewer.py:487
-#: ../dtop/aqt/reviewer.py:498 ../dtop/aqt/reviewer.py:556
-#: ../dtop/aqt/toolbar.py:35 ../dtop/aqt/toolbar.py:36
-#: ../dtop/aqt/toolbar.py:37 ../dtop/aqt/toolbar.py:38
-#: ../dtop/aqt/toolbar.py:39
+#: qt/aqt/deckbrowser.py:326 qt/aqt/main.py:741 qt/aqt/overview.py:259
+#: qt/aqt/previewer.py:77 qt/aqt/previewer.py:82 qt/aqt/reviewer.py:561
+#: qt/aqt/reviewer.py:574 qt/aqt/reviewer.py:640 qt/aqt/toolbar.py:106
+#: qt/aqt/toolbar.py:113 qt/aqt/toolbar.py:120 qt/aqt/toolbar.py:127
+#: qt/aqt/toolbar.py:143
 #, python-format
 msgid "Shortcut key: %s"
 msgstr ""
 
-#: ../dtop/aqt/browser.py:1288
+#: qt/aqt/previewer.py:231
 msgid "Shortcut key: Left arrow"
 msgstr ""
 
-#: ../dtop/aqt/browser.py:1293
+#: qt/aqt/previewer.py:382
+msgid "Shortcut key: Left or Right arrow"
+msgstr ""
+
+#: qt/aqt/previewer.py:236
 msgid "Shortcut key: Right arrow or Enter"
 msgstr ""
 
-#: ../dtop/aqt/addcards.py:75
+#: qt/aqt/addcards.py:86
 #, python-format
 msgid "Shortcut: %s"
 msgstr ""
 
-#: ../dtop/anki/template/hint.py:17
-#, python-format
-msgid "Show %s"
-msgstr ""
-
-#: ../dtop/aqt/reviewer.py:498
+#: qt/aqt/reviewer.py:575
 msgid "Show Answer"
 msgstr "Arată răspuns"
 
-#: ../dtop/aqt/browser.py:1299
+#: qt/aqt/previewer.py:80
 msgid "Show Both Sides"
 msgstr ""
 
-#: ../dtop/aqt/editor.py:113
+#: qt/aqt/editor.py:193
 msgid "Show Duplicates"
 msgstr ""
 
-#: ../dtop/aqt/forms/dconf.py:387
+#: qt/aqt/forms/dconf.py:375
 msgid "Show answer timer"
 msgstr ""
 
-#: ../dtop/aqt/forms/preferences.py:232
-msgid "Show cards as white on black (night mode)"
-msgstr ""
-
-#: ../dtop/aqt/forms/preferences.py:233
+#: qt/aqt/forms/preferences.py:290
 msgid "Show learning cards with larger steps before reviews"
 msgstr ""
 
-#: ../dtop/anki/consts.py:69
+#: pylib/anki/consts.py:101
 msgid "Show new cards after reviews"
 msgstr "Arată cardurile noi după repetiții"
 
-#: ../dtop/anki/consts.py:70
+#: pylib/anki/consts.py:102
 msgid "Show new cards before reviews"
 msgstr "Arată cărțile noi înaintea recapitulării"
 
-#: ../dtop/anki/consts.py:63
+#: pylib/anki/consts.py:94
 msgid "Show new cards in order added"
 msgstr "Arată cărțile noi în ordinea adăugării"
 
-#: ../dtop/anki/consts.py:62
+#: pylib/anki/consts.py:93
 msgid "Show new cards in random order"
 msgstr "Arată cărțile noi în ordine aleatoare"
 
-#: ../dtop/aqt/forms/preferences.py:229
+#: qt/aqt/forms/preferences.py:288
 msgid "Show next review time above answer buttons"
 msgstr ""
 
-#: ../dtop/aqt/forms/preferences.py:230
+#: qt/aqt/forms/preferences.py:278
+msgid "Show play buttons on cards with audio"
+msgstr ""
+
+#: qt/aqt/forms/preferences.py:289
 msgid "Show remaining card count during review"
 msgstr ""
 
-#: ../dtop/aqt/browser.py:829 ../dtop/aqt/forms/browser.py:330
+#: qt/aqt/browser.py:1053 qt/aqt/forms/browser.py:337
 msgid "Sidebar"
 msgstr ""
 
-#: ../dtop/aqt/forms/addfield.py:75
+#: qt/aqt/forms/addfield.py:63
 msgid "Size:"
 msgstr "Mărime:"
 
-#: ../dtop/anki/importing/anki2.py:155
+#: pylib/anki/importing/anki2.py:160
 msgid "Skipped"
 msgstr ""
 
-#: ../dtop/anki/sched.py:1177 ../dtop/anki/schedv2.py:1270
+#: pylib/anki/schedv2.py:1339
 msgid "Some related or buried cards were delayed until a later session."
 msgstr ""
 
-#: ../dtop/aqt/forms/preferences.py:255
+#: qt/aqt/forms/preferences.py:311
 msgid "Some settings will take effect after you restart Anki."
 msgstr "Unele configurări vor intra în vigoare după ce reporniți Anki"
 
-#: ../dtop/aqt/browser.py:539
+#: qt/aqt/browser.py:734
 msgid "Sort Field"
 msgstr "Sortează câmp"
 
-#: ../dtop/aqt/forms/fields.py:107
+#: qt/aqt/forms/fields.py:110
 msgid "Sort by this field in the browser"
 msgstr ""
 
-#: ../dtop/aqt/browser.py:719
+#: qt/aqt/browser.py:929
 msgid "Sorting on this column is not supported. Please choose another."
 msgstr ""
 
-#: ../dtop/aqt/errors.py:75
-msgid ""
-"Sound and video on cards will not function until mpv or mplayer is installed."
+#: qt/aqt/sound.py:285
+msgid "Sound and video on cards will not function until mpv or mplayer is installed."
 msgstr ""
 
-#: ../dtop/aqt/importing.py:139 ../dtop/aqt/reviewer.py:498
+#: qt/aqt/importing.py:169 qt/aqt/reviewer.py:574
 msgid "Space"
 msgstr "Spațiu"
 
-#: ../dtop/aqt/forms/reposition.py:69
+#: qt/aqt/forms/reposition.py:71
 msgid "Start position:"
 msgstr ""
 
-#: ../dtop/aqt/forms/dconf.py:353
+#: qt/aqt/forms/dconf.py:340
 msgid "Starting ease"
 msgstr "Start ușurință"
 
-#: ../dtop/aqt/forms/stats.py:73
+#: qt/aqt/forms/stats.py:79
 msgid "Statistics"
 msgstr ""
 
-#: ../dtop/aqt/toolbar.py:38
+#: qt/aqt/toolbar.py:125
 msgid "Stats"
 msgstr ""
 
-#: ../dtop/aqt/forms/reposition.py:70
+#: qt/aqt/forms/reposition.py:72
 msgid "Step:"
 msgstr "Pas:"
 
-#: ../dtop/aqt/forms/dconf.py:358 ../dtop/aqt/forms/dconf.py:374
+#: qt/aqt/forms/dconf.py:346 qt/aqt/forms/dconf.py:362
 msgid "Steps (in minutes)"
 msgstr "Pași (în minute)"
 
-#: ../dtop/aqt/deckconf.py:243 ../dtop/aqt/dyndeckconf.py:154
+#: qt/aqt/deckconf.py:274 qt/aqt/dyndeckconf.py:156
 msgid "Steps must be numbers."
 msgstr "Pașii trebuie să fie numere."
 
-#: ../dtop/aqt/sync.py:59
-msgid "Stopping..."
-msgstr ""
-
-#: ../dtop/anki/stats.py:171
-#, python-format
-msgid "Studied %(a)s %(b)s today (%(secs).1fs/card)"
-msgstr ""
-
-#: ../dtop/aqt/deckbrowser.py:114
-#, python-format
-msgid "Studied %(a)s %(b)s today."
-msgstr ""
-
-#: ../dtop/aqt/browser.py:984
+#: qt/aqt/browser.py:1263
 msgid "Studied Today"
 msgstr "Studiate astăzi"
 
-#: ../dtop/aqt/studydeck.py:49
+#: qt/aqt/studydeck.py:67
 msgid "Study"
 msgstr ""
 
-#: ../dtop/aqt/forms/studydeck.py:43
+#: qt/aqt/forms/studydeck.py:45
 msgid "Study Deck"
 msgstr "Studiază pachet"
 
-#: ../dtop/aqt/forms/main.py:145
+#: qt/aqt/forms/main.py:151
 msgid "Study Deck..."
 msgstr "Studiază pachet…"
 
-#: ../dtop/aqt/overview.py:187
+#: qt/aqt/overview.py:229
 msgid "Study Now"
 msgstr "Studiază acum"
 
-#: ../dtop/aqt/forms/customstudy.py:100
+#: qt/aqt/forms/customstudy.py:106
 msgid "Study by card state or tag"
 msgstr ""
 
-#: ../dtop/aqt/forms/template.py:106
-msgid "Styling"
-msgstr ""
-
-#: ../dtop/aqt/clayout.py:163
-msgid "Styling (shared between cards)"
-msgstr ""
-
-#: ../dtop/aqt/editor.py:79
+#: qt/aqt/editor.py:125
 msgid "Subscript (Ctrl+=)"
 msgstr ""
 
-#: ../dtop/anki/importing/__init__.py:17
+#: pylib/anki/importing/__init__.py:16
 msgid "Supermemo XML export (*.xml)"
 msgstr "XML exportat din Supermemo (*.xml)"
 
-#: ../dtop/aqt/editor.py:78
+#: qt/aqt/editor.py:123
 msgid "Superscript (Ctrl++)"
 msgstr ""
 
-#: ../dtop/aqt/reviewer.py:666 ../dtop/aqt/reviewer.py:673
+#: qt/aqt/reviewer.py:776 qt/aqt/reviewer.py:782
 msgid "Suspend"
 msgstr "Suspendă"
 
-#: ../dtop/aqt/reviewer.py:601 ../dtop/aqt/forms/dconf.py:381
+#: qt/aqt/reviewer.py:709 qt/aqt/forms/dconf.py:369
 msgid "Suspend Card"
 msgstr "Suspendă card"
 
-#: ../dtop/aqt/reviewer.py:602
+#: qt/aqt/reviewer.py:710
 msgid "Suspend Note"
 msgstr "Suspendă notă"
 
-#: ../dtop/aqt/browser.py:996
+#: qt/aqt/browser.py:1280
 msgid "Suspended"
 msgstr "Suspendate"
 
-#: ../dtop/anki/stats.py:723
+#: pylib/anki/stats.py:854
 msgid "Suspended+Buried"
 msgstr ""
 
-#: ../dtop/aqt/toolbar.py:39
+#: qt/aqt/toolbar.py:142
 msgid "Sync"
 msgstr ""
 
-#: ../dtop/aqt/forms/preferences.py:245
+#: qt/aqt/forms/preferences.py:300
 msgid "Synchronize audio and images too"
 msgstr "Sincronizarea fişierelor audio şi a imaginilor"
 
-#: ../dtop/aqt/sync.py:129
-#, python-format
-msgid ""
-"Syncing failed:\n"
-"%s"
-msgstr ""
-"Sincronizarea a eşuat:\n"
-"%s"
-
-#: ../dtop/aqt/sync.py:101
-msgid "Syncing failed; internet offline."
-msgstr "Sincronixarea a eşuat; conectarea la server a eşuat."
-
-#: ../dtop/aqt/sync.py:276
-msgid ""
-"Syncing requires the clock on your computer to be set correctly. Please fix "
-"the clock and try again."
-msgstr ""
-
-#: ../dtop/aqt/sync.py:108
-msgid "Syncing..."
-msgstr "Sincronizare..."
-
-#: ../dtop/aqt/importing.py:135
+#: qt/aqt/importing.py:165
 msgid "Tab"
 msgstr ""
 
-#: ../dtop/aqt/browser.py:1819 ../dtop/aqt/browser.py:1842
+#: qt/aqt/browser.py:1989 qt/aqt/browser.py:2016
 msgid "Tag Duplicates"
 msgstr ""
 
-#: ../dtop/aqt/forms/dconf.py:382
+#: qt/aqt/forms/dconf.py:370
 msgid "Tag Only"
 msgstr ""
 
-#: ../dtop/aqt/browser.py:548 ../dtop/aqt/browser.py:1009
-#: ../dtop/aqt/editor.py:424
+#: qt/aqt/forms/importing.py:111
+msgid "Tag modified notes:"
+msgstr ""
+
+#: qt/aqt/browser.py:743 qt/aqt/browser.py:1295 qt/aqt/editor.py:561
 msgid "Tags"
 msgstr "Etichete"
 
-#: ../dtop/aqt/deckchooser.py:31
+#: qt/aqt/deckchooser.py:34
 msgid "Target Deck (Ctrl+D)"
 msgstr ""
 
-#: ../dtop/aqt/forms/changemap.py:40
+#: qt/aqt/forms/changemap.py:42
 msgid "Target field:"
 msgstr ""
 
-#: ../dtop/anki/stdmodels.py:89
-msgid "Text"
-msgstr "Text"
-
-#: ../dtop/anki/importing/__init__.py:14
+#: pylib/anki/importing/__init__.py:13
 msgid "Text separated by tabs or semicolons (*)"
 msgstr ""
 
-#: ../dtop/anki/decks.py:261
-msgid "That deck already exists."
-msgstr ""
-
-#: ../dtop/aqt/fields.py:65
+#: qt/aqt/fields.py:90
 msgid "That field name is already used."
 msgstr ""
 
-#: ../dtop/aqt/clayout.py:352
-msgid "That name is already used."
-msgstr ""
-
-#: ../dtop/aqt/sync.py:159
-msgid ""
-"The connection to AnkiWeb timed out. Please check your network connection "
-"and try again."
-msgstr ""
-
-#: ../dtop/aqt/deckconf.py:118
+#: qt/aqt/deckconf.py:135
 msgid "The default configuration can't be removed."
 msgstr ""
 
-#: ../dtop/aqt/deckbrowser.py:258
-msgid "The default deck can't be deleted."
-msgstr "Pachetul implicit nu poate fi şters."
-
-#: ../dtop/anki/stats.py:742
+#: pylib/anki/stats.py:879
 msgid "The division of cards in your deck(s)."
 msgstr "Împărțirea cardurilor în pachetul/pachetele tale."
 
-#: ../dtop/aqt/preferences.py:137
-msgid ""
-"The experimental scheduler could cause incorrect scheduling. Please ensure "
-"you have read the documentation first. Proceed?"
-msgstr ""
-
-#: ../dtop/aqt/addcards.py:162
+#: qt/aqt/addcards.py:163
 msgid "The first field is empty."
 msgstr ""
 
-#: ../dtop/aqt/importing.py:153
+#: qt/aqt/importing.py:182
 msgid "The first field of the note type must be mapped."
 msgstr ""
 
-#: ../dtop/aqt/addons.py:124
+#: qt/aqt/addons.py:280
 #, python-format
-msgid ""
-"The following add-ons are incompatible with %(name)s and have been disabled: "
-"%(found)s"
+msgid "The following add-ons are incompatible with %(name)s and have been disabled: %(found)s"
 msgstr ""
 
-#: ../dtop/aqt/utils.py:476
+#: qt/aqt/addons.py:1263
+msgid "The following add-ons have updates available. Install them now?"
+msgstr ""
+
+#: qt/aqt/utils.py:653
 #, python-format
 msgid "The following character can not be used: %s"
 msgstr ""
 
-#: ../dtop/aqt/addons.py:274 ../dtop/aqt/addons.py:309
+#: qt/aqt/addons.py:500
 msgid "The following conflicting add-ons were disabled:"
 msgstr ""
 
-#: ../dtop/aqt/reviewer.py:165
-msgid "The front of this card is empty. Please run Tools>Empty Cards."
-msgstr ""
-
-#: ../dtop/aqt/addcards.py:173
-msgid ""
-"The input you have provided would make an empty question on all cards."
-msgstr ""
-
-#: ../dtop/anki/stats.py:302
+#: pylib/anki/stats.py:304
 msgid "The number of new cards you have added."
 msgstr ""
 
-#: ../dtop/anki/stats.py:339
+#: pylib/anki/stats.py:349
 msgid "The number of questions you have answered."
 msgstr "Numărul de întrebări la care ai răspuns"
 
-#: ../dtop/anki/stats.py:239
+#: pylib/anki/stats.py:225
 msgid "The number of reviews due in the future."
 msgstr "Numărul de repetiții programate în viitor"
 
-#: ../dtop/anki/stats.py:580
+#: pylib/anki/stats.py:674
 msgid "The number of times you have pressed each button."
 msgstr "De câte ori ați apăsat fiecare buton."
 
-#: ../dtop/aqt/importing.py:411
+#: qt/aqt/importing.py:521
 msgid "The provided file is not a valid .apkg file."
 msgstr ""
 
-#: ../dtop/aqt/dyndeckconf.py:127
-msgid ""
-"The provided search did not match any cards. Would you like to revise it?"
+#: qt/aqt/dyndeckconf.py:127
+msgid "The provided search did not match any cards. Would you like to revise it?"
 msgstr ""
 
-#: ../dtop/aqt/main.py:1067
-msgid ""
-"The requested change will require a full upload of the database when you "
-"next synchronize your collection. If you have reviews or other changes "
-"waiting on another device that haven't been synchronized here yet, they will "
-"be lost. Continue?"
+#: qt/aqt/main.py:1311 qt/aqt/main.py:1330
+msgid "The requested change will require a full upload of the database when you next synchronize your collection. If you have reviews or other changes waiting on another device that haven't been synchronized here yet, they will be lost. Continue?"
 msgstr ""
 
-#: ../dtop/anki/stats.py:358
+#: pylib/anki/stats.py:375
 msgid "The time taken to answer the questions."
 msgstr "Timpul de care a fost nevoie pentru a răspunde întrebărilor"
 
-#: ../dtop/anki/sched.py:1167 ../dtop/anki/schedv2.py:1260
+#: pylib/anki/schedv2.py:1325
 msgid ""
 "There are more new cards available, but the daily limit has been\n"
 "reached. You can increase the limit in the options, but please\n"
@@ -3946,112 +3061,70 @@ msgstr ""
 "de faptul că, introducând mai multe carduri noi, volumul \n"
 "de muncă al repetițiilor pe termen scurt va deveni mai mare."
 
-#: ../dtop/aqt/main.py:218
+#: qt/aqt/main.py:297
 msgid "There must be at least one profile."
 msgstr ""
 
-#: ../dtop/aqt/browser.py:711
-msgid ""
-"This column can't be sorted on, but you can search for individual card "
-"types, such as 'card:1'."
+#: qt/aqt/addons.py:507
+msgid "This add-on is not compatible with your version of Anki."
 msgstr ""
 
-#: ../dtop/aqt/browser.py:715
-msgid ""
-"This column can't be sorted on, but you can search for specific decks by "
-"clicking on one on the left."
+#: qt/aqt/importing.py:441
+msgid "This file does not appear to be a valid .apkg file. If you're getting this error from a file downloaded from AnkiWeb, chances are that your download failed. Please try again, and if the problem persists, please try again with a different browser."
 msgstr ""
 
-#: ../dtop/aqt/importing.py:368
-msgid ""
-"This file does not appear to be a valid .apkg file. If you're getting this "
-"error from a file downloaded from AnkiWeb, chances are that your download "
-"failed. Please try again, and if the problem persists, please try again with "
-"a different browser."
-msgstr ""
-
-#: ../dtop/aqt/utils.py:310
+#: qt/aqt/utils.py:406
 msgid "This file exists. Are you sure you want to overwrite it?"
 msgstr "Fișierul există. Sunteți sigur(ă) că vreți să îl suprascrieți?"
 
-#: ../dtop/aqt/profiles.py:352
-#, python-format
-msgid ""
-"This folder stores all of your Anki data in a single location,\n"
-"to make backups easy. To tell Anki to use a different location,\n"
-"please see:\n"
-"\n"
-"%s\n"
-msgstr ""
-
-#: ../dtop/aqt/overview.py:143
+#: qt/aqt/overview.py:181
 msgid "This is a special deck for studying outside of the normal schedule."
 msgstr ""
 
-#: ../dtop/aqt/models.py:133
-msgid "This is a {{c1::sample}} cloze deletion."
-msgstr ""
-
-#: ../dtop/aqt/clayout.py:388
+#: qt/aqt/clayout.py:579
 #, python-format
 msgid "This will create %d card. Proceed?"
 msgid_plural "This will create %d cards. Proceed?"
 msgstr[0] ""
 msgstr[1] ""
 
-#: ../dtop/aqt/importing.py:382
-msgid ""
-"This will delete your existing collection and replace it with the data in "
-"the file you're importing. Are you sure?"
+#: qt/aqt/importing.py:461
+msgid "This will delete your existing collection and replace it with the data in the file you're importing. Are you sure?"
 msgstr ""
 
-#: ../dtop/aqt/preferences.py:132
-msgid ""
-"This will reset any cards in learning, clear filtered decks, and change the "
-"scheduler version. Proceed?"
+#: qt/aqt/preferences.py:154
+msgid "This will reset any cards in learning, clear filtered decks, and change the scheduler version. Proceed?"
 msgstr ""
 
-#: ../dtop/aqt/browser.py:1168
-msgid "Time"
-msgstr ""
-
-#: ../dtop/aqt/forms/preferences.py:240
+#: qt/aqt/forms/preferences.py:293
 msgid "Timebox time limit"
 msgstr ""
 
-#: ../dtop/aqt/overview.py:186
+#: qt/aqt/overview.py:227
 msgid "To Review"
 msgstr "De revăzut"
 
-#: ../dtop/aqt/forms/getaddons.py:47
-msgid ""
-"To browse add-ons, please click the browse button below.<br><br>When you've "
-"found an add-on you like, please paste its code below. You can paste "
-"multiple codes, separated by spaces."
+#: qt/aqt/forms/getaddons.py:49
+msgid "To browse add-ons, please click the browse button below.<br><br>When you've found an add-on you like, please paste its code below. You can paste multiple codes, separated by spaces."
 msgstr ""
 
-#: ../dtop/aqt/editor.py:494
-msgid ""
-"To make a cloze deletion on an existing note, you need to change it to a "
-"cloze type first, via Edit>Change Note Type."
+#: qt/aqt/editor.py:636
+msgid "To make a cloze deletion on an existing note, you need to change it to a cloze type first, via 'Notes>Change Note Type'"
 msgstr ""
 
-#: ../dtop/anki/sched.py:1174 ../dtop/anki/schedv2.py:1267
+#: pylib/anki/schedv2.py:1334
 msgid "To see them now, click the Unbury button below."
 msgstr ""
 
-#: ../dtop/anki/sched.py:1180 ../dtop/anki/schedv2.py:1273
-msgid ""
-"To study outside of the normal schedule, click the Custom Study button below."
-msgstr ""
-"Pentru a studia peste programul normal, fă clic pe butonul de mai jos Studiu "
-"personalizat."
+#: pylib/anki/schedv2.py:1347
+msgid "To study outside of the normal schedule, click the Custom Study button below."
+msgstr "Pentru a studia peste programul normal, fă clic pe butonul de mai jos Studiu personalizat."
 
-#: ../dtop/anki/stats.py:146 ../dtop/aqt/browser.py:981
+#: pylib/anki/stats.py:118 qt/aqt/browser.py:1258
 msgid "Today"
 msgstr "Astăzi"
 
-#: ../dtop/anki/sched.py:1162 ../dtop/anki/schedv2.py:1255
+#: pylib/anki/schedv2.py:1316
 msgid ""
 "Today's review limit has been reached, but there are still cards\n"
 "waiting to be reviewed. For optimum memory, consider increasing\n"
@@ -4061,439 +3134,787 @@ msgstr ""
 "care așteaptă să fie repetate. Pentru o memorare optimă, ia în considerare\n"
 "creșterea limitei zilnice în opțiuni."
 
-#: ../dtop/aqt/forms/addons.py:73
+#: qt/aqt/forms/addons.py:75
 msgid "Toggle Enabled"
 msgstr ""
 
-#: ../dtop/aqt/forms/browser.py:334
+#: qt/aqt/forms/browser.py:340
 msgid "Toggle Mark"
 msgstr ""
 
-#: ../dtop/aqt/forms/browser.py:314
+#: qt/aqt/forms/browser.py:329
 msgid "Toggle Suspend"
 msgstr ""
 
-#: ../dtop/anki/stats.py:255 ../dtop/anki/stats.py:311
-#: ../dtop/anki/stats.py:382
+#: pylib/anki/stats.py:245 pylib/anki/stats.py:313 pylib/anki/stats.py:413
 msgid "Total"
 msgstr "Total"
 
-#: ../dtop/anki/stats.py:56
-msgid "Total Time"
-msgstr "Timp total"
-
-#: ../dtop/anki/stats.py:730
+#: pylib/anki/stats.py:866
 msgid "Total cards"
 msgstr "Total carduri"
 
-#: ../dtop/anki/stats.py:731
+#: pylib/anki/stats.py:867
 msgid "Total notes"
 msgstr "Total note"
 
-#: ../dtop/aqt/forms/findreplace.py:70
+#: qt/aqt/forms/findreplace.py:87
 msgid "Treat input as regular expression"
 msgstr "Șirul este expresie regulată"
 
-#: ../dtop/aqt/browser.py:1168 ../dtop/aqt/modelchooser.py:26
-#: ../dtop/aqt/forms/importing.py:94
+#: qt/aqt/modelchooser.py:26 qt/aqt/forms/importing.py:105
 msgid "Type"
 msgstr "Tip"
 
-#: ../dtop/aqt/reviewer.py:337
+#: qt/aqt/reviewer.py:379
 #, python-format
 msgid "Type answer: unknown field %s"
 msgstr ""
 
-#: ../dtop/aqt/errors.py:61
-msgid ""
-"Unable to access Anki media folder. The permissions on your system's "
-"temporary folder may be incorrect."
+#: qt/aqt/errors.py:69
+msgid "Unable to access Anki media folder. The permissions on your system's temporary folder may be incorrect."
 msgstr ""
 
-#: ../dtop/aqt/importing.py:353
-msgid "Unable to import from a read-only file."
+#: qt/aqt/main.py:341
+msgid "Unable to move existing file to trash - please try restarting your computer."
 msgstr ""
 
-#: ../dtop/aqt/main.py:243
-msgid ""
-"Unable to move existing file to trash - please try restarting your computer."
-msgstr ""
-
-#: ../dtop/aqt/addons.py:247
+#: qt/aqt/addons.py:427
 #, python-format
 msgid ""
-"Unable to update or delete add-on. Please start Anki while holding down the "
-"shift key to temporarily disable add-ons, then try again.\n"
+"Unable to update or delete add-on. Please start Anki while holding down the shift key to temporarily disable add-ons, then try again.\n"
 "\n"
 "Debug info: %s"
 msgstr ""
 
-#: ../dtop/aqt/overview.py:213
+#: qt/aqt/overview.py:255
 msgid "Unbury"
 msgstr ""
 
-#: ../dtop/aqt/editor.py:77
+#: qt/aqt/editor.py:120
 msgid "Underline text (Ctrl+U)"
 msgstr ""
 
-#: ../dtop/aqt/main.py:834
+#: qt/aqt/main.py:1017
 msgid "Undo"
 msgstr ""
 
-#: ../dtop/aqt/main.py:829
+#: qt/aqt/main.py:1013
 #, python-format
 msgid "Undo %s"
 msgstr "Refă %s"
 
-#: ../dtop/aqt/downloader.py:63 ../dtop/aqt/editor.py:674
+#: qt/aqt/addons.py:1009 qt/aqt/editor.py:830
 #, python-format
 msgid "Unexpected response code: %s"
 msgstr ""
 
-#: ../dtop/aqt/importing.py:315
+#: qt/aqt/addons.py:475
+msgid "Unknown error: {}"
+msgstr ""
+
+#: qt/aqt/importing.py:374
 msgid "Unknown file format."
 msgstr ""
 
-#: ../dtop/anki/stats.py:722
+#: pylib/anki/stats.py:853
 msgid "Unseen"
 msgstr "Nevizualizate"
 
-#: ../dtop/aqt/forms/importing.py:96
+#: qt/aqt/forms/importing.py:107
 msgid "Update existing notes when first field matches"
 msgstr ""
 
-#: ../dtop/aqt/addons.py:618
-msgid "Update the following add-ons?"
-msgstr ""
-
-#: ../dtop/anki/importing/anki2.py:158
+#: pylib/anki/importing/anki2.py:163
 msgid "Updated"
 msgstr ""
 
-#: ../dtop/aqt/sync.py:262 ../dtop/aqt/sync.py:267
-msgid "Upload to AnkiWeb"
-msgstr ""
-
-#: ../dtop/aqt/sync.py:111
-msgid "Uploading to AnkiWeb..."
-msgstr ""
-
-#: ../dtop/aqt/main.py:1116
-msgid "Used on cards but missing from media folder:"
-msgstr "Folosite în carduri, dar care lipsesc din dosarul media:"
-
-#: ../dtop/aqt/profiles.py:350
+#: qt/aqt/profiles.py:472
 msgid "User 1"
 msgstr ""
 
-#: ../dtop/aqt/about.py:51
+#: qt/aqt/forms/preferences.py:285
+msgid "User interface size"
+msgstr ""
+
+#: qt/aqt/about.py:104
 #, python-format
 msgid "Version %s"
 msgstr "Versiunea %s"
 
-#: ../dtop/aqt/forms/addons.py:70
+#: qt/aqt/forms/addons.py:72
 msgid "View Add-on Page"
 msgstr ""
 
-#: ../dtop/aqt/forms/addons.py:72
+#: qt/aqt/forms/addons.py:74
 msgid "View Files"
 msgstr ""
 
-#: ../dtop/aqt/main.py:567
+#: qt/aqt/main.py:711
 msgid "Waiting for editing to finish."
 msgstr ""
 
-#: ../dtop/aqt/editor.py:491
-msgid ""
-"Warning, cloze deletions will not work until you switch the type at the top "
-"to Cloze."
+#: qt/aqt/editor.py:629
+msgid "Warning, cloze deletions will not work until you switch the type at the top to Cloze."
 msgstr ""
 
-#: ../dtop/aqt/overview.py:106
+#: qt/aqt/overview.py:138
 msgid "What would you like to unbury?"
 msgstr ""
 
-#: ../dtop/aqt/forms/preferences.py:235
+#: qt/aqt/forms/preferences.py:283
 msgid "When adding, default to current deck"
 msgstr ""
 
-#: ../dtop/aqt/browser.py:870 ../dtop/aqt/browser.py:977
+#: qt/aqt/browser.py:1121 qt/aqt/browser.py:1254
 msgid "Whole Collection"
 msgstr "Întreaga colecție"
 
-#: ../dtop/aqt/update.py:62
+#: qt/aqt/update.py:64
 msgid "Would you like to download it now?"
 msgstr "Doriți să îl descărcați acum?"
 
-#: ../dtop/aqt/about.py:142
+#: qt/aqt/about.py:212
 #, python-format
-msgid ""
-"Written by Damien Elmes, with patches, translation,    testing and design "
-"from:<p>%(cont)s"
+msgid "Written by Damien Elmes, with patches, translation,    testing and design from:<p>%(cont)s"
 msgstr ""
 
-#: ../dtop/aqt/forms/preferences.py:253
+#: qt/aqt/forms/preferences.py:309
 msgid "You can restore backups via File>Switch Profile."
 msgstr ""
 
-#: ../dtop/aqt/addcards.py:168
-msgid ""
-"You have a cloze deletion note type but have not made any cloze deletions. "
-"Proceed?"
+#: qt/aqt/addcards.py:172
+msgid "You have a cloze deletion note type but have not made any cloze deletions. Proceed?"
 msgstr ""
 
-#: ../dtop/aqt/deckbrowser.py:123
-#, python-format
-msgid "You have a lot of decks. Please see %(a)s. %(b)s"
-msgstr ""
-
-#: ../dtop/aqt/reviewer.py:710
+#: qt/aqt/reviewer.py:821
 msgid "You haven't recorded your voice yet."
 msgstr "Nu ți-ai înregistrat încă vocea."
 
-#: ../dtop/aqt/browser.py:769
+#: qt/aqt/browser.py:984
 msgid "You must have at least one column."
 msgstr "Trebuie să ai cel puțin o coloană."
 
-#: ../dtop/anki/stats.py:231 ../dtop/anki/stats.py:334
-#: ../dtop/anki/stats.py:348 ../dtop/anki/stats.py:583
+#: pylib/anki/stats.py:211 pylib/anki/stats.py:342 pylib/anki/stats.py:362
+#: pylib/anki/stats.py:680
 msgid "Young"
 msgstr "Tinere"
 
-#: ../dtop/anki/stats.py:721
+#: pylib/anki/stats.py:852
 msgid "Young+Learn"
 msgstr "Tinere + învățate"
 
-#: ../dtop/aqt/sync.py:144
-msgid ""
-"Your AnkiWeb collection does not contain any cards. Please sync again and "
-"choose 'Upload' instead."
+#: qt/aqt/deckconf.py:111
+msgid "Your changes will affect multiple decks. If you wish to change only the current deck, please add a new options group first."
 msgstr ""
 
-#: ../dtop/aqt/deckconf.py:97
-msgid ""
-"Your changes will affect multiple decks. If you wish to change only the "
-"current deck, please add a new options group first."
+#: qt/aqt/main.py:555
+msgid "Your collection file appears to be corrupt. This can happen when the file is copied or moved while Anki is open, or when the collection is stored on a network or cloud drive. If problems persist after restarting your computer, please open an automatic backup from the profile screen."
 msgstr ""
 
-#: ../dtop/aqt/main.py:403
-msgid ""
-"Your collection file appears to be corrupt. This can happen when the file is "
-"copied or moved while Anki is open, or when the collection is stored on a "
-"network or cloud drive. If problems persist after restarting your computer, "
-"please open an automatic backup from the profile screen."
+#: qt/aqt/errors.py:99
+msgid "Your computer's storage may be full. Please delete some unneeded files, then try again."
 msgstr ""
 
-#: ../dtop/aqt/sync.py:281
-msgid ""
-"Your collection is in an inconsistent state. Please run Tools>Check "
-"Database, then sync again."
+#: qt/aqt/errors.py:82
+msgid "Your firewall or antivirus program is preventing Anki from creating a connection to itself. Please add an exception for Anki."
 msgstr ""
 
-#: ../dtop/aqt/sync.py:192
-msgid "Your collection or a media file is too large to sync."
-msgstr ""
-
-#: ../dtop/aqt/sync.py:70
-msgid ""
-"Your collection was successfully uploaded to AnkiWeb.\n"
-"\n"
-"If you use any other devices, please sync them now, and choose to download "
-"the collection you have just uploaded from this computer. After doing so, "
-"future reviews and added cards will be merged automatically."
-msgstr ""
-
-#: ../dtop/aqt/errors.py:84
-msgid ""
-"Your computer's storage may be full. Please delete some unneeded files, then "
-"try again."
-msgstr ""
-
-#: ../dtop/aqt/sync.py:247
-msgid ""
-"Your decks here and on AnkiWeb differ in such a way that they can't be "
-"merged together, so it's necessary to overwrite the decks on one side with "
-"the decks from the other.\n"
-"\n"
-"If you choose download, Anki will download the collection from AnkiWeb, and "
-"any changes you have made on your computer since the last sync will be "
-"lost.\n"
-"\n"
-"If you choose upload, Anki will upload your collection to AnkiWeb, and any "
-"changes you have made on AnkiWeb or your other devices since the last sync "
-"to this device will be lost.\n"
-"\n"
-"After all devices are in sync, future reviews and added cards can be merged "
-"automatically."
-msgstr ""
-
-#: ../dtop/aqt/errors.py:71
-msgid ""
-"Your firewall or antivirus program is preventing Anki from creating a "
-"connection to itself. Please add an exception for Anki."
-msgstr ""
-
-#: ../dtop/anki/decks.py:416
+#: pylib/anki/decks.py:362
 msgid "[no deck]"
 msgstr "[fără pachet]"
 
-#: ../dtop/aqt/forms/preferences.py:252
+#: qt/aqt/forms/preferences.py:308
 msgid "backups"
 msgstr "copii de rezervă"
 
-#: ../dtop/anki/stats.py:312 ../dtop/aqt/customstudy.py:48
+#: pylib/anki/stats.py:314 qt/aqt/customstudy.py:53
 msgid "cards"
 msgstr "carduri"
 
-#: ../dtop/aqt/customstudy.py:90
+#: qt/aqt/customstudy.py:101
 msgid "cards from the deck"
 msgstr "carduri din pachet"
 
-#: ../dtop/aqt/forms/dyndconf.py:134 ../dtop/aqt/forms/dyndconf.py:138
+#: qt/aqt/forms/dyndconf.py:137 qt/aqt/forms/dyndconf.py:141
 msgid "cards selected by"
 msgstr "carduri selectate de"
 
-#: ../dtop/aqt/exporting.py:90 ../dtop/aqt/forms/stats.py:75
+#: qt/aqt/exporting.py:110 qt/aqt/forms/stats.py:81
 msgid "collection"
 msgstr "colecție"
 
-#: ../dtop/anki/stats.py:817
+#. T: abbreviation of day
+#: pylib/anki/stats.py:975
 msgid "d"
 msgstr "z"
 
-#: ../dtop/aqt/customstudy.py:79 ../dtop/aqt/customstudy.py:83
-#: ../dtop/aqt/customstudy.py:86 ../dtop/aqt/forms/dconf.py:360
-#: ../dtop/aqt/forms/dconf.py:361 ../dtop/aqt/forms/dconf.py:369
-#: ../dtop/aqt/forms/dconf.py:380 ../dtop/aqt/forms/reschedule.py:75
+#: qt/aqt/customstudy.py:90 qt/aqt/customstudy.py:94 qt/aqt/customstudy.py:97
+#: qt/aqt/forms/dconf.py:348 qt/aqt/forms/dconf.py:349
+#: qt/aqt/forms/dconf.py:356 qt/aqt/forms/dconf.py:368
+#: qt/aqt/forms/reschedule.py:77
 msgid "days"
 msgstr "zile"
 
-#: ../dtop/aqt/forms/stats.py:74
+#: qt/aqt/forms/stats.py:80
 msgid "deck"
 msgstr "pachet"
 
-#: ../dtop/anki/stats.py:792 ../dtop/aqt/forms/stats.py:78
+#: pylib/anki/stats.py:942 qt/aqt/forms/stats.py:84
 msgid "deck life"
 msgstr "viață pachet"
 
-#: ../dtop/aqt/browser.py:1846
+#: qt/aqt/browser.py:2020
 msgid "duplicate"
 msgstr ""
 
-#: ../dtop/anki/collection.py:598
-msgid "help"
-msgstr "ajutor"
-
-#: ../dtop/aqt/deckbrowser.py:127
-msgid "hide"
-msgstr "ascunde"
-
-#: ../dtop/anki/stats.py:379
+#: pylib/anki/stats.py:408
 msgid "hours"
 msgstr "ore"
 
-#: ../dtop/aqt/forms/preferences.py:242
+#: qt/aqt/forms/preferences.py:294
 msgid "hours past midnight"
 msgstr "ore trecute de miezul nopții"
 
-#: ../dtop/anki/utils.py:45
-#, python-format
-msgid "in %s day"
-msgid_plural "in %s days"
-msgstr[0] ""
-msgstr[1] ""
-
-#: ../dtop/anki/utils.py:46
-#, python-format
-msgid "in %s hour"
-msgid_plural "in %s hours"
-msgstr[0] ""
-msgstr[1] ""
-
-#: ../dtop/anki/utils.py:47
-#, python-format
-msgid "in %s minute"
-msgid_plural "in %s minutes"
-msgstr[0] ""
-msgstr[1] ""
-
-#: ../dtop/anki/utils.py:44
-#, python-format
-msgid "in %s month"
-msgid_plural "in %s months"
-msgstr[0] "în %s lună"
-msgstr[1] "în %s luni"
-msgstr[2] "în %s de luni"
-
-#: ../dtop/anki/utils.py:48
-#, python-format
-msgid "in %s second"
-msgid_plural "in %s seconds"
-msgstr[0] "în %s secundă"
-msgstr[1] "în %s secunde"
-msgstr[2] "în %s de secunde"
-
-#: ../dtop/anki/utils.py:43
-#, python-format
-msgid "in %s year"
-msgid_plural "in %s years"
-msgstr[0] "în %s an"
-msgstr[1] "în %s ani"
-msgstr[2] "în %s de ani"
-
-#: ../dtop/aqt/forms/dconf.py:377
+#: qt/aqt/forms/dconf.py:365
 msgid "lapses"
 msgstr ""
 
-#: ../dtop/anki/stats.py:398
-msgid "less than 0.1 cards/minute"
-msgstr ""
-
-#: ../dtop/aqt/importing.py:227
+#: qt/aqt/importing.py:263
 #, python-format
 msgid "mapped to <b>%s</b>"
 msgstr "transformat în <b>%s</b>"
 
-#: ../dtop/aqt/importing.py:225
+#: qt/aqt/importing.py:261
 msgid "mapped to <b>Tags</b>"
 msgstr "transformat în <b>etichete</b>"
 
-#: ../dtop/aqt/forms/preferences.py:239 ../dtop/aqt/forms/preferences.py:241
+#: qt/aqt/forms/preferences.py:292 qt/aqt/forms/preferences.py:296
 msgid "mins"
 msgstr "minute"
 
-#: ../dtop/anki/stats.py:361 ../dtop/aqt/forms/dyndconf.py:143
+#: pylib/anki/stats.py:379 qt/aqt/forms/dyndconf.py:146
 msgid "minutes"
 msgstr "minute"
 
-#: ../dtop/anki/stats.py:817
+#. T: abbreviation of month
+#: pylib/anki/stats.py:979
 msgid "mo"
 msgstr "mo"
 
-#: ../dtop/anki/stats.py:257 ../dtop/anki/stats.py:343
+#: pylib/anki/stats.py:247 pylib/anki/stats.py:355
 msgid "reviews"
 msgstr "repetiții"
 
-#: ../dtop/aqt/forms/dconf.py:386
+#: qt/aqt/forms/dconf.py:374
 msgid "seconds"
 msgstr "secunde"
 
-#: ../dtop/aqt/stats.py:58
+#: qt/aqt/stats.py:62 qt/aqt/stats.py:144
 msgid "stats"
 msgstr ""
 
-#: ../dtop/aqt/deckbrowser.py:125
-msgid "this page"
-msgstr "această pagină"
-
-#: ../dtop/anki/stats.py:817
+#. T: abbreviation of week
+#: pylib/anki/stats.py:977
 msgid "w"
 msgstr "w"
 
-#: ../dtop/anki/stats.py:784
+#: pylib/anki/stats.py:937
 msgid "whole collection"
 msgstr "întreaga colecție"
 
-#: ../dtop/aqt/forms/reschedule.py:74
+#: qt/aqt/forms/reschedule.py:76
 msgid "~"
 msgstr "~"
+
+#, python-format
+#~ msgid " (1 of %d)"
+#~ msgstr " (1 din %d)"
+
+#, python-format
+#~ msgid "%(a)0.1fs (%(b)s)"
+#~ msgstr "%(a)0.1fs (%(b)s)"
+
+#, python-format
+#~ msgid "%(a)d of %(b)d note updated"
+#~ msgid_plural "%(a)d of %(b)d notes updated"
+#~ msgstr[0] "%(a)d din %(b)d note actualizate"
+#~ msgstr[1] "%(a)d din %(b)d note actualize"
+#~ msgstr[2] "%(a)d din %(b)d note actualize"
+
+#, python-format
+#~ msgid "%d card deleted."
+#~ msgid_plural "%d cards deleted."
+#~ msgstr[0] "%d card șters."
+#~ msgstr[1] "%d carduri șterse."
+#~ msgstr[2] "%d carduri șterse."
+
+#, python-format
+#~ msgid "%d review"
+#~ msgid_plural "%d reviews"
+#~ msgstr[0] "%d repetiție"
+#~ msgstr[1] "%d repetiții"
+#~ msgstr[2] "%d repetiții"
+
+#, python-format
+#~ msgid "%s day"
+#~ msgid_plural "%s days"
+#~ msgstr[0] "%s zi"
+#~ msgstr[1] "%s zile"
+#~ msgstr[2] "%s de zile"
+
+#, python-format
+#~ msgid "%s hour"
+#~ msgid_plural "%s hours"
+#~ msgstr[0] "%s oră"
+#~ msgstr[1] "%s ore"
+#~ msgstr[2] "%s de ore"
+
+#, python-format
+#~ msgid "%s minute"
+#~ msgid_plural "%s minutes"
+#~ msgstr[0] "%s minut"
+#~ msgstr[1] "%s minute"
+#~ msgstr[2] "%s de minute"
+
+#, python-format
+#~ msgid "%s month"
+#~ msgid_plural "%s months"
+#~ msgstr[0] "%s lună"
+#~ msgstr[1] "%s luni"
+#~ msgstr[2] "%s de luni"
+
+#, python-format
+#~ msgid "%s to delete:"
+#~ msgstr "%s de șters:"
+
+#, python-format
+#~ msgid "%s year"
+#~ msgid_plural "%s years"
+#~ msgstr[0] "%s an"
+#~ msgstr[1] "%s ani"
+#~ msgstr[2] "%s de ani"
+
+#, python-format
+#~ msgid "%sd"
+#~ msgstr "%sd"
+
+#, python-format
+#~ msgid "%sh"
+#~ msgstr "%sh"
+
+#, python-format
+#~ msgid "%sm"
+#~ msgstr "%sm"
+
+#, python-format
+#~ msgid "%smo"
+#~ msgstr "%smo"
+
+#, python-format
+#~ msgid "%ss"
+#~ msgstr "%ss"
+
+#, python-format
+#~ msgid "%sy"
+#~ msgstr "%sy"
+
+#~ msgid "&Guide"
+#~ msgstr "&Ghid"
+
+#~ msgid "..."
+#~ msgstr "…"
+
+#~ msgid "/"
+#~ msgstr "/"
+
+#~ msgid "0d"
+#~ msgstr "0d"
+
+#~ msgid "1 10"
+#~ msgstr "1 10"
+
+#~ msgid "504 gateway timeout error received. Please try temporarily disabling your antivirus."
+#~ msgstr "S-a primit eroarea de pauză de intrare 504. Te rog să dezactivezi temporar antivirusul tău."
+
+#, python-format
+#~ msgid "<!--studied-->%d card"
+#~ msgid_plural "<!--studied-->%d cards"
+#~ msgstr[0] "<!--studied-->%d card"
+#~ msgstr[1] "<!--studied-->%d carduri"
+#~ msgstr[2] "<!--studied-->%d carduri"
+
+#~ msgid "<b>%Y-%m-%d</b> @ %H:%M"
+#~ msgstr "<b>%Y-%m-%d</b> @ %H:%M"
+
+#, python-format
+#~ msgid ""
+#~ "<h1>Account Required</h1>\n"
+#~ "A free account is required to keep your collection synchronized. Please <a href=\"%s\">sign up</a> for an account, then enter your details below."
+#~ msgstr ""
+#~ "<h1>Cont obligatoriu</h1>\n"
+#~ "Un cont gratuit este necesar pentru a păstra sincronizată colecția. Te rog, <a href=\"%s\">înscrie-te</a> pentru un cont, apoi introdu detaliile tale."
+
+#~ msgid "A problem occurred while syncing media. Please use Tools>Check Media, then sync again to correct the issue."
+#~ msgstr "A apărut o problemă în timp ce se sincronizau fișierele media. Te rog să folosești Instrumente->Verifică media, apoi să sincronizezi din nou pentru a corecta problema."
+
+#~ msgid "Add Reverse"
+#~ msgstr "Adaugă verso"
+
+#~ msgid "Add to:"
+#~ msgstr "Adaugă în:"
+
+#~ msgid "AnkiWeb ID or password was incorrect; please try again."
+#~ msgstr "ID-ul AnkiWeb sau parola au fost incorecte, te rog să încerci din nou."
+
+#~ msgid "AnkiWeb ID:"
+#~ msgstr "ID-ul AnkiWeb"
+
+#~ msgid "AnkiWeb encountered an error. Please try again in a few minutes, and if the problem persists, please file a bug report."
+#~ msgstr "AnkiWeb a întâmpinat o eroare. Te rog să încerci din nou în câteva minute, iar dacă problema persistă, te rog să trimiți un raport al erorii."
+
+#~ msgid "AnkiWeb is too busy at the moment. Please try again in a few minutes."
+#~ msgstr "AnkiWeb este prea ocupat în acest moment. Te rog să încerci din nou în câteva minute."
+
+#~ msgid "AnkiWeb is under maintenance. Please try again in a few minutes."
+#~ msgstr "AnkiWeb se află sub mentenanță. Te rog să încerci din nou în câteva minute."
+
+#~ msgid "Antivirus or firewall software is preventing Anki from connecting to the internet."
+#~ msgstr "Antivirsul sau programul firewall nu permite lui Anki să se conecteze la internet."
+
+#~ msgid "Average Time"
+#~ msgstr "Media de timp"
+
+#~ msgid "Back"
+#~ msgstr "Verso"
+
+#~ msgid "Back Preview"
+#~ msgstr "Previzualizare verso"
+
+#~ msgid "Back Template"
+#~ msgstr "Șablon verso"
+
+#~ msgid "Basic (and reversed card)"
+#~ msgstr "De bază (și cu card întors)"
+
+#~ msgid "Basic (optional reversed card)"
+#~ msgstr "De bază (opțional cu card întors)"
+
+#~ msgid "Basic (type in the answer)"
+#~ msgstr "De bază(tastați răspunsul)"
+
+#~ msgid "Card 1"
+#~ msgstr "Card 1"
+
+#~ msgid "Card 2"
+#~ msgstr "Card 2"
+
+#~ msgid "Card ID"
+#~ msgstr "ID card"
+
+#~ msgid "Card Type"
+#~ msgstr "Tip card"
+
+#~ msgid "Changed"
+#~ msgstr "Schimbat"
+
+#~ msgid "Collection is corrupt. Please see the manual."
+#~ msgstr "Colecția este coruptă. Te rog să verifici manualul."
+
+#~ msgid "Connecting..."
+#~ msgstr "Se conectează..."
+
+#~ msgid "Connection timed out. Either your internet connection is experiencing problems, or you have a very large file in your media folder."
+#~ msgstr "Conexiunea a expirat. Fie ai probleme cu conexiunea la internet, fie ai un fișier foarte mare în dosarul media."
+
+#~ msgid "Couldn't connect to AnkiWeb. Please check your network connection and try again."
+#~ msgstr "Nu s-a putut conecta la AnkiWeb. Te rog să verifici conexiunea la rețea și să încerci din nou."
+
+#~ msgid "Ctrl+1"
+#~ msgstr "Ctrl+1"
+
+#~ msgid "Ctrl+2"
+#~ msgstr "Ctrl+2"
+
+#~ msgid "Ctrl+3"
+#~ msgstr "Ctrl+3"
+
+#~ msgid "Ctrl+4"
+#~ msgstr "Ctrl+4"
+
+#~ msgid "Ctrl+Alt+A"
+#~ msgstr "Ctrl+Alt+A"
+
+#~ msgid "Ctrl+Alt+F"
+#~ msgstr "Ctrl+Alt+F"
+
+#~ msgid "Ctrl+Alt+Z"
+#~ msgstr "Ctrl+Alt+Z"
+
+#~ msgid "Ctrl+D"
+#~ msgstr "Ctrl+D"
+
+#~ msgid "Ctrl+Del"
+#~ msgstr "Ctrl+Del"
+
+#~ msgid "Ctrl+E"
+#~ msgstr "Ctrl+E"
+
+#~ msgid "Ctrl+F"
+#~ msgstr "Ctrl+F"
+
+#~ msgid "Ctrl+J"
+#~ msgstr "Ctrl+J"
+
+#~ msgid "Ctrl+K"
+#~ msgstr "Ctrl+K"
+
+#~ msgid "Ctrl+N"
+#~ msgstr "Ctrl+N"
+
+#~ msgid "Ctrl+P"
+#~ msgstr "Ctrl+P"
+
+#~ msgid "Ctrl+Q"
+#~ msgstr "Ctrl+Q"
+
+#~ msgid "Ctrl+Shift+D"
+#~ msgstr "Ctrl+Shift+D"
+
+#~ msgid "Ctrl+Shift+F"
+#~ msgstr "Ctrl+Shift+F"
+
+#~ msgid "Ctrl+Shift+I"
+#~ msgstr "Ctrl+Shift+I"
+
+#~ msgid "Ctrl+Shift+L"
+#~ msgstr "Ctrl+Shift+L"
+
+#~ msgid "Ctrl+Shift+M"
+#~ msgstr "Ctrl+Shift+M"
+
+#~ msgid "Ctrl+Shift+N"
+#~ msgstr "Ctrl+Shift+N"
+
+#~ msgid "Ctrl+Shift+P"
+#~ msgstr "Ctrl+Shift+P"
+
+#~ msgid "Ctrl+Shift+R"
+#~ msgstr "Ctrl+Shift+R"
+
+#~ msgid "Ctrl+Shift+S"
+#~ msgstr "Ctrl+Shift+S"
+
+#~ msgid "Ctrl+W"
+#~ msgstr "Ctrl+W"
+
+#~ msgid "Database rebuilt and optimized."
+#~ msgstr "Bază de date reconstruită și optimizată."
+
+#~ msgid "Date"
+#~ msgstr "Data"
+
+#~ msgid "Delete Cards"
+#~ msgstr "Șterge carduri"
+
+#~ msgid "Delete Empty"
+#~ msgstr "Șterge goale"
+
+#~ msgid "Delete Unused Files"
+#~ msgstr "Șterge fișierele neutilizate"
+
+#~ msgid "Delete unused media?"
+#~ msgstr "Ștergi fișierele media nefolosite?"
+
+#, python-format
+#~ msgid "Deleted %d card with missing note."
+#~ msgid_plural "Deleted %d cards with missing note."
+#~ msgstr[0] "A fost șters %d card cu nota lipsă."
+#~ msgstr[1] "Au fost șterse %d carduri cu nota lipsă."
+#~ msgstr[2] "Au fost șterse %d carduri cu nota lipsă."
+
+#, python-format
+#~ msgid "Deleted %d card with missing template."
+#~ msgid_plural "Deleted %d cards with missing template."
+#~ msgstr[0] "A fost șters %d card cu șablonul lipsă."
+#~ msgstr[1] "Au fost șterse %d carduri cu șablonul lipsă."
+#~ msgstr[2] "Au fost șterse %d carduri cu șablonul lipsă."
+
+#, python-format
+#~ msgid "Deleted %d note with missing note type."
+#~ msgid_plural "Deleted %d notes with missing note type."
+#~ msgstr[0] "A fost ștearsă %d notă cu tipul notei lipsă."
+#~ msgstr[1] "Au fost șterse %d note cu tipul notei lipsă."
+#~ msgstr[2] "Au fost șterse %d note cu tipul notei lipsă."
+
+#, python-format
+#~ msgid "Deleted %d note with no cards."
+#~ msgid_plural "Deleted %d notes with no cards."
+#~ msgstr[0] "A fost ștearsă %d notă fără carduri."
+#~ msgstr[1] "Au fost șterse %d note fără carduri."
+#~ msgstr[2] "Au fost șterse %d note fără carduri."
+
+#, python-format
+#~ msgid "Deleted %d note with wrong field count."
+#~ msgid_plural "Deleted %d notes with wrong field count."
+#~ msgstr[0] "A fost ștearsă %d notă cu câmpul de numărare greșit."
+#~ msgstr[1] "Au fost șterse %d note cu câmpul de numărare greșit."
+#~ msgstr[2] "Au fost șterse %d note cu câmpul de numărare greșit."
+
+#~ msgid "Deleted."
+#~ msgstr "Şters."
+
+#~ msgid "Download from AnkiWeb"
+#~ msgstr "Descarcă de la AnkiWeb"
+
+#~ msgid "Downloading from AnkiWeb..."
+#~ msgstr "Descărcare de la AnkiWeb..."
+
+#~ msgid "Due"
+#~ msgstr "Programate"
+
+#~ msgid "Edited"
+#~ msgstr "Modificat"
+
+#, python-format
+#~ msgid ""
+#~ "Empty card numbers: %(c)s\n"
+#~ "Fields: %(f)s\n"
+#~ "\n"
+#~ msgstr ""
+#~ "Numere carduri goale: %(c)s\n"
+#~ "Câmpuri: %(f)s\n"
+#~ "\n"
+
+#~ msgid "Empty cards found. Please run Tools>Empty Cards."
+#~ msgstr "Au fost găsite carduri goale. Te rog să rulezi Unelte>Carduri goale."
+
+#~ msgid "Extra"
+#~ msgstr "Extra"
+
+#~ msgid "F"
+#~ msgstr "F"
+
+#~ msgid "F1"
+#~ msgstr "F1"
+
+#~ msgid "Filtered"
+#~ msgstr "Filtrate"
+
+#~ msgid "First Review"
+#~ msgstr "Prima recapitulare"
+
+#, python-format
+#~ msgid "Fixed %d card with invalid properties."
+#~ msgid_plural "Fixed %d cards with invalid properties."
+#~ msgstr[0] "Rezolvat %d card cu proprietăți nevalide."
+#~ msgstr[1] "Rezolvate %d carduri cu proprietăți nevalide."
+#~ msgstr[2] "Rezolvate %d carduri cu proprietăți nevalide."
+
+#~ msgid "Fixed AnkiDroid deck override bug."
+#~ msgstr "Rezolvat bug de suprascriere a pachetului AnkiDroid"
+
+#, python-format
+#~ msgid "Fixed note type: %s"
+#~ msgstr "Rezolvat tipul notei: %s"
+
+#~ msgid "Front Preview"
+#~ msgstr "Previzualizare față"
+
+#~ msgid "Front Template"
+#~ msgstr "Șablon față"
+
+#~ msgid "Import failed.\n"
+#~ msgstr "Import eșuat.\n"
+
+#~ msgid "Import failed. Debugging info:\n"
+#~ msgstr "Import nereușit. Informații de depanare:\n"
+
+#~ msgid "In media folder but not used by any cards:"
+#~ msgstr "Se află în dosarul media, dar nu sunt folosite de nicio carte:"
+
+#~ msgid "Invalid regular expression."
+#~ msgstr "Expresie regulată eronată."
+
+#~ msgid "Latest Review"
+#~ msgstr "Ultimele repetiții"
+
+#~ msgid "No empty cards."
+#~ msgstr "Niciun card gol."
+
+#~ msgid "No unused or missing files found."
+#~ msgstr "Nu s-au găsit fișiere nefolosite sau lipsă."
+
+#~ msgid "Note ID"
+#~ msgstr "ID notă"
+
+#~ msgid "Note Type"
+#~ msgstr "Tip notă"
+
+#~ msgid "Password:"
+#~ msgstr "Parolă:"
+
+#~ msgid "Position"
+#~ msgstr "Poziție"
+
+#~ msgid "Proxy authentication required."
+#~ msgstr "Autentificare proxy necesară."
+
+#~ msgid "Resched"
+#~ msgstr "Reprogramează"
+
+#, python-format
+#~ msgid ""
+#~ "Syncing failed:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Sincronizarea a eşuat:\n"
+#~ "%s"
+
+#~ msgid "Syncing failed; internet offline."
+#~ msgstr "Sincronixarea a eşuat; conectarea la server a eşuat."
+
+#~ msgid "Syncing..."
+#~ msgstr "Sincronizare..."
+
+#~ msgid "Text"
+#~ msgstr "Text"
+
+#~ msgid "The default deck can't be deleted."
+#~ msgstr "Pachetul implicit nu poate fi şters."
+
+#~ msgid "Total Time"
+#~ msgstr "Timp total"
+
+#~ msgid "Used on cards but missing from media folder:"
+#~ msgstr "Folosite în carduri, dar care lipsesc din dosarul media:"
+
+#~ msgid "help"
+#~ msgstr "ajutor"
+
+#~ msgid "hide"
+#~ msgstr "ascunde"
+
+#, python-format
+#~ msgid "in %s month"
+#~ msgid_plural "in %s months"
+#~ msgstr[0] "în %s lună"
+#~ msgstr[1] "în %s luni"
+#~ msgstr[2] "în %s de luni"
+
+#, python-format
+#~ msgid "in %s second"
+#~ msgid_plural "in %s seconds"
+#~ msgstr[0] "în %s secundă"
+#~ msgstr[1] "în %s secunde"
+#~ msgstr[2] "în %s de secunde"
+
+#, python-format
+#~ msgid "in %s year"
+#~ msgid_plural "in %s years"
+#~ msgstr[0] "în %s an"
+#~ msgstr[1] "în %s ani"
+#~ msgstr[2] "în %s de ani"
+
+#~ msgid "this page"
+#~ msgstr "această pagină"
