@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: anki\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-02 09:49+1000\n"
-"PO-Revision-Date: 2020-07-01 03:53+0000\n"
+"PO-Revision-Date: 2020-07-01 12:51+0000\n"
 "Last-Translator: sivan22 <sivan.ratson@gmail.com>\n"
 "Language-Team: Hebrew\n"
 "Language: he\n"
@@ -50,9 +50,7 @@ msgstr[1] " קיימות %d כרטיסיות."
 msgid "\"Segoe UI\""
 msgstr "\"Arial\""
 
-#: qt/aqt/forms/dconf.py:341 qt/aqt/forms/dconf.py:352
-#: qt/aqt/forms/dconf.py:357 qt/aqt/forms/dconf.py:360
-#: qt/aqt/forms/dconf.py:371 qt/aqt/forms/preferences.py:286
+#: qt/aqt/forms/dconf.py:341 qt/aqt/forms/dconf.py:352 qt/aqt/forms/dconf.py:357 qt/aqt/forms/dconf.py:360 qt/aqt/forms/dconf.py:371 qt/aqt/forms/preferences.py:286
 msgid "%"
 msgstr "%"
 
@@ -119,40 +117,39 @@ msgid_plural "%d groups"
 msgstr[0] "%d קבוצה"
 msgstr[1] "%d קבוצות"
 
-#: qt/aqt/browser.py:1996 qt/aqt/browser.py:2004 qt/aqt/fields.py:123
-#: qt/aqt/models.py:100
+#: qt/aqt/browser.py:1996 qt/aqt/browser.py:2004 qt/aqt/fields.py:123 qt/aqt/models.py:100
 #, python-format
 msgid "%d note"
 msgid_plural "%d notes"
-msgstr[0] "%d הערה"
+msgstr[0] "%d רשומה"
 msgstr[1] "%d הערות"
 
 #: pylib/anki/importing/noteimp.py:212
 #, python-format
 msgid "%d note added"
 msgid_plural "%d notes added"
-msgstr[0] "%d הערה נוספה"
+msgstr[0] "%d רשומה נוספה"
 msgstr[1] "%d הערות נוספו"
 
 #: qt/aqt/browser.py:1567
 #, python-format
 msgid "%d note deleted."
 msgid_plural "%d notes deleted."
-msgstr[0] "%d הערה נמחקה."
+msgstr[0] "%d רשומה נמחקה."
 msgstr[1] "%d הערות נמחקו."
 
 #: qt/aqt/exporting.py:179
 #, python-format
 msgid "%d note exported."
 msgid_plural "%d notes exported."
-msgstr[0] "%d הערה הוצאה."
+msgstr[0] "%d רשומה יוצאה."
 msgstr[1] "%d הערות הוצאו."
 
 #: pylib/anki/importing/mnemo.py:104
 #, python-format
 msgid "%d note imported."
 msgid_plural "%d notes imported."
-msgstr[0] "%d הערה הובאה."
+msgstr[0] "%d רשומה יובאה."
 msgstr[1] "%d הערות הובאו."
 
 #: pylib/anki/importing/noteimp.py:224
@@ -265,7 +262,7 @@ msgstr "&כרטיסייה הבאה"
 
 #: qt/aqt/forms/browser.py:303
 msgid "&Notes"
-msgstr "&הערות"
+msgstr "&רשומות"
 
 #: qt/aqt/forms/main.py:143
 msgid "&Open Add-ons Folder..."
@@ -277,7 +274,7 @@ msgstr "&העדפות..."
 
 #: qt/aqt/forms/browser.py:311
 msgid "&Previous Card"
-msgstr "&כרטיסייה קודמת"
+msgstr "&כרטיס קודם"
 
 #: qt/aqt/forms/browser.py:304
 msgid "&Reschedule..."
@@ -420,8 +417,11 @@ msgstr "<b>גופן</b>:"
 
 #: qt/aqt/addons.py:1399
 #, python-format
-msgid "<b>Important</b>: As add-ons are programs downloaded from the internet, they are potentially malicious.<b>You should only install add-ons you trust.</b><br><br>Are you sure you want to proceed with the installation of the following Anki add-on(s)?<br><br>%(names)s"
-msgstr "<b>חשוב:</b> משום שתוספים הם תוכניות שמגיעות מהאינטרנט, הם עלולים להיות זדוניים. <b> התקן רק תוספים שאתה בוטח בהם. </b><br><br> האם אתה בטוח שאתה רוצה להמשיך בהתקנת התוספים הבאים? <br><br>%(names)s"
+msgid ""
+"<b>Important</b>: As add-ons are programs downloaded from the internet, they are potentially malicious.<b>You should only install add-ons you trust.</b><br><br>Are you sure you want to proceed with "
+"the installation of the following Anki add-on(s)?<br><br>%(names)s"
+msgstr ""
+"<b>חשוב:</b> משום שתוספים הם תוכניות שמגיעות מהאינטרנט, הם עלולים להיות זדוניים. <b> התקן רק תוספים שאתה בוטח בהם. </b><br><br> האם אתה בטוח שאתה רוצה להמשיך בהתקנת התוספים הבאים? <br><br>%(names)s"
 
 #: qt/aqt/forms/findreplace.py:86
 msgid "<b>In</b>:"
@@ -489,9 +489,7 @@ msgstr "בוטל: %s"
 msgid "About Anki"
 msgstr "אודות Anki"
 
-#: qt/aqt/addcards.py:37 qt/aqt/addcards.py:67 qt/aqt/deckconf.py:87
-#: qt/aqt/models.py:52 qt/aqt/studydeck.py:46 qt/aqt/toolbar.py:111
-#: qt/aqt/forms/addcards.py:58 qt/aqt/forms/fields.py:102
+#: qt/aqt/addcards.py:37 qt/aqt/addcards.py:67 qt/aqt/deckconf.py:87 qt/aqt/models.py:52 qt/aqt/studydeck.py:46 qt/aqt/toolbar.py:111 qt/aqt/forms/addcards.py:58 qt/aqt/forms/fields.py:102
 #: qt/aqt/forms/profiles.py:81
 msgid "Add"
 msgstr "הוסף"
@@ -561,8 +559,7 @@ msgstr "תוספים"
 msgid "Add: %s"
 msgstr "הוסף: %s"
 
-#: pylib/anki/stats.py:304 pylib/anki/importing/anki2.py:166
-#: qt/aqt/addcards.py:192
+#: pylib/anki/stats.py:304 pylib/anki/importing/anki2.py:166 qt/aqt/addcards.py:192
 msgid "Added"
 msgstr "נוספו"
 
@@ -629,8 +626,7 @@ msgstr "כלול תמיד את צד השאלה כאשר אודיו מופעל ש
 msgid "An error occurred while opening %s"
 msgstr "שגיאה התרחשה בזמן פתיחת %s"
 
-#: qt/aqt/forms/main.py:131 qt/aqt/forms/setgroup.py:38
-#: qt/aqt/forms/setlang.py:39
+#: qt/aqt/forms/main.py:131 qt/aqt/forms/setgroup.py:38 qt/aqt/forms/setlang.py:39
 msgid "Anki"
 msgstr "Anki"
 
@@ -655,8 +651,12 @@ msgid "Anki could not read your profile data. Window sizes and your sync login d
 msgstr "Anki לא הצליח לקרוא את נתוני הפרופיל שלך. ממדי החלון ופרטי התחברות הסנכרון שלך נשכחו."
 
 #: qt/aqt/profiles.py:321
-msgid "Anki could not rename your profile because it could not rename the profile folder on disk. Please ensure you have permission to write to Documents/Anki and no other programs are accessing your profile folders, then try again."
-msgstr "Anki לא הצליח לשנות את שם הפרופיל שלך בגלל שהוא לא הצליח לשנות את שם תיקיית הפרופיל על הדיסק. אנא וודא שיש לך הרשאת כתיבה ל-Documents/Anki ושום תוכנות אחרות לא ניגשות לתיקיות הפרופיל שלך, ולאחר מכן נסה שנית."
+msgid ""
+"Anki could not rename your profile because it could not rename the profile folder on disk. Please ensure you have permission to write to Documents/Anki and no other programs are accessing your "
+"profile folders, then try again."
+msgstr ""
+"Anki לא הצליח לשנות את שם הפרופיל שלך בגלל שהוא לא הצליח לשנות את שם תיקיית הפרופיל על הדיסק. אנא וודא שיש לך הרשאת כתיבה ל-Documents/Anki ושום תוכנות אחרות לא ניגשות לתיקיות הפרופיל שלך, ולאחר מכן "
+"נסה שנית."
 
 #: qt/aqt/clayout.py:608
 msgid "Anki couldn't find the line between the question and answer. Please adjust the template manually to switch the question and answer."
@@ -883,8 +883,7 @@ msgstr "כרטיסייה הושהתה."
 msgid "Card was a leech."
 msgstr "הכרטיס היה \"עלוקה\"."
 
-#: pylib/anki/stats.py:305 pylib/anki/stats.py:955 qt/aqt/editor.py:185
-#: qt/aqt/forms/changemodel.py:112
+#: pylib/anki/stats.py:305 pylib/anki/stats.py:955 qt/aqt/editor.py:185 qt/aqt/forms/changemodel.py:112
 msgid "Cards"
 msgstr "כרטיסיות"
 
@@ -1049,7 +1048,7 @@ msgstr "הגדר שפת ואפשרויות ממשק"
 
 #: pylib/anki/schedv2.py:1281
 msgid "Congratulations! You have finished this deck for now."
-msgstr "מזל טוב! סיימת את החפיסה הזאת לבינתיים."
+msgstr "אשריך! סיימת את החפיסה לעת עתה."
 
 #: qt/aqt/reviewer.py:94
 msgid "Continue"
@@ -1179,8 +1178,7 @@ msgstr "התנתק"
 msgid "Debug Console"
 msgstr "קונסולת ניפוי שגיאות"
 
-#: qt/aqt/browser.py:733 qt/aqt/deckbrowser.py:155 qt/aqt/deckchooser.py:29
-#: qt/aqt/forms/importing.py:106
+#: qt/aqt/browser.py:733 qt/aqt/deckbrowser.py:155 qt/aqt/deckchooser.py:29 qt/aqt/forms/importing.py:106
 msgid "Deck"
 msgstr "חפיסה"
 
@@ -1208,9 +1206,8 @@ msgstr "ברירת-מחדל"
 msgid "Delays until reviews are shown again."
 msgstr "עיכובים עד שסקירות מופיעות שנית."
 
-#: qt/aqt/deckbrowser.py:242 qt/aqt/deckconf.py:89 qt/aqt/models.py:56
-#: qt/aqt/reviewer.py:792 qt/aqt/forms/addons.py:76 qt/aqt/forms/browser.py:330
-#: qt/aqt/forms/fields.py:103 qt/aqt/forms/profiles.py:83
+#: qt/aqt/deckbrowser.py:242 qt/aqt/deckconf.py:89 qt/aqt/models.py:56 qt/aqt/reviewer.py:792 qt/aqt/forms/addons.py:76 qt/aqt/forms/browser.py:330 qt/aqt/forms/fields.py:103
+#: qt/aqt/forms/profiles.py:83
 msgid "Delete"
 msgstr "מחק"
 
@@ -1267,8 +1264,7 @@ msgstr "תיאור"
 msgid "Description to show on overview screen, for current deck:"
 msgstr "תיאור להצגה במסך הסקירה, לחפיסה זאת:"
 
-#: qt/aqt/forms/dyndconf.py:133 qt/aqt/forms/editaddon.py:40
-#: qt/aqt/forms/editcurrent.py:41 qt/aqt/forms/progress.py:40
+#: qt/aqt/forms/dyndconf.py:133 qt/aqt/forms/editaddon.py:40 qt/aqt/forms/editcurrent.py:41 qt/aqt/forms/progress.py:40
 msgid "Dialog"
 msgstr "דו שיח"
 
@@ -1408,8 +1404,7 @@ msgstr "שגיאה התרחשה בעת התקנת <i>%(base)s</i>: %(error)s"
 msgid "Error running %s"
 msgstr "שגיאה התרחשה בעת הרצת %s"
 
-#: qt/aqt/deckbrowser.py:240 qt/aqt/exporting.py:120
-#: qt/aqt/forms/exporting.py:74
+#: qt/aqt/deckbrowser.py:240 qt/aqt/exporting.py:120 qt/aqt/forms/exporting.py:74
 msgid "Export"
 msgstr "ייצא"
 
@@ -1441,8 +1436,7 @@ msgstr "שם שדה:"
 msgid "Field:"
 msgstr "שדה:"
 
-#: qt/aqt/editor.py:184 qt/aqt/fields.py:23 qt/aqt/forms/changemodel.py:113
-#: qt/aqt/forms/fields.py:101
+#: qt/aqt/editor.py:184 qt/aqt/fields.py:23 qt/aqt/forms/changemodel.py:113 qt/aqt/forms/fields.py:101
 msgid "Fields"
 msgstr "שדות"
 
@@ -1622,8 +1616,7 @@ msgstr "האם התקנת latex ו-dvipng/dvisvgm ?"
 msgid "Header"
 msgstr "כותרת עליונה"
 
-#: qt/aqt/addcards.py:76 qt/aqt/clayout.py:340 qt/aqt/utils.py:206
-#: qt/aqt/utils.py:207
+#: qt/aqt/addcards.py:76 qt/aqt/clayout.py:340 qt/aqt/utils.py:206 qt/aqt/utils.py:207
 msgid "Help"
 msgstr "עזרה"
 
@@ -1683,8 +1676,7 @@ msgstr "התעלם משורות שהשדה הראשון תואם להערה קי
 msgid "Ignore this update"
 msgstr "התעלם מעדכון זה"
 
-#: qt/aqt/importing.py:102 qt/aqt/importing.py:196 qt/aqt/importing.py:318
-#: qt/aqt/forms/changemap.py:41 qt/aqt/forms/importing.py:103
+#: qt/aqt/importing.py:102 qt/aqt/importing.py:196 qt/aqt/importing.py:318 qt/aqt/forms/changemap.py:41 qt/aqt/forms/importing.py:103
 msgid "Import"
 msgstr "ייבא"
 
@@ -1895,7 +1887,7 @@ msgstr "נלמדו:%(a)s, נסקרו: %(b)s, נלמדו מחדש: %(c)s, מסו�
 
 #: pylib/anki/stats.py:679 qt/aqt/browser.py:1276 qt/aqt/overview.py:225
 msgid "Learning"
-msgstr "לומד"
+msgstr "לימוד"
 
 #: qt/aqt/forms/dconf.py:366
 msgid "Leech action"
@@ -1970,8 +1962,7 @@ msgstr "כימיה באמצעות MathJax"
 msgid "MathJax inline"
 msgstr "MathJax כחלק משורה"
 
-#: pylib/anki/stats.py:210 pylib/anki/stats.py:341 pylib/anki/stats.py:361
-#: pylib/anki/stats.py:681 pylib/anki/stats.py:851
+#: pylib/anki/stats.py:210 pylib/anki/stats.py:341 pylib/anki/stats.py:361 pylib/anki/stats.py:681 pylib/anki/stats.py:851
 msgid "Mature"
 msgstr "בוגר"
 
@@ -2045,7 +2036,7 @@ msgstr "רשת"
 
 #: qt/aqt/browser.py:1275 qt/aqt/deckbrowser.py:157 qt/aqt/overview.py:223
 msgid "New"
-msgstr "חדש"
+msgstr "חדשים"
 
 #: qt/aqt/forms/dconf.py:350
 msgid "New Cards"
@@ -2072,8 +2063,7 @@ msgstr "שם חפיסה חדש:"
 msgid "New interval"
 msgstr "מרווח זמן חדש"
 
-#: qt/aqt/clayout.py:533 qt/aqt/deckconf.py:146 qt/aqt/fields.py:97
-#: qt/aqt/main.py:282 qt/aqt/models.py:76
+#: qt/aqt/clayout.py:533 qt/aqt/deckconf.py:146 qt/aqt/fields.py:97 qt/aqt/main.py:282 qt/aqt/models.py:76
 msgid "New name:"
 msgstr "שם חדש:"
 
@@ -2226,9 +2216,7 @@ msgstr "ממטב..."
 msgid "Optional filter:"
 msgstr "סינון אופציונלי"
 
-#: qt/aqt/clayout.py:109 qt/aqt/deckbrowser.py:238 qt/aqt/deckconf.py:35
-#: qt/aqt/dyndeckconf.py:24 qt/aqt/overview.py:246 qt/aqt/reviewer.py:712
-#: qt/aqt/forms/dyndconf.py:142 qt/aqt/forms/fields.py:109
+#: qt/aqt/clayout.py:109 qt/aqt/deckbrowser.py:238 qt/aqt/deckconf.py:35 qt/aqt/dyndeckconf.py:24 qt/aqt/overview.py:246 qt/aqt/reviewer.py:712 qt/aqt/forms/dyndconf.py:142 qt/aqt/forms/fields.py:109
 msgid "Options"
 msgstr "אפשרויות"
 
@@ -2312,7 +2300,7 @@ msgstr "פרק זמן: %s"
 
 #: qt/aqt/forms/preferences.py:302
 msgid "Periodically sync media"
-msgstr ""
+msgstr "סינכרון מדיה תקופתי"
 
 #: qt/aqt/forms/reschedule.py:74
 msgid "Place at end of new card queue"
@@ -2499,8 +2487,7 @@ msgstr "הסר תגיות..."
 msgid "Remove formatting (Ctrl+R)"
 msgstr "הסר עיצוב (Ctrl+R)"
 
-#: qt/aqt/deckbrowser.py:236 qt/aqt/deckconf.py:91 qt/aqt/models.py:54
-#: qt/aqt/forms/fields.py:104 qt/aqt/forms/profiles.py:82
+#: qt/aqt/deckbrowser.py:236 qt/aqt/deckconf.py:91 qt/aqt/models.py:54 qt/aqt/forms/fields.py:104 qt/aqt/forms/profiles.py:82
 msgid "Rename"
 msgstr "שנה שם"
 
@@ -2630,8 +2617,7 @@ msgstr "שמור"
 msgid "Save Current Filter..."
 msgstr "שמור מסנן נוכחי..."
 
-#: qt/aqt/stats.py:41 qt/aqt/stats.py:65 qt/aqt/stats.py:117
-#: qt/aqt/stats.py:147
+#: qt/aqt/stats.py:41 qt/aqt/stats.py:65 qt/aqt/stats.py:117 qt/aqt/stats.py:147
 msgid "Save PDF"
 msgstr "שמור כ-PDF"
 
@@ -2649,8 +2635,7 @@ msgstr "קביעת מועד חדש"
 msgid "Scope: %s"
 msgstr "תחום: %s"
 
-#: qt/aqt/browser.py:1980 qt/aqt/forms/browser.py:295
-#: qt/aqt/forms/dyndconf.py:136 qt/aqt/forms/dyndconf.py:140
+#: qt/aqt/browser.py:1980 qt/aqt/forms/browser.py:295 qt/aqt/forms/dyndconf.py:136 qt/aqt/forms/dyndconf.py:140
 msgid "Search"
 msgstr "חיפוש"
 
@@ -2715,11 +2700,8 @@ msgstr "המקש Shift היה לחוץ. מדלג על סינכרון אוטומ�
 msgid "Shift position of existing cards"
 msgstr "מיקום הזחה של כרטיסים קיימים"
 
-#: qt/aqt/deckbrowser.py:326 qt/aqt/main.py:741 qt/aqt/overview.py:259
-#: qt/aqt/previewer.py:77 qt/aqt/previewer.py:82 qt/aqt/reviewer.py:561
-#: qt/aqt/reviewer.py:574 qt/aqt/reviewer.py:640 qt/aqt/toolbar.py:106
-#: qt/aqt/toolbar.py:113 qt/aqt/toolbar.py:120 qt/aqt/toolbar.py:127
-#: qt/aqt/toolbar.py:143
+#: qt/aqt/deckbrowser.py:326 qt/aqt/main.py:741 qt/aqt/overview.py:259 qt/aqt/previewer.py:77 qt/aqt/previewer.py:82 qt/aqt/reviewer.py:561 qt/aqt/reviewer.py:574 qt/aqt/reviewer.py:640
+#: qt/aqt/toolbar.py:106 qt/aqt/toolbar.py:113 qt/aqt/toolbar.py:120 qt/aqt/toolbar.py:127 qt/aqt/toolbar.py:143
 #, python-format
 msgid "Shortcut key: %s"
 msgstr "מקש קיצור: %s"
@@ -3017,7 +2999,9 @@ msgid "The provided search did not match any cards. Would you like to revise it?
 msgstr "החיפוש הנתון אינו תואם לאף כרטיס. האם ברצונך לשנותו?"
 
 #: qt/aqt/main.py:1311 qt/aqt/main.py:1330
-msgid "The requested change will require a full upload of the database when you next synchronize your collection. If you have reviews or other changes waiting on another device that haven't been synchronized here yet, they will be lost. Continue?"
+msgid ""
+"The requested change will require a full upload of the database when you next synchronize your collection. If you have reviews or other changes waiting on another device that haven't been "
+"synchronized here yet, they will be lost. Continue?"
 msgstr "השינוי המבוקש דורש העלאה מלאה של בסיס הנתונים בפעם הבאה שתסנכרן את המאגר שלך. אם יש לך סקירות או שינויים אחרים שממתינים על מכשיר אחר שעדיין לא סונכרן כאן, הם יושלכו. להמשיך?"
 
 #: pylib/anki/stats.py:375
@@ -3045,7 +3029,9 @@ msgid "This add-on is not compatible with your version of Anki."
 msgstr "התוסף הזה אינו מתאים לגירסת Anki שברשותך."
 
 #: qt/aqt/importing.py:441
-msgid "This file does not appear to be a valid .apkg file. If you're getting this error from a file downloaded from AnkiWeb, chances are that your download failed. Please try again, and if the problem persists, please try again with a different browser."
+msgid ""
+"This file does not appear to be a valid .apkg file. If you're getting this error from a file downloaded from AnkiWeb, chances are that your download failed. Please try again, and if the problem "
+"persists, please try again with a different browser."
 msgstr "קובץ זה אינו חבילת .apkg חוקית. אם שגיאה זו התרחשה בקובץ שהורדת מאתר AnkiWeb, יש להניח כי ההורדה נכשלה. נסה שנית, ואם השגיאה ממשיכה נסה דפדפן אחר."
 
 #: qt/aqt/utils.py:406
@@ -3273,8 +3259,7 @@ msgstr "לא הקלטת את קולך עדיין."
 msgid "You must have at least one column."
 msgstr "חייבת להיות לך לפחות עמודה אחת."
 
-#: pylib/anki/stats.py:211 pylib/anki/stats.py:342 pylib/anki/stats.py:362
-#: pylib/anki/stats.py:680
+#: pylib/anki/stats.py:211 pylib/anki/stats.py:342 pylib/anki/stats.py:362 pylib/anki/stats.py:680
 msgid "Young"
 msgstr "צעיר(ים)"
 
@@ -3287,7 +3272,9 @@ msgid "Your changes will affect multiple decks. If you wish to change only the c
 msgstr "השינויים שתבצע ישפיעו על מספר חפיסות. אם אתה מעוניין לשנות רק את החפיסה הנוכחית, אנא הוסף קבוצת אפשרויות חדשה קודם."
 
 #: qt/aqt/main.py:555
-msgid "Your collection file appears to be corrupt. This can happen when the file is copied or moved while Anki is open, or when the collection is stored on a network or cloud drive. If problems persist after restarting your computer, please open an automatic backup from the profile screen."
+msgid ""
+"Your collection file appears to be corrupt. This can happen when the file is copied or moved while Anki is open, or when the collection is stored on a network or cloud drive. If problems persist "
+"after restarting your computer, please open an automatic backup from the profile screen."
 msgstr "הקובץ פגום. יתכן שהקובץ הועתק או הועבר בעוד התוכנה פעילה, או שהקובץ מאוחסן בענן. אם הבעיה ממשיכה לאחר אתחול המחשב מחדש, פתח גיבוי אוטומטי ממסך הפרופיל."
 
 #: qt/aqt/errors.py:99
@@ -3327,9 +3314,7 @@ msgstr "אוסף"
 msgid "d"
 msgstr "ימים"
 
-#: qt/aqt/customstudy.py:90 qt/aqt/customstudy.py:94 qt/aqt/customstudy.py:97
-#: qt/aqt/forms/dconf.py:348 qt/aqt/forms/dconf.py:349
-#: qt/aqt/forms/dconf.py:356 qt/aqt/forms/dconf.py:368
+#: qt/aqt/customstudy.py:90 qt/aqt/customstudy.py:94 qt/aqt/customstudy.py:97 qt/aqt/forms/dconf.py:348 qt/aqt/forms/dconf.py:349 qt/aqt/forms/dconf.py:356 qt/aqt/forms/dconf.py:368
 #: qt/aqt/forms/reschedule.py:77
 msgid "days"
 msgstr "ימים"
@@ -3405,77 +3390,63 @@ msgstr "כלל המאגר"
 msgid "~"
 msgstr "~"
 
-#, python-format
 #~ msgid " (1 of %d)"
 #~ msgstr " (1 מתוך %d)"
 
-#, python-format
 #~ msgid "%(a)0.1fkB up, %(b)0.1fkB down"
 #~ msgstr "%(a)0.1fkB העלאה, %(b)0.1fkB הורדה"
 
-#, python-format
 #~ msgid "%(a)d of %(b)d note updated"
 #~ msgid_plural "%(a)d of %(b)d notes updated"
 #~ msgstr[0] "%(a)d מתוך %(b)d הערה עודכנה"
 #~ msgstr[1] "%(a)d מתוך %(b)d הערות עודכנו"
 
-#, python-format
 #~ msgid "%.01f cards/minute"
 #~ msgstr "%.01f כרטיסיות/דקה"
 
-#, python-format
 #~ msgid "%d card deleted."
 #~ msgid_plural "%d cards deleted."
 #~ msgstr[0] "%d כרטיסייה נמחקה."
 #~ msgstr[1] "%d כרטיסיות נמחקו."
 
-#, python-format
 #~ msgid "%d media change to upload"
 #~ msgid_plural "%d media changes to upload"
 #~ msgstr[0] "%d שינוי מדיה להעלאה"
 #~ msgstr[1] "%d שינויי מדיה להעלאה"
 
-#, python-format
 #~ msgid "%d media file downloaded"
 #~ msgid_plural "%d media files downloaded"
 #~ msgstr[0] "%d קובץ מדיה הורד"
 #~ msgstr[1] "%d קבצי מדיה הורדו"
 
-#, python-format
 #~ msgid "%d review"
 #~ msgid_plural "%d reviews"
 #~ msgstr[0] "%d סקירה"
 #~ msgstr[1] "%d סקירות"
 
-#, python-format
 #~ msgid "%s day"
 #~ msgid_plural "%s days"
 #~ msgstr[0] "%s יום"
 #~ msgstr[1] "%s ימים"
 
-#, python-format
 #~ msgid "%s hour"
 #~ msgid_plural "%s hours"
 #~ msgstr[0] "%s שעה"
 #~ msgstr[1] "%s שעות"
 
-#, python-format
 #~ msgid "%s minute"
 #~ msgid_plural "%s minutes"
 #~ msgstr[0] "%s דקה"
 #~ msgstr[1] "%s דקות"
 
-#, python-format
 #~ msgid "%s month"
 #~ msgid_plural "%s months"
 #~ msgstr[0] "%s חודש"
 #~ msgstr[1] "%s חודשים"
 
-#, python-format
 #~ msgid "%s to delete:"
 #~ msgstr "%s למחיקה:"
 
-#, python-format
 #~ msgid "%s year"
 #~ msgid_plural "%s years"
 #~ msgstr[0] "%s שנה"
@@ -3484,13 +3455,11 @@ msgstr "~"
 #~ msgid "504 gateway timeout error received. Please try temporarily disabling your antivirus."
 #~ msgstr "התקבלה שגיאת 504 gateway timeout error. אנא נסה לנטרל באופן זמני את האנטי-וירוס שלך."
 
-#, python-format
 #~ msgid "<!--studied-->%d card"
 #~ msgid_plural "<!--studied-->%d cards"
 #~ msgstr[0] "<!--נלמדה-->%d כרטיסייה"
 #~ msgstr[1] "<!--נלמדו-->%d כרטיסיות"
 
-#, python-format
 #~ msgid ""
 #~ "<h1>Account Required</h1>\n"
 #~ "A free account is required to keep your collection synchronized. Please <a href=\"%s\">sign up</a> for an account, then enter your details below."
@@ -3547,7 +3516,6 @@ msgstr "~"
 #~ msgid "Add-ons possibly involved: {}\n"
 #~ msgstr "תוספים שייתכן ומעורבים: {}\n"
 
-#, python-format
 #~ msgid ""
 #~ "An add-on you installed failed to load. If problems persist, please go to the Tools>Add-ons menu, and disable or delete the add-on.\n"
 #~ "\n"
@@ -3644,7 +3612,6 @@ msgstr "~"
 #~ msgid "Changed"
 #~ msgstr "השתנה"
 
-#, python-format
 #~ msgid "Changes below will affect the %(cnt)d note that uses this card type."
 #~ msgid_plural "Changes below will affect the %(cnt)d notes that use this card type."
 #~ msgstr[0] "השינויים למטה ישפיעו על %(cnt)d הערה שמשתמשת בסוג כרטיסייה זה."
@@ -3683,25 +3650,21 @@ msgstr "~"
 #~ msgid "Delete unused media?"
 #~ msgstr "מחק מדיה שאינם בשימוש?"
 
-#, python-format
 #~ msgid "Deleted %d card with missing note."
 #~ msgid_plural "Deleted %d cards with missing note."
 #~ msgstr[0] "נמחקה %d כרטיסייה ללא הערה."
 #~ msgstr[1] "נמחקו %d כרטיסיות ללא הערה."
 
-#, python-format
 #~ msgid "Deleted %d card with missing template."
 #~ msgid_plural "Deleted %d cards with missing template."
 #~ msgstr[0] "נמחקה %d כרטיסייה ללא תבנית."
 #~ msgstr[1] "נמחקו %d כרטיסיות ללא תבנית."
 
-#, python-format
 #~ msgid "Deleted %d note with missing note type."
 #~ msgid_plural "Deleted %d notes with missing note type."
 #~ msgstr[0] "נמחקה %d הערה ללא סוג."
 #~ msgstr[1] "נמחקו %d הערות ללא סוג."
 
-#, python-format
 #~ msgid "Deleted %d note with no cards."
 #~ msgid_plural "Deleted %d notes with no cards."
 #~ msgstr[0] "נמחקה %d הערה ללא כרטיסיות."
@@ -3728,7 +3691,6 @@ msgstr "~"
 #~ msgid "First Review"
 #~ msgstr "סקירה ראשונה"
 
-#, python-format
 #~ msgid "Fixed %d card with invalid properties."
 #~ msgid_plural "Fixed %d cards with invalid properties."
 #~ msgstr[0] "תוקנה %d כרטיסייה עם מאפיינים שגויים."
@@ -3737,7 +3699,6 @@ msgstr "~"
 #~ msgid "Fixed AnkiDroid deck override bug."
 #~ msgstr "תוקן באג דריסת חפיסה של AnkiDroid."
 
-#, python-format
 #~ msgid "Fixed note type: %s"
 #~ msgstr "תוקנה סוג הערה: %s"
 
@@ -3755,7 +3716,6 @@ msgstr "~"
 #~ "יבוא נכשל.\n"
 #~ "מידע Debugging:\n"
 
-#, python-format
 #~ msgid "Invalid file name, please rename: %s"
 #~ msgstr "שם קובץ שגוי, אנא שנה את שם: %s"
 
@@ -3819,7 +3779,6 @@ msgstr "~"
 #~ msgid "Styling (shared between cards)"
 #~ msgstr "סגנון (משותף בין כרטיסיות)"
 
-#, python-format
 #~ msgid ""
 #~ "Syncing failed:\n"
 #~ "%s"
@@ -3863,37 +3822,31 @@ msgstr "~"
 #~ msgid "Your collection is in an inconsistent state. Please run Tools>Check Database, then sync again."
 #~ msgstr "האוסף שלך במצב לא עקבי. אנא הרץ כלים>בדוק בסיס נתונים, ולאחר מכן סנכרן שנית."
 
-#, python-format
 #~ msgid "in %s day"
 #~ msgid_plural "in %s days"
 #~ msgstr[0] "תוך %s יום"
 #~ msgstr[1] "תוך %s ימים"
 
-#, python-format
 #~ msgid "in %s hour"
 #~ msgid_plural "in %s hours"
 #~ msgstr[0] "תוך %s שעה"
 #~ msgstr[1] "תוך %s שעות"
 
-#, python-format
 #~ msgid "in %s minute"
 #~ msgid_plural "in %s minutes"
 #~ msgstr[0] "תוך %s דקה"
 #~ msgstr[1] "תוך %s דקות"
 
-#, python-format
 #~ msgid "in %s month"
 #~ msgid_plural "in %s months"
 #~ msgstr[0] "תוך %s חודש"
 #~ msgstr[1] "תוך %s חודשים"
 
-#, python-format
 #~ msgid "in %s second"
 #~ msgid_plural "in %s seconds"
 #~ msgstr[0] "תוך %s שניה"
 #~ msgstr[1] "תוך %s שניות"
 
-#, python-format
 #~ msgid "in %s year"
 #~ msgid_plural "in %s years"
 #~ msgstr[0] "תוך %s שנה"
