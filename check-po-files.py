@@ -10,6 +10,7 @@ msg_re = re.compile(r"^(msgid|msgid_plural|msgstr|)(\[[\d]\])? \"(.*)\"$")
 cont_re = re.compile(r"^\"(.*)\"$")
 pct_re = re.compile(r"%(?:\([^\)]+?\))?[#+\-\d.]*[a-zA-Z]")
 path_re = re.compile(r"#: (.+)$")
+fuzzy_re = re.compile(r"#, fuzzy")
 
 def check_reps(path, t1, strs):
     allZero = True
@@ -44,6 +45,7 @@ def fix_po(path):
     last_msgid = None
     last_msgstr = None
     last_path = None
+    fuzzy = False
     lines = []
     state = "outside"
     problems = []
@@ -56,6 +58,10 @@ def fix_po(path):
         m = path_re.match(line)
         if m:
             last_path = m.group(1)
+
+        # fuzzy?
+        if fuzzy_re.match(line):
+            fuzzy = True
 
         # starting new id/str?
         m = msg_re.match(line)
@@ -88,11 +94,12 @@ def fix_po(path):
         state = "outside"
         if last_msgid:
             p = check_reps(last_path, last_msgid, strs)
-            if p:
+            if p and not fuzzy:
                 problems.append(p)
 #                print("{0}\nProblems in {1}:\n{0}\n{2}".format("*"*60, path, "\n".join(problems)))
 #                return 1
             last_msgid = None
+            fuzzy = False
 
     if problems:
         print("{0}\nProblems in {1}:\n{0}\n{2}".format("*"*60, path, "\n".join(problems)))
