@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: anki\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-02 09:49+1000\n"
-"PO-Revision-Date: 2020-07-01 07:16+0000\n"
+"PO-Revision-Date: 2020-07-02 23:19+0000\n"
 "Last-Translator: Platynowy123 <kawa1.11@o2.pl>\n"
 "Language-Team: Polish\n"
 "Language: pl\n"
@@ -52,9 +52,7 @@ msgstr[2] " Ma %d kart."
 msgid "\"Segoe UI\""
 msgstr "Segoe UI"
 
-#: qt/aqt/forms/dconf.py:341 qt/aqt/forms/dconf.py:352
-#: qt/aqt/forms/dconf.py:357 qt/aqt/forms/dconf.py:360
-#: qt/aqt/forms/dconf.py:371 qt/aqt/forms/preferences.py:286
+#: qt/aqt/forms/dconf.py:341 qt/aqt/forms/dconf.py:352 qt/aqt/forms/dconf.py:357 qt/aqt/forms/dconf.py:360 qt/aqt/forms/dconf.py:371 qt/aqt/forms/preferences.py:286
 msgid "%"
 msgstr "%"
 
@@ -127,8 +125,7 @@ msgstr[0] "%d grupa"
 msgstr[1] "%d grupy"
 msgstr[2] "%d grup"
 
-#: qt/aqt/browser.py:1996 qt/aqt/browser.py:2004 qt/aqt/fields.py:123
-#: qt/aqt/models.py:100
+#: qt/aqt/browser.py:1996 qt/aqt/browser.py:2004 qt/aqt/fields.py:123 qt/aqt/models.py:100
 #, python-format
 msgid "%d note"
 msgid_plural "%d notes"
@@ -438,8 +435,12 @@ msgstr "<b>Czcionka</b>:"
 
 #: qt/aqt/addons.py:1399
 #, python-format
-msgid "<b>Important</b>: As add-ons are programs downloaded from the internet, they are potentially malicious.<b>You should only install add-ons you trust.</b><br><br>Are you sure you want to proceed with the installation of the following Anki add-on(s)?<br><br>%(names)s"
-msgstr "<b>Ważne</b>: Dodatki są pobierane z Internetu, więc mogą być złośliwymi programami.<b>Instaluj tylko te dodatki, którym ufasz.</b><br><br>Na pewno chcesz kontynuować instalację następującego dodatku/dodatków?<br><br>%(names)s"
+msgid ""
+"<b>Important</b>: As add-ons are programs downloaded from the internet, they are potentially malicious.<b>You should only install add-ons you trust.</b><br><br>Are you sure you want to proceed with "
+"the installation of the following Anki add-on(s)?<br><br>%(names)s"
+msgstr ""
+"<b>Ważne</b>: Dodatki są pobierane z Internetu, więc mogą być złośliwymi programami.<b>Instaluj tylko te dodatki, którym ufasz.</b><br><br>Na pewno chcesz kontynuować instalację następującego "
+"dodatku/dodatków?<br><br>%(names)s"
 
 #: qt/aqt/forms/findreplace.py:86
 msgid "<b>In</b>:"
@@ -507,9 +508,7 @@ msgstr "Przerwane: %s"
 msgid "About Anki"
 msgstr "O Anki"
 
-#: qt/aqt/addcards.py:37 qt/aqt/addcards.py:67 qt/aqt/deckconf.py:87
-#: qt/aqt/models.py:52 qt/aqt/studydeck.py:46 qt/aqt/toolbar.py:111
-#: qt/aqt/forms/addcards.py:58 qt/aqt/forms/fields.py:102
+#: qt/aqt/addcards.py:37 qt/aqt/addcards.py:67 qt/aqt/deckconf.py:87 qt/aqt/models.py:52 qt/aqt/studydeck.py:46 qt/aqt/toolbar.py:111 qt/aqt/forms/addcards.py:58 qt/aqt/forms/fields.py:102
 #: qt/aqt/forms/profiles.py:81
 msgid "Add"
 msgstr "Dodaj"
@@ -579,8 +578,7 @@ msgstr "Dodatki"
 msgid "Add: %s"
 msgstr "Dodaj: %s"
 
-#: pylib/anki/stats.py:304 pylib/anki/importing/anki2.py:166
-#: qt/aqt/addcards.py:192
+#: pylib/anki/stats.py:304 pylib/anki/importing/anki2.py:166 qt/aqt/addcards.py:192
 msgid "Added"
 msgstr "Dodano"
 
@@ -647,8 +645,7 @@ msgstr "Zawsze dołączaj stronę pytania przy odtwarzaniu nagrania"
 msgid "An error occurred while opening %s"
 msgstr "Wystąpił błąd przy otwieraniu %s"
 
-#: qt/aqt/forms/main.py:131 qt/aqt/forms/setgroup.py:38
-#: qt/aqt/forms/setlang.py:39
+#: qt/aqt/forms/main.py:131 qt/aqt/forms/setgroup.py:38 qt/aqt/forms/setlang.py:39
 msgid "Anki"
 msgstr "Anki"
 
@@ -673,8 +670,12 @@ msgid "Anki could not read your profile data. Window sizes and your sync login d
 msgstr "Anki nie było w stanie odczytać twoich danych profilowych. Rozmiar okna i dane logowania do synchronizacji zostały zapomniane."
 
 #: qt/aqt/profiles.py:321
-msgid "Anki could not rename your profile because it could not rename the profile folder on disk. Please ensure you have permission to write to Documents/Anki and no other programs are accessing your profile folders, then try again."
-msgstr "Anki nie było w stanie zmienić nazwę Twojego profilu, ponieważ nie udało się zmienić nazwy folderu z profilem na dysku. Upewnij się, że masz uprawnienia do zapisu do Dokumenty/Anki i że żadne inne programy nie korzystają z folderów profilu, a następnie spróbuj ponownie."
+msgid ""
+"Anki could not rename your profile because it could not rename the profile folder on disk. Please ensure you have permission to write to Documents/Anki and no other programs are accessing your "
+"profile folders, then try again."
+msgstr ""
+"Anki nie było w stanie zmienić nazwę Twojego profilu, ponieważ nie udało się zmienić nazwy folderu z profilem na dysku. Upewnij się, że masz uprawnienia do zapisu do Dokumenty/Anki i że żadne inne "
+"programy nie korzystają z folderów profilu, a następnie spróbuj ponownie."
 
 #: qt/aqt/clayout.py:608
 msgid "Anki couldn't find the line between the question and answer. Please adjust the template manually to switch the question and answer."
@@ -902,8 +903,7 @@ msgstr "Karta zawieszona."
 msgid "Card was a leech."
 msgstr "Karta okazała się pijawką."
 
-#: pylib/anki/stats.py:305 pylib/anki/stats.py:955 qt/aqt/editor.py:185
-#: qt/aqt/forms/changemodel.py:112
+#: pylib/anki/stats.py:305 pylib/anki/stats.py:955 qt/aqt/editor.py:185 qt/aqt/forms/changemodel.py:112
 msgid "Cards"
 msgstr "Karty"
 
@@ -1198,8 +1198,7 @@ msgstr "Deautoryzuj"
 msgid "Debug Console"
 msgstr "Konsola debugowania"
 
-#: qt/aqt/browser.py:733 qt/aqt/deckbrowser.py:155 qt/aqt/deckchooser.py:29
-#: qt/aqt/forms/importing.py:106
+#: qt/aqt/browser.py:733 qt/aqt/deckbrowser.py:155 qt/aqt/deckchooser.py:29 qt/aqt/forms/importing.py:106
 msgid "Deck"
 msgstr "Talia"
 
@@ -1227,9 +1226,8 @@ msgstr "Domyślna"
 msgid "Delays until reviews are shown again."
 msgstr "Czas do kolejnego wyświetlenia."
 
-#: qt/aqt/deckbrowser.py:242 qt/aqt/deckconf.py:89 qt/aqt/models.py:56
-#: qt/aqt/reviewer.py:792 qt/aqt/forms/addons.py:76 qt/aqt/forms/browser.py:330
-#: qt/aqt/forms/fields.py:103 qt/aqt/forms/profiles.py:83
+#: qt/aqt/deckbrowser.py:242 qt/aqt/deckconf.py:89 qt/aqt/models.py:56 qt/aqt/reviewer.py:792 qt/aqt/forms/addons.py:76 qt/aqt/forms/browser.py:330 qt/aqt/forms/fields.py:103
+#: qt/aqt/forms/profiles.py:83
 msgid "Delete"
 msgstr "Usuń"
 
@@ -1287,8 +1285,7 @@ msgstr "Opis"
 msgid "Description to show on overview screen, for current deck:"
 msgstr "Opis obecnej talii widoczny na ekranie głównym:"
 
-#: qt/aqt/forms/dyndconf.py:133 qt/aqt/forms/editaddon.py:40
-#: qt/aqt/forms/editcurrent.py:41 qt/aqt/forms/progress.py:40
+#: qt/aqt/forms/dyndconf.py:133 qt/aqt/forms/editaddon.py:40 qt/aqt/forms/editcurrent.py:41 qt/aqt/forms/progress.py:40
 msgid "Dialog"
 msgstr "Okno dialogowe"
 
@@ -1428,8 +1425,7 @@ msgstr "Błąd przy instalacji <i>%(base)s</i>: %(error)s"
 msgid "Error running %s"
 msgstr "Błąd uruchamiania %s"
 
-#: qt/aqt/deckbrowser.py:240 qt/aqt/exporting.py:120
-#: qt/aqt/forms/exporting.py:74
+#: qt/aqt/deckbrowser.py:240 qt/aqt/exporting.py:120 qt/aqt/forms/exporting.py:74
 msgid "Export"
 msgstr "Eksportuj"
 
@@ -1462,8 +1458,7 @@ msgstr "Nazwa pola:"
 msgid "Field:"
 msgstr "Pole:"
 
-#: qt/aqt/editor.py:184 qt/aqt/fields.py:23 qt/aqt/forms/changemodel.py:113
-#: qt/aqt/forms/fields.py:101
+#: qt/aqt/editor.py:184 qt/aqt/fields.py:23 qt/aqt/forms/changemodel.py:113 qt/aqt/forms/fields.py:101
 msgid "Fields"
 msgstr "Pola"
 
@@ -1643,8 +1638,7 @@ msgstr "Czy posiadasz latex i dvipng/dvisvgm?"
 msgid "Header"
 msgstr "Nagłówek"
 
-#: qt/aqt/addcards.py:76 qt/aqt/clayout.py:340 qt/aqt/utils.py:206
-#: qt/aqt/utils.py:207
+#: qt/aqt/addcards.py:76 qt/aqt/clayout.py:340 qt/aqt/utils.py:206 qt/aqt/utils.py:207
 msgid "Help"
 msgstr "Pomoc"
 
@@ -1704,8 +1698,7 @@ msgstr "Ignoruj ​​linie, których pierwsze pole pasuje do istniejącej notat
 msgid "Ignore this update"
 msgstr "Ignoruj tę aktualizację"
 
-#: qt/aqt/importing.py:102 qt/aqt/importing.py:196 qt/aqt/importing.py:318
-#: qt/aqt/forms/changemap.py:41 qt/aqt/forms/importing.py:103
+#: qt/aqt/importing.py:102 qt/aqt/importing.py:196 qt/aqt/importing.py:318 qt/aqt/forms/changemap.py:41 qt/aqt/forms/importing.py:103
 msgid "Import"
 msgstr "Importuj"
 
@@ -1991,8 +1984,7 @@ msgstr "Chemia MathJax"
 msgid "MathJax inline"
 msgstr "Liniowy MathJax"
 
-#: pylib/anki/stats.py:210 pylib/anki/stats.py:341 pylib/anki/stats.py:361
-#: pylib/anki/stats.py:681 pylib/anki/stats.py:851
+#: pylib/anki/stats.py:210 pylib/anki/stats.py:341 pylib/anki/stats.py:361 pylib/anki/stats.py:681 pylib/anki/stats.py:851
 msgid "Mature"
 msgstr "Dojrzałe"
 
@@ -2093,8 +2085,7 @@ msgstr "Nowa nazwa talii:"
 msgid "New interval"
 msgstr "Przerwa nowej karty"
 
-#: qt/aqt/clayout.py:533 qt/aqt/deckconf.py:146 qt/aqt/fields.py:97
-#: qt/aqt/main.py:282 qt/aqt/models.py:76
+#: qt/aqt/clayout.py:533 qt/aqt/deckconf.py:146 qt/aqt/fields.py:97 qt/aqt/main.py:282 qt/aqt/models.py:76
 msgid "New name:"
 msgstr "Nowa nazwa :"
 
@@ -2248,9 +2239,7 @@ msgstr "Optymalizacja..."
 msgid "Optional filter:"
 msgstr "Opcjonalny filtr:"
 
-#: qt/aqt/clayout.py:109 qt/aqt/deckbrowser.py:238 qt/aqt/deckconf.py:35
-#: qt/aqt/dyndeckconf.py:24 qt/aqt/overview.py:246 qt/aqt/reviewer.py:712
-#: qt/aqt/forms/dyndconf.py:142 qt/aqt/forms/fields.py:109
+#: qt/aqt/clayout.py:109 qt/aqt/deckbrowser.py:238 qt/aqt/deckconf.py:35 qt/aqt/dyndeckconf.py:24 qt/aqt/overview.py:246 qt/aqt/reviewer.py:712 qt/aqt/forms/dyndconf.py:142 qt/aqt/forms/fields.py:109
 msgid "Options"
 msgstr "Opcje"
 
@@ -2334,7 +2323,7 @@ msgstr "Okres: %s"
 
 #: qt/aqt/forms/preferences.py:302
 msgid "Periodically sync media"
-msgstr ""
+msgstr "Synchronizuj okresowo pliki"
 
 #: qt/aqt/forms/reschedule.py:74
 msgid "Place at end of new card queue"
@@ -2522,8 +2511,7 @@ msgstr "Usuń etykiety..."
 msgid "Remove formatting (Ctrl+R)"
 msgstr "Usuń formatowanie (Ctrl+R)"
 
-#: qt/aqt/deckbrowser.py:236 qt/aqt/deckconf.py:91 qt/aqt/models.py:54
-#: qt/aqt/forms/fields.py:104 qt/aqt/forms/profiles.py:82
+#: qt/aqt/deckbrowser.py:236 qt/aqt/deckconf.py:91 qt/aqt/models.py:54 qt/aqt/forms/fields.py:104 qt/aqt/forms/profiles.py:82
 msgid "Rename"
 msgstr "Zmień nazwę"
 
@@ -2653,8 +2641,7 @@ msgstr "Zapisz"
 msgid "Save Current Filter..."
 msgstr "Zapisz aktualny filtr..."
 
-#: qt/aqt/stats.py:41 qt/aqt/stats.py:65 qt/aqt/stats.py:117
-#: qt/aqt/stats.py:147
+#: qt/aqt/stats.py:41 qt/aqt/stats.py:65 qt/aqt/stats.py:117 qt/aqt/stats.py:147
 msgid "Save PDF"
 msgstr "Zapisz PDF"
 
@@ -2663,17 +2650,15 @@ msgid "Saved."
 msgstr "Zapisano."
 
 #: qt/aqt/forms/preferences.py:298
-#, fuzzy
 msgid "Scheduling"
-msgstr "Zmień plan"
+msgstr "Planowanie"
 
 #: pylib/anki/stats.py:940
 #, python-format
 msgid "Scope: %s"
 msgstr "Zakres: %s"
 
-#: qt/aqt/browser.py:1980 qt/aqt/forms/browser.py:295
-#: qt/aqt/forms/dyndconf.py:136 qt/aqt/forms/dyndconf.py:140
+#: qt/aqt/browser.py:1980 qt/aqt/forms/browser.py:295 qt/aqt/forms/dyndconf.py:136 qt/aqt/forms/dyndconf.py:140
 msgid "Search"
 msgstr "Szukaj"
 
@@ -2738,11 +2723,8 @@ msgstr "Przytrzymano klawisz Shift. Pomijanie automatycznej synchronizacji i ła
 msgid "Shift position of existing cards"
 msgstr "Zmień pozycję istniejących kart"
 
-#: qt/aqt/deckbrowser.py:326 qt/aqt/main.py:741 qt/aqt/overview.py:259
-#: qt/aqt/previewer.py:77 qt/aqt/previewer.py:82 qt/aqt/reviewer.py:561
-#: qt/aqt/reviewer.py:574 qt/aqt/reviewer.py:640 qt/aqt/toolbar.py:106
-#: qt/aqt/toolbar.py:113 qt/aqt/toolbar.py:120 qt/aqt/toolbar.py:127
-#: qt/aqt/toolbar.py:143
+#: qt/aqt/deckbrowser.py:326 qt/aqt/main.py:741 qt/aqt/overview.py:259 qt/aqt/previewer.py:77 qt/aqt/previewer.py:82 qt/aqt/reviewer.py:561 qt/aqt/reviewer.py:574 qt/aqt/reviewer.py:640
+#: qt/aqt/toolbar.py:106 qt/aqt/toolbar.py:113 qt/aqt/toolbar.py:120 qt/aqt/toolbar.py:127 qt/aqt/toolbar.py:143
 #, python-format
 msgid "Shortcut key: %s"
 msgstr "Skrót klawiszowy: %s"
@@ -2752,9 +2734,8 @@ msgid "Shortcut key: Left arrow"
 msgstr "Klawisz skrótu: Strzałka w lewo"
 
 #: qt/aqt/previewer.py:382
-#, fuzzy
 msgid "Shortcut key: Left or Right arrow"
-msgstr "Klawisz skrótu: Strzałka w lewo"
+msgstr "Skrót: Lewa/prawa strzałka"
 
 #: qt/aqt/previewer.py:236
 msgid "Shortcut key: Right arrow or Enter"
@@ -3040,8 +3021,12 @@ msgid "The provided search did not match any cards. Would you like to revise it?
 msgstr "Nie znaleziono kart odpowiadającym kryteriom wyszukiwania. Chcesz spróbować z innym hasłem?"
 
 #: qt/aqt/main.py:1311 qt/aqt/main.py:1330
-msgid "The requested change will require a full upload of the database when you next synchronize your collection. If you have reviews or other changes waiting on another device that haven't been synchronized here yet, they will be lost. Continue?"
-msgstr "Żądana zmiana wymagać będzie pełnego przesłania bazy danych przy następnej synchronizacji Twojej kolekcji. Jeżeli posiadasz powtórki lub inne oczekujące zmiany na innym urządzeniu, które nie zostały jeszcze zsynchronizowane, zostaną one utracone. Czy kontynuować?"
+msgid ""
+"The requested change will require a full upload of the database when you next synchronize your collection. If you have reviews or other changes waiting on another device that haven't been "
+"synchronized here yet, they will be lost. Continue?"
+msgstr ""
+"Żądana zmiana wymagać będzie pełnego przesłania bazy danych przy następnej synchronizacji Twojej kolekcji. Jeżeli posiadasz powtórki lub inne oczekujące zmiany na innym urządzeniu, które nie zostały"
+" jeszcze zsynchronizowane, zostaną one utracone. Czy kontynuować?"
 
 #: pylib/anki/stats.py:375
 msgid "The time taken to answer the questions."
@@ -3066,8 +3051,12 @@ msgid "This add-on is not compatible with your version of Anki."
 msgstr "Ten dodatek nie jest kompatybilny z Twoją wersją Anki."
 
 #: qt/aqt/importing.py:441
-msgid "This file does not appear to be a valid .apkg file. If you're getting this error from a file downloaded from AnkiWeb, chances are that your download failed. Please try again, and if the problem persists, please try again with a different browser."
-msgstr "Ten plik nie jest prawidłowym plikiem .apkg. Jeżeli ten błąd dotyczy pliku pobranego z AnkiWeb, to możliwe, że nie został on poprawnie pobrany. Spróbuj ponownie i jeżeli problem będzie się powtarzał, spróbuj użyć innej przeglądarki."
+msgid ""
+"This file does not appear to be a valid .apkg file. If you're getting this error from a file downloaded from AnkiWeb, chances are that your download failed. Please try again, and if the problem "
+"persists, please try again with a different browser."
+msgstr ""
+"Ten plik nie jest prawidłowym plikiem .apkg. Jeżeli ten błąd dotyczy pliku pobranego z AnkiWeb, to możliwe, że nie został on poprawnie pobrany. Spróbuj ponownie i jeżeli problem będzie się "
+"powtarzał, spróbuj użyć innej przeglądarki."
 
 #: qt/aqt/utils.py:406
 msgid "This file exists. Are you sure you want to overwrite it?"
@@ -3296,8 +3285,7 @@ msgstr "Nie nagrałeś jeszcze swojego głosu."
 msgid "You must have at least one column."
 msgstr "Musi istnieć przynajmniej jedna kolumna."
 
-#: pylib/anki/stats.py:211 pylib/anki/stats.py:342 pylib/anki/stats.py:362
-#: pylib/anki/stats.py:680
+#: pylib/anki/stats.py:211 pylib/anki/stats.py:342 pylib/anki/stats.py:362 pylib/anki/stats.py:680
 msgid "Young"
 msgstr "Młode"
 
@@ -3310,8 +3298,12 @@ msgid "Your changes will affect multiple decks. If you wish to change only the c
 msgstr "Twoje zmiany dotkną wiele talii. Jeśli chcesz zmienić tylko aktualną talię, dodaj najpierw nową grupę opcji."
 
 #: qt/aqt/main.py:555
-msgid "Your collection file appears to be corrupt. This can happen when the file is copied or moved while Anki is open, or when the collection is stored on a network or cloud drive. If problems persist after restarting your computer, please open an automatic backup from the profile screen."
-msgstr "Twój plik kolekcji wydaje się być zepsuty. Może to nastąpić przez kopiowanie lub przenoszenie pliku gdy Anki działa albo gdy kolekcja jest przechowywana na dysku sieciowym lub w chmurze. Jeśli problem  nie zniknie po ponownym uruchomieniu komputera, użyj opcji automatycznej kopii zapasowej w menedżerze profili."
+msgid ""
+"Your collection file appears to be corrupt. This can happen when the file is copied or moved while Anki is open, or when the collection is stored on a network or cloud drive. If problems persist "
+"after restarting your computer, please open an automatic backup from the profile screen."
+msgstr ""
+"Twój plik kolekcji wydaje się być zepsuty. Może to nastąpić przez kopiowanie lub przenoszenie pliku gdy Anki działa albo gdy kolekcja jest przechowywana na dysku sieciowym lub w chmurze. Jeśli "
+"problem  nie zniknie po ponownym uruchomieniu komputera, użyj opcji automatycznej kopii zapasowej w menedżerze profili."
 
 #: qt/aqt/errors.py:99
 msgid "Your computer's storage may be full. Please delete some unneeded files, then try again."
@@ -3350,9 +3342,7 @@ msgstr "kolekcja"
 msgid "d"
 msgstr "d"
 
-#: qt/aqt/customstudy.py:90 qt/aqt/customstudy.py:94 qt/aqt/customstudy.py:97
-#: qt/aqt/forms/dconf.py:348 qt/aqt/forms/dconf.py:349
-#: qt/aqt/forms/dconf.py:356 qt/aqt/forms/dconf.py:368
+#: qt/aqt/customstudy.py:90 qt/aqt/customstudy.py:94 qt/aqt/customstudy.py:97 qt/aqt/forms/dconf.py:348 qt/aqt/forms/dconf.py:349 qt/aqt/forms/dconf.py:356 qt/aqt/forms/dconf.py:368
 #: qt/aqt/forms/reschedule.py:77
 msgid "days"
 msgstr "dni"
@@ -3428,131 +3418,108 @@ msgstr "cała kolekcja"
 msgid "~"
 msgstr "~"
 
-#, python-format
 #~ msgid " (1 of %d)"
 #~ msgstr " (1 z %d)"
 
-#, python-format
 #~ msgid "%(a)0.1fkB up, %(b)0.1fkB down"
 #~ msgstr "wysłano %(a)0.1fkB, pobrano %(b)0.1fkB"
 
-#, python-format
 #~ msgid "%(a)0.1fs (%(b)s)"
 #~ msgstr "%(a)0.1fs (%(b)s)"
 
-#, python-format
 #~ msgid "%(a)d of %(b)d note updated"
 #~ msgid_plural "%(a)d of %(b)d notes updated"
 #~ msgstr[0] "Zaktualizowano %(a)d z %(b)d notatek"
 #~ msgstr[1] "Zaktualizowano %(a)d z %(b)d notatek"
 #~ msgstr[2] "Zaktualizowano %(a)d z %(b)d notatek"
 
-#, python-format
 #~ msgid "%.01f cards/minute"
 #~ msgstr "%.01f kart/minutę"
 
-#, python-format
 #~ msgid "%d card deleted."
 #~ msgid_plural "%d cards deleted."
 #~ msgstr[0] "Usunięto %d kartę."
 #~ msgstr[1] "Usunięto %d karty."
 #~ msgstr[2] "Usunięto %d kart."
 
-#, python-format
 #~ msgid "%d file found in media folder not used by any cards:"
 #~ msgid_plural "%d files found in media folder not used by any cards:"
 #~ msgstr[0] "%d plik znaleziony w folderze mediów nieużywany przez żadne karty:"
 #~ msgstr[1] "%d pliki znalezione w folderze mediów nieużywane przez żadne karty:"
 #~ msgstr[2] "%d plików znalezionych w folderze mediów nieużywanych przez żadne karty:"
 
-#, python-format
 #~ msgid "%d file remaining..."
 #~ msgid_plural "%d files remaining..."
 #~ msgstr[0] "Pozostał %d plik..."
 #~ msgstr[1] "Pozostały %d pliki..."
 #~ msgstr[2] "Pozostało %d plików..."
 
-#, python-format
 #~ msgid "%d media change to upload"
 #~ msgid_plural "%d media changes to upload"
 #~ msgstr[0] "do przesłania %d zmiana w plikach"
 #~ msgstr[1] "do przesłania %d zmiany w plikach"
 #~ msgstr[2] "do przesłania %d zmian w plikach"
 
-#, python-format
 #~ msgid "%d media file downloaded"
 #~ msgid_plural "%d media files downloaded"
 #~ msgstr[0] "pobrano %d plik"
 #~ msgstr[1] "pobrano %d pliki"
 #~ msgstr[2] "pobrano %d plików"
 
-#, python-format
 #~ msgid "%d review"
 #~ msgid_plural "%d reviews"
 #~ msgstr[0] "%d powtórka"
 #~ msgstr[1] "%d powtórki"
 #~ msgstr[2] "%d powtórek"
 
-#, python-format
 #~ msgid "%s day"
 #~ msgid_plural "%s days"
 #~ msgstr[0] "%s dzień"
 #~ msgstr[1] "%s dni"
 #~ msgstr[2] "%s dni"
 
-#, python-format
 #~ msgid "%s hour"
 #~ msgid_plural "%s hours"
 #~ msgstr[0] "%s godzina"
 #~ msgstr[1] "%s godziny"
 #~ msgstr[2] "%s godzin"
 
-#, python-format
 #~ msgid "%s minute"
 #~ msgid_plural "%s minutes"
 #~ msgstr[0] "%s minuta"
 #~ msgstr[1] "%s minuty"
 #~ msgstr[2] "%s minut"
 
-#, python-format
 #~ msgid "%s month"
 #~ msgid_plural "%s months"
 #~ msgstr[0] "%s miesiąc"
 #~ msgstr[1] "%s miesiące"
 #~ msgstr[2] "%s miesięcy"
 
-#, python-format
 #~ msgid "%s to delete:"
 #~ msgstr "%s do usunięcia:"
 
-#, python-format
 #~ msgid "%s year"
 #~ msgid_plural "%s years"
 #~ msgstr[0] "%s rok"
 #~ msgstr[1] "%s lata"
 #~ msgstr[2] "%s lat"
 
-#, python-format
 #~ msgid "%sd"
 #~ msgstr "%sd"
 
-#, python-format
 #~ msgid "%sh"
 #~ msgstr "%sg"
 
-#, python-format
 #~ msgid "%sm"
 #~ msgstr "%smin"
 
-#, python-format
 #~ msgid "%smo"
 #~ msgstr "%smc"
 
-#, python-format
 #~ msgid "%ss"
 #~ msgstr "%ss"
 
-#, python-format
 #~ msgid "%sy"
 #~ msgstr "%sr"
 
@@ -3562,7 +3529,6 @@ msgstr "~"
 #~ msgid "504 gateway timeout error received. Please try temporarily disabling your antivirus."
 #~ msgstr "Wystąpił błąd 504 gateway timeout. Spróbuj na chwilę wyłączyć Twój program antywirusowy."
 
-#, python-format
 #~ msgid "<!--studied-->%d card"
 #~ msgid_plural "<!--studied-->%d cards"
 #~ msgstr[0] "%d kartę"
@@ -3572,7 +3538,6 @@ msgstr "~"
 #~ msgid "<b>%Y-%m-%d</b> @ %H:%M"
 #~ msgstr "<b>%Y-%m-%d</b> @ %H:%M"
 
-#, python-format
 #~ msgid ""
 #~ "<h1>Account Required</h1>\n"
 #~ "A free account is required to keep your collection synchronized. Please <a href=\"%s\">sign up</a> for an account, then enter your details below."
@@ -3629,7 +3594,6 @@ msgstr "~"
 #~ msgid "Add-ons possibly involved: {}\n"
 #~ msgstr "Możliwy udział dodatków: {}\n"
 
-#, python-format
 #~ msgid ""
 #~ "An add-on you installed failed to load. If problems persist, please go to the Tools>Add-ons menu, and disable or delete the add-on.\n"
 #~ "\n"
@@ -3735,7 +3699,6 @@ msgstr "~"
 #~ msgid "Changed"
 #~ msgstr "Zmieniono"
 
-#, python-format
 #~ msgid "Changes below will affect the %(cnt)d note that uses this card type."
 #~ msgid_plural "Changes below will affect the %(cnt)d notes that use this card type."
 #~ msgstr[0] "Poniższe zmiany dotkną %(cnt)d notatkę używającą ten typ karty."
@@ -3775,42 +3738,36 @@ msgstr "~"
 #~ msgid "Delete unused media?"
 #~ msgstr "Usunąć nieużywane pliki?"
 
-#, python-format
 #~ msgid "Deleted %d card with missing note."
 #~ msgid_plural "Deleted %d cards with missing note."
 #~ msgstr[0] "Usunięto %d kartę bez notatki."
 #~ msgstr[1] "Usunięto %d karty bez notatki."
 #~ msgstr[2] "Usunięto %d kart bez notatki."
 
-#, python-format
 #~ msgid "Deleted %d card with missing template."
 #~ msgid_plural "Deleted %d cards with missing template."
 #~ msgstr[0] "Usunięto %d kartę z brakującym szablonem."
 #~ msgstr[1] "Usunięto %d karty z brakującym szablonem."
 #~ msgstr[2] "Usunięto %d kart z brakującym szablonem."
 
-#, python-format
 #~ msgid "Deleted %d file."
 #~ msgid_plural "Deleted %d files."
 #~ msgstr[0] "Usunięto %d plik."
 #~ msgstr[1] "Usunięto %d pliki."
 #~ msgstr[2] "Usunięto %d plików."
 
-#, python-format
 #~ msgid "Deleted %d note with missing note type."
 #~ msgid_plural "Deleted %d notes with missing note type."
 #~ msgstr[0] "Usunięto %d notatkę z brakującym typem notatki."
 #~ msgstr[1] "Usunięto %d notatki z brakującym typem notatki."
 #~ msgstr[2] "Usunięto %d notatek z brakującym typem notatki."
 
-#, python-format
 #~ msgid "Deleted %d note with no cards."
 #~ msgid_plural "Deleted %d notes with no cards."
 #~ msgstr[0] "Usunięto %d notatkę bez kart."
 #~ msgstr[1] "Usunięto %d notatki bez kart."
 #~ msgstr[2] "Usunięto %d notatek bez kart."
 
-#, python-format
 #~ msgid "Deleted %d note with wrong field count."
 #~ msgid_plural "Deleted %d notes with wrong field count."
 #~ msgstr[0] "Usunięto %d notatkę ze złą liczbą pól."
@@ -3829,7 +3786,6 @@ msgstr "~"
 #~ msgid "Edited"
 #~ msgstr "Zmodyfikowano"
 
-#, python-format
 #~ msgid ""
 #~ "Empty card numbers: %(c)s\n"
 #~ "Fields: %(f)s\n"
@@ -3851,7 +3807,6 @@ msgstr "~"
 #~ msgid "First Review"
 #~ msgstr "Pierwsze przeglądnięcie"
 
-#, python-format
 #~ msgid "Fixed %d card with invalid properties."
 #~ msgid_plural "Fixed %d cards with invalid properties."
 #~ msgstr[0] "Naprawiono %d kartę z nieprawidłowymi wartościami."
@@ -3861,7 +3816,6 @@ msgstr "~"
 #~ msgid "Fixed AnkiDroid deck override bug."
 #~ msgstr "Naprawiono talię AnkiDroid korygując błąd."
 
-#, python-format
 #~ msgid "Fixed note type: %s"
 #~ msgstr "Naprawiono typ notatki: %s"
 
@@ -3877,7 +3831,6 @@ msgstr "~"
 #~ msgid "Import failed. Debugging info:\n"
 #~ msgstr "Importowanie nie powiodło się. Informacja diagnostyczna:\n"
 
-#, python-format
 #~ msgid "Invalid file name, please rename: %s"
 #~ msgstr "Nieprawidłowa nazwa pliku, zmień nazwę: %s"
 
@@ -3911,8 +3864,11 @@ msgstr "~"
 #~ msgid "Note: Some of the history is missing. For more information, please see the browser documentation."
 #~ msgstr "Uwaga: Brakuje niektórych elementów historii. Aby dowiedzieć się więcej na ten temat, zobacz dokumentację przeglądarki."
 
-#~ msgid "One or more notes were not imported, because they didn't generate any cards. This can happen when you have empty fields or when you have not mapped the content in the text file to the correct fields."
-#~ msgstr "Jedna lub więcej notatek nie zostały zaimportowane ponieważ nie tworzą żadnej karty. Tak się może zdarzyć kiedy są puste pola lub są nieprawidłowo przypisane wartości z pliku do właściwych pól."
+#~ msgid ""
+#~ "One or more notes were not imported, because they didn't generate any cards. This can happen when you have empty fields or when you have not mapped the content in the text file to the correct "
+#~ "fields."
+#~ msgstr ""
+#~ "Jedna lub więcej notatek nie zostały zaimportowane ponieważ nie tworzą żadnej karty. Tak się może zdarzyć kiedy są puste pola lub są nieprawidłowo przypisane wartości z pliku do właściwych pól."
 
 #~ msgid "Only one client can access AnkiWeb at a time. If a previous sync failed, please try again in a few minutes."
 #~ msgstr "Tylko jeden klient może uzyskać w tym samym czasie dostęp AnkiWeb. Jeśli synchronizacja się nie powiodła spróbuj wykonać ją ponownie za kilka minut."
@@ -3950,11 +3906,9 @@ msgstr "~"
 #~ msgid "Stopping..."
 #~ msgstr "Zatrzymywanie..."
 
-#, python-format
 #~ msgid "Studied %(a)s %(b)s today (%(secs).1fs/card)"
 #~ msgstr "Przejrzano dziś %(a)s %(b)s (%(secs).1fs/kartę)"
 
-#, python-format
 #~ msgid "Studied %(a)s %(b)s today."
 #~ msgstr "Przejrzano dziś %(a)s %(b)s."
 
@@ -3964,7 +3918,6 @@ msgstr "~"
 #~ msgid "Styling (shared between cards)"
 #~ msgstr "Styl (wspólny dla wszystkich kart)"
 
-#, python-format
 #~ msgid ""
 #~ "Syncing failed:\n"
 #~ "%s"
@@ -4011,7 +3964,6 @@ msgstr "~"
 #~ msgid "This column can't be sorted on, but you can search for specific decks by clicking on one on the left."
 #~ msgstr "Nie można sortować po tej kolumnie, ale możesz szukać konkretnej talii, klikając ją po lewej stronie."
 
-#, python-format
 #~ msgid ""
 #~ "This folder stores all of your Anki data in a single location,\n"
 #~ "to make backups easy. To tell Anki to use a different location,\n"
@@ -4043,7 +3995,6 @@ msgstr "~"
 #~ msgid "Used on cards but missing from media folder:"
 #~ msgstr "Użyte w kartach, ale brakujące w folderze z plikami:"
 
-#, python-format
 #~ msgid "You have a lot of decks. Please see %(a)s. %(b)s"
 #~ msgstr "Masz mnóstwo talii. Zobacz %(a)s. %(b)s"
 
@@ -4085,42 +4036,36 @@ msgstr "~"
 #~ msgid "hide"
 #~ msgstr "ukryj"
 
-#, python-format
 #~ msgid "in %s day"
 #~ msgid_plural "in %s days"
 #~ msgstr[0] "w %s dzień"
 #~ msgstr[1] "w %s dni"
 #~ msgstr[2] "w %s dni"
 
-#, python-format
 #~ msgid "in %s hour"
 #~ msgid_plural "in %s hours"
 #~ msgstr[0] "w %s godzinę"
 #~ msgstr[1] "w %s godziny"
 #~ msgstr[2] "w %s godzin"
 
-#, python-format
 #~ msgid "in %s minute"
 #~ msgid_plural "in %s minutes"
 #~ msgstr[0] "w %s minutę"
 #~ msgstr[1] "w %s minuty"
 #~ msgstr[2] "w %s minut"
 
-#, python-format
 #~ msgid "in %s month"
 #~ msgid_plural "in %s months"
 #~ msgstr[0] "w %s miesiąc"
 #~ msgstr[1] "w %s miesiące"
 #~ msgstr[2] "w %s miesięcy"
 
-#, python-format
 #~ msgid "in %s second"
 #~ msgid_plural "in %s seconds"
 #~ msgstr[0] "w %s sekundę"
 #~ msgstr[1] "w %s sekundy"
 #~ msgstr[2] "w %s sekund"
 
-#, python-format
 #~ msgid "in %s year"
 #~ msgid_plural "in %s years"
 #~ msgstr[0] "w %s rok"
