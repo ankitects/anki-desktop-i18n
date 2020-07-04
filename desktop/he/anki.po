@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: anki\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-02 09:49+1000\n"
-"PO-Revision-Date: 2020-07-02 19:28+0000\n"
+"PO-Revision-Date: 2020-07-03 14:12+0000\n"
 "Last-Translator: sivan22 <sivan.ratson@gmail.com>\n"
 "Language-Team: Hebrew\n"
 "Language: he\n"
@@ -79,28 +79,28 @@ msgstr "%(tot)s %(unit)s"
 msgid "%d card"
 msgid_plural "%d cards"
 msgstr[0] "%d כרטיס"
-msgstr[1] "%d כרטיסיות"
+msgstr[1] "%d כרטיסים"
 
 #: qt/aqt/exporting.py:186
 #, python-format
 msgid "%d card exported."
 msgid_plural "%d cards exported."
 msgstr[0] "%d כרטיס יוצא."
-msgstr[1] "%d כרטיסיות יוצאו."
+msgstr[1] "%d כרטיסים יוצאו."
 
 #: pylib/anki/importing/supermemo_xml.py:202
 #, python-format
 msgid "%d card imported."
 msgid_plural "%d cards imported."
-msgstr[0] "%d כרטיסייה יובאה."
-msgstr[1] "%d כרטיסיות יובאו."
+msgstr[0] "%d כרטיס יובא."
+msgstr[1] "%d כרטיסים יובאו."
 
 #: qt/aqt/reviewer.py:88
 #, python-format
 msgid "%d card studied in"
 msgid_plural "%d cards studied in"
 msgstr[0] "%d כרטיס נלמד ב"
-msgstr[1] "%d כרטיסיות נלמדו ב"
+msgstr[1] "%d כרטיסים נלמדו ב"
 
 #: qt/aqt/deckconf.py:167
 #, python-format
@@ -155,15 +155,15 @@ msgstr[1] "%d הערות הובאו."
 #, python-format
 msgid "%d note unchanged"
 msgid_plural "%d notes unchanged"
-msgstr[0] "%d הערה ללא שינוי"
-msgstr[1] "%d הערות ללא שינוי"
+msgstr[0] "%d רשומה לא השתנתה"
+msgstr[1] "%d רשומות לא השתנו"
 
 #: pylib/anki/importing/noteimp.py:214
 #, python-format
 msgid "%d note updated"
 msgid_plural "%d notes updated"
-msgstr[0] "%d הערה עודכנה"
-msgstr[1] "%d הערות עודכנו"
+msgstr[0] "%d רשומה עודכנה"
+msgstr[1] "%d רשומות עודכנו"
 
 #: qt/aqt/browser.py:820
 #, python-format
@@ -307,7 +307,7 @@ msgstr "(%s נכון)"
 
 #: qt/aqt/addcards.py:148
 msgid "(Note deleted)"
-msgstr "(הערה נמחקה)"
+msgstr "(רשומה נמחקה)"
 
 #: qt/aqt/addons.py:744
 msgid "(disabled)"
@@ -336,7 +336,7 @@ msgstr "(מגבלת על: %d)"
 
 #: qt/aqt/previewer.py:156
 msgid "(please select 1 card)"
-msgstr "(אנא בחר 1 כרטיסייה)"
+msgstr "(אנא בחר כרטיס 1)"
 
 #: qt/aqt/addons.py:746
 #, python-format
@@ -491,11 +491,11 @@ msgstr "אודות Anki"
 #: qt/aqt/addcards.py:37 qt/aqt/addcards.py:67 qt/aqt/deckconf.py:87 qt/aqt/models.py:52 qt/aqt/studydeck.py:46 qt/aqt/toolbar.py:111 qt/aqt/forms/addcards.py:58 qt/aqt/forms/fields.py:102
 #: qt/aqt/forms/profiles.py:81
 msgid "Add"
-msgstr "הוסף"
+msgstr "הוספה"
 
 #: qt/aqt/addcards.py:70
 msgid "Add (shortcut: ctrl+enter)"
-msgstr "הוסף (קיצור מקשים: ctrl+enter)"
+msgstr "הוספה (קיצור מקשים: ctrl+enter)"
 
 #: qt/aqt/clayout.py:623
 msgid "Add Card Type..."
@@ -515,7 +515,7 @@ msgstr "הוסף חפיסה חדשה (Ctrl+N)"
 
 #: qt/aqt/forms/addmodel.py:44
 msgid "Add Note Type"
-msgstr "הוסף סוג הערה"
+msgstr "הוסף סוג רשומה"
 
 #: qt/aqt/forms/browser.py:331
 msgid "Add Notes..."
@@ -687,7 +687,7 @@ msgstr "כל דגל"
 
 #: qt/aqt/browser.py:2261
 msgid "Any cards mapped to nothing will be deleted. If a note has no remaining cards, it will be lost. Are you sure you want to continue?"
-msgstr "כל כרטיסייה שממופת לכלום תמחק. אם להערה אין כרטיסיות נותרות, היא תושלך. האם אתה בטוח שאתה רוצה להמשיך?"
+msgstr "כל כרטיסייה שאינה משוייכת לכלום תימחק. אם לרשומה לא נותרו כרטיסים, היא תימחק. האם אתה בטוח שברצונך להמשיך?"
 
 #: pylib/anki/importing/noteimp.py:161
 #, python-format
@@ -773,18 +773,18 @@ msgstr "טקסט מודגש (Ctrl+B)"
 
 #: qt/aqt/toolbar.py:118
 msgid "Browse"
-msgstr "חפש"
+msgstr "דפדף"
 
 #: qt/aqt/browser.py:814
 #, python-format
 msgid "Browse (%(cur)d card shown; %(sel)s)"
 msgid_plural "Browse (%(cur)d cards shown; %(sel)s)"
-msgstr[0] "חפש (%(cur)d כרטיסייה מוצגת; %(sel)s)"
-msgstr[1] "עיון (%(cur)d כרטיסיות מוצגות; %(sel)s)"
+msgstr[0] "דפדף (%(cur)d כרטיסי מוצג; %(sel)s)"
+msgstr[1] "דפדף (%(cur)d כרטיסים מוצגים; %(sel)s)"
 
 #: qt/aqt/addons.py:917
 msgid "Browse Add-ons"
-msgstr "חפש בתוספים"
+msgstr "דפדף בתוספים"
 
 #: qt/aqt/forms/browserdisp.py:69
 msgid "Browser Appearance"
@@ -820,7 +820,7 @@ msgstr "הסתר כרטיסייה"
 
 #: qt/aqt/reviewer.py:708
 msgid "Bury Note"
-msgstr "הסתר הערה"
+msgstr "קבור רשומה"
 
 #: qt/aqt/forms/dconf.py:347
 msgid "Bury related new cards until the next day"
@@ -925,15 +925,15 @@ msgstr "שנה חפיסה..."
 
 #: qt/aqt/browser.py:2268 qt/aqt/forms/changemodel.py:109
 msgid "Change Note Type"
-msgstr "שנה סוג הערה"
+msgstr "שנה סוג רשומה"
 
 #: qt/aqt/modelchooser.py:31
 msgid "Change Note Type (Ctrl+N)"
-msgstr "שנה סוג הערה (Ctrl+N)"
+msgstr "שנה סוג רשומה (Ctrl+N)"
 
 #: qt/aqt/forms/browser.py:313
 msgid "Change Note Type..."
-msgstr "שנה סוג הערה..."
+msgstr "שנה סוג רשומה..."
 
 #: qt/aqt/editor.py:146
 msgid "Change colour (F8)"
@@ -941,7 +941,7 @@ msgstr "שנה צבע (F8)"
 
 #: qt/aqt/forms/preferences.py:284
 msgid "Change deck depending on note type"
-msgstr "שנה חפיסה בהתאם לסוג הערה"
+msgstr "שנה חפיסה בהתאם לסוג רשומה"
 
 #: qt/aqt/forms/addons.py:68
 msgid "Changes will take effect when Anki is restarted."
@@ -977,7 +977,7 @@ msgstr "בחר חפיסה"
 
 #: qt/aqt/modelchooser.py:72
 msgid "Choose Note Type"
-msgstr "בחר סוג הערה"
+msgstr "בחר סוג רשומה"
 
 #: qt/aqt/customstudy.py:103
 msgid "Choose Tags"
@@ -1139,7 +1139,7 @@ msgstr "חפיסה נוכחית"
 
 #: qt/aqt/forms/changemodel.py:110
 msgid "Current note type:"
-msgstr "סוג הערה נוכחי:"
+msgstr "סוג רשומה נוכחי:"
 
 #: qt/aqt/overview.py:252 qt/aqt/forms/customstudy.py:101
 msgid "Custom Study"
@@ -1216,7 +1216,7 @@ msgstr "מחק חפיסה"
 
 #: qt/aqt/reviewer.py:711
 msgid "Delete Note"
-msgstr "מחק הערה"
+msgstr "מחק רשומה"
 
 #: qt/aqt/browser.py:1541
 msgid "Delete Notes"
@@ -1245,11 +1245,11 @@ msgstr "מחק את סוג כרטיסייה '%(a)s' ואת %(b)s שלה?"
 
 #: qt/aqt/models.py:123
 msgid "Delete this note type and all its cards?"
-msgstr "מחק את סוג הערה זו ואת כל הכרטיסיות שלה?"
+msgstr "מחק את סוג רשומה זו ואת כל הכרטיסיות שלה?"
 
 #: qt/aqt/models.py:125
 msgid "Delete this unused note type?"
-msgstr "מחק סוג הערה זו שאינה בשימוש?"
+msgstr "מחק סוג רשומה זו שאינה בשימוש?"
 
 #: qt/aqt/overview.py:190
 msgid "Deleting this deck from the deck list will return all remaining cards to their original deck."
@@ -1669,7 +1669,7 @@ msgstr "התעלם משדה"
 
 #: qt/aqt/forms/importing.py:108
 msgid "Ignore lines where first field matches existing note"
-msgstr "התעלם משורות שהשדה הראשון תואם להערה קיימת"
+msgstr "התעלם משורות שהשדה הראשון תואם לרשומה קיימת"
 
 #: qt/aqt/update.py:65
 msgid "Ignore this update"
@@ -1685,7 +1685,7 @@ msgstr "ייבא קובץ"
 
 #: qt/aqt/forms/importing.py:109
 msgid "Import even if existing note has same first field"
-msgstr "ייבא למרות שלהערה קיימת יש שדה ראשון זהה"
+msgstr "ייבא למרות שלרשומה קיימת יש שדה ראשון זהה"
 
 #: qt/aqt/forms/importing.py:104
 msgid "Import options"
@@ -1947,7 +1947,7 @@ msgstr "מיפוי לתגיות"
 
 #: qt/aqt/reviewer.py:706
 msgid "Mark Note"
-msgstr "סמן הערה"
+msgstr "סמן רשומה"
 
 #: qt/aqt/editor.py:930
 msgid "MathJax block"
@@ -2068,7 +2068,7 @@ msgstr "שם חדש:"
 
 #: qt/aqt/forms/changemodel.py:111
 msgid "New note type:"
-msgstr "סוג הערה חדש:"
+msgstr "סוג רשומה חדש:"
 
 #: qt/aqt/deckconf.py:119
 msgid "New options group name:"
@@ -2113,7 +2113,7 @@ msgstr "אין עדכונים זמינים."
 
 #: qt/aqt/browser.py:744
 msgid "Note"
-msgstr "הערה"
+msgstr "רשומה"
 
 #: qt/aqt/browser.py:1332 qt/aqt/models.py:35 qt/aqt/forms/models.py:54
 msgid "Note Types"
@@ -2123,16 +2123,16 @@ msgstr "סוגי הערות"
 #, python-format
 msgid "Note and its %d card deleted."
 msgid_plural "Note and its %d cards deleted."
-msgstr[0] "הערה ו-%d כרטיסייה שלה נמחקה."
-msgstr[1] "הערה ו-%d כרטיסיות שלה נמחקו."
+msgstr[0] "רשומה ו-%d כרטיס שלה נמחקה."
+msgstr[1] "רשומה ו-%d כרטיסים שלה נמחקו."
 
 #: qt/aqt/reviewer.py:813
 msgid "Note buried."
-msgstr "הערה הוסתרה."
+msgstr "רשומה נקברה."
 
 #: qt/aqt/reviewer.py:778
 msgid "Note suspended."
-msgstr "הערה הושהתה."
+msgstr "רשומה הושהתה."
 
 #: qt/aqt/forms/preferences.py:310
 msgid "Note: Media is not backed up. Please create a periodic backup of your Anki folder to be safe."
@@ -2356,7 +2356,7 @@ msgstr "נא בחר תוסף בודד קודם"
 
 #: qt/aqt/browser.py:1487
 msgid "Please select cards from only one note type."
-msgstr "נא בחר כרטיסיות מסוג הערה אחד בלבד."
+msgstr "נא בחר כרטיסים מסוג רשומה אחד בלבד."
 
 #: qt/aqt/studydeck.py:131
 msgid "Please select something."
@@ -2885,7 +2885,7 @@ msgstr "השהה כרטיסייה"
 
 #: qt/aqt/reviewer.py:710
 msgid "Suspend Note"
-msgstr "השהה הערה"
+msgstr "השהה רשומה"
 
 #: qt/aqt/browser.py:1280
 msgid "Suspended"
@@ -3066,7 +3066,7 @@ msgstr "לסקירה"
 
 #: qt/aqt/forms/getaddons.py:49
 msgid "To browse add-ons, please click the browse button below.<br><br>When you've found an add-on you like, please paste its code below. You can paste multiple codes, separated by spaces."
-msgstr "לדפדוף בתוספים, לחץ על כפתור עיון בתוספים. <br><br> כאשר אתה מוצא תוסף שמוצא חן בעיניך, הקלד את הקוד שלו למטה. תוכל להקליד כמה קודים, מופרדים באמצעות רווח."
+msgstr "לדפדוף בתוספים, לחץ על כפתור דפדף בתוספים. <br><br> כאשר אתה מוצא תוסף שמוצא חן בעיניך, הקלד את הקוד שלו למטה. תוכל להקליד כמה קודים, מופרדים באמצעות רווח."
 
 #: qt/aqt/editor.py:636
 msgid "To make a cloze deletion on an existing note, you need to change it to a cloze type first, via 'Notes>Change Note Type'"
@@ -3248,7 +3248,7 @@ msgstr "באפשרותך לשחזר מגיבוי דרך קובץ>החלף פרו
 
 #: qt/aqt/addcards.py:172
 msgid "You have a cloze deletion note type but have not made any cloze deletions. Proceed?"
-msgstr "סוג ההערה הוא השלמת החסר, אך אין שום חסר להשלמה. להמשיך?"
+msgstr "סוג הרשומה הוא השלמת החסר, אך אין שום חסר להשלמה. להמשיך?"
 
 #: qt/aqt/reviewer.py:821
 msgid "You haven't recorded your voice yet."
