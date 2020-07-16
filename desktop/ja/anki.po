@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anki\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-02 09:49+1000\n"
+"POT-Creation-Date: 2020-07-16 13:46+1000\n"
 "PO-Revision-Date: 2020-05-10 07:01+0000\n"
 "Last-Translator: Yuki <snowtimeglass@gmail.com>\n"
 "Language-Team: Japanese\n"
@@ -173,7 +173,7 @@ msgid "%s minute."
 msgid_plural "%s minutes."
 msgstr[0] "%s 分学習しました。"
 
-#: qt/aqt/main.py:1193
+#: qt/aqt/main.py:1197
 #, python-format
 msgid "%s second"
 msgid_plural "%s seconds"
@@ -301,7 +301,7 @@ msgstr "(ノートを削除しました)"
 msgid "(disabled)"
 msgstr ""
 
-#: pylib/anki/schedv2.py:1398
+#: pylib/anki/schedv2.py:1396
 msgid "(end)"
 msgstr "(終了)"
 
@@ -448,7 +448,7 @@ msgstr "<h1>Anki アップデート</h1>Anki %s がリリースされました�
 msgid "<ignored>"
 msgstr "<無視する>"
 
-#: qt/aqt/main.py:1502
+#: qt/aqt/main.py:1506
 msgid "<non-unicode text>"
 msgstr "<Unicode ではないテキスト>"
 
@@ -474,7 +474,7 @@ msgid "About Anki"
 msgstr "Anki について"
 
 #: qt/aqt/addcards.py:37 qt/aqt/addcards.py:67 qt/aqt/deckconf.py:87
-#: qt/aqt/models.py:52 qt/aqt/studydeck.py:46 qt/aqt/toolbar.py:111
+#: qt/aqt/models.py:52 qt/aqt/studydeck.py:46 qt/aqt/toolbar.py:112
 #: qt/aqt/forms/addcards.py:58 qt/aqt/forms/fields.py:102
 #: qt/aqt/forms/profiles.py:81
 msgid "Add"
@@ -492,7 +492,7 @@ msgstr "カードタイプを追加..."
 msgid "Add Field"
 msgstr "フィールドを追加"
 
-#: qt/aqt/editor.py:698
+#: qt/aqt/editor.py:703
 msgid "Add Media"
 msgstr "メディアを追加"
 
@@ -532,7 +532,7 @@ msgstr "アドオンインストールのエラー"
 msgid "Add-on was not downloaded from AnkiWeb."
 msgstr "アドオンがAnkiWebからダウンロードされませんでした。"
 
-#: qt/aqt/main.py:1565
+#: qt/aqt/main.py:1569
 msgid "Add-on will be installed when a profile is opened."
 msgstr "プロファイルを開いた時にアドオンがインストールされます。"
 
@@ -592,7 +592,7 @@ msgstr "全てのフィールド"
 msgid "All cards in random order (don't reschedule)"
 msgstr ""
 
-#: qt/aqt/main.py:301
+#: qt/aqt/main.py:306
 msgid "All cards, notes, and media for this profile will be deleted. Are you sure?"
 msgstr "このプロファイルのカードやノート、画像や音声など、全ては削除されます。よろしいですか？"
 
@@ -608,7 +608,7 @@ msgstr "フィールドに HTML を使う"
 msgid "Always include question side when replaying audio"
 msgstr "解答の音声・動画の前に質問の音声・動画も再生"
 
-#: qt/aqt/editor.py:836
+#: qt/aqt/editor.py:841
 #, python-format
 msgid "An error occurred while opening %s"
 msgstr "%s を開いた時にエラーが発生しました。"
@@ -634,11 +634,11 @@ msgstr "Anki コレクションパッケージ"
 msgid "Anki Deck Package"
 msgstr "Anki デッキパッケージ"
 
-#: qt/aqt/profiles.py:251
+#: qt/aqt/profiles.py:253
 msgid "Anki could not read your profile data. Window sizes and your sync login details have been forgotten."
 msgstr "プロファイルデータを読み込むことができません。ウィンドウサイズと同期のためのログイン詳細が除去されています。"
 
-#: qt/aqt/profiles.py:321
+#: qt/aqt/profiles.py:323
 msgid "Anki could not rename your profile because it could not rename the profile folder on disk. Please ensure you have permission to write to Documents/Anki and no other programs are accessing your profile folders, then try again."
 msgstr "プロファイルの名前を変更できませんでした。ディスク上のプロファイルフォルダの名前が変更できないためです。Documents/Anki フォルダへの書き込み権限を設定していて、他のプログラムからプロファイルフォルダへアクセスしていないことを確認してから、もう一度実行してください。"
 
@@ -704,7 +704,7 @@ msgstr "オーディオ+5秒"
 msgid "Audio -5s"
 msgstr "オーディオ-5秒"
 
-#: qt/aqt/main.py:351
+#: qt/aqt/main.py:356
 msgid "Automatic syncing and backups have been disabled while restoring. To enable them again, close the profile or restart Anki."
 msgstr "復元中、自動で行われる同期とバックアップが無効化されました。プロファイルを閉じ、Ankiを再起動させることで再び自動で行われるようになります。"
 
@@ -736,7 +736,7 @@ msgstr "各学習の平均"
 msgid "Average interval"
 msgstr "平均間隔"
 
-#: qt/aqt/main.py:535
+#: qt/aqt/main.py:540
 msgid "Backing Up..."
 msgstr "バックアップ中..."
 
@@ -756,7 +756,7 @@ msgstr "青フラグ"
 msgid "Bold text (Ctrl+B)"
 msgstr "太字 (Ctrl+B)"
 
-#: qt/aqt/toolbar.py:118
+#: qt/aqt/toolbar.py:119
 msgid "Browse"
 msgstr "検索"
 
@@ -989,7 +989,7 @@ msgstr "閉じる"
 msgid "Close and lose current input?"
 msgstr "閉じて現在の入力を破棄しますか？"
 
-#: qt/aqt/main.py:533
+#: qt/aqt/main.py:538
 msgid "Closing..."
 msgstr "終了中..."
 
@@ -1030,7 +1030,7 @@ msgstr "設定"
 msgid "Configure interface language and options"
 msgstr "インターフェイス言語とオプションを設定"
 
-#: pylib/anki/schedv2.py:1281
+#: pylib/anki/schedv2.py:1279
 msgid "Congratulations! You have finished this deck for now."
 msgstr "おめでとうございます！　このデッキの今日の課題を全て達成しました！"
 
@@ -1042,7 +1042,7 @@ msgstr "継続"
 msgid "Copied to clipboard"
 msgstr "クリップボードにコピーしました。"
 
-#: qt/aqt/editor.py:1174 qt/aqt/webview.py:280
+#: qt/aqt/editor.py:1179 qt/aqt/webview.py:280
 msgid "Copy"
 msgstr "コピー"
 
@@ -1068,7 +1068,7 @@ msgstr "正解: <b>%(pct)0.2f%%</b><br>(%(good)d / %(tot)d)"
 msgid "Corrupt add-on file."
 msgstr "汚染されたアドオンファイル"
 
-#: qt/aqt/editor.py:731
+#: qt/aqt/editor.py:736
 msgid "Couldn't record audio. Have you installed 'lame'?"
 msgstr "音声を録音できませんでした。LAMEを"
 
@@ -1146,7 +1146,7 @@ msgstr "カードテンプレートをカストマイズする（Ctrl+L）"
 msgid "Customize Fields"
 msgstr "カスタムフィールド"
 
-#: qt/aqt/editor.py:1172
+#: qt/aqt/editor.py:1177
 msgid "Cut"
 msgstr "カット"
 
@@ -1171,11 +1171,11 @@ msgstr "デッキ"
 msgid "Deck Override..."
 msgstr "デッキを強制指定"
 
-#: qt/aqt/main.py:1567
+#: qt/aqt/main.py:1571
 msgid "Deck will be imported when a profile is opened."
 msgstr "プロファイルを開いた時にデッキを読み込みます。"
 
-#: qt/aqt/browser.py:1326 qt/aqt/toolbar.py:104
+#: qt/aqt/browser.py:1326 qt/aqt/toolbar.py:105
 msgid "Decks"
 msgstr "デッキ"
 
@@ -1314,7 +1314,7 @@ msgstr "「%s」を編集"
 msgid "Edit Current"
 msgstr "現在のノートを編集"
 
-#: qt/aqt/editor.py:935
+#: qt/aqt/editor.py:940
 msgid "Edit HTML"
 msgstr "HTML を編集"
 
@@ -1366,7 +1366,7 @@ msgstr "タグを削除する："
 msgid "Error downloading <i>%(id)s</i>: %(error)s"
 msgstr "%(id)s のダウンロード中にエラーが発生しました: %(error)s"
 
-#: qt/aqt/main.py:105
+#: qt/aqt/main.py:106
 #, python-format
 msgid ""
 "Error during startup:\n"
@@ -1465,7 +1465,7 @@ msgstr "フィルター..."
 msgid "Filter:"
 msgstr "フィルター："
 
-#: qt/aqt/main.py:1135 qt/aqt/main.py:1137
+#: qt/aqt/main.py:1139 qt/aqt/main.py:1141
 #, python-format
 msgid "Filtered Deck %d"
 msgstr "フィルターデッキ %d"
@@ -1511,7 +1511,7 @@ msgstr "カードにフラグを付ける"
 msgid "Flip"
 msgstr "反転"
 
-#: qt/aqt/profiles.py:307
+#: qt/aqt/profiles.py:309
 msgid "Folder already exists."
 msgstr "使用済みのフォルダー名です。"
 
@@ -1685,7 +1685,7 @@ msgstr "読み込みオプション"
 msgid "Importing complete."
 msgstr "読み込みが完了しました。"
 
-#: qt/aqt/main.py:1196
+#: qt/aqt/main.py:1200
 #, python-format
 msgid ""
 "In order to ensure your collection works correctly when moved between devices, Anki requires your computer's internal clock to be set correctly. The internal clock can be wrong even if your system is showing the correct local time.\n"
@@ -1817,7 +1817,7 @@ msgstr "無効な設定: "
 msgid "Invalid configuration: top level object must be a map"
 msgstr ""
 
-#: qt/aqt/main.py:1256
+#: qt/aqt/main.py:1260
 msgid "Invalid property found on card. Please use Tools>Check Database, and if the problem comes up again, please ask on the support site."
 msgstr "カードに無効なプロパティを設定しています。[ツール] から [データベースをチェック] を実行してください。それでもこの問題が解決しない場合は、サポートサイトでご質問ください。"
 
@@ -1837,15 +1837,15 @@ msgstr "Ctrl+Shift+T でタグフィールドに移動します。"
 msgid "Keep"
 msgstr "保存ファイル数"
 
-#: qt/aqt/editor.py:932 qt/aqt/forms/modelopts.py:67
+#: qt/aqt/editor.py:937 qt/aqt/forms/modelopts.py:67
 msgid "LaTeX"
 msgstr "LaTeX"
 
-#: qt/aqt/editor.py:933
+#: qt/aqt/editor.py:938
 msgid "LaTeX equation"
 msgstr "LaTeX インライン数式"
 
-#: qt/aqt/editor.py:934
+#: qt/aqt/editor.py:939
 msgid "LaTeX math env."
 msgstr "LaTeX ディスプレイ数式"
 
@@ -1939,15 +1939,15 @@ msgstr "タグに割り当てる"
 msgid "Mark Note"
 msgstr "ノートにマーク"
 
-#: qt/aqt/editor.py:930
+#: qt/aqt/editor.py:935
 msgid "MathJax block"
 msgstr "MathJaxブロック"
 
-#: qt/aqt/editor.py:931
+#: qt/aqt/editor.py:936
 msgid "MathJax chemistry"
 msgstr "MathJax 化学"
 
-#: qt/aqt/editor.py:929
+#: qt/aqt/editor.py:934
 msgid "MathJax inline"
 msgstr "MathJax インライン"
 
@@ -1964,7 +1964,7 @@ msgstr "復習間隔の上限"
 msgid "Maximum reviews/day"
 msgstr "一日あたりの復習カード出題枚数の上限"
 
-#: qt/aqt/editor.py:693
+#: qt/aqt/editor.py:698
 msgid "Media"
 msgstr "メディア"
 
@@ -2008,7 +2008,7 @@ msgstr "複数文字のデリミタを使用することができません。１
 msgid "N&ote"
 msgstr "ノート (&O)"
 
-#: qt/aqt/main.py:274 qt/aqt/main.py:288
+#: qt/aqt/main.py:279 qt/aqt/main.py:293
 msgid "Name exists."
 msgstr "使用済みの名前です。"
 
@@ -2016,7 +2016,7 @@ msgstr "使用済みの名前です。"
 msgid "Name for deck:"
 msgstr "デッキ名:"
 
-#: qt/aqt/main.py:271 qt/aqt/models.py:112
+#: qt/aqt/main.py:276 qt/aqt/models.py:112
 msgid "Name:"
 msgstr "名前:"
 
@@ -2045,7 +2045,7 @@ msgstr "新規カードのみ"
 msgid "New cards/day"
 msgstr "一日あたりの新規カード出題枚数の上限"
 
-#: qt/aqt/deckbrowser.py:254 qt/aqt/studydeck.py:147
+#: qt/aqt/deckbrowser.py:254 qt/aqt/studydeck.py:151
 msgid "New deck name:"
 msgstr "新しいデッキ名"
 
@@ -2054,7 +2054,7 @@ msgid "New interval"
 msgstr "新しい復習間隔（前回比）"
 
 #: qt/aqt/clayout.py:533 qt/aqt/deckconf.py:146 qt/aqt/fields.py:97
-#: qt/aqt/main.py:282 qt/aqt/models.py:76
+#: qt/aqt/main.py:287 qt/aqt/models.py:76
 msgid "New name:"
 msgstr "新しい名前:"
 
@@ -2198,7 +2198,7 @@ msgstr "開く"
 msgid "Open Backup..."
 msgstr "バックアップを開く..."
 
-#: qt/aqt/main.py:622
+#: qt/aqt/main.py:627
 msgid "Optimizing..."
 msgstr "最適化しています..."
 
@@ -2261,7 +2261,7 @@ msgstr "パッケージ化されたAnkiアドオン"
 msgid "Packaged Anki Deck/Collection (*.apkg *.colpkg *.zip)"
 msgstr "パッケージ化されたAnkiデッキ／コレクション（*.apkg *.colpkg *.zip）"
 
-#: qt/aqt/editor.py:1176
+#: qt/aqt/editor.py:1181
 msgid "Paste"
 msgstr "貼り付け"
 
@@ -2314,7 +2314,7 @@ msgstr "インターネット接続を確認してください"
 msgid "Please connect a microphone, and ensure other programs are not using the audio device."
 msgstr "マイクを接続して、他のプログラムがオーディオデバイスを使用していないことを確認してください。"
 
-#: qt/aqt/main.py:1574
+#: qt/aqt/main.py:1578
 msgid "Please ensure a profile is open and Anki is not busy, then try again."
 msgstr "プロファイルが開いていて、Anki は処理中でないことを確認してから、もう一度実行してください。"
 
@@ -2322,7 +2322,7 @@ msgstr "プロファイルが開いていて、Anki は処理中でないこと�
 msgid "Please give your filter a name:"
 msgstr "このフィルターに名前を付けてください:"
 
-#: qt/aqt/profiles.py:302
+#: qt/aqt/profiles.py:304
 #, python-format
 msgid "Please remove the folder %s and try again."
 msgstr "フォルダー %s を削除してから、もう一度実行してください。"
@@ -2339,7 +2339,7 @@ msgstr "Ankiを再起動した後、言語が変更されます。"
 msgid "Please run Tools>Empty Cards"
 msgstr "[ツール] から [白紙カードをチェック] を実行してください。"
 
-#: qt/aqt/main.py:653
+#: qt/aqt/main.py:658
 msgid "Please select a deck."
 msgstr "デッキを選択してください。"
 
@@ -2351,11 +2351,11 @@ msgstr "はじめにアドオンを選択してください。"
 msgid "Please select cards from only one note type."
 msgstr "一つのノートタイプからカードを選択してください。"
 
-#: qt/aqt/studydeck.py:131
+#: qt/aqt/studydeck.py:135
 msgid "Please select something."
 msgstr "何かを選択してください。"
 
-#: qt/aqt/main.py:1093
+#: qt/aqt/main.py:1097
 msgid "Please use File>Import to import this file."
 msgstr "このファイルを読み込むには、 [ファイル] から [読み込む] を実行してください。"
 
@@ -2390,7 +2390,7 @@ msgstr[0] "%dのメディアファイルを処理"
 msgid "Processing..."
 msgstr "処理中..."
 
-#: qt/aqt/profiles.py:249
+#: qt/aqt/profiles.py:251
 msgid "Profile Corrupt"
 msgstr "プロファイルの破損"
 
@@ -2495,7 +2495,7 @@ msgstr "デッキ名を変更"
 msgid "Repeat failed cards after"
 msgstr "後で間違えたカードをやり直す"
 
-#: qt/aqt/main.py:315
+#: qt/aqt/main.py:320
 msgid "Replace your collection with an earlier backup?"
 msgstr "現在のコレクションの代わりに、今までにバックアップされたコレクションを使用することができます。リストを開きますか？"
 
@@ -2539,7 +2539,7 @@ msgstr "このデッキの解答に基づいてカードをスケジュールし
 msgid "Restored defaults"
 msgstr "初期設定に戻す"
 
-#: qt/aqt/main.py:712
+#: qt/aqt/main.py:717
 msgid "Resume Now"
 msgstr "学習し続ける"
 
@@ -2547,11 +2547,11 @@ msgstr "学習し続ける"
 msgid "Reverse text direction (RTL)"
 msgstr "右から左入力 (RTL)"
 
-#: qt/aqt/main.py:328
+#: qt/aqt/main.py:333
 msgid "Revert to backup"
 msgstr "バックアップされたコレクションの復元"
 
-#: qt/aqt/main.py:1007
+#: qt/aqt/main.py:1011
 #, python-format
 msgid "Reverted to state prior to '%s'."
 msgstr "「%s」より前の状態に戻りました。"
@@ -2686,7 +2686,7 @@ msgstr "全てのサブデッキに適用する"
 msgid "Set foreground colour (F7)"
 msgstr "文字の色を設定 (F7)"
 
-#: qt/aqt/main.py:111
+#: qt/aqt/main.py:112
 msgid "Shift key was held down. Skipping automatic syncing and add-on loading."
 msgstr "シフトキーを押したまま起動しましたので、自動的な同期とアドオンの読み込みを省略しました。"
 
@@ -2694,11 +2694,11 @@ msgstr "シフトキーを押したまま起動しましたので、自動的な
 msgid "Shift position of existing cards"
 msgstr "既存のカードの順序を移動する"
 
-#: qt/aqt/deckbrowser.py:326 qt/aqt/main.py:741 qt/aqt/overview.py:259
+#: qt/aqt/deckbrowser.py:326 qt/aqt/main.py:746 qt/aqt/overview.py:259
 #: qt/aqt/previewer.py:77 qt/aqt/previewer.py:82 qt/aqt/reviewer.py:561
-#: qt/aqt/reviewer.py:574 qt/aqt/reviewer.py:640 qt/aqt/toolbar.py:106
-#: qt/aqt/toolbar.py:113 qt/aqt/toolbar.py:120 qt/aqt/toolbar.py:127
-#: qt/aqt/toolbar.py:143
+#: qt/aqt/reviewer.py:574 qt/aqt/reviewer.py:640 qt/aqt/toolbar.py:107
+#: qt/aqt/toolbar.py:114 qt/aqt/toolbar.py:121 qt/aqt/toolbar.py:128
+#: qt/aqt/toolbar.py:144
 #, python-format
 msgid "Shortcut key: %s"
 msgstr "ショートカットキーは「%s」"
@@ -2781,7 +2781,7 @@ msgstr "サイズ:"
 msgid "Skipped"
 msgstr "除外"
 
-#: pylib/anki/schedv2.py:1339
+#: pylib/anki/schedv2.py:1337
 msgid "Some related or buried cards were delayed until a later session."
 msgstr "以後のセッションに先送りした関連カードや延期したカードがあります。"
 
@@ -2821,7 +2821,7 @@ msgstr "復習開始時の「易しさ」（復習間隔の伸び率）"
 msgid "Statistics"
 msgstr "統計"
 
-#: qt/aqt/toolbar.py:125
+#: qt/aqt/toolbar.py:126
 msgid "Stats"
 msgstr "統計"
 
@@ -2893,7 +2893,7 @@ msgstr "保留"
 msgid "Suspended+Buried"
 msgstr "保留+延期"
 
-#: qt/aqt/toolbar.py:142
+#: qt/aqt/toolbar.py:143
 msgid "Sync"
 msgstr "同期"
 
@@ -2995,7 +2995,7 @@ msgstr "指定したファイルは正当な .apkg ファイルではありま�
 msgid "The provided search did not match any cards. Would you like to revise it?"
 msgstr "指定した検索項目は、どのカードにも一致しませんでした。検索項目を変えてみてください。"
 
-#: qt/aqt/main.py:1311 qt/aqt/main.py:1330
+#: qt/aqt/main.py:1315 qt/aqt/main.py:1334
 msgid "The requested change will require a full upload of the database when you next synchronize your collection. If you have reviews or other changes waiting on another device that haven't been synchronized here yet, they will be lost. Continue?"
 msgstr "要求した変更を行うには、次回のコレクションの同期の際にデータベースの完全なアップロードが必要です。他の端末で復習やその他の変更を行ってまだ同期が済んでいない場合、これらの変更は失われます。処理を続けますか。"
 
@@ -3003,7 +3003,7 @@ msgstr "要求した変更を行うには、次回のコレクションの同期
 msgid "The time taken to answer the questions."
 msgstr "カードの学習に費やした時間"
 
-#: pylib/anki/schedv2.py:1325
+#: pylib/anki/schedv2.py:1323
 msgid ""
 "There are more new cards available, but the daily limit has been\n"
 "reached. You can increase the limit in the options, but please\n"
@@ -3011,7 +3011,7 @@ msgid ""
 "your short-term review workload will become."
 msgstr "まだ新規カードは残っていますが、設定した一日の上限に達しました。学習設定より上限を変更することも可能ですが、それにより短期的に一日の復習量が増え、しばらくの間、通常よりも学習負荷がかかりますのでご注意ください。"
 
-#: qt/aqt/main.py:297
+#: qt/aqt/main.py:302
 msgid "There must be at least one profile."
 msgstr "最低限一つのプロファイルが必要です。"
 
@@ -3062,11 +3062,11 @@ msgstr "下の「アドオン一覧」ボタンをクリックすると、使用
 msgid "To make a cloze deletion on an existing note, you need to change it to a cloze type first, via 'Notes>Change Note Type'"
 msgstr "このノートに穴埋め問題を作るには、まず今のノートタイプを穴埋め問題に対応したノートタイプに変更する必要があります。[編集] > [ノートタイプを変更]から、穴埋め問題に対応したノートタイプを選択してください。（Ankiインストール時から付属しているノートタイプのうちでは、「Cloze」が穴埋め問題に対応しています。）"
 
-#: pylib/anki/schedv2.py:1334
+#: pylib/anki/schedv2.py:1332
 msgid "To see them now, click the Unbury button below."
 msgstr "今すぐ表示するには、下にある [延期を解除] ボタンを押してください。"
 
-#: pylib/anki/schedv2.py:1347
+#: pylib/anki/schedv2.py:1345
 msgid "To study outside of the normal schedule, click the Custom Study button below."
 msgstr "標準のスケジュールから外れて学習するには、下の [カスタム学習] ボタンを押してください。"
 
@@ -3074,7 +3074,7 @@ msgstr "標準のスケジュールから外れて学習するには、下の [�
 msgid "Today"
 msgstr "今日"
 
-#: pylib/anki/schedv2.py:1316
+#: pylib/anki/schedv2.py:1314
 msgid ""
 "Today's review limit has been reached, but there are still cards\n"
 "waiting to be reviewed. For optimum memory, consider increasing\n"
@@ -3124,7 +3124,7 @@ msgstr "解答キー入力: 不明なフィールド %s"
 msgid "Unable to access Anki media folder. The permissions on your system's temporary folder may be incorrect."
 msgstr "Ankiメディアフォルダにアクセスすることができません。あなたのシステム上の一時フォルダのアクセス許可が誤っている可能性があります。"
 
-#: qt/aqt/main.py:341
+#: qt/aqt/main.py:346
 msgid "Unable to move existing file to trash - please try restarting your computer."
 msgstr "ファイルをゴミ箱に移動することができません。コンピューターを再起動してみてください。"
 
@@ -3147,16 +3147,16 @@ msgstr "延期を解除"
 msgid "Underline text (Ctrl+U)"
 msgstr "下線 (Ctrl+U)"
 
-#: qt/aqt/main.py:1017
+#: qt/aqt/main.py:1021
 msgid "Undo"
 msgstr "元に戻す"
 
-#: qt/aqt/main.py:1013
+#: qt/aqt/main.py:1017
 #, python-format
 msgid "Undo %s"
 msgstr "元に戻す - %s"
 
-#: qt/aqt/addons.py:1009 qt/aqt/editor.py:830
+#: qt/aqt/addons.py:1009 qt/aqt/editor.py:835
 #, python-format
 msgid "Unexpected response code: %s"
 msgstr "予期しない応答コード：%s"
@@ -3181,7 +3181,7 @@ msgstr "最初のフィールドが一致した場合、既存のノートを更
 msgid "Updated"
 msgstr "更新"
 
-#: qt/aqt/profiles.py:472
+#: qt/aqt/profiles.py:476
 msgid "User 1"
 msgstr "ユーザー 1"
 
@@ -3202,7 +3202,7 @@ msgstr "選択中のアドオンの詳細"
 msgid "View Files"
 msgstr "ファイルを見る"
 
-#: qt/aqt/main.py:711
+#: qt/aqt/main.py:716
 msgid "Waiting for editing to finish."
 msgstr "編集が終わるのを待っています。"
 
@@ -3260,7 +3260,7 @@ msgstr "復習(未熟)+基本学習+再基本学習"
 msgid "Your changes will affect multiple decks. If you wish to change only the current deck, please add a new options group first."
 msgstr "この変更は複数のデッキに影響が及びます。現在のデッキのみに変更を加えたい時には、まず最初にオプショングループを新規追加してください。"
 
-#: qt/aqt/main.py:555
+#: qt/aqt/main.py:560
 msgid "Your collection file appears to be corrupt. This can happen when the file is copied or moved while Anki is open, or when the collection is stored on a network or cloud drive. If problems persist after restarting your computer, please open an automatic backup from the profile screen."
 msgstr "コレクションが破損しているおそれがあります。このような破損は、Ankiを使用中に中身のファイルの移動やコピーを行った場合や、コレクションをネットワークドライブやクラウドドライブに保管している場合に起きることがあります。コンピューターを再起動しても問題が続く場合は、メニューの[ファイル]>[プロファイル]でプロファイルウィンドウを開き、自動バックアップされたコレクションを使用してください。"
 
@@ -3272,7 +3272,7 @@ msgstr "あなたのコンピュータにストレージ空き容量がありま
 msgid "Your firewall or antivirus program is preventing Anki from creating a connection to itself. Please add an exception for Anki."
 msgstr "ファイアウォールかウイルス対策ソフトがAnkiの接続処理を妨げています。Ankiを例外リストに追加してください。"
 
-#: pylib/anki/decks.py:362
+#: pylib/anki/decks.py:360
 msgid "[no deck]"
 msgstr "[デッキなし]"
 
