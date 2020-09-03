@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: anki\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-28 13:01+1000\n"
-"PO-Revision-Date: 2020-08-13 13:42+0000\n"
+"PO-Revision-Date: 2020-09-01 10:53+0000\n"
 "Last-Translator: Junseo Park <turrorkr@gmail.com>\n"
 "Language-Team: Korean\n"
 "Language: ko\n"
@@ -324,7 +324,7 @@ msgstr "(카드 1개 선택해주세요)"
 #: qt/aqt/addons.py:747
 #, python-format
 msgid "(requires %s)"
-msgstr ""
+msgstr "(%s초 필요)"
 
 #: qt/aqt/importing.py:329
 msgid ".anki files are from a very old version of Anki. You can import them with Anki 2.0, available on the Anki website."
@@ -344,23 +344,23 @@ msgstr "1년"
 
 #: pylib/anki/stats.py:804
 msgid "10AM"
-msgstr ""
+msgstr "10:00"
 
 #: pylib/anki/stats.py:806
 msgid "10PM"
-msgstr ""
+msgstr "22:00"
 
 #: pylib/anki/stats.py:807
 msgid "3AM"
-msgstr ""
+msgstr "03:00"
 
 #: pylib/anki/stats.py:803
 msgid "4AM"
-msgstr ""
+msgstr "04:00"
 
 #: pylib/anki/stats.py:805
 msgid "4PM"
-msgstr ""
+msgstr "16:00"
 
 #. T: Symbols separating first and second column in a statistics table. Eg in "Total:    3 reviews".
 #: pylib/anki/stats.py:892
@@ -693,11 +693,11 @@ msgstr "사진/오디오/비디오 추가(F3)"
 
 #: qt/aqt/reviewer.py:717
 msgid "Audio +5s"
-msgstr ""
+msgstr "오디오 +5s"
 
 #: qt/aqt/reviewer.py:716
 msgid "Audio -5s"
-msgstr ""
+msgstr "오디오 -5s"
 
 #: qt/aqt/main.py:357
 msgid "Automatic syncing and backups have been disabled while restoring. To enable them again, close the profile or restart Anki."
@@ -729,7 +729,7 @@ msgstr "공부한 기간 동안 평균"
 
 #: pylib/anki/stats.py:612
 msgid "Average interval"
-msgstr "평균 복습 간격"
+msgstr "평균 복습 주기"
 
 #: qt/aqt/main.py:541
 msgid "Backing Up..."
@@ -990,7 +990,7 @@ msgstr "종료 중..."
 #: qt/aqt/clayout.py:235
 #, python-format
 msgid "Cloze %d"
-msgstr ""
+msgstr "빈칸 뚫기 %d"
 
 #: qt/aqt/editor.py:163
 msgid "Cloze deletion (Ctrl+Shift+C)"
@@ -1130,7 +1130,7 @@ msgstr "맞춤 공부 세션"
 
 #: qt/aqt/forms/dyndconf.py:147
 msgid "Custom steps (in minutes)"
-msgstr "맞춤 간격(분 단위)"
+msgstr "맞춤 복습 주기(분 단위)"
 
 #: qt/aqt/editor.py:188
 msgid "Customize Card Templates (Ctrl+L)"
@@ -1174,7 +1174,7 @@ msgstr "뭉치"
 
 #: pylib/anki/consts.py:119
 msgid "Decreasing intervals"
-msgstr "복습 간격이 긴 것부터"
+msgstr "복습 주기가 긴 것부터"
 
 #: qt/aqt/deckchooser.py:51 qt/aqt/deckchooser.py:55 qt/aqt/deckchooser.py:77
 msgid "Default"
@@ -1182,7 +1182,7 @@ msgstr "기본"
 
 #: pylib/anki/stats.py:590
 msgid "Delays until reviews are shown again."
-msgstr "다음 번 복습 때까지 기다리는 시간."
+msgstr "다음 번 복습 때까지 기다리는 시간"
 
 #: qt/aqt/deckbrowser.py:242 qt/aqt/deckconf.py:91 qt/aqt/models.py:57 qt/aqt/reviewer.py:792 qt/aqt/forms/addons.py:77 qt/aqt/forms/browser.py:330 qt/aqt/forms/fields.py:103
 #: qt/aqt/forms/profiles.py:83
@@ -1239,7 +1239,7 @@ msgstr "설명"
 
 #: qt/aqt/forms/dconf.py:379
 msgid "Description to show on overview screen, for current deck:"
-msgstr ""
+msgstr "현재 덱에서 개요 화면에 표시할 설명:"
 
 #: qt/aqt/forms/dyndconf.py:133 qt/aqt/forms/editaddon.py:40 qt/aqt/forms/editcurrent.py:41 qt/aqt/forms/progress.py:40
 msgid "Dialog"
@@ -1290,7 +1290,7 @@ msgstr "쉬움 버튼 보너스"
 
 #: qt/aqt/forms/dconf.py:343
 msgid "Easy interval"
-msgstr "쉬움 간격"
+msgstr "복습 주기"
 
 #: qt/aqt/reviewer.py:560
 msgid "Edit"
@@ -1733,7 +1733,7 @@ msgstr "이 개수만큼 오늘의 복습 제한을 늘리기:"
 
 #: pylib/anki/consts.py:118
 msgid "Increasing intervals"
-msgstr "복습 간격이 짧은 것부터"
+msgstr "복습 주기가 짧은 것부터"
 
 #: qt/aqt/forms/getaddons.py:48
 msgid "Install Add-on"
@@ -1778,11 +1778,11 @@ msgstr "간격"
 
 #: qt/aqt/forms/dconf.py:353
 msgid "Interval modifier"
-msgstr "복습 간격 조정값"
+msgstr "복습 주기 조정값"
 
 #: pylib/anki/stats.py:590
 msgid "Intervals"
-msgstr "복습 간격"
+msgstr "복습 주기"
 
 #: qt/aqt/addons.py:472
 msgid "Invalid add-on manifest."
@@ -1887,7 +1887,7 @@ msgstr "여는 중..."
 
 #: pylib/anki/stats.py:613
 msgid "Longest interval"
-msgstr "최대 복습 간격"
+msgstr "최대 복습 주기"
 
 #: pylib/anki/stats.py:871
 msgid "Lowest ease"
@@ -1944,7 +1944,7 @@ msgstr "성숙한 카드"
 
 #: qt/aqt/forms/dconf.py:355
 msgid "Maximum interval"
-msgstr "최대 복습 간격"
+msgstr "최대 복습 주기"
 
 #: qt/aqt/forms/dconf.py:354
 msgid "Maximum reviews/day"
@@ -1956,7 +1956,7 @@ msgstr "미디어"
 
 #: qt/aqt/forms/dconf.py:367
 msgid "Minimum interval"
-msgstr "최소 복습 간격"
+msgstr "최소 복습 주기"
 
 #: pylib/anki/stats.py:370
 msgid "Minutes"
@@ -2037,7 +2037,7 @@ msgstr "새 뭉치 이름:"
 
 #: qt/aqt/forms/dconf.py:363
 msgid "New interval"
-msgstr "새 복습 간격"
+msgstr "새 복습 주기"
 
 #: qt/aqt/clayout.py:533 qt/aqt/deckconf.py:148 qt/aqt/fields.py:97 qt/aqt/main.py:288 qt/aqt/models.py:77
 msgid "New name:"
@@ -2283,7 +2283,7 @@ msgstr "새 카드 대기열의 끝으로 보내기"
 
 #: qt/aqt/forms/reschedule.py:75
 msgid "Place in review queue with interval between:"
-msgstr "다음 범위 안의 복습 간격을 유지한 채로 복습 대기열에 넣기:"
+msgstr "다음 범위 안의 복습 주기를 유지한 채로 복습 대기열에 넣기:"
 
 #: qt/aqt/models.py:119
 msgid "Please add another note type first."
@@ -2568,7 +2568,7 @@ msgstr "잊어버린 카드 복습하기"
 
 #: pylib/anki/stats.py:785
 msgid "Review success rate for each hour of the day."
-msgstr "하루 중 시간대 별 정답률."
+msgstr "하루 중 시간대별 정답률"
 
 #: pylib/anki/stats.py:813 qt/aqt/browser.py:741 qt/aqt/forms/dconf.py:361
 msgid "Reviews"
@@ -2711,7 +2711,7 @@ msgstr "답변 시간 표시"
 
 #: qt/aqt/forms/preferences.py:290
 msgid "Show learning cards with larger steps before reviews"
-msgstr "복습하지 않은 긴 간격의 배운 카드 보기"
+msgstr "복습하지 않은 긴 복습 주기의 배운 카드 보기"
 
 #: pylib/anki/consts.py:101
 msgid "Show new cards after reviews"
