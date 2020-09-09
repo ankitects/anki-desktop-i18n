@@ -1,22 +1,23 @@
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: anki\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-28 13:01+1000\n"
-"PO-Revision-Date: 2020-02-16 02:23\n"
+"PO-Revision-Date: 2020-07-01 23:56+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Turkish\n"
-"Language: tr_TR\n"
+"Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Crowdin-Project: anki\n"
-"X-Crowdin-Language: tr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Crowdin-File: anki.pot\n"
+"X-Crowdin-Language: tr\n"
+"X-Crowdin-Project: anki\n"
+"X-Generator: Pontoon\n"
 
 #: qt/aqt/importing.py:411
-#, fuzzy
 msgid "    Invalid file. Please restore from backup."
 msgstr "Geçersiz dosya. Lütfen yedekten yükleyin."
 
@@ -49,9 +50,7 @@ msgstr[1] " %d kart bulunuyor."
 msgid "\"Segoe UI\""
 msgstr ""
 
-#: qt/aqt/forms/dconf.py:341 qt/aqt/forms/dconf.py:352
-#: qt/aqt/forms/dconf.py:357 qt/aqt/forms/dconf.py:360
-#: qt/aqt/forms/dconf.py:371 qt/aqt/forms/preferences.py:286
+#: qt/aqt/forms/dconf.py:341 qt/aqt/forms/dconf.py:352 qt/aqt/forms/dconf.py:357 qt/aqt/forms/dconf.py:360 qt/aqt/forms/dconf.py:371 qt/aqt/forms/preferences.py:286
 msgid "%"
 msgstr ""
 
@@ -118,8 +117,7 @@ msgid_plural "%d groups"
 msgstr[0] "%d grup"
 msgstr[1] "%d grup"
 
-#: qt/aqt/browser.py:1996 qt/aqt/browser.py:2004 qt/aqt/fields.py:123
-#: qt/aqt/models.py:100
+#: qt/aqt/browser.py:1996 qt/aqt/browser.py:2004 qt/aqt/fields.py:123 qt/aqt/models.py:100
 #, python-format
 msgid "%d note"
 msgid_plural "%d notes"
@@ -419,7 +417,9 @@ msgstr "<b>Yazıtipi</b>:"
 
 #: qt/aqt/addons.py:1400
 #, python-format
-msgid "<b>Important</b>: As add-ons are programs downloaded from the internet, they are potentially malicious.<b>You should only install add-ons you trust.</b><br><br>Are you sure you want to proceed with the installation of the following Anki add-on(s)?<br><br>%(names)s"
+msgid ""
+"<b>Important</b>: As add-ons are programs downloaded from the internet, they are potentially malicious.<b>You should only install add-ons you trust.</b><br><br>Are you sure you want to proceed with "
+"the installation of the following Anki add-on(s)?<br><br>%(names)s"
 msgstr ""
 
 #: qt/aqt/forms/findreplace.py:86
@@ -488,9 +488,7 @@ msgstr "İptal Edildi: %s"
 msgid "About Anki"
 msgstr "Anki Hakkında"
 
-#: qt/aqt/addcards.py:37 qt/aqt/addcards.py:67 qt/aqt/deckconf.py:89
-#: qt/aqt/models.py:53 qt/aqt/studydeck.py:46 qt/aqt/toolbar.py:112
-#: qt/aqt/forms/addcards.py:58 qt/aqt/forms/fields.py:102
+#: qt/aqt/addcards.py:37 qt/aqt/addcards.py:67 qt/aqt/deckconf.py:89 qt/aqt/models.py:53 qt/aqt/studydeck.py:46 qt/aqt/toolbar.py:112 qt/aqt/forms/addcards.py:58 qt/aqt/forms/fields.py:102
 #: qt/aqt/forms/profiles.py:81
 msgid "Add"
 msgstr "Ekle"
@@ -560,8 +558,7 @@ msgstr ""
 msgid "Add: %s"
 msgstr "Ekle: %s"
 
-#: pylib/anki/stats.py:305 pylib/anki/importing/anki2.py:166
-#: qt/aqt/addcards.py:192
+#: pylib/anki/stats.py:305 pylib/anki/importing/anki2.py:166 qt/aqt/addcards.py:192
 msgid "Added"
 msgstr "Eklendi"
 
@@ -628,8 +625,7 @@ msgstr ""
 msgid "An error occurred while opening %s"
 msgstr "%s 'i açarken bir hata oluştu."
 
-#: qt/aqt/forms/main.py:131 qt/aqt/forms/setgroup.py:38
-#: qt/aqt/forms/setlang.py:39
+#: qt/aqt/forms/main.py:131 qt/aqt/forms/setgroup.py:38 qt/aqt/forms/setlang.py:39
 msgid "Anki"
 msgstr ""
 
@@ -654,8 +650,12 @@ msgid "Anki could not read your profile data. Window sizes and your sync login d
 msgstr ""
 
 #: qt/aqt/profiles.py:323
-msgid "Anki could not rename your profile because it could not rename the profile folder on disk. Please ensure you have permission to write to Documents/Anki and no other programs are accessing your profile folders, then try again."
-msgstr "Anki, disk üzerindeki profil klasörünü yeniden adlandıramadığı için profilinizi yeniden adlandıramadı. Lütfen Documents / Anki'ye yazma izninizin olduğundan ve diğer hiçbir programın profil klasörünüze erişemediğinden emin olduktan sonra tekrar deneyin."
+msgid ""
+"Anki could not rename your profile because it could not rename the profile folder on disk. Please ensure you have permission to write to Documents/Anki and no other programs are accessing your "
+"profile folders, then try again."
+msgstr ""
+"Anki, disk üzerindeki profil klasörünü yeniden adlandıramadığı için profilinizi yeniden adlandıramadı. Lütfen Documents / Anki'ye yazma izninizin olduğundan ve diğer hiçbir programın profil "
+"klasörünüze erişemediğinden emin olduktan sonra tekrar deneyin."
 
 #: qt/aqt/clayout.py:608
 msgid "Anki couldn't find the line between the question and answer. Please adjust the template manually to switch the question and answer."
@@ -881,8 +881,7 @@ msgstr "Kart askıya alındı."
 msgid "Card was a leech."
 msgstr "Kart bir sömürücüydü."
 
-#: pylib/anki/stats.py:306 pylib/anki/stats.py:956 qt/aqt/editor.py:185
-#: qt/aqt/forms/changemodel.py:112
+#: pylib/anki/stats.py:306 pylib/anki/stats.py:956 qt/aqt/editor.py:185 qt/aqt/forms/changemodel.py:112
 msgid "Cards"
 msgstr "Kartlar"
 
@@ -1177,8 +1176,7 @@ msgstr "Yetkiyi Kaldır"
 msgid "Debug Console"
 msgstr "Hata Ayıklama Konsolu"
 
-#: qt/aqt/browser.py:733 qt/aqt/deckbrowser.py:155 qt/aqt/deckchooser.py:29
-#: qt/aqt/forms/importing.py:106
+#: qt/aqt/browser.py:733 qt/aqt/deckbrowser.py:155 qt/aqt/deckchooser.py:29 qt/aqt/forms/importing.py:106
 msgid "Deck"
 msgstr "Deste"
 
@@ -1206,9 +1204,8 @@ msgstr "Öntanımlı"
 msgid "Delays until reviews are shown again."
 msgstr "Gözden geçirme tekrar gösterilene kadar erteler."
 
-#: qt/aqt/deckbrowser.py:242 qt/aqt/deckconf.py:91 qt/aqt/models.py:57
-#: qt/aqt/reviewer.py:792 qt/aqt/forms/addons.py:77 qt/aqt/forms/browser.py:330
-#: qt/aqt/forms/fields.py:103 qt/aqt/forms/profiles.py:83
+#: qt/aqt/deckbrowser.py:242 qt/aqt/deckconf.py:91 qt/aqt/models.py:57 qt/aqt/reviewer.py:792 qt/aqt/forms/addons.py:77 qt/aqt/forms/browser.py:330 qt/aqt/forms/fields.py:103
+#: qt/aqt/forms/profiles.py:83
 msgid "Delete"
 msgstr "Sil"
 
@@ -1265,8 +1262,7 @@ msgstr "Açıklama"
 msgid "Description to show on overview screen, for current deck:"
 msgstr ""
 
-#: qt/aqt/forms/dyndconf.py:133 qt/aqt/forms/editaddon.py:40
-#: qt/aqt/forms/editcurrent.py:41 qt/aqt/forms/progress.py:40
+#: qt/aqt/forms/dyndconf.py:133 qt/aqt/forms/editaddon.py:40 qt/aqt/forms/editcurrent.py:41 qt/aqt/forms/progress.py:40
 msgid "Dialog"
 msgstr "Pencere"
 
@@ -1406,8 +1402,7 @@ msgstr ""
 msgid "Error running %s"
 msgstr "%s çalıştırma hatası"
 
-#: qt/aqt/deckbrowser.py:240 qt/aqt/exporting.py:120
-#: qt/aqt/forms/exporting.py:74
+#: qt/aqt/deckbrowser.py:240 qt/aqt/exporting.py:120 qt/aqt/forms/exporting.py:74
 msgid "Export"
 msgstr "Dışarıya Aktar"
 
@@ -1439,8 +1434,7 @@ msgstr "Alan adı:"
 msgid "Field:"
 msgstr "Alan:"
 
-#: qt/aqt/editor.py:184 qt/aqt/fields.py:23 qt/aqt/forms/changemodel.py:113
-#: qt/aqt/forms/fields.py:101
+#: qt/aqt/editor.py:184 qt/aqt/fields.py:23 qt/aqt/forms/changemodel.py:113 qt/aqt/forms/fields.py:101
 msgid "Fields"
 msgstr "Alanlar"
 
@@ -1620,8 +1614,7 @@ msgstr ""
 msgid "Header"
 msgstr "Başlık"
 
-#: qt/aqt/addcards.py:76 qt/aqt/clayout.py:340 qt/aqt/utils.py:206
-#: qt/aqt/utils.py:207
+#: qt/aqt/addcards.py:76 qt/aqt/clayout.py:340 qt/aqt/utils.py:206 qt/aqt/utils.py:207
 msgid "Help"
 msgstr "Yardım"
 
@@ -1681,8 +1674,7 @@ msgstr "İlk alanı mevcut not ile eşleşen satırları yok say"
 msgid "Ignore this update"
 msgstr "Bu güncelemeyi yoksay"
 
-#: qt/aqt/importing.py:103 qt/aqt/importing.py:197 qt/aqt/importing.py:319
-#: qt/aqt/forms/changemap.py:41 qt/aqt/forms/importing.py:103
+#: qt/aqt/importing.py:103 qt/aqt/importing.py:197 qt/aqt/importing.py:319 qt/aqt/forms/changemap.py:41 qt/aqt/forms/importing.py:103
 msgid "Import"
 msgstr "İçeri Aktar"
 
@@ -1957,8 +1949,7 @@ msgstr ""
 msgid "MathJax inline"
 msgstr ""
 
-#: pylib/anki/stats.py:211 pylib/anki/stats.py:342 pylib/anki/stats.py:362
-#: pylib/anki/stats.py:682 pylib/anki/stats.py:852
+#: pylib/anki/stats.py:211 pylib/anki/stats.py:342 pylib/anki/stats.py:362 pylib/anki/stats.py:682 pylib/anki/stats.py:852
 msgid "Mature"
 msgstr "Geçmiş"
 
@@ -2059,8 +2050,7 @@ msgstr "Yeni deste adı:"
 msgid "New interval"
 msgstr "Yeni süre"
 
-#: qt/aqt/clayout.py:533 qt/aqt/deckconf.py:148 qt/aqt/fields.py:97
-#: qt/aqt/main.py:288 qt/aqt/models.py:77
+#: qt/aqt/clayout.py:533 qt/aqt/deckconf.py:148 qt/aqt/fields.py:97 qt/aqt/main.py:288 qt/aqt/models.py:77
 msgid "New name:"
 msgstr "Yeni ad:"
 
@@ -2213,9 +2203,7 @@ msgstr "Optimize ediliyor..."
 msgid "Optional filter:"
 msgstr ""
 
-#: qt/aqt/clayout.py:109 qt/aqt/deckbrowser.py:238 qt/aqt/deckconf.py:37
-#: qt/aqt/dyndeckconf.py:25 qt/aqt/overview.py:246 qt/aqt/reviewer.py:712
-#: qt/aqt/forms/dyndconf.py:142 qt/aqt/forms/fields.py:109
+#: qt/aqt/clayout.py:109 qt/aqt/deckbrowser.py:238 qt/aqt/deckconf.py:37 qt/aqt/dyndeckconf.py:25 qt/aqt/overview.py:246 qt/aqt/reviewer.py:712 qt/aqt/forms/dyndconf.py:142 qt/aqt/forms/fields.py:109
 msgid "Options"
 msgstr "Seçenekler"
 
@@ -2486,8 +2474,7 @@ msgstr ""
 msgid "Remove formatting (Ctrl+R)"
 msgstr ""
 
-#: qt/aqt/deckbrowser.py:236 qt/aqt/deckconf.py:93 qt/aqt/models.py:55
-#: qt/aqt/forms/fields.py:104 qt/aqt/forms/profiles.py:82
+#: qt/aqt/deckbrowser.py:236 qt/aqt/deckconf.py:93 qt/aqt/models.py:55 qt/aqt/forms/fields.py:104 qt/aqt/forms/profiles.py:82
 msgid "Rename"
 msgstr "Yeniden Adlandır"
 
@@ -2617,8 +2604,7 @@ msgstr "Kaydet"
 msgid "Save Current Filter..."
 msgstr ""
 
-#: qt/aqt/stats.py:42 qt/aqt/stats.py:67 qt/aqt/stats.py:119
-#: qt/aqt/stats.py:150
+#: qt/aqt/stats.py:42 qt/aqt/stats.py:67 qt/aqt/stats.py:119 qt/aqt/stats.py:150
 msgid "Save PDF"
 msgstr "PDF Kaydet"
 
@@ -2636,8 +2622,7 @@ msgstr "Yeniden Planlama"
 msgid "Scope: %s"
 msgstr "Kapsam: %s"
 
-#: qt/aqt/browser.py:1980 qt/aqt/forms/browser.py:295
-#: qt/aqt/forms/dyndconf.py:136 qt/aqt/forms/dyndconf.py:140
+#: qt/aqt/browser.py:1980 qt/aqt/forms/browser.py:295 qt/aqt/forms/dyndconf.py:136 qt/aqt/forms/dyndconf.py:140
 msgid "Search"
 msgstr "Ara"
 
@@ -2702,11 +2687,8 @@ msgstr "Shift tuşu basılı tutuldu. Otomatik sekronu ve eklenti yüklemesini a
 msgid "Shift position of existing cards"
 msgstr "Varolan kartların yerini değiştir"
 
-#: qt/aqt/deckbrowser.py:326 qt/aqt/main.py:746 qt/aqt/overview.py:259
-#: qt/aqt/previewer.py:80 qt/aqt/previewer.py:85 qt/aqt/reviewer.py:561
-#: qt/aqt/reviewer.py:574 qt/aqt/reviewer.py:640 qt/aqt/toolbar.py:107
-#: qt/aqt/toolbar.py:114 qt/aqt/toolbar.py:121 qt/aqt/toolbar.py:128
-#: qt/aqt/toolbar.py:144
+#: qt/aqt/deckbrowser.py:326 qt/aqt/main.py:746 qt/aqt/overview.py:259 qt/aqt/previewer.py:80 qt/aqt/previewer.py:85 qt/aqt/reviewer.py:561 qt/aqt/reviewer.py:574 qt/aqt/reviewer.py:640
+#: qt/aqt/toolbar.py:107 qt/aqt/toolbar.py:114 qt/aqt/toolbar.py:121 qt/aqt/toolbar.py:128 qt/aqt/toolbar.py:144
 #, python-format
 msgid "Shortcut key: %s"
 msgstr "Kısayol tuşu: %s"
@@ -2999,8 +2981,12 @@ msgid "The provided search did not match any cards. Would you like to revise it?
 msgstr "Sağlanan arama, hiçbir kartla eşleşmedi. Gözden geçirmek ister misiniz?"
 
 #: qt/aqt/main.py:1319 qt/aqt/main.py:1338
-msgid "The requested change will require a full upload of the database when you next synchronize your collection. If you have reviews or other changes waiting on another device that haven't been synchronized here yet, they will be lost. Continue?"
-msgstr "İstenen değişiklik, koleksiyonunuzu bir sonraki senkronize ettiğinizde veritabanının tam bir şekilde yüklenmesini gerektirir. Başka bir cihazda henüz senkronize edilmemiş bekleyen incelemeler veya diğer değişiklikleriniz varsa, bunlar kaybolacaktır. Devam et?"
+msgid ""
+"The requested change will require a full upload of the database when you next synchronize your collection. If you have reviews or other changes waiting on another device that haven't been "
+"synchronized here yet, they will be lost. Continue?"
+msgstr ""
+"İstenen değişiklik, koleksiyonunuzu bir sonraki senkronize ettiğinizde veritabanının tam bir şekilde yüklenmesini gerektirir. Başka bir cihazda henüz senkronize edilmemiş bekleyen incelemeler veya "
+"diğer değişiklikleriniz varsa, bunlar kaybolacaktır. Devam et?"
 
 #: pylib/anki/stats.py:376
 msgid "The time taken to answer the questions."
@@ -3023,8 +3009,12 @@ msgid "This add-on is not compatible with your version of Anki."
 msgstr ""
 
 #: qt/aqt/importing.py:442
-msgid "This file does not appear to be a valid .apkg file. If you're getting this error from a file downloaded from AnkiWeb, chances are that your download failed. Please try again, and if the problem persists, please try again with a different browser."
-msgstr "Bu dosya geçerli bir .apkg dosyası gibi görünmüyor. Bu hatayı AnkiWeb'den indirilen bir dosyadan alıyorsanız, indirme başarısız olmuş olabilir. Lütfen tekrar deneyin ve sorun devam ederse lütfen farklı bir tarayıcıyla yeniden deneyin."
+msgid ""
+"This file does not appear to be a valid .apkg file. If you're getting this error from a file downloaded from AnkiWeb, chances are that your download failed. Please try again, and if the problem "
+"persists, please try again with a different browser."
+msgstr ""
+"Bu dosya geçerli bir .apkg dosyası gibi görünmüyor. Bu hatayı AnkiWeb'den indirilen bir dosyadan alıyorsanız, indirme başarısız olmuş olabilir. Lütfen tekrar deneyin ve sorun devam ederse lütfen "
+"farklı bir tarayıcıyla yeniden deneyin."
 
 #: qt/aqt/utils.py:406
 msgid "This file exists. Are you sure you want to overwrite it?"
@@ -3248,8 +3238,7 @@ msgstr "Sesinizi henüz kaydetmediniz."
 msgid "You must have at least one column."
 msgstr "En az bir sütun olmalıdır."
 
-#: pylib/anki/stats.py:212 pylib/anki/stats.py:343 pylib/anki/stats.py:363
-#: pylib/anki/stats.py:681
+#: pylib/anki/stats.py:212 pylib/anki/stats.py:343 pylib/anki/stats.py:363 pylib/anki/stats.py:681
 msgid "Young"
 msgstr "Genç"
 
@@ -3262,7 +3251,9 @@ msgid "Your changes will affect multiple decks. If you wish to change only the c
 msgstr ""
 
 #: qt/aqt/main.py:561
-msgid "Your collection file appears to be corrupt. This can happen when the file is copied or moved while Anki is open, or when the collection is stored on a network or cloud drive. If problems persist after restarting your computer, please open an automatic backup from the profile screen."
+msgid ""
+"Your collection file appears to be corrupt. This can happen when the file is copied or moved while Anki is open, or when the collection is stored on a network or cloud drive. If problems persist "
+"after restarting your computer, please open an automatic backup from the profile screen."
 msgstr ""
 
 #: qt/aqt/errors.py:99
@@ -3302,9 +3293,7 @@ msgstr ""
 msgid "d"
 msgstr ""
 
-#: qt/aqt/customstudy.py:90 qt/aqt/customstudy.py:94 qt/aqt/customstudy.py:97
-#: qt/aqt/forms/dconf.py:348 qt/aqt/forms/dconf.py:349
-#: qt/aqt/forms/dconf.py:356 qt/aqt/forms/dconf.py:368
+#: qt/aqt/customstudy.py:90 qt/aqt/customstudy.py:94 qt/aqt/customstudy.py:97 qt/aqt/forms/dconf.py:348 qt/aqt/forms/dconf.py:349 qt/aqt/forms/dconf.py:356 qt/aqt/forms/dconf.py:368
 #: qt/aqt/forms/reschedule.py:77
 msgid "days"
 msgstr "günler"
@@ -3380,77 +3369,63 @@ msgstr "tüm koleksiyon"
 msgid "~"
 msgstr ""
 
-#, fuzzy
 #~ msgid "Shortcut key: Left or Right arrow"
 #~ msgstr "Kısayol tuşu: Sol ok"
 
-#, python-format
 #~ msgid " (1 of %d)"
 #~ msgstr " (%d taneden: 1)"
 
-#, python-format
 #~ msgid "%(a)d of %(b)d note updated"
 #~ msgid_plural "%(a)d of %(b)d notes updated"
 #~ msgstr[0] "Toplam %(a)d içinden %(b)d not güncellendi."
 #~ msgstr[1] "Toplam %(a)d içinden %(b)d not güncellendi."
 
-#, python-format
 #~ msgid "%.01f cards/minute"
 #~ msgstr "%.01f kart/dakika"
 
-#, python-format
 #~ msgid "%d card deleted."
 #~ msgid_plural "%d cards deleted."
 #~ msgstr[0] "%d kart silindi."
 #~ msgstr[1] "%d kart silindi."
 
-#, python-format
 #~ msgid "%d media change to upload"
 #~ msgid_plural "%d media changes to upload"
 #~ msgstr[0] "%d medya değişikliği karşıya yükleniyor"
 #~ msgstr[1] "%d medya değişiklikleri karşıya yükleniyor"
 
-#, python-format
 #~ msgid "%d media file downloaded"
 #~ msgid_plural "%d media files downloaded"
 #~ msgstr[0] "%d medya dosyası indirildi"
 #~ msgstr[1] "%d medya dosyaları indirildi"
 
-#, python-format
 #~ msgid "%d review"
 #~ msgid_plural "%d reviews"
 #~ msgstr[0] "%d inceleme"
 #~ msgstr[1] "%d inceleme"
 
-#, python-format
 #~ msgid "%s day"
 #~ msgid_plural "%s days"
 #~ msgstr[0] "%s gün"
 #~ msgstr[1] "%s gün"
 
-#, python-format
 #~ msgid "%s hour"
 #~ msgid_plural "%s hours"
 #~ msgstr[0] "%s saat"
 #~ msgstr[1] "%s saat"
 
-#, python-format
 #~ msgid "%s minute"
 #~ msgid_plural "%s minutes"
 #~ msgstr[0] "%s dakika"
 #~ msgstr[1] "%s dakika"
 
-#, python-format
 #~ msgid "%s month"
 #~ msgid_plural "%s months"
 #~ msgstr[0] "%s ay"
 #~ msgstr[1] "%s ay"
 
-#, python-format
 #~ msgid "%s to delete:"
 #~ msgstr "%s silinecek"
 
-#, python-format
 #~ msgid "%s year"
 #~ msgid_plural "%s years"
 #~ msgstr[0] "%s yıl"
@@ -3459,13 +3434,11 @@ msgstr ""
 #~ msgid "504 gateway timeout error received. Please try temporarily disabling your antivirus."
 #~ msgstr "504 ağ geçidi zaman aşımı hatası alındı. Lütfen antivirüs uygulamanızı devre dışı bırakarak deneyin."
 
-#, python-format
 #~ msgid "<!--studied-->%d card"
 #~ msgid_plural "<!--studied-->%d cards"
 #~ msgstr[0] "<!--studied-->%d kart"
 #~ msgstr[1] "<!--studied-->%d kart"
 
-#, python-format
 #~ msgid ""
 #~ "<h1>Account Required</h1>\n"
 #~ "A free account is required to keep your collection synchronized. Please <a href=\"%s\">sign up</a> for an account, then enter your details below."
@@ -3588,31 +3561,26 @@ msgstr ""
 #~ msgid "Delete unused media?"
 #~ msgstr "Kullanılmayan ortamlar silinsin mi?"
 
-#, python-format
 #~ msgid "Deleted %d card with missing note."
 #~ msgid_plural "Deleted %d cards with missing note."
 #~ msgstr[0] "İçeriksiz %d kart silindi."
 #~ msgstr[1] "İçeriksiz %d kart silindi."
 
-#, python-format
 #~ msgid "Deleted %d card with missing template."
 #~ msgid_plural "Deleted %d cards with missing template."
 #~ msgstr[0] "Şablonu olmayan %d kart silindi."
 #~ msgstr[1] "Şablonu olmayan %d kartlar silindi."
 
-#, python-format
 #~ msgid "Deleted %d note with missing note type."
 #~ msgid_plural "Deleted %d notes with missing note type."
 #~ msgstr[0] "Not tipi belirlenmemiş %d not silindi."
 #~ msgstr[1] "Not tipi belirlenmemiş %d notlar silindi."
 
-#, python-format
 #~ msgid "Deleted %d note with no cards."
 #~ msgid_plural "Deleted %d notes with no cards."
 #~ msgstr[0] "Kart içermeyen  %d not silindi."
 #~ msgstr[1] "Kart içermeyen  %d notlar silindi."
 
-#, python-format
 #~ msgid "Deleted %d note with wrong field count."
 #~ msgid_plural "Deleted %d notes with wrong field count."
 #~ msgstr[0] "Hatalı alan sayılı %d not silindi."
@@ -3630,7 +3598,6 @@ msgstr ""
 #~ msgid "Edited"
 #~ msgstr "Düzenlendi"
 
-#, python-format
 #~ msgid ""
 #~ "Empty card numbers: %(c)s\n"
 #~ "Fields: %(f)s\n"
@@ -3652,13 +3619,11 @@ msgstr ""
 #~ msgid "First Review"
 #~ msgstr "İlk Gözden Geçirme"
 
-#, python-format
 #~ msgid "Fixed %d card with invalid properties."
 #~ msgid_plural "Fixed %d cards with invalid properties."
 #~ msgstr[0] "Geçersiz özelliklerle %d kart onarıldı."
 #~ msgstr[1] "Geçersiz özelliklerle %d kart onarıldı."
 
-#, python-format
 #~ msgid "Fixed note type: %s"
 #~ msgstr "Onarılan not türü: %s"
 
@@ -3701,7 +3666,9 @@ msgstr ""
 #~ msgid "Note: Some of the history is missing. For more information, please see the browser documentation."
 #~ msgstr "Not: Bazı tarihçeler eksik. Daha fazla bilgi için lütfen tarayıcı belgelerine bakın."
 
-#~ msgid "One or more notes were not imported, because they didn't generate any cards. This can happen when you have empty fields or when you have not mapped the content in the text file to the correct fields."
+#~ msgid ""
+#~ "One or more notes were not imported, because they didn't generate any cards. This can happen when you have empty fields or when you have not mapped the content in the text file to the correct "
+#~ "fields."
 #~ msgstr "Bir ya da daha fazla not içe aktarılamadı, çünkü kart oluşturmadılar. Bu boş alanlar olduğundan ya da metin dosyasındaki içeriğin doğru alanlarla eşleştirilmediğinden kaynaklanabilir."
 
 #~ msgid "Only one client can access AnkiWeb at a time. If a previous sync failed, please try again in a few minutes."
@@ -3740,7 +3707,6 @@ msgstr ""
 #~ msgid "Styling (shared between cards)"
 #~ msgstr "Şekillendirme (kartlar arasında paylaşılan)"
 
-#, python-format
 #~ msgid ""
 #~ "Syncing failed:\n"
 #~ "%s"
@@ -3772,7 +3738,6 @@ msgstr ""
 #~ msgid "The default deck can't be deleted."
 #~ msgstr "Varsayılan deste silinemez."
 
-#, python-format
 #~ msgid ""
 #~ "This folder stores all of your Anki data in a single location,\n"
 #~ "to make backups easy. To tell Anki to use a different location,\n"
