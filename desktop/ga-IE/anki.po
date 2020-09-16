@@ -1,19 +1,21 @@
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: anki\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-07-28 13:01+1000\n"
-"PO-Revision-Date: 2020-02-16 02:23\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2020-09-15 23:51+0000\n"
+"Last-Translator: josephmcg <josephmcginley@gmail.com>\n"
 "Language-Team: Irish\n"
 "Language: ga_IE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=5; plural=(n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : 4);\n"
-"X-Crowdin-Project: anki\n"
-"X-Crowdin-Language: ga-IE\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : 4;\n"
 "X-Crowdin-File: anki.pot\n"
+"X-Crowdin-Language: ga-IE\n"
+"X-Crowdin-Project: anki\n"
+"X-Generator: Pontoon\n"
 
 #: qt/aqt/importing.py:411
 msgid "    Invalid file. Please restore from backup."
@@ -50,9 +52,7 @@ msgstr[4] ""
 msgid "\"Segoe UI\""
 msgstr ""
 
-#: qt/aqt/forms/dconf.py:341 qt/aqt/forms/dconf.py:352
-#: qt/aqt/forms/dconf.py:357 qt/aqt/forms/dconf.py:360
-#: qt/aqt/forms/dconf.py:371 qt/aqt/forms/preferences.py:286
+#: qt/aqt/forms/dconf.py:341 qt/aqt/forms/dconf.py:352 qt/aqt/forms/dconf.py:357 qt/aqt/forms/dconf.py:360 qt/aqt/forms/dconf.py:371 qt/aqt/forms/preferences.py:286
 msgid "%"
 msgstr ""
 
@@ -137,8 +137,7 @@ msgstr[2] "%d grúpaí"
 msgstr[3] "%d grúpaí"
 msgstr[4] "%d grúpaí"
 
-#: qt/aqt/browser.py:1996 qt/aqt/browser.py:2004 qt/aqt/fields.py:123
-#: qt/aqt/models.py:100
+#: qt/aqt/browser.py:1996 qt/aqt/browser.py:2004 qt/aqt/fields.py:123 qt/aqt/models.py:100
 #, python-format
 msgid "%d note"
 msgid_plural "%d notes"
@@ -468,7 +467,9 @@ msgstr "<b>Cló</b>:"
 
 #: qt/aqt/addons.py:1400
 #, python-format
-msgid "<b>Important</b>: As add-ons are programs downloaded from the internet, they are potentially malicious.<b>You should only install add-ons you trust.</b><br><br>Are you sure you want to proceed with the installation of the following Anki add-on(s)?<br><br>%(names)s"
+msgid ""
+"<b>Important</b>: As add-ons are programs downloaded from the internet, they are potentially malicious.<b>You should only install add-ons you trust.</b><br><br>Are you sure you want to proceed with "
+"the installation of the following Anki add-on(s)?<br><br>%(names)s"
 msgstr ""
 
 #: qt/aqt/forms/findreplace.py:86
@@ -535,9 +536,7 @@ msgstr ""
 msgid "About Anki"
 msgstr "Maidir le Anki"
 
-#: qt/aqt/addcards.py:37 qt/aqt/addcards.py:67 qt/aqt/deckconf.py:89
-#: qt/aqt/models.py:53 qt/aqt/studydeck.py:46 qt/aqt/toolbar.py:112
-#: qt/aqt/forms/addcards.py:58 qt/aqt/forms/fields.py:102
+#: qt/aqt/addcards.py:37 qt/aqt/addcards.py:67 qt/aqt/deckconf.py:89 qt/aqt/models.py:53 qt/aqt/studydeck.py:46 qt/aqt/toolbar.py:112 qt/aqt/forms/addcards.py:58 qt/aqt/forms/fields.py:102
 #: qt/aqt/forms/profiles.py:81
 msgid "Add"
 msgstr "Cuir Leis"
@@ -607,8 +606,7 @@ msgstr "Forlíontáin"
 msgid "Add: %s"
 msgstr ""
 
-#: pylib/anki/stats.py:305 pylib/anki/importing/anki2.py:166
-#: qt/aqt/addcards.py:192
+#: pylib/anki/stats.py:305 pylib/anki/importing/anki2.py:166 qt/aqt/addcards.py:192
 msgid "Added"
 msgstr "Curtha leis"
 
@@ -675,8 +673,7 @@ msgstr ""
 msgid "An error occurred while opening %s"
 msgstr ""
 
-#: qt/aqt/forms/main.py:131 qt/aqt/forms/setgroup.py:38
-#: qt/aqt/forms/setlang.py:39
+#: qt/aqt/forms/main.py:131 qt/aqt/forms/setgroup.py:38 qt/aqt/forms/setlang.py:39
 msgid "Anki"
 msgstr ""
 
@@ -701,7 +698,9 @@ msgid "Anki could not read your profile data. Window sizes and your sync login d
 msgstr ""
 
 #: qt/aqt/profiles.py:323
-msgid "Anki could not rename your profile because it could not rename the profile folder on disk. Please ensure you have permission to write to Documents/Anki and no other programs are accessing your profile folders, then try again."
+msgid ""
+"Anki could not rename your profile because it could not rename the profile folder on disk. Please ensure you have permission to write to Documents/Anki and no other programs are accessing your "
+"profile folders, then try again."
 msgstr ""
 
 #: qt/aqt/clayout.py:608
@@ -792,7 +791,7 @@ msgstr ""
 
 #: pylib/anki/stats.py:419
 msgid "Average for days studied"
-msgstr ""
+msgstr "Meán (laethanta gníomhacha)"
 
 #: pylib/anki/stats.py:612
 msgid "Average interval"
@@ -929,8 +928,7 @@ msgstr ""
 msgid "Card was a leech."
 msgstr ""
 
-#: pylib/anki/stats.py:306 pylib/anki/stats.py:956 qt/aqt/editor.py:185
-#: qt/aqt/forms/changemodel.py:112
+#: pylib/anki/stats.py:306 pylib/anki/stats.py:956 qt/aqt/editor.py:185 qt/aqt/forms/changemodel.py:112
 msgid "Cards"
 msgstr "Cártaí"
 
@@ -1225,8 +1223,7 @@ msgstr ""
 msgid "Debug Console"
 msgstr ""
 
-#: qt/aqt/browser.py:733 qt/aqt/deckbrowser.py:155 qt/aqt/deckchooser.py:29
-#: qt/aqt/forms/importing.py:106
+#: qt/aqt/browser.py:733 qt/aqt/deckbrowser.py:155 qt/aqt/deckchooser.py:29 qt/aqt/forms/importing.py:106
 msgid "Deck"
 msgstr "Paca"
 
@@ -1254,9 +1251,8 @@ msgstr ""
 msgid "Delays until reviews are shown again."
 msgstr ""
 
-#: qt/aqt/deckbrowser.py:242 qt/aqt/deckconf.py:91 qt/aqt/models.py:57
-#: qt/aqt/reviewer.py:792 qt/aqt/forms/addons.py:77 qt/aqt/forms/browser.py:330
-#: qt/aqt/forms/fields.py:103 qt/aqt/forms/profiles.py:83
+#: qt/aqt/deckbrowser.py:242 qt/aqt/deckconf.py:91 qt/aqt/models.py:57 qt/aqt/reviewer.py:792 qt/aqt/forms/addons.py:77 qt/aqt/forms/browser.py:330 qt/aqt/forms/fields.py:103
+#: qt/aqt/forms/profiles.py:83
 msgid "Delete"
 msgstr "Scrios"
 
@@ -1316,8 +1312,7 @@ msgstr "Tuairisc"
 msgid "Description to show on overview screen, for current deck:"
 msgstr ""
 
-#: qt/aqt/forms/dyndconf.py:133 qt/aqt/forms/editaddon.py:40
-#: qt/aqt/forms/editcurrent.py:41 qt/aqt/forms/progress.py:40
+#: qt/aqt/forms/dyndconf.py:133 qt/aqt/forms/editaddon.py:40 qt/aqt/forms/editcurrent.py:41 qt/aqt/forms/progress.py:40
 msgid "Dialog"
 msgstr ""
 
@@ -1455,8 +1450,7 @@ msgstr ""
 msgid "Error running %s"
 msgstr ""
 
-#: qt/aqt/deckbrowser.py:240 qt/aqt/exporting.py:120
-#: qt/aqt/forms/exporting.py:74
+#: qt/aqt/deckbrowser.py:240 qt/aqt/exporting.py:120 qt/aqt/forms/exporting.py:74
 msgid "Export"
 msgstr ""
 
@@ -1491,8 +1485,7 @@ msgstr ""
 msgid "Field:"
 msgstr ""
 
-#: qt/aqt/editor.py:184 qt/aqt/fields.py:23 qt/aqt/forms/changemodel.py:113
-#: qt/aqt/forms/fields.py:101
+#: qt/aqt/editor.py:184 qt/aqt/fields.py:23 qt/aqt/forms/changemodel.py:113 qt/aqt/forms/fields.py:101
 msgid "Fields"
 msgstr ""
 
@@ -1672,8 +1665,7 @@ msgstr ""
 msgid "Header"
 msgstr ""
 
-#: qt/aqt/addcards.py:76 qt/aqt/clayout.py:340 qt/aqt/utils.py:206
-#: qt/aqt/utils.py:207
+#: qt/aqt/addcards.py:76 qt/aqt/clayout.py:340 qt/aqt/utils.py:206 qt/aqt/utils.py:207
 msgid "Help"
 msgstr ""
 
@@ -1733,8 +1725,7 @@ msgstr ""
 msgid "Ignore this update"
 msgstr ""
 
-#: qt/aqt/importing.py:103 qt/aqt/importing.py:197 qt/aqt/importing.py:319
-#: qt/aqt/forms/changemap.py:41 qt/aqt/forms/importing.py:103
+#: qt/aqt/importing.py:103 qt/aqt/importing.py:197 qt/aqt/importing.py:319 qt/aqt/forms/changemap.py:41 qt/aqt/forms/importing.py:103
 msgid "Import"
 msgstr ""
 
@@ -2009,8 +2000,7 @@ msgstr ""
 msgid "MathJax inline"
 msgstr ""
 
-#: pylib/anki/stats.py:211 pylib/anki/stats.py:342 pylib/anki/stats.py:362
-#: pylib/anki/stats.py:682 pylib/anki/stats.py:852
+#: pylib/anki/stats.py:211 pylib/anki/stats.py:342 pylib/anki/stats.py:362 pylib/anki/stats.py:682 pylib/anki/stats.py:852
 msgid "Mature"
 msgstr ""
 
@@ -2111,8 +2101,7 @@ msgstr ""
 msgid "New interval"
 msgstr ""
 
-#: qt/aqt/clayout.py:533 qt/aqt/deckconf.py:148 qt/aqt/fields.py:97
-#: qt/aqt/main.py:288 qt/aqt/models.py:77
+#: qt/aqt/clayout.py:533 qt/aqt/deckconf.py:148 qt/aqt/fields.py:97 qt/aqt/main.py:288 qt/aqt/models.py:77
 msgid "New name:"
 msgstr ""
 
@@ -2268,9 +2257,7 @@ msgstr ""
 msgid "Optional filter:"
 msgstr ""
 
-#: qt/aqt/clayout.py:109 qt/aqt/deckbrowser.py:238 qt/aqt/deckconf.py:37
-#: qt/aqt/dyndeckconf.py:25 qt/aqt/overview.py:246 qt/aqt/reviewer.py:712
-#: qt/aqt/forms/dyndconf.py:142 qt/aqt/forms/fields.py:109
+#: qt/aqt/clayout.py:109 qt/aqt/deckbrowser.py:238 qt/aqt/deckconf.py:37 qt/aqt/dyndeckconf.py:25 qt/aqt/overview.py:246 qt/aqt/reviewer.py:712 qt/aqt/forms/dyndconf.py:142 qt/aqt/forms/fields.py:109
 msgid "Options"
 msgstr ""
 
@@ -2544,8 +2531,7 @@ msgstr ""
 msgid "Remove formatting (Ctrl+R)"
 msgstr ""
 
-#: qt/aqt/deckbrowser.py:236 qt/aqt/deckconf.py:93 qt/aqt/models.py:55
-#: qt/aqt/forms/fields.py:104 qt/aqt/forms/profiles.py:82
+#: qt/aqt/deckbrowser.py:236 qt/aqt/deckconf.py:93 qt/aqt/models.py:55 qt/aqt/forms/fields.py:104 qt/aqt/forms/profiles.py:82
 msgid "Rename"
 msgstr ""
 
@@ -2675,8 +2661,7 @@ msgstr ""
 msgid "Save Current Filter..."
 msgstr ""
 
-#: qt/aqt/stats.py:42 qt/aqt/stats.py:67 qt/aqt/stats.py:119
-#: qt/aqt/stats.py:150
+#: qt/aqt/stats.py:42 qt/aqt/stats.py:67 qt/aqt/stats.py:119 qt/aqt/stats.py:150
 msgid "Save PDF"
 msgstr ""
 
@@ -2693,8 +2678,7 @@ msgstr ""
 msgid "Scope: %s"
 msgstr ""
 
-#: qt/aqt/browser.py:1980 qt/aqt/forms/browser.py:295
-#: qt/aqt/forms/dyndconf.py:136 qt/aqt/forms/dyndconf.py:140
+#: qt/aqt/browser.py:1980 qt/aqt/forms/browser.py:295 qt/aqt/forms/dyndconf.py:136 qt/aqt/forms/dyndconf.py:140
 msgid "Search"
 msgstr ""
 
@@ -2759,11 +2743,8 @@ msgstr ""
 msgid "Shift position of existing cards"
 msgstr ""
 
-#: qt/aqt/deckbrowser.py:326 qt/aqt/main.py:746 qt/aqt/overview.py:259
-#: qt/aqt/previewer.py:80 qt/aqt/previewer.py:85 qt/aqt/reviewer.py:561
-#: qt/aqt/reviewer.py:574 qt/aqt/reviewer.py:640 qt/aqt/toolbar.py:107
-#: qt/aqt/toolbar.py:114 qt/aqt/toolbar.py:121 qt/aqt/toolbar.py:128
-#: qt/aqt/toolbar.py:144
+#: qt/aqt/deckbrowser.py:326 qt/aqt/main.py:746 qt/aqt/overview.py:259 qt/aqt/previewer.py:80 qt/aqt/previewer.py:85 qt/aqt/reviewer.py:561 qt/aqt/reviewer.py:574 qt/aqt/reviewer.py:640
+#: qt/aqt/toolbar.py:107 qt/aqt/toolbar.py:114 qt/aqt/toolbar.py:121 qt/aqt/toolbar.py:128 qt/aqt/toolbar.py:144
 #, python-format
 msgid "Shortcut key: %s"
 msgstr ""
@@ -3056,7 +3037,9 @@ msgid "The provided search did not match any cards. Would you like to revise it?
 msgstr ""
 
 #: qt/aqt/main.py:1319 qt/aqt/main.py:1338
-msgid "The requested change will require a full upload of the database when you next synchronize your collection. If you have reviews or other changes waiting on another device that haven't been synchronized here yet, they will be lost. Continue?"
+msgid ""
+"The requested change will require a full upload of the database when you next synchronize your collection. If you have reviews or other changes waiting on another device that haven't been "
+"synchronized here yet, they will be lost. Continue?"
 msgstr ""
 
 #: pylib/anki/stats.py:376
@@ -3080,7 +3063,9 @@ msgid "This add-on is not compatible with your version of Anki."
 msgstr ""
 
 #: qt/aqt/importing.py:442
-msgid "This file does not appear to be a valid .apkg file. If you're getting this error from a file downloaded from AnkiWeb, chances are that your download failed. Please try again, and if the problem persists, please try again with a different browser."
+msgid ""
+"This file does not appear to be a valid .apkg file. If you're getting this error from a file downloaded from AnkiWeb, chances are that your download failed. Please try again, and if the problem "
+"persists, please try again with a different browser."
 msgstr ""
 
 #: qt/aqt/utils.py:406
@@ -3305,8 +3290,7 @@ msgstr ""
 msgid "You must have at least one column."
 msgstr ""
 
-#: pylib/anki/stats.py:212 pylib/anki/stats.py:343 pylib/anki/stats.py:363
-#: pylib/anki/stats.py:681
+#: pylib/anki/stats.py:212 pylib/anki/stats.py:343 pylib/anki/stats.py:363 pylib/anki/stats.py:681
 msgid "Young"
 msgstr ""
 
@@ -3319,7 +3303,9 @@ msgid "Your changes will affect multiple decks. If you wish to change only the c
 msgstr ""
 
 #: qt/aqt/main.py:561
-msgid "Your collection file appears to be corrupt. This can happen when the file is copied or moved while Anki is open, or when the collection is stored on a network or cloud drive. If problems persist after restarting your computer, please open an automatic backup from the profile screen."
+msgid ""
+"Your collection file appears to be corrupt. This can happen when the file is copied or moved while Anki is open, or when the collection is stored on a network or cloud drive. If problems persist "
+"after restarting your computer, please open an automatic backup from the profile screen."
 msgstr ""
 
 #: qt/aqt/errors.py:99
@@ -3359,9 +3345,7 @@ msgstr ""
 msgid "d"
 msgstr ""
 
-#: qt/aqt/customstudy.py:90 qt/aqt/customstudy.py:94 qt/aqt/customstudy.py:97
-#: qt/aqt/forms/dconf.py:348 qt/aqt/forms/dconf.py:349
-#: qt/aqt/forms/dconf.py:356 qt/aqt/forms/dconf.py:368
+#: qt/aqt/customstudy.py:90 qt/aqt/customstudy.py:94 qt/aqt/customstudy.py:97 qt/aqt/forms/dconf.py:348 qt/aqt/forms/dconf.py:349 qt/aqt/forms/dconf.py:356 qt/aqt/forms/dconf.py:368
 #: qt/aqt/forms/reschedule.py:77
 msgid "days"
 msgstr ""
@@ -3437,15 +3421,12 @@ msgstr "an cnuasach ar fad"
 msgid "~"
 msgstr ""
 
-#, python-format
 #~ msgid " (1 of %d)"
 #~ msgstr " (1 as %d)"
 
-#, python-format
 #~ msgid "%.01f cards/minute"
 #~ msgstr "%.01f cártaí/nóiméad"
 
-#, python-format
 #~ msgid "%d card deleted."
 #~ msgid_plural "%d cards deleted."
 #~ msgstr[0] "%d cárta scriosta."
@@ -3454,7 +3435,6 @@ msgstr ""
 #~ msgstr[3] "%d cártaí scriosta."
 #~ msgstr[4] "%d cártaí scriosta."
 
-#, python-format
 #~ msgid "%s day"
 #~ msgid_plural "%s days"
 #~ msgstr[0] "%s lá"
@@ -3463,7 +3443,6 @@ msgstr ""
 #~ msgstr[3] "%s laethanta"
 #~ msgstr[4] "%s laethanta"
 
-#, python-format
 #~ msgid "%s hour"
 #~ msgid_plural "%s hours"
 #~ msgstr[0] "%s uair"
@@ -3472,7 +3451,6 @@ msgstr ""
 #~ msgstr[3] "%s uaireanta"
 #~ msgstr[4] "%s uaireanta"
 
-#, python-format
 #~ msgid "%s minute"
 #~ msgid_plural "%s minutes"
 #~ msgstr[0] "%s nóiméad"
@@ -3481,7 +3459,6 @@ msgstr ""
 #~ msgstr[3] "%s nóiméid"
 #~ msgstr[4] "%s nóiméid"
 
-#, python-format
 #~ msgid "%s month"
 #~ msgid_plural "%s months"
 #~ msgstr[0] "%s mí"
@@ -3490,7 +3467,6 @@ msgstr ""
 #~ msgstr[3] "%s míonna"
 #~ msgstr[4] "%s míonna"
 
-#, python-format
 #~ msgid "%s year"
 #~ msgid_plural "%s years"
 #~ msgstr[0] "%s bliain"
@@ -3499,11 +3475,9 @@ msgstr ""
 #~ msgstr[3] "%s blianta"
 #~ msgstr[4] "%s blianta"
 
-#, python-format
 #~ msgid "%smo"
 #~ msgstr "%smí"
 
-#, python-format
 #~ msgid "%sy"
 #~ msgstr "%sb"
 
