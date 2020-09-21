@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anki\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-28 13:01+1000\n"
+"POT-Creation-Date: 2020-09-21 12:06+1000\n"
 "PO-Revision-Date: 2020-06-09 21:52+0200\n"
 "Last-Translator: Jose Riha <jose1711@gmail.com>\n"
 "Language-Team: Slovak\n"
@@ -30,15 +30,15 @@ msgstr "Nedá sa importovať - súbor je iba na čítanie."
 msgid " (disabled)"
 msgstr " (zakázané)"
 
-#: qt/aqt/clayout.py:641
+#: qt/aqt/clayout.py:692
 msgid " (off)"
 msgstr " (zakázať)"
 
-#: qt/aqt/clayout.py:639
+#: qt/aqt/clayout.py:690
 msgid " (on)"
 msgstr " (povoliť)"
 
-#: qt/aqt/deckbrowser.py:297
+#: qt/aqt/deckbrowser.py:289
 #, python-format
 msgid " It has %d card."
 msgid_plural " It has %d cards."
@@ -47,38 +47,38 @@ msgstr[1] " Má %d kartu."
 msgstr[2] " Má %d karty."
 
 #. T: include a font for your language on Windows, eg: "Segoe UI", "MS Mincho"
-#: qt/aqt/webview.py:382
+#: qt/aqt/webview.py:368
 msgid "\"Segoe UI\""
 msgstr "\"Segoe UI\""
 
 #: qt/aqt/forms/dconf.py:341 qt/aqt/forms/dconf.py:352
 #: qt/aqt/forms/dconf.py:357 qt/aqt/forms/dconf.py:360
-#: qt/aqt/forms/dconf.py:371 qt/aqt/forms/preferences.py:286
+#: qt/aqt/forms/dconf.py:371 qt/aqt/forms/preferences.py:287
 msgid "%"
 msgstr "%"
 
-#: pylib/anki/stats.py:790 pylib/anki/stats.py:812
+#: pylib/anki/stats.py:796 pylib/anki/stats.py:818
 msgid "% Correct"
 msgstr "% Správne"
 
-#: pylib/anki/stats.py:1106
+#: pylib/anki/stats.py:1112
 #, python-format
 msgid "%(a)0.1f %(b)s/day"
 msgstr "%(a)0.1f %(b)s/deň"
 
 #. T: name is a card type name. n it's order in the list of card type.
 #. T: this is shown in browser's filter, when seeing the list of card type of a note type.
-#: qt/aqt/browser.py:1352
+#: qt/aqt/browser.py:1355
 #, python-format
 msgid "%(n)d: %(name)s"
 msgstr "%(n)d: %(name)s"
 
-#: pylib/anki/stats.py:414
+#: pylib/anki/stats.py:418
 #, python-format
 msgid "%(tot)s %(unit)s"
 msgstr "%(tot)s %(unit)s"
 
-#: pylib/anki/stats.py:256 pylib/anki/stats.py:314 qt/aqt/clayout.py:507
+#: pylib/anki/stats.py:260 pylib/anki/stats.py:318 qt/aqt/clayout.py:558
 #, python-format
 msgid "%d card"
 msgid_plural "%d cards"
@@ -86,7 +86,7 @@ msgstr[0] "%d kariet"
 msgstr[1] "%d karta"
 msgstr[2] "%d karty"
 
-#: qt/aqt/exporting.py:186
+#: qt/aqt/exporting.py:192
 #, python-format
 msgid "%d card exported."
 msgid_plural "%d cards exported."
@@ -118,7 +118,7 @@ msgstr[0] "%d balíčkov aktualizovaných."
 msgstr[1] "%d balíček aktualizovaný."
 msgstr[2] "%d balíčky aktualizované."
 
-#: qt/aqt/browser.py:1995
+#: qt/aqt/browser.py:1987
 #, python-format
 msgid "%d group"
 msgid_plural "%d groups"
@@ -126,8 +126,8 @@ msgstr[0] "%d skupín"
 msgstr[1] "%d skupina"
 msgstr[2] "%d skupiny"
 
-#: qt/aqt/browser.py:1996 qt/aqt/browser.py:2004 qt/aqt/fields.py:123
-#: qt/aqt/models.py:100
+#: qt/aqt/browser.py:1988 qt/aqt/browser.py:1996 qt/aqt/fields.py:123
+#: qt/aqt/models.py:107
 #, python-format
 msgid "%d note"
 msgid_plural "%d notes"
@@ -143,7 +143,7 @@ msgstr[0] "%d poznámok pridaných"
 msgstr[1] "%d poznámka pridaná"
 msgstr[2] "%d poznámky pridané"
 
-#: qt/aqt/browser.py:1567
+#: qt/aqt/browser.py:1570
 #, python-format
 msgid "%d note deleted."
 msgid_plural "%d notes deleted."
@@ -151,7 +151,7 @@ msgstr[0] "%d poznámok odstránených."
 msgstr[1] "%d poznámka odstránená."
 msgstr[2] "%d poznámky odstránené."
 
-#: qt/aqt/exporting.py:179
+#: qt/aqt/exporting.py:183
 #, python-format
 msgid "%d note exported."
 msgid_plural "%d notes exported."
@@ -183,7 +183,7 @@ msgstr[0] "%d poznámka aktualizovaná"
 msgstr[1] "%d poznámky aktualizované"
 msgstr[2] "%d poznámky aktualizované"
 
-#: qt/aqt/browser.py:820
+#: qt/aqt/browser.py:823
 #, python-format
 msgid "%d selected"
 msgid_plural "%d selected"
@@ -204,7 +204,7 @@ msgstr[0] "%s minút."
 msgstr[1] "%s minútu."
 msgstr[2] "%s minúty."
 
-#: qt/aqt/main.py:1198
+#: qt/aqt/main.py:1220
 #, python-format
 msgid "%s second"
 msgid_plural "%s seconds"
@@ -212,11 +212,11 @@ msgstr[0] "%s sekúnd"
 msgstr[1] "%s sekunda"
 msgstr[2] "%s sekundy"
 
-#: qt/aqt/forms/main.py:139
+#: qt/aqt/forms/main.py:140
 msgid "&About..."
 msgstr "&O aplikácii..."
 
-#: qt/aqt/forms/main.py:145
+#: qt/aqt/forms/main.py:146
 msgid "&Browse and Install..."
 msgstr "&Prehliadať a inštalovať..."
 
@@ -224,7 +224,7 @@ msgstr "&Prehliadať a inštalovať..."
 msgid "&Cards"
 msgstr "&Karty"
 
-#: qt/aqt/forms/main.py:146
+#: qt/aqt/forms/main.py:147
 msgid "&Check Database"
 msgstr "&Skontrolovať databázu"
 
@@ -232,7 +232,7 @@ msgstr "&Skontrolovať databázu"
 msgid "&Cram..."
 msgstr "&Drviť sa..."
 
-#: qt/aqt/forms/browser.py:298 qt/aqt/forms/main.py:133
+#: qt/aqt/forms/browser.py:298 qt/aqt/forms/main.py:134
 msgid "&Edit"
 msgstr "&Upraviť"
 
@@ -240,11 +240,11 @@ msgstr "&Upraviť"
 msgid "&Export Notes..."
 msgstr "&Exportovať poznámky..."
 
-#: qt/aqt/forms/main.py:149
+#: qt/aqt/forms/main.py:150
 msgid "&Export..."
 msgstr "&Exportovať..."
 
-#: qt/aqt/forms/main.py:134
+#: qt/aqt/forms/main.py:135
 msgid "&File"
 msgstr "&Súbor"
 
@@ -256,15 +256,15 @@ msgstr "&Nájsť"
 msgid "&Go"
 msgstr "&Prejsť na"
 
-#: qt/aqt/forms/browser.py:312 qt/aqt/forms/main.py:147
+#: qt/aqt/forms/browser.py:312 qt/aqt/forms/main.py:148
 msgid "&Guide..."
 msgstr "&Príručka..."
 
-#: qt/aqt/forms/browser.py:300 qt/aqt/forms/main.py:132
+#: qt/aqt/forms/browser.py:300 qt/aqt/forms/main.py:133
 msgid "&Help"
 msgstr "&Pomocník"
 
-#: qt/aqt/forms/main.py:150
+#: qt/aqt/forms/main.py:151
 msgid "&Import..."
 msgstr "&Importovať..."
 
@@ -284,11 +284,11 @@ msgstr "&Nasledujúca karta"
 msgid "&Notes"
 msgstr "Poz&námky"
 
-#: qt/aqt/forms/main.py:143
+#: qt/aqt/forms/main.py:144
 msgid "&Open Add-ons Folder..."
 msgstr "&Otvoriť priečinok s doplnkami..."
 
-#: qt/aqt/forms/main.py:137
+#: qt/aqt/forms/main.py:138
 msgid "&Preferences..."
 msgstr "&Nastavenia..."
 
@@ -300,19 +300,19 @@ msgstr "Pre&dchádzajúca karta"
 msgid "&Reschedule..."
 msgstr "&Preplánovať..."
 
-#: qt/aqt/forms/main.py:144
+#: qt/aqt/forms/main.py:145
 msgid "&Support Anki..."
 msgstr "Podporte &Anki..."
 
-#: qt/aqt/forms/main.py:148
+#: qt/aqt/forms/main.py:149
 msgid "&Switch Profile"
 msgstr "&Prepnúť profil"
 
-#: qt/aqt/forms/main.py:135
+#: qt/aqt/forms/main.py:136
 msgid "&Tools"
 msgstr "&Nástroje"
 
-#: qt/aqt/forms/browser.py:306 qt/aqt/forms/main.py:140
+#: qt/aqt/forms/browser.py:306 qt/aqt/forms/main.py:141
 msgid "&Undo"
 msgstr "&Vrátiť späť"
 
@@ -321,32 +321,32 @@ msgstr "&Vrátiť späť"
 msgid "'%(row)s' had %(num1)d fields, expected %(num2)d"
 msgstr "'%(row)s' malo %(num1)d polí, namiesto očakávaných %(num2)d"
 
-#: pylib/anki/stats.py:152
+#: pylib/anki/stats.py:154
 #, python-format
 msgid "(%s correct)"
 msgstr "(%s správne)"
 
-#: qt/aqt/addcards.py:148
+#: qt/aqt/addcards.py:149
 msgid "(Note deleted)"
 msgstr "(Poznámka odstránená)"
 
-#: qt/aqt/addons.py:745
+#: qt/aqt/addons.py:746
 msgid "(disabled)"
 msgstr "(vypnuté)"
 
-#: pylib/anki/schedv2.py:1396
+#: pylib/anki/schedv2.py:1261
 msgid "(end)"
 msgstr "(koniec)"
 
-#: qt/aqt/browser.py:364
+#: qt/aqt/browser.py:367
 msgid "(filtered)"
 msgstr "(filtrované)"
 
-#: qt/aqt/browser.py:331
+#: qt/aqt/browser.py:334
 msgid "(learning)"
 msgstr "(učí sa)"
 
-#: qt/aqt/browser.py:329 qt/aqt/browser.py:335
+#: qt/aqt/browser.py:332 qt/aqt/browser.py:338
 msgid "(new)"
 msgstr "nový"
 
@@ -355,11 +355,11 @@ msgstr "nový"
 msgid "(parent limit: %d)"
 msgstr "(rodičovský limit: %d)"
 
-#: qt/aqt/previewer.py:159
+#: qt/aqt/previewer.py:162
 msgid "(please select 1 card)"
 msgstr "(prosím, vyberte si 1 kartu)"
 
-#: qt/aqt/addons.py:747
+#: qt/aqt/addons.py:748
 #, python-format
 msgid "(requires %s)"
 msgstr "(vyžaduje %s)"
@@ -372,36 +372,36 @@ msgstr ".anki súbory pochádzajú z veľmi starej verzie Anki. Môžete ich imp
 msgid ".anki2 files are not directly importable - please import the .apkg or .zip file you have received instead."
 msgstr ".anki2 súbory sa nedajú priamo importovať - importujte, prosím, miesto nich súbor .apkg alebo .zip, ktorý ste obdržali."
 
-#: pylib/anki/stats.py:943 qt/aqt/forms/stats.py:82
+#: pylib/anki/stats.py:949 qt/aqt/forms/stats.py:82
 msgid "1 month"
 msgstr "1 mesiac"
 
-#: pylib/anki/stats.py:943 qt/aqt/forms/stats.py:83
+#: pylib/anki/stats.py:949 qt/aqt/forms/stats.py:83
 msgid "1 year"
 msgstr "1 rok"
 
-#: pylib/anki/stats.py:804
+#: pylib/anki/stats.py:810
 msgid "10AM"
 msgstr "10.00"
 
-#: pylib/anki/stats.py:806
+#: pylib/anki/stats.py:812
 msgid "10PM"
 msgstr "22.00"
 
-#: pylib/anki/stats.py:807
+#: pylib/anki/stats.py:813
 msgid "3AM"
 msgstr "3.00"
 
-#: pylib/anki/stats.py:803
+#: pylib/anki/stats.py:809
 msgid "4AM"
 msgstr "4.00"
 
-#: pylib/anki/stats.py:805
+#: pylib/anki/stats.py:811
 msgid "4PM"
 msgstr "16.00"
 
 #. T: Symbols separating first and second column in a statistics table. Eg in "Total:    3 reviews".
-#: pylib/anki/stats.py:892
+#: pylib/anki/stats.py:898
 msgid ":"
 msgstr ":"
 
@@ -410,7 +410,7 @@ msgstr ":"
 msgid "<a href='%s'>Visit website</a>"
 msgstr "<a href='%s'>Navštíviť webovú stránku</a>"
 
-#: pylib/anki/stats.py:404
+#: pylib/anki/stats.py:408
 #, python-format
 msgid "<b>%(pct)d%%</b> (%(x)s of %(y)s)"
 msgstr "<b>%(pct)d%%</b> (%(x)s z %(y)s)"
@@ -423,7 +423,7 @@ msgstr "<b>Zálohy</b><br>Anki vytvorí zálohu vašej zbierky pri každom zatvo
 msgid "<b>Export format</b>:"
 msgstr "<b>Formát exportu</b>:"
 
-#: qt/aqt/forms/findreplace.py:84
+#: qt/aqt/forms/findreplace.py:87
 msgid "<b>Find</b>:"
 msgstr "<b>Nájsť</b>:"
 
@@ -435,12 +435,12 @@ msgstr "<b>Veľkosť písma</b>:"
 msgid "<b>Font</b>:"
 msgstr "<b>Písmo</b>:"
 
-#: qt/aqt/addons.py:1400
+#: qt/aqt/addons.py:1410
 #, python-format
 msgid "<b>Important</b>: As add-ons are programs downloaded from the internet, they are potentially malicious.<b>You should only install add-ons you trust.</b><br><br>Are you sure you want to proceed with the installation of the following Anki add-on(s)?<br><br>%(names)s"
 msgstr "<b>Dôležité</b>: Keďže doplnky sú programy stiahnuté z internetu sú potenciálne nebezpečné.<b>Mali by ste inštalovať len doplnky, ktorým dôverujete.</b><br><br>Naozaj chcete pokračovať v inštalácií nasledujúcich doplnkov pre Anki?<br><br>%(names)s"
 
-#: qt/aqt/forms/findreplace.py:86
+#: qt/aqt/forms/findreplace.py:89
 msgid "<b>In</b>:"
 msgstr "<b>V</b>:"
 
@@ -452,19 +452,19 @@ msgstr "<b>Zahrnúť</b>:"
 msgid "<b>Line Size</b>:"
 msgstr "<b>Veľkosť riadka</b>:"
 
-#: qt/aqt/addons.py:1424
+#: qt/aqt/addons.py:1434
 msgid "<b>Please restart Anki to complete the installation.</b>"
 msgstr "<b>Pre dokončenie inštalácie reštartujte, prosím, Anki.</b>"
 
-#: qt/aqt/forms/findreplace.py:85
+#: qt/aqt/forms/findreplace.py:88
 msgid "<b>Replace With</b>:"
 msgstr "<b>Nahradiť</b>:"
 
-#: qt/aqt/forms/preferences.py:299
+#: qt/aqt/forms/preferences.py:300
 msgid "<b>Synchronisation</b>"
 msgstr "<b>Synchronizácia</b>"
 
-#: qt/aqt/preferences.py:187
+#: qt/aqt/preferences.py:188
 msgid ""
 "<b>Synchronization</b><br>\n"
 "Not currently enabled; click the sync button in the main window to enable."
@@ -481,19 +481,19 @@ msgstr "<h1>Anki aktualizované</h1>Vyšla nová verzia Anki %s.<br><br>"
 msgid "<ignored>"
 msgstr "<ignorované>"
 
-#: qt/aqt/main.py:1510
+#: qt/aqt/main.py:1534
 msgid "<non-unicode text>"
 msgstr "<text, ktorý nie je v unicode>"
 
-#: qt/aqt/browser.py:755
+#: qt/aqt/browser.py:758
 msgid "<type here to search; hit enter to show current deck>"
 msgstr "<zadajte text, ktorý chcete vyhľadať; stlačením klávesy enter zobrazíte aktuálny balíček>"
 
-#: qt/aqt/about.py:222
+#: qt/aqt/about.py:224
 msgid "A big thanks to all the people who have provided suggestions, bug reports and donations."
 msgstr "Veľké poďakovanie všetkým ľuďom, ktorí nám poskytli návrhy na zlepšenie, nahlásili chyby a darovali finančné prostriedky."
 
-#: pylib/anki/stats.py:876
+#: pylib/anki/stats.py:882
 msgid "A card's <i>ease</i> is the size of the next interval when you answer \"good\" on a review."
 msgstr "<i>Jednoduchosť</i>&nbsp karty je dĺžka nasledujúceho intervalu (oproti aktuálnemu), pokiaľ pri skúšaní odpoviete \"Dobre\"."
 
@@ -506,26 +506,26 @@ msgstr "Prerušené: %s"
 msgid "About Anki"
 msgstr "O Anki"
 
-#: qt/aqt/addcards.py:37 qt/aqt/addcards.py:67 qt/aqt/deckconf.py:89
-#: qt/aqt/models.py:53 qt/aqt/studydeck.py:46 qt/aqt/toolbar.py:112
+#: qt/aqt/addcards.py:38 qt/aqt/addcards.py:68 qt/aqt/deckconf.py:89
+#: qt/aqt/models.py:54 qt/aqt/studydeck.py:46 qt/aqt/toolbar.py:112
 #: qt/aqt/forms/addcards.py:58 qt/aqt/forms/fields.py:102
 #: qt/aqt/forms/profiles.py:81
 msgid "Add"
 msgstr "Pridať"
 
-#: qt/aqt/addcards.py:70
+#: qt/aqt/addcards.py:71
 msgid "Add (shortcut: ctrl+enter)"
 msgstr "Pridať (skratka: ctrl+enter)"
 
-#: qt/aqt/clayout.py:623
+#: qt/aqt/clayout.py:674
 msgid "Add Card Type..."
 msgstr "Pridať typ karty..."
 
-#: qt/aqt/clayout.py:345 qt/aqt/forms/addfield.py:61
+#: qt/aqt/clayout.py:389 qt/aqt/forms/addfield.py:61
 msgid "Add Field"
 msgstr "Pridať pole"
 
-#: qt/aqt/editor.py:703
+#: qt/aqt/editor.py:709
 msgid "Add Media"
 msgstr "Pridať médiá"
 
@@ -541,7 +541,7 @@ msgstr "Pridať typ poznámky"
 msgid "Add Notes..."
 msgstr "Pridať poznámky..."
 
-#: qt/aqt/browser.py:1637
+#: qt/aqt/browser.py:1626
 msgid "Add Tags"
 msgstr "Pridať štítky"
 
@@ -549,41 +549,41 @@ msgstr "Pridať štítky"
 msgid "Add Tags..."
 msgstr "Pridať štítky..."
 
-#: qt/aqt/browser.py:167
+#: qt/aqt/browser.py:170
 msgid "Add-on"
 msgstr "Doplnok"
 
-#: qt/aqt/addons.py:898
+#: qt/aqt/addons.py:902
 msgid "Add-on has no configuration."
 msgstr "Doplnok nemá žiadne nastavenia."
 
-#: qt/aqt/addons.py:1441
+#: qt/aqt/addons.py:1451
 msgid "Add-on installation error"
 msgstr "Chyba pri inštalovaní doplnku"
 
-#: qt/aqt/addons.py:820
+#: qt/aqt/addons.py:823
 msgid "Add-on was not downloaded from AnkiWeb."
 msgstr "Doplnok nebol stiahnutý z AnkiWebu."
 
-#: qt/aqt/main.py:1573
+#: qt/aqt/main.py:1597
 msgid "Add-on will be installed when a profile is opened."
 msgstr "Doplnok bude nainštalovaný pri otvorení profilu."
 
-#: qt/aqt/forms/main.py:155
+#: qt/aqt/forms/main.py:156
 msgid "Add-ons"
 msgstr "Doplnky"
 
-#: qt/aqt/models.py:199
+#: qt/aqt/models.py:208
 #, python-format
 msgid "Add: %s"
 msgstr "Pridať: %s"
 
-#: pylib/anki/stats.py:305 pylib/anki/importing/anki2.py:166
-#: qt/aqt/addcards.py:192
+#: pylib/anki/stats.py:309 pylib/anki/importing/anki2.py:166
+#: qt/aqt/addcards.py:193
 msgid "Added"
 msgstr "Pridané"
 
-#: qt/aqt/browser.py:1262
+#: qt/aqt/browser.py:1265
 msgid "Added Today"
 msgstr "Pridané dnes"
 
@@ -592,24 +592,24 @@ msgstr "Pridané dnes"
 msgid "Added duplicate with first field: %s"
 msgstr "Pridaný duplikát s prvým poľom: %s"
 
-#: qt/aqt/reviewer.py:617
+#: qt/aqt/reviewer.py:629 qt/aqt/reviewer.py:633 qt/aqt/reviewer.py:636
 msgid "Again"
 msgstr "Znovu"
 
-#: qt/aqt/browser.py:1264
+#: qt/aqt/browser.py:1267
 msgid "Again Today"
 msgstr "Dnes znovu"
 
-#: pylib/anki/stats.py:150
+#: pylib/anki/stats.py:152
 #, python-format
 msgid "Again count: %s"
 msgstr "Počet stlačení \"Znovu\": %s"
 
-#: qt/aqt/overview.py:134
+#: qt/aqt/overview.py:133
 msgid "All Buried Cards"
 msgstr "Všetky preskočené karty"
 
-#: qt/aqt/browser.py:1345
+#: qt/aqt/browser.py:1348
 msgid "All Card Types"
 msgstr "Všetky typy karet"
 
@@ -617,19 +617,19 @@ msgstr "Všetky typy karet"
 msgid "All Decks"
 msgstr "Všetky balíčky"
 
-#: qt/aqt/browser.py:1885
+#: qt/aqt/browser.py:1877
 msgid "All Fields"
 msgstr "Všetky polia"
 
-#: qt/aqt/forms/customstudy.py:117
+#: qt/aqt/forms/customstudy.py:118
 msgid "All cards in random order (don't reschedule)"
 msgstr "Všetky kartičky v náhodnom poradí (neprehadzovať)"
 
-#: qt/aqt/main.py:307
+#: qt/aqt/main.py:322
 msgid "All cards, notes, and media for this profile will be deleted. Are you sure?"
 msgstr "Všetky karty, poznámky a médiá pre tento profil budú odstránené. Ste si istý?"
 
-#: qt/aqt/forms/customstudy.py:115
+#: qt/aqt/forms/customstudy.py:116
 msgid "All review cards in random order"
 msgstr "Všetky kartičky na opakovanie v náhodnom poradí"
 
@@ -641,41 +641,41 @@ msgstr "Povoliť HTML v poliach"
 msgid "Always include question side when replaying audio"
 msgstr "Vždy zahrnúť stranu s otázkou pri prehrávaní zvuku"
 
-#: qt/aqt/editor.py:841
+#: qt/aqt/editor.py:847
 #, python-format
 msgid "An error occurred while opening %s"
 msgstr "Pri otváraní %s došlo k chybe"
 
-#: qt/aqt/forms/main.py:131 qt/aqt/forms/setgroup.py:38
+#: qt/aqt/forms/main.py:132 qt/aqt/forms/setgroup.py:38
 #: qt/aqt/forms/setlang.py:39
 msgid "Anki"
 msgstr "Anki"
 
-#: pylib/anki/exporting.py:162
+#: pylib/anki/exporting.py:167
 msgid "Anki 2.0 Deck"
 msgstr "Balíček Anki 2.0"
 
-#: qt/aqt/forms/preferences.py:291
+#: qt/aqt/forms/preferences.py:292
 msgid "Anki 2.1 scheduler (beta)"
 msgstr "Anki 2.1 plánovač (beta)"
 
-#: pylib/anki/exporting.py:392
+#: pylib/anki/exporting.py:397
 msgid "Anki Collection Package"
 msgstr "Balíček Anki kolekce"
 
-#: pylib/anki/exporting.py:311
+#: pylib/anki/exporting.py:316
 msgid "Anki Deck Package"
 msgstr "Balíček Anki"
 
-#: qt/aqt/profiles.py:253
+#: qt/aqt/profiles.py:256
 msgid "Anki could not read your profile data. Window sizes and your sync login details have been forgotten."
 msgstr "Anki nedokázal prečítať údaje vo vašom profile. Veľkosti okien a vaše prihlasovacie informácie boli zabudnuté."
 
-#: qt/aqt/profiles.py:323
+#: qt/aqt/profiles.py:326
 msgid "Anki could not rename your profile because it could not rename the profile folder on disk. Please ensure you have permission to write to Documents/Anki and no other programs are accessing your profile folders, then try again."
 msgstr "Anki nedokázal premenovať Váš profil, pretože sa nepodarilo premenovať priečinok profilu na disku. Overte, či máte právo na zápis do priečinku Dokumenty/Anki a to, že žiaden iný program práve nepoužíva priečinok Vášho profilu a skúste to ešte raz."
 
-#: qt/aqt/clayout.py:608
+#: qt/aqt/clayout.py:659
 msgid "Anki couldn't find the line between the question and answer. Please adjust the template manually to switch the question and answer."
 msgstr "Anki nemohol rozoznať otázku od odpovede. Prosím, upravte šablónu ručne, aby bolo možné prepínať medzi otázkou a odpoveďou."
 
@@ -687,23 +687,23 @@ msgstr "Anki je prívetivý, inteligentný výukový systém typu rozloženého 
 msgid "Anki is licensed under the AGPL3 license. Please see the license file in the source distribution for more information."
 msgstr "Anki je licencovaný AGPL3 licenciou. Pre viac informácií si, prosím, prečítajte licenčný súbor v zdrojovej distribúcii."
 
-#: qt/aqt/browser.py:731
+#: qt/aqt/browser.py:734
 msgid "Answer"
 msgstr "Odpoveď"
 
-#: pylib/anki/stats.py:675
+#: pylib/anki/stats.py:681
 msgid "Answer Buttons"
 msgstr "Tlačidlá odpovedí"
 
-#: pylib/anki/stats.py:353 pylib/anki/stats.py:686 pylib/anki/stats.py:794
+#: pylib/anki/stats.py:357 pylib/anki/stats.py:692 pylib/anki/stats.py:800
 msgid "Answers"
 msgstr "Odpovede"
 
-#: qt/aqt/browser.py:1288
+#: qt/aqt/browser.py:1291
 msgid "Any Flag"
 msgstr "Ktorýkoľvek príznak"
 
-#: qt/aqt/browser.py:2261
+#: qt/aqt/browser.py:2253
 msgid "Any cards mapped to nothing will be deleted. If a note has no remaining cards, it will be lost. Are you sure you want to continue?"
 msgstr "Karty, ktoré nie sú na nič mapované, budú odstránené. Ak už v poznámke nezostávajú žiadne karty, bude poznámka stratená. Skutočne chcete pokračovať?"
 
@@ -712,12 +712,12 @@ msgstr "Karty, ktoré nie sú na nič mapované, budú odstránené. Ak už v po
 msgid "Appeared twice in file: %s"
 msgstr "Vyskytuje sa v súbore dvakrát: %s"
 
-#: qt/aqt/deckbrowser.py:304
+#: qt/aqt/deckbrowser.py:296
 #, python-format
 msgid "Are you sure you wish to delete %s?"
 msgstr "Ste si istý, že si prajete odstrániť %s?"
 
-#: qt/aqt/clayout.py:498
+#: qt/aqt/clayout.py:549
 msgid "At least one card type is required."
 msgstr "Je potrebný aspoň jeden typ karty."
 
@@ -725,19 +725,19 @@ msgstr "Je potrebný aspoň jeden typ karty."
 msgid "At least one step is required."
 msgstr "Je potrebný aspoň jeden krok."
 
-#: qt/aqt/editor.py:166
+#: qt/aqt/editor.py:173
 msgid "Attach pictures/audio/video (F3)"
 msgstr "Pripojiť obrázky/zvuk/video (F3)"
 
-#: qt/aqt/reviewer.py:717
+#: qt/aqt/reviewer.py:737
 msgid "Audio +5s"
 msgstr "Zvuk +5s"
 
-#: qt/aqt/reviewer.py:716
+#: qt/aqt/reviewer.py:736
 msgid "Audio -5s"
 msgstr "Zvuk -5s"
 
-#: qt/aqt/main.py:357
+#: qt/aqt/main.py:372
 msgid "Automatic syncing and backups have been disabled while restoring. To enable them again, close the profile or restart Anki."
 msgstr "Automatická synchronizácia a zálohovanie boli zrušené počas procesu obnovenia. Pre obnovenie týchto nastavení zavrite profil alebo reštartujte Anki."
 
@@ -745,31 +745,35 @@ msgstr "Automatická synchronizácia a zálohovanie boli zrušené počas proces
 msgid "Automatically play audio"
 msgstr "Automaticky prehrať zvuk"
 
-#: qt/aqt/forms/preferences.py:301
+#: qt/aqt/forms/preferences.py:302
 msgid "Automatically sync on profile open/close"
 msgstr "Automaticky synchronizovať pri otvorení a zavretí profilu"
 
-#: pylib/anki/stats.py:248 pylib/anki/stats.py:315
+#: pylib/anki/stats.py:252 pylib/anki/stats.py:319
 msgid "Average"
 msgstr "Priemer"
 
-#: pylib/anki/stats.py:430
+#: pylib/anki/stats.py:434
 msgid "Average answer time"
 msgstr "Priemerný čas odpovede"
 
-#: pylib/anki/stats.py:872
+#: pylib/anki/stats.py:878
 msgid "Average ease"
 msgstr "Priemerná jednoduchosť"
 
-#: pylib/anki/stats.py:419
+#: pylib/anki/stats.py:423
 msgid "Average for days studied"
 msgstr "Priemer v dňoch štúdia"
 
-#: pylib/anki/stats.py:612
+#: pylib/anki/stats.py:618
 msgid "Average interval"
 msgstr "Priemerný interval"
 
-#: qt/aqt/main.py:541
+#: qt/aqt/previewer.py:83
+msgid "Back Side Only"
+msgstr ""
+
+#: qt/aqt/main.py:556
 msgid "Backing Up..."
 msgstr "Zálohuje se..."
 
@@ -777,15 +781,15 @@ msgstr "Zálohuje se..."
 msgid "Backups"
 msgstr "Zálohy"
 
-#: qt/aqt/forms/preferences.py:287
+#: qt/aqt/forms/preferences.py:288
 msgid "Basic"
 msgstr "Základný"
 
-#: qt/aqt/browser.py:1286 qt/aqt/reviewer.py:699 qt/aqt/forms/browser.py:336
+#: qt/aqt/browser.py:1289 qt/aqt/reviewer.py:719 qt/aqt/forms/browser.py:336
 msgid "Blue Flag"
 msgstr "Modrý príznak"
 
-#: qt/aqt/editor.py:115
+#: qt/aqt/editor.py:122
 msgid "Bold text (Ctrl+B)"
 msgstr "Tučný text (Ctrl+B)"
 
@@ -793,7 +797,7 @@ msgstr "Tučný text (Ctrl+B)"
 msgid "Browse"
 msgstr "Prehliadať"
 
-#: qt/aqt/browser.py:814
+#: qt/aqt/browser.py:817
 #, python-format
 msgid "Browse (%(cur)d card shown; %(sel)s)"
 msgid_plural "Browse (%(cur)d cards shown; %(sel)s)"
@@ -801,7 +805,7 @@ msgstr[0] "Prehliadať (%(cur)d kariet zobrazených; %(sel)s)"
 msgstr[1] "Prehliadať (%(cur)d karta zobrazená; %(sel)s)"
 msgstr[2] "Prehliadať (%(cur)d karty zobrazené; %(sel)s)"
 
-#: qt/aqt/addons.py:918
+#: qt/aqt/addons.py:922
 msgid "Browse Add-ons"
 msgstr "Prehliadať doplnky"
 
@@ -809,7 +813,7 @@ msgstr "Prehliadať doplnky"
 msgid "Browser Appearance"
 msgstr "Zobrazenie v prehliadači"
 
-#: qt/aqt/clayout.py:645
+#: qt/aqt/clayout.py:696
 msgid "Browser Appearance..."
 msgstr "Zobrazenie v prehliadači..."
 
@@ -821,23 +825,23 @@ msgstr "Nastavenia prehliadača"
 msgid "Build"
 msgstr "Zostaviť"
 
-#: qt/aqt/browser.py:1281
+#: qt/aqt/browser.py:1284
 msgid "Buried"
 msgstr "Zahrabané"
 
-#: qt/aqt/overview.py:133
+#: qt/aqt/overview.py:132
 msgid "Buried Siblings"
 msgstr "Zahrabaní súrodenci"
 
-#: qt/aqt/reviewer.py:804 qt/aqt/reviewer.py:810
+#: qt/aqt/reviewer.py:824 qt/aqt/reviewer.py:830
 msgid "Bury"
 msgstr "Zahrabať"
 
-#: qt/aqt/reviewer.py:707
+#: qt/aqt/reviewer.py:727
 msgid "Bury Card"
 msgstr "Zahrabať kartu"
 
-#: qt/aqt/reviewer.py:708
+#: qt/aqt/reviewer.py:728
 msgid "Bury Note"
 msgstr "Zahrabať poznámku"
 
@@ -859,15 +863,15 @@ msgstr ""
 "je tabulátor, čiarka a iné. Ak ho Anki deteguje nesprávne,\n"
 "môžete ho vložiť sem. ako tabulátor použite \\t."
 
-#: qt/aqt/clayout.py:360 qt/aqt/overview.py:135 qt/aqt/sound.py:552
+#: qt/aqt/clayout.py:405 qt/aqt/overview.py:134 qt/aqt/sound.py:557
 msgid "Cancel"
 msgstr "Zrušiť"
 
-#: qt/aqt/browser.py:732
+#: qt/aqt/browser.py:735
 msgid "Card"
 msgstr "Karta"
 
-#: qt/aqt/clayout.py:569
+#: qt/aqt/clayout.py:620
 #, python-format
 msgid "Card %d"
 msgstr "Karta %d"
@@ -876,49 +880,49 @@ msgstr "Karta %d"
 msgid "Card List"
 msgstr "Zoznam kariet"
 
-#: qt/aqt/browser.py:1271
+#: qt/aqt/browser.py:1274
 msgid "Card State"
 msgstr "Stav karty"
 
-#: pylib/anki/stats.py:880 qt/aqt/clayout.py:61
+#: pylib/anki/stats.py:886 qt/aqt/clayout.py:63
 msgid "Card Types"
 msgstr "Typy kariet"
 
-#: qt/aqt/clayout.py:67
+#: qt/aqt/clayout.py:69
 #, python-format
 msgid "Card Types for %s"
 msgstr "Typy kariet pre %s"
 
-#: qt/aqt/reviewer.py:807
+#: qt/aqt/reviewer.py:827
 msgid "Card buried."
 msgstr "Karta zahrabaná."
 
-#: qt/aqt/reviewer.py:784
+#: qt/aqt/reviewer.py:804
 msgid "Card suspended."
 msgstr "Karta odložená bokom."
 
-#: qt/aqt/reviewer.py:665
+#: qt/aqt/reviewer.py:685
 msgid "Card was a leech."
 msgstr "Karta zaradená medzi pijavice."
 
-#: pylib/anki/stats.py:306 pylib/anki/stats.py:956 qt/aqt/editor.py:185
+#: pylib/anki/stats.py:310 pylib/anki/stats.py:962 qt/aqt/editor.py:192
 #: qt/aqt/forms/changemodel.py:112
 msgid "Cards"
 msgstr "Karty"
 
-#: qt/aqt/browser.py:1597
+#: qt/aqt/browser.py:1600
 msgid "Cards can't be manually moved into a filtered deck."
 msgstr "Karty nemôžu byť ručne presunuté do filtrovaného balíčka."
 
-#: pylib/anki/exporting.py:90
+#: pylib/anki/exporting.py:95
 msgid "Cards in Plain Text"
 msgstr "Karty ako obyčajný text"
 
-#: qt/aqt/overview.py:185
+#: qt/aqt/overview.py:192
 msgid "Cards will be automatically returned to their original decks after you review them."
 msgstr "Karty sa automaticky vrátia do ich pôvodných balíčkov po tom, čo si ich zopakujete."
 
-#: qt/aqt/models.py:62
+#: qt/aqt/models.py:63
 msgid "Cards..."
 msgstr "Karty..."
 
@@ -930,12 +934,12 @@ msgstr "Na stred"
 msgid "Change"
 msgstr "Zmeniť"
 
-#: qt/aqt/browser.py:2181
+#: qt/aqt/browser.py:2173
 #, python-format
 msgid "Change %s to:"
 msgstr "Zmeniť %s na:"
 
-#: qt/aqt/browser.py:1588 qt/aqt/browser.py:1600
+#: qt/aqt/browser.py:1591 qt/aqt/browser.py:1603
 msgid "Change Deck"
 msgstr "Zmeniť balíček"
 
@@ -943,7 +947,7 @@ msgstr "Zmeniť balíček"
 msgid "Change Deck..."
 msgstr "Zmeniť balíček..."
 
-#: qt/aqt/browser.py:2268 qt/aqt/forms/changemodel.py:109
+#: qt/aqt/browser.py:2260 qt/aqt/forms/changemodel.py:109
 msgid "Change Note Type"
 msgstr "Zmeniť typ poznámky"
 
@@ -955,11 +959,11 @@ msgstr "Zmeniť typ poznámky (Ctrl+N)"
 msgid "Change Note Type..."
 msgstr "Zmeniť typ poznámky..."
 
-#: qt/aqt/editor.py:146
+#: qt/aqt/editor.py:153
 msgid "Change colour (F8)"
 msgstr "Zmeniť farbu (F8)"
 
-#: qt/aqt/forms/preferences.py:284
+#: qt/aqt/forms/preferences.py:285
 msgid "Change deck depending on note type"
 msgstr "Zmeniť balíček podľa typu poznámky"
 
@@ -971,7 +975,7 @@ msgstr "Zmeny sa prejavia po reštartovaní Anki."
 msgid "Changes will take effect when you restart Anki."
 msgstr "Zmeny sa prejavia až po reštartovaní Anki."
 
-#: qt/aqt/forms/main.py:141
+#: qt/aqt/forms/main.py:142
 msgid "Check &Media..."
 msgstr "Kontrola &médií..."
 
@@ -979,11 +983,11 @@ msgstr "Kontrola &médií..."
 msgid "Check for Updates"
 msgstr "Skontrolovať aktualizácie"
 
-#: qt/aqt/forms/main.py:142
+#: qt/aqt/forms/main.py:143
 msgid "Check the files in the media directory"
 msgstr "Skontrolovať súbory v priečinku médií"
 
-#: qt/aqt/addons.py:881
+#: qt/aqt/addons.py:885
 msgid "Checking..."
 msgstr "Kontrolujem..."
 
@@ -1003,7 +1007,7 @@ msgstr "Vybrať typ poznámky"
 msgid "Choose Tags"
 msgstr "Vybrať štítky"
 
-#: qt/aqt/browser.py:1297
+#: qt/aqt/browser.py:1300
 msgid "Clear Unused"
 msgstr "Vymazať nepoužívané"
 
@@ -1011,29 +1015,29 @@ msgstr "Vymazať nepoužívané"
 msgid "Clear Unused Tags"
 msgstr "Vymazať nepoužívané štítky"
 
-#: qt/aqt/models.py:204
+#: qt/aqt/models.py:213
 #, python-format
 msgid "Clone: %s"
 msgstr "Naklonovať: %s"
 
-#: qt/aqt/addcards.py:72 qt/aqt/forms/browser.py:325
+#: qt/aqt/addcards.py:73 qt/aqt/forms/browser.py:325
 msgid "Close"
 msgstr "Zatvoriť"
 
-#: qt/aqt/addcards.py:222
+#: qt/aqt/addcards.py:223
 msgid "Close and lose current input?"
 msgstr "Zatvoriť a zrušiť momentálne vkladané údaje?"
 
-#: qt/aqt/main.py:539
+#: qt/aqt/main.py:554
 msgid "Closing..."
 msgstr "Zatváram..."
 
-#: qt/aqt/clayout.py:235
+#: qt/aqt/clayout.py:243
 #, fuzzy, python-format
 msgid "Cloze %d"
 msgstr "Doplňovačka"
 
-#: qt/aqt/editor.py:163
+#: qt/aqt/editor.py:170
 msgid "Cloze deletion (Ctrl+Shift+C)"
 msgstr "Doplňovačka (Ctrl+Shift+C)"
 
@@ -1041,7 +1045,7 @@ msgstr "Doplňovačka (Ctrl+Shift+C)"
 msgid "Code:"
 msgstr "Kód:"
 
-#: qt/aqt/exporting.py:173
+#: qt/aqt/exporting.py:177
 msgid "Collection exported."
 msgstr "Zbierka exportovaná."
 
@@ -1061,13 +1065,9 @@ msgstr "Nastavenia"
 msgid "Configuration"
 msgstr "Nastavenia"
 
-#: qt/aqt/forms/main.py:138
+#: qt/aqt/forms/main.py:139
 msgid "Configure interface language and options"
 msgstr "Zmeniť jazykové rozhranie a nastavenia"
-
-#: pylib/anki/schedv2.py:1279
-msgid "Congratulations! You have finished this deck for now."
-msgstr "Blahoželáme! Nateraz ste tento balíček dokončili."
 
 #: qt/aqt/reviewer.py:94
 msgid "Continue"
@@ -1077,7 +1077,7 @@ msgstr "Pokračovať"
 msgid "Copied to clipboard"
 msgstr "Skopírované do schránky"
 
-#: qt/aqt/editor.py:1179 qt/aqt/webview.py:282
+#: qt/aqt/editor.py:1199 qt/aqt/webview.py:285
 msgid "Copy"
 msgstr "Kopírovať"
 
@@ -1089,12 +1089,12 @@ msgstr "Skopírovať informácie pre ladenie"
 msgid "Copy to Clipboard"
 msgstr "Skopírovať do schránky"
 
-#: pylib/anki/stats.py:171
+#: pylib/anki/stats.py:173
 #, python-format
 msgid "Correct answers on mature cards: %(a)d/%(b)d (%(c).1f%%)"
 msgstr "Správne odpovede medzi zrelými kartami: %(a)d/%(b)d (%(c).1f%%)"
 
-#: pylib/anki/stats.py:707
+#: pylib/anki/stats.py:713
 #, python-format
 msgid "Correct: <b>%(pct)0.2f%%</b><br>(%(good)d of %(tot)d)"
 msgstr "Správne: <b>%(pct)0.2f%%</b><br>(%(good)d z %(tot)d)"
@@ -1103,24 +1103,24 @@ msgstr "Správne: <b>%(pct)0.2f%%</b><br>(%(good)d z %(tot)d)"
 msgid "Corrupt add-on file."
 msgstr "Poškodený súbor doplnku."
 
-#: qt/aqt/editor.py:736
+#: qt/aqt/editor.py:742
 msgid "Couldn't record audio. Have you installed 'lame'?"
 msgstr "Nebolo možné nahrať zvuk. Máte nainštalovaný „lame“?"
 
-#: qt/aqt/exporting.py:141
+#: qt/aqt/exporting.py:145
 #, python-format
 msgid "Couldn't save file: %s"
 msgstr "Nemôžem uložiť súbor: %s"
 
-#: pylib/anki/stats.py:346 pylib/anki/stats.py:366
+#: pylib/anki/stats.py:350 pylib/anki/stats.py:370
 msgid "Cram"
 msgstr "Nadrvené"
 
-#: qt/aqt/deckbrowser.py:317
+#: qt/aqt/deckbrowser.py:309
 msgid "Create Deck"
 msgstr "Vytvoriť balíček"
 
-#: qt/aqt/forms/main.py:153
+#: qt/aqt/forms/main.py:154
 msgid "Create Filtered Deck..."
 msgstr "Vytvoriť filtrovaný balíček..."
 
@@ -1128,7 +1128,7 @@ msgstr "Vytvoriť filtrovaný balíček..."
 msgid "Create scalable images with dvisvgm"
 msgstr "Vytvárajte škálovateľné obrázky s dvisvgm"
 
-#: qt/aqt/browser.py:735
+#: qt/aqt/browser.py:738
 msgid "Created"
 msgstr "Vytvorené"
 
@@ -1136,24 +1136,24 @@ msgstr "Vytvorené"
 msgid "Ctrl+Shift+E"
 msgstr "Ctrl+Shift+E"
 
-#: pylib/anki/stats.py:219
+#: pylib/anki/stats.py:221
 msgid "Cumulative"
 msgstr "Kumulatívne"
 
-#: pylib/anki/stats.py:378
+#: pylib/anki/stats.py:382
 #, python-format
 msgid "Cumulative %s"
 msgstr "Kumulatívne %s"
 
-#: pylib/anki/stats.py:353
+#: pylib/anki/stats.py:357
 msgid "Cumulative Answers"
 msgstr "Kumulatívne odpovede"
 
-#: pylib/anki/stats.py:234 pylib/anki/stats.py:306
+#: pylib/anki/stats.py:236 pylib/anki/stats.py:310
 msgid "Cumulative Cards"
 msgstr "Kumulatívne karty"
 
-#: qt/aqt/browser.py:1122 qt/aqt/browser.py:1254
+#: qt/aqt/browser.py:1125 qt/aqt/browser.py:1257
 msgid "Current Deck"
 msgstr "Aktuálny balíček"
 
@@ -1161,7 +1161,7 @@ msgstr "Aktuálny balíček"
 msgid "Current note type:"
 msgstr "Aktuálny typ poznámky:"
 
-#: qt/aqt/overview.py:252 qt/aqt/forms/customstudy.py:101
+#: qt/aqt/overview.py:258 qt/aqt/forms/customstudy.py:102
 msgid "Custom Study"
 msgstr "Vlastné štúdium"
 
@@ -1173,44 +1173,40 @@ msgstr "Vlastné štúdium"
 msgid "Custom steps (in minutes)"
 msgstr "Vlastné kroky (v minútach)"
 
-#: qt/aqt/editor.py:188
+#: qt/aqt/editor.py:195
 msgid "Customize Card Templates (Ctrl+L)"
 msgstr "Prispôsobiť šablóny kariet (Ctrl+L)"
 
-#: qt/aqt/editor.py:187
+#: qt/aqt/editor.py:194
 msgid "Customize Fields"
 msgstr "Prispôsobiť pole"
 
-#: qt/aqt/editor.py:1177
+#: qt/aqt/editor.py:1197
 msgid "Cut"
 msgstr "Vystrihnúť"
 
-#: pylib/anki/stats.py:403
+#: pylib/anki/stats.py:407
 msgid "Days studied"
 msgstr "Podiel dní štúdia"
-
-#: qt/aqt/forms/preferences.py:304
-msgid "Deauthorize"
-msgstr "Zrušiť oprávnenie"
 
 #: qt/aqt/forms/debug.py:55
 msgid "Debug Console"
 msgstr "Konzola pre ladenie"
 
-#: qt/aqt/browser.py:733 qt/aqt/deckbrowser.py:155 qt/aqt/deckchooser.py:29
+#: qt/aqt/browser.py:736 qt/aqt/deckbrowser.py:147 qt/aqt/deckchooser.py:29
 #: qt/aqt/forms/importing.py:106
 msgid "Deck"
 msgstr "Balíček"
 
-#: qt/aqt/clayout.py:642
+#: qt/aqt/clayout.py:693
 msgid "Deck Override..."
 msgstr "Prepísať balíček..."
 
-#: qt/aqt/main.py:1575
+#: qt/aqt/main.py:1599
 msgid "Deck will be imported when a profile is opened."
 msgstr "Balíček bude importovaný pri otvorení profilu."
 
-#: qt/aqt/browser.py:1326 qt/aqt/toolbar.py:105
+#: qt/aqt/browser.py:1329 qt/aqt/toolbar.py:105
 msgid "Decks"
 msgstr "Balíčky"
 
@@ -1222,29 +1218,29 @@ msgstr "Klesajúce intervaly"
 msgid "Default"
 msgstr "Predvolený"
 
-#: pylib/anki/stats.py:590
+#: pylib/anki/stats.py:596
 msgid "Delays until reviews are shown again."
 msgstr "Čas, po ktorom budú opakované karty znovu zobrazené."
 
-#: qt/aqt/deckbrowser.py:242 qt/aqt/deckconf.py:91 qt/aqt/models.py:57
-#: qt/aqt/reviewer.py:792 qt/aqt/forms/addons.py:77 qt/aqt/forms/browser.py:330
+#: qt/aqt/deckbrowser.py:234 qt/aqt/deckconf.py:91 qt/aqt/models.py:56
+#: qt/aqt/reviewer.py:812 qt/aqt/forms/addons.py:77 qt/aqt/forms/browser.py:330
 #: qt/aqt/forms/fields.py:103 qt/aqt/forms/profiles.py:83
 msgid "Delete"
 msgstr "Odstrániť"
 
-#: qt/aqt/deckbrowser.py:288
+#: qt/aqt/deckbrowser.py:280
 msgid "Delete Deck"
 msgstr "Odstrániť balíček"
 
-#: qt/aqt/reviewer.py:711
+#: qt/aqt/reviewer.py:731
 msgid "Delete Note"
 msgstr "Odstrániť poznámku"
 
-#: qt/aqt/browser.py:1541
+#: qt/aqt/browser.py:1544
 msgid "Delete Notes"
 msgstr "Odstrániť poznámky"
 
-#: qt/aqt/browser.py:1647
+#: qt/aqt/browser.py:1636
 msgid "Delete Tags"
 msgstr "Odstrániť štítky"
 
@@ -1253,7 +1249,7 @@ msgstr "Odstrániť štítky"
 msgid "Delete field from %s?"
 msgstr "Odstrániť pole z %s?"
 
-#: qt/aqt/addons.py:842
+#: qt/aqt/addons.py:845
 #, python-format
 msgid "Delete the %(num)d selected add-on?"
 msgid_plural "Delete the %(num)d selected add-ons?"
@@ -1261,20 +1257,20 @@ msgstr[0] "Odstrániť %(num)d vybraných doplnkov?"
 msgstr[1] "Odstrániť %(num)d vybraný doplnok?"
 msgstr[2] "Odstrániť %(num)d vybrané doplnky?"
 
-#: qt/aqt/clayout.py:508
+#: qt/aqt/clayout.py:559
 #, python-format
 msgid "Delete the '%(a)s' card type, and its %(b)s?"
 msgstr "Odstrániť '%(a)s' typ karty a jej %(b)s?"
 
-#: qt/aqt/models.py:123
+#: qt/aqt/models.py:130
 msgid "Delete this note type and all its cards?"
 msgstr "Odstrániť tento typ poznámky a všetky jeho karty?"
 
-#: qt/aqt/models.py:125
+#: qt/aqt/models.py:132
 msgid "Delete this unused note type?"
 msgstr "Odstrániť tento nevyužitý typ poznámky?"
 
-#: qt/aqt/overview.py:190
+#: qt/aqt/overview.py:197
 msgid "Deleting this deck from the deck list will return all remaining cards to their original deck."
 msgstr "Po odstránení tohto balíčka zo zoznamu balíčkov sa všetky zostávajúce karty vrátia do svojich pôvodných balíčkov."
 
@@ -1291,7 +1287,7 @@ msgstr "Popis, ktorý bude zobrazený na obrazovke s prehľadom, pre aktuálny b
 msgid "Dialog"
 msgstr "Dialógové okno"
 
-#: qt/aqt/addons.py:1111
+#: qt/aqt/addons.py:1115
 msgid "Download complete. Please restart Anki to apply changes."
 msgstr "Sťahovanie ukončené. Prosím, reštartujte Anki, aby sa zmeny prejavili."
 
@@ -1305,28 +1301,28 @@ msgstr "Stiahnutý %(fname)s"
 #. and "%(kb)0.2f" is the number of downloaded
 #. kilobytes. This lead for example to "Downloading 3/5
 #. (27KB)"
-#: qt/aqt/addons.py:1090
+#: qt/aqt/addons.py:1094
 #, python-format
 msgid "Downloading %(a)d/%(b)d (%(kb)0.2fKB)..."
 msgstr "Sťahujem %(a)d/%(b)d (%(kb)0.2fKB)..."
 
-#: qt/aqt/forms/customstudy.py:113
+#: qt/aqt/forms/customstudy.py:114
 msgid "Due cards only"
 msgstr "Iba karty na skúšanie"
 
-#: pylib/anki/stats.py:257
+#: pylib/anki/stats.py:261
 msgid "Due tomorrow"
 msgstr "Na skúšanie zajtra"
 
-#: qt/aqt/forms/main.py:136
+#: qt/aqt/forms/main.py:137
 msgid "E&xit"
 msgstr "K&oniec"
 
-#: qt/aqt/browser.py:740
+#: qt/aqt/browser.py:743
 msgid "Ease"
 msgstr "Jednoduchosť"
 
-#: qt/aqt/reviewer.py:622 qt/aqt/reviewer.py:624
+#: qt/aqt/reviewer.py:633 qt/aqt/reviewer.py:639
 msgid "Easy"
 msgstr "Ľahké"
 
@@ -1338,20 +1334,20 @@ msgstr "Bonus za jednoduché"
 msgid "Easy interval"
 msgstr "Interval jednoduchých"
 
-#: qt/aqt/reviewer.py:560
+#: qt/aqt/reviewer.py:569
 msgid "Edit"
 msgstr "Upraviť"
 
-#: qt/aqt/addcards.py:143
+#: qt/aqt/addcards.py:144
 #, python-format
 msgid "Edit \"%s\""
 msgstr "Upraviť \"%s\""
 
-#: qt/aqt/editcurrent.py:19
+#: qt/aqt/editcurrent.py:20
 msgid "Edit Current"
 msgstr "Upraviť aktuálnu"
 
-#: qt/aqt/editor.py:940
+#: qt/aqt/editor.py:950
 msgid "Edit HTML"
 msgstr "Upraviť HTML"
 
@@ -1359,11 +1355,11 @@ msgstr "Upraviť HTML"
 msgid "Editing Font"
 msgstr "Úprava písma"
 
-#: qt/aqt/overview.py:250
+#: qt/aqt/overview.py:256
 msgid "Empty"
 msgstr "Prázdny"
 
-#: qt/aqt/forms/main.py:152
+#: qt/aqt/forms/main.py:153
 msgid "Empty Cards..."
 msgstr "Prázdne karty..."
 
@@ -1380,21 +1376,21 @@ msgstr "Povoliť druhý filter"
 msgid "End"
 msgstr "Koniec"
 
-#: qt/aqt/clayout.py:687
+#: qt/aqt/clayout.py:738
 #, python-format
 msgid "Enter deck to place new %s cards in, or leave blank:"
 msgstr "Zadajte balíček pre umiestnenie %s nových kariet alebo nechajte prázdne:"
 
-#: qt/aqt/clayout.py:547
+#: qt/aqt/clayout.py:598
 #, python-format
 msgid "Enter new card position (1...%s):"
 msgstr "Zadajte pozíciu novej karty (1...%s):"
 
-#: qt/aqt/browser.py:1627
+#: qt/aqt/browser.py:1616
 msgid "Enter tags to add:"
 msgstr "Pridajte štítky:"
 
-#: qt/aqt/browser.py:1649
+#: qt/aqt/browser.py:1638
 msgid "Enter tags to delete:"
 msgstr "Zadajte štítky, ktoré chcete odstrániť:"
 
@@ -1403,7 +1399,7 @@ msgstr "Zadajte štítky, ktoré chcete odstrániť:"
 msgid "Error downloading <i>%(id)s</i>: %(error)s"
 msgstr "Chyba pri sťahovaní <i>%(id)s</i>: %(error)s"
 
-#: qt/aqt/main.py:106
+#: qt/aqt/main.py:121
 #, python-format
 msgid ""
 "Error during startup:\n"
@@ -1422,12 +1418,12 @@ msgstr "Chyba pri vykonávaní %s."
 msgid "Error installing <i>%(base)s</i>: %(error)s"
 msgstr "Chyba pri inštalovaní <i>%(base)s</i>: %(error)s"
 
-#: qt/aqt/sound.py:453
+#: qt/aqt/sound.py:458
 #, python-format
 msgid "Error running %s"
 msgstr "Chyba pri behu %s"
 
-#: qt/aqt/deckbrowser.py:240 qt/aqt/exporting.py:120
+#: qt/aqt/deckbrowser.py:232 qt/aqt/exporting.py:124
 #: qt/aqt/forms/exporting.py:74
 msgid "Export"
 msgstr "Exportovať"
@@ -1436,7 +1432,7 @@ msgstr "Exportovať"
 msgid "Export..."
 msgstr "Exportovať..."
 
-#: qt/aqt/exporting.py:150
+#: qt/aqt/exporting.py:154
 #, python-format
 msgid "Exported %d media file"
 msgid_plural "Exported %d media files"
@@ -1461,7 +1457,7 @@ msgstr "Názov poľa:"
 msgid "Field:"
 msgstr "Pole:"
 
-#: qt/aqt/editor.py:184 qt/aqt/fields.py:23 qt/aqt/forms/changemodel.py:113
+#: qt/aqt/editor.py:191 qt/aqt/fields.py:23 qt/aqt/forms/changemodel.py:113
 #: qt/aqt/forms/fields.py:101
 msgid "Fields"
 msgstr "Polia"
@@ -1476,7 +1472,7 @@ msgstr "Polia pre %s"
 msgid "Fields separated by: %s"
 msgstr "Polia oddelené pomocou: %s"
 
-#: qt/aqt/models.py:60
+#: qt/aqt/models.py:62
 msgid "Fields..."
 msgstr "Polia..."
 
@@ -1488,7 +1484,7 @@ msgstr "Fil&ter"
 msgid "File version unknown, trying import anyway."
 msgstr "Verzia súboru neznáma, skúšam importovať."
 
-#: qt/aqt/browser.py:1315 qt/aqt/forms/dyndconf.py:134
+#: qt/aqt/browser.py:1318 qt/aqt/forms/dyndconf.py:134
 msgid "Filter"
 msgstr "Filtrovať"
 
@@ -1504,7 +1500,7 @@ msgstr "Filter..."
 msgid "Filter:"
 msgstr "Filter:"
 
-#: qt/aqt/main.py:1140 qt/aqt/main.py:1142
+#: qt/aqt/main.py:1162 qt/aqt/main.py:1164
 #, python-format
 msgid "Filtered Deck %d"
 msgstr "Filtrovaný balíček %d"
@@ -1521,7 +1517,7 @@ msgstr "Nájsť duplikáty"
 msgid "Find and Re&place..."
 msgstr "Nájsť a na&hradiť..."
 
-#: qt/aqt/browser.py:1910 qt/aqt/forms/findreplace.py:83
+#: qt/aqt/browser.py:1902 qt/aqt/forms/findreplace.py:86
 msgid "Find and Replace"
 msgstr "Nájsť a nahradiť"
 
@@ -1542,15 +1538,15 @@ msgstr "Prvé zhodné pole: %s"
 msgid "Flag"
 msgstr "Príznak"
 
-#: qt/aqt/reviewer.py:678
+#: qt/aqt/reviewer.py:698
 msgid "Flag Card"
 msgstr "Príznak karty"
 
-#: qt/aqt/clayout.py:350
+#: qt/aqt/clayout.py:394
 msgid "Flip"
 msgstr "Prevrátiť"
 
-#: qt/aqt/profiles.py:309
+#: qt/aqt/profiles.py:312
 msgid "Folder already exists."
 msgstr "Priečinok už existuje."
 
@@ -1567,7 +1563,7 @@ msgstr "Päta"
 msgid "For security reasons, '%s' is not allowed on cards. You can still use it by placing the command in a different package, and importing that package in the LaTeX header instead."
 msgstr "Z bezpečnostných dôvodov nie je v kartách povolené '%s'. Môžete ho ale použiť zadaním príkazu v inom balíčku a importovaním toho balíčka do záhlavia LaTeX-u."
 
-#: pylib/anki/stats.py:226
+#: pylib/anki/stats.py:228
 msgid "Forecast"
 msgstr "Predpoveď"
 
@@ -1575,12 +1571,12 @@ msgstr "Predpoveď"
 msgid "Form"
 msgstr "Forma"
 
-#: qt/aqt/browser.py:1997
+#: qt/aqt/browser.py:1989
 #, python-format
 msgid "Found %(a)s across %(b)s."
 msgstr "Nájdených %(a)s medzi %(b)s."
 
-#: pylib/anki/exporting.py:377
+#: pylib/anki/exporting.py:382
 msgid "Front"
 msgstr "Predná strana"
 
@@ -1593,7 +1589,7 @@ msgstr "Všeobecné"
 msgid "Generated file: %s"
 msgstr "Vygenerovaný súbor: %s"
 
-#: pylib/anki/stats.py:935
+#: pylib/anki/stats.py:941
 #, python-format
 msgid "Generated on %s"
 msgstr "Vygenerované v %s"
@@ -1602,11 +1598,11 @@ msgstr "Vygenerované v %s"
 msgid "Get Add-ons..."
 msgstr "Získať doplnky..."
 
-#: qt/aqt/deckbrowser.py:316
+#: qt/aqt/deckbrowser.py:308
 msgid "Get Shared"
 msgstr "Stiahnuť zdieľané"
 
-#: qt/aqt/reviewer.py:620 qt/aqt/reviewer.py:622 qt/aqt/reviewer.py:624
+#: qt/aqt/reviewer.py:630 qt/aqt/reviewer.py:633 qt/aqt/reviewer.py:638
 msgid "Good"
 msgstr "Dobre"
 
@@ -1614,7 +1610,7 @@ msgstr "Dobre"
 msgid "Graduating interval"
 msgstr "Interval postupu"
 
-#: qt/aqt/browser.py:1285 qt/aqt/reviewer.py:693 qt/aqt/forms/browser.py:335
+#: qt/aqt/browser.py:1288 qt/aqt/reviewer.py:713 qt/aqt/forms/browser.py:335
 msgid "Green Flag"
 msgstr "Zelený príznak"
 
@@ -1622,7 +1618,7 @@ msgstr "Zelený príznak"
 msgid "HTML Editor"
 msgstr "HTML editor"
 
-#: qt/aqt/reviewer.py:624
+#: qt/aqt/reviewer.py:637
 msgid "Hard"
 msgstr "Ťažké"
 
@@ -1630,7 +1626,7 @@ msgstr "Ťažké"
 msgid "Hard interval"
 msgstr "Pevný interval"
 
-#: qt/aqt/forms/preferences.py:277
+#: qt/aqt/forms/preferences.py:278
 msgid "Hardware acceleration (faster, may cause display issues)"
 msgstr "Hardvérová akcelerácia (rýchlejšie, môže spôsobiť problémy so zobrazením)"
 
@@ -1642,16 +1638,16 @@ msgstr "Nainštalovali ste latex a dvipng/dvisvgm?"
 msgid "Header"
 msgstr "Hlavička"
 
-#: qt/aqt/addcards.py:76 qt/aqt/clayout.py:340 qt/aqt/utils.py:206
+#: qt/aqt/addcards.py:77 qt/aqt/clayout.py:384 qt/aqt/utils.py:206
 #: qt/aqt/utils.py:207
 msgid "Help"
 msgstr "Pomocník"
 
-#: pylib/anki/stats.py:873
+#: pylib/anki/stats.py:879
 msgid "Highest ease"
 msgstr "Najvyššia jednoduchosť"
 
-#: qt/aqt/addcards.py:80
+#: qt/aqt/addcards.py:81
 msgid "History"
 msgstr "História"
 
@@ -1659,15 +1655,15 @@ msgstr "História"
 msgid "Home"
 msgstr "Domov"
 
-#: pylib/anki/stats.py:785
+#: pylib/anki/stats.py:791
 msgid "Hourly Breakdown"
 msgstr "Hodinové rozdelenie"
 
-#: pylib/anki/stats.py:373
+#: pylib/anki/stats.py:377
 msgid "Hours"
 msgstr "Hodiny"
 
-#: pylib/anki/stats.py:815
+#: pylib/anki/stats.py:821
 msgid "Hours with less than 30 reviews are not shown."
 msgstr "Hodiny s menej ako 30 opakovaniami nie sú zobrazené."
 
@@ -1675,11 +1671,11 @@ msgstr "Hodiny s menej ako 30 opakovaniami nie sú zobrazené."
 msgid "Identical"
 msgstr "Totožný"
 
-#: qt/aqt/about.py:218
+#: qt/aqt/about.py:220
 msgid "If you have contributed and are not on this list, please get in touch."
 msgstr "Ak ste prispeli a nie ste na tomto zozname, prosím, ozvite sa."
 
-#: pylib/anki/stats.py:423
+#: pylib/anki/stats.py:427
 msgid "If you studied every day"
 msgstr "Pri každodennom štúdiu"
 
@@ -1687,7 +1683,7 @@ msgstr "Pri každodennom štúdiu"
 msgid "Ignore answer times longer than"
 msgstr "Ignorovať časy odpovedí dlhšie ako"
 
-#: qt/aqt/forms/findreplace.py:88
+#: qt/aqt/forms/findreplace.py:91
 msgid "Ignore case"
 msgstr "Ignorovať veľkosť písmen"
 
@@ -1708,7 +1704,7 @@ msgstr "Ignorovať túto aktualizáciu"
 msgid "Import"
 msgstr "Importovať"
 
-#: qt/aqt/deckbrowser.py:318
+#: qt/aqt/deckbrowser.py:310
 msgid "Import File"
 msgstr "Importovať súbor"
 
@@ -1724,7 +1720,7 @@ msgstr "Nastavenia importu"
 msgid "Importing complete."
 msgstr "Import dokončený."
 
-#: qt/aqt/main.py:1201
+#: qt/aqt/main.py:1223
 #, python-format
 msgid ""
 "In order to ensure your collection works correctly when moved between devices, Anki requires your computer's internal clock to be set correctly. The internal clock can be wrong even if your system is showing the correct local time.\n"
@@ -1767,7 +1763,7 @@ msgstr "Zahrnúť informácie o plánovaní"
 msgid "Include tags"
 msgstr "Zahrnúť štítky"
 
-#: qt/aqt/forms/customstudy.py:104
+#: qt/aqt/forms/customstudy.py:105
 msgid "Increase today's new card limit"
 msgstr "Zvýšiť dnešný limit nových kariet"
 
@@ -1775,7 +1771,7 @@ msgstr "Zvýšiť dnešný limit nových kariet"
 msgid "Increase today's new card limit by"
 msgstr "Zvýšiť dnešný limit nových kariet o"
 
-#: qt/aqt/forms/customstudy.py:105
+#: qt/aqt/forms/customstudy.py:106
 msgid "Increase today's review card limit"
 msgstr "Zvýšiť dnešný limit opakovaných kariet"
 
@@ -1791,11 +1787,11 @@ msgstr "Rastúce intervaly"
 msgid "Install Add-on"
 msgstr "Inštalovať rozšírenie"
 
-#: qt/aqt/addons.py:871
+#: qt/aqt/addons.py:874
 msgid "Install Add-on(s)"
 msgstr "Inštalácia doplnku(ov)"
 
-#: qt/aqt/addons.py:1410
+#: qt/aqt/addons.py:1420
 msgid "Install Anki add-on"
 msgstr "Inštalovať doplnok Anki"
 
@@ -1803,7 +1799,7 @@ msgstr "Inštalovať doplnok Anki"
 msgid "Install from file..."
 msgstr "Inštalovať zo súboru..."
 
-#: qt/aqt/addons.py:1433
+#: qt/aqt/addons.py:1443
 msgid "Installation complete"
 msgstr "Inštalácia dokončená"
 
@@ -1812,7 +1808,7 @@ msgstr "Inštalácia dokončená"
 msgid "Installed %(name)s"
 msgstr "Nainštaloval sa %(name)s"
 
-#: qt/aqt/addons.py:1020
+#: qt/aqt/addons.py:1024
 msgid "Installed successfully."
 msgstr "Inštalácia bola úspešná."
 
@@ -1820,11 +1816,11 @@ msgstr "Inštalácia bola úspešná."
 msgid "Interface language:"
 msgstr "Jazyk rozhrania:"
 
-#: qt/aqt/forms/preferences.py:279
+#: qt/aqt/forms/preferences.py:280
 msgid "Interrupt current audio when answering"
 msgstr "Po odpovedi prerušiť aktuálne prehrávaný zvuk"
 
-#: qt/aqt/browser.py:739
+#: qt/aqt/browser.py:742
 msgid "Interval"
 msgstr "Interval"
 
@@ -1832,7 +1828,7 @@ msgstr "Interval"
 msgid "Interval modifier"
 msgstr "Modifikátor intervalu"
 
-#: pylib/anki/stats.py:590
+#: pylib/anki/stats.py:596
 msgid "Intervals"
 msgstr "Intervaly"
 
@@ -1840,35 +1836,35 @@ msgstr "Intervaly"
 msgid "Invalid add-on manifest."
 msgstr "Neplatný manifest doplnku."
 
-#: qt/aqt/addons.py:1007
+#: qt/aqt/addons.py:1011
 msgid "Invalid code, or add-on not available for your version of Anki."
 msgstr "Neplatný kód alebo doplnok nie je dostupný pre vašu verzi Anki."
 
-#: qt/aqt/addons.py:933
+#: qt/aqt/addons.py:937
 msgid "Invalid code."
 msgstr "Neplatný kód."
 
-#: qt/aqt/addons.py:1366
+#: qt/aqt/addons.py:1376
 msgid "Invalid configuration: "
 msgstr "Neplatná konfigurácia: "
 
-#: qt/aqt/addons.py:1370
+#: qt/aqt/addons.py:1380
 msgid "Invalid configuration: top level object must be a map"
 msgstr "Neplatná konfigurácia: objekt najvyššej úrovne musí byť mapou"
 
-#: qt/aqt/main.py:1264
+#: qt/aqt/main.py:1286
 msgid "Invalid property found on card. Please use Tools>Check Database, and if the problem comes up again, please ask on the support site."
 msgstr "Neplatná vlastnosť nájdená na karte. Prosím, použite Nástroje>Kontrola databázy..., a ak sa problém vyskytne opäť, prosím, kontaktujte stránku podpory."
 
-#: qt/aqt/reviewer.py:667
+#: qt/aqt/reviewer.py:687
 msgid "It has been suspended."
 msgstr "Odložené bokom."
 
-#: qt/aqt/editor.py:117
+#: qt/aqt/editor.py:124
 msgid "Italic text (Ctrl+I)"
 msgstr "Kurzíva (Ctrl+I)"
 
-#: qt/aqt/editor.py:565
+#: qt/aqt/editor.py:571
 msgid "Jump to tags with Ctrl+Shift+T"
 msgstr "Skočiť na štítky pomocou Ctrl+Shift+T"
 
@@ -1876,19 +1872,19 @@ msgstr "Skočiť na štítky pomocou Ctrl+Shift+T"
 msgid "Keep"
 msgstr "Ponechať"
 
-#: qt/aqt/editor.py:937 qt/aqt/forms/modelopts.py:67
+#: qt/aqt/editor.py:947 qt/aqt/forms/modelopts.py:67
 msgid "LaTeX"
 msgstr "LaTeX"
 
-#: qt/aqt/editor.py:938
+#: qt/aqt/editor.py:948
 msgid "LaTeX equation"
 msgstr "Rovnica v LaTeXu"
 
-#: qt/aqt/editor.py:939
+#: qt/aqt/editor.py:949
 msgid "LaTeX math env."
 msgstr "Mat. prostredie LaTeX"
 
-#: qt/aqt/browser.py:742 qt/aqt/forms/dconf.py:372
+#: qt/aqt/browser.py:745 qt/aqt/forms/dconf.py:372
 msgid "Lapses"
 msgstr "Zabudnuté"
 
@@ -1900,20 +1896,20 @@ msgstr "Posledná karta"
 msgid "Latest added first"
 msgstr "Od poslednej pridanej"
 
-#: pylib/anki/stats.py:345 pylib/anki/stats.py:365
+#: pylib/anki/stats.py:349 pylib/anki/stats.py:369
 msgid "Learn"
 msgstr "Učené"
 
-#: qt/aqt/forms/preferences.py:295
+#: qt/aqt/forms/preferences.py:296
 msgid "Learn ahead limit"
 msgstr "Učiť sa skôr, do"
 
-#: pylib/anki/stats.py:158
+#: pylib/anki/stats.py:160
 #, python-format
 msgid "Learn: %(a)s, Review: %(b)s, Relearn: %(c)s, Filtered: %(d)s"
 msgstr "Učené: %(a)s, Opakované: %(b)s, Zabudnuté: %(c)s, Filtrované: %(d)s"
 
-#: pylib/anki/stats.py:680 qt/aqt/browser.py:1276 qt/aqt/overview.py:225
+#: pylib/anki/stats.py:686 qt/aqt/browser.py:1279 qt/aqt/overview.py:231
 msgid "Learning"
 msgstr "Na učenie"
 
@@ -1937,11 +1933,11 @@ msgstr "Obmedziť na"
 msgid "Loading..."
 msgstr "Načítam..."
 
-#: pylib/anki/stats.py:613
+#: pylib/anki/stats.py:619
 msgid "Longest interval"
 msgstr "Najdlhší interval"
 
-#: pylib/anki/stats.py:871
+#: pylib/anki/stats.py:877
 msgid "Lowest ease"
 msgstr "Najnižšia jednoduchosť"
 
@@ -1949,7 +1945,7 @@ msgstr "Najnižšia jednoduchosť"
 msgid "Manage"
 msgstr "Spravovať"
 
-#: qt/aqt/forms/main.py:154
+#: qt/aqt/forms/main.py:155
 msgid "Manage Note Types"
 msgstr "Správa typov poznámok"
 
@@ -1957,11 +1953,11 @@ msgstr "Správa typov poznámok"
 msgid "Manage Note Types..."
 msgstr "Spravovať typy poznámok..."
 
-#: qt/aqt/browser.py:1334 qt/aqt/forms/dconf.py:339
+#: qt/aqt/browser.py:1337 qt/aqt/forms/dconf.py:339
 msgid "Manage..."
 msgstr "Spravovať..."
 
-#: qt/aqt/overview.py:132
+#: qt/aqt/overview.py:131
 msgid "Manually Buried Cards"
 msgstr "Ručne zahrabané karty"
 
@@ -1974,24 +1970,24 @@ msgstr "Priradiť k %s"
 msgid "Map to Tags"
 msgstr "Priradiť ku štítkom"
 
-#: qt/aqt/reviewer.py:706
+#: qt/aqt/reviewer.py:726
 msgid "Mark Note"
 msgstr "Označiť poznámku"
 
-#: qt/aqt/editor.py:935
+#: qt/aqt/editor.py:945
 msgid "MathJax block"
 msgstr "Block MathJax"
 
-#: qt/aqt/editor.py:936
+#: qt/aqt/editor.py:946
 msgid "MathJax chemistry"
 msgstr "MathJax chémia"
 
-#: qt/aqt/editor.py:934
+#: qt/aqt/editor.py:944
 msgid "MathJax inline"
 msgstr "MathJax inline"
 
-#: pylib/anki/stats.py:211 pylib/anki/stats.py:342 pylib/anki/stats.py:362
-#: pylib/anki/stats.py:682 pylib/anki/stats.py:852
+#: pylib/anki/stats.py:213 pylib/anki/stats.py:346 pylib/anki/stats.py:366
+#: pylib/anki/stats.py:688 pylib/anki/stats.py:858
 msgid "Mature"
 msgstr "Zrelé"
 
@@ -2003,7 +1999,7 @@ msgstr "Maximálny interval"
 msgid "Maximum reviews/day"
 msgstr "Maximálny počet opakovaní/deň"
 
-#: qt/aqt/editor.py:698
+#: qt/aqt/editor.py:704
 msgid "Media"
 msgstr "Médiá"
 
@@ -2011,7 +2007,7 @@ msgstr "Médiá"
 msgid "Minimum interval"
 msgstr "Minimálny interval"
 
-#: pylib/anki/stats.py:370
+#: pylib/anki/stats.py:374
 msgid "Minutes"
 msgstr "Minúty"
 
@@ -2023,7 +2019,7 @@ msgstr "Pomiešať nové karty a opakované"
 msgid "Mnemosyne 2.0 Deck (*.db)"
 msgstr "Mnemosyne 2.0 Balíček (*.db)"
 
-#: qt/aqt/reviewer.py:562
+#: qt/aqt/reviewer.py:571
 msgid "More"
 msgstr "Viac"
 
@@ -2031,7 +2027,7 @@ msgstr "Viac"
 msgid "Most lapses"
 msgstr "Najviac zabudnutí"
 
-#: qt/aqt/browser.py:1587
+#: qt/aqt/browser.py:1590
 msgid "Move Cards"
 msgstr "Presunúť karty"
 
@@ -2047,7 +2043,7 @@ msgstr "Viacznakové oddeľovače nie sú podporované. Prosím, zadajte iba jed
 msgid "N&ote"
 msgstr "P&oznámky"
 
-#: qt/aqt/main.py:280 qt/aqt/main.py:294
+#: qt/aqt/main.py:295 qt/aqt/main.py:309
 msgid "Name exists."
 msgstr "Názov už existuje."
 
@@ -2055,7 +2051,7 @@ msgstr "Názov už existuje."
 msgid "Name for deck:"
 msgstr "Názov balíčka:"
 
-#: qt/aqt/main.py:277 qt/aqt/models.py:112
+#: qt/aqt/main.py:292 qt/aqt/models.py:119
 msgid "Name:"
 msgstr "Názov:"
 
@@ -2063,7 +2059,7 @@ msgstr "Názov:"
 msgid "Network"
 msgstr "Sieť"
 
-#: qt/aqt/browser.py:1275 qt/aqt/deckbrowser.py:157 qt/aqt/overview.py:223
+#: qt/aqt/browser.py:1278 qt/aqt/deckbrowser.py:149 qt/aqt/overview.py:229
 msgid "New"
 msgstr "Nové"
 
@@ -2076,7 +2072,7 @@ msgstr "Nové karty"
 msgid "New cards in deck over today limit: %s"
 msgstr "Nové karty v balíčku prevyšujúce dnešný limit: %s"
 
-#: qt/aqt/forms/customstudy.py:111
+#: qt/aqt/forms/customstudy.py:112
 msgid "New cards only"
 msgstr "Iba nové karty"
 
@@ -2084,7 +2080,7 @@ msgstr "Iba nové karty"
 msgid "New cards/day"
 msgstr "Nové karty na deň"
 
-#: qt/aqt/deckbrowser.py:254 qt/aqt/studydeck.py:151
+#: qt/aqt/deckbrowser.py:246 qt/aqt/studydeck.py:151
 msgid "New deck name:"
 msgstr "Názov nového balíčka:"
 
@@ -2092,8 +2088,8 @@ msgstr "Názov nového balíčka:"
 msgid "New interval"
 msgstr "Nový interval"
 
-#: qt/aqt/clayout.py:533 qt/aqt/deckconf.py:148 qt/aqt/fields.py:97
-#: qt/aqt/main.py:288 qt/aqt/models.py:77
+#: qt/aqt/clayout.py:584 qt/aqt/deckconf.py:148 qt/aqt/fields.py:97
+#: qt/aqt/main.py:303 qt/aqt/models.py:84
 msgid "New name:"
 msgstr "Nový názov:"
 
@@ -2110,23 +2106,23 @@ msgstr "Názov novej skupiny nastavení:"
 msgid "New position (1...%d):"
 msgstr "Nová pozícia (1...%d):"
 
-#: qt/aqt/forms/preferences.py:297
+#: qt/aqt/forms/preferences.py:298
 msgid "Next day starts at"
 msgstr "Ďalší deň začína o"
 
-#: qt/aqt/forms/preferences.py:282
+#: qt/aqt/forms/preferences.py:283
 msgid "Night mode"
 msgstr "Nočný režim"
 
-#: qt/aqt/browser.py:1287
+#: qt/aqt/browser.py:1290
 msgid "No Flag"
 msgstr "Žiadny príznak"
 
-#: qt/aqt/overview.py:69
+#: qt/aqt/overview.py:70
 msgid "No cards are due yet."
 msgstr "Zatiaľ nie sú žiadne karty na skúšanie."
 
-#: pylib/anki/stats.py:176
+#: pylib/anki/stats.py:178
 msgid "No cards have been studied today."
 msgstr "Dnes neboli študované žiadne karty."
 
@@ -2134,23 +2130,23 @@ msgstr "Dnes neboli študované žiadne karty."
 msgid "No cards matched the criteria you provided."
 msgstr "Žiadna karta nezodpovedá zadaným kritériam."
 
-#: pylib/anki/stats.py:174
+#: pylib/anki/stats.py:176
 msgid "No mature cards were studied today."
 msgstr "Žiadne zrelé karty ste dnes neštudovali."
 
-#: qt/aqt/addons.py:865
+#: qt/aqt/addons.py:868
 msgid "No updates available."
 msgstr "Aktualizácie nie sú k dispozícii."
 
-#: qt/aqt/browser.py:744
+#: qt/aqt/browser.py:747
 msgid "Note"
 msgstr "Poznámka"
 
-#: qt/aqt/browser.py:1332 qt/aqt/models.py:36 qt/aqt/forms/models.py:54
+#: qt/aqt/browser.py:1335 qt/aqt/models.py:36 qt/aqt/forms/models.py:54
 msgid "Note Types"
 msgstr "Typy poznámok"
 
-#: qt/aqt/reviewer.py:798
+#: qt/aqt/reviewer.py:818
 #, python-format
 msgid "Note and its %d card deleted."
 msgid_plural "Note and its %d cards deleted."
@@ -2158,11 +2154,11 @@ msgstr[0] "Poznámka a jej %d kariet odstránených."
 msgstr[1] "Poznámka a jej %d karta odstránené."
 msgstr[2] "Poznámka a jej %d karty odstránené."
 
-#: qt/aqt/reviewer.py:813
+#: qt/aqt/reviewer.py:833
 msgid "Note buried."
 msgstr "Poznámka zahrabaná."
 
-#: qt/aqt/reviewer.py:778
+#: qt/aqt/reviewer.py:798
 msgid "Note suspended."
 msgstr "Poznámka odložená bokom."
 
@@ -2180,7 +2176,7 @@ msgstr "Poznámky pridané zo súboru: %d"
 msgid "Notes found in file: %d"
 msgstr "Poznámky nájdené v súbore: %d"
 
-#: pylib/anki/exporting.py:120
+#: pylib/anki/exporting.py:125
 msgid "Notes in Plain Text"
 msgstr "Poznámky ako jednoduchý text"
 
@@ -2193,7 +2189,7 @@ msgstr "Poznámky vyžadujú aspoň jedno pole."
 msgid "Notes skipped, as they're already in your collection: %d"
 msgstr "Preskočené poznámky, ktoré už sú v zbierke: %d"
 
-#: qt/aqt/browser.py:2024
+#: qt/aqt/browser.py:2016
 msgid "Notes tagged."
 msgstr "Poznámky oštítkované."
 
@@ -2207,7 +2203,7 @@ msgstr "Poznámky, ktoré nebolo možné importovať, pretože sa zmenil typ poz
 msgid "Notes updated, as file had newer version: %d"
 msgstr "Poznámky aktualizované, pretože súbor bol v novšej verzii: %d"
 
-#: qt/aqt/browser.py:2178
+#: qt/aqt/browser.py:2170
 msgid "Nothing"
 msgstr "Nič"
 
@@ -2219,15 +2215,15 @@ msgstr "OK"
 msgid "Oldest seen first"
 msgstr "Od najdávnejšie zobrazených"
 
-#: qt/aqt/forms/preferences.py:303
+#: qt/aqt/forms/preferences.py:304
 msgid "On next sync, force changes in one direction"
 msgstr "Pri ďalšej synchronizácii vynútiť zmeny jedným smerom"
 
-#: qt/aqt/addons.py:1109
+#: qt/aqt/addons.py:1113
 msgid "One or more errors occurred:"
 msgstr "Došlo k jednej alebo viacerým chybám:"
 
-#: qt/aqt/browser.py:1738
+#: qt/aqt/browser.py:1728
 msgid "Only new cards can be repositioned."
 msgstr "Iba nové karty môžu byť presunuté."
 
@@ -2239,7 +2235,7 @@ msgstr "Otvoriť"
 msgid "Open Backup..."
 msgstr "Otvoriť zálohu..."
 
-#: qt/aqt/main.py:627
+#: qt/aqt/main.py:642
 msgid "Optimizing..."
 msgstr "Optimalizujem..."
 
@@ -2247,13 +2243,13 @@ msgstr "Optimalizujem..."
 msgid "Optional filter:"
 msgstr "Voliteľný filter:"
 
-#: qt/aqt/clayout.py:109 qt/aqt/deckbrowser.py:238 qt/aqt/deckconf.py:37
-#: qt/aqt/dyndeckconf.py:25 qt/aqt/overview.py:246 qt/aqt/reviewer.py:712
+#: qt/aqt/clayout.py:111 qt/aqt/deckbrowser.py:230 qt/aqt/deckconf.py:37
+#: qt/aqt/dyndeckconf.py:25 qt/aqt/overview.py:252 qt/aqt/reviewer.py:732
 #: qt/aqt/forms/dyndconf.py:142 qt/aqt/forms/fields.py:109
 msgid "Options"
 msgstr "Nastavenia"
 
-#: qt/aqt/deckconf.py:47 qt/aqt/dyndeckconf.py:28 qt/aqt/models.py:150
+#: qt/aqt/deckconf.py:47 qt/aqt/dyndeckconf.py:28 qt/aqt/models.py:157
 #, python-format
 msgid "Options for %s"
 msgstr "Nastavenia pre %s"
@@ -2262,11 +2258,11 @@ msgstr "Nastavenia pre %s"
 msgid "Options group:"
 msgstr "Skupina nastavení:"
 
-#: qt/aqt/models.py:64
+#: qt/aqt/models.py:67
 msgid "Options..."
 msgstr "Nastavenia..."
 
-#: qt/aqt/browser.py:1284 qt/aqt/reviewer.py:687 qt/aqt/forms/browser.py:334
+#: qt/aqt/browser.py:1287 qt/aqt/reviewer.py:707 qt/aqt/forms/browser.py:334
 msgid "Orange Flag"
 msgstr "Oranžový príznak"
 
@@ -2294,7 +2290,7 @@ msgstr "Prepísať typ písma:"
 msgid "Override front template:"
 msgstr "Prepísať prednú stranu:"
 
-#: qt/aqt/addons.py:869
+#: qt/aqt/addons.py:872
 msgid "Packaged Anki Add-on"
 msgstr "Zabalený Anki doplnok"
 
@@ -2302,15 +2298,15 @@ msgstr "Zabalený Anki doplnok"
 msgid "Packaged Anki Deck/Collection (*.apkg *.colpkg *.zip)"
 msgstr "Zabalený Anki balíček/zbierka (*.apkg *.colpkg *.zip)"
 
-#: qt/aqt/editor.py:1181
+#: qt/aqt/editor.py:1201
 msgid "Paste"
 msgstr "Prilepiť"
 
-#: qt/aqt/forms/preferences.py:280
+#: qt/aqt/forms/preferences.py:281
 msgid "Paste clipboard images as PNG"
 msgstr "Vložiť obrázok zo schránky ako PNG"
 
-#: qt/aqt/forms/preferences.py:281
+#: qt/aqt/forms/preferences.py:282
 msgid "Paste without shift key strips formatting"
 msgstr "Vložiť bez klávesu shift bez formátovania"
 
@@ -2318,20 +2314,20 @@ msgstr "Vložiť bez klávesu shift bez formátovania"
 msgid "Pauker 1.8 Lesson (*.pau.gz)"
 msgstr "Pauker 1.8 lekcia (*.pau.gz)"
 
-#: qt/aqt/reviewer.py:715
+#: qt/aqt/reviewer.py:735
 msgid "Pause Audio"
 msgstr "Pozastaviť zvuk"
 
-#: pylib/anki/stats.py:593
+#: pylib/anki/stats.py:599
 msgid "Percentage"
 msgstr "Percentá"
 
-#: pylib/anki/stats.py:943
+#: pylib/anki/stats.py:949
 #, python-format
 msgid "Period: %s"
 msgstr "Obdobie: %s"
 
-#: qt/aqt/forms/preferences.py:302
+#: qt/aqt/forms/preferences.py:303
 msgid "Periodically sync media"
 msgstr ""
 
@@ -2343,11 +2339,11 @@ msgstr "Umiestniť na koniec radu nových kariet"
 msgid "Place in review queue with interval between:"
 msgstr "Vložiť do radu kariet na opakovanie s rozostupmi:"
 
-#: qt/aqt/models.py:119
+#: qt/aqt/models.py:126
 msgid "Please add another note type first."
 msgstr "Najprv, prosím, pridajte ďalší typ poznámky."
 
-#: qt/aqt/addons.py:1013
+#: qt/aqt/addons.py:1017
 msgid "Please check your internet connection."
 msgstr "Skontrolujte, prosím, Vaše pripojenie k internetu."
 
@@ -2355,20 +2351,20 @@ msgstr "Skontrolujte, prosím, Vaše pripojenie k internetu."
 msgid "Please connect a microphone, and ensure other programs are not using the audio device."
 msgstr "Prosím, pripojte mikrofón a uistite sa, že iné programy nepoužívajú audio zariadenie."
 
-#: qt/aqt/main.py:1582
+#: qt/aqt/main.py:1606
 msgid "Please ensure a profile is open and Anki is not busy, then try again."
 msgstr "Prosím, uistite sa, že je profil otvorený a Anki nie je zaneprázdnené, potom skúste znova."
 
-#: qt/aqt/browser.py:1387
+#: qt/aqt/browser.py:1390
 msgid "Please give your filter a name:"
 msgstr "Pomenujte, prosím, filter:"
 
-#: qt/aqt/profiles.py:304
+#: qt/aqt/profiles.py:307
 #, python-format
 msgid "Please remove the folder %s and try again."
 msgstr "Odstráňte, prosím, priečinok %s a skúste to ešte raz."
 
-#: qt/aqt/addons.py:1436
+#: qt/aqt/addons.py:1446
 msgid "Please report this to the respective add-on author(s)."
 msgstr "Prosím, nahláste to autorovi(om) tohto doplnku."
 
@@ -2376,19 +2372,19 @@ msgstr "Prosím, nahláste to autorovi(om) tohto doplnku."
 msgid "Please restart Anki to complete language change."
 msgstr "Pre dokončenie zmeny jazyka, prosím, Anki reštartujte."
 
-#: qt/aqt/reviewer.py:375
+#: qt/aqt/reviewer.py:384
 msgid "Please run Tools>Empty Cards"
 msgstr "Prosím, spustite Nástroje>Prázdne karty"
 
-#: qt/aqt/main.py:658
+#: qt/aqt/main.py:673
 msgid "Please select a deck."
 msgstr "Vyberte, prosím, balíček."
 
-#: qt/aqt/addons.py:804
+#: qt/aqt/addons.py:807
 msgid "Please select a single add-on first."
 msgstr "Vyberte, prosím, najprv jeden doplnok."
 
-#: qt/aqt/browser.py:1487
+#: qt/aqt/browser.py:1490
 msgid "Please select cards from only one note type."
 msgstr "Prosím, vyberte karty iba z jedného druhu poznámok."
 
@@ -2396,11 +2392,11 @@ msgstr "Prosím, vyberte karty iba z jedného druhu poznámok."
 msgid "Please select something."
 msgstr "Prosím, vyberte niečo."
 
-#: qt/aqt/main.py:1098
+#: qt/aqt/main.py:1120
 msgid "Please use File>Import to import this file."
 msgstr "Prosím, použite Súbor>Importovať pre import tohto súboru."
 
-#: qt/aqt/forms/preferences.py:276
+#: qt/aqt/forms/preferences.py:277
 msgid "Preferences"
 msgstr "Nastavenia"
 
@@ -2408,12 +2404,12 @@ msgstr "Nastavenia"
 msgid "Preview"
 msgstr "Náhľad"
 
-#: qt/aqt/browser.py:614
+#: qt/aqt/browser.py:617
 #, python-format
 msgid "Preview Selected Card (%s)"
 msgstr "Náhľad zvolenej karty (%s)"
 
-#: qt/aqt/forms/customstudy.py:107
+#: qt/aqt/forms/customstudy.py:108
 msgid "Preview new cards"
 msgstr "Náhľad nových kariet"
 
@@ -2433,7 +2429,7 @@ msgstr[2] "Spracované %d multimediálne súbory"
 msgid "Processing..."
 msgstr "Spracováva sa..."
 
-#: qt/aqt/profiles.py:251
+#: qt/aqt/profiles.py:254
 msgid "Profile Corrupt"
 msgstr "Poškodený profil"
 
@@ -2441,16 +2437,16 @@ msgstr "Poškodený profil"
 msgid "Profiles"
 msgstr "Profily"
 
-#: qt/aqt/browser.py:730
+#: qt/aqt/browser.py:733
 msgid "Question"
 msgstr "Otázka"
 
-#: qt/aqt/browser.py:1749
+#: qt/aqt/browser.py:1739
 #, python-format
 msgid "Queue bottom: %d"
 msgstr "Koniec radu: %d"
 
-#: qt/aqt/browser.py:1748
+#: qt/aqt/browser.py:1738
 #, python-format
 msgid "Queue top: %d"
 msgstr "Začiatok radu: %d"
@@ -2467,24 +2463,24 @@ msgstr "Náhodne"
 msgid "Randomize order"
 msgstr "Náhodné poradie"
 
-#: qt/aqt/dyndeckconf.py:23 qt/aqt/overview.py:249
+#: qt/aqt/dyndeckconf.py:23 qt/aqt/overview.py:255
 msgid "Rebuild"
 msgstr "Znovu zostaviť"
 
-#: qt/aqt/reviewer.py:718
+#: qt/aqt/reviewer.py:738
 msgid "Record Own Voice"
 msgstr "Nahrať vlastný zvuk"
 
-#: qt/aqt/editor.py:168
+#: qt/aqt/editor.py:175
 msgid "Record audio (F5)"
 msgstr "Nahrať zvuk (F5)"
 
-#: qt/aqt/sound.py:560
+#: qt/aqt/sound.py:565
 #, python-format
 msgid "Recording...<br>Time: %0.1f"
 msgstr "Nahrávam...<br>Čas: %0.1f"
 
-#: qt/aqt/browser.py:1283 qt/aqt/reviewer.py:681 qt/aqt/forms/browser.py:333
+#: qt/aqt/browser.py:1286 qt/aqt/reviewer.py:701 qt/aqt/forms/browser.py:333
 msgid "Red Flag"
 msgstr "Červený príznak"
 
@@ -2492,7 +2488,7 @@ msgstr "Červený príznak"
 msgid "Relative overdueness"
 msgstr "Relatívne oneskorenie"
 
-#: pylib/anki/stats.py:344 pylib/anki/stats.py:364
+#: pylib/anki/stats.py:348 pylib/anki/stats.py:368
 msgid "Relearn"
 msgstr "Zabudnuté"
 
@@ -2500,16 +2496,16 @@ msgstr "Zabudnuté"
 msgid "Remember last input when adding"
 msgstr "Pri pridávaní si pamätať posledný vstup"
 
-#: qt/aqt/browser.py:1398
+#: qt/aqt/browser.py:1401
 #, python-format
 msgid "Remove %s from your saved searches?"
 msgstr "Odobrať %s z uložených hľadaní?"
 
-#: qt/aqt/clayout.py:626
+#: qt/aqt/clayout.py:677
 msgid "Remove Card Type..."
 msgstr "Odobrať typ karty..."
 
-#: qt/aqt/browser.py:1372
+#: qt/aqt/browser.py:1375
 msgid "Remove Current Filter..."
 msgstr "Odobrať súčasný filter..."
 
@@ -2517,20 +2513,20 @@ msgstr "Odobrať súčasný filter..."
 msgid "Remove Tags..."
 msgstr "Odstrániť štítky..."
 
-#: qt/aqt/editor.py:126
+#: qt/aqt/editor.py:133
 msgid "Remove formatting (Ctrl+R)"
 msgstr "Odstrániť formátovanie (Ctrl+R)"
 
-#: qt/aqt/deckbrowser.py:236 qt/aqt/deckconf.py:93 qt/aqt/models.py:55
+#: qt/aqt/deckbrowser.py:228 qt/aqt/deckconf.py:93 qt/aqt/models.py:55
 #: qt/aqt/forms/fields.py:104 qt/aqt/forms/profiles.py:82
 msgid "Rename"
 msgstr "Premenovať"
 
-#: qt/aqt/clayout.py:629
+#: qt/aqt/clayout.py:680
 msgid "Rename Card Type..."
 msgstr "Premenovať typ karty..."
 
-#: qt/aqt/deckbrowser.py:251
+#: qt/aqt/deckbrowser.py:243
 msgid "Rename Deck"
 msgstr "Premenovať balíček"
 
@@ -2538,23 +2534,23 @@ msgstr "Premenovať balíček"
 msgid "Repeat failed cards after"
 msgstr "Zopakovať chybné kartičky potom"
 
-#: qt/aqt/main.py:321
+#: qt/aqt/main.py:336
 msgid "Replace your collection with an earlier backup?"
 msgstr "Nahradiť zbierku skoršou zálohou?"
 
-#: qt/aqt/previewer.py:76 qt/aqt/reviewer.py:714
+#: qt/aqt/previewer.py:76 qt/aqt/reviewer.py:734
 msgid "Replay Audio"
 msgstr "Prehrať zvuk"
 
-#: qt/aqt/reviewer.py:719
+#: qt/aqt/reviewer.py:739
 msgid "Replay Own Voice"
 msgstr "Prehrať vlastný zvuk"
 
-#: qt/aqt/browser.py:1754 qt/aqt/forms/fields.py:105
+#: qt/aqt/browser.py:1744 qt/aqt/forms/fields.py:105
 msgid "Reposition"
 msgstr "Zmeniť poradie"
 
-#: qt/aqt/clayout.py:632
+#: qt/aqt/clayout.py:683
 msgid "Reposition Card Type..."
 msgstr "Zmeniť poradie typu karty..."
 
@@ -2570,7 +2566,7 @@ msgstr "Zmeniť poradie..."
 msgid "Require one or more of these tags:"
 msgstr "Vyžadovať jeden alebo viac z týchto štítkov:"
 
-#: qt/aqt/browser.py:1780 qt/aqt/forms/reschedule.py:73
+#: qt/aqt/browser.py:1770 qt/aqt/forms/reschedule.py:73
 msgid "Reschedule"
 msgstr "Preplánovať"
 
@@ -2578,11 +2574,11 @@ msgstr "Preplánovať"
 msgid "Reschedule cards based on my answers in this deck"
 msgstr "Preplánovať karty podľa mojich odpovedí v tomto balíčku"
 
-#: qt/aqt/addons.py:1304
+#: qt/aqt/addons.py:1310
 msgid "Restored defaults"
 msgstr "Obnovené pôvodné nastavenia"
 
-#: qt/aqt/main.py:717
+#: qt/aqt/main.py:734
 msgid "Resume Now"
 msgstr "Pokračovať"
 
@@ -2590,28 +2586,28 @@ msgstr "Pokračovať"
 msgid "Reverse text direction (RTL)"
 msgstr "Text sprava doľava (RTL - right to left)"
 
-#: qt/aqt/main.py:334
+#: qt/aqt/main.py:349
 msgid "Revert to backup"
 msgstr "Obnoviť zo zálohy"
 
-#: qt/aqt/main.py:1012
+#: qt/aqt/main.py:1034
 #, python-format
 msgid "Reverted to state prior to '%s'."
 msgstr "Obnovené do stavu pred '%s'."
 
-#: pylib/anki/collection.py:566 qt/aqt/browser.py:1277
+#: pylib/anki/collection.py:577 qt/aqt/browser.py:1280
 msgid "Review"
 msgstr "Opakovať"
 
-#: pylib/anki/stats.py:350
+#: pylib/anki/stats.py:354
 msgid "Review Count"
 msgstr "Počet opakovaní"
 
-#: pylib/anki/stats.py:376
+#: pylib/anki/stats.py:380
 msgid "Review Time"
 msgstr "Čas na opakovanie"
 
-#: qt/aqt/forms/customstudy.py:102
+#: qt/aqt/forms/customstudy.py:103
 msgid "Review ahead"
 msgstr "Opakovať dopredu"
 
@@ -2623,15 +2619,15 @@ msgstr "Opakovať dopredu o"
 msgid "Review cards forgotten in last"
 msgstr "Zopakovať karty zabudnuté za posledných"
 
-#: qt/aqt/forms/customstudy.py:103
+#: qt/aqt/forms/customstudy.py:104
 msgid "Review forgotten cards"
 msgstr "Opakovať zabudnuté karty"
 
-#: pylib/anki/stats.py:785
+#: pylib/anki/stats.py:791
 msgid "Review success rate for each hour of the day."
 msgstr "Percento úspešnosti pre každú hodinu dňa."
 
-#: pylib/anki/stats.py:813 qt/aqt/browser.py:741 qt/aqt/forms/dconf.py:361
+#: pylib/anki/stats.py:819 qt/aqt/browser.py:744 qt/aqt/forms/dconf.py:361
 msgid "Reviews"
 msgstr "Opakovania"
 
@@ -2644,34 +2640,34 @@ msgstr "Nevybavené opakovania v balíčku nad dnešný limit: %s"
 msgid "Right"
 msgstr "Vpravo"
 
-#: qt/aqt/clayout.py:355 qt/aqt/sound.py:549
+#: qt/aqt/clayout.py:399 qt/aqt/sound.py:554
 msgid "Save"
 msgstr "Uložiť"
 
-#: qt/aqt/browser.py:1374
+#: qt/aqt/browser.py:1377
 msgid "Save Current Filter..."
 msgstr "Uložiť súčasný filter..."
 
-#: qt/aqt/stats.py:42 qt/aqt/stats.py:67 qt/aqt/stats.py:119
-#: qt/aqt/stats.py:150
+#: qt/aqt/stats.py:42 qt/aqt/stats.py:67 qt/aqt/stats.py:114
+#: qt/aqt/stats.py:145
 msgid "Save PDF"
 msgstr "Uložiť PDF"
 
-#: qt/aqt/stats.py:80 qt/aqt/stats.py:163
+#: qt/aqt/stats.py:80 qt/aqt/stats.py:158
 msgid "Saved."
 msgstr "Uložené."
 
-#: qt/aqt/forms/preferences.py:298
+#: qt/aqt/forms/preferences.py:299
 #, fuzzy
 msgid "Scheduling"
 msgstr "Preplánovať"
 
-#: pylib/anki/stats.py:941
+#: pylib/anki/stats.py:947
 #, python-format
 msgid "Scope: %s"
 msgstr "Oblasť: %s"
 
-#: qt/aqt/browser.py:1980 qt/aqt/forms/browser.py:295
+#: qt/aqt/browser.py:1972 qt/aqt/forms/browser.py:295
 #: qt/aqt/forms/dyndconf.py:136 qt/aqt/forms/dyndconf.py:140
 msgid "Search"
 msgstr "Hľadať"
@@ -2725,11 +2721,11 @@ msgstr "Nastaviť všetky balíčky pod %s do tejto skupiny nastavení?"
 msgid "Set for all subdecks"
 msgstr "Nastaviť pre všetky podbalíčky"
 
-#: qt/aqt/editor.py:129
+#: qt/aqt/editor.py:136
 msgid "Set foreground colour (F7)"
 msgstr "Nastaviť fabru popredia (F7)"
 
-#: qt/aqt/main.py:112
+#: qt/aqt/main.py:127
 msgid "Shift key was held down. Skipping automatic syncing and add-on loading."
 msgstr "Držali ste tlačidlo Shift. Preskakujem automatickú synchronizáciu a načítavanie rozšírení."
 
@@ -2737,37 +2733,33 @@ msgstr "Držali ste tlačidlo Shift. Preskakujem automatickú synchronizáciu a 
 msgid "Shift position of existing cards"
 msgstr "Zmeniť pozíciu existujúcich kariet"
 
-#: qt/aqt/deckbrowser.py:326 qt/aqt/main.py:746 qt/aqt/overview.py:259
-#: qt/aqt/previewer.py:80 qt/aqt/previewer.py:85 qt/aqt/reviewer.py:561
-#: qt/aqt/reviewer.py:574 qt/aqt/reviewer.py:640 qt/aqt/toolbar.py:107
+#: qt/aqt/deckbrowser.py:318 qt/aqt/main.py:763 qt/aqt/overview.py:265
+#: qt/aqt/previewer.py:80 qt/aqt/previewer.py:85 qt/aqt/reviewer.py:570
+#: qt/aqt/reviewer.py:583 qt/aqt/reviewer.py:660 qt/aqt/toolbar.py:107
 #: qt/aqt/toolbar.py:114 qt/aqt/toolbar.py:121 qt/aqt/toolbar.py:128
 #: qt/aqt/toolbar.py:144
 #, python-format
 msgid "Shortcut key: %s"
 msgstr "Klávesová skratka: %s"
 
-#: qt/aqt/previewer.py:238
+#: qt/aqt/previewer.py:241
 msgid "Shortcut key: Left arrow"
 msgstr "Skratka: Vľavo"
 
-#: qt/aqt/previewer.py:243
+#: qt/aqt/previewer.py:246
 msgid "Shortcut key: Right arrow or Enter"
 msgstr "Skratka: Vpravo alebo Enter"
 
-#: qt/aqt/addcards.py:86
+#: qt/aqt/addcards.py:87
 #, python-format
 msgid "Shortcut: %s"
 msgstr "Skratka: %s"
 
-#: qt/aqt/reviewer.py:575
+#: qt/aqt/reviewer.py:584
 msgid "Show Answer"
 msgstr "Zobraziť odpoveď"
 
-#: qt/aqt/previewer.py:83
-msgid "Show Both Sides"
-msgstr "Zobraziť obe strany"
-
-#: qt/aqt/editor.py:193
+#: qt/aqt/editor.py:200
 msgid "Show Duplicates"
 msgstr "Zobraziť duplikáty"
 
@@ -2775,7 +2767,7 @@ msgstr "Zobraziť duplikáty"
 msgid "Show answer timer"
 msgstr "Zobrazovať čas odpovedí"
 
-#: qt/aqt/forms/preferences.py:290
+#: qt/aqt/forms/preferences.py:291
 msgid "Show learning cards with larger steps before reviews"
 msgstr "Zobraziť karty na učenie s väčšími krokmi pred opakovaniami"
 
@@ -2795,19 +2787,19 @@ msgstr "Zobraziť nové karty v poradí, v akom boli pridané"
 msgid "Show new cards in random order"
 msgstr "Zobraziť nové karty v náhodnom poradí"
 
-#: qt/aqt/forms/preferences.py:288
+#: qt/aqt/forms/preferences.py:289
 msgid "Show next review time above answer buttons"
 msgstr "Zobraziť čas budúceho opakovania nad tlačidlami odpovedí"
 
-#: qt/aqt/forms/preferences.py:278
+#: qt/aqt/forms/preferences.py:279
 msgid "Show play buttons on cards with audio"
 msgstr "Zobrazovať tlačidlá prehrávania na kartách, ktoré obsahujú zvuk"
 
-#: qt/aqt/forms/preferences.py:289
+#: qt/aqt/forms/preferences.py:290
 msgid "Show remaining card count during review"
 msgstr "Zobrazovať počet zostávajúcich kariet počas opakovania"
 
-#: qt/aqt/browser.py:1053 qt/aqt/forms/browser.py:337
+#: qt/aqt/browser.py:1056 qt/aqt/forms/browser.py:337
 msgid "Sidebar"
 msgstr "Bočný panel"
 
@@ -2819,15 +2811,11 @@ msgstr "Veľkosť:"
 msgid "Skipped"
 msgstr "Preskočené"
 
-#: pylib/anki/schedv2.py:1337
-msgid "Some related or buried cards were delayed until a later session."
-msgstr "Niektoré súvisiace alebo zahrabané karty boli posunuté na neskôr."
-
 #: qt/aqt/forms/preferences.py:311
 msgid "Some settings will take effect after you restart Anki."
 msgstr "Niektoré nastavenia sa prejavia až po reštarte Anki."
 
-#: qt/aqt/browser.py:734
+#: qt/aqt/browser.py:737
 msgid "Sort Field"
 msgstr "Zoradiť pole"
 
@@ -2835,7 +2823,7 @@ msgstr "Zoradiť pole"
 msgid "Sort by this field in the browser"
 msgstr "Zoradiť podľa tohto poľa v prehliadači"
 
-#: qt/aqt/browser.py:929
+#: qt/aqt/browser.py:932
 msgid "Sorting on this column is not supported. Please choose another."
 msgstr "Triedenie podľa tohto stĺpca nie je podporované. Vyberte, prosím, iný."
 
@@ -2843,7 +2831,7 @@ msgstr "Triedenie podľa tohto stĺpca nie je podporované. Vyberte, prosím, in
 msgid "Sound and video on cards will not function until mpv or mplayer is installed."
 msgstr "Zvuk a video na kartách nebude fungovať, kým nenainštalujete mpv alebo mplayer.mplayer."
 
-#: qt/aqt/importing.py:170 qt/aqt/reviewer.py:574
+#: qt/aqt/importing.py:170 qt/aqt/reviewer.py:583
 msgid "Space"
 msgstr "Medzera"
 
@@ -2875,7 +2863,7 @@ msgstr "Kroky (v minútach)"
 msgid "Steps must be numbers."
 msgstr "Kroky musia byť v číslach."
 
-#: qt/aqt/browser.py:1263
+#: qt/aqt/browser.py:1266
 msgid "Studied Today"
 msgstr "Dnes preštudované"
 
@@ -2887,19 +2875,19 @@ msgstr "Študovať"
 msgid "Study Deck"
 msgstr "Balíček na štúdium"
 
-#: qt/aqt/forms/main.py:151
+#: qt/aqt/forms/main.py:152
 msgid "Study Deck..."
 msgstr "Študovať balíček..."
 
-#: qt/aqt/overview.py:229
+#: qt/aqt/overview.py:235
 msgid "Study Now"
 msgstr "Študovať teraz"
 
-#: qt/aqt/forms/customstudy.py:106
+#: qt/aqt/forms/customstudy.py:107
 msgid "Study by card state or tag"
 msgstr "Študovať podľa stavu karty alebo štítku"
 
-#: qt/aqt/editor.py:125
+#: qt/aqt/editor.py:132
 msgid "Subscript (Ctrl+=)"
 msgstr "Dolný index (Ctrl+=)"
 
@@ -2907,27 +2895,27 @@ msgstr "Dolný index (Ctrl+=)"
 msgid "Supermemo XML export (*.xml)"
 msgstr "Supermemo XML export (*.xml)"
 
-#: qt/aqt/editor.py:123
+#: qt/aqt/editor.py:130
 msgid "Superscript (Ctrl++)"
 msgstr "Horný index (Ctrl++)"
 
-#: qt/aqt/reviewer.py:776 qt/aqt/reviewer.py:782
+#: qt/aqt/reviewer.py:796 qt/aqt/reviewer.py:802
 msgid "Suspend"
 msgstr "Dať bokom"
 
-#: qt/aqt/reviewer.py:709 qt/aqt/forms/dconf.py:369
+#: qt/aqt/reviewer.py:729 qt/aqt/forms/dconf.py:369
 msgid "Suspend Card"
 msgstr "Dať kartu bokom"
 
-#: qt/aqt/reviewer.py:710
+#: qt/aqt/reviewer.py:730
 msgid "Suspend Note"
 msgstr "Dať poznámku bokom"
 
-#: qt/aqt/browser.py:1280
+#: qt/aqt/browser.py:1283
 msgid "Suspended"
 msgstr "Odložené bokom"
 
-#: pylib/anki/stats.py:855
+#: pylib/anki/stats.py:861
 msgid "Suspended+Buried"
 msgstr "Odložené a preskočené"
 
@@ -2935,7 +2923,7 @@ msgstr "Odložené a preskočené"
 msgid "Sync"
 msgstr "Synchronizácia"
 
-#: qt/aqt/forms/preferences.py:300
+#: qt/aqt/forms/preferences.py:301
 msgid "Synchronize audio and images too"
 msgstr "Synchronizovať zvuk aj obrázky"
 
@@ -2943,7 +2931,7 @@ msgstr "Synchronizovať zvuk aj obrázky"
 msgid "Tab"
 msgstr "Karta"
 
-#: qt/aqt/browser.py:1989 qt/aqt/browser.py:2016
+#: qt/aqt/browser.py:1981 qt/aqt/browser.py:2008
 msgid "Tag Duplicates"
 msgstr "Duplikáty štítkov"
 
@@ -2955,7 +2943,7 @@ msgstr "Iba štítok"
 msgid "Tag modified notes:"
 msgstr "Pridať štítky k modifikovaným poznámkam:"
 
-#: qt/aqt/browser.py:743 qt/aqt/browser.py:1295 qt/aqt/editor.py:561
+#: qt/aqt/browser.py:746 qt/aqt/browser.py:1298 qt/aqt/editor.py:567
 msgid "Tags"
 msgstr "Štítky"
 
@@ -2979,11 +2967,11 @@ msgstr "Pole s takým názvom už existuje."
 msgid "The default configuration can't be removed."
 msgstr "Predvolená konfigurácia sa nedá odstrániť."
 
-#: pylib/anki/stats.py:880
+#: pylib/anki/stats.py:886
 msgid "The division of cards in your deck(s)."
 msgstr "Rozdelenie kariet vo vašom balíčku(och)."
 
-#: qt/aqt/addcards.py:163
+#: qt/aqt/addcards.py:164
 msgid "The first field is empty."
 msgstr "Prvé pole je prázdne."
 
@@ -2996,7 +2984,7 @@ msgstr "Prvé pole typu poznámky musí byť namapované."
 msgid "The following add-ons are incompatible with %(name)s and have been disabled: %(found)s"
 msgstr "Nasledujúce doplnky nie sú kompatibilné s %(name)s a boli vypnuté: %(found)s"
 
-#: qt/aqt/addons.py:1264
+#: qt/aqt/addons.py:1268
 msgid "The following add-ons have updates available. Install them now?"
 msgstr "Pre nasledujúce doplnky sú dostupné aktualizácie. Chcete ich teraz nainštalovať?"
 
@@ -3009,19 +2997,19 @@ msgstr "Nasledovný znak nemožno použiť: %s"
 msgid "The following conflicting add-ons were disabled:"
 msgstr "Nasledujúce konfliktné doplnky boli vypnuté:"
 
-#: pylib/anki/stats.py:305
+#: pylib/anki/stats.py:309
 msgid "The number of new cards you have added."
 msgstr "Počet nových karet, ktore ste pridali."
 
-#: pylib/anki/stats.py:350
+#: pylib/anki/stats.py:354
 msgid "The number of questions you have answered."
 msgstr "Počet zodpovedaných otázok."
 
-#: pylib/anki/stats.py:226
+#: pylib/anki/stats.py:228
 msgid "The number of reviews due in the future."
 msgstr "Počet opakovaní v budúcnosti."
 
-#: pylib/anki/stats.py:675
+#: pylib/anki/stats.py:681
 msgid "The number of times you have pressed each button."
 msgstr "Počet stlačení jednotlivých tlačidiel."
 
@@ -3033,26 +3021,15 @@ msgstr "Vybraný súbor nie je platným súborom typu .apkg."
 msgid "The provided search did not match any cards. Would you like to revise it?"
 msgstr "Zadaným kritériám nevyhovujú žiadne karty. Chcete ich zmeniť?"
 
-#: qt/aqt/main.py:1319 qt/aqt/main.py:1338
+#: qt/aqt/main.py:1341 qt/aqt/main.py:1360
 msgid "The requested change will require a full upload of the database when you next synchronize your collection. If you have reviews or other changes waiting on another device that haven't been synchronized here yet, they will be lost. Continue?"
 msgstr "Požadovaná zmena spôsobí nahranie celej databázy na server pri najbližšej synchronizácii vašej zbierky. Ak máte na inom zariadení opakovanie alebo iné zmeny, ktoré ešte neboli synchronizované, budú stratené. Chcete pokračovať?"
 
-#: pylib/anki/stats.py:376
+#: pylib/anki/stats.py:380
 msgid "The time taken to answer the questions."
 msgstr "Čas na zodpovedanie otázok."
 
-#: pylib/anki/schedv2.py:1323
-msgid ""
-"There are more new cards available, but the daily limit has been\n"
-"reached. You can increase the limit in the options, but please\n"
-"bear in mind that the more new cards you introduce, the higher\n"
-"your short-term review workload will become."
-msgstr ""
-"Dostupné sú aj ďalšie nové karty, ale bol dosiahnutý denný limit. \n"
-"Môžete ho zvýšiť v nastaveniach, ale prosím majte na pamäti, \n"
-"že tým sa v najbližšej dobe zvýši aj počet kariet na opakovanie."
-
-#: qt/aqt/main.py:303
+#: qt/aqt/main.py:318
 msgid "There must be at least one profile."
 msgstr "Musí existovať aspoň jeden profil."
 
@@ -3068,11 +3045,11 @@ msgstr "Zdá sa, že tento súbor nie je platným súborom typu .apkg. Ak sa Vá
 msgid "This file exists. Are you sure you want to overwrite it?"
 msgstr "Súbor už existuje. Ste si istý, že ho chcete prepísať?"
 
-#: qt/aqt/overview.py:181
+#: qt/aqt/overview.py:188
 msgid "This is a special deck for studying outside of the normal schedule."
 msgstr "Toto je špeciálny balíček na štúdium mimo bežného plánu."
 
-#: qt/aqt/clayout.py:579
+#: qt/aqt/clayout.py:630
 #, python-format
 msgid "This will create %d card. Proceed?"
 msgid_plural "This will create %d cards. Proceed?"
@@ -3088,11 +3065,11 @@ msgstr "Týmto sa vymaže vaša súčasná zbierka a nahradí sa údajmi zo súb
 msgid "This will reset any cards in learning, clear filtered decks, and change the scheduler version. Proceed?"
 msgstr "Týmto obnovíte všetky karty v procese učenia, vyprázdnite filtrované balíky a zmeníte verziu plánovača. Pokračovať?"
 
-#: qt/aqt/forms/preferences.py:293
+#: qt/aqt/forms/preferences.py:294
 msgid "Timebox time limit"
 msgstr "Limit pre časový box"
 
-#: qt/aqt/overview.py:227
+#: qt/aqt/overview.py:233
 msgid "To Review"
 msgstr "Na opakovanie"
 
@@ -3100,31 +3077,14 @@ msgstr "Na opakovanie"
 msgid "To browse add-ons, please click the browse button below.<br><br>When you've found an add-on you like, please paste its code below. You can paste multiple codes, separated by spaces."
 msgstr "Ak chcete prechádzať doplnky, kliknite, prosím, na tlačidlo prehliadať nižšie.<br><br>Ak ste našli doplnok, ktorý sa Vám páči, prosím, zadajte jeho kód. Je možné zadať viacero kódov oddelených medzerami."
 
-#: qt/aqt/editor.py:636
+#: qt/aqt/editor.py:642
 #, fuzzy
 msgid "To make a cloze deletion on an existing note, you need to change it to a cloze type first, via 'Notes>Change Note Type'"
 msgstr "Ak chcete vytvoriť doplňovačku z existujúcej poznámky, musíte najprv zmeniť jej typ na doplňovačku pomocou Upraviť->Zmeniť typ poznámky."
 
-#: pylib/anki/schedv2.py:1332
-msgid "To see them now, click the Unbury button below."
-msgstr "Ak ich chcete vidieť teraz, kliknite na tlačidlo Vyhrabať nižšie."
-
-#: pylib/anki/schedv2.py:1345
-msgid "To study outside of the normal schedule, click the Custom Study button below."
-msgstr "Ak chcete študovať mimo bežný plán, kliknite na tlačidlo Vlastné štúdium nižšie."
-
-#: pylib/anki/stats.py:119 qt/aqt/browser.py:1258
+#: pylib/anki/stats.py:119 qt/aqt/browser.py:1261
 msgid "Today"
 msgstr "Dnes"
-
-#: pylib/anki/schedv2.py:1314
-msgid ""
-"Today's review limit has been reached, but there are still cards\n"
-"waiting to be reviewed. For optimum memory, consider increasing\n"
-"the daily limit in the options."
-msgstr ""
-"Bol dosiahnutý denný limit, ale stále zostávajú nejaké karty na opakovanie.\n"
-"Pre optimálne zapamätanie zvážte zvýšenie tohto limitu v nastaveniach."
 
 #: qt/aqt/forms/addons.py:76
 msgid "Toggle Enabled"
@@ -3138,19 +3098,19 @@ msgstr "Prepnúť označenie"
 msgid "Toggle Suspend"
 msgstr "Prepnúť odloženie"
 
-#: pylib/anki/stats.py:246 pylib/anki/stats.py:314 pylib/anki/stats.py:414
+#: pylib/anki/stats.py:249 pylib/anki/stats.py:318 pylib/anki/stats.py:418
 msgid "Total"
 msgstr "Celkom"
 
-#: pylib/anki/stats.py:867
+#: pylib/anki/stats.py:873
 msgid "Total cards"
 msgstr "Celkom kariet"
 
-#: pylib/anki/stats.py:868
+#: pylib/anki/stats.py:874
 msgid "Total notes"
 msgstr "Celkom poznámok"
 
-#: qt/aqt/forms/findreplace.py:87
+#: qt/aqt/forms/findreplace.py:90
 msgid "Treat input as regular expression"
 msgstr "Považovať vstup za regulárny výraz"
 
@@ -3158,7 +3118,7 @@ msgstr "Považovať vstup za regulárny výraz"
 msgid "Type"
 msgstr "Typ"
 
-#: qt/aqt/reviewer.py:379
+#: qt/aqt/reviewer.py:388
 #, python-format
 msgid "Type answer: unknown field %s"
 msgstr "Napíšte odpoveď: neznáme pole %s"
@@ -3167,7 +3127,7 @@ msgstr "Napíšte odpoveď: neznáme pole %s"
 msgid "Unable to access Anki media folder. The permissions on your system's temporary folder may be incorrect."
 msgstr "Nie je možné pristupovať k priečinku s médiami Anki. Práva systémového dočasného priečinka môžu byť nesprávne."
 
-#: qt/aqt/main.py:347
+#: qt/aqt/main.py:362
 msgid "Unable to move existing file to trash - please try restarting your computer."
 msgstr "Nie je možné presunúť existujúci súbor do koša - skúste, prosím, reštartovať počítač."
 
@@ -3182,24 +3142,24 @@ msgstr ""
 "\n"
 "Informácie pre ladenie: %s"
 
-#: qt/aqt/overview.py:255
+#: qt/aqt/overview.py:261
 msgid "Unbury"
 msgstr "Vyhrabať"
 
-#: qt/aqt/editor.py:120
+#: qt/aqt/editor.py:127
 msgid "Underline text (Ctrl+U)"
 msgstr "Podčiarknutý text (Ctrl+U)"
 
-#: qt/aqt/main.py:1022
+#: qt/aqt/main.py:1044
 msgid "Undo"
 msgstr "Späť"
 
-#: qt/aqt/main.py:1018
+#: qt/aqt/main.py:1040
 #, python-format
 msgid "Undo %s"
 msgstr "Späť %s"
 
-#: qt/aqt/addons.py:1010 qt/aqt/editor.py:835
+#: qt/aqt/addons.py:1014 qt/aqt/editor.py:841
 #, python-format
 msgid "Unexpected response code: %s"
 msgstr "Neočakávaný kód odpovede: %s"
@@ -3212,7 +3172,7 @@ msgstr "Neznáma chyba: {}"
 msgid "Unknown file format."
 msgstr "Neznámy formát súboru."
 
-#: pylib/anki/stats.py:854
+#: pylib/anki/stats.py:860
 msgid "Unseen"
 msgstr "Nevidené"
 
@@ -3224,11 +3184,11 @@ msgstr "Aktualizovať existujúce poznámky, ak je prvé pole rovnaké"
 msgid "Updated"
 msgstr "Aktualizované"
 
-#: qt/aqt/profiles.py:476
+#: qt/aqt/profiles.py:479
 msgid "User 1"
 msgstr "Používateľ 1"
 
-#: qt/aqt/forms/preferences.py:285
+#: qt/aqt/forms/preferences.py:286
 msgid "User interface size"
 msgstr "Veľkosť používateľského rozhrania"
 
@@ -3245,23 +3205,23 @@ msgstr "Zobraziť stránku doplnku"
 msgid "View Files"
 msgstr "Zobraziť súbory"
 
-#: qt/aqt/main.py:716
+#: qt/aqt/main.py:733
 msgid "Waiting for editing to finish."
 msgstr "Čaká sa na dokončenie zmien."
 
-#: qt/aqt/editor.py:629
+#: qt/aqt/editor.py:635
 msgid "Warning, cloze deletions will not work until you switch the type at the top to Cloze."
 msgstr "Upozornenie: doplňovačky nebudú fungovať, pokiaľ nezmeníte typ hore na Doplňovačka."
 
-#: qt/aqt/overview.py:138
+#: qt/aqt/overview.py:137
 msgid "What would you like to unbury?"
 msgstr "Čo by ste chceli vyhrabať?"
 
-#: qt/aqt/forms/preferences.py:283
+#: qt/aqt/forms/preferences.py:284
 msgid "When adding, default to current deck"
 msgstr "Pri pridávaní je automaticky nastavený aktuálny balíček"
 
-#: qt/aqt/browser.py:1121 qt/aqt/browser.py:1254
+#: qt/aqt/browser.py:1124 qt/aqt/browser.py:1257
 msgid "Whole Collection"
 msgstr "Celá zbierka"
 
@@ -3269,7 +3229,7 @@ msgstr "Celá zbierka"
 msgid "Would you like to download it now?"
 msgstr "Chcete ju stiahnuť teraz?"
 
-#: qt/aqt/about.py:212
+#: qt/aqt/about.py:214
 #, python-format
 msgid "Written by Damien Elmes, with patches, translation,    testing and design from:<p>%(cont)s"
 msgstr "Napísané Damienom Elmesem so záplatami, prekladmi, testovaním a návrhom od:<p>%(cont)s"
@@ -3278,24 +3238,24 @@ msgstr "Napísané Damienom Elmesem so záplatami, prekladmi, testovaním a náv
 msgid "You can restore backups via File>Switch Profile."
 msgstr "Môžete obnoviť zo zálohy pomocou Súbor>Prepnúť profil."
 
-#: qt/aqt/addcards.py:172
+#: qt/aqt/addcards.py:173
 msgid "You have a cloze deletion note type but have not made any cloze deletions. Proceed?"
 msgstr "Máte nastavený typ poznámky Doplňovačka, ale nevytvorili ste žiadnu doplňovačku. Pokračovať?"
 
-#: qt/aqt/reviewer.py:821
+#: qt/aqt/reviewer.py:841
 msgid "You haven't recorded your voice yet."
 msgstr "Zatiaľ ste nenahrali svoj hlas."
 
-#: qt/aqt/browser.py:984
+#: qt/aqt/browser.py:987
 msgid "You must have at least one column."
 msgstr "Je potrebný aspoň jeden stĺpec."
 
-#: pylib/anki/stats.py:212 pylib/anki/stats.py:343 pylib/anki/stats.py:363
-#: pylib/anki/stats.py:681
+#: pylib/anki/stats.py:214 pylib/anki/stats.py:347 pylib/anki/stats.py:367
+#: pylib/anki/stats.py:687
 msgid "Young"
 msgstr "Mladé"
 
-#: pylib/anki/stats.py:853
+#: pylib/anki/stats.py:859
 msgid "Young+Learn"
 msgstr "Mladé a študované"
 
@@ -3303,7 +3263,7 @@ msgstr "Mladé a študované"
 msgid "Your changes will affect multiple decks. If you wish to change only the current deck, please add a new options group first."
 msgstr "Vaše zmeny budú mať vplyv na viacero balíčkov. Ak chcete zmeniť iba nastavenia aktuálneho balíčka, vytvorte, prosím, najskôr novú skupinu nastavení."
 
-#: qt/aqt/main.py:561
+#: qt/aqt/main.py:576
 msgid "Your collection file appears to be corrupt. This can happen when the file is copied or moved while Anki is open, or when the collection is stored on a network or cloud drive. If problems persist after restarting your computer, please open an automatic backup from the profile screen."
 msgstr "Váš súbor so zbierkou vyzerá byť poškodený. Toto sa stáva vtedy, keď je súbor prekopírovaný alebo presunutý, kým je Anki otvorené alebo keď je zbierka uložená na sieťový disk alebo v cloude. Ak problém pretrváva po reštarte počítača, prejdite, prosím, do automatickej zálohy z nastavenia profilu."
 
@@ -3315,7 +3275,7 @@ msgstr "Úložisko počítača môže byť plné. Odstráňte, prosím, niektor�
 msgid "Your firewall or antivirus program is preventing Anki from creating a connection to itself. Please add an exception for Anki."
 msgstr "Váš firewall alebo antivírusový program zabraňuje Anki vytvoriť spojenie so sebou. Prosím, vytvorte pre Anki výnimku."
 
-#: pylib/anki/decks.py:360
+#: pylib/anki/decks.py:382
 msgid "[no deck]"
 msgstr "[žiaden balíček]"
 
@@ -3323,7 +3283,7 @@ msgstr "[žiaden balíček]"
 msgid "backups"
 msgstr "záloh"
 
-#: pylib/anki/stats.py:315 qt/aqt/customstudy.py:53
+#: pylib/anki/stats.py:319 qt/aqt/customstudy.py:53
 msgid "cards"
 msgstr "kariet"
 
@@ -3340,7 +3300,7 @@ msgid "collection"
 msgstr "zbierka"
 
 #. T: abbreviation of day
-#: pylib/anki/stats.py:976
+#: pylib/anki/stats.py:982
 msgid "d"
 msgstr "dní"
 
@@ -3355,19 +3315,19 @@ msgstr "dní"
 msgid "deck"
 msgstr "balíček"
 
-#: pylib/anki/stats.py:943 qt/aqt/forms/stats.py:84
+#: pylib/anki/stats.py:949 qt/aqt/forms/stats.py:84
 msgid "deck life"
 msgstr "existencia balíčka"
 
-#: qt/aqt/browser.py:2020
+#: qt/aqt/browser.py:2012
 msgid "duplicate"
 msgstr "duplikát"
 
-#: pylib/anki/stats.py:409
+#: pylib/anki/stats.py:413
 msgid "hours"
 msgstr "hodín"
 
-#: qt/aqt/forms/preferences.py:294
+#: qt/aqt/forms/preferences.py:295
 msgid "hours past midnight"
 msgstr "hodín po polnoci"
 
@@ -3384,20 +3344,20 @@ msgstr "priradené k <b>%s</b>"
 msgid "mapped to <b>Tags</b>"
 msgstr "priradené k <b>Štítky</b>"
 
-#: qt/aqt/forms/preferences.py:292 qt/aqt/forms/preferences.py:296
+#: qt/aqt/forms/preferences.py:293 qt/aqt/forms/preferences.py:297
 msgid "mins"
 msgstr "min"
 
-#: pylib/anki/stats.py:380 qt/aqt/forms/dyndconf.py:146
+#: pylib/anki/stats.py:384 qt/aqt/forms/dyndconf.py:146
 msgid "minutes"
 msgstr "minút"
 
 #. T: abbreviation of month
-#: pylib/anki/stats.py:980
+#: pylib/anki/stats.py:986
 msgid "mo"
 msgstr "mes"
 
-#: pylib/anki/stats.py:248 pylib/anki/stats.py:356
+#: pylib/anki/stats.py:252 pylib/anki/stats.py:360
 msgid "reviews"
 msgstr "opakovaní"
 
@@ -3405,22 +3365,58 @@ msgstr "opakovaní"
 msgid "seconds"
 msgstr "sekúnd"
 
-#: qt/aqt/stats.py:64 qt/aqt/stats.py:147
+#: qt/aqt/stats.py:64 qt/aqt/stats.py:142
 msgid "stats"
 msgstr "stat"
 
 #. T: abbreviation of week
-#: pylib/anki/stats.py:978
+#: pylib/anki/stats.py:984
 msgid "w"
 msgstr "týždňov"
 
-#: pylib/anki/stats.py:938
+#: pylib/anki/stats.py:944
 msgid "whole collection"
 msgstr "celá zbierka"
 
 #: qt/aqt/forms/reschedule.py:76
 msgid "~"
 msgstr "~"
+
+#~ msgid "Congratulations! You have finished this deck for now."
+#~ msgstr "Blahoželáme! Nateraz ste tento balíček dokončili."
+
+#~ msgid "Deauthorize"
+#~ msgstr "Zrušiť oprávnenie"
+
+#~ msgid "Show Both Sides"
+#~ msgstr "Zobraziť obe strany"
+
+#~ msgid "Some related or buried cards were delayed until a later session."
+#~ msgstr "Niektoré súvisiace alebo zahrabané karty boli posunuté na neskôr."
+
+#~ msgid ""
+#~ "There are more new cards available, but the daily limit has been\n"
+#~ "reached. You can increase the limit in the options, but please\n"
+#~ "bear in mind that the more new cards you introduce, the higher\n"
+#~ "your short-term review workload will become."
+#~ msgstr ""
+#~ "Dostupné sú aj ďalšie nové karty, ale bol dosiahnutý denný limit. \n"
+#~ "Môžete ho zvýšiť v nastaveniach, ale prosím majte na pamäti, \n"
+#~ "že tým sa v najbližšej dobe zvýši aj počet kariet na opakovanie."
+
+#~ msgid "To see them now, click the Unbury button below."
+#~ msgstr "Ak ich chcete vidieť teraz, kliknite na tlačidlo Vyhrabať nižšie."
+
+#~ msgid "To study outside of the normal schedule, click the Custom Study button below."
+#~ msgstr "Ak chcete študovať mimo bežný plán, kliknite na tlačidlo Vlastné štúdium nižšie."
+
+#~ msgid ""
+#~ "Today's review limit has been reached, but there are still cards\n"
+#~ "waiting to be reviewed. For optimum memory, consider increasing\n"
+#~ "the daily limit in the options."
+#~ msgstr ""
+#~ "Bol dosiahnutý denný limit, ale stále zostávajú nejaké karty na opakovanie.\n"
+#~ "Pre optimálne zapamätanie zvážte zvýšenie tohto limitu v nastaveniach."
 
 #, fuzzy
 #~ msgid "Shortcut key: Left or Right arrow"

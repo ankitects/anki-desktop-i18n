@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anki\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-07-28 13:01+1000\n"
+"POT-Creation-Date: 2020-09-21 12:06+1000\n"
 "PO-Revision-Date: 2020-07-03 21:41+0000\n"
 "Last-Translator: guillempalausalva <guillempalausalva@gmail.com>\n"
 "Language-Team: Catalan <ca@li.org>\n"
@@ -31,15 +31,15 @@ msgstr "No és possible importar des d'un fitxer de només lectura."
 msgid " (disabled)"
 msgstr " (deshabilitat)"
 
-#: qt/aqt/clayout.py:641
+#: qt/aqt/clayout.py:692
 msgid " (off)"
 msgstr " (desactivat)"
 
-#: qt/aqt/clayout.py:639
+#: qt/aqt/clayout.py:690
 msgid " (on)"
 msgstr " (activat)"
 
-#: qt/aqt/deckbrowser.py:297
+#: qt/aqt/deckbrowser.py:289
 #, python-format
 msgid " It has %d card."
 msgid_plural " It has %d cards."
@@ -47,45 +47,45 @@ msgstr[0] " Té %d targeta."
 msgstr[1] " Té %d targetes."
 
 #. T: include a font for your language on Windows, eg: "Segoe UI", "MS Mincho"
-#: qt/aqt/webview.py:382
+#: qt/aqt/webview.py:368
 msgid "\"Segoe UI\""
 msgstr "\"Segoe UI\""
 
 #: qt/aqt/forms/dconf.py:341 qt/aqt/forms/dconf.py:352
 #: qt/aqt/forms/dconf.py:357 qt/aqt/forms/dconf.py:360
-#: qt/aqt/forms/dconf.py:371 qt/aqt/forms/preferences.py:286
+#: qt/aqt/forms/dconf.py:371 qt/aqt/forms/preferences.py:287
 msgid "%"
 msgstr "%"
 
-#: pylib/anki/stats.py:790 pylib/anki/stats.py:812
+#: pylib/anki/stats.py:796 pylib/anki/stats.py:818
 msgid "% Correct"
 msgstr "% correctes"
 
-#: pylib/anki/stats.py:1106
+#: pylib/anki/stats.py:1112
 #, python-format
 msgid "%(a)0.1f %(b)s/day"
 msgstr "%(a)0.1f %(b)s per dia"
 
 #. T: name is a card type name. n it's order in the list of card type.
 #. T: this is shown in browser's filter, when seeing the list of card type of a note type.
-#: qt/aqt/browser.py:1352
+#: qt/aqt/browser.py:1355
 #, python-format
 msgid "%(n)d: %(name)s"
 msgstr "%(n)d: %(name)s"
 
-#: pylib/anki/stats.py:414
+#: pylib/anki/stats.py:418
 #, python-format
 msgid "%(tot)s %(unit)s"
 msgstr "%(tot)s %(unit)s"
 
-#: pylib/anki/stats.py:256 pylib/anki/stats.py:314 qt/aqt/clayout.py:507
+#: pylib/anki/stats.py:260 pylib/anki/stats.py:318 qt/aqt/clayout.py:558
 #, python-format
 msgid "%d card"
 msgid_plural "%d cards"
 msgstr[0] "%d targeta"
 msgstr[1] "%d targetes"
 
-#: qt/aqt/exporting.py:186
+#: qt/aqt/exporting.py:192
 #, python-format
 msgid "%d card exported."
 msgid_plural "%d cards exported."
@@ -113,15 +113,15 @@ msgid_plural "%d decks updated."
 msgstr[0] "%d mall actualitzat."
 msgstr[1] "%d malls actualitzats."
 
-#: qt/aqt/browser.py:1995
+#: qt/aqt/browser.py:1987
 #, python-format
 msgid "%d group"
 msgid_plural "%d groups"
 msgstr[0] "%d grup"
 msgstr[1] "%d grups"
 
-#: qt/aqt/browser.py:1996 qt/aqt/browser.py:2004 qt/aqt/fields.py:123
-#: qt/aqt/models.py:100
+#: qt/aqt/browser.py:1988 qt/aqt/browser.py:1996 qt/aqt/fields.py:123
+#: qt/aqt/models.py:107
 #, python-format
 msgid "%d note"
 msgid_plural "%d notes"
@@ -135,14 +135,14 @@ msgid_plural "%d notes added"
 msgstr[0] "%d nota afegida"
 msgstr[1] "%d notes afegides"
 
-#: qt/aqt/browser.py:1567
+#: qt/aqt/browser.py:1570
 #, python-format
 msgid "%d note deleted."
 msgid_plural "%d notes deleted."
 msgstr[0] "%d nota eliminada."
 msgstr[1] "%d notes eliminades."
 
-#: qt/aqt/exporting.py:179
+#: qt/aqt/exporting.py:183
 #, python-format
 msgid "%d note exported."
 msgid_plural "%d notes exported."
@@ -170,7 +170,7 @@ msgid_plural "%d notes updated"
 msgstr[0] "%d nota actualitzada"
 msgstr[1] "%d notes actualitzades"
 
-#: qt/aqt/browser.py:820
+#: qt/aqt/browser.py:823
 #, python-format
 msgid "%d selected"
 msgid_plural "%d selected"
@@ -189,18 +189,18 @@ msgid_plural "%s minutes."
 msgstr[0] "%s minut."
 msgstr[1] "%s minuts."
 
-#: qt/aqt/main.py:1198
+#: qt/aqt/main.py:1220
 #, python-format
 msgid "%s second"
 msgid_plural "%s seconds"
 msgstr[0] "%s segon"
 msgstr[1] "%s segons"
 
-#: qt/aqt/forms/main.py:139
+#: qt/aqt/forms/main.py:140
 msgid "&About..."
 msgstr "&Quant a..."
 
-#: qt/aqt/forms/main.py:145
+#: qt/aqt/forms/main.py:146
 msgid "&Browse and Install..."
 msgstr "%Navegar i instalar..."
 
@@ -208,7 +208,7 @@ msgstr "%Navegar i instalar..."
 msgid "&Cards"
 msgstr "&Targetes"
 
-#: qt/aqt/forms/main.py:146
+#: qt/aqt/forms/main.py:147
 msgid "&Check Database"
 msgstr "&verificar la Base de dades"
 
@@ -216,7 +216,7 @@ msgstr "&verificar la Base de dades"
 msgid "&Cram..."
 msgstr "&Repassa..."
 
-#: qt/aqt/forms/browser.py:298 qt/aqt/forms/main.py:133
+#: qt/aqt/forms/browser.py:298 qt/aqt/forms/main.py:134
 msgid "&Edit"
 msgstr "&Edita"
 
@@ -224,11 +224,11 @@ msgstr "&Edita"
 msgid "&Export Notes..."
 msgstr "&Exportar Notes..."
 
-#: qt/aqt/forms/main.py:149
+#: qt/aqt/forms/main.py:150
 msgid "&Export..."
 msgstr "&Exporta..."
 
-#: qt/aqt/forms/main.py:134
+#: qt/aqt/forms/main.py:135
 msgid "&File"
 msgstr "&Fitxer"
 
@@ -240,15 +240,15 @@ msgstr "&Cerca"
 msgid "&Go"
 msgstr "&Vés"
 
-#: qt/aqt/forms/browser.py:312 qt/aqt/forms/main.py:147
+#: qt/aqt/forms/browser.py:312 qt/aqt/forms/main.py:148
 msgid "&Guide..."
 msgstr "&Manual..."
 
-#: qt/aqt/forms/browser.py:300 qt/aqt/forms/main.py:132
+#: qt/aqt/forms/browser.py:300 qt/aqt/forms/main.py:133
 msgid "&Help"
 msgstr "&Ajuda"
 
-#: qt/aqt/forms/main.py:150
+#: qt/aqt/forms/main.py:151
 msgid "&Import..."
 msgstr "&Importa..."
 
@@ -268,11 +268,11 @@ msgstr "&Targeta següent"
 msgid "&Notes"
 msgstr "&Notes"
 
-#: qt/aqt/forms/main.py:143
+#: qt/aqt/forms/main.py:144
 msgid "&Open Add-ons Folder..."
 msgstr "&Obre la carpeta de complements..."
 
-#: qt/aqt/forms/main.py:137
+#: qt/aqt/forms/main.py:138
 msgid "&Preferences..."
 msgstr "&Preferències..."
 
@@ -284,19 +284,19 @@ msgstr "Targeta &anterior"
 msgid "&Reschedule..."
 msgstr "Canvia la &planificació"
 
-#: qt/aqt/forms/main.py:144
+#: qt/aqt/forms/main.py:145
 msgid "&Support Anki..."
 msgstr "&Dóna suport  a Anki..."
 
-#: qt/aqt/forms/main.py:148
+#: qt/aqt/forms/main.py:149
 msgid "&Switch Profile"
 msgstr "&Canviar de perfil"
 
-#: qt/aqt/forms/main.py:135
+#: qt/aqt/forms/main.py:136
 msgid "&Tools"
 msgstr "&Eines"
 
-#: qt/aqt/forms/browser.py:306 qt/aqt/forms/main.py:140
+#: qt/aqt/forms/browser.py:306 qt/aqt/forms/main.py:141
 msgid "&Undo"
 msgstr "Desfés (&U)"
 
@@ -305,32 +305,32 @@ msgstr "Desfés (&U)"
 msgid "'%(row)s' had %(num1)d fields, expected %(num2)d"
 msgstr "'%(row)s' amb %(num1)d camps, s'esperava %(num2)d"
 
-#: pylib/anki/stats.py:152
+#: pylib/anki/stats.py:154
 #, python-format
 msgid "(%s correct)"
 msgstr "(%s correct)"
 
-#: qt/aqt/addcards.py:148
+#: qt/aqt/addcards.py:149
 msgid "(Note deleted)"
 msgstr "(Nota esborrada)"
 
-#: qt/aqt/addons.py:745
+#: qt/aqt/addons.py:746
 msgid "(disabled)"
 msgstr "(desactivat)"
 
-#: pylib/anki/schedv2.py:1396
+#: pylib/anki/schedv2.py:1261
 msgid "(end)"
 msgstr "(fi)"
 
-#: qt/aqt/browser.py:364
+#: qt/aqt/browser.py:367
 msgid "(filtered)"
 msgstr "(filtrat)"
 
-#: qt/aqt/browser.py:331
+#: qt/aqt/browser.py:334
 msgid "(learning)"
 msgstr "(aprenent)"
 
-#: qt/aqt/browser.py:329 qt/aqt/browser.py:335
+#: qt/aqt/browser.py:332 qt/aqt/browser.py:338
 msgid "(new)"
 msgstr "(nou)"
 
@@ -339,11 +339,11 @@ msgstr "(nou)"
 msgid "(parent limit: %d)"
 msgstr "(parent limit: %d)"
 
-#: qt/aqt/previewer.py:159
+#: qt/aqt/previewer.py:162
 msgid "(please select 1 card)"
 msgstr "Sisplau, selecciona una targeta"
 
-#: qt/aqt/addons.py:747
+#: qt/aqt/addons.py:748
 #, python-format
 msgid "(requires %s)"
 msgstr "(requereix %s)"
@@ -356,36 +356,36 @@ msgstr "Els arxius .anki són d'una versió anterior molt antiga 'Anki. Pot impo
 msgid ".anki2 files are not directly importable - please import the .apkg or .zip file you have received instead."
 msgstr "Els arxius -anki2 no es poden importar directament - si us plau importi els arxius .apkg o .zip que ha rebut en el seu lloc."
 
-#: pylib/anki/stats.py:943 qt/aqt/forms/stats.py:82
+#: pylib/anki/stats.py:949 qt/aqt/forms/stats.py:82
 msgid "1 month"
 msgstr "1 mes"
 
-#: pylib/anki/stats.py:943 qt/aqt/forms/stats.py:83
+#: pylib/anki/stats.py:949 qt/aqt/forms/stats.py:83
 msgid "1 year"
 msgstr "1 any"
 
-#: pylib/anki/stats.py:804
+#: pylib/anki/stats.py:810
 msgid "10AM"
 msgstr "10AM"
 
-#: pylib/anki/stats.py:806
+#: pylib/anki/stats.py:812
 msgid "10PM"
 msgstr "10PM"
 
-#: pylib/anki/stats.py:807
+#: pylib/anki/stats.py:813
 msgid "3AM"
 msgstr "3AM"
 
-#: pylib/anki/stats.py:803
+#: pylib/anki/stats.py:809
 msgid "4AM"
 msgstr "4AM"
 
-#: pylib/anki/stats.py:805
+#: pylib/anki/stats.py:811
 msgid "4PM"
 msgstr "4PM"
 
 #. T: Symbols separating first and second column in a statistics table. Eg in "Total:    3 reviews".
-#: pylib/anki/stats.py:892
+#: pylib/anki/stats.py:898
 msgid ":"
 msgstr ":"
 
@@ -394,7 +394,7 @@ msgstr ":"
 msgid "<a href='%s'>Visit website</a>"
 msgstr "<a href='%s'>Vés al lloc web</a>"
 
-#: pylib/anki/stats.py:404
+#: pylib/anki/stats.py:408
 #, python-format
 msgid "<b>%(pct)d%%</b> (%(x)s of %(y)s)"
 msgstr "<b>%(pct)d%%</b> (%(x)s de %(y)s)"
@@ -407,7 +407,7 @@ msgstr "<b>Còpies de seguretat</b><br>Anki farà una còpia de seguretat de la 
 msgid "<b>Export format</b>:"
 msgstr "<b>Format d'exportació</b> :"
 
-#: qt/aqt/forms/findreplace.py:84
+#: qt/aqt/forms/findreplace.py:87
 msgid "<b>Find</b>:"
 msgstr "<b>Cerca</b> :"
 
@@ -419,12 +419,12 @@ msgstr "<b>Mida de la lletra</b>:"
 msgid "<b>Font</b>:"
 msgstr "<b>Lletra</b>:"
 
-#: qt/aqt/addons.py:1400
+#: qt/aqt/addons.py:1410
 #, python-format
 msgid "<b>Important</b>: As add-ons are programs downloaded from the internet, they are potentially malicious.<b>You should only install add-ons you trust.</b><br><br>Are you sure you want to proceed with the installation of the following Anki add-on(s)?<br><br>%(names)s"
 msgstr "<b>Important</b>: Com que els complements son programes descargats d'Internet, son potencialment maliciosos.<b>Instal·li només els complements en els que confii.</b><br><br>Està segur de que vol continuar amb la instal·lació del(s) següent(s) complement(s) Anki?<br><br>%(names)s"
 
-#: qt/aqt/forms/findreplace.py:86
+#: qt/aqt/forms/findreplace.py:89
 msgid "<b>In</b>:"
 msgstr "<b>A</b> :"
 
@@ -436,19 +436,19 @@ msgstr "<b>Inclou</b>:"
 msgid "<b>Line Size</b>:"
 msgstr "<b>Mida de la línia</b>:"
 
-#: qt/aqt/addons.py:1424
+#: qt/aqt/addons.py:1434
 msgid "<b>Please restart Anki to complete the installation.</b>"
 msgstr "<b>Sisplau, reinicia Anki para completar la instal·lació.</b>"
 
-#: qt/aqt/forms/findreplace.py:85
+#: qt/aqt/forms/findreplace.py:88
 msgid "<b>Replace With</b>:"
 msgstr "<b>Substitueix per</b>:"
 
-#: qt/aqt/forms/preferences.py:299
+#: qt/aqt/forms/preferences.py:300
 msgid "<b>Synchronisation</b>"
 msgstr "<b>Sincronització</b>"
 
-#: qt/aqt/preferences.py:187
+#: qt/aqt/preferences.py:188
 msgid ""
 "<b>Synchronization</b><br>\n"
 "Not currently enabled; click the sync button in the main window to enable."
@@ -465,19 +465,19 @@ msgstr "<h1>Actualització d'Anki</h1>Anki %s està disponible.<br><br>"
 msgid "<ignored>"
 msgstr "<ignorat>"
 
-#: qt/aqt/main.py:1510
+#: qt/aqt/main.py:1534
 msgid "<non-unicode text>"
 msgstr "<text no unicode>"
 
-#: qt/aqt/browser.py:755
+#: qt/aqt/browser.py:758
 msgid "<type here to search; hit enter to show current deck>"
 msgstr "<escriu aquí per cercar; prem la tecla de retorn per veure el mall actual>"
 
-#: qt/aqt/about.py:222
+#: qt/aqt/about.py:224
 msgid "A big thanks to all the people who have provided suggestions, bug reports and donations."
 msgstr "Els nostres agraïments per a totes les persones que han aportat suggeriments, informes d'errors i donatius."
 
-#: pylib/anki/stats.py:876
+#: pylib/anki/stats.py:882
 msgid "A card's <i>ease</i> is the size of the next interval when you answer \"good\" on a review."
 msgstr "La <i>facilitat</i> d'una targeta és la mida del següent interval quan respons \"bé\" en un repàs."
 
@@ -490,26 +490,26 @@ msgstr "Interromput: %s"
 msgid "About Anki"
 msgstr "Sobre l'Anki"
 
-#: qt/aqt/addcards.py:37 qt/aqt/addcards.py:67 qt/aqt/deckconf.py:89
-#: qt/aqt/models.py:53 qt/aqt/studydeck.py:46 qt/aqt/toolbar.py:112
+#: qt/aqt/addcards.py:38 qt/aqt/addcards.py:68 qt/aqt/deckconf.py:89
+#: qt/aqt/models.py:54 qt/aqt/studydeck.py:46 qt/aqt/toolbar.py:112
 #: qt/aqt/forms/addcards.py:58 qt/aqt/forms/fields.py:102
 #: qt/aqt/forms/profiles.py:81
 msgid "Add"
 msgstr "Afegeix"
 
-#: qt/aqt/addcards.py:70
+#: qt/aqt/addcards.py:71
 msgid "Add (shortcut: ctrl+enter)"
 msgstr "Afegir (drecera: ctrl+retorn)"
 
-#: qt/aqt/clayout.py:623
+#: qt/aqt/clayout.py:674
 msgid "Add Card Type..."
 msgstr "Afegueix Tipus de targeta"
 
-#: qt/aqt/clayout.py:345 qt/aqt/forms/addfield.py:61
+#: qt/aqt/clayout.py:389 qt/aqt/forms/addfield.py:61
 msgid "Add Field"
 msgstr "Afegeix camp"
 
-#: qt/aqt/editor.py:703
+#: qt/aqt/editor.py:709
 msgid "Add Media"
 msgstr "Afegeix arxiu multimèdia"
 
@@ -525,7 +525,7 @@ msgstr "Afegeix tipus de nota"
 msgid "Add Notes..."
 msgstr "Afegei Notes..."
 
-#: qt/aqt/browser.py:1637
+#: qt/aqt/browser.py:1626
 msgid "Add Tags"
 msgstr "Afegeix etiquetes"
 
@@ -533,41 +533,41 @@ msgstr "Afegeix etiquetes"
 msgid "Add Tags..."
 msgstr "Afegeix etiquetes..."
 
-#: qt/aqt/browser.py:167
+#: qt/aqt/browser.py:170
 msgid "Add-on"
 msgstr "Complement"
 
-#: qt/aqt/addons.py:898
+#: qt/aqt/addons.py:902
 msgid "Add-on has no configuration."
 msgstr "El complement no te cap configuració"
 
-#: qt/aqt/addons.py:1441
+#: qt/aqt/addons.py:1451
 msgid "Add-on installation error"
 msgstr "Error de la instal·lació del complement"
 
-#: qt/aqt/addons.py:820
+#: qt/aqt/addons.py:823
 msgid "Add-on was not downloaded from AnkiWeb."
 msgstr "EL complement no va ser descargat des de AnkiWeb."
 
-#: qt/aqt/main.py:1573
+#: qt/aqt/main.py:1597
 msgid "Add-on will be installed when a profile is opened."
 msgstr "El complement s'instal·larà quan s'obri un perfil."
 
-#: qt/aqt/forms/main.py:155
+#: qt/aqt/forms/main.py:156
 msgid "Add-ons"
 msgstr "Complements"
 
-#: qt/aqt/models.py:199
+#: qt/aqt/models.py:208
 #, python-format
 msgid "Add: %s"
 msgstr "Afegeix: %s"
 
-#: pylib/anki/stats.py:305 pylib/anki/importing/anki2.py:166
-#: qt/aqt/addcards.py:192
+#: pylib/anki/stats.py:309 pylib/anki/importing/anki2.py:166
+#: qt/aqt/addcards.py:193
 msgid "Added"
 msgstr "S'ha afegit"
 
-#: qt/aqt/browser.py:1262
+#: qt/aqt/browser.py:1265
 msgid "Added Today"
 msgstr "Afegides avui"
 
@@ -576,24 +576,24 @@ msgstr "Afegides avui"
 msgid "Added duplicate with first field: %s"
 msgstr "Afegueix duplicada amb el primer camp: %s"
 
-#: qt/aqt/reviewer.py:617
+#: qt/aqt/reviewer.py:629 qt/aqt/reviewer.py:633 qt/aqt/reviewer.py:636
 msgid "Again"
 msgstr "De nou"
 
-#: qt/aqt/browser.py:1264
+#: qt/aqt/browser.py:1267
 msgid "Again Today"
 msgstr "De nou avui"
 
-#: pylib/anki/stats.py:150
+#: pylib/anki/stats.py:152
 #, python-format
 msgid "Again count: %s"
 msgstr "Oblidats : %s"
 
-#: qt/aqt/overview.py:134
+#: qt/aqt/overview.py:133
 msgid "All Buried Cards"
 msgstr "Totes les targuetes enterrades"
 
-#: qt/aqt/browser.py:1345
+#: qt/aqt/browser.py:1348
 msgid "All Card Types"
 msgstr "Tots els tipus de targetes"
 
@@ -601,19 +601,19 @@ msgstr "Tots els tipus de targetes"
 msgid "All Decks"
 msgstr "Totes les piles"
 
-#: qt/aqt/browser.py:1885
+#: qt/aqt/browser.py:1877
 msgid "All Fields"
 msgstr "Tots els camps"
 
-#: qt/aqt/forms/customstudy.py:117
+#: qt/aqt/forms/customstudy.py:118
 msgid "All cards in random order (don't reschedule)"
 msgstr "Totes les targetes en ordre aleatori (sense reprogramar)"
 
-#: qt/aqt/main.py:307
+#: qt/aqt/main.py:322
 msgid "All cards, notes, and media for this profile will be deleted. Are you sure?"
 msgstr "S'eliminaran totes les targetes, notes i arxius multimèdia d'aquest perfil. N'esteu segur?"
 
-#: qt/aqt/forms/customstudy.py:115
+#: qt/aqt/forms/customstudy.py:116
 msgid "All review cards in random order"
 msgstr "Totes les cargetes per repasar en ordre aleatori"
 
@@ -625,41 +625,41 @@ msgstr "Permet l'HTML als camps"
 msgid "Always include question side when replaying audio"
 msgstr "Incloure sempre la cara de la pregunta quan es torni a reproduir l'áudio"
 
-#: qt/aqt/editor.py:841
+#: qt/aqt/editor.py:847
 #, python-format
 msgid "An error occurred while opening %s"
 msgstr "S'ha produït un error al obrir %s"
 
-#: qt/aqt/forms/main.py:131 qt/aqt/forms/setgroup.py:38
+#: qt/aqt/forms/main.py:132 qt/aqt/forms/setgroup.py:38
 #: qt/aqt/forms/setlang.py:39
 msgid "Anki"
 msgstr "Anki"
 
-#: pylib/anki/exporting.py:162
+#: pylib/anki/exporting.py:167
 msgid "Anki 2.0 Deck"
 msgstr "Mall Anki 2.0"
 
-#: qt/aqt/forms/preferences.py:291
+#: qt/aqt/forms/preferences.py:292
 msgid "Anki 2.1 scheduler (beta)"
 msgstr "Planificador de Anki 2.1 (beta)"
 
-#: pylib/anki/exporting.py:392
+#: pylib/anki/exporting.py:397
 msgid "Anki Collection Package"
 msgstr "Paquet de la col·lecció de l'Anki"
 
-#: pylib/anki/exporting.py:311
+#: pylib/anki/exporting.py:316
 msgid "Anki Deck Package"
 msgstr "Mall de targuetes d'Anki"
 
-#: qt/aqt/profiles.py:253
+#: qt/aqt/profiles.py:256
 msgid "Anki could not read your profile data. Window sizes and your sync login details have been forgotten."
 msgstr "Anki no ha pogut consultar les dades del seu perfil. S'han oblidat les mides de les finestres i la informació d'accés a la sincronizació."
 
-#: qt/aqt/profiles.py:323
+#: qt/aqt/profiles.py:326
 msgid "Anki could not rename your profile because it could not rename the profile folder on disk. Please ensure you have permission to write to Documents/Anki and no other programs are accessing your profile folders, then try again."
 msgstr "Anki no ha pogut renombrar el teu perfil, atès que no ha pogut renombrar la carpeta del perfil en el disc. Assegura't de que tens permís d'escriptura a Documents/Anki i que no hi ha altre sprogrames accedint-hi i torna-ho a intantar."
 
-#: qt/aqt/clayout.py:608
+#: qt/aqt/clayout.py:659
 msgid "Anki couldn't find the line between the question and answer. Please adjust the template manually to switch the question and answer."
 msgstr "Anki no ha trobat la línia entre la pregunta i la resposta. Ajusteu la plantilla manualment per a canviar la pregunta i la resposta."
 
@@ -671,23 +671,23 @@ msgstr "Anki és un agradable sistema intel·ligent d'aprenentatge espaiat. És 
 msgid "Anki is licensed under the AGPL3 license. Please see the license file in the source distribution for more information."
 msgstr "Anki està llicenciat sota la lliçència AGPL3. Consulta l'arxiu de la lliçència en la distribució font per a més informació."
 
-#: qt/aqt/browser.py:731
+#: qt/aqt/browser.py:734
 msgid "Answer"
 msgstr "Resposta"
 
-#: pylib/anki/stats.py:675
+#: pylib/anki/stats.py:681
 msgid "Answer Buttons"
 msgstr "Botons de resposta"
 
-#: pylib/anki/stats.py:353 pylib/anki/stats.py:686 pylib/anki/stats.py:794
+#: pylib/anki/stats.py:357 pylib/anki/stats.py:692 pylib/anki/stats.py:800
 msgid "Answers"
 msgstr "Respostes"
 
-#: qt/aqt/browser.py:1288
+#: qt/aqt/browser.py:1291
 msgid "Any Flag"
 msgstr "Qualsevol marca"
 
-#: qt/aqt/browser.py:2261
+#: qt/aqt/browser.py:2253
 msgid "Any cards mapped to nothing will be deleted. If a note has no remaining cards, it will be lost. Are you sure you want to continue?"
 msgstr "Totes les targetes no assignades s'eliminaran. Si una nota no té cap targeta assignada, es perdrà. Segur que vols continuar?"
 
@@ -696,12 +696,12 @@ msgstr "Totes les targetes no assignades s'eliminaran. Si una nota no té cap ta
 msgid "Appeared twice in file: %s"
 msgstr "Ha aparegut per segona vegada: %s"
 
-#: qt/aqt/deckbrowser.py:304
+#: qt/aqt/deckbrowser.py:296
 #, python-format
 msgid "Are you sure you wish to delete %s?"
 msgstr "Segur que voleu eliminar %s?"
 
-#: qt/aqt/clayout.py:498
+#: qt/aqt/clayout.py:549
 msgid "At least one card type is required."
 msgstr "Es requereix com a mínim un tipus de tarjeta."
 
@@ -709,19 +709,19 @@ msgstr "Es requereix com a mínim un tipus de tarjeta."
 msgid "At least one step is required."
 msgstr "Es requereix una passa com a mínim."
 
-#: qt/aqt/editor.py:166
+#: qt/aqt/editor.py:173
 msgid "Attach pictures/audio/video (F3)"
 msgstr "Adjuntar imàtges/àudio/vídeo (F3)"
 
-#: qt/aqt/reviewer.py:717
+#: qt/aqt/reviewer.py:737
 msgid "Audio +5s"
 msgstr "Audio +5s"
 
-#: qt/aqt/reviewer.py:716
+#: qt/aqt/reviewer.py:736
 msgid "Audio -5s"
 msgstr "Audio -5s"
 
-#: qt/aqt/main.py:357
+#: qt/aqt/main.py:372
 msgid "Automatic syncing and backups have been disabled while restoring. To enable them again, close the profile or restart Anki."
 msgstr "La sincronització simultània i les còpies de seguretat estan deshabilitades mentre es restaura. Per tal de tornar-les a habilitar, tanca el perfil o reinicia l'Anki."
 
@@ -729,31 +729,35 @@ msgstr "La sincronització simultània i les còpies de seguretat estan deshabil
 msgid "Automatically play audio"
 msgstr "Reprodueix l'àudio automàticament"
 
-#: qt/aqt/forms/preferences.py:301
+#: qt/aqt/forms/preferences.py:302
 msgid "Automatically sync on profile open/close"
 msgstr "Sincronitza automàticament en obrir o tancar un perfil"
 
-#: pylib/anki/stats.py:248 pylib/anki/stats.py:315
+#: pylib/anki/stats.py:252 pylib/anki/stats.py:319
 msgid "Average"
 msgstr "Mitjana"
 
-#: pylib/anki/stats.py:430
+#: pylib/anki/stats.py:434
 msgid "Average answer time"
 msgstr "Temps de resposta promig"
 
-#: pylib/anki/stats.py:872
+#: pylib/anki/stats.py:878
 msgid "Average ease"
 msgstr "Facilitat mitjana"
 
-#: pylib/anki/stats.py:419
+#: pylib/anki/stats.py:423
 msgid "Average for days studied"
 msgstr "Mitjana dels dies estudiats"
 
-#: pylib/anki/stats.py:612
+#: pylib/anki/stats.py:618
 msgid "Average interval"
 msgstr "Interval promitg"
 
-#: qt/aqt/main.py:541
+#: qt/aqt/previewer.py:83
+msgid "Back Side Only"
+msgstr ""
+
+#: qt/aqt/main.py:556
 msgid "Backing Up..."
 msgstr "Realitzant la còpia de seguridad..."
 
@@ -761,15 +765,15 @@ msgstr "Realitzant la còpia de seguridad..."
 msgid "Backups"
 msgstr "Còpies de seguretat"
 
-#: qt/aqt/forms/preferences.py:287
+#: qt/aqt/forms/preferences.py:288
 msgid "Basic"
 msgstr "Bàsica"
 
-#: qt/aqt/browser.py:1286 qt/aqt/reviewer.py:699 qt/aqt/forms/browser.py:336
+#: qt/aqt/browser.py:1289 qt/aqt/reviewer.py:719 qt/aqt/forms/browser.py:336
 msgid "Blue Flag"
 msgstr "Marca blava"
 
-#: qt/aqt/editor.py:115
+#: qt/aqt/editor.py:122
 msgid "Bold text (Ctrl+B)"
 msgstr "Text en negreta (Ctrl+B)"
 
@@ -777,14 +781,14 @@ msgstr "Text en negreta (Ctrl+B)"
 msgid "Browse"
 msgstr "Navega"
 
-#: qt/aqt/browser.py:814
+#: qt/aqt/browser.py:817
 #, python-format
 msgid "Browse (%(cur)d card shown; %(sel)s)"
 msgid_plural "Browse (%(cur)d cards shown; %(sel)s)"
 msgstr[0] "Navega (%(cur)d targeta mostrada; %(sel)s)"
 msgstr[1] "Navega (%(cur)d targetes mostrades; %(sel)s)"
 
-#: qt/aqt/addons.py:918
+#: qt/aqt/addons.py:922
 msgid "Browse Add-ons"
 msgstr "Navegar complements"
 
@@ -792,7 +796,7 @@ msgstr "Navegar complements"
 msgid "Browser Appearance"
 msgstr "Aspecte del navegador"
 
-#: qt/aqt/clayout.py:645
+#: qt/aqt/clayout.py:696
 msgid "Browser Appearance..."
 msgstr "Aspecte del navegador..."
 
@@ -804,23 +808,23 @@ msgstr "Opcions del navegador"
 msgid "Build"
 msgstr "Construeix"
 
-#: qt/aqt/browser.py:1281
+#: qt/aqt/browser.py:1284
 msgid "Buried"
 msgstr "Enterrades"
 
-#: qt/aqt/overview.py:133
+#: qt/aqt/overview.py:132
 msgid "Buried Siblings"
 msgstr "Enterrar targuetes relacionades"
 
-#: qt/aqt/reviewer.py:804 qt/aqt/reviewer.py:810
+#: qt/aqt/reviewer.py:824 qt/aqt/reviewer.py:830
 msgid "Bury"
 msgstr "Enterrar"
 
-#: qt/aqt/reviewer.py:707
+#: qt/aqt/reviewer.py:727
 msgid "Bury Card"
 msgstr "Enterrar tarjeta"
 
-#: qt/aqt/reviewer.py:708
+#: qt/aqt/reviewer.py:728
 msgid "Bury Note"
 msgstr "Enterrar nota"
 
@@ -842,15 +846,15 @@ msgstr ""
 " un tabulador, una coma o similar. Si Anki detecta malament el caràcter,\n"
 " podeu introduir-lo aquí. Useu \\t per representar el tabulador."
 
-#: qt/aqt/clayout.py:360 qt/aqt/overview.py:135 qt/aqt/sound.py:552
+#: qt/aqt/clayout.py:405 qt/aqt/overview.py:134 qt/aqt/sound.py:557
 msgid "Cancel"
 msgstr "Anuŀla"
 
-#: qt/aqt/browser.py:732
+#: qt/aqt/browser.py:735
 msgid "Card"
 msgstr "Targeta"
 
-#: qt/aqt/clayout.py:569
+#: qt/aqt/clayout.py:620
 #, python-format
 msgid "Card %d"
 msgstr "Targeta %d"
@@ -859,49 +863,49 @@ msgstr "Targeta %d"
 msgid "Card List"
 msgstr "Llista de targetes"
 
-#: qt/aqt/browser.py:1271
+#: qt/aqt/browser.py:1274
 msgid "Card State"
 msgstr "Estat de tarjeta"
 
-#: pylib/anki/stats.py:880 qt/aqt/clayout.py:61
+#: pylib/anki/stats.py:886 qt/aqt/clayout.py:63
 msgid "Card Types"
 msgstr "Tipus de targetes"
 
-#: qt/aqt/clayout.py:67
+#: qt/aqt/clayout.py:69
 #, python-format
 msgid "Card Types for %s"
 msgstr "Tipus de targetes per %s"
 
-#: qt/aqt/reviewer.py:807
+#: qt/aqt/reviewer.py:827
 msgid "Card buried."
 msgstr "Targeta enterrada."
 
-#: qt/aqt/reviewer.py:784
+#: qt/aqt/reviewer.py:804
 msgid "Card suspended."
 msgstr "Fitxa suspesa"
 
-#: qt/aqt/reviewer.py:665
+#: qt/aqt/reviewer.py:685
 msgid "Card was a leech."
 msgstr "La targeta era una sangonera."
 
-#: pylib/anki/stats.py:306 pylib/anki/stats.py:956 qt/aqt/editor.py:185
+#: pylib/anki/stats.py:310 pylib/anki/stats.py:962 qt/aqt/editor.py:192
 #: qt/aqt/forms/changemodel.py:112
 msgid "Cards"
 msgstr "Targetes"
 
-#: qt/aqt/browser.py:1597
+#: qt/aqt/browser.py:1600
 msgid "Cards can't be manually moved into a filtered deck."
 msgstr "Les targetes no es poden moure manualment a un mall filtrat."
 
-#: pylib/anki/exporting.py:90
+#: pylib/anki/exporting.py:95
 msgid "Cards in Plain Text"
 msgstr "Targetes en text pla"
 
-#: qt/aqt/overview.py:185
+#: qt/aqt/overview.py:192
 msgid "Cards will be automatically returned to their original decks after you review them."
 msgstr "Les targetes tornaran automàticament a les seves piles d'origen després que les repasseu."
 
-#: qt/aqt/models.py:62
+#: qt/aqt/models.py:63
 msgid "Cards..."
 msgstr "Targetes..."
 
@@ -913,12 +917,12 @@ msgstr "Centra"
 msgid "Change"
 msgstr "Canvia"
 
-#: qt/aqt/browser.py:2181
+#: qt/aqt/browser.py:2173
 #, python-format
 msgid "Change %s to:"
 msgstr "Canvia %s a:"
 
-#: qt/aqt/browser.py:1588 qt/aqt/browser.py:1600
+#: qt/aqt/browser.py:1591 qt/aqt/browser.py:1603
 msgid "Change Deck"
 msgstr "Canviar de mall"
 
@@ -926,7 +930,7 @@ msgstr "Canviar de mall"
 msgid "Change Deck..."
 msgstr "Canviar mall..."
 
-#: qt/aqt/browser.py:2268 qt/aqt/forms/changemodel.py:109
+#: qt/aqt/browser.py:2260 qt/aqt/forms/changemodel.py:109
 msgid "Change Note Type"
 msgstr "Canvia tipus de nota"
 
@@ -938,11 +942,11 @@ msgstr "Canvia tipus de nota (Ctrl+N)"
 msgid "Change Note Type..."
 msgstr "Canvia tipus de nota..."
 
-#: qt/aqt/editor.py:146
+#: qt/aqt/editor.py:153
 msgid "Change colour (F8)"
 msgstr "Canviar de color (F8)"
 
-#: qt/aqt/forms/preferences.py:284
+#: qt/aqt/forms/preferences.py:285
 msgid "Change deck depending on note type"
 msgstr "Canviar el mall en funció del tipus de nota"
 
@@ -954,7 +958,7 @@ msgstr "Els canvis tindran efecte quen l'Anki es reiniciï"
 msgid "Changes will take effect when you restart Anki."
 msgstr "Els canvis tindran efecte quan reiniciis Anki."
 
-#: qt/aqt/forms/main.py:141
+#: qt/aqt/forms/main.py:142
 msgid "Check &Media..."
 msgstr "Comprovar &multimèdia..."
 
@@ -962,11 +966,11 @@ msgstr "Comprovar &multimèdia..."
 msgid "Check for Updates"
 msgstr "Comprova si hi ha actualitzacions"
 
-#: qt/aqt/forms/main.py:142
+#: qt/aqt/forms/main.py:143
 msgid "Check the files in the media directory"
 msgstr "Comprova els fitxers de la carpeta de fitxers multimèdia"
 
-#: qt/aqt/addons.py:881
+#: qt/aqt/addons.py:885
 msgid "Checking..."
 msgstr "S'està comprovant..."
 
@@ -986,7 +990,7 @@ msgstr "Tria tipus de nota"
 msgid "Choose Tags"
 msgstr "Escull etiquetes"
 
-#: qt/aqt/browser.py:1297
+#: qt/aqt/browser.py:1300
 msgid "Clear Unused"
 msgstr "Eliminar les no utilitzades"
 
@@ -994,29 +998,29 @@ msgstr "Eliminar les no utilitzades"
 msgid "Clear Unused Tags"
 msgstr "Neteja etiquetes no utilitzades"
 
-#: qt/aqt/models.py:204
+#: qt/aqt/models.py:213
 #, python-format
 msgid "Clone: %s"
 msgstr "Clona: %s"
 
-#: qt/aqt/addcards.py:72 qt/aqt/forms/browser.py:325
+#: qt/aqt/addcards.py:73 qt/aqt/forms/browser.py:325
 msgid "Close"
 msgstr "Tanca"
 
-#: qt/aqt/addcards.py:222
+#: qt/aqt/addcards.py:223
 msgid "Close and lose current input?"
 msgstr "Tancar i perdre l'entrada actual?"
 
-#: qt/aqt/main.py:539
+#: qt/aqt/main.py:554
 msgid "Closing..."
 msgstr "Tancant..."
 
-#: qt/aqt/clayout.py:235
+#: qt/aqt/clayout.py:243
 #, python-format
 msgid "Cloze %d"
 msgstr "Resposta anidada %d"
 
-#: qt/aqt/editor.py:163
+#: qt/aqt/editor.py:170
 msgid "Cloze deletion (Ctrl+Shift+C)"
 msgstr "Blanc per omplir (Ctrl+Shift+C)"
 
@@ -1024,7 +1028,7 @@ msgstr "Blanc per omplir (Ctrl+Shift+C)"
 msgid "Code:"
 msgstr "Codi:"
 
-#: qt/aqt/exporting.py:173
+#: qt/aqt/exporting.py:177
 msgid "Collection exported."
 msgstr "Colecció exportada"
 
@@ -1044,13 +1048,9 @@ msgstr "Config."
 msgid "Configuration"
 msgstr "Configuració"
 
-#: qt/aqt/forms/main.py:138
+#: qt/aqt/forms/main.py:139
 msgid "Configure interface language and options"
 msgstr "Configura les opcions i l'idioma de l'interfície"
-
-#: pylib/anki/schedv2.py:1279
-msgid "Congratulations! You have finished this deck for now."
-msgstr "Enhorabona! De moment heu acabat amb aquest paquet."
 
 #: qt/aqt/reviewer.py:94
 msgid "Continue"
@@ -1060,7 +1060,7 @@ msgstr "Contínua"
 msgid "Copied to clipboard"
 msgstr "Copiat al portapapers"
 
-#: qt/aqt/editor.py:1179 qt/aqt/webview.py:282
+#: qt/aqt/editor.py:1199 qt/aqt/webview.py:285
 msgid "Copy"
 msgstr "Copia"
 
@@ -1072,12 +1072,12 @@ msgstr "Copiar informació de depuració"
 msgid "Copy to Clipboard"
 msgstr "Copiar al Portapapers"
 
-#: pylib/anki/stats.py:171
+#: pylib/anki/stats.py:173
 #, python-format
 msgid "Correct answers on mature cards: %(a)d/%(b)d (%(c).1f%%)"
 msgstr "Respostes correctes en les targetes madures: %(a)d/%(b)d (%(c).1f%%)"
 
-#: pylib/anki/stats.py:707
+#: pylib/anki/stats.py:713
 #, python-format
 msgid "Correct: <b>%(pct)0.2f%%</b><br>(%(good)d of %(tot)d)"
 msgstr "Correcte: <b>%(pct)0.2f%%</b><br>(%(good)d of %(tot)d)"
@@ -1086,24 +1086,24 @@ msgstr "Correcte: <b>%(pct)0.2f%%</b><br>(%(good)d of %(tot)d)"
 msgid "Corrupt add-on file."
 msgstr "L'arxiu del complement està danyat."
 
-#: qt/aqt/editor.py:736
+#: qt/aqt/editor.py:742
 msgid "Couldn't record audio. Have you installed 'lame'?"
 msgstr "No s'ha pogut grabar l'audio. Has instalat \"lame\"?"
 
-#: qt/aqt/exporting.py:141
+#: qt/aqt/exporting.py:145
 #, python-format
 msgid "Couldn't save file: %s"
 msgstr "No s'ha pogut guardar l'arxiu: %s"
 
-#: pylib/anki/stats.py:346 pylib/anki/stats.py:366
+#: pylib/anki/stats.py:350 pylib/anki/stats.py:370
 msgid "Cram"
 msgstr "Estudiar de valent"
 
-#: qt/aqt/deckbrowser.py:317
+#: qt/aqt/deckbrowser.py:309
 msgid "Create Deck"
 msgstr "Crear mall"
 
-#: qt/aqt/forms/main.py:153
+#: qt/aqt/forms/main.py:154
 msgid "Create Filtered Deck..."
 msgstr "Crear mall filtrat..."
 
@@ -1111,7 +1111,7 @@ msgstr "Crear mall filtrat..."
 msgid "Create scalable images with dvisvgm"
 msgstr "Crea imatges rescalables amb svisvgm"
 
-#: qt/aqt/browser.py:735
+#: qt/aqt/browser.py:738
 msgid "Created"
 msgstr "S'ha afegit"
 
@@ -1119,24 +1119,24 @@ msgstr "S'ha afegit"
 msgid "Ctrl+Shift+E"
 msgstr "Ctrl+Shift+E"
 
-#: pylib/anki/stats.py:219
+#: pylib/anki/stats.py:221
 msgid "Cumulative"
 msgstr "Acumulat"
 
-#: pylib/anki/stats.py:378
+#: pylib/anki/stats.py:382
 #, python-format
 msgid "Cumulative %s"
 msgstr "Acumulat %s"
 
-#: pylib/anki/stats.py:353
+#: pylib/anki/stats.py:357
 msgid "Cumulative Answers"
 msgstr "Respostes acumulades"
 
-#: pylib/anki/stats.py:234 pylib/anki/stats.py:306
+#: pylib/anki/stats.py:236 pylib/anki/stats.py:310
 msgid "Cumulative Cards"
 msgstr "Targetes acumulades"
 
-#: qt/aqt/browser.py:1122 qt/aqt/browser.py:1254
+#: qt/aqt/browser.py:1125 qt/aqt/browser.py:1257
 msgid "Current Deck"
 msgstr "Mall actual"
 
@@ -1144,7 +1144,7 @@ msgstr "Mall actual"
 msgid "Current note type:"
 msgstr "Tipus de nota actual:"
 
-#: qt/aqt/overview.py:252 qt/aqt/forms/customstudy.py:101
+#: qt/aqt/overview.py:258 qt/aqt/forms/customstudy.py:102
 msgid "Custom Study"
 msgstr "Estudi personalitzat"
 
@@ -1156,44 +1156,40 @@ msgstr "Sessió d'estudi personalitzada"
 msgid "Custom steps (in minutes)"
 msgstr "passos personalitzats (en minuts)"
 
-#: qt/aqt/editor.py:188
+#: qt/aqt/editor.py:195
 msgid "Customize Card Templates (Ctrl+L)"
 msgstr "Personalitzar plantilles de targuetes (Ctrl+L)"
 
-#: qt/aqt/editor.py:187
+#: qt/aqt/editor.py:194
 msgid "Customize Fields"
 msgstr "Personalizar camps"
 
-#: qt/aqt/editor.py:1177
+#: qt/aqt/editor.py:1197
 msgid "Cut"
 msgstr "Talla"
 
-#: pylib/anki/stats.py:403
+#: pylib/anki/stats.py:407
 msgid "Days studied"
 msgstr "Dies que heu estudiat"
-
-#: qt/aqt/forms/preferences.py:304
-msgid "Deauthorize"
-msgstr "Desautoritza"
 
 #: qt/aqt/forms/debug.py:55
 msgid "Debug Console"
 msgstr "Consola de depuració"
 
-#: qt/aqt/browser.py:733 qt/aqt/deckbrowser.py:155 qt/aqt/deckchooser.py:29
+#: qt/aqt/browser.py:736 qt/aqt/deckbrowser.py:147 qt/aqt/deckchooser.py:29
 #: qt/aqt/forms/importing.py:106
 msgid "Deck"
 msgstr "Mall"
 
-#: qt/aqt/clayout.py:642
+#: qt/aqt/clayout.py:693
 msgid "Deck Override..."
 msgstr "Superposició de mall..."
 
-#: qt/aqt/main.py:1575
+#: qt/aqt/main.py:1599
 msgid "Deck will be imported when a profile is opened."
 msgstr "S'importarà el mall tan bon punt s'obri un perfil."
 
-#: qt/aqt/browser.py:1326 qt/aqt/toolbar.py:105
+#: qt/aqt/browser.py:1329 qt/aqt/toolbar.py:105
 msgid "Decks"
 msgstr "Piles"
 
@@ -1205,29 +1201,29 @@ msgstr "Intervals decreixents"
 msgid "Default"
 msgstr "Per defecte"
 
-#: pylib/anki/stats.py:590
+#: pylib/anki/stats.py:596
 msgid "Delays until reviews are shown again."
 msgstr "Retard fins que els repassos es mostren de nou."
 
-#: qt/aqt/deckbrowser.py:242 qt/aqt/deckconf.py:91 qt/aqt/models.py:57
-#: qt/aqt/reviewer.py:792 qt/aqt/forms/addons.py:77 qt/aqt/forms/browser.py:330
+#: qt/aqt/deckbrowser.py:234 qt/aqt/deckconf.py:91 qt/aqt/models.py:56
+#: qt/aqt/reviewer.py:812 qt/aqt/forms/addons.py:77 qt/aqt/forms/browser.py:330
 #: qt/aqt/forms/fields.py:103 qt/aqt/forms/profiles.py:83
 msgid "Delete"
 msgstr "Elimina"
 
-#: qt/aqt/deckbrowser.py:288
+#: qt/aqt/deckbrowser.py:280
 msgid "Delete Deck"
 msgstr "Eliminar el mall"
 
-#: qt/aqt/reviewer.py:711
+#: qt/aqt/reviewer.py:731
 msgid "Delete Note"
 msgstr "Elimina la nota"
 
-#: qt/aqt/browser.py:1541
+#: qt/aqt/browser.py:1544
 msgid "Delete Notes"
 msgstr "Elimina les notes"
 
-#: qt/aqt/browser.py:1647
+#: qt/aqt/browser.py:1636
 msgid "Delete Tags"
 msgstr "Elimina les etiquetes"
 
@@ -1236,27 +1232,27 @@ msgstr "Elimina les etiquetes"
 msgid "Delete field from %s?"
 msgstr "Voleu eliminar el camp de %s?"
 
-#: qt/aqt/addons.py:842
+#: qt/aqt/addons.py:845
 #, python-format
 msgid "Delete the %(num)d selected add-on?"
 msgid_plural "Delete the %(num)d selected add-ons?"
 msgstr[0] "Eliminar la %(num)d extensió seleccionada?"
 msgstr[1] "Eliminar les %(num)d extensions seleccionades?"
 
-#: qt/aqt/clayout.py:508
+#: qt/aqt/clayout.py:559
 #, python-format
 msgid "Delete the '%(a)s' card type, and its %(b)s?"
 msgstr "Eliminar el tipus de targeta %(a)s' i els seus %(b)s?"
 
-#: qt/aqt/models.py:123
+#: qt/aqt/models.py:130
 msgid "Delete this note type and all its cards?"
 msgstr "Voleu eliminar aquest tipus de nota i totes les targetes relacionades?"
 
-#: qt/aqt/models.py:125
+#: qt/aqt/models.py:132
 msgid "Delete this unused note type?"
 msgstr "Voleu eliminar aquest tipus de nota que no es fa servir?"
 
-#: qt/aqt/overview.py:190
+#: qt/aqt/overview.py:197
 msgid "Deleting this deck from the deck list will return all remaining cards to their original deck."
 msgstr "Si elimines aquest mall de la llista de malls totes les targetes restants tornaran al seu mall d'origen."
 
@@ -1273,7 +1269,7 @@ msgstr "Descripció per mostrar en la pantalla de resum, pel mall actual:"
 msgid "Dialog"
 msgstr "Diàleg"
 
-#: qt/aqt/addons.py:1111
+#: qt/aqt/addons.py:1115
 msgid "Download complete. Please restart Anki to apply changes."
 msgstr "Descarga completada. Reinicia Anki per aplicar els canvis."
 
@@ -1287,28 +1283,28 @@ msgstr "s'ha descargat %(fname)s"
 #. and "%(kb)0.2f" is the number of downloaded
 #. kilobytes. This lead for example to "Downloading 3/5
 #. (27KB)"
-#: qt/aqt/addons.py:1090
+#: qt/aqt/addons.py:1094
 #, python-format
 msgid "Downloading %(a)d/%(b)d (%(kb)0.2fKB)..."
 msgstr "Descargant %(a)d/%(b)d (%(kb)0.2fKB)..."
 
-#: qt/aqt/forms/customstudy.py:113
+#: qt/aqt/forms/customstudy.py:114
 msgid "Due cards only"
 msgstr "Només targetes programades."
 
-#: pylib/anki/stats.py:257
+#: pylib/anki/stats.py:261
 msgid "Due tomorrow"
 msgstr "Programades per demà"
 
-#: qt/aqt/forms/main.py:136
+#: qt/aqt/forms/main.py:137
 msgid "E&xit"
 msgstr "&Surt"
 
-#: qt/aqt/browser.py:740
+#: qt/aqt/browser.py:743
 msgid "Ease"
 msgstr "Facilitat"
 
-#: qt/aqt/reviewer.py:622 qt/aqt/reviewer.py:624
+#: qt/aqt/reviewer.py:633 qt/aqt/reviewer.py:639
 msgid "Easy"
 msgstr "Fàcil"
 
@@ -1320,20 +1316,20 @@ msgstr "Bonus per Fàcil"
 msgid "Easy interval"
 msgstr "Interval per Fàcil"
 
-#: qt/aqt/reviewer.py:560
+#: qt/aqt/reviewer.py:569
 msgid "Edit"
 msgstr "Edita"
 
-#: qt/aqt/addcards.py:143
+#: qt/aqt/addcards.py:144
 #, python-format
 msgid "Edit \"%s\""
 msgstr "Editar \"%s\""
 
-#: qt/aqt/editcurrent.py:19
+#: qt/aqt/editcurrent.py:20
 msgid "Edit Current"
 msgstr "Edita l'actual"
 
-#: qt/aqt/editor.py:940
+#: qt/aqt/editor.py:950
 msgid "Edit HTML"
 msgstr "Edita l'HTML"
 
@@ -1341,11 +1337,11 @@ msgstr "Edita l'HTML"
 msgid "Editing Font"
 msgstr "Editant tipus de lletra"
 
-#: qt/aqt/overview.py:250
+#: qt/aqt/overview.py:256
 msgid "Empty"
 msgstr "Buit"
 
-#: qt/aqt/forms/main.py:152
+#: qt/aqt/forms/main.py:153
 msgid "Empty Cards..."
 msgstr "Targetes buides..."
 
@@ -1362,21 +1358,21 @@ msgstr "Activar el segon filtre"
 msgid "End"
 msgstr "Acabar"
 
-#: qt/aqt/clayout.py:687
+#: qt/aqt/clayout.py:738
 #, python-format
 msgid "Enter deck to place new %s cards in, or leave blank:"
 msgstr "Selecciona el mall en què voleu col·locar les %s noves targetes, o deixeu -ho en blanc:"
 
-#: qt/aqt/clayout.py:547
+#: qt/aqt/clayout.py:598
 #, python-format
 msgid "Enter new card position (1...%s):"
 msgstr "Entra la nova posició de la targeta (1...%s):"
 
-#: qt/aqt/browser.py:1627
+#: qt/aqt/browser.py:1616
 msgid "Enter tags to add:"
 msgstr "Entreu les etiquetes que voleu afegir:"
 
-#: qt/aqt/browser.py:1649
+#: qt/aqt/browser.py:1638
 msgid "Enter tags to delete:"
 msgstr "Entreu les etiquetes que voleu suprimir:"
 
@@ -1385,7 +1381,7 @@ msgstr "Entreu les etiquetes que voleu suprimir:"
 msgid "Error downloading <i>%(id)s</i>: %(error)s"
 msgstr "Error al descargar <i>%(id)s</i>: %(error)s"
 
-#: qt/aqt/main.py:106
+#: qt/aqt/main.py:121
 #, python-format
 msgid ""
 "Error during startup:\n"
@@ -1402,12 +1398,12 @@ msgstr "S'ha produït un error en executar %s."
 msgid "Error installing <i>%(base)s</i>: %(error)s"
 msgstr "Error al instal·lar <i>%(base)s</i>: %(error)s"
 
-#: qt/aqt/sound.py:453
+#: qt/aqt/sound.py:458
 #, python-format
 msgid "Error running %s"
 msgstr "S'ha produït un error en executar %s"
 
-#: qt/aqt/deckbrowser.py:240 qt/aqt/exporting.py:120
+#: qt/aqt/deckbrowser.py:232 qt/aqt/exporting.py:124
 #: qt/aqt/forms/exporting.py:74
 msgid "Export"
 msgstr "Exporta"
@@ -1416,7 +1412,7 @@ msgstr "Exporta"
 msgid "Export..."
 msgstr "Exporta..."
 
-#: qt/aqt/exporting.py:150
+#: qt/aqt/exporting.py:154
 #, python-format
 msgid "Exported %d media file"
 msgid_plural "Exported %d media files"
@@ -1440,7 +1436,7 @@ msgstr "Nom del camp:"
 msgid "Field:"
 msgstr "Camp:"
 
-#: qt/aqt/editor.py:184 qt/aqt/fields.py:23 qt/aqt/forms/changemodel.py:113
+#: qt/aqt/editor.py:191 qt/aqt/fields.py:23 qt/aqt/forms/changemodel.py:113
 #: qt/aqt/forms/fields.py:101
 msgid "Fields"
 msgstr "Camps"
@@ -1455,7 +1451,7 @@ msgstr "Camps per %s"
 msgid "Fields separated by: %s"
 msgstr "Camps separats per: %s"
 
-#: qt/aqt/models.py:60
+#: qt/aqt/models.py:62
 msgid "Fields..."
 msgstr "Camps..."
 
@@ -1467,7 +1463,7 @@ msgstr "Fil&trar"
 msgid "File version unknown, trying import anyway."
 msgstr "La versió de l'arxiu és desconeguda, intentant importar de totes formes."
 
-#: qt/aqt/browser.py:1315 qt/aqt/forms/dyndconf.py:134
+#: qt/aqt/browser.py:1318 qt/aqt/forms/dyndconf.py:134
 msgid "Filter"
 msgstr "Filtre"
 
@@ -1483,7 +1479,7 @@ msgstr "Filtrar..."
 msgid "Filter:"
 msgstr "Filtre:"
 
-#: qt/aqt/main.py:1140 qt/aqt/main.py:1142
+#: qt/aqt/main.py:1162 qt/aqt/main.py:1164
 #, python-format
 msgid "Filtered Deck %d"
 msgstr "Mall filtrat %d"
@@ -1500,7 +1496,7 @@ msgstr "Cerca duplicats"
 msgid "Find and Re&place..."
 msgstr "Cerca i reemplaça..."
 
-#: qt/aqt/browser.py:1910 qt/aqt/forms/findreplace.py:83
+#: qt/aqt/browser.py:1902 qt/aqt/forms/findreplace.py:86
 msgid "Find and Replace"
 msgstr "Cerca i reemplaça"
 
@@ -1521,15 +1517,15 @@ msgstr "Primer camp coincident: %s"
 msgid "Flag"
 msgstr "Marcar"
 
-#: qt/aqt/reviewer.py:678
+#: qt/aqt/reviewer.py:698
 msgid "Flag Card"
 msgstr "Marcar targeta"
 
-#: qt/aqt/clayout.py:350
+#: qt/aqt/clayout.py:394
 msgid "Flip"
 msgstr "Gireu"
 
-#: qt/aqt/profiles.py:309
+#: qt/aqt/profiles.py:312
 msgid "Folder already exists."
 msgstr "Aquesta carpeta ja existeix."
 
@@ -1546,7 +1542,7 @@ msgstr "Peu de pàgina"
 msgid "For security reasons, '%s' is not allowed on cards. You can still use it by placing the command in a different package, and importing that package in the LaTeX header instead."
 msgstr "Per raons de seguretat, no es permet '%s' a les targetes. Pots seguir usant-ho inserint la comanda en un paquet diferent, i important aquest paquet a la capçalera LaTeX."
 
-#: pylib/anki/stats.py:226
+#: pylib/anki/stats.py:228
 msgid "Forecast"
 msgstr "Pronòstic"
 
@@ -1554,12 +1550,12 @@ msgstr "Pronòstic"
 msgid "Form"
 msgstr "Formulari"
 
-#: qt/aqt/browser.py:1997
+#: qt/aqt/browser.py:1989
 #, python-format
 msgid "Found %(a)s across %(b)s."
 msgstr "S'han trobat %(a)s d'entre %(b)s."
 
-#: pylib/anki/exporting.py:377
+#: pylib/anki/exporting.py:382
 msgid "Front"
 msgstr "Anvers"
 
@@ -1572,7 +1568,7 @@ msgstr "Opcions generals"
 msgid "Generated file: %s"
 msgstr "S'ha generat el fitxer: %s"
 
-#: pylib/anki/stats.py:935
+#: pylib/anki/stats.py:941
 #, python-format
 msgid "Generated on %s"
 msgstr "Generat en %s."
@@ -1581,11 +1577,11 @@ msgstr "Generat en %s."
 msgid "Get Add-ons..."
 msgstr "Conseguir extensions..."
 
-#: qt/aqt/deckbrowser.py:316
+#: qt/aqt/deckbrowser.py:308
 msgid "Get Shared"
 msgstr "Piles compartides"
 
-#: qt/aqt/reviewer.py:620 qt/aqt/reviewer.py:622 qt/aqt/reviewer.py:624
+#: qt/aqt/reviewer.py:630 qt/aqt/reviewer.py:633 qt/aqt/reviewer.py:638
 msgid "Good"
 msgstr "Correcte"
 
@@ -1593,7 +1589,7 @@ msgstr "Correcte"
 msgid "Graduating interval"
 msgstr "Interval de graduació"
 
-#: qt/aqt/browser.py:1285 qt/aqt/reviewer.py:693 qt/aqt/forms/browser.py:335
+#: qt/aqt/browser.py:1288 qt/aqt/reviewer.py:713 qt/aqt/forms/browser.py:335
 msgid "Green Flag"
 msgstr "Marca verda"
 
@@ -1601,7 +1597,7 @@ msgstr "Marca verda"
 msgid "HTML Editor"
 msgstr "Editor HTML"
 
-#: qt/aqt/reviewer.py:624
+#: qt/aqt/reviewer.py:637
 msgid "Hard"
 msgstr "Difícil"
 
@@ -1609,7 +1605,7 @@ msgstr "Difícil"
 msgid "Hard interval"
 msgstr "Interval dificil"
 
-#: qt/aqt/forms/preferences.py:277
+#: qt/aqt/forms/preferences.py:278
 msgid "Hardware acceleration (faster, may cause display issues)"
 msgstr "Acceleració per hardware (més ràpid, pot causar problemes)"
 
@@ -1621,16 +1617,16 @@ msgstr "Has instal·lat latex i dvipng/dvisvgm?"
 msgid "Header"
 msgstr "Capçalera"
 
-#: qt/aqt/addcards.py:76 qt/aqt/clayout.py:340 qt/aqt/utils.py:206
+#: qt/aqt/addcards.py:77 qt/aqt/clayout.py:384 qt/aqt/utils.py:206
 #: qt/aqt/utils.py:207
 msgid "Help"
 msgstr "Ajuda"
 
-#: pylib/anki/stats.py:873
+#: pylib/anki/stats.py:879
 msgid "Highest ease"
 msgstr "Facilitat més alta"
 
-#: qt/aqt/addcards.py:80
+#: qt/aqt/addcards.py:81
 msgid "History"
 msgstr "Història"
 
@@ -1638,15 +1634,15 @@ msgstr "Història"
 msgid "Home"
 msgstr "Inici"
 
-#: pylib/anki/stats.py:785
+#: pylib/anki/stats.py:791
 msgid "Hourly Breakdown"
 msgstr "Distribució horària"
 
-#: pylib/anki/stats.py:373
+#: pylib/anki/stats.py:377
 msgid "Hours"
 msgstr "Hores"
 
-#: pylib/anki/stats.py:815
+#: pylib/anki/stats.py:821
 msgid "Hours with less than 30 reviews are not shown."
 msgstr "Les hores amb menys de 30 repassos no es mostren."
 
@@ -1654,11 +1650,11 @@ msgstr "Les hores amb menys de 30 repassos no es mostren."
 msgid "Identical"
 msgstr "Idèntic"
 
-#: qt/aqt/about.py:218
+#: qt/aqt/about.py:220
 msgid "If you have contributed and are not on this list, please get in touch."
 msgstr "Si hi heus contribuït però no sou a la llista, poseu-vos en contacte."
 
-#: pylib/anki/stats.py:423
+#: pylib/anki/stats.py:427
 msgid "If you studied every day"
 msgstr "SI haguèssis estudiat tots els dies."
 
@@ -1666,7 +1662,7 @@ msgstr "SI haguèssis estudiat tots els dies."
 msgid "Ignore answer times longer than"
 msgstr "Ignoreu temps de resposta més llargs de"
 
-#: qt/aqt/forms/findreplace.py:88
+#: qt/aqt/forms/findreplace.py:91
 msgid "Ignore case"
 msgstr "Ignoreu les majúscules"
 
@@ -1687,7 +1683,7 @@ msgstr "Ignora aquesta actualització"
 msgid "Import"
 msgstr "Importa"
 
-#: qt/aqt/deckbrowser.py:318
+#: qt/aqt/deckbrowser.py:310
 msgid "Import File"
 msgstr "Importa un fitxer"
 
@@ -1703,7 +1699,7 @@ msgstr "Opcions d'importació"
 msgid "Importing complete."
 msgstr "Importació completa."
 
-#: qt/aqt/main.py:1201
+#: qt/aqt/main.py:1223
 #, python-format
 msgid ""
 "In order to ensure your collection works correctly when moved between devices, Anki requires your computer's internal clock to be set correctly. The internal clock can be wrong even if your system is showing the correct local time.\n"
@@ -1746,7 +1742,7 @@ msgstr "Inclou informació de planificació"
 msgid "Include tags"
 msgstr "Inclou les etiquetes"
 
-#: qt/aqt/forms/customstudy.py:104
+#: qt/aqt/forms/customstudy.py:105
 msgid "Increase today's new card limit"
 msgstr "Incrementa el límit per cartes noves d'avui"
 
@@ -1754,7 +1750,7 @@ msgstr "Incrementa el límit per cartes noves d'avui"
 msgid "Increase today's new card limit by"
 msgstr "Incrementa el límit per cartes noves d'avui per"
 
-#: qt/aqt/forms/customstudy.py:105
+#: qt/aqt/forms/customstudy.py:106
 msgid "Increase today's review card limit"
 msgstr "Augmentar el ímit de repassos per avui"
 
@@ -1770,11 +1766,11 @@ msgstr "Intervals creixents"
 msgid "Install Add-on"
 msgstr "Intalar complement"
 
-#: qt/aqt/addons.py:871
+#: qt/aqt/addons.py:874
 msgid "Install Add-on(s)"
 msgstr "Instal·lar complement(s)"
 
-#: qt/aqt/addons.py:1410
+#: qt/aqt/addons.py:1420
 msgid "Install Anki add-on"
 msgstr "Instal·lar complement d'Anki"
 
@@ -1782,7 +1778,7 @@ msgstr "Instal·lar complement d'Anki"
 msgid "Install from file..."
 msgstr "Instal·lar des d'un arxiu…"
 
-#: qt/aqt/addons.py:1433
+#: qt/aqt/addons.py:1443
 msgid "Installation complete"
 msgstr "Instal·lació completada"
 
@@ -1791,7 +1787,7 @@ msgstr "Instal·lació completada"
 msgid "Installed %(name)s"
 msgstr "S'ha instal·lat %(name)s"
 
-#: qt/aqt/addons.py:1020
+#: qt/aqt/addons.py:1024
 msgid "Installed successfully."
 msgstr "Instal·lat correctament."
 
@@ -1799,11 +1795,11 @@ msgstr "Instal·lat correctament."
 msgid "Interface language:"
 msgstr "Idioma de la interfase"
 
-#: qt/aqt/forms/preferences.py:279
+#: qt/aqt/forms/preferences.py:280
 msgid "Interrupt current audio when answering"
 msgstr "Interrompre el audio actual al respondre"
 
-#: qt/aqt/browser.py:739
+#: qt/aqt/browser.py:742
 msgid "Interval"
 msgstr "Interval"
 
@@ -1811,7 +1807,7 @@ msgstr "Interval"
 msgid "Interval modifier"
 msgstr "Modificació de l'interval"
 
-#: pylib/anki/stats.py:590
+#: pylib/anki/stats.py:596
 msgid "Intervals"
 msgstr "Intervals"
 
@@ -1819,35 +1815,35 @@ msgstr "Intervals"
 msgid "Invalid add-on manifest."
 msgstr "El manifiest del complement no es vàlid."
 
-#: qt/aqt/addons.py:1007
+#: qt/aqt/addons.py:1011
 msgid "Invalid code, or add-on not available for your version of Anki."
 msgstr "Codi invàlid, o l'extensió no està disponible per a la teva versió d'Anki."
 
-#: qt/aqt/addons.py:933
+#: qt/aqt/addons.py:937
 msgid "Invalid code."
 msgstr "Còdig no vàlid."
 
-#: qt/aqt/addons.py:1366
+#: qt/aqt/addons.py:1376
 msgid "Invalid configuration: "
 msgstr "Configuració no válida: "
 
-#: qt/aqt/addons.py:1370
+#: qt/aqt/addons.py:1380
 msgid "Invalid configuration: top level object must be a map"
 msgstr "Configuració invàlida: L'objete del nivel superior ha de ser un mapa"
 
-#: qt/aqt/main.py:1264
+#: qt/aqt/main.py:1286
 msgid "Invalid property found on card. Please use Tools>Check Database, and if the problem comes up again, please ask on the support site."
 msgstr "S'ha trobat alguna propietat incorrecta en les targetes. Si us plau, fes servir Eines-> Comprovar base de dades, i si el problema persisteix contacta amb el servei d'assistència a la web."
 
-#: qt/aqt/reviewer.py:667
+#: qt/aqt/reviewer.py:687
 msgid "It has been suspended."
 msgstr "S'ha suspès"
 
-#: qt/aqt/editor.py:117
+#: qt/aqt/editor.py:124
 msgid "Italic text (Ctrl+I)"
 msgstr "Text en cursiva (Ctrl+I)"
 
-#: qt/aqt/editor.py:565
+#: qt/aqt/editor.py:571
 msgid "Jump to tags with Ctrl+Shift+T"
 msgstr "Saltar a etiquetes amb Ctrl+Shift+T"
 
@@ -1855,19 +1851,19 @@ msgstr "Saltar a etiquetes amb Ctrl+Shift+T"
 msgid "Keep"
 msgstr "Manté"
 
-#: qt/aqt/editor.py:937 qt/aqt/forms/modelopts.py:67
+#: qt/aqt/editor.py:947 qt/aqt/forms/modelopts.py:67
 msgid "LaTeX"
 msgstr "LaTeX"
 
-#: qt/aqt/editor.py:938
+#: qt/aqt/editor.py:948
 msgid "LaTeX equation"
 msgstr "Equació LaTeX"
 
-#: qt/aqt/editor.py:939
+#: qt/aqt/editor.py:949
 msgid "LaTeX math env."
 msgstr "Entorn matemàtic LaTeX"
 
-#: qt/aqt/browser.py:742 qt/aqt/forms/dconf.py:372
+#: qt/aqt/browser.py:745 qt/aqt/forms/dconf.py:372
 msgid "Lapses"
 msgstr "Lapses"
 
@@ -1879,20 +1875,20 @@ msgstr "Última targueta"
 msgid "Latest added first"
 msgstr "Últimes afegides primer"
 
-#: pylib/anki/stats.py:345 pylib/anki/stats.py:365
+#: pylib/anki/stats.py:349 pylib/anki/stats.py:369
 msgid "Learn"
 msgstr "Estudia"
 
-#: qt/aqt/forms/preferences.py:295
+#: qt/aqt/forms/preferences.py:296
 msgid "Learn ahead limit"
 msgstr "Límit d'estudi per adalantat"
 
-#: pylib/anki/stats.py:158
+#: pylib/anki/stats.py:160
 #, python-format
 msgid "Learn: %(a)s, Review: %(b)s, Relearn: %(c)s, Filtered: %(d)s"
 msgstr "Aprenent: %(a)s, Repasar: %(b)s, Reaprendre: %(c)s, Filtrades: %(d)s"
 
-#: pylib/anki/stats.py:680 qt/aqt/browser.py:1276 qt/aqt/overview.py:225
+#: pylib/anki/stats.py:686 qt/aqt/browser.py:1279 qt/aqt/overview.py:231
 msgid "Learning"
 msgstr "Aprenentatge"
 
@@ -1916,11 +1912,11 @@ msgstr "Limita a"
 msgid "Loading..."
 msgstr "S'està carregant..."
 
-#: pylib/anki/stats.py:613
+#: pylib/anki/stats.py:619
 msgid "Longest interval"
 msgstr "Interval més llarg."
 
-#: pylib/anki/stats.py:871
+#: pylib/anki/stats.py:877
 msgid "Lowest ease"
 msgstr "Facilitat més baixa"
 
@@ -1928,7 +1924,7 @@ msgstr "Facilitat més baixa"
 msgid "Manage"
 msgstr "Gestiona"
 
-#: qt/aqt/forms/main.py:154
+#: qt/aqt/forms/main.py:155
 msgid "Manage Note Types"
 msgstr "Gestiona els Tipus de Nota"
 
@@ -1936,11 +1932,11 @@ msgstr "Gestiona els Tipus de Nota"
 msgid "Manage Note Types..."
 msgstr "Gestiona els Tipus de Nota..."
 
-#: qt/aqt/browser.py:1334 qt/aqt/forms/dconf.py:339
+#: qt/aqt/browser.py:1337 qt/aqt/forms/dconf.py:339
 msgid "Manage..."
 msgstr "Gestionar…"
 
-#: qt/aqt/overview.py:132
+#: qt/aqt/overview.py:131
 msgid "Manually Buried Cards"
 msgstr "Targuetes enterrades manualment"
 
@@ -1953,24 +1949,24 @@ msgstr "Associa a %s"
 msgid "Map to Tags"
 msgstr "Associa a les etiquetes"
 
-#: qt/aqt/reviewer.py:706
+#: qt/aqt/reviewer.py:726
 msgid "Mark Note"
 msgstr "Marcar nota"
 
-#: qt/aqt/editor.py:935
+#: qt/aqt/editor.py:945
 msgid "MathJax block"
 msgstr "Bloc de MathJacx"
 
-#: qt/aqt/editor.py:936
+#: qt/aqt/editor.py:946
 msgid "MathJax chemistry"
 msgstr "química MathJax"
 
-#: qt/aqt/editor.py:934
+#: qt/aqt/editor.py:944
 msgid "MathJax inline"
 msgstr "MathJacx d'una línia"
 
-#: pylib/anki/stats.py:211 pylib/anki/stats.py:342 pylib/anki/stats.py:362
-#: pylib/anki/stats.py:682 pylib/anki/stats.py:852
+#: pylib/anki/stats.py:213 pylib/anki/stats.py:346 pylib/anki/stats.py:366
+#: pylib/anki/stats.py:688 pylib/anki/stats.py:858
 msgid "Mature"
 msgstr "Madures"
 
@@ -1982,7 +1978,7 @@ msgstr "Interval màxim"
 msgid "Maximum reviews/day"
 msgstr "Repassos màxims/dia"
 
-#: qt/aqt/editor.py:698
+#: qt/aqt/editor.py:704
 msgid "Media"
 msgstr "Mèdia"
 
@@ -1990,7 +1986,7 @@ msgstr "Mèdia"
 msgid "Minimum interval"
 msgstr "Interval mínim"
 
-#: pylib/anki/stats.py:370
+#: pylib/anki/stats.py:374
 msgid "Minutes"
 msgstr "Minuts"
 
@@ -2002,7 +1998,7 @@ msgstr "Barrejar targetes noves amb repassos"
 msgid "Mnemosyne 2.0 Deck (*.db)"
 msgstr "Mall Mnemosyne 2.0 (*.db)"
 
-#: qt/aqt/reviewer.py:562
+#: qt/aqt/reviewer.py:571
 msgid "More"
 msgstr "Més"
 
@@ -2010,7 +2006,7 @@ msgstr "Més"
 msgid "Most lapses"
 msgstr "Més lapses"
 
-#: qt/aqt/browser.py:1587
+#: qt/aqt/browser.py:1590
 msgid "Move Cards"
 msgstr "Moure cartes"
 
@@ -2026,7 +2022,7 @@ msgstr "Los separadores de més d'un caràcter no son vàlids. Sisplau, introdue
 msgid "N&ote"
 msgstr "N&ota"
 
-#: qt/aqt/main.py:280 qt/aqt/main.py:294
+#: qt/aqt/main.py:295 qt/aqt/main.py:309
 msgid "Name exists."
 msgstr "El nom ja existeix"
 
@@ -2034,7 +2030,7 @@ msgstr "El nom ja existeix"
 msgid "Name for deck:"
 msgstr "Nom del mall:"
 
-#: qt/aqt/main.py:277 qt/aqt/models.py:112
+#: qt/aqt/main.py:292 qt/aqt/models.py:119
 msgid "Name:"
 msgstr "Nom:"
 
@@ -2042,7 +2038,7 @@ msgstr "Nom:"
 msgid "Network"
 msgstr "Xarxa"
 
-#: qt/aqt/browser.py:1275 qt/aqt/deckbrowser.py:157 qt/aqt/overview.py:223
+#: qt/aqt/browser.py:1278 qt/aqt/deckbrowser.py:149 qt/aqt/overview.py:229
 msgid "New"
 msgstr "Nou"
 
@@ -2055,7 +2051,7 @@ msgstr "Noves fitxes"
 msgid "New cards in deck over today limit: %s"
 msgstr "Targetes noves en el mall per sobre del limit d'avui: %s"
 
-#: qt/aqt/forms/customstudy.py:111
+#: qt/aqt/forms/customstudy.py:112
 msgid "New cards only"
 msgstr "Només noves cartes"
 
@@ -2063,7 +2059,7 @@ msgstr "Només noves cartes"
 msgid "New cards/day"
 msgstr "Noves cartes/dia"
 
-#: qt/aqt/deckbrowser.py:254 qt/aqt/studydeck.py:151
+#: qt/aqt/deckbrowser.py:246 qt/aqt/studydeck.py:151
 msgid "New deck name:"
 msgstr "Nou nom del mall:"
 
@@ -2071,8 +2067,8 @@ msgstr "Nou nom del mall:"
 msgid "New interval"
 msgstr "Nou interval"
 
-#: qt/aqt/clayout.py:533 qt/aqt/deckconf.py:148 qt/aqt/fields.py:97
-#: qt/aqt/main.py:288 qt/aqt/models.py:77
+#: qt/aqt/clayout.py:584 qt/aqt/deckconf.py:148 qt/aqt/fields.py:97
+#: qt/aqt/main.py:303 qt/aqt/models.py:84
 msgid "New name:"
 msgstr "Nou nom:"
 
@@ -2089,23 +2085,23 @@ msgstr "Nou nom de grup d'opcions"
 msgid "New position (1...%d):"
 msgstr "Nova posició (1...%d):"
 
-#: qt/aqt/forms/preferences.py:297
+#: qt/aqt/forms/preferences.py:298
 msgid "Next day starts at"
 msgstr "El  següent dia comença en"
 
-#: qt/aqt/forms/preferences.py:282
+#: qt/aqt/forms/preferences.py:283
 msgid "Night mode"
 msgstr "Mode nocturn"
 
-#: qt/aqt/browser.py:1287
+#: qt/aqt/browser.py:1290
 msgid "No Flag"
 msgstr "Sense Marca"
 
-#: qt/aqt/overview.py:69
+#: qt/aqt/overview.py:70
 msgid "No cards are due yet."
 msgstr "Encara no hi ha cartes pendents de revisar."
 
-#: pylib/anki/stats.py:176
+#: pylib/anki/stats.py:178
 msgid "No cards have been studied today."
 msgstr "No has estudiat cap targueta avui"
 
@@ -2113,34 +2109,34 @@ msgstr "No has estudiat cap targueta avui"
 msgid "No cards matched the criteria you provided."
 msgstr "No hi ha cap targeta que sadisfaci el criteri que has proporcionat."
 
-#: pylib/anki/stats.py:174
+#: pylib/anki/stats.py:176
 msgid "No mature cards were studied today."
 msgstr "Avui no has estudiat cartes madures."
 
-#: qt/aqt/addons.py:865
+#: qt/aqt/addons.py:868
 msgid "No updates available."
 msgstr "No hi ha actualitzacions disponibles."
 
-#: qt/aqt/browser.py:744
+#: qt/aqt/browser.py:747
 msgid "Note"
 msgstr "Nota"
 
-#: qt/aqt/browser.py:1332 qt/aqt/models.py:36 qt/aqt/forms/models.py:54
+#: qt/aqt/browser.py:1335 qt/aqt/models.py:36 qt/aqt/forms/models.py:54
 msgid "Note Types"
 msgstr "Tipus de notes"
 
-#: qt/aqt/reviewer.py:798
+#: qt/aqt/reviewer.py:818
 #, python-format
 msgid "Note and its %d card deleted."
 msgid_plural "Note and its %d cards deleted."
 msgstr[0] "Nota i les seves %d cartes esborrades."
 msgstr[1] "Notes i les seves %d cartes esborrades."
 
-#: qt/aqt/reviewer.py:813
+#: qt/aqt/reviewer.py:833
 msgid "Note buried."
 msgstr "Nota enterrada."
 
-#: qt/aqt/reviewer.py:778
+#: qt/aqt/reviewer.py:798
 msgid "Note suspended."
 msgstr "Nota suspesa."
 
@@ -2158,7 +2154,7 @@ msgstr "Notes afegides des dede l'arxiu: %d"
 msgid "Notes found in file: %d"
 msgstr "Notes trobades en l'arxiu: %d"
 
-#: pylib/anki/exporting.py:120
+#: pylib/anki/exporting.py:125
 msgid "Notes in Plain Text"
 msgstr "Notes en Text Plà"
 
@@ -2171,7 +2167,7 @@ msgstr "Les Notes requereixen almenys un camp."
 msgid "Notes skipped, as they're already in your collection: %d"
 msgstr "S'han omés les notes, atès que ja es troben en la teva col·lecció: %d"
 
-#: qt/aqt/browser.py:2024
+#: qt/aqt/browser.py:2016
 msgid "Notes tagged."
 msgstr "Notes etiquetades."
 
@@ -2185,7 +2181,7 @@ msgstr "Notes que no s'han pogut importat degut a un canvi de tipus de nota: %d"
 msgid "Notes updated, as file had newer version: %d"
 msgstr "Notes actualitzades, l'arxiu contenía una versió més recent: %d"
 
-#: qt/aqt/browser.py:2178
+#: qt/aqt/browser.py:2170
 msgid "Nothing"
 msgstr "Res"
 
@@ -2197,15 +2193,15 @@ msgstr "D'acord"
 msgid "Oldest seen first"
 msgstr "Veure primer les més antigues"
 
-#: qt/aqt/forms/preferences.py:303
+#: qt/aqt/forms/preferences.py:304
 msgid "On next sync, force changes in one direction"
 msgstr "En la propera sincronització, força els canvis en una direcció"
 
-#: qt/aqt/addons.py:1109
+#: qt/aqt/addons.py:1113
 msgid "One or more errors occurred:"
 msgstr "Un o més errors han ocorregut:"
 
-#: qt/aqt/browser.py:1738
+#: qt/aqt/browser.py:1728
 msgid "Only new cards can be repositioned."
 msgstr "Només les cartes noves poden ser reposicionades."
 
@@ -2217,7 +2213,7 @@ msgstr "Obre"
 msgid "Open Backup..."
 msgstr "Obrir una còpia de seguretat..."
 
-#: qt/aqt/main.py:627
+#: qt/aqt/main.py:642
 msgid "Optimizing..."
 msgstr "Optimitzant...."
 
@@ -2225,13 +2221,13 @@ msgstr "Optimitzant...."
 msgid "Optional filter:"
 msgstr "Filtre opcional:"
 
-#: qt/aqt/clayout.py:109 qt/aqt/deckbrowser.py:238 qt/aqt/deckconf.py:37
-#: qt/aqt/dyndeckconf.py:25 qt/aqt/overview.py:246 qt/aqt/reviewer.py:712
+#: qt/aqt/clayout.py:111 qt/aqt/deckbrowser.py:230 qt/aqt/deckconf.py:37
+#: qt/aqt/dyndeckconf.py:25 qt/aqt/overview.py:252 qt/aqt/reviewer.py:732
 #: qt/aqt/forms/dyndconf.py:142 qt/aqt/forms/fields.py:109
 msgid "Options"
 msgstr "Opcions"
 
-#: qt/aqt/deckconf.py:47 qt/aqt/dyndeckconf.py:28 qt/aqt/models.py:150
+#: qt/aqt/deckconf.py:47 qt/aqt/dyndeckconf.py:28 qt/aqt/models.py:157
 #, python-format
 msgid "Options for %s"
 msgstr "Opcions per %s."
@@ -2240,11 +2236,11 @@ msgstr "Opcions per %s."
 msgid "Options group:"
 msgstr "Opcions del grup:"
 
-#: qt/aqt/models.py:64
+#: qt/aqt/models.py:67
 msgid "Options..."
 msgstr "Opcions..."
 
-#: qt/aqt/browser.py:1284 qt/aqt/reviewer.py:687 qt/aqt/forms/browser.py:334
+#: qt/aqt/browser.py:1287 qt/aqt/reviewer.py:707 qt/aqt/forms/browser.py:334
 msgid "Orange Flag"
 msgstr "Bandera Taronja"
 
@@ -2272,7 +2268,7 @@ msgstr "Substitueix font:"
 msgid "Override front template:"
 msgstr "SObreescriute la plantilla del anvers."
 
-#: qt/aqt/addons.py:869
+#: qt/aqt/addons.py:872
 msgid "Packaged Anki Add-on"
 msgstr "Complement empaquetat d'Anki"
 
@@ -2280,15 +2276,15 @@ msgstr "Complement empaquetat d'Anki"
 msgid "Packaged Anki Deck/Collection (*.apkg *.colpkg *.zip)"
 msgstr "Mall d'anki comprès/ Col·lecció (*.apkg *.colpkg *.zip)"
 
-#: qt/aqt/editor.py:1181
+#: qt/aqt/editor.py:1201
 msgid "Paste"
 msgstr "Enganxa"
 
-#: qt/aqt/forms/preferences.py:280
+#: qt/aqt/forms/preferences.py:281
 msgid "Paste clipboard images as PNG"
 msgstr "Enganxa les imatges del portapapers com a PNG"
 
-#: qt/aqt/forms/preferences.py:281
+#: qt/aqt/forms/preferences.py:282
 msgid "Paste without shift key strips formatting"
 msgstr "Enganxa sense premer la tecla Mayús per eliminar el format"
 
@@ -2296,20 +2292,20 @@ msgstr "Enganxa sense premer la tecla Mayús per eliminar el format"
 msgid "Pauker 1.8 Lesson (*.pau.gz)"
 msgstr "Llicó de Pauker (*.pau.gz)"
 
-#: qt/aqt/reviewer.py:715
+#: qt/aqt/reviewer.py:735
 msgid "Pause Audio"
 msgstr "Pausar audio"
 
-#: pylib/anki/stats.py:593
+#: pylib/anki/stats.py:599
 msgid "Percentage"
 msgstr "Percentatge"
 
-#: pylib/anki/stats.py:943
+#: pylib/anki/stats.py:949
 #, python-format
 msgid "Period: %s"
 msgstr "Període: %s"
 
-#: qt/aqt/forms/preferences.py:302
+#: qt/aqt/forms/preferences.py:303
 msgid "Periodically sync media"
 msgstr "Sincronitzar arxius multimèdia periòdicament"
 
@@ -2321,11 +2317,11 @@ msgstr "Col·locar al final de la cua de targetes noves"
 msgid "Place in review queue with interval between:"
 msgstr "Col·locar en la cua de repàs amb intervals entre:"
 
-#: qt/aqt/models.py:119
+#: qt/aqt/models.py:126
 msgid "Please add another note type first."
 msgstr "Sisplau, afegeuix primer un altre tipus de nota."
 
-#: qt/aqt/addons.py:1013
+#: qt/aqt/addons.py:1017
 msgid "Please check your internet connection."
 msgstr "Si us plau, comprovi la seva connexió a Internet."
 
@@ -2333,20 +2329,20 @@ msgstr "Si us plau, comprovi la seva connexió a Internet."
 msgid "Please connect a microphone, and ensure other programs are not using the audio device."
 msgstr "Sisplau, conecta el micròfon, i assegura't que altres programes no estiguin utilitzant el dispositiu de só."
 
-#: qt/aqt/main.py:1582
+#: qt/aqt/main.py:1606
 msgid "Please ensure a profile is open and Anki is not busy, then try again."
 msgstr "Sisplau, assegura't que hi ha un perfil obert i que Anki no està ocupat, i torna a intentar-ho."
 
-#: qt/aqt/browser.py:1387
+#: qt/aqt/browser.py:1390
 msgid "Please give your filter a name:"
 msgstr "Sisplau, anomena el filtre:"
 
-#: qt/aqt/profiles.py:304
+#: qt/aqt/profiles.py:307
 #, python-format
 msgid "Please remove the folder %s and try again."
 msgstr "Sisplau, elimina la carpeta %s i intenti de nou."
 
-#: qt/aqt/addons.py:1436
+#: qt/aqt/addons.py:1446
 msgid "Please report this to the respective add-on author(s)."
 msgstr "INformi d'aixó als respectius autors del complement."
 
@@ -2354,19 +2350,19 @@ msgstr "INformi d'aixó als respectius autors del complement."
 msgid "Please restart Anki to complete language change."
 msgstr "Sisplau, reinicia l'Anki per a completar el canvi d'idioma."
 
-#: qt/aqt/reviewer.py:375
+#: qt/aqt/reviewer.py:384
 msgid "Please run Tools>Empty Cards"
 msgstr "Sisplau, executa Eines->Targetes buides"
 
-#: qt/aqt/main.py:658
+#: qt/aqt/main.py:673
 msgid "Please select a deck."
 msgstr "Sisplau seleccionael mall."
 
-#: qt/aqt/addons.py:804
+#: qt/aqt/addons.py:807
 msgid "Please select a single add-on first."
 msgstr "Primer seleccini un únic complement."
 
-#: qt/aqt/browser.py:1487
+#: qt/aqt/browser.py:1490
 msgid "Please select cards from only one note type."
 msgstr "Sisplau, selecicona targetes d'un sol tipus de nota."
 
@@ -2374,11 +2370,11 @@ msgstr "Sisplau, selecicona targetes d'un sol tipus de nota."
 msgid "Please select something."
 msgstr "Sisplau, selecciona alguna cosa."
 
-#: qt/aqt/main.py:1098
+#: qt/aqt/main.py:1120
 msgid "Please use File>Import to import this file."
 msgstr "Utilitza Arxiu->Importar per importar aquest arxiu."
 
-#: qt/aqt/forms/preferences.py:276
+#: qt/aqt/forms/preferences.py:277
 msgid "Preferences"
 msgstr "Preferències"
 
@@ -2386,12 +2382,12 @@ msgstr "Preferències"
 msgid "Preview"
 msgstr "Previsualització"
 
-#: qt/aqt/browser.py:614
+#: qt/aqt/browser.py:617
 #, python-format
 msgid "Preview Selected Card (%s)"
 msgstr "Previsualitzar la targueta seleccionada (%s)"
 
-#: qt/aqt/forms/customstudy.py:107
+#: qt/aqt/forms/customstudy.py:108
 msgid "Preview new cards"
 msgstr "Previsualitzar targetes noves."
 
@@ -2410,7 +2406,7 @@ msgstr[1] "Processats %d axrius multimèdia"
 msgid "Processing..."
 msgstr "S'està processant..."
 
-#: qt/aqt/profiles.py:251
+#: qt/aqt/profiles.py:254
 msgid "Profile Corrupt"
 msgstr "Profilo corrupte"
 
@@ -2418,16 +2414,16 @@ msgstr "Profilo corrupte"
 msgid "Profiles"
 msgstr "Perfils"
 
-#: qt/aqt/browser.py:730
+#: qt/aqt/browser.py:733
 msgid "Question"
 msgstr "Pregunta"
 
-#: qt/aqt/browser.py:1749
+#: qt/aqt/browser.py:1739
 #, python-format
 msgid "Queue bottom: %d"
 msgstr "Últim de la cua: %d"
 
-#: qt/aqt/browser.py:1748
+#: qt/aqt/browser.py:1738
 #, python-format
 msgid "Queue top: %d"
 msgstr "Primer de la cua: %d"
@@ -2444,24 +2440,24 @@ msgstr "Aleatori"
 msgid "Randomize order"
 msgstr "Ordre aleatòri"
 
-#: qt/aqt/dyndeckconf.py:23 qt/aqt/overview.py:249
+#: qt/aqt/dyndeckconf.py:23 qt/aqt/overview.py:255
 msgid "Rebuild"
 msgstr "Reconstrueix"
 
-#: qt/aqt/reviewer.py:718
+#: qt/aqt/reviewer.py:738
 msgid "Record Own Voice"
 msgstr "Grabar la meva veu"
 
-#: qt/aqt/editor.py:168
+#: qt/aqt/editor.py:175
 msgid "Record audio (F5)"
 msgstr "Enrregistrar audio (F5)"
 
-#: qt/aqt/sound.py:560
+#: qt/aqt/sound.py:565
 #, python-format
 msgid "Recording...<br>Time: %0.1f"
 msgstr "S'està enregistrant...<br>Temps: %0.1f"
 
-#: qt/aqt/browser.py:1283 qt/aqt/reviewer.py:681 qt/aqt/forms/browser.py:333
+#: qt/aqt/browser.py:1286 qt/aqt/reviewer.py:701 qt/aqt/forms/browser.py:333
 msgid "Red Flag"
 msgstr "Marca vermella"
 
@@ -2469,7 +2465,7 @@ msgstr "Marca vermella"
 msgid "Relative overdueness"
 msgstr "Endarreriment relatiu"
 
-#: pylib/anki/stats.py:344 pylib/anki/stats.py:364
+#: pylib/anki/stats.py:348 pylib/anki/stats.py:368
 msgid "Relearn"
 msgstr "Reaprendre"
 
@@ -2477,16 +2473,16 @@ msgstr "Reaprendre"
 msgid "Remember last input when adding"
 msgstr "Recordar l'última entrada al afegir"
 
-#: qt/aqt/browser.py:1398
+#: qt/aqt/browser.py:1401
 #, python-format
 msgid "Remove %s from your saved searches?"
 msgstr "¿Eliminar %s de les teves cerques guardades?"
 
-#: qt/aqt/clayout.py:626
+#: qt/aqt/clayout.py:677
 msgid "Remove Card Type..."
 msgstr "Eliminar tipus de targueta..."
 
-#: qt/aqt/browser.py:1372
+#: qt/aqt/browser.py:1375
 msgid "Remove Current Filter..."
 msgstr "Eliminar filtre actual..."
 
@@ -2494,20 +2490,20 @@ msgstr "Eliminar filtre actual..."
 msgid "Remove Tags..."
 msgstr "Eliminar etiquetes..."
 
-#: qt/aqt/editor.py:126
+#: qt/aqt/editor.py:133
 msgid "Remove formatting (Ctrl+R)"
 msgstr "Eliminar format (Ctrl+R)"
 
-#: qt/aqt/deckbrowser.py:236 qt/aqt/deckconf.py:93 qt/aqt/models.py:55
+#: qt/aqt/deckbrowser.py:228 qt/aqt/deckconf.py:93 qt/aqt/models.py:55
 #: qt/aqt/forms/fields.py:104 qt/aqt/forms/profiles.py:82
 msgid "Rename"
 msgstr "Reanomena"
 
-#: qt/aqt/clayout.py:629
+#: qt/aqt/clayout.py:680
 msgid "Rename Card Type..."
 msgstr "Canviar el nom del tipus de targueta..."
 
-#: qt/aqt/deckbrowser.py:251
+#: qt/aqt/deckbrowser.py:243
 msgid "Rename Deck"
 msgstr "Canviar el nom del mall"
 
@@ -2515,23 +2511,23 @@ msgstr "Canviar el nom del mall"
 msgid "Repeat failed cards after"
 msgstr "Repeteix les targuetes fallides després"
 
-#: qt/aqt/main.py:321
+#: qt/aqt/main.py:336
 msgid "Replace your collection with an earlier backup?"
 msgstr "Reemplaçar la teva col·lecció per una còpia de seguretat anterior?"
 
-#: qt/aqt/previewer.py:76 qt/aqt/reviewer.py:714
+#: qt/aqt/previewer.py:76 qt/aqt/reviewer.py:734
 msgid "Replay Audio"
 msgstr "Reprodueix só"
 
-#: qt/aqt/reviewer.py:719
+#: qt/aqt/reviewer.py:739
 msgid "Replay Own Voice"
 msgstr "Reproduir la meva veu"
 
-#: qt/aqt/browser.py:1754 qt/aqt/forms/fields.py:105
+#: qt/aqt/browser.py:1744 qt/aqt/forms/fields.py:105
 msgid "Reposition"
 msgstr "Reposició"
 
-#: qt/aqt/clayout.py:632
+#: qt/aqt/clayout.py:683
 msgid "Reposition Card Type..."
 msgstr "Reposicionar tipus de tarjeta..."
 
@@ -2547,7 +2543,7 @@ msgstr "Reposicionar..."
 msgid "Require one or more of these tags:"
 msgstr "Es requereix una o més d'aquestes etiquetes"
 
-#: qt/aqt/browser.py:1780 qt/aqt/forms/reschedule.py:73
+#: qt/aqt/browser.py:1770 qt/aqt/forms/reschedule.py:73
 msgid "Reschedule"
 msgstr "Torna a planificar"
 
@@ -2555,11 +2551,11 @@ msgstr "Torna a planificar"
 msgid "Reschedule cards based on my answers in this deck"
 msgstr "Reprogramar targetes en funció de les meves respostes en aquest mall"
 
-#: qt/aqt/addons.py:1304
+#: qt/aqt/addons.py:1310
 msgid "Restored defaults"
 msgstr "S'an restaurat la configuració per defecte"
 
-#: qt/aqt/main.py:717
+#: qt/aqt/main.py:734
 msgid "Resume Now"
 msgstr "Continua ara"
 
@@ -2567,28 +2563,28 @@ msgstr "Continua ara"
 msgid "Reverse text direction (RTL)"
 msgstr "Text de dreta a esquerra (RTL)"
 
-#: qt/aqt/main.py:334
+#: qt/aqt/main.py:349
 msgid "Revert to backup"
 msgstr "Revertir a còpia de seguretat"
 
-#: qt/aqt/main.py:1012
+#: qt/aqt/main.py:1034
 #, python-format
 msgid "Reverted to state prior to '%s'."
 msgstr "Reverteix al estat prèvi a '%s'."
 
-#: pylib/anki/collection.py:566 qt/aqt/browser.py:1277
+#: pylib/anki/collection.py:577 qt/aqt/browser.py:1280
 msgid "Review"
 msgstr "Revisa"
 
-#: pylib/anki/stats.py:350
+#: pylib/anki/stats.py:354
 msgid "Review Count"
 msgstr "Número de revisions"
 
-#: pylib/anki/stats.py:376
+#: pylib/anki/stats.py:380
 msgid "Review Time"
 msgstr "Temps de repàs"
 
-#: qt/aqt/forms/customstudy.py:102
+#: qt/aqt/forms/customstudy.py:103
 msgid "Review ahead"
 msgstr "Repasar per adelantat"
 
@@ -2600,15 +2596,15 @@ msgstr "Repasar per adelantat per"
 msgid "Review cards forgotten in last"
 msgstr "Repasar cartes oblidades en el últims"
 
-#: qt/aqt/forms/customstudy.py:103
+#: qt/aqt/forms/customstudy.py:104
 msgid "Review forgotten cards"
 msgstr "Repassar targetes oblidades"
 
-#: pylib/anki/stats.py:785
+#: pylib/anki/stats.py:791
 msgid "Review success rate for each hour of the day."
 msgstr "Percentatge de repassos correctes al llarg del dia."
 
-#: pylib/anki/stats.py:813 qt/aqt/browser.py:741 qt/aqt/forms/dconf.py:361
+#: pylib/anki/stats.py:819 qt/aqt/browser.py:744 qt/aqt/forms/dconf.py:361
 msgid "Reviews"
 msgstr "Repasos"
 
@@ -2621,33 +2617,33 @@ msgstr "Revisions vençudes per sobre del límit d'avui: %s"
 msgid "Right"
 msgstr "A la dreta"
 
-#: qt/aqt/clayout.py:355 qt/aqt/sound.py:549
+#: qt/aqt/clayout.py:399 qt/aqt/sound.py:554
 msgid "Save"
 msgstr "Guardar"
 
-#: qt/aqt/browser.py:1374
+#: qt/aqt/browser.py:1377
 msgid "Save Current Filter..."
 msgstr "Guardar el filtre actual..."
 
-#: qt/aqt/stats.py:42 qt/aqt/stats.py:67 qt/aqt/stats.py:119
-#: qt/aqt/stats.py:150
+#: qt/aqt/stats.py:42 qt/aqt/stats.py:67 qt/aqt/stats.py:114
+#: qt/aqt/stats.py:145
 msgid "Save PDF"
 msgstr "Guardar PDF"
 
-#: qt/aqt/stats.py:80 qt/aqt/stats.py:163
+#: qt/aqt/stats.py:80 qt/aqt/stats.py:158
 msgid "Saved."
 msgstr "Guardat."
 
-#: qt/aqt/forms/preferences.py:298
+#: qt/aqt/forms/preferences.py:299
 msgid "Scheduling"
 msgstr "Planificació"
 
-#: pylib/anki/stats.py:941
+#: pylib/anki/stats.py:947
 #, python-format
 msgid "Scope: %s"
 msgstr "Àmbit: %s"
 
-#: qt/aqt/browser.py:1980 qt/aqt/forms/browser.py:295
+#: qt/aqt/browser.py:1972 qt/aqt/forms/browser.py:295
 #: qt/aqt/forms/dyndconf.py:136 qt/aqt/forms/dyndconf.py:140
 msgid "Search"
 msgstr "Cercar"
@@ -2701,11 +2697,11 @@ msgstr "¿Assignar aquest grup d'opcions a tots els malls sota de %s?"
 msgid "Set for all subdecks"
 msgstr "Assignar a totes les subbaralles"
 
-#: qt/aqt/editor.py:129
+#: qt/aqt/editor.py:136
 msgid "Set foreground colour (F7)"
 msgstr "Establir color de primer plà (F7)"
 
-#: qt/aqt/main.py:112
+#: qt/aqt/main.py:127
 msgid "Shift key was held down. Skipping automatic syncing and add-on loading."
 msgstr "La tecla Majúscula estava pressionada. Saltant sincronització automàtica i càrrega de complements."
 
@@ -2713,37 +2709,33 @@ msgstr "La tecla Majúscula estava pressionada. Saltant sincronització automàt
 msgid "Shift position of existing cards"
 msgstr "Canviar la posició de les targetes existents"
 
-#: qt/aqt/deckbrowser.py:326 qt/aqt/main.py:746 qt/aqt/overview.py:259
-#: qt/aqt/previewer.py:80 qt/aqt/previewer.py:85 qt/aqt/reviewer.py:561
-#: qt/aqt/reviewer.py:574 qt/aqt/reviewer.py:640 qt/aqt/toolbar.py:107
+#: qt/aqt/deckbrowser.py:318 qt/aqt/main.py:763 qt/aqt/overview.py:265
+#: qt/aqt/previewer.py:80 qt/aqt/previewer.py:85 qt/aqt/reviewer.py:570
+#: qt/aqt/reviewer.py:583 qt/aqt/reviewer.py:660 qt/aqt/toolbar.py:107
 #: qt/aqt/toolbar.py:114 qt/aqt/toolbar.py:121 qt/aqt/toolbar.py:128
 #: qt/aqt/toolbar.py:144
 #, python-format
 msgid "Shortcut key: %s"
 msgstr "Tecla de drecera: %s"
 
-#: qt/aqt/previewer.py:238
+#: qt/aqt/previewer.py:241
 msgid "Shortcut key: Left arrow"
 msgstr "Tecla d'accés directe: fletxa esquerra"
 
-#: qt/aqt/previewer.py:243
+#: qt/aqt/previewer.py:246
 msgid "Shortcut key: Right arrow or Enter"
 msgstr "Tecla d'accés directe: fletxa dreta"
 
-#: qt/aqt/addcards.py:86
+#: qt/aqt/addcards.py:87
 #, python-format
 msgid "Shortcut: %s"
 msgstr "Drecera: %s"
 
-#: qt/aqt/reviewer.py:575
+#: qt/aqt/reviewer.py:584
 msgid "Show Answer"
 msgstr "Mostra la resposta"
 
-#: qt/aqt/previewer.py:83
-msgid "Show Both Sides"
-msgstr "Mostrar ambdós cares"
-
-#: qt/aqt/editor.py:193
+#: qt/aqt/editor.py:200
 msgid "Show Duplicates"
 msgstr "Mostra duplicats"
 
@@ -2751,7 +2743,7 @@ msgstr "Mostra duplicats"
 msgid "Show answer timer"
 msgstr "Mostrar temporitzador de resposta"
 
-#: qt/aqt/forms/preferences.py:290
+#: qt/aqt/forms/preferences.py:291
 msgid "Show learning cards with larger steps before reviews"
 msgstr "Mostrar les targuetes en aprenentatge amb esglaons més grans abans dels repassos"
 
@@ -2771,19 +2763,19 @@ msgstr "Mostra les targetes noves pel ordre en que s'han afegit"
 msgid "Show new cards in random order"
 msgstr "Mostra les targetes noves desendreçades"
 
-#: qt/aqt/forms/preferences.py:288
+#: qt/aqt/forms/preferences.py:289
 msgid "Show next review time above answer buttons"
 msgstr "Mostra interval de proper repàs sobre dels botons de resposta"
 
-#: qt/aqt/forms/preferences.py:278
+#: qt/aqt/forms/preferences.py:279
 msgid "Show play buttons on cards with audio"
 msgstr "Mostrar botons de reproducció en tarjetes amb audio"
 
-#: qt/aqt/forms/preferences.py:289
+#: qt/aqt/forms/preferences.py:290
 msgid "Show remaining card count during review"
 msgstr "Mostra el nombre de targetes restants durant el repàs"
 
-#: qt/aqt/browser.py:1053 qt/aqt/forms/browser.py:337
+#: qt/aqt/browser.py:1056 qt/aqt/forms/browser.py:337
 msgid "Sidebar"
 msgstr "Barra lateral"
 
@@ -2795,15 +2787,11 @@ msgstr "Mida:"
 msgid "Skipped"
 msgstr "Omès"
 
-#: pylib/anki/schedv2.py:1337
-msgid "Some related or buried cards were delayed until a later session."
-msgstr "Algunes targetes relacionades o enterrades van ser ajornades a una sessió posterior."
-
 #: qt/aqt/forms/preferences.py:311
 msgid "Some settings will take effect after you restart Anki."
 msgstr "Alguna configuració no tindrà efecte fins a reiniciar l'Anki."
 
-#: qt/aqt/browser.py:734
+#: qt/aqt/browser.py:737
 msgid "Sort Field"
 msgstr "Camp ordenat"
 
@@ -2811,7 +2799,7 @@ msgstr "Camp ordenat"
 msgid "Sort by this field in the browser"
 msgstr "Ordenar segons aquest camp al navegador"
 
-#: qt/aqt/browser.py:929
+#: qt/aqt/browser.py:932
 msgid "Sorting on this column is not supported. Please choose another."
 msgstr "No és possible canviar l'ordre en aquesta columna. Si us plau, tria una altra."
 
@@ -2819,7 +2807,7 @@ msgstr "No és possible canviar l'ordre en aquesta columna. Si us plau, tria una
 msgid "Sound and video on cards will not function until mpv or mplayer is installed."
 msgstr "El só i vídeo a les targetes no funcionarà fins que mpv o mplayer siguin instal·lats."
 
-#: qt/aqt/importing.py:170 qt/aqt/reviewer.py:574
+#: qt/aqt/importing.py:170 qt/aqt/reviewer.py:583
 msgid "Space"
 msgstr "Espai"
 
@@ -2851,7 +2839,7 @@ msgstr "Pasos (en minuts)"
 msgid "Steps must be numbers."
 msgstr "Els pasos han de ser números."
 
-#: qt/aqt/browser.py:1263
+#: qt/aqt/browser.py:1266
 msgid "Studied Today"
 msgstr "Estudiades avui."
 
@@ -2863,19 +2851,19 @@ msgstr "Estudiar"
 msgid "Study Deck"
 msgstr "Estudiar mall"
 
-#: qt/aqt/forms/main.py:151
+#: qt/aqt/forms/main.py:152
 msgid "Study Deck..."
 msgstr "Estudiar mall..."
 
-#: qt/aqt/overview.py:229
+#: qt/aqt/overview.py:235
 msgid "Study Now"
 msgstr "Estudiar ara"
 
-#: qt/aqt/forms/customstudy.py:106
+#: qt/aqt/forms/customstudy.py:107
 msgid "Study by card state or tag"
 msgstr "Estudiar segons estat o etiqueta de la targeta"
 
-#: qt/aqt/editor.py:125
+#: qt/aqt/editor.py:132
 msgid "Subscript (Ctrl+=)"
 msgstr "Subíndex (Ctrl+=)"
 
@@ -2883,27 +2871,27 @@ msgstr "Subíndex (Ctrl+=)"
 msgid "Supermemo XML export (*.xml)"
 msgstr "Exporta a Supermemo XML (*.xml)"
 
-#: qt/aqt/editor.py:123
+#: qt/aqt/editor.py:130
 msgid "Superscript (Ctrl++)"
 msgstr "Superíndex (Ctrl++)"
 
-#: qt/aqt/reviewer.py:776 qt/aqt/reviewer.py:782
+#: qt/aqt/reviewer.py:796 qt/aqt/reviewer.py:802
 msgid "Suspend"
 msgstr "Suspèn"
 
-#: qt/aqt/reviewer.py:709 qt/aqt/forms/dconf.py:369
+#: qt/aqt/reviewer.py:729 qt/aqt/forms/dconf.py:369
 msgid "Suspend Card"
 msgstr "Suspendre targeta"
 
-#: qt/aqt/reviewer.py:710
+#: qt/aqt/reviewer.py:730
 msgid "Suspend Note"
 msgstr "Suspendre nota"
 
-#: qt/aqt/browser.py:1280
+#: qt/aqt/browser.py:1283
 msgid "Suspended"
 msgstr "Suspès"
 
-#: pylib/anki/stats.py:855
+#: pylib/anki/stats.py:861
 msgid "Suspended+Buried"
 msgstr "Suspesa+Enterrada"
 
@@ -2911,7 +2899,7 @@ msgstr "Suspesa+Enterrada"
 msgid "Sync"
 msgstr "Sincronitzar"
 
-#: qt/aqt/forms/preferences.py:300
+#: qt/aqt/forms/preferences.py:301
 msgid "Synchronize audio and images too"
 msgstr "Sincronitzar també els sons i les imatges"
 
@@ -2919,7 +2907,7 @@ msgstr "Sincronitzar també els sons i les imatges"
 msgid "Tab"
 msgstr "Tabulació"
 
-#: qt/aqt/browser.py:1989 qt/aqt/browser.py:2016
+#: qt/aqt/browser.py:1981 qt/aqt/browser.py:2008
 msgid "Tag Duplicates"
 msgstr "Etiquetar duplicats"
 
@@ -2931,7 +2919,7 @@ msgstr "Només etiquetar"
 msgid "Tag modified notes:"
 msgstr "Etiqueta les notes modificades:"
 
-#: qt/aqt/browser.py:743 qt/aqt/browser.py:1295 qt/aqt/editor.py:561
+#: qt/aqt/browser.py:746 qt/aqt/browser.py:1298 qt/aqt/editor.py:567
 msgid "Tags"
 msgstr "Etiquetes"
 
@@ -2955,11 +2943,11 @@ msgstr "Aquest nom de camp ja està en ús."
 msgid "The default configuration can't be removed."
 msgstr "La configuració per defecte no pot ser eliminada."
 
-#: pylib/anki/stats.py:880
+#: pylib/anki/stats.py:886
 msgid "The division of cards in your deck(s)."
 msgstr "El desglossament de les targetes en el teves baralles."
 
-#: qt/aqt/addcards.py:163
+#: qt/aqt/addcards.py:164
 msgid "The first field is empty."
 msgstr "El primer camp està buit."
 
@@ -2972,7 +2960,7 @@ msgstr "El primer camp del tipus de nota ha de ser assignat a alguna cosa."
 msgid "The following add-ons are incompatible with %(name)s and have been disabled: %(found)s"
 msgstr "Els següents complements són incompatibles %(name)s i s'han desactivat: %(found)s"
 
-#: qt/aqt/addons.py:1264
+#: qt/aqt/addons.py:1268
 msgid "The following add-ons have updates available. Install them now?"
 msgstr "Els següents complements tenen actualitzacions disponibles. Instal·lar-les ara?"
 
@@ -2985,19 +2973,19 @@ msgstr "No es pot fer servir el següent caràcter: %s"
 msgid "The following conflicting add-ons were disabled:"
 msgstr "Els següents complements son incompatibles i s'han desactivat:"
 
-#: pylib/anki/stats.py:305
+#: pylib/anki/stats.py:309
 msgid "The number of new cards you have added."
 msgstr "El nombre de targetes noves que has afegit."
 
-#: pylib/anki/stats.py:350
+#: pylib/anki/stats.py:354
 msgid "The number of questions you have answered."
 msgstr "El nombre de preguntes que has respost."
 
-#: pylib/anki/stats.py:226
+#: pylib/anki/stats.py:228
 msgid "The number of reviews due in the future."
 msgstr "El nombre de repassos programats en el futur."
 
-#: pylib/anki/stats.py:675
+#: pylib/anki/stats.py:681
 msgid "The number of times you have pressed each button."
 msgstr "El nombre de vegades que has pressionat cada botó."
 
@@ -3009,27 +2997,15 @@ msgstr "L'arxiu proporcionat no és un arxiu .apkg valgut."
 msgid "The provided search did not match any cards. Would you like to revise it?"
 msgstr "La cerca sol·licitada no retorna cap targeta. Voleu revisar-la?"
 
-#: qt/aqt/main.py:1319 qt/aqt/main.py:1338
+#: qt/aqt/main.py:1341 qt/aqt/main.py:1360
 msgid "The requested change will require a full upload of the database when you next synchronize your collection. If you have reviews or other changes waiting on another device that haven't been synchronized here yet, they will be lost. Continue?"
 msgstr "El canvi sol·licitat farà necessària una pujada completa de la base de dades la propera vegada que sincronices la teva col·lecció. Si tens repassos o altres canvis pendents en un altre dispositiu que no hagin estat sincronitzats encara, es perdran. Voleu continuar?"
 
-#: pylib/anki/stats.py:376
+#: pylib/anki/stats.py:380
 msgid "The time taken to answer the questions."
 msgstr "El temps que has trigat a respondre a les preguntes."
 
-#: pylib/anki/schedv2.py:1323
-msgid ""
-"There are more new cards available, but the daily limit has been\n"
-"reached. You can increase the limit in the options, but please\n"
-"bear in mind that the more new cards you introduce, the higher\n"
-"your short-term review workload will become."
-msgstr ""
-"Hi ha més targetes noves disponibles, però has arribat al límit\n"
-"diari. Pots augmentar el límit en les opcions, però vés\n"
-"en compte que com més targetes noves introdueixis, més\n"
-"augmentarà la teva càrrega de treball a curt termini."
-
-#: qt/aqt/main.py:303
+#: qt/aqt/main.py:318
 msgid "There must be at least one profile."
 msgstr "Deu haver-hi almenys un perfil."
 
@@ -3045,11 +3021,11 @@ msgstr "Aquest fitxer no sembla ser un arxiu .apkg vàlid. Si estàs obtenint aq
 msgid "This file exists. Are you sure you want to overwrite it?"
 msgstr "Aquest fitxer ja existeix. Esteu segur que el voleu sobreescriure?"
 
-#: qt/aqt/overview.py:181
+#: qt/aqt/overview.py:188
 msgid "This is a special deck for studying outside of the normal schedule."
 msgstr "Aquest és un mall especial per estudiar fora de l'horari normal."
 
-#: qt/aqt/clayout.py:579
+#: qt/aqt/clayout.py:630
 #, python-format
 msgid "This will create %d card. Proceed?"
 msgid_plural "This will create %d cards. Proceed?"
@@ -3064,11 +3040,11 @@ msgstr "Això eliminarà la teva col·lecció actual i la reemplaçarà amb les 
 msgid "This will reset any cards in learning, clear filtered decks, and change the scheduler version. Proceed?"
 msgstr "Aixó resetarà qualsevol carta en aprenentatge, buidarà malls filtrats, i canviarà la versió del planificador. Vols porcedir?"
 
-#: qt/aqt/forms/preferences.py:293
+#: qt/aqt/forms/preferences.py:294
 msgid "Timebox time limit"
 msgstr "Límit de sessió d'estudi"
 
-#: qt/aqt/overview.py:227
+#: qt/aqt/overview.py:233
 msgid "To Review"
 msgstr "Per repasar"
 
@@ -3076,31 +3052,13 @@ msgstr "Per repasar"
 msgid "To browse add-ons, please click the browse button below.<br><br>When you've found an add-on you like, please paste its code below. You can paste multiple codes, separated by spaces."
 msgstr "Per explorar extensions, sisplau fes clic al butó més abaix. <br><br>Quan haguis trobat una extensió que t'interesi, engantza el codi aqui abaix. Pots engantzar varis codis, separats per un espai."
 
-#: qt/aqt/editor.py:636
+#: qt/aqt/editor.py:642
 msgid "To make a cloze deletion on an existing note, you need to change it to a cloze type first, via 'Notes>Change Note Type'"
 msgstr "Per crear respostes anidades en una nota existent, primer ha de canviar a un tipus de nota de preguntes anidades, mitjançant 'Edita> Canvia el tipus de nota'."
 
-#: pylib/anki/schedv2.py:1332
-msgid "To see them now, click the Unbury button below."
-msgstr "Per veure-les ara, prem el botó Desenterrar abaix."
-
-#: pylib/anki/schedv2.py:1345
-msgid "To study outside of the normal schedule, click the Custom Study button below."
-msgstr "Per estudiar fora de l'horari normal, fes clic al botó inferior d'Estudi personalitzat"
-
-#: pylib/anki/stats.py:119 qt/aqt/browser.py:1258
+#: pylib/anki/stats.py:119 qt/aqt/browser.py:1261
 msgid "Today"
 msgstr "Avui"
-
-#: pylib/anki/schedv2.py:1314
-msgid ""
-"Today's review limit has been reached, but there are still cards\n"
-"waiting to be reviewed. For optimum memory, consider increasing\n"
-"the daily limit in the options."
-msgstr ""
-"Has arribat al límit actual de repassos, però encara hi ha targetes\n"
-"a l'espera de ser repassades. Per a una memorització òptima, considera\n"
-"augmentar el límit diari en les opcions."
 
 #: qt/aqt/forms/addons.py:76
 msgid "Toggle Enabled"
@@ -3114,19 +3072,19 @@ msgstr "Commuta Marcar"
 msgid "Toggle Suspend"
 msgstr "Commuta Suspendre"
 
-#: pylib/anki/stats.py:246 pylib/anki/stats.py:314 pylib/anki/stats.py:414
+#: pylib/anki/stats.py:249 pylib/anki/stats.py:318 pylib/anki/stats.py:418
 msgid "Total"
 msgstr "Total"
 
-#: pylib/anki/stats.py:867
+#: pylib/anki/stats.py:873
 msgid "Total cards"
 msgstr "Número total de targetes"
 
-#: pylib/anki/stats.py:868
+#: pylib/anki/stats.py:874
 msgid "Total notes"
 msgstr "Notes totals"
 
-#: qt/aqt/forms/findreplace.py:87
+#: qt/aqt/forms/findreplace.py:90
 msgid "Treat input as regular expression"
 msgstr "Tracta l'entrada com una expressió regular"
 
@@ -3134,7 +3092,7 @@ msgstr "Tracta l'entrada com una expressió regular"
 msgid "Type"
 msgstr "Tipus"
 
-#: qt/aqt/reviewer.py:379
+#: qt/aqt/reviewer.py:388
 #, python-format
 msgid "Type answer: unknown field %s"
 msgstr "Escriure resposta: camp desconegut %s"
@@ -3143,7 +3101,7 @@ msgstr "Escriure resposta: camp desconegut %s"
 msgid "Unable to access Anki media folder. The permissions on your system's temporary folder may be incorrect."
 msgstr "No s'ha pogut accedir al directori de Anki media. Els permisos del teu sistema de directori temporals porden estar incorrectes."
 
-#: qt/aqt/main.py:347
+#: qt/aqt/main.py:362
 msgid "Unable to move existing file to trash - please try restarting your computer."
 msgstr "No s'ha pogut moure l'arxiu existent a la paparera, sisplau intenta reiniciar el seu ordinador."
 
@@ -3158,24 +3116,24 @@ msgstr ""
 "\n"
 "Informació de depuració: %s"
 
-#: qt/aqt/overview.py:255
+#: qt/aqt/overview.py:261
 msgid "Unbury"
 msgstr "Desenterrar"
 
-#: qt/aqt/editor.py:120
+#: qt/aqt/editor.py:127
 msgid "Underline text (Ctrl+U)"
 msgstr "Subrallar text (Ctrl+U)"
 
-#: qt/aqt/main.py:1022
+#: qt/aqt/main.py:1044
 msgid "Undo"
 msgstr "Desfer"
 
-#: qt/aqt/main.py:1018
+#: qt/aqt/main.py:1040
 #, python-format
 msgid "Undo %s"
 msgstr "Desfés %s"
 
-#: qt/aqt/addons.py:1010 qt/aqt/editor.py:835
+#: qt/aqt/addons.py:1014 qt/aqt/editor.py:841
 #, python-format
 msgid "Unexpected response code: %s"
 msgstr "Codi de resposta inesperada: %s"
@@ -3188,7 +3146,7 @@ msgstr "Error desconegut: {}"
 msgid "Unknown file format."
 msgstr "Format de fitxer desconegut."
 
-#: pylib/anki/stats.py:854
+#: pylib/anki/stats.py:860
 msgid "Unseen"
 msgstr "No vistes"
 
@@ -3200,11 +3158,11 @@ msgstr "Actualitzar les targetes existents quan el primer camp coincideixi"
 msgid "Updated"
 msgstr "Actualitzat"
 
-#: qt/aqt/profiles.py:476
+#: qt/aqt/profiles.py:479
 msgid "User 1"
 msgstr "Usuari 1"
 
-#: qt/aqt/forms/preferences.py:285
+#: qt/aqt/forms/preferences.py:286
 msgid "User interface size"
 msgstr "Mida de l'interfase d'usuari"
 
@@ -3221,23 +3179,23 @@ msgstr "Visitar pàguina de la extensió"
 msgid "View Files"
 msgstr "Visualitza fitxers"
 
-#: qt/aqt/main.py:716
+#: qt/aqt/main.py:733
 msgid "Waiting for editing to finish."
 msgstr "Esperant que finalitzis l'edició."
 
-#: qt/aqt/editor.py:629
+#: qt/aqt/editor.py:635
 msgid "Warning, cloze deletions will not work until you switch the type at the top to Cloze."
 msgstr "En compte, els blancs per omplir no funcionaran tret que canviïs el tipus de nota a Blancs per omlir."
 
-#: qt/aqt/overview.py:138
+#: qt/aqt/overview.py:137
 msgid "What would you like to unbury?"
 msgstr "Què desitgues desenterrar?"
 
-#: qt/aqt/forms/preferences.py:283
+#: qt/aqt/forms/preferences.py:284
 msgid "When adding, default to current deck"
 msgstr "En afegir, fer-ho al mall actual per defecte"
 
-#: qt/aqt/browser.py:1121 qt/aqt/browser.py:1254
+#: qt/aqt/browser.py:1124 qt/aqt/browser.py:1257
 msgid "Whole Collection"
 msgstr "Col·lecció sencera"
 
@@ -3245,7 +3203,7 @@ msgstr "Col·lecció sencera"
 msgid "Would you like to download it now?"
 msgstr "Voleu baixar-ho ara?"
 
-#: qt/aqt/about.py:212
+#: qt/aqt/about.py:214
 #, python-format
 msgid "Written by Damien Elmes, with patches, translation,    testing and design from:<p>%(cont)s"
 msgstr "Escrit per Damien Elmes, amb pegats, traduccions, diseny i proves de: <p>%(cont)s"
@@ -3254,24 +3212,24 @@ msgstr "Escrit per Damien Elmes, amb pegats, traduccions, diseny i proves de: <p
 msgid "You can restore backups via File>Switch Profile."
 msgstr "Pot restaurar còpies de seguretat amb  Arxiu->Cambiar de perfil."
 
-#: qt/aqt/addcards.py:172
+#: qt/aqt/addcards.py:173
 msgid "You have a cloze deletion note type but have not made any cloze deletions. Proceed?"
 msgstr "Tens un tipus de nota de Blancs per omplir però no has inserit cap blanc. Vols continuar?"
 
-#: qt/aqt/reviewer.py:821
+#: qt/aqt/reviewer.py:841
 msgid "You haven't recorded your voice yet."
 msgstr "Encara no has gravat la teva veu."
 
-#: qt/aqt/browser.py:984
+#: qt/aqt/browser.py:987
 msgid "You must have at least one column."
 msgstr "Hi ha d'haver almenys una columna."
 
-#: pylib/anki/stats.py:212 pylib/anki/stats.py:343 pylib/anki/stats.py:363
-#: pylib/anki/stats.py:681
+#: pylib/anki/stats.py:214 pylib/anki/stats.py:347 pylib/anki/stats.py:367
+#: pylib/anki/stats.py:687
 msgid "Young"
 msgstr "Jove"
 
-#: pylib/anki/stats.py:853
+#: pylib/anki/stats.py:859
 msgid "Young+Learn"
 msgstr "Joves+Aprenent"
 
@@ -3279,7 +3237,7 @@ msgstr "Joves+Aprenent"
 msgid "Your changes will affect multiple decks. If you wish to change only the current deck, please add a new options group first."
 msgstr "Els teus canvis afectaran a diversos malls. Si vols canviar únicament el mall actual, afegeix primer un nou grup d'opcions."
 
-#: qt/aqt/main.py:561
+#: qt/aqt/main.py:576
 msgid "Your collection file appears to be corrupt. This can happen when the file is copied or moved while Anki is open, or when the collection is stored on a network or cloud drive. If problems persist after restarting your computer, please open an automatic backup from the profile screen."
 msgstr "Sembla que la teva col·lecció està corrupte. Aixó pot succeir quan l'arxiu és copiat o mogut mentre l'Anki està obert, o bé quan la col·lecció es emmegantzemada en un disc dur en línia o al núvol. Si els errors persisteixen després de reiniciar l'ordinador, sisplau obre una còpia de seguretat des del gestor de perfils."
 
@@ -3291,7 +3249,7 @@ msgstr "És possible que el emmegatzematge del seu equip estigui ple. Elimini el
 msgid "Your firewall or antivirus program is preventing Anki from creating a connection to itself. Please add an exception for Anki."
 msgstr "El teu tallafocs o antivirus esta impedint que Anki es conecti amb ell mateix. Sisplau, afegueix una excepció per a l'Anki."
 
-#: pylib/anki/decks.py:360
+#: pylib/anki/decks.py:382
 msgid "[no deck]"
 msgstr "[sense mall]"
 
@@ -3299,7 +3257,7 @@ msgstr "[sense mall]"
 msgid "backups"
 msgstr "còpies de seguretat"
 
-#: pylib/anki/stats.py:315 qt/aqt/customstudy.py:53
+#: pylib/anki/stats.py:319 qt/aqt/customstudy.py:53
 msgid "cards"
 msgstr "targetes"
 
@@ -3316,7 +3274,7 @@ msgid "collection"
 msgstr "col·lecció"
 
 #. T: abbreviation of day
-#: pylib/anki/stats.py:976
+#: pylib/anki/stats.py:982
 msgid "d"
 msgstr "d"
 
@@ -3331,19 +3289,19 @@ msgstr "dies"
 msgid "deck"
 msgstr "mall"
 
-#: pylib/anki/stats.py:943 qt/aqt/forms/stats.py:84
+#: pylib/anki/stats.py:949 qt/aqt/forms/stats.py:84
 msgid "deck life"
 msgstr "vida del mall"
 
-#: qt/aqt/browser.py:2020
+#: qt/aqt/browser.py:2012
 msgid "duplicate"
 msgstr "duplicat"
 
-#: pylib/anki/stats.py:409
+#: pylib/anki/stats.py:413
 msgid "hours"
 msgstr "hores"
 
-#: qt/aqt/forms/preferences.py:294
+#: qt/aqt/forms/preferences.py:295
 msgid "hours past midnight"
 msgstr "hores passada la mitjanit"
 
@@ -3360,20 +3318,20 @@ msgstr "mapejat a <b>%s</b>"
 msgid "mapped to <b>Tags</b>"
 msgstr "mapejat a <b>Etiquetes</b>"
 
-#: qt/aqt/forms/preferences.py:292 qt/aqt/forms/preferences.py:296
+#: qt/aqt/forms/preferences.py:293 qt/aqt/forms/preferences.py:297
 msgid "mins"
 msgstr "mins."
 
-#: pylib/anki/stats.py:380 qt/aqt/forms/dyndconf.py:146
+#: pylib/anki/stats.py:384 qt/aqt/forms/dyndconf.py:146
 msgid "minutes"
 msgstr "minuts"
 
 #. T: abbreviation of month
-#: pylib/anki/stats.py:980
+#: pylib/anki/stats.py:986
 msgid "mo"
 msgstr "mes"
 
-#: pylib/anki/stats.py:248 pylib/anki/stats.py:356
+#: pylib/anki/stats.py:252 pylib/anki/stats.py:360
 msgid "reviews"
 msgstr "repassos"
 
@@ -3381,22 +3339,60 @@ msgstr "repassos"
 msgid "seconds"
 msgstr "segons"
 
-#: qt/aqt/stats.py:64 qt/aqt/stats.py:147
+#: qt/aqt/stats.py:64 qt/aqt/stats.py:142
 msgid "stats"
 msgstr "estadístiques"
 
 #. T: abbreviation of week
-#: pylib/anki/stats.py:978
+#: pylib/anki/stats.py:984
 msgid "w"
 msgstr "w"
 
-#: pylib/anki/stats.py:938
+#: pylib/anki/stats.py:944
 msgid "whole collection"
 msgstr "tota la col·lecció"
 
 #: qt/aqt/forms/reschedule.py:76
 msgid "~"
 msgstr "~"
+
+#~ msgid "Congratulations! You have finished this deck for now."
+#~ msgstr "Enhorabona! De moment heu acabat amb aquest paquet."
+
+#~ msgid "Deauthorize"
+#~ msgstr "Desautoritza"
+
+#~ msgid "Show Both Sides"
+#~ msgstr "Mostrar ambdós cares"
+
+#~ msgid "Some related or buried cards were delayed until a later session."
+#~ msgstr "Algunes targetes relacionades o enterrades van ser ajornades a una sessió posterior."
+
+#~ msgid ""
+#~ "There are more new cards available, but the daily limit has been\n"
+#~ "reached. You can increase the limit in the options, but please\n"
+#~ "bear in mind that the more new cards you introduce, the higher\n"
+#~ "your short-term review workload will become."
+#~ msgstr ""
+#~ "Hi ha més targetes noves disponibles, però has arribat al límit\n"
+#~ "diari. Pots augmentar el límit en les opcions, però vés\n"
+#~ "en compte que com més targetes noves introdueixis, més\n"
+#~ "augmentarà la teva càrrega de treball a curt termini."
+
+#~ msgid "To see them now, click the Unbury button below."
+#~ msgstr "Per veure-les ara, prem el botó Desenterrar abaix."
+
+#~ msgid "To study outside of the normal schedule, click the Custom Study button below."
+#~ msgstr "Per estudiar fora de l'horari normal, fes clic al botó inferior d'Estudi personalitzat"
+
+#~ msgid ""
+#~ "Today's review limit has been reached, but there are still cards\n"
+#~ "waiting to be reviewed. For optimum memory, consider increasing\n"
+#~ "the daily limit in the options."
+#~ msgstr ""
+#~ "Has arribat al límit actual de repassos, però encara hi ha targetes\n"
+#~ "a l'espera de ser repassades. Per a una memorització òptima, considera\n"
+#~ "augmentar el límit diari en les opcions."
 
 #~ msgid "Shortcut key: Left or Right arrow"
 #~ msgstr "Tecla d'accés directe: fletxa esquerra odreta"
