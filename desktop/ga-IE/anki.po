@@ -1,10 +1,10 @@
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: anki\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-21 12:06+1000\n"
-"PO-Revision-Date: 2020-09-17 19:58+0000\n"
+"PO-Revision-Date: 2020-09-23 10:57+0000\n"
 "Last-Translator: josephmcg <josephmcginley@gmail.com>\n"
 "Language-Team: Irish\n"
 "Language: ga_IE\n"
@@ -52,9 +52,7 @@ msgstr[4] "Tá %d cárta aige."
 msgid "\"Segoe UI\""
 msgstr "\"Segoe UI\""
 
-#: qt/aqt/forms/dconf.py:341 qt/aqt/forms/dconf.py:352
-#: qt/aqt/forms/dconf.py:357 qt/aqt/forms/dconf.py:360
-#: qt/aqt/forms/dconf.py:371 qt/aqt/forms/preferences.py:287
+#: qt/aqt/forms/dconf.py:341 qt/aqt/forms/dconf.py:352 qt/aqt/forms/dconf.py:357 qt/aqt/forms/dconf.py:360 qt/aqt/forms/dconf.py:371 qt/aqt/forms/preferences.py:287
 msgid "%"
 msgstr "%"
 
@@ -139,8 +137,7 @@ msgstr[2] "%d ghrúpa"
 msgstr[3] "%d ngrúpa"
 msgstr[4] "%d grúpa"
 
-#: qt/aqt/browser.py:1988 qt/aqt/browser.py:1996 qt/aqt/fields.py:123
-#: qt/aqt/models.py:107
+#: qt/aqt/browser.py:1988 qt/aqt/browser.py:1996 qt/aqt/fields.py:123 qt/aqt/models.py:107
 #, python-format
 msgid "%d note"
 msgid_plural "%d notes"
@@ -470,8 +467,12 @@ msgstr "<b>Cló</b>:"
 
 #: qt/aqt/addons.py:1410
 #, python-format
-msgid "<b>Important</b>: As add-ons are programs downloaded from the internet, they are potentially malicious.<b>You should only install add-ons you trust.</b><br><br>Are you sure you want to proceed with the installation of the following Anki add-on(s)?<br><br>%(names)s"
-msgstr "<b>Tabhair Aire</b>: Os rud é go dtagann breiseáin ón idirlín, tá riosca ann go mbeadh siad mailíseach. <b>Ná suiteáil ach breiseáin atá muinín agat iontu.</b><br><br>An bhfuil tú cinnte gur mhaith leat leanadh ar aghaidh le suiteáil an bhreiseáin (/ na mbreiseáin) seo?<br><br>%(names)s"
+msgid ""
+"<b>Important</b>: As add-ons are programs downloaded from the internet, they are potentially malicious.<b>You should only install add-ons you trust.</b><br><br>Are you sure you want to proceed with "
+"the installation of the following Anki add-on(s)?<br><br>%(names)s"
+msgstr ""
+"<b>Tabhair Aire</b>: Os rud é go dtagann breiseáin ón idirlín, tá riosca ann go mbeadh siad mailíseach. <b>Ná suiteáil ach breiseáin atá muinín agat iontu.</b><br><br>An bhfuil tú cinnte gur mhaith "
+"leat leanadh ar aghaidh le suiteáil an bhreiseáin (/ na mbreiseáin) seo?<br><br>%(names)s"
 
 #: qt/aqt/forms/findreplace.py:89
 msgid "<b>In</b>:"
@@ -539,9 +540,7 @@ msgstr "Tobscortha: %s"
 msgid "About Anki"
 msgstr "Maidir le Anki"
 
-#: qt/aqt/addcards.py:38 qt/aqt/addcards.py:68 qt/aqt/deckconf.py:89
-#: qt/aqt/models.py:54 qt/aqt/studydeck.py:46 qt/aqt/toolbar.py:112
-#: qt/aqt/forms/addcards.py:58 qt/aqt/forms/fields.py:102
+#: qt/aqt/addcards.py:38 qt/aqt/addcards.py:68 qt/aqt/deckconf.py:89 qt/aqt/models.py:54 qt/aqt/studydeck.py:46 qt/aqt/toolbar.py:112 qt/aqt/forms/addcards.py:58 qt/aqt/forms/fields.py:102
 #: qt/aqt/forms/profiles.py:81
 msgid "Add"
 msgstr "Cuir Leis"
@@ -611,8 +610,7 @@ msgstr "Breiseáin"
 msgid "Add: %s"
 msgstr "Cur leis: %s"
 
-#: pylib/anki/stats.py:309 pylib/anki/importing/anki2.py:166
-#: qt/aqt/addcards.py:193
+#: pylib/anki/stats.py:309 pylib/anki/importing/anki2.py:166 qt/aqt/addcards.py:193
 msgid "Added"
 msgstr "Curtha leis"
 
@@ -679,8 +677,7 @@ msgstr "Cas an cheist i gcónaí nuair a athsheinntear fuaim."
 msgid "An error occurred while opening %s"
 msgstr "Bhí fadhb nuair a osclaíodh %s"
 
-#: qt/aqt/forms/main.py:132 qt/aqt/forms/setgroup.py:38
-#: qt/aqt/forms/setlang.py:39
+#: qt/aqt/forms/main.py:132 qt/aqt/forms/setgroup.py:38 qt/aqt/forms/setlang.py:39
 msgid "Anki"
 msgstr "Anki"
 
@@ -705,8 +702,12 @@ msgid "Anki could not read your profile data. Window sizes and your sync login d
 msgstr "Níor éirigh le Anki sonraí do phróifíl a léamh. Tá méid na bhfuinneog agus do chuid dintiúir dearmadta."
 
 #: qt/aqt/profiles.py:326
-msgid "Anki could not rename your profile because it could not rename the profile folder on disk. Please ensure you have permission to write to Documents/Anki and no other programs are accessing your profile folders, then try again."
-msgstr "Níor éirigh le Anki an phróifíl a aithainmniú, de bharr nárbh fhéidir an fillteán a aithainmniú. Déan cinnte go bufuil cead scríobha comhaid agat ar Documents/Anki agus nach bhfuil bogearra ar bith eile ag úsáíd do chuid fillteáin phróifíle.  Ansin bain trial eile as."
+msgid ""
+"Anki could not rename your profile because it could not rename the profile folder on disk. Please ensure you have permission to write to Documents/Anki and no other programs are accessing your "
+"profile folders, then try again."
+msgstr ""
+"Níor éirigh le Anki an phróifíl a aithainmniú, de bharr nárbh fhéidir an fillteán a aithainmniú. Déan cinnte go bufuil cead scríobha comhaid agat ar Documents/Anki agus nach bhfuil bogearra ar bith "
+"eile ag úsáíd do chuid fillteáin phróifíle.  Ansin bain trial eile as."
 
 #: qt/aqt/clayout.py:659
 msgid "Anki couldn't find the line between the question and answer. Please adjust the template manually to switch the question and answer."
@@ -804,7 +805,7 @@ msgstr "Meáneatramh"
 
 #: qt/aqt/previewer.py:83
 msgid "Back Side Only"
-msgstr ""
+msgstr "Taobh Thiar Amháin"
 
 #: qt/aqt/main.py:556
 msgid "Backing Up..."
@@ -824,7 +825,7 @@ msgstr "Bratach ghorm"
 
 #: qt/aqt/editor.py:122
 msgid "Bold text (Ctrl+B)"
-msgstr "Téacs trom (Ctrl+B)"
+msgstr "Téacs trom (Ctrl+T)"
 
 #: qt/aqt/toolbar.py:119
 msgid "Browse"
@@ -893,7 +894,9 @@ msgid ""
 "By default, Anki will detect the character between fields, such as\n"
 "a tab, comma, and so on. If Anki is detecting the character incorrectly,\n"
 "you can enter it here. Use \\t to represent tab."
-msgstr "De réir réamhshocraithe, braithfidh Anki an carachtar idir réimsí (táb nó camóg, cuir i gcás).  Má bhraitheann Anki an carachtar mícheart, is féidir é a chuir isteach anseo.  Úsáid \\t chun táb a chur isteach."
+msgstr ""
+"De réir réamhshocraithe, braithfidh Anki an carachtar idir réimsí (táb nó camóg, cuir i gcás).  Má bhraitheann Anki an carachtar mícheart, is féidir é a chuir isteach anseo.  Úsáid \\t chun táb a "
+"chur isteach."
 
 #: qt/aqt/clayout.py:405 qt/aqt/overview.py:134 qt/aqt/sound.py:557
 msgid "Cancel"
@@ -937,8 +940,7 @@ msgstr "Cárta ar fionraí."
 msgid "Card was a leech."
 msgstr "Súmaire arbh é an chárta."
 
-#: pylib/anki/stats.py:310 pylib/anki/stats.py:962 qt/aqt/editor.py:192
-#: qt/aqt/forms/changemodel.py:112
+#: pylib/anki/stats.py:310 pylib/anki/stats.py:962 qt/aqt/editor.py:192 qt/aqt/forms/changemodel.py:112
 msgid "Cards"
 msgstr "Cártaí"
 
@@ -1071,7 +1073,7 @@ msgstr "Iomlánú %d"
 
 #: qt/aqt/editor.py:170
 msgid "Cloze deletion (Ctrl+Shift+C)"
-msgstr "Sliocht Iomlánaithe (Ctrl+Shift+C)"
+msgstr "Sliocht Iomlánaithe (Ctrl+Shift+I)"
 
 #: qt/aqt/forms/getaddons.py:50
 msgid "Code:"
@@ -1207,7 +1209,7 @@ msgstr "Céimeanna saincheaptha (nóiméid)"
 
 #: qt/aqt/editor.py:195
 msgid "Customize Card Templates (Ctrl+L)"
-msgstr "Saincheap Teimpléid Chártaí (Ctrl+L)"
+msgstr "Saincheap Teimpléid Chártaí (Ctrl+S)"
 
 #: qt/aqt/editor.py:194
 msgid "Customize Fields"
@@ -1225,8 +1227,7 @@ msgstr "Laethanta gníomhacha"
 msgid "Debug Console"
 msgstr "Consól Dífhabhtaithe"
 
-#: qt/aqt/browser.py:736 qt/aqt/deckbrowser.py:147 qt/aqt/deckchooser.py:29
-#: qt/aqt/forms/importing.py:106
+#: qt/aqt/browser.py:736 qt/aqt/deckbrowser.py:147 qt/aqt/deckchooser.py:29 qt/aqt/forms/importing.py:106
 msgid "Deck"
 msgstr "Paca"
 
@@ -1254,9 +1255,8 @@ msgstr "Réamhshocrú"
 msgid "Delays until reviews are shown again."
 msgstr "Cé chomh fhada a bheidh le fanacht idir amharcanna ar chártaí."
 
-#: qt/aqt/deckbrowser.py:234 qt/aqt/deckconf.py:91 qt/aqt/models.py:56
-#: qt/aqt/reviewer.py:812 qt/aqt/forms/addons.py:77 qt/aqt/forms/browser.py:330
-#: qt/aqt/forms/fields.py:103 qt/aqt/forms/profiles.py:83
+#: qt/aqt/deckbrowser.py:234 qt/aqt/deckconf.py:91 qt/aqt/models.py:56 qt/aqt/reviewer.py:812 qt/aqt/forms/addons.py:77 qt/aqt/forms/browser.py:330 qt/aqt/forms/fields.py:103
+#: qt/aqt/forms/profiles.py:83
 msgid "Delete"
 msgstr "Scrios"
 
@@ -1316,8 +1316,7 @@ msgstr "Cur síos"
 msgid "Description to show on overview screen, for current deck:"
 msgstr "Cur síos le taispeáint ar scáileán achoimre, don phaca reatha:"
 
-#: qt/aqt/forms/dyndconf.py:133 qt/aqt/forms/editaddon.py:40
-#: qt/aqt/forms/editcurrent.py:41 qt/aqt/forms/progress.py:40
+#: qt/aqt/forms/dyndconf.py:133 qt/aqt/forms/editaddon.py:40 qt/aqt/forms/editcurrent.py:41 qt/aqt/forms/progress.py:40
 msgid "Dialog"
 msgstr "Dialóg"
 
@@ -1350,7 +1349,7 @@ msgstr "Dlite amárach"
 
 #: qt/aqt/forms/main.py:137
 msgid "E&xit"
-msgstr "Scoir"
+msgstr "&Scoir"
 
 #: qt/aqt/browser.py:743
 msgid "Ease"
@@ -1457,8 +1456,7 @@ msgstr "Botún ag suiteáil <i>%(base)s</i>: %(error)s"
 msgid "Error running %s"
 msgstr "Botún ag déanamh %s"
 
-#: qt/aqt/deckbrowser.py:232 qt/aqt/exporting.py:124
-#: qt/aqt/forms/exporting.py:74
+#: qt/aqt/deckbrowser.py:232 qt/aqt/exporting.py:124 qt/aqt/forms/exporting.py:74
 msgid "Export"
 msgstr "Easpórtáil"
 
@@ -1493,8 +1491,7 @@ msgstr "Ainm réimse:"
 msgid "Field:"
 msgstr "Réimse:"
 
-#: qt/aqt/editor.py:191 qt/aqt/fields.py:23 qt/aqt/forms/changemodel.py:113
-#: qt/aqt/forms/fields.py:101
+#: qt/aqt/editor.py:191 qt/aqt/fields.py:23 qt/aqt/forms/changemodel.py:113 qt/aqt/forms/fields.py:101
 msgid "Fields"
 msgstr "Réimsí"
 
@@ -1514,7 +1511,7 @@ msgstr "Réimsí..."
 
 #: qt/aqt/forms/browser.py:317
 msgid "Fil&ter"
-msgstr "Scagaire"
+msgstr "&Scagaire"
 
 #: pylib/anki/importing/mnemo.py:23
 msgid "File version unknown, trying import anyway."
@@ -1543,7 +1540,7 @@ msgstr "Paca Scagtha %d"
 
 #: qt/aqt/forms/browser.py:319
 msgid "Find &Duplicates..."
-msgstr "Aimsigh Dúblaigh..."
+msgstr "Aimsigh &Dúblaigh..."
 
 #: qt/aqt/forms/finddupes.py:70
 msgid "Find Duplicates"
@@ -1674,8 +1671,7 @@ msgstr "An bhfuil LaTeX agus dvipng/dvisvgm suite?"
 msgid "Header"
 msgstr "Ceanntásc"
 
-#: qt/aqt/addcards.py:77 qt/aqt/clayout.py:384 qt/aqt/utils.py:206
-#: qt/aqt/utils.py:207
+#: qt/aqt/addcards.py:77 qt/aqt/clayout.py:384 qt/aqt/utils.py:206 qt/aqt/utils.py:207
 msgid "Help"
 msgstr "Cabhair"
 
@@ -1735,8 +1731,7 @@ msgstr "Déan neamhaird ar línte más ionann an chéad réimse agus nóta eile"
 msgid "Ignore this update"
 msgstr "Déan neamhaird ar an nuashonrú seo"
 
-#: qt/aqt/importing.py:103 qt/aqt/importing.py:197 qt/aqt/importing.py:319
-#: qt/aqt/forms/changemap.py:41 qt/aqt/forms/importing.py:103
+#: qt/aqt/importing.py:103 qt/aqt/importing.py:197 qt/aqt/importing.py:319 qt/aqt/forms/changemap.py:41 qt/aqt/forms/importing.py:103
 msgid "Import"
 msgstr "Iompórtáil"
 
@@ -1901,7 +1896,7 @@ msgstr "Cló iodálach (Ctrl+I)"
 
 #: qt/aqt/editor.py:571
 msgid "Jump to tags with Ctrl+Shift+T"
-msgstr "Léim go chlibeanna le Ctrl+Shift+T"
+msgstr "Léim go Chlibeanna le Ctrl+Shift+C"
 
 #: qt/aqt/forms/preferences.py:307
 msgid "Keep"
@@ -1962,7 +1957,7 @@ msgstr "Fágtha"
 
 #: qt/aqt/forms/dyndconf.py:135 qt/aqt/forms/dyndconf.py:139
 msgid "Limit to"
-msgstr ""
+msgstr "Srian:"
 
 #: qt/aqt/utils.py:51
 msgid "Loading..."
@@ -2021,8 +2016,7 @@ msgstr "MathJax Ceimic"
 msgid "MathJax inline"
 msgstr "MathJax inlíne"
 
-#: pylib/anki/stats.py:213 pylib/anki/stats.py:346 pylib/anki/stats.py:366
-#: pylib/anki/stats.py:688 pylib/anki/stats.py:858
+#: pylib/anki/stats.py:213 pylib/anki/stats.py:346 pylib/anki/stats.py:366 pylib/anki/stats.py:688 pylib/anki/stats.py:858
 msgid "Mature"
 msgstr "Aibí"
 
@@ -2060,7 +2054,7 @@ msgstr "Tuilleadh"
 
 #: pylib/anki/consts.py:120
 msgid "Most lapses"
-msgstr ""
+msgstr "Líon is mó de chlistí"
 
 #: qt/aqt/browser.py:1590
 msgid "Move Cards"
@@ -2072,11 +2066,11 @@ msgstr "Aistrigh cártaí go paca:"
 
 #: qt/aqt/importing.py:144
 msgid "Multi-character separators are not supported. Please enter one character only."
-msgstr ""
+msgstr "Ní ghlactar le deighilteoirí ilcharactararacha. Cuir isteach carachtar amháin."
 
 #: qt/aqt/forms/browser.py:309
 msgid "N&ote"
-msgstr "Nóta"
+msgstr "&Nóta"
 
 #: qt/aqt/main.py:295 qt/aqt/main.py:309
 msgid "Name exists."
@@ -2123,8 +2117,7 @@ msgstr "Ainm an phaca nua:"
 msgid "New interval"
 msgstr "Eatramh nua"
 
-#: qt/aqt/clayout.py:584 qt/aqt/deckconf.py:148 qt/aqt/fields.py:97
-#: qt/aqt/main.py:303 qt/aqt/models.py:84
+#: qt/aqt/clayout.py:584 qt/aqt/deckconf.py:148 qt/aqt/fields.py:97 qt/aqt/main.py:303 qt/aqt/models.py:84
 msgid "New name:"
 msgstr "Ainm nua:"
 
@@ -2134,12 +2127,12 @@ msgstr "Cineál nua nóta:"
 
 #: qt/aqt/deckconf.py:121
 msgid "New options group name:"
-msgstr "Ainm do ghrúpa nua roghanna:"
+msgstr "Ainm do roghaghrúa nua:"
 
 #: qt/aqt/fields.py:136
 #, python-format
 msgid "New position (1...%d):"
-msgstr ""
+msgstr "Áit nua (1...%d):"
 
 #: qt/aqt/forms/preferences.py:298
 msgid "Next day starts at"
@@ -2151,1024 +2144,1023 @@ msgstr "Modh oíche"
 
 #: qt/aqt/browser.py:1290
 msgid "No Flag"
-msgstr ""
+msgstr "Gan Brat"
 
 #: qt/aqt/overview.py:70
 msgid "No cards are due yet."
-msgstr ""
+msgstr "Níl cárta ar bith dlite fós."
 
 #: pylib/anki/stats.py:178
 msgid "No cards have been studied today."
-msgstr ""
+msgstr "Níl athbhreithniú déanta ar aon chártaí inniu."
 
 #: qt/aqt/customstudy.py:190
 msgid "No cards matched the criteria you provided."
-msgstr ""
+msgstr "Níl aon cártaí a thagann leis na critéir a luaigh tú."
 
 #: pylib/anki/stats.py:176
 msgid "No mature cards were studied today."
-msgstr ""
+msgstr "Níl athbhreithniú déanta ar aon chártaí aibí inniu."
 
 #: qt/aqt/addons.py:868
 msgid "No updates available."
-msgstr ""
+msgstr "Níl nuashonrú ar fáil."
 
 #: qt/aqt/browser.py:747
 msgid "Note"
-msgstr ""
+msgstr "Nóta"
 
 #: qt/aqt/browser.py:1335 qt/aqt/models.py:36 qt/aqt/forms/models.py:54
 msgid "Note Types"
-msgstr ""
+msgstr "Cineálacha Nótaí"
 
 #: qt/aqt/reviewer.py:818
 #, python-format
 msgid "Note and its %d card deleted."
 msgid_plural "Note and its %d cards deleted."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
-msgstr[4] ""
+msgstr[0] "Nóta agus a (%d) chárta scriosta."
+msgstr[1] "Nóta agus a %d chárta scriosta."
+msgstr[2] "Nóta agus a %d chárta scriosta."
+msgstr[3] "Nóta agus a %d gcárta scriosta."
+msgstr[4] "Nóta agus a %d cárta scriosta."
 
 #: qt/aqt/reviewer.py:833
 msgid "Note buried."
-msgstr ""
+msgstr "Nóta i bhfolach."
 
 #: qt/aqt/reviewer.py:798
 msgid "Note suspended."
-msgstr ""
+msgstr "Nóta ar fionraí."
 
 #: qt/aqt/forms/preferences.py:310
 msgid "Note: Media is not backed up. Please create a periodic backup of your Anki folder to be safe."
-msgstr ""
+msgstr "Nóta: Níl cúltaca de do mheáin. Ar son na sábháilteachta, déan cúltacú rialta den fhillteán Anki."
 
 #: pylib/anki/importing/anki2.py:149
 #, python-format
 msgid "Notes added from file: %d"
-msgstr ""
+msgstr "Nótaí nua ó chomhad: %d"
 
 #: pylib/anki/importing/anki2.py:137
 #, python-format
 msgid "Notes found in file: %d"
-msgstr ""
+msgstr "Nótaí sa chomhad: %d"
 
 #: pylib/anki/exporting.py:125
 msgid "Notes in Plain Text"
-msgstr ""
+msgstr "Nótaí gnáth-théacs"
 
 #: qt/aqt/fields.py:121
 msgid "Notes require at least one field."
-msgstr ""
+msgstr "Teastaíonn réimse amháin (ar a laghad) i nótaí."
 
 #: pylib/anki/importing/anki2.py:152
 #, python-format
 msgid "Notes skipped, as they're already in your collection: %d"
-msgstr ""
+msgstr "Nótaí a bhí sa chnuasach cheana féin: %d"
 
 #: qt/aqt/browser.py:2016
 msgid "Notes tagged."
-msgstr ""
+msgstr "Nótaí clibeáilte."
 
 #: pylib/anki/importing/anki2.py:141
 #, python-format
 msgid "Notes that could not be imported as note type has changed: %d"
-msgstr ""
+msgstr "Nótaí nár iompórtáladh de bharr athrú cló-aghaidhe: %d"
 
 #: pylib/anki/importing/anki2.py:146
 #, python-format
 msgid "Notes updated, as file had newer version: %d"
-msgstr ""
+msgstr "Nótaí nuashonraithe (leagan níos úire sa chomhad): %d"
 
 #: qt/aqt/browser.py:2170
 msgid "Nothing"
-msgstr ""
+msgstr "Dada"
 
 #: qt/aqt/customstudy.py:57
 msgid "OK"
-msgstr ""
+msgstr "OK"
 
 #: pylib/anki/consts.py:116
 msgid "Oldest seen first"
-msgstr ""
+msgstr "Is sine i dtosach"
 
 #: qt/aqt/forms/preferences.py:304
 msgid "On next sync, force changes in one direction"
-msgstr ""
+msgstr "An chéad sionc eile: athruithe i dtreo áirithe amháin"
 
 #: qt/aqt/addons.py:1113
 msgid "One or more errors occurred:"
-msgstr ""
+msgstr "Thárla botún (nó botúin):"
 
 #: qt/aqt/browser.py:1728
 msgid "Only new cards can be repositioned."
-msgstr ""
+msgstr "Ní féidr ach cártaí nua a bhogadh."
 
 #: qt/aqt/forms/profiles.py:80
 msgid "Open"
-msgstr ""
+msgstr "Oscail"
 
 #: qt/aqt/forms/profiles.py:85
 msgid "Open Backup..."
-msgstr ""
+msgstr "Oscail cúltacú..."
 
 #: qt/aqt/main.py:642
 msgid "Optimizing..."
-msgstr ""
+msgstr "Ag optamú..."
 
 #: qt/aqt/forms/finddupes.py:71
 msgid "Optional filter:"
-msgstr ""
+msgstr "Scagaire roghnach:"
 
-#: qt/aqt/clayout.py:111 qt/aqt/deckbrowser.py:230 qt/aqt/deckconf.py:37
-#: qt/aqt/dyndeckconf.py:25 qt/aqt/overview.py:252 qt/aqt/reviewer.py:732
-#: qt/aqt/forms/dyndconf.py:142 qt/aqt/forms/fields.py:109
+#: qt/aqt/clayout.py:111 qt/aqt/deckbrowser.py:230 qt/aqt/deckconf.py:37 qt/aqt/dyndeckconf.py:25 qt/aqt/overview.py:252 qt/aqt/reviewer.py:732 qt/aqt/forms/dyndconf.py:142 qt/aqt/forms/fields.py:109
 msgid "Options"
-msgstr ""
+msgstr "Roghanna"
 
 #: qt/aqt/deckconf.py:47 qt/aqt/dyndeckconf.py:28 qt/aqt/models.py:157
 #, python-format
 msgid "Options for %s"
-msgstr ""
+msgstr "Roghanna do %s"
 
 #: qt/aqt/forms/dconf.py:338
 msgid "Options group:"
-msgstr ""
+msgstr "Roghaghrúpa:"
 
 #: qt/aqt/models.py:67
 msgid "Options..."
-msgstr ""
+msgstr "Roghanna..."
 
 #: qt/aqt/browser.py:1287 qt/aqt/reviewer.py:707 qt/aqt/forms/browser.py:334
 msgid "Orange Flag"
-msgstr ""
+msgstr "Brat oráiste"
 
 #: qt/aqt/forms/dconf.py:342
 msgid "Order"
-msgstr ""
+msgstr "Ord"
 
 #: pylib/anki/consts.py:121
 msgid "Order added"
-msgstr ""
+msgstr "Ord úire"
 
 #: pylib/anki/consts.py:122
 msgid "Order due"
-msgstr ""
+msgstr "Ord dlite"
 
 #: qt/aqt/forms/browserdisp.py:71
 msgid "Override back template:"
-msgstr ""
+msgstr "Sáraigh teimpléad cúil:"
 
 #: qt/aqt/forms/browserdisp.py:72
 msgid "Override font:"
-msgstr ""
+msgstr "Sáraigh clófhoireann:"
 
 #: qt/aqt/forms/browserdisp.py:70
 msgid "Override front template:"
-msgstr ""
+msgstr "Sáraigh teimpléad thosaigh:"
 
 #: qt/aqt/addons.py:872
 msgid "Packaged Anki Add-on"
-msgstr ""
+msgstr "Breiseán Anki i bpacáiste"
 
 #: pylib/anki/importing/__init__.py:14
 msgid "Packaged Anki Deck/Collection (*.apkg *.colpkg *.zip)"
-msgstr ""
+msgstr "Paca/Cnuascach Anki i bpacáiste (*.apkg *.colpkg *.zip)"
 
 #: qt/aqt/editor.py:1201
 msgid "Paste"
-msgstr ""
+msgstr "Greamaigh"
 
 #: qt/aqt/forms/preferences.py:281
 msgid "Paste clipboard images as PNG"
-msgstr ""
+msgstr "Greamaigh íomhánna gearrthaisce mar PNG"
 
 #: qt/aqt/forms/preferences.py:282
 msgid "Paste without shift key strips formatting"
-msgstr ""
+msgstr "SHIFT chun greamú gan formáidiú"
 
 #: pylib/anki/importing/__init__.py:17
 msgid "Pauker 1.8 Lesson (*.pau.gz)"
-msgstr ""
+msgstr "Ceacht Pauker 1.8 (*.pau.gz)"
 
 #: qt/aqt/reviewer.py:735
 msgid "Pause Audio"
-msgstr ""
+msgstr "Cuir Fuaim ar Sos"
 
 #: pylib/anki/stats.py:599
 msgid "Percentage"
-msgstr ""
+msgstr "Céatadán"
 
 #: pylib/anki/stats.py:949
 #, python-format
 msgid "Period: %s"
-msgstr ""
+msgstr "Tréimhse: %s"
 
 #: qt/aqt/forms/preferences.py:303
 msgid "Periodically sync media"
-msgstr ""
+msgstr "Sionc meáin go tréimhsiúil"
 
 #: qt/aqt/forms/reschedule.py:74
 msgid "Place at end of new card queue"
-msgstr ""
+msgstr "Cuir chun deireadh scuaine na gcártaí nua"
 
 #: qt/aqt/forms/reschedule.py:75
 msgid "Place in review queue with interval between:"
-msgstr ""
+msgstr "Cuir i scuaine athbhreithnithe le eatramh idir:"
 
 #: qt/aqt/models.py:126
 msgid "Please add another note type first."
-msgstr ""
+msgstr "Cur cineál eile nóta ar dtús."
 
 #: qt/aqt/addons.py:1017
 msgid "Please check your internet connection."
-msgstr ""
+msgstr "Seiceáil nasc líonra."
 
 #: qt/aqt/errors.py:88
 msgid "Please connect a microphone, and ensure other programs are not using the audio device."
-msgstr ""
+msgstr "Ceangail mícreafón, agus cinntigh nach bhfuil an gléas in úsáid ag clár eile."
 
 #: qt/aqt/main.py:1606
 msgid "Please ensure a profile is open and Anki is not busy, then try again."
-msgstr ""
+msgstr "Le próifíl ar oscailt agus gan Anki a bheith róghnóthach: bain triail arís as."
 
 #: qt/aqt/browser.py:1390
 msgid "Please give your filter a name:"
-msgstr ""
+msgstr "Ainmnigh an scagaire:"
 
 #: qt/aqt/profiles.py:307
 #, python-format
 msgid "Please remove the folder %s and try again."
-msgstr ""
+msgstr "Bain an fillteán %s agus bain triail eile as."
 
 #: qt/aqt/addons.py:1446
 msgid "Please report this to the respective add-on author(s)."
-msgstr ""
+msgstr "Cuir teachtaireacht chuig údar an bhreiseáin."
 
 #: qt/aqt/preferences.py:72
 msgid "Please restart Anki to complete language change."
-msgstr ""
+msgstr "Atosaigh Anki chun athrú teanga a chríochnú."
 
 #: qt/aqt/reviewer.py:384
 msgid "Please run Tools>Empty Cards"
-msgstr ""
+msgstr "Úsáid Úirlisí->Cártaí Folmha"
 
 #: qt/aqt/main.py:673
 msgid "Please select a deck."
-msgstr ""
+msgstr "Roghnaigh paca."
 
 #: qt/aqt/addons.py:807
 msgid "Please select a single add-on first."
-msgstr ""
+msgstr "Roghnaigh breiseán amháin."
 
 #: qt/aqt/browser.py:1490
 msgid "Please select cards from only one note type."
-msgstr ""
+msgstr "Roghnaigh cártaí d'aon chineál nóta amháin."
 
 #: qt/aqt/studydeck.py:135
 msgid "Please select something."
-msgstr ""
+msgstr "Roghnaigh rud éigin."
 
 #: qt/aqt/main.py:1120
 msgid "Please use File>Import to import this file."
-msgstr ""
+msgstr "Úsáid Comhad>Iompórtáil chun an comhad a iompórtáil."
 
 #: qt/aqt/forms/preferences.py:277
 msgid "Preferences"
-msgstr ""
+msgstr "Roghanna"
 
 #: qt/aqt/previewer.py:65 qt/aqt/forms/browser.py:296
 msgid "Preview"
-msgstr ""
+msgstr "Réamhamharc"
 
 #: qt/aqt/browser.py:617
 #, python-format
 msgid "Preview Selected Card (%s)"
-msgstr ""
+msgstr "Réamhamharc ar chárta roghnaithe (%s)"
 
 #: qt/aqt/forms/customstudy.py:108
 msgid "Preview new cards"
-msgstr ""
+msgstr "Réamhamharc ar chártaí nua"
 
 #: qt/aqt/customstudy.py:96
 msgid "Preview new cards added in the last"
-msgstr ""
+msgstr "Réamhamharc ar chártaí nua le linn"
 
 #: qt/aqt/importing.py:502
 #, python-format
 msgid "Processed %d media file"
 msgid_plural "Processed %d media files"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
-msgstr[4] ""
+msgstr[0] "%d chomhad meáin próiseálte"
+msgstr[1] "%d chomhad meáin próiseálte"
+msgstr[2] "%d chomhad meáin próiseálte"
+msgstr[3] "%d gcomhad meáin próiseálte"
+msgstr[4] "%d comhad meáin próiseálte"
 
 #: qt/aqt/progress.py:66
 msgid "Processing..."
-msgstr ""
+msgstr "Ag próiseáil..."
 
 #: qt/aqt/profiles.py:254
 msgid "Profile Corrupt"
-msgstr ""
+msgstr "Próifíl Truaillithe"
 
 #: qt/aqt/forms/profiles.py:79
 msgid "Profiles"
-msgstr ""
+msgstr "Próifílí"
 
 #: qt/aqt/browser.py:733
 msgid "Question"
-msgstr ""
+msgstr "Ceist"
 
 #: qt/aqt/browser.py:1739
 #, python-format
 msgid "Queue bottom: %d"
-msgstr ""
+msgstr "Bun scuaine: %d"
 
 #: qt/aqt/browser.py:1738
 #, python-format
 msgid "Queue top: %d"
-msgstr ""
+msgstr "Barr scuaine; %d"
 
 #: qt/aqt/forms/profiles.py:84
 msgid "Quit"
-msgstr ""
+msgstr "Scoir"
 
 #: pylib/anki/consts.py:117
 msgid "Random"
-msgstr ""
+msgstr "Randamach"
 
 #: qt/aqt/forms/reposition.py:73
 msgid "Randomize order"
-msgstr ""
+msgstr "Cuir in ord randamach"
 
 #: qt/aqt/dyndeckconf.py:23 qt/aqt/overview.py:255
 msgid "Rebuild"
-msgstr ""
+msgstr "Tóg arís"
 
 #: qt/aqt/reviewer.py:738
 msgid "Record Own Voice"
-msgstr ""
+msgstr "Taifead do ghuth"
 
 #: qt/aqt/editor.py:175
 msgid "Record audio (F5)"
-msgstr ""
+msgstr "Déan taifead ar fhuaim (F5)"
 
 #: qt/aqt/sound.py:565
 #, python-format
 msgid "Recording...<br>Time: %0.1f"
-msgstr ""
+msgstr "Ag taifead...<br>Am: %0.1f"
 
 #: qt/aqt/browser.py:1286 qt/aqt/reviewer.py:701 qt/aqt/forms/browser.py:333
 msgid "Red Flag"
-msgstr ""
+msgstr "Brat Dearg"
 
 #: pylib/anki/consts.py:124
 msgid "Relative overdueness"
-msgstr ""
+msgstr "De réir deireanaí"
 
 #: pylib/anki/stats.py:348 pylib/anki/stats.py:368
 msgid "Relearn"
-msgstr ""
+msgstr "Athfhoghlaim"
 
 #: qt/aqt/forms/fields.py:108
 msgid "Remember last input when adding"
-msgstr ""
+msgstr "Coinnigh ábhar le linn ionchuir"
 
 #: qt/aqt/browser.py:1401
 #, python-format
 msgid "Remove %s from your saved searches?"
-msgstr ""
+msgstr "Bain %s ó chuardaigh sábháilte?"
 
 #: qt/aqt/clayout.py:677
 msgid "Remove Card Type..."
-msgstr ""
+msgstr "Bain Amach Cineál Cárta..."
 
 #: qt/aqt/browser.py:1375
 msgid "Remove Current Filter..."
-msgstr ""
+msgstr "Bain an Scagaire Seo..."
 
 #: qt/aqt/forms/browser.py:328
 msgid "Remove Tags..."
-msgstr ""
+msgstr "Bain Clibeanna..."
 
 #: qt/aqt/editor.py:133
 msgid "Remove formatting (Ctrl+R)"
-msgstr ""
+msgstr "Bain foirmáidiú (Ctrl+B)"
 
-#: qt/aqt/deckbrowser.py:228 qt/aqt/deckconf.py:93 qt/aqt/models.py:55
-#: qt/aqt/forms/fields.py:104 qt/aqt/forms/profiles.py:82
+#: qt/aqt/deckbrowser.py:228 qt/aqt/deckconf.py:93 qt/aqt/models.py:55 qt/aqt/forms/fields.py:104 qt/aqt/forms/profiles.py:82
 msgid "Rename"
-msgstr ""
+msgstr "Athainmnigh"
 
 #: qt/aqt/clayout.py:680
 msgid "Rename Card Type..."
-msgstr ""
+msgstr "Athainmnigh Cineál Cárta..."
 
 #: qt/aqt/deckbrowser.py:243
 msgid "Rename Deck"
-msgstr ""
+msgstr "Athainmnigh Paca"
 
 #: qt/aqt/forms/dyndconf.py:145
 msgid "Repeat failed cards after"
-msgstr ""
+msgstr "Athdhéan cártaí mícheart tar éis"
 
 #: qt/aqt/main.py:336
 msgid "Replace your collection with an earlier backup?"
-msgstr ""
+msgstr "Úsáid cúltacú níos sine in áit do chnuasach?"
 
 #: qt/aqt/previewer.py:76 qt/aqt/reviewer.py:734
 msgid "Replay Audio"
-msgstr ""
+msgstr "Cas Fuaim Arís"
 
 #: qt/aqt/reviewer.py:739
 msgid "Replay Own Voice"
-msgstr ""
+msgstr "Cas Do Ghugh Féin Arís"
 
 #: qt/aqt/browser.py:1744 qt/aqt/forms/fields.py:105
 msgid "Reposition"
-msgstr ""
+msgstr "Bog"
 
 #: qt/aqt/clayout.py:683
 msgid "Reposition Card Type..."
-msgstr ""
+msgstr "Bog Cineál Cárta..."
 
 #: qt/aqt/forms/reposition.py:70
 msgid "Reposition New Cards"
-msgstr ""
+msgstr "Bog Cártaí Nua"
 
 #: qt/aqt/forms/browser.py:320
 msgid "Reposition..."
-msgstr ""
+msgstr "Bog..."
 
 #: qt/aqt/forms/taglimit.py:61
 msgid "Require one or more of these tags:"
-msgstr ""
+msgstr "Teastaigh ceann/cinn de na clibeanna seo:"
 
 #: qt/aqt/browser.py:1770 qt/aqt/forms/reschedule.py:73
 msgid "Reschedule"
-msgstr ""
+msgstr "Athsceidealaigh"
 
 #: qt/aqt/forms/dyndconf.py:143
 msgid "Reschedule cards based on my answers in this deck"
-msgstr ""
+msgstr "Athsceidealaigh cártaí de réir freagraí don phaca seo"
 
 #: qt/aqt/addons.py:1310
 msgid "Restored defaults"
-msgstr ""
+msgstr "Tabhair ar ais na réamhshocruithe"
 
 #: qt/aqt/main.py:734
 msgid "Resume Now"
-msgstr ""
+msgstr "Fill Ar an Staidéar"
 
 #: qt/aqt/forms/fields.py:107
 msgid "Reverse text direction (RTL)"
-msgstr ""
+msgstr "Cas an téacs droim ar ais"
 
 #: qt/aqt/main.py:349
 msgid "Revert to backup"
-msgstr ""
+msgstr "Fill ar chúlbhrat"
 
 #: qt/aqt/main.py:1034
 #, python-format
 msgid "Reverted to state prior to '%s'."
-msgstr ""
+msgstr "Fillte chuig staid roimh '%s'."
 
 #: pylib/anki/collection.py:577 qt/aqt/browser.py:1280
 msgid "Review"
-msgstr ""
+msgstr "Athbhreithniú"
 
 #: pylib/anki/stats.py:354
 msgid "Review Count"
-msgstr ""
+msgstr "Líon na n-athbhreithnithe"
 
 #: pylib/anki/stats.py:380
 msgid "Review Time"
-msgstr ""
+msgstr "Am Athbhreithnithe"
 
 #: qt/aqt/forms/customstudy.py:103
 msgid "Review ahead"
-msgstr ""
+msgstr "Athbhreithnigh ar aghaidh"
 
 #: qt/aqt/customstudy.py:93
 msgid "Review ahead by"
-msgstr ""
+msgstr "Athbhreithnigh ar aghaidh le"
 
 #: qt/aqt/customstudy.py:89
 msgid "Review cards forgotten in last"
-msgstr ""
+msgstr "Athbhreithnigh cártaí dearmadta le linn"
 
 #: qt/aqt/forms/customstudy.py:104
 msgid "Review forgotten cards"
-msgstr ""
+msgstr "Athbhreithnigh ar chártaí dearmadta"
 
 #: pylib/anki/stats.py:791
 msgid "Review success rate for each hour of the day."
-msgstr ""
+msgstr "Staitisticí de réir gach uair an chloig den lá."
 
 #: pylib/anki/stats.py:819 qt/aqt/browser.py:744 qt/aqt/forms/dconf.py:361
 msgid "Reviews"
-msgstr ""
+msgstr "Athbhreithnithe"
 
 #: qt/aqt/customstudy.py:83
 #, python-format
 msgid "Reviews due in deck over today limit: %s"
-msgstr ""
+msgstr "Cártaí dlite sa phaca thar srian an lae inniú: %s"
 
 #: pylib/anki/consts.py:110
 msgid "Right"
-msgstr ""
+msgstr "Ceart"
 
 #: qt/aqt/clayout.py:399 qt/aqt/sound.py:554
 msgid "Save"
-msgstr ""
+msgstr "Sábháil"
 
 #: qt/aqt/browser.py:1377
 msgid "Save Current Filter..."
-msgstr ""
+msgstr "Sábháil an Scagaire Seo..."
 
-#: qt/aqt/stats.py:42 qt/aqt/stats.py:67 qt/aqt/stats.py:114
-#: qt/aqt/stats.py:145
+#: qt/aqt/stats.py:42 qt/aqt/stats.py:67 qt/aqt/stats.py:114 qt/aqt/stats.py:145
 msgid "Save PDF"
-msgstr ""
+msgstr "Sábháil PDF"
 
 #: qt/aqt/stats.py:80 qt/aqt/stats.py:158
 msgid "Saved."
-msgstr ""
+msgstr "Sábháilte."
 
 #: qt/aqt/forms/preferences.py:299
 msgid "Scheduling"
-msgstr ""
+msgstr "Ag Sceidealú"
 
 #: pylib/anki/stats.py:947
 #, python-format
 msgid "Scope: %s"
-msgstr ""
+msgstr "Scóip: %s"
 
-#: qt/aqt/browser.py:1972 qt/aqt/forms/browser.py:295
-#: qt/aqt/forms/dyndconf.py:136 qt/aqt/forms/dyndconf.py:140
+#: qt/aqt/browser.py:1972 qt/aqt/forms/browser.py:295 qt/aqt/forms/dyndconf.py:136 qt/aqt/forms/dyndconf.py:140
 msgid "Search"
-msgstr ""
+msgstr "Cuardaigh"
 
 #: qt/aqt/forms/finddupes.py:72
 msgid "Search in:"
-msgstr ""
+msgstr "Cuardaigh i:"
 
 #: qt/aqt/forms/browseropts.py:73
 msgid "Search within formatting (slow)"
-msgstr ""
+msgstr "Cuardaigh san fhormáidiú (mall)"
 
 #: qt/aqt/customstudy.py:100
 msgid "Select"
-msgstr ""
+msgstr "Roghnaigh"
 
 #: qt/aqt/forms/browser.py:305
 msgid "Select &All"
-msgstr ""
+msgstr "Roghnaigh &Uile"
 
 #: qt/aqt/forms/browser.py:314
 msgid "Select &Notes"
-msgstr ""
+msgstr "Roghnaigh &Nótaí"
 
 #: qt/aqt/forms/taglimit.py:62
 msgid "Select tags to exclude:"
-msgstr ""
+msgstr "Roghnaí clibeanna le fágáil as:"
 
 #: qt/aqt/exporting.py:55
 msgid "Selected Notes"
-msgstr ""
+msgstr "Nótaí Roghnaithe"
 
 #: qt/aqt/importing.py:311
 msgid "Selected file was not in UTF-8 format. Please see the importing section of the manual."
-msgstr ""
+msgstr "Cathfidh an comhad a bheith i bhformáid UTF-8. Féach ar \"Iompórtáil\" sa lámhleabhar."
 
 #: qt/aqt/forms/taglimit.py:60
 msgid "Selective Study"
-msgstr ""
+msgstr "Staidéar Roghnaitheach"
 
 #: qt/aqt/importing.py:172
 msgid "Semicolon"
-msgstr ""
+msgstr "Leathstad"
 
 #: qt/aqt/deckconf.py:159
 #, python-format
 msgid "Set all decks below %s to this option group?"
-msgstr ""
+msgstr "Iompaigh gach paca faoi %s chuig an grúpa roghanna seo?"
 
 #: qt/aqt/deckconf.py:95
 msgid "Set for all subdecks"
-msgstr ""
+msgstr "Socraigh do gach fo-phaca"
 
 #: qt/aqt/editor.py:136
 msgid "Set foreground colour (F7)"
-msgstr ""
+msgstr "Socraigh daith an tosaigh (F7)"
 
 #: qt/aqt/main.py:127
 msgid "Shift key was held down. Skipping automatic syncing and add-on loading."
-msgstr ""
+msgstr "SHIFT brúite. Fágfar sioncronú agus breiseáin ar lár an uair seo."
 
 #: qt/aqt/forms/reposition.py:74
 msgid "Shift position of existing cards"
-msgstr ""
+msgstr "Aistrigh cártaí atá ann cheana féin"
 
-#: qt/aqt/deckbrowser.py:318 qt/aqt/main.py:763 qt/aqt/overview.py:265
-#: qt/aqt/previewer.py:80 qt/aqt/previewer.py:85 qt/aqt/reviewer.py:570
-#: qt/aqt/reviewer.py:583 qt/aqt/reviewer.py:660 qt/aqt/toolbar.py:107
-#: qt/aqt/toolbar.py:114 qt/aqt/toolbar.py:121 qt/aqt/toolbar.py:128
-#: qt/aqt/toolbar.py:144
+#: qt/aqt/deckbrowser.py:318 qt/aqt/main.py:763 qt/aqt/overview.py:265 qt/aqt/previewer.py:80 qt/aqt/previewer.py:85 qt/aqt/reviewer.py:570 qt/aqt/reviewer.py:583 qt/aqt/reviewer.py:660
+#: qt/aqt/toolbar.py:107 qt/aqt/toolbar.py:114 qt/aqt/toolbar.py:121 qt/aqt/toolbar.py:128 qt/aqt/toolbar.py:144
 #, python-format
 msgid "Shortcut key: %s"
-msgstr ""
+msgstr "Cnaipe aicearra: %s"
 
 #: qt/aqt/previewer.py:241
 msgid "Shortcut key: Left arrow"
-msgstr ""
+msgstr "Cnaipe aicearra: Saighead chlé"
 
 #: qt/aqt/previewer.py:246
 msgid "Shortcut key: Right arrow or Enter"
-msgstr ""
+msgstr "Cnaipe aicearra: Saighead dheis nó ENTER"
 
 #: qt/aqt/addcards.py:87
 #, python-format
 msgid "Shortcut: %s"
-msgstr ""
+msgstr "Aicearra: %s"
 
 #: qt/aqt/reviewer.py:584
 msgid "Show Answer"
-msgstr ""
+msgstr "Taispeáin Freagra"
 
 #: qt/aqt/editor.py:200
 msgid "Show Duplicates"
-msgstr ""
+msgstr "Taispeáin Dúblaigh"
 
 #: qt/aqt/forms/dconf.py:375
 msgid "Show answer timer"
-msgstr ""
+msgstr "Taispeáin clog"
 
 #: qt/aqt/forms/preferences.py:291
 msgid "Show learning cards with larger steps before reviews"
-msgstr ""
+msgstr "Taispeáin cártaí á bhfhoghlaim i dtús i gcónaí"
 
 #: pylib/anki/consts.py:101
 msgid "Show new cards after reviews"
-msgstr ""
+msgstr "Taispeáin cártaí nua tar éis athbhreithnithe"
 
 #: pylib/anki/consts.py:102
 msgid "Show new cards before reviews"
-msgstr ""
+msgstr "Taispeáin cártaí nua roimh athbhreithnithe"
 
 #: pylib/anki/consts.py:94
 msgid "Show new cards in order added"
-msgstr ""
+msgstr "Taispeáin cártaí nua san ord inar cruthaíodh iad"
 
 #: pylib/anki/consts.py:93
 msgid "Show new cards in random order"
-msgstr ""
+msgstr "Taispeáin cártaí nua in ord randamach"
 
 #: qt/aqt/forms/preferences.py:289
 msgid "Show next review time above answer buttons"
-msgstr ""
+msgstr "Taispeáin am don chéad athbhreithniú eile thar chnaipí freagra"
 
 #: qt/aqt/forms/preferences.py:279
 msgid "Show play buttons on cards with audio"
-msgstr ""
+msgstr "Taispeáin cnaipe 'seinm' ar chártaí le fuaim"
 
 #: qt/aqt/forms/preferences.py:290
 msgid "Show remaining card count during review"
-msgstr ""
+msgstr "Taispeáin líon na gcártaí atá fanta le linn athbhreithnigh"
 
 #: qt/aqt/browser.py:1056 qt/aqt/forms/browser.py:337
 msgid "Sidebar"
-msgstr ""
+msgstr "Taobh-bharra"
 
 #: qt/aqt/forms/addfield.py:63
 msgid "Size:"
-msgstr ""
+msgstr "Méid:"
 
 #: pylib/anki/importing/anki2.py:160
 msgid "Skipped"
-msgstr ""
+msgstr "Fágtha ar lár"
 
 #: qt/aqt/forms/preferences.py:311
 msgid "Some settings will take effect after you restart Anki."
-msgstr ""
+msgstr "Tiocfaidh socruithe áirithe i bhfeidhm nuair a atosófar Anki."
 
 #: qt/aqt/browser.py:737
 msgid "Sort Field"
-msgstr ""
+msgstr "Réimse Sórtála"
 
 #: qt/aqt/forms/fields.py:110
 msgid "Sort by this field in the browser"
-msgstr ""
+msgstr "Úsáid an réimse seo mar bhunús sórtála sa bhrabhsálaí"
 
 #: qt/aqt/browser.py:932
 msgid "Sorting on this column is not supported. Please choose another."
-msgstr ""
+msgstr "Ní féidir sórtáil de réir an cholúin seo. Roghnaigh ceann eile."
 
 #: qt/aqt/sound.py:285
 msgid "Sound and video on cards will not function until mpv or mplayer is installed."
-msgstr ""
+msgstr "Ní bheidh feidhm ag fuaim ná fís ar chártai gan mpv ná mplayer a bheith suite."
 
 #: qt/aqt/importing.py:170 qt/aqt/reviewer.py:583
 msgid "Space"
-msgstr ""
+msgstr "Spás"
 
 #: qt/aqt/forms/reposition.py:71
 msgid "Start position:"
-msgstr ""
+msgstr "Áit thosaigh:"
 
 #: qt/aqt/forms/dconf.py:340
 msgid "Starting ease"
-msgstr ""
+msgstr "Éascacht thosaigh"
 
 #: qt/aqt/forms/stats.py:79
 msgid "Statistics"
-msgstr ""
+msgstr "Staitisticí"
 
 #: qt/aqt/toolbar.py:126
 msgid "Stats"
-msgstr ""
+msgstr "Staitisticí"
 
 #: qt/aqt/forms/reposition.py:72
 msgid "Step:"
-msgstr ""
+msgstr "Céim:"
 
 #: qt/aqt/forms/dconf.py:346 qt/aqt/forms/dconf.py:362
 msgid "Steps (in minutes)"
-msgstr ""
+msgstr "Céimeanna (nóiméid)"
 
 #: qt/aqt/deckconf.py:276 qt/aqt/dyndeckconf.py:157
 msgid "Steps must be numbers."
-msgstr ""
+msgstr "Úsáid uimhreacha do céimeanna."
 
 #: qt/aqt/browser.py:1266
 msgid "Studied Today"
-msgstr ""
+msgstr "Staidéartha inniu"
 
 #: qt/aqt/studydeck.py:67
 msgid "Study"
-msgstr ""
+msgstr "Déan staidéar"
 
 #: qt/aqt/forms/studydeck.py:45
 msgid "Study Deck"
-msgstr ""
+msgstr "Paca Staidéir"
 
 #: qt/aqt/forms/main.py:152
 msgid "Study Deck..."
-msgstr ""
+msgstr "Paca Staidéir..."
 
 #: qt/aqt/overview.py:235
 msgid "Study Now"
-msgstr ""
+msgstr "Déan staidéar anois"
 
 #: qt/aqt/forms/customstudy.py:107
 msgid "Study by card state or tag"
-msgstr ""
+msgstr "Déan staidear de réir staid chárta nó de réir clibe"
 
 #: qt/aqt/editor.py:132
 msgid "Subscript (Ctrl+=)"
-msgstr ""
+msgstr "Foscript (Ctrl+=)"
 
 #: pylib/anki/importing/__init__.py:16
 msgid "Supermemo XML export (*.xml)"
-msgstr ""
+msgstr "Easpórtáil Supermemo XML (*.xml)"
 
 #: qt/aqt/editor.py:130
 msgid "Superscript (Ctrl++)"
-msgstr ""
+msgstr "Forscript (Ctrl++)"
 
 #: qt/aqt/reviewer.py:796 qt/aqt/reviewer.py:802
 msgid "Suspend"
-msgstr ""
+msgstr "Cuir ar fionraí"
 
 #: qt/aqt/reviewer.py:729 qt/aqt/forms/dconf.py:369
 msgid "Suspend Card"
-msgstr ""
+msgstr "Cuir Cárta ar Fionraí"
 
 #: qt/aqt/reviewer.py:730
 msgid "Suspend Note"
-msgstr ""
+msgstr "Cuir Nóta ar Fionraí"
 
 #: qt/aqt/browser.py:1283
 msgid "Suspended"
-msgstr ""
+msgstr "Ar fionraí"
 
 #: pylib/anki/stats.py:861
 msgid "Suspended+Buried"
-msgstr ""
+msgstr "Ar Fionraí + i bhFolach"
 
 #: qt/aqt/toolbar.py:143
 msgid "Sync"
-msgstr ""
+msgstr "Sionc"
 
 #: qt/aqt/forms/preferences.py:301
 msgid "Synchronize audio and images too"
-msgstr ""
+msgstr "Sioncronaigh fuaim agus iomhánna freisin"
 
 #: qt/aqt/importing.py:166
 msgid "Tab"
-msgstr ""
+msgstr "Táb"
 
 #: qt/aqt/browser.py:1981 qt/aqt/browser.py:2008
 msgid "Tag Duplicates"
-msgstr ""
+msgstr "Clibeáil Dúblaigh"
 
 #: qt/aqt/forms/dconf.py:370
 msgid "Tag Only"
-msgstr ""
+msgstr "Clibeáil Amháin"
 
 #: qt/aqt/forms/importing.py:111
 msgid "Tag modified notes:"
-msgstr ""
+msgstr "Clibeáil nótaí athraithe:"
 
 #: qt/aqt/browser.py:746 qt/aqt/browser.py:1298 qt/aqt/editor.py:567
 msgid "Tags"
-msgstr ""
+msgstr "Clibeanna"
 
 #: qt/aqt/deckchooser.py:34
 msgid "Target Deck (Ctrl+D)"
-msgstr ""
+msgstr "Spriocphaca (Ctrl+S)"
 
 #: qt/aqt/forms/changemap.py:42
 msgid "Target field:"
-msgstr ""
+msgstr "Sprioc-réimse:"
 
 #: pylib/anki/importing/__init__.py:13
 msgid "Text separated by tabs or semicolons (*)"
-msgstr ""
+msgstr "Téacs scartha de tháib nó de leathstaid (*)"
 
 #: qt/aqt/fields.py:90
 msgid "That field name is already used."
-msgstr ""
+msgstr "Tá an t-ainm sin in úsáid cheanna."
 
 #: qt/aqt/deckconf.py:137
 msgid "The default configuration can't be removed."
-msgstr ""
+msgstr "Ní féidir réamhshocruithe a bhaint."
 
 #: pylib/anki/stats.py:886
 msgid "The division of cards in your deck(s)."
-msgstr ""
+msgstr "Miondealú na gcártaí i do phaca(í)."
 
 #: qt/aqt/addcards.py:164
 msgid "The first field is empty."
-msgstr ""
+msgstr "Tá an chéad réimse folamh."
 
 #: qt/aqt/importing.py:183
 msgid "The first field of the note type must be mapped."
-msgstr ""
+msgstr "Caithfidh an chéad réimse den chineál nóta a bheith mapáilte."
 
 #: qt/aqt/addons.py:280
 #, python-format
 msgid "The following add-ons are incompatible with %(name)s and have been disabled: %(found)s"
-msgstr ""
+msgstr "Díchumasaíodh na breiseán seo (nach n-oibríonn in éineacht le %(name)s ): %(found)s"
 
 #: qt/aqt/addons.py:1268
 msgid "The following add-ons have updates available. Install them now?"
-msgstr ""
+msgstr "Is féidir na breiseáin seo a nuashonrú. Déan anois é?"
 
 #: qt/aqt/utils.py:653
 #, python-format
 msgid "The following character can not be used: %s"
-msgstr ""
+msgstr "Ní féidir an carachtar seo a úsáid: %s"
 
 #: qt/aqt/addons.py:500
 msgid "The following conflicting add-ons were disabled:"
-msgstr ""
+msgstr "Díchumasaíodh na breiseáin seo nach n-oibríonn le chéile:"
 
 #: pylib/anki/stats.py:309
 msgid "The number of new cards you have added."
-msgstr ""
+msgstr "Líon na gcártaí nua a chruthaigh tú."
 
 #: pylib/anki/stats.py:354
 msgid "The number of questions you have answered."
-msgstr ""
+msgstr "Líon na gceisteanna ar thug tú freagra dóibh."
 
 #: pylib/anki/stats.py:228
 msgid "The number of reviews due in the future."
-msgstr ""
+msgstr "Líon na n-athbhreithnithe a bheidh le déanamh amach anseo"
 
 #: pylib/anki/stats.py:681
 msgid "The number of times you have pressed each button."
-msgstr ""
+msgstr "Cé mhéid uair ar bhrúigh tú gach cnaipe"
 
 #: qt/aqt/importing.py:524
 msgid "The provided file is not a valid .apkg file."
-msgstr ""
+msgstr "Níl an comhad sin bailí mar chomhad .apkg."
 
 #: qt/aqt/dyndeckconf.py:128
 msgid "The provided search did not match any cards. Would you like to revise it?"
-msgstr ""
+msgstr "Níor aimsíodh aon chárta. Déan cúardach eile?"
 
 #: qt/aqt/main.py:1341 qt/aqt/main.py:1360
-msgid "The requested change will require a full upload of the database when you next synchronize your collection. If you have reviews or other changes waiting on another device that haven't been synchronized here yet, they will be lost. Continue?"
+msgid ""
+"The requested change will require a full upload of the database when you next synchronize your collection. If you have reviews or other changes waiting on another device that haven't been "
+"synchronized here yet, they will be lost. Continue?"
 msgstr ""
+"Don athrú seo, teastóidh uaslódáil iomlán de do bhunachar sonraí ar an gcéad sioncronú eile. Má tá athbhreithnithe nó athruithe eile ar ghléas eile nár sioncronú fós, caillfear iad. Lean ar aghaidh?"
 
 #: pylib/anki/stats.py:380
 msgid "The time taken to answer the questions."
-msgstr ""
+msgstr "An méid ama caite ag freagrú na gceisteanna."
 
 #: qt/aqt/main.py:318
 msgid "There must be at least one profile."
-msgstr ""
+msgstr "Teastaíon próifíl amháin ar a laghad."
 
 #: qt/aqt/addons.py:507
 msgid "This add-on is not compatible with your version of Anki."
-msgstr ""
+msgstr "Ní oibríonn an breiseán seo leis an leagan seo de Anki."
 
 #: qt/aqt/importing.py:442
-msgid "This file does not appear to be a valid .apkg file. If you're getting this error from a file downloaded from AnkiWeb, chances are that your download failed. Please try again, and if the problem persists, please try again with a different browser."
-msgstr ""
+msgid ""
+"This file does not appear to be a valid .apkg file. If you're getting this error from a file downloaded from AnkiWeb, chances are that your download failed. Please try again, and if the problem "
+"persists, please try again with a different browser."
+msgstr "Ní comhad bailí .apkg é seo. Má fuair tú ó AnkiWeb é, seans gur theip ar an íoslódáil. Bain triail eile as, agus má tá an fadhb agat fós, bain triail as le brabhsálaí eile."
 
 #: qt/aqt/utils.py:406
 msgid "This file exists. Are you sure you want to overwrite it?"
-msgstr ""
+msgstr "Tá an comhad seo ann cheanna, agus forscríobhfar é. Cinnte?"
 
 #: qt/aqt/overview.py:188
 msgid "This is a special deck for studying outside of the normal schedule."
-msgstr ""
+msgstr "Paca ar leith é seo le haghaidh staidéir taobh amuigh den ghnáthsceideal."
 
 #: qt/aqt/clayout.py:630
 #, python-format
 msgid "This will create %d card. Proceed?"
 msgid_plural "This will create %d cards. Proceed?"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
-msgstr[4] ""
+msgstr[0] "Cruthóidh é seo %d chárta amháin. Lean ar aghaidh?"
+msgstr[1] "Cruthóidh é seo %d chárta. Lean ar aghaidh?"
+msgstr[2] "Cruthóidh é seo %d chárta. Lean ar aghaidh?"
+msgstr[3] "Cruthóidh é seo %d gcárta. Lean ar aghaidh?"
+msgstr[4] "Cruthóidh é seo %d cárta. Lean ar aghaidh?"
 
 #: qt/aqt/importing.py:462
 msgid "This will delete your existing collection and replace it with the data in the file you're importing. Are you sure?"
-msgstr ""
+msgstr "Scriosfaidh sé seo do chnuasach, agus cuirfear na sonraí ón gcomhad nua ina h-áit. An bhfuil tú cinnte?"
 
 #: qt/aqt/preferences.py:154
 msgid "This will reset any cards in learning, clear filtered decks, and change the scheduler version. Proceed?"
-msgstr ""
+msgstr "Athshocróidh sé seo cártaí atá á bhfoghlaim, glanfaidh sé pacaí scagtha, agus athróidh sé leagan an sceidealóir. Lean ar aghaidh?"
 
 #: qt/aqt/forms/preferences.py:294
 msgid "Timebox time limit"
-msgstr ""
+msgstr "Teorainn ama don tréimhse shocraithe"
 
 #: qt/aqt/overview.py:233
 msgid "To Review"
-msgstr ""
+msgstr "Le athbhreithniú"
 
 #: qt/aqt/forms/getaddons.py:49
 msgid "To browse add-ons, please click the browse button below.<br><br>When you've found an add-on you like, please paste its code below. You can paste multiple codes, separated by spaces."
 msgstr ""
+"Chun breiseáin a bhrabhsáil, buail an chnaipe 'brabhsáil' thíos.<br><br>Roghnaigh breiseán, agus greamaigh a chód anseo thíos. Is féidir roinnt códanna a ghreamaigh - úsáid spás chun iad a "
+"dheighilt."
 
 #: qt/aqt/editor.py:642
 msgid "To make a cloze deletion on an existing note, you need to change it to a cloze type first, via 'Notes>Change Note Type'"
-msgstr ""
+msgstr "Chun sliocht iomlánú a dhéanamh ar nóta, caithfear cineál an nóta a athrú i dtosach, trí 'Nótaí>Athraigh Cineál Nóta'"
 
 #: pylib/anki/stats.py:119 qt/aqt/browser.py:1261
 msgid "Today"
-msgstr ""
+msgstr "Inniu"
 
 #: qt/aqt/forms/addons.py:76
 msgid "Toggle Enabled"
-msgstr ""
+msgstr "Díchumasaigh/Athchumasaigh"
 
 #: qt/aqt/forms/browser.py:340
 msgid "Toggle Mark"
-msgstr ""
+msgstr "Scoránaigh Marc"
 
 #: qt/aqt/forms/browser.py:329
 msgid "Toggle Suspend"
-msgstr ""
+msgstr "Scoránaigh 'Ar Fionraí'"
 
 #: pylib/anki/stats.py:249 pylib/anki/stats.py:318 pylib/anki/stats.py:418
 msgid "Total"
-msgstr ""
+msgstr "Iomlán"
 
 #: pylib/anki/stats.py:873
 msgid "Total cards"
-msgstr ""
+msgstr "Cártaí uilig"
 
 #: pylib/anki/stats.py:874
 msgid "Total notes"
-msgstr ""
+msgstr "Nótaí uilig"
 
 #: qt/aqt/forms/findreplace.py:90
 msgid "Treat input as regular expression"
-msgstr ""
+msgstr "Slonn rialta (regex) atá san ionchur seo."
 
 #: qt/aqt/modelchooser.py:26 qt/aqt/forms/importing.py:105
 msgid "Type"
-msgstr ""
+msgstr "Cineál"
 
 #: qt/aqt/reviewer.py:388
 #, python-format
 msgid "Type answer: unknown field %s"
-msgstr ""
+msgstr "Réimse anaithnithid %s"
 
 #: qt/aqt/errors.py:69
 msgid "Unable to access Anki media folder. The permissions on your system's temporary folder may be incorrect."
-msgstr ""
+msgstr "Níl riocht ar fillteán meáin Anki. Seiceáil na ceadanna ar an bhfillteán sealadach ar do ríomhaire."
 
 #: qt/aqt/main.py:362
 msgid "Unable to move existing file to trash - please try restarting your computer."
-msgstr ""
+msgstr "Ní féidir an comhad a aistriú gon bhruscar - atosaigh an ríomhaire."
 
 #: qt/aqt/addons.py:427
 #, python-format
@@ -3177,221 +3169,225 @@ msgid ""
 "\n"
 "Debug info: %s"
 msgstr ""
+"Ní féidr breiseán a nuashonrú (nó a scriosadh). Atosaigh Anki leis an cnaipe SHIFT coinnithe síos, chun breiseán a díchumasú (go sealadach), agus bain triail eile as.\n"
+"\n"
+"Sonraí dífhabhtaithe: %s"
 
 #: qt/aqt/overview.py:261
 msgid "Unbury"
-msgstr ""
+msgstr "Tarraing amach (ábhar atá i bhfolach)"
 
 #: qt/aqt/editor.py:127
 msgid "Underline text (Ctrl+U)"
-msgstr ""
+msgstr "Folínigh (Ctrl+F)"
 
 #: qt/aqt/main.py:1044
 msgid "Undo"
-msgstr ""
+msgstr "Cealaigh"
 
 #: qt/aqt/main.py:1040
 #, python-format
 msgid "Undo %s"
-msgstr ""
+msgstr "Cealaigh %s"
 
 #: qt/aqt/addons.py:1014 qt/aqt/editor.py:841
 #, python-format
 msgid "Unexpected response code: %s"
-msgstr ""
+msgstr "Cód freagra mí-oiriúnach: %s"
 
 #: qt/aqt/addons.py:475
 msgid "Unknown error: {}"
-msgstr ""
+msgstr "Earráid anaithnid: {}"
 
 #: qt/aqt/importing.py:375
 msgid "Unknown file format."
-msgstr ""
+msgstr "Formáid anaithnid."
 
 #: pylib/anki/stats.py:860
 msgid "Unseen"
-msgstr ""
+msgstr "Nach bhfuil feicthe"
 
 #: qt/aqt/forms/importing.py:107
 msgid "Update existing notes when first field matches"
-msgstr ""
+msgstr "Nuashonraigh nótaí más ionann luach an chéad réimse"
 
 #: pylib/anki/importing/anki2.py:163
 msgid "Updated"
-msgstr ""
+msgstr "Nuashonraithe"
 
 #: qt/aqt/profiles.py:479
 msgid "User 1"
-msgstr ""
+msgstr "Úsáideoir 1"
 
 #: qt/aqt/forms/preferences.py:286
 msgid "User interface size"
-msgstr ""
+msgstr "Méid an chomhéadain"
 
 #: qt/aqt/about.py:104
 #, python-format
 msgid "Version %s"
-msgstr ""
+msgstr "Leagan %s"
 
 #: qt/aqt/forms/addons.py:73
 msgid "View Add-on Page"
-msgstr ""
+msgstr "Féach Leathanach na mBreiseán"
 
 #: qt/aqt/forms/addons.py:75
 msgid "View Files"
-msgstr ""
+msgstr "Amharc ar chomhaid"
 
 #: qt/aqt/main.py:733
 msgid "Waiting for editing to finish."
-msgstr ""
+msgstr "Ag fanacht ar eagarthóireacht"
 
 #: qt/aqt/editor.py:635
 msgid "Warning, cloze deletions will not work until you switch the type at the top to Cloze."
-msgstr ""
+msgstr "Rabhadh, Caithfear 'Iomlánú' a roghnadh mar chineál thuas chun go bhfeidhmeoidh sleachta iomlánaithe."
 
 #: qt/aqt/overview.py:137
 msgid "What would you like to unbury?"
-msgstr ""
+msgstr "Céard ar mhaith leat tarraingt amach?"
 
 #: qt/aqt/forms/preferences.py:284
 msgid "When adding, default to current deck"
-msgstr ""
+msgstr "De ghnáth, cuir cártaí nua leis an bpaca atá oscailte"
 
 #: qt/aqt/browser.py:1124 qt/aqt/browser.py:1257
 msgid "Whole Collection"
-msgstr ""
+msgstr "Cnuasach Iomlán"
 
 #: qt/aqt/update.py:63
 msgid "Would you like to download it now?"
-msgstr ""
+msgstr "Íoslódáil anois?"
 
 #: qt/aqt/about.py:214
 #, python-format
 msgid "Written by Damien Elmes, with patches, translation,    testing and design from:<p>%(cont)s"
-msgstr ""
+msgstr "Damian Elmes a scríobh, le paistí, aistriúcháin, tástáil agus dearadh ó:<p>%(cont)s"
 
 #: qt/aqt/forms/preferences.py:309
 msgid "You can restore backups via File>Switch Profile."
-msgstr ""
+msgstr "Chun cúltacaí a thabhairt ar ais: Comhad>Athraigh Próifíl"
 
 #: qt/aqt/addcards.py:173
 msgid "You have a cloze deletion note type but have not made any cloze deletions. Proceed?"
-msgstr ""
+msgstr "Is 'sliocht iomlánú' e an cineál seo nóta, ach níl sliocht iomlánú curtha ann. Lean ar aghaidh?"
 
 #: qt/aqt/reviewer.py:841
 msgid "You haven't recorded your voice yet."
-msgstr ""
+msgstr "Níor thaifead tú do ghuth fós."
 
 #: qt/aqt/browser.py:987
 msgid "You must have at least one column."
-msgstr ""
+msgstr "Teastaíonn colún amháin (ar a laghad)."
 
-#: pylib/anki/stats.py:214 pylib/anki/stats.py:347 pylib/anki/stats.py:367
-#: pylib/anki/stats.py:687
+#: pylib/anki/stats.py:214 pylib/anki/stats.py:347 pylib/anki/stats.py:367 pylib/anki/stats.py:687
 msgid "Young"
-msgstr ""
+msgstr "Óg"
 
 #: pylib/anki/stats.py:859
 msgid "Young+Learn"
-msgstr ""
+msgstr "Óg+Foghlaim"
 
 #: qt/aqt/deckconf.py:113
 msgid "Your changes will affect multiple decks. If you wish to change only the current deck, please add a new options group first."
-msgstr ""
+msgstr "Beidh tionchar ag na hathruithe seo ar roinnt pacaí. Chun an paca seo amháin a athrú, cruthaigh roghaghrúpa nua."
 
 #: qt/aqt/main.py:576
-msgid "Your collection file appears to be corrupt. This can happen when the file is copied or moved while Anki is open, or when the collection is stored on a network or cloud drive. If problems persist after restarting your computer, please open an automatic backup from the profile screen."
+msgid ""
+"Your collection file appears to be corrupt. This can happen when the file is copied or moved while Anki is open, or when the collection is stored on a network or cloud drive. If problems persist "
+"after restarting your computer, please open an automatic backup from the profile screen."
 msgstr ""
+"Tá comhad an chnuasaigh truaillithe. Tig leis seo a tharlú nuair a chóipeáiltear (nó a bhogtar) an comhad agus Anki ar oscailt, nó nuair atá an cnuasamh lonnaithe ar thiomántán líonra nó ar "
+"néalthiomántán. Má tá an fadhb seo fós ann tar éis an ríomhaire a atosnú, oscail cúltacú uathoibríoch ón bhfuinneog phróifíl."
 
 #: qt/aqt/errors.py:99
 msgid "Your computer's storage may be full. Please delete some unneeded files, then try again."
-msgstr ""
+msgstr "An bhfuil an stóras lán ar an ríomhaire? Déan spás agus bain triail eile as."
 
 #: qt/aqt/errors.py:82
 msgid "Your firewall or antivirus program is preventing Anki from creating a connection to itself. Please add an exception for Anki."
-msgstr ""
+msgstr "Tá balla dóiteáin nó clár frithvíreas ag cur bac ar Anki ó nasc a dhéanamh leis féin. Cruthaigh eisceacht do Anki."
 
 #: pylib/anki/decks.py:382
 msgid "[no deck]"
-msgstr ""
+msgstr "[gan paca]"
 
 #: qt/aqt/forms/preferences.py:308
 msgid "backups"
-msgstr ""
+msgstr "cúltacaí"
 
 #: pylib/anki/stats.py:319 qt/aqt/customstudy.py:53
 msgid "cards"
-msgstr ""
+msgstr "cártaí"
 
 #: qt/aqt/customstudy.py:101
 msgid "cards from the deck"
-msgstr ""
+msgstr "cártaí ón bpaca"
 
 #: qt/aqt/forms/dyndconf.py:137 qt/aqt/forms/dyndconf.py:141
 msgid "cards selected by"
-msgstr ""
+msgstr "cártaí roghnaithe de réir"
 
 #: qt/aqt/exporting.py:110 qt/aqt/forms/stats.py:81
 msgid "collection"
-msgstr ""
+msgstr "cnuasach"
 
 #. T: abbreviation of day
 #: pylib/anki/stats.py:982
 msgid "d"
-msgstr ""
+msgstr "l"
 
-#: qt/aqt/customstudy.py:90 qt/aqt/customstudy.py:94 qt/aqt/customstudy.py:97
-#: qt/aqt/forms/dconf.py:348 qt/aqt/forms/dconf.py:349
-#: qt/aqt/forms/dconf.py:356 qt/aqt/forms/dconf.py:368
+#: qt/aqt/customstudy.py:90 qt/aqt/customstudy.py:94 qt/aqt/customstudy.py:97 qt/aqt/forms/dconf.py:348 qt/aqt/forms/dconf.py:349 qt/aqt/forms/dconf.py:356 qt/aqt/forms/dconf.py:368
 #: qt/aqt/forms/reschedule.py:77
 msgid "days"
-msgstr ""
+msgstr "lá"
 
 #: qt/aqt/forms/stats.py:80
 msgid "deck"
-msgstr ""
+msgstr "paca"
 
 #: pylib/anki/stats.py:949 qt/aqt/forms/stats.py:84
 msgid "deck life"
-msgstr ""
+msgstr "saol an phaca"
 
 #: qt/aqt/browser.py:2012
 msgid "duplicate"
-msgstr ""
+msgstr "dúblach"
 
 #: pylib/anki/stats.py:413
 msgid "hours"
-msgstr ""
+msgstr "uaire"
 
 #: qt/aqt/forms/preferences.py:295
 msgid "hours past midnight"
-msgstr ""
+msgstr "uaire tar éis meán oíche"
 
 #: qt/aqt/forms/dconf.py:365
 msgid "lapses"
-msgstr ""
+msgstr "clistí"
 
 #: qt/aqt/importing.py:264
 #, python-format
 msgid "mapped to <b>%s</b>"
-msgstr ""
+msgstr "mapáilte go <b>%s</b>"
 
 #: qt/aqt/importing.py:262
 msgid "mapped to <b>Tags</b>"
-msgstr ""
+msgstr "mapáilte go <b>Clibeanna</b>"
 
 #: qt/aqt/forms/preferences.py:293 qt/aqt/forms/preferences.py:297
 msgid "mins"
-msgstr ""
+msgstr "nóim"
 
 #: pylib/anki/stats.py:384 qt/aqt/forms/dyndconf.py:146
 msgid "minutes"
-msgstr ""
+msgstr "nóiméad"
 
 #. T: abbreviation of month
 #: pylib/anki/stats.py:986
 msgid "mo"
-msgstr ""
+msgstr "mí"
 
 #: pylib/anki/stats.py:252 pylib/anki/stats.py:360
 msgid "reviews"
@@ -3403,12 +3399,12 @@ msgstr "soicind"
 
 #: qt/aqt/stats.py:64 qt/aqt/stats.py:142
 msgid "stats"
-msgstr ""
+msgstr "staitisticí"
 
 #. T: abbreviation of week
 #: pylib/anki/stats.py:984
 msgid "w"
-msgstr ""
+msgstr "seachtaine"
 
 #: pylib/anki/stats.py:944
 msgid "whole collection"
@@ -3416,7 +3412,7 @@ msgstr "an cnuasach ar fad"
 
 #: qt/aqt/forms/reschedule.py:76
 msgid "~"
-msgstr ""
+msgstr "-"
 
 #~ msgid "Congratulations! You have finished this deck for now."
 #~ msgstr "Comhghairdeas! Tá an paca seo críochnaithe agat go fóill."
