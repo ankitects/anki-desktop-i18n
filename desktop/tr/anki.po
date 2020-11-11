@@ -17,37 +17,417 @@ msgstr ""
 "X-Crowdin-Project: anki\n"
 "X-Generator: Pontoon\n"
 
-#: qt/aqt/importing.py:403
-msgid "    Invalid file. Please restore from backup."
-msgstr "Geçersiz dosya. Lütfen yedekten yükleyin."
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/about.py:45
+msgid "About Anki"
+msgstr "Anki Hakkında"
 
-#: qt/aqt/importing.py:412
-#, fuzzy
-msgid "    Unable to import from a read-only file."
-msgstr "Salt okunur bir dosyadan içe aktarılamıyor."
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addcards.py:60
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:103
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/profiles.py:82
+#: qt/aqt/addcards.py:38 qt/aqt/addcards.py:70 qt/aqt/deckconf.py:89
+#: qt/aqt/models.py:57 qt/aqt/studydeck.py:46 qt/aqt/toolbar.py:112
+msgid "Add"
+msgstr "Ekle"
 
-#: qt/aqt/addons.py:313
-msgid " (disabled)"
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addfield.py:62
+#: qt/aqt/clayout.py:389
+msgid "Add Field"
+msgstr "Alan Ekle"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addfield.py:63
+msgid "Field:"
+msgstr "Alan:"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addfield.py:64
+msgid "Size:"
+msgstr "Boyut:"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addfield.py:65
+msgid "Font:"
+msgstr "Yazı tipi:"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addmodel.py:46
+msgid "Add Note Type"
+msgstr "Not Türü Ekle"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addonconf.py:73
+msgid "Configuration"
 msgstr ""
 
-#: qt/aqt/clayout.py:694
-msgid " (off)"
-msgstr " (kapalı)"
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:70
+msgid "Changes will take effect when Anki is restarted."
+msgstr ""
 
-#: qt/aqt/clayout.py:692
-msgid " (on)"
-msgstr " (açık)"
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:71
+msgid "Get Add-ons..."
+msgstr ""
 
-#: qt/aqt/deckbrowser.py:289
-#, python-format
-msgid " It has %d card."
-msgid_plural " It has %d cards."
-msgstr[0] " %d kart bulunuyor."
-msgstr[1] " %d kart bulunuyor."
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:72
+msgid "Install from file..."
+msgstr ""
 
-#. T: include a font for your language on Windows, eg: "Segoe UI", "MS Mincho"
-#: qt/aqt/webview.py:379
-msgid "\"Segoe UI\""
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:73
+msgid "Check for Updates"
+msgstr ""
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:74
+msgid "View Add-on Page"
+msgstr ""
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:75
+msgid "Config"
+msgstr ""
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:76
+msgid "View Files"
+msgstr ""
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:77
+msgid "Toggle Enabled"
+msgstr ""
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:78
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:332
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:104
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/profiles.py:84
+#: qt/aqt/deckbrowser.py:234 qt/aqt/deckconf.py:91 qt/aqt/models.py:59
+#: qt/aqt/reviewer.py:812
+msgid "Delete"
+msgstr "Sil"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:297
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:138
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:142
+#: qt/aqt/browser.py:1979
+msgid "Search"
+msgstr "Ara"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:298
+#: qt/aqt/previewer.py:65
+msgid "Preview"
+msgstr "Önizleme"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:299
+msgid "Filter..."
+msgstr ""
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:300
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:135
+msgid "&Edit"
+msgstr "Dü&zenle"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:301
+msgid "&Go"
+msgstr "&Git"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:302
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:134
+msgid "&Help"
+msgstr "&Yardım"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:303
+msgid "&Cards"
+msgstr ""
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:304
+msgid "Flag"
+msgstr ""
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:305
+msgid "&Notes"
+msgstr ""
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:306
+msgid "&Reschedule..."
+msgstr "&Yeniden Planlamak..."
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:307
+msgid "Select &All"
+msgstr "&Tümünü Seç"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:308
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:142
+msgid "&Undo"
+msgstr "&Geri Al"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:309
+msgid "&Invert Selection"
+msgstr "S&eçimi Tersine Çevir"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:310
+msgid "&Find"
+msgstr "&Bul"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:311
+msgid "N&ote"
+msgstr ""
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:312
+msgid "&Next Card"
+msgstr "Sonraki &Kart"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:313
+msgid "&Previous Card"
+msgstr "&Önceki Kart"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:314
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:149
+msgid "&Guide..."
+msgstr "&Kılavuz"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:315
+msgid "Change Note Type..."
+msgstr "Not Tipi Değiştir..."
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:316
+msgid "Select &Notes"
+msgstr "Seçim & Notlar"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:317
+msgid "Find and Re&place..."
+msgstr "Bul ve Değ&iştir..."
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:318
+msgid "&Cram..."
+msgstr "&Ezber..."
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:319
+msgid "Fil&ter"
+msgstr ""
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:320
+msgid "Card List"
+msgstr "Kart Listesi"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:321
+msgid "Find &Duplicates..."
+msgstr "&Kopyaları Bul..."
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:322
+msgid "Reposition..."
+msgstr "Yeniden konumlandır..."
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:323
+msgid "First Card"
+msgstr "İlk Kart"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:324
+msgid "Home"
+msgstr "Ana Sayfa"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:325
+msgid "Last Card"
+msgstr "Son Kart"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:326
+msgid "End"
+msgstr "Sonlandır"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:327
+#: qt/aqt/addcards.py:75
+msgid "Close"
+msgstr "Kapat"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:328
+msgid "&Info..."
+msgstr ""
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:329
+msgid "Add Tags..."
+msgstr ""
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:330
+msgid "Remove Tags..."
+msgstr ""
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:331
+msgid "Toggle Suspend"
+msgstr ""
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:333
+msgid "Add Notes..."
+msgstr ""
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:334
+msgid "Change Deck..."
+msgstr ""
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:335
+#: qt/aqt/browser.py:1284 qt/aqt/reviewer.py:701
+msgid "Red Flag"
+msgstr ""
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:336
+#: qt/aqt/browser.py:1285 qt/aqt/reviewer.py:707
+msgid "Orange Flag"
+msgstr ""
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:337
+#: qt/aqt/browser.py:1286 qt/aqt/reviewer.py:713
+msgid "Green Flag"
+msgstr ""
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:338
+#: qt/aqt/browser.py:1287 qt/aqt/reviewer.py:719
+msgid "Blue Flag"
+msgstr ""
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:339
+#: qt/aqt/browser.py:1031
+msgid "Sidebar"
+msgstr ""
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:340
+msgid "Clear Unused Tags"
+msgstr ""
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:341
+msgid "Manage Note Types..."
+msgstr "Not Tiplerini Yönet..."
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:342
+msgid "Toggle Mark"
+msgstr ""
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:343
+msgid "&Export Notes..."
+msgstr ""
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:344
+msgid "Ctrl+Shift+E"
+msgstr ""
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browserdisp.py:71
+msgid "Browser Appearance"
+msgstr "Tarayıcı Görünümü"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browserdisp.py:72
+msgid "Override front template:"
+msgstr "Ön şablonu değiştir:"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browserdisp.py:73
+msgid "Override back template:"
+msgstr "Arka şablonu değiştir:"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browserdisp.py:74
+msgid "Override font:"
+msgstr "Yazi tipini değiştir:"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browseropts.py:71
+msgid "Browser Options"
+msgstr "Tarayıcı Seçenekleri"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browseropts.py:72
+msgid "<b>Font</b>:"
+msgstr "<b>Yazıtipi</b>:"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browseropts.py:73
+msgid "<b>Font Size</b>:"
+msgstr "Yazı Büyüklüğü"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browseropts.py:74
+msgid "<b>Line Size</b>:"
+msgstr "<b>Çizgi Tipi</b>:"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browseropts.py:75
+msgid "Search within formatting (slow)"
+msgstr "Biçimlemeyi içererek ara (yavaş)"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/changemap.py:43
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:105
+#: qt/aqt/importing.py:103 qt/aqt/importing.py:189 qt/aqt/importing.py:311
+msgid "Import"
+msgstr "İçeri Aktar"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/changemap.py:44
+msgid "Target field:"
+msgstr "Hedef alan:"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/changemodel.py:111
+#: qt/aqt/browser.py:2270
+msgid "Change Note Type"
+msgstr "Not Tipi Değiştir"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/changemodel.py:112
+msgid "Current note type:"
+msgstr "Mevcut not tipi:"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/changemodel.py:113
+msgid "New note type:"
+msgstr "Yeni not tipi:"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/changemodel.py:114
+#: pylib/anki/stats.py:310 pylib/anki/stats.py:962 qt/aqt/editor.py:134
+msgid "Cards"
+msgstr "Kartlar"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/changemodel.py:115
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:102
+#: qt/aqt/editor.py:126 qt/aqt/fields.py:23
+msgid "Fields"
+msgstr "Alanlar"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/clayout_top.py:54
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/template.py:73
+msgid "Form"
+msgstr ""
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:103
+#: qt/aqt/overview.py:258
+msgid "Custom Study"
+msgstr "Özel Çalışma"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:104
+msgid "Review ahead"
+msgstr "İleride gözden geçir"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:105
+msgid "Review forgotten cards"
+msgstr "Unutulan kartları gözden geçir"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:106
+msgid "Increase today's new card limit"
+msgstr "Bugünün yeni kart limitini artırın"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:107
+msgid "Increase today's review card limit"
+msgstr "Bugünün gözden geçirilmiş kart limitini artırın"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:108
+msgid "Study by card state or tag"
+msgstr "Kart durumuna veya etikete göre çalış"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:109
+msgid "Preview new cards"
+msgstr "Yeni kartları önizle"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:113
+msgid "New cards only"
+msgstr "Sadece yeni kartlar"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:115
+msgid "Due cards only"
+msgstr "Sadece geçmiş kartlar"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:117
+msgid "All review cards in random order"
+msgstr ""
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:119
+msgid "All cards in random order (don't reschedule)"
+msgstr ""
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:340
+msgid "Options group:"
+msgstr "Seçenekler grubu:"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:341
+#: qt/aqt/browser.py:1337
+msgid "Manage..."
+msgstr ""
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:342
+msgid "Starting ease"
 msgstr ""
 
 #: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:343
@@ -59,40 +439,920 @@ msgstr ""
 msgid "%"
 msgstr ""
 
-#: pylib/anki/stats.py:796 pylib/anki/stats.py:818
-msgid "% Correct"
-msgstr "Doğru yüzdesi."
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:344
+msgid "Order"
+msgstr "Sıralama"
 
-#: pylib/anki/stats.py:1112
-#, python-format
-msgid "%(a)0.1f %(b)s/day"
-msgstr "%(a)0.1f %(b)s/gün"
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:345
+msgid "Easy interval"
+msgstr "Kolay süre"
 
-#. T: name is a card type name. n it's order in the list of card type.
-#. T: this is shown in browser's filter, when seeing the list of card type of a note type.
-#: qt/aqt/browser.py:1356
-#, python-format
-msgid "%(n)d: %(name)s"
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:346
+msgid "Graduating interval"
+msgstr "Süreyi bitirme"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:347
+msgid "New cards/day"
+msgstr "Yeni kartlar/gün"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:348
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:364
+msgid "Steps (in minutes)"
+msgstr "Adımlar (dakikada)"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:349
+msgid "Bury related new cards until the next day"
+msgstr "Bir sonraki güne kadar ilgili kartları gizle"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:350
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:351
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:358
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:370
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reschedule.py:79
+#: qt/aqt/customstudy.py:90 qt/aqt/customstudy.py:94 qt/aqt/customstudy.py:97
+msgid "days"
+msgstr "günler"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:352
+msgid "New Cards"
+msgstr "Yeni Kartlar"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:353
+msgid "Easy bonus"
+msgstr "Kolay ikramiye"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:355
+msgid "Interval modifier"
+msgstr "Süre ayarlayıcı"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:356
+msgid "Maximum reviews/day"
+msgstr "En fazla gözden geçirme/gün"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:357
+msgid "Maximum interval"
+msgstr "En fazla süre"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:360
+msgid "Bury related reviews until the next day"
+msgstr "Ertesi güne kadar gizli kartlar gözden geçirilir"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:361
+msgid "Hard interval"
 msgstr ""
 
-#: pylib/anki/stats.py:418
-#, python-format
-msgid "%(tot)s %(unit)s"
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:363
+#: pylib/anki/stats.py:819 qt/aqt/browser.py:751
+msgid "Reviews"
+msgstr "Tekrarlar"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:365
+msgid "New interval"
+msgstr "Yeni süre"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:366
+msgid "Leech threshold"
+msgstr "Sömürü eşiği"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:367
+msgid "lapses"
 msgstr ""
 
-#: pylib/anki/stats.py:260 pylib/anki/stats.py:318 qt/aqt/clayout.py:560
-#, python-format
-msgid "%d card"
-msgid_plural "%d cards"
-msgstr[0] "%d kart"
-msgstr[1] "%d kart"
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:368
+msgid "Leech action"
+msgstr "Sömürü hareketi"
 
-#: qt/aqt/exporting.py:192
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:369
+msgid "Minimum interval"
+msgstr "En düşük süre"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:371
+#: qt/aqt/reviewer.py:729
+msgid "Suspend Card"
+msgstr "Kartı Askıya Al"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:372
+msgid "Tag Only"
+msgstr "Sadece Etiket"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:374
+#: qt/aqt/browser.py:752
+msgid "Lapses"
+msgstr "Sapmalar"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:375
+msgid "Ignore answer times longer than"
+msgstr "Cevap süresinden uzun olanları yok say"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:376
+msgid "seconds"
+msgstr "saniye"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:377
+msgid "Show answer timer"
+msgstr "Cevap zamanını göster"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:378
+msgid "Automatically play audio"
+msgstr "Sesi otomatik olarak çal"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:379
+msgid "Always include question side when replaying audio"
+msgstr ""
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:380
+msgid "General"
+msgstr "Genel"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:381
+msgid "Description to show on overview screen, for current deck:"
+msgstr ""
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:382
+msgid "Description"
+msgstr "Açıklama"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/debug.py:56
+msgid "Debug Console"
+msgstr "Hata Ayıklama Konsolu"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:135
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/editaddon.py:42
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/editcurrent.py:43
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/progress.py:42
+msgid "Dialog"
+msgstr "Pencere"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:136
+#: qt/aqt/browser.py:1319
+msgid "Filter"
+msgstr "Filtre"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:137
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:141
+msgid "Limit to"
+msgstr "Sınırla"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:139
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:143
+msgid "cards selected by"
+msgstr ""
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:140
+msgid "Filter 2"
+msgstr ""
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:144
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:110
+#: qt/aqt/clayout.py:111 qt/aqt/deckbrowser.py:230 qt/aqt/deckconf.py:37
+#: qt/aqt/dyndeckconf.py:25 qt/aqt/overview.py:252 qt/aqt/reviewer.py:732
+msgid "Options"
+msgstr "Seçenekler"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:145
+msgid "Reschedule cards based on my answers in this deck"
+msgstr "Bu destedeki cevaplarım üzerine dayanarak kartları yeniden programla"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:146
+msgid "Enable second filter"
+msgstr ""
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:147
+msgid "Repeat failed cards after"
+msgstr ""
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:148
+#: pylib/anki/stats.py:384
+msgid "minutes"
+msgstr "dakîka"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:149
+msgid "Custom steps (in minutes)"
+msgstr ""
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/edithtml.py:39
+msgid "HTML Editor"
+msgstr "HTML Düzenleyici"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/exporting.py:76
+#: qt/aqt/deckbrowser.py:232 qt/aqt/exporting.py:124
+msgid "Export"
+msgstr "Dışarıya Aktar"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/exporting.py:77
+msgid "<b>Export format</b>:"
+msgstr "<b>Dışarıya Aktarım Biçimi</b>:"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/exporting.py:78
+msgid "<b>Include</b>:"
+msgstr "<b>Dahil</b>:"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/exporting.py:79
+msgid "Include scheduling information"
+msgstr "Zamanlama bilgisini dahil et"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/exporting.py:80
+msgid "Include media"
+msgstr "Ortam Ekle"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/exporting.py:81
+msgid "Include tags"
+msgstr "Etiketleri dahil et"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/exporting.py:82
+msgid "Include HTML and media references"
+msgstr ""
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:105
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/profiles.py:83
+#: qt/aqt/deckbrowser.py:228 qt/aqt/deckconf.py:93 qt/aqt/models.py:58
+#: qt/aqt/sidebar.py:74
+msgid "Rename"
+msgstr "Yeniden Adlandır"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:106
+#: qt/aqt/browser.py:1751
+msgid "Reposition"
+msgstr "Yeniden Konumlandır"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:107
+msgid "Editing Font"
+msgstr "Yazı tipi düzenlemesi"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:108
+msgid "Reverse text direction (RTL)"
+msgstr "Yazı yönünü değiştir (RTL)"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:109
+msgid "Remember last input when adding"
+msgstr "Eklerken son girişi hatırla"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:111
+msgid "Sort by this field in the browser"
+msgstr "Tarayıcıda bu alana göre sırala"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/finddupes.py:71
+msgid "Find Duplicates"
+msgstr "Kopyaları Bul"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/finddupes.py:72
+msgid "Optional filter:"
+msgstr ""
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/finddupes.py:73
+msgid "Search in:"
+msgstr ""
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/findreplace.py:87
+#: qt/aqt/browser.py:1909
+msgid "Find and Replace"
+msgstr "Bul ve Değiştir"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/findreplace.py:88
+msgid "<b>Find</b>:"
+msgstr "<b>Bul</b>:"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/findreplace.py:89
+msgid "<b>Replace With</b>:"
+msgstr "<b>...İle Değiştir</b>"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/findreplace.py:90
+msgid "<b>In</b>:"
+msgstr "<b>İçeride</b>:"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/findreplace.py:91
+msgid "Treat input as regular expression"
+msgstr ""
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/findreplace.py:92
+msgid "Ignore case"
+msgstr "Yok sayma durumu"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/getaddons.py:50
+msgid "Install Add-on"
+msgstr "Eklenti yükleyin"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/getaddons.py:51
+msgid "To browse add-ons, please click the browse button below.<br><br>When you've found an add-on you like, please paste its code below. You can paste multiple codes, separated by spaces."
+msgstr ""
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/getaddons.py:52
+msgid "Code:"
+msgstr "Kod:"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:106
+msgid "Import options"
+msgstr "İçe aktarma seçenekleri"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:107
+#: qt/aqt/modelchooser.py:40
+msgid "Type"
+msgstr "Tip"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:108
+#: qt/aqt/browser.py:743 qt/aqt/deckbrowser.py:147 qt/aqt/deckchooser.py:29
+msgid "Deck"
+msgstr "Deste"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:109
+msgid "Update existing notes when first field matches"
+msgstr ""
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:110
+msgid "Ignore lines where first field matches existing note"
+msgstr "İlk alanı mevcut not ile eşleşen satırları yok say"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:111
+msgid "Import even if existing note has same first field"
+msgstr "Mevcut not aynı ilk alana sahip olmasına rağmen içe aktar"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:112
+msgid "Allow HTML in fields"
+msgstr "Alanlarda HTML kodlarına izin ver"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:113
+msgid "Tag modified notes:"
+msgstr ""
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:114
+msgid "Field mapping"
+msgstr "Alan eşleştirme"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:133
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/setgroup.py:40
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/setlang.py:41
+msgid "Anki"
+msgstr ""
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:136
+msgid "&File"
+msgstr "&Dosya"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:137
+msgid "&Tools"
+msgstr "&Araçlar"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:138
+msgid "E&xit"
+msgstr "Kapat"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:139
+msgid "&Preferences..."
+msgstr "&Seçenekler..."
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:140
+msgid "Configure interface language and options"
+msgstr "Dil ve seçenekler arayüzünü yapılandır"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:141
+msgid "&About..."
+msgstr "&Hakkında..."
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:143
+msgid "Check &Media..."
+msgstr "Kontrol & Veritabanı"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:144
+msgid "Check the files in the media directory"
+msgstr "Medya dizinindeki dosyaları kontrol edin"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:145
+msgid "&Open Add-ons Folder..."
+msgstr "&Eklentiler Klasörünü Aç..."
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:146
+msgid "&Support Anki..."
+msgstr "&Anki'ye Destek Ol..."
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:147
+msgid "&Browse and Install..."
+msgstr "&Göz at ve Yükle"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:148
+msgid "&Check Database"
+msgstr ""
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:150
+msgid "&Switch Profile"
+msgstr ""
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:151
+msgid "&Export..."
+msgstr "&Dışa Aktar..."
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:152
+msgid "&Import..."
+msgstr "&İçe Aktar..."
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:153
+msgid "Study Deck..."
+msgstr ""
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:154
+msgid "Empty Cards..."
+msgstr "Kartları kaldır"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:155
+msgid "Create Filtered Deck..."
+msgstr "Filtreli Deste Yaratın..."
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:156
+msgid "Manage Note Types"
+msgstr ""
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:157
+msgid "Add-ons"
+msgstr ""
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/modelopts.py:66
+msgid "Create scalable images with dvisvgm"
+msgstr ""
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/modelopts.py:67
+msgid "Header"
+msgstr "Başlık"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/modelopts.py:68
+msgid "Footer"
+msgstr "Dipnot"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/modelopts.py:69
+#: qt/aqt/editor.py:956
+msgid "LaTeX"
+msgstr ""
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/models.py:56
+#: qt/aqt/browser.py:1335 qt/aqt/models.py:36
+msgid "Note Types"
+msgstr "Not Tipleri"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:278
+msgid "Preferences"
+msgstr "Seçenekler"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:279
+msgid "Hardware acceleration (faster, may cause display issues)"
+msgstr ""
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:280
+msgid "Show play buttons on cards with audio"
+msgstr ""
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:281
+msgid "Interrupt current audio when answering"
+msgstr ""
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:282
+msgid "Paste clipboard images as PNG"
+msgstr "Pano resmini PNG olarak yapıştır"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:283
+msgid "Paste without shift key strips formatting"
+msgstr ""
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:284
+msgid "Night mode"
+msgstr ""
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:285
+msgid "When adding, default to current deck"
+msgstr ""
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:286
+msgid "Change deck depending on note type"
+msgstr "Not tipine göre desteyi değiştir"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:287
+msgid "User interface size"
+msgstr ""
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:289
+msgid "Basic"
+msgstr "Temel"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:290
+msgid "Show next review time above answer buttons"
+msgstr "Yanıt düğmelerinin üstünde sonraki inceleme süresini göster"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:291
+msgid "Show remaining card count during review"
+msgstr "İnceleme sırasında kalan kart sayısını göster"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:292
+msgid "Show learning cards with larger steps before reviews"
+msgstr ""
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:293
+msgid "Anki 2.1 scheduler (beta)"
+msgstr ""
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:294
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:298
+msgid "mins"
+msgstr "dk"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:295
+msgid "Timebox time limit"
+msgstr ""
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:296
+msgid "hours past midnight"
+msgstr ""
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:297
+msgid "Learn ahead limit"
+msgstr "İleri limiti öğrenme"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:299
+msgid "Next day starts at"
+msgstr "Bir sonraki gün başlar"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:300
+#, fuzzy
+msgid "Scheduling"
+msgstr "Yeniden Planlama"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:301
+msgid "<b>Synchronisation</b>"
+msgstr "<b>Eşitleme</b>"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:302
+msgid "Synchronize audio and images too"
+msgstr "Ses ve resimleri de senkronize edin"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:303
+msgid "Automatically sync on profile open/close"
+msgstr "Açma/kapama anında profili otomatik olarak senkronize et"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:304
+msgid "Periodically sync media"
+msgstr ""
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:305
+msgid "On next sync, force changes in one direction"
+msgstr "Bir sonraki senkronizasyonda değişiklikleri tek yönlü yap"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:306
+msgid "Network"
+msgstr "Ağ"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:307
+#, fuzzy
+msgid "<html><head/><body><p><span style=\" font-weight:600;\">Backups</span><br/>Anki will create a backup of your collection each time it is closed.</p></body></html>"
+msgstr "<b>Yedekler</b><br>Anki her kapandığında ya da senkronize edildiğinde koleksiyonunuzun yedeğini alacak."
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:308
+msgid "Keep"
+msgstr "Koru"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:309
+msgid "backups"
+msgstr ""
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:310
+msgid "You can restore backups via File>Switch Profile."
+msgstr ""
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:311
+msgid "Note: Media is not backed up. Please create a periodic backup of your Anki folder to be safe."
+msgstr "Not: İçerik yedeklenmedi. Güvenlik için lütfen Anki klasörünüzün periyodik yedeklemesini oluşturun."
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:312
+msgid "Some settings will take effect after you restart Anki."
+msgstr "Bazı ayarlar Anki yeniden başlatıktan sonra geçerli olacaktır."
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:313
+msgid "Backups"
+msgstr "Yedekler"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/profiles.py:80
+msgid "Profiles"
+msgstr "Profiller"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/profiles.py:81
+msgid "Open"
+msgstr "Aç"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/profiles.py:85
+msgid "Quit"
+msgstr "Çık"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/profiles.py:86
+msgid "Open Backup..."
+msgstr ""
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reposition.py:72
+msgid "Reposition New Cards"
+msgstr "Yeni kartları yerleştir"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reposition.py:73
+msgid "Start position:"
+msgstr "Başlangıç konumu"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reposition.py:74
+msgid "Step:"
+msgstr "Adım:"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reposition.py:75
+msgid "Randomize order"
+msgstr "Karışık Sıra"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reposition.py:76
+msgid "Shift position of existing cards"
+msgstr "Varolan kartların yerini değiştir"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reschedule.py:75
+#: qt/aqt/browser.py:1777
+msgid "Reschedule"
+msgstr "Yeniden Planlama"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reschedule.py:76
+msgid "Place at end of new card queue"
+msgstr "Yeni kart sırasının sonuna yerleştir"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reschedule.py:77
+msgid "Place in review queue with interval between:"
+msgstr "Gözden geçirme sırasına aralıkla yerleştir:"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reschedule.py:78
+msgid "~"
+msgstr ""
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/setgroup.py:41
+msgid "Move cards to deck:"
+msgstr "Kartları desteye taşı:"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/setlang.py:42
+msgid "Interface language:"
+msgstr "Arayüz dili:"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/stats.py:80
+msgid "Statistics"
+msgstr "İstatistikler"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/stats.py:81
+msgid "deck"
+msgstr "deste"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/stats.py:82
+#: qt/aqt/exporting.py:110
+msgid "collection"
+msgstr ""
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/stats.py:83
+#: pylib/anki/stats.py:949
+msgid "1 month"
+msgstr "1 ay"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/stats.py:84
+#: pylib/anki/stats.py:949
+msgid "1 year"
+msgstr "1 yıl"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/stats.py:85
+#: pylib/anki/stats.py:949
+msgid "deck life"
+msgstr ""
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/studydeck.py:47
+msgid "Study Deck"
+msgstr ""
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/studydeck.py:48
+msgid "Filter:"
+msgstr "Filtre:"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/taglimit.py:62
+msgid "Selective Study"
+msgstr "Seçmeli Çalışma"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/taglimit.py:63
+msgid "Require one or more of these tags:"
+msgstr "Bu etiketlerden bir veya daha fazlası gerekli:"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/taglimit.py:64
+msgid "Select tags to exclude:"
+msgstr "Geride kalan etiketleri seç"
+
+#: pylib/anki/collection.py:577 qt/aqt/browser.py:1278
+msgid "Review"
+msgstr "Gözden Geçir"
+
+#: pylib/anki/consts.py:93
+msgid "Show new cards in random order"
+msgstr "Yeni kartları rastgele sırada göster"
+
+#: pylib/anki/consts.py:94
+msgid "Show new cards in order added"
+msgstr "Yeni kartları eklendiği sırada göster"
+
+#: pylib/anki/consts.py:100
+msgid "Mix new cards and reviews"
+msgstr "Yeni kartları ve gözden geçirmeleri karıştır"
+
+#: pylib/anki/consts.py:101
+msgid "Show new cards after reviews"
+msgstr "Yeni kartları gözden geçirmelerden sonra göster"
+
+#: pylib/anki/consts.py:102
+msgid "Show new cards before reviews"
+msgstr "Yeni kartları gözden geçirmelerden önce göster"
+
+#: pylib/anki/consts.py:108
+msgid "Center"
+msgstr "Ortala"
+
+#: pylib/anki/consts.py:109
+msgid "Left"
+msgstr "Sol"
+
+#: pylib/anki/consts.py:110
+msgid "Right"
+msgstr "Sağ"
+
+#: pylib/anki/consts.py:116
+msgid "Oldest seen first"
+msgstr "En eski görülen ilk"
+
+#: pylib/anki/consts.py:117
+msgid "Random"
+msgstr "Rastgele"
+
+#: pylib/anki/consts.py:118
+msgid "Increasing intervals"
+msgstr "Süreyi artırma"
+
+#: pylib/anki/consts.py:119
+msgid "Decreasing intervals"
+msgstr "Aralığı azaltma"
+
+#: pylib/anki/consts.py:120
+msgid "Most lapses"
+msgstr "En yüksek sapmalar"
+
+#: pylib/anki/consts.py:121
+msgid "Order added"
+msgstr "Sıralama eklendi"
+
+#: pylib/anki/consts.py:122
+msgid "Order due"
+msgstr "Sıralama sonu"
+
+#: pylib/anki/consts.py:123
+msgid "Latest added first"
+msgstr "Son eklenen ilk"
+
+#: pylib/anki/consts.py:124
+msgid "Relative overdueness"
+msgstr ""
+
+#: pylib/anki/decks.py:382
+msgid "[no deck]"
+msgstr ""
+
+#: pylib/anki/exporting.py:95
+msgid "Cards in Plain Text"
+msgstr "Düz Metindeki Kartlar"
+
+#: pylib/anki/exporting.py:125
+msgid "Notes in Plain Text"
+msgstr "Düz Metinli Notlar"
+
+#: pylib/anki/exporting.py:167
+msgid "Anki 2.0 Deck"
+msgstr "Anki 2.0 Destesi"
+
+#: pylib/anki/exporting.py:316
+msgid "Anki Deck Package"
+msgstr "Anki deste paketi"
+
+#: pylib/anki/exporting.py:398
+msgid "Anki Collection Package"
+msgstr ""
+
+#: pylib/anki/importing/__init__.py:13
+msgid "Text separated by tabs or semicolons (*)"
+msgstr "Sekmeler veya noktalı virgüllerle ayırılmış metin (*)"
+
+#: pylib/anki/importing/__init__.py:14
+msgid "Packaged Anki Deck/Collection (*.apkg *.colpkg *.zip)"
+msgstr ""
+
+#: pylib/anki/importing/__init__.py:15
+msgid "Mnemosyne 2.0 Deck (*.db)"
+msgstr "Mnemosyne 2.0 Deste (*.db)"
+
+#: pylib/anki/importing/__init__.py:16
+msgid "Supermemo XML export (*.xml)"
+msgstr "Supermemo XML dışa aktarma (*.xml)"
+
+#: pylib/anki/importing/__init__.py:17
+msgid "Pauker 1.8 Lesson (*.pau.gz)"
+msgstr "Pauker 1.8 Dersi (*.pau.gz)"
+
+#: pylib/anki/importing/anki2.py:134
 #, python-format
-msgid "%d card exported."
-msgid_plural "%d cards exported."
-msgstr[0] "%d kart dışa aktarıldı."
-msgstr[1] "%d kart dışa aktarıldı."
+msgid "Notes found in file: %d"
+msgstr ""
+
+#: pylib/anki/importing/anki2.py:138
+#, python-format
+msgid "Notes that could not be imported as note type has changed: %d"
+msgstr ""
+
+#: pylib/anki/importing/anki2.py:143
+#, python-format
+msgid "Notes updated, as file had newer version: %d"
+msgstr ""
+
+#: pylib/anki/importing/anki2.py:146
+#, python-format
+msgid "Notes added from file: %d"
+msgstr ""
+
+#: pylib/anki/importing/anki2.py:149
+#, python-format
+msgid "Notes skipped, as they're already in your collection: %d"
+msgstr ""
+
+#: pylib/anki/importing/anki2.py:157
+msgid "Skipped"
+msgstr ""
+
+#: pylib/anki/importing/anki2.py:160
+msgid "Updated"
+msgstr ""
+
+#: pylib/anki/importing/anki2.py:163 pylib/anki/stats.py:309
+#: qt/aqt/addcards.py:202
+msgid "Added"
+msgstr "Eklendi"
+
+#: pylib/anki/importing/anki2.py:166
+msgid "Identical"
+msgstr ""
+
+#: pylib/anki/importing/csvfile.py:44
+#, python-format
+msgid "'%(row)s' had %(num1)d fields, expected %(num2)d"
+msgstr "'%(row)s' içinde %(num1)d alan vardı, beklenen %(num2)d"
+
+#: pylib/anki/importing/csvfile.py:56
+#, python-format
+msgid "Aborted: %s"
+msgstr "İptal Edildi: %s"
+
+#: pylib/anki/importing/mnemo.py:24
+msgid "File version unknown, trying import anyway."
+msgstr ""
+
+#: pylib/anki/importing/mnemo.py:105
+#, python-format
+msgid "%d note imported."
+msgid_plural "%d notes imported."
+msgstr[0] "%d not içe aktarıldı."
+msgstr[1] "%d not içe aktarıldı."
+
+#: pylib/anki/importing/noteimp.py:138
+#, python-format
+msgid "First field matched: %s"
+msgstr "İlk alan eşleşti: %s"
+
+#: pylib/anki/importing/noteimp.py:139
+#, python-format
+msgid "Added duplicate with first field: %s"
+msgstr "İlk alanın aynısı eklendi: %s"
+
+#: pylib/anki/importing/noteimp.py:156
+#, python-format
+msgid "Empty first field: %s"
+msgstr "İlk alanı boşalt  :%s"
+
+#: pylib/anki/importing/noteimp.py:161
+#, python-format
+msgid "Appeared twice in file: %s"
+msgstr "Dosya %s içinde çifte giriş var."
+
+#: pylib/anki/importing/noteimp.py:212
+#, python-format
+msgid "%d note added"
+msgid_plural "%d notes added"
+msgstr[0] "%d not eklendi"
+msgstr[1] "%d not eklendi"
+
+#: pylib/anki/importing/noteimp.py:214
+#, python-format
+msgid "%d note updated"
+msgid_plural "%d notes updated"
+msgstr[0] "%d not güncellendi."
+msgstr[1] "%d not güncellendi."
+
+#: pylib/anki/importing/noteimp.py:224
+#, python-format
+msgid "%d note unchanged"
+msgid_plural "%d notes unchanged"
+msgstr[0] "%d not değişmedi"
+msgstr[1] "%d notlar değişmedi"
 
 #: pylib/anki/importing/supermemo_xml.py:202
 #, python-format
@@ -101,19 +1361,853 @@ msgid_plural "%d cards imported."
 msgstr[0] "%d kart içe aktarıldı."
 msgstr[1] "%d kart içe aktarıldı."
 
-#: qt/aqt/reviewer.py:90
+#: pylib/anki/latex.py:134
 #, python-format
-msgid "%d card studied in"
-msgid_plural "%d cards studied in"
-msgstr[0] "%d kartın çalışılma süresi:"
-msgstr[1] "%d kartın çalışılma süresi:"
+msgid "For security reasons, '%s' is not allowed on cards. You can still use it by placing the command in a different package, and importing that package in the LaTeX header instead."
+msgstr "Güvenlik sebebiyle, '%s' kartlarda izin verilmemektedir. Komutu farklı pakete taşıyarak ve bu paketi LaTeX başlığında içe aktararak kullanabilirsiniz."
 
-#: qt/aqt/deckconf.py:169
+#: pylib/anki/latex.py:176
 #, python-format
-msgid "%d deck updated."
-msgid_plural "%d decks updated."
-msgstr[0] "%d deste güncellendi."
-msgstr[1] "%d deste güncellendi."
+msgid "Error executing %s."
+msgstr "%s çalıştırırken bir hata oldu."
+
+#: pylib/anki/latex.py:177
+#, python-format
+msgid "Generated file: %s"
+msgstr "Üretilmiş dosya: %s"
+
+#: pylib/anki/latex.py:185
+msgid "Have you installed latex and dvipng/dvisvgm?"
+msgstr ""
+
+#: pylib/anki/models.py:263
+#, python-format
+msgid "%s copy"
+msgstr "%s kopyası"
+
+#: pylib/anki/schedv2.py:1261
+msgid "(end)"
+msgstr "(son)"
+
+#: pylib/anki/stats.py:119 qt/aqt/browser.py:1259
+msgid "Today"
+msgstr "Bugün"
+
+#: pylib/anki/stats.py:152
+#, python-format
+msgid "Again count: %s"
+msgstr "Tekrar sayısı: %s"
+
+#: pylib/anki/stats.py:154
+#, python-format
+msgid "(%s correct)"
+msgstr "(%s doğru)"
+
+#: pylib/anki/stats.py:160
+#, python-format
+msgid "Learn: %(a)s, Review: %(b)s, Relearn: %(c)s, Filtered: %(d)s"
+msgstr "Öğrenme: %(a)s, Gözden Geçirme: %(b)s, Tekrar Öğrenme: %(c)s, Filtrelenmiş: %(d)s"
+
+#: pylib/anki/stats.py:173
+#, python-format
+msgid "Correct answers on mature cards: %(a)d/%(b)d (%(c).1f%%)"
+msgstr "Tamamlanmış kartlardaki doğru cevaplar: %(a)d/%(b)d (%(c).1f%%)"
+
+#: pylib/anki/stats.py:176
+msgid "No mature cards were studied today."
+msgstr "Bugün çalışılan geçmiş kart yok."
+
+#: pylib/anki/stats.py:178
+msgid "No cards have been studied today."
+msgstr ""
+
+#: pylib/anki/stats.py:213 pylib/anki/stats.py:346 pylib/anki/stats.py:366
+#: pylib/anki/stats.py:688 pylib/anki/stats.py:858
+msgid "Mature"
+msgstr "Geçmiş"
+
+#: pylib/anki/stats.py:214 pylib/anki/stats.py:347 pylib/anki/stats.py:367
+#: pylib/anki/stats.py:687
+msgid "Young"
+msgstr "Genç"
+
+#: pylib/anki/stats.py:221
+msgid "Cumulative"
+msgstr "Toplam"
+
+#: pylib/anki/stats.py:228
+msgid "Forecast"
+msgstr "Tahmin"
+
+#: pylib/anki/stats.py:228
+msgid "The number of reviews due in the future."
+msgstr "Gelecekte yapılacak incelemelerin sayısı."
+
+#: pylib/anki/stats.py:236 pylib/anki/stats.py:310
+msgid "Cumulative Cards"
+msgstr "Toplam Kartlar"
+
+#: pylib/anki/stats.py:249 pylib/anki/stats.py:318 pylib/anki/stats.py:418
+msgid "Total"
+msgstr "Toplam"
+
+#: pylib/anki/stats.py:252 pylib/anki/stats.py:319
+msgid "Average"
+msgstr "Ortalama"
+
+#: pylib/anki/stats.py:252 pylib/anki/stats.py:360
+msgid "reviews"
+msgstr "İncelemeler"
+
+#: pylib/anki/stats.py:260 pylib/anki/stats.py:318 qt/aqt/clayout.py:560
+#, python-format
+msgid "%d card"
+msgid_plural "%d cards"
+msgstr[0] "%d kart"
+msgstr[1] "%d kart"
+
+#: pylib/anki/stats.py:261
+msgid "Due tomorrow"
+msgstr "Yarına kadar"
+
+#: pylib/anki/stats.py:309
+msgid "The number of new cards you have added."
+msgstr "Eklediğiniz yeni kartların sayısı."
+
+#: pylib/anki/stats.py:319 qt/aqt/customstudy.py:53
+msgid "cards"
+msgstr ""
+
+#: pylib/anki/stats.py:348 pylib/anki/stats.py:368
+msgid "Relearn"
+msgstr "Tekrar Öğren"
+
+#: pylib/anki/stats.py:349 pylib/anki/stats.py:369
+msgid "Learn"
+msgstr "Öğrenme"
+
+#: pylib/anki/stats.py:350 pylib/anki/stats.py:370
+msgid "Cram"
+msgstr "Yoğun Çalışma"
+
+#: pylib/anki/stats.py:354
+msgid "Review Count"
+msgstr "Gözden Geçirme Sayısı"
+
+#: pylib/anki/stats.py:354
+msgid "The number of questions you have answered."
+msgstr "Yanıtladığınız soruların sayısı."
+
+#: pylib/anki/stats.py:357 pylib/anki/stats.py:692 pylib/anki/stats.py:800
+msgid "Answers"
+msgstr "Cevaplar"
+
+#: pylib/anki/stats.py:357
+msgid "Cumulative Answers"
+msgstr "Toplam Cevaplar"
+
+#: pylib/anki/stats.py:374
+msgid "Minutes"
+msgstr "Dakika"
+
+#: pylib/anki/stats.py:377
+msgid "Hours"
+msgstr "Saatler"
+
+#: pylib/anki/stats.py:380
+msgid "Review Time"
+msgstr "Gözden Geçirme Zamanı"
+
+#: pylib/anki/stats.py:380
+msgid "The time taken to answer the questions."
+msgstr "Soruları cevaplamak için harcanan süre."
+
+#: pylib/anki/stats.py:382
+#, python-format
+msgid "Cumulative %s"
+msgstr "Toplam %s"
+
+#: pylib/anki/stats.py:407
+msgid "Days studied"
+msgstr "Çalışılan günler"
+
+#: pylib/anki/stats.py:408
+#, python-format
+msgid "<b>%(pct)d%%</b> (%(x)s of %(y)s)"
+msgstr "<b>%(pct)d%%</b> (%(y)s içinden %(x)s )"
+
+#: pylib/anki/stats.py:413
+msgid "hours"
+msgstr "saat"
+
+#: pylib/anki/stats.py:418
+#, python-format
+msgid "%(tot)s %(unit)s"
+msgstr ""
+
+#: pylib/anki/stats.py:423
+msgid "Average for days studied"
+msgstr "Ortalama çalışılan gün"
+
+#: pylib/anki/stats.py:427
+msgid "If you studied every day"
+msgstr "Eğer her gün çalıştıysanız"
+
+#: pylib/anki/stats.py:434
+msgid "Average answer time"
+msgstr "Ortalama cevap süresi"
+
+#: pylib/anki/stats.py:596
+msgid "Delays until reviews are shown again."
+msgstr "Gözden geçirme tekrar gösterilene kadar erteler."
+
+#: pylib/anki/stats.py:596
+msgid "Intervals"
+msgstr "Süreler"
+
+#: pylib/anki/stats.py:599
+msgid "Percentage"
+msgstr "Yüzde"
+
+#: pylib/anki/stats.py:618
+msgid "Average interval"
+msgstr "Ortalama aralık"
+
+#: pylib/anki/stats.py:619
+msgid "Longest interval"
+msgstr "En uzun süre"
+
+#: pylib/anki/stats.py:681
+msgid "Answer Buttons"
+msgstr "Cevap Tuşları"
+
+#: pylib/anki/stats.py:681
+msgid "The number of times you have pressed each button."
+msgstr "Her düğmeye bastığınız sayı."
+
+#: pylib/anki/stats.py:686 qt/aqt/browser.py:1277 qt/aqt/overview.py:231
+msgid "Learning"
+msgstr "Öğrenme"
+
+#: pylib/anki/stats.py:713
+#, python-format
+msgid "Correct: <b>%(pct)0.2f%%</b><br>(%(good)d of %(tot)d)"
+msgstr "Doğru: <b>%(pct)0.2f%%</b><br>(%(good)d of %(tot)d)"
+
+#: pylib/anki/stats.py:791
+msgid "Hourly Breakdown"
+msgstr "Saatlik Analiz"
+
+#: pylib/anki/stats.py:791
+msgid "Review success rate for each hour of the day."
+msgstr "Günün her saati için başarı oranını inceleyin."
+
+#: pylib/anki/stats.py:796 pylib/anki/stats.py:818
+msgid "% Correct"
+msgstr "Doğru yüzdesi."
+
+#: pylib/anki/stats.py:809
+msgid "4AM"
+msgstr ""
+
+#: pylib/anki/stats.py:810
+msgid "10AM"
+msgstr ""
+
+#: pylib/anki/stats.py:811
+msgid "4PM"
+msgstr ""
+
+#: pylib/anki/stats.py:812
+msgid "10PM"
+msgstr ""
+
+#: pylib/anki/stats.py:813
+msgid "3AM"
+msgstr ""
+
+#: pylib/anki/stats.py:821
+msgid "Hours with less than 30 reviews are not shown."
+msgstr "30 gözden geçirmeden daha az gösterilen saatler."
+
+#: pylib/anki/stats.py:859
+msgid "Young+Learn"
+msgstr ""
+
+#: pylib/anki/stats.py:860
+msgid "Unseen"
+msgstr "Okunmamış"
+
+#: pylib/anki/stats.py:861
+msgid "Suspended+Buried"
+msgstr ""
+
+#: pylib/anki/stats.py:873
+msgid "Total cards"
+msgstr "Toplam kart"
+
+#: pylib/anki/stats.py:874
+msgid "Total notes"
+msgstr "Toplam not"
+
+#: pylib/anki/stats.py:877
+msgid "Lowest ease"
+msgstr "En düşük kolaylık"
+
+#: pylib/anki/stats.py:878
+msgid "Average ease"
+msgstr "Ortalama kolaylık"
+
+#: pylib/anki/stats.py:879
+msgid "Highest ease"
+msgstr "En kolay"
+
+#: pylib/anki/stats.py:882
+msgid "A card's <i>ease</i> is the size of the next interval when you answer \"good\" on a review."
+msgstr "Bir kartın <i>kolaylığı</i> gözden geçirirken \"iyi\" cevabını verdiğinizde belirecek bir sonraki tekrar süresinin büyüklüğüdür."
+
+#: pylib/anki/stats.py:886 qt/aqt/clayout.py:63
+msgid "Card Types"
+msgstr "Kart Tipleri"
+
+#: pylib/anki/stats.py:886
+msgid "The division of cards in your deck(s)."
+msgstr ""
+
+#. T: Symbols separating first and second column in a statistics table. Eg in "Total:    3 reviews".
+#: pylib/anki/stats.py:898
+msgid ":"
+msgstr ""
+
+#: pylib/anki/stats.py:941
+#, python-format
+msgid "Generated on %s"
+msgstr "Üretildiği yer %s"
+
+#: pylib/anki/stats.py:944
+msgid "whole collection"
+msgstr "tüm koleksiyon"
+
+#: pylib/anki/stats.py:947
+#, python-format
+msgid "Scope: %s"
+msgstr "Kapsam: %s"
+
+#: pylib/anki/stats.py:949
+#, python-format
+msgid "Period: %s"
+msgstr "Periyot: %s"
+
+#. T: abbreviation of day
+#: pylib/anki/stats.py:982
+msgid "d"
+msgstr ""
+
+#. T: abbreviation of week
+#: pylib/anki/stats.py:984
+msgid "w"
+msgstr ""
+
+#. T: abbreviation of month
+#: pylib/anki/stats.py:986
+msgid "mo"
+msgstr ""
+
+#: pylib/anki/stats.py:1112
+#, python-format
+msgid "%(a)0.1f %(b)s/day"
+msgstr "%(a)0.1f %(b)s/gün"
+
+#: qt/aqt/about.py:86
+msgid "Copied to clipboard"
+msgstr ""
+
+#: qt/aqt/about.py:88
+msgid "Copy Debug Info"
+msgstr ""
+
+#: qt/aqt/about.py:97
+msgid "Anki is a friendly, intelligent spaced learning system. It's free and open source."
+msgstr "Anki arkadaştır, akıllı öğrenme sistemidir. Bedava ve açık kaynaktır."
+
+#: qt/aqt/about.py:101
+msgid "Anki is licensed under the AGPL3 license. Please see the license file in the source distribution for more information."
+msgstr "Anki AGPL3 lisansı ise lisanslanmıştır. Daha fazla bilgi için lütfen kaynak dağıtımdaki lisans dosyasına bakın."
+
+#: qt/aqt/about.py:104
+#, python-format
+msgid "Version %s"
+msgstr "Versiyon %s"
+
+#: qt/aqt/about.py:110
+#, python-format
+msgid "<a href='%s'>Visit website</a>"
+msgstr "<a href='%s'>Siteye git</a>"
+
+#: qt/aqt/about.py:215
+#, python-format
+msgid "Written by Damien Elmes, with patches, translation,    testing and design from:<p>%(cont)s"
+msgstr ""
+
+#: qt/aqt/about.py:221
+msgid "If you have contributed and are not on this list, please get in touch."
+msgstr "Eğer katkıda bulunmuş ve listede yoksanız, lütfen bizimle iletişim kurunuz."
+
+#: qt/aqt/about.py:225
+msgid "A big thanks to all the people who have provided suggestions, bug reports and donations."
+msgstr "Önerileri, hata raporları ve bağışları ile katkı sağlayan  herkese büyük teşekkür ediyoruz."
+
+#: qt/aqt/addcards.py:73
+msgid "Add (shortcut: ctrl+enter)"
+msgstr "Ekle (kısayol tuşu: ctrl+enter)"
+
+#: qt/aqt/addcards.py:79 qt/aqt/clayout.py:384 qt/aqt/utils.py:212
+#: qt/aqt/utils.py:213
+msgid "Help"
+msgstr "Yardım"
+
+#: qt/aqt/addcards.py:83
+msgid "History"
+msgstr "Geçmiş"
+
+#: qt/aqt/addcards.py:89
+#, python-format
+msgid "Shortcut: %s"
+msgstr "Kısayol: %s"
+
+#: qt/aqt/addcards.py:149
+#, python-format
+msgid "Edit \"%s\""
+msgstr "\"%s\" ögesini düzenle"
+
+#: qt/aqt/addcards.py:154
+msgid "(Note deleted)"
+msgstr "(Not silindi)"
+
+#: qt/aqt/addcards.py:169
+msgid "The first field is empty."
+msgstr "İlk alan boş."
+
+#: qt/aqt/addcards.py:178
+msgid "You have a cloze deletion note type but have not made any cloze deletions. Proceed?"
+msgstr ""
+
+#: qt/aqt/addcards.py:232
+msgid "Close and lose current input?"
+msgstr "Kapatmak ve geçerli veri girişini kaybetmek mi ?"
+
+#: qt/aqt/addons.py:280
+#, python-format
+msgid "The following add-ons are incompatible with %(name)s and have been disabled: %(found)s"
+msgstr ""
+
+#: qt/aqt/addons.py:313
+msgid " (disabled)"
+msgstr ""
+
+#: qt/aqt/addons.py:427
+#, python-format
+msgid ""
+"Unable to update or delete add-on. Please start Anki while holding down the shift key to temporarily disable add-ons, then try again.\n"
+"\n"
+"Debug info: %s"
+msgstr ""
+
+#: qt/aqt/addons.py:471
+msgid "Corrupt add-on file."
+msgstr ""
+
+#: qt/aqt/addons.py:472
+msgid "Invalid add-on manifest."
+msgstr ""
+
+#: qt/aqt/addons.py:475
+msgid "Unknown error: {}"
+msgstr ""
+
+#: qt/aqt/addons.py:478
+#, python-format
+msgid "Error downloading <i>%(id)s</i>: %(error)s"
+msgstr ""
+
+#: qt/aqt/addons.py:480
+#, python-format
+msgid "Error installing <i>%(base)s</i>: %(error)s"
+msgstr ""
+
+#: qt/aqt/addons.py:491
+#, python-format
+msgid "Downloaded %(fname)s"
+msgstr ""
+
+#: qt/aqt/addons.py:493
+#, python-format
+msgid "Installed %(name)s"
+msgstr ""
+
+#: qt/aqt/addons.py:500
+msgid "The following conflicting add-ons were disabled:"
+msgstr ""
+
+#: qt/aqt/addons.py:507
+msgid "This add-on is not compatible with your version of Anki."
+msgstr ""
+
+#: qt/aqt/addons.py:746
+msgid "(disabled)"
+msgstr ""
+
+#: qt/aqt/addons.py:748
+#, python-format
+msgid "(requires %s)"
+msgstr ""
+
+#: qt/aqt/addons.py:807
+msgid "Please select a single add-on first."
+msgstr ""
+
+#: qt/aqt/addons.py:823
+msgid "Add-on was not downloaded from AnkiWeb."
+msgstr ""
+
+#: qt/aqt/addons.py:845
+#, python-format
+msgid "Delete the %(num)d selected add-on?"
+msgid_plural "Delete the %(num)d selected add-ons?"
+msgstr[0] ""
+msgstr[1] ""
+
+#: qt/aqt/addons.py:868
+msgid "No updates available."
+msgstr ""
+
+#: qt/aqt/addons.py:872
+msgid "Packaged Anki Add-on"
+msgstr ""
+
+#: qt/aqt/addons.py:874
+msgid "Install Add-on(s)"
+msgstr ""
+
+#: qt/aqt/addons.py:885
+msgid "Checking..."
+msgstr "Kontrol ediliyor..."
+
+#: qt/aqt/addons.py:902
+msgid "Add-on has no configuration."
+msgstr ""
+
+#: qt/aqt/addons.py:922
+msgid "Browse Add-ons"
+msgstr ""
+
+#: qt/aqt/addons.py:937
+msgid "Invalid code."
+msgstr "Hatalı kod."
+
+#: qt/aqt/addons.py:1011
+msgid "Invalid code, or add-on not available for your version of Anki."
+msgstr ""
+
+#: qt/aqt/addons.py:1014 qt/aqt/editor.py:850
+#, python-format
+msgid "Unexpected response code: %s"
+msgstr ""
+
+#: qt/aqt/addons.py:1017
+msgid "Please check your internet connection."
+msgstr ""
+
+#: qt/aqt/addons.py:1024
+msgid "Installed successfully."
+msgstr ""
+
+#. T: "%(a)d" is the index of the element currently
+#. downloaded. "%(b)d" is the number of element to download,
+#. and "%(kb)0.2f" is the number of downloaded
+#. kilobytes. This lead for example to "Downloading 3/5
+#. (27KB)"
+#: qt/aqt/addons.py:1094
+#, python-format
+msgid "Downloading %(a)d/%(b)d (%(kb)0.2fKB)..."
+msgstr ""
+
+#: qt/aqt/addons.py:1113
+msgid "One or more errors occurred:"
+msgstr ""
+
+#: qt/aqt/addons.py:1115
+msgid "Download complete. Please restart Anki to apply changes."
+msgstr ""
+
+#: qt/aqt/addons.py:1268
+msgid "The following add-ons have updates available. Install them now?"
+msgstr ""
+
+#: qt/aqt/addons.py:1310
+msgid "Restored defaults"
+msgstr ""
+
+#: qt/aqt/addons.py:1376
+msgid "Invalid configuration: "
+msgstr ""
+
+#: qt/aqt/addons.py:1380
+msgid "Invalid configuration: top level object must be a map"
+msgstr ""
+
+#: qt/aqt/addons.py:1410
+#, python-format
+msgid "<b>Important</b>: As add-ons are programs downloaded from the internet, they are potentially malicious.<b>You should only install add-ons you trust.</b><br><br>Are you sure you want to proceed with the installation of the following Anki add-on(s)?<br><br>%(names)s"
+msgstr ""
+
+#: qt/aqt/addons.py:1420
+msgid "Install Anki add-on"
+msgstr ""
+
+#: qt/aqt/addons.py:1434
+msgid "<b>Please restart Anki to complete the installation.</b>"
+msgstr ""
+
+#: qt/aqt/addons.py:1443
+msgid "Installation complete"
+msgstr ""
+
+#: qt/aqt/addons.py:1446
+msgid "Please report this to the respective add-on author(s)."
+msgstr ""
+
+#: qt/aqt/addons.py:1451
+msgid "Add-on installation error"
+msgstr ""
+
+#: qt/aqt/browser.py:172
+msgid "Add-on"
+msgstr ""
+
+#: qt/aqt/browser.py:334 qt/aqt/browser.py:340
+msgid "(new)"
+msgstr "(yeni)"
+
+#: qt/aqt/browser.py:336
+msgid "(learning)"
+msgstr "(öğreniyor)"
+
+#: qt/aqt/browser.py:369
+msgid "(filtered)"
+msgstr "(süzgeçli)"
+
+#: qt/aqt/browser.py:624
+#, python-format
+msgid "Preview Selected Card (%s)"
+msgstr "Seçilen Kartı Önizle (%s)"
+
+#: qt/aqt/browser.py:740
+msgid "Question"
+msgstr "Soru"
+
+#: qt/aqt/browser.py:741
+msgid "Answer"
+msgstr "Cevap"
+
+#: qt/aqt/browser.py:742
+msgid "Card"
+msgstr "Kart"
+
+#: qt/aqt/browser.py:744
+msgid "Sort Field"
+msgstr "Sıralama Alanı"
+
+#: qt/aqt/browser.py:745
+msgid "Created"
+msgstr "Oluşturuldu"
+
+#: qt/aqt/browser.py:749
+msgid "Interval"
+msgstr "Aralık"
+
+#: qt/aqt/browser.py:750
+msgid "Ease"
+msgstr "Kolaylık"
+
+#: qt/aqt/browser.py:753 qt/aqt/browser.py:1299 qt/aqt/editor.py:576
+msgid "Tags"
+msgstr "Etiketler"
+
+#: qt/aqt/browser.py:754
+msgid "Note"
+msgstr "Not"
+
+#: qt/aqt/browser.py:765
+msgid "<type here to search; hit enter to show current deck>"
+msgstr "<aramak için buraya basın; açık destede görmek için giriş tuşuna basın>"
+
+#: qt/aqt/browser.py:826
+#, python-format
+msgid "Browse (%(cur)d card shown; %(sel)s)"
+msgid_plural "Browse (%(cur)d cards shown; %(sel)s)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: qt/aqt/browser.py:832
+#, python-format
+msgid "%d selected"
+msgid_plural "%d selected"
+msgstr[0] "%d seçili öğe"
+msgstr[1] "%d seçili öğe"
+
+#: qt/aqt/browser.py:942
+msgid "Sorting on this column is not supported. Please choose another."
+msgstr "Bu sütunda sıralama desteklenmiyor. Lütfen başka birini seçin."
+
+#: qt/aqt/browser.py:997
+msgid "You must have at least one column."
+msgstr "En az bir sütun olmalıdır."
+
+#: qt/aqt/browser.py:1108 qt/aqt/browser.py:1255
+msgid "Whole Collection"
+msgstr ""
+
+#: qt/aqt/browser.py:1115 qt/aqt/browser.py:1255
+msgid "Current Deck"
+msgstr "Mevcut Deste"
+
+#: qt/aqt/browser.py:1263
+msgid "Added Today"
+msgstr "Bugün Eklenenler"
+
+#: qt/aqt/browser.py:1264
+msgid "Studied Today"
+msgstr ""
+
+#: qt/aqt/browser.py:1265
+msgid "Again Today"
+msgstr "Bugün tekrar edilenler"
+
+#: qt/aqt/browser.py:1272
+msgid "Card State"
+msgstr ""
+
+#: qt/aqt/browser.py:1276 qt/aqt/deckbrowser.py:149 qt/aqt/overview.py:229
+msgid "New"
+msgstr "Yeni"
+
+#: qt/aqt/browser.py:1281
+msgid "Suspended"
+msgstr "Askıya Alındı"
+
+#: qt/aqt/browser.py:1282
+msgid "Buried"
+msgstr ""
+
+#: qt/aqt/browser.py:1288
+msgid "No Flag"
+msgstr ""
+
+#: qt/aqt/browser.py:1289
+msgid "Any Flag"
+msgstr ""
+
+#: qt/aqt/browser.py:1301
+msgid "Clear Unused"
+msgstr ""
+
+#: qt/aqt/browser.py:1329 qt/aqt/toolbar.py:105
+msgid "Decks"
+msgstr "Desteler"
+
+#: qt/aqt/browser.py:1349
+msgid "All Card Types"
+msgstr ""
+
+#. T: name is a card type name. n it's order in the list of card type.
+#. T: this is shown in browser's filter, when seeing the list of card type of a note type.
+#: qt/aqt/browser.py:1356
+#, python-format
+msgid "%(n)d: %(name)s"
+msgstr ""
+
+#: qt/aqt/browser.py:1378
+msgid "Remove Current Filter..."
+msgstr ""
+
+#: qt/aqt/browser.py:1380
+msgid "Save Current Filter..."
+msgstr ""
+
+#: qt/aqt/browser.py:1393
+msgid "Please give your filter a name:"
+msgstr ""
+
+#: qt/aqt/browser.py:1404
+#, python-format
+msgid "Remove %s from your saved searches?"
+msgstr ""
+
+#: qt/aqt/browser.py:1493
+msgid "Please select cards from only one note type."
+msgstr "Lütfen sadece bir not türünden kartlar seçin."
+
+#: qt/aqt/browser.py:1547
+msgid "Delete Notes"
+msgstr "Notu Sil"
+
+#: qt/aqt/browser.py:1573
+#, python-format
+msgid "%d note deleted."
+msgid_plural "%d notes deleted."
+msgstr[0] "%d not silindi."
+msgstr[1] "%d not silindi."
+
+#: qt/aqt/browser.py:1593
+msgid "Move Cards"
+msgstr "Kartları Taşı"
+
+#: qt/aqt/browser.py:1594 qt/aqt/browser.py:1606
+msgid "Change Deck"
+msgstr "Desteyi Değiştir"
+
+#: qt/aqt/browser.py:1603
+msgid "Cards can't be manually moved into a filtered deck."
+msgstr "Kartlar filtrelenmiş bir desteye manuel olarak taşınamaz."
+
+#: qt/aqt/browser.py:1619
+msgid "Enter tags to add:"
+msgstr "Eklenecek etiketleri girin :"
+
+#: qt/aqt/browser.py:1629
+msgid "Add Tags"
+msgstr "Etiketleri ekle"
+
+#: qt/aqt/browser.py:1639
+msgid "Delete Tags"
+msgstr "Etiketleri sil"
+
+#: qt/aqt/browser.py:1641
+msgid "Enter tags to delete:"
+msgstr "Silinen etiketleri girin :"
+
+#: qt/aqt/browser.py:1734
+msgid "Only new cards can be repositioned."
+msgstr "Sadece yeni kartlar tekrar sıralanabilir."
+
+#: qt/aqt/browser.py:1744
+#, python-format
+msgid "Queue top: %d"
+msgstr "Yukarı sırala: %d"
+
+#: qt/aqt/browser.py:1745
+#, python-format
+msgid "Queue bottom: %d"
+msgstr "Aşağı sırala: %d"
+
+#: qt/aqt/browser.py:1884
+msgid "All Fields"
+msgstr "Tüm Alanlar"
+
+#: qt/aqt/browser.py:1988 qt/aqt/browser.py:2015
+msgid "Tag Duplicates"
+msgstr ""
 
 #: qt/aqt/browser.py:1994
 #, python-format
@@ -130,19 +2224,471 @@ msgid_plural "%d notes"
 msgstr[0] "%d not"
 msgstr[1] "%d not"
 
-#: pylib/anki/importing/noteimp.py:212
+#: qt/aqt/browser.py:1996
 #, python-format
-msgid "%d note added"
-msgid_plural "%d notes added"
-msgstr[0] "%d not eklendi"
-msgstr[1] "%d not eklendi"
+msgid "Found %(a)s across %(b)s."
+msgstr "%(b)s içinde %(a)s bulundu."
 
-#: qt/aqt/browser.py:1573
+#: qt/aqt/browser.py:2019
+msgid "duplicate"
+msgstr ""
+
+#: qt/aqt/browser.py:2023
+msgid "Notes tagged."
+msgstr "Notlar etiketlndi."
+
+#: qt/aqt/browser.py:2180
+msgid "Nothing"
+msgstr "Hiçbirşey"
+
+#: qt/aqt/browser.py:2183
 #, python-format
-msgid "%d note deleted."
-msgid_plural "%d notes deleted."
-msgstr[0] "%d not silindi."
-msgstr[1] "%d not silindi."
+msgid "Change %s to:"
+msgstr "%s değişti :"
+
+#: qt/aqt/browser.py:2263
+msgid "Any cards mapped to nothing will be deleted. If a note has no remaining cards, it will be lost. Are you sure you want to continue?"
+msgstr "İçi boş kartlar silinecek. Bir notun içinde hiç kart yoksa silinecek. Devam etmek istiyor musunuz?"
+
+#: qt/aqt/clayout.py:69
+#, python-format
+msgid "Card Types for %s"
+msgstr "%s için Kart Tipleri"
+
+#: qt/aqt/clayout.py:243
+#, fuzzy, python-format
+msgid "Cloze %d"
+msgstr "Kapat"
+
+#: qt/aqt/clayout.py:394
+msgid "Flip"
+msgstr "Çevir"
+
+#: qt/aqt/clayout.py:399 qt/aqt/sound.py:599
+msgid "Save"
+msgstr "Kaydet"
+
+#: qt/aqt/clayout.py:405 qt/aqt/overview.py:134 qt/aqt/sound.py:602
+msgid "Cancel"
+msgstr "İptal"
+
+#: qt/aqt/clayout.py:551
+msgid "At least one card type is required."
+msgstr "En az bir kart tipi gereklidir."
+
+#: qt/aqt/clayout.py:561
+#, python-format
+msgid "Delete the '%(a)s' card type, and its %(b)s?"
+msgstr "'%(a)s' kart tipi ve ona ait %(b)s silinsin mi?"
+
+#: qt/aqt/clayout.py:586 qt/aqt/deckconf.py:148 qt/aqt/fields.py:97
+#: qt/aqt/main.py:305 qt/aqt/models.py:87
+msgid "New name:"
+msgstr "Yeni ad:"
+
+#: qt/aqt/clayout.py:600
+#, python-format
+msgid "Enter new card position (1...%s):"
+msgstr "Yeni kart sırasını girin (1...%s):"
+
+#: qt/aqt/clayout.py:622
+#, python-format
+msgid "Card %d"
+msgstr "Kart %d"
+
+#: qt/aqt/clayout.py:632
+#, python-format
+msgid "This will create %d card. Proceed?"
+msgid_plural "This will create %d cards. Proceed?"
+msgstr[0] ""
+msgstr[1] ""
+
+#: qt/aqt/clayout.py:661
+msgid "Anki couldn't find the line between the question and answer. Please adjust the template manually to switch the question and answer."
+msgstr "Anki, soruyla cevap arasında bağlantı kuramadı. Soru ve cevabın yerini değiştirmek için şablonu elle ayarlayın."
+
+#: qt/aqt/clayout.py:676
+msgid "Add Card Type..."
+msgstr ""
+
+#: qt/aqt/clayout.py:679
+msgid "Remove Card Type..."
+msgstr ""
+
+#: qt/aqt/clayout.py:682
+msgid "Rename Card Type..."
+msgstr ""
+
+#: qt/aqt/clayout.py:685
+msgid "Reposition Card Type..."
+msgstr ""
+
+#: qt/aqt/clayout.py:692
+msgid " (on)"
+msgstr " (açık)"
+
+#: qt/aqt/clayout.py:694
+msgid " (off)"
+msgstr " (kapalı)"
+
+#: qt/aqt/clayout.py:695
+msgid "Deck Override..."
+msgstr ""
+
+#: qt/aqt/clayout.py:698
+msgid "Browser Appearance..."
+msgstr ""
+
+#: qt/aqt/clayout.py:740
+#, python-format
+msgid "Enter deck to place new %s cards in, or leave blank:"
+msgstr "Desteye yeni %s kartları yerleştirin, ya da boş bırakın:"
+
+#: qt/aqt/customstudy.py:57
+msgid "OK"
+msgstr "Tamam"
+
+#: qt/aqt/customstudy.py:71
+#, python-format
+msgid "New cards in deck over today limit: %s"
+msgstr ""
+
+#: qt/aqt/customstudy.py:72
+msgid "Increase today's new card limit by"
+msgstr "Bugünün yeni kart limitini artırın"
+
+#: qt/aqt/customstudy.py:83
+#, python-format
+msgid "Reviews due in deck over today limit: %s"
+msgstr ""
+
+#: qt/aqt/customstudy.py:84
+msgid "Increase today's review limit by"
+msgstr "Bugünün gözden geçirilmiş kart limitini artırın"
+
+#: qt/aqt/customstudy.py:89
+msgid "Review cards forgotten in last"
+msgstr "Önceden unutulan kartları gözden geçir"
+
+#: qt/aqt/customstudy.py:93
+msgid "Review ahead by"
+msgstr ""
+
+#: qt/aqt/customstudy.py:96
+msgid "Preview new cards added in the last"
+msgstr "Son eklenen yeni kartları önizle"
+
+#: qt/aqt/customstudy.py:100
+msgid "Select"
+msgstr "Seç"
+
+#: qt/aqt/customstudy.py:101
+msgid "cards from the deck"
+msgstr ""
+
+#: qt/aqt/customstudy.py:103
+msgid "Choose Tags"
+msgstr "Etiketleri Seçin"
+
+#: qt/aqt/customstudy.py:141 qt/aqt/customstudy.py:153
+msgid "Custom Study Session"
+msgstr "Özel Çalışma Oturumu"
+
+#: qt/aqt/customstudy.py:190
+msgid "No cards matched the criteria you provided."
+msgstr "Girdiğiniz kritere uygun kart bulunamadı."
+
+#: qt/aqt/deckbrowser.py:82
+msgid "Name for deck:"
+msgstr "Deste adı:"
+
+#: qt/aqt/deckbrowser.py:243 qt/aqt/sidebar.py:95
+msgid "Rename Deck"
+msgstr "Desteyi Yeniden Adlandır"
+
+#: qt/aqt/deckbrowser.py:246 qt/aqt/sidebar.py:98 qt/aqt/studydeck.py:151
+msgid "New deck name:"
+msgstr "Yeni deste adı:"
+
+#: qt/aqt/deckbrowser.py:280
+msgid "Delete Deck"
+msgstr "Desteyi kaldır"
+
+#: qt/aqt/deckbrowser.py:289
+#, python-format
+msgid " It has %d card."
+msgid_plural " It has %d cards."
+msgstr[0] " %d kart bulunuyor."
+msgstr[1] " %d kart bulunuyor."
+
+#: qt/aqt/deckbrowser.py:296
+#, python-format
+msgid "Are you sure you wish to delete %s?"
+msgstr "%s girdisini silmek istediğinizden emin misiniz?"
+
+#: qt/aqt/deckbrowser.py:308
+msgid "Get Shared"
+msgstr "Deste Bul"
+
+#: qt/aqt/deckbrowser.py:309
+msgid "Create Deck"
+msgstr "Deste Oluştur"
+
+#: qt/aqt/deckbrowser.py:310
+msgid "Import File"
+msgstr "Dosyayı İçeriye Aktar"
+
+#: qt/aqt/deckbrowser.py:318 qt/aqt/main.py:765 qt/aqt/overview.py:265
+#: qt/aqt/previewer.py:80 qt/aqt/previewer.py:85 qt/aqt/reviewer.py:573
+#: qt/aqt/reviewer.py:584 qt/aqt/reviewer.py:660 qt/aqt/toolbar.py:107
+#: qt/aqt/toolbar.py:114 qt/aqt/toolbar.py:121 qt/aqt/toolbar.py:128
+#: qt/aqt/toolbar.py:144
+#, python-format
+msgid "Shortcut key: %s"
+msgstr "Kısayol tuşu: %s"
+
+#: qt/aqt/deckchooser.py:34
+msgid "Target Deck (Ctrl+D)"
+msgstr "Hedef Deste (Ctrl+D)"
+
+#: qt/aqt/deckchooser.py:51 qt/aqt/deckchooser.py:55 qt/aqt/deckchooser.py:77
+msgid "Default"
+msgstr "Öntanımlı"
+
+#: qt/aqt/deckchooser.py:87 qt/aqt/modelchooser.py:84
+msgid "Choose"
+msgstr "Seç"
+
+#: qt/aqt/deckchooser.py:88
+msgid "Choose Deck"
+msgstr "Deste Seçin"
+
+#: qt/aqt/deckconf.py:47 qt/aqt/dyndeckconf.py:28 qt/aqt/models.py:161
+#, python-format
+msgid "Options for %s"
+msgstr "%s için seçenekler"
+
+#: qt/aqt/deckconf.py:95
+msgid "Set for all subdecks"
+msgstr "Bütün alt destler için uygula"
+
+#: qt/aqt/deckconf.py:113
+msgid "Your changes will affect multiple decks. If you wish to change only the current deck, please add a new options group first."
+msgstr ""
+
+#: qt/aqt/deckconf.py:121
+msgid "New options group name:"
+msgstr "Yeni seçenekler grubu adı:"
+
+#: qt/aqt/deckconf.py:137
+msgid "The default configuration can't be removed."
+msgstr "Varsayılan yapılandırma kaldırılamaz."
+
+#: qt/aqt/deckconf.py:159
+#, python-format
+msgid "Set all decks below %s to this option group?"
+msgstr ""
+
+#: qt/aqt/deckconf.py:169
+#, python-format
+msgid "%d deck updated."
+msgid_plural "%d decks updated."
+msgstr[0] "%d deste güncellendi."
+msgstr[1] "%d deste güncellendi."
+
+#: qt/aqt/deckconf.py:197
+#, python-format
+msgid "(parent limit: %d)"
+msgstr "(ana kaynak limiti: %d)"
+
+#: qt/aqt/deckconf.py:276 qt/aqt/dyndeckconf.py:157
+msgid "Steps must be numbers."
+msgstr "Adımlar sayı olmalıdır."
+
+#: qt/aqt/deckconf.py:279 qt/aqt/dyndeckconf.py:160
+msgid "At least one step is required."
+msgstr "En az bir adım gereklidir."
+
+#: qt/aqt/dyndeckconf.py:21
+msgid "Build"
+msgstr "Yapılandır"
+
+#: qt/aqt/dyndeckconf.py:23 qt/aqt/overview.py:255
+msgid "Rebuild"
+msgstr "Yeniden oluştur"
+
+#: qt/aqt/dyndeckconf.py:128
+msgid "The provided search did not match any cards. Would you like to revise it?"
+msgstr "Sağlanan arama, hiçbir kartla eşleşmedi. Gözden geçirmek ister misiniz?"
+
+#: qt/aqt/editcurrent.py:20
+msgid "Edit Current"
+msgstr "Mevcut olanı düzenle"
+
+#: qt/aqt/editor.py:125
+msgid "Customize Fields"
+msgstr ""
+
+#: qt/aqt/editor.py:133
+msgid "Customize Card Templates (Ctrl+L)"
+msgstr ""
+
+#: qt/aqt/editor.py:143
+msgid "Bold text (Ctrl+B)"
+msgstr ""
+
+#: qt/aqt/editor.py:145
+msgid "Italic text (Ctrl+I)"
+msgstr ""
+
+#: qt/aqt/editor.py:148
+msgid "Underline text (Ctrl+U)"
+msgstr ""
+
+#: qt/aqt/editor.py:151
+msgid "Superscript (Ctrl++)"
+msgstr ""
+
+#: qt/aqt/editor.py:153
+msgid "Subscript (Ctrl+=)"
+msgstr ""
+
+#: qt/aqt/editor.py:154
+msgid "Remove formatting (Ctrl+R)"
+msgstr ""
+
+#: qt/aqt/editor.py:158
+msgid "Set foreground colour (F7)"
+msgstr ""
+
+#: qt/aqt/editor.py:168
+msgid "Change colour (F8)"
+msgstr ""
+
+#: qt/aqt/editor.py:174
+msgid "Cloze deletion (Ctrl+Shift+C)"
+msgstr ""
+
+#: qt/aqt/editor.py:176
+msgid "Attach pictures/audio/video (F3)"
+msgstr ""
+
+#: qt/aqt/editor.py:178
+msgid "Record audio (F5)"
+msgstr ""
+
+#: qt/aqt/editor.py:200
+msgid "Show Duplicates"
+msgstr "Yinelenenleri Göster"
+
+#: qt/aqt/editor.py:580
+msgid "Jump to tags with Ctrl+Shift+T"
+msgstr "Ctrl+Shift+T ile etiketlere geçiş yapın"
+
+#: qt/aqt/editor.py:644
+msgid "Warning, cloze deletions will not work until you switch the type at the top to Cloze."
+msgstr ""
+
+#: qt/aqt/editor.py:651
+msgid "To make a cloze deletion on an existing note, you need to change it to a cloze type first, via 'Notes>Change Note Type'"
+msgstr ""
+
+#: qt/aqt/editor.py:713
+msgid "Media"
+msgstr "İçerik"
+
+#: qt/aqt/editor.py:718
+msgid "Add Media"
+msgstr "Medya Ekle"
+
+#: qt/aqt/editor.py:751
+msgid "Couldn't record audio. Have you installed 'lame'?"
+msgstr ""
+
+#: qt/aqt/editor.py:856
+#, python-format
+msgid "An error occurred while opening %s"
+msgstr "%s 'i açarken bir hata oluştu."
+
+#: qt/aqt/editor.py:953
+msgid "MathJax inline"
+msgstr ""
+
+#: qt/aqt/editor.py:954
+msgid "MathJax block"
+msgstr ""
+
+#: qt/aqt/editor.py:955
+msgid "MathJax chemistry"
+msgstr ""
+
+#: qt/aqt/editor.py:957
+msgid "LaTeX equation"
+msgstr "LaTeX eşitliği"
+
+#: qt/aqt/editor.py:958
+msgid "LaTeX math env."
+msgstr "LaTeX matematik ort."
+
+#: qt/aqt/editor.py:959
+msgid "Edit HTML"
+msgstr "HTML'yi düzenle"
+
+#: qt/aqt/editor.py:1209
+msgid "Cut"
+msgstr "Kes"
+
+#: qt/aqt/editor.py:1211 qt/aqt/webview.py:289
+msgid "Copy"
+msgstr "Kopyala"
+
+#: qt/aqt/editor.py:1213
+msgid "Paste"
+msgstr "Yapıştır"
+
+#: qt/aqt/errors.py:69
+msgid "Unable to access Anki media folder. The permissions on your system's temporary folder may be incorrect."
+msgstr ""
+
+#: qt/aqt/errors.py:82
+msgid "Your firewall or antivirus program is preventing Anki from creating a connection to itself. Please add an exception for Anki."
+msgstr ""
+
+#: qt/aqt/errors.py:88
+msgid "Please connect a microphone, and ensure other programs are not using the audio device."
+msgstr "Lütfen mikrofon bağlayın ve diğer uygulamaların ses cihazını kullanmadığına emin olun."
+
+#: qt/aqt/errors.py:99
+msgid "Your computer's storage may be full. Please delete some unneeded files, then try again."
+msgstr ""
+
+#: qt/aqt/exporting.py:52
+msgid "All Decks"
+msgstr "Bütün Desteler"
+
+#: qt/aqt/exporting.py:55
+msgid "Selected Notes"
+msgstr ""
+
+#: qt/aqt/exporting.py:58
+msgid "Export..."
+msgstr "Dışarıya Aktar..."
+
+#: qt/aqt/exporting.py:145
+#, python-format
+msgid "Couldn't save file: %s"
+msgstr "Dosya kaydedilemedi: %s"
+
+#: qt/aqt/exporting.py:154
+#, python-format
+msgid "Exported %d media file"
+msgid_plural "Exported %d media files"
+msgstr[0] "%d medya dosyası dışa aktarıldı"
+msgstr[1] "%d medya dosyaları dışa aktarıldı"
+
+#: qt/aqt/exporting.py:177
+msgid "Collection exported."
+msgstr ""
 
 #: qt/aqt/exporting.py:183
 #, python-format
@@ -151,703 +2697,52 @@ msgid_plural "%d notes exported."
 msgstr[0] "%d not dışa aktarıldı."
 msgstr[1] "%d not dışa aktarıldı."
 
-#: pylib/anki/importing/mnemo.py:105
+#: qt/aqt/exporting.py:192
 #, python-format
-msgid "%d note imported."
-msgid_plural "%d notes imported."
-msgstr[0] "%d not içe aktarıldı."
-msgstr[1] "%d not içe aktarıldı."
+msgid "%d card exported."
+msgid_plural "%d cards exported."
+msgstr[0] "%d kart dışa aktarıldı."
+msgstr[1] "%d kart dışa aktarıldı."
 
-#: pylib/anki/importing/noteimp.py:224
+#: qt/aqt/fields.py:27
 #, python-format
-msgid "%d note unchanged"
-msgid_plural "%d notes unchanged"
-msgstr[0] "%d not değişmedi"
-msgstr[1] "%d notlar değişmedi"
+msgid "Fields for %s"
+msgstr "%s için alanlar"
 
-#: pylib/anki/importing/noteimp.py:214
+#: qt/aqt/fields.py:90
+msgid "That field name is already used."
+msgstr "Bu alan adı zaten kullanılmış."
+
+#: qt/aqt/fields.py:110
+msgid "Field name:"
+msgstr "Alan adı:"
+
+#: qt/aqt/fields.py:123
+msgid "Notes require at least one field."
+msgstr "En az bir alan gereken notlar."
+
+#: qt/aqt/fields.py:126
 #, python-format
-msgid "%d note updated"
-msgid_plural "%d notes updated"
-msgstr[0] "%d not güncellendi."
-msgstr[1] "%d not güncellendi."
+msgid "Delete field from %s?"
+msgstr "%s dan itibaren haneleri sil"
 
-#: qt/aqt/browser.py:832
+#: qt/aqt/fields.py:140
 #, python-format
-msgid "%d selected"
-msgid_plural "%d selected"
-msgstr[0] "%d seçili öğe"
-msgstr[1] "%d seçili öğe"
+msgid "New position (1...%d):"
+msgstr "Yeni sıralama (1...%d):"
 
-#: pylib/anki/models.py:263
+#: qt/aqt/importing.py:46
 #, python-format
-msgid "%s copy"
-msgstr "%s kopyası"
-
-#: qt/aqt/reviewer.py:94
-#, python-format
-msgid "%s minute."
-msgid_plural "%s minutes."
-msgstr[0] "%s dakika."
-msgstr[1] "%s dakika."
-
-#: qt/aqt/main.py:1222
-#, python-format
-msgid "%s second"
-msgid_plural "%s seconds"
-msgstr[0] "%s saniye"
-msgstr[1] "%s saniye"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:141
-msgid "&About..."
-msgstr "&Hakkında..."
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:147
-msgid "&Browse and Install..."
-msgstr "&Göz at ve Yükle"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:303
-msgid "&Cards"
-msgstr ""
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:148
-msgid "&Check Database"
-msgstr ""
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:318
-msgid "&Cram..."
-msgstr "&Ezber..."
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:300
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:135
-msgid "&Edit"
-msgstr "Dü&zenle"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:343
-msgid "&Export Notes..."
-msgstr ""
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:151
-msgid "&Export..."
-msgstr "&Dışa Aktar..."
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:136
-msgid "&File"
-msgstr "&Dosya"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:310
-msgid "&Find"
-msgstr "&Bul"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:301
-msgid "&Go"
-msgstr "&Git"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:314
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:149
-msgid "&Guide..."
-msgstr "&Kılavuz"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:302
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:134
-msgid "&Help"
-msgstr "&Yardım"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:152
-msgid "&Import..."
-msgstr "&İçe Aktar..."
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:328
-msgid "&Info..."
-msgstr ""
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:309
-msgid "&Invert Selection"
-msgstr "S&eçimi Tersine Çevir"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:312
-msgid "&Next Card"
-msgstr "Sonraki &Kart"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:305
-msgid "&Notes"
-msgstr ""
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:145
-msgid "&Open Add-ons Folder..."
-msgstr "&Eklentiler Klasörünü Aç..."
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:139
-msgid "&Preferences..."
-msgstr "&Seçenekler..."
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:313
-msgid "&Previous Card"
-msgstr "&Önceki Kart"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:306
-msgid "&Reschedule..."
-msgstr "&Yeniden Planlamak..."
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:146
-msgid "&Support Anki..."
-msgstr "&Anki'ye Destek Ol..."
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:150
-msgid "&Switch Profile"
-msgstr ""
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:137
-msgid "&Tools"
-msgstr "&Araçlar"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:308
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:142
-msgid "&Undo"
-msgstr "&Geri Al"
-
-#: pylib/anki/importing/csvfile.py:44
-#, python-format
-msgid "'%(row)s' had %(num1)d fields, expected %(num2)d"
-msgstr "'%(row)s' içinde %(num1)d alan vardı, beklenen %(num2)d"
-
-#: pylib/anki/stats.py:154
-#, python-format
-msgid "(%s correct)"
-msgstr "(%s doğru)"
-
-#: qt/aqt/addcards.py:154
-msgid "(Note deleted)"
-msgstr "(Not silindi)"
-
-#: qt/aqt/addons.py:746
-msgid "(disabled)"
-msgstr ""
-
-#: pylib/anki/schedv2.py:1261
-msgid "(end)"
-msgstr "(son)"
-
-#: qt/aqt/browser.py:369
-msgid "(filtered)"
-msgstr "(süzgeçli)"
-
-#: qt/aqt/browser.py:336
-msgid "(learning)"
-msgstr "(öğreniyor)"
-
-#: qt/aqt/browser.py:334 qt/aqt/browser.py:340
-msgid "(new)"
-msgstr "(yeni)"
-
-#: qt/aqt/deckconf.py:197
-#, python-format
-msgid "(parent limit: %d)"
-msgstr "(ana kaynak limiti: %d)"
-
-#: qt/aqt/previewer.py:162
-msgid "(please select 1 card)"
-msgstr "(lütfen 1 kart seçin)"
-
-#: qt/aqt/addons.py:748
-#, python-format
-msgid "(requires %s)"
-msgstr ""
-
-#: qt/aqt/importing.py:321
-msgid ".anki files are from a very old version of Anki. You can import them with Anki 2.0, available on the Anki website."
-msgstr ""
-
-#: qt/aqt/importing.py:328
-msgid ".anki2 files are not directly importable - please import the .apkg or .zip file you have received instead."
-msgstr ""
-
-#: pylib/anki/stats.py:949
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/stats.py:83
-msgid "1 month"
-msgstr "1 ay"
-
-#: pylib/anki/stats.py:949
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/stats.py:84
-msgid "1 year"
-msgstr "1 yıl"
-
-#: pylib/anki/stats.py:810
-msgid "10AM"
-msgstr ""
-
-#: pylib/anki/stats.py:812
-msgid "10PM"
-msgstr ""
-
-#: pylib/anki/stats.py:813
-msgid "3AM"
-msgstr ""
-
-#: pylib/anki/stats.py:809
-msgid "4AM"
-msgstr ""
-
-#: pylib/anki/stats.py:811
-msgid "4PM"
-msgstr ""
-
-#. T: Symbols separating first and second column in a statistics table. Eg in "Total:    3 reviews".
-#: pylib/anki/stats.py:898
-msgid ":"
-msgstr ""
-
-#: qt/aqt/about.py:110
-#, python-format
-msgid "<a href='%s'>Visit website</a>"
-msgstr "<a href='%s'>Siteye git</a>"
-
-#: pylib/anki/stats.py:408
-#, python-format
-msgid "<b>%(pct)d%%</b> (%(x)s of %(y)s)"
-msgstr "<b>%(pct)d%%</b> (%(y)s içinden %(x)s )"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/exporting.py:77
-msgid "<b>Export format</b>:"
-msgstr "<b>Dışarıya Aktarım Biçimi</b>:"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/findreplace.py:88
-msgid "<b>Find</b>:"
-msgstr "<b>Bul</b>:"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browseropts.py:73
-msgid "<b>Font Size</b>:"
-msgstr "Yazı Büyüklüğü"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browseropts.py:72
-msgid "<b>Font</b>:"
-msgstr "<b>Yazıtipi</b>:"
-
-#: qt/aqt/addons.py:1410
-#, python-format
-msgid "<b>Important</b>: As add-ons are programs downloaded from the internet, they are potentially malicious.<b>You should only install add-ons you trust.</b><br><br>Are you sure you want to proceed with the installation of the following Anki add-on(s)?<br><br>%(names)s"
-msgstr ""
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/findreplace.py:90
-msgid "<b>In</b>:"
-msgstr "<b>İçeride</b>:"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/exporting.py:78
-msgid "<b>Include</b>:"
-msgstr "<b>Dahil</b>:"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browseropts.py:74
-msgid "<b>Line Size</b>:"
-msgstr "<b>Çizgi Tipi</b>:"
-
-#: qt/aqt/addons.py:1434
-msgid "<b>Please restart Anki to complete the installation.</b>"
-msgstr ""
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/findreplace.py:89
-msgid "<b>Replace With</b>:"
-msgstr "<b>...İle Değiştir</b>"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:301
-msgid "<b>Synchronisation</b>"
-msgstr "<b>Eşitleme</b>"
-
-#: qt/aqt/preferences.py:188
-msgid ""
-"<b>Synchronization</b><br>\n"
-"Not currently enabled; click the sync button in the main window to enable."
-msgstr ""
-"<b>Eşitleme</b><br>\n"
-"Henüz etkin değil. Ana pencerede eşitleme düğmesine tıklayarak etkinleştirin."
-
-#: qt/aqt/update.py:59
-#, python-format
-msgid "<h1>Anki Updated</h1>Anki %s has been released.<br><br>"
-msgstr "<h1>Anki Güncellendi</h1>Anki %s sürümü çıktı.<br><br>"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:307
-#, fuzzy
-msgid "<html><head/><body><p><span style=\" font-weight:600;\">Backups</span><br/>Anki will create a backup of your collection each time it is closed.</p></body></html>"
-msgstr "<b>Yedekler</b><br>Anki her kapandığında ya da senkronize edildiğinde koleksiyonunuzun yedeğini alacak."
-
-#: qt/aqt/importing.py:258
-msgid "<ignored>"
-msgstr "<yoksay>"
-
-#: qt/aqt/main.py:1537
-msgid "<non-unicode text>"
-msgstr "<unicode olmayan yazı>"
-
-#: qt/aqt/browser.py:765
-msgid "<type here to search; hit enter to show current deck>"
-msgstr "<aramak için buraya basın; açık destede görmek için giriş tuşuna basın>"
-
-#: qt/aqt/about.py:225
-msgid "A big thanks to all the people who have provided suggestions, bug reports and donations."
-msgstr "Önerileri, hata raporları ve bağışları ile katkı sağlayan  herkese büyük teşekkür ediyoruz."
-
-#: pylib/anki/stats.py:882
-msgid "A card's <i>ease</i> is the size of the next interval when you answer \"good\" on a review."
-msgstr "Bir kartın <i>kolaylığı</i> gözden geçirirken \"iyi\" cevabını verdiğinizde belirecek bir sonraki tekrar süresinin büyüklüğüdür."
-
-#: pylib/anki/importing/csvfile.py:56
-#, python-format
-msgid "Aborted: %s"
-msgstr "İptal Edildi: %s"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/about.py:45
-msgid "About Anki"
-msgstr "Anki Hakkında"
-
-#: qt/aqt/addcards.py:38 qt/aqt/addcards.py:70 qt/aqt/deckconf.py:89
-#: qt/aqt/models.py:57 qt/aqt/studydeck.py:46 qt/aqt/toolbar.py:112
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addcards.py:60
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:103
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/profiles.py:82
-msgid "Add"
-msgstr "Ekle"
-
-#: qt/aqt/addcards.py:73
-msgid "Add (shortcut: ctrl+enter)"
-msgstr "Ekle (kısayol tuşu: ctrl+enter)"
-
-#: qt/aqt/clayout.py:676
-msgid "Add Card Type..."
-msgstr ""
-
-#: qt/aqt/clayout.py:389
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addfield.py:62
-msgid "Add Field"
-msgstr "Alan Ekle"
-
-#: qt/aqt/editor.py:718
-msgid "Add Media"
-msgstr "Medya Ekle"
-
-#: qt/aqt/studydeck.py:48
-msgid "Add New Deck (Ctrl+N)"
-msgstr "Yeni Deste Ekle (Ctrl+N)"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addmodel.py:46
-msgid "Add Note Type"
-msgstr "Not Türü Ekle"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:333
-msgid "Add Notes..."
-msgstr ""
-
-#: qt/aqt/browser.py:1629
-msgid "Add Tags"
-msgstr "Etiketleri ekle"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:329
-msgid "Add Tags..."
-msgstr ""
-
-#: qt/aqt/browser.py:172
-msgid "Add-on"
-msgstr ""
-
-#: qt/aqt/addons.py:902
-msgid "Add-on has no configuration."
-msgstr ""
-
-#: qt/aqt/addons.py:1451
-msgid "Add-on installation error"
-msgstr ""
-
-#: qt/aqt/addons.py:823
-msgid "Add-on was not downloaded from AnkiWeb."
-msgstr ""
-
-#: qt/aqt/main.py:1600
-msgid "Add-on will be installed when a profile is opened."
-msgstr ""
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:157
-msgid "Add-ons"
-msgstr ""
-
-#: qt/aqt/models.py:212
-#, python-format
-msgid "Add: %s"
-msgstr "Ekle: %s"
-
-#: pylib/anki/importing/anki2.py:163 pylib/anki/stats.py:309
-#: qt/aqt/addcards.py:202
-msgid "Added"
-msgstr "Eklendi"
-
-#: qt/aqt/browser.py:1263
-msgid "Added Today"
-msgstr "Bugün Eklenenler"
-
-#: pylib/anki/importing/noteimp.py:139
-#, python-format
-msgid "Added duplicate with first field: %s"
-msgstr "İlk alanın aynısı eklendi: %s"
-
-#: qt/aqt/reviewer.py:629 qt/aqt/reviewer.py:633 qt/aqt/reviewer.py:636
-msgid "Again"
-msgstr "Tekrar"
-
-#: qt/aqt/browser.py:1265
-msgid "Again Today"
-msgstr "Bugün tekrar edilenler"
-
-#: pylib/anki/stats.py:152
-#, python-format
-msgid "Again count: %s"
-msgstr "Tekrar sayısı: %s"
-
-#: qt/aqt/overview.py:133
-msgid "All Buried Cards"
-msgstr ""
-
-#: qt/aqt/browser.py:1349
-msgid "All Card Types"
-msgstr ""
-
-#: qt/aqt/exporting.py:52
-msgid "All Decks"
-msgstr "Bütün Desteler"
-
-#: qt/aqt/browser.py:1884
-msgid "All Fields"
-msgstr "Tüm Alanlar"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:119
-msgid "All cards in random order (don't reschedule)"
-msgstr ""
-
-#: qt/aqt/main.py:324
-msgid "All cards, notes, and media for this profile will be deleted. Are you sure?"
-msgstr "Bu profil için bütün kartlar, notlar ve medya dosyaları silinecek. Emin misiniz?"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:117
-msgid "All review cards in random order"
-msgstr ""
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:112
-msgid "Allow HTML in fields"
-msgstr "Alanlarda HTML kodlarına izin ver"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:379
-msgid "Always include question side when replaying audio"
-msgstr ""
-
-#: qt/aqt/editor.py:856
-#, python-format
-msgid "An error occurred while opening %s"
-msgstr "%s 'i açarken bir hata oluştu."
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:133
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/setgroup.py:40
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/setlang.py:41
-msgid "Anki"
-msgstr ""
-
-#: pylib/anki/exporting.py:167
-msgid "Anki 2.0 Deck"
-msgstr "Anki 2.0 Destesi"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:293
-msgid "Anki 2.1 scheduler (beta)"
-msgstr ""
-
-#: pylib/anki/exporting.py:398
-msgid "Anki Collection Package"
-msgstr ""
-
-#: pylib/anki/exporting.py:316
-msgid "Anki Deck Package"
-msgstr "Anki deste paketi"
-
-#: qt/aqt/profiles.py:256
-msgid "Anki could not read your profile data. Window sizes and your sync login details have been forgotten."
-msgstr ""
-
-#: qt/aqt/profiles.py:326
-msgid "Anki could not rename your profile because it could not rename the profile folder on disk. Please ensure you have permission to write to Documents/Anki and no other programs are accessing your profile folders, then try again."
-msgstr "Anki, disk üzerindeki profil klasörünü yeniden adlandıramadığı için profilinizi yeniden adlandıramadı. Lütfen Documents / Anki'ye yazma izninizin olduğundan ve diğer hiçbir programın profil klasörünüze erişemediğinden emin olduktan sonra tekrar deneyin."
-
-#: qt/aqt/clayout.py:661
-msgid "Anki couldn't find the line between the question and answer. Please adjust the template manually to switch the question and answer."
-msgstr "Anki, soruyla cevap arasında bağlantı kuramadı. Soru ve cevabın yerini değiştirmek için şablonu elle ayarlayın."
-
-#: qt/aqt/about.py:97
-msgid "Anki is a friendly, intelligent spaced learning system. It's free and open source."
-msgstr "Anki arkadaştır, akıllı öğrenme sistemidir. Bedava ve açık kaynaktır."
-
-#: qt/aqt/about.py:101
-msgid "Anki is licensed under the AGPL3 license. Please see the license file in the source distribution for more information."
-msgstr "Anki AGPL3 lisansı ise lisanslanmıştır. Daha fazla bilgi için lütfen kaynak dağıtımdaki lisans dosyasına bakın."
-
-#: qt/aqt/browser.py:741
-msgid "Answer"
-msgstr "Cevap"
-
-#: pylib/anki/stats.py:681
-msgid "Answer Buttons"
-msgstr "Cevap Tuşları"
-
-#: pylib/anki/stats.py:357 pylib/anki/stats.py:692 pylib/anki/stats.py:800
-msgid "Answers"
-msgstr "Cevaplar"
-
-#: qt/aqt/browser.py:1289
-msgid "Any Flag"
-msgstr ""
-
-#: qt/aqt/browser.py:2263
-msgid "Any cards mapped to nothing will be deleted. If a note has no remaining cards, it will be lost. Are you sure you want to continue?"
-msgstr "İçi boş kartlar silinecek. Bir notun içinde hiç kart yoksa silinecek. Devam etmek istiyor musunuz?"
-
-#: pylib/anki/importing/noteimp.py:161
-#, python-format
-msgid "Appeared twice in file: %s"
-msgstr "Dosya %s içinde çifte giriş var."
-
-#: qt/aqt/deckbrowser.py:296
-#, python-format
-msgid "Are you sure you wish to delete %s?"
-msgstr "%s girdisini silmek istediğinizden emin misiniz?"
-
-#: qt/aqt/clayout.py:551
-msgid "At least one card type is required."
-msgstr "En az bir kart tipi gereklidir."
-
-#: qt/aqt/deckconf.py:279 qt/aqt/dyndeckconf.py:160
-msgid "At least one step is required."
-msgstr "En az bir adım gereklidir."
-
-#: qt/aqt/editor.py:176
-msgid "Attach pictures/audio/video (F3)"
-msgstr ""
-
-#: qt/aqt/reviewer.py:737
-msgid "Audio +5s"
-msgstr ""
-
-#: qt/aqt/reviewer.py:736
-msgid "Audio -5s"
-msgstr ""
-
-#: qt/aqt/main.py:374
-msgid "Automatic syncing and backups have been disabled while restoring. To enable them again, close the profile or restart Anki."
-msgstr ""
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:378
-msgid "Automatically play audio"
-msgstr "Sesi otomatik olarak çal"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:303
-msgid "Automatically sync on profile open/close"
-msgstr "Açma/kapama anında profili otomatik olarak senkronize et"
-
-#: pylib/anki/stats.py:252 pylib/anki/stats.py:319
-msgid "Average"
-msgstr "Ortalama"
-
-#: pylib/anki/stats.py:434
-msgid "Average answer time"
-msgstr "Ortalama cevap süresi"
-
-#: pylib/anki/stats.py:878
-msgid "Average ease"
-msgstr "Ortalama kolaylık"
-
-#: pylib/anki/stats.py:423
-msgid "Average for days studied"
-msgstr "Ortalama çalışılan gün"
-
-#: pylib/anki/stats.py:618
-msgid "Average interval"
-msgstr "Ortalama aralık"
-
-#: qt/aqt/previewer.py:83
-msgid "Back Side Only"
-msgstr ""
-
-#: qt/aqt/main.py:558
-msgid "Backing Up..."
-msgstr ""
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:313
-msgid "Backups"
-msgstr "Yedekler"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:289
-msgid "Basic"
-msgstr "Temel"
-
-#: qt/aqt/browser.py:1287 qt/aqt/reviewer.py:719
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:338
-msgid "Blue Flag"
-msgstr ""
-
-#: qt/aqt/editor.py:143
-msgid "Bold text (Ctrl+B)"
-msgstr ""
-
-#: qt/aqt/toolbar.py:119
-msgid "Browse"
-msgstr "Aç"
-
-#: qt/aqt/browser.py:826
-#, python-format
-msgid "Browse (%(cur)d card shown; %(sel)s)"
-msgid_plural "Browse (%(cur)d cards shown; %(sel)s)"
-msgstr[0] ""
-msgstr[1] ""
-
-#: qt/aqt/addons.py:922
-msgid "Browse Add-ons"
-msgstr ""
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browserdisp.py:71
-msgid "Browser Appearance"
-msgstr "Tarayıcı Görünümü"
-
-#: qt/aqt/clayout.py:698
-msgid "Browser Appearance..."
-msgstr ""
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browseropts.py:71
-msgid "Browser Options"
-msgstr "Tarayıcı Seçenekleri"
-
-#: qt/aqt/dyndeckconf.py:21
-msgid "Build"
-msgstr "Yapılandır"
-
-#: qt/aqt/browser.py:1282
-msgid "Buried"
-msgstr ""
-
-#: qt/aqt/overview.py:132
-msgid "Buried Siblings"
-msgstr ""
-
-#: qt/aqt/reviewer.py:824 qt/aqt/reviewer.py:830
-msgid "Bury"
-msgstr ""
-
-#: qt/aqt/reviewer.py:727
-msgid "Bury Card"
-msgstr "Gizli Kart"
-
-#: qt/aqt/reviewer.py:728
-msgid "Bury Note"
-msgstr "Notu Gizle"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:349
-msgid "Bury related new cards until the next day"
-msgstr "Bir sonraki güne kadar ilgili kartları gizle"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:360
-msgid "Bury related reviews until the next day"
-msgstr "Ertesi güne kadar gizli kartlar gözden geçirilir"
+msgid "Map to %s"
+msgstr "Eşle %s"
+
+#: qt/aqt/importing.py:52
+msgid "Map to Tags"
+msgstr "Etiketleri Eşle"
+
+#: qt/aqt/importing.py:53
+msgid "Ignore field"
+msgstr "Alanı gözardı et."
 
 #: qt/aqt/importing.py:123
 msgid ""
@@ -858,548 +2753,108 @@ msgstr ""
 "Varsayılan, Anki karakter arasında boş alan tespit ettiğinde, örneğin tab, virgül vb. Eğerr Anki yanlış karakter tespit ettiyse\n"
 "buraya girebilirsiniz. tab tuşunu \\t ile kullanın."
 
-#: qt/aqt/clayout.py:405 qt/aqt/overview.py:134 qt/aqt/sound.py:602
-msgid "Cancel"
-msgstr "İptal"
+#: qt/aqt/importing.py:137
+msgid "Multi-character separators are not supported. Please enter one character only."
+msgstr "Çok karakterli ayırıcılar desteklenmiyor. Lütfen yalnızca bir karakter girin."
 
-#: qt/aqt/browser.py:742
-msgid "Card"
-msgstr "Kart"
-
-#: qt/aqt/clayout.py:622
-#, python-format
-msgid "Card %d"
-msgstr "Kart %d"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:320
-msgid "Card List"
-msgstr "Kart Listesi"
-
-#: qt/aqt/browser.py:1272
-msgid "Card State"
-msgstr ""
-
-#: pylib/anki/stats.py:886 qt/aqt/clayout.py:63
-msgid "Card Types"
-msgstr "Kart Tipleri"
-
-#: qt/aqt/clayout.py:69
-#, python-format
-msgid "Card Types for %s"
-msgstr "%s için Kart Tipleri"
-
-#: qt/aqt/reviewer.py:827
-msgid "Card buried."
-msgstr "Kart Gizlendi."
-
-#: qt/aqt/reviewer.py:804
-msgid "Card suspended."
-msgstr "Kart askıya alındı."
-
-#: qt/aqt/reviewer.py:685
-msgid "Card was a leech."
-msgstr "Kart bir sömürücüydü."
-
-#: pylib/anki/stats.py:310 pylib/anki/stats.py:962 qt/aqt/editor.py:134
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/changemodel.py:114
-msgid "Cards"
-msgstr "Kartlar"
-
-#: qt/aqt/browser.py:1603
-msgid "Cards can't be manually moved into a filtered deck."
-msgstr "Kartlar filtrelenmiş bir desteye manuel olarak taşınamaz."
-
-#: pylib/anki/exporting.py:95
-msgid "Cards in Plain Text"
-msgstr "Düz Metindeki Kartlar"
-
-#: qt/aqt/overview.py:192
-msgid "Cards will be automatically returned to their original decks after you review them."
-msgstr "Kartlar incelemenizden sonra otomatik olarak orjinal destelerine döndürülecekler."
-
-#: qt/aqt/models.py:66
-msgid "Cards..."
-msgstr "Kartlar..."
-
-#: pylib/anki/consts.py:108
-msgid "Center"
-msgstr "Ortala"
-
-#: qt/aqt/importing.py:260
-msgid "Change"
-msgstr "Değiştir"
-
-#: qt/aqt/browser.py:2183
-#, python-format
-msgid "Change %s to:"
-msgstr "%s değişti :"
-
-#: qt/aqt/browser.py:1594 qt/aqt/browser.py:1606
-msgid "Change Deck"
-msgstr "Desteyi Değiştir"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:334
-msgid "Change Deck..."
-msgstr ""
-
-#: qt/aqt/browser.py:2270
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/changemodel.py:111
-msgid "Change Note Type"
-msgstr "Not Tipi Değiştir"
-
-#: qt/aqt/modelchooser.py:44
-msgid "Change Note Type (Ctrl+N)"
-msgstr "Not Tipi Değiştir"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:315
-msgid "Change Note Type..."
-msgstr "Not Tipi Değiştir..."
-
-#: qt/aqt/editor.py:168
-msgid "Change colour (F8)"
-msgstr ""
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:286
-msgid "Change deck depending on note type"
-msgstr "Not tipine göre desteyi değiştir"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:70
-msgid "Changes will take effect when Anki is restarted."
-msgstr ""
-
-#: qt/aqt/preferences.py:120 qt/aqt/preferences.py:250
-msgid "Changes will take effect when you restart Anki."
-msgstr ""
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:143
-msgid "Check &Media..."
-msgstr "Kontrol & Veritabanı"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:73
-msgid "Check for Updates"
-msgstr ""
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:144
-msgid "Check the files in the media directory"
-msgstr "Medya dizinindeki dosyaları kontrol edin"
-
-#: qt/aqt/addons.py:885
-msgid "Checking..."
-msgstr "Kontrol ediliyor..."
-
-#: qt/aqt/deckchooser.py:87 qt/aqt/modelchooser.py:84
-msgid "Choose"
-msgstr "Seç"
-
-#: qt/aqt/deckchooser.py:88
-msgid "Choose Deck"
-msgstr "Deste Seçin"
-
-#: qt/aqt/modelchooser.py:85
-msgid "Choose Note Type"
-msgstr "Not Tipi Seçin"
-
-#: qt/aqt/customstudy.py:103
-msgid "Choose Tags"
-msgstr "Etiketleri Seçin"
-
-#: qt/aqt/browser.py:1301
-msgid "Clear Unused"
-msgstr ""
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:340
-msgid "Clear Unused Tags"
-msgstr ""
-
-#: qt/aqt/models.py:217
-#, python-format
-msgid "Clone: %s"
-msgstr "Klon: %s"
-
-#: qt/aqt/addcards.py:75
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:327
-msgid "Close"
-msgstr "Kapat"
-
-#: qt/aqt/addcards.py:232
-msgid "Close and lose current input?"
-msgstr "Kapatmak ve geçerli veri girişini kaybetmek mi ?"
-
-#: qt/aqt/main.py:556
-msgid "Closing..."
-msgstr ""
-
-#: qt/aqt/clayout.py:243
-#, fuzzy, python-format
-msgid "Cloze %d"
-msgstr "Kapat"
-
-#: qt/aqt/editor.py:174
-msgid "Cloze deletion (Ctrl+Shift+C)"
-msgstr ""
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/getaddons.py:52
-msgid "Code:"
-msgstr "Kod:"
-
-#: qt/aqt/exporting.py:177
-msgid "Collection exported."
-msgstr ""
-
-#: qt/aqt/importing.py:167
-msgid "Colon"
-msgstr "İki nokta üst üste"
+#: qt/aqt/importing.py:159
+msgid "Tab"
+msgstr "Sekme"
 
 #: qt/aqt/importing.py:161
 msgid "Comma"
 msgstr "Virgül"
 
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:75
-msgid "Config"
-msgstr ""
+#: qt/aqt/importing.py:163 qt/aqt/reviewer.py:584
+msgid "Space"
+msgstr "Boşluk"
 
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addonconf.py:73
-msgid "Configuration"
-msgstr ""
+#: qt/aqt/importing.py:165
+msgid "Semicolon"
+msgstr "Noktalı Virgül"
 
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:140
-msgid "Configure interface language and options"
-msgstr "Dil ve seçenekler arayüzünü yapılandır"
+#: qt/aqt/importing.py:167
+msgid "Colon"
+msgstr "İki nokta üst üste"
 
-#: qt/aqt/reviewer.py:96
-msgid "Continue"
-msgstr "Devam Et"
-
-#: qt/aqt/about.py:86
-msgid "Copied to clipboard"
-msgstr ""
-
-#: qt/aqt/editor.py:1211 qt/aqt/webview.py:289
-msgid "Copy"
-msgstr "Kopyala"
-
-#: qt/aqt/about.py:88
-msgid "Copy Debug Info"
-msgstr ""
-
-#: qt/aqt/utils.py:148
-msgid "Copy to Clipboard"
-msgstr ""
-
-#: pylib/anki/stats.py:173
+#: qt/aqt/importing.py:170
 #, python-format
-msgid "Correct answers on mature cards: %(a)d/%(b)d (%(c).1f%%)"
-msgstr "Tamamlanmış kartlardaki doğru cevaplar: %(a)d/%(b)d (%(c).1f%%)"
+msgid "Fields separated by: %s"
+msgstr "İle ayrılmış alanlar: %s"
 
-#: pylib/anki/stats.py:713
+#: qt/aqt/importing.py:176
+msgid "The first field of the note type must be mapped."
+msgstr "Not türünün ilk alanı eşleştirilmelidir."
+
+#: qt/aqt/importing.py:211 qt/aqt/importing.py:524
+msgid "Importing complete."
+msgstr "İçe aktarma tamamlandı."
+
+#: qt/aqt/importing.py:251
 #, python-format
-msgid "Correct: <b>%(pct)0.2f%%</b><br>(%(good)d of %(tot)d)"
-msgstr "Doğru: <b>%(pct)0.2f%%</b><br>(%(good)d of %(tot)d)"
+msgid "Field <b>%d</b> of file is:"
+msgstr "Dosyanın  <b>%d</b> alanı"
 
-#: qt/aqt/addons.py:471
-msgid "Corrupt add-on file."
-msgstr ""
+#: qt/aqt/importing.py:254
+msgid "mapped to <b>Tags</b>"
+msgstr "Eşlenmiş <b>Etiketler</b>"
 
-#: qt/aqt/editor.py:751
-msgid "Couldn't record audio. Have you installed 'lame'?"
-msgstr ""
-
-#: qt/aqt/exporting.py:145
+#: qt/aqt/importing.py:256
 #, python-format
-msgid "Couldn't save file: %s"
-msgstr "Dosya kaydedilemedi: %s"
+msgid "mapped to <b>%s</b>"
+msgstr "eşlenmiş <b>%s</b>"
 
-#: pylib/anki/stats.py:350 pylib/anki/stats.py:370
-msgid "Cram"
-msgstr "Yoğun Çalışma"
+#: qt/aqt/importing.py:258
+msgid "<ignored>"
+msgstr "<yoksay>"
 
-#: qt/aqt/deckbrowser.py:309
-msgid "Create Deck"
-msgstr "Deste Oluştur"
+#: qt/aqt/importing.py:260
+msgid "Change"
+msgstr "Değiştir"
 
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:155
-msgid "Create Filtered Deck..."
-msgstr "Filtreli Deste Yaratın..."
+#: qt/aqt/importing.py:303
+msgid "Selected file was not in UTF-8 format. Please see the importing section of the manual."
+msgstr "Seçilen dosya UTF-8 biçiminde değildi. Lütfen klavuzdaki içe aktarma bölümüne bakın."
 
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/modelopts.py:66
-msgid "Create scalable images with dvisvgm"
+#: qt/aqt/importing.py:321
+msgid ".anki files are from a very old version of Anki. You can import them with Anki 2.0, available on the Anki website."
 msgstr ""
 
-#: qt/aqt/browser.py:745
-msgid "Created"
-msgstr "Oluşturuldu"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:344
-msgid "Ctrl+Shift+E"
+#: qt/aqt/importing.py:328
+msgid ".anki2 files are not directly importable - please import the .apkg or .zip file you have received instead."
 msgstr ""
 
-#: pylib/anki/stats.py:221
-msgid "Cumulative"
-msgstr "Toplam"
+#: qt/aqt/importing.py:367
+msgid "Unknown file format."
+msgstr "Bilinmeyen dosya biçimi."
 
-#: pylib/anki/stats.py:382
+#: qt/aqt/importing.py:403
+msgid "    Invalid file. Please restore from backup."
+msgstr "Geçersiz dosya. Lütfen yedekten yükleyin."
+
+#: qt/aqt/importing.py:412
+#, fuzzy
+msgid "    Unable to import from a read-only file."
+msgstr "Salt okunur bir dosyadan içe aktarılamıyor."
+
+#: qt/aqt/importing.py:434
+msgid "This file does not appear to be a valid .apkg file. If you're getting this error from a file downloaded from AnkiWeb, chances are that your download failed. Please try again, and if the problem persists, please try again with a different browser."
+msgstr "Bu dosya geçerli bir .apkg dosyası gibi görünmüyor. Bu hatayı AnkiWeb'den indirilen bir dosyadan alıyorsanız, indirme başarısız olmuş olabilir. Lütfen tekrar deneyin ve sorun devam ederse lütfen farklı bir tarayıcıyla yeniden deneyin."
+
+#: qt/aqt/importing.py:454
+msgid "This will delete your existing collection and replace it with the data in the file you're importing. Are you sure?"
+msgstr "Bu, mevcut koleksiyonunuzu silecer ve içe aktardığınız dosyadaki verilerle değiştirir. Emin misiniz?"
+
+#: qt/aqt/importing.py:494
 #, python-format
-msgid "Cumulative %s"
-msgstr "Toplam %s"
+msgid "Processed %d media file"
+msgid_plural "Processed %d media files"
+msgstr[0] "%d medya dosyası işlendi."
+msgstr[1] "%d medya dosyaları işlendi."
 
-#: pylib/anki/stats.py:357
-msgid "Cumulative Answers"
-msgstr "Toplam Cevaplar"
-
-#: pylib/anki/stats.py:236 pylib/anki/stats.py:310
-msgid "Cumulative Cards"
-msgstr "Toplam Kartlar"
-
-#: qt/aqt/browser.py:1115 qt/aqt/browser.py:1255
-msgid "Current Deck"
-msgstr "Mevcut Deste"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/changemodel.py:112
-msgid "Current note type:"
-msgstr "Mevcut not tipi:"
-
-#: qt/aqt/overview.py:258
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:103
-msgid "Custom Study"
-msgstr "Özel Çalışma"
-
-#: qt/aqt/customstudy.py:141 qt/aqt/customstudy.py:153
-msgid "Custom Study Session"
-msgstr "Özel Çalışma Oturumu"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:149
-msgid "Custom steps (in minutes)"
-msgstr ""
-
-#: qt/aqt/editor.py:133
-msgid "Customize Card Templates (Ctrl+L)"
-msgstr ""
-
-#: qt/aqt/editor.py:125
-msgid "Customize Fields"
-msgstr ""
-
-#: qt/aqt/editor.py:1209
-msgid "Cut"
-msgstr "Kes"
-
-#: pylib/anki/stats.py:407
-msgid "Days studied"
-msgstr "Çalışılan günler"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/debug.py:56
-msgid "Debug Console"
-msgstr "Hata Ayıklama Konsolu"
-
-#: qt/aqt/browser.py:743 qt/aqt/deckbrowser.py:147 qt/aqt/deckchooser.py:29
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:108
-msgid "Deck"
-msgstr "Deste"
-
-#: qt/aqt/clayout.py:695
-msgid "Deck Override..."
-msgstr ""
-
-#: qt/aqt/main.py:1602
-msgid "Deck will be imported when a profile is opened."
-msgstr "Bir oturum açıldığında deste içe aktarılacaktır."
-
-#: qt/aqt/browser.py:1329 qt/aqt/toolbar.py:105
-msgid "Decks"
-msgstr "Desteler"
-
-#: pylib/anki/consts.py:119
-msgid "Decreasing intervals"
-msgstr "Aralığı azaltma"
-
-#: qt/aqt/deckchooser.py:51 qt/aqt/deckchooser.py:55 qt/aqt/deckchooser.py:77
-msgid "Default"
-msgstr "Öntanımlı"
-
-#: pylib/anki/stats.py:596
-msgid "Delays until reviews are shown again."
-msgstr "Gözden geçirme tekrar gösterilene kadar erteler."
-
-#: qt/aqt/deckbrowser.py:234 qt/aqt/deckconf.py:91 qt/aqt/models.py:59
-#: qt/aqt/reviewer.py:812
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:78
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:332
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:104
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/profiles.py:84
-msgid "Delete"
-msgstr "Sil"
-
-#: qt/aqt/deckbrowser.py:280
-msgid "Delete Deck"
-msgstr "Desteyi kaldır"
-
-#: qt/aqt/reviewer.py:731
-msgid "Delete Note"
-msgstr "Notu Sil"
-
-#: qt/aqt/browser.py:1547
-msgid "Delete Notes"
-msgstr "Notu Sil"
-
-#: qt/aqt/browser.py:1639
-msgid "Delete Tags"
-msgstr "Etiketleri sil"
-
-#: qt/aqt/fields.py:126
-#, python-format
-msgid "Delete field from %s?"
-msgstr "%s dan itibaren haneleri sil"
-
-#: qt/aqt/addons.py:845
-#, python-format
-msgid "Delete the %(num)d selected add-on?"
-msgid_plural "Delete the %(num)d selected add-ons?"
-msgstr[0] ""
-msgstr[1] ""
-
-#: qt/aqt/clayout.py:561
-#, python-format
-msgid "Delete the '%(a)s' card type, and its %(b)s?"
-msgstr "'%(a)s' kart tipi ve ona ait %(b)s silinsin mi?"
-
-#: qt/aqt/models.py:134
-msgid "Delete this note type and all its cards?"
-msgstr "Bu not kategorisini ve içindeki tüm kartları sil"
-
-#: qt/aqt/models.py:136
-msgid "Delete this unused note type?"
-msgstr "Kullanılmayan bu not kategorisini kaldır"
-
-#: qt/aqt/overview.py:197
-msgid "Deleting this deck from the deck list will return all remaining cards to their original deck."
-msgstr "Bu desteyi deste listesinden sildiğinizde geri kalan tüm kartlar orijinal desteye geri dönecektir."
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:382
-msgid "Description"
-msgstr "Açıklama"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:381
-msgid "Description to show on overview screen, for current deck:"
-msgstr ""
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:135
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/editaddon.py:42
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/editcurrent.py:43
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/progress.py:42
-msgid "Dialog"
-msgstr "Pencere"
-
-#: qt/aqt/addons.py:1115
-msgid "Download complete. Please restart Anki to apply changes."
-msgstr ""
-
-#: qt/aqt/addons.py:491
-#, python-format
-msgid "Downloaded %(fname)s"
-msgstr ""
-
-#. T: "%(a)d" is the index of the element currently
-#. downloaded. "%(b)d" is the number of element to download,
-#. and "%(kb)0.2f" is the number of downloaded
-#. kilobytes. This lead for example to "Downloading 3/5
-#. (27KB)"
-#: qt/aqt/addons.py:1094
-#, python-format
-msgid "Downloading %(a)d/%(b)d (%(kb)0.2fKB)..."
-msgstr ""
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:115
-msgid "Due cards only"
-msgstr "Sadece geçmiş kartlar"
-
-#: pylib/anki/stats.py:261
-msgid "Due tomorrow"
-msgstr "Yarına kadar"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:138
-msgid "E&xit"
-msgstr "Kapat"
-
-#: qt/aqt/browser.py:750
-msgid "Ease"
-msgstr "Kolaylık"
-
-#: qt/aqt/reviewer.py:633 qt/aqt/reviewer.py:639
-msgid "Easy"
-msgstr "Kolay"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:353
-msgid "Easy bonus"
-msgstr "Kolay ikramiye"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:345
-msgid "Easy interval"
-msgstr "Kolay süre"
-
-#: qt/aqt/reviewer.py:572
-msgid "Edit"
-msgstr "Düzenle"
-
-#: qt/aqt/addcards.py:149
-#, python-format
-msgid "Edit \"%s\""
-msgstr "\"%s\" ögesini düzenle"
-
-#: qt/aqt/editcurrent.py:20
-msgid "Edit Current"
-msgstr "Mevcut olanı düzenle"
-
-#: qt/aqt/editor.py:959
-msgid "Edit HTML"
-msgstr "HTML'yi düzenle"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:107
-msgid "Editing Font"
-msgstr "Yazı tipi düzenlemesi"
-
-#: qt/aqt/overview.py:256
-msgid "Empty"
-msgstr "Boşalt"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:154
-msgid "Empty Cards..."
-msgstr "Kartları kaldır"
-
-#: pylib/anki/importing/noteimp.py:156
-#, python-format
-msgid "Empty first field: %s"
-msgstr "İlk alanı boşalt  :%s"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:146
-msgid "Enable second filter"
-msgstr ""
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:326
-msgid "End"
-msgstr "Sonlandır"
-
-#: qt/aqt/clayout.py:740
-#, python-format
-msgid "Enter deck to place new %s cards in, or leave blank:"
-msgstr "Desteye yeni %s kartları yerleştirin, ya da boş bırakın:"
-
-#: qt/aqt/clayout.py:600
-#, python-format
-msgid "Enter new card position (1...%s):"
-msgstr "Yeni kart sırasını girin (1...%s):"
-
-#: qt/aqt/browser.py:1619
-msgid "Enter tags to add:"
-msgstr "Eklenecek etiketleri girin :"
-
-#: qt/aqt/browser.py:1641
-msgid "Enter tags to delete:"
-msgstr "Silinen etiketleri girin :"
-
-#: qt/aqt/addons.py:478
-#, python-format
-msgid "Error downloading <i>%(id)s</i>: %(error)s"
-msgstr ""
+#: qt/aqt/importing.py:516
+msgid "The provided file is not a valid .apkg file."
+msgstr "Sağlanan dosya geçerli bir .apkg dosyası değil."
 
 #: qt/aqt/main.py:123
 #, python-format
@@ -1410,318 +2865,99 @@ msgstr ""
 "Başlatılma hatası:\n"
 "%s"
 
-#: pylib/anki/latex.py:176
-#, python-format
-msgid "Error executing %s."
-msgstr "%s çalıştırırken bir hata oldu."
+#: qt/aqt/main.py:129
+msgid "Shift key was held down. Skipping automatic syncing and add-on loading."
+msgstr "Shift tuşu basılı tutuldu. Otomatik sekronu ve eklenti yüklemesini atlanıyor."
 
-#: qt/aqt/addons.py:480
-#, python-format
-msgid "Error installing <i>%(base)s</i>: %(error)s"
+#: qt/aqt/main.py:294 qt/aqt/models.py:123
+msgid "Name:"
+msgstr "Ad:"
+
+#: qt/aqt/main.py:297 qt/aqt/main.py:311
+msgid "Name exists."
+msgstr "Ad mevcut."
+
+#: qt/aqt/main.py:320
+msgid "There must be at least one profile."
+msgstr "En az bir profil olmalı."
+
+#: qt/aqt/main.py:324
+msgid "All cards, notes, and media for this profile will be deleted. Are you sure?"
+msgstr "Bu profil için bütün kartlar, notlar ve medya dosyaları silinecek. Emin misiniz?"
+
+#: qt/aqt/main.py:338
+msgid "Replace your collection with an earlier backup?"
 msgstr ""
 
-#: qt/aqt/sound.py:502
-#, python-format
-msgid "Error running %s"
-msgstr "%s çalıştırma hatası"
-
-#: qt/aqt/deckbrowser.py:232 qt/aqt/exporting.py:124
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/exporting.py:76
-msgid "Export"
-msgstr "Dışarıya Aktar"
-
-#: qt/aqt/exporting.py:58
-msgid "Export..."
-msgstr "Dışarıya Aktar..."
-
-#: qt/aqt/exporting.py:154
-#, python-format
-msgid "Exported %d media file"
-msgid_plural "Exported %d media files"
-msgstr[0] "%d medya dosyası dışa aktarıldı"
-msgstr[1] "%d medya dosyaları dışa aktarıldı"
-
-#: qt/aqt/importing.py:251
-#, python-format
-msgid "Field <b>%d</b> of file is:"
-msgstr "Dosyanın  <b>%d</b> alanı"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:114
-msgid "Field mapping"
-msgstr "Alan eşleştirme"
-
-#: qt/aqt/fields.py:110
-msgid "Field name:"
-msgstr "Alan adı:"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addfield.py:63
-msgid "Field:"
-msgstr "Alan:"
-
-#: qt/aqt/editor.py:126 qt/aqt/fields.py:23
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/changemodel.py:115
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:102
-msgid "Fields"
-msgstr "Alanlar"
-
-#: qt/aqt/fields.py:27
-#, python-format
-msgid "Fields for %s"
-msgstr "%s için alanlar"
-
-#: qt/aqt/importing.py:170
-#, python-format
-msgid "Fields separated by: %s"
-msgstr "İle ayrılmış alanlar: %s"
-
-#: qt/aqt/models.py:65
-msgid "Fields..."
-msgstr "Alanlar..."
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:319
-msgid "Fil&ter"
+#: qt/aqt/main.py:351
+msgid "Revert to backup"
 msgstr ""
 
-#: pylib/anki/importing/mnemo.py:24
-msgid "File version unknown, trying import anyway."
+#: qt/aqt/main.py:364
+msgid "Unable to move existing file to trash - please try restarting your computer."
 msgstr ""
 
-#: qt/aqt/browser.py:1319
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:136
-msgid "Filter"
-msgstr "Filtre"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:140
-msgid "Filter 2"
+#: qt/aqt/main.py:374
+msgid "Automatic syncing and backups have been disabled while restoring. To enable them again, close the profile or restart Anki."
 msgstr ""
 
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:299
-msgid "Filter..."
+#: qt/aqt/main.py:556
+msgid "Closing..."
 msgstr ""
 
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/studydeck.py:48
-msgid "Filter:"
-msgstr "Filtre:"
+#: qt/aqt/main.py:558
+msgid "Backing Up..."
+msgstr ""
+
+#: qt/aqt/main.py:578
+msgid "Your collection file appears to be corrupt. This can happen when the file is copied or moved while Anki is open, or when the collection is stored on a network or cloud drive. If problems persist after restarting your computer, please open an automatic backup from the profile screen."
+msgstr ""
+
+#: qt/aqt/main.py:644
+msgid "Optimizing..."
+msgstr "Optimize ediliyor..."
+
+#: qt/aqt/main.py:675
+msgid "Please select a deck."
+msgstr "Lütfen bir deste seçin"
+
+#: qt/aqt/main.py:735
+msgid "Waiting for editing to finish."
+msgstr "Düzenlemenin bitmesi bekleniyor."
+
+#: qt/aqt/main.py:736
+msgid "Resume Now"
+msgstr "Devam et"
+
+#: qt/aqt/main.py:1036
+#, python-format
+msgid "Reverted to state prior to '%s'."
+msgstr "'%s' öncesi duruma geri çevrildi."
+
+#: qt/aqt/main.py:1042
+#, python-format
+msgid "Undo %s"
+msgstr "Geri al %s"
+
+#: qt/aqt/main.py:1046
+msgid "Undo"
+msgstr "Geri al"
+
+#: qt/aqt/main.py:1122
+msgid "Please use File>Import to import this file."
+msgstr "Lütfen bu dosyayı içe aktarma için Dosya>İçe Aktar'ı kullanın."
 
 #: qt/aqt/main.py:1164 qt/aqt/main.py:1166
 #, python-format
 msgid "Filtered Deck %d"
 msgstr "Filtrelenmiş Deste %d"
 
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:321
-msgid "Find &Duplicates..."
-msgstr "&Kopyaları Bul..."
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/finddupes.py:71
-msgid "Find Duplicates"
-msgstr "Kopyaları Bul"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:317
-msgid "Find and Re&place..."
-msgstr "Bul ve Değ&iştir..."
-
-#: qt/aqt/browser.py:1909
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/findreplace.py:87
-msgid "Find and Replace"
-msgstr "Bul ve Değiştir"
-
-#: qt/aqt/reviewer.py:95
-msgid "Finish"
-msgstr "Bitir"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:323
-msgid "First Card"
-msgstr "İlk Kart"
-
-#: pylib/anki/importing/noteimp.py:138
+#: qt/aqt/main.py:1222
 #, python-format
-msgid "First field matched: %s"
-msgstr "İlk alan eşleşti: %s"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:304
-msgid "Flag"
-msgstr ""
-
-#: qt/aqt/reviewer.py:698
-msgid "Flag Card"
-msgstr ""
-
-#: qt/aqt/clayout.py:394
-msgid "Flip"
-msgstr "Çevir"
-
-#: qt/aqt/profiles.py:312
-msgid "Folder already exists."
-msgstr "Dosya önceden bulunmakta."
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addfield.py:65
-msgid "Font:"
-msgstr "Yazı tipi:"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/modelopts.py:68
-msgid "Footer"
-msgstr "Dipnot"
-
-#: pylib/anki/latex.py:134
-#, python-format
-msgid "For security reasons, '%s' is not allowed on cards. You can still use it by placing the command in a different package, and importing that package in the LaTeX header instead."
-msgstr "Güvenlik sebebiyle, '%s' kartlarda izin verilmemektedir. Komutu farklı pakete taşıyarak ve bu paketi LaTeX başlığında içe aktararak kullanabilirsiniz."
-
-#: pylib/anki/stats.py:228
-msgid "Forecast"
-msgstr "Tahmin"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/clayout_top.py:54
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/template.py:73
-msgid "Form"
-msgstr ""
-
-#: qt/aqt/browser.py:1996
-#, python-format
-msgid "Found %(a)s across %(b)s."
-msgstr "%(b)s içinde %(a)s bulundu."
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:380
-msgid "General"
-msgstr "Genel"
-
-#: pylib/anki/latex.py:177
-#, python-format
-msgid "Generated file: %s"
-msgstr "Üretilmiş dosya: %s"
-
-#: pylib/anki/stats.py:941
-#, python-format
-msgid "Generated on %s"
-msgstr "Üretildiği yer %s"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:71
-msgid "Get Add-ons..."
-msgstr ""
-
-#: qt/aqt/deckbrowser.py:308
-msgid "Get Shared"
-msgstr "Deste Bul"
-
-#: qt/aqt/reviewer.py:630 qt/aqt/reviewer.py:633 qt/aqt/reviewer.py:638
-msgid "Good"
-msgstr "İyiydi"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:346
-msgid "Graduating interval"
-msgstr "Süreyi bitirme"
-
-#: qt/aqt/browser.py:1286 qt/aqt/reviewer.py:713
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:337
-msgid "Green Flag"
-msgstr ""
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/edithtml.py:39
-msgid "HTML Editor"
-msgstr "HTML Düzenleyici"
-
-#: qt/aqt/reviewer.py:637
-msgid "Hard"
-msgstr "Zordu"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:361
-msgid "Hard interval"
-msgstr ""
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:279
-msgid "Hardware acceleration (faster, may cause display issues)"
-msgstr ""
-
-#: pylib/anki/latex.py:185
-msgid "Have you installed latex and dvipng/dvisvgm?"
-msgstr ""
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/modelopts.py:67
-msgid "Header"
-msgstr "Başlık"
-
-#: qt/aqt/addcards.py:79 qt/aqt/clayout.py:384 qt/aqt/utils.py:212
-#: qt/aqt/utils.py:213
-msgid "Help"
-msgstr "Yardım"
-
-#: pylib/anki/stats.py:879
-msgid "Highest ease"
-msgstr "En kolay"
-
-#: qt/aqt/addcards.py:83
-msgid "History"
-msgstr "Geçmiş"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:324
-msgid "Home"
-msgstr "Ana Sayfa"
-
-#: pylib/anki/stats.py:791
-msgid "Hourly Breakdown"
-msgstr "Saatlik Analiz"
-
-#: pylib/anki/stats.py:377
-msgid "Hours"
-msgstr "Saatler"
-
-#: pylib/anki/stats.py:821
-msgid "Hours with less than 30 reviews are not shown."
-msgstr "30 gözden geçirmeden daha az gösterilen saatler."
-
-#: pylib/anki/importing/anki2.py:166
-msgid "Identical"
-msgstr ""
-
-#: qt/aqt/about.py:221
-msgid "If you have contributed and are not on this list, please get in touch."
-msgstr "Eğer katkıda bulunmuş ve listede yoksanız, lütfen bizimle iletişim kurunuz."
-
-#: pylib/anki/stats.py:427
-msgid "If you studied every day"
-msgstr "Eğer her gün çalıştıysanız"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:375
-msgid "Ignore answer times longer than"
-msgstr "Cevap süresinden uzun olanları yok say"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/findreplace.py:92
-msgid "Ignore case"
-msgstr "Yok sayma durumu"
-
-#: qt/aqt/importing.py:53
-msgid "Ignore field"
-msgstr "Alanı gözardı et."
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:110
-msgid "Ignore lines where first field matches existing note"
-msgstr "İlk alanı mevcut not ile eşleşen satırları yok say"
-
-#: qt/aqt/update.py:64
-msgid "Ignore this update"
-msgstr "Bu güncelemeyi yoksay"
-
-#: qt/aqt/importing.py:103 qt/aqt/importing.py:189 qt/aqt/importing.py:311
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/changemap.py:43
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:105
-msgid "Import"
-msgstr "İçeri Aktar"
-
-#: qt/aqt/deckbrowser.py:310
-msgid "Import File"
-msgstr "Dosyayı İçeriye Aktar"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:111
-msgid "Import even if existing note has same first field"
-msgstr "Mevcut not aynı ilk alana sahip olmasına rağmen içe aktar"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:106
-msgid "Import options"
-msgstr "İçe aktarma seçenekleri"
-
-#: qt/aqt/importing.py:211 qt/aqt/importing.py:524
-msgid "Importing complete."
-msgstr "İçe aktarma tamamlandı."
+msgid "%s second"
+msgid_plural "%s seconds"
+msgstr[0] "%s saniye"
+msgstr[1] "%s saniye"
 
 #: qt/aqt/main.py:1225
 #, python-format
@@ -1739,1014 +2975,155 @@ msgid ""
 "Difference to correct time: %s."
 msgstr ""
 
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/exporting.py:82
-msgid "Include HTML and media references"
-msgstr ""
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/exporting.py:80
-msgid "Include media"
-msgstr "Ortam Ekle"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/exporting.py:79
-msgid "Include scheduling information"
-msgstr "Zamanlama bilgisini dahil et"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/exporting.py:81
-msgid "Include tags"
-msgstr "Etiketleri dahil et"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:106
-msgid "Increase today's new card limit"
-msgstr "Bugünün yeni kart limitini artırın"
-
-#: qt/aqt/customstudy.py:72
-msgid "Increase today's new card limit by"
-msgstr "Bugünün yeni kart limitini artırın"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:107
-msgid "Increase today's review card limit"
-msgstr "Bugünün gözden geçirilmiş kart limitini artırın"
-
-#: qt/aqt/customstudy.py:84
-msgid "Increase today's review limit by"
-msgstr "Bugünün gözden geçirilmiş kart limitini artırın"
-
-#: pylib/anki/consts.py:118
-msgid "Increasing intervals"
-msgstr "Süreyi artırma"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/getaddons.py:50
-msgid "Install Add-on"
-msgstr "Eklenti yükleyin"
-
-#: qt/aqt/addons.py:874
-msgid "Install Add-on(s)"
-msgstr ""
-
-#: qt/aqt/addons.py:1420
-msgid "Install Anki add-on"
-msgstr ""
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:72
-msgid "Install from file..."
-msgstr ""
-
-#: qt/aqt/addons.py:1443
-msgid "Installation complete"
-msgstr ""
-
-#: qt/aqt/addons.py:493
-#, python-format
-msgid "Installed %(name)s"
-msgstr ""
-
-#: qt/aqt/addons.py:1024
-msgid "Installed successfully."
-msgstr ""
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/setlang.py:42
-msgid "Interface language:"
-msgstr "Arayüz dili:"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:281
-msgid "Interrupt current audio when answering"
-msgstr ""
-
-#: qt/aqt/browser.py:749
-msgid "Interval"
-msgstr "Aralık"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:355
-msgid "Interval modifier"
-msgstr "Süre ayarlayıcı"
-
-#: pylib/anki/stats.py:596
-msgid "Intervals"
-msgstr "Süreler"
-
-#: qt/aqt/addons.py:472
-msgid "Invalid add-on manifest."
-msgstr ""
-
-#: qt/aqt/addons.py:1011
-msgid "Invalid code, or add-on not available for your version of Anki."
-msgstr ""
-
-#: qt/aqt/addons.py:937
-msgid "Invalid code."
-msgstr "Hatalı kod."
-
-#: qt/aqt/addons.py:1376
-msgid "Invalid configuration: "
-msgstr ""
-
-#: qt/aqt/addons.py:1380
-msgid "Invalid configuration: top level object must be a map"
-msgstr ""
-
 #: qt/aqt/main.py:1288
 msgid "Invalid property found on card. Please use Tools>Check Database, and if the problem comes up again, please ask on the support site."
 msgstr "Kartınızda geçersiz özellik bulundu. Lütfen Araçlar>Veritabanını Kontrol Et'i kullanın, ve problem tekrarlanırsa, lütfen destek sitesine sorun."
 
-#: qt/aqt/reviewer.py:687
-msgid "It has been suspended."
-msgstr "Durdurulmuştur."
+#: qt/aqt/main.py:1343 qt/aqt/main.py:1362
+msgid "The requested change will require a full upload of the database when you next synchronize your collection. If you have reviews or other changes waiting on another device that haven't been synchronized here yet, they will be lost. Continue?"
+msgstr "İstenen değişiklik, koleksiyonunuzu bir sonraki senkronize ettiğinizde veritabanının tam bir şekilde yüklenmesini gerektirir. Başka bir cihazda henüz senkronize edilmemiş bekleyen incelemeler veya diğer değişiklikleriniz varsa, bunlar kaybolacaktır. Devam et?"
 
-#: qt/aqt/editor.py:145
-msgid "Italic text (Ctrl+I)"
+#: qt/aqt/main.py:1537
+msgid "<non-unicode text>"
+msgstr "<unicode olmayan yazı>"
+
+#: qt/aqt/main.py:1600
+msgid "Add-on will be installed when a profile is opened."
 msgstr ""
 
-#: qt/aqt/editor.py:580
-msgid "Jump to tags with Ctrl+Shift+T"
-msgstr "Ctrl+Shift+T ile etiketlere geçiş yapın"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:308
-msgid "Keep"
-msgstr "Koru"
-
-#: qt/aqt/editor.py:956
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/modelopts.py:69
-msgid "LaTeX"
-msgstr ""
-
-#: qt/aqt/editor.py:957
-msgid "LaTeX equation"
-msgstr "LaTeX eşitliği"
-
-#: qt/aqt/editor.py:958
-msgid "LaTeX math env."
-msgstr "LaTeX matematik ort."
-
-#: qt/aqt/browser.py:752
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:374
-msgid "Lapses"
-msgstr "Sapmalar"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:325
-msgid "Last Card"
-msgstr "Son Kart"
-
-#: pylib/anki/consts.py:123
-msgid "Latest added first"
-msgstr "Son eklenen ilk"
-
-#: pylib/anki/stats.py:349 pylib/anki/stats.py:369
-msgid "Learn"
-msgstr "Öğrenme"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:297
-msgid "Learn ahead limit"
-msgstr "İleri limiti öğrenme"
-
-#: pylib/anki/stats.py:160
-#, python-format
-msgid "Learn: %(a)s, Review: %(b)s, Relearn: %(c)s, Filtered: %(d)s"
-msgstr "Öğrenme: %(a)s, Gözden Geçirme: %(b)s, Tekrar Öğrenme: %(c)s, Filtrelenmiş: %(d)s"
-
-#: pylib/anki/stats.py:686 qt/aqt/browser.py:1277 qt/aqt/overview.py:231
-msgid "Learning"
-msgstr "Öğrenme"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:368
-msgid "Leech action"
-msgstr "Sömürü hareketi"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:366
-msgid "Leech threshold"
-msgstr "Sömürü eşiği"
-
-#: pylib/anki/consts.py:109
-msgid "Left"
-msgstr "Sol"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:137
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:141
-msgid "Limit to"
-msgstr "Sınırla"
-
-#: qt/aqt/utils.py:57
-msgid "Loading..."
-msgstr "Yükleniyor..."
-
-#: pylib/anki/stats.py:619
-msgid "Longest interval"
-msgstr "En uzun süre"
-
-#: pylib/anki/stats.py:877
-msgid "Lowest ease"
-msgstr "En düşük kolaylık"
-
-#: qt/aqt/modelchooser.py:76
-msgid "Manage"
-msgstr "Yönet"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:156
-msgid "Manage Note Types"
-msgstr ""
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:341
-msgid "Manage Note Types..."
-msgstr "Not Tiplerini Yönet..."
-
-#: qt/aqt/browser.py:1337
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:341
-msgid "Manage..."
-msgstr ""
-
-#: qt/aqt/overview.py:131
-msgid "Manually Buried Cards"
-msgstr ""
-
-#: qt/aqt/importing.py:46
-#, python-format
-msgid "Map to %s"
-msgstr "Eşle %s"
-
-#: qt/aqt/importing.py:52
-msgid "Map to Tags"
-msgstr "Etiketleri Eşle"
-
-#: qt/aqt/reviewer.py:726
-msgid "Mark Note"
-msgstr ""
-
-#: qt/aqt/editor.py:954
-msgid "MathJax block"
-msgstr ""
-
-#: qt/aqt/editor.py:955
-msgid "MathJax chemistry"
-msgstr ""
-
-#: qt/aqt/editor.py:953
-msgid "MathJax inline"
-msgstr ""
-
-#: pylib/anki/stats.py:213 pylib/anki/stats.py:346 pylib/anki/stats.py:366
-#: pylib/anki/stats.py:688 pylib/anki/stats.py:858
-msgid "Mature"
-msgstr "Geçmiş"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:357
-msgid "Maximum interval"
-msgstr "En fazla süre"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:356
-msgid "Maximum reviews/day"
-msgstr "En fazla gözden geçirme/gün"
-
-#: qt/aqt/editor.py:713
-msgid "Media"
-msgstr "İçerik"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:369
-msgid "Minimum interval"
-msgstr "En düşük süre"
-
-#: pylib/anki/stats.py:374
-msgid "Minutes"
-msgstr "Dakika"
-
-#: pylib/anki/consts.py:100
-msgid "Mix new cards and reviews"
-msgstr "Yeni kartları ve gözden geçirmeleri karıştır"
-
-#: pylib/anki/importing/__init__.py:15
-msgid "Mnemosyne 2.0 Deck (*.db)"
-msgstr "Mnemosyne 2.0 Deste (*.db)"
-
-#: qt/aqt/reviewer.py:574
-msgid "More"
-msgstr "Diğer"
-
-#: pylib/anki/consts.py:120
-msgid "Most lapses"
-msgstr "En yüksek sapmalar"
-
-#: qt/aqt/browser.py:1593
-msgid "Move Cards"
-msgstr "Kartları Taşı"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/setgroup.py:41
-msgid "Move cards to deck:"
-msgstr "Kartları desteye taşı:"
-
-#: qt/aqt/importing.py:137
-msgid "Multi-character separators are not supported. Please enter one character only."
-msgstr "Çok karakterli ayırıcılar desteklenmiyor. Lütfen yalnızca bir karakter girin."
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:311
-msgid "N&ote"
-msgstr ""
-
-#: qt/aqt/main.py:297 qt/aqt/main.py:311
-msgid "Name exists."
-msgstr "Ad mevcut."
-
-#: qt/aqt/deckbrowser.py:82
-msgid "Name for deck:"
-msgstr "Deste adı:"
-
-#: qt/aqt/main.py:294 qt/aqt/models.py:123
-msgid "Name:"
-msgstr "Ad:"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:306
-msgid "Network"
-msgstr "Ağ"
-
-#: qt/aqt/browser.py:1276 qt/aqt/deckbrowser.py:149 qt/aqt/overview.py:229
-msgid "New"
-msgstr "Yeni"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:352
-msgid "New Cards"
-msgstr "Yeni Kartlar"
-
-#: qt/aqt/customstudy.py:71
-#, python-format
-msgid "New cards in deck over today limit: %s"
-msgstr ""
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:113
-msgid "New cards only"
-msgstr "Sadece yeni kartlar"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:347
-msgid "New cards/day"
-msgstr "Yeni kartlar/gün"
-
-#: qt/aqt/deckbrowser.py:246 qt/aqt/sidebar.py:98 qt/aqt/studydeck.py:151
-msgid "New deck name:"
-msgstr "Yeni deste adı:"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:365
-msgid "New interval"
-msgstr "Yeni süre"
-
-#: qt/aqt/clayout.py:586 qt/aqt/deckconf.py:148 qt/aqt/fields.py:97
-#: qt/aqt/main.py:305 qt/aqt/models.py:87
-msgid "New name:"
-msgstr "Yeni ad:"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/changemodel.py:113
-msgid "New note type:"
-msgstr "Yeni not tipi:"
-
-#: qt/aqt/deckconf.py:121
-msgid "New options group name:"
-msgstr "Yeni seçenekler grubu adı:"
-
-#: qt/aqt/fields.py:140
-#, python-format
-msgid "New position (1...%d):"
-msgstr "Yeni sıralama (1...%d):"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:299
-msgid "Next day starts at"
-msgstr "Bir sonraki gün başlar"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:284
-msgid "Night mode"
-msgstr ""
-
-#: qt/aqt/browser.py:1288
-msgid "No Flag"
-msgstr ""
-
-#: qt/aqt/overview.py:70
-msgid "No cards are due yet."
-msgstr "Henüz zamanı gelmiş kart yok."
-
-#: pylib/anki/stats.py:178
-msgid "No cards have been studied today."
-msgstr ""
-
-#: qt/aqt/customstudy.py:190
-msgid "No cards matched the criteria you provided."
-msgstr "Girdiğiniz kritere uygun kart bulunamadı."
-
-#: pylib/anki/stats.py:176
-msgid "No mature cards were studied today."
-msgstr "Bugün çalışılan geçmiş kart yok."
-
-#: qt/aqt/addons.py:868
-msgid "No updates available."
-msgstr ""
-
-#: qt/aqt/browser.py:754
-msgid "Note"
-msgstr "Not"
-
-#: qt/aqt/browser.py:1335 qt/aqt/models.py:36
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/models.py:56
-msgid "Note Types"
-msgstr "Not Tipleri"
-
-#: qt/aqt/reviewer.py:818
-#, python-format
-msgid "Note and its %d card deleted."
-msgid_plural "Note and its %d cards deleted."
-msgstr[0] "Not ve ona ait %d kart silindi."
-msgstr[1] "Not ve ona ait %d kart silindi."
-
-#: qt/aqt/reviewer.py:833
-msgid "Note buried."
-msgstr "Not saklandı."
-
-#: qt/aqt/reviewer.py:798
-msgid "Note suspended."
-msgstr "Not askıya alındı."
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:311
-msgid "Note: Media is not backed up. Please create a periodic backup of your Anki folder to be safe."
-msgstr "Not: İçerik yedeklenmedi. Güvenlik için lütfen Anki klasörünüzün periyodik yedeklemesini oluşturun."
-
-#: pylib/anki/importing/anki2.py:146
-#, python-format
-msgid "Notes added from file: %d"
-msgstr ""
-
-#: pylib/anki/importing/anki2.py:134
-#, python-format
-msgid "Notes found in file: %d"
-msgstr ""
-
-#: pylib/anki/exporting.py:125
-msgid "Notes in Plain Text"
-msgstr "Düz Metinli Notlar"
-
-#: qt/aqt/fields.py:123
-msgid "Notes require at least one field."
-msgstr "En az bir alan gereken notlar."
-
-#: pylib/anki/importing/anki2.py:149
-#, python-format
-msgid "Notes skipped, as they're already in your collection: %d"
-msgstr ""
-
-#: qt/aqt/browser.py:2023
-msgid "Notes tagged."
-msgstr "Notlar etiketlndi."
-
-#: pylib/anki/importing/anki2.py:138
-#, python-format
-msgid "Notes that could not be imported as note type has changed: %d"
-msgstr ""
-
-#: pylib/anki/importing/anki2.py:143
-#, python-format
-msgid "Notes updated, as file had newer version: %d"
-msgstr ""
-
-#: qt/aqt/browser.py:2180
-msgid "Nothing"
-msgstr "Hiçbirşey"
-
-#: qt/aqt/customstudy.py:57
-msgid "OK"
-msgstr "Tamam"
-
-#: pylib/anki/consts.py:116
-msgid "Oldest seen first"
-msgstr "En eski görülen ilk"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:305
-msgid "On next sync, force changes in one direction"
-msgstr "Bir sonraki senkronizasyonda değişiklikleri tek yönlü yap"
-
-#: qt/aqt/addons.py:1113
-msgid "One or more errors occurred:"
-msgstr ""
-
-#: qt/aqt/browser.py:1734
-msgid "Only new cards can be repositioned."
-msgstr "Sadece yeni kartlar tekrar sıralanabilir."
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/profiles.py:81
-msgid "Open"
-msgstr "Aç"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/profiles.py:86
-msgid "Open Backup..."
-msgstr ""
-
-#: qt/aqt/main.py:644
-msgid "Optimizing..."
-msgstr "Optimize ediliyor..."
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/finddupes.py:72
-msgid "Optional filter:"
-msgstr ""
-
-#: qt/aqt/clayout.py:111 qt/aqt/deckbrowser.py:230 qt/aqt/deckconf.py:37
-#: qt/aqt/dyndeckconf.py:25 qt/aqt/overview.py:252 qt/aqt/reviewer.py:732
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:144
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:110
-msgid "Options"
-msgstr "Seçenekler"
-
-#: qt/aqt/deckconf.py:47 qt/aqt/dyndeckconf.py:28 qt/aqt/models.py:161
-#, python-format
-msgid "Options for %s"
-msgstr "%s için seçenekler"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:340
-msgid "Options group:"
-msgstr "Seçenekler grubu:"
-
-#: qt/aqt/models.py:70
-msgid "Options..."
-msgstr "Seçenekler..."
-
-#: qt/aqt/browser.py:1285 qt/aqt/reviewer.py:707
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:336
-msgid "Orange Flag"
-msgstr ""
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:344
-msgid "Order"
-msgstr "Sıralama"
-
-#: pylib/anki/consts.py:121
-msgid "Order added"
-msgstr "Sıralama eklendi"
-
-#: pylib/anki/consts.py:122
-msgid "Order due"
-msgstr "Sıralama sonu"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browserdisp.py:73
-msgid "Override back template:"
-msgstr "Arka şablonu değiştir:"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browserdisp.py:74
-msgid "Override font:"
-msgstr "Yazi tipini değiştir:"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browserdisp.py:72
-msgid "Override front template:"
-msgstr "Ön şablonu değiştir:"
-
-#: qt/aqt/addons.py:872
-msgid "Packaged Anki Add-on"
-msgstr ""
-
-#: pylib/anki/importing/__init__.py:14
-msgid "Packaged Anki Deck/Collection (*.apkg *.colpkg *.zip)"
-msgstr ""
-
-#: qt/aqt/editor.py:1213
-msgid "Paste"
-msgstr "Yapıştır"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:282
-msgid "Paste clipboard images as PNG"
-msgstr "Pano resmini PNG olarak yapıştır"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:283
-msgid "Paste without shift key strips formatting"
-msgstr ""
-
-#: pylib/anki/importing/__init__.py:17
-msgid "Pauker 1.8 Lesson (*.pau.gz)"
-msgstr "Pauker 1.8 Dersi (*.pau.gz)"
-
-#: qt/aqt/reviewer.py:735
-msgid "Pause Audio"
-msgstr ""
-
-#: pylib/anki/stats.py:599
-msgid "Percentage"
-msgstr "Yüzde"
-
-#: pylib/anki/stats.py:949
-#, python-format
-msgid "Period: %s"
-msgstr "Periyot: %s"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:304
-msgid "Periodically sync media"
-msgstr ""
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reschedule.py:76
-msgid "Place at end of new card queue"
-msgstr "Yeni kart sırasının sonuna yerleştir"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reschedule.py:77
-msgid "Place in review queue with interval between:"
-msgstr "Gözden geçirme sırasına aralıkla yerleştir:"
-
-#: qt/aqt/models.py:130
-msgid "Please add another note type first."
-msgstr "Lütfen ilk olarak başka bir not tipi ekleyin."
-
-#: qt/aqt/addons.py:1017
-msgid "Please check your internet connection."
-msgstr ""
-
-#: qt/aqt/errors.py:88
-msgid "Please connect a microphone, and ensure other programs are not using the audio device."
-msgstr "Lütfen mikrofon bağlayın ve diğer uygulamaların ses cihazını kullanmadığına emin olun."
+#: qt/aqt/main.py:1602
+msgid "Deck will be imported when a profile is opened."
+msgstr "Bir oturum açıldığında deste içe aktarılacaktır."
 
 #: qt/aqt/main.py:1609
 msgid "Please ensure a profile is open and Anki is not busy, then try again."
 msgstr "Lütfen bir profil açıkken ve Anki meşgul değilken sağlayın, sonra tekrar deneyin."
 
-#: qt/aqt/browser.py:1393
-msgid "Please give your filter a name:"
+#: qt/aqt/modelchooser.py:44
+msgid "Change Note Type (Ctrl+N)"
+msgstr "Not Tipi Değiştir"
+
+#: qt/aqt/modelchooser.py:76
+msgid "Manage"
+msgstr "Yönet"
+
+#: qt/aqt/modelchooser.py:85
+msgid "Choose Note Type"
+msgstr "Not Tipi Seçin"
+
+#: qt/aqt/models.py:65
+msgid "Fields..."
+msgstr "Alanlar..."
+
+#: qt/aqt/models.py:66
+msgid "Cards..."
+msgstr "Kartlar..."
+
+#: qt/aqt/models.py:70
+msgid "Options..."
+msgstr "Seçenekler..."
+
+#: qt/aqt/models.py:130
+msgid "Please add another note type first."
+msgstr "Lütfen ilk olarak başka bir not tipi ekleyin."
+
+#: qt/aqt/models.py:134
+msgid "Delete this note type and all its cards?"
+msgstr "Bu not kategorisini ve içindeki tüm kartları sil"
+
+#: qt/aqt/models.py:136
+msgid "Delete this unused note type?"
+msgstr "Kullanılmayan bu not kategorisini kaldır"
+
+#: qt/aqt/models.py:212
+#, python-format
+msgid "Add: %s"
+msgstr "Ekle: %s"
+
+#: qt/aqt/models.py:217
+#, python-format
+msgid "Clone: %s"
+msgstr "Klon: %s"
+
+#: qt/aqt/overview.py:70
+msgid "No cards are due yet."
+msgstr "Henüz zamanı gelmiş kart yok."
+
+#: qt/aqt/overview.py:131
+msgid "Manually Buried Cards"
 msgstr ""
 
-#: qt/aqt/profiles.py:307
-#, python-format
-msgid "Please remove the folder %s and try again."
-msgstr "Lütfen %s klasörünü kaldır ve yeniden dene."
+#: qt/aqt/overview.py:132
+msgid "Buried Siblings"
+msgstr ""
 
-#: qt/aqt/addons.py:1446
-msgid "Please report this to the respective add-on author(s)."
+#: qt/aqt/overview.py:133
+msgid "All Buried Cards"
+msgstr ""
+
+#: qt/aqt/overview.py:137
+msgid "What would you like to unbury?"
+msgstr ""
+
+#: qt/aqt/overview.py:188
+msgid "This is a special deck for studying outside of the normal schedule."
+msgstr ""
+
+#: qt/aqt/overview.py:192
+msgid "Cards will be automatically returned to their original decks after you review them."
+msgstr "Kartlar incelemenizden sonra otomatik olarak orjinal destelerine döndürülecekler."
+
+#: qt/aqt/overview.py:197
+msgid "Deleting this deck from the deck list will return all remaining cards to their original deck."
+msgstr "Bu desteyi deste listesinden sildiğinizde geri kalan tüm kartlar orijinal desteye geri dönecektir."
+
+#: qt/aqt/overview.py:233
+msgid "To Review"
+msgstr "İncelenecek"
+
+#: qt/aqt/overview.py:235
+msgid "Study Now"
+msgstr "Şimdi Çalış"
+
+#: qt/aqt/overview.py:256
+msgid "Empty"
+msgstr "Boşalt"
+
+#: qt/aqt/overview.py:261
+msgid "Unbury"
 msgstr ""
 
 #: qt/aqt/preferences.py:72
 msgid "Please restart Anki to complete language change."
 msgstr "Dil değişimin tamamlamak için lütfen Anki'yi yeniden başlat."
 
-#: qt/aqt/reviewer.py:387
-msgid "Please run Tools>Empty Cards"
-msgstr "Lütfen Araçlar>Boş Kartlar çalıştırın"
-
-#: qt/aqt/main.py:675
-msgid "Please select a deck."
-msgstr "Lütfen bir deste seçin"
-
-#: qt/aqt/addons.py:807
-msgid "Please select a single add-on first."
+#: qt/aqt/preferences.py:120 qt/aqt/preferences.py:250
+msgid "Changes will take effect when you restart Anki."
 msgstr ""
 
-#: qt/aqt/browser.py:1493
-msgid "Please select cards from only one note type."
-msgstr "Lütfen sadece bir not türünden kartlar seçin."
-
-#: qt/aqt/studydeck.py:135
-msgid "Please select something."
-msgstr "Lütfen bir şey seçin."
-
-#: qt/aqt/main.py:1122
-msgid "Please use File>Import to import this file."
-msgstr "Lütfen bu dosyayı içe aktarma için Dosya>İçe Aktar'ı kullanın."
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:278
-msgid "Preferences"
-msgstr "Seçenekler"
-
-#: qt/aqt/previewer.py:65
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:298
-msgid "Preview"
-msgstr "Önizleme"
-
-#: qt/aqt/browser.py:624
-#, python-format
-msgid "Preview Selected Card (%s)"
-msgstr "Seçilen Kartı Önizle (%s)"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:109
-msgid "Preview new cards"
-msgstr "Yeni kartları önizle"
-
-#: qt/aqt/customstudy.py:96
-msgid "Preview new cards added in the last"
-msgstr "Son eklenen yeni kartları önizle"
-
-#: qt/aqt/importing.py:494
-#, python-format
-msgid "Processed %d media file"
-msgid_plural "Processed %d media files"
-msgstr[0] "%d medya dosyası işlendi."
-msgstr[1] "%d medya dosyaları işlendi."
-
-#: qt/aqt/progress.py:83
-msgid "Processing..."
-msgstr "İşleniyor..."
-
-#: qt/aqt/profiles.py:254
-msgid "Profile Corrupt"
+#: qt/aqt/preferences.py:154
+msgid "This will reset any cards in learning, clear filtered decks, and change the scheduler version. Proceed?"
 msgstr ""
 
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/profiles.py:80
-msgid "Profiles"
-msgstr "Profiller"
-
-#: qt/aqt/browser.py:740
-msgid "Question"
-msgstr "Soru"
-
-#: qt/aqt/browser.py:1745
-#, python-format
-msgid "Queue bottom: %d"
-msgstr "Aşağı sırala: %d"
-
-#: qt/aqt/browser.py:1744
-#, python-format
-msgid "Queue top: %d"
-msgstr "Yukarı sırala: %d"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/profiles.py:85
-msgid "Quit"
-msgstr "Çık"
-
-#: pylib/anki/consts.py:117
-msgid "Random"
-msgstr "Rastgele"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reposition.py:75
-msgid "Randomize order"
-msgstr "Karışık Sıra"
-
-#: qt/aqt/dyndeckconf.py:23 qt/aqt/overview.py:255
-msgid "Rebuild"
-msgstr "Yeniden oluştur"
-
-#: qt/aqt/reviewer.py:738
-msgid "Record Own Voice"
-msgstr "Kendi Sesiniz Kaydedin"
-
-#: qt/aqt/editor.py:178
-msgid "Record audio (F5)"
+#: qt/aqt/preferences.py:188
+msgid ""
+"<b>Synchronization</b><br>\n"
+"Not currently enabled; click the sync button in the main window to enable."
 msgstr ""
-
-#: qt/aqt/sound.py:610
-#, python-format
-msgid "Recording...<br>Time: %0.1f"
-msgstr "Kayıtediliyor...<br>Zaman:%0.1f"
-
-#: qt/aqt/browser.py:1284 qt/aqt/reviewer.py:701
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:335
-msgid "Red Flag"
-msgstr ""
-
-#: pylib/anki/consts.py:124
-msgid "Relative overdueness"
-msgstr ""
-
-#: pylib/anki/stats.py:348 pylib/anki/stats.py:368
-msgid "Relearn"
-msgstr "Tekrar Öğren"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:109
-msgid "Remember last input when adding"
-msgstr "Eklerken son girişi hatırla"
-
-#: qt/aqt/browser.py:1404
-#, python-format
-msgid "Remove %s from your saved searches?"
-msgstr ""
-
-#: qt/aqt/clayout.py:679
-msgid "Remove Card Type..."
-msgstr ""
-
-#: qt/aqt/browser.py:1378
-msgid "Remove Current Filter..."
-msgstr ""
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:330
-msgid "Remove Tags..."
-msgstr ""
-
-#: qt/aqt/editor.py:154
-msgid "Remove formatting (Ctrl+R)"
-msgstr ""
-
-#: qt/aqt/deckbrowser.py:228 qt/aqt/deckconf.py:93 qt/aqt/models.py:58
-#: qt/aqt/sidebar.py:74
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:105
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/profiles.py:83
-msgid "Rename"
-msgstr "Yeniden Adlandır"
-
-#: qt/aqt/clayout.py:682
-msgid "Rename Card Type..."
-msgstr ""
-
-#: qt/aqt/deckbrowser.py:243 qt/aqt/sidebar.py:95
-msgid "Rename Deck"
-msgstr "Desteyi Yeniden Adlandır"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:147
-msgid "Repeat failed cards after"
-msgstr ""
-
-#: qt/aqt/main.py:338
-msgid "Replace your collection with an earlier backup?"
-msgstr ""
+"<b>Eşitleme</b><br>\n"
+"Henüz etkin değil. Ana pencerede eşitleme düğmesine tıklayarak etkinleştirin."
 
 #: qt/aqt/previewer.py:76 qt/aqt/reviewer.py:734
 msgid "Replay Audio"
 msgstr "Sesi Tekrarla"
 
-#: qt/aqt/reviewer.py:739
-msgid "Replay Own Voice"
-msgstr "Kendi Sesinizi Tekrarlayın"
-
-#: qt/aqt/browser.py:1751
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:106
-msgid "Reposition"
-msgstr "Yeniden Konumlandır"
-
-#: qt/aqt/clayout.py:685
-msgid "Reposition Card Type..."
+#: qt/aqt/previewer.py:83
+msgid "Back Side Only"
 msgstr ""
 
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reposition.py:72
-msgid "Reposition New Cards"
-msgstr "Yeni kartları yerleştir"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:322
-msgid "Reposition..."
-msgstr "Yeniden konumlandır..."
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/taglimit.py:63
-msgid "Require one or more of these tags:"
-msgstr "Bu etiketlerden bir veya daha fazlası gerekli:"
-
-#: qt/aqt/browser.py:1777
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reschedule.py:75
-msgid "Reschedule"
-msgstr "Yeniden Planlama"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:145
-msgid "Reschedule cards based on my answers in this deck"
-msgstr "Bu destedeki cevaplarım üzerine dayanarak kartları yeniden programla"
-
-#: qt/aqt/addons.py:1310
-msgid "Restored defaults"
-msgstr ""
-
-#: qt/aqt/main.py:736
-msgid "Resume Now"
-msgstr "Devam et"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:108
-msgid "Reverse text direction (RTL)"
-msgstr "Yazı yönünü değiştir (RTL)"
-
-#: qt/aqt/main.py:351
-msgid "Revert to backup"
-msgstr ""
-
-#: qt/aqt/main.py:1036
-#, python-format
-msgid "Reverted to state prior to '%s'."
-msgstr "'%s' öncesi duruma geri çevrildi."
-
-#: pylib/anki/collection.py:577 qt/aqt/browser.py:1278
-msgid "Review"
-msgstr "Gözden Geçir"
-
-#: pylib/anki/stats.py:354
-msgid "Review Count"
-msgstr "Gözden Geçirme Sayısı"
-
-#: pylib/anki/stats.py:380
-msgid "Review Time"
-msgstr "Gözden Geçirme Zamanı"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:104
-msgid "Review ahead"
-msgstr "İleride gözden geçir"
-
-#: qt/aqt/customstudy.py:93
-msgid "Review ahead by"
-msgstr ""
-
-#: qt/aqt/customstudy.py:89
-msgid "Review cards forgotten in last"
-msgstr "Önceden unutulan kartları gözden geçir"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:105
-msgid "Review forgotten cards"
-msgstr "Unutulan kartları gözden geçir"
-
-#: pylib/anki/stats.py:791
-msgid "Review success rate for each hour of the day."
-msgstr "Günün her saati için başarı oranını inceleyin."
-
-#: pylib/anki/stats.py:819 qt/aqt/browser.py:751
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:363
-msgid "Reviews"
-msgstr "Tekrarlar"
-
-#: qt/aqt/customstudy.py:83
-#, python-format
-msgid "Reviews due in deck over today limit: %s"
-msgstr ""
-
-#: pylib/anki/consts.py:110
-msgid "Right"
-msgstr "Sağ"
-
-#: qt/aqt/clayout.py:399 qt/aqt/sound.py:599
-msgid "Save"
-msgstr "Kaydet"
-
-#: qt/aqt/browser.py:1380
-msgid "Save Current Filter..."
-msgstr ""
-
-#: qt/aqt/stats.py:42 qt/aqt/stats.py:67 qt/aqt/stats.py:114
-#: qt/aqt/stats.py:145
-msgid "Save PDF"
-msgstr "PDF Kaydet"
-
-#: qt/aqt/stats.py:80 qt/aqt/stats.py:158
-msgid "Saved."
-msgstr ""
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:300
-#, fuzzy
-msgid "Scheduling"
-msgstr "Yeniden Planlama"
-
-#: pylib/anki/stats.py:947
-#, python-format
-msgid "Scope: %s"
-msgstr "Kapsam: %s"
-
-#: qt/aqt/browser.py:1979
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:297
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:138
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:142
-msgid "Search"
-msgstr "Ara"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/finddupes.py:73
-msgid "Search in:"
-msgstr ""
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browseropts.py:75
-msgid "Search within formatting (slow)"
-msgstr "Biçimlemeyi içererek ara (yavaş)"
-
-#: qt/aqt/customstudy.py:100
-msgid "Select"
-msgstr "Seç"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:307
-msgid "Select &All"
-msgstr "&Tümünü Seç"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:316
-msgid "Select &Notes"
-msgstr "Seçim & Notlar"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/taglimit.py:64
-msgid "Select tags to exclude:"
-msgstr "Geride kalan etiketleri seç"
-
-#: qt/aqt/exporting.py:55
-msgid "Selected Notes"
-msgstr ""
-
-#: qt/aqt/importing.py:303
-msgid "Selected file was not in UTF-8 format. Please see the importing section of the manual."
-msgstr "Seçilen dosya UTF-8 biçiminde değildi. Lütfen klavuzdaki içe aktarma bölümüne bakın."
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/taglimit.py:62
-msgid "Selective Study"
-msgstr "Seçmeli Çalışma"
-
-#: qt/aqt/importing.py:165
-msgid "Semicolon"
-msgstr "Noktalı Virgül"
-
-#: qt/aqt/deckconf.py:159
-#, python-format
-msgid "Set all decks below %s to this option group?"
-msgstr ""
-
-#: qt/aqt/deckconf.py:95
-msgid "Set for all subdecks"
-msgstr "Bütün alt destler için uygula"
-
-#: qt/aqt/editor.py:158
-msgid "Set foreground colour (F7)"
-msgstr ""
-
-#: qt/aqt/main.py:129
-msgid "Shift key was held down. Skipping automatic syncing and add-on loading."
-msgstr "Shift tuşu basılı tutuldu. Otomatik sekronu ve eklenti yüklemesini atlanıyor."
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reposition.py:76
-msgid "Shift position of existing cards"
-msgstr "Varolan kartların yerini değiştir"
-
-#: qt/aqt/deckbrowser.py:318 qt/aqt/main.py:765 qt/aqt/overview.py:265
-#: qt/aqt/previewer.py:80 qt/aqt/previewer.py:85 qt/aqt/reviewer.py:573
-#: qt/aqt/reviewer.py:584 qt/aqt/reviewer.py:660 qt/aqt/toolbar.py:107
-#: qt/aqt/toolbar.py:114 qt/aqt/toolbar.py:121 qt/aqt/toolbar.py:128
-#: qt/aqt/toolbar.py:144
-#, python-format
-msgid "Shortcut key: %s"
-msgstr "Kısayol tuşu: %s"
+#: qt/aqt/previewer.py:162
+msgid "(please select 1 card)"
+msgstr "(lütfen 1 kart seçin)"
 
 #: qt/aqt/previewer.py:243
 msgid "Shortcut key: Left arrow"
@@ -2756,667 +3133,266 @@ msgstr "Kısayol tuşu: Sol ok"
 msgid "Shortcut key: Right arrow or Enter"
 msgstr "Kısayol tuşu: Sağ ok yada Enter"
 
-#: qt/aqt/addcards.py:89
+#: qt/aqt/profiles.py:254
+msgid "Profile Corrupt"
+msgstr ""
+
+#: qt/aqt/profiles.py:256
+msgid "Anki could not read your profile data. Window sizes and your sync login details have been forgotten."
+msgstr ""
+
+#: qt/aqt/profiles.py:307
 #, python-format
-msgid "Shortcut: %s"
-msgstr "Kısayol: %s"
+msgid "Please remove the folder %s and try again."
+msgstr "Lütfen %s klasörünü kaldır ve yeniden dene."
 
-#: qt/aqt/reviewer.py:585
-msgid "Show Answer"
-msgstr "Cevabı Göster"
+#: qt/aqt/profiles.py:312
+msgid "Folder already exists."
+msgstr "Dosya önceden bulunmakta."
 
-#: qt/aqt/editor.py:200
-msgid "Show Duplicates"
-msgstr "Yinelenenleri Göster"
+#: qt/aqt/profiles.py:326
+msgid "Anki could not rename your profile because it could not rename the profile folder on disk. Please ensure you have permission to write to Documents/Anki and no other programs are accessing your profile folders, then try again."
+msgstr "Anki, disk üzerindeki profil klasörünü yeniden adlandıramadığı için profilinizi yeniden adlandıramadı. Lütfen Documents / Anki'ye yazma izninizin olduğundan ve diğer hiçbir programın profil klasörünüze erişemediğinden emin olduktan sonra tekrar deneyin."
 
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:377
-msgid "Show answer timer"
-msgstr "Cevap zamanını göster"
+#: qt/aqt/profiles.py:479
+msgid "User 1"
+msgstr "Kullanıcı 1"
 
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:292
-msgid "Show learning cards with larger steps before reviews"
-msgstr ""
+#: qt/aqt/progress.py:83
+msgid "Processing..."
+msgstr "İşleniyor..."
 
-#: pylib/anki/consts.py:101
-msgid "Show new cards after reviews"
-msgstr "Yeni kartları gözden geçirmelerden sonra göster"
-
-#: pylib/anki/consts.py:102
-msgid "Show new cards before reviews"
-msgstr "Yeni kartları gözden geçirmelerden önce göster"
-
-#: pylib/anki/consts.py:94
-msgid "Show new cards in order added"
-msgstr "Yeni kartları eklendiği sırada göster"
-
-#: pylib/anki/consts.py:93
-msgid "Show new cards in random order"
-msgstr "Yeni kartları rastgele sırada göster"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:290
-msgid "Show next review time above answer buttons"
-msgstr "Yanıt düğmelerinin üstünde sonraki inceleme süresini göster"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:280
-msgid "Show play buttons on cards with audio"
-msgstr ""
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:291
-msgid "Show remaining card count during review"
-msgstr "İnceleme sırasında kalan kart sayısını göster"
-
-#: qt/aqt/browser.py:1031
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:339
-msgid "Sidebar"
-msgstr ""
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addfield.py:64
-msgid "Size:"
-msgstr "Boyut:"
-
-#: pylib/anki/importing/anki2.py:157
-msgid "Skipped"
-msgstr ""
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:312
-msgid "Some settings will take effect after you restart Anki."
-msgstr "Bazı ayarlar Anki yeniden başlatıktan sonra geçerli olacaktır."
-
-#: qt/aqt/browser.py:744
-msgid "Sort Field"
-msgstr "Sıralama Alanı"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:111
-msgid "Sort by this field in the browser"
-msgstr "Tarayıcıda bu alana göre sırala"
-
-#: qt/aqt/browser.py:942
-msgid "Sorting on this column is not supported. Please choose another."
-msgstr "Bu sütunda sıralama desteklenmiyor. Lütfen başka birini seçin."
-
-#: qt/aqt/sound.py:323
-msgid "Sound and video on cards will not function until mpv or mplayer is installed."
-msgstr ""
-
-#: qt/aqt/importing.py:163 qt/aqt/reviewer.py:584
-msgid "Space"
-msgstr "Boşluk"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reposition.py:73
-msgid "Start position:"
-msgstr "Başlangıç konumu"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:342
-msgid "Starting ease"
-msgstr ""
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/stats.py:80
-msgid "Statistics"
-msgstr "İstatistikler"
-
-#: qt/aqt/toolbar.py:126
-msgid "Stats"
-msgstr "İstatistikler"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reposition.py:74
-msgid "Step:"
-msgstr "Adım:"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:348
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:364
-msgid "Steps (in minutes)"
-msgstr "Adımlar (dakikada)"
-
-#: qt/aqt/deckconf.py:276 qt/aqt/dyndeckconf.py:157
-msgid "Steps must be numbers."
-msgstr "Adımlar sayı olmalıdır."
-
-#: qt/aqt/browser.py:1264
-msgid "Studied Today"
-msgstr ""
-
-#: qt/aqt/studydeck.py:67
-msgid "Study"
-msgstr "Çalış"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/studydeck.py:47
-msgid "Study Deck"
-msgstr ""
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:153
-msgid "Study Deck..."
-msgstr ""
-
-#: qt/aqt/overview.py:235
-msgid "Study Now"
-msgstr "Şimdi Çalış"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:108
-msgid "Study by card state or tag"
-msgstr "Kart durumuna veya etikete göre çalış"
-
-#: qt/aqt/editor.py:153
-msgid "Subscript (Ctrl+=)"
-msgstr ""
-
-#: pylib/anki/importing/__init__.py:16
-msgid "Supermemo XML export (*.xml)"
-msgstr "Supermemo XML dışa aktarma (*.xml)"
-
-#: qt/aqt/editor.py:151
-msgid "Superscript (Ctrl++)"
-msgstr ""
-
-#: qt/aqt/reviewer.py:796 qt/aqt/reviewer.py:802
-msgid "Suspend"
-msgstr "Askıya Al"
-
-#: qt/aqt/reviewer.py:729
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:371
-msgid "Suspend Card"
-msgstr "Kartı Askıya Al"
-
-#: qt/aqt/reviewer.py:730
-msgid "Suspend Note"
-msgstr "Notu Askıya Al"
-
-#: qt/aqt/browser.py:1281
-msgid "Suspended"
-msgstr "Askıya Alındı"
-
-#: pylib/anki/stats.py:861
-msgid "Suspended+Buried"
-msgstr ""
-
-#: qt/aqt/toolbar.py:143
-msgid "Sync"
-msgstr "Eşitle"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:302
-msgid "Synchronize audio and images too"
-msgstr "Ses ve resimleri de senkronize edin"
-
-#: qt/aqt/importing.py:159
-msgid "Tab"
-msgstr "Sekme"
-
-#: qt/aqt/browser.py:1988 qt/aqt/browser.py:2015
-msgid "Tag Duplicates"
-msgstr ""
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:372
-msgid "Tag Only"
-msgstr "Sadece Etiket"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:113
-msgid "Tag modified notes:"
-msgstr ""
-
-#: qt/aqt/browser.py:753 qt/aqt/browser.py:1299 qt/aqt/editor.py:576
-msgid "Tags"
-msgstr "Etiketler"
-
-#: qt/aqt/deckchooser.py:34
-msgid "Target Deck (Ctrl+D)"
-msgstr "Hedef Deste (Ctrl+D)"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/changemap.py:44
-msgid "Target field:"
-msgstr "Hedef alan:"
-
-#: pylib/anki/importing/__init__.py:13
-msgid "Text separated by tabs or semicolons (*)"
-msgstr "Sekmeler veya noktalı virgüllerle ayırılmış metin (*)"
-
-#: qt/aqt/fields.py:90
-msgid "That field name is already used."
-msgstr "Bu alan adı zaten kullanılmış."
-
-#: qt/aqt/deckconf.py:137
-msgid "The default configuration can't be removed."
-msgstr "Varsayılan yapılandırma kaldırılamaz."
-
-#: pylib/anki/stats.py:886
-msgid "The division of cards in your deck(s)."
-msgstr ""
-
-#: qt/aqt/addcards.py:169
-msgid "The first field is empty."
-msgstr "İlk alan boş."
-
-#: qt/aqt/importing.py:176
-msgid "The first field of the note type must be mapped."
-msgstr "Not türünün ilk alanı eşleştirilmelidir."
-
-#: qt/aqt/addons.py:280
+#: qt/aqt/reviewer.py:90
 #, python-format
-msgid "The following add-ons are incompatible with %(name)s and have been disabled: %(found)s"
-msgstr ""
+msgid "%d card studied in"
+msgid_plural "%d cards studied in"
+msgstr[0] "%d kartın çalışılma süresi:"
+msgstr[1] "%d kartın çalışılma süresi:"
 
-#: qt/aqt/addons.py:1268
-msgid "The following add-ons have updates available. Install them now?"
-msgstr ""
-
-#: qt/aqt/utils.py:659
+#: qt/aqt/reviewer.py:94
 #, python-format
-msgid "The following character can not be used: %s"
-msgstr "Aşağıdaki karakter kullanılamıyor: %s"
+msgid "%s minute."
+msgid_plural "%s minutes."
+msgstr[0] "%s dakika."
+msgstr[1] "%s dakika."
 
-#: qt/aqt/addons.py:500
-msgid "The following conflicting add-ons were disabled:"
-msgstr ""
+#: qt/aqt/reviewer.py:95
+msgid "Finish"
+msgstr "Bitir"
 
-#: pylib/anki/stats.py:309
-msgid "The number of new cards you have added."
-msgstr "Eklediğiniz yeni kartların sayısı."
+#: qt/aqt/reviewer.py:96
+msgid "Continue"
+msgstr "Devam Et"
 
-#: pylib/anki/stats.py:354
-msgid "The number of questions you have answered."
-msgstr "Yanıtladığınız soruların sayısı."
-
-#: pylib/anki/stats.py:228
-msgid "The number of reviews due in the future."
-msgstr "Gelecekte yapılacak incelemelerin sayısı."
-
-#: pylib/anki/stats.py:681
-msgid "The number of times you have pressed each button."
-msgstr "Her düğmeye bastığınız sayı."
-
-#: qt/aqt/importing.py:516
-msgid "The provided file is not a valid .apkg file."
-msgstr "Sağlanan dosya geçerli bir .apkg dosyası değil."
-
-#: qt/aqt/dyndeckconf.py:128
-msgid "The provided search did not match any cards. Would you like to revise it?"
-msgstr "Sağlanan arama, hiçbir kartla eşleşmedi. Gözden geçirmek ister misiniz?"
-
-#: qt/aqt/main.py:1343 qt/aqt/main.py:1362
-msgid "The requested change will require a full upload of the database when you next synchronize your collection. If you have reviews or other changes waiting on another device that haven't been synchronized here yet, they will be lost. Continue?"
-msgstr "İstenen değişiklik, koleksiyonunuzu bir sonraki senkronize ettiğinizde veritabanının tam bir şekilde yüklenmesini gerektirir. Başka bir cihazda henüz senkronize edilmemiş bekleyen incelemeler veya diğer değişiklikleriniz varsa, bunlar kaybolacaktır. Devam et?"
-
-#: pylib/anki/stats.py:380
-msgid "The time taken to answer the questions."
-msgstr "Soruları cevaplamak için harcanan süre."
-
-#: qt/aqt/main.py:320
-msgid "There must be at least one profile."
-msgstr "En az bir profil olmalı."
-
-#: qt/aqt/addons.py:507
-msgid "This add-on is not compatible with your version of Anki."
-msgstr ""
-
-#: qt/aqt/importing.py:434
-msgid "This file does not appear to be a valid .apkg file. If you're getting this error from a file downloaded from AnkiWeb, chances are that your download failed. Please try again, and if the problem persists, please try again with a different browser."
-msgstr "Bu dosya geçerli bir .apkg dosyası gibi görünmüyor. Bu hatayı AnkiWeb'den indirilen bir dosyadan alıyorsanız, indirme başarısız olmuş olabilir. Lütfen tekrar deneyin ve sorun devam ederse lütfen farklı bir tarayıcıyla yeniden deneyin."
-
-#: qt/aqt/utils.py:412
-msgid "This file exists. Are you sure you want to overwrite it?"
-msgstr "Bu dosya var. Üzerine yazmak istediğinizden emin misiniz?"
-
-#: qt/aqt/overview.py:188
-msgid "This is a special deck for studying outside of the normal schedule."
-msgstr ""
-
-#: qt/aqt/clayout.py:632
-#, python-format
-msgid "This will create %d card. Proceed?"
-msgid_plural "This will create %d cards. Proceed?"
-msgstr[0] ""
-msgstr[1] ""
-
-#: qt/aqt/importing.py:454
-msgid "This will delete your existing collection and replace it with the data in the file you're importing. Are you sure?"
-msgstr "Bu, mevcut koleksiyonunuzu silecer ve içe aktardığınız dosyadaki verilerle değiştirir. Emin misiniz?"
-
-#: qt/aqt/preferences.py:154
-msgid "This will reset any cards in learning, clear filtered decks, and change the scheduler version. Proceed?"
-msgstr ""
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:295
-msgid "Timebox time limit"
-msgstr ""
-
-#: qt/aqt/overview.py:233
-msgid "To Review"
-msgstr "İncelenecek"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/getaddons.py:51
-msgid "To browse add-ons, please click the browse button below.<br><br>When you've found an add-on you like, please paste its code below. You can paste multiple codes, separated by spaces."
-msgstr ""
-
-#: qt/aqt/editor.py:651
-msgid "To make a cloze deletion on an existing note, you need to change it to a cloze type first, via 'Notes>Change Note Type'"
-msgstr ""
-
-#: pylib/anki/stats.py:119 qt/aqt/browser.py:1259
-msgid "Today"
-msgstr "Bugün"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:77
-msgid "Toggle Enabled"
-msgstr ""
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:342
-msgid "Toggle Mark"
-msgstr ""
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:331
-msgid "Toggle Suspend"
-msgstr ""
-
-#: pylib/anki/stats.py:249 pylib/anki/stats.py:318 pylib/anki/stats.py:418
-msgid "Total"
-msgstr "Toplam"
-
-#: pylib/anki/stats.py:873
-msgid "Total cards"
-msgstr "Toplam kart"
-
-#: pylib/anki/stats.py:874
-msgid "Total notes"
-msgstr "Toplam not"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/findreplace.py:91
-msgid "Treat input as regular expression"
-msgstr ""
-
-#: qt/aqt/modelchooser.py:40
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:107
-msgid "Type"
-msgstr "Tip"
+#: qt/aqt/reviewer.py:387
+msgid "Please run Tools>Empty Cards"
+msgstr "Lütfen Araçlar>Boş Kartlar çalıştırın"
 
 #: qt/aqt/reviewer.py:391
 #, python-format
 msgid "Type answer: unknown field %s"
 msgstr "Cevap yazın: bilinmeyen alan %s"
 
-#: qt/aqt/errors.py:69
-msgid "Unable to access Anki media folder. The permissions on your system's temporary folder may be incorrect."
+#: qt/aqt/reviewer.py:572
+msgid "Edit"
+msgstr "Düzenle"
+
+#: qt/aqt/reviewer.py:574
+msgid "More"
+msgstr "Diğer"
+
+#: qt/aqt/reviewer.py:585
+msgid "Show Answer"
+msgstr "Cevabı Göster"
+
+#: qt/aqt/reviewer.py:629 qt/aqt/reviewer.py:633 qt/aqt/reviewer.py:636
+msgid "Again"
+msgstr "Tekrar"
+
+#: qt/aqt/reviewer.py:630 qt/aqt/reviewer.py:633 qt/aqt/reviewer.py:638
+msgid "Good"
+msgstr "İyiydi"
+
+#: qt/aqt/reviewer.py:633 qt/aqt/reviewer.py:639
+msgid "Easy"
+msgstr "Kolay"
+
+#: qt/aqt/reviewer.py:637
+msgid "Hard"
+msgstr "Zordu"
+
+#: qt/aqt/reviewer.py:685
+msgid "Card was a leech."
+msgstr "Kart bir sömürücüydü."
+
+#: qt/aqt/reviewer.py:687
+msgid "It has been suspended."
+msgstr "Durdurulmuştur."
+
+#: qt/aqt/reviewer.py:698
+msgid "Flag Card"
 msgstr ""
 
-#: qt/aqt/main.py:364
-msgid "Unable to move existing file to trash - please try restarting your computer."
+#: qt/aqt/reviewer.py:726
+msgid "Mark Note"
 msgstr ""
 
-#: qt/aqt/addons.py:427
+#: qt/aqt/reviewer.py:727
+msgid "Bury Card"
+msgstr "Gizli Kart"
+
+#: qt/aqt/reviewer.py:728
+msgid "Bury Note"
+msgstr "Notu Gizle"
+
+#: qt/aqt/reviewer.py:730
+msgid "Suspend Note"
+msgstr "Notu Askıya Al"
+
+#: qt/aqt/reviewer.py:731
+msgid "Delete Note"
+msgstr "Notu Sil"
+
+#: qt/aqt/reviewer.py:735
+msgid "Pause Audio"
+msgstr ""
+
+#: qt/aqt/reviewer.py:736
+msgid "Audio -5s"
+msgstr ""
+
+#: qt/aqt/reviewer.py:737
+msgid "Audio +5s"
+msgstr ""
+
+#: qt/aqt/reviewer.py:738
+msgid "Record Own Voice"
+msgstr "Kendi Sesiniz Kaydedin"
+
+#: qt/aqt/reviewer.py:739
+msgid "Replay Own Voice"
+msgstr "Kendi Sesinizi Tekrarlayın"
+
+#: qt/aqt/reviewer.py:796 qt/aqt/reviewer.py:802
+msgid "Suspend"
+msgstr "Askıya Al"
+
+#: qt/aqt/reviewer.py:798
+msgid "Note suspended."
+msgstr "Not askıya alındı."
+
+#: qt/aqt/reviewer.py:804
+msgid "Card suspended."
+msgstr "Kart askıya alındı."
+
+#: qt/aqt/reviewer.py:818
 #, python-format
-msgid ""
-"Unable to update or delete add-on. Please start Anki while holding down the shift key to temporarily disable add-ons, then try again.\n"
-"\n"
-"Debug info: %s"
+msgid "Note and its %d card deleted."
+msgid_plural "Note and its %d cards deleted."
+msgstr[0] "Not ve ona ait %d kart silindi."
+msgstr[1] "Not ve ona ait %d kart silindi."
+
+#: qt/aqt/reviewer.py:824 qt/aqt/reviewer.py:830
+msgid "Bury"
 msgstr ""
 
-#: qt/aqt/overview.py:261
-msgid "Unbury"
-msgstr ""
+#: qt/aqt/reviewer.py:827
+msgid "Card buried."
+msgstr "Kart Gizlendi."
 
-#: qt/aqt/editor.py:148
-msgid "Underline text (Ctrl+U)"
-msgstr ""
-
-#: qt/aqt/main.py:1046
-msgid "Undo"
-msgstr "Geri al"
-
-#: qt/aqt/main.py:1042
-#, python-format
-msgid "Undo %s"
-msgstr "Geri al %s"
-
-#: qt/aqt/addons.py:1014 qt/aqt/editor.py:850
-#, python-format
-msgid "Unexpected response code: %s"
-msgstr ""
-
-#: qt/aqt/addons.py:475
-msgid "Unknown error: {}"
-msgstr ""
-
-#: qt/aqt/importing.py:367
-msgid "Unknown file format."
-msgstr "Bilinmeyen dosya biçimi."
-
-#: pylib/anki/stats.py:860
-msgid "Unseen"
-msgstr "Okunmamış"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:109
-msgid "Update existing notes when first field matches"
-msgstr ""
-
-#: pylib/anki/importing/anki2.py:160
-msgid "Updated"
-msgstr ""
-
-#: qt/aqt/profiles.py:479
-msgid "User 1"
-msgstr "Kullanıcı 1"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:287
-msgid "User interface size"
-msgstr ""
-
-#: qt/aqt/about.py:104
-#, python-format
-msgid "Version %s"
-msgstr "Versiyon %s"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:74
-msgid "View Add-on Page"
-msgstr ""
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:76
-msgid "View Files"
-msgstr ""
-
-#: qt/aqt/main.py:735
-msgid "Waiting for editing to finish."
-msgstr "Düzenlemenin bitmesi bekleniyor."
-
-#: qt/aqt/editor.py:644
-msgid "Warning, cloze deletions will not work until you switch the type at the top to Cloze."
-msgstr ""
-
-#: qt/aqt/overview.py:137
-msgid "What would you like to unbury?"
-msgstr ""
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:285
-msgid "When adding, default to current deck"
-msgstr ""
-
-#: qt/aqt/browser.py:1108 qt/aqt/browser.py:1255
-msgid "Whole Collection"
-msgstr ""
-
-#: qt/aqt/update.py:63
-msgid "Would you like to download it now?"
-msgstr "Şimdi indirmek istermisin ?"
-
-#: qt/aqt/about.py:215
-#, python-format
-msgid "Written by Damien Elmes, with patches, translation,    testing and design from:<p>%(cont)s"
-msgstr ""
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:310
-msgid "You can restore backups via File>Switch Profile."
-msgstr ""
-
-#: qt/aqt/addcards.py:178
-msgid "You have a cloze deletion note type but have not made any cloze deletions. Proceed?"
-msgstr ""
+#: qt/aqt/reviewer.py:833
+msgid "Note buried."
+msgstr "Not saklandı."
 
 #: qt/aqt/reviewer.py:841
 msgid "You haven't recorded your voice yet."
 msgstr "Sesinizi henüz kaydetmediniz."
 
-#: qt/aqt/browser.py:997
-msgid "You must have at least one column."
-msgstr "En az bir sütun olmalıdır."
-
-#: pylib/anki/stats.py:214 pylib/anki/stats.py:347 pylib/anki/stats.py:367
-#: pylib/anki/stats.py:687
-msgid "Young"
-msgstr "Genç"
-
-#: pylib/anki/stats.py:859
-msgid "Young+Learn"
+#: qt/aqt/sound.py:323
+msgid "Sound and video on cards will not function until mpv or mplayer is installed."
 msgstr ""
 
-#: qt/aqt/deckconf.py:113
-msgid "Your changes will affect multiple decks. If you wish to change only the current deck, please add a new options group first."
-msgstr ""
-
-#: qt/aqt/main.py:578
-msgid "Your collection file appears to be corrupt. This can happen when the file is copied or moved while Anki is open, or when the collection is stored on a network or cloud drive. If problems persist after restarting your computer, please open an automatic backup from the profile screen."
-msgstr ""
-
-#: qt/aqt/errors.py:99
-msgid "Your computer's storage may be full. Please delete some unneeded files, then try again."
-msgstr ""
-
-#: qt/aqt/errors.py:82
-msgid "Your firewall or antivirus program is preventing Anki from creating a connection to itself. Please add an exception for Anki."
-msgstr ""
-
-#: pylib/anki/decks.py:382
-msgid "[no deck]"
-msgstr ""
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:309
-msgid "backups"
-msgstr ""
-
-#: pylib/anki/stats.py:319 qt/aqt/customstudy.py:53
-msgid "cards"
-msgstr ""
-
-#: qt/aqt/customstudy.py:101
-msgid "cards from the deck"
-msgstr ""
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:139
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:143
-msgid "cards selected by"
-msgstr ""
-
-#: qt/aqt/exporting.py:110
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/stats.py:82
-msgid "collection"
-msgstr ""
-
-#. T: abbreviation of day
-#: pylib/anki/stats.py:982
-msgid "d"
-msgstr ""
-
-#: qt/aqt/customstudy.py:90 qt/aqt/customstudy.py:94 qt/aqt/customstudy.py:97
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:350
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:351
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:358
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:370
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reschedule.py:79
-msgid "days"
-msgstr "günler"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/stats.py:81
-msgid "deck"
-msgstr "deste"
-
-#: pylib/anki/stats.py:949
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/stats.py:85
-msgid "deck life"
-msgstr ""
-
-#: qt/aqt/browser.py:2019
-msgid "duplicate"
-msgstr ""
-
-#: pylib/anki/stats.py:413
-msgid "hours"
-msgstr "saat"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:296
-msgid "hours past midnight"
-msgstr ""
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:367
-msgid "lapses"
-msgstr ""
-
-#: qt/aqt/importing.py:256
+#: qt/aqt/sound.py:502
 #, python-format
-msgid "mapped to <b>%s</b>"
-msgstr "eşlenmiş <b>%s</b>"
+msgid "Error running %s"
+msgstr "%s çalıştırma hatası"
 
-#: qt/aqt/importing.py:254
-msgid "mapped to <b>Tags</b>"
-msgstr "Eşlenmiş <b>Etiketler</b>"
+#: qt/aqt/sound.py:610
+#, python-format
+msgid "Recording...<br>Time: %0.1f"
+msgstr "Kayıtediliyor...<br>Zaman:%0.1f"
 
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:294
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:298
-msgid "mins"
-msgstr "dk"
-
-#: pylib/anki/stats.py:384
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:148
-msgid "minutes"
-msgstr "dakîka"
-
-#. T: abbreviation of month
-#: pylib/anki/stats.py:986
-msgid "mo"
-msgstr ""
-
-#: pylib/anki/stats.py:252 pylib/anki/stats.py:360
-msgid "reviews"
-msgstr "İncelemeler"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:376
-msgid "seconds"
-msgstr "saniye"
+#: qt/aqt/stats.py:42 qt/aqt/stats.py:67 qt/aqt/stats.py:114
+#: qt/aqt/stats.py:145
+msgid "Save PDF"
+msgstr "PDF Kaydet"
 
 #: qt/aqt/stats.py:64 qt/aqt/stats.py:142
 msgid "stats"
 msgstr "İstatistikler"
 
-#. T: abbreviation of week
-#: pylib/anki/stats.py:984
-msgid "w"
+#: qt/aqt/stats.py:80 qt/aqt/stats.py:158
+msgid "Saved."
 msgstr ""
 
-#: pylib/anki/stats.py:944
-msgid "whole collection"
-msgstr "tüm koleksiyon"
+#: qt/aqt/studydeck.py:48
+msgid "Add New Deck (Ctrl+N)"
+msgstr "Yeni Deste Ekle (Ctrl+N)"
 
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reschedule.py:78
-msgid "~"
+#: qt/aqt/studydeck.py:67
+msgid "Study"
+msgstr "Çalış"
+
+#: qt/aqt/studydeck.py:135
+msgid "Please select something."
+msgstr "Lütfen bir şey seçin."
+
+#: qt/aqt/toolbar.py:119
+msgid "Browse"
+msgstr "Aç"
+
+#: qt/aqt/toolbar.py:126
+msgid "Stats"
+msgstr "İstatistikler"
+
+#: qt/aqt/toolbar.py:143
+msgid "Sync"
+msgstr "Eşitle"
+
+#: qt/aqt/update.py:59
+#, python-format
+msgid "<h1>Anki Updated</h1>Anki %s has been released.<br><br>"
+msgstr "<h1>Anki Güncellendi</h1>Anki %s sürümü çıktı.<br><br>"
+
+#: qt/aqt/update.py:63
+msgid "Would you like to download it now?"
+msgstr "Şimdi indirmek istermisin ?"
+
+#: qt/aqt/update.py:64
+msgid "Ignore this update"
+msgstr "Bu güncelemeyi yoksay"
+
+#: qt/aqt/utils.py:57
+msgid "Loading..."
+msgstr "Yükleniyor..."
+
+#: qt/aqt/utils.py:148
+msgid "Copy to Clipboard"
 msgstr ""
 
-#~ msgid "Front"
-#~ msgstr "Ön"
+#: qt/aqt/utils.py:412
+msgid "This file exists. Are you sure you want to overwrite it?"
+msgstr "Bu dosya var. Üzerine yazmak istediğinizden emin misiniz?"
 
-#~ msgid "Congratulations! You have finished this deck for now."
-#~ msgstr "Tebrikler! Bu desteyi şimdilik tamamladınız."
+#: qt/aqt/utils.py:659
+#, python-format
+msgid "The following character can not be used: %s"
+msgstr "Aşağıdaki karakter kullanılamıyor: %s"
 
-#~ msgid "Deauthorize"
-#~ msgstr "Yetkiyi Kaldır"
-
-#~ msgid "To study outside of the normal schedule, click the Custom Study button below."
-#~ msgstr "Normal programın dışında çalışmak için aşağıdaki Özel Eğitim'i tıklayın."
-
-#~ msgid ""
-#~ "Today's review limit has been reached, but there are still cards\n"
-#~ "waiting to be reviewed. For optimum memory, consider increasing\n"
-#~ "the daily limit in the options."
-#~ msgstr ""
-#~ "Bugünün inceleme sınırına ulaşıldı, ancak gözden geçirilmek \n"
-#~ "için bekleyen kartlar var. Optimum hafıza için, seçeneklerdeki \n"
-#~ "günlük limiti arttırmayı düşünün."
-
-#~ msgid "Shortcut key: Left or Right arrow"
-#~ msgstr "Kısayol tuşu: Sol ok"
+#. T: include a font for your language on Windows, eg: "Segoe UI", "MS Mincho"
+#: qt/aqt/webview.py:379
+msgid "\"Segoe UI\""
+msgstr ""
 
 #~ msgid " (1 of %d)"
 #~ msgstr " (%d taneden: 1)"
@@ -3583,6 +3559,9 @@ msgstr ""
 #~ msgid "Collection is corrupt. Please see the manual."
 #~ msgstr "Koleksiyon bozuldu. Lütfen kılavuzu okuyun."
 
+#~ msgid "Congratulations! You have finished this deck for now."
+#~ msgstr "Tebrikler! Bu desteyi şimdilik tamamladınız."
+
 #~ msgid "Connecting..."
 #~ msgstr "Bağlantı kuruluyor..."
 
@@ -3597,6 +3576,9 @@ msgstr ""
 
 #~ msgid "Date"
 #~ msgstr "Tarih"
+
+#~ msgid "Deauthorize"
+#~ msgstr "Yetkiyi Kaldır"
 
 #~ msgid "Delete Cards"
 #~ msgstr "Kartları Sil"
@@ -3673,6 +3655,9 @@ msgstr ""
 #~ msgid "Fixed note type: %s"
 #~ msgstr "Onarılan not türü: %s"
 
+#~ msgid "Front"
+#~ msgstr "Ön"
+
 #~ msgid "Front Preview"
 #~ msgstr "Ön Görünüm"
 
@@ -3745,6 +3730,9 @@ msgstr ""
 #~ msgid "Server not found. Either your connection is down, or antivirus/firewall software is blocking Anki from connecting to the internet."
 #~ msgstr "Sunucu bulunamadı. Bağlantınız kapalı veya virüs korucucu/güvenlik duvarı yazılımı Anki'nin internete bağlanmasına engel oluyor olabilir."
 
+#~ msgid "Shortcut key: Left or Right arrow"
+#~ msgstr "Kısayol tuşu: Sol ok"
+
 #~ msgid "Stopping..."
 #~ msgstr "Durduruluyor..."
 
@@ -3798,6 +3786,18 @@ msgstr ""
 
 #~ msgid "Time"
 #~ msgstr "Zaman"
+
+#~ msgid "To study outside of the normal schedule, click the Custom Study button below."
+#~ msgstr "Normal programın dışında çalışmak için aşağıdaki Özel Eğitim'i tıklayın."
+
+#~ msgid ""
+#~ "Today's review limit has been reached, but there are still cards\n"
+#~ "waiting to be reviewed. For optimum memory, consider increasing\n"
+#~ "the daily limit in the options."
+#~ msgstr ""
+#~ "Bugünün inceleme sınırına ulaşıldı, ancak gözden geçirilmek \n"
+#~ "için bekleyen kartlar var. Optimum hafıza için, seçeneklerdeki \n"
+#~ "günlük limiti arttırmayı düşünün."
 
 #~ msgid "Total Time"
 #~ msgstr "Toplam Süre"

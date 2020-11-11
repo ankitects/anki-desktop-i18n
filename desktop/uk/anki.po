@@ -17,40 +17,418 @@ msgstr ""
 "X-Crowdin-Project: anki\n"
 "X-Generator: Pontoon\n"
 
-#: qt/aqt/importing.py:403
-#, fuzzy
-msgid "    Invalid file. Please restore from backup."
-msgstr "Недійсний файл. Відновіть з резервної копії."
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/about.py:45
+msgid "About Anki"
+msgstr "Про Anki"
 
-#: qt/aqt/importing.py:412
-#, fuzzy
-msgid "    Unable to import from a read-only file."
-msgstr "Неможливо імпортувати файл, призначений лише для зчитування."
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addcards.py:60
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:103
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/profiles.py:82
+#: qt/aqt/addcards.py:38 qt/aqt/addcards.py:70 qt/aqt/deckconf.py:89
+#: qt/aqt/models.py:57 qt/aqt/studydeck.py:46 qt/aqt/toolbar.py:112
+msgid "Add"
+msgstr "Додати"
 
-#: qt/aqt/addons.py:313
-msgid " (disabled)"
-msgstr " (вимкнено)"
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addfield.py:62
+#: qt/aqt/clayout.py:389
+msgid "Add Field"
+msgstr "Додати поле"
 
-#: qt/aqt/clayout.py:694
-msgid " (off)"
-msgstr " (вимк)"
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addfield.py:63
+msgid "Field:"
+msgstr "Поле:"
 
-#: qt/aqt/clayout.py:692
-msgid " (on)"
-msgstr " (увімкн)"
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addfield.py:64
+msgid "Size:"
+msgstr "Розмір:"
 
-#: qt/aqt/deckbrowser.py:289
-#, python-format
-msgid " It has %d card."
-msgid_plural " It has %d cards."
-msgstr[0] " Містить %d картку."
-msgstr[1] " Містить %d карток."
-msgstr[2] " Містить %d карток."
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addfield.py:65
+msgid "Font:"
+msgstr "Шрифт:"
 
-#. T: include a font for your language on Windows, eg: "Segoe UI", "MS Mincho"
-#: qt/aqt/webview.py:379
-msgid "\"Segoe UI\""
-msgstr "\"Segoe UI\""
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addmodel.py:46
+msgid "Add Note Type"
+msgstr "Додати тип нотаток"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addonconf.py:73
+msgid "Configuration"
+msgstr "Налаштування"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:70
+msgid "Changes will take effect when Anki is restarted."
+msgstr "Зміни застосуються після перезавантаження Anki."
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:71
+msgid "Get Add-ons..."
+msgstr "Отримання доповнення…"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:72
+msgid "Install from file..."
+msgstr "Встановлення з файлу…"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:73
+msgid "Check for Updates"
+msgstr "Перевірити оновлення"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:74
+msgid "View Add-on Page"
+msgstr ""
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:75
+msgid "Config"
+msgstr "Налашт."
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:76
+msgid "View Files"
+msgstr ""
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:77
+msgid "Toggle Enabled"
+msgstr ""
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:78
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:332
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:104
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/profiles.py:84
+#: qt/aqt/deckbrowser.py:234 qt/aqt/deckconf.py:91 qt/aqt/models.py:59
+#: qt/aqt/reviewer.py:812
+msgid "Delete"
+msgstr "Видалити"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:297
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:138
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:142
+#: qt/aqt/browser.py:1979
+msgid "Search"
+msgstr "Пошук"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:298
+#: qt/aqt/previewer.py:65
+msgid "Preview"
+msgstr "Попередній  вигляд"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:299
+msgid "Filter..."
+msgstr "Фільтрація…"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:300
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:135
+msgid "&Edit"
+msgstr "&Редагування"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:301
+msgid "&Go"
+msgstr "&Перейти"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:302
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:134
+msgid "&Help"
+msgstr "&Допомога"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:303
+msgid "&Cards"
+msgstr "&Картки"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:304
+msgid "Flag"
+msgstr "Прапорець"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:305
+msgid "&Notes"
+msgstr "&Нотатки"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:306
+msgid "&Reschedule..."
+msgstr "&Перемістити..."
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:307
+msgid "Select &All"
+msgstr "&Виділити все"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:308
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:142
+msgid "&Undo"
+msgstr "&Скасувати"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:309
+msgid "&Invert Selection"
+msgstr "&Інвертувати вибір"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:310
+msgid "&Find"
+msgstr "&Знайти"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:311
+msgid "N&ote"
+msgstr "Н&отатка"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:312
+msgid "&Next Card"
+msgstr "&Наступна Картка"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:313
+msgid "&Previous Card"
+msgstr "&Попередня картка"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:314
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:149
+msgid "&Guide..."
+msgstr "&Довідник..."
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:315
+msgid "Change Note Type..."
+msgstr "Змінити тип нотатки..."
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:316
+msgid "Select &Notes"
+msgstr "Вибрати &нотатки"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:317
+msgid "Find and Re&place..."
+msgstr "&Знайти і замінити..."
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:318
+msgid "&Cram..."
+msgstr "&Зубріння..."
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:319
+msgid "Fil&ter"
+msgstr "Фільl&тр"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:320
+msgid "Card List"
+msgstr "Список карток"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:321
+msgid "Find &Duplicates..."
+msgstr "Пошук &дублікатів..."
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:322
+msgid "Reposition..."
+msgstr "Змінити розташування..."
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:323
+msgid "First Card"
+msgstr "Перша картка"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:324
+msgid "Home"
+msgstr "Домівка"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:325
+msgid "Last Card"
+msgstr "Остання картка"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:326
+msgid "End"
+msgstr "Кінець"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:327
+#: qt/aqt/addcards.py:75
+msgid "Close"
+msgstr "Закрити"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:328
+msgid "&Info..."
+msgstr "&Інфо..."
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:329
+msgid "Add Tags..."
+msgstr "Додати теги..."
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:330
+msgid "Remove Tags..."
+msgstr "Видалення приміток…"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:331
+msgid "Toggle Suspend"
+msgstr ""
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:333
+msgid "Add Notes..."
+msgstr "Додати запис…"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:334
+msgid "Change Deck..."
+msgstr "Змінити колоду..."
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:335
+#: qt/aqt/browser.py:1284 qt/aqt/reviewer.py:701
+msgid "Red Flag"
+msgstr "Червоний прапорець"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:336
+#: qt/aqt/browser.py:1285 qt/aqt/reviewer.py:707
+msgid "Orange Flag"
+msgstr "Помаранчевий прапорець"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:337
+#: qt/aqt/browser.py:1286 qt/aqt/reviewer.py:713
+msgid "Green Flag"
+msgstr "Зелений прапорець"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:338
+#: qt/aqt/browser.py:1287 qt/aqt/reviewer.py:719
+msgid "Blue Flag"
+msgstr "Синій прапорець"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:339
+#: qt/aqt/browser.py:1031
+msgid "Sidebar"
+msgstr "Бічна панель"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:340
+msgid "Clear Unused Tags"
+msgstr "Очистити невикористані теґи"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:341
+msgid "Manage Note Types..."
+msgstr "Управління типами нотаток..."
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:342
+msgid "Toggle Mark"
+msgstr ""
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:343
+msgid "&Export Notes..."
+msgstr "&Експортування записів…"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:344
+msgid "Ctrl+Shift+E"
+msgstr "Ctrl+Shift+E [латинське]"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browserdisp.py:71
+msgid "Browser Appearance"
+msgstr "Зовнішній вигляд Навігатора"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browserdisp.py:72
+msgid "Override front template:"
+msgstr "Ігнорувати шаблон лицьової сторони:"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browserdisp.py:73
+msgid "Override back template:"
+msgstr "Ігнорувати шаблон зворотньої сторони:"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browserdisp.py:74
+msgid "Override font:"
+msgstr "Ігнорувати шрифт:"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browseropts.py:71
+msgid "Browser Options"
+msgstr "Налаштування Навігатора"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browseropts.py:72
+msgid "<b>Font</b>:"
+msgstr "<b>Шрифт</b>:"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browseropts.py:73
+msgid "<b>Font Size</b>:"
+msgstr "<b>Розмір шрифту</b>:"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browseropts.py:74
+msgid "<b>Line Size</b>:"
+msgstr "<b>Розмір рядка</b>:"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browseropts.py:75
+msgid "Search within formatting (slow)"
+msgstr "Шукати серед форматування (повільно)"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/changemap.py:43
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:105
+#: qt/aqt/importing.py:103 qt/aqt/importing.py:189 qt/aqt/importing.py:311
+msgid "Import"
+msgstr "Імпорт"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/changemap.py:44
+msgid "Target field:"
+msgstr "Цільове поле:"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/changemodel.py:111
+#: qt/aqt/browser.py:2270
+msgid "Change Note Type"
+msgstr "Змінити тип нотатки"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/changemodel.py:112
+msgid "Current note type:"
+msgstr "Поточний тип нотатки:"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/changemodel.py:113
+msgid "New note type:"
+msgstr "Новий тип нотаток:"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/changemodel.py:114
+#: pylib/anki/stats.py:310 pylib/anki/stats.py:962 qt/aqt/editor.py:134
+msgid "Cards"
+msgstr "Картки"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/changemodel.py:115
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:102
+#: qt/aqt/editor.py:126 qt/aqt/fields.py:23
+msgid "Fields"
+msgstr "Поля"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/clayout_top.py:54
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/template.py:73
+msgid "Form"
+msgstr "Форма"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:103
+#: qt/aqt/overview.py:258
+msgid "Custom Study"
+msgstr "Додаткове навчання"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:104
+msgid "Review ahead"
+msgstr "Повторити наперед"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:105
+msgid "Review forgotten cards"
+msgstr "Повторити забуті картки"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:106
+msgid "Increase today's new card limit"
+msgstr "Збільшити ліміт нових карток на сьогодні"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:107
+msgid "Increase today's review card limit"
+msgstr "Збільшити ліміт карток для повторення на сьогодні"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:108
+msgid "Study by card state or tag"
+msgstr "Вчити за станом картки або міткою"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:109
+msgid "Preview new cards"
+msgstr "Попередньо переглянути нові картки"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:113
+msgid "New cards only"
+msgstr "Лише нові картки"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:115
+msgid "Due cards only"
+msgstr "Лише очікувані картки"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:117
+msgid "All review cards in random order"
+msgstr "Всі повторювані картки у випадковому порядку"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:119
+msgid "All cards in random order (don't reschedule)"
+msgstr "Всі картки у випадковому порядку (без перепланування)"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:340
+msgid "Options group:"
+msgstr "Група налаштувань:"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:341
+#: qt/aqt/browser.py:1337
+msgid "Manage..."
+msgstr "Керування…"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:342
+msgid "Starting ease"
+msgstr "Початкова легкість"
 
 #: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:343
 #: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:354
@@ -61,42 +439,924 @@ msgstr "\"Segoe UI\""
 msgid "%"
 msgstr "%"
 
-#: pylib/anki/stats.py:796 pylib/anki/stats.py:818
-msgid "% Correct"
-msgstr "% Вірно"
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:344
+msgid "Order"
+msgstr "Порядок"
 
-#: pylib/anki/stats.py:1112
-#, python-format
-msgid "%(a)0.1f %(b)s/day"
-msgstr "%(a)0.1f %(b)s/день"
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:345
+msgid "Easy interval"
+msgstr "Інтервал легкості"
 
-#. T: name is a card type name. n it's order in the list of card type.
-#. T: this is shown in browser's filter, when seeing the list of card type of a note type.
-#: qt/aqt/browser.py:1356
-#, python-format
-msgid "%(n)d: %(name)s"
-msgstr "%(n)d: %(name)s"
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:346
+msgid "Graduating interval"
+msgstr "Градуйований інтервал"
 
-#: pylib/anki/stats.py:418
-#, python-format
-msgid "%(tot)s %(unit)s"
-msgstr "%(tot)s %(unit)s"
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:347
+msgid "New cards/day"
+msgstr "Нових карток/день"
 
-#: pylib/anki/stats.py:260 pylib/anki/stats.py:318 qt/aqt/clayout.py:560
-#, python-format
-msgid "%d card"
-msgid_plural "%d cards"
-msgstr[0] "%d картка"
-msgstr[1] "%d карток"
-msgstr[2] "%d карток"
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:348
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:364
+msgid "Steps (in minutes)"
+msgstr "Кроки (у хвилинах)"
 
-#: qt/aqt/exporting.py:192
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:349
+msgid "Bury related new cards until the next day"
+msgstr "Поховати пов'язані нові картки до наступного дня"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:350
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:351
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:358
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:370
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reschedule.py:79
+#: qt/aqt/customstudy.py:90 qt/aqt/customstudy.py:94 qt/aqt/customstudy.py:97
+msgid "days"
+msgstr "днів"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:352
+msgid "New Cards"
+msgstr "Нових карток"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:353
+msgid "Easy bonus"
+msgstr "Бонус легкості"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:355
+msgid "Interval modifier"
+msgstr "Модифікатор інтервалу"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:356
+msgid "Maximum reviews/day"
+msgstr "Максимальна кількість повторених карток в день."
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:357
+msgid "Maximum interval"
+msgstr "Максимальний інтервал"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:360
+msgid "Bury related reviews until the next day"
+msgstr "Поховати пов'язані картки на повторення до наступного дня"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:361
+msgid "Hard interval"
+msgstr "Інтервал для «Важко»"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:363
+#: pylib/anki/stats.py:819 qt/aqt/browser.py:751
+msgid "Reviews"
+msgstr "Повторення"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:365
+msgid "New interval"
+msgstr "Новий інтервал"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:366
+msgid "Leech threshold"
+msgstr "Поріг для приставучих карток"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:367
+msgid "lapses"
+msgstr "невдачі"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:368
+msgid "Leech action"
+msgstr "Дія щодо приставучих карток"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:369
+msgid "Minimum interval"
+msgstr "Мінімальний інтервал"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:371
+#: qt/aqt/reviewer.py:729
+msgid "Suspend Card"
+msgstr "Відкласти картку"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:372
+msgid "Tag Only"
+msgstr "Лише мітка"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:374
+#: qt/aqt/browser.py:752
+msgid "Lapses"
+msgstr "Невдачі"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:375
+msgid "Ignore answer times longer than"
+msgstr "Не враховувати час відповіді довше ніж"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:376
+msgid "seconds"
+msgstr "секунд(и)"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:377
+msgid "Show answer timer"
+msgstr "Показати таймер відповіді"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:378
+msgid "Automatically play audio"
+msgstr "Автоматично програвати звук"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:379
+msgid "Always include question side when replaying audio"
+msgstr "Завжди показувати сторону картки з питанням під час відтворення аудіо"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:380
+msgid "General"
+msgstr "Загальне"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:381
+msgid "Description to show on overview screen, for current deck:"
+msgstr "Опис для показу на екрані перегляду, для поточної колоди:"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:382
+msgid "Description"
+msgstr "Опис"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/debug.py:56
+msgid "Debug Console"
+msgstr "Консоль зневаджування"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:135
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/editaddon.py:42
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/editcurrent.py:43
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/progress.py:42
+msgid "Dialog"
+msgstr "Діалог"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:136
+#: qt/aqt/browser.py:1319
+msgid "Filter"
+msgstr "Фільтр"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:137
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:141
+msgid "Limit to"
+msgstr "Обмежити"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:139
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:143
+msgid "cards selected by"
+msgstr "картки, обрані за"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:140
+msgid "Filter 2"
+msgstr "Фільтр 2"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:144
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:110
+#: qt/aqt/clayout.py:111 qt/aqt/deckbrowser.py:230 qt/aqt/deckconf.py:37
+#: qt/aqt/dyndeckconf.py:25 qt/aqt/overview.py:252 qt/aqt/reviewer.py:732
+msgid "Options"
+msgstr "Опції"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:145
+msgid "Reschedule cards based on my answers in this deck"
+msgstr "Змінити розклад карток, спираючись на мої відповіді у цій колоді"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:146
+msgid "Enable second filter"
+msgstr "Використовувати другий фільтр"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:147
+msgid "Repeat failed cards after"
+msgstr "Потім повторіть забуті картки"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:148
+#: pylib/anki/stats.py:384
+msgid "minutes"
+msgstr "хвилин(и)"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:149
+msgid "Custom steps (in minutes)"
+msgstr "Користувацькі кроки (в хвилинах)"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/edithtml.py:39
+msgid "HTML Editor"
+msgstr "Редактор HTML"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/exporting.py:76
+#: qt/aqt/deckbrowser.py:232 qt/aqt/exporting.py:124
+msgid "Export"
+msgstr "Експорт колоди в інший формат"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/exporting.py:77
+msgid "<b>Export format</b>:"
+msgstr "<b>Формат експорту </b>:"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/exporting.py:78
+msgid "<b>Include</b>:"
+msgstr "<b>Включити</b>:"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/exporting.py:79
+msgid "Include scheduling information"
+msgstr "Включити інформацію про розклад"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/exporting.py:80
+msgid "Include media"
+msgstr "Включити медіа-файли"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/exporting.py:81
+msgid "Include tags"
+msgstr "Включити мітки"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/exporting.py:82
+msgid "Include HTML and media references"
+msgstr "Включити HTML і медіа посилання"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:105
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/profiles.py:83
+#: qt/aqt/deckbrowser.py:228 qt/aqt/deckconf.py:93 qt/aqt/models.py:58
+#: qt/aqt/sidebar.py:74
+msgid "Rename"
+msgstr "Перейменувати"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:106
+#: qt/aqt/browser.py:1751
+msgid "Reposition"
+msgstr "Змінити розташування"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:107
+msgid "Editing Font"
+msgstr "Шрифт режиму редагування"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:108
+msgid "Reverse text direction (RTL)"
+msgstr "Зворотній напрямок тексту (RTL)"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:109
+msgid "Remember last input when adding"
+msgstr "Запам'ятовувати останні внесені дані"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:111
+msgid "Sort by this field in the browser"
+msgstr "Сортувати по цьому полю у навігаторі"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/finddupes.py:71
+msgid "Find Duplicates"
+msgstr "Пошук дублікатів"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/finddupes.py:72
+msgid "Optional filter:"
+msgstr "Додатковий філтр:"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/finddupes.py:73
+msgid "Search in:"
+msgstr "Шукати в:"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/findreplace.py:87
+#: qt/aqt/browser.py:1909
+msgid "Find and Replace"
+msgstr "Знайти і замінити"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/findreplace.py:88
+msgid "<b>Find</b>:"
+msgstr "<b>Знайти</b>:"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/findreplace.py:89
+msgid "<b>Replace With</b>:"
+msgstr "<b>Замінити на</b>:"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/findreplace.py:90
+msgid "<b>In</b>:"
+msgstr "<b>В</b>:"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/findreplace.py:91
+msgid "Treat input as regular expression"
+msgstr "Розглядати введення як регулярний вираз"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/findreplace.py:92
+msgid "Ignore case"
+msgstr "Без урахування регістру"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/getaddons.py:50
+msgid "Install Add-on"
+msgstr "Встановити додаток до програми"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/getaddons.py:51
+msgid "To browse add-ons, please click the browse button below.<br><br>When you've found an add-on you like, please paste its code below. You can paste multiple codes, separated by spaces."
+msgstr ""
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/getaddons.py:52
+msgid "Code:"
+msgstr "Код:"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:106
+msgid "Import options"
+msgstr "Параметри імпорту"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:107
+#: qt/aqt/modelchooser.py:40
+msgid "Type"
+msgstr "Тип"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:108
+#: qt/aqt/browser.py:743 qt/aqt/deckbrowser.py:147 qt/aqt/deckchooser.py:29
+msgid "Deck"
+msgstr "Колода"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:109
+msgid "Update existing notes when first field matches"
+msgstr "Оновити існуючі нотатки, коли співпадають перше поле"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:110
+msgid "Ignore lines where first field matches existing note"
+msgstr "Ігнорувати рядки, в яких перше поле має відповідник в існуючій нотатці"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:111
+msgid "Import even if existing note has same first field"
+msgstr "Імпортувати, навіть якщо існуюча нотатка містить однакове перше поле"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:112
+msgid "Allow HTML in fields"
+msgstr "Допускається HTML у полях"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:113
+msgid "Tag modified notes:"
+msgstr "Додати примітку зміненим записам:"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:114
+msgid "Field mapping"
+msgstr "Відповідність полів"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:133
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/setgroup.py:40
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/setlang.py:41
+msgid "Anki"
+msgstr "Anki"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:136
+msgid "&File"
+msgstr "&Файл"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:137
+msgid "&Tools"
+msgstr "&Інструменти"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:138
+msgid "E&xit"
+msgstr "&Вихід"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:139
+msgid "&Preferences..."
+msgstr "&Параметри..."
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:140
+msgid "Configure interface language and options"
+msgstr "Вибіо мови інтерфейсу та інших налаштувань"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:141
+msgid "&About..."
+msgstr "&Про Anki"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:143
+msgid "Check &Media..."
+msgstr "Перевірити &медіа-файли..."
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:144
+msgid "Check the files in the media directory"
+msgstr "Перевірити директорію з аудіо-візуальними файлами"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:145
+msgid "&Open Add-ons Folder..."
+msgstr "&Відкрити теку розширень..."
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:146
+msgid "&Support Anki..."
+msgstr "&Підтримати Anki..."
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:147
+msgid "&Browse and Install..."
+msgstr "&Продивитися та Встановити..."
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:148
+msgid "&Check Database"
+msgstr "&Перевірити базу даних"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:150
+msgid "&Switch Profile"
+msgstr "&Змінити профіль"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:151
+msgid "&Export..."
+msgstr "&Експортувати..."
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:152
+msgid "&Import..."
+msgstr "&Імпортувати…"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:153
+msgid "Study Deck..."
+msgstr "Вчити колоду..."
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:154
+msgid "Empty Cards..."
+msgstr "Порожні картки..."
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:155
+msgid "Create Filtered Deck..."
+msgstr "Створити відфільтровану колоду..."
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:156
+msgid "Manage Note Types"
+msgstr "Керувати типами записів"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:157
+msgid "Add-ons"
+msgstr "Розширення"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/modelopts.py:66
+msgid "Create scalable images with dvisvgm"
+msgstr "Створити масштабуєме зображення за допомогою dvisvgm"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/modelopts.py:67
+msgid "Header"
+msgstr "Верхній колонтитул"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/modelopts.py:68
+msgid "Footer"
+msgstr "Нижній колонтитул"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/modelopts.py:69
+#: qt/aqt/editor.py:956
+msgid "LaTeX"
+msgstr "LaTeX"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/models.py:56
+#: qt/aqt/browser.py:1335 qt/aqt/models.py:36
+msgid "Note Types"
+msgstr "Типи нотаток"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:278
+msgid "Preferences"
+msgstr "Налаштування"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:279
+msgid "Hardware acceleration (faster, may cause display issues)"
+msgstr "Апаратне прискорення (швидше, але може викликати проблеми зображення)"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:280
+msgid "Show play buttons on cards with audio"
+msgstr "Показати кнопку «Програти» на картках із звуком"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:281
+msgid "Interrupt current audio when answering"
+msgstr "Зупиняти відтворення звуку після відповіді"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:282
+msgid "Paste clipboard images as PNG"
+msgstr "Вставити зображення із буфера обміну у форматі PNG"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:283
+msgid "Paste without shift key strips formatting"
+msgstr "Вставлення без shift прибирає форматування"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:284
+msgid "Night mode"
+msgstr "Нічний режим"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:285
+msgid "When adding, default to current deck"
+msgstr "Додавати у поточну колоду за замовчуванням"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:286
+msgid "Change deck depending on note type"
+msgstr "Змінити колоду в залежності від типу нотатки"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:287
+msgid "User interface size"
+msgstr ""
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:289
+msgid "Basic"
+msgstr "Базова"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:290
+msgid "Show next review time above answer buttons"
+msgstr "Показувати час наступного повторення над кнопками відповіді"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:291
+msgid "Show remaining card count during review"
+msgstr "Показувати кількість карток, що залишилися, під час повторення"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:292
+msgid "Show learning cards with larger steps before reviews"
+msgstr ""
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:293
+msgid "Anki 2.1 scheduler (beta)"
+msgstr "Anki 2.1 планувальник (бета)"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:294
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:298
+msgid "mins"
+msgstr "хвилин(а)"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:295
+msgid "Timebox time limit"
+msgstr "Встановити ліміт таймера"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:296
+msgid "hours past midnight"
+msgstr "годин(и) після опівночі"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:297
+msgid "Learn ahead limit"
+msgstr "Ліміт карток для вивчення наперед на"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:299
+msgid "Next day starts at"
+msgstr "Наступний день починається через"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:300
+#, fuzzy
+msgid "Scheduling"
+msgstr "Змінити розклад"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:301
+msgid "<b>Synchronisation</b>"
+msgstr "<b>Синхронізація</b>"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:302
+msgid "Synchronize audio and images too"
+msgstr "Синхронізувати також медіа-файли"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:303
+msgid "Automatically sync on profile open/close"
+msgstr "Автоматична синхронізація при відкритті/закритті профілю"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:304
+msgid "Periodically sync media"
+msgstr ""
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:305
+msgid "On next sync, force changes in one direction"
+msgstr "Повна примусова одностороння синхронізація при наступному запуску"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:306
+msgid "Network"
+msgstr "Синхронізація"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:307
+#, fuzzy
+msgid "<html><head/><body><p><span style=\" font-weight:600;\">Backups</span><br/>Anki will create a backup of your collection each time it is closed.</p></body></html>"
+msgstr "<b>Резервні копії</b><br>Anki створюватиме резервну копію вашої колекції кожного разу при закритті або синхронізації."
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:308
+msgid "Keep"
+msgstr "Зберігати до"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:309
+msgid "backups"
+msgstr "резервні копії"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:310
+msgid "You can restore backups via File>Switch Profile."
+msgstr ""
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:311
+msgid "Note: Media is not backed up. Please create a periodic backup of your Anki folder to be safe."
+msgstr "Увага: Медіа-файли не включено до резервної копії. Для певності періодично робіть резервну копію вашої теки з файлами Anki самостійно."
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:312
+msgid "Some settings will take effect after you restart Anki."
+msgstr "Деякі налаштування вступлять в силу лише після перезапуску Anki."
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:313
+msgid "Backups"
+msgstr "Резервні копії"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/profiles.py:80
+msgid "Profiles"
+msgstr "Профілі"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/profiles.py:81
+msgid "Open"
+msgstr "Відкрити"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/profiles.py:85
+msgid "Quit"
+msgstr "Вийти"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/profiles.py:86
+msgid "Open Backup..."
+msgstr "Відкривання резервної копії…"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reposition.py:72
+msgid "Reposition New Cards"
+msgstr "Змінити розташування нових карток"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reposition.py:73
+msgid "Start position:"
+msgstr "Початкова позиція:"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reposition.py:74
+msgid "Step:"
+msgstr "Крок:"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reposition.py:75
+msgid "Randomize order"
+msgstr "Розташувати у довільному порядку"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reposition.py:76
+msgid "Shift position of existing cards"
+msgstr "Зсунути розташування наявних карток"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reschedule.py:75
+#: qt/aqt/browser.py:1777
+msgid "Reschedule"
+msgstr "Змінити розклад"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reschedule.py:76
+msgid "Place at end of new card queue"
+msgstr "Помістити в кінець черги нових карток"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reschedule.py:77
+msgid "Place in review queue with interval between:"
+msgstr "Помістити у чергу карток на повтор з інтервалом між:"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reschedule.py:78
+msgid "~"
+msgstr "~"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/setgroup.py:41
+msgid "Move cards to deck:"
+msgstr "Перемістити картки в колоду:"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/setlang.py:42
+msgid "Interface language:"
+msgstr "Мова інтерфейсу:"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/stats.py:80
+msgid "Statistics"
+msgstr "Статистика"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/stats.py:81
+msgid "deck"
+msgstr "колода"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/stats.py:82
+#: qt/aqt/exporting.py:110
+msgid "collection"
+msgstr "колекція"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/stats.py:83
+#: pylib/anki/stats.py:949
+msgid "1 month"
+msgstr "1 місяць"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/stats.py:84
+#: pylib/anki/stats.py:949
+msgid "1 year"
+msgstr "1 рік"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/stats.py:85
+#: pylib/anki/stats.py:949
+msgid "deck life"
+msgstr "тривалість життя колоди"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/studydeck.py:47
+msgid "Study Deck"
+msgstr "Вчити колоду"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/studydeck.py:48
+msgid "Filter:"
+msgstr "Фільтр:"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/taglimit.py:62
+msgid "Selective Study"
+msgstr "Вибіркове навчання"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/taglimit.py:63
+msgid "Require one or more of these tags:"
+msgstr "Потрібно одна чи кілька з цих міток:"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/taglimit.py:64
+msgid "Select tags to exclude:"
+msgstr "Вибрати мітки, які слід виключити:"
+
+#: pylib/anki/collection.py:577 qt/aqt/browser.py:1278
+msgid "Review"
+msgstr "Проглянути"
+
+#: pylib/anki/consts.py:93
+msgid "Show new cards in random order"
+msgstr "Показувати нові картки у випадковому порядку"
+
+#: pylib/anki/consts.py:94
+msgid "Show new cards in order added"
+msgstr "Показувати нові картки в порядку їх додавання"
+
+#: pylib/anki/consts.py:100
+msgid "Mix new cards and reviews"
+msgstr "Змішати нові картки з переглянутими"
+
+#: pylib/anki/consts.py:101
+msgid "Show new cards after reviews"
+msgstr "Показувати нові картки після карток для повторення"
+
+#: pylib/anki/consts.py:102
+msgid "Show new cards before reviews"
+msgstr "Показувати нові картки перед переглядом"
+
+#: pylib/anki/consts.py:108
+msgid "Center"
+msgstr "Центр"
+
+#: pylib/anki/consts.py:109
+msgid "Left"
+msgstr "Зліва"
+
+#: pylib/anki/consts.py:110
+msgid "Right"
+msgstr "Зправа"
+
+#: pylib/anki/consts.py:116
+msgid "Oldest seen first"
+msgstr "Спочатку найраніше побачені"
+
+#: pylib/anki/consts.py:117
+msgid "Random"
+msgstr "Довільний порядок"
+
+#: pylib/anki/consts.py:118
+msgid "Increasing intervals"
+msgstr "Зростаючі інтервали"
+
+#: pylib/anki/consts.py:119
+msgid "Decreasing intervals"
+msgstr "Нисхідні інтервали"
+
+#: pylib/anki/consts.py:120
+msgid "Most lapses"
+msgstr "Найбільше невдач"
+
+#: pylib/anki/consts.py:121
+msgid "Order added"
+msgstr "В порядку додавання"
+
+#: pylib/anki/consts.py:122
+msgid "Order due"
+msgstr "В порядку очікування"
+
+#: pylib/anki/consts.py:123
+msgid "Latest added first"
+msgstr "Спочатку додані останніми"
+
+#: pylib/anki/consts.py:124
+msgid "Relative overdueness"
+msgstr "Відносне просрочення"
+
+#: pylib/anki/decks.py:382
+msgid "[no deck]"
+msgstr "[нема колоди]"
+
+#: pylib/anki/exporting.py:95
+msgid "Cards in Plain Text"
+msgstr "Картки з неформатованим текстом"
+
+#: pylib/anki/exporting.py:125
+msgid "Notes in Plain Text"
+msgstr "Нотатки у неформатованому тексті"
+
+#: pylib/anki/exporting.py:167
+msgid "Anki 2.0 Deck"
+msgstr "Колода Anki 2.0"
+
+#: pylib/anki/exporting.py:316
+msgid "Anki Deck Package"
+msgstr "Сторінка колод Anki"
+
+#: pylib/anki/exporting.py:398
+msgid "Anki Collection Package"
+msgstr "Пакунок колекції Anki"
+
+#: pylib/anki/importing/__init__.py:13
+msgid "Text separated by tabs or semicolons (*)"
+msgstr "Текстовий файл, розділений TAB або крапкою з комою (*)"
+
+#: pylib/anki/importing/__init__.py:14
+msgid "Packaged Anki Deck/Collection (*.apkg *.colpkg *.zip)"
+msgstr "Пакунок Anki колода/колекція (*.apkg *.colpkg *.zip)"
+
+#: pylib/anki/importing/__init__.py:15
+msgid "Mnemosyne 2.0 Deck (*.db)"
+msgstr "Колода Mnemosyne 2.0 (*.db)"
+
+#: pylib/anki/importing/__init__.py:16
+msgid "Supermemo XML export (*.xml)"
+msgstr "Файл Supermemo у форматі XML (*.xml)"
+
+#: pylib/anki/importing/__init__.py:17
+msgid "Pauker 1.8 Lesson (*.pau.gz)"
+msgstr "Урок Pauker 1.8 (*.pau.gz)"
+
+#: pylib/anki/importing/anki2.py:134
 #, python-format
-msgid "%d card exported."
-msgid_plural "%d cards exported."
-msgstr[0] "%d картку експортовано."
-msgstr[1] "%d карток експортовано."
-msgstr[2] "%d карток експортовано."
+msgid "Notes found in file: %d"
+msgstr "Записи знайдені в файлі: %d"
+
+#: pylib/anki/importing/anki2.py:138
+#, python-format
+msgid "Notes that could not be imported as note type has changed: %d"
+msgstr "Записи не імпортовано через зміну їх типу: %d"
+
+#: pylib/anki/importing/anki2.py:143
+#, python-format
+msgid "Notes updated, as file had newer version: %d"
+msgstr "Записи оновлено, як файл новішої версії: %d"
+
+#: pylib/anki/importing/anki2.py:146
+#, python-format
+msgid "Notes added from file: %d"
+msgstr "Записи додані з файлу: %d"
+
+#: pylib/anki/importing/anki2.py:149
+#, python-format
+msgid "Notes skipped, as they're already in your collection: %d"
+msgstr "Записи пропущено, оскільки вже є в колекції: %d"
+
+#: pylib/anki/importing/anki2.py:157
+msgid "Skipped"
+msgstr "Пропущені"
+
+#: pylib/anki/importing/anki2.py:160
+msgid "Updated"
+msgstr ""
+
+#: pylib/anki/importing/anki2.py:163 pylib/anki/stats.py:309
+#: qt/aqt/addcards.py:202
+msgid "Added"
+msgstr "Додано"
+
+#: pylib/anki/importing/anki2.py:166
+msgid "Identical"
+msgstr "Тотожні"
+
+#: pylib/anki/importing/csvfile.py:44
+#, python-format
+msgid "'%(row)s' had %(num1)d fields, expected %(num2)d"
+msgstr "'%(row)s' вміщує %(num1)d полів, очікуючих %(num2)d"
+
+#: pylib/anki/importing/csvfile.py:56
+#, python-format
+msgid "Aborted: %s"
+msgstr "Відхилено: %s"
+
+#: pylib/anki/importing/mnemo.py:24
+msgid "File version unknown, trying import anyway."
+msgstr "Невідома версія файлу, все одно спробувати імпортувати."
+
+#: pylib/anki/importing/mnemo.py:105
+#, python-format
+msgid "%d note imported."
+msgid_plural "%d notes imported."
+msgstr[0] "%d нотатку імпортовано."
+msgstr[1] "%d нотаток імпортовано."
+msgstr[2] "%d нотаток імпортовано."
+
+#: pylib/anki/importing/noteimp.py:138
+#, python-format
+msgid "First field matched: %s"
+msgstr "Перше поле співпало: %s"
+
+#: pylib/anki/importing/noteimp.py:139
+#, python-format
+msgid "Added duplicate with first field: %s"
+msgstr "Додано дублікат з однаковим першим полем: %s"
+
+#: pylib/anki/importing/noteimp.py:156
+#, python-format
+msgid "Empty first field: %s"
+msgstr "Порожнє перше поле: %s"
+
+#: pylib/anki/importing/noteimp.py:161
+#, python-format
+msgid "Appeared twice in file: %s"
+msgstr "Повторилося двічі у файлі: %s"
+
+#: pylib/anki/importing/noteimp.py:212
+#, python-format
+msgid "%d note added"
+msgid_plural "%d notes added"
+msgstr[0] "%d нотатку додано"
+msgstr[1] "%d нотток додано"
+msgstr[2] "%d нотток додано"
+
+#: pylib/anki/importing/noteimp.py:214
+#, python-format
+msgid "%d note updated"
+msgid_plural "%d notes updated"
+msgstr[0] "%d нотатку оновлено"
+msgstr[1] "%d нотаток оновлено"
+msgstr[2] "%d нотаток оновлено"
+
+#: pylib/anki/importing/noteimp.py:224
+#, python-format
+msgid "%d note unchanged"
+msgid_plural "%d notes unchanged"
+msgstr[0] "%d нотатка без змін"
+msgstr[1] "%d нотаток без змін"
+msgstr[2] "%d нотаток без змін"
 
 #: pylib/anki/importing/supermemo_xml.py:202
 #, python-format
@@ -106,21 +1366,858 @@ msgstr[0] "%d карку імпортовано."
 msgstr[1] "%d карток імпортовано."
 msgstr[2] "%d карток імпортовано."
 
-#: qt/aqt/reviewer.py:90
+#: pylib/anki/latex.py:134
 #, python-format
-msgid "%d card studied in"
-msgid_plural "%d cards studied in"
-msgstr[0] "%d катка вивчена за"
-msgstr[1] "%d картки вивчені за"
-msgstr[2] "%d картки вивчені за"
+msgid "For security reasons, '%s' is not allowed on cards. You can still use it by placing the command in a different package, and importing that package in the LaTeX header instead."
+msgstr "З метою безпеки, '%s' не дозволяється зазначати на картках. Ви все ще можете використовувати це шляхом розміщення даної команди в іншому пакеті та імпортування цього пакету у заголовок LaTeX."
 
-#: qt/aqt/deckconf.py:169
+#: pylib/anki/latex.py:176
 #, python-format
-msgid "%d deck updated."
-msgid_plural "%d decks updated."
-msgstr[0] "%d колоду оновлено."
-msgstr[1] "%d колод оновлено."
-msgstr[2] "%d колод оновлено."
+msgid "Error executing %s."
+msgstr "Помилка виконання %s."
+
+#: pylib/anki/latex.py:177
+#, python-format
+msgid "Generated file: %s"
+msgstr "Згенерований файл: %s"
+
+#: pylib/anki/latex.py:185
+msgid "Have you installed latex and dvipng/dvisvgm?"
+msgstr "Ви встановили latex та dvipng/dvisvgm?"
+
+#: pylib/anki/models.py:263
+#, python-format
+msgid "%s copy"
+msgstr "копія %s"
+
+#: pylib/anki/schedv2.py:1261
+msgid "(end)"
+msgstr "(кінець)"
+
+#: pylib/anki/stats.py:119 qt/aqt/browser.py:1259
+msgid "Today"
+msgstr "Сьогодні"
+
+#: pylib/anki/stats.py:152
+#, python-format
+msgid "Again count: %s"
+msgstr "Кількість карток з відповіддю \"Знову\": %s"
+
+#: pylib/anki/stats.py:154
+#, python-format
+msgid "(%s correct)"
+msgstr "(%s правильно)"
+
+#: pylib/anki/stats.py:160
+#, python-format
+msgid "Learn: %(a)s, Review: %(b)s, Relearn: %(c)s, Filtered: %(d)s"
+msgstr "Вивчити: %(a)s, Повторити: %(b)s, Перевчити: %(c)s, Відфільтровано: %(d)s"
+
+#: pylib/anki/stats.py:173
+#, python-format
+msgid "Correct answers on mature cards: %(a)d/%(b)d (%(c).1f%%)"
+msgstr "Правильні відповіді по зрілим карткам: %(a)d/%(b)d (%(c).1f%%)"
+
+#: pylib/anki/stats.py:176
+msgid "No mature cards were studied today."
+msgstr "Сьогодні не було пройдено жодної зрілої картки."
+
+#: pylib/anki/stats.py:178
+msgid "No cards have been studied today."
+msgstr "Не вчено жодної картки за сьогодні."
+
+#: pylib/anki/stats.py:213 pylib/anki/stats.py:346 pylib/anki/stats.py:366
+#: pylib/anki/stats.py:688 pylib/anki/stats.py:858
+msgid "Mature"
+msgstr "Зрілі"
+
+#: pylib/anki/stats.py:214 pylib/anki/stats.py:347 pylib/anki/stats.py:367
+#: pylib/anki/stats.py:687
+msgid "Young"
+msgstr "Незрілі"
+
+#: pylib/anki/stats.py:221
+msgid "Cumulative"
+msgstr "Сукупно"
+
+#: pylib/anki/stats.py:228
+msgid "Forecast"
+msgstr "Прогноз"
+
+#: pylib/anki/stats.py:228
+msgid "The number of reviews due in the future."
+msgstr "Кількість повторень, очікуваних у майбутньому."
+
+#: pylib/anki/stats.py:236 pylib/anki/stats.py:310
+msgid "Cumulative Cards"
+msgstr "Сумарно по картках"
+
+#: pylib/anki/stats.py:249 pylib/anki/stats.py:318 pylib/anki/stats.py:418
+msgid "Total"
+msgstr "Разом"
+
+#: pylib/anki/stats.py:252 pylib/anki/stats.py:319
+msgid "Average"
+msgstr "Середнє"
+
+#: pylib/anki/stats.py:252 pylib/anki/stats.py:360
+msgid "reviews"
+msgstr "повторення"
+
+#: pylib/anki/stats.py:260 pylib/anki/stats.py:318 qt/aqt/clayout.py:560
+#, python-format
+msgid "%d card"
+msgid_plural "%d cards"
+msgstr[0] "%d картка"
+msgstr[1] "%d карток"
+msgstr[2] "%d карток"
+
+#: pylib/anki/stats.py:261
+msgid "Due tomorrow"
+msgstr "Очікуються завтра"
+
+#: pylib/anki/stats.py:309
+msgid "The number of new cards you have added."
+msgstr "Число доданих вами нових карток."
+
+#: pylib/anki/stats.py:319 qt/aqt/customstudy.py:53
+msgid "cards"
+msgstr "картки"
+
+#: pylib/anki/stats.py:348 pylib/anki/stats.py:368
+msgid "Relearn"
+msgstr "Вчити знову"
+
+#: pylib/anki/stats.py:349 pylib/anki/stats.py:369
+msgid "Learn"
+msgstr "Вчити"
+
+#: pylib/anki/stats.py:350 pylib/anki/stats.py:370
+msgid "Cram"
+msgstr "Зубріння"
+
+#: pylib/anki/stats.py:354
+msgid "Review Count"
+msgstr "Кількість повторень"
+
+#: pylib/anki/stats.py:354
+msgid "The number of questions you have answered."
+msgstr "Кількість питань, на які ви відповіли."
+
+#: pylib/anki/stats.py:357 pylib/anki/stats.py:692 pylib/anki/stats.py:800
+msgid "Answers"
+msgstr "Відповіді"
+
+#: pylib/anki/stats.py:357
+msgid "Cumulative Answers"
+msgstr "Сумарно по відповідях"
+
+#: pylib/anki/stats.py:374
+msgid "Minutes"
+msgstr "Хвилини"
+
+#: pylib/anki/stats.py:377
+msgid "Hours"
+msgstr "Години"
+
+#: pylib/anki/stats.py:380
+msgid "Review Time"
+msgstr "Час повторень"
+
+#: pylib/anki/stats.py:380
+msgid "The time taken to answer the questions."
+msgstr "Час, витрачений, щоб відповісти на питання."
+
+#: pylib/anki/stats.py:382
+#, python-format
+msgid "Cumulative %s"
+msgstr "Сумарно %s"
+
+#: pylib/anki/stats.py:407
+msgid "Days studied"
+msgstr "Днів роботи з програмою"
+
+#: pylib/anki/stats.py:408
+#, python-format
+msgid "<b>%(pct)d%%</b> (%(x)s of %(y)s)"
+msgstr "<b>%(pct)d%%</b> (%(x)s з %(y)s)"
+
+#: pylib/anki/stats.py:413
+msgid "hours"
+msgstr "годин"
+
+#: pylib/anki/stats.py:418
+#, python-format
+msgid "%(tot)s %(unit)s"
+msgstr "%(tot)s %(unit)s"
+
+#: pylib/anki/stats.py:423
+msgid "Average for days studied"
+msgstr "Середній показник за дні роботи з програмою"
+
+#: pylib/anki/stats.py:427
+msgid "If you studied every day"
+msgstr "Якби ви вчились щодня"
+
+#: pylib/anki/stats.py:434
+msgid "Average answer time"
+msgstr "Середній час відповіді"
+
+#: pylib/anki/stats.py:596
+msgid "Delays until reviews are shown again."
+msgstr "Час, через який будуть знову показуватися картки для повторювання."
+
+#: pylib/anki/stats.py:596
+msgid "Intervals"
+msgstr "Інтервали"
+
+#: pylib/anki/stats.py:599
+msgid "Percentage"
+msgstr "Відсоток"
+
+#: pylib/anki/stats.py:618
+msgid "Average interval"
+msgstr "Середній інтервал"
+
+#: pylib/anki/stats.py:619
+msgid "Longest interval"
+msgstr "Найдовший інтервал"
+
+#: pylib/anki/stats.py:681
+msgid "Answer Buttons"
+msgstr "Кнопки відповіді"
+
+#: pylib/anki/stats.py:681
+msgid "The number of times you have pressed each button."
+msgstr "Кількість разів, що ви натисли кожну кнопку."
+
+#: pylib/anki/stats.py:686 qt/aqt/browser.py:1277 qt/aqt/overview.py:231
+msgid "Learning"
+msgstr "Навчання"
+
+#: pylib/anki/stats.py:713
+#, python-format
+msgid "Correct: <b>%(pct)0.2f%%</b><br>(%(good)d of %(tot)d)"
+msgstr "Вірно: <b>%(pct)0.2f%%</b><br>(%(good)d з %(tot)d)"
+
+#: pylib/anki/stats.py:791
+msgid "Hourly Breakdown"
+msgstr "Погодинна розбивка"
+
+#: pylib/anki/stats.py:791
+msgid "Review success rate for each hour of the day."
+msgstr "Продивитися процент успішності на кожну годину дня."
+
+#: pylib/anki/stats.py:796 pylib/anki/stats.py:818
+msgid "% Correct"
+msgstr "% Вірно"
+
+#: pylib/anki/stats.py:809
+msgid "4AM"
+msgstr "04:00"
+
+#: pylib/anki/stats.py:810
+msgid "10AM"
+msgstr "10:00"
+
+#: pylib/anki/stats.py:811
+msgid "4PM"
+msgstr "16:00"
+
+#: pylib/anki/stats.py:812
+msgid "10PM"
+msgstr "22:00"
+
+#: pylib/anki/stats.py:813
+msgid "3AM"
+msgstr "03:00"
+
+#: pylib/anki/stats.py:821
+msgid "Hours with less than 30 reviews are not shown."
+msgstr "Години з менше ніж 30 повтореними картками не показано."
+
+#: pylib/anki/stats.py:859
+msgid "Young+Learn"
+msgstr "Незрілі+Вчити"
+
+#: pylib/anki/stats.py:860
+msgid "Unseen"
+msgstr "Не проглянуті"
+
+#: pylib/anki/stats.py:861
+msgid "Suspended+Buried"
+msgstr "Відкладені+поховані"
+
+#: pylib/anki/stats.py:873
+msgid "Total cards"
+msgstr "Загальна кількість карток"
+
+#: pylib/anki/stats.py:874
+msgid "Total notes"
+msgstr "Загальна кількість нотаток"
+
+#: pylib/anki/stats.py:877
+msgid "Lowest ease"
+msgstr "Найменша легкість"
+
+#: pylib/anki/stats.py:878
+msgid "Average ease"
+msgstr "Середня легкість"
+
+#: pylib/anki/stats.py:879
+msgid "Highest ease"
+msgstr "Найвища легкість"
+
+#: pylib/anki/stats.py:882
+msgid "A card's <i>ease</i> is the size of the next interval when you answer \"good\" on a review."
+msgstr "<i>Легкість</i> картки - це інтервал, через який цю картку знову буде показано, якщо ви дали відповідь \"добре\" під час повторення."
+
+#: pylib/anki/stats.py:886 qt/aqt/clayout.py:63
+msgid "Card Types"
+msgstr "Типи карток"
+
+#: pylib/anki/stats.py:886
+msgid "The division of cards in your deck(s)."
+msgstr "Поділ карток у вашій колоді (ах)."
+
+#. T: Symbols separating first and second column in a statistics table. Eg in "Total:    3 reviews".
+#: pylib/anki/stats.py:898
+msgid ":"
+msgstr ":"
+
+#: pylib/anki/stats.py:941
+#, python-format
+msgid "Generated on %s"
+msgstr "Згенеровано на %s"
+
+#: pylib/anki/stats.py:944
+msgid "whole collection"
+msgstr "вся колекція"
+
+#: pylib/anki/stats.py:947
+#, python-format
+msgid "Scope: %s"
+msgstr "Масштаб: %s"
+
+#: pylib/anki/stats.py:949
+#, python-format
+msgid "Period: %s"
+msgstr "Період: %s"
+
+#. T: abbreviation of day
+#: pylib/anki/stats.py:982
+msgid "d"
+msgstr "дн"
+
+#. T: abbreviation of week
+#: pylib/anki/stats.py:984
+msgid "w"
+msgstr "т"
+
+#. T: abbreviation of month
+#: pylib/anki/stats.py:986
+msgid "mo"
+msgstr "міс"
+
+#: pylib/anki/stats.py:1112
+#, python-format
+msgid "%(a)0.1f %(b)s/day"
+msgstr "%(a)0.1f %(b)s/день"
+
+#: qt/aqt/about.py:86
+msgid "Copied to clipboard"
+msgstr "Скопійовано до буфера обміну"
+
+#: qt/aqt/about.py:88
+msgid "Copy Debug Info"
+msgstr "Скопіювати інформацію налагодження"
+
+#: qt/aqt/about.py:97
+msgid "Anki is a friendly, intelligent spaced learning system. It's free and open source."
+msgstr "Anki  - це зручна в користуванні, розумна система навчання з перервами. Вона безкоштовна та має відкритий код."
+
+#: qt/aqt/about.py:101
+msgid "Anki is licensed under the AGPL3 license. Please see the license file in the source distribution for more information."
+msgstr "Anki доступна по ліцензії AGPL3. Додаткову інформацію можна отримати з файла з текстом ліцензії, який входить до дистрибуційного комплекту вихідного коду."
+
+#: qt/aqt/about.py:104
+#, python-format
+msgid "Version %s"
+msgstr "Версія %s"
+
+#: qt/aqt/about.py:110
+#, python-format
+msgid "<a href='%s'>Visit website</a>"
+msgstr "<a href='%s'>Відвідати вебсторінку</a>"
+
+#: qt/aqt/about.py:215
+#, python-format
+msgid "Written by Damien Elmes, with patches, translation,    testing and design from:<p>%(cont)s"
+msgstr "Застосунок створив Деміен Елмс (Damien Elmes). Ці люди також допомагали в виправленні помилок, перекладі, тестуванні та дизайні:<p>%(cont)s"
+
+#: qt/aqt/about.py:221
+msgid "If you have contributed and are not on this list, please get in touch."
+msgstr "Якщо ви зробили свій внесок у розвиток програми, але не зазначені в цьому списку, будь ласка, зв'яжіться з нами."
+
+#: qt/aqt/about.py:225
+msgid "A big thanks to all the people who have provided suggestions, bug reports and donations."
+msgstr "Дуже дякуємо всім за ваші пропозиції, повідомлення про вади, а також матеріальну підтримку."
+
+#: qt/aqt/addcards.py:73
+msgid "Add (shortcut: ctrl+enter)"
+msgstr "Додати (скорочення клавіш: Ctrl+Enter)"
+
+#: qt/aqt/addcards.py:79 qt/aqt/clayout.py:384 qt/aqt/utils.py:212
+#: qt/aqt/utils.py:213
+msgid "Help"
+msgstr "Допомога"
+
+#: qt/aqt/addcards.py:83
+msgid "History"
+msgstr "Історія"
+
+#: qt/aqt/addcards.py:89
+#, python-format
+msgid "Shortcut: %s"
+msgstr "Гаряча клавіша: %s"
+
+#: qt/aqt/addcards.py:149
+#, python-format
+msgid "Edit \"%s\""
+msgstr "Редагувати «%s»"
+
+#: qt/aqt/addcards.py:154
+msgid "(Note deleted)"
+msgstr "(Нотатку видалено)"
+
+#: qt/aqt/addcards.py:169
+msgid "The first field is empty."
+msgstr "Перше поле порожнє."
+
+#: qt/aqt/addcards.py:178
+msgid "You have a cloze deletion note type but have not made any cloze deletions. Proceed?"
+msgstr "У вас тип нотатки з тестом з пробілами, але ви не створили жодних тестових карток з пробілами. Продовжити?"
+
+#: qt/aqt/addcards.py:232
+msgid "Close and lose current input?"
+msgstr "Закрити та втратити поточні дані?"
+
+#: qt/aqt/addons.py:280
+#, python-format
+msgid "The following add-ons are incompatible with %(name)s and have been disabled: %(found)s"
+msgstr "Наступні доповнення не сумісні з %(name)s і було відключено: %(found)s"
+
+#: qt/aqt/addons.py:313
+msgid " (disabled)"
+msgstr " (вимкнено)"
+
+#: qt/aqt/addons.py:427
+#, python-format
+msgid ""
+"Unable to update or delete add-on. Please start Anki while holding down the shift key to temporarily disable add-ons, then try again.\n"
+"\n"
+"Debug info: %s"
+msgstr ""
+
+#: qt/aqt/addons.py:471
+msgid "Corrupt add-on file."
+msgstr "Пошкоджено файл додатку."
+
+#: qt/aqt/addons.py:472
+msgid "Invalid add-on manifest."
+msgstr "Невірний маніфест розширення."
+
+#: qt/aqt/addons.py:475
+msgid "Unknown error: {}"
+msgstr ""
+
+#: qt/aqt/addons.py:478
+#, python-format
+msgid "Error downloading <i>%(id)s</i>: %(error)s"
+msgstr "Помилка завантаження <i>%(id)s</i>: %(error)s"
+
+#: qt/aqt/addons.py:480
+#, python-format
+msgid "Error installing <i>%(base)s</i>: %(error)s"
+msgstr "Помилка встановлення <i>%(base)s</i>: %(error)s"
+
+#: qt/aqt/addons.py:491
+#, python-format
+msgid "Downloaded %(fname)s"
+msgstr "Завантажене %(fname)s"
+
+#: qt/aqt/addons.py:493
+#, python-format
+msgid "Installed %(name)s"
+msgstr "Встановлено %(name)s"
+
+#: qt/aqt/addons.py:500
+msgid "The following conflicting add-ons were disabled:"
+msgstr "Наступні конфліктуючі доповнення вимкнено:"
+
+#: qt/aqt/addons.py:507
+msgid "This add-on is not compatible with your version of Anki."
+msgstr "Це доповнення не сумісне з цією версією Anki."
+
+#: qt/aqt/addons.py:746
+msgid "(disabled)"
+msgstr "(вимкнено)"
+
+#: qt/aqt/addons.py:748
+#, python-format
+msgid "(requires %s)"
+msgstr "(потрібно %s)"
+
+#: qt/aqt/addons.py:807
+msgid "Please select a single add-on first."
+msgstr "Будь ласка, встановіть спочатку одне доповнення."
+
+#: qt/aqt/addons.py:823
+msgid "Add-on was not downloaded from AnkiWeb."
+msgstr "Розширення не завантажено з AnkiWeb."
+
+#: qt/aqt/addons.py:845
+#, python-format
+msgid "Delete the %(num)d selected add-on?"
+msgid_plural "Delete the %(num)d selected add-ons?"
+msgstr[0] "Видалити %(num)d вибране розширення?"
+msgstr[1] "Видалити %(num)d вибрані розширення?"
+msgstr[2] "Видалити %(num)d вибраних розширень?"
+
+#: qt/aqt/addons.py:868
+msgid "No updates available."
+msgstr "Нема доступних оновлень."
+
+#: qt/aqt/addons.py:872
+msgid "Packaged Anki Add-on"
+msgstr "Пакунок доповнення Anki"
+
+#: qt/aqt/addons.py:874
+msgid "Install Add-on(s)"
+msgstr "Встановити розширення"
+
+#: qt/aqt/addons.py:885
+msgid "Checking..."
+msgstr "Перевірка…"
+
+#: qt/aqt/addons.py:902
+msgid "Add-on has no configuration."
+msgstr "Розширення немає налаштувань."
+
+#: qt/aqt/addons.py:922
+msgid "Browse Add-ons"
+msgstr "Переглянути додатки"
+
+#: qt/aqt/addons.py:937
+msgid "Invalid code."
+msgstr "Недійсний код."
+
+#: qt/aqt/addons.py:1011
+msgid "Invalid code, or add-on not available for your version of Anki."
+msgstr "Неприпустимий код, або доповнення недоступне для цієї версії Anki."
+
+#: qt/aqt/addons.py:1014 qt/aqt/editor.py:850
+#, python-format
+msgid "Unexpected response code: %s"
+msgstr ""
+
+#: qt/aqt/addons.py:1017
+msgid "Please check your internet connection."
+msgstr "Будь ласка, перевірте інтернет з'єднання."
+
+#: qt/aqt/addons.py:1024
+msgid "Installed successfully."
+msgstr "Встановлено успішно."
+
+#. T: "%(a)d" is the index of the element currently
+#. downloaded. "%(b)d" is the number of element to download,
+#. and "%(kb)0.2f" is the number of downloaded
+#. kilobytes. This lead for example to "Downloading 3/5
+#. (27KB)"
+#: qt/aqt/addons.py:1094
+#, python-format
+msgid "Downloading %(a)d/%(b)d (%(kb)0.2fKB)..."
+msgstr "Завантаження %(a)d/%(b)d (%(kb)0.2fкБ)…"
+
+#: qt/aqt/addons.py:1113
+msgid "One or more errors occurred:"
+msgstr "Трапилась одна чи більше помилок:"
+
+#: qt/aqt/addons.py:1115
+msgid "Download complete. Please restart Anki to apply changes."
+msgstr "Завантаження виконано. Будь ласка, перезавантажте Anki щоб зміни вступили в силу."
+
+#: qt/aqt/addons.py:1268
+msgid "The following add-ons have updates available. Install them now?"
+msgstr "На наступні доповнення є оновлення. Встановити зараз?"
+
+#: qt/aqt/addons.py:1310
+msgid "Restored defaults"
+msgstr "Скинути налаштування"
+
+#: qt/aqt/addons.py:1376
+msgid "Invalid configuration: "
+msgstr "Неприпустима конфігурація:"
+
+#: qt/aqt/addons.py:1380
+msgid "Invalid configuration: top level object must be a map"
+msgstr "Неприпустима конфігурація: Об'єкт верхнього рівня повинен зображатися"
+
+#: qt/aqt/addons.py:1410
+#, python-format
+msgid "<b>Important</b>: As add-ons are programs downloaded from the internet, they are potentially malicious.<b>You should only install add-ons you trust.</b><br><br>Are you sure you want to proceed with the installation of the following Anki add-on(s)?<br><br>%(names)s"
+msgstr "<b>Важливо</b>: Додатки — це програми які завантажуються з інтернету та можуть бути шкідливими.<b>Рекомендуємо завантажувати лише перевірені додатки.</b><br><br>Ви дійсно хочете продовжити встановлення наступн(ого/их) додатк(у/ів) для Anki?<br><br>%(names)s"
+
+#: qt/aqt/addons.py:1420
+msgid "Install Anki add-on"
+msgstr "Встановити доповнення до Anki"
+
+#: qt/aqt/addons.py:1434
+msgid "<b>Please restart Anki to complete the installation.</b>"
+msgstr "<b>Будь ласка, перезапустіть Anki для завершення встановлення.</b>"
+
+#: qt/aqt/addons.py:1443
+msgid "Installation complete"
+msgstr "Встановлення виконано"
+
+#: qt/aqt/addons.py:1446
+msgid "Please report this to the respective add-on author(s)."
+msgstr "Будь ласка, повідомте про це автор(у/ці/ам) доповнення."
+
+#: qt/aqt/addons.py:1451
+msgid "Add-on installation error"
+msgstr "Помилка при встановлення додатка"
+
+#: qt/aqt/browser.py:172
+msgid "Add-on"
+msgstr "Додаток"
+
+#: qt/aqt/browser.py:334 qt/aqt/browser.py:340
+msgid "(new)"
+msgstr "(новi)"
+
+#: qt/aqt/browser.py:336
+msgid "(learning)"
+msgstr "(вивчення)"
+
+#: qt/aqt/browser.py:369
+msgid "(filtered)"
+msgstr "(відфільтровано)"
+
+#: qt/aqt/browser.py:624
+#, python-format
+msgid "Preview Selected Card (%s)"
+msgstr "Попередній вигляд обраної картки (%s)"
+
+#: qt/aqt/browser.py:740
+msgid "Question"
+msgstr "Питання"
+
+#: qt/aqt/browser.py:741
+msgid "Answer"
+msgstr "Відповідь"
+
+#: qt/aqt/browser.py:742
+msgid "Card"
+msgstr "Картка"
+
+#: qt/aqt/browser.py:744
+msgid "Sort Field"
+msgstr "Поле сортування"
+
+#: qt/aqt/browser.py:745
+msgid "Created"
+msgstr "Створено"
+
+#: qt/aqt/browser.py:749
+msgid "Interval"
+msgstr "Інтервал"
+
+#: qt/aqt/browser.py:750
+msgid "Ease"
+msgstr "Легкість"
+
+#: qt/aqt/browser.py:753 qt/aqt/browser.py:1299 qt/aqt/editor.py:576
+msgid "Tags"
+msgstr "Мітки"
+
+#: qt/aqt/browser.py:754
+msgid "Note"
+msgstr "Нотатка"
+
+#: qt/aqt/browser.py:765
+msgid "<type here to search; hit enter to show current deck>"
+msgstr "<для пошуку наберіть запит тут; натисніть ввід, щоб показати поточну колоду>"
+
+#: qt/aqt/browser.py:826
+#, python-format
+msgid "Browse (%(cur)d card shown; %(sel)s)"
+msgid_plural "Browse (%(cur)d cards shown; %(sel)s)"
+msgstr[0] "Перегляд (%(cur)d картка показана; %(sel)s)"
+msgstr[1] "Перегляд (%(cur)d картки показано; %(sel)s)"
+msgstr[2] "Перегляд (%(cur)d карток показано; %(sel)s)"
+
+#: qt/aqt/browser.py:832
+#, python-format
+msgid "%d selected"
+msgid_plural "%d selected"
+msgstr[0] "%d вибрано"
+msgstr[1] "%d вибрано"
+msgstr[2] "%d вибрано"
+
+#: qt/aqt/browser.py:942
+msgid "Sorting on this column is not supported. Please choose another."
+msgstr "Сортування в цій колонці не підтримується. Будь ласка, оберіть іншу."
+
+#: qt/aqt/browser.py:997
+msgid "You must have at least one column."
+msgstr "Треба, щоб була принаймні одна колонка."
+
+#: qt/aqt/browser.py:1108 qt/aqt/browser.py:1255
+msgid "Whole Collection"
+msgstr "Вся колеція"
+
+#: qt/aqt/browser.py:1115 qt/aqt/browser.py:1255
+msgid "Current Deck"
+msgstr "Поточна колода"
+
+#: qt/aqt/browser.py:1263
+msgid "Added Today"
+msgstr "Додано сьогодні"
+
+#: qt/aqt/browser.py:1264
+msgid "Studied Today"
+msgstr "Пройдено сьогодні"
+
+#: qt/aqt/browser.py:1265
+msgid "Again Today"
+msgstr "Повторити сьогодні"
+
+#: qt/aqt/browser.py:1272
+msgid "Card State"
+msgstr "Стан картки"
+
+#: qt/aqt/browser.py:1276 qt/aqt/deckbrowser.py:149 qt/aqt/overview.py:229
+msgid "New"
+msgstr "Нові"
+
+#: qt/aqt/browser.py:1281
+msgid "Suspended"
+msgstr "Відкладені"
+
+#: qt/aqt/browser.py:1282
+msgid "Buried"
+msgstr "Відкладені"
+
+#: qt/aqt/browser.py:1288
+msgid "No Flag"
+msgstr "Без прапорців"
+
+#: qt/aqt/browser.py:1289
+msgid "Any Flag"
+msgstr "Будь-який прапорець"
+
+#: qt/aqt/browser.py:1301
+msgid "Clear Unused"
+msgstr "Прибрати невикоритане"
+
+#: qt/aqt/browser.py:1329 qt/aqt/toolbar.py:105
+msgid "Decks"
+msgstr "Колоди"
+
+#: qt/aqt/browser.py:1349
+msgid "All Card Types"
+msgstr "Усі типи карток"
+
+#. T: name is a card type name. n it's order in the list of card type.
+#. T: this is shown in browser's filter, when seeing the list of card type of a note type.
+#: qt/aqt/browser.py:1356
+#, python-format
+msgid "%(n)d: %(name)s"
+msgstr "%(n)d: %(name)s"
+
+#: qt/aqt/browser.py:1378
+msgid "Remove Current Filter..."
+msgstr "Приберання поточного фільтру…"
+
+#: qt/aqt/browser.py:1380
+msgid "Save Current Filter..."
+msgstr "Збереження поточного фільтру…"
+
+#: qt/aqt/browser.py:1393
+msgid "Please give your filter a name:"
+msgstr "Будь ласка, назвіть свій фільтр:"
+
+#: qt/aqt/browser.py:1404
+#, python-format
+msgid "Remove %s from your saved searches?"
+msgstr "Прибрати %s із збережених пошуків?"
+
+#: qt/aqt/browser.py:1493
+msgid "Please select cards from only one note type."
+msgstr "Виберіть картки лише одного типу нотаток."
+
+#: qt/aqt/browser.py:1547
+msgid "Delete Notes"
+msgstr "Видалити нотатки"
+
+#: qt/aqt/browser.py:1573
+#, python-format
+msgid "%d note deleted."
+msgid_plural "%d notes deleted."
+msgstr[0] "%d нотатку вилучено."
+msgstr[1] "%d нотаток вилучено."
+msgstr[2] "%d нотаток вилучено."
+
+#: qt/aqt/browser.py:1593
+msgid "Move Cards"
+msgstr "Перемістити картки"
+
+#: qt/aqt/browser.py:1594 qt/aqt/browser.py:1606
+msgid "Change Deck"
+msgstr "Змінити колоду"
+
+#: qt/aqt/browser.py:1603
+msgid "Cards can't be manually moved into a filtered deck."
+msgstr "Картки не можна вручну переміщати до відфільтрованої колоди."
+
+#: qt/aqt/browser.py:1619
+msgid "Enter tags to add:"
+msgstr "Введіть мітки, які треба додати до виділених карток"
+
+#: qt/aqt/browser.py:1629
+msgid "Add Tags"
+msgstr "Додавання міток"
+
+#: qt/aqt/browser.py:1639
+msgid "Delete Tags"
+msgstr "Видалити мітки"
+
+#: qt/aqt/browser.py:1641
+msgid "Enter tags to delete:"
+msgstr "Введіть мітки для видалення з виділених карток"
+
+#: qt/aqt/browser.py:1734
+msgid "Only new cards can be repositioned."
+msgstr "Можна змінити черговість лише нових карток."
+
+#: qt/aqt/browser.py:1744
+#, python-format
+msgid "Queue top: %d"
+msgstr "Початок черги: %d"
+
+#: qt/aqt/browser.py:1745
+#, python-format
+msgid "Queue bottom: %d"
+msgstr "Кінець черги: %d"
+
+#: qt/aqt/browser.py:1884
+msgid "All Fields"
+msgstr "Всі поля"
+
+#: qt/aqt/browser.py:1988 qt/aqt/browser.py:2015
+msgid "Tag Duplicates"
+msgstr "Дублікати міток"
 
 #: qt/aqt/browser.py:1994
 #, python-format
@@ -139,21 +2236,476 @@ msgstr[0] "%d нотатка"
 msgstr[1] "%d нотатки"
 msgstr[2] "%d нотатки"
 
-#: pylib/anki/importing/noteimp.py:212
+#: qt/aqt/browser.py:1996
 #, python-format
-msgid "%d note added"
-msgid_plural "%d notes added"
-msgstr[0] "%d нотатку додано"
-msgstr[1] "%d нотток додано"
-msgstr[2] "%d нотток додано"
+msgid "Found %(a)s across %(b)s."
+msgstr "Знайдено %(a)s в %(b)s."
 
-#: qt/aqt/browser.py:1573
+#: qt/aqt/browser.py:2019
+msgid "duplicate"
+msgstr "дублікат"
+
+#: qt/aqt/browser.py:2023
+msgid "Notes tagged."
+msgstr "Нотатки з мітками."
+
+#: qt/aqt/browser.py:2180
+msgid "Nothing"
+msgstr "Нічого"
+
+#: qt/aqt/browser.py:2183
 #, python-format
-msgid "%d note deleted."
-msgid_plural "%d notes deleted."
-msgstr[0] "%d нотатку вилучено."
-msgstr[1] "%d нотаток вилучено."
-msgstr[2] "%d нотаток вилучено."
+msgid "Change %s to:"
+msgstr "Змінити %s на:"
+
+#: qt/aqt/browser.py:2263
+msgid "Any cards mapped to nothing will be deleted. If a note has no remaining cards, it will be lost. Are you sure you want to continue?"
+msgstr "Картки, у яких нема відповідників, будуть видалені. Якщо нотатка більше не містить карток, вона буде втрачена. Ви впевнені, що хочете продовжити?"
+
+#: qt/aqt/clayout.py:69
+#, python-format
+msgid "Card Types for %s"
+msgstr "Типи карток для %s"
+
+#: qt/aqt/clayout.py:243
+#, fuzzy, python-format
+msgid "Cloze %d"
+msgstr "Картка з пробілами"
+
+#: qt/aqt/clayout.py:394
+msgid "Flip"
+msgstr "Перевернути"
+
+#: qt/aqt/clayout.py:399 qt/aqt/sound.py:599
+msgid "Save"
+msgstr "Зберегти"
+
+#: qt/aqt/clayout.py:405 qt/aqt/overview.py:134 qt/aqt/sound.py:602
+msgid "Cancel"
+msgstr "Відмінити"
+
+#: qt/aqt/clayout.py:551
+msgid "At least one card type is required."
+msgstr "Необхідно принаймні один тип карток."
+
+#: qt/aqt/clayout.py:561
+#, python-format
+msgid "Delete the '%(a)s' card type, and its %(b)s?"
+msgstr "Видалити тип картки '%(a)s', та її %(b)s?"
+
+#: qt/aqt/clayout.py:586 qt/aqt/deckconf.py:148 qt/aqt/fields.py:97
+#: qt/aqt/main.py:305 qt/aqt/models.py:87
+msgid "New name:"
+msgstr "Нова назва:"
+
+#: qt/aqt/clayout.py:600
+#, python-format
+msgid "Enter new card position (1...%s):"
+msgstr "Введіть нову позицію картки (1...%s):"
+
+#: qt/aqt/clayout.py:622
+#, python-format
+msgid "Card %d"
+msgstr "Картка %d"
+
+#: qt/aqt/clayout.py:632
+#, python-format
+msgid "This will create %d card. Proceed?"
+msgid_plural "This will create %d cards. Proceed?"
+msgstr[0] "Буде створено %d картку. Продовжити?"
+msgstr[1] "Буде створено %d картки. Продовжити?"
+msgstr[2] "Буде створено %d карток. Продовжити?"
+
+#: qt/aqt/clayout.py:661
+msgid "Anki couldn't find the line between the question and answer. Please adjust the template manually to switch the question and answer."
+msgstr "Анкі не вдалося знайти межу між питанням і відповіддю. Налаштуйте шаблон вручну, щоб розділити питання та відповідь."
+
+#: qt/aqt/clayout.py:676
+msgid "Add Card Type..."
+msgstr "Додати тип картки…"
+
+#: qt/aqt/clayout.py:679
+msgid "Remove Card Type..."
+msgstr "Видалення типу карток…"
+
+#: qt/aqt/clayout.py:682
+msgid "Rename Card Type..."
+msgstr "Перейменування типу картки…"
+
+#: qt/aqt/clayout.py:685
+msgid "Reposition Card Type..."
+msgstr "Переміщення типу карток…"
+
+#: qt/aqt/clayout.py:692
+msgid " (on)"
+msgstr " (увімкн)"
+
+#: qt/aqt/clayout.py:694
+msgid " (off)"
+msgstr " (вимк)"
+
+#: qt/aqt/clayout.py:695
+msgid "Deck Override..."
+msgstr "Заміна колоди…"
+
+#: qt/aqt/clayout.py:698
+msgid "Browser Appearance..."
+msgstr "Вигляд переглядача…"
+
+#: qt/aqt/clayout.py:740
+#, python-format
+msgid "Enter deck to place new %s cards in, or leave blank:"
+msgstr "Вкажіть колоду, до якої помістити нові %s картки або залиште порожнім:"
+
+#: qt/aqt/customstudy.py:57
+msgid "OK"
+msgstr "Добре!"
+
+#: qt/aqt/customstudy.py:71
+#, python-format
+msgid "New cards in deck over today limit: %s"
+msgstr "Нових карток в колоді поза денним лімітом: %s"
+
+#: qt/aqt/customstudy.py:72
+msgid "Increase today's new card limit by"
+msgstr "Збільшити ліміт нових карток на сьогодні на"
+
+#: qt/aqt/customstudy.py:83
+#, python-format
+msgid "Reviews due in deck over today limit: %s"
+msgstr "Повторити картки понад добове обмеженя: %s"
+
+#: qt/aqt/customstudy.py:84
+msgid "Increase today's review limit by"
+msgstr "Збільшити ліміт повторень на сьогодні на"
+
+#: qt/aqt/customstudy.py:89
+msgid "Review cards forgotten in last"
+msgstr "Повторити картки, забуті за останні"
+
+#: qt/aqt/customstudy.py:93
+msgid "Review ahead by"
+msgstr "Повторити наперед на"
+
+#: qt/aqt/customstudy.py:96
+msgid "Preview new cards added in the last"
+msgstr "Попередньо переглянути нові картки, додані за останніх"
+
+#: qt/aqt/customstudy.py:100
+msgid "Select"
+msgstr "Вибрати"
+
+#: qt/aqt/customstudy.py:101
+msgid "cards from the deck"
+msgstr "картки з колоди"
+
+#: qt/aqt/customstudy.py:103
+msgid "Choose Tags"
+msgstr "Вибрати мітки"
+
+#: qt/aqt/customstudy.py:141 qt/aqt/customstudy.py:153
+msgid "Custom Study Session"
+msgstr "Сесія додаткового навчання"
+
+#: qt/aqt/customstudy.py:190
+msgid "No cards matched the criteria you provided."
+msgstr "Жодна картка не відповідає вказаним критеріям."
+
+#: qt/aqt/deckbrowser.py:82
+msgid "Name for deck:"
+msgstr "Назва колоди:"
+
+#: qt/aqt/deckbrowser.py:243 qt/aqt/sidebar.py:95
+msgid "Rename Deck"
+msgstr "Перейменувати колоду"
+
+#: qt/aqt/deckbrowser.py:246 qt/aqt/sidebar.py:98 qt/aqt/studydeck.py:151
+msgid "New deck name:"
+msgstr "Нова назва колоди:"
+
+#: qt/aqt/deckbrowser.py:280
+msgid "Delete Deck"
+msgstr "Видалити колоду"
+
+#: qt/aqt/deckbrowser.py:289
+#, python-format
+msgid " It has %d card."
+msgid_plural " It has %d cards."
+msgstr[0] " Містить %d картку."
+msgstr[1] " Містить %d карток."
+msgstr[2] " Містить %d карток."
+
+#: qt/aqt/deckbrowser.py:296
+#, python-format
+msgid "Are you sure you wish to delete %s?"
+msgstr "Ви впевнені, що хочете видалити %s?"
+
+#: qt/aqt/deckbrowser.py:308
+msgid "Get Shared"
+msgstr "Колоди загального користування"
+
+#: qt/aqt/deckbrowser.py:309
+msgid "Create Deck"
+msgstr "Створити колоду"
+
+#: qt/aqt/deckbrowser.py:310
+msgid "Import File"
+msgstr "Імпортувати файл"
+
+#: qt/aqt/deckbrowser.py:318 qt/aqt/main.py:765 qt/aqt/overview.py:265
+#: qt/aqt/previewer.py:80 qt/aqt/previewer.py:85 qt/aqt/reviewer.py:573
+#: qt/aqt/reviewer.py:584 qt/aqt/reviewer.py:660 qt/aqt/toolbar.py:107
+#: qt/aqt/toolbar.py:114 qt/aqt/toolbar.py:121 qt/aqt/toolbar.py:128
+#: qt/aqt/toolbar.py:144
+#, python-format
+msgid "Shortcut key: %s"
+msgstr "Гаряча клавіша: %s"
+
+#: qt/aqt/deckchooser.py:34
+msgid "Target Deck (Ctrl+D)"
+msgstr "Колода, в яку додаємо (Ctrl+D)"
+
+#: qt/aqt/deckchooser.py:51 qt/aqt/deckchooser.py:55 qt/aqt/deckchooser.py:77
+msgid "Default"
+msgstr "Типовий"
+
+#: qt/aqt/deckchooser.py:87 qt/aqt/modelchooser.py:84
+msgid "Choose"
+msgstr "Вибрати"
+
+#: qt/aqt/deckchooser.py:88
+msgid "Choose Deck"
+msgstr "Оберіть Колоду"
+
+#: qt/aqt/deckconf.py:47 qt/aqt/dyndeckconf.py:28 qt/aqt/models.py:161
+#, python-format
+msgid "Options for %s"
+msgstr "Налаштування для %s"
+
+#: qt/aqt/deckconf.py:95
+msgid "Set for all subdecks"
+msgstr "Встановити для усіх підколод"
+
+#: qt/aqt/deckconf.py:113
+msgid "Your changes will affect multiple decks. If you wish to change only the current deck, please add a new options group first."
+msgstr "Ваші зміни вплинуть на кілька колод. Якщо ви хочете змінити лише поточну колоду, спочатку треба додати нову групу налаштувань."
+
+#: qt/aqt/deckconf.py:121
+msgid "New options group name:"
+msgstr "Нова назва групи налаштувань:"
+
+#: qt/aqt/deckconf.py:137
+msgid "The default configuration can't be removed."
+msgstr "Конфігурацію за замовчуванням не можна видаляти."
+
+#: qt/aqt/deckconf.py:159
+#, python-format
+msgid "Set all decks below %s to this option group?"
+msgstr "Віднести усі колоди нижче  %s до цієї групи налаштувань?"
+
+#: qt/aqt/deckconf.py:169
+#, python-format
+msgid "%d deck updated."
+msgid_plural "%d decks updated."
+msgstr[0] "%d колоду оновлено."
+msgstr[1] "%d колод оновлено."
+msgstr[2] "%d колод оновлено."
+
+#: qt/aqt/deckconf.py:197
+#, python-format
+msgid "(parent limit: %d)"
+msgstr "(ліміт колоди вищого порядку: %d)"
+
+#: qt/aqt/deckconf.py:276 qt/aqt/dyndeckconf.py:157
+msgid "Steps must be numbers."
+msgstr "Кроки мають бути числами."
+
+#: qt/aqt/deckconf.py:279 qt/aqt/dyndeckconf.py:160
+msgid "At least one step is required."
+msgstr "Необхідно принаймні один крок."
+
+#: qt/aqt/dyndeckconf.py:21
+msgid "Build"
+msgstr "Побудувати"
+
+#: qt/aqt/dyndeckconf.py:23 qt/aqt/overview.py:255
+msgid "Rebuild"
+msgstr "Перебудувати"
+
+#: qt/aqt/dyndeckconf.py:128
+msgid "The provided search did not match any cards. Would you like to revise it?"
+msgstr "По вказаним критеріям пошуку не знайшлося карток. Ви хочете ії змінити?"
+
+#: qt/aqt/editcurrent.py:20
+msgid "Edit Current"
+msgstr "Редагувати поточну"
+
+#: qt/aqt/editor.py:125
+msgid "Customize Fields"
+msgstr "Змінити поля"
+
+#: qt/aqt/editor.py:133
+msgid "Customize Card Templates (Ctrl+L)"
+msgstr "Редагувати шаблон карток (Ctrl+L)"
+
+#: qt/aqt/editor.py:143
+msgid "Bold text (Ctrl+B)"
+msgstr "Жирний текст (Ctrl+B [латинське])"
+
+#: qt/aqt/editor.py:145
+msgid "Italic text (Ctrl+I)"
+msgstr "Курсив (Ctrl+I[латинське])"
+
+#: qt/aqt/editor.py:148
+msgid "Underline text (Ctrl+U)"
+msgstr ""
+
+#: qt/aqt/editor.py:151
+msgid "Superscript (Ctrl++)"
+msgstr "Верхній індекс (Ctrl++)"
+
+#: qt/aqt/editor.py:153
+msgid "Subscript (Ctrl+=)"
+msgstr "Нижній індекс (Ctrl+=)"
+
+#: qt/aqt/editor.py:154
+msgid "Remove formatting (Ctrl+R)"
+msgstr "Прибрати форматування (Ctrl+R)"
+
+#: qt/aqt/editor.py:158
+msgid "Set foreground colour (F7)"
+msgstr "Встановити колір фону (F7)"
+
+#: qt/aqt/editor.py:168
+msgid "Change colour (F8)"
+msgstr "Змінити колір (F8)"
+
+#: qt/aqt/editor.py:174
+msgid "Cloze deletion (Ctrl+Shift+C)"
+msgstr "Пропущення для завдання з пропусками (Ctrl+Shift+C [латинське])"
+
+#: qt/aqt/editor.py:176
+msgid "Attach pictures/audio/video (F3)"
+msgstr "Додати зображення/аудіо/відео (F3)"
+
+#: qt/aqt/editor.py:178
+msgid "Record audio (F5)"
+msgstr "Записати звук (F5)"
+
+#: qt/aqt/editor.py:200
+msgid "Show Duplicates"
+msgstr "Показати дублікати"
+
+#: qt/aqt/editor.py:580
+msgid "Jump to tags with Ctrl+Shift+T"
+msgstr "Перейти до міток з  Ctrl+Shift+T"
+
+#: qt/aqt/editor.py:644
+msgid "Warning, cloze deletions will not work until you switch the type at the top to Cloze."
+msgstr "Увага! Тести з пробілами не спрацюють, поки ви не зміните тип вгорі на Тест з пробілами."
+
+#: qt/aqt/editor.py:651
+#, fuzzy
+msgid "To make a cloze deletion on an existing note, you need to change it to a cloze type first, via 'Notes>Change Note Type'"
+msgstr "Для створення картки з тестом з пробілами по існуючій нотатці, спочатку потрібно змінити її тип на тип тесту з пробілами командою \"Редагування>Змінити тип нотатки...\""
+
+#: qt/aqt/editor.py:713
+msgid "Media"
+msgstr "Медіа-файли"
+
+#: qt/aqt/editor.py:718
+msgid "Add Media"
+msgstr "Додати медіа-файл"
+
+#: qt/aqt/editor.py:751
+msgid "Couldn't record audio. Have you installed 'lame'?"
+msgstr "Не вдається записати звук. Чи встановлено у Вас «lame»?"
+
+#: qt/aqt/editor.py:856
+#, python-format
+msgid "An error occurred while opening %s"
+msgstr "Помилка під час відкриття %s"
+
+#: qt/aqt/editor.py:953
+msgid "MathJax inline"
+msgstr "MathJax в рядку"
+
+#: qt/aqt/editor.py:954
+msgid "MathJax block"
+msgstr ""
+
+#: qt/aqt/editor.py:955
+msgid "MathJax chemistry"
+msgstr "MathJax для хімії"
+
+#: qt/aqt/editor.py:957
+msgid "LaTeX equation"
+msgstr "Рівняння LaTeX"
+
+#: qt/aqt/editor.py:958
+msgid "LaTeX math env."
+msgstr "Математичне оточення LaTeX"
+
+#: qt/aqt/editor.py:959
+msgid "Edit HTML"
+msgstr "Редагувати HTML"
+
+#: qt/aqt/editor.py:1209
+msgid "Cut"
+msgstr "Вирізати"
+
+#: qt/aqt/editor.py:1211 qt/aqt/webview.py:289
+msgid "Copy"
+msgstr "Копіювати"
+
+#: qt/aqt/editor.py:1213
+msgid "Paste"
+msgstr "Вставити"
+
+#: qt/aqt/errors.py:69
+msgid "Unable to access Anki media folder. The permissions on your system's temporary folder may be incorrect."
+msgstr ""
+
+#: qt/aqt/errors.py:82
+msgid "Your firewall or antivirus program is preventing Anki from creating a connection to itself. Please add an exception for Anki."
+msgstr ""
+
+#: qt/aqt/errors.py:88
+msgid "Please connect a microphone, and ensure other programs are not using the audio device."
+msgstr "Будь ласка, під'єднайте мікрофон і переконайтеся, що інші програми не використовують аудіо-пристрій."
+
+#: qt/aqt/errors.py:99
+msgid "Your computer's storage may be full. Please delete some unneeded files, then try again."
+msgstr ""
+
+#: qt/aqt/exporting.py:52
+msgid "All Decks"
+msgstr "Усі колоди"
+
+#: qt/aqt/exporting.py:55
+msgid "Selected Notes"
+msgstr "Вибрані нотатки"
+
+#: qt/aqt/exporting.py:58
+msgid "Export..."
+msgstr "Експорт ..."
+
+#: qt/aqt/exporting.py:145
+#, python-format
+msgid "Couldn't save file: %s"
+msgstr "Не вдалося зберегти файл: %s"
+
+#: qt/aqt/exporting.py:154
+#, python-format
+msgid "Exported %d media file"
+msgid_plural "Exported %d media files"
+msgstr[0] "Експортовано %d медіафайли"
+msgstr[1] "Експортовано %d медіафайли"
+msgstr[2] "Експортовано %d медіафайли"
+
+#: qt/aqt/exporting.py:177
+msgid "Collection exported."
+msgstr "Колекцію експортовано."
 
 #: qt/aqt/exporting.py:183
 #, python-format
@@ -163,710 +2715,53 @@ msgstr[0] "%d нотатку експортовано."
 msgstr[1] "%d нотаток експортовано."
 msgstr[2] "%d нотаток експортовано."
 
-#: pylib/anki/importing/mnemo.py:105
+#: qt/aqt/exporting.py:192
 #, python-format
-msgid "%d note imported."
-msgid_plural "%d notes imported."
-msgstr[0] "%d нотатку імпортовано."
-msgstr[1] "%d нотаток імпортовано."
-msgstr[2] "%d нотаток імпортовано."
+msgid "%d card exported."
+msgid_plural "%d cards exported."
+msgstr[0] "%d картку експортовано."
+msgstr[1] "%d карток експортовано."
+msgstr[2] "%d карток експортовано."
 
-#: pylib/anki/importing/noteimp.py:224
+#: qt/aqt/fields.py:27
 #, python-format
-msgid "%d note unchanged"
-msgid_plural "%d notes unchanged"
-msgstr[0] "%d нотатка без змін"
-msgstr[1] "%d нотаток без змін"
-msgstr[2] "%d нотаток без змін"
+msgid "Fields for %s"
+msgstr "Поля для %s"
 
-#: pylib/anki/importing/noteimp.py:214
+#: qt/aqt/fields.py:90
+msgid "That field name is already used."
+msgstr "Назва поля вже використовується."
+
+#: qt/aqt/fields.py:110
+msgid "Field name:"
+msgstr "Назва поля:"
+
+#: qt/aqt/fields.py:123
+msgid "Notes require at least one field."
+msgstr "У нотатках необхідно мінімум одне поле."
+
+#: qt/aqt/fields.py:126
 #, python-format
-msgid "%d note updated"
-msgid_plural "%d notes updated"
-msgstr[0] "%d нотатку оновлено"
-msgstr[1] "%d нотаток оновлено"
-msgstr[2] "%d нотаток оновлено"
+msgid "Delete field from %s?"
+msgstr "Видалити поле з %s?"
 
-#: qt/aqt/browser.py:832
+#: qt/aqt/fields.py:140
 #, python-format
-msgid "%d selected"
-msgid_plural "%d selected"
-msgstr[0] "%d вибрано"
-msgstr[1] "%d вибрано"
-msgstr[2] "%d вибрано"
+msgid "New position (1...%d):"
+msgstr "Нова позиція (1...%d):"
 
-#: pylib/anki/models.py:263
+#: qt/aqt/importing.py:46
 #, python-format
-msgid "%s copy"
-msgstr "копія %s"
-
-#: qt/aqt/reviewer.py:94
-#, python-format
-msgid "%s minute."
-msgid_plural "%s minutes."
-msgstr[0] "%s хвилина."
-msgstr[1] "%s хвилин."
-msgstr[2] "%s хвилин."
-
-#: qt/aqt/main.py:1222
-#, python-format
-msgid "%s second"
-msgid_plural "%s seconds"
-msgstr[0] "%s секунда"
-msgstr[1] "%s секунди"
-msgstr[2] "%s секунд"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:141
-msgid "&About..."
-msgstr "&Про Anki"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:147
-msgid "&Browse and Install..."
-msgstr "&Продивитися та Встановити..."
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:303
-msgid "&Cards"
-msgstr "&Картки"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:148
-msgid "&Check Database"
-msgstr "&Перевірити базу даних"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:318
-msgid "&Cram..."
-msgstr "&Зубріння..."
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:300
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:135
-msgid "&Edit"
-msgstr "&Редагування"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:343
-msgid "&Export Notes..."
-msgstr "&Експортування записів…"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:151
-msgid "&Export..."
-msgstr "&Експортувати..."
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:136
-msgid "&File"
-msgstr "&Файл"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:310
-msgid "&Find"
-msgstr "&Знайти"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:301
-msgid "&Go"
-msgstr "&Перейти"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:314
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:149
-msgid "&Guide..."
-msgstr "&Довідник..."
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:302
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:134
-msgid "&Help"
-msgstr "&Допомога"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:152
-msgid "&Import..."
-msgstr "&Імпортувати…"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:328
-msgid "&Info..."
-msgstr "&Інфо..."
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:309
-msgid "&Invert Selection"
-msgstr "&Інвертувати вибір"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:312
-msgid "&Next Card"
-msgstr "&Наступна Картка"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:305
-msgid "&Notes"
-msgstr "&Нотатки"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:145
-msgid "&Open Add-ons Folder..."
-msgstr "&Відкрити теку розширень..."
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:139
-msgid "&Preferences..."
-msgstr "&Параметри..."
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:313
-msgid "&Previous Card"
-msgstr "&Попередня картка"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:306
-msgid "&Reschedule..."
-msgstr "&Перемістити..."
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:146
-msgid "&Support Anki..."
-msgstr "&Підтримати Anki..."
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:150
-msgid "&Switch Profile"
-msgstr "&Змінити профіль"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:137
-msgid "&Tools"
-msgstr "&Інструменти"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:308
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:142
-msgid "&Undo"
-msgstr "&Скасувати"
-
-#: pylib/anki/importing/csvfile.py:44
-#, python-format
-msgid "'%(row)s' had %(num1)d fields, expected %(num2)d"
-msgstr "'%(row)s' вміщує %(num1)d полів, очікуючих %(num2)d"
-
-#: pylib/anki/stats.py:154
-#, python-format
-msgid "(%s correct)"
-msgstr "(%s правильно)"
-
-#: qt/aqt/addcards.py:154
-msgid "(Note deleted)"
-msgstr "(Нотатку видалено)"
-
-#: qt/aqt/addons.py:746
-msgid "(disabled)"
-msgstr "(вимкнено)"
-
-#: pylib/anki/schedv2.py:1261
-msgid "(end)"
-msgstr "(кінець)"
-
-#: qt/aqt/browser.py:369
-msgid "(filtered)"
-msgstr "(відфільтровано)"
-
-#: qt/aqt/browser.py:336
-msgid "(learning)"
-msgstr "(вивчення)"
-
-#: qt/aqt/browser.py:334 qt/aqt/browser.py:340
-msgid "(new)"
-msgstr "(новi)"
-
-#: qt/aqt/deckconf.py:197
-#, python-format
-msgid "(parent limit: %d)"
-msgstr "(ліміт колоди вищого порядку: %d)"
-
-#: qt/aqt/previewer.py:162
-msgid "(please select 1 card)"
-msgstr "(виберіть 1 картку)"
-
-#: qt/aqt/addons.py:748
-#, python-format
-msgid "(requires %s)"
-msgstr "(потрібно %s)"
-
-#: qt/aqt/importing.py:321
-msgid ".anki files are from a very old version of Anki. You can import them with Anki 2.0, available on the Anki website."
-msgstr "Файли .anki з дуже старої версії Anki. Ви можете імпортувати їх у версії Anki 2.0, яка доступна на сайті."
-
-#: qt/aqt/importing.py:328
-msgid ".anki2 files are not directly importable - please import the .apkg or .zip file you have received instead."
-msgstr "Файли .anki2 напряму не імпортуються — будь ласка, імпортуйте .apkg чи .zip файл який Ви отримали."
-
-#: pylib/anki/stats.py:949
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/stats.py:83
-msgid "1 month"
-msgstr "1 місяць"
-
-#: pylib/anki/stats.py:949
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/stats.py:84
-msgid "1 year"
-msgstr "1 рік"
-
-#: pylib/anki/stats.py:810
-msgid "10AM"
-msgstr "10:00"
-
-#: pylib/anki/stats.py:812
-msgid "10PM"
-msgstr "22:00"
-
-#: pylib/anki/stats.py:813
-msgid "3AM"
-msgstr "03:00"
-
-#: pylib/anki/stats.py:809
-msgid "4AM"
-msgstr "04:00"
-
-#: pylib/anki/stats.py:811
-msgid "4PM"
-msgstr "16:00"
-
-#. T: Symbols separating first and second column in a statistics table. Eg in "Total:    3 reviews".
-#: pylib/anki/stats.py:898
-msgid ":"
-msgstr ":"
-
-#: qt/aqt/about.py:110
-#, python-format
-msgid "<a href='%s'>Visit website</a>"
-msgstr "<a href='%s'>Відвідати вебсторінку</a>"
-
-#: pylib/anki/stats.py:408
-#, python-format
-msgid "<b>%(pct)d%%</b> (%(x)s of %(y)s)"
-msgstr "<b>%(pct)d%%</b> (%(x)s з %(y)s)"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/exporting.py:77
-msgid "<b>Export format</b>:"
-msgstr "<b>Формат експорту </b>:"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/findreplace.py:88
-msgid "<b>Find</b>:"
-msgstr "<b>Знайти</b>:"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browseropts.py:73
-msgid "<b>Font Size</b>:"
-msgstr "<b>Розмір шрифту</b>:"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browseropts.py:72
-msgid "<b>Font</b>:"
-msgstr "<b>Шрифт</b>:"
-
-#: qt/aqt/addons.py:1410
-#, python-format
-msgid "<b>Important</b>: As add-ons are programs downloaded from the internet, they are potentially malicious.<b>You should only install add-ons you trust.</b><br><br>Are you sure you want to proceed with the installation of the following Anki add-on(s)?<br><br>%(names)s"
-msgstr "<b>Важливо</b>: Додатки — це програми які завантажуються з інтернету та можуть бути шкідливими.<b>Рекомендуємо завантажувати лише перевірені додатки.</b><br><br>Ви дійсно хочете продовжити встановлення наступн(ого/их) додатк(у/ів) для Anki?<br><br>%(names)s"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/findreplace.py:90
-msgid "<b>In</b>:"
-msgstr "<b>В</b>:"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/exporting.py:78
-msgid "<b>Include</b>:"
-msgstr "<b>Включити</b>:"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browseropts.py:74
-msgid "<b>Line Size</b>:"
-msgstr "<b>Розмір рядка</b>:"
-
-#: qt/aqt/addons.py:1434
-msgid "<b>Please restart Anki to complete the installation.</b>"
-msgstr "<b>Будь ласка, перезапустіть Anki для завершення встановлення.</b>"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/findreplace.py:89
-msgid "<b>Replace With</b>:"
-msgstr "<b>Замінити на</b>:"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:301
-msgid "<b>Synchronisation</b>"
-msgstr "<b>Синхронізація</b>"
-
-#: qt/aqt/preferences.py:188
-msgid ""
-"<b>Synchronization</b><br>\n"
-"Not currently enabled; click the sync button in the main window to enable."
-msgstr ""
-"<b>Синхронізацію</b><br>\n"
-"Зараз вимкнено; щоб її увімкнути, натисніть кнопку синхронізації в головному вікні."
-
-#: qt/aqt/update.py:59
-#, python-format
-msgid "<h1>Anki Updated</h1>Anki %s has been released.<br><br>"
-msgstr "<h1>Anki оновлено</h1>Вийшла нова версія Anki %s.<br><br>"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:307
-#, fuzzy
-msgid "<html><head/><body><p><span style=\" font-weight:600;\">Backups</span><br/>Anki will create a backup of your collection each time it is closed.</p></body></html>"
-msgstr "<b>Резервні копії</b><br>Anki створюватиме резервну копію вашої колекції кожного разу при закритті або синхронізації."
-
-#: qt/aqt/importing.py:258
-msgid "<ignored>"
-msgstr "<ignored>"
-
-#: qt/aqt/main.py:1537
-msgid "<non-unicode text>"
-msgstr "<текст не в юнікоді>"
-
-#: qt/aqt/browser.py:765
-msgid "<type here to search; hit enter to show current deck>"
-msgstr "<для пошуку наберіть запит тут; натисніть ввід, щоб показати поточну колоду>"
-
-#: qt/aqt/about.py:225
-msgid "A big thanks to all the people who have provided suggestions, bug reports and donations."
-msgstr "Дуже дякуємо всім за ваші пропозиції, повідомлення про вади, а також матеріальну підтримку."
-
-#: pylib/anki/stats.py:882
-msgid "A card's <i>ease</i> is the size of the next interval when you answer \"good\" on a review."
-msgstr "<i>Легкість</i> картки - це інтервал, через який цю картку знову буде показано, якщо ви дали відповідь \"добре\" під час повторення."
-
-#: pylib/anki/importing/csvfile.py:56
-#, python-format
-msgid "Aborted: %s"
-msgstr "Відхилено: %s"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/about.py:45
-msgid "About Anki"
-msgstr "Про Anki"
-
-#: qt/aqt/addcards.py:38 qt/aqt/addcards.py:70 qt/aqt/deckconf.py:89
-#: qt/aqt/models.py:57 qt/aqt/studydeck.py:46 qt/aqt/toolbar.py:112
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addcards.py:60
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:103
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/profiles.py:82
-msgid "Add"
-msgstr "Додати"
-
-#: qt/aqt/addcards.py:73
-msgid "Add (shortcut: ctrl+enter)"
-msgstr "Додати (скорочення клавіш: Ctrl+Enter)"
-
-#: qt/aqt/clayout.py:676
-msgid "Add Card Type..."
-msgstr "Додати тип картки…"
-
-#: qt/aqt/clayout.py:389
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addfield.py:62
-msgid "Add Field"
-msgstr "Додати поле"
-
-#: qt/aqt/editor.py:718
-msgid "Add Media"
-msgstr "Додати медіа-файл"
-
-#: qt/aqt/studydeck.py:48
-msgid "Add New Deck (Ctrl+N)"
-msgstr "Додати нову колоду (Ctrl+N)"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addmodel.py:46
-msgid "Add Note Type"
-msgstr "Додати тип нотаток"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:333
-msgid "Add Notes..."
-msgstr "Додати запис…"
-
-#: qt/aqt/browser.py:1629
-msgid "Add Tags"
-msgstr "Додавання міток"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:329
-msgid "Add Tags..."
-msgstr "Додати теги..."
-
-#: qt/aqt/browser.py:172
-msgid "Add-on"
-msgstr "Додаток"
-
-#: qt/aqt/addons.py:902
-msgid "Add-on has no configuration."
-msgstr "Розширення немає налаштувань."
-
-#: qt/aqt/addons.py:1451
-msgid "Add-on installation error"
-msgstr "Помилка при встановлення додатка"
-
-#: qt/aqt/addons.py:823
-msgid "Add-on was not downloaded from AnkiWeb."
-msgstr "Розширення не завантажено з AnkiWeb."
-
-#: qt/aqt/main.py:1600
-msgid "Add-on will be installed when a profile is opened."
-msgstr "Додаток буде встановлено після відкриття профілю."
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:157
-msgid "Add-ons"
-msgstr "Розширення"
-
-#: qt/aqt/models.py:212
-#, python-format
-msgid "Add: %s"
-msgstr "Додати: %s"
-
-#: pylib/anki/importing/anki2.py:163 pylib/anki/stats.py:309
-#: qt/aqt/addcards.py:202
-msgid "Added"
-msgstr "Додано"
-
-#: qt/aqt/browser.py:1263
-msgid "Added Today"
-msgstr "Додано сьогодні"
-
-#: pylib/anki/importing/noteimp.py:139
-#, python-format
-msgid "Added duplicate with first field: %s"
-msgstr "Додано дублікат з однаковим першим полем: %s"
-
-#: qt/aqt/reviewer.py:629 qt/aqt/reviewer.py:633 qt/aqt/reviewer.py:636
-msgid "Again"
-msgstr "Знову"
-
-#: qt/aqt/browser.py:1265
-msgid "Again Today"
-msgstr "Повторити сьогодні"
-
-#: pylib/anki/stats.py:152
-#, python-format
-msgid "Again count: %s"
-msgstr "Кількість карток з відповіддю \"Знову\": %s"
-
-#: qt/aqt/overview.py:133
-msgid "All Buried Cards"
-msgstr "Всі відкладені картки"
-
-#: qt/aqt/browser.py:1349
-msgid "All Card Types"
-msgstr "Усі типи карток"
-
-#: qt/aqt/exporting.py:52
-msgid "All Decks"
-msgstr "Усі колоди"
-
-#: qt/aqt/browser.py:1884
-msgid "All Fields"
-msgstr "Всі поля"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:119
-msgid "All cards in random order (don't reschedule)"
-msgstr "Всі картки у випадковому порядку (без перепланування)"
-
-#: qt/aqt/main.py:324
-msgid "All cards, notes, and media for this profile will be deleted. Are you sure?"
-msgstr "Всі картки, записи та медіа-файли для цього профілю будуть видалені. Ви певні?"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:117
-msgid "All review cards in random order"
-msgstr "Всі повторювані картки у випадковому порядку"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:112
-msgid "Allow HTML in fields"
-msgstr "Допускається HTML у полях"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:379
-msgid "Always include question side when replaying audio"
-msgstr "Завжди показувати сторону картки з питанням під час відтворення аудіо"
-
-#: qt/aqt/editor.py:856
-#, python-format
-msgid "An error occurred while opening %s"
-msgstr "Помилка під час відкриття %s"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:133
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/setgroup.py:40
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/setlang.py:41
-msgid "Anki"
-msgstr "Anki"
-
-#: pylib/anki/exporting.py:167
-msgid "Anki 2.0 Deck"
-msgstr "Колода Anki 2.0"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:293
-msgid "Anki 2.1 scheduler (beta)"
-msgstr "Anki 2.1 планувальник (бета)"
-
-#: pylib/anki/exporting.py:398
-msgid "Anki Collection Package"
-msgstr "Пакунок колекції Anki"
-
-#: pylib/anki/exporting.py:316
-msgid "Anki Deck Package"
-msgstr "Сторінка колод Anki"
-
-#: qt/aqt/profiles.py:256
-msgid "Anki could not read your profile data. Window sizes and your sync login details have been forgotten."
-msgstr "Anki не може прочитати дані Вашого профілю. Розміри вікна та Ваші дані для входу для синхронізації загублено."
-
-#: qt/aqt/profiles.py:326
-msgid "Anki could not rename your profile because it could not rename the profile folder on disk. Please ensure you have permission to write to Documents/Anki and no other programs are accessing your profile folders, then try again."
-msgstr "Anki не вдалося перейменувати ваш профіль, оскільки не вдалося перейменувати теку профілю на диску. Переконайтеся, що у вас є дозвіл на запис до теки Документи/Anki і що інші програми не мають доступ до тек ваших профілів і спробуйте знову."
-
-#: qt/aqt/clayout.py:661
-msgid "Anki couldn't find the line between the question and answer. Please adjust the template manually to switch the question and answer."
-msgstr "Анкі не вдалося знайти межу між питанням і відповіддю. Налаштуйте шаблон вручну, щоб розділити питання та відповідь."
-
-#: qt/aqt/about.py:97
-msgid "Anki is a friendly, intelligent spaced learning system. It's free and open source."
-msgstr "Anki  - це зручна в користуванні, розумна система навчання з перервами. Вона безкоштовна та має відкритий код."
-
-#: qt/aqt/about.py:101
-msgid "Anki is licensed under the AGPL3 license. Please see the license file in the source distribution for more information."
-msgstr "Anki доступна по ліцензії AGPL3. Додаткову інформацію можна отримати з файла з текстом ліцензії, який входить до дистрибуційного комплекту вихідного коду."
-
-#: qt/aqt/browser.py:741
-msgid "Answer"
-msgstr "Відповідь"
-
-#: pylib/anki/stats.py:681
-msgid "Answer Buttons"
-msgstr "Кнопки відповіді"
-
-#: pylib/anki/stats.py:357 pylib/anki/stats.py:692 pylib/anki/stats.py:800
-msgid "Answers"
-msgstr "Відповіді"
-
-#: qt/aqt/browser.py:1289
-msgid "Any Flag"
-msgstr "Будь-який прапорець"
-
-#: qt/aqt/browser.py:2263
-msgid "Any cards mapped to nothing will be deleted. If a note has no remaining cards, it will be lost. Are you sure you want to continue?"
-msgstr "Картки, у яких нема відповідників, будуть видалені. Якщо нотатка більше не містить карток, вона буде втрачена. Ви впевнені, що хочете продовжити?"
-
-#: pylib/anki/importing/noteimp.py:161
-#, python-format
-msgid "Appeared twice in file: %s"
-msgstr "Повторилося двічі у файлі: %s"
-
-#: qt/aqt/deckbrowser.py:296
-#, python-format
-msgid "Are you sure you wish to delete %s?"
-msgstr "Ви впевнені, що хочете видалити %s?"
-
-#: qt/aqt/clayout.py:551
-msgid "At least one card type is required."
-msgstr "Необхідно принаймні один тип карток."
-
-#: qt/aqt/deckconf.py:279 qt/aqt/dyndeckconf.py:160
-msgid "At least one step is required."
-msgstr "Необхідно принаймні один крок."
-
-#: qt/aqt/editor.py:176
-msgid "Attach pictures/audio/video (F3)"
-msgstr "Додати зображення/аудіо/відео (F3)"
-
-#: qt/aqt/reviewer.py:737
-msgid "Audio +5s"
-msgstr "Звук +5 секунд"
-
-#: qt/aqt/reviewer.py:736
-msgid "Audio -5s"
-msgstr "Звук -5 секунд"
-
-#: qt/aqt/main.py:374
-msgid "Automatic syncing and backups have been disabled while restoring. To enable them again, close the profile or restart Anki."
-msgstr "Автоматична синхронізація і резервне копіювання вимкнені при відновлені. Для увімкнення закрийте профіль чи перезапустіть Anki."
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:378
-msgid "Automatically play audio"
-msgstr "Автоматично програвати звук"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:303
-msgid "Automatically sync on profile open/close"
-msgstr "Автоматична синхронізація при відкритті/закритті профілю"
-
-#: pylib/anki/stats.py:252 pylib/anki/stats.py:319
-msgid "Average"
-msgstr "Середнє"
-
-#: pylib/anki/stats.py:434
-msgid "Average answer time"
-msgstr "Середній час відповіді"
-
-#: pylib/anki/stats.py:878
-msgid "Average ease"
-msgstr "Середня легкість"
-
-#: pylib/anki/stats.py:423
-msgid "Average for days studied"
-msgstr "Середній показник за дні роботи з програмою"
-
-#: pylib/anki/stats.py:618
-msgid "Average interval"
-msgstr "Середній інтервал"
-
-#: qt/aqt/previewer.py:83
-msgid "Back Side Only"
-msgstr ""
-
-#: qt/aqt/main.py:558
-msgid "Backing Up..."
-msgstr "Резервне копіювання..."
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:313
-msgid "Backups"
-msgstr "Резервні копії"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:289
-msgid "Basic"
-msgstr "Базова"
-
-#: qt/aqt/browser.py:1287 qt/aqt/reviewer.py:719
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:338
-msgid "Blue Flag"
-msgstr "Синій прапорець"
-
-#: qt/aqt/editor.py:143
-msgid "Bold text (Ctrl+B)"
-msgstr "Жирний текст (Ctrl+B [латинське])"
-
-#: qt/aqt/toolbar.py:119
-msgid "Browse"
-msgstr "Навігатор"
-
-#: qt/aqt/browser.py:826
-#, python-format
-msgid "Browse (%(cur)d card shown; %(sel)s)"
-msgid_plural "Browse (%(cur)d cards shown; %(sel)s)"
-msgstr[0] "Перегляд (%(cur)d картка показана; %(sel)s)"
-msgstr[1] "Перегляд (%(cur)d картки показано; %(sel)s)"
-msgstr[2] "Перегляд (%(cur)d карток показано; %(sel)s)"
-
-#: qt/aqt/addons.py:922
-msgid "Browse Add-ons"
-msgstr "Переглянути додатки"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browserdisp.py:71
-msgid "Browser Appearance"
-msgstr "Зовнішній вигляд Навігатора"
-
-#: qt/aqt/clayout.py:698
-msgid "Browser Appearance..."
-msgstr "Вигляд переглядача…"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browseropts.py:71
-msgid "Browser Options"
-msgstr "Налаштування Навігатора"
-
-#: qt/aqt/dyndeckconf.py:21
-msgid "Build"
-msgstr "Побудувати"
-
-#: qt/aqt/browser.py:1282
-msgid "Buried"
-msgstr "Відкладені"
-
-#: qt/aqt/overview.py:132
-msgid "Buried Siblings"
-msgstr "Відкладані пов'язані"
-
-#: qt/aqt/reviewer.py:824 qt/aqt/reviewer.py:830
-msgid "Bury"
-msgstr "Поховати"
-
-#: qt/aqt/reviewer.py:727
-msgid "Bury Card"
-msgstr "Поховати картку"
-
-#: qt/aqt/reviewer.py:728
-msgid "Bury Note"
-msgstr "Поховати нотатку"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:349
-msgid "Bury related new cards until the next day"
-msgstr "Поховати пов'язані нові картки до наступного дня"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:360
-msgid "Bury related reviews until the next day"
-msgstr "Поховати пов'язані картки на повторення до наступного дня"
+msgid "Map to %s"
+msgstr "Підмапитись до %s"
+
+#: qt/aqt/importing.py:52
+msgid "Map to Tags"
+msgstr "Співставити з мітками"
+
+#: qt/aqt/importing.py:53
+msgid "Ignore field"
+msgstr "Ігнорувати поле"
 
 #: qt/aqt/importing.py:123
 msgid ""
@@ -878,549 +2773,110 @@ msgstr ""
 "символ табуляції, кома, и т.д. Якщо Anki визначить символ невірно,\n"
 "ви можете ввести його тут. Використовуйте \\t для відображення TAB."
 
-#: qt/aqt/clayout.py:405 qt/aqt/overview.py:134 qt/aqt/sound.py:602
-msgid "Cancel"
-msgstr "Відмінити"
+#: qt/aqt/importing.py:137
+msgid "Multi-character separators are not supported. Please enter one character only."
+msgstr "Багатосимвольні розділювачі не підтримуються. Будь ласка, введіть тільки один символ."
 
-#: qt/aqt/browser.py:742
-msgid "Card"
-msgstr "Картка"
-
-#: qt/aqt/clayout.py:622
-#, python-format
-msgid "Card %d"
-msgstr "Картка %d"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:320
-msgid "Card List"
-msgstr "Список карток"
-
-#: qt/aqt/browser.py:1272
-msgid "Card State"
-msgstr "Стан картки"
-
-#: pylib/anki/stats.py:886 qt/aqt/clayout.py:63
-msgid "Card Types"
-msgstr "Типи карток"
-
-#: qt/aqt/clayout.py:69
-#, python-format
-msgid "Card Types for %s"
-msgstr "Типи карток для %s"
-
-#: qt/aqt/reviewer.py:827
-msgid "Card buried."
-msgstr "Картку поховано"
-
-#: qt/aqt/reviewer.py:804
-msgid "Card suspended."
-msgstr "Картку відкладено."
-
-#: qt/aqt/reviewer.py:685
-msgid "Card was a leech."
-msgstr "Картка була приставуча."
-
-#: pylib/anki/stats.py:310 pylib/anki/stats.py:962 qt/aqt/editor.py:134
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/changemodel.py:114
-msgid "Cards"
-msgstr "Картки"
-
-#: qt/aqt/browser.py:1603
-msgid "Cards can't be manually moved into a filtered deck."
-msgstr "Картки не можна вручну переміщати до відфільтрованої колоди."
-
-#: pylib/anki/exporting.py:95
-msgid "Cards in Plain Text"
-msgstr "Картки з неформатованим текстом"
-
-#: qt/aqt/overview.py:192
-msgid "Cards will be automatically returned to their original decks after you review them."
-msgstr "Після повторення картки автоматично повертаються до своєї оригінальної колоди."
-
-#: qt/aqt/models.py:66
-msgid "Cards..."
-msgstr "Картки..."
-
-#: pylib/anki/consts.py:108
-msgid "Center"
-msgstr "Центр"
-
-#: qt/aqt/importing.py:260
-msgid "Change"
-msgstr "Змінити"
-
-#: qt/aqt/browser.py:2183
-#, python-format
-msgid "Change %s to:"
-msgstr "Змінити %s на:"
-
-#: qt/aqt/browser.py:1594 qt/aqt/browser.py:1606
-msgid "Change Deck"
-msgstr "Змінити колоду"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:334
-msgid "Change Deck..."
-msgstr "Змінити колоду..."
-
-#: qt/aqt/browser.py:2270
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/changemodel.py:111
-msgid "Change Note Type"
-msgstr "Змінити тип нотатки"
-
-#: qt/aqt/modelchooser.py:44
-msgid "Change Note Type (Ctrl+N)"
-msgstr "Змінити тип нотатки (Ctrl+N)"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:315
-msgid "Change Note Type..."
-msgstr "Змінити тип нотатки..."
-
-#: qt/aqt/editor.py:168
-msgid "Change colour (F8)"
-msgstr "Змінити колір (F8)"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:286
-msgid "Change deck depending on note type"
-msgstr "Змінити колоду в залежності від типу нотатки"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:70
-msgid "Changes will take effect when Anki is restarted."
-msgstr "Зміни застосуються після перезавантаження Anki."
-
-#: qt/aqt/preferences.py:120 qt/aqt/preferences.py:250
-msgid "Changes will take effect when you restart Anki."
-msgstr "Зміни застосуються коли Ви перезавантажинти Anki."
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:143
-msgid "Check &Media..."
-msgstr "Перевірити &медіа-файли..."
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:73
-msgid "Check for Updates"
-msgstr "Перевірити оновлення"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:144
-msgid "Check the files in the media directory"
-msgstr "Перевірити директорію з аудіо-візуальними файлами"
-
-#: qt/aqt/addons.py:885
-msgid "Checking..."
-msgstr "Перевірка…"
-
-#: qt/aqt/deckchooser.py:87 qt/aqt/modelchooser.py:84
-msgid "Choose"
-msgstr "Вибрати"
-
-#: qt/aqt/deckchooser.py:88
-msgid "Choose Deck"
-msgstr "Оберіть Колоду"
-
-#: qt/aqt/modelchooser.py:85
-msgid "Choose Note Type"
-msgstr "Оберіть Тип Нотатки"
-
-#: qt/aqt/customstudy.py:103
-msgid "Choose Tags"
-msgstr "Вибрати мітки"
-
-#: qt/aqt/browser.py:1301
-msgid "Clear Unused"
-msgstr "Прибрати невикоритане"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:340
-msgid "Clear Unused Tags"
-msgstr "Очистити невикористані теґи"
-
-#: qt/aqt/models.py:217
-#, python-format
-msgid "Clone: %s"
-msgstr "Клон: %s"
-
-#: qt/aqt/addcards.py:75
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:327
-msgid "Close"
-msgstr "Закрити"
-
-#: qt/aqt/addcards.py:232
-msgid "Close and lose current input?"
-msgstr "Закрити та втратити поточні дані?"
-
-#: qt/aqt/main.py:556
-msgid "Closing..."
-msgstr "Закривається..."
-
-#: qt/aqt/clayout.py:243
-#, fuzzy, python-format
-msgid "Cloze %d"
-msgstr "Картка з пробілами"
-
-#: qt/aqt/editor.py:174
-msgid "Cloze deletion (Ctrl+Shift+C)"
-msgstr "Пропущення для завдання з пропусками (Ctrl+Shift+C [латинське])"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/getaddons.py:52
-msgid "Code:"
-msgstr "Код:"
-
-#: qt/aqt/exporting.py:177
-msgid "Collection exported."
-msgstr "Колекцію експортовано."
-
-#: qt/aqt/importing.py:167
-msgid "Colon"
-msgstr "Двокрапка"
+#: qt/aqt/importing.py:159
+msgid "Tab"
+msgstr "Вкладка"
 
 #: qt/aqt/importing.py:161
 msgid "Comma"
 msgstr "Кома"
 
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:75
-msgid "Config"
-msgstr "Налашт."
+#: qt/aqt/importing.py:163 qt/aqt/reviewer.py:584
+msgid "Space"
+msgstr "Пробіл"
 
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addonconf.py:73
-msgid "Configuration"
-msgstr "Налаштування"
+#: qt/aqt/importing.py:165
+msgid "Semicolon"
+msgstr "Крапка з комою"
 
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:140
-msgid "Configure interface language and options"
-msgstr "Вибіо мови інтерфейсу та інших налаштувань"
+#: qt/aqt/importing.py:167
+msgid "Colon"
+msgstr "Двокрапка"
 
-#: qt/aqt/reviewer.py:96
-msgid "Continue"
-msgstr "Продовжити"
-
-#: qt/aqt/about.py:86
-msgid "Copied to clipboard"
-msgstr "Скопійовано до буфера обміну"
-
-#: qt/aqt/editor.py:1211 qt/aqt/webview.py:289
-msgid "Copy"
-msgstr "Копіювати"
-
-#: qt/aqt/about.py:88
-msgid "Copy Debug Info"
-msgstr "Скопіювати інформацію налагодження"
-
-#: qt/aqt/utils.py:148
-msgid "Copy to Clipboard"
-msgstr "Копіювати до буферу обміну"
-
-#: pylib/anki/stats.py:173
+#: qt/aqt/importing.py:170
 #, python-format
-msgid "Correct answers on mature cards: %(a)d/%(b)d (%(c).1f%%)"
-msgstr "Правильні відповіді по зрілим карткам: %(a)d/%(b)d (%(c).1f%%)"
+msgid "Fields separated by: %s"
+msgstr "Поля, розділені: %s"
 
-#: pylib/anki/stats.py:713
+#: qt/aqt/importing.py:176
+msgid "The first field of the note type must be mapped."
+msgstr "Для першого поля типу нотатки має бути відповідник."
+
+#: qt/aqt/importing.py:211 qt/aqt/importing.py:524
+msgid "Importing complete."
+msgstr "Імпорт завершено."
+
+#: qt/aqt/importing.py:251
 #, python-format
-msgid "Correct: <b>%(pct)0.2f%%</b><br>(%(good)d of %(tot)d)"
-msgstr "Вірно: <b>%(pct)0.2f%%</b><br>(%(good)d з %(tot)d)"
+msgid "Field <b>%d</b> of file is:"
+msgstr "Поле <b>%d</b> з файлу:"
 
-#: qt/aqt/addons.py:471
-msgid "Corrupt add-on file."
-msgstr "Пошкоджено файл додатку."
+#: qt/aqt/importing.py:254
+msgid "mapped to <b>Tags</b>"
+msgstr "співставлено з <b>мітками</b>"
 
-#: qt/aqt/editor.py:751
-msgid "Couldn't record audio. Have you installed 'lame'?"
-msgstr "Не вдається записати звук. Чи встановлено у Вас «lame»?"
-
-#: qt/aqt/exporting.py:145
+#: qt/aqt/importing.py:256
 #, python-format
-msgid "Couldn't save file: %s"
-msgstr "Не вдалося зберегти файл: %s"
+msgid "mapped to <b>%s</b>"
+msgstr "відображувати на <b>%s</b>"
 
-#: pylib/anki/stats.py:350 pylib/anki/stats.py:370
-msgid "Cram"
-msgstr "Зубріння"
+#: qt/aqt/importing.py:258
+msgid "<ignored>"
+msgstr "<ignored>"
 
-#: qt/aqt/deckbrowser.py:309
-msgid "Create Deck"
-msgstr "Створити колоду"
+#: qt/aqt/importing.py:260
+msgid "Change"
+msgstr "Змінити"
 
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:155
-msgid "Create Filtered Deck..."
-msgstr "Створити відфільтровану колоду..."
+#: qt/aqt/importing.py:303
+msgid "Selected file was not in UTF-8 format. Please see the importing section of the manual."
+msgstr "Обнаний файл не був у форматі UTF-8. Перегляньте розділ \"Імпортування\" в інструкції користувача."
 
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/modelopts.py:66
-msgid "Create scalable images with dvisvgm"
-msgstr "Створити масштабуєме зображення за допомогою dvisvgm"
+#: qt/aqt/importing.py:321
+msgid ".anki files are from a very old version of Anki. You can import them with Anki 2.0, available on the Anki website."
+msgstr "Файли .anki з дуже старої версії Anki. Ви можете імпортувати їх у версії Anki 2.0, яка доступна на сайті."
 
-#: qt/aqt/browser.py:745
-msgid "Created"
-msgstr "Створено"
+#: qt/aqt/importing.py:328
+msgid ".anki2 files are not directly importable - please import the .apkg or .zip file you have received instead."
+msgstr "Файли .anki2 напряму не імпортуються — будь ласка, імпортуйте .apkg чи .zip файл який Ви отримали."
 
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:344
-msgid "Ctrl+Shift+E"
-msgstr "Ctrl+Shift+E [латинське]"
+#: qt/aqt/importing.py:367
+msgid "Unknown file format."
+msgstr "Невідомий формат файлу."
 
-#: pylib/anki/stats.py:221
-msgid "Cumulative"
-msgstr "Сукупно"
+#: qt/aqt/importing.py:403
+#, fuzzy
+msgid "    Invalid file. Please restore from backup."
+msgstr "Недійсний файл. Відновіть з резервної копії."
 
-#: pylib/anki/stats.py:382
+#: qt/aqt/importing.py:412
+#, fuzzy
+msgid "    Unable to import from a read-only file."
+msgstr "Неможливо імпортувати файл, призначений лише для зчитування."
+
+#: qt/aqt/importing.py:434
+msgid "This file does not appear to be a valid .apkg file. If you're getting this error from a file downloaded from AnkiWeb, chances are that your download failed. Please try again, and if the problem persists, please try again with a different browser."
+msgstr "Файл, здається, не є справжнім файлом .apkg. Якщо ви отримуєте помилку з файлу, завантаженого з AnkiWeb, існує вірогідність, що скачування файлу не пройшло успішно. Будь ласка, повторіть спробу, і якщо проблема не зникне, спробуйте скачати файл в іншому браузері."
+
+#: qt/aqt/importing.py:454
+msgid "This will delete your existing collection and replace it with the data in the file you're importing. Are you sure?"
+msgstr "Це видалить вашу існуючу колекцію колод та замінить дані у файлі, що ви імпортуєте. Ви впевнені?"
+
+#: qt/aqt/importing.py:494
 #, python-format
-msgid "Cumulative %s"
-msgstr "Сумарно %s"
+msgid "Processed %d media file"
+msgid_plural "Processed %d media files"
+msgstr[0] "Оброблено %d медіафайл"
+msgstr[1] "Оброблено %d медіафайл"
+msgstr[2] "Оброблено %d медіафайл"
 
-#: pylib/anki/stats.py:357
-msgid "Cumulative Answers"
-msgstr "Сумарно по відповідях"
-
-#: pylib/anki/stats.py:236 pylib/anki/stats.py:310
-msgid "Cumulative Cards"
-msgstr "Сумарно по картках"
-
-#: qt/aqt/browser.py:1115 qt/aqt/browser.py:1255
-msgid "Current Deck"
-msgstr "Поточна колода"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/changemodel.py:112
-msgid "Current note type:"
-msgstr "Поточний тип нотатки:"
-
-#: qt/aqt/overview.py:258
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:103
-msgid "Custom Study"
-msgstr "Додаткове навчання"
-
-#: qt/aqt/customstudy.py:141 qt/aqt/customstudy.py:153
-msgid "Custom Study Session"
-msgstr "Сесія додаткового навчання"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:149
-msgid "Custom steps (in minutes)"
-msgstr "Користувацькі кроки (в хвилинах)"
-
-#: qt/aqt/editor.py:133
-msgid "Customize Card Templates (Ctrl+L)"
-msgstr "Редагувати шаблон карток (Ctrl+L)"
-
-#: qt/aqt/editor.py:125
-msgid "Customize Fields"
-msgstr "Змінити поля"
-
-#: qt/aqt/editor.py:1209
-msgid "Cut"
-msgstr "Вирізати"
-
-#: pylib/anki/stats.py:407
-msgid "Days studied"
-msgstr "Днів роботи з програмою"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/debug.py:56
-msgid "Debug Console"
-msgstr "Консоль зневаджування"
-
-#: qt/aqt/browser.py:743 qt/aqt/deckbrowser.py:147 qt/aqt/deckchooser.py:29
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:108
-msgid "Deck"
-msgstr "Колода"
-
-#: qt/aqt/clayout.py:695
-msgid "Deck Override..."
-msgstr "Заміна колоди…"
-
-#: qt/aqt/main.py:1602
-msgid "Deck will be imported when a profile is opened."
-msgstr "Колоду буде імпортовано під час відкриття профілю."
-
-#: qt/aqt/browser.py:1329 qt/aqt/toolbar.py:105
-msgid "Decks"
-msgstr "Колоди"
-
-#: pylib/anki/consts.py:119
-msgid "Decreasing intervals"
-msgstr "Нисхідні інтервали"
-
-#: qt/aqt/deckchooser.py:51 qt/aqt/deckchooser.py:55 qt/aqt/deckchooser.py:77
-msgid "Default"
-msgstr "Типовий"
-
-#: pylib/anki/stats.py:596
-msgid "Delays until reviews are shown again."
-msgstr "Час, через який будуть знову показуватися картки для повторювання."
-
-#: qt/aqt/deckbrowser.py:234 qt/aqt/deckconf.py:91 qt/aqt/models.py:59
-#: qt/aqt/reviewer.py:812
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:78
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:332
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:104
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/profiles.py:84
-msgid "Delete"
-msgstr "Видалити"
-
-#: qt/aqt/deckbrowser.py:280
-msgid "Delete Deck"
-msgstr "Видалити колоду"
-
-#: qt/aqt/reviewer.py:731
-msgid "Delete Note"
-msgstr "Видалити нотатку"
-
-#: qt/aqt/browser.py:1547
-msgid "Delete Notes"
-msgstr "Видалити нотатки"
-
-#: qt/aqt/browser.py:1639
-msgid "Delete Tags"
-msgstr "Видалити мітки"
-
-#: qt/aqt/fields.py:126
-#, python-format
-msgid "Delete field from %s?"
-msgstr "Видалити поле з %s?"
-
-#: qt/aqt/addons.py:845
-#, python-format
-msgid "Delete the %(num)d selected add-on?"
-msgid_plural "Delete the %(num)d selected add-ons?"
-msgstr[0] "Видалити %(num)d вибране розширення?"
-msgstr[1] "Видалити %(num)d вибрані розширення?"
-msgstr[2] "Видалити %(num)d вибраних розширень?"
-
-#: qt/aqt/clayout.py:561
-#, python-format
-msgid "Delete the '%(a)s' card type, and its %(b)s?"
-msgstr "Видалити тип картки '%(a)s', та її %(b)s?"
-
-#: qt/aqt/models.py:134
-msgid "Delete this note type and all its cards?"
-msgstr "Видалити цей тип нотатки та всі картки цього типу?"
-
-#: qt/aqt/models.py:136
-msgid "Delete this unused note type?"
-msgstr "Видалити цей невикористаний тип нотаток?"
-
-#: qt/aqt/overview.py:197
-msgid "Deleting this deck from the deck list will return all remaining cards to their original deck."
-msgstr "Після видалення цієї колоди з переліку колод усі залишкові картки буде повернуто до їхньої оригінальної колоди."
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:382
-msgid "Description"
-msgstr "Опис"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:381
-msgid "Description to show on overview screen, for current deck:"
-msgstr "Опис для показу на екрані перегляду, для поточної колоди:"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:135
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/editaddon.py:42
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/editcurrent.py:43
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/progress.py:42
-msgid "Dialog"
-msgstr "Діалог"
-
-#: qt/aqt/addons.py:1115
-msgid "Download complete. Please restart Anki to apply changes."
-msgstr "Завантаження виконано. Будь ласка, перезавантажте Anki щоб зміни вступили в силу."
-
-#: qt/aqt/addons.py:491
-#, python-format
-msgid "Downloaded %(fname)s"
-msgstr "Завантажене %(fname)s"
-
-#. T: "%(a)d" is the index of the element currently
-#. downloaded. "%(b)d" is the number of element to download,
-#. and "%(kb)0.2f" is the number of downloaded
-#. kilobytes. This lead for example to "Downloading 3/5
-#. (27KB)"
-#: qt/aqt/addons.py:1094
-#, python-format
-msgid "Downloading %(a)d/%(b)d (%(kb)0.2fKB)..."
-msgstr "Завантаження %(a)d/%(b)d (%(kb)0.2fкБ)…"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:115
-msgid "Due cards only"
-msgstr "Лише очікувані картки"
-
-#: pylib/anki/stats.py:261
-msgid "Due tomorrow"
-msgstr "Очікуються завтра"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:138
-msgid "E&xit"
-msgstr "&Вихід"
-
-#: qt/aqt/browser.py:750
-msgid "Ease"
-msgstr "Легкість"
-
-#: qt/aqt/reviewer.py:633 qt/aqt/reviewer.py:639
-msgid "Easy"
-msgstr "Легко"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:353
-msgid "Easy bonus"
-msgstr "Бонус легкості"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:345
-msgid "Easy interval"
-msgstr "Інтервал легкості"
-
-#: qt/aqt/reviewer.py:572
-msgid "Edit"
-msgstr "Редагування"
-
-#: qt/aqt/addcards.py:149
-#, python-format
-msgid "Edit \"%s\""
-msgstr "Редагувати «%s»"
-
-#: qt/aqt/editcurrent.py:20
-msgid "Edit Current"
-msgstr "Редагувати поточну"
-
-#: qt/aqt/editor.py:959
-msgid "Edit HTML"
-msgstr "Редагувати HTML"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:107
-msgid "Editing Font"
-msgstr "Шрифт режиму редагування"
-
-#: qt/aqt/overview.py:256
-msgid "Empty"
-msgstr "Спорожнити"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:154
-msgid "Empty Cards..."
-msgstr "Порожні картки..."
-
-#: pylib/anki/importing/noteimp.py:156
-#, python-format
-msgid "Empty first field: %s"
-msgstr "Порожнє перше поле: %s"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:146
-msgid "Enable second filter"
-msgstr "Використовувати другий фільтр"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:326
-msgid "End"
-msgstr "Кінець"
-
-#: qt/aqt/clayout.py:740
-#, python-format
-msgid "Enter deck to place new %s cards in, or leave blank:"
-msgstr "Вкажіть колоду, до якої помістити нові %s картки або залиште порожнім:"
-
-#: qt/aqt/clayout.py:600
-#, python-format
-msgid "Enter new card position (1...%s):"
-msgstr "Введіть нову позицію картки (1...%s):"
-
-#: qt/aqt/browser.py:1619
-msgid "Enter tags to add:"
-msgstr "Введіть мітки, які треба додати до виділених карток"
-
-#: qt/aqt/browser.py:1641
-msgid "Enter tags to delete:"
-msgstr "Введіть мітки для видалення з виділених карток"
-
-#: qt/aqt/addons.py:478
-#, python-format
-msgid "Error downloading <i>%(id)s</i>: %(error)s"
-msgstr "Помилка завантаження <i>%(id)s</i>: %(error)s"
+#: qt/aqt/importing.py:516
+msgid "The provided file is not a valid .apkg file."
+msgstr "Вибраний файл не є справжнім файлом .apkg."
 
 #: qt/aqt/main.py:123
 #, python-format
@@ -1431,319 +2887,100 @@ msgstr ""
 "Помилка під час запуску:\n"
 "%s"
 
-#: pylib/anki/latex.py:176
+#: qt/aqt/main.py:129
+msgid "Shift key was held down. Skipping automatic syncing and add-on loading."
+msgstr "Під час запуску програми було утримано клавішу \"Shift\". Відключено автоматичну синхронізацію та підключення розширень програми під час запуску."
+
+#: qt/aqt/main.py:294 qt/aqt/models.py:123
+msgid "Name:"
+msgstr "Назва:"
+
+#: qt/aqt/main.py:297 qt/aqt/main.py:311
+msgid "Name exists."
+msgstr "Ім'я вже існує."
+
+#: qt/aqt/main.py:320
+msgid "There must be at least one profile."
+msgstr "Має бути як мінімум один профіль."
+
+#: qt/aqt/main.py:324
+msgid "All cards, notes, and media for this profile will be deleted. Are you sure?"
+msgstr "Всі картки, записи та медіа-файли для цього профілю будуть видалені. Ви певні?"
+
+#: qt/aqt/main.py:338
+msgid "Replace your collection with an earlier backup?"
+msgstr "Замінити колекцію старішею резервною копією?"
+
+#: qt/aqt/main.py:351
+msgid "Revert to backup"
+msgstr "Відновити до резервної копі"
+
+#: qt/aqt/main.py:364
+msgid "Unable to move existing file to trash - please try restarting your computer."
+msgstr ""
+
+#: qt/aqt/main.py:374
+msgid "Automatic syncing and backups have been disabled while restoring. To enable them again, close the profile or restart Anki."
+msgstr "Автоматична синхронізація і резервне копіювання вимкнені при відновлені. Для увімкнення закрийте профіль чи перезапустіть Anki."
+
+#: qt/aqt/main.py:556
+msgid "Closing..."
+msgstr "Закривається..."
+
+#: qt/aqt/main.py:558
+msgid "Backing Up..."
+msgstr "Резервне копіювання..."
+
+#: qt/aqt/main.py:578
+msgid "Your collection file appears to be corrupt. This can happen when the file is copied or moved while Anki is open, or when the collection is stored on a network or cloud drive. If problems persist after restarting your computer, please open an automatic backup from the profile screen."
+msgstr ""
+
+#: qt/aqt/main.py:644
+msgid "Optimizing..."
+msgstr "Оптимізую..."
+
+#: qt/aqt/main.py:675
+msgid "Please select a deck."
+msgstr "Оберіть колоду"
+
+#: qt/aqt/main.py:735
+msgid "Waiting for editing to finish."
+msgstr "Чекаю на звершення редагування."
+
+#: qt/aqt/main.py:736
+msgid "Resume Now"
+msgstr "Продовжити зараз"
+
+#: qt/aqt/main.py:1036
 #, python-format
-msgid "Error executing %s."
-msgstr "Помилка виконання %s."
+msgid "Reverted to state prior to '%s'."
+msgstr "Повернення до стану перед '%s'."
 
-#: qt/aqt/addons.py:480
+#: qt/aqt/main.py:1042
 #, python-format
-msgid "Error installing <i>%(base)s</i>: %(error)s"
-msgstr "Помилка встановлення <i>%(base)s</i>: %(error)s"
+msgid "Undo %s"
+msgstr "Відмінити - %s"
 
-#: qt/aqt/sound.py:502
-#, python-format
-msgid "Error running %s"
-msgstr "Помилка запуску %s"
+#: qt/aqt/main.py:1046
+msgid "Undo"
+msgstr "Скасувати"
 
-#: qt/aqt/deckbrowser.py:232 qt/aqt/exporting.py:124
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/exporting.py:76
-msgid "Export"
-msgstr "Експорт колоди в інший формат"
-
-#: qt/aqt/exporting.py:58
-msgid "Export..."
-msgstr "Експорт ..."
-
-#: qt/aqt/exporting.py:154
-#, python-format
-msgid "Exported %d media file"
-msgid_plural "Exported %d media files"
-msgstr[0] "Експортовано %d медіафайли"
-msgstr[1] "Експортовано %d медіафайли"
-msgstr[2] "Експортовано %d медіафайли"
-
-#: qt/aqt/importing.py:251
-#, python-format
-msgid "Field <b>%d</b> of file is:"
-msgstr "Поле <b>%d</b> з файлу:"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:114
-msgid "Field mapping"
-msgstr "Відповідність полів"
-
-#: qt/aqt/fields.py:110
-msgid "Field name:"
-msgstr "Назва поля:"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addfield.py:63
-msgid "Field:"
-msgstr "Поле:"
-
-#: qt/aqt/editor.py:126 qt/aqt/fields.py:23
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/changemodel.py:115
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:102
-msgid "Fields"
-msgstr "Поля"
-
-#: qt/aqt/fields.py:27
-#, python-format
-msgid "Fields for %s"
-msgstr "Поля для %s"
-
-#: qt/aqt/importing.py:170
-#, python-format
-msgid "Fields separated by: %s"
-msgstr "Поля, розділені: %s"
-
-#: qt/aqt/models.py:65
-msgid "Fields..."
-msgstr "Поля..."
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:319
-msgid "Fil&ter"
-msgstr "Фільl&тр"
-
-#: pylib/anki/importing/mnemo.py:24
-msgid "File version unknown, trying import anyway."
-msgstr "Невідома версія файлу, все одно спробувати імпортувати."
-
-#: qt/aqt/browser.py:1319
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:136
-msgid "Filter"
-msgstr "Фільтр"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:140
-msgid "Filter 2"
-msgstr "Фільтр 2"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:299
-msgid "Filter..."
-msgstr "Фільтрація…"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/studydeck.py:48
-msgid "Filter:"
-msgstr "Фільтр:"
+#: qt/aqt/main.py:1122
+msgid "Please use File>Import to import this file."
+msgstr "Щоб імпортувати цей файл, виконайте команду \"Файл>Імпортувати\"."
 
 #: qt/aqt/main.py:1164 qt/aqt/main.py:1166
 #, python-format
 msgid "Filtered Deck %d"
 msgstr "Відфільтрована колода %d"
 
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:321
-msgid "Find &Duplicates..."
-msgstr "Пошук &дублікатів..."
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/finddupes.py:71
-msgid "Find Duplicates"
-msgstr "Пошук дублікатів"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:317
-msgid "Find and Re&place..."
-msgstr "&Знайти і замінити..."
-
-#: qt/aqt/browser.py:1909
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/findreplace.py:87
-msgid "Find and Replace"
-msgstr "Знайти і замінити"
-
-#: qt/aqt/reviewer.py:95
-msgid "Finish"
-msgstr "Завершено"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:323
-msgid "First Card"
-msgstr "Перша картка"
-
-#: pylib/anki/importing/noteimp.py:138
+#: qt/aqt/main.py:1222
 #, python-format
-msgid "First field matched: %s"
-msgstr "Перше поле співпало: %s"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:304
-msgid "Flag"
-msgstr "Прапорець"
-
-#: qt/aqt/reviewer.py:698
-msgid "Flag Card"
-msgstr "Встановити прапорець"
-
-#: qt/aqt/clayout.py:394
-msgid "Flip"
-msgstr "Перевернути"
-
-#: qt/aqt/profiles.py:312
-msgid "Folder already exists."
-msgstr "Тека вже існує."
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addfield.py:65
-msgid "Font:"
-msgstr "Шрифт:"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/modelopts.py:68
-msgid "Footer"
-msgstr "Нижній колонтитул"
-
-#: pylib/anki/latex.py:134
-#, python-format
-msgid "For security reasons, '%s' is not allowed on cards. You can still use it by placing the command in a different package, and importing that package in the LaTeX header instead."
-msgstr "З метою безпеки, '%s' не дозволяється зазначати на картках. Ви все ще можете використовувати це шляхом розміщення даної команди в іншому пакеті та імпортування цього пакету у заголовок LaTeX."
-
-#: pylib/anki/stats.py:228
-msgid "Forecast"
-msgstr "Прогноз"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/clayout_top.py:54
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/template.py:73
-msgid "Form"
-msgstr "Форма"
-
-#: qt/aqt/browser.py:1996
-#, python-format
-msgid "Found %(a)s across %(b)s."
-msgstr "Знайдено %(a)s в %(b)s."
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:380
-msgid "General"
-msgstr "Загальне"
-
-#: pylib/anki/latex.py:177
-#, python-format
-msgid "Generated file: %s"
-msgstr "Згенерований файл: %s"
-
-#: pylib/anki/stats.py:941
-#, python-format
-msgid "Generated on %s"
-msgstr "Згенеровано на %s"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:71
-msgid "Get Add-ons..."
-msgstr "Отримання доповнення…"
-
-#: qt/aqt/deckbrowser.py:308
-msgid "Get Shared"
-msgstr "Колоди загального користування"
-
-#: qt/aqt/reviewer.py:630 qt/aqt/reviewer.py:633 qt/aqt/reviewer.py:638
-msgid "Good"
-msgstr "Пам'ятаю"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:346
-msgid "Graduating interval"
-msgstr "Градуйований інтервал"
-
-#: qt/aqt/browser.py:1286 qt/aqt/reviewer.py:713
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:337
-msgid "Green Flag"
-msgstr "Зелений прапорець"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/edithtml.py:39
-msgid "HTML Editor"
-msgstr "Редактор HTML"
-
-#: qt/aqt/reviewer.py:637
-msgid "Hard"
-msgstr "тяжко"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:361
-msgid "Hard interval"
-msgstr "Інтервал для «Важко»"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:279
-msgid "Hardware acceleration (faster, may cause display issues)"
-msgstr "Апаратне прискорення (швидше, але може викликати проблеми зображення)"
-
-#: pylib/anki/latex.py:185
-msgid "Have you installed latex and dvipng/dvisvgm?"
-msgstr "Ви встановили latex та dvipng/dvisvgm?"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/modelopts.py:67
-msgid "Header"
-msgstr "Верхній колонтитул"
-
-#: qt/aqt/addcards.py:79 qt/aqt/clayout.py:384 qt/aqt/utils.py:212
-#: qt/aqt/utils.py:213
-msgid "Help"
-msgstr "Допомога"
-
-#: pylib/anki/stats.py:879
-msgid "Highest ease"
-msgstr "Найвища легкість"
-
-#: qt/aqt/addcards.py:83
-msgid "History"
-msgstr "Історія"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:324
-msgid "Home"
-msgstr "Домівка"
-
-#: pylib/anki/stats.py:791
-msgid "Hourly Breakdown"
-msgstr "Погодинна розбивка"
-
-#: pylib/anki/stats.py:377
-msgid "Hours"
-msgstr "Години"
-
-#: pylib/anki/stats.py:821
-msgid "Hours with less than 30 reviews are not shown."
-msgstr "Години з менше ніж 30 повтореними картками не показано."
-
-#: pylib/anki/importing/anki2.py:166
-msgid "Identical"
-msgstr "Тотожні"
-
-#: qt/aqt/about.py:221
-msgid "If you have contributed and are not on this list, please get in touch."
-msgstr "Якщо ви зробили свій внесок у розвиток програми, але не зазначені в цьому списку, будь ласка, зв'яжіться з нами."
-
-#: pylib/anki/stats.py:427
-msgid "If you studied every day"
-msgstr "Якби ви вчились щодня"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:375
-msgid "Ignore answer times longer than"
-msgstr "Не враховувати час відповіді довше ніж"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/findreplace.py:92
-msgid "Ignore case"
-msgstr "Без урахування регістру"
-
-#: qt/aqt/importing.py:53
-msgid "Ignore field"
-msgstr "Ігнорувати поле"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:110
-msgid "Ignore lines where first field matches existing note"
-msgstr "Ігнорувати рядки, в яких перше поле має відповідник в існуючій нотатці"
-
-#: qt/aqt/update.py:64
-msgid "Ignore this update"
-msgstr "Ігнорувати це оновлення"
-
-#: qt/aqt/importing.py:103 qt/aqt/importing.py:189 qt/aqt/importing.py:311
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/changemap.py:43
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:105
-msgid "Import"
-msgstr "Імпорт"
-
-#: qt/aqt/deckbrowser.py:310
-msgid "Import File"
-msgstr "Імпортувати файл"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:111
-msgid "Import even if existing note has same first field"
-msgstr "Імпортувати, навіть якщо існуюча нотатка містить однакове перше поле"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:106
-msgid "Import options"
-msgstr "Параметри імпорту"
-
-#: qt/aqt/importing.py:211 qt/aqt/importing.py:524
-msgid "Importing complete."
-msgstr "Імпорт завершено."
+msgid "%s second"
+msgid_plural "%s seconds"
+msgstr[0] "%s секунда"
+msgstr[1] "%s секунди"
+msgstr[2] "%s секунд"
 
 #: qt/aqt/main.py:1225
 #, python-format
@@ -1772,1016 +3009,155 @@ msgstr ""
 "\n"
 "Різниця з правильним часом: %s."
 
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/exporting.py:82
-msgid "Include HTML and media references"
-msgstr "Включити HTML і медіа посилання"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/exporting.py:80
-msgid "Include media"
-msgstr "Включити медіа-файли"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/exporting.py:79
-msgid "Include scheduling information"
-msgstr "Включити інформацію про розклад"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/exporting.py:81
-msgid "Include tags"
-msgstr "Включити мітки"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:106
-msgid "Increase today's new card limit"
-msgstr "Збільшити ліміт нових карток на сьогодні"
-
-#: qt/aqt/customstudy.py:72
-msgid "Increase today's new card limit by"
-msgstr "Збільшити ліміт нових карток на сьогодні на"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:107
-msgid "Increase today's review card limit"
-msgstr "Збільшити ліміт карток для повторення на сьогодні"
-
-#: qt/aqt/customstudy.py:84
-msgid "Increase today's review limit by"
-msgstr "Збільшити ліміт повторень на сьогодні на"
-
-#: pylib/anki/consts.py:118
-msgid "Increasing intervals"
-msgstr "Зростаючі інтервали"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/getaddons.py:50
-msgid "Install Add-on"
-msgstr "Встановити додаток до програми"
-
-#: qt/aqt/addons.py:874
-msgid "Install Add-on(s)"
-msgstr "Встановити розширення"
-
-#: qt/aqt/addons.py:1420
-msgid "Install Anki add-on"
-msgstr "Встановити доповнення до Anki"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:72
-msgid "Install from file..."
-msgstr "Встановлення з файлу…"
-
-#: qt/aqt/addons.py:1443
-msgid "Installation complete"
-msgstr "Встановлення виконано"
-
-#: qt/aqt/addons.py:493
-#, python-format
-msgid "Installed %(name)s"
-msgstr "Встановлено %(name)s"
-
-#: qt/aqt/addons.py:1024
-msgid "Installed successfully."
-msgstr "Встановлено успішно."
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/setlang.py:42
-msgid "Interface language:"
-msgstr "Мова інтерфейсу:"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:281
-msgid "Interrupt current audio when answering"
-msgstr "Зупиняти відтворення звуку після відповіді"
-
-#: qt/aqt/browser.py:749
-msgid "Interval"
-msgstr "Інтервал"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:355
-msgid "Interval modifier"
-msgstr "Модифікатор інтервалу"
-
-#: pylib/anki/stats.py:596
-msgid "Intervals"
-msgstr "Інтервали"
-
-#: qt/aqt/addons.py:472
-msgid "Invalid add-on manifest."
-msgstr "Невірний маніфест розширення."
-
-#: qt/aqt/addons.py:1011
-msgid "Invalid code, or add-on not available for your version of Anki."
-msgstr "Неприпустимий код, або доповнення недоступне для цієї версії Anki."
-
-#: qt/aqt/addons.py:937
-msgid "Invalid code."
-msgstr "Недійсний код."
-
-#: qt/aqt/addons.py:1376
-msgid "Invalid configuration: "
-msgstr "Неприпустима конфігурація:"
-
-#: qt/aqt/addons.py:1380
-msgid "Invalid configuration: top level object must be a map"
-msgstr "Неприпустима конфігурація: Об'єкт верхнього рівня повинен зображатися"
-
 #: qt/aqt/main.py:1288
 msgid "Invalid property found on card. Please use Tools>Check Database, and if the problem comes up again, please ask on the support site."
 msgstr "У картці знайдено недійсну властивість. Будь ласка, виконайте команду Інструменти>Перевірити базу даних, а при повторній появі проблеми поставте про це питання на сайті підтримки."
 
-#: qt/aqt/reviewer.py:687
-msgid "It has been suspended."
-msgstr "Відкладено."
-
-#: qt/aqt/editor.py:145
-msgid "Italic text (Ctrl+I)"
-msgstr "Курсив (Ctrl+I[латинське])"
-
-#: qt/aqt/editor.py:580
-msgid "Jump to tags with Ctrl+Shift+T"
-msgstr "Перейти до міток з  Ctrl+Shift+T"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:308
-msgid "Keep"
-msgstr "Зберігати до"
-
-#: qt/aqt/editor.py:956
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/modelopts.py:69
-msgid "LaTeX"
-msgstr "LaTeX"
-
-#: qt/aqt/editor.py:957
-msgid "LaTeX equation"
-msgstr "Рівняння LaTeX"
-
-#: qt/aqt/editor.py:958
-msgid "LaTeX math env."
-msgstr "Математичне оточення LaTeX"
-
-#: qt/aqt/browser.py:752
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:374
-msgid "Lapses"
-msgstr "Невдачі"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:325
-msgid "Last Card"
-msgstr "Остання картка"
-
-#: pylib/anki/consts.py:123
-msgid "Latest added first"
-msgstr "Спочатку додані останніми"
-
-#: pylib/anki/stats.py:349 pylib/anki/stats.py:369
-msgid "Learn"
-msgstr "Вчити"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:297
-msgid "Learn ahead limit"
-msgstr "Ліміт карток для вивчення наперед на"
-
-#: pylib/anki/stats.py:160
-#, python-format
-msgid "Learn: %(a)s, Review: %(b)s, Relearn: %(c)s, Filtered: %(d)s"
-msgstr "Вивчити: %(a)s, Повторити: %(b)s, Перевчити: %(c)s, Відфільтровано: %(d)s"
-
-#: pylib/anki/stats.py:686 qt/aqt/browser.py:1277 qt/aqt/overview.py:231
-msgid "Learning"
-msgstr "Навчання"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:368
-msgid "Leech action"
-msgstr "Дія щодо приставучих карток"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:366
-msgid "Leech threshold"
-msgstr "Поріг для приставучих карток"
-
-#: pylib/anki/consts.py:109
-msgid "Left"
-msgstr "Зліва"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:137
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:141
-msgid "Limit to"
-msgstr "Обмежити"
-
-#: qt/aqt/utils.py:57
-msgid "Loading..."
-msgstr "Завантаження..."
-
-#: pylib/anki/stats.py:619
-msgid "Longest interval"
-msgstr "Найдовший інтервал"
-
-#: pylib/anki/stats.py:877
-msgid "Lowest ease"
-msgstr "Найменша легкість"
-
-#: qt/aqt/modelchooser.py:76
-msgid "Manage"
-msgstr "Управління"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:156
-msgid "Manage Note Types"
-msgstr "Керувати типами записів"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:341
-msgid "Manage Note Types..."
-msgstr "Управління типами нотаток..."
-
-#: qt/aqt/browser.py:1337
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:341
-msgid "Manage..."
-msgstr "Керування…"
-
-#: qt/aqt/overview.py:131
-msgid "Manually Buried Cards"
-msgstr "Вручну відкладені картки"
-
-#: qt/aqt/importing.py:46
-#, python-format
-msgid "Map to %s"
-msgstr "Підмапитись до %s"
-
-#: qt/aqt/importing.py:52
-msgid "Map to Tags"
-msgstr "Співставити з мітками"
-
-#: qt/aqt/reviewer.py:726
-msgid "Mark Note"
-msgstr "Позначити запис"
-
-#: qt/aqt/editor.py:954
-msgid "MathJax block"
-msgstr ""
-
-#: qt/aqt/editor.py:955
-msgid "MathJax chemistry"
-msgstr "MathJax для хімії"
-
-#: qt/aqt/editor.py:953
-msgid "MathJax inline"
-msgstr "MathJax в рядку"
-
-#: pylib/anki/stats.py:213 pylib/anki/stats.py:346 pylib/anki/stats.py:366
-#: pylib/anki/stats.py:688 pylib/anki/stats.py:858
-msgid "Mature"
-msgstr "Зрілі"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:357
-msgid "Maximum interval"
-msgstr "Максимальний інтервал"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:356
-msgid "Maximum reviews/day"
-msgstr "Максимальна кількість повторених карток в день."
-
-#: qt/aqt/editor.py:713
-msgid "Media"
-msgstr "Медіа-файли"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:369
-msgid "Minimum interval"
-msgstr "Мінімальний інтервал"
-
-#: pylib/anki/stats.py:374
-msgid "Minutes"
-msgstr "Хвилини"
-
-#: pylib/anki/consts.py:100
-msgid "Mix new cards and reviews"
-msgstr "Змішати нові картки з переглянутими"
-
-#: pylib/anki/importing/__init__.py:15
-msgid "Mnemosyne 2.0 Deck (*.db)"
-msgstr "Колода Mnemosyne 2.0 (*.db)"
-
-#: qt/aqt/reviewer.py:574
-msgid "More"
-msgstr "Більше"
-
-#: pylib/anki/consts.py:120
-msgid "Most lapses"
-msgstr "Найбільше невдач"
-
-#: qt/aqt/browser.py:1593
-msgid "Move Cards"
-msgstr "Перемістити картки"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/setgroup.py:41
-msgid "Move cards to deck:"
-msgstr "Перемістити картки в колоду:"
-
-#: qt/aqt/importing.py:137
-msgid "Multi-character separators are not supported. Please enter one character only."
-msgstr "Багатосимвольні розділювачі не підтримуються. Будь ласка, введіть тільки один символ."
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:311
-msgid "N&ote"
-msgstr "Н&отатка"
-
-#: qt/aqt/main.py:297 qt/aqt/main.py:311
-msgid "Name exists."
-msgstr "Ім'я вже існує."
-
-#: qt/aqt/deckbrowser.py:82
-msgid "Name for deck:"
-msgstr "Назва колоди:"
-
-#: qt/aqt/main.py:294 qt/aqt/models.py:123
-msgid "Name:"
-msgstr "Назва:"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:306
-msgid "Network"
-msgstr "Синхронізація"
-
-#: qt/aqt/browser.py:1276 qt/aqt/deckbrowser.py:149 qt/aqt/overview.py:229
-msgid "New"
-msgstr "Нові"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:352
-msgid "New Cards"
-msgstr "Нових карток"
-
-#: qt/aqt/customstudy.py:71
-#, python-format
-msgid "New cards in deck over today limit: %s"
-msgstr "Нових карток в колоді поза денним лімітом: %s"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:113
-msgid "New cards only"
-msgstr "Лише нові картки"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:347
-msgid "New cards/day"
-msgstr "Нових карток/день"
-
-#: qt/aqt/deckbrowser.py:246 qt/aqt/sidebar.py:98 qt/aqt/studydeck.py:151
-msgid "New deck name:"
-msgstr "Нова назва колоди:"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:365
-msgid "New interval"
-msgstr "Новий інтервал"
-
-#: qt/aqt/clayout.py:586 qt/aqt/deckconf.py:148 qt/aqt/fields.py:97
-#: qt/aqt/main.py:305 qt/aqt/models.py:87
-msgid "New name:"
-msgstr "Нова назва:"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/changemodel.py:113
-msgid "New note type:"
-msgstr "Новий тип нотаток:"
-
-#: qt/aqt/deckconf.py:121
-msgid "New options group name:"
-msgstr "Нова назва групи налаштувань:"
-
-#: qt/aqt/fields.py:140
-#, python-format
-msgid "New position (1...%d):"
-msgstr "Нова позиція (1...%d):"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:299
-msgid "Next day starts at"
-msgstr "Наступний день починається через"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:284
-msgid "Night mode"
-msgstr "Нічний режим"
-
-#: qt/aqt/browser.py:1288
-msgid "No Flag"
-msgstr "Без прапорців"
-
-#: qt/aqt/overview.py:70
-msgid "No cards are due yet."
-msgstr "Поки нема очікуваних карток."
-
-#: pylib/anki/stats.py:178
-msgid "No cards have been studied today."
-msgstr "Не вчено жодної картки за сьогодні."
-
-#: qt/aqt/customstudy.py:190
-msgid "No cards matched the criteria you provided."
-msgstr "Жодна картка не відповідає вказаним критеріям."
-
-#: pylib/anki/stats.py:176
-msgid "No mature cards were studied today."
-msgstr "Сьогодні не було пройдено жодної зрілої картки."
-
-#: qt/aqt/addons.py:868
-msgid "No updates available."
-msgstr "Нема доступних оновлень."
-
-#: qt/aqt/browser.py:754
-msgid "Note"
-msgstr "Нотатка"
-
-#: qt/aqt/browser.py:1335 qt/aqt/models.py:36
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/models.py:56
-msgid "Note Types"
-msgstr "Типи нотаток"
-
-#: qt/aqt/reviewer.py:818
-#, python-format
-msgid "Note and its %d card deleted."
-msgid_plural "Note and its %d cards deleted."
-msgstr[0] "Нотатку та її  %d картку видалено."
-msgstr[1] "Нотатку та її  %d карток видалено."
-msgstr[2] "Нотатку та її  %d карток видалено."
-
-#: qt/aqt/reviewer.py:833
-msgid "Note buried."
-msgstr "Нотатку поховано."
-
-#: qt/aqt/reviewer.py:798
-msgid "Note suspended."
-msgstr "Нотатку відкладено."
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:311
-msgid "Note: Media is not backed up. Please create a periodic backup of your Anki folder to be safe."
-msgstr "Увага: Медіа-файли не включено до резервної копії. Для певності періодично робіть резервну копію вашої теки з файлами Anki самостійно."
-
-#: pylib/anki/importing/anki2.py:146
-#, python-format
-msgid "Notes added from file: %d"
-msgstr "Записи додані з файлу: %d"
-
-#: pylib/anki/importing/anki2.py:134
-#, python-format
-msgid "Notes found in file: %d"
-msgstr "Записи знайдені в файлі: %d"
-
-#: pylib/anki/exporting.py:125
-msgid "Notes in Plain Text"
-msgstr "Нотатки у неформатованому тексті"
-
-#: qt/aqt/fields.py:123
-msgid "Notes require at least one field."
-msgstr "У нотатках необхідно мінімум одне поле."
-
-#: pylib/anki/importing/anki2.py:149
-#, python-format
-msgid "Notes skipped, as they're already in your collection: %d"
-msgstr "Записи пропущено, оскільки вже є в колекції: %d"
-
-#: qt/aqt/browser.py:2023
-msgid "Notes tagged."
-msgstr "Нотатки з мітками."
-
-#: pylib/anki/importing/anki2.py:138
-#, python-format
-msgid "Notes that could not be imported as note type has changed: %d"
-msgstr "Записи не імпортовано через зміну їх типу: %d"
-
-#: pylib/anki/importing/anki2.py:143
-#, python-format
-msgid "Notes updated, as file had newer version: %d"
-msgstr "Записи оновлено, як файл новішої версії: %d"
-
-#: qt/aqt/browser.py:2180
-msgid "Nothing"
-msgstr "Нічого"
-
-#: qt/aqt/customstudy.py:57
-msgid "OK"
-msgstr "Добре!"
-
-#: pylib/anki/consts.py:116
-msgid "Oldest seen first"
-msgstr "Спочатку найраніше побачені"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:305
-msgid "On next sync, force changes in one direction"
-msgstr "Повна примусова одностороння синхронізація при наступному запуску"
-
-#: qt/aqt/addons.py:1113
-msgid "One or more errors occurred:"
-msgstr "Трапилась одна чи більше помилок:"
-
-#: qt/aqt/browser.py:1734
-msgid "Only new cards can be repositioned."
-msgstr "Можна змінити черговість лише нових карток."
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/profiles.py:81
-msgid "Open"
-msgstr "Відкрити"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/profiles.py:86
-msgid "Open Backup..."
-msgstr "Відкривання резервної копії…"
-
-#: qt/aqt/main.py:644
-msgid "Optimizing..."
-msgstr "Оптимізую..."
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/finddupes.py:72
-msgid "Optional filter:"
-msgstr "Додатковий філтр:"
-
-#: qt/aqt/clayout.py:111 qt/aqt/deckbrowser.py:230 qt/aqt/deckconf.py:37
-#: qt/aqt/dyndeckconf.py:25 qt/aqt/overview.py:252 qt/aqt/reviewer.py:732
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:144
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:110
-msgid "Options"
-msgstr "Опції"
-
-#: qt/aqt/deckconf.py:47 qt/aqt/dyndeckconf.py:28 qt/aqt/models.py:161
-#, python-format
-msgid "Options for %s"
-msgstr "Налаштування для %s"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:340
-msgid "Options group:"
-msgstr "Група налаштувань:"
-
-#: qt/aqt/models.py:70
-msgid "Options..."
-msgstr "Налаштування..."
-
-#: qt/aqt/browser.py:1285 qt/aqt/reviewer.py:707
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:336
-msgid "Orange Flag"
-msgstr "Помаранчевий прапорець"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:344
-msgid "Order"
-msgstr "Порядок"
-
-#: pylib/anki/consts.py:121
-msgid "Order added"
-msgstr "В порядку додавання"
-
-#: pylib/anki/consts.py:122
-msgid "Order due"
-msgstr "В порядку очікування"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browserdisp.py:73
-msgid "Override back template:"
-msgstr "Ігнорувати шаблон зворотньої сторони:"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browserdisp.py:74
-msgid "Override font:"
-msgstr "Ігнорувати шрифт:"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browserdisp.py:72
-msgid "Override front template:"
-msgstr "Ігнорувати шаблон лицьової сторони:"
-
-#: qt/aqt/addons.py:872
-msgid "Packaged Anki Add-on"
-msgstr "Пакунок доповнення Anki"
-
-#: pylib/anki/importing/__init__.py:14
-msgid "Packaged Anki Deck/Collection (*.apkg *.colpkg *.zip)"
-msgstr "Пакунок Anki колода/колекція (*.apkg *.colpkg *.zip)"
-
-#: qt/aqt/editor.py:1213
-msgid "Paste"
-msgstr "Вставити"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:282
-msgid "Paste clipboard images as PNG"
-msgstr "Вставити зображення із буфера обміну у форматі PNG"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:283
-msgid "Paste without shift key strips formatting"
-msgstr "Вставлення без shift прибирає форматування"
-
-#: pylib/anki/importing/__init__.py:17
-msgid "Pauker 1.8 Lesson (*.pau.gz)"
-msgstr "Урок Pauker 1.8 (*.pau.gz)"
-
-#: qt/aqt/reviewer.py:735
-msgid "Pause Audio"
-msgstr "Призупинити звук"
-
-#: pylib/anki/stats.py:599
-msgid "Percentage"
-msgstr "Відсоток"
-
-#: pylib/anki/stats.py:949
-#, python-format
-msgid "Period: %s"
-msgstr "Період: %s"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:304
-msgid "Periodically sync media"
-msgstr ""
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reschedule.py:76
-msgid "Place at end of new card queue"
-msgstr "Помістити в кінець черги нових карток"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reschedule.py:77
-msgid "Place in review queue with interval between:"
-msgstr "Помістити у чергу карток на повтор з інтервалом між:"
-
-#: qt/aqt/models.py:130
-msgid "Please add another note type first."
-msgstr "Спочатку треба додати інший тип нотаток."
-
-#: qt/aqt/addons.py:1017
-msgid "Please check your internet connection."
-msgstr "Будь ласка, перевірте інтернет з'єднання."
-
-#: qt/aqt/errors.py:88
-msgid "Please connect a microphone, and ensure other programs are not using the audio device."
-msgstr "Будь ласка, під'єднайте мікрофон і переконайтеся, що інші програми не використовують аудіо-пристрій."
+#: qt/aqt/main.py:1343 qt/aqt/main.py:1362
+msgid "The requested change will require a full upload of the database when you next synchronize your collection. If you have reviews or other changes waiting on another device that haven't been synchronized here yet, they will be lost. Continue?"
+msgstr "Бажані зміни вимагатимуть повної відправки бази даних під час наступної синхронізації вашої колекції. Якщо у Вас була статистика повторених карток або інші зміни на інших приладах, які ще не було синхронізовано, їх буде втрачено. Продовжити?"
+
+#: qt/aqt/main.py:1537
+msgid "<non-unicode text>"
+msgstr "<текст не в юнікоді>"
+
+#: qt/aqt/main.py:1600
+msgid "Add-on will be installed when a profile is opened."
+msgstr "Додаток буде встановлено після відкриття профілю."
+
+#: qt/aqt/main.py:1602
+msgid "Deck will be imported when a profile is opened."
+msgstr "Колоду буде імпортовано під час відкриття профілю."
 
 #: qt/aqt/main.py:1609
 msgid "Please ensure a profile is open and Anki is not busy, then try again."
 msgstr "Переконайтеся, будь ласка, що профіль відкритий та програма Anki не зайнята, а потім спробуйте знову."
 
-#: qt/aqt/browser.py:1393
-msgid "Please give your filter a name:"
-msgstr "Будь ласка, назвіть свій фільтр:"
+#: qt/aqt/modelchooser.py:44
+msgid "Change Note Type (Ctrl+N)"
+msgstr "Змінити тип нотатки (Ctrl+N)"
 
-#: qt/aqt/profiles.py:307
+#: qt/aqt/modelchooser.py:76
+msgid "Manage"
+msgstr "Управління"
+
+#: qt/aqt/modelchooser.py:85
+msgid "Choose Note Type"
+msgstr "Оберіть Тип Нотатки"
+
+#: qt/aqt/models.py:65
+msgid "Fields..."
+msgstr "Поля..."
+
+#: qt/aqt/models.py:66
+msgid "Cards..."
+msgstr "Картки..."
+
+#: qt/aqt/models.py:70
+msgid "Options..."
+msgstr "Налаштування..."
+
+#: qt/aqt/models.py:130
+msgid "Please add another note type first."
+msgstr "Спочатку треба додати інший тип нотаток."
+
+#: qt/aqt/models.py:134
+msgid "Delete this note type and all its cards?"
+msgstr "Видалити цей тип нотатки та всі картки цього типу?"
+
+#: qt/aqt/models.py:136
+msgid "Delete this unused note type?"
+msgstr "Видалити цей невикористаний тип нотаток?"
+
+#: qt/aqt/models.py:212
 #, python-format
-msgid "Please remove the folder %s and try again."
-msgstr "Будь ласка, видаліть теку %s і повторіть спробу."
+msgid "Add: %s"
+msgstr "Додати: %s"
 
-#: qt/aqt/addons.py:1446
-msgid "Please report this to the respective add-on author(s)."
-msgstr "Будь ласка, повідомте про це автор(у/ці/ам) доповнення."
+#: qt/aqt/models.py:217
+#, python-format
+msgid "Clone: %s"
+msgstr "Клон: %s"
+
+#: qt/aqt/overview.py:70
+msgid "No cards are due yet."
+msgstr "Поки нема очікуваних карток."
+
+#: qt/aqt/overview.py:131
+msgid "Manually Buried Cards"
+msgstr "Вручну відкладені картки"
+
+#: qt/aqt/overview.py:132
+msgid "Buried Siblings"
+msgstr "Відкладані пов'язані"
+
+#: qt/aqt/overview.py:133
+msgid "All Buried Cards"
+msgstr "Всі відкладені картки"
+
+#: qt/aqt/overview.py:137
+msgid "What would you like to unbury?"
+msgstr ""
+
+#: qt/aqt/overview.py:188
+msgid "This is a special deck for studying outside of the normal schedule."
+msgstr "Це - спеціальна колода для навчання поза встановленим графіком."
+
+#: qt/aqt/overview.py:192
+msgid "Cards will be automatically returned to their original decks after you review them."
+msgstr "Після повторення картки автоматично повертаються до своєї оригінальної колоди."
+
+#: qt/aqt/overview.py:197
+msgid "Deleting this deck from the deck list will return all remaining cards to their original deck."
+msgstr "Після видалення цієї колоди з переліку колод усі залишкові картки буде повернуто до їхньої оригінальної колоди."
+
+#: qt/aqt/overview.py:233
+msgid "To Review"
+msgstr "Повторит"
+
+#: qt/aqt/overview.py:235
+msgid "Study Now"
+msgstr "Вчити зараз"
+
+#: qt/aqt/overview.py:256
+msgid "Empty"
+msgstr "Спорожнити"
+
+#: qt/aqt/overview.py:261
+msgid "Unbury"
+msgstr "Розкопати"
 
 #: qt/aqt/preferences.py:72
 msgid "Please restart Anki to complete language change."
 msgstr "Перезапустіть Anki для завершення зміни мови."
 
-#: qt/aqt/reviewer.py:387
-msgid "Please run Tools>Empty Cards"
-msgstr "Виконайте команду \" Інструменти>Порожні картки\""
+#: qt/aqt/preferences.py:120 qt/aqt/preferences.py:250
+msgid "Changes will take effect when you restart Anki."
+msgstr "Зміни застосуються коли Ви перезавантажинти Anki."
 
-#: qt/aqt/main.py:675
-msgid "Please select a deck."
-msgstr "Оберіть колоду"
+#: qt/aqt/preferences.py:154
+msgid "This will reset any cards in learning, clear filtered decks, and change the scheduler version. Proceed?"
+msgstr "Буде скинуто усі картки, які в процесі навчання, очищено фільтровані колоди і змінено версію планувальника. Продовжити?"
 
-#: qt/aqt/addons.py:807
-msgid "Please select a single add-on first."
-msgstr "Будь ласка, встановіть спочатку одне доповнення."
-
-#: qt/aqt/browser.py:1493
-msgid "Please select cards from only one note type."
-msgstr "Виберіть картки лише одного типу нотаток."
-
-#: qt/aqt/studydeck.py:135
-msgid "Please select something."
-msgstr "Оберіть що-небудь."
-
-#: qt/aqt/main.py:1122
-msgid "Please use File>Import to import this file."
-msgstr "Щоб імпортувати цей файл, виконайте команду \"Файл>Імпортувати\"."
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:278
-msgid "Preferences"
-msgstr "Налаштування"
-
-#: qt/aqt/previewer.py:65
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:298
-msgid "Preview"
-msgstr "Попередній  вигляд"
-
-#: qt/aqt/browser.py:624
-#, python-format
-msgid "Preview Selected Card (%s)"
-msgstr "Попередній вигляд обраної картки (%s)"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:109
-msgid "Preview new cards"
-msgstr "Попередньо переглянути нові картки"
-
-#: qt/aqt/customstudy.py:96
-msgid "Preview new cards added in the last"
-msgstr "Попередньо переглянути нові картки, додані за останніх"
-
-#: qt/aqt/importing.py:494
-#, python-format
-msgid "Processed %d media file"
-msgid_plural "Processed %d media files"
-msgstr[0] "Оброблено %d медіафайл"
-msgstr[1] "Оброблено %d медіафайл"
-msgstr[2] "Оброблено %d медіафайл"
-
-#: qt/aqt/progress.py:83
-msgid "Processing..."
-msgstr "Обробка даних..."
-
-#: qt/aqt/profiles.py:254
-msgid "Profile Corrupt"
-msgstr "Профіль пошкоджено."
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/profiles.py:80
-msgid "Profiles"
-msgstr "Профілі"
-
-#: qt/aqt/browser.py:740
-msgid "Question"
-msgstr "Питання"
-
-#: qt/aqt/browser.py:1745
-#, python-format
-msgid "Queue bottom: %d"
-msgstr "Кінець черги: %d"
-
-#: qt/aqt/browser.py:1744
-#, python-format
-msgid "Queue top: %d"
-msgstr "Початок черги: %d"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/profiles.py:85
-msgid "Quit"
-msgstr "Вийти"
-
-#: pylib/anki/consts.py:117
-msgid "Random"
-msgstr "Довільний порядок"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reposition.py:75
-msgid "Randomize order"
-msgstr "Розташувати у довільному порядку"
-
-#: qt/aqt/dyndeckconf.py:23 qt/aqt/overview.py:255
-msgid "Rebuild"
-msgstr "Перебудувати"
-
-#: qt/aqt/reviewer.py:738
-msgid "Record Own Voice"
-msgstr "Записати власний голос"
-
-#: qt/aqt/editor.py:178
-msgid "Record audio (F5)"
-msgstr "Записати звук (F5)"
-
-#: qt/aqt/sound.py:610
-#, python-format
-msgid "Recording...<br>Time: %0.1f"
-msgstr "Запис розпочато...<br>Час: %0.1f"
-
-#: qt/aqt/browser.py:1284 qt/aqt/reviewer.py:701
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:335
-msgid "Red Flag"
-msgstr "Червоний прапорець"
-
-#: pylib/anki/consts.py:124
-msgid "Relative overdueness"
-msgstr "Відносне просрочення"
-
-#: pylib/anki/stats.py:348 pylib/anki/stats.py:368
-msgid "Relearn"
-msgstr "Вчити знову"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:109
-msgid "Remember last input when adding"
-msgstr "Запам'ятовувати останні внесені дані"
-
-#: qt/aqt/browser.py:1404
-#, python-format
-msgid "Remove %s from your saved searches?"
-msgstr "Прибрати %s із збережених пошуків?"
-
-#: qt/aqt/clayout.py:679
-msgid "Remove Card Type..."
-msgstr "Видалення типу карток…"
-
-#: qt/aqt/browser.py:1378
-msgid "Remove Current Filter..."
-msgstr "Приберання поточного фільтру…"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:330
-msgid "Remove Tags..."
-msgstr "Видалення приміток…"
-
-#: qt/aqt/editor.py:154
-msgid "Remove formatting (Ctrl+R)"
-msgstr "Прибрати форматування (Ctrl+R)"
-
-#: qt/aqt/deckbrowser.py:228 qt/aqt/deckconf.py:93 qt/aqt/models.py:58
-#: qt/aqt/sidebar.py:74
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:105
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/profiles.py:83
-msgid "Rename"
-msgstr "Перейменувати"
-
-#: qt/aqt/clayout.py:682
-msgid "Rename Card Type..."
-msgstr "Перейменування типу картки…"
-
-#: qt/aqt/deckbrowser.py:243 qt/aqt/sidebar.py:95
-msgid "Rename Deck"
-msgstr "Перейменувати колоду"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:147
-msgid "Repeat failed cards after"
-msgstr "Потім повторіть забуті картки"
-
-#: qt/aqt/main.py:338
-msgid "Replace your collection with an earlier backup?"
-msgstr "Замінити колекцію старішею резервною копією?"
+#: qt/aqt/preferences.py:188
+msgid ""
+"<b>Synchronization</b><br>\n"
+"Not currently enabled; click the sync button in the main window to enable."
+msgstr ""
+"<b>Синхронізацію</b><br>\n"
+"Зараз вимкнено; щоб її увімкнути, натисніть кнопку синхронізації в головному вікні."
 
 #: qt/aqt/previewer.py:76 qt/aqt/reviewer.py:734
 msgid "Replay Audio"
 msgstr "Прослухати ще раз"
 
-#: qt/aqt/reviewer.py:739
-msgid "Replay Own Voice"
-msgstr "Прослухати ще раз власний голос"
+#: qt/aqt/previewer.py:83
+msgid "Back Side Only"
+msgstr ""
 
-#: qt/aqt/browser.py:1751
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:106
-msgid "Reposition"
-msgstr "Змінити розташування"
-
-#: qt/aqt/clayout.py:685
-msgid "Reposition Card Type..."
-msgstr "Переміщення типу карток…"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reposition.py:72
-msgid "Reposition New Cards"
-msgstr "Змінити розташування нових карток"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:322
-msgid "Reposition..."
-msgstr "Змінити розташування..."
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/taglimit.py:63
-msgid "Require one or more of these tags:"
-msgstr "Потрібно одна чи кілька з цих міток:"
-
-#: qt/aqt/browser.py:1777
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reschedule.py:75
-msgid "Reschedule"
-msgstr "Змінити розклад"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:145
-msgid "Reschedule cards based on my answers in this deck"
-msgstr "Змінити розклад карток, спираючись на мої відповіді у цій колоді"
-
-#: qt/aqt/addons.py:1310
-msgid "Restored defaults"
-msgstr "Скинути налаштування"
-
-#: qt/aqt/main.py:736
-msgid "Resume Now"
-msgstr "Продовжити зараз"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:108
-msgid "Reverse text direction (RTL)"
-msgstr "Зворотній напрямок тексту (RTL)"
-
-#: qt/aqt/main.py:351
-msgid "Revert to backup"
-msgstr "Відновити до резервної копі"
-
-#: qt/aqt/main.py:1036
-#, python-format
-msgid "Reverted to state prior to '%s'."
-msgstr "Повернення до стану перед '%s'."
-
-#: pylib/anki/collection.py:577 qt/aqt/browser.py:1278
-msgid "Review"
-msgstr "Проглянути"
-
-#: pylib/anki/stats.py:354
-msgid "Review Count"
-msgstr "Кількість повторень"
-
-#: pylib/anki/stats.py:380
-msgid "Review Time"
-msgstr "Час повторень"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:104
-msgid "Review ahead"
-msgstr "Повторити наперед"
-
-#: qt/aqt/customstudy.py:93
-msgid "Review ahead by"
-msgstr "Повторити наперед на"
-
-#: qt/aqt/customstudy.py:89
-msgid "Review cards forgotten in last"
-msgstr "Повторити картки, забуті за останні"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:105
-msgid "Review forgotten cards"
-msgstr "Повторити забуті картки"
-
-#: pylib/anki/stats.py:791
-msgid "Review success rate for each hour of the day."
-msgstr "Продивитися процент успішності на кожну годину дня."
-
-#: pylib/anki/stats.py:819 qt/aqt/browser.py:751
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:363
-msgid "Reviews"
-msgstr "Повторення"
-
-#: qt/aqt/customstudy.py:83
-#, python-format
-msgid "Reviews due in deck over today limit: %s"
-msgstr "Повторити картки понад добове обмеженя: %s"
-
-#: pylib/anki/consts.py:110
-msgid "Right"
-msgstr "Зправа"
-
-#: qt/aqt/clayout.py:399 qt/aqt/sound.py:599
-msgid "Save"
-msgstr "Зберегти"
-
-#: qt/aqt/browser.py:1380
-msgid "Save Current Filter..."
-msgstr "Збереження поточного фільтру…"
-
-#: qt/aqt/stats.py:42 qt/aqt/stats.py:67 qt/aqt/stats.py:114
-#: qt/aqt/stats.py:145
-msgid "Save PDF"
-msgstr "Зберегти в форматі PDF"
-
-#: qt/aqt/stats.py:80 qt/aqt/stats.py:158
-msgid "Saved."
-msgstr "Збережено."
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:300
-#, fuzzy
-msgid "Scheduling"
-msgstr "Змінити розклад"
-
-#: pylib/anki/stats.py:947
-#, python-format
-msgid "Scope: %s"
-msgstr "Масштаб: %s"
-
-#: qt/aqt/browser.py:1979
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:297
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:138
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:142
-msgid "Search"
-msgstr "Пошук"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/finddupes.py:73
-msgid "Search in:"
-msgstr "Шукати в:"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browseropts.py:75
-msgid "Search within formatting (slow)"
-msgstr "Шукати серед форматування (повільно)"
-
-#: qt/aqt/customstudy.py:100
-msgid "Select"
-msgstr "Вибрати"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:307
-msgid "Select &All"
-msgstr "&Виділити все"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:316
-msgid "Select &Notes"
-msgstr "Вибрати &нотатки"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/taglimit.py:64
-msgid "Select tags to exclude:"
-msgstr "Вибрати мітки, які слід виключити:"
-
-#: qt/aqt/exporting.py:55
-msgid "Selected Notes"
-msgstr "Вибрані нотатки"
-
-#: qt/aqt/importing.py:303
-msgid "Selected file was not in UTF-8 format. Please see the importing section of the manual."
-msgstr "Обнаний файл не був у форматі UTF-8. Перегляньте розділ \"Імпортування\" в інструкції користувача."
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/taglimit.py:62
-msgid "Selective Study"
-msgstr "Вибіркове навчання"
-
-#: qt/aqt/importing.py:165
-msgid "Semicolon"
-msgstr "Крапка з комою"
-
-#: qt/aqt/deckconf.py:159
-#, python-format
-msgid "Set all decks below %s to this option group?"
-msgstr "Віднести усі колоди нижче  %s до цієї групи налаштувань?"
-
-#: qt/aqt/deckconf.py:95
-msgid "Set for all subdecks"
-msgstr "Встановити для усіх підколод"
-
-#: qt/aqt/editor.py:158
-msgid "Set foreground colour (F7)"
-msgstr "Встановити колір фону (F7)"
-
-#: qt/aqt/main.py:129
-msgid "Shift key was held down. Skipping automatic syncing and add-on loading."
-msgstr "Під час запуску програми було утримано клавішу \"Shift\". Відключено автоматичну синхронізацію та підключення розширень програми під час запуску."
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reposition.py:76
-msgid "Shift position of existing cards"
-msgstr "Зсунути розташування наявних карток"
-
-#: qt/aqt/deckbrowser.py:318 qt/aqt/main.py:765 qt/aqt/overview.py:265
-#: qt/aqt/previewer.py:80 qt/aqt/previewer.py:85 qt/aqt/reviewer.py:573
-#: qt/aqt/reviewer.py:584 qt/aqt/reviewer.py:660 qt/aqt/toolbar.py:107
-#: qt/aqt/toolbar.py:114 qt/aqt/toolbar.py:121 qt/aqt/toolbar.py:128
-#: qt/aqt/toolbar.py:144
-#, python-format
-msgid "Shortcut key: %s"
-msgstr "Гаряча клавіша: %s"
+#: qt/aqt/previewer.py:162
+msgid "(please select 1 card)"
+msgstr "(виберіть 1 картку)"
 
 #: qt/aqt/previewer.py:243
 msgid "Shortcut key: Left arrow"
@@ -2791,691 +3167,269 @@ msgstr "Гаряча клавіша: Ліва стрілка"
 msgid "Shortcut key: Right arrow or Enter"
 msgstr "Гаряча клавіша: Права стрілка або Enter"
 
-#: qt/aqt/addcards.py:89
+#: qt/aqt/profiles.py:254
+msgid "Profile Corrupt"
+msgstr "Профіль пошкоджено."
+
+#: qt/aqt/profiles.py:256
+msgid "Anki could not read your profile data. Window sizes and your sync login details have been forgotten."
+msgstr "Anki не може прочитати дані Вашого профілю. Розміри вікна та Ваші дані для входу для синхронізації загублено."
+
+#: qt/aqt/profiles.py:307
 #, python-format
-msgid "Shortcut: %s"
-msgstr "Гаряча клавіша: %s"
+msgid "Please remove the folder %s and try again."
+msgstr "Будь ласка, видаліть теку %s і повторіть спробу."
 
-#: qt/aqt/reviewer.py:585
-msgid "Show Answer"
-msgstr "ВІДОБРАЗИТИ ВІДПОВІДЬ"
+#: qt/aqt/profiles.py:312
+msgid "Folder already exists."
+msgstr "Тека вже існує."
 
-#: qt/aqt/editor.py:200
-msgid "Show Duplicates"
-msgstr "Показати дублікати"
+#: qt/aqt/profiles.py:326
+msgid "Anki could not rename your profile because it could not rename the profile folder on disk. Please ensure you have permission to write to Documents/Anki and no other programs are accessing your profile folders, then try again."
+msgstr "Anki не вдалося перейменувати ваш профіль, оскільки не вдалося перейменувати теку профілю на диску. Переконайтеся, що у вас є дозвіл на запис до теки Документи/Anki і що інші програми не мають доступ до тек ваших профілів і спробуйте знову."
 
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:377
-msgid "Show answer timer"
-msgstr "Показати таймер відповіді"
+#: qt/aqt/profiles.py:479
+msgid "User 1"
+msgstr "Користувач 1"
 
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:292
-msgid "Show learning cards with larger steps before reviews"
-msgstr ""
+#: qt/aqt/progress.py:83
+msgid "Processing..."
+msgstr "Обробка даних..."
 
-#: pylib/anki/consts.py:101
-msgid "Show new cards after reviews"
-msgstr "Показувати нові картки після карток для повторення"
-
-#: pylib/anki/consts.py:102
-msgid "Show new cards before reviews"
-msgstr "Показувати нові картки перед переглядом"
-
-#: pylib/anki/consts.py:94
-msgid "Show new cards in order added"
-msgstr "Показувати нові картки в порядку їх додавання"
-
-#: pylib/anki/consts.py:93
-msgid "Show new cards in random order"
-msgstr "Показувати нові картки у випадковому порядку"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:290
-msgid "Show next review time above answer buttons"
-msgstr "Показувати час наступного повторення над кнопками відповіді"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:280
-msgid "Show play buttons on cards with audio"
-msgstr "Показати кнопку «Програти» на картках із звуком"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:291
-msgid "Show remaining card count during review"
-msgstr "Показувати кількість карток, що залишилися, під час повторення"
-
-#: qt/aqt/browser.py:1031
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:339
-msgid "Sidebar"
-msgstr "Бічна панель"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addfield.py:64
-msgid "Size:"
-msgstr "Розмір:"
-
-#: pylib/anki/importing/anki2.py:157
-msgid "Skipped"
-msgstr "Пропущені"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:312
-msgid "Some settings will take effect after you restart Anki."
-msgstr "Деякі налаштування вступлять в силу лише після перезапуску Anki."
-
-#: qt/aqt/browser.py:744
-msgid "Sort Field"
-msgstr "Поле сортування"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:111
-msgid "Sort by this field in the browser"
-msgstr "Сортувати по цьому полю у навігаторі"
-
-#: qt/aqt/browser.py:942
-msgid "Sorting on this column is not supported. Please choose another."
-msgstr "Сортування в цій колонці не підтримується. Будь ласка, оберіть іншу."
-
-#: qt/aqt/sound.py:323
-msgid "Sound and video on cards will not function until mpv or mplayer is installed."
-msgstr "Звук і відео на картак не програються до встановлення mvp чи mplayer."
-
-#: qt/aqt/importing.py:163 qt/aqt/reviewer.py:584
-msgid "Space"
-msgstr "Пробіл"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reposition.py:73
-msgid "Start position:"
-msgstr "Початкова позиція:"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:342
-msgid "Starting ease"
-msgstr "Початкова легкість"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/stats.py:80
-msgid "Statistics"
-msgstr "Статистика"
-
-#: qt/aqt/toolbar.py:126
-msgid "Stats"
-msgstr "Статистика"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reposition.py:74
-msgid "Step:"
-msgstr "Крок:"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:348
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:364
-msgid "Steps (in minutes)"
-msgstr "Кроки (у хвилинах)"
-
-#: qt/aqt/deckconf.py:276 qt/aqt/dyndeckconf.py:157
-msgid "Steps must be numbers."
-msgstr "Кроки мають бути числами."
-
-#: qt/aqt/browser.py:1264
-msgid "Studied Today"
-msgstr "Пройдено сьогодні"
-
-#: qt/aqt/studydeck.py:67
-msgid "Study"
-msgstr "Вчити"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/studydeck.py:47
-msgid "Study Deck"
-msgstr "Вчити колоду"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:153
-msgid "Study Deck..."
-msgstr "Вчити колоду..."
-
-#: qt/aqt/overview.py:235
-msgid "Study Now"
-msgstr "Вчити зараз"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:108
-msgid "Study by card state or tag"
-msgstr "Вчити за станом картки або міткою"
-
-#: qt/aqt/editor.py:153
-msgid "Subscript (Ctrl+=)"
-msgstr "Нижній індекс (Ctrl+=)"
-
-#: pylib/anki/importing/__init__.py:16
-msgid "Supermemo XML export (*.xml)"
-msgstr "Файл Supermemo у форматі XML (*.xml)"
-
-#: qt/aqt/editor.py:151
-msgid "Superscript (Ctrl++)"
-msgstr "Верхній індекс (Ctrl++)"
-
-#: qt/aqt/reviewer.py:796 qt/aqt/reviewer.py:802
-msgid "Suspend"
-msgstr "Відкласти"
-
-#: qt/aqt/reviewer.py:729
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:371
-msgid "Suspend Card"
-msgstr "Відкласти картку"
-
-#: qt/aqt/reviewer.py:730
-msgid "Suspend Note"
-msgstr "Відкласти нотатку"
-
-#: qt/aqt/browser.py:1281
-msgid "Suspended"
-msgstr "Відкладені"
-
-#: pylib/anki/stats.py:861
-msgid "Suspended+Buried"
-msgstr "Відкладені+поховані"
-
-#: qt/aqt/toolbar.py:143
-msgid "Sync"
-msgstr "Синхронізація"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:302
-msgid "Synchronize audio and images too"
-msgstr "Синхронізувати також медіа-файли"
-
-#: qt/aqt/importing.py:159
-msgid "Tab"
-msgstr "Вкладка"
-
-#: qt/aqt/browser.py:1988 qt/aqt/browser.py:2015
-msgid "Tag Duplicates"
-msgstr "Дублікати міток"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:372
-msgid "Tag Only"
-msgstr "Лише мітка"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:113
-msgid "Tag modified notes:"
-msgstr "Додати примітку зміненим записам:"
-
-#: qt/aqt/browser.py:753 qt/aqt/browser.py:1299 qt/aqt/editor.py:576
-msgid "Tags"
-msgstr "Мітки"
-
-#: qt/aqt/deckchooser.py:34
-msgid "Target Deck (Ctrl+D)"
-msgstr "Колода, в яку додаємо (Ctrl+D)"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/changemap.py:44
-msgid "Target field:"
-msgstr "Цільове поле:"
-
-#: pylib/anki/importing/__init__.py:13
-msgid "Text separated by tabs or semicolons (*)"
-msgstr "Текстовий файл, розділений TAB або крапкою з комою (*)"
-
-#: qt/aqt/fields.py:90
-msgid "That field name is already used."
-msgstr "Назва поля вже використовується."
-
-#: qt/aqt/deckconf.py:137
-msgid "The default configuration can't be removed."
-msgstr "Конфігурацію за замовчуванням не можна видаляти."
-
-#: pylib/anki/stats.py:886
-msgid "The division of cards in your deck(s)."
-msgstr "Поділ карток у вашій колоді (ах)."
-
-#: qt/aqt/addcards.py:169
-msgid "The first field is empty."
-msgstr "Перше поле порожнє."
-
-#: qt/aqt/importing.py:176
-msgid "The first field of the note type must be mapped."
-msgstr "Для першого поля типу нотатки має бути відповідник."
-
-#: qt/aqt/addons.py:280
+#: qt/aqt/reviewer.py:90
 #, python-format
-msgid "The following add-ons are incompatible with %(name)s and have been disabled: %(found)s"
-msgstr "Наступні доповнення не сумісні з %(name)s і було відключено: %(found)s"
+msgid "%d card studied in"
+msgid_plural "%d cards studied in"
+msgstr[0] "%d катка вивчена за"
+msgstr[1] "%d картки вивчені за"
+msgstr[2] "%d картки вивчені за"
 
-#: qt/aqt/addons.py:1268
-msgid "The following add-ons have updates available. Install them now?"
-msgstr "На наступні доповнення є оновлення. Встановити зараз?"
-
-#: qt/aqt/utils.py:659
+#: qt/aqt/reviewer.py:94
 #, python-format
-msgid "The following character can not be used: %s"
-msgstr "Не можна використовувати наступний символ: %s"
+msgid "%s minute."
+msgid_plural "%s minutes."
+msgstr[0] "%s хвилина."
+msgstr[1] "%s хвилин."
+msgstr[2] "%s хвилин."
 
-#: qt/aqt/addons.py:500
-msgid "The following conflicting add-ons were disabled:"
-msgstr "Наступні конфліктуючі доповнення вимкнено:"
+#: qt/aqt/reviewer.py:95
+msgid "Finish"
+msgstr "Завершено"
 
-#: pylib/anki/stats.py:309
-msgid "The number of new cards you have added."
-msgstr "Число доданих вами нових карток."
+#: qt/aqt/reviewer.py:96
+msgid "Continue"
+msgstr "Продовжити"
 
-#: pylib/anki/stats.py:354
-msgid "The number of questions you have answered."
-msgstr "Кількість питань, на які ви відповіли."
-
-#: pylib/anki/stats.py:228
-msgid "The number of reviews due in the future."
-msgstr "Кількість повторень, очікуваних у майбутньому."
-
-#: pylib/anki/stats.py:681
-msgid "The number of times you have pressed each button."
-msgstr "Кількість разів, що ви натисли кожну кнопку."
-
-#: qt/aqt/importing.py:516
-msgid "The provided file is not a valid .apkg file."
-msgstr "Вибраний файл не є справжнім файлом .apkg."
-
-#: qt/aqt/dyndeckconf.py:128
-msgid "The provided search did not match any cards. Would you like to revise it?"
-msgstr "По вказаним критеріям пошуку не знайшлося карток. Ви хочете ії змінити?"
-
-#: qt/aqt/main.py:1343 qt/aqt/main.py:1362
-msgid "The requested change will require a full upload of the database when you next synchronize your collection. If you have reviews or other changes waiting on another device that haven't been synchronized here yet, they will be lost. Continue?"
-msgstr "Бажані зміни вимагатимуть повної відправки бази даних під час наступної синхронізації вашої колекції. Якщо у Вас була статистика повторених карток або інші зміни на інших приладах, які ще не було синхронізовано, їх буде втрачено. Продовжити?"
-
-#: pylib/anki/stats.py:380
-msgid "The time taken to answer the questions."
-msgstr "Час, витрачений, щоб відповісти на питання."
-
-#: qt/aqt/main.py:320
-msgid "There must be at least one profile."
-msgstr "Має бути як мінімум один профіль."
-
-#: qt/aqt/addons.py:507
-msgid "This add-on is not compatible with your version of Anki."
-msgstr "Це доповнення не сумісне з цією версією Anki."
-
-#: qt/aqt/importing.py:434
-msgid "This file does not appear to be a valid .apkg file. If you're getting this error from a file downloaded from AnkiWeb, chances are that your download failed. Please try again, and if the problem persists, please try again with a different browser."
-msgstr "Файл, здається, не є справжнім файлом .apkg. Якщо ви отримуєте помилку з файлу, завантаженого з AnkiWeb, існує вірогідність, що скачування файлу не пройшло успішно. Будь ласка, повторіть спробу, і якщо проблема не зникне, спробуйте скачати файл в іншому браузері."
-
-#: qt/aqt/utils.py:412
-msgid "This file exists. Are you sure you want to overwrite it?"
-msgstr "Цей файл вже існує. Ви впевнені що бажаєте перезаписати його?"
-
-#: qt/aqt/overview.py:188
-msgid "This is a special deck for studying outside of the normal schedule."
-msgstr "Це - спеціальна колода для навчання поза встановленим графіком."
-
-#: qt/aqt/clayout.py:632
-#, python-format
-msgid "This will create %d card. Proceed?"
-msgid_plural "This will create %d cards. Proceed?"
-msgstr[0] "Буде створено %d картку. Продовжити?"
-msgstr[1] "Буде створено %d картки. Продовжити?"
-msgstr[2] "Буде створено %d карток. Продовжити?"
-
-#: qt/aqt/importing.py:454
-msgid "This will delete your existing collection and replace it with the data in the file you're importing. Are you sure?"
-msgstr "Це видалить вашу існуючу колекцію колод та замінить дані у файлі, що ви імпортуєте. Ви впевнені?"
-
-#: qt/aqt/preferences.py:154
-msgid "This will reset any cards in learning, clear filtered decks, and change the scheduler version. Proceed?"
-msgstr "Буде скинуто усі картки, які в процесі навчання, очищено фільтровані колоди і змінено версію планувальника. Продовжити?"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:295
-msgid "Timebox time limit"
-msgstr "Встановити ліміт таймера"
-
-#: qt/aqt/overview.py:233
-msgid "To Review"
-msgstr "Повторит"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/getaddons.py:51
-msgid "To browse add-ons, please click the browse button below.<br><br>When you've found an add-on you like, please paste its code below. You can paste multiple codes, separated by spaces."
-msgstr ""
-
-#: qt/aqt/editor.py:651
-#, fuzzy
-msgid "To make a cloze deletion on an existing note, you need to change it to a cloze type first, via 'Notes>Change Note Type'"
-msgstr "Для створення картки з тестом з пробілами по існуючій нотатці, спочатку потрібно змінити її тип на тип тесту з пробілами командою \"Редагування>Змінити тип нотатки...\""
-
-#: pylib/anki/stats.py:119 qt/aqt/browser.py:1259
-msgid "Today"
-msgstr "Сьогодні"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:77
-msgid "Toggle Enabled"
-msgstr ""
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:342
-msgid "Toggle Mark"
-msgstr ""
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:331
-msgid "Toggle Suspend"
-msgstr ""
-
-#: pylib/anki/stats.py:249 pylib/anki/stats.py:318 pylib/anki/stats.py:418
-msgid "Total"
-msgstr "Разом"
-
-#: pylib/anki/stats.py:873
-msgid "Total cards"
-msgstr "Загальна кількість карток"
-
-#: pylib/anki/stats.py:874
-msgid "Total notes"
-msgstr "Загальна кількість нотаток"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/findreplace.py:91
-msgid "Treat input as regular expression"
-msgstr "Розглядати введення як регулярний вираз"
-
-#: qt/aqt/modelchooser.py:40
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:107
-msgid "Type"
-msgstr "Тип"
+#: qt/aqt/reviewer.py:387
+msgid "Please run Tools>Empty Cards"
+msgstr "Виконайте команду \" Інструменти>Порожні картки\""
 
 #: qt/aqt/reviewer.py:391
 #, python-format
 msgid "Type answer: unknown field %s"
 msgstr "Введення  відповіді з клавіатури: невідоме поле %s"
 
-#: qt/aqt/errors.py:69
-msgid "Unable to access Anki media folder. The permissions on your system's temporary folder may be incorrect."
-msgstr ""
+#: qt/aqt/reviewer.py:572
+msgid "Edit"
+msgstr "Редагування"
 
-#: qt/aqt/main.py:364
-msgid "Unable to move existing file to trash - please try restarting your computer."
-msgstr ""
+#: qt/aqt/reviewer.py:574
+msgid "More"
+msgstr "Більше"
 
-#: qt/aqt/addons.py:427
+#: qt/aqt/reviewer.py:585
+msgid "Show Answer"
+msgstr "ВІДОБРАЗИТИ ВІДПОВІДЬ"
+
+#: qt/aqt/reviewer.py:629 qt/aqt/reviewer.py:633 qt/aqt/reviewer.py:636
+msgid "Again"
+msgstr "Знову"
+
+#: qt/aqt/reviewer.py:630 qt/aqt/reviewer.py:633 qt/aqt/reviewer.py:638
+msgid "Good"
+msgstr "Пам'ятаю"
+
+#: qt/aqt/reviewer.py:633 qt/aqt/reviewer.py:639
+msgid "Easy"
+msgstr "Легко"
+
+#: qt/aqt/reviewer.py:637
+msgid "Hard"
+msgstr "тяжко"
+
+#: qt/aqt/reviewer.py:685
+msgid "Card was a leech."
+msgstr "Картка була приставуча."
+
+#: qt/aqt/reviewer.py:687
+msgid "It has been suspended."
+msgstr "Відкладено."
+
+#: qt/aqt/reviewer.py:698
+msgid "Flag Card"
+msgstr "Встановити прапорець"
+
+#: qt/aqt/reviewer.py:726
+msgid "Mark Note"
+msgstr "Позначити запис"
+
+#: qt/aqt/reviewer.py:727
+msgid "Bury Card"
+msgstr "Поховати картку"
+
+#: qt/aqt/reviewer.py:728
+msgid "Bury Note"
+msgstr "Поховати нотатку"
+
+#: qt/aqt/reviewer.py:730
+msgid "Suspend Note"
+msgstr "Відкласти нотатку"
+
+#: qt/aqt/reviewer.py:731
+msgid "Delete Note"
+msgstr "Видалити нотатку"
+
+#: qt/aqt/reviewer.py:735
+msgid "Pause Audio"
+msgstr "Призупинити звук"
+
+#: qt/aqt/reviewer.py:736
+msgid "Audio -5s"
+msgstr "Звук -5 секунд"
+
+#: qt/aqt/reviewer.py:737
+msgid "Audio +5s"
+msgstr "Звук +5 секунд"
+
+#: qt/aqt/reviewer.py:738
+msgid "Record Own Voice"
+msgstr "Записати власний голос"
+
+#: qt/aqt/reviewer.py:739
+msgid "Replay Own Voice"
+msgstr "Прослухати ще раз власний голос"
+
+#: qt/aqt/reviewer.py:796 qt/aqt/reviewer.py:802
+msgid "Suspend"
+msgstr "Відкласти"
+
+#: qt/aqt/reviewer.py:798
+msgid "Note suspended."
+msgstr "Нотатку відкладено."
+
+#: qt/aqt/reviewer.py:804
+msgid "Card suspended."
+msgstr "Картку відкладено."
+
+#: qt/aqt/reviewer.py:818
 #, python-format
-msgid ""
-"Unable to update or delete add-on. Please start Anki while holding down the shift key to temporarily disable add-ons, then try again.\n"
-"\n"
-"Debug info: %s"
-msgstr ""
+msgid "Note and its %d card deleted."
+msgid_plural "Note and its %d cards deleted."
+msgstr[0] "Нотатку та її  %d картку видалено."
+msgstr[1] "Нотатку та її  %d карток видалено."
+msgstr[2] "Нотатку та її  %d карток видалено."
 
-#: qt/aqt/overview.py:261
-msgid "Unbury"
-msgstr "Розкопати"
+#: qt/aqt/reviewer.py:824 qt/aqt/reviewer.py:830
+msgid "Bury"
+msgstr "Поховати"
 
-#: qt/aqt/editor.py:148
-msgid "Underline text (Ctrl+U)"
-msgstr ""
+#: qt/aqt/reviewer.py:827
+msgid "Card buried."
+msgstr "Картку поховано"
 
-#: qt/aqt/main.py:1046
-msgid "Undo"
-msgstr "Скасувати"
-
-#: qt/aqt/main.py:1042
-#, python-format
-msgid "Undo %s"
-msgstr "Відмінити - %s"
-
-#: qt/aqt/addons.py:1014 qt/aqt/editor.py:850
-#, python-format
-msgid "Unexpected response code: %s"
-msgstr ""
-
-#: qt/aqt/addons.py:475
-msgid "Unknown error: {}"
-msgstr ""
-
-#: qt/aqt/importing.py:367
-msgid "Unknown file format."
-msgstr "Невідомий формат файлу."
-
-#: pylib/anki/stats.py:860
-msgid "Unseen"
-msgstr "Не проглянуті"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:109
-msgid "Update existing notes when first field matches"
-msgstr "Оновити існуючі нотатки, коли співпадають перше поле"
-
-#: pylib/anki/importing/anki2.py:160
-msgid "Updated"
-msgstr ""
-
-#: qt/aqt/profiles.py:479
-msgid "User 1"
-msgstr "Користувач 1"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:287
-msgid "User interface size"
-msgstr ""
-
-#: qt/aqt/about.py:104
-#, python-format
-msgid "Version %s"
-msgstr "Версія %s"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:74
-msgid "View Add-on Page"
-msgstr ""
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:76
-msgid "View Files"
-msgstr ""
-
-#: qt/aqt/main.py:735
-msgid "Waiting for editing to finish."
-msgstr "Чекаю на звершення редагування."
-
-#: qt/aqt/editor.py:644
-msgid "Warning, cloze deletions will not work until you switch the type at the top to Cloze."
-msgstr "Увага! Тести з пробілами не спрацюють, поки ви не зміните тип вгорі на Тест з пробілами."
-
-#: qt/aqt/overview.py:137
-msgid "What would you like to unbury?"
-msgstr ""
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:285
-msgid "When adding, default to current deck"
-msgstr "Додавати у поточну колоду за замовчуванням"
-
-#: qt/aqt/browser.py:1108 qt/aqt/browser.py:1255
-msgid "Whole Collection"
-msgstr "Вся колеція"
-
-#: qt/aqt/update.py:63
-msgid "Would you like to download it now?"
-msgstr "Ви бажаєте завантажити зараз?"
-
-#: qt/aqt/about.py:215
-#, python-format
-msgid "Written by Damien Elmes, with patches, translation,    testing and design from:<p>%(cont)s"
-msgstr "Застосунок створив Деміен Елмс (Damien Elmes). Ці люди також допомагали в виправленні помилок, перекладі, тестуванні та дизайні:<p>%(cont)s"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:310
-msgid "You can restore backups via File>Switch Profile."
-msgstr ""
-
-#: qt/aqt/addcards.py:178
-msgid "You have a cloze deletion note type but have not made any cloze deletions. Proceed?"
-msgstr "У вас тип нотатки з тестом з пробілами, але ви не створили жодних тестових карток з пробілами. Продовжити?"
+#: qt/aqt/reviewer.py:833
+msgid "Note buried."
+msgstr "Нотатку поховано."
 
 #: qt/aqt/reviewer.py:841
 msgid "You haven't recorded your voice yet."
 msgstr "Ви ще не записали ваш голос."
 
-#: qt/aqt/browser.py:997
-msgid "You must have at least one column."
-msgstr "Треба, щоб була принаймні одна колонка."
+#: qt/aqt/sound.py:323
+msgid "Sound and video on cards will not function until mpv or mplayer is installed."
+msgstr "Звук і відео на картак не програються до встановлення mvp чи mplayer."
 
-#: pylib/anki/stats.py:214 pylib/anki/stats.py:347 pylib/anki/stats.py:367
-#: pylib/anki/stats.py:687
-msgid "Young"
-msgstr "Незрілі"
-
-#: pylib/anki/stats.py:859
-msgid "Young+Learn"
-msgstr "Незрілі+Вчити"
-
-#: qt/aqt/deckconf.py:113
-msgid "Your changes will affect multiple decks. If you wish to change only the current deck, please add a new options group first."
-msgstr "Ваші зміни вплинуть на кілька колод. Якщо ви хочете змінити лише поточну колоду, спочатку треба додати нову групу налаштувань."
-
-#: qt/aqt/main.py:578
-msgid "Your collection file appears to be corrupt. This can happen when the file is copied or moved while Anki is open, or when the collection is stored on a network or cloud drive. If problems persist after restarting your computer, please open an automatic backup from the profile screen."
-msgstr ""
-
-#: qt/aqt/errors.py:99
-msgid "Your computer's storage may be full. Please delete some unneeded files, then try again."
-msgstr ""
-
-#: qt/aqt/errors.py:82
-msgid "Your firewall or antivirus program is preventing Anki from creating a connection to itself. Please add an exception for Anki."
-msgstr ""
-
-#: pylib/anki/decks.py:382
-msgid "[no deck]"
-msgstr "[нема колоди]"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:309
-msgid "backups"
-msgstr "резервні копії"
-
-#: pylib/anki/stats.py:319 qt/aqt/customstudy.py:53
-msgid "cards"
-msgstr "картки"
-
-#: qt/aqt/customstudy.py:101
-msgid "cards from the deck"
-msgstr "картки з колоди"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:139
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:143
-msgid "cards selected by"
-msgstr "картки, обрані за"
-
-#: qt/aqt/exporting.py:110
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/stats.py:82
-msgid "collection"
-msgstr "колекція"
-
-#. T: abbreviation of day
-#: pylib/anki/stats.py:982
-msgid "d"
-msgstr "дн"
-
-#: qt/aqt/customstudy.py:90 qt/aqt/customstudy.py:94 qt/aqt/customstudy.py:97
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:350
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:351
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:358
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:370
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reschedule.py:79
-msgid "days"
-msgstr "днів"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/stats.py:81
-msgid "deck"
-msgstr "колода"
-
-#: pylib/anki/stats.py:949
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/stats.py:85
-msgid "deck life"
-msgstr "тривалість життя колоди"
-
-#: qt/aqt/browser.py:2019
-msgid "duplicate"
-msgstr "дублікат"
-
-#: pylib/anki/stats.py:413
-msgid "hours"
-msgstr "годин"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:296
-msgid "hours past midnight"
-msgstr "годин(и) після опівночі"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:367
-msgid "lapses"
-msgstr "невдачі"
-
-#: qt/aqt/importing.py:256
+#: qt/aqt/sound.py:502
 #, python-format
-msgid "mapped to <b>%s</b>"
-msgstr "відображувати на <b>%s</b>"
+msgid "Error running %s"
+msgstr "Помилка запуску %s"
 
-#: qt/aqt/importing.py:254
-msgid "mapped to <b>Tags</b>"
-msgstr "співставлено з <b>мітками</b>"
+#: qt/aqt/sound.py:610
+#, python-format
+msgid "Recording...<br>Time: %0.1f"
+msgstr "Запис розпочато...<br>Час: %0.1f"
 
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:294
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:298
-msgid "mins"
-msgstr "хвилин(а)"
-
-#: pylib/anki/stats.py:384
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:148
-msgid "minutes"
-msgstr "хвилин(и)"
-
-#. T: abbreviation of month
-#: pylib/anki/stats.py:986
-msgid "mo"
-msgstr "міс"
-
-#: pylib/anki/stats.py:252 pylib/anki/stats.py:360
-msgid "reviews"
-msgstr "повторення"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:376
-msgid "seconds"
-msgstr "секунд(и)"
+#: qt/aqt/stats.py:42 qt/aqt/stats.py:67 qt/aqt/stats.py:114
+#: qt/aqt/stats.py:145
+msgid "Save PDF"
+msgstr "Зберегти в форматі PDF"
 
 #: qt/aqt/stats.py:64 qt/aqt/stats.py:142
 msgid "stats"
 msgstr "статистика"
 
-#. T: abbreviation of week
-#: pylib/anki/stats.py:984
-msgid "w"
-msgstr "т"
+#: qt/aqt/stats.py:80 qt/aqt/stats.py:158
+msgid "Saved."
+msgstr "Збережено."
 
-#: pylib/anki/stats.py:944
-msgid "whole collection"
-msgstr "вся колекція"
+#: qt/aqt/studydeck.py:48
+msgid "Add New Deck (Ctrl+N)"
+msgstr "Додати нову колоду (Ctrl+N)"
 
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reschedule.py:78
-msgid "~"
-msgstr "~"
+#: qt/aqt/studydeck.py:67
+msgid "Study"
+msgstr "Вчити"
 
-#~ msgid "Front"
-#~ msgstr "Лицьова сторона"
+#: qt/aqt/studydeck.py:135
+msgid "Please select something."
+msgstr "Оберіть що-небудь."
 
-#~ msgid "Congratulations! You have finished this deck for now."
-#~ msgstr "Вітаємо! В даний момент ви закінчили роботу з цією колодою."
+#: qt/aqt/toolbar.py:119
+msgid "Browse"
+msgstr "Навігатор"
 
-#~ msgid "Deauthorize"
-#~ msgstr "Деавторизувати"
+#: qt/aqt/toolbar.py:126
+msgid "Stats"
+msgstr "Статистика"
 
-#~ msgid "Show Both Sides"
-#~ msgstr "Показати обидві сторони"
+#: qt/aqt/toolbar.py:143
+msgid "Sync"
+msgstr "Синхронізація"
 
-#~ msgid "Some related or buried cards were delayed until a later session."
-#~ msgstr "Деякі пов'язані або поховані картки було відкладено до наступного сеансу."
+#: qt/aqt/update.py:59
+#, python-format
+msgid "<h1>Anki Updated</h1>Anki %s has been released.<br><br>"
+msgstr "<h1>Anki оновлено</h1>Вийшла нова версія Anki %s.<br><br>"
 
-#~ msgid ""
-#~ "There are more new cards available, but the daily limit has been\n"
-#~ "reached. You can increase the limit in the options, but please\n"
-#~ "bear in mind that the more new cards you introduce, the higher\n"
-#~ "your short-term review workload will become."
-#~ msgstr ""
-#~ "У колоді ще є нові картки, але денний ліміт вже\n"
-#~ "вичерпано. Ви можете збільиши ліміт у налаштуваннях,\n"
-#~ "але, будь ласка, не забувайте: чим більше нових карток\n"
-#~ "ви запровадите у навчальний цикл, тим більше карток вам\n"
-#~ "доведеться повторювати за короткий період."
+#: qt/aqt/update.py:63
+msgid "Would you like to download it now?"
+msgstr "Ви бажаєте завантажити зараз?"
 
-#~ msgid "To see them now, click the Unbury button below."
-#~ msgstr "Щоб побачити їх зараз, клацніть внизу на кнопку \"Розкопати\"."
+#: qt/aqt/update.py:64
+msgid "Ignore this update"
+msgstr "Ігнорувати це оновлення"
 
-#~ msgid "To study outside of the normal schedule, click the Custom Study button below."
-#~ msgstr "Для навчання за межами звичайного графіка, натисніть на кнопку \"Додаткове навчання\" внизу."
+#: qt/aqt/utils.py:57
+msgid "Loading..."
+msgstr "Завантаження..."
 
-#~ msgid ""
-#~ "Today's review limit has been reached, but there are still cards\n"
-#~ "waiting to be reviewed. For optimum memory, consider increasing\n"
-#~ "the daily limit in the options."
-#~ msgstr ""
-#~ "Ліміт повторень на сьогодні вичерпано, але ще є картки, \n"
-#~ "які можна повторити. Для оптимального запам'ятовування \n"
-#~ "можна збільшити денний ліміт у налаштуваннях."
+#: qt/aqt/utils.py:148
+msgid "Copy to Clipboard"
+msgstr "Копіювати до буферу обміну"
 
-#, fuzzy
-#~ msgid "Shortcut key: Left or Right arrow"
-#~ msgstr "Гаряча клавіша: Ліва стрілка"
+#: qt/aqt/utils.py:412
+msgid "This file exists. Are you sure you want to overwrite it?"
+msgstr "Цей файл вже існує. Ви впевнені що бажаєте перезаписати його?"
+
+#: qt/aqt/utils.py:659
+#, python-format
+msgid "The following character can not be used: %s"
+msgstr "Не можна використовувати наступний символ: %s"
+
+#. T: include a font for your language on Windows, eg: "Segoe UI", "MS Mincho"
+#: qt/aqt/webview.py:379
+msgid "\"Segoe UI\""
+msgstr "\"Segoe UI\""
 
 #, python-format
 #~ msgid " (1 of %d)"
@@ -3703,6 +3657,9 @@ msgstr "~"
 #~ msgid "Collection is corrupt. Please see the manual."
 #~ msgstr "Колекція пошкоджена. Зверніться до інструкції користувача."
 
+#~ msgid "Congratulations! You have finished this deck for now."
+#~ msgstr "Вітаємо! В даний момент ви закінчили роботу з цією колодою."
+
 #~ msgid "Connecting..."
 #~ msgstr "Підключення..."
 
@@ -3717,6 +3674,9 @@ msgstr "~"
 
 #~ msgid "Date"
 #~ msgstr "Дата"
+
+#~ msgid "Deauthorize"
+#~ msgstr "Деавторизувати"
 
 #~ msgid "Delete Cards"
 #~ msgstr "Видалити картки"
@@ -3810,6 +3770,9 @@ msgstr "~"
 #~ msgid "Fixed note type: %s"
 #~ msgstr "Виправлено тип нотаток: %s"
 
+#~ msgid "Front"
+#~ msgstr "Лицьова сторона"
+
 #~ msgid "Front Preview"
 #~ msgstr "Попередній перегляд Лицьової сторони"
 
@@ -3879,6 +3842,16 @@ msgstr "~"
 #~ msgid "Server not found. Either your connection is down, or antivirus/firewall software is blocking Anki from connecting to the internet."
 #~ msgstr "Сервер не знайдено. Або у вас відсутнє з'єднання з інтернетом, або антивірусна програма чи фаєрвол не дозволяють Anki з'єднатися з інтернетом."
 
+#, fuzzy
+#~ msgid "Shortcut key: Left or Right arrow"
+#~ msgstr "Гаряча клавіша: Ліва стрілка"
+
+#~ msgid "Show Both Sides"
+#~ msgstr "Показати обидві сторони"
+
+#~ msgid "Some related or buried cards were delayed until a later session."
+#~ msgstr "Деякі пов'язані або поховані картки було відкладено до наступного сеансу."
+
 #, python-format
 #~ msgid "Studied %(a)s %(b)s today (%(secs).1fs/card)"
 #~ msgstr "Сьогодні вивчено %(a)s, %(b)s (%(secs).1fs/картку)"
@@ -3931,6 +3904,18 @@ msgstr "~"
 #~ msgid "The input you have provided would make an empty question on all cards."
 #~ msgstr "Вказана вами інформація очистить питання на всіх картках."
 
+#~ msgid ""
+#~ "There are more new cards available, but the daily limit has been\n"
+#~ "reached. You can increase the limit in the options, but please\n"
+#~ "bear in mind that the more new cards you introduce, the higher\n"
+#~ "your short-term review workload will become."
+#~ msgstr ""
+#~ "У колоді ще є нові картки, але денний ліміт вже\n"
+#~ "вичерпано. Ви можете збільиши ліміт у налаштуваннях,\n"
+#~ "але, будь ласка, не забувайте: чим більше нових карток\n"
+#~ "ви запровадите у навчальний цикл, тим більше карток вам\n"
+#~ "доведеться повторювати за короткий період."
+
 #~ msgid "This column can't be sorted on, but you can search for specific decks by clicking on one on the left."
 #~ msgstr "По цій колонці не можна проводити сортування, але ви можете обирати окремі колоди, клацаючи на їхні назви на панелі зліва."
 
@@ -3953,6 +3938,21 @@ msgstr "~"
 
 #~ msgid "Time"
 #~ msgstr "Час"
+
+#~ msgid "To see them now, click the Unbury button below."
+#~ msgstr "Щоб побачити їх зараз, клацніть внизу на кнопку \"Розкопати\"."
+
+#~ msgid "To study outside of the normal schedule, click the Custom Study button below."
+#~ msgstr "Для навчання за межами звичайного графіка, натисніть на кнопку \"Додаткове навчання\" внизу."
+
+#~ msgid ""
+#~ "Today's review limit has been reached, but there are still cards\n"
+#~ "waiting to be reviewed. For optimum memory, consider increasing\n"
+#~ "the daily limit in the options."
+#~ msgstr ""
+#~ "Ліміт повторень на сьогодні вичерпано, але ще є картки, \n"
+#~ "які можна повторити. Для оптимального запам'ятовування \n"
+#~ "можна збільшити денний ліміт у налаштуваннях."
 
 #~ msgid "Total Time"
 #~ msgstr "Загальний час"

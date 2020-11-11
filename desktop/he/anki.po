@@ -17,37 +17,418 @@ msgstr ""
 "X-Crowdin-Project: anki\n"
 "X-Generator: Pontoon\n"
 
-#: qt/aqt/importing.py:403
-msgid "    Invalid file. Please restore from backup."
-msgstr "קובץ שגוי. אנא שחזר מגיבוי."
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/about.py:45
+msgid "About Anki"
+msgstr "אודות Anki"
 
-#: qt/aqt/importing.py:412
-msgid "    Unable to import from a read-only file."
-msgstr "לא ניתן לייבא מקובץ לקריאה בלבד."
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addcards.py:60
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:103
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/profiles.py:82
+#: qt/aqt/addcards.py:38 qt/aqt/addcards.py:70 qt/aqt/deckconf.py:89
+#: qt/aqt/models.py:57 qt/aqt/studydeck.py:46 qt/aqt/toolbar.py:112
+msgid "Add"
+msgstr "הוספה"
 
-#: qt/aqt/addons.py:313
-msgid " (disabled)"
-msgstr " (מושבת)"
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addfield.py:62
+#: qt/aqt/clayout.py:389
+msgid "Add Field"
+msgstr "הוסף שדה"
 
-#: qt/aqt/clayout.py:694
-msgid " (off)"
-msgstr " כבוי"
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addfield.py:63
+msgid "Field:"
+msgstr "שדה:"
 
-#: qt/aqt/clayout.py:692
-msgid " (on)"
-msgstr " פעיל"
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addfield.py:64
+msgid "Size:"
+msgstr "גודל:"
 
-#: qt/aqt/deckbrowser.py:289
-#, python-format
-msgid " It has %d card."
-msgid_plural " It has %d cards."
-msgstr[0] "קיים %d כרטיס."
-msgstr[1] " קיימות %d כרטיסיות."
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addfield.py:65
+msgid "Font:"
+msgstr "גופן:"
 
-#. T: include a font for your language on Windows, eg: "Segoe UI", "MS Mincho"
-#: qt/aqt/webview.py:379
-msgid "\"Segoe UI\""
-msgstr "\"Arial\""
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addmodel.py:46
+msgid "Add Note Type"
+msgstr "הוסף סוג רשומה"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addonconf.py:73
+msgid "Configuration"
+msgstr "הגדרה"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:70
+msgid "Changes will take effect when Anki is restarted."
+msgstr "השינויים ייכנסו לתוקף כאשר Anki יותחל מחדש."
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:71
+msgid "Get Add-ons..."
+msgstr "קבל תוספים..."
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:72
+msgid "Install from file..."
+msgstr "התקנה מקובץ..."
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:73
+msgid "Check for Updates"
+msgstr "בדוק אחר עדכונים"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:74
+msgid "View Add-on Page"
+msgstr "צפה בדף של התוסף"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:75
+msgid "Config"
+msgstr "הגדר"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:76
+msgid "View Files"
+msgstr "הצג קבצים"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:77
+msgid "Toggle Enabled"
+msgstr "הפעל/כבה"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:78
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:332
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:104
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/profiles.py:84
+#: qt/aqt/deckbrowser.py:234 qt/aqt/deckconf.py:91 qt/aqt/models.py:59
+#: qt/aqt/reviewer.py:812
+msgid "Delete"
+msgstr "מחק"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:297
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:138
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:142
+#: qt/aqt/browser.py:1979
+msgid "Search"
+msgstr "חיפוש"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:298
+#: qt/aqt/previewer.py:65
+msgid "Preview"
+msgstr "תצוגה מקדימה"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:299
+msgid "Filter..."
+msgstr "סנן..."
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:300
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:135
+msgid "&Edit"
+msgstr "&עריכה"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:301
+msgid "&Go"
+msgstr "&עבור אל"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:302
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:134
+msgid "&Help"
+msgstr "&עזרה"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:303
+msgid "&Cards"
+msgstr "&כרטיסים"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:304
+msgid "Flag"
+msgstr "סמן בדגל"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:305
+msgid "&Notes"
+msgstr "&רשומות"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:306
+msgid "&Reschedule..."
+msgstr "&תזמן מחדש..."
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:307
+msgid "Select &All"
+msgstr "בחר &הכל"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:308
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:142
+msgid "&Undo"
+msgstr "&בטל"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:309
+msgid "&Invert Selection"
+msgstr "&הפוך בחירה"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:310
+msgid "&Find"
+msgstr "&מצא"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:311
+msgid "N&ote"
+msgstr "ה&ערה"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:312
+msgid "&Next Card"
+msgstr "&כרטיס הבא"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:313
+msgid "&Previous Card"
+msgstr "&כרטיס קודם"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:314
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:149
+msgid "&Guide..."
+msgstr "&מדריך..."
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:315
+msgid "Change Note Type..."
+msgstr "שנה סוג רשומה..."
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:316
+msgid "Select &Notes"
+msgstr "בחר &רשומות"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:317
+msgid "Find and Re&place..."
+msgstr "מצא וה&חלף..."
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:318
+msgid "&Cram..."
+msgstr "&חרוש..."
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:319
+msgid "Fil&ter"
+msgstr "ס&נן"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:320
+msgid "Card List"
+msgstr "רשימת כרטיסים"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:321
+msgid "Find &Duplicates..."
+msgstr "מצא &כפילויות..."
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:322
+msgid "Reposition..."
+msgstr "שינוי מיקום..."
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:323
+msgid "First Card"
+msgstr "כרטיס ראשון"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:324
+msgid "Home"
+msgstr "בית"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:325
+msgid "Last Card"
+msgstr "כרטיס אחרון"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:326
+msgid "End"
+msgstr "סוף"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:327
+#: qt/aqt/addcards.py:75
+msgid "Close"
+msgstr "סגירה"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:328
+msgid "&Info..."
+msgstr "&מידע..."
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:329
+msgid "Add Tags..."
+msgstr "הוספת תגיות..."
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:330
+msgid "Remove Tags..."
+msgstr "הסר תגיות..."
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:331
+msgid "Toggle Suspend"
+msgstr "השהה"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:333
+msgid "Add Notes..."
+msgstr "הוסף רשומות..."
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:334
+msgid "Change Deck..."
+msgstr "שנה חפיסה..."
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:335
+#: qt/aqt/browser.py:1284 qt/aqt/reviewer.py:701
+msgid "Red Flag"
+msgstr "דגל אדום"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:336
+#: qt/aqt/browser.py:1285 qt/aqt/reviewer.py:707
+msgid "Orange Flag"
+msgstr "דגל כתום"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:337
+#: qt/aqt/browser.py:1286 qt/aqt/reviewer.py:713
+msgid "Green Flag"
+msgstr "דגל ירוק"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:338
+#: qt/aqt/browser.py:1287 qt/aqt/reviewer.py:719
+msgid "Blue Flag"
+msgstr "דגל כחול"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:339
+#: qt/aqt/browser.py:1031
+msgid "Sidebar"
+msgstr "סרגל צד"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:340
+msgid "Clear Unused Tags"
+msgstr "נקה תגיות שאינן בשימוש"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:341
+msgid "Manage Note Types..."
+msgstr "נהל סוגי רשומות..."
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:342
+msgid "Toggle Mark"
+msgstr "סמן"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:343
+msgid "&Export Notes..."
+msgstr "&ייצא רשומות"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:344
+msgid "Ctrl+Shift+E"
+msgstr "Ctrl+Shift+E"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browserdisp.py:71
+msgid "Browser Appearance"
+msgstr "מראה דפדפן"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browserdisp.py:72
+msgid "Override front template:"
+msgstr "דריסת תבנית חזית:"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browserdisp.py:73
+msgid "Override back template:"
+msgstr "דריסת תבנית גב:"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browserdisp.py:74
+msgid "Override font:"
+msgstr "דריסת גופן:"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browseropts.py:71
+msgid "Browser Options"
+msgstr "אפשרויות חיפוש"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browseropts.py:72
+msgid "<b>Font</b>:"
+msgstr "<b>גופן</b>:"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browseropts.py:73
+msgid "<b>Font Size</b>:"
+msgstr "<b>גודל גופן</b>:"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browseropts.py:74
+msgid "<b>Line Size</b>:"
+msgstr "<b>גודל קו</b>:"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browseropts.py:75
+msgid "Search within formatting (slow)"
+msgstr "חפש עם עיצוב (איטי)"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/changemap.py:43
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:105
+#: qt/aqt/importing.py:103 qt/aqt/importing.py:189 qt/aqt/importing.py:311
+msgid "Import"
+msgstr "ייבוא"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/changemap.py:44
+msgid "Target field:"
+msgstr "שדה יעד:"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/changemodel.py:111
+#: qt/aqt/browser.py:2270
+msgid "Change Note Type"
+msgstr "שנה סוג רשומה"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/changemodel.py:112
+msgid "Current note type:"
+msgstr "סוג רשומה נוכחי:"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/changemodel.py:113
+msgid "New note type:"
+msgstr "סוג רשומה חדש:"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/changemodel.py:114
+#: pylib/anki/stats.py:310 pylib/anki/stats.py:962 qt/aqt/editor.py:134
+msgid "Cards"
+msgstr "כרטיסים"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/changemodel.py:115
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:102
+#: qt/aqt/editor.py:126 qt/aqt/fields.py:23
+msgid "Fields"
+msgstr "שדות"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/clayout_top.py:54
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/template.py:73
+msgid "Form"
+msgstr "טופס"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:103
+#: qt/aqt/overview.py:258
+msgid "Custom Study"
+msgstr "לימוד מותאם"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:104
+msgid "Review ahead"
+msgstr "הקדם חזרה על כרטיסים"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:105
+msgid "Review forgotten cards"
+msgstr "חזרה על כרטיסים שנשכחו"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:106
+msgid "Increase today's new card limit"
+msgstr "הגדל את מכסת הכרטיסים החדשים היום"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:107
+msgid "Increase today's review card limit"
+msgstr "הגדל את מכסת הכרטיסים לחזרה היום"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:108
+msgid "Study by card state or tag"
+msgstr "למד לפי מצב כרטיס או לפי תיוג"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:109
+msgid "Preview new cards"
+msgstr "מעבר מקדים על כרטיסים חדשים"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:113
+msgid "New cards only"
+msgstr "רק כרטיסים חדשים"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:115
+msgid "Due cards only"
+msgstr "כרטיסים מתוזמנים בלבד"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:117
+msgid "All review cards in random order"
+msgstr "כל הכרטיסים לחזרה בסדר אקראי"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:119
+msgid "All cards in random order (don't reschedule)"
+msgstr "כל הכרטיסים בסדר אקראי (ללא תזמון מחדש)"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:340
+msgid "Options group:"
+msgstr "קבוצת אפשרויות:"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:341
+#: qt/aqt/browser.py:1337
+msgid "Manage..."
+msgstr "נהל..."
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:342
+msgid "Starting ease"
+msgstr "קלות התחלתית"
 
 #: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:343
 #: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:354
@@ -58,40 +439,919 @@ msgstr "\"Arial\""
 msgid "%"
 msgstr "%"
 
-#: pylib/anki/stats.py:796 pylib/anki/stats.py:818
-msgid "% Correct"
-msgstr "% נכון"
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:344
+msgid "Order"
+msgstr "סדר"
 
-#: pylib/anki/stats.py:1112
-#, python-format
-msgid "%(a)0.1f %(b)s/day"
-msgstr "%(a)0.1f %(b)s/יום"
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:345
+msgid "Easy interval"
+msgstr "מרווח-זמן של \"קל\""
 
-#. T: name is a card type name. n it's order in the list of card type.
-#. T: this is shown in browser's filter, when seeing the list of card type of a note type.
-#: qt/aqt/browser.py:1356
-#, python-format
-msgid "%(n)d: %(name)s"
-msgstr "%(n)d: %(name)s"
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:346
+msgid "Graduating interval"
+msgstr "מרווח-זמן של \"טוב\""
 
-#: pylib/anki/stats.py:418
-#, python-format
-msgid "%(tot)s %(unit)s"
-msgstr "%(tot)s %(unit)s"
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:347
+msgid "New cards/day"
+msgstr "כרטיסים חדשים/יום"
 
-#: pylib/anki/stats.py:260 pylib/anki/stats.py:318 qt/aqt/clayout.py:560
-#, python-format
-msgid "%d card"
-msgid_plural "%d cards"
-msgstr[0] "%d כרטיס"
-msgstr[1] "%d כרטיסים"
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:348
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:364
+msgid "Steps (in minutes)"
+msgstr "צעדים (דקות)"
 
-#: qt/aqt/exporting.py:192
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:349
+msgid "Bury related new cards until the next day"
+msgstr "\"הטמן\" כרטיסים חדשים קשורים עד יום למחרת"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:350
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:351
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:358
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:370
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reschedule.py:79
+#: qt/aqt/customstudy.py:90 qt/aqt/customstudy.py:94 qt/aqt/customstudy.py:97
+msgid "days"
+msgstr "ימים"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:352
+msgid "New Cards"
+msgstr "כרטיסים חדשים"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:353
+msgid "Easy bonus"
+msgstr "בונוס עבור \"קל\""
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:355
+msgid "Interval modifier"
+msgstr "שינוי מרווח-זמן"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:356
+msgid "Maximum reviews/day"
+msgstr "מקסימום חזרות/ליום"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:357
+msgid "Maximum interval"
+msgstr "מרווח הזמן המקסימלי"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:360
+msgid "Bury related reviews until the next day"
+msgstr "\"הטמנת\" חזרות קשורות עד יום למחרת"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:361
+msgid "Hard interval"
+msgstr "מרווח זמן קשה"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:363
+#: pylib/anki/stats.py:819 qt/aqt/browser.py:751
+msgid "Reviews"
+msgstr "חזרות"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:365
+msgid "New interval"
+msgstr "מרווח זמן חדש"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:366
+msgid "Leech threshold"
+msgstr "סף \"כרטיס-עלוקה\""
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:367
+msgid "lapses"
+msgstr "שגיאות"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:368
+msgid "Leech action"
+msgstr "התנהגות \"כרטיס-עלוקה\""
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:369
+msgid "Minimum interval"
+msgstr "מרווח הזמן המינימלי"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:371
+#: qt/aqt/reviewer.py:729
+msgid "Suspend Card"
+msgstr "השהה כרטיס"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:372
+msgid "Tag Only"
+msgstr "סמן בלבד"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:374
+#: qt/aqt/browser.py:752
+msgid "Lapses"
+msgstr "שגיאות"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:375
+msgid "Ignore answer times longer than"
+msgstr "התעלם מתשובה שלוקחת יותר מ-"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:376
+msgid "seconds"
+msgstr "שניות"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:377
+msgid "Show answer timer"
+msgstr "הצג טיימר תשובה"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:378
+msgid "Automatically play audio"
+msgstr "נגן אודיו אוטומטית"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:379
+msgid "Always include question side when replaying audio"
+msgstr "כלול תמיד את צד השאלה כאשר אודיו מופעל שנית"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:380
+msgid "General"
+msgstr "כללי"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:381
+msgid "Description to show on overview screen, for current deck:"
+msgstr "תיאור להצגה במסך הסקירה, לחפיסה זאת:"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:382
+msgid "Description"
+msgstr "תיאור"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/debug.py:56
+msgid "Debug Console"
+msgstr "קונסולת ניפוי שגיאות"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:135
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/editaddon.py:42
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/editcurrent.py:43
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/progress.py:42
+msgid "Dialog"
+msgstr "דו שיח"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:136
+#: qt/aqt/browser.py:1319
+msgid "Filter"
+msgstr "סנן"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:137
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:141
+msgid "Limit to"
+msgstr "הגבל ל־"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:139
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:143
+msgid "cards selected by"
+msgstr "כרטיסים נבחרים לפי"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:140
+msgid "Filter 2"
+msgstr "סנן 2"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:144
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:110
+#: qt/aqt/clayout.py:111 qt/aqt/deckbrowser.py:230 qt/aqt/deckconf.py:37
+#: qt/aqt/dyndeckconf.py:25 qt/aqt/overview.py:252 qt/aqt/reviewer.py:732
+msgid "Options"
+msgstr "אפשרויות"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:145
+msgid "Reschedule cards based on my answers in this deck"
+msgstr "תזמן כרטיסים מחדש על בסיס התשובות שלי בחפיסה זו."
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:146
+msgid "Enable second filter"
+msgstr "אפשר פילטר שני"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:147
+msgid "Repeat failed cards after"
+msgstr "חזור על הכרטיסיות שנכשלו לאחר"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:148
+#: pylib/anki/stats.py:384
+msgid "minutes"
+msgstr "דקות"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:149
+msgid "Custom steps (in minutes)"
+msgstr "צעדים מותאמים אישית (דקות)"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/edithtml.py:39
+msgid "HTML Editor"
+msgstr "עורך HTML"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/exporting.py:76
+#: qt/aqt/deckbrowser.py:232 qt/aqt/exporting.py:124
+msgid "Export"
+msgstr "ייצוא"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/exporting.py:77
+msgid "<b>Export format</b>:"
+msgstr "<b>תבנית ייצוא</b>:"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/exporting.py:78
+msgid "<b>Include</b>:"
+msgstr "<b>כולל</b>:"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/exporting.py:79
+msgid "Include scheduling information"
+msgstr "כלול מידע על מועדים קבועים מראש"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/exporting.py:80
+msgid "Include media"
+msgstr "כלול מדיה"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/exporting.py:81
+msgid "Include tags"
+msgstr "כלול תגיות"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/exporting.py:82
+msgid "Include HTML and media references"
+msgstr "כלול HTML והפניות מדיה"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:105
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/profiles.py:83
+#: qt/aqt/deckbrowser.py:228 qt/aqt/deckconf.py:93 qt/aqt/models.py:58
+#: qt/aqt/sidebar.py:74
+msgid "Rename"
+msgstr "שנה שם"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:106
+#: qt/aqt/browser.py:1751
+msgid "Reposition"
+msgstr "שנה מיקום"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:107
+msgid "Editing Font"
+msgstr "ערוך גופן"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:108
+msgid "Reverse text direction (RTL)"
+msgstr "הפוך כיוון טקסט (יישור מימין-לשמאל)"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:109
+msgid "Remember last input when adding"
+msgstr "זכור קלט אחרון בעת הוספה"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:111
+msgid "Sort by this field in the browser"
+msgstr "מיין לפי שדה זה בדפדוף בכרטיסים"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/finddupes.py:71
+msgid "Find Duplicates"
+msgstr "מצא כפילויות"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/finddupes.py:72
+msgid "Optional filter:"
+msgstr "סינון אופציונלי"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/finddupes.py:73
+msgid "Search in:"
+msgstr "חיפוש ב:"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/findreplace.py:87
+#: qt/aqt/browser.py:1909
+msgid "Find and Replace"
+msgstr "מצא והחלף"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/findreplace.py:88
+msgid "<b>Find</b>:"
+msgstr "<b>מצא</b>:"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/findreplace.py:89
+msgid "<b>Replace With</b>:"
+msgstr "<b>החלף עם</b>:"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/findreplace.py:90
+msgid "<b>In</b>:"
+msgstr "<b>בתוך</b>:"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/findreplace.py:91
+msgid "Treat input as regular expression"
+msgstr "התייחס לערך המוזן כביטוי רגולרי"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/findreplace.py:92
+msgid "Ignore case"
+msgstr "התעלם מרישיות"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/getaddons.py:50
+msgid "Install Add-on"
+msgstr "התקן תוסף"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/getaddons.py:51
+msgid "To browse add-ons, please click the browse button below.<br><br>When you've found an add-on you like, please paste its code below. You can paste multiple codes, separated by spaces."
+msgstr "לחיפוש תוספים, לחץ על כפתור חפש תוספים. <br><br> כאשר אתה מוצא תוסף שמוצא חן בעיניך, הקלד את הקוד שלו למטה. תוכל להקליד כמה קודים, מופרדים באמצעות רווח."
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/getaddons.py:52
+msgid "Code:"
+msgstr "קוד:"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:106
+msgid "Import options"
+msgstr "אפשרויות יבוא"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:107
+#: qt/aqt/modelchooser.py:40
+msgid "Type"
+msgstr "סוג"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:108
+#: qt/aqt/browser.py:743 qt/aqt/deckbrowser.py:147 qt/aqt/deckchooser.py:29
+msgid "Deck"
+msgstr "חפיסה"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:109
+msgid "Update existing notes when first field matches"
+msgstr "עדכן רשומות קיימות כאשר השדה הראשון תואם"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:110
+msgid "Ignore lines where first field matches existing note"
+msgstr "התעלם משורות שהשדה הראשון תואם לרשומה קיימת"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:111
+msgid "Import even if existing note has same first field"
+msgstr "ייבא למרות שלרשומה קיימת יש שדה ראשון זהה"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:112
+msgid "Allow HTML in fields"
+msgstr "אפשר HTML בתוך שדות"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:113
+msgid "Tag modified notes:"
+msgstr "רשומות שהתג השתנה:"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:114
+msgid "Field mapping"
+msgstr "מיפוי שדות"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:133
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/setgroup.py:40
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/setlang.py:41
+msgid "Anki"
+msgstr "Anki"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:136
+msgid "&File"
+msgstr "&קובץ"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:137
+msgid "&Tools"
+msgstr "&כלים"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:138
+msgid "E&xit"
+msgstr "י&ציאה"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:139
+msgid "&Preferences..."
+msgstr "&העדפות..."
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:140
+msgid "Configure interface language and options"
+msgstr "הגדר שפת ואפשרויות ממשק"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:141
+msgid "&About..."
+msgstr "&אודות..."
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:143
+msgid "Check &Media..."
+msgstr "בדוק &מדיה..."
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:144
+msgid "Check the files in the media directory"
+msgstr "בדוק את הקבצים בתיקיית המדיה"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:145
+msgid "&Open Add-ons Folder..."
+msgstr "&פתח תיקיית תוספים..."
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:146
+msgid "&Support Anki..."
+msgstr "&תמוך ב-Anki...‏"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:147
+msgid "&Browse and Install..."
+msgstr "&עיין והתקן..."
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:148
+msgid "&Check Database"
+msgstr "&בדוק בסיס נתונים"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:150
+msgid "&Switch Profile"
+msgstr "&החלף משתמש"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:151
+msgid "&Export..."
+msgstr "&ייצוא..."
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:152
+msgid "&Import..."
+msgstr "&ייבוא..."
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:153
+msgid "Study Deck..."
+msgstr "למד חפיסה..."
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:154
+msgid "Empty Cards..."
+msgstr "כרטיסים ריקים..."
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:155
+msgid "Create Filtered Deck..."
+msgstr "צור חפיסה מסוננת..."
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:156
+msgid "Manage Note Types"
+msgstr "נהל סוגי רשומות"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:157
+msgid "Add-ons"
+msgstr "תוספים"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/modelopts.py:66
+msgid "Create scalable images with dvisvgm"
+msgstr "צור תמונות ווקטוריות באמצעות dvisvgm"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/modelopts.py:67
+msgid "Header"
+msgstr "כותרת עליונה"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/modelopts.py:68
+msgid "Footer"
+msgstr "כותרת תחתונה"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/modelopts.py:69
+#: qt/aqt/editor.py:956
+msgid "LaTeX"
+msgstr "LaTeX"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/models.py:56
+#: qt/aqt/browser.py:1335 qt/aqt/models.py:36
+msgid "Note Types"
+msgstr "סוגי רשומות"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:278
+msgid "Preferences"
+msgstr "העדפות"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:279
+msgid "Hardware acceleration (faster, may cause display issues)"
+msgstr "האצת חומרה (מהיר יותר, עשוי לגרום לבעיות תצוגה)"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:280
+msgid "Show play buttons on cards with audio"
+msgstr "הצג כפתורי הפעלה על כרטיסים עם אודיו"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:281
+msgid "Interrupt current audio when answering"
+msgstr "הפסק שמע נוכחי בעת תשובה"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:282
+msgid "Paste clipboard images as PNG"
+msgstr "הדבק תמונה מהלוח כ-PNG"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:283
+msgid "Paste without shift key strips formatting"
+msgstr "הדבקה ללא עיצוב (לשינוי לחץ shift)"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:284
+msgid "Night mode"
+msgstr "מצב לילה"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:285
+msgid "When adding, default to current deck"
+msgstr "בעת הוספה, ברירת המחדל היא הוספה לחפיסה הנוכחית"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:286
+msgid "Change deck depending on note type"
+msgstr "שנה חפיסה בהתאם לסוג רשומה"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:287
+msgid "User interface size"
+msgstr "גודל ממשק המשתמש"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:289
+msgid "Basic"
+msgstr "בסיסי"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:290
+msgid "Show next review time above answer buttons"
+msgstr "הצג את זמן החזרה הבאה מעל כפתורי התשובה"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:291
+msgid "Show remaining card count during review"
+msgstr "הצג מנין כרטיסים שנותרו בזמן החזרה"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:292
+msgid "Show learning cards with larger steps before reviews"
+msgstr "הצג כרטיסים בלמידה שיש להם צעדים גדולים, לפני החזרות"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:293
+msgid "Anki 2.1 scheduler (beta)"
+msgstr "מתזמן Anki 2.1 (גרסת בטא)"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:294
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:298
+msgid "mins"
+msgstr "דקות"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:295
+msgid "Timebox time limit"
+msgstr "הגבלת זמן בתיבת הזמן"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:296
+msgid "hours past midnight"
+msgstr "שעות לאחר חצות"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:297
+msgid "Learn ahead limit"
+msgstr "לימוד מעבר למכסה"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:299
+msgid "Next day starts at"
+msgstr "היום הבא מתחיל ב-"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:300
+msgid "Scheduling"
+msgstr "תזמון"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:301
+msgid "<b>Synchronisation</b>"
+msgstr "<b>סנכרון</b>"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:302
+msgid "Synchronize audio and images too"
+msgstr "סנכרן גם אודיו ותמונות"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:303
+msgid "Automatically sync on profile open/close"
+msgstr "סנכרן אוטומטית בעת פתיחה\\סגירה של פרופיל"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:304
+msgid "Periodically sync media"
+msgstr "סינכרון מדיה תקופתי"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:305
+msgid "On next sync, force changes in one direction"
+msgstr "בסינכרון הבא, הכרח שינויים בכיוון אחד"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:306
+msgid "Network"
+msgstr "רשת"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:307
+#, fuzzy
+msgid "<html><head/><body><p><span style=\" font-weight:600;\">Backups</span><br/>Anki will create a backup of your collection each time it is closed.</p></body></html>"
+msgstr "<b>גיבויים</b><br>Anki יגבה את האוסף שלך כל פעם שהוא נסגר או מסונכרן.‏"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:308
+msgid "Keep"
+msgstr "השאר"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:309
+msgid "backups"
+msgstr "גיבויים"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:310
+msgid "You can restore backups via File>Switch Profile."
+msgstr "באפשרותך לשחזר מגיבוי דרך קובץ>החלף פרופיל."
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:311
+msgid "Note: Media is not backed up. Please create a periodic backup of your Anki folder to be safe."
+msgstr "הערה: מדיה לא מגובה. נא ליצור גיבוי תקופתי בתיקיית Anki למניעת אובדן."
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:312
+msgid "Some settings will take effect after you restart Anki."
+msgstr "מספר הגדרות יחולו רק לאחר אתחול Anki."
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:313
+msgid "Backups"
+msgstr "גיבויים"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/profiles.py:80
+msgid "Profiles"
+msgstr "פרופילים"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/profiles.py:81
+msgid "Open"
+msgstr "פתח"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/profiles.py:85
+msgid "Quit"
+msgstr "יציאה"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/profiles.py:86
+msgid "Open Backup..."
+msgstr "פתח גיבוי..."
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reposition.py:72
+msgid "Reposition New Cards"
+msgstr "שנה מיקום כרטיסים חדשים"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reposition.py:73
+msgid "Start position:"
+msgstr "נקודת התחלה:"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reposition.py:74
+msgid "Step:"
+msgstr "צעד:"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reposition.py:75
+msgid "Randomize order"
+msgstr "סדר אקראי"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reposition.py:76
+msgid "Shift position of existing cards"
+msgstr "מיקום הזחה של כרטיסים קיימים"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reschedule.py:75
+#: qt/aqt/browser.py:1777
+msgid "Reschedule"
+msgstr "קביעת מועד חדש"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reschedule.py:76
+msgid "Place at end of new card queue"
+msgstr "מקם בסוף התור של כרטיסים חדשים"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reschedule.py:77
+msgid "Place in review queue with interval between:"
+msgstr "מקם בתור לחזרה עם מרווח-זמן בין:"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reschedule.py:78
+msgid "~"
+msgstr "~"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/setgroup.py:41
+msgid "Move cards to deck:"
+msgstr "העבר כרטיסים לחפיסה:"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/setlang.py:42
+msgid "Interface language:"
+msgstr "שפת ממשק:"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/stats.py:80
+msgid "Statistics"
+msgstr "סטטיסטיקה"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/stats.py:81
+msgid "deck"
+msgstr "חפיסה"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/stats.py:82
+#: qt/aqt/exporting.py:110
+msgid "collection"
+msgstr "אוסף"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/stats.py:83
+#: pylib/anki/stats.py:949
+msgid "1 month"
+msgstr "חודש אחד"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/stats.py:84
+#: pylib/anki/stats.py:949
+msgid "1 year"
+msgstr "שנה אחת"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/stats.py:85
+#: pylib/anki/stats.py:949
+msgid "deck life"
+msgstr "משך חיי חפיסה"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/studydeck.py:47
+msgid "Study Deck"
+msgstr "למד חפיסה"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/studydeck.py:48
+msgid "Filter:"
+msgstr "סינון:"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/taglimit.py:62
+msgid "Selective Study"
+msgstr "לימוד סלקטיבי"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/taglimit.py:63
+msgid "Require one or more of these tags:"
+msgstr "בחר אחד או יותר מהתגים הבאים:"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/taglimit.py:64
+msgid "Select tags to exclude:"
+msgstr "בחר תגים שלא יכללו:"
+
+#: pylib/anki/collection.py:577 qt/aqt/browser.py:1278
+msgid "Review"
+msgstr "חזרה"
+
+#: pylib/anki/consts.py:93
+msgid "Show new cards in random order"
+msgstr "הצג כרטיסים חדשים בסדר אקראי"
+
+#: pylib/anki/consts.py:94
+msgid "Show new cards in order added"
+msgstr "הצג כרטיסים חדשים לפי סדר הוספתם"
+
+#: pylib/anki/consts.py:100
+msgid "Mix new cards and reviews"
+msgstr "ערבוב כרטיסים חדשים וכרטיסים לחזרה"
+
+#: pylib/anki/consts.py:101
+msgid "Show new cards after reviews"
+msgstr "הצג כרטיסים חדשים לאחר החזרות"
+
+#: pylib/anki/consts.py:102
+msgid "Show new cards before reviews"
+msgstr "הצג כרטיסים חדשים לפני כרטיסים לחזרה"
+
+#: pylib/anki/consts.py:108
+msgid "Center"
+msgstr "יישר למרכז"
+
+#: pylib/anki/consts.py:109
+msgid "Left"
+msgstr "שמאל"
+
+#: pylib/anki/consts.py:110
+msgid "Right"
+msgstr "ימין"
+
+#: pylib/anki/consts.py:116
+msgid "Oldest seen first"
+msgstr "הישנים ביותר"
+
+#: pylib/anki/consts.py:117
+msgid "Random"
+msgstr "אקראי"
+
+#: pylib/anki/consts.py:118
+msgid "Increasing intervals"
+msgstr "הגדלת מרווחי זמן"
+
+#: pylib/anki/consts.py:119
+msgid "Decreasing intervals"
+msgstr "הפחתת מרווחי זמן"
+
+#: pylib/anki/consts.py:120
+msgid "Most lapses"
+msgstr "השגיאות הרבות ביותר"
+
+#: pylib/anki/consts.py:121
+msgid "Order added"
+msgstr "סדר ההוספה"
+
+#: pylib/anki/consts.py:122
+msgid "Order due"
+msgstr "תאריך יעד"
+
+#: pylib/anki/consts.py:123
+msgid "Latest added first"
+msgstr "נוספו לאחרונה"
+
+#: pylib/anki/consts.py:124
+msgid "Relative overdueness"
+msgstr "איחור יחסי"
+
+#: pylib/anki/decks.py:382
+msgid "[no deck]"
+msgstr "[אין חפיסות]"
+
+#: pylib/anki/exporting.py:95
+msgid "Cards in Plain Text"
+msgstr "כרטיסים בטקסט פשוט"
+
+#: pylib/anki/exporting.py:125
+msgid "Notes in Plain Text"
+msgstr "רשומות בטקסט רגיל"
+
+#: pylib/anki/exporting.py:167
+msgid "Anki 2.0 Deck"
+msgstr "חפיסת Anki 2.0"
+
+#: pylib/anki/exporting.py:316
+msgid "Anki Deck Package"
+msgstr "חבילת חפיסת Anki"
+
+#: pylib/anki/exporting.py:398
+msgid "Anki Collection Package"
+msgstr "חבילת מאגר Anki"
+
+#: pylib/anki/importing/__init__.py:13
+msgid "Text separated by tabs or semicolons (*)"
+msgstr "טקסט מופרד באמצעות טאבים או נקודה ופסיק (*)"
+
+#: pylib/anki/importing/__init__.py:14
+msgid "Packaged Anki Deck/Collection (*.apkg *.colpkg *.zip)"
+msgstr "חפיסה/אוסף של Anki ארוזים (*.apkg *.colpkg *.zip)"
+
+#: pylib/anki/importing/__init__.py:15
+msgid "Mnemosyne 2.0 Deck (*.db)"
+msgstr "חפיסת Mnemosyne 2.0 (*.db)"
+
+#: pylib/anki/importing/__init__.py:16
+msgid "Supermemo XML export (*.xml)"
+msgstr "יצוא Supermemo XML (*.xml)"
+
+#: pylib/anki/importing/__init__.py:17
+msgid "Pauker 1.8 Lesson (*.pau.gz)"
+msgstr "Pauker 1.8 שיעור (*.pau.gz)"
+
+#: pylib/anki/importing/anki2.py:134
 #, python-format
-msgid "%d card exported."
-msgid_plural "%d cards exported."
-msgstr[0] "%d כרטיס יוצא."
-msgstr[1] "%d כרטיסים יוצאו."
+msgid "Notes found in file: %d"
+msgstr "רשומות נמצאו בקובץ: %d"
+
+#: pylib/anki/importing/anki2.py:138
+#, python-format
+msgid "Notes that could not be imported as note type has changed: %d"
+msgstr "רשומות שלא יובאו משום שסוג הרשומה השתנה: %d"
+
+#: pylib/anki/importing/anki2.py:143
+#, python-format
+msgid "Notes updated, as file had newer version: %d"
+msgstr "רשומות שהתעדכנו, מפני שהקובץ בגירסה חדשה יותר: %d"
+
+#: pylib/anki/importing/anki2.py:146
+#, python-format
+msgid "Notes added from file: %d"
+msgstr "רשומות נוספו מקובץ: %d"
+
+#: pylib/anki/importing/anki2.py:149
+#, python-format
+msgid "Notes skipped, as they're already in your collection: %d"
+msgstr "רשומות שדולגו, מפני שהן כבר קיימות באוסף שלך: %d"
+
+#: pylib/anki/importing/anki2.py:157
+msgid "Skipped"
+msgstr "דולג(ו)"
+
+#: pylib/anki/importing/anki2.py:160
+msgid "Updated"
+msgstr "עודכן"
+
+#: pylib/anki/importing/anki2.py:163 pylib/anki/stats.py:309
+#: qt/aqt/addcards.py:202
+msgid "Added"
+msgstr "נוספו"
+
+#: pylib/anki/importing/anki2.py:166
+msgid "Identical"
+msgstr "זהה"
+
+#: pylib/anki/importing/csvfile.py:44
+#, python-format
+msgid "'%(row)s' had %(num1)d fields, expected %(num2)d"
+msgstr "'%(row)s' ישנם %(num1)d שדות, מצופים %(num2)d"
+
+#: pylib/anki/importing/csvfile.py:56
+#, python-format
+msgid "Aborted: %s"
+msgstr "בוטל: %s"
+
+#: pylib/anki/importing/mnemo.py:24
+msgid "File version unknown, trying import anyway."
+msgstr "גרסת קובץ לא ידועה, מנסה לייבא בכל-זאת."
+
+#: pylib/anki/importing/mnemo.py:105
+#, python-format
+msgid "%d note imported."
+msgid_plural "%d notes imported."
+msgstr[0] "%d רשומה יובאה."
+msgstr[1] "%d רשומות יובאו."
+
+#: pylib/anki/importing/noteimp.py:138
+#, python-format
+msgid "First field matched: %s"
+msgstr "שדה ראשוני תואם: %s"
+
+#: pylib/anki/importing/noteimp.py:139
+#, python-format
+msgid "Added duplicate with first field: %s"
+msgstr "נוספה עם כפילות בשדה הראשון: %s"
+
+#: pylib/anki/importing/noteimp.py:156
+#, python-format
+msgid "Empty first field: %s"
+msgstr "שדה ראשון ריק: %s"
+
+#: pylib/anki/importing/noteimp.py:161
+#, python-format
+msgid "Appeared twice in file: %s"
+msgstr "מופיע פעמיים בקובץ: %s"
+
+#: pylib/anki/importing/noteimp.py:212
+#, python-format
+msgid "%d note added"
+msgid_plural "%d notes added"
+msgstr[0] "%d רשומה נוספה"
+msgstr[1] "%d רשומות נוספו"
+
+#: pylib/anki/importing/noteimp.py:214
+#, python-format
+msgid "%d note updated"
+msgid_plural "%d notes updated"
+msgstr[0] "%d רשומה עודכנה"
+msgstr[1] "%d רשומות עודכנו"
+
+#: pylib/anki/importing/noteimp.py:224
+#, python-format
+msgid "%d note unchanged"
+msgid_plural "%d notes unchanged"
+msgstr[0] "%d רשומה לא השתנתה"
+msgstr[1] "%d רשומות לא השתנו"
 
 #: pylib/anki/importing/supermemo_xml.py:202
 #, python-format
@@ -100,19 +1360,856 @@ msgid_plural "%d cards imported."
 msgstr[0] "%d כרטיס יובא."
 msgstr[1] "%d כרטיסים יובאו."
 
-#: qt/aqt/reviewer.py:90
+#: pylib/anki/latex.py:134
 #, python-format
-msgid "%d card studied in"
-msgid_plural "%d cards studied in"
-msgstr[0] "%d כרטיס נלמד ב"
-msgstr[1] "%d כרטיסים נלמדו ב"
+msgid "For security reasons, '%s' is not allowed on cards. You can still use it by placing the command in a different package, and importing that package in the LaTeX header instead."
+msgstr "מסיבות אבטחה, '%s' אינו מורשה בכרטיסים. עדיין תוכל להשתמש בו באמצעות הצבת הפקודה בחבילה נפרדת, וייבוא אותה החבילה בכותרת הLaTeX לחילופין."
 
-#: qt/aqt/deckconf.py:169
+#: pylib/anki/latex.py:176
 #, python-format
-msgid "%d deck updated."
-msgid_plural "%d decks updated."
-msgstr[0] "%d חפיסה עודכנה."
-msgstr[1] "%d חפיסות עודכנו."
+msgid "Error executing %s."
+msgstr "שגיאה התרחשה בעת הפעלת %s."
+
+#: pylib/anki/latex.py:177
+#, python-format
+msgid "Generated file: %s"
+msgstr "קובץ נוצר: %s"
+
+#: pylib/anki/latex.py:185
+msgid "Have you installed latex and dvipng/dvisvgm?"
+msgstr "האם התקנת latex ו-dvipng/dvisvgm ?"
+
+#: pylib/anki/models.py:263
+#, python-format
+msgid "%s copy"
+msgstr "עותק של %s"
+
+#: pylib/anki/schedv2.py:1261
+msgid "(end)"
+msgstr "(סוף)"
+
+#: pylib/anki/stats.py:119 qt/aqt/browser.py:1259
+msgid "Today"
+msgstr "היום"
+
+#: pylib/anki/stats.py:152
+#, python-format
+msgid "Again count: %s"
+msgstr "מנין השגיאות: %s"
+
+#: pylib/anki/stats.py:154
+#, python-format
+msgid "(%s correct)"
+msgstr "(%s נכון)"
+
+#: pylib/anki/stats.py:160
+#, python-format
+msgid "Learn: %(a)s, Review: %(b)s, Relearn: %(c)s, Filtered: %(d)s"
+msgstr "נלמדו:%(a)s, נסקרו: %(b)s, נלמדו מחדש: %(c)s, מסוננים: %(d)s"
+
+#: pylib/anki/stats.py:173
+#, python-format
+msgid "Correct answers on mature cards: %(a)d/%(b)d (%(c).1f%%)"
+msgstr "תשובות נכונות בכרטיסים בוגרים: %(a)d/%(b)d (%(c).1f%%)"
+
+#: pylib/anki/stats.py:176
+msgid "No mature cards were studied today."
+msgstr "לא נלמדו כרטיסים בוגרים היום."
+
+#: pylib/anki/stats.py:178
+msgid "No cards have been studied today."
+msgstr "לא נלמדו כרטיסים היום."
+
+#: pylib/anki/stats.py:213 pylib/anki/stats.py:346 pylib/anki/stats.py:366
+#: pylib/anki/stats.py:688 pylib/anki/stats.py:858
+msgid "Mature"
+msgstr "בוגר"
+
+#: pylib/anki/stats.py:214 pylib/anki/stats.py:347 pylib/anki/stats.py:367
+#: pylib/anki/stats.py:687
+msgid "Young"
+msgstr "צעיר(ים)"
+
+#: pylib/anki/stats.py:221
+msgid "Cumulative"
+msgstr "מצטבר"
+
+#: pylib/anki/stats.py:228
+msgid "Forecast"
+msgstr "תחזית"
+
+#: pylib/anki/stats.py:228
+msgid "The number of reviews due in the future."
+msgstr "מספר החזרות המתוכננות בעתיד."
+
+#: pylib/anki/stats.py:236 pylib/anki/stats.py:310
+msgid "Cumulative Cards"
+msgstr "כרטיסים מצטברים"
+
+#: pylib/anki/stats.py:249 pylib/anki/stats.py:318 pylib/anki/stats.py:418
+msgid "Total"
+msgstr "סך-הכל"
+
+#: pylib/anki/stats.py:252 pylib/anki/stats.py:319
+msgid "Average"
+msgstr "ממוצע"
+
+#: pylib/anki/stats.py:252 pylib/anki/stats.py:360
+msgid "reviews"
+msgstr "חזרות"
+
+#: pylib/anki/stats.py:260 pylib/anki/stats.py:318 qt/aqt/clayout.py:560
+#, python-format
+msgid "%d card"
+msgid_plural "%d cards"
+msgstr[0] "%d כרטיס"
+msgstr[1] "%d כרטיסים"
+
+#: pylib/anki/stats.py:261
+msgid "Due tomorrow"
+msgstr "מתוזמן למחר"
+
+#: pylib/anki/stats.py:309
+msgid "The number of new cards you have added."
+msgstr "מספר הכרטיסיות החדשות שאתה הוספת."
+
+#: pylib/anki/stats.py:319 qt/aqt/customstudy.py:53
+msgid "cards"
+msgstr "כרטיסיות"
+
+#: pylib/anki/stats.py:348 pylib/anki/stats.py:368
+msgid "Relearn"
+msgstr "‏‏לימוד חוזר"
+
+#: pylib/anki/stats.py:349 pylib/anki/stats.py:369
+msgid "Learn"
+msgstr "למד"
+
+#: pylib/anki/stats.py:350 pylib/anki/stats.py:370
+msgid "Cram"
+msgstr "חרוש"
+
+#: pylib/anki/stats.py:354
+msgid "Review Count"
+msgstr "מנין החזרות"
+
+#: pylib/anki/stats.py:354
+msgid "The number of questions you have answered."
+msgstr "מספר השאלות שענית עליהן."
+
+#: pylib/anki/stats.py:357 pylib/anki/stats.py:692 pylib/anki/stats.py:800
+msgid "Answers"
+msgstr "תשובות"
+
+#: pylib/anki/stats.py:357
+msgid "Cumulative Answers"
+msgstr "תשובות מצטברות"
+
+#: pylib/anki/stats.py:374
+msgid "Minutes"
+msgstr "דקות"
+
+#: pylib/anki/stats.py:377
+msgid "Hours"
+msgstr "שעות"
+
+#: pylib/anki/stats.py:380
+msgid "Review Time"
+msgstr "זמן חזרה"
+
+#: pylib/anki/stats.py:380
+msgid "The time taken to answer the questions."
+msgstr "הזמן שלקח לענות על השאלות."
+
+#: pylib/anki/stats.py:382
+#, python-format
+msgid "Cumulative %s"
+msgstr "מצטבר %s"
+
+#: pylib/anki/stats.py:407
+msgid "Days studied"
+msgstr "ימי לימוד"
+
+#: pylib/anki/stats.py:408
+#, python-format
+msgid "<b>%(pct)d%%</b> (%(x)s of %(y)s)"
+msgstr "<b>%(pct)d%%</b> (%(x)s מתוך %(y)s)"
+
+#: pylib/anki/stats.py:413
+msgid "hours"
+msgstr "שעות"
+
+#: pylib/anki/stats.py:418
+#, python-format
+msgid "%(tot)s %(unit)s"
+msgstr "%(tot)s %(unit)s"
+
+#: pylib/anki/stats.py:423
+msgid "Average for days studied"
+msgstr "ממוצע עבור ימים שנלמדו"
+
+#: pylib/anki/stats.py:427
+msgid "If you studied every day"
+msgstr "אם למדת כל יום"
+
+#: pylib/anki/stats.py:434
+msgid "Average answer time"
+msgstr "זמן תשובה ממוצע"
+
+#: pylib/anki/stats.py:596
+msgid "Delays until reviews are shown again."
+msgstr "הזמן שעובר עד שחזרות מופיעות שנית."
+
+#: pylib/anki/stats.py:596
+msgid "Intervals"
+msgstr "מרווחי-זמן"
+
+#: pylib/anki/stats.py:599
+msgid "Percentage"
+msgstr "אחוזים"
+
+#: pylib/anki/stats.py:618
+msgid "Average interval"
+msgstr "מרווח ממוצע"
+
+#: pylib/anki/stats.py:619
+msgid "Longest interval"
+msgstr "מרווח הזמן הארוך ביותר"
+
+#: pylib/anki/stats.py:681
+msgid "Answer Buttons"
+msgstr "כפתורי תשובה"
+
+#: pylib/anki/stats.py:681
+msgid "The number of times you have pressed each button."
+msgstr "מספר הפעמים שלחצת על כל לחצן."
+
+#: pylib/anki/stats.py:686 qt/aqt/browser.py:1277 qt/aqt/overview.py:231
+msgid "Learning"
+msgstr "לימוד"
+
+#: pylib/anki/stats.py:713
+#, python-format
+msgid "Correct: <b>%(pct)0.2f%%</b><br>(%(good)d of %(tot)d)"
+msgstr "נכון: <b>%(pct)0.2f%%</b><br>(%(good)d of %(tot)d)"
+
+#: pylib/anki/stats.py:791
+msgid "Hourly Breakdown"
+msgstr "פילוח שעתי"
+
+#: pylib/anki/stats.py:791
+msgid "Review success rate for each hour of the day."
+msgstr "דירוג הצלחה בחזרות לכל שעה ביום"
+
+#: pylib/anki/stats.py:796 pylib/anki/stats.py:818
+msgid "% Correct"
+msgstr "% נכון"
+
+#: pylib/anki/stats.py:809
+msgid "4AM"
+msgstr "04:00"
+
+#: pylib/anki/stats.py:810
+msgid "10AM"
+msgstr "10:00"
+
+#: pylib/anki/stats.py:811
+msgid "4PM"
+msgstr "16:00"
+
+#: pylib/anki/stats.py:812
+msgid "10PM"
+msgstr "22:00"
+
+#: pylib/anki/stats.py:813
+msgid "3AM"
+msgstr "03:00"
+
+#: pylib/anki/stats.py:821
+msgid "Hours with less than 30 reviews are not shown."
+msgstr "שעות עם פחות מ-30 סקירות לא מוצגות."
+
+#: pylib/anki/stats.py:859
+msgid "Young+Learn"
+msgstr "צעיר(ים) + שנלמדו"
+
+#: pylib/anki/stats.py:860
+msgid "Unseen"
+msgstr "לא נסקר(ו)"
+
+#: pylib/anki/stats.py:861
+msgid "Suspended+Buried"
+msgstr "הושהתה+הוטמנה"
+
+#: pylib/anki/stats.py:873
+msgid "Total cards"
+msgstr "סך-הכל כרטיסיות"
+
+#: pylib/anki/stats.py:874
+msgid "Total notes"
+msgstr "סה\"כ רשומות"
+
+#: pylib/anki/stats.py:877
+msgid "Lowest ease"
+msgstr "הקלות הנמוכה ביותר"
+
+#: pylib/anki/stats.py:878
+msgid "Average ease"
+msgstr "קלות ממוצעת"
+
+#: pylib/anki/stats.py:879
+msgid "Highest ease"
+msgstr "הקלות הגבוהה ביותר"
+
+#: pylib/anki/stats.py:882
+msgid "A card's <i>ease</i> is the size of the next interval when you answer \"good\" on a review."
+msgstr "ה<i>קלות</i> של כרטיס היא גודל מרווח-הזמן עד החזרה הבאה, כאשר ענית \"טוב\" בשעת החזרה."
+
+#: pylib/anki/stats.py:886 qt/aqt/clayout.py:63
+msgid "Card Types"
+msgstr "סוגי כרטיסים"
+
+#: pylib/anki/stats.py:886
+msgid "The division of cards in your deck(s)."
+msgstr "חלוקת הכרטיסיות בחפיסה/ות שלך.,"
+
+#. T: Symbols separating first and second column in a statistics table. Eg in "Total:    3 reviews".
+#: pylib/anki/stats.py:898
+msgid ":"
+msgstr ":"
+
+#: pylib/anki/stats.py:941
+#, python-format
+msgid "Generated on %s"
+msgstr "נוצר ב-%s"
+
+#: pylib/anki/stats.py:944
+msgid "whole collection"
+msgstr "כלל המאגר"
+
+#: pylib/anki/stats.py:947
+#, python-format
+msgid "Scope: %s"
+msgstr "תחום: %s"
+
+#: pylib/anki/stats.py:949
+#, python-format
+msgid "Period: %s"
+msgstr "פרק זמן: %s"
+
+#. T: abbreviation of day
+#: pylib/anki/stats.py:982
+msgid "d"
+msgstr "ימים"
+
+#. T: abbreviation of week
+#: pylib/anki/stats.py:984
+msgid "w"
+msgstr "שבועות"
+
+#. T: abbreviation of month
+#: pylib/anki/stats.py:986
+msgid "mo"
+msgstr "חודשים"
+
+#: pylib/anki/stats.py:1112
+#, python-format
+msgid "%(a)0.1f %(b)s/day"
+msgstr "%(a)0.1f %(b)s/יום"
+
+#: qt/aqt/about.py:86
+msgid "Copied to clipboard"
+msgstr "הועתק ללוח"
+
+#: qt/aqt/about.py:88
+msgid "Copy Debug Info"
+msgstr "העתק מידע ניפוי שגיאות"
+
+#: qt/aqt/about.py:97
+msgid "Anki is a friendly, intelligent spaced learning system. It's free and open source."
+msgstr "Anki היא מערכת ידידותית ואינטליגנטית לשינון בסירוגין (spaced learning). היא חופשית ומבוססת על קוד פתוח."
+
+#: qt/aqt/about.py:101
+msgid "Anki is licensed under the AGPL3 license. Please see the license file in the source distribution for more information."
+msgstr "Anki מופצת תחת הרישיון AGPL3. למידע נוסף, אנא ראה את קובץ הרישיון בהפצת קוד המקור."
+
+#: qt/aqt/about.py:104
+#, python-format
+msgid "Version %s"
+msgstr "גרסה %s"
+
+#: qt/aqt/about.py:110
+#, python-format
+msgid "<a href='%s'>Visit website</a>"
+msgstr "<a href='%s'>בקר באתר</a>"
+
+#: qt/aqt/about.py:215
+#, python-format
+msgid "Written by Damien Elmes, with patches, translation,    testing and design from:<p>%(cont)s"
+msgstr "נכתב ע\"י Damien Elmes, עם הוספות, תרגום, בדיקות ועיצוב מאת: <p> %(cont)s"
+
+#: qt/aqt/about.py:221
+msgid "If you have contributed and are not on this list, please get in touch."
+msgstr "אם תרמת ממאמציך ואינך ברשימה, אנא צור קשר."
+
+#: qt/aqt/about.py:225
+msgid "A big thanks to all the people who have provided suggestions, bug reports and donations."
+msgstr "תודה גדולה לכל מי שסיפק הצעות, תיקוני באגים ותרומות."
+
+#: qt/aqt/addcards.py:73
+msgid "Add (shortcut: ctrl+enter)"
+msgstr "הוספה (קיצור מקשים: ctrl+enter)"
+
+#: qt/aqt/addcards.py:79 qt/aqt/clayout.py:384 qt/aqt/utils.py:212
+#: qt/aqt/utils.py:213
+msgid "Help"
+msgstr "עזרה"
+
+#: qt/aqt/addcards.py:83
+msgid "History"
+msgstr "היסטוריה"
+
+#: qt/aqt/addcards.py:89
+#, python-format
+msgid "Shortcut: %s"
+msgstr "קיצור דרך: %s"
+
+#: qt/aqt/addcards.py:149
+#, python-format
+msgid "Edit \"%s\""
+msgstr "ערוך את \"%s\""
+
+#: qt/aqt/addcards.py:154
+msgid "(Note deleted)"
+msgstr "(רשומה נמחקה)"
+
+#: qt/aqt/addcards.py:169
+msgid "The first field is empty."
+msgstr "השדה הראשון ריק."
+
+#: qt/aqt/addcards.py:178
+msgid "You have a cloze deletion note type but have not made any cloze deletions. Proceed?"
+msgstr "סוג הרשומה הוא השלמת החסר, אך אין שום חסר להשלמה. להמשיך?"
+
+#: qt/aqt/addcards.py:232
+msgid "Close and lose current input?"
+msgstr "סגור תוך השלכת השינויים?"
+
+#: qt/aqt/addons.py:280
+#, python-format
+msgid "The following add-ons are incompatible with %(name)s and have been disabled: %(found)s"
+msgstr "התוספים הבאים אינם תואמים עם %(name)s ולכן הושבתו: %(found)s"
+
+#: qt/aqt/addons.py:313
+msgid " (disabled)"
+msgstr " (מושבת)"
+
+#: qt/aqt/addons.py:427
+#, python-format
+msgid ""
+"Unable to update or delete add-on. Please start Anki while holding down the shift key to temporarily disable add-ons, then try again.\n"
+"\n"
+"Debug info: %s"
+msgstr ""
+"לא הצלחנו לעדכן או למחוק תוסף. נא הפעל מחדש את התוכנה בעודך מחזיק את מקש Shift לחוץ בכדי לבטל זמנית את התוספים, ונסה שנית.\n"
+"\n"
+"מידע ניפוי שגיאות: %s"
+
+#: qt/aqt/addons.py:471
+msgid "Corrupt add-on file."
+msgstr "קובץ תוסף פגום."
+
+#: qt/aqt/addons.py:472
+msgid "Invalid add-on manifest."
+msgstr "תצורת תוסף לא חוקית."
+
+#: qt/aqt/addons.py:475
+msgid "Unknown error: {}"
+msgstr "שגיאה לא ידועה: {}"
+
+#: qt/aqt/addons.py:478
+#, python-format
+msgid "Error downloading <i>%(id)s</i>: %(error)s"
+msgstr "שגיאה בהורדה <i>%(id)s</i>: %(error)s"
+
+#: qt/aqt/addons.py:480
+#, python-format
+msgid "Error installing <i>%(base)s</i>: %(error)s"
+msgstr "שגיאה התרחשה בעת התקנת <i>%(base)s</i>: %(error)s"
+
+#: qt/aqt/addons.py:491
+#, python-format
+msgid "Downloaded %(fname)s"
+msgstr "%(fname)s הורד"
+
+#: qt/aqt/addons.py:493
+#, python-format
+msgid "Installed %(name)s"
+msgstr "הותקן %(name)s"
+
+#: qt/aqt/addons.py:500
+msgid "The following conflicting add-ons were disabled:"
+msgstr "התוספים הסותרים הבאים הושבתו:"
+
+#: qt/aqt/addons.py:507
+msgid "This add-on is not compatible with your version of Anki."
+msgstr "התוסף הזה אינו מתאים לגירסת Anki שברשותך."
+
+#: qt/aqt/addons.py:746
+msgid "(disabled)"
+msgstr "(מושבת)"
+
+#: qt/aqt/addons.py:748
+#, python-format
+msgid "(requires %s)"
+msgstr "(נדרש %s)"
+
+#: qt/aqt/addons.py:807
+msgid "Please select a single add-on first."
+msgstr "נא בחר תוסף בודד קודם"
+
+#: qt/aqt/addons.py:823
+msgid "Add-on was not downloaded from AnkiWeb."
+msgstr "תוסף לא הורד מ-AnkiWeb."
+
+#: qt/aqt/addons.py:845
+#, python-format
+msgid "Delete the %(num)d selected add-on?"
+msgid_plural "Delete the %(num)d selected add-ons?"
+msgstr[0] "מחק את %(num)d התוסף הנבחר?"
+msgstr[1] "מחק את %(num)d התוספים הנבחרים?"
+
+#: qt/aqt/addons.py:868
+msgid "No updates available."
+msgstr "אין עדכונים זמינים."
+
+#: qt/aqt/addons.py:872
+msgid "Packaged Anki Add-on"
+msgstr "תוסף Anki ארוז"
+
+#: qt/aqt/addons.py:874
+msgid "Install Add-on(s)"
+msgstr "התקן תוסף(ים)"
+
+#: qt/aqt/addons.py:885
+msgid "Checking..."
+msgstr "בודק..."
+
+#: qt/aqt/addons.py:902
+msgid "Add-on has no configuration."
+msgstr "לתוסף אין הגדרות."
+
+#: qt/aqt/addons.py:922
+msgid "Browse Add-ons"
+msgstr "חפש תוספים"
+
+#: qt/aqt/addons.py:937
+msgid "Invalid code."
+msgstr "קוד שגוי."
+
+#: qt/aqt/addons.py:1011
+msgid "Invalid code, or add-on not available for your version of Anki."
+msgstr "קוד שגוי, או תוסף לא זמין עבור גרסת ה-Anki שלך."
+
+#: qt/aqt/addons.py:1014 qt/aqt/editor.py:850
+#, python-format
+msgid "Unexpected response code: %s"
+msgstr "תגובה לא צפויה: %s"
+
+#: qt/aqt/addons.py:1017
+msgid "Please check your internet connection."
+msgstr "בדוק את חיבור האינטרנט שלך."
+
+#: qt/aqt/addons.py:1024
+msgid "Installed successfully."
+msgstr "הותקן בהצלחה"
+
+#. T: "%(a)d" is the index of the element currently
+#. downloaded. "%(b)d" is the number of element to download,
+#. and "%(kb)0.2f" is the number of downloaded
+#. kilobytes. This lead for example to "Downloading 3/5
+#. (27KB)"
+#: qt/aqt/addons.py:1094
+#, python-format
+msgid "Downloading %(a)d/%(b)d (%(kb)0.2fKB)..."
+msgstr "מוריד %(a)d/%(b)d (%(kb)0.2fKB)..."
+
+#: qt/aqt/addons.py:1113
+msgid "One or more errors occurred:"
+msgstr "שגיאה אחת או יותר התרחשו:"
+
+#: qt/aqt/addons.py:1115
+msgid "Download complete. Please restart Anki to apply changes."
+msgstr "ההורדה הושלמה. הפעל מחדש את Anki להחיל שינויים."
+
+#: qt/aqt/addons.py:1268
+msgid "The following add-ons have updates available. Install them now?"
+msgstr "לתוספים הבאים קיים עדכון. להתקין כעת?"
+
+#: qt/aqt/addons.py:1310
+msgid "Restored defaults"
+msgstr "שוחזרו ברירות המחדל"
+
+#: qt/aqt/addons.py:1376
+msgid "Invalid configuration: "
+msgstr "קונפיגורציה שגויה: "
+
+#: qt/aqt/addons.py:1380
+msgid "Invalid configuration: top level object must be a map"
+msgstr "קונפיגורציה שגויה: האובייקט ברמה העליונה ביותר צריך להיות מפה."
+
+#: qt/aqt/addons.py:1410
+#, python-format
+msgid "<b>Important</b>: As add-ons are programs downloaded from the internet, they are potentially malicious.<b>You should only install add-ons you trust.</b><br><br>Are you sure you want to proceed with the installation of the following Anki add-on(s)?<br><br>%(names)s"
+msgstr "<b>חשוב:</b> משום שתוספים הם תוכניות שמגיעות מהאינטרנט, הם עלולים להיות זדוניים. <b> התקן רק תוספים שאתה בוטח בהם. </b><br><br> האם אתה בטוח שאתה רוצה להמשיך בהתקנת התוספים הבאים? <br><br>%(names)s"
+
+#: qt/aqt/addons.py:1420
+msgid "Install Anki add-on"
+msgstr "התקן תוסף Anki"
+
+#: qt/aqt/addons.py:1434
+msgid "<b>Please restart Anki to complete the installation.</b>"
+msgstr "<b>נא אתחל את התוכנה כדי להשלים את ההתקנה</b>"
+
+#: qt/aqt/addons.py:1443
+msgid "Installation complete"
+msgstr "ההתקנה הושלמה"
+
+#: qt/aqt/addons.py:1446
+msgid "Please report this to the respective add-on author(s)."
+msgstr "נא דווח זאת לעורכי התוסף."
+
+#: qt/aqt/addons.py:1451
+msgid "Add-on installation error"
+msgstr "שגיאת בהתקנת תוסף"
+
+#: qt/aqt/browser.py:172
+msgid "Add-on"
+msgstr "תוסף"
+
+#: qt/aqt/browser.py:334 qt/aqt/browser.py:340
+msgid "(new)"
+msgstr "(חדש)"
+
+#: qt/aqt/browser.py:336
+msgid "(learning)"
+msgstr "(בלימוד)"
+
+#: qt/aqt/browser.py:369
+msgid "(filtered)"
+msgstr "(מסונן)"
+
+#: qt/aqt/browser.py:624
+#, python-format
+msgid "Preview Selected Card (%s)"
+msgstr "תצוגה מקדימה כרטיסייה נבחרת (%s)"
+
+#: qt/aqt/browser.py:740
+msgid "Question"
+msgstr "שאלה"
+
+#: qt/aqt/browser.py:741
+msgid "Answer"
+msgstr "תשובה"
+
+#: qt/aqt/browser.py:742
+msgid "Card"
+msgstr "כרטיס"
+
+#: qt/aqt/browser.py:744
+msgid "Sort Field"
+msgstr "שדה מיון"
+
+#: qt/aqt/browser.py:745
+msgid "Created"
+msgstr "תאריך יצירה"
+
+#: qt/aqt/browser.py:749
+msgid "Interval"
+msgstr "מרווח-זמן"
+
+#: qt/aqt/browser.py:750
+msgid "Ease"
+msgstr "קלות"
+
+#: qt/aqt/browser.py:753 qt/aqt/browser.py:1299 qt/aqt/editor.py:576
+msgid "Tags"
+msgstr "תגיות"
+
+#: qt/aqt/browser.py:754
+msgid "Note"
+msgstr "רשומה"
+
+#: qt/aqt/browser.py:765
+msgid "<type here to search; hit enter to show current deck>"
+msgstr "<הקלד כאן ע\"מ לחפש; הקש אנטר להצגת חפיסה נוכחית>"
+
+#: qt/aqt/browser.py:826
+#, python-format
+msgid "Browse (%(cur)d card shown; %(sel)s)"
+msgid_plural "Browse (%(cur)d cards shown; %(sel)s)"
+msgstr[0] "דפדף (%(cur)d כרטיס מוצג; %(sel)s)"
+msgstr[1] "דפדף (%(cur)d כרטיסים מוצגים; %(sel)s)"
+
+#: qt/aqt/browser.py:832
+#, python-format
+msgid "%d selected"
+msgid_plural "%d selected"
+msgstr[0] "%d נבחר"
+msgstr[1] "%d נבחרו"
+
+#: qt/aqt/browser.py:942
+msgid "Sorting on this column is not supported. Please choose another."
+msgstr "מיון בעמודה זו אינו נתמך. בחר עמודה אחרת."
+
+#: qt/aqt/browser.py:997
+msgid "You must have at least one column."
+msgstr "חייבת להיות לך לפחות עמודה אחת."
+
+#: qt/aqt/browser.py:1108 qt/aqt/browser.py:1255
+msgid "Whole Collection"
+msgstr "כלל המאגר"
+
+#: qt/aqt/browser.py:1115 qt/aqt/browser.py:1255
+msgid "Current Deck"
+msgstr "חפיסה נוכחית"
+
+#: qt/aqt/browser.py:1263
+msgid "Added Today"
+msgstr "התווסף היום"
+
+#: qt/aqt/browser.py:1264
+msgid "Studied Today"
+msgstr "נלמדו היום"
+
+#: qt/aqt/browser.py:1265
+msgid "Again Today"
+msgstr "שוב היום"
+
+#: qt/aqt/browser.py:1272
+msgid "Card State"
+msgstr "מצב כרטיס"
+
+#: qt/aqt/browser.py:1276 qt/aqt/deckbrowser.py:149 qt/aqt/overview.py:229
+msgid "New"
+msgstr "חדשים"
+
+#: qt/aqt/browser.py:1281
+msgid "Suspended"
+msgstr "מושהה"
+
+#: qt/aqt/browser.py:1282
+msgid "Buried"
+msgstr "נקברו"
+
+#: qt/aqt/browser.py:1288
+msgid "No Flag"
+msgstr "לא מסומן בדגל"
+
+#: qt/aqt/browser.py:1289
+msgid "Any Flag"
+msgstr "כל דגל"
+
+#: qt/aqt/browser.py:1301
+msgid "Clear Unused"
+msgstr "נקה לא בשימוש"
+
+#: qt/aqt/browser.py:1329 qt/aqt/toolbar.py:105
+msgid "Decks"
+msgstr "חפיסות"
+
+#: qt/aqt/browser.py:1349
+msgid "All Card Types"
+msgstr "כל סוגי הכרטיסים"
+
+#. T: name is a card type name. n it's order in the list of card type.
+#. T: this is shown in browser's filter, when seeing the list of card type of a note type.
+#: qt/aqt/browser.py:1356
+#, python-format
+msgid "%(n)d: %(name)s"
+msgstr "%(n)d: %(name)s"
+
+#: qt/aqt/browser.py:1378
+msgid "Remove Current Filter..."
+msgstr "הסר סינון נוכחי..."
+
+#: qt/aqt/browser.py:1380
+msgid "Save Current Filter..."
+msgstr "שמור מסנן נוכחי..."
+
+#: qt/aqt/browser.py:1393
+msgid "Please give your filter a name:"
+msgstr "נא הכנס שם עבור הסינון שלך:"
+
+#: qt/aqt/browser.py:1404
+#, python-format
+msgid "Remove %s from your saved searches?"
+msgstr "להסיר את %s מהחיפושים השמורים?"
+
+#: qt/aqt/browser.py:1493
+msgid "Please select cards from only one note type."
+msgstr "נא בחר כרטיסים מסוג רשומה אחד בלבד."
+
+#: qt/aqt/browser.py:1547
+msgid "Delete Notes"
+msgstr "מחק רשומות"
+
+#: qt/aqt/browser.py:1573
+#, python-format
+msgid "%d note deleted."
+msgid_plural "%d notes deleted."
+msgstr[0] "%d רשומה נמחקה."
+msgstr[1] "%d רשומות נמחקו."
+
+#: qt/aqt/browser.py:1593
+msgid "Move Cards"
+msgstr "העבר כרטיסים"
+
+#: qt/aqt/browser.py:1594 qt/aqt/browser.py:1606
+msgid "Change Deck"
+msgstr "שנה חפיסה"
+
+#: qt/aqt/browser.py:1603
+msgid "Cards can't be manually moved into a filtered deck."
+msgstr "לא ניתן להעביר ידנית כרטיסים לתוך חפיסה מסוננת."
+
+#: qt/aqt/browser.py:1619
+msgid "Enter tags to add:"
+msgstr "הזן תגיות להוספה:"
+
+#: qt/aqt/browser.py:1629
+msgid "Add Tags"
+msgstr "הוסף תגיות"
+
+#: qt/aqt/browser.py:1639
+msgid "Delete Tags"
+msgstr "מחק תגיות"
+
+#: qt/aqt/browser.py:1641
+msgid "Enter tags to delete:"
+msgstr "הזן תגיות למחיקה:"
+
+#: qt/aqt/browser.py:1734
+msgid "Only new cards can be repositioned."
+msgstr "רק כרטיסים חדשים יכולים להיות ממוקמים מחדש."
+
+#: qt/aqt/browser.py:1744
+#, python-format
+msgid "Queue top: %d"
+msgstr "ראש התור: %d"
+
+#: qt/aqt/browser.py:1745
+#, python-format
+msgid "Queue bottom: %d"
+msgstr "תחתית התור: %d"
+
+#: qt/aqt/browser.py:1884
+msgid "All Fields"
+msgstr "כל השדות"
+
+#: qt/aqt/browser.py:1988 qt/aqt/browser.py:2015
+msgid "Tag Duplicates"
+msgstr "כפילויות תגים"
 
 #: qt/aqt/browser.py:1994
 #, python-format
@@ -129,19 +2226,471 @@ msgid_plural "%d notes"
 msgstr[0] "%d רשומה"
 msgstr[1] "%d רשומות"
 
-#: pylib/anki/importing/noteimp.py:212
+#: qt/aqt/browser.py:1996
 #, python-format
-msgid "%d note added"
-msgid_plural "%d notes added"
-msgstr[0] "%d רשומה נוספה"
-msgstr[1] "%d רשומות נוספו"
+msgid "Found %(a)s across %(b)s."
+msgstr "נמצא %(a)s מעבר ל%(b)s."
 
-#: qt/aqt/browser.py:1573
+#: qt/aqt/browser.py:2019
+msgid "duplicate"
+msgstr "שכפל"
+
+#: qt/aqt/browser.py:2023
+msgid "Notes tagged."
+msgstr "רשומות תוייגו."
+
+#: qt/aqt/browser.py:2180
+msgid "Nothing"
+msgstr "כלום"
+
+#: qt/aqt/browser.py:2183
 #, python-format
-msgid "%d note deleted."
-msgid_plural "%d notes deleted."
-msgstr[0] "%d רשומה נמחקה."
-msgstr[1] "%d רשומות נמחקו."
+msgid "Change %s to:"
+msgstr "שנה %s ל:"
+
+#: qt/aqt/browser.py:2263
+msgid "Any cards mapped to nothing will be deleted. If a note has no remaining cards, it will be lost. Are you sure you want to continue?"
+msgstr "כל כרטיס שאינו משוייך לכלום תימחק. אם לרשומה לא נותרו כרטיסים, היא תימחק. האם אתה בטוח שברצונך להמשיך?"
+
+#: qt/aqt/clayout.py:69
+#, python-format
+msgid "Card Types for %s"
+msgstr "סוגי כרטיסים עבור %s"
+
+#: qt/aqt/clayout.py:243
+#, python-format
+msgid "Cloze %d"
+msgstr "השלם את החסר %d"
+
+#: qt/aqt/clayout.py:394
+msgid "Flip"
+msgstr "הפוך"
+
+#: qt/aqt/clayout.py:399 qt/aqt/sound.py:599
+msgid "Save"
+msgstr "שמור"
+
+#: qt/aqt/clayout.py:405 qt/aqt/overview.py:134 qt/aqt/sound.py:602
+msgid "Cancel"
+msgstr "ביטול"
+
+#: qt/aqt/clayout.py:551
+msgid "At least one card type is required."
+msgstr "נדרש לפחות 1 סוג כרטיס."
+
+#: qt/aqt/clayout.py:561
+#, python-format
+msgid "Delete the '%(a)s' card type, and its %(b)s?"
+msgstr "מחק את סוג כרטיס '%(a)s' ואת %(b)s שלו?"
+
+#: qt/aqt/clayout.py:586 qt/aqt/deckconf.py:148 qt/aqt/fields.py:97
+#: qt/aqt/main.py:305 qt/aqt/models.py:87
+msgid "New name:"
+msgstr "שם חדש:"
+
+#: qt/aqt/clayout.py:600
+#, python-format
+msgid "Enter new card position (1...%s):"
+msgstr "הכנס מיקום כרטיס חדש (1...%s):"
+
+#: qt/aqt/clayout.py:622
+#, python-format
+msgid "Card %d"
+msgstr "כרטיס %d"
+
+#: qt/aqt/clayout.py:632
+#, python-format
+msgid "This will create %d card. Proceed?"
+msgid_plural "This will create %d cards. Proceed?"
+msgstr[0] "זה ייצור %d כרטיס. להמשיך?"
+msgstr[1] "זה ייצור %d כרטיסים. להמשיך?"
+
+#: qt/aqt/clayout.py:661
+msgid "Anki couldn't find the line between the question and answer. Please adjust the template manually to switch the question and answer."
+msgstr "לא מצאנו את הקו בין השאלה לתשובה. אנא התאם את התבנית באופן ידני להחליף בין השאלה לתשובה."
+
+#: qt/aqt/clayout.py:676
+msgid "Add Card Type..."
+msgstr "הוסף סוג כרטיס..."
+
+#: qt/aqt/clayout.py:679
+msgid "Remove Card Type..."
+msgstr "הסר סוג כרטיס..."
+
+#: qt/aqt/clayout.py:682
+msgid "Rename Card Type..."
+msgstr "שנה שם סוג כרטיס..."
+
+#: qt/aqt/clayout.py:685
+msgid "Reposition Card Type..."
+msgstr "שנה מיקום סוג כרטיס..."
+
+#: qt/aqt/clayout.py:692
+msgid " (on)"
+msgstr " פעיל"
+
+#: qt/aqt/clayout.py:694
+msgid " (off)"
+msgstr " כבוי"
+
+#: qt/aqt/clayout.py:695
+msgid "Deck Override..."
+msgstr "שכתוב חפיסה..."
+
+#: qt/aqt/clayout.py:698
+msgid "Browser Appearance..."
+msgstr "מראה דפדפן..."
+
+#: qt/aqt/clayout.py:740
+#, python-format
+msgid "Enter deck to place new %s cards in, or leave blank:"
+msgstr "הקלד חפיסה להכניס %s כרטיסים חדשים לתוכה, או השאר ריק:"
+
+#: qt/aqt/customstudy.py:57
+msgid "OK"
+msgstr "אישור"
+
+#: qt/aqt/customstudy.py:71
+#, python-format
+msgid "New cards in deck over today limit: %s"
+msgstr "כרטיסים חדשים בחפיסה מעבר למכסה היומית: %s"
+
+#: qt/aqt/customstudy.py:72
+msgid "Increase today's new card limit by"
+msgstr "הגדל את מכסת הכרטיסים החדשים להיום ב-"
+
+#: qt/aqt/customstudy.py:83
+#, python-format
+msgid "Reviews due in deck over today limit: %s"
+msgstr "חזרות שהגיע זמנן בחפיסה מעבר למכסה היומית: %s"
+
+#: qt/aqt/customstudy.py:84
+msgid "Increase today's review limit by"
+msgstr "הגדל את המכסה לחזרה היום ב-"
+
+#: qt/aqt/customstudy.py:89
+msgid "Review cards forgotten in last"
+msgstr "חזרה על כרטיסים שנשכחו בימים האחרונים -"
+
+#: qt/aqt/customstudy.py:93
+msgid "Review ahead by"
+msgstr "הקדם חזרה עבור -"
+
+#: qt/aqt/customstudy.py:96
+msgid "Preview new cards added in the last"
+msgstr "הצג כרטיסים חדשים שנוספו בימים האחרונים: ב-"
+
+#: qt/aqt/customstudy.py:100
+msgid "Select"
+msgstr "בחר"
+
+#: qt/aqt/customstudy.py:101
+msgid "cards from the deck"
+msgstr "כרטיסים מהחפיסה"
+
+#: qt/aqt/customstudy.py:103
+msgid "Choose Tags"
+msgstr "בחר תגיות"
+
+#: qt/aqt/customstudy.py:141 qt/aqt/customstudy.py:153
+msgid "Custom Study Session"
+msgstr "אוסף לימוד מותאם"
+
+#: qt/aqt/customstudy.py:190
+msgid "No cards matched the criteria you provided."
+msgstr "אין כרטיסים תואמים לקריטריונים שסיפקת"
+
+#: qt/aqt/deckbrowser.py:82
+msgid "Name for deck:"
+msgstr "שם עבור חפיסה:"
+
+#: qt/aqt/deckbrowser.py:243 qt/aqt/sidebar.py:95
+msgid "Rename Deck"
+msgstr "שנה שם חפיסה"
+
+#: qt/aqt/deckbrowser.py:246 qt/aqt/sidebar.py:98 qt/aqt/studydeck.py:151
+msgid "New deck name:"
+msgstr "שם חפיסה חדש:"
+
+#: qt/aqt/deckbrowser.py:280
+msgid "Delete Deck"
+msgstr "מחק חפיסה"
+
+#: qt/aqt/deckbrowser.py:289
+#, python-format
+msgid " It has %d card."
+msgid_plural " It has %d cards."
+msgstr[0] "קיים %d כרטיס."
+msgstr[1] " קיימות %d כרטיסיות."
+
+#: qt/aqt/deckbrowser.py:296
+#, python-format
+msgid "Are you sure you wish to delete %s?"
+msgstr "האם אתה בטוח שברצונך למחוק את %s?"
+
+#: qt/aqt/deckbrowser.py:308
+msgid "Get Shared"
+msgstr "קבל שיתופים"
+
+#: qt/aqt/deckbrowser.py:309
+msgid "Create Deck"
+msgstr "צור חפיסה"
+
+#: qt/aqt/deckbrowser.py:310
+msgid "Import File"
+msgstr "ייבא קובץ"
+
+#: qt/aqt/deckbrowser.py:318 qt/aqt/main.py:765 qt/aqt/overview.py:265
+#: qt/aqt/previewer.py:80 qt/aqt/previewer.py:85 qt/aqt/reviewer.py:573
+#: qt/aqt/reviewer.py:584 qt/aqt/reviewer.py:660 qt/aqt/toolbar.py:107
+#: qt/aqt/toolbar.py:114 qt/aqt/toolbar.py:121 qt/aqt/toolbar.py:128
+#: qt/aqt/toolbar.py:144
+#, python-format
+msgid "Shortcut key: %s"
+msgstr "מקש קיצור: %s"
+
+#: qt/aqt/deckchooser.py:34
+msgid "Target Deck (Ctrl+D)"
+msgstr "חפיסת יעד (Ctrl+D)"
+
+#: qt/aqt/deckchooser.py:51 qt/aqt/deckchooser.py:55 qt/aqt/deckchooser.py:77
+msgid "Default"
+msgstr "ברירת-מחדל"
+
+#: qt/aqt/deckchooser.py:87 qt/aqt/modelchooser.py:84
+msgid "Choose"
+msgstr "בחר"
+
+#: qt/aqt/deckchooser.py:88
+msgid "Choose Deck"
+msgstr "בחר חפיסה"
+
+#: qt/aqt/deckconf.py:47 qt/aqt/dyndeckconf.py:28 qt/aqt/models.py:161
+#, python-format
+msgid "Options for %s"
+msgstr "אפשריות ל-%s"
+
+#: qt/aqt/deckconf.py:95
+msgid "Set for all subdecks"
+msgstr "החל עבור כל תתי-החפיסות"
+
+#: qt/aqt/deckconf.py:113
+msgid "Your changes will affect multiple decks. If you wish to change only the current deck, please add a new options group first."
+msgstr "השינויים שתבצע ישפיעו על מספר חפיסות. אם אתה מעוניין לשנות רק את החפיסה הנוכחית, אנא הוסף קבוצת אפשרויות חדשה קודם."
+
+#: qt/aqt/deckconf.py:121
+msgid "New options group name:"
+msgstr "שם קבוצת אפשרויות חדש:"
+
+#: qt/aqt/deckconf.py:137
+msgid "The default configuration can't be removed."
+msgstr "תצורת ברירת המחדל אינה ניתנת למחיקה."
+
+#: qt/aqt/deckconf.py:159
+#, python-format
+msgid "Set all decks below %s to this option group?"
+msgstr "להגדיר את כל החפיסות מתחת %s לקבוצת האפשרויות הזו?"
+
+#: qt/aqt/deckconf.py:169
+#, python-format
+msgid "%d deck updated."
+msgid_plural "%d decks updated."
+msgstr[0] "%d חפיסה עודכנה."
+msgstr[1] "%d חפיסות עודכנו."
+
+#: qt/aqt/deckconf.py:197
+#, python-format
+msgid "(parent limit: %d)"
+msgstr "(מגבלת על: %d)"
+
+#: qt/aqt/deckconf.py:276 qt/aqt/dyndeckconf.py:157
+msgid "Steps must be numbers."
+msgstr "צעדים מוכרחים להיות מספרים."
+
+#: qt/aqt/deckconf.py:279 qt/aqt/dyndeckconf.py:160
+msgid "At least one step is required."
+msgstr "נדרש לפחות צעד אחד."
+
+#: qt/aqt/dyndeckconf.py:21
+msgid "Build"
+msgstr "בנה"
+
+#: qt/aqt/dyndeckconf.py:23 qt/aqt/overview.py:255
+msgid "Rebuild"
+msgstr "בנה מחדש"
+
+#: qt/aqt/dyndeckconf.py:128
+msgid "The provided search did not match any cards. Would you like to revise it?"
+msgstr "החיפוש הנתון אינו תואם לאף כרטיס. האם ברצונך לשנותו?"
+
+#: qt/aqt/editcurrent.py:20
+msgid "Edit Current"
+msgstr "ערוך נוכחי"
+
+#: qt/aqt/editor.py:125
+msgid "Customize Fields"
+msgstr "התאם-אישית שדות"
+
+#: qt/aqt/editor.py:133
+msgid "Customize Card Templates (Ctrl+L)"
+msgstr "התאם-אישית תבניות של כרטיסים (Ctrl+L)"
+
+#: qt/aqt/editor.py:143
+msgid "Bold text (Ctrl+B)"
+msgstr "טקסט מודגש (Ctrl+B)"
+
+#: qt/aqt/editor.py:145
+msgid "Italic text (Ctrl+I)"
+msgstr "טקסט נטוי (Ctrl+I)"
+
+#: qt/aqt/editor.py:148
+msgid "Underline text (Ctrl+U)"
+msgstr "סמן טקסט בקו תחתון (Ctrl+U)"
+
+#: qt/aqt/editor.py:151
+msgid "Superscript (Ctrl++)"
+msgstr "כתב עליון (Ctrl++)"
+
+#: qt/aqt/editor.py:153
+msgid "Subscript (Ctrl+=)"
+msgstr "כתב תחתון (Ctrl+=)"
+
+#: qt/aqt/editor.py:154
+msgid "Remove formatting (Ctrl+R)"
+msgstr "הסר עיצוב (Ctrl+R)"
+
+#: qt/aqt/editor.py:158
+msgid "Set foreground colour (F7)"
+msgstr "הגדר צבע חזית (F7)"
+
+#: qt/aqt/editor.py:168
+msgid "Change colour (F8)"
+msgstr "שנה צבע (F8)"
+
+#: qt/aqt/editor.py:174
+msgid "Cloze deletion (Ctrl+Shift+C)"
+msgstr "השלם את החסר (Ctrl+Shift+C)"
+
+#: qt/aqt/editor.py:176
+msgid "Attach pictures/audio/video (F3)"
+msgstr "צרף תמונה\\אודיו\\ווידאו (F3)"
+
+#: qt/aqt/editor.py:178
+msgid "Record audio (F5)"
+msgstr "הקלט אודיו (F5)"
+
+#: qt/aqt/editor.py:200
+msgid "Show Duplicates"
+msgstr "הצג כפילויות"
+
+#: qt/aqt/editor.py:580
+msgid "Jump to tags with Ctrl+Shift+T"
+msgstr "עבור לתגיות עם Ctrl+Shift+T"
+
+#: qt/aqt/editor.py:644
+msgid "Warning, cloze deletions will not work until you switch the type at the top to Cloze."
+msgstr "אזהרה, השלם את החסר לא יעבוד עד שתשנה את הסוג למעלה להשלם את החסר."
+
+#: qt/aqt/editor.py:651
+msgid "To make a cloze deletion on an existing note, you need to change it to a cloze type first, via 'Notes>Change Note Type'"
+msgstr "ליצור השלם את החסר ברשומה קיימת, תצטרך לשנות את סוג הרשומה להשלם את החסר, דרך 'רשומות>שנה סוג רשומה'"
+
+#: qt/aqt/editor.py:713
+msgid "Media"
+msgstr "מדיה"
+
+#: qt/aqt/editor.py:718
+msgid "Add Media"
+msgstr "הוסף מדיה"
+
+#: qt/aqt/editor.py:751
+msgid "Couldn't record audio. Have you installed 'lame'?"
+msgstr "הקלטת אודיו נכשלה. האם התקנת 'lame'?"
+
+#: qt/aqt/editor.py:856
+#, python-format
+msgid "An error occurred while opening %s"
+msgstr "שגיאה התרחשה בזמן פתיחת %s"
+
+#: qt/aqt/editor.py:953
+msgid "MathJax inline"
+msgstr "MathJax כחלק משורה"
+
+#: qt/aqt/editor.py:954
+msgid "MathJax block"
+msgstr "בלוק MathJax"
+
+#: qt/aqt/editor.py:955
+msgid "MathJax chemistry"
+msgstr "כימיה באמצעות MathJax"
+
+#: qt/aqt/editor.py:957
+msgid "LaTeX equation"
+msgstr "משוואת LaTeX"
+
+#: qt/aqt/editor.py:958
+msgid "LaTeX math env."
+msgstr "סביבת מתמטיקה באמצעות LaTeX"
+
+#: qt/aqt/editor.py:959
+msgid "Edit HTML"
+msgstr "ערוך HTML"
+
+#: qt/aqt/editor.py:1209
+msgid "Cut"
+msgstr "גזור"
+
+#: qt/aqt/editor.py:1211 qt/aqt/webview.py:289
+msgid "Copy"
+msgstr "העתק"
+
+#: qt/aqt/editor.py:1213
+msgid "Paste"
+msgstr "הדבק"
+
+#: qt/aqt/errors.py:69
+msgid "Unable to access Anki media folder. The permissions on your system's temporary folder may be incorrect."
+msgstr "לא ניתן לגשת לתיקיית המדיה. יתכן שההרשאות של המערכת אינן מאפשרות גישה לתיקיית TEMP."
+
+#: qt/aqt/errors.py:82
+msgid "Your firewall or antivirus program is preventing Anki from creating a connection to itself. Please add an exception for Anki."
+msgstr "חומת האש או האנטי-וירוס מפריעים לתוכנה לפעול. אנא הוסף חריגה עבור Anki."
+
+#: qt/aqt/errors.py:88
+msgid "Please connect a microphone, and ensure other programs are not using the audio device."
+msgstr "אנא חבר מיקרופון, ובנוסף וודא שתוכנות אחרות לא משתמשות במכשיר האודיו."
+
+#: qt/aqt/errors.py:99
+msgid "Your computer's storage may be full. Please delete some unneeded files, then try again."
+msgstr "אחסון המחשב שלך מלא. מחק קבצים לא נחוצים ונסה שנית."
+
+#: qt/aqt/exporting.py:52
+msgid "All Decks"
+msgstr "כל החפיסות"
+
+#: qt/aqt/exporting.py:55
+msgid "Selected Notes"
+msgstr "רשומות נבחרות"
+
+#: qt/aqt/exporting.py:58
+msgid "Export..."
+msgstr "ייצוא..."
+
+#: qt/aqt/exporting.py:145
+#, python-format
+msgid "Couldn't save file: %s"
+msgstr "שמירת קובץ נכשלה: %s"
+
+#: qt/aqt/exporting.py:154
+#, python-format
+msgid "Exported %d media file"
+msgid_plural "Exported %d media files"
+msgstr[0] "%d קובץ מדיה יוצא"
+msgstr[1] "%d קבצי מדיה יוצאו"
+
+#: qt/aqt/exporting.py:177
+msgid "Collection exported."
+msgstr "התבצע ייצוא האוסף."
 
 #: qt/aqt/exporting.py:183
 #, python-format
@@ -150,703 +2699,52 @@ msgid_plural "%d notes exported."
 msgstr[0] "%d רשומה יוצאה."
 msgstr[1] "%d רשומות יוצאו."
 
-#: pylib/anki/importing/mnemo.py:105
+#: qt/aqt/exporting.py:192
 #, python-format
-msgid "%d note imported."
-msgid_plural "%d notes imported."
-msgstr[0] "%d רשומה יובאה."
-msgstr[1] "%d רשומות יובאו."
+msgid "%d card exported."
+msgid_plural "%d cards exported."
+msgstr[0] "%d כרטיס יוצא."
+msgstr[1] "%d כרטיסים יוצאו."
 
-#: pylib/anki/importing/noteimp.py:224
+#: qt/aqt/fields.py:27
 #, python-format
-msgid "%d note unchanged"
-msgid_plural "%d notes unchanged"
-msgstr[0] "%d רשומה לא השתנתה"
-msgstr[1] "%d רשומות לא השתנו"
+msgid "Fields for %s"
+msgstr "שדות עבור %s"
 
-#: pylib/anki/importing/noteimp.py:214
+#: qt/aqt/fields.py:90
+msgid "That field name is already used."
+msgstr "שם השדה כבר בשימוש."
+
+#: qt/aqt/fields.py:110
+msgid "Field name:"
+msgstr "שם שדה:"
+
+#: qt/aqt/fields.py:123
+msgid "Notes require at least one field."
+msgstr "רשומות חייבות להכיל לפחות שדה אחת"
+
+#: qt/aqt/fields.py:126
 #, python-format
-msgid "%d note updated"
-msgid_plural "%d notes updated"
-msgstr[0] "%d רשומה עודכנה"
-msgstr[1] "%d רשומות עודכנו"
+msgid "Delete field from %s?"
+msgstr "מחק שדה מ-%s?"
 
-#: qt/aqt/browser.py:832
+#: qt/aqt/fields.py:140
 #, python-format
-msgid "%d selected"
-msgid_plural "%d selected"
-msgstr[0] "%d נבחר"
-msgstr[1] "%d נבחרו"
+msgid "New position (1...%d):"
+msgstr "מיקום חדש (1...%d):"
 
-#: pylib/anki/models.py:263
+#: qt/aqt/importing.py:46
 #, python-format
-msgid "%s copy"
-msgstr "עותק של %s"
-
-#: qt/aqt/reviewer.py:94
-#, python-format
-msgid "%s minute."
-msgid_plural "%s minutes."
-msgstr[0] "%s דקה."
-msgstr[1] "%s דקות."
-
-#: qt/aqt/main.py:1222
-#, python-format
-msgid "%s second"
-msgid_plural "%s seconds"
-msgstr[0] "%s שניה"
-msgstr[1] "%s שניות"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:141
-msgid "&About..."
-msgstr "&אודות..."
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:147
-msgid "&Browse and Install..."
-msgstr "&עיין והתקן..."
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:303
-msgid "&Cards"
-msgstr "&כרטיסים"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:148
-msgid "&Check Database"
-msgstr "&בדוק בסיס נתונים"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:318
-msgid "&Cram..."
-msgstr "&חרוש..."
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:300
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:135
-msgid "&Edit"
-msgstr "&עריכה"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:343
-msgid "&Export Notes..."
-msgstr "&ייצא רשומות"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:151
-msgid "&Export..."
-msgstr "&ייצוא..."
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:136
-msgid "&File"
-msgstr "&קובץ"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:310
-msgid "&Find"
-msgstr "&מצא"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:301
-msgid "&Go"
-msgstr "&עבור אל"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:314
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:149
-msgid "&Guide..."
-msgstr "&מדריך..."
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:302
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:134
-msgid "&Help"
-msgstr "&עזרה"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:152
-msgid "&Import..."
-msgstr "&ייבוא..."
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:328
-msgid "&Info..."
-msgstr "&מידע..."
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:309
-msgid "&Invert Selection"
-msgstr "&הפוך בחירה"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:312
-msgid "&Next Card"
-msgstr "&כרטיס הבא"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:305
-msgid "&Notes"
-msgstr "&רשומות"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:145
-msgid "&Open Add-ons Folder..."
-msgstr "&פתח תיקיית תוספים..."
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:139
-msgid "&Preferences..."
-msgstr "&העדפות..."
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:313
-msgid "&Previous Card"
-msgstr "&כרטיס קודם"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:306
-msgid "&Reschedule..."
-msgstr "&תזמן מחדש..."
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:146
-msgid "&Support Anki..."
-msgstr "&תמוך ב-Anki...‏"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:150
-msgid "&Switch Profile"
-msgstr "&החלף משתמש"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:137
-msgid "&Tools"
-msgstr "&כלים"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:308
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:142
-msgid "&Undo"
-msgstr "&בטל"
-
-#: pylib/anki/importing/csvfile.py:44
-#, python-format
-msgid "'%(row)s' had %(num1)d fields, expected %(num2)d"
-msgstr "'%(row)s' ישנם %(num1)d שדות, מצופים %(num2)d"
-
-#: pylib/anki/stats.py:154
-#, python-format
-msgid "(%s correct)"
-msgstr "(%s נכון)"
-
-#: qt/aqt/addcards.py:154
-msgid "(Note deleted)"
-msgstr "(רשומה נמחקה)"
-
-#: qt/aqt/addons.py:746
-msgid "(disabled)"
-msgstr "(מושבת)"
-
-#: pylib/anki/schedv2.py:1261
-msgid "(end)"
-msgstr "(סוף)"
-
-#: qt/aqt/browser.py:369
-msgid "(filtered)"
-msgstr "(מסונן)"
-
-#: qt/aqt/browser.py:336
-msgid "(learning)"
-msgstr "(בלימוד)"
-
-#: qt/aqt/browser.py:334 qt/aqt/browser.py:340
-msgid "(new)"
-msgstr "(חדש)"
-
-#: qt/aqt/deckconf.py:197
-#, python-format
-msgid "(parent limit: %d)"
-msgstr "(מגבלת על: %d)"
-
-#: qt/aqt/previewer.py:162
-msgid "(please select 1 card)"
-msgstr "(אנא בחר כרטיס 1)"
-
-#: qt/aqt/addons.py:748
-#, python-format
-msgid "(requires %s)"
-msgstr "(נדרש %s)"
-
-#: qt/aqt/importing.py:321
-msgid ".anki files are from a very old version of Anki. You can import them with Anki 2.0, available on the Anki website."
-msgstr "קבצי .anki מגרסה מאוד ישנה של Anki. אתה יכול לייבא אותם עם Anki 2.0, אשר זמין באתר של Anki."
-
-#: qt/aqt/importing.py:328
-msgid ".anki2 files are not directly importable - please import the .apkg or .zip file you have received instead."
-msgstr "לא ניתן לייבא ישירות קבצי .anki2 - במקום זאת, אנא ייבא את קובץ .apkg או .zip שקיבלת."
-
-#: pylib/anki/stats.py:949
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/stats.py:83
-msgid "1 month"
-msgstr "חודש אחד"
-
-#: pylib/anki/stats.py:949
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/stats.py:84
-msgid "1 year"
-msgstr "שנה אחת"
-
-#: pylib/anki/stats.py:810
-msgid "10AM"
-msgstr "10:00"
-
-#: pylib/anki/stats.py:812
-msgid "10PM"
-msgstr "22:00"
-
-#: pylib/anki/stats.py:813
-msgid "3AM"
-msgstr "03:00"
-
-#: pylib/anki/stats.py:809
-msgid "4AM"
-msgstr "04:00"
-
-#: pylib/anki/stats.py:811
-msgid "4PM"
-msgstr "16:00"
-
-#. T: Symbols separating first and second column in a statistics table. Eg in "Total:    3 reviews".
-#: pylib/anki/stats.py:898
-msgid ":"
-msgstr ":"
-
-#: qt/aqt/about.py:110
-#, python-format
-msgid "<a href='%s'>Visit website</a>"
-msgstr "<a href='%s'>בקר באתר</a>"
-
-#: pylib/anki/stats.py:408
-#, python-format
-msgid "<b>%(pct)d%%</b> (%(x)s of %(y)s)"
-msgstr "<b>%(pct)d%%</b> (%(x)s מתוך %(y)s)"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/exporting.py:77
-msgid "<b>Export format</b>:"
-msgstr "<b>תבנית ייצוא</b>:"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/findreplace.py:88
-msgid "<b>Find</b>:"
-msgstr "<b>מצא</b>:"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browseropts.py:73
-msgid "<b>Font Size</b>:"
-msgstr "<b>גודל גופן</b>:"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browseropts.py:72
-msgid "<b>Font</b>:"
-msgstr "<b>גופן</b>:"
-
-#: qt/aqt/addons.py:1410
-#, python-format
-msgid "<b>Important</b>: As add-ons are programs downloaded from the internet, they are potentially malicious.<b>You should only install add-ons you trust.</b><br><br>Are you sure you want to proceed with the installation of the following Anki add-on(s)?<br><br>%(names)s"
-msgstr "<b>חשוב:</b> משום שתוספים הם תוכניות שמגיעות מהאינטרנט, הם עלולים להיות זדוניים. <b> התקן רק תוספים שאתה בוטח בהם. </b><br><br> האם אתה בטוח שאתה רוצה להמשיך בהתקנת התוספים הבאים? <br><br>%(names)s"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/findreplace.py:90
-msgid "<b>In</b>:"
-msgstr "<b>בתוך</b>:"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/exporting.py:78
-msgid "<b>Include</b>:"
-msgstr "<b>כולל</b>:"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browseropts.py:74
-msgid "<b>Line Size</b>:"
-msgstr "<b>גודל קו</b>:"
-
-#: qt/aqt/addons.py:1434
-msgid "<b>Please restart Anki to complete the installation.</b>"
-msgstr "<b>נא אתחל את התוכנה כדי להשלים את ההתקנה</b>"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/findreplace.py:89
-msgid "<b>Replace With</b>:"
-msgstr "<b>החלף עם</b>:"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:301
-msgid "<b>Synchronisation</b>"
-msgstr "<b>סנכרון</b>"
-
-#: qt/aqt/preferences.py:188
-msgid ""
-"<b>Synchronization</b><br>\n"
-"Not currently enabled; click the sync button in the main window to enable."
-msgstr ""
-"<b>סנכרון</b><br>\n"
-"לא מופעל כרגע; לחץ על כפתור \"סנכרן\" בחלון הראשי כדי להפעיל.‏"
-
-#: qt/aqt/update.py:59
-#, python-format
-msgid "<h1>Anki Updated</h1>Anki %s has been released.<br><br>"
-msgstr "<h1>Anki התעדכן</h1>Anki %s שוחרר.<br><br>"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:307
-#, fuzzy
-msgid "<html><head/><body><p><span style=\" font-weight:600;\">Backups</span><br/>Anki will create a backup of your collection each time it is closed.</p></body></html>"
-msgstr "<b>גיבויים</b><br>Anki יגבה את האוסף שלך כל פעם שהוא נסגר או מסונכרן.‏"
-
-#: qt/aqt/importing.py:258
-msgid "<ignored>"
-msgstr "<התעלם>"
-
-#: qt/aqt/main.py:1537
-msgid "<non-unicode text>"
-msgstr "<טקסט שאינו בפורמט unicode>"
-
-#: qt/aqt/browser.py:765
-msgid "<type here to search; hit enter to show current deck>"
-msgstr "<הקלד כאן ע\"מ לחפש; הקש אנטר להצגת חפיסה נוכחית>"
-
-#: qt/aqt/about.py:225
-msgid "A big thanks to all the people who have provided suggestions, bug reports and donations."
-msgstr "תודה גדולה לכל מי שסיפק הצעות, תיקוני באגים ותרומות."
-
-#: pylib/anki/stats.py:882
-msgid "A card's <i>ease</i> is the size of the next interval when you answer \"good\" on a review."
-msgstr "ה<i>קלות</i> של כרטיס היא גודל מרווח-הזמן עד החזרה הבאה, כאשר ענית \"טוב\" בשעת החזרה."
-
-#: pylib/anki/importing/csvfile.py:56
-#, python-format
-msgid "Aborted: %s"
-msgstr "בוטל: %s"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/about.py:45
-msgid "About Anki"
-msgstr "אודות Anki"
-
-#: qt/aqt/addcards.py:38 qt/aqt/addcards.py:70 qt/aqt/deckconf.py:89
-#: qt/aqt/models.py:57 qt/aqt/studydeck.py:46 qt/aqt/toolbar.py:112
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addcards.py:60
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:103
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/profiles.py:82
-msgid "Add"
-msgstr "הוספה"
-
-#: qt/aqt/addcards.py:73
-msgid "Add (shortcut: ctrl+enter)"
-msgstr "הוספה (קיצור מקשים: ctrl+enter)"
-
-#: qt/aqt/clayout.py:676
-msgid "Add Card Type..."
-msgstr "הוסף סוג כרטיס..."
-
-#: qt/aqt/clayout.py:389
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addfield.py:62
-msgid "Add Field"
-msgstr "הוסף שדה"
-
-#: qt/aqt/editor.py:718
-msgid "Add Media"
-msgstr "הוסף מדיה"
-
-#: qt/aqt/studydeck.py:48
-msgid "Add New Deck (Ctrl+N)"
-msgstr "הוסף חפיסה חדשה (Ctrl+N)"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addmodel.py:46
-msgid "Add Note Type"
-msgstr "הוסף סוג רשומה"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:333
-msgid "Add Notes..."
-msgstr "הוסף רשומות..."
-
-#: qt/aqt/browser.py:1629
-msgid "Add Tags"
-msgstr "הוסף תגיות"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:329
-msgid "Add Tags..."
-msgstr "הוספת תגיות..."
-
-#: qt/aqt/browser.py:172
-msgid "Add-on"
-msgstr "תוסף"
-
-#: qt/aqt/addons.py:902
-msgid "Add-on has no configuration."
-msgstr "לתוסף אין הגדרות."
-
-#: qt/aqt/addons.py:1451
-msgid "Add-on installation error"
-msgstr "שגיאת בהתקנת תוסף"
-
-#: qt/aqt/addons.py:823
-msgid "Add-on was not downloaded from AnkiWeb."
-msgstr "תוסף לא הורד מ-AnkiWeb."
-
-#: qt/aqt/main.py:1600
-msgid "Add-on will be installed when a profile is opened."
-msgstr "תוסף יותקן כאשר פרופיל יפתח"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:157
-msgid "Add-ons"
-msgstr "תוספים"
-
-#: qt/aqt/models.py:212
-#, python-format
-msgid "Add: %s"
-msgstr "הוסף: %s"
-
-#: pylib/anki/importing/anki2.py:163 pylib/anki/stats.py:309
-#: qt/aqt/addcards.py:202
-msgid "Added"
-msgstr "נוספו"
-
-#: qt/aqt/browser.py:1263
-msgid "Added Today"
-msgstr "התווסף היום"
-
-#: pylib/anki/importing/noteimp.py:139
-#, python-format
-msgid "Added duplicate with first field: %s"
-msgstr "נוספה עם כפילות בשדה הראשון: %s"
-
-#: qt/aqt/reviewer.py:629 qt/aqt/reviewer.py:633 qt/aqt/reviewer.py:636
-msgid "Again"
-msgstr "שוב"
-
-#: qt/aqt/browser.py:1265
-msgid "Again Today"
-msgstr "שוב היום"
-
-#: pylib/anki/stats.py:152
-#, python-format
-msgid "Again count: %s"
-msgstr "מנין השגיאות: %s"
-
-#: qt/aqt/overview.py:133
-msgid "All Buried Cards"
-msgstr "כל הכרטיסים ה\"מוטמנים\""
-
-#: qt/aqt/browser.py:1349
-msgid "All Card Types"
-msgstr "כל סוגי הכרטיסים"
-
-#: qt/aqt/exporting.py:52
-msgid "All Decks"
-msgstr "כל החפיסות"
-
-#: qt/aqt/browser.py:1884
-msgid "All Fields"
-msgstr "כל השדות"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:119
-msgid "All cards in random order (don't reschedule)"
-msgstr "כל הכרטיסים בסדר אקראי (ללא תזמון מחדש)"
-
-#: qt/aqt/main.py:324
-msgid "All cards, notes, and media for this profile will be deleted. Are you sure?"
-msgstr "כל הכרטיסים, הרשומות, והמדיה של פרופיל זה ימחקו. האם אתה בטוח?"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:117
-msgid "All review cards in random order"
-msgstr "כל הכרטיסים לחזרה בסדר אקראי"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:112
-msgid "Allow HTML in fields"
-msgstr "אפשר HTML בתוך שדות"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:379
-msgid "Always include question side when replaying audio"
-msgstr "כלול תמיד את צד השאלה כאשר אודיו מופעל שנית"
-
-#: qt/aqt/editor.py:856
-#, python-format
-msgid "An error occurred while opening %s"
-msgstr "שגיאה התרחשה בזמן פתיחת %s"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:133
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/setgroup.py:40
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/setlang.py:41
-msgid "Anki"
-msgstr "Anki"
-
-#: pylib/anki/exporting.py:167
-msgid "Anki 2.0 Deck"
-msgstr "חפיסת Anki 2.0"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:293
-msgid "Anki 2.1 scheduler (beta)"
-msgstr "מתזמן Anki 2.1 (גרסת בטא)"
-
-#: pylib/anki/exporting.py:398
-msgid "Anki Collection Package"
-msgstr "חבילת מאגר Anki"
-
-#: pylib/anki/exporting.py:316
-msgid "Anki Deck Package"
-msgstr "חבילת חפיסת Anki"
-
-#: qt/aqt/profiles.py:256
-msgid "Anki could not read your profile data. Window sizes and your sync login details have been forgotten."
-msgstr "Anki לא הצליח לקרוא את נתוני הפרופיל שלך. ממדי החלון ופרטי התחברות הסנכרון שלך נשכחו."
-
-#: qt/aqt/profiles.py:326
-msgid "Anki could not rename your profile because it could not rename the profile folder on disk. Please ensure you have permission to write to Documents/Anki and no other programs are accessing your profile folders, then try again."
-msgstr "Anki לא הצליח לשנות את שם הפרופיל שלך בגלל שהוא לא הצליח לשנות את שם תיקיית הפרופיל על הדיסק. אנא וודא שיש לך הרשאת כתיבה ל-Documents/Anki ושום תוכנות אחרות לא ניגשות לתיקיות הפרופיל שלך, ולאחר מכן נסה שנית."
-
-#: qt/aqt/clayout.py:661
-msgid "Anki couldn't find the line between the question and answer. Please adjust the template manually to switch the question and answer."
-msgstr "לא מצאנו את הקו בין השאלה לתשובה. אנא התאם את התבנית באופן ידני להחליף בין השאלה לתשובה."
-
-#: qt/aqt/about.py:97
-msgid "Anki is a friendly, intelligent spaced learning system. It's free and open source."
-msgstr "Anki היא מערכת ידידותית ואינטליגנטית לשינון בסירוגין (spaced learning). היא חופשית ומבוססת על קוד פתוח."
-
-#: qt/aqt/about.py:101
-msgid "Anki is licensed under the AGPL3 license. Please see the license file in the source distribution for more information."
-msgstr "Anki מופצת תחת הרישיון AGPL3. למידע נוסף, אנא ראה את קובץ הרישיון בהפצת קוד המקור."
-
-#: qt/aqt/browser.py:741
-msgid "Answer"
-msgstr "תשובה"
-
-#: pylib/anki/stats.py:681
-msgid "Answer Buttons"
-msgstr "כפתורי תשובה"
-
-#: pylib/anki/stats.py:357 pylib/anki/stats.py:692 pylib/anki/stats.py:800
-msgid "Answers"
-msgstr "תשובות"
-
-#: qt/aqt/browser.py:1289
-msgid "Any Flag"
-msgstr "כל דגל"
-
-#: qt/aqt/browser.py:2263
-msgid "Any cards mapped to nothing will be deleted. If a note has no remaining cards, it will be lost. Are you sure you want to continue?"
-msgstr "כל כרטיס שאינו משוייך לכלום תימחק. אם לרשומה לא נותרו כרטיסים, היא תימחק. האם אתה בטוח שברצונך להמשיך?"
-
-#: pylib/anki/importing/noteimp.py:161
-#, python-format
-msgid "Appeared twice in file: %s"
-msgstr "מופיע פעמיים בקובץ: %s"
-
-#: qt/aqt/deckbrowser.py:296
-#, python-format
-msgid "Are you sure you wish to delete %s?"
-msgstr "האם אתה בטוח שברצונך למחוק את %s?"
-
-#: qt/aqt/clayout.py:551
-msgid "At least one card type is required."
-msgstr "נדרש לפחות 1 סוג כרטיס."
-
-#: qt/aqt/deckconf.py:279 qt/aqt/dyndeckconf.py:160
-msgid "At least one step is required."
-msgstr "נדרש לפחות צעד אחד."
-
-#: qt/aqt/editor.py:176
-msgid "Attach pictures/audio/video (F3)"
-msgstr "צרף תמונה\\אודיו\\ווידאו (F3)"
-
-#: qt/aqt/reviewer.py:737
-msgid "Audio +5s"
-msgstr "אודיו +5 שניות"
-
-#: qt/aqt/reviewer.py:736
-msgid "Audio -5s"
-msgstr "אודיו -5 שניות"
-
-#: qt/aqt/main.py:374
-msgid "Automatic syncing and backups have been disabled while restoring. To enable them again, close the profile or restart Anki."
-msgstr "סנכרון וגיבוי אוטומטיים בוטלו בעת השחזור. להפעיל אותם שנית, סגור את הפרופיל או הפעל מחדש את Anki."
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:378
-msgid "Automatically play audio"
-msgstr "נגן אודיו אוטומטית"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:303
-msgid "Automatically sync on profile open/close"
-msgstr "סנכרן אוטומטית בעת פתיחה\\סגירה של פרופיל"
-
-#: pylib/anki/stats.py:252 pylib/anki/stats.py:319
-msgid "Average"
-msgstr "ממוצע"
-
-#: pylib/anki/stats.py:434
-msgid "Average answer time"
-msgstr "זמן תשובה ממוצע"
-
-#: pylib/anki/stats.py:878
-msgid "Average ease"
-msgstr "קלות ממוצעת"
-
-#: pylib/anki/stats.py:423
-msgid "Average for days studied"
-msgstr "ממוצע עבור ימים שנלמדו"
-
-#: pylib/anki/stats.py:618
-msgid "Average interval"
-msgstr "מרווח ממוצע"
-
-#: qt/aqt/previewer.py:83
-msgid "Back Side Only"
-msgstr "צד אחורי בלבד"
-
-#: qt/aqt/main.py:558
-msgid "Backing Up..."
-msgstr "מגבה..."
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:313
-msgid "Backups"
-msgstr "גיבויים"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:289
-msgid "Basic"
-msgstr "בסיסי"
-
-#: qt/aqt/browser.py:1287 qt/aqt/reviewer.py:719
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:338
-msgid "Blue Flag"
-msgstr "דגל כחול"
-
-#: qt/aqt/editor.py:143
-msgid "Bold text (Ctrl+B)"
-msgstr "טקסט מודגש (Ctrl+B)"
-
-#: qt/aqt/toolbar.py:119
-msgid "Browse"
-msgstr "דפדוף"
-
-#: qt/aqt/browser.py:826
-#, python-format
-msgid "Browse (%(cur)d card shown; %(sel)s)"
-msgid_plural "Browse (%(cur)d cards shown; %(sel)s)"
-msgstr[0] "דפדף (%(cur)d כרטיס מוצג; %(sel)s)"
-msgstr[1] "דפדף (%(cur)d כרטיסים מוצגים; %(sel)s)"
-
-#: qt/aqt/addons.py:922
-msgid "Browse Add-ons"
-msgstr "חפש תוספים"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browserdisp.py:71
-msgid "Browser Appearance"
-msgstr "מראה דפדפן"
-
-#: qt/aqt/clayout.py:698
-msgid "Browser Appearance..."
-msgstr "מראה דפדפן..."
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browseropts.py:71
-msgid "Browser Options"
-msgstr "אפשרויות חיפוש"
-
-#: qt/aqt/dyndeckconf.py:21
-msgid "Build"
-msgstr "בנה"
-
-#: qt/aqt/browser.py:1282
-msgid "Buried"
-msgstr "נקברו"
-
-#: qt/aqt/overview.py:132
-msgid "Buried Siblings"
-msgstr "כרטיסים תואמים ש\"הוטמנו\""
-
-#: qt/aqt/reviewer.py:824 qt/aqt/reviewer.py:830
-msgid "Bury"
-msgstr "הסתר"
-
-#: qt/aqt/reviewer.py:727
-msgid "Bury Card"
-msgstr "\"הטמן\" כרטיס"
-
-#: qt/aqt/reviewer.py:728
-msgid "Bury Note"
-msgstr "\"הטמן\" רשומה"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:349
-msgid "Bury related new cards until the next day"
-msgstr "\"הטמן\" כרטיסים חדשים קשורים עד יום למחרת"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:360
-msgid "Bury related reviews until the next day"
-msgstr "\"הטמנת\" חזרות קשורות עד יום למחרת"
+msgid "Map to %s"
+msgstr "מיפוי ל-%s"
+
+#: qt/aqt/importing.py:52
+msgid "Map to Tags"
+msgstr "מיפוי לתגיות"
+
+#: qt/aqt/importing.py:53
+msgid "Ignore field"
+msgstr "התעלם משדה"
 
 #: qt/aqt/importing.py:123
 msgid ""
@@ -858,548 +2756,107 @@ msgstr ""
 "לדוגמא tab, פסיק, וכו'. באם התו אובחן לא נכון,\n"
 "ניתן להזין אותו כאן. הקלד \\t כדי לייצג tab."
 
-#: qt/aqt/clayout.py:405 qt/aqt/overview.py:134 qt/aqt/sound.py:602
-msgid "Cancel"
-msgstr "ביטול"
+#: qt/aqt/importing.py:137
+msgid "Multi-character separators are not supported. Please enter one character only."
+msgstr "מפסיקים עם תווים מרובים אינם נתמכים. אנא הכנס תו אחד בלבד."
 
-#: qt/aqt/browser.py:742
-msgid "Card"
-msgstr "כרטיס"
-
-#: qt/aqt/clayout.py:622
-#, python-format
-msgid "Card %d"
-msgstr "כרטיס %d"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:320
-msgid "Card List"
-msgstr "רשימת כרטיסים"
-
-#: qt/aqt/browser.py:1272
-msgid "Card State"
-msgstr "מצב כרטיס"
-
-#: pylib/anki/stats.py:886 qt/aqt/clayout.py:63
-msgid "Card Types"
-msgstr "סוגי כרטיסים"
-
-#: qt/aqt/clayout.py:69
-#, python-format
-msgid "Card Types for %s"
-msgstr "סוגי כרטיסים עבור %s"
-
-#: qt/aqt/reviewer.py:827
-msgid "Card buried."
-msgstr "כרטיס \"הוטמן\"."
-
-#: qt/aqt/reviewer.py:804
-msgid "Card suspended."
-msgstr "כרטיס הושהה."
-
-#: qt/aqt/reviewer.py:685
-msgid "Card was a leech."
-msgstr "הכרטיס היה \"עלוקה\"."
-
-#: pylib/anki/stats.py:310 pylib/anki/stats.py:962 qt/aqt/editor.py:134
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/changemodel.py:114
-msgid "Cards"
-msgstr "כרטיסים"
-
-#: qt/aqt/browser.py:1603
-msgid "Cards can't be manually moved into a filtered deck."
-msgstr "לא ניתן להעביר ידנית כרטיסים לתוך חפיסה מסוננת."
-
-#: pylib/anki/exporting.py:95
-msgid "Cards in Plain Text"
-msgstr "כרטיסים בטקסט פשוט"
-
-#: qt/aqt/overview.py:192
-msgid "Cards will be automatically returned to their original decks after you review them."
-msgstr "כרטיסים יוחזרו אוטומטית לחפיסות המקוריות שלהם לאחר שתסקור אותם."
-
-#: qt/aqt/models.py:66
-msgid "Cards..."
-msgstr "כרטיסים..."
-
-#: pylib/anki/consts.py:108
-msgid "Center"
-msgstr "יישר למרכז"
-
-#: qt/aqt/importing.py:260
-msgid "Change"
-msgstr "שינוי"
-
-#: qt/aqt/browser.py:2183
-#, python-format
-msgid "Change %s to:"
-msgstr "שנה %s ל:"
-
-#: qt/aqt/browser.py:1594 qt/aqt/browser.py:1606
-msgid "Change Deck"
-msgstr "שנה חפיסה"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:334
-msgid "Change Deck..."
-msgstr "שנה חפיסה..."
-
-#: qt/aqt/browser.py:2270
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/changemodel.py:111
-msgid "Change Note Type"
-msgstr "שנה סוג רשומה"
-
-#: qt/aqt/modelchooser.py:44
-msgid "Change Note Type (Ctrl+N)"
-msgstr "שנה סוג רשומה (Ctrl+N)"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:315
-msgid "Change Note Type..."
-msgstr "שנה סוג רשומה..."
-
-#: qt/aqt/editor.py:168
-msgid "Change colour (F8)"
-msgstr "שנה צבע (F8)"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:286
-msgid "Change deck depending on note type"
-msgstr "שנה חפיסה בהתאם לסוג רשומה"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:70
-msgid "Changes will take effect when Anki is restarted."
-msgstr "השינויים ייכנסו לתוקף כאשר Anki יותחל מחדש."
-
-#: qt/aqt/preferences.py:120 qt/aqt/preferences.py:250
-msgid "Changes will take effect when you restart Anki."
-msgstr "השינויים ייכנסו לתוקף כשתתחיל את Anki מחדש."
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:143
-msgid "Check &Media..."
-msgstr "בדוק &מדיה..."
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:73
-msgid "Check for Updates"
-msgstr "בדוק אחר עדכונים"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:144
-msgid "Check the files in the media directory"
-msgstr "בדוק את הקבצים בתיקיית המדיה"
-
-#: qt/aqt/addons.py:885
-msgid "Checking..."
-msgstr "בודק..."
-
-#: qt/aqt/deckchooser.py:87 qt/aqt/modelchooser.py:84
-msgid "Choose"
-msgstr "בחר"
-
-#: qt/aqt/deckchooser.py:88
-msgid "Choose Deck"
-msgstr "בחר חפיסה"
-
-#: qt/aqt/modelchooser.py:85
-msgid "Choose Note Type"
-msgstr "בחר סוג רשומה"
-
-#: qt/aqt/customstudy.py:103
-msgid "Choose Tags"
-msgstr "בחר תגיות"
-
-#: qt/aqt/browser.py:1301
-msgid "Clear Unused"
-msgstr "נקה לא בשימוש"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:340
-msgid "Clear Unused Tags"
-msgstr "נקה תגיות שאינן בשימוש"
-
-#: qt/aqt/models.py:217
-#, python-format
-msgid "Clone: %s"
-msgstr "שכפול: %s"
-
-#: qt/aqt/addcards.py:75
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:327
-msgid "Close"
-msgstr "סגירה"
-
-#: qt/aqt/addcards.py:232
-msgid "Close and lose current input?"
-msgstr "סגור תוך השלכת השינויים?"
-
-#: qt/aqt/main.py:556
-msgid "Closing..."
-msgstr "סוגר..."
-
-#: qt/aqt/clayout.py:243
-#, python-format
-msgid "Cloze %d"
-msgstr "השלם את החסר %d"
-
-#: qt/aqt/editor.py:174
-msgid "Cloze deletion (Ctrl+Shift+C)"
-msgstr "השלם את החסר (Ctrl+Shift+C)"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/getaddons.py:52
-msgid "Code:"
-msgstr "קוד:"
-
-#: qt/aqt/exporting.py:177
-msgid "Collection exported."
-msgstr "התבצע ייצוא האוסף."
-
-#: qt/aqt/importing.py:167
-msgid "Colon"
-msgstr "נקודותיים"
+#: qt/aqt/importing.py:159
+msgid "Tab"
+msgstr "טאב"
 
 #: qt/aqt/importing.py:161
 msgid "Comma"
 msgstr "פסיק"
 
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:75
-msgid "Config"
-msgstr "הגדר"
+#: qt/aqt/importing.py:163 qt/aqt/reviewer.py:584
+msgid "Space"
+msgstr "רווח"
 
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addonconf.py:73
-msgid "Configuration"
-msgstr "הגדרה"
+#: qt/aqt/importing.py:165
+msgid "Semicolon"
+msgstr "פסיק נקודה"
 
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:140
-msgid "Configure interface language and options"
-msgstr "הגדר שפת ואפשרויות ממשק"
+#: qt/aqt/importing.py:167
+msgid "Colon"
+msgstr "נקודותיים"
 
-#: qt/aqt/reviewer.py:96
-msgid "Continue"
-msgstr "המשך"
-
-#: qt/aqt/about.py:86
-msgid "Copied to clipboard"
-msgstr "הועתק ללוח"
-
-#: qt/aqt/editor.py:1211 qt/aqt/webview.py:289
-msgid "Copy"
-msgstr "העתק"
-
-#: qt/aqt/about.py:88
-msgid "Copy Debug Info"
-msgstr "העתק מידע ניפוי שגיאות"
-
-#: qt/aqt/utils.py:148
-msgid "Copy to Clipboard"
-msgstr "העתק ללוח"
-
-#: pylib/anki/stats.py:173
+#: qt/aqt/importing.py:170
 #, python-format
-msgid "Correct answers on mature cards: %(a)d/%(b)d (%(c).1f%%)"
-msgstr "תשובות נכונות בכרטיסים בוגרים: %(a)d/%(b)d (%(c).1f%%)"
+msgid "Fields separated by: %s"
+msgstr "שדות מופרדים על-ידי: %s"
 
-#: pylib/anki/stats.py:713
+#: qt/aqt/importing.py:176
+msgid "The first field of the note type must be mapped."
+msgstr "השדה הראשון בסוג הרשומה מוכרח להיות ממופה."
+
+#: qt/aqt/importing.py:211 qt/aqt/importing.py:524
+msgid "Importing complete."
+msgstr "הייבוא הושלם."
+
+#: qt/aqt/importing.py:251
 #, python-format
-msgid "Correct: <b>%(pct)0.2f%%</b><br>(%(good)d of %(tot)d)"
-msgstr "נכון: <b>%(pct)0.2f%%</b><br>(%(good)d of %(tot)d)"
+msgid "Field <b>%d</b> of file is:"
+msgstr "שדה <b>%d</b> של הקובץ הינו:"
 
-#: qt/aqt/addons.py:471
-msgid "Corrupt add-on file."
-msgstr "קובץ תוסף פגום."
+#: qt/aqt/importing.py:254
+msgid "mapped to <b>Tags</b>"
+msgstr "ממופה ל-<b>תגיות</b>"
 
-#: qt/aqt/editor.py:751
-msgid "Couldn't record audio. Have you installed 'lame'?"
-msgstr "הקלטת אודיו נכשלה. האם התקנת 'lame'?"
-
-#: qt/aqt/exporting.py:145
+#: qt/aqt/importing.py:256
 #, python-format
-msgid "Couldn't save file: %s"
-msgstr "שמירת קובץ נכשלה: %s"
+msgid "mapped to <b>%s</b>"
+msgstr "ממופה ל-<b>%s</b>"
 
-#: pylib/anki/stats.py:350 pylib/anki/stats.py:370
-msgid "Cram"
-msgstr "חרוש"
+#: qt/aqt/importing.py:258
+msgid "<ignored>"
+msgstr "<התעלם>"
 
-#: qt/aqt/deckbrowser.py:309
-msgid "Create Deck"
-msgstr "צור חפיסה"
+#: qt/aqt/importing.py:260
+msgid "Change"
+msgstr "שינוי"
 
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:155
-msgid "Create Filtered Deck..."
-msgstr "צור חפיסה מסוננת..."
+#: qt/aqt/importing.py:303
+msgid "Selected file was not in UTF-8 format. Please see the importing section of the manual."
+msgstr "הקובץ שנבחר אינו בפורמט UTF-8. ראה אודות ייבוא במדריך למשתמש."
 
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/modelopts.py:66
-msgid "Create scalable images with dvisvgm"
-msgstr "צור תמונות ווקטוריות באמצעות dvisvgm"
+#: qt/aqt/importing.py:321
+msgid ".anki files are from a very old version of Anki. You can import them with Anki 2.0, available on the Anki website."
+msgstr "קבצי .anki מגרסה מאוד ישנה של Anki. אתה יכול לייבא אותם עם Anki 2.0, אשר זמין באתר של Anki."
 
-#: qt/aqt/browser.py:745
-msgid "Created"
-msgstr "תאריך יצירה"
+#: qt/aqt/importing.py:328
+msgid ".anki2 files are not directly importable - please import the .apkg or .zip file you have received instead."
+msgstr "לא ניתן לייבא ישירות קבצי .anki2 - במקום זאת, אנא ייבא את קובץ .apkg או .zip שקיבלת."
 
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:344
-msgid "Ctrl+Shift+E"
-msgstr "Ctrl+Shift+E"
+#: qt/aqt/importing.py:367
+msgid "Unknown file format."
+msgstr "סוג קובץ לא מוכר."
 
-#: pylib/anki/stats.py:221
-msgid "Cumulative"
-msgstr "מצטבר"
+#: qt/aqt/importing.py:403
+msgid "    Invalid file. Please restore from backup."
+msgstr "קובץ שגוי. אנא שחזר מגיבוי."
 
-#: pylib/anki/stats.py:382
+#: qt/aqt/importing.py:412
+msgid "    Unable to import from a read-only file."
+msgstr "לא ניתן לייבא מקובץ לקריאה בלבד."
+
+#: qt/aqt/importing.py:434
+msgid "This file does not appear to be a valid .apkg file. If you're getting this error from a file downloaded from AnkiWeb, chances are that your download failed. Please try again, and if the problem persists, please try again with a different browser."
+msgstr "קובץ זה אינו חבילת .apkg חוקית. אם שגיאה זו התרחשה בקובץ שהורדת מאתר AnkiWeb, יש להניח כי ההורדה נכשלה. נסה שנית, ואם השגיאה ממשיכה נסה דפדפן אחר."
+
+#: qt/aqt/importing.py:454
+msgid "This will delete your existing collection and replace it with the data in the file you're importing. Are you sure?"
+msgstr "זה ימחוק את האוסף הנוכחי ויחליף אותו בנתונים מהקובץ שאתה מייבא. האם אתה בטוח?"
+
+#: qt/aqt/importing.py:494
 #, python-format
-msgid "Cumulative %s"
-msgstr "מצטבר %s"
+msgid "Processed %d media file"
+msgid_plural "Processed %d media files"
+msgstr[0] "עובד %d קובץ מדיה"
+msgstr[1] "עובדו %d קבצי מדיה"
 
-#: pylib/anki/stats.py:357
-msgid "Cumulative Answers"
-msgstr "תשובות מצטברות"
-
-#: pylib/anki/stats.py:236 pylib/anki/stats.py:310
-msgid "Cumulative Cards"
-msgstr "כרטיסים מצטברים"
-
-#: qt/aqt/browser.py:1115 qt/aqt/browser.py:1255
-msgid "Current Deck"
-msgstr "חפיסה נוכחית"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/changemodel.py:112
-msgid "Current note type:"
-msgstr "סוג רשומה נוכחי:"
-
-#: qt/aqt/overview.py:258
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:103
-msgid "Custom Study"
-msgstr "לימוד מותאם"
-
-#: qt/aqt/customstudy.py:141 qt/aqt/customstudy.py:153
-msgid "Custom Study Session"
-msgstr "אוסף לימוד מותאם"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:149
-msgid "Custom steps (in minutes)"
-msgstr "צעדים מותאמים אישית (דקות)"
-
-#: qt/aqt/editor.py:133
-msgid "Customize Card Templates (Ctrl+L)"
-msgstr "התאם-אישית תבניות של כרטיסים (Ctrl+L)"
-
-#: qt/aqt/editor.py:125
-msgid "Customize Fields"
-msgstr "התאם-אישית שדות"
-
-#: qt/aqt/editor.py:1209
-msgid "Cut"
-msgstr "גזור"
-
-#: pylib/anki/stats.py:407
-msgid "Days studied"
-msgstr "ימי לימוד"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/debug.py:56
-msgid "Debug Console"
-msgstr "קונסולת ניפוי שגיאות"
-
-#: qt/aqt/browser.py:743 qt/aqt/deckbrowser.py:147 qt/aqt/deckchooser.py:29
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:108
-msgid "Deck"
-msgstr "חפיסה"
-
-#: qt/aqt/clayout.py:695
-msgid "Deck Override..."
-msgstr "שכתוב חפיסה..."
-
-#: qt/aqt/main.py:1602
-msgid "Deck will be imported when a profile is opened."
-msgstr "חפיסה תיובא כאשר פרופיל ייפתח."
-
-#: qt/aqt/browser.py:1329 qt/aqt/toolbar.py:105
-msgid "Decks"
-msgstr "חפיסות"
-
-#: pylib/anki/consts.py:119
-msgid "Decreasing intervals"
-msgstr "הפחתת מרווחי זמן"
-
-#: qt/aqt/deckchooser.py:51 qt/aqt/deckchooser.py:55 qt/aqt/deckchooser.py:77
-msgid "Default"
-msgstr "ברירת-מחדל"
-
-#: pylib/anki/stats.py:596
-msgid "Delays until reviews are shown again."
-msgstr "הזמן שעובר עד שחזרות מופיעות שנית."
-
-#: qt/aqt/deckbrowser.py:234 qt/aqt/deckconf.py:91 qt/aqt/models.py:59
-#: qt/aqt/reviewer.py:812
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:78
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:332
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:104
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/profiles.py:84
-msgid "Delete"
-msgstr "מחק"
-
-#: qt/aqt/deckbrowser.py:280
-msgid "Delete Deck"
-msgstr "מחק חפיסה"
-
-#: qt/aqt/reviewer.py:731
-msgid "Delete Note"
-msgstr "מחק רשומה"
-
-#: qt/aqt/browser.py:1547
-msgid "Delete Notes"
-msgstr "מחק רשומות"
-
-#: qt/aqt/browser.py:1639
-msgid "Delete Tags"
-msgstr "מחק תגיות"
-
-#: qt/aqt/fields.py:126
-#, python-format
-msgid "Delete field from %s?"
-msgstr "מחק שדה מ-%s?"
-
-#: qt/aqt/addons.py:845
-#, python-format
-msgid "Delete the %(num)d selected add-on?"
-msgid_plural "Delete the %(num)d selected add-ons?"
-msgstr[0] "מחק את %(num)d התוסף הנבחר?"
-msgstr[1] "מחק את %(num)d התוספים הנבחרים?"
-
-#: qt/aqt/clayout.py:561
-#, python-format
-msgid "Delete the '%(a)s' card type, and its %(b)s?"
-msgstr "מחק את סוג כרטיס '%(a)s' ואת %(b)s שלו?"
-
-#: qt/aqt/models.py:134
-msgid "Delete this note type and all its cards?"
-msgstr "מחק את סוג רשומה זו ואת כל הכרטיסים שלה?"
-
-#: qt/aqt/models.py:136
-msgid "Delete this unused note type?"
-msgstr "מחק סוג רשומה זו שאינה בשימוש?"
-
-#: qt/aqt/overview.py:197
-msgid "Deleting this deck from the deck list will return all remaining cards to their original deck."
-msgstr "מחיקת חפיסה זו מרשימת החפיסות תחזיר את כל הכרטיסים הנותרים לחפיסות המקוריות שלהן."
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:382
-msgid "Description"
-msgstr "תיאור"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:381
-msgid "Description to show on overview screen, for current deck:"
-msgstr "תיאור להצגה במסך הסקירה, לחפיסה זאת:"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:135
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/editaddon.py:42
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/editcurrent.py:43
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/progress.py:42
-msgid "Dialog"
-msgstr "דו שיח"
-
-#: qt/aqt/addons.py:1115
-msgid "Download complete. Please restart Anki to apply changes."
-msgstr "ההורדה הושלמה. הפעל מחדש את Anki להחיל שינויים."
-
-#: qt/aqt/addons.py:491
-#, python-format
-msgid "Downloaded %(fname)s"
-msgstr "%(fname)s הורד"
-
-#. T: "%(a)d" is the index of the element currently
-#. downloaded. "%(b)d" is the number of element to download,
-#. and "%(kb)0.2f" is the number of downloaded
-#. kilobytes. This lead for example to "Downloading 3/5
-#. (27KB)"
-#: qt/aqt/addons.py:1094
-#, python-format
-msgid "Downloading %(a)d/%(b)d (%(kb)0.2fKB)..."
-msgstr "מוריד %(a)d/%(b)d (%(kb)0.2fKB)..."
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:115
-msgid "Due cards only"
-msgstr "כרטיסים מתוזמנים בלבד"
-
-#: pylib/anki/stats.py:261
-msgid "Due tomorrow"
-msgstr "מתוזמן למחר"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:138
-msgid "E&xit"
-msgstr "י&ציאה"
-
-#: qt/aqt/browser.py:750
-msgid "Ease"
-msgstr "קלות"
-
-#: qt/aqt/reviewer.py:633 qt/aqt/reviewer.py:639
-msgid "Easy"
-msgstr "קל"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:353
-msgid "Easy bonus"
-msgstr "בונוס עבור \"קל\""
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:345
-msgid "Easy interval"
-msgstr "מרווח-זמן של \"קל\""
-
-#: qt/aqt/reviewer.py:572
-msgid "Edit"
-msgstr "עריכה"
-
-#: qt/aqt/addcards.py:149
-#, python-format
-msgid "Edit \"%s\""
-msgstr "ערוך את \"%s\""
-
-#: qt/aqt/editcurrent.py:20
-msgid "Edit Current"
-msgstr "ערוך נוכחי"
-
-#: qt/aqt/editor.py:959
-msgid "Edit HTML"
-msgstr "ערוך HTML"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:107
-msgid "Editing Font"
-msgstr "ערוך גופן"
-
-#: qt/aqt/overview.py:256
-msgid "Empty"
-msgstr "רוקן"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:154
-msgid "Empty Cards..."
-msgstr "כרטיסים ריקים..."
-
-#: pylib/anki/importing/noteimp.py:156
-#, python-format
-msgid "Empty first field: %s"
-msgstr "שדה ראשון ריק: %s"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:146
-msgid "Enable second filter"
-msgstr "אפשר פילטר שני"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:326
-msgid "End"
-msgstr "סוף"
-
-#: qt/aqt/clayout.py:740
-#, python-format
-msgid "Enter deck to place new %s cards in, or leave blank:"
-msgstr "הקלד חפיסה להכניס %s כרטיסים חדשים לתוכה, או השאר ריק:"
-
-#: qt/aqt/clayout.py:600
-#, python-format
-msgid "Enter new card position (1...%s):"
-msgstr "הכנס מיקום כרטיס חדש (1...%s):"
-
-#: qt/aqt/browser.py:1619
-msgid "Enter tags to add:"
-msgstr "הזן תגיות להוספה:"
-
-#: qt/aqt/browser.py:1641
-msgid "Enter tags to delete:"
-msgstr "הזן תגיות למחיקה:"
-
-#: qt/aqt/addons.py:478
-#, python-format
-msgid "Error downloading <i>%(id)s</i>: %(error)s"
-msgstr "שגיאה בהורדה <i>%(id)s</i>: %(error)s"
+#: qt/aqt/importing.py:516
+msgid "The provided file is not a valid .apkg file."
+msgstr "הקובץ הנתון אינו חבילת .apkg חוקית."
 
 #: qt/aqt/main.py:123
 #, python-format
@@ -1410,318 +2867,99 @@ msgstr ""
 "שגיאה בעת הפעלה:\n"
 "%s"
 
-#: pylib/anki/latex.py:176
+#: qt/aqt/main.py:129
+msgid "Shift key was held down. Skipping automatic syncing and add-on loading."
+msgstr "המקש Shift היה לחוץ. מדלג על סינכרון אוטומטי והטענת תוספים."
+
+#: qt/aqt/main.py:294 qt/aqt/models.py:123
+msgid "Name:"
+msgstr "שם:"
+
+#: qt/aqt/main.py:297 qt/aqt/main.py:311
+msgid "Name exists."
+msgstr "שם קיים."
+
+#: qt/aqt/main.py:320
+msgid "There must be at least one profile."
+msgstr "מוכרח להיות לפחות פרופיל אחד."
+
+#: qt/aqt/main.py:324
+msgid "All cards, notes, and media for this profile will be deleted. Are you sure?"
+msgstr "כל הכרטיסים, הרשומות, והמדיה של פרופיל זה ימחקו. האם אתה בטוח?"
+
+#: qt/aqt/main.py:338
+msgid "Replace your collection with an earlier backup?"
+msgstr "להחליף את האוסף עם גיבוי מוקדם יותר?"
+
+#: qt/aqt/main.py:351
+msgid "Revert to backup"
+msgstr "חזור לגיבוי"
+
+#: qt/aqt/main.py:364
+msgid "Unable to move existing file to trash - please try restarting your computer."
+msgstr "לא הצלחנו למחוק - נסה להפעיל את המחשב מחדש."
+
+#: qt/aqt/main.py:374
+msgid "Automatic syncing and backups have been disabled while restoring. To enable them again, close the profile or restart Anki."
+msgstr "סנכרון וגיבוי אוטומטיים בוטלו בעת השחזור. להפעיל אותם שנית, סגור את הפרופיל או הפעל מחדש את Anki."
+
+#: qt/aqt/main.py:556
+msgid "Closing..."
+msgstr "סוגר..."
+
+#: qt/aqt/main.py:558
+msgid "Backing Up..."
+msgstr "מגבה..."
+
+#: qt/aqt/main.py:578
+msgid "Your collection file appears to be corrupt. This can happen when the file is copied or moved while Anki is open, or when the collection is stored on a network or cloud drive. If problems persist after restarting your computer, please open an automatic backup from the profile screen."
+msgstr "הקובץ פגום. יתכן שהקובץ הועתק או הועבר בעוד התוכנה פעילה, או שהקובץ מאוחסן בענן. אם הבעיה ממשיכה לאחר אתחול המחשב מחדש, פתח גיבוי אוטומטי ממסך הפרופיל."
+
+#: qt/aqt/main.py:644
+msgid "Optimizing..."
+msgstr "ממטב..."
+
+#: qt/aqt/main.py:675
+msgid "Please select a deck."
+msgstr "בחר חפיסה."
+
+#: qt/aqt/main.py:735
+msgid "Waiting for editing to finish."
+msgstr "ממתין לסיום עריכה."
+
+#: qt/aqt/main.py:736
+msgid "Resume Now"
+msgstr "המשך כעת"
+
+#: qt/aqt/main.py:1036
 #, python-format
-msgid "Error executing %s."
-msgstr "שגיאה התרחשה בעת הפעלת %s."
+msgid "Reverted to state prior to '%s'."
+msgstr "הוחזר למצב הקודם ל- '%s'."
 
-#: qt/aqt/addons.py:480
+#: qt/aqt/main.py:1042
 #, python-format
-msgid "Error installing <i>%(base)s</i>: %(error)s"
-msgstr "שגיאה התרחשה בעת התקנת <i>%(base)s</i>: %(error)s"
+msgid "Undo %s"
+msgstr "בטל %s"
 
-#: qt/aqt/sound.py:502
-#, python-format
-msgid "Error running %s"
-msgstr "שגיאה התרחשה בעת הרצת %s"
+#: qt/aqt/main.py:1046
+msgid "Undo"
+msgstr "בטל"
 
-#: qt/aqt/deckbrowser.py:232 qt/aqt/exporting.py:124
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/exporting.py:76
-msgid "Export"
-msgstr "ייצוא"
-
-#: qt/aqt/exporting.py:58
-msgid "Export..."
-msgstr "ייצוא..."
-
-#: qt/aqt/exporting.py:154
-#, python-format
-msgid "Exported %d media file"
-msgid_plural "Exported %d media files"
-msgstr[0] "%d קובץ מדיה יוצא"
-msgstr[1] "%d קבצי מדיה יוצאו"
-
-#: qt/aqt/importing.py:251
-#, python-format
-msgid "Field <b>%d</b> of file is:"
-msgstr "שדה <b>%d</b> של הקובץ הינו:"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:114
-msgid "Field mapping"
-msgstr "מיפוי שדות"
-
-#: qt/aqt/fields.py:110
-msgid "Field name:"
-msgstr "שם שדה:"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addfield.py:63
-msgid "Field:"
-msgstr "שדה:"
-
-#: qt/aqt/editor.py:126 qt/aqt/fields.py:23
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/changemodel.py:115
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:102
-msgid "Fields"
-msgstr "שדות"
-
-#: qt/aqt/fields.py:27
-#, python-format
-msgid "Fields for %s"
-msgstr "שדות עבור %s"
-
-#: qt/aqt/importing.py:170
-#, python-format
-msgid "Fields separated by: %s"
-msgstr "שדות מופרדים על-ידי: %s"
-
-#: qt/aqt/models.py:65
-msgid "Fields..."
-msgstr "שדות..."
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:319
-msgid "Fil&ter"
-msgstr "ס&נן"
-
-#: pylib/anki/importing/mnemo.py:24
-msgid "File version unknown, trying import anyway."
-msgstr "גרסת קובץ לא ידועה, מנסה לייבא בכל-זאת."
-
-#: qt/aqt/browser.py:1319
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:136
-msgid "Filter"
-msgstr "סנן"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:140
-msgid "Filter 2"
-msgstr "סנן 2"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:299
-msgid "Filter..."
-msgstr "סנן..."
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/studydeck.py:48
-msgid "Filter:"
-msgstr "סינון:"
+#: qt/aqt/main.py:1122
+msgid "Please use File>Import to import this file."
+msgstr "בחר באפשרות קובץ>ייבוא כדי לייבא את הקובץ הזה."
 
 #: qt/aqt/main.py:1164 qt/aqt/main.py:1166
 #, python-format
 msgid "Filtered Deck %d"
 msgstr "חפיסה מסוננת %d"
 
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:321
-msgid "Find &Duplicates..."
-msgstr "מצא &כפילויות..."
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/finddupes.py:71
-msgid "Find Duplicates"
-msgstr "מצא כפילויות"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:317
-msgid "Find and Re&place..."
-msgstr "מצא וה&חלף..."
-
-#: qt/aqt/browser.py:1909
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/findreplace.py:87
-msgid "Find and Replace"
-msgstr "מצא והחלף"
-
-#: qt/aqt/reviewer.py:95
-msgid "Finish"
-msgstr "סיים"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:323
-msgid "First Card"
-msgstr "כרטיס ראשון"
-
-#: pylib/anki/importing/noteimp.py:138
+#: qt/aqt/main.py:1222
 #, python-format
-msgid "First field matched: %s"
-msgstr "שדה ראשוני תואם: %s"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:304
-msgid "Flag"
-msgstr "סמן בדגל"
-
-#: qt/aqt/reviewer.py:698
-msgid "Flag Card"
-msgstr "סמן כרטיס בדגל"
-
-#: qt/aqt/clayout.py:394
-msgid "Flip"
-msgstr "הפוך"
-
-#: qt/aqt/profiles.py:312
-msgid "Folder already exists."
-msgstr "תיקייה כבר קיימת."
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addfield.py:65
-msgid "Font:"
-msgstr "גופן:"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/modelopts.py:68
-msgid "Footer"
-msgstr "כותרת תחתונה"
-
-#: pylib/anki/latex.py:134
-#, python-format
-msgid "For security reasons, '%s' is not allowed on cards. You can still use it by placing the command in a different package, and importing that package in the LaTeX header instead."
-msgstr "מסיבות אבטחה, '%s' אינו מורשה בכרטיסים. עדיין תוכל להשתמש בו באמצעות הצבת הפקודה בחבילה נפרדת, וייבוא אותה החבילה בכותרת הLaTeX לחילופין."
-
-#: pylib/anki/stats.py:228
-msgid "Forecast"
-msgstr "תחזית"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/clayout_top.py:54
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/template.py:73
-msgid "Form"
-msgstr "טופס"
-
-#: qt/aqt/browser.py:1996
-#, python-format
-msgid "Found %(a)s across %(b)s."
-msgstr "נמצא %(a)s מעבר ל%(b)s."
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:380
-msgid "General"
-msgstr "כללי"
-
-#: pylib/anki/latex.py:177
-#, python-format
-msgid "Generated file: %s"
-msgstr "קובץ נוצר: %s"
-
-#: pylib/anki/stats.py:941
-#, python-format
-msgid "Generated on %s"
-msgstr "נוצר ב-%s"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:71
-msgid "Get Add-ons..."
-msgstr "קבל תוספים..."
-
-#: qt/aqt/deckbrowser.py:308
-msgid "Get Shared"
-msgstr "קבל שיתופים"
-
-#: qt/aqt/reviewer.py:630 qt/aqt/reviewer.py:633 qt/aqt/reviewer.py:638
-msgid "Good"
-msgstr "טוב"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:346
-msgid "Graduating interval"
-msgstr "מרווח-זמן של \"טוב\""
-
-#: qt/aqt/browser.py:1286 qt/aqt/reviewer.py:713
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:337
-msgid "Green Flag"
-msgstr "דגל ירוק"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/edithtml.py:39
-msgid "HTML Editor"
-msgstr "עורך HTML"
-
-#: qt/aqt/reviewer.py:637
-msgid "Hard"
-msgstr "קשה"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:361
-msgid "Hard interval"
-msgstr "מרווח זמן קשה"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:279
-msgid "Hardware acceleration (faster, may cause display issues)"
-msgstr "האצת חומרה (מהיר יותר, עשוי לגרום לבעיות תצוגה)"
-
-#: pylib/anki/latex.py:185
-msgid "Have you installed latex and dvipng/dvisvgm?"
-msgstr "האם התקנת latex ו-dvipng/dvisvgm ?"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/modelopts.py:67
-msgid "Header"
-msgstr "כותרת עליונה"
-
-#: qt/aqt/addcards.py:79 qt/aqt/clayout.py:384 qt/aqt/utils.py:212
-#: qt/aqt/utils.py:213
-msgid "Help"
-msgstr "עזרה"
-
-#: pylib/anki/stats.py:879
-msgid "Highest ease"
-msgstr "הקלות הגבוהה ביותר"
-
-#: qt/aqt/addcards.py:83
-msgid "History"
-msgstr "היסטוריה"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:324
-msgid "Home"
-msgstr "בית"
-
-#: pylib/anki/stats.py:791
-msgid "Hourly Breakdown"
-msgstr "פילוח שעתי"
-
-#: pylib/anki/stats.py:377
-msgid "Hours"
-msgstr "שעות"
-
-#: pylib/anki/stats.py:821
-msgid "Hours with less than 30 reviews are not shown."
-msgstr "שעות עם פחות מ-30 סקירות לא מוצגות."
-
-#: pylib/anki/importing/anki2.py:166
-msgid "Identical"
-msgstr "זהה"
-
-#: qt/aqt/about.py:221
-msgid "If you have contributed and are not on this list, please get in touch."
-msgstr "אם תרמת ממאמציך ואינך ברשימה, אנא צור קשר."
-
-#: pylib/anki/stats.py:427
-msgid "If you studied every day"
-msgstr "אם למדת כל יום"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:375
-msgid "Ignore answer times longer than"
-msgstr "התעלם מתשובה שלוקחת יותר מ-"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/findreplace.py:92
-msgid "Ignore case"
-msgstr "התעלם מרישיות"
-
-#: qt/aqt/importing.py:53
-msgid "Ignore field"
-msgstr "התעלם משדה"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:110
-msgid "Ignore lines where first field matches existing note"
-msgstr "התעלם משורות שהשדה הראשון תואם לרשומה קיימת"
-
-#: qt/aqt/update.py:64
-msgid "Ignore this update"
-msgstr "התעלם מעדכון זה"
-
-#: qt/aqt/importing.py:103 qt/aqt/importing.py:189 qt/aqt/importing.py:311
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/changemap.py:43
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:105
-msgid "Import"
-msgstr "ייבוא"
-
-#: qt/aqt/deckbrowser.py:310
-msgid "Import File"
-msgstr "ייבא קובץ"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:111
-msgid "Import even if existing note has same first field"
-msgstr "ייבא למרות שלרשומה קיימת יש שדה ראשון זהה"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:106
-msgid "Import options"
-msgstr "אפשרויות יבוא"
-
-#: qt/aqt/importing.py:211 qt/aqt/importing.py:524
-msgid "Importing complete."
-msgstr "הייבוא הושלם."
+msgid "%s second"
+msgid_plural "%s seconds"
+msgstr[0] "%s שניה"
+msgstr[1] "%s שניות"
 
 #: qt/aqt/main.py:1225
 #, python-format
@@ -1750,1013 +2988,155 @@ msgstr ""
 "\n"
 "הבדל בין הזמן הנכון: %s."
 
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/exporting.py:82
-msgid "Include HTML and media references"
-msgstr "כלול HTML והפניות מדיה"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/exporting.py:80
-msgid "Include media"
-msgstr "כלול מדיה"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/exporting.py:79
-msgid "Include scheduling information"
-msgstr "כלול מידע על מועדים קבועים מראש"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/exporting.py:81
-msgid "Include tags"
-msgstr "כלול תגיות"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:106
-msgid "Increase today's new card limit"
-msgstr "הגדל את מכסת הכרטיסים החדשים היום"
-
-#: qt/aqt/customstudy.py:72
-msgid "Increase today's new card limit by"
-msgstr "הגדל את מכסת הכרטיסים החדשים להיום ב-"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:107
-msgid "Increase today's review card limit"
-msgstr "הגדל את מכסת הכרטיסים לחזרה היום"
-
-#: qt/aqt/customstudy.py:84
-msgid "Increase today's review limit by"
-msgstr "הגדל את המכסה לחזרה היום ב-"
-
-#: pylib/anki/consts.py:118
-msgid "Increasing intervals"
-msgstr "הגדלת מרווחי זמן"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/getaddons.py:50
-msgid "Install Add-on"
-msgstr "התקן תוסף"
-
-#: qt/aqt/addons.py:874
-msgid "Install Add-on(s)"
-msgstr "התקן תוסף(ים)"
-
-#: qt/aqt/addons.py:1420
-msgid "Install Anki add-on"
-msgstr "התקן תוסף Anki"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:72
-msgid "Install from file..."
-msgstr "התקנה מקובץ..."
-
-#: qt/aqt/addons.py:1443
-msgid "Installation complete"
-msgstr "ההתקנה הושלמה"
-
-#: qt/aqt/addons.py:493
-#, python-format
-msgid "Installed %(name)s"
-msgstr "הותקן %(name)s"
-
-#: qt/aqt/addons.py:1024
-msgid "Installed successfully."
-msgstr "הותקן בהצלחה"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/setlang.py:42
-msgid "Interface language:"
-msgstr "שפת ממשק:"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:281
-msgid "Interrupt current audio when answering"
-msgstr "הפסק שמע נוכחי בעת תשובה"
-
-#: qt/aqt/browser.py:749
-msgid "Interval"
-msgstr "מרווח-זמן"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:355
-msgid "Interval modifier"
-msgstr "שינוי מרווח-זמן"
-
-#: pylib/anki/stats.py:596
-msgid "Intervals"
-msgstr "מרווחי-זמן"
-
-#: qt/aqt/addons.py:472
-msgid "Invalid add-on manifest."
-msgstr "תצורת תוסף לא חוקית."
-
-#: qt/aqt/addons.py:1011
-msgid "Invalid code, or add-on not available for your version of Anki."
-msgstr "קוד שגוי, או תוסף לא זמין עבור גרסת ה-Anki שלך."
-
-#: qt/aqt/addons.py:937
-msgid "Invalid code."
-msgstr "קוד שגוי."
-
-#: qt/aqt/addons.py:1376
-msgid "Invalid configuration: "
-msgstr "קונפיגורציה שגויה: "
-
-#: qt/aqt/addons.py:1380
-msgid "Invalid configuration: top level object must be a map"
-msgstr "קונפיגורציה שגויה: האובייקט ברמה העליונה ביותר צריך להיות מפה."
-
 #: qt/aqt/main.py:1288
 msgid "Invalid property found on card. Please use Tools>Check Database, and if the problem comes up again, please ask on the support site."
 msgstr "נמצא מאפיין לא חוקי בכרטיס. נא השתמש ב- כלים->בדוק בסיס נתונים, ואם הבעיה ממשיכה פנה לאתר התמיכה."
 
-#: qt/aqt/reviewer.py:687
-msgid "It has been suspended."
-msgstr "זה הושהה."
-
-#: qt/aqt/editor.py:145
-msgid "Italic text (Ctrl+I)"
-msgstr "טקסט נטוי (Ctrl+I)"
-
-#: qt/aqt/editor.py:580
-msgid "Jump to tags with Ctrl+Shift+T"
-msgstr "עבור לתגיות עם Ctrl+Shift+T"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:308
-msgid "Keep"
-msgstr "השאר"
-
-#: qt/aqt/editor.py:956
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/modelopts.py:69
-msgid "LaTeX"
-msgstr "LaTeX"
-
-#: qt/aqt/editor.py:957
-msgid "LaTeX equation"
-msgstr "משוואת LaTeX"
-
-#: qt/aqt/editor.py:958
-msgid "LaTeX math env."
-msgstr "סביבת מתמטיקה באמצעות LaTeX"
-
-#: qt/aqt/browser.py:752
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:374
-msgid "Lapses"
-msgstr "שגיאות"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:325
-msgid "Last Card"
-msgstr "כרטיס אחרון"
-
-#: pylib/anki/consts.py:123
-msgid "Latest added first"
-msgstr "נוספו לאחרונה"
-
-#: pylib/anki/stats.py:349 pylib/anki/stats.py:369
-msgid "Learn"
-msgstr "למד"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:297
-msgid "Learn ahead limit"
-msgstr "לימוד מעבר למכסה"
-
-#: pylib/anki/stats.py:160
-#, python-format
-msgid "Learn: %(a)s, Review: %(b)s, Relearn: %(c)s, Filtered: %(d)s"
-msgstr "נלמדו:%(a)s, נסקרו: %(b)s, נלמדו מחדש: %(c)s, מסוננים: %(d)s"
-
-#: pylib/anki/stats.py:686 qt/aqt/browser.py:1277 qt/aqt/overview.py:231
-msgid "Learning"
-msgstr "לימוד"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:368
-msgid "Leech action"
-msgstr "התנהגות \"כרטיס-עלוקה\""
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:366
-msgid "Leech threshold"
-msgstr "סף \"כרטיס-עלוקה\""
-
-#: pylib/anki/consts.py:109
-msgid "Left"
-msgstr "שמאל"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:137
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:141
-msgid "Limit to"
-msgstr "הגבל ל־"
-
-#: qt/aqt/utils.py:57
-msgid "Loading..."
-msgstr "טוען..."
-
-#: pylib/anki/stats.py:619
-msgid "Longest interval"
-msgstr "מרווח הזמן הארוך ביותר"
-
-#: pylib/anki/stats.py:877
-msgid "Lowest ease"
-msgstr "הקלות הנמוכה ביותר"
-
-#: qt/aqt/modelchooser.py:76
-msgid "Manage"
-msgstr "נהל"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:156
-msgid "Manage Note Types"
-msgstr "נהל סוגי רשומות"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:341
-msgid "Manage Note Types..."
-msgstr "נהל סוגי רשומות..."
-
-#: qt/aqt/browser.py:1337
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:341
-msgid "Manage..."
-msgstr "נהל..."
-
-#: qt/aqt/overview.py:131
-msgid "Manually Buried Cards"
-msgstr "כרטיסים ש\"הוטמנו\" ידנית"
-
-#: qt/aqt/importing.py:46
-#, python-format
-msgid "Map to %s"
-msgstr "מיפוי ל-%s"
-
-#: qt/aqt/importing.py:52
-msgid "Map to Tags"
-msgstr "מיפוי לתגיות"
-
-#: qt/aqt/reviewer.py:726
-msgid "Mark Note"
-msgstr "סמן רשומה"
-
-#: qt/aqt/editor.py:954
-msgid "MathJax block"
-msgstr "בלוק MathJax"
-
-#: qt/aqt/editor.py:955
-msgid "MathJax chemistry"
-msgstr "כימיה באמצעות MathJax"
-
-#: qt/aqt/editor.py:953
-msgid "MathJax inline"
-msgstr "MathJax כחלק משורה"
-
-#: pylib/anki/stats.py:213 pylib/anki/stats.py:346 pylib/anki/stats.py:366
-#: pylib/anki/stats.py:688 pylib/anki/stats.py:858
-msgid "Mature"
-msgstr "בוגר"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:357
-msgid "Maximum interval"
-msgstr "מרווח הזמן המקסימלי"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:356
-msgid "Maximum reviews/day"
-msgstr "מקסימום חזרות/ליום"
-
-#: qt/aqt/editor.py:713
-msgid "Media"
-msgstr "מדיה"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:369
-msgid "Minimum interval"
-msgstr "מרווח הזמן המינימלי"
-
-#: pylib/anki/stats.py:374
-msgid "Minutes"
-msgstr "דקות"
-
-#: pylib/anki/consts.py:100
-msgid "Mix new cards and reviews"
-msgstr "ערבוב כרטיסים חדשים וכרטיסים לחזרה"
-
-#: pylib/anki/importing/__init__.py:15
-msgid "Mnemosyne 2.0 Deck (*.db)"
-msgstr "חפיסת Mnemosyne 2.0 (*.db)"
-
-#: qt/aqt/reviewer.py:574
-msgid "More"
-msgstr "עוד"
-
-#: pylib/anki/consts.py:120
-msgid "Most lapses"
-msgstr "השגיאות הרבות ביותר"
-
-#: qt/aqt/browser.py:1593
-msgid "Move Cards"
-msgstr "העבר כרטיסים"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/setgroup.py:41
-msgid "Move cards to deck:"
-msgstr "העבר כרטיסים לחפיסה:"
-
-#: qt/aqt/importing.py:137
-msgid "Multi-character separators are not supported. Please enter one character only."
-msgstr "מפסיקים עם תווים מרובים אינם נתמכים. אנא הכנס תו אחד בלבד."
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:311
-msgid "N&ote"
-msgstr "ה&ערה"
-
-#: qt/aqt/main.py:297 qt/aqt/main.py:311
-msgid "Name exists."
-msgstr "שם קיים."
-
-#: qt/aqt/deckbrowser.py:82
-msgid "Name for deck:"
-msgstr "שם עבור חפיסה:"
-
-#: qt/aqt/main.py:294 qt/aqt/models.py:123
-msgid "Name:"
-msgstr "שם:"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:306
-msgid "Network"
-msgstr "רשת"
-
-#: qt/aqt/browser.py:1276 qt/aqt/deckbrowser.py:149 qt/aqt/overview.py:229
-msgid "New"
-msgstr "חדשים"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:352
-msgid "New Cards"
-msgstr "כרטיסים חדשים"
-
-#: qt/aqt/customstudy.py:71
-#, python-format
-msgid "New cards in deck over today limit: %s"
-msgstr "כרטיסים חדשים בחפיסה מעבר למכסה היומית: %s"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:113
-msgid "New cards only"
-msgstr "רק כרטיסים חדשים"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:347
-msgid "New cards/day"
-msgstr "כרטיסים חדשים/יום"
-
-#: qt/aqt/deckbrowser.py:246 qt/aqt/sidebar.py:98 qt/aqt/studydeck.py:151
-msgid "New deck name:"
-msgstr "שם חפיסה חדש:"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:365
-msgid "New interval"
-msgstr "מרווח זמן חדש"
-
-#: qt/aqt/clayout.py:586 qt/aqt/deckconf.py:148 qt/aqt/fields.py:97
-#: qt/aqt/main.py:305 qt/aqt/models.py:87
-msgid "New name:"
-msgstr "שם חדש:"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/changemodel.py:113
-msgid "New note type:"
-msgstr "סוג רשומה חדש:"
-
-#: qt/aqt/deckconf.py:121
-msgid "New options group name:"
-msgstr "שם קבוצת אפשרויות חדש:"
-
-#: qt/aqt/fields.py:140
-#, python-format
-msgid "New position (1...%d):"
-msgstr "מיקום חדש (1...%d):"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:299
-msgid "Next day starts at"
-msgstr "היום הבא מתחיל ב-"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:284
-msgid "Night mode"
-msgstr "מצב לילה"
-
-#: qt/aqt/browser.py:1288
-msgid "No Flag"
-msgstr "לא מסומן בדגל"
-
-#: qt/aqt/overview.py:70
-msgid "No cards are due yet."
-msgstr "עדיין אין כרטיסים מתוזמנים."
-
-#: pylib/anki/stats.py:178
-msgid "No cards have been studied today."
-msgstr "לא נלמדו כרטיסים היום."
-
-#: qt/aqt/customstudy.py:190
-msgid "No cards matched the criteria you provided."
-msgstr "אין כרטיסים תואמים לקריטריונים שסיפקת"
-
-#: pylib/anki/stats.py:176
-msgid "No mature cards were studied today."
-msgstr "לא נלמדו כרטיסים בוגרים היום."
-
-#: qt/aqt/addons.py:868
-msgid "No updates available."
-msgstr "אין עדכונים זמינים."
-
-#: qt/aqt/browser.py:754
-msgid "Note"
-msgstr "רשומה"
-
-#: qt/aqt/browser.py:1335 qt/aqt/models.py:36
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/models.py:56
-msgid "Note Types"
-msgstr "סוגי רשומות"
-
-#: qt/aqt/reviewer.py:818
-#, python-format
-msgid "Note and its %d card deleted."
-msgid_plural "Note and its %d cards deleted."
-msgstr[0] "רשומה ו-%d כרטיס שלה נמחקה."
-msgstr[1] "רשומה ו-%d כרטיסים שלה נמחקו."
-
-#: qt/aqt/reviewer.py:833
-msgid "Note buried."
-msgstr "רשומה \"הוטמנה\"."
-
-#: qt/aqt/reviewer.py:798
-msgid "Note suspended."
-msgstr "רשומה הושהתה."
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:311
-msgid "Note: Media is not backed up. Please create a periodic backup of your Anki folder to be safe."
-msgstr "הערה: מדיה לא מגובה. נא ליצור גיבוי תקופתי בתיקיית Anki למניעת אובדן."
-
-#: pylib/anki/importing/anki2.py:146
-#, python-format
-msgid "Notes added from file: %d"
-msgstr "רשומות נוספו מקובץ: %d"
-
-#: pylib/anki/importing/anki2.py:134
-#, python-format
-msgid "Notes found in file: %d"
-msgstr "רשומות נמצאו בקובץ: %d"
-
-#: pylib/anki/exporting.py:125
-msgid "Notes in Plain Text"
-msgstr "רשומות בטקסט רגיל"
-
-#: qt/aqt/fields.py:123
-msgid "Notes require at least one field."
-msgstr "רשומות חייבות להכיל לפחות שדה אחת"
-
-#: pylib/anki/importing/anki2.py:149
-#, python-format
-msgid "Notes skipped, as they're already in your collection: %d"
-msgstr "רשומות שדולגו, מפני שהן כבר קיימות באוסף שלך: %d"
-
-#: qt/aqt/browser.py:2023
-msgid "Notes tagged."
-msgstr "רשומות תוייגו."
-
-#: pylib/anki/importing/anki2.py:138
-#, python-format
-msgid "Notes that could not be imported as note type has changed: %d"
-msgstr "רשומות שלא יובאו משום שסוג הרשומה השתנה: %d"
-
-#: pylib/anki/importing/anki2.py:143
-#, python-format
-msgid "Notes updated, as file had newer version: %d"
-msgstr "רשומות שהתעדכנו, מפני שהקובץ בגירסה חדשה יותר: %d"
-
-#: qt/aqt/browser.py:2180
-msgid "Nothing"
-msgstr "כלום"
-
-#: qt/aqt/customstudy.py:57
-msgid "OK"
-msgstr "אישור"
-
-#: pylib/anki/consts.py:116
-msgid "Oldest seen first"
-msgstr "הישנים ביותר"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:305
-msgid "On next sync, force changes in one direction"
-msgstr "בסינכרון הבא, הכרח שינויים בכיוון אחד"
-
-#: qt/aqt/addons.py:1113
-msgid "One or more errors occurred:"
-msgstr "שגיאה אחת או יותר התרחשו:"
-
-#: qt/aqt/browser.py:1734
-msgid "Only new cards can be repositioned."
-msgstr "רק כרטיסים חדשים יכולים להיות ממוקמים מחדש."
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/profiles.py:81
-msgid "Open"
-msgstr "פתח"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/profiles.py:86
-msgid "Open Backup..."
-msgstr "פתח גיבוי..."
-
-#: qt/aqt/main.py:644
-msgid "Optimizing..."
-msgstr "ממטב..."
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/finddupes.py:72
-msgid "Optional filter:"
-msgstr "סינון אופציונלי"
-
-#: qt/aqt/clayout.py:111 qt/aqt/deckbrowser.py:230 qt/aqt/deckconf.py:37
-#: qt/aqt/dyndeckconf.py:25 qt/aqt/overview.py:252 qt/aqt/reviewer.py:732
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:144
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:110
-msgid "Options"
-msgstr "אפשרויות"
-
-#: qt/aqt/deckconf.py:47 qt/aqt/dyndeckconf.py:28 qt/aqt/models.py:161
-#, python-format
-msgid "Options for %s"
-msgstr "אפשריות ל-%s"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:340
-msgid "Options group:"
-msgstr "קבוצת אפשרויות:"
-
-#: qt/aqt/models.py:70
-msgid "Options..."
-msgstr "אפשרויות..."
-
-#: qt/aqt/browser.py:1285 qt/aqt/reviewer.py:707
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:336
-msgid "Orange Flag"
-msgstr "דגל כתום"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:344
-msgid "Order"
-msgstr "סדר"
-
-#: pylib/anki/consts.py:121
-msgid "Order added"
-msgstr "סדר ההוספה"
-
-#: pylib/anki/consts.py:122
-msgid "Order due"
-msgstr "תאריך יעד"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browserdisp.py:73
-msgid "Override back template:"
-msgstr "דריסת תבנית גב:"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browserdisp.py:74
-msgid "Override font:"
-msgstr "דריסת גופן:"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browserdisp.py:72
-msgid "Override front template:"
-msgstr "דריסת תבנית חזית:"
-
-#: qt/aqt/addons.py:872
-msgid "Packaged Anki Add-on"
-msgstr "תוסף Anki ארוז"
-
-#: pylib/anki/importing/__init__.py:14
-msgid "Packaged Anki Deck/Collection (*.apkg *.colpkg *.zip)"
-msgstr "חפיסה/אוסף של Anki ארוזים (*.apkg *.colpkg *.zip)"
-
-#: qt/aqt/editor.py:1213
-msgid "Paste"
-msgstr "הדבק"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:282
-msgid "Paste clipboard images as PNG"
-msgstr "הדבק תמונה מהלוח כ-PNG"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:283
-msgid "Paste without shift key strips formatting"
-msgstr "הדבקה ללא עיצוב (לשינוי לחץ shift)"
-
-#: pylib/anki/importing/__init__.py:17
-msgid "Pauker 1.8 Lesson (*.pau.gz)"
-msgstr "Pauker 1.8 שיעור (*.pau.gz)"
-
-#: qt/aqt/reviewer.py:735
-msgid "Pause Audio"
-msgstr "הפסק אודיו"
-
-#: pylib/anki/stats.py:599
-msgid "Percentage"
-msgstr "אחוזים"
-
-#: pylib/anki/stats.py:949
-#, python-format
-msgid "Period: %s"
-msgstr "פרק זמן: %s"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:304
-msgid "Periodically sync media"
-msgstr "סינכרון מדיה תקופתי"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reschedule.py:76
-msgid "Place at end of new card queue"
-msgstr "מקם בסוף התור של כרטיסים חדשים"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reschedule.py:77
-msgid "Place in review queue with interval between:"
-msgstr "מקם בתור לחזרה עם מרווח-זמן בין:"
-
-#: qt/aqt/models.py:130
-msgid "Please add another note type first."
-msgstr "נא הוסף עוד סוג רשומה תחילה."
-
-#: qt/aqt/addons.py:1017
-msgid "Please check your internet connection."
-msgstr "בדוק את חיבור האינטרנט שלך."
-
-#: qt/aqt/errors.py:88
-msgid "Please connect a microphone, and ensure other programs are not using the audio device."
-msgstr "אנא חבר מיקרופון, ובנוסף וודא שתוכנות אחרות לא משתמשות במכשיר האודיו."
+#: qt/aqt/main.py:1343 qt/aqt/main.py:1362
+msgid "The requested change will require a full upload of the database when you next synchronize your collection. If you have reviews or other changes waiting on another device that haven't been synchronized here yet, they will be lost. Continue?"
+msgstr "השינוי המבוקש דורש העלאה מלאה של בסיס הנתונים בפעם הבאה שתסנכרן את המאגר שלך. אם יש לך סקירות או שינויים אחרים שממתינים על מכשיר אחר שעדיין לא סונכרן כאן, הם יושלכו. להמשיך?"
+
+#: qt/aqt/main.py:1537
+msgid "<non-unicode text>"
+msgstr "<טקסט שאינו בפורמט unicode>"
+
+#: qt/aqt/main.py:1600
+msgid "Add-on will be installed when a profile is opened."
+msgstr "תוסף יותקן כאשר פרופיל יפתח"
+
+#: qt/aqt/main.py:1602
+msgid "Deck will be imported when a profile is opened."
+msgstr "חפיסה תיובא כאשר פרופיל ייפתח."
 
 #: qt/aqt/main.py:1609
 msgid "Please ensure a profile is open and Anki is not busy, then try again."
 msgstr "נא וודא שפרופיל פתוח ושהתוכנה לא בשימוש, ונסה שנית"
 
-#: qt/aqt/browser.py:1393
-msgid "Please give your filter a name:"
-msgstr "נא הכנס שם עבור הסינון שלך:"
+#: qt/aqt/modelchooser.py:44
+msgid "Change Note Type (Ctrl+N)"
+msgstr "שנה סוג רשומה (Ctrl+N)"
 
-#: qt/aqt/profiles.py:307
+#: qt/aqt/modelchooser.py:76
+msgid "Manage"
+msgstr "נהל"
+
+#: qt/aqt/modelchooser.py:85
+msgid "Choose Note Type"
+msgstr "בחר סוג רשומה"
+
+#: qt/aqt/models.py:65
+msgid "Fields..."
+msgstr "שדות..."
+
+#: qt/aqt/models.py:66
+msgid "Cards..."
+msgstr "כרטיסים..."
+
+#: qt/aqt/models.py:70
+msgid "Options..."
+msgstr "אפשרויות..."
+
+#: qt/aqt/models.py:130
+msgid "Please add another note type first."
+msgstr "נא הוסף עוד סוג רשומה תחילה."
+
+#: qt/aqt/models.py:134
+msgid "Delete this note type and all its cards?"
+msgstr "מחק את סוג רשומה זו ואת כל הכרטיסים שלה?"
+
+#: qt/aqt/models.py:136
+msgid "Delete this unused note type?"
+msgstr "מחק סוג רשומה זו שאינה בשימוש?"
+
+#: qt/aqt/models.py:212
 #, python-format
-msgid "Please remove the folder %s and try again."
-msgstr "מחק את התיקייה %s ונסה שוב."
+msgid "Add: %s"
+msgstr "הוסף: %s"
 
-#: qt/aqt/addons.py:1446
-msgid "Please report this to the respective add-on author(s)."
-msgstr "נא דווח זאת לעורכי התוסף."
+#: qt/aqt/models.py:217
+#, python-format
+msgid "Clone: %s"
+msgstr "שכפול: %s"
+
+#: qt/aqt/overview.py:70
+msgid "No cards are due yet."
+msgstr "עדיין אין כרטיסים מתוזמנים."
+
+#: qt/aqt/overview.py:131
+msgid "Manually Buried Cards"
+msgstr "כרטיסים ש\"הוטמנו\" ידנית"
+
+#: qt/aqt/overview.py:132
+msgid "Buried Siblings"
+msgstr "כרטיסים תואמים ש\"הוטמנו\""
+
+#: qt/aqt/overview.py:133
+msgid "All Buried Cards"
+msgstr "כל הכרטיסים ה\"מוטמנים\""
+
+#: qt/aqt/overview.py:137
+msgid "What would you like to unbury?"
+msgstr "האם תרצה להוציא מהטמנה?"
+
+#: qt/aqt/overview.py:188
+msgid "This is a special deck for studying outside of the normal schedule."
+msgstr "זו חפיסה מיוחדת ללימוד מחוץ ללימוד הרגיל."
+
+#: qt/aqt/overview.py:192
+msgid "Cards will be automatically returned to their original decks after you review them."
+msgstr "כרטיסים יוחזרו אוטומטית לחפיסות המקוריות שלהם לאחר שתסקור אותם."
+
+#: qt/aqt/overview.py:197
+msgid "Deleting this deck from the deck list will return all remaining cards to their original deck."
+msgstr "מחיקת חפיסה זו מרשימת החפיסות תחזיר את כל הכרטיסים הנותרים לחפיסות המקוריות שלהן."
+
+#: qt/aqt/overview.py:233
+msgid "To Review"
+msgstr "לחזרה"
+
+#: qt/aqt/overview.py:235
+msgid "Study Now"
+msgstr "למד כעת"
+
+#: qt/aqt/overview.py:256
+msgid "Empty"
+msgstr "רוקן"
+
+#: qt/aqt/overview.py:261
+msgid "Unbury"
+msgstr "הוצא מהטמנה"
 
 #: qt/aqt/preferences.py:72
 msgid "Please restart Anki to complete language change."
 msgstr "התחל מחדש את Anki כדי להשלים החלפת שפה."
 
-#: qt/aqt/reviewer.py:387
-msgid "Please run Tools>Empty Cards"
-msgstr "הפעל כלים>כרטיסים ריקים"
+#: qt/aqt/preferences.py:120 qt/aqt/preferences.py:250
+msgid "Changes will take effect when you restart Anki."
+msgstr "השינויים ייכנסו לתוקף כשתתחיל את Anki מחדש."
 
-#: qt/aqt/main.py:675
-msgid "Please select a deck."
-msgstr "בחר חפיסה."
+#: qt/aqt/preferences.py:154
+msgid "This will reset any cards in learning, clear filtered decks, and change the scheduler version. Proceed?"
+msgstr "זה יאפס את הכרטיסים שבלימוד כעת, ינקה את החפיסות המסוננות, וישנה את גירסת המתזמן. להמשיך?"
 
-#: qt/aqt/addons.py:807
-msgid "Please select a single add-on first."
-msgstr "נא בחר תוסף בודד קודם"
-
-#: qt/aqt/browser.py:1493
-msgid "Please select cards from only one note type."
-msgstr "נא בחר כרטיסים מסוג רשומה אחד בלבד."
-
-#: qt/aqt/studydeck.py:135
-msgid "Please select something."
-msgstr "נא בחר משהו."
-
-#: qt/aqt/main.py:1122
-msgid "Please use File>Import to import this file."
-msgstr "בחר באפשרות קובץ>ייבוא כדי לייבא את הקובץ הזה."
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:278
-msgid "Preferences"
-msgstr "העדפות"
-
-#: qt/aqt/previewer.py:65
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:298
-msgid "Preview"
-msgstr "תצוגה מקדימה"
-
-#: qt/aqt/browser.py:624
-#, python-format
-msgid "Preview Selected Card (%s)"
-msgstr "תצוגה מקדימה כרטיסייה נבחרת (%s)"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:109
-msgid "Preview new cards"
-msgstr "מעבר מקדים על כרטיסים חדשים"
-
-#: qt/aqt/customstudy.py:96
-msgid "Preview new cards added in the last"
-msgstr "הצג כרטיסים חדשים שנוספו בימים האחרונים: ב-"
-
-#: qt/aqt/importing.py:494
-#, python-format
-msgid "Processed %d media file"
-msgid_plural "Processed %d media files"
-msgstr[0] "עובד %d קובץ מדיה"
-msgstr[1] "עובדו %d קבצי מדיה"
-
-#: qt/aqt/progress.py:83
-msgid "Processing..."
-msgstr "מעבד..."
-
-#: qt/aqt/profiles.py:254
-msgid "Profile Corrupt"
-msgstr "הפרופיל פגום"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/profiles.py:80
-msgid "Profiles"
-msgstr "פרופילים"
-
-#: qt/aqt/browser.py:740
-msgid "Question"
-msgstr "שאלה"
-
-#: qt/aqt/browser.py:1745
-#, python-format
-msgid "Queue bottom: %d"
-msgstr "תחתית התור: %d"
-
-#: qt/aqt/browser.py:1744
-#, python-format
-msgid "Queue top: %d"
-msgstr "ראש התור: %d"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/profiles.py:85
-msgid "Quit"
-msgstr "יציאה"
-
-#: pylib/anki/consts.py:117
-msgid "Random"
-msgstr "אקראי"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reposition.py:75
-msgid "Randomize order"
-msgstr "סדר אקראי"
-
-#: qt/aqt/dyndeckconf.py:23 qt/aqt/overview.py:255
-msgid "Rebuild"
-msgstr "בנה מחדש"
-
-#: qt/aqt/reviewer.py:738
-msgid "Record Own Voice"
-msgstr "הקלט את עצמך"
-
-#: qt/aqt/editor.py:178
-msgid "Record audio (F5)"
-msgstr "הקלט אודיו (F5)"
-
-#: qt/aqt/sound.py:610
-#, python-format
-msgid "Recording...<br>Time: %0.1f"
-msgstr "מקליט...<br>משך: %0.1f"
-
-#: qt/aqt/browser.py:1284 qt/aqt/reviewer.py:701
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:335
-msgid "Red Flag"
-msgstr "דגל אדום"
-
-#: pylib/anki/consts.py:124
-msgid "Relative overdueness"
-msgstr "איחור יחסי"
-
-#: pylib/anki/stats.py:348 pylib/anki/stats.py:368
-msgid "Relearn"
-msgstr "‏‏לימוד חוזר"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:109
-msgid "Remember last input when adding"
-msgstr "זכור קלט אחרון בעת הוספה"
-
-#: qt/aqt/browser.py:1404
-#, python-format
-msgid "Remove %s from your saved searches?"
-msgstr "להסיר את %s מהחיפושים השמורים?"
-
-#: qt/aqt/clayout.py:679
-msgid "Remove Card Type..."
-msgstr "הסר סוג כרטיס..."
-
-#: qt/aqt/browser.py:1378
-msgid "Remove Current Filter..."
-msgstr "הסר סינון נוכחי..."
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:330
-msgid "Remove Tags..."
-msgstr "הסר תגיות..."
-
-#: qt/aqt/editor.py:154
-msgid "Remove formatting (Ctrl+R)"
-msgstr "הסר עיצוב (Ctrl+R)"
-
-#: qt/aqt/deckbrowser.py:228 qt/aqt/deckconf.py:93 qt/aqt/models.py:58
-#: qt/aqt/sidebar.py:74
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:105
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/profiles.py:83
-msgid "Rename"
-msgstr "שנה שם"
-
-#: qt/aqt/clayout.py:682
-msgid "Rename Card Type..."
-msgstr "שנה שם סוג כרטיס..."
-
-#: qt/aqt/deckbrowser.py:243 qt/aqt/sidebar.py:95
-msgid "Rename Deck"
-msgstr "שנה שם חפיסה"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:147
-msgid "Repeat failed cards after"
-msgstr "חזור על הכרטיסיות שנכשלו לאחר"
-
-#: qt/aqt/main.py:338
-msgid "Replace your collection with an earlier backup?"
-msgstr "להחליף את האוסף עם גיבוי מוקדם יותר?"
+#: qt/aqt/preferences.py:188
+msgid ""
+"<b>Synchronization</b><br>\n"
+"Not currently enabled; click the sync button in the main window to enable."
+msgstr ""
+"<b>סנכרון</b><br>\n"
+"לא מופעל כרגע; לחץ על כפתור \"סנכרן\" בחלון הראשי כדי להפעיל.‏"
 
 #: qt/aqt/previewer.py:76 qt/aqt/reviewer.py:734
 msgid "Replay Audio"
 msgstr "נגן אודיו מחדש"
 
-#: qt/aqt/reviewer.py:739
-msgid "Replay Own Voice"
-msgstr "השמע את עצמך"
+#: qt/aqt/previewer.py:83
+msgid "Back Side Only"
+msgstr "צד אחורי בלבד"
 
-#: qt/aqt/browser.py:1751
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:106
-msgid "Reposition"
-msgstr "שנה מיקום"
-
-#: qt/aqt/clayout.py:685
-msgid "Reposition Card Type..."
-msgstr "שנה מיקום סוג כרטיס..."
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reposition.py:72
-msgid "Reposition New Cards"
-msgstr "שנה מיקום כרטיסים חדשים"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:322
-msgid "Reposition..."
-msgstr "שינוי מיקום..."
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/taglimit.py:63
-msgid "Require one or more of these tags:"
-msgstr "בחר אחד או יותר מהתגים הבאים:"
-
-#: qt/aqt/browser.py:1777
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reschedule.py:75
-msgid "Reschedule"
-msgstr "קביעת מועד חדש"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:145
-msgid "Reschedule cards based on my answers in this deck"
-msgstr "תזמן כרטיסים מחדש על בסיס התשובות שלי בחפיסה זו."
-
-#: qt/aqt/addons.py:1310
-msgid "Restored defaults"
-msgstr "שוחזרו ברירות המחדל"
-
-#: qt/aqt/main.py:736
-msgid "Resume Now"
-msgstr "המשך כעת"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:108
-msgid "Reverse text direction (RTL)"
-msgstr "הפוך כיוון טקסט (יישור מימין-לשמאל)"
-
-#: qt/aqt/main.py:351
-msgid "Revert to backup"
-msgstr "חזור לגיבוי"
-
-#: qt/aqt/main.py:1036
-#, python-format
-msgid "Reverted to state prior to '%s'."
-msgstr "הוחזר למצב הקודם ל- '%s'."
-
-#: pylib/anki/collection.py:577 qt/aqt/browser.py:1278
-msgid "Review"
-msgstr "חזרה"
-
-#: pylib/anki/stats.py:354
-msgid "Review Count"
-msgstr "מנין החזרות"
-
-#: pylib/anki/stats.py:380
-msgid "Review Time"
-msgstr "זמן חזרה"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:104
-msgid "Review ahead"
-msgstr "הקדם חזרה על כרטיסים"
-
-#: qt/aqt/customstudy.py:93
-msgid "Review ahead by"
-msgstr "הקדם חזרה עבור -"
-
-#: qt/aqt/customstudy.py:89
-msgid "Review cards forgotten in last"
-msgstr "חזרה על כרטיסים שנשכחו בימים האחרונים -"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:105
-msgid "Review forgotten cards"
-msgstr "חזרה על כרטיסים שנשכחו"
-
-#: pylib/anki/stats.py:791
-msgid "Review success rate for each hour of the day."
-msgstr "דירוג הצלחה בחזרות לכל שעה ביום"
-
-#: pylib/anki/stats.py:819 qt/aqt/browser.py:751
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:363
-msgid "Reviews"
-msgstr "חזרות"
-
-#: qt/aqt/customstudy.py:83
-#, python-format
-msgid "Reviews due in deck over today limit: %s"
-msgstr "חזרות שהגיע זמנן בחפיסה מעבר למכסה היומית: %s"
-
-#: pylib/anki/consts.py:110
-msgid "Right"
-msgstr "ימין"
-
-#: qt/aqt/clayout.py:399 qt/aqt/sound.py:599
-msgid "Save"
-msgstr "שמור"
-
-#: qt/aqt/browser.py:1380
-msgid "Save Current Filter..."
-msgstr "שמור מסנן נוכחי..."
-
-#: qt/aqt/stats.py:42 qt/aqt/stats.py:67 qt/aqt/stats.py:114
-#: qt/aqt/stats.py:145
-msgid "Save PDF"
-msgstr "שמור כ-PDF"
-
-#: qt/aqt/stats.py:80 qt/aqt/stats.py:158
-msgid "Saved."
-msgstr "נשמר."
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:300
-msgid "Scheduling"
-msgstr "תזמון"
-
-#: pylib/anki/stats.py:947
-#, python-format
-msgid "Scope: %s"
-msgstr "תחום: %s"
-
-#: qt/aqt/browser.py:1979
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:297
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:138
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:142
-msgid "Search"
-msgstr "חיפוש"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/finddupes.py:73
-msgid "Search in:"
-msgstr "חיפוש ב:"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browseropts.py:75
-msgid "Search within formatting (slow)"
-msgstr "חפש עם עיצוב (איטי)"
-
-#: qt/aqt/customstudy.py:100
-msgid "Select"
-msgstr "בחר"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:307
-msgid "Select &All"
-msgstr "בחר &הכל"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:316
-msgid "Select &Notes"
-msgstr "בחר &רשומות"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/taglimit.py:64
-msgid "Select tags to exclude:"
-msgstr "בחר תגים שלא יכללו:"
-
-#: qt/aqt/exporting.py:55
-msgid "Selected Notes"
-msgstr "רשומות נבחרות"
-
-#: qt/aqt/importing.py:303
-msgid "Selected file was not in UTF-8 format. Please see the importing section of the manual."
-msgstr "הקובץ שנבחר אינו בפורמט UTF-8. ראה אודות ייבוא במדריך למשתמש."
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/taglimit.py:62
-msgid "Selective Study"
-msgstr "לימוד סלקטיבי"
-
-#: qt/aqt/importing.py:165
-msgid "Semicolon"
-msgstr "פסיק נקודה"
-
-#: qt/aqt/deckconf.py:159
-#, python-format
-msgid "Set all decks below %s to this option group?"
-msgstr "להגדיר את כל החפיסות מתחת %s לקבוצת האפשרויות הזו?"
-
-#: qt/aqt/deckconf.py:95
-msgid "Set for all subdecks"
-msgstr "החל עבור כל תתי-החפיסות"
-
-#: qt/aqt/editor.py:158
-msgid "Set foreground colour (F7)"
-msgstr "הגדר צבע חזית (F7)"
-
-#: qt/aqt/main.py:129
-msgid "Shift key was held down. Skipping automatic syncing and add-on loading."
-msgstr "המקש Shift היה לחוץ. מדלג על סינכרון אוטומטי והטענת תוספים."
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reposition.py:76
-msgid "Shift position of existing cards"
-msgstr "מיקום הזחה של כרטיסים קיימים"
-
-#: qt/aqt/deckbrowser.py:318 qt/aqt/main.py:765 qt/aqt/overview.py:265
-#: qt/aqt/previewer.py:80 qt/aqt/previewer.py:85 qt/aqt/reviewer.py:573
-#: qt/aqt/reviewer.py:584 qt/aqt/reviewer.py:660 qt/aqt/toolbar.py:107
-#: qt/aqt/toolbar.py:114 qt/aqt/toolbar.py:121 qt/aqt/toolbar.py:128
-#: qt/aqt/toolbar.py:144
-#, python-format
-msgid "Shortcut key: %s"
-msgstr "מקש קיצור: %s"
+#: qt/aqt/previewer.py:162
+msgid "(please select 1 card)"
+msgstr "(אנא בחר כרטיס 1)"
 
 #: qt/aqt/previewer.py:243
 msgid "Shortcut key: Left arrow"
@@ -2766,690 +3146,266 @@ msgstr "מקש קיצור: חץ שמאלי"
 msgid "Shortcut key: Right arrow or Enter"
 msgstr "מקש קיצור: חץ ימני או אנטר"
 
-#: qt/aqt/addcards.py:89
+#: qt/aqt/profiles.py:254
+msgid "Profile Corrupt"
+msgstr "הפרופיל פגום"
+
+#: qt/aqt/profiles.py:256
+msgid "Anki could not read your profile data. Window sizes and your sync login details have been forgotten."
+msgstr "Anki לא הצליח לקרוא את נתוני הפרופיל שלך. ממדי החלון ופרטי התחברות הסנכרון שלך נשכחו."
+
+#: qt/aqt/profiles.py:307
 #, python-format
-msgid "Shortcut: %s"
-msgstr "קיצור דרך: %s"
+msgid "Please remove the folder %s and try again."
+msgstr "מחק את התיקייה %s ונסה שוב."
 
-#: qt/aqt/reviewer.py:585
-msgid "Show Answer"
-msgstr "הצג תשובה"
+#: qt/aqt/profiles.py:312
+msgid "Folder already exists."
+msgstr "תיקייה כבר קיימת."
 
-#: qt/aqt/editor.py:200
-msgid "Show Duplicates"
-msgstr "הצג כפילויות"
+#: qt/aqt/profiles.py:326
+msgid "Anki could not rename your profile because it could not rename the profile folder on disk. Please ensure you have permission to write to Documents/Anki and no other programs are accessing your profile folders, then try again."
+msgstr "Anki לא הצליח לשנות את שם הפרופיל שלך בגלל שהוא לא הצליח לשנות את שם תיקיית הפרופיל על הדיסק. אנא וודא שיש לך הרשאת כתיבה ל-Documents/Anki ושום תוכנות אחרות לא ניגשות לתיקיות הפרופיל שלך, ולאחר מכן נסה שנית."
 
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:377
-msgid "Show answer timer"
-msgstr "הצג טיימר תשובה"
+#: qt/aqt/profiles.py:479
+msgid "User 1"
+msgstr "משתמש 1"
 
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:292
-msgid "Show learning cards with larger steps before reviews"
-msgstr "הצג כרטיסים בלמידה שיש להם צעדים גדולים, לפני החזרות"
+#: qt/aqt/progress.py:83
+msgid "Processing..."
+msgstr "מעבד..."
 
-#: pylib/anki/consts.py:101
-msgid "Show new cards after reviews"
-msgstr "הצג כרטיסים חדשים לאחר החזרות"
-
-#: pylib/anki/consts.py:102
-msgid "Show new cards before reviews"
-msgstr "הצג כרטיסים חדשים לפני כרטיסים לחזרה"
-
-#: pylib/anki/consts.py:94
-msgid "Show new cards in order added"
-msgstr "הצג כרטיסים חדשים לפי סדר הוספתם"
-
-#: pylib/anki/consts.py:93
-msgid "Show new cards in random order"
-msgstr "הצג כרטיסים חדשים בסדר אקראי"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:290
-msgid "Show next review time above answer buttons"
-msgstr "הצג את זמן החזרה הבאה מעל כפתורי התשובה"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:280
-msgid "Show play buttons on cards with audio"
-msgstr "הצג כפתורי הפעלה על כרטיסים עם אודיו"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:291
-msgid "Show remaining card count during review"
-msgstr "הצג מנין כרטיסים שנותרו בזמן החזרה"
-
-#: qt/aqt/browser.py:1031
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:339
-msgid "Sidebar"
-msgstr "סרגל צד"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addfield.py:64
-msgid "Size:"
-msgstr "גודל:"
-
-#: pylib/anki/importing/anki2.py:157
-msgid "Skipped"
-msgstr "דולג(ו)"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:312
-msgid "Some settings will take effect after you restart Anki."
-msgstr "מספר הגדרות יחולו רק לאחר אתחול Anki."
-
-#: qt/aqt/browser.py:744
-msgid "Sort Field"
-msgstr "שדה מיון"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:111
-msgid "Sort by this field in the browser"
-msgstr "מיין לפי שדה זה בדפדוף בכרטיסים"
-
-#: qt/aqt/browser.py:942
-msgid "Sorting on this column is not supported. Please choose another."
-msgstr "מיון בעמודה זו אינו נתמך. בחר עמודה אחרת."
-
-#: qt/aqt/sound.py:323
-msgid "Sound and video on cards will not function until mpv or mplayer is installed."
-msgstr "וידאו וצלילים בכרטיסים לא יפעלו עד שתתקין נגן mpv או mplayer."
-
-#: qt/aqt/importing.py:163 qt/aqt/reviewer.py:584
-msgid "Space"
-msgstr "רווח"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reposition.py:73
-msgid "Start position:"
-msgstr "נקודת התחלה:"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:342
-msgid "Starting ease"
-msgstr "קלות התחלתית"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/stats.py:80
-msgid "Statistics"
-msgstr "סטטיסטיקה"
-
-#: qt/aqt/toolbar.py:126
-msgid "Stats"
-msgstr "סטטיסטיקה"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reposition.py:74
-msgid "Step:"
-msgstr "צעד:"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:348
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:364
-msgid "Steps (in minutes)"
-msgstr "צעדים (דקות)"
-
-#: qt/aqt/deckconf.py:276 qt/aqt/dyndeckconf.py:157
-msgid "Steps must be numbers."
-msgstr "צעדים מוכרחים להיות מספרים."
-
-#: qt/aqt/browser.py:1264
-msgid "Studied Today"
-msgstr "נלמדו היום"
-
-#: qt/aqt/studydeck.py:67
-msgid "Study"
-msgstr "למד"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/studydeck.py:47
-msgid "Study Deck"
-msgstr "למד חפיסה"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:153
-msgid "Study Deck..."
-msgstr "למד חפיסה..."
-
-#: qt/aqt/overview.py:235
-msgid "Study Now"
-msgstr "למד כעת"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:108
-msgid "Study by card state or tag"
-msgstr "למד לפי מצב כרטיס או לפי תיוג"
-
-#: qt/aqt/editor.py:153
-msgid "Subscript (Ctrl+=)"
-msgstr "כתב תחתון (Ctrl+=)"
-
-#: pylib/anki/importing/__init__.py:16
-msgid "Supermemo XML export (*.xml)"
-msgstr "יצוא Supermemo XML (*.xml)"
-
-#: qt/aqt/editor.py:151
-msgid "Superscript (Ctrl++)"
-msgstr "כתב עליון (Ctrl++)"
-
-#: qt/aqt/reviewer.py:796 qt/aqt/reviewer.py:802
-msgid "Suspend"
-msgstr "השהה"
-
-#: qt/aqt/reviewer.py:729
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:371
-msgid "Suspend Card"
-msgstr "השהה כרטיס"
-
-#: qt/aqt/reviewer.py:730
-msgid "Suspend Note"
-msgstr "השהה רשומה"
-
-#: qt/aqt/browser.py:1281
-msgid "Suspended"
-msgstr "מושהה"
-
-#: pylib/anki/stats.py:861
-msgid "Suspended+Buried"
-msgstr "הושהתה+הוטמנה"
-
-#: qt/aqt/toolbar.py:143
-msgid "Sync"
-msgstr "סינכרון"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:302
-msgid "Synchronize audio and images too"
-msgstr "סנכרן גם אודיו ותמונות"
-
-#: qt/aqt/importing.py:159
-msgid "Tab"
-msgstr "טאב"
-
-#: qt/aqt/browser.py:1988 qt/aqt/browser.py:2015
-msgid "Tag Duplicates"
-msgstr "כפילויות תגים"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:372
-msgid "Tag Only"
-msgstr "סמן בלבד"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:113
-msgid "Tag modified notes:"
-msgstr "רשומות שהתג השתנה:"
-
-#: qt/aqt/browser.py:753 qt/aqt/browser.py:1299 qt/aqt/editor.py:576
-msgid "Tags"
-msgstr "תגיות"
-
-#: qt/aqt/deckchooser.py:34
-msgid "Target Deck (Ctrl+D)"
-msgstr "חפיסת יעד (Ctrl+D)"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/changemap.py:44
-msgid "Target field:"
-msgstr "שדה יעד:"
-
-#: pylib/anki/importing/__init__.py:13
-msgid "Text separated by tabs or semicolons (*)"
-msgstr "טקסט מופרד באמצעות טאבים או נקודה ופסיק (*)"
-
-#: qt/aqt/fields.py:90
-msgid "That field name is already used."
-msgstr "שם השדה כבר בשימוש."
-
-#: qt/aqt/deckconf.py:137
-msgid "The default configuration can't be removed."
-msgstr "תצורת ברירת המחדל אינה ניתנת למחיקה."
-
-#: pylib/anki/stats.py:886
-msgid "The division of cards in your deck(s)."
-msgstr "חלוקת הכרטיסיות בחפיסה/ות שלך.,"
-
-#: qt/aqt/addcards.py:169
-msgid "The first field is empty."
-msgstr "השדה הראשון ריק."
-
-#: qt/aqt/importing.py:176
-msgid "The first field of the note type must be mapped."
-msgstr "השדה הראשון בסוג הרשומה מוכרח להיות ממופה."
-
-#: qt/aqt/addons.py:280
+#: qt/aqt/reviewer.py:90
 #, python-format
-msgid "The following add-ons are incompatible with %(name)s and have been disabled: %(found)s"
-msgstr "התוספים הבאים אינם תואמים עם %(name)s ולכן הושבתו: %(found)s"
+msgid "%d card studied in"
+msgid_plural "%d cards studied in"
+msgstr[0] "%d כרטיס נלמד ב"
+msgstr[1] "%d כרטיסים נלמדו ב"
 
-#: qt/aqt/addons.py:1268
-msgid "The following add-ons have updates available. Install them now?"
-msgstr "לתוספים הבאים קיים עדכון. להתקין כעת?"
-
-#: qt/aqt/utils.py:659
+#: qt/aqt/reviewer.py:94
 #, python-format
-msgid "The following character can not be used: %s"
-msgstr "התו הבא לא ניתן לשימוש: %s"
+msgid "%s minute."
+msgid_plural "%s minutes."
+msgstr[0] "%s דקה."
+msgstr[1] "%s דקות."
 
-#: qt/aqt/addons.py:500
-msgid "The following conflicting add-ons were disabled:"
-msgstr "התוספים הסותרים הבאים הושבתו:"
+#: qt/aqt/reviewer.py:95
+msgid "Finish"
+msgstr "סיים"
 
-#: pylib/anki/stats.py:309
-msgid "The number of new cards you have added."
-msgstr "מספר הכרטיסיות החדשות שאתה הוספת."
+#: qt/aqt/reviewer.py:96
+msgid "Continue"
+msgstr "המשך"
 
-#: pylib/anki/stats.py:354
-msgid "The number of questions you have answered."
-msgstr "מספר השאלות שענית עליהן."
-
-#: pylib/anki/stats.py:228
-msgid "The number of reviews due in the future."
-msgstr "מספר החזרות המתוכננות בעתיד."
-
-#: pylib/anki/stats.py:681
-msgid "The number of times you have pressed each button."
-msgstr "מספר הפעמים שלחצת על כל לחצן."
-
-#: qt/aqt/importing.py:516
-msgid "The provided file is not a valid .apkg file."
-msgstr "הקובץ הנתון אינו חבילת .apkg חוקית."
-
-#: qt/aqt/dyndeckconf.py:128
-msgid "The provided search did not match any cards. Would you like to revise it?"
-msgstr "החיפוש הנתון אינו תואם לאף כרטיס. האם ברצונך לשנותו?"
-
-#: qt/aqt/main.py:1343 qt/aqt/main.py:1362
-msgid "The requested change will require a full upload of the database when you next synchronize your collection. If you have reviews or other changes waiting on another device that haven't been synchronized here yet, they will be lost. Continue?"
-msgstr "השינוי המבוקש דורש העלאה מלאה של בסיס הנתונים בפעם הבאה שתסנכרן את המאגר שלך. אם יש לך סקירות או שינויים אחרים שממתינים על מכשיר אחר שעדיין לא סונכרן כאן, הם יושלכו. להמשיך?"
-
-#: pylib/anki/stats.py:380
-msgid "The time taken to answer the questions."
-msgstr "הזמן שלקח לענות על השאלות."
-
-#: qt/aqt/main.py:320
-msgid "There must be at least one profile."
-msgstr "מוכרח להיות לפחות פרופיל אחד."
-
-#: qt/aqt/addons.py:507
-msgid "This add-on is not compatible with your version of Anki."
-msgstr "התוסף הזה אינו מתאים לגירסת Anki שברשותך."
-
-#: qt/aqt/importing.py:434
-msgid "This file does not appear to be a valid .apkg file. If you're getting this error from a file downloaded from AnkiWeb, chances are that your download failed. Please try again, and if the problem persists, please try again with a different browser."
-msgstr "קובץ זה אינו חבילת .apkg חוקית. אם שגיאה זו התרחשה בקובץ שהורדת מאתר AnkiWeb, יש להניח כי ההורדה נכשלה. נסה שנית, ואם השגיאה ממשיכה נסה דפדפן אחר."
-
-#: qt/aqt/utils.py:412
-msgid "This file exists. Are you sure you want to overwrite it?"
-msgstr "קובץ זה קיים האם ברצונך לשכתב אותו?"
-
-#: qt/aqt/overview.py:188
-msgid "This is a special deck for studying outside of the normal schedule."
-msgstr "זו חפיסה מיוחדת ללימוד מחוץ ללימוד הרגיל."
-
-#: qt/aqt/clayout.py:632
-#, python-format
-msgid "This will create %d card. Proceed?"
-msgid_plural "This will create %d cards. Proceed?"
-msgstr[0] "זה ייצור %d כרטיס. להמשיך?"
-msgstr[1] "זה ייצור %d כרטיסים. להמשיך?"
-
-#: qt/aqt/importing.py:454
-msgid "This will delete your existing collection and replace it with the data in the file you're importing. Are you sure?"
-msgstr "זה ימחוק את האוסף הנוכחי ויחליף אותו בנתונים מהקובץ שאתה מייבא. האם אתה בטוח?"
-
-#: qt/aqt/preferences.py:154
-msgid "This will reset any cards in learning, clear filtered decks, and change the scheduler version. Proceed?"
-msgstr "זה יאפס את הכרטיסים שבלימוד כעת, ינקה את החפיסות המסוננות, וישנה את גירסת המתזמן. להמשיך?"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:295
-msgid "Timebox time limit"
-msgstr "הגבלת זמן בתיבת הזמן"
-
-#: qt/aqt/overview.py:233
-msgid "To Review"
-msgstr "לחזרה"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/getaddons.py:51
-msgid "To browse add-ons, please click the browse button below.<br><br>When you've found an add-on you like, please paste its code below. You can paste multiple codes, separated by spaces."
-msgstr "לחיפוש תוספים, לחץ על כפתור חפש תוספים. <br><br> כאשר אתה מוצא תוסף שמוצא חן בעיניך, הקלד את הקוד שלו למטה. תוכל להקליד כמה קודים, מופרדים באמצעות רווח."
-
-#: qt/aqt/editor.py:651
-msgid "To make a cloze deletion on an existing note, you need to change it to a cloze type first, via 'Notes>Change Note Type'"
-msgstr "ליצור השלם את החסר ברשומה קיימת, תצטרך לשנות את סוג הרשומה להשלם את החסר, דרך 'רשומות>שנה סוג רשומה'"
-
-#: pylib/anki/stats.py:119 qt/aqt/browser.py:1259
-msgid "Today"
-msgstr "היום"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:77
-msgid "Toggle Enabled"
-msgstr "הפעל/כבה"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:342
-msgid "Toggle Mark"
-msgstr "סמן"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:331
-msgid "Toggle Suspend"
-msgstr "השהה"
-
-#: pylib/anki/stats.py:249 pylib/anki/stats.py:318 pylib/anki/stats.py:418
-msgid "Total"
-msgstr "סך-הכל"
-
-#: pylib/anki/stats.py:873
-msgid "Total cards"
-msgstr "סך-הכל כרטיסיות"
-
-#: pylib/anki/stats.py:874
-msgid "Total notes"
-msgstr "סה\"כ רשומות"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/findreplace.py:91
-msgid "Treat input as regular expression"
-msgstr "התייחס לערך המוזן כביטוי רגולרי"
-
-#: qt/aqt/modelchooser.py:40
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:107
-msgid "Type"
-msgstr "סוג"
+#: qt/aqt/reviewer.py:387
+msgid "Please run Tools>Empty Cards"
+msgstr "הפעל כלים>כרטיסים ריקים"
 
 #: qt/aqt/reviewer.py:391
 #, python-format
 msgid "Type answer: unknown field %s"
 msgstr "סוג תשובה: שדה בלתי ידוע %s"
 
-#: qt/aqt/errors.py:69
-msgid "Unable to access Anki media folder. The permissions on your system's temporary folder may be incorrect."
-msgstr "לא ניתן לגשת לתיקיית המדיה. יתכן שההרשאות של המערכת אינן מאפשרות גישה לתיקיית TEMP."
+#: qt/aqt/reviewer.py:572
+msgid "Edit"
+msgstr "עריכה"
 
-#: qt/aqt/main.py:364
-msgid "Unable to move existing file to trash - please try restarting your computer."
-msgstr "לא הצלחנו למחוק - נסה להפעיל את המחשב מחדש."
+#: qt/aqt/reviewer.py:574
+msgid "More"
+msgstr "עוד"
 
-#: qt/aqt/addons.py:427
+#: qt/aqt/reviewer.py:585
+msgid "Show Answer"
+msgstr "הצג תשובה"
+
+#: qt/aqt/reviewer.py:629 qt/aqt/reviewer.py:633 qt/aqt/reviewer.py:636
+msgid "Again"
+msgstr "שוב"
+
+#: qt/aqt/reviewer.py:630 qt/aqt/reviewer.py:633 qt/aqt/reviewer.py:638
+msgid "Good"
+msgstr "טוב"
+
+#: qt/aqt/reviewer.py:633 qt/aqt/reviewer.py:639
+msgid "Easy"
+msgstr "קל"
+
+#: qt/aqt/reviewer.py:637
+msgid "Hard"
+msgstr "קשה"
+
+#: qt/aqt/reviewer.py:685
+msgid "Card was a leech."
+msgstr "הכרטיס היה \"עלוקה\"."
+
+#: qt/aqt/reviewer.py:687
+msgid "It has been suspended."
+msgstr "זה הושהה."
+
+#: qt/aqt/reviewer.py:698
+msgid "Flag Card"
+msgstr "סמן כרטיס בדגל"
+
+#: qt/aqt/reviewer.py:726
+msgid "Mark Note"
+msgstr "סמן רשומה"
+
+#: qt/aqt/reviewer.py:727
+msgid "Bury Card"
+msgstr "\"הטמן\" כרטיס"
+
+#: qt/aqt/reviewer.py:728
+msgid "Bury Note"
+msgstr "\"הטמן\" רשומה"
+
+#: qt/aqt/reviewer.py:730
+msgid "Suspend Note"
+msgstr "השהה רשומה"
+
+#: qt/aqt/reviewer.py:731
+msgid "Delete Note"
+msgstr "מחק רשומה"
+
+#: qt/aqt/reviewer.py:735
+msgid "Pause Audio"
+msgstr "הפסק אודיו"
+
+#: qt/aqt/reviewer.py:736
+msgid "Audio -5s"
+msgstr "אודיו -5 שניות"
+
+#: qt/aqt/reviewer.py:737
+msgid "Audio +5s"
+msgstr "אודיו +5 שניות"
+
+#: qt/aqt/reviewer.py:738
+msgid "Record Own Voice"
+msgstr "הקלט את עצמך"
+
+#: qt/aqt/reviewer.py:739
+msgid "Replay Own Voice"
+msgstr "השמע את עצמך"
+
+#: qt/aqt/reviewer.py:796 qt/aqt/reviewer.py:802
+msgid "Suspend"
+msgstr "השהה"
+
+#: qt/aqt/reviewer.py:798
+msgid "Note suspended."
+msgstr "רשומה הושהתה."
+
+#: qt/aqt/reviewer.py:804
+msgid "Card suspended."
+msgstr "כרטיס הושהה."
+
+#: qt/aqt/reviewer.py:818
 #, python-format
-msgid ""
-"Unable to update or delete add-on. Please start Anki while holding down the shift key to temporarily disable add-ons, then try again.\n"
-"\n"
-"Debug info: %s"
-msgstr ""
-"לא הצלחנו לעדכן או למחוק תוסף. נא הפעל מחדש את התוכנה בעודך מחזיק את מקש Shift לחוץ בכדי לבטל זמנית את התוספים, ונסה שנית.\n"
-"\n"
-"מידע ניפוי שגיאות: %s"
+msgid "Note and its %d card deleted."
+msgid_plural "Note and its %d cards deleted."
+msgstr[0] "רשומה ו-%d כרטיס שלה נמחקה."
+msgstr[1] "רשומה ו-%d כרטיסים שלה נמחקו."
 
-#: qt/aqt/overview.py:261
-msgid "Unbury"
-msgstr "הוצא מהטמנה"
+#: qt/aqt/reviewer.py:824 qt/aqt/reviewer.py:830
+msgid "Bury"
+msgstr "הסתר"
 
-#: qt/aqt/editor.py:148
-msgid "Underline text (Ctrl+U)"
-msgstr "סמן טקסט בקו תחתון (Ctrl+U)"
+#: qt/aqt/reviewer.py:827
+msgid "Card buried."
+msgstr "כרטיס \"הוטמן\"."
 
-#: qt/aqt/main.py:1046
-msgid "Undo"
-msgstr "בטל"
-
-#: qt/aqt/main.py:1042
-#, python-format
-msgid "Undo %s"
-msgstr "בטל %s"
-
-#: qt/aqt/addons.py:1014 qt/aqt/editor.py:850
-#, python-format
-msgid "Unexpected response code: %s"
-msgstr "תגובה לא צפויה: %s"
-
-#: qt/aqt/addons.py:475
-msgid "Unknown error: {}"
-msgstr "שגיאה לא ידועה: {}"
-
-#: qt/aqt/importing.py:367
-msgid "Unknown file format."
-msgstr "סוג קובץ לא מוכר."
-
-#: pylib/anki/stats.py:860
-msgid "Unseen"
-msgstr "לא נסקר(ו)"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:109
-msgid "Update existing notes when first field matches"
-msgstr "עדכן רשומות קיימות כאשר השדה הראשון תואם"
-
-#: pylib/anki/importing/anki2.py:160
-msgid "Updated"
-msgstr "עודכן"
-
-#: qt/aqt/profiles.py:479
-msgid "User 1"
-msgstr "משתמש 1"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:287
-msgid "User interface size"
-msgstr "גודל ממשק המשתמש"
-
-#: qt/aqt/about.py:104
-#, python-format
-msgid "Version %s"
-msgstr "גרסה %s"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:74
-msgid "View Add-on Page"
-msgstr "צפה בדף של התוסף"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:76
-msgid "View Files"
-msgstr "הצג קבצים"
-
-#: qt/aqt/main.py:735
-msgid "Waiting for editing to finish."
-msgstr "ממתין לסיום עריכה."
-
-#: qt/aqt/editor.py:644
-msgid "Warning, cloze deletions will not work until you switch the type at the top to Cloze."
-msgstr "אזהרה, השלם את החסר לא יעבוד עד שתשנה את הסוג למעלה להשלם את החסר."
-
-#: qt/aqt/overview.py:137
-msgid "What would you like to unbury?"
-msgstr "האם תרצה להוציא מהטמנה?"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:285
-msgid "When adding, default to current deck"
-msgstr "בעת הוספה, ברירת המחדל היא הוספה לחפיסה הנוכחית"
-
-#: qt/aqt/browser.py:1108 qt/aqt/browser.py:1255
-msgid "Whole Collection"
-msgstr "כלל המאגר"
-
-#: qt/aqt/update.py:63
-msgid "Would you like to download it now?"
-msgstr "האם ברצונך להוריד עכשיו?"
-
-#: qt/aqt/about.py:215
-#, python-format
-msgid "Written by Damien Elmes, with patches, translation,    testing and design from:<p>%(cont)s"
-msgstr "נכתב ע\"י Damien Elmes, עם הוספות, תרגום, בדיקות ועיצוב מאת: <p> %(cont)s"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:310
-msgid "You can restore backups via File>Switch Profile."
-msgstr "באפשרותך לשחזר מגיבוי דרך קובץ>החלף פרופיל."
-
-#: qt/aqt/addcards.py:178
-msgid "You have a cloze deletion note type but have not made any cloze deletions. Proceed?"
-msgstr "סוג הרשומה הוא השלמת החסר, אך אין שום חסר להשלמה. להמשיך?"
+#: qt/aqt/reviewer.py:833
+msgid "Note buried."
+msgstr "רשומה \"הוטמנה\"."
 
 #: qt/aqt/reviewer.py:841
 msgid "You haven't recorded your voice yet."
 msgstr "לא הקלטת את קולך עדיין."
 
-#: qt/aqt/browser.py:997
-msgid "You must have at least one column."
-msgstr "חייבת להיות לך לפחות עמודה אחת."
+#: qt/aqt/sound.py:323
+msgid "Sound and video on cards will not function until mpv or mplayer is installed."
+msgstr "וידאו וצלילים בכרטיסים לא יפעלו עד שתתקין נגן mpv או mplayer."
 
-#: pylib/anki/stats.py:214 pylib/anki/stats.py:347 pylib/anki/stats.py:367
-#: pylib/anki/stats.py:687
-msgid "Young"
-msgstr "צעיר(ים)"
-
-#: pylib/anki/stats.py:859
-msgid "Young+Learn"
-msgstr "צעיר(ים) + שנלמדו"
-
-#: qt/aqt/deckconf.py:113
-msgid "Your changes will affect multiple decks. If you wish to change only the current deck, please add a new options group first."
-msgstr "השינויים שתבצע ישפיעו על מספר חפיסות. אם אתה מעוניין לשנות רק את החפיסה הנוכחית, אנא הוסף קבוצת אפשרויות חדשה קודם."
-
-#: qt/aqt/main.py:578
-msgid "Your collection file appears to be corrupt. This can happen when the file is copied or moved while Anki is open, or when the collection is stored on a network or cloud drive. If problems persist after restarting your computer, please open an automatic backup from the profile screen."
-msgstr "הקובץ פגום. יתכן שהקובץ הועתק או הועבר בעוד התוכנה פעילה, או שהקובץ מאוחסן בענן. אם הבעיה ממשיכה לאחר אתחול המחשב מחדש, פתח גיבוי אוטומטי ממסך הפרופיל."
-
-#: qt/aqt/errors.py:99
-msgid "Your computer's storage may be full. Please delete some unneeded files, then try again."
-msgstr "אחסון המחשב שלך מלא. מחק קבצים לא נחוצים ונסה שנית."
-
-#: qt/aqt/errors.py:82
-msgid "Your firewall or antivirus program is preventing Anki from creating a connection to itself. Please add an exception for Anki."
-msgstr "חומת האש או האנטי-וירוס מפריעים לתוכנה לפעול. אנא הוסף חריגה עבור Anki."
-
-#: pylib/anki/decks.py:382
-msgid "[no deck]"
-msgstr "[אין חפיסות]"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:309
-msgid "backups"
-msgstr "גיבויים"
-
-#: pylib/anki/stats.py:319 qt/aqt/customstudy.py:53
-msgid "cards"
-msgstr "כרטיסיות"
-
-#: qt/aqt/customstudy.py:101
-msgid "cards from the deck"
-msgstr "כרטיסים מהחפיסה"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:139
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:143
-msgid "cards selected by"
-msgstr "כרטיסים נבחרים לפי"
-
-#: qt/aqt/exporting.py:110
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/stats.py:82
-msgid "collection"
-msgstr "אוסף"
-
-#. T: abbreviation of day
-#: pylib/anki/stats.py:982
-msgid "d"
-msgstr "ימים"
-
-#: qt/aqt/customstudy.py:90 qt/aqt/customstudy.py:94 qt/aqt/customstudy.py:97
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:350
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:351
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:358
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:370
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reschedule.py:79
-msgid "days"
-msgstr "ימים"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/stats.py:81
-msgid "deck"
-msgstr "חפיסה"
-
-#: pylib/anki/stats.py:949
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/stats.py:85
-msgid "deck life"
-msgstr "משך חיי חפיסה"
-
-#: qt/aqt/browser.py:2019
-msgid "duplicate"
-msgstr "שכפל"
-
-#: pylib/anki/stats.py:413
-msgid "hours"
-msgstr "שעות"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:296
-msgid "hours past midnight"
-msgstr "שעות לאחר חצות"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:367
-msgid "lapses"
-msgstr "שגיאות"
-
-#: qt/aqt/importing.py:256
+#: qt/aqt/sound.py:502
 #, python-format
-msgid "mapped to <b>%s</b>"
-msgstr "ממופה ל-<b>%s</b>"
+msgid "Error running %s"
+msgstr "שגיאה התרחשה בעת הרצת %s"
 
-#: qt/aqt/importing.py:254
-msgid "mapped to <b>Tags</b>"
-msgstr "ממופה ל-<b>תגיות</b>"
+#: qt/aqt/sound.py:610
+#, python-format
+msgid "Recording...<br>Time: %0.1f"
+msgstr "מקליט...<br>משך: %0.1f"
 
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:294
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:298
-msgid "mins"
-msgstr "דקות"
-
-#: pylib/anki/stats.py:384
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:148
-msgid "minutes"
-msgstr "דקות"
-
-#. T: abbreviation of month
-#: pylib/anki/stats.py:986
-msgid "mo"
-msgstr "חודשים"
-
-#: pylib/anki/stats.py:252 pylib/anki/stats.py:360
-msgid "reviews"
-msgstr "חזרות"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:376
-msgid "seconds"
-msgstr "שניות"
+#: qt/aqt/stats.py:42 qt/aqt/stats.py:67 qt/aqt/stats.py:114
+#: qt/aqt/stats.py:145
+msgid "Save PDF"
+msgstr "שמור כ-PDF"
 
 #: qt/aqt/stats.py:64 qt/aqt/stats.py:142
 msgid "stats"
 msgstr "סטטיסטיקה"
 
-#. T: abbreviation of week
-#: pylib/anki/stats.py:984
-msgid "w"
-msgstr "שבועות"
+#: qt/aqt/stats.py:80 qt/aqt/stats.py:158
+msgid "Saved."
+msgstr "נשמר."
 
-#: pylib/anki/stats.py:944
-msgid "whole collection"
-msgstr "כלל המאגר"
+#: qt/aqt/studydeck.py:48
+msgid "Add New Deck (Ctrl+N)"
+msgstr "הוסף חפיסה חדשה (Ctrl+N)"
 
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reschedule.py:78
-msgid "~"
-msgstr "~"
+#: qt/aqt/studydeck.py:67
+msgid "Study"
+msgstr "למד"
 
-#~ msgid "Front"
-#~ msgstr "חזית"
+#: qt/aqt/studydeck.py:135
+msgid "Please select something."
+msgstr "נא בחר משהו."
 
-#~ msgid "Congratulations! You have finished this deck for now."
-#~ msgstr "אשריך! סיימת את החפיסה לעת עתה."
+#: qt/aqt/toolbar.py:119
+msgid "Browse"
+msgstr "דפדוף"
 
-#~ msgid "Deauthorize"
-#~ msgstr "התנתק"
+#: qt/aqt/toolbar.py:126
+msgid "Stats"
+msgstr "סטטיסטיקה"
 
-#~ msgid "Show Both Sides"
-#~ msgstr "הצג שני צדדים"
+#: qt/aqt/toolbar.py:143
+msgid "Sync"
+msgstr "סינכרון"
 
-#~ msgid "Some related or buried cards were delayed until a later session."
-#~ msgstr "חלק מהכרטיסים הקשורים או המוטמנים נדחו לתקופה מאוחרת יותר."
+#: qt/aqt/update.py:59
+#, python-format
+msgid "<h1>Anki Updated</h1>Anki %s has been released.<br><br>"
+msgstr "<h1>Anki התעדכן</h1>Anki %s שוחרר.<br><br>"
 
-#~ msgid ""
-#~ "There are more new cards available, but the daily limit has been\n"
-#~ "reached. You can increase the limit in the options, but please\n"
-#~ "bear in mind that the more new cards you introduce, the higher\n"
-#~ "your short-term review workload will become."
-#~ msgstr ""
-#~ "יש עוד כרטיסים חדשים, אך הגעת למכסה היומית.\n"
-#~ "תוכל להגדיל את המכסה בהגדרות, אך שים לב כי\n"
-#~ "ככל שתציג יותר כרטיסים חדשים, כך יגדל העומס \n"
-#~ "של החזרות שלך בטווח הקצר."
+#: qt/aqt/update.py:63
+msgid "Would you like to download it now?"
+msgstr "האם ברצונך להוריד עכשיו?"
 
-#~ msgid "To see them now, click the Unbury button below."
-#~ msgstr "לראות אותם כעת, לחץ על כפתור הוצא מהטמנה."
+#: qt/aqt/update.py:64
+msgid "Ignore this update"
+msgstr "התעלם מעדכון זה"
 
-#~ msgid "To study outside of the normal schedule, click the Custom Study button below."
-#~ msgstr "על מנת ללמוד מחוץ ללוח-זמני הלימוד הרגיל, לחץ על כפתור \"לימוד מותאם\" למטה."
+#: qt/aqt/utils.py:57
+msgid "Loading..."
+msgstr "טוען..."
 
-#~ msgid ""
-#~ "Today's review limit has been reached, but there are still cards\n"
-#~ "waiting to be reviewed. For optimum memory, consider increasing\n"
-#~ "the daily limit in the options."
-#~ msgstr ""
-#~ "הגעת למכסת החזרות היומית, אך עדיין יש\n"
-#~ "כרטיסים שממתינים לחזרה. לזכרון אופטימלי\n"
-#~ "אנא שקול להגדיל את המכסה היומית בהגדרות."
+#: qt/aqt/utils.py:148
+msgid "Copy to Clipboard"
+msgstr "העתק ללוח"
 
-#~ msgid "Shortcut key: Left or Right arrow"
-#~ msgstr "מקש קיצור: חץ ימני או שמאלי"
+#: qt/aqt/utils.py:412
+msgid "This file exists. Are you sure you want to overwrite it?"
+msgstr "קובץ זה קיים האם ברצונך לשכתב אותו?"
+
+#: qt/aqt/utils.py:659
+#, python-format
+msgid "The following character can not be used: %s"
+msgstr "התו הבא לא ניתן לשימוש: %s"
+
+#. T: include a font for your language on Windows, eg: "Segoe UI", "MS Mincho"
+#: qt/aqt/webview.py:379
+msgid "\"Segoe UI\""
+msgstr "\"Arial\""
 
 #~ msgid " (1 of %d)"
 #~ msgstr " (1 מתוך %d)"
@@ -3684,6 +3640,9 @@ msgstr "~"
 #~ msgid "Collection is corrupt. Please see the manual."
 #~ msgstr "מאגר פגום. אנא ראה את המדריך."
 
+#~ msgid "Congratulations! You have finished this deck for now."
+#~ msgstr "אשריך! סיימת את החפיסה לעת עתה."
+
 #~ msgid "Connecting..."
 #~ msgstr "מתחבר..."
 
@@ -3698,6 +3657,9 @@ msgstr "~"
 
 #~ msgid "Date"
 #~ msgstr "תאריך"
+
+#~ msgid "Deauthorize"
+#~ msgstr "התנתק"
 
 #~ msgid "Delete Cards"
 #~ msgstr "מחק כרטיסיות"
@@ -3762,6 +3724,9 @@ msgstr "~"
 
 #~ msgid "Fixed note type: %s"
 #~ msgstr "תוקנה סוג הערה: %s"
+
+#~ msgid "Front"
+#~ msgstr "חזית"
 
 #~ msgid "Front Preview"
 #~ msgstr "תצוגה-מקדימה חזית"
@@ -3834,6 +3799,15 @@ msgstr "~"
 #~ msgid "Resched"
 #~ msgstr "תזמון מחדש"
 
+#~ msgid "Shortcut key: Left or Right arrow"
+#~ msgstr "מקש קיצור: חץ ימני או שמאלי"
+
+#~ msgid "Show Both Sides"
+#~ msgstr "הצג שני צדדים"
+
+#~ msgid "Some related or buried cards were delayed until a later session."
+#~ msgstr "חלק מהכרטיסים הקשורים או המוטמנים נדחו לתקופה מאוחרת יותר."
+
 #~ msgid "Styling"
 #~ msgstr "עיצוב"
 
@@ -3862,8 +3836,34 @@ msgstr "~"
 #~ msgid "The front of this card is empty. Please run Tools>Empty Cards."
 #~ msgstr "חזית כרטיסייה זו ריקה. אנא הרץ כלים>כרטיסיות ריקות."
 
+#~ msgid ""
+#~ "There are more new cards available, but the daily limit has been\n"
+#~ "reached. You can increase the limit in the options, but please\n"
+#~ "bear in mind that the more new cards you introduce, the higher\n"
+#~ "your short-term review workload will become."
+#~ msgstr ""
+#~ "יש עוד כרטיסים חדשים, אך הגעת למכסה היומית.\n"
+#~ "תוכל להגדיל את המכסה בהגדרות, אך שים לב כי\n"
+#~ "ככל שתציג יותר כרטיסים חדשים, כך יגדל העומס \n"
+#~ "של החזרות שלך בטווח הקצר."
+
 #~ msgid "Time"
 #~ msgstr "זמן"
+
+#~ msgid "To see them now, click the Unbury button below."
+#~ msgstr "לראות אותם כעת, לחץ על כפתור הוצא מהטמנה."
+
+#~ msgid "To study outside of the normal schedule, click the Custom Study button below."
+#~ msgstr "על מנת ללמוד מחוץ ללוח-זמני הלימוד הרגיל, לחץ על כפתור \"לימוד מותאם\" למטה."
+
+#~ msgid ""
+#~ "Today's review limit has been reached, but there are still cards\n"
+#~ "waiting to be reviewed. For optimum memory, consider increasing\n"
+#~ "the daily limit in the options."
+#~ msgstr ""
+#~ "הגעת למכסת החזרות היומית, אך עדיין יש\n"
+#~ "כרטיסים שממתינים לחזרה. לזכרון אופטימלי\n"
+#~ "אנא שקול להגדיל את המכסה היומית בהגדרות."
 
 #~ msgid "Total Time"
 #~ msgstr "זמן כולל"

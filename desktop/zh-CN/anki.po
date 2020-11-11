@@ -17,36 +17,418 @@ msgstr ""
 "X-Crowdin-Project: anki\n"
 "X-Generator: Pontoon\n"
 
-#: qt/aqt/importing.py:403
-msgid "    Invalid file. Please restore from backup."
-msgstr "无效文件。请从备份恢复。"
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/about.py:45
+msgid "About Anki"
+msgstr "关于Anki"
 
-#: qt/aqt/importing.py:412
-msgid "    Unable to import from a read-only file."
-msgstr "不能从只读文件中导入。"
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addcards.py:60
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:103
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/profiles.py:82
+#: qt/aqt/addcards.py:38 qt/aqt/addcards.py:70 qt/aqt/deckconf.py:89
+#: qt/aqt/models.py:57 qt/aqt/studydeck.py:46 qt/aqt/toolbar.py:112
+msgid "Add"
+msgstr "添加"
 
-#: qt/aqt/addons.py:313
-msgid " (disabled)"
-msgstr "（禁用）"
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addfield.py:62
+#: qt/aqt/clayout.py:389
+msgid "Add Field"
+msgstr "添加字段"
 
-#: qt/aqt/clayout.py:694
-msgid " (off)"
-msgstr "(关)"
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addfield.py:63
+msgid "Field:"
+msgstr "字段："
 
-#: qt/aqt/clayout.py:692
-msgid " (on)"
-msgstr "(开)"
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addfield.py:64
+msgid "Size:"
+msgstr "大小："
 
-#: qt/aqt/deckbrowser.py:289
-#, python-format
-msgid " It has %d card."
-msgid_plural " It has %d cards."
-msgstr[0] " 有 %d张卡片"
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addfield.py:65
+msgid "Font:"
+msgstr "字体："
 
-#. T: include a font for your language on Windows, eg: "Segoe UI", "MS Mincho"
-#: qt/aqt/webview.py:379
-msgid "\"Segoe UI\""
-msgstr "Segoe UI字体"
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addmodel.py:46
+msgid "Add Note Type"
+msgstr "添加笔记类型"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addonconf.py:73
+msgid "Configuration"
+msgstr "设置"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:70
+msgid "Changes will take effect when Anki is restarted."
+msgstr "重启 Anki 以应用更改"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:71
+msgid "Get Add-ons..."
+msgstr "获取插件…"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:72
+msgid "Install from file..."
+msgstr "从文件安装..."
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:73
+msgid "Check for Updates"
+msgstr "检查更新"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:74
+msgid "View Add-on Page"
+msgstr "浏览插件页面"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:75
+msgid "Config"
+msgstr "设置"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:76
+msgid "View Files"
+msgstr "查看文件"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:77
+msgid "Toggle Enabled"
+msgstr "切换启用状态"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:78
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:332
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:104
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/profiles.py:84
+#: qt/aqt/deckbrowser.py:234 qt/aqt/deckconf.py:91 qt/aqt/models.py:59
+#: qt/aqt/reviewer.py:812
+msgid "Delete"
+msgstr "删除"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:297
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:138
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:142
+#: qt/aqt/browser.py:1979
+msgid "Search"
+msgstr "搜索"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:298
+#: qt/aqt/previewer.py:65
+msgid "Preview"
+msgstr "预览"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:299
+msgid "Filter..."
+msgstr "过滤..."
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:300
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:135
+msgid "&Edit"
+msgstr "编辑(&E)"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:301
+msgid "&Go"
+msgstr "选择(&G)"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:302
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:134
+msgid "&Help"
+msgstr "帮助(&H)"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:303
+msgid "&Cards"
+msgstr "卡片(&C)"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:304
+msgid "Flag"
+msgstr "标注"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:305
+msgid "&Notes"
+msgstr "笔记（&N）"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:306
+msgid "&Reschedule..."
+msgstr "重设学习进度(&R)"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:307
+msgid "Select &All"
+msgstr "全选(&A)"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:308
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:142
+msgid "&Undo"
+msgstr "撤销(&U)"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:309
+msgid "&Invert Selection"
+msgstr "反向选择(&I)"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:310
+msgid "&Find"
+msgstr "查找(&F)"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:311
+msgid "N&ote"
+msgstr "笔记(N&)"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:312
+msgid "&Next Card"
+msgstr "下一张卡片(&N)"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:313
+msgid "&Previous Card"
+msgstr "前一张卡片(&P)"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:314
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:149
+msgid "&Guide..."
+msgstr "用户手册(&G)..."
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:315
+msgid "Change Note Type..."
+msgstr "改变笔记类型…"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:316
+msgid "Select &Notes"
+msgstr "选择笔记(&N)"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:317
+msgid "Find and Re&place..."
+msgstr "查找替换(&P)"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:318
+msgid "&Cram..."
+msgstr "强记所选卡片(&C)"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:319
+msgid "Fil&ter"
+msgstr "过滤器 (&T)"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:320
+msgid "Card List"
+msgstr "卡片列表窗口"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:321
+msgid "Find &Duplicates..."
+msgstr "查找重复(&D)"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:322
+msgid "Reposition..."
+msgstr "重新定位..."
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:323
+msgid "First Card"
+msgstr "第一张卡片"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:324
+msgid "Home"
+msgstr "首页"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:325
+msgid "Last Card"
+msgstr "最后一张卡片"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:326
+msgid "End"
+msgstr "结束"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:327
+#: qt/aqt/addcards.py:75
+msgid "Close"
+msgstr "关闭"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:328
+msgid "&Info..."
+msgstr "关于(&I)"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:329
+msgid "Add Tags..."
+msgstr "添加标签..."
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:330
+msgid "Remove Tags..."
+msgstr "移除标签…"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:331
+msgid "Toggle Suspend"
+msgstr "开关暂停状态"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:333
+msgid "Add Notes..."
+msgstr "添加笔记…"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:334
+msgid "Change Deck..."
+msgstr "改变牌组…"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:335
+#: qt/aqt/browser.py:1284 qt/aqt/reviewer.py:701
+msgid "Red Flag"
+msgstr "红色标注"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:336
+#: qt/aqt/browser.py:1285 qt/aqt/reviewer.py:707
+msgid "Orange Flag"
+msgstr "橙色标记"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:337
+#: qt/aqt/browser.py:1286 qt/aqt/reviewer.py:713
+msgid "Green Flag"
+msgstr "绿色标注"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:338
+#: qt/aqt/browser.py:1287 qt/aqt/reviewer.py:719
+msgid "Blue Flag"
+msgstr "蓝色标注"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:339
+#: qt/aqt/browser.py:1031
+msgid "Sidebar"
+msgstr "侧边栏"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:340
+msgid "Clear Unused Tags"
+msgstr "删除未被使用的标签"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:341
+msgid "Manage Note Types..."
+msgstr "管理笔记类型…"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:342
+msgid "Toggle Mark"
+msgstr "切换标记"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:343
+msgid "&Export Notes..."
+msgstr "&导出笔记..."
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:344
+msgid "Ctrl+Shift+E"
+msgstr "Ctrl+Shift+E"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browserdisp.py:71
+msgid "Browser Appearance"
+msgstr "浏览器外观"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browserdisp.py:72
+msgid "Override front template:"
+msgstr "忽略正面模版"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browserdisp.py:73
+msgid "Override back template:"
+msgstr "忽略背面模版"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browserdisp.py:74
+msgid "Override font:"
+msgstr "覆盖字体："
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browseropts.py:71
+msgid "Browser Options"
+msgstr "浏览器选项"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browseropts.py:72
+msgid "<b>Font</b>:"
+msgstr "<b>字体</b>:"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browseropts.py:73
+msgid "<b>Font Size</b>:"
+msgstr "<b>字体大小</b>:"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browseropts.py:74
+msgid "<b>Line Size</b>:"
+msgstr "<b>行大小</b>:"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browseropts.py:75
+msgid "Search within formatting (slow)"
+msgstr "用格式搜索（耗时长）"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/changemap.py:43
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:105
+#: qt/aqt/importing.py:103 qt/aqt/importing.py:189 qt/aqt/importing.py:311
+msgid "Import"
+msgstr "导入"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/changemap.py:44
+msgid "Target field:"
+msgstr "目标栏目:"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/changemodel.py:111
+#: qt/aqt/browser.py:2270
+msgid "Change Note Type"
+msgstr "改变笔记类型"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/changemodel.py:112
+msgid "Current note type:"
+msgstr "当前笔记类型："
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/changemodel.py:113
+msgid "New note type:"
+msgstr "新笔记类型:"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/changemodel.py:114
+#: pylib/anki/stats.py:310 pylib/anki/stats.py:962 qt/aqt/editor.py:134
+msgid "Cards"
+msgstr "卡片"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/changemodel.py:115
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:102
+#: qt/aqt/editor.py:126 qt/aqt/fields.py:23
+msgid "Fields"
+msgstr "字段"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/clayout_top.py:54
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/template.py:73
+msgid "Form"
+msgstr "表格"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:103
+#: qt/aqt/overview.py:258
+msgid "Custom Study"
+msgstr "自定义学习"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:104
+msgid "Review ahead"
+msgstr "提前复习"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:105
+msgid "Review forgotten cards"
+msgstr "复习忘记的卡片"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:106
+msgid "Increase today's new card limit"
+msgstr "增加今天的新卡片上限"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:107
+msgid "Increase today's review card limit"
+msgstr "增加今天的复习卡片上限"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:108
+msgid "Study by card state or tag"
+msgstr "按照卡片状态或者标签学习"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:109
+msgid "Preview new cards"
+msgstr "预览新卡片"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:113
+msgid "New cards only"
+msgstr "仅新卡片"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:115
+msgid "Due cards only"
+msgstr "仅到期卡片"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:117
+msgid "All review cards in random order"
+msgstr "随机复习所有卡片"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:119
+msgid "All cards in random order (don't reschedule)"
+msgstr "随机排列的所有卡（不要重新安排）"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:340
+msgid "Options group:"
+msgstr "学习计划组:"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:341
+#: qt/aqt/browser.py:1337
+msgid "Manage..."
+msgstr "管理..."
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:342
+msgid "Starting ease"
+msgstr "初始简易度"
 
 #: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:343
 #: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:354
@@ -57,14 +439,1680 @@ msgstr "Segoe UI字体"
 msgid "%"
 msgstr "%"
 
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:344
+msgid "Order"
+msgstr "顺序"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:345
+msgid "Easy interval"
+msgstr "简单间隔"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:346
+msgid "Graduating interval"
+msgstr "毕业间隔"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:347
+msgid "New cards/day"
+msgstr "新卡片/天"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:348
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:364
+msgid "Steps (in minutes)"
+msgstr "步伐 (以分钟计)"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:349
+msgid "Bury related new cards until the next day"
+msgstr "搁置相关新卡片到隔日"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:350
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:351
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:358
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:370
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reschedule.py:79
+#: qt/aqt/customstudy.py:90 qt/aqt/customstudy.py:94 qt/aqt/customstudy.py:97
+msgid "days"
+msgstr "天"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:352
+msgid "New Cards"
+msgstr "新卡片"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:353
+msgid "Easy bonus"
+msgstr "简单奖励"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:355
+msgid "Interval modifier"
+msgstr "间隔调节系数"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:356
+msgid "Maximum reviews/day"
+msgstr "最大复习数/天"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:357
+msgid "Maximum interval"
+msgstr "最大间隔"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:360
+msgid "Bury related reviews until the next day"
+msgstr "搁置相关复习到隔日"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:361
+msgid "Hard interval"
+msgstr "困难间隔"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:363
+#: pylib/anki/stats.py:819 qt/aqt/browser.py:751
+msgid "Reviews"
+msgstr "复习"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:365
+msgid "New interval"
+msgstr "新间隔"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:366
+msgid "Leech threshold"
+msgstr "难点阈值"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:367
+msgid "lapses"
+msgstr "遗忘次数"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:368
+msgid "Leech action"
+msgstr "记忆难点动作"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:369
+msgid "Minimum interval"
+msgstr "最小间隔"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:371
+#: qt/aqt/reviewer.py:729
+msgid "Suspend Card"
+msgstr "暂停卡片"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:372
+msgid "Tag Only"
+msgstr "仅标记"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:374
+#: qt/aqt/browser.py:752
+msgid "Lapses"
+msgstr "遗忘次数"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:375
+msgid "Ignore answer times longer than"
+msgstr "忽略回答时间长于"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:376
+msgid "seconds"
+msgstr "秒"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:377
+msgid "Show answer timer"
+msgstr "显示回答计时器"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:378
+msgid "Automatically play audio"
+msgstr "自动播放音频"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:379
+msgid "Always include question side when replaying audio"
+msgstr "播放音频时总是包括问题面"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:380
+msgid "General"
+msgstr "总体"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:381
+msgid "Description to show on overview screen, for current deck:"
+msgstr "显示在概览界面上的当前牌组的描述："
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:382
+msgid "Description"
+msgstr "描述"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/debug.py:56
+msgid "Debug Console"
+msgstr "调试控制台："
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:135
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/editaddon.py:42
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/editcurrent.py:43
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/progress.py:42
+msgid "Dialog"
+msgstr "对话"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:136
+#: qt/aqt/browser.py:1319
+msgid "Filter"
+msgstr "过滤器"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:137
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:141
+msgid "Limit to"
+msgstr "限制为"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:139
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:143
+msgid "cards selected by"
+msgstr "卡片选择按"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:140
+msgid "Filter 2"
+msgstr "过滤器2"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:144
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:110
+#: qt/aqt/clayout.py:111 qt/aqt/deckbrowser.py:230 qt/aqt/deckconf.py:37
+#: qt/aqt/dyndeckconf.py:25 qt/aqt/overview.py:252 qt/aqt/reviewer.py:732
+msgid "Options"
+msgstr "选项"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:145
+msgid "Reschedule cards based on my answers in this deck"
+msgstr "基于我在此牌组中的回答重新定制卡片计划"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:146
+msgid "Enable second filter"
+msgstr "使用第二个过滤器"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:147
+msgid "Repeat failed cards after"
+msgstr "在 %s 后重复失败的卡片"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:148
+#: pylib/anki/stats.py:384
+msgid "minutes"
+msgstr "分钟"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:149
+msgid "Custom steps (in minutes)"
+msgstr "自定义步长（以分钟计）"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/edithtml.py:39
+msgid "HTML Editor"
+msgstr "HTML编辑器"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/exporting.py:76
+#: qt/aqt/deckbrowser.py:232 qt/aqt/exporting.py:124
+msgid "Export"
+msgstr "导出"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/exporting.py:77
+msgid "<b>Export format</b>:"
+msgstr "<b>导出格式</b>"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/exporting.py:78
+msgid "<b>Include</b>:"
+msgstr "<b>包含</b>:"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/exporting.py:79
+msgid "Include scheduling information"
+msgstr "包含学习进度信息"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/exporting.py:80
+msgid "Include media"
+msgstr "包含媒体文件"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/exporting.py:81
+msgid "Include tags"
+msgstr "包含标签"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/exporting.py:82
+msgid "Include HTML and media references"
+msgstr "包括HTML和文件引用"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:105
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/profiles.py:83
+#: qt/aqt/deckbrowser.py:228 qt/aqt/deckconf.py:93 qt/aqt/models.py:58
+#: qt/aqt/sidebar.py:74
+msgid "Rename"
+msgstr "重命名"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:106
+#: qt/aqt/browser.py:1751
+msgid "Reposition"
+msgstr "重新定位"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:107
+msgid "Editing Font"
+msgstr "编辑字体"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:108
+msgid "Reverse text direction (RTL)"
+msgstr "文字反向(RTL)"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:109
+msgid "Remember last input when adding"
+msgstr "当添加时记住上一次输入"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:111
+msgid "Sort by this field in the browser"
+msgstr "在浏览器中按照此字段排序"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/finddupes.py:71
+msgid "Find Duplicates"
+msgstr "查找重复"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/finddupes.py:72
+msgid "Optional filter:"
+msgstr "可选过滤器："
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/finddupes.py:73
+msgid "Search in:"
+msgstr "搜寻位置："
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/findreplace.py:87
+#: qt/aqt/browser.py:1909
+msgid "Find and Replace"
+msgstr "查找替换"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/findreplace.py:88
+msgid "<b>Find</b>:"
+msgstr "<b>查找</b>"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/findreplace.py:89
+msgid "<b>Replace With</b>:"
+msgstr "<b>替换</b>:"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/findreplace.py:90
+msgid "<b>In</b>:"
+msgstr "<b>选择字段</b>:"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/findreplace.py:91
+msgid "Treat input as regular expression"
+msgstr "以正则表达式输入"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/findreplace.py:92
+msgid "Ignore case"
+msgstr "忽略大小写"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/getaddons.py:50
+msgid "Install Add-on"
+msgstr "安装插件"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/getaddons.py:51
+msgid "To browse add-ons, please click the browse button below.<br><br>When you've found an add-on you like, please paste its code below. You can paste multiple codes, separated by spaces."
+msgstr "浏览插件请点击下方的“浏览”按钮。<br><br>如果您找到适合您的插件，请将插件代码粘贴到下方的文本框中。您可以输入多个代码，请将代码之间用空格隔开。"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/getaddons.py:52
+msgid "Code:"
+msgstr "代码:"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:106
+msgid "Import options"
+msgstr "导入选项"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:107
+#: qt/aqt/modelchooser.py:40
+msgid "Type"
+msgstr "类型"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:108
+#: qt/aqt/browser.py:743 qt/aqt/deckbrowser.py:147 qt/aqt/deckchooser.py:29
+msgid "Deck"
+msgstr "牌组"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:109
+msgid "Update existing notes when first field matches"
+msgstr "当首字段匹配时更新现有笔记"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:110
+msgid "Ignore lines where first field matches existing note"
+msgstr "当首字段匹配时忽略现有笔记"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:111
+msgid "Import even if existing note has same first field"
+msgstr "即使现有笔记含有相同首字段亦导入。"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:112
+msgid "Allow HTML in fields"
+msgstr "允许在字段中使用HTML"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:113
+msgid "Tag modified notes:"
+msgstr "已修改标签的笔记："
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:114
+msgid "Field mapping"
+msgstr "字段对应"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:133
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/setgroup.py:40
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/setlang.py:41
+msgid "Anki"
+msgstr "Anki"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:136
+msgid "&File"
+msgstr "文件(&F)"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:137
+msgid "&Tools"
+msgstr "工具(&T)"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:138
+msgid "E&xit"
+msgstr "退出(&X)"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:139
+msgid "&Preferences..."
+msgstr "首选项(&P)..."
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:140
+msgid "Configure interface language and options"
+msgstr "设置界面语言和选项"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:141
+msgid "&About..."
+msgstr "关于(&A)..."
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:143
+msgid "Check &Media..."
+msgstr "检查媒体(&M)..."
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:144
+msgid "Check the files in the media directory"
+msgstr "检查媒体文件目录中的文件"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:145
+msgid "&Open Add-ons Folder..."
+msgstr "打开插件文件夹(&O)"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:146
+msgid "&Support Anki..."
+msgstr "支持Anki(&S)"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:147
+msgid "&Browse and Install..."
+msgstr "浏览&安装(&B)"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:148
+msgid "&Check Database"
+msgstr "检查数据库 (&C)"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:150
+msgid "&Switch Profile"
+msgstr "切换用户(&S)"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:151
+msgid "&Export..."
+msgstr "导出(&E)..."
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:152
+msgid "&Import..."
+msgstr "导入(&I)..."
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:153
+msgid "Study Deck..."
+msgstr "学习牌组..."
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:154
+msgid "Empty Cards..."
+msgstr "空卡片..."
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:155
+msgid "Create Filtered Deck..."
+msgstr "创建筛选的牌组…"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:156
+msgid "Manage Note Types"
+msgstr "管理笔记类型"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:157
+msgid "Add-ons"
+msgstr "附加组件"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/modelopts.py:66
+msgid "Create scalable images with dvisvgm"
+msgstr "用 dvisvgm 创建可缩放的图片"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/modelopts.py:67
+msgid "Header"
+msgstr "头部"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/modelopts.py:68
+msgid "Footer"
+msgstr "底部"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/modelopts.py:69
+#: qt/aqt/editor.py:956
+msgid "LaTeX"
+msgstr "LaTeX"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/models.py:56
+#: qt/aqt/browser.py:1335 qt/aqt/models.py:36
+msgid "Note Types"
+msgstr "笔记类型"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:278
+msgid "Preferences"
+msgstr "偏好设置"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:279
+msgid "Hardware acceleration (faster, may cause display issues)"
+msgstr "硬件加速（更快速，可能导致显示问题）"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:280
+msgid "Show play buttons on cards with audio"
+msgstr "在卡片上显示音频按钮"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:281
+msgid "Interrupt current audio when answering"
+msgstr "回答卡片时中断当前音频播放"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:282
+msgid "Paste clipboard images as PNG"
+msgstr "把剪切板图像保存为PNG"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:283
+msgid "Paste without shift key strips formatting"
+msgstr "不按Shift键粘贴会删除格式化字符"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:284
+msgid "Night mode"
+msgstr "夜间模式"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:285
+msgid "When adding, default to current deck"
+msgstr "当添加时，默认是当前牌组"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:286
+msgid "Change deck depending on note type"
+msgstr "根据笔记类型改变牌组"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:287
+msgid "User interface size"
+msgstr "用户界面尺寸"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:289
+msgid "Basic"
+msgstr "基础"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:290
+msgid "Show next review time above answer buttons"
+msgstr "在回答按钮上显示下一次复习时间"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:291
+msgid "Show remaining card count during review"
+msgstr "在复习的时候显示剩余的卡片计数"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:292
+msgid "Show learning cards with larger steps before reviews"
+msgstr "在复习前展示步伐更长且处于学习中的卡牌"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:293
+msgid "Anki 2.1 scheduler (beta)"
+msgstr "Anki2.1 记忆算法（测试版）"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:294
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:298
+msgid "mins"
+msgstr "分钟"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:295
+msgid "Timebox time limit"
+msgstr "时间框的时间限制"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:296
+msgid "hours past midnight"
+msgstr "点 (凌晨)"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:297
+msgid "Learn ahead limit"
+msgstr "先学习的上限"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:299
+msgid "Next day starts at"
+msgstr "下一天开始"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:300
+msgid "Scheduling"
+msgstr "安排算法"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:301
+msgid "<b>Synchronisation</b>"
+msgstr "<b>同步</b>"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:302
+msgid "Synchronize audio and images too"
+msgstr "同时同步音频和图像"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:303
+msgid "Automatically sync on profile open/close"
+msgstr "打开本地帐户时自动同步"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:304
+msgid "Periodically sync media"
+msgstr "定期同步媒体"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:305
+msgid "On next sync, force changes in one direction"
+msgstr "在下一次同步时, 强制单方向的改变."
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:306
+msgid "Network"
+msgstr "网络"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:307
+#, fuzzy
+msgid "<html><head/><body><p><span style=\" font-weight:600;\">Backups</span><br/>Anki will create a backup of your collection each time it is closed.</p></body></html>"
+msgstr "<b>备份</b><br>每次关闭和同步之后Anki都会对你的集合进行备份"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:308
+msgid "Keep"
+msgstr "保留"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:309
+msgid "backups"
+msgstr "备份"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:310
+msgid "You can restore backups via File>Switch Profile."
+msgstr "您可以通过 文件->切换用户 来恢复备份。"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:311
+msgid "Note: Media is not backed up. Please create a periodic backup of your Anki folder to be safe."
+msgstr "注意: 媒体文件没有被备份. 为了安全请定期备份你的Anki文件夹."
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:312
+msgid "Some settings will take effect after you restart Anki."
+msgstr "某些设置将在Anki重新启动后生效"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:313
+msgid "Backups"
+msgstr "备份"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/profiles.py:80
+msgid "Profiles"
+msgstr "个人配置文件"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/profiles.py:81
+msgid "Open"
+msgstr "打开"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/profiles.py:85
+msgid "Quit"
+msgstr "退出"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/profiles.py:86
+msgid "Open Backup..."
+msgstr "打开备份..."
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reposition.py:72
+msgid "Reposition New Cards"
+msgstr "重新定位新卡片"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reposition.py:73
+msgid "Start position:"
+msgstr "开始位置："
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reposition.py:74
+msgid "Step:"
+msgstr "步幅:"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reposition.py:75
+msgid "Randomize order"
+msgstr "随机顺序"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reposition.py:76
+msgid "Shift position of existing cards"
+msgstr "改变已存在卡片状态"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reschedule.py:75
+#: qt/aqt/browser.py:1777
+msgid "Reschedule"
+msgstr "重新安排进度"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reschedule.py:76
+msgid "Place at end of new card queue"
+msgstr "放到新卡片队列队尾"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reschedule.py:77
+msgid "Place in review queue with interval between:"
+msgstr "放入复习队列的时间间隔:"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reschedule.py:78
+msgid "~"
+msgstr "~"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/setgroup.py:41
+msgid "Move cards to deck:"
+msgstr "移动卡片到牌组:"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/setlang.py:42
+msgid "Interface language:"
+msgstr "界面语言:"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/stats.py:80
+msgid "Statistics"
+msgstr "统计"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/stats.py:81
+msgid "deck"
+msgstr "牌组"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/stats.py:82
+#: qt/aqt/exporting.py:110
+msgid "collection"
+msgstr "集合"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/stats.py:83
+#: pylib/anki/stats.py:949
+msgid "1 month"
+msgstr "1个月"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/stats.py:84
+#: pylib/anki/stats.py:949
+msgid "1 year"
+msgstr "1年"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/stats.py:85
+#: pylib/anki/stats.py:949
+msgid "deck life"
+msgstr "牌组使用期"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/studydeck.py:47
+msgid "Study Deck"
+msgstr "学习牌组"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/studydeck.py:48
+msgid "Filter:"
+msgstr "过滤器:"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/taglimit.py:62
+msgid "Selective Study"
+msgstr "选择性学习"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/taglimit.py:63
+msgid "Require one or more of these tags:"
+msgstr "需要这些标签中的一个或者多个:"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/taglimit.py:64
+msgid "Select tags to exclude:"
+msgstr "选择排除的标签："
+
+#: pylib/anki/collection.py:577 qt/aqt/browser.py:1278
+msgid "Review"
+msgstr "复习"
+
+#: pylib/anki/consts.py:93
+msgid "Show new cards in random order"
+msgstr "按随机顺序学习新卡片"
+
+#: pylib/anki/consts.py:94
+msgid "Show new cards in order added"
+msgstr "按创建顺序学习新卡片"
+
+#: pylib/anki/consts.py:100
+msgid "Mix new cards and reviews"
+msgstr "混合新卡片和复习"
+
+#: pylib/anki/consts.py:101
+msgid "Show new cards after reviews"
+msgstr "在复习后显示新卡片"
+
+#: pylib/anki/consts.py:102
+msgid "Show new cards before reviews"
+msgstr "先学习新卡片，再复习"
+
+#: pylib/anki/consts.py:108
+msgid "Center"
+msgstr "居中"
+
+#: pylib/anki/consts.py:109
+msgid "Left"
+msgstr "左对齐"
+
+#: pylib/anki/consts.py:110
+msgid "Right"
+msgstr "右对齐"
+
+#: pylib/anki/consts.py:116
+msgid "Oldest seen first"
+msgstr "优先查看最旧的"
+
+#: pylib/anki/consts.py:117
+msgid "Random"
+msgstr "随机"
+
+#: pylib/anki/consts.py:118
+msgid "Increasing intervals"
+msgstr "增加间隔"
+
+#: pylib/anki/consts.py:119
+msgid "Decreasing intervals"
+msgstr "降低间隔"
+
+#: pylib/anki/consts.py:120
+msgid "Most lapses"
+msgstr "最多遗忘次数"
+
+#: pylib/anki/consts.py:121
+msgid "Order added"
+msgstr "增加顺序"
+
+#: pylib/anki/consts.py:122
+msgid "Order due"
+msgstr "到期顺序"
+
+#: pylib/anki/consts.py:123
+msgid "Latest added first"
+msgstr "最后添加的先复习"
+
+#: pylib/anki/consts.py:124
+msgid "Relative overdueness"
+msgstr "按照相对过期程度"
+
+#: pylib/anki/decks.py:382
+msgid "[no deck]"
+msgstr "[没有牌组]"
+
+#: pylib/anki/exporting.py:95
+msgid "Cards in Plain Text"
+msgstr "纯文本卡片"
+
+#: pylib/anki/exporting.py:125
+msgid "Notes in Plain Text"
+msgstr "纯文本格式的笔记"
+
+#: pylib/anki/exporting.py:167
+msgid "Anki 2.0 Deck"
+msgstr "Anki 2.0 版牌组"
+
+#: pylib/anki/exporting.py:316
+msgid "Anki Deck Package"
+msgstr "Anki 牌组包"
+
+#: pylib/anki/exporting.py:398
+msgid "Anki Collection Package"
+msgstr "Anki集合文件"
+
+#: pylib/anki/importing/__init__.py:13
+msgid "Text separated by tabs or semicolons (*)"
+msgstr "按制表符或者分号分隔的文本 (*)"
+
+#: pylib/anki/importing/__init__.py:14
+msgid "Packaged Anki Deck/Collection (*.apkg *.colpkg *.zip)"
+msgstr "打包的 Anki 牌组/集合 (*.apkg *.colpkg *.zip)"
+
+#: pylib/anki/importing/__init__.py:15
+msgid "Mnemosyne 2.0 Deck (*.db)"
+msgstr "Mnemosyne 2.0 牌组 (*.db)"
+
+#: pylib/anki/importing/__init__.py:16
+msgid "Supermemo XML export (*.xml)"
+msgstr "Supermemo XML (*.xml)"
+
+#: pylib/anki/importing/__init__.py:17
+msgid "Pauker 1.8 Lesson (*.pau.gz)"
+msgstr "Pauker 1.8 课件 (*.pau.gz)"
+
+#: pylib/anki/importing/anki2.py:134
+#, python-format
+msgid "Notes found in file: %d"
+msgstr "文件中找到的笔记 : %d"
+
+#: pylib/anki/importing/anki2.py:138
+#, python-format
+msgid "Notes that could not be imported as note type has changed: %d"
+msgstr "无法作为注释类型导入的笔记已经改变: %d"
+
+#: pylib/anki/importing/anki2.py:143
+#, python-format
+msgid "Notes updated, as file had newer version: %d"
+msgstr "因文件有新版本而更新的笔记：%d"
+
+#: pylib/anki/importing/anki2.py:146
+#, python-format
+msgid "Notes added from file: %d"
+msgstr "从文件中添加的笔记：%d"
+
+#: pylib/anki/importing/anki2.py:149
+#, python-format
+msgid "Notes skipped, as they're already in your collection: %d"
+msgstr "因已存在于您的集合中而跳过的笔记：%d"
+
+#: pylib/anki/importing/anki2.py:157
+msgid "Skipped"
+msgstr "已跳过"
+
+#: pylib/anki/importing/anki2.py:160
+msgid "Updated"
+msgstr "已更新"
+
+#: pylib/anki/importing/anki2.py:163 pylib/anki/stats.py:309
+#: qt/aqt/addcards.py:202
+msgid "Added"
+msgstr "已添加"
+
+#: pylib/anki/importing/anki2.py:166
+msgid "Identical"
+msgstr "相同的"
+
+#: pylib/anki/importing/csvfile.py:44
+#, python-format
+msgid "'%(row)s' had %(num1)d fields, expected %(num2)d"
+msgstr "'%(row)s' 行有 %(num1)d 个字段, 预期 %(num2)d"
+
+#: pylib/anki/importing/csvfile.py:56
+#, python-format
+msgid "Aborted: %s"
+msgstr "失败: %s"
+
+#: pylib/anki/importing/mnemo.py:24
+msgid "File version unknown, trying import anyway."
+msgstr "文件版本未知，仍尝试导入。"
+
+#: pylib/anki/importing/mnemo.py:105
+#, python-format
+msgid "%d note imported."
+msgid_plural "%d notes imported."
+msgstr[0] "导入了%d条笔记"
+
+#: pylib/anki/importing/noteimp.py:138
+#, python-format
+msgid "First field matched: %s"
+msgstr "首字段匹配的: %s"
+
+#: pylib/anki/importing/noteimp.py:139
+#, python-format
+msgid "Added duplicate with first field: %s"
+msgstr "添加首字段%s的副本"
+
+#: pylib/anki/importing/noteimp.py:156
+#, python-format
+msgid "Empty first field: %s"
+msgstr "首字段: %s 为空"
+
+#: pylib/anki/importing/noteimp.py:161
+#, python-format
+msgid "Appeared twice in file: %s"
+msgstr "在文件%s中出现了两次"
+
+#: pylib/anki/importing/noteimp.py:212
+#, python-format
+msgid "%d note added"
+msgid_plural "%d notes added"
+msgstr[0] "添加了%d条笔记"
+
+#: pylib/anki/importing/noteimp.py:214
+#, python-format
+msgid "%d note updated"
+msgid_plural "%d notes updated"
+msgstr[0] "更新了%d条笔记"
+
+#: pylib/anki/importing/noteimp.py:224
+#, python-format
+msgid "%d note unchanged"
+msgid_plural "%d notes unchanged"
+msgstr[0] "%d 条笔记不变"
+
+#: pylib/anki/importing/supermemo_xml.py:202
+#, python-format
+msgid "%d card imported."
+msgid_plural "%d cards imported."
+msgstr[0] "导入了%d张卡片"
+
+#: pylib/anki/latex.py:134
+#, python-format
+msgid "For security reasons, '%s' is not allowed on cards. You can still use it by placing the command in a different package, and importing that package in the LaTeX header instead."
+msgstr "出于安全考虑, '%s' 不允许出现在卡片中. 你依然可以通过把命令放在不同的包中使用, 然后通过在LaTeX文件头中导入包的方式来替代."
+
+#: pylib/anki/latex.py:176
+#, python-format
+msgid "Error executing %s."
+msgstr "执行 %s 错误。"
+
+#: pylib/anki/latex.py:177
+#, python-format
+msgid "Generated file: %s"
+msgstr "生成文件: %s"
+
+#: pylib/anki/latex.py:185
+msgid "Have you installed latex and dvipng/dvisvgm?"
+msgstr "您是否安装了 Latex 和dvipng/dvisvgm？"
+
+#: pylib/anki/models.py:263
+#, python-format
+msgid "%s copy"
+msgstr "%s 复制"
+
+#: pylib/anki/schedv2.py:1261
+msgid "(end)"
+msgstr "(完成)"
+
+#: pylib/anki/stats.py:119 qt/aqt/browser.py:1259
+msgid "Today"
+msgstr "今天"
+
+#: pylib/anki/stats.py:152
+#, python-format
+msgid "Again count: %s"
+msgstr "重复计数: %s"
+
+#: pylib/anki/stats.py:154
+#, python-format
+msgid "(%s correct)"
+msgstr "%s正确"
+
+#: pylib/anki/stats.py:160
+#, python-format
+msgid "Learn: %(a)s, Review: %(b)s, Relearn: %(c)s, Filtered: %(d)s"
+msgstr "学习: %(a)s, 复习: %(b)s, 重新学习: %(c)s, 已过滤: %(d)s"
+
+#: pylib/anki/stats.py:173
+#, python-format
+msgid "Correct answers on mature cards: %(a)d/%(b)d (%(c).1f%%)"
+msgstr "熟练卡片的正确答案：%(a)d/%(b)d (%(c).1f%%)"
+
+#: pylib/anki/stats.py:176
+msgid "No mature cards were studied today."
+msgstr "今天没有到期卡片被学习"
+
+#: pylib/anki/stats.py:178
+msgid "No cards have been studied today."
+msgstr "今天无卡片被学习过"
+
+#: pylib/anki/stats.py:213 pylib/anki/stats.py:346 pylib/anki/stats.py:366
+#: pylib/anki/stats.py:688 pylib/anki/stats.py:858
+msgid "Mature"
+msgstr "熟练"
+
+#: pylib/anki/stats.py:214 pylib/anki/stats.py:347 pylib/anki/stats.py:367
+#: pylib/anki/stats.py:687
+msgid "Young"
+msgstr "新的"
+
+#: pylib/anki/stats.py:221
+msgid "Cumulative"
+msgstr "累计"
+
+#: pylib/anki/stats.py:228
+msgid "Forecast"
+msgstr "预测"
+
+#: pylib/anki/stats.py:228
+msgid "The number of reviews due in the future."
+msgstr "将来到期的复习的数目"
+
+#: pylib/anki/stats.py:236 pylib/anki/stats.py:310
+msgid "Cumulative Cards"
+msgstr "累计卡片"
+
+#: pylib/anki/stats.py:249 pylib/anki/stats.py:318 pylib/anki/stats.py:418
+msgid "Total"
+msgstr "总计"
+
+#: pylib/anki/stats.py:252 pylib/anki/stats.py:319
+msgid "Average"
+msgstr "平均"
+
+#: pylib/anki/stats.py:252 pylib/anki/stats.py:360
+msgid "reviews"
+msgstr "复习"
+
+#: pylib/anki/stats.py:260 pylib/anki/stats.py:318 qt/aqt/clayout.py:560
+#, python-format
+msgid "%d card"
+msgid_plural "%d cards"
+msgstr[0] "%d张卡片"
+
+#: pylib/anki/stats.py:261
+msgid "Due tomorrow"
+msgstr "明天到期"
+
+#: pylib/anki/stats.py:309
+msgid "The number of new cards you have added."
+msgstr "您添加的卡片的数目。"
+
+#: pylib/anki/stats.py:319 qt/aqt/customstudy.py:53
+msgid "cards"
+msgstr "卡片"
+
+#: pylib/anki/stats.py:348 pylib/anki/stats.py:368
+msgid "Relearn"
+msgstr "重新学习"
+
+#: pylib/anki/stats.py:349 pylib/anki/stats.py:369
+msgid "Learn"
+msgstr "学习"
+
+#: pylib/anki/stats.py:350 pylib/anki/stats.py:370
+msgid "Cram"
+msgstr "强记模式"
+
+#: pylib/anki/stats.py:354
+msgid "Review Count"
+msgstr "复习数量"
+
+#: pylib/anki/stats.py:354
+msgid "The number of questions you have answered."
+msgstr "已经回答的问题的数量。"
+
+#: pylib/anki/stats.py:357 pylib/anki/stats.py:692 pylib/anki/stats.py:800
+msgid "Answers"
+msgstr "答案"
+
+#: pylib/anki/stats.py:357
+msgid "Cumulative Answers"
+msgstr "累计回答"
+
+#: pylib/anki/stats.py:374
+msgid "Minutes"
+msgstr "分钟"
+
+#: pylib/anki/stats.py:377
+msgid "Hours"
+msgstr "小时"
+
+#: pylib/anki/stats.py:380
+msgid "Review Time"
+msgstr "复习时间"
+
+#: pylib/anki/stats.py:380
+msgid "The time taken to answer the questions."
+msgstr "答题用时"
+
+#: pylib/anki/stats.py:382
+#, python-format
+msgid "Cumulative %s"
+msgstr "总和 %s"
+
+#: pylib/anki/stats.py:407
+msgid "Days studied"
+msgstr "打卡天数"
+
+#: pylib/anki/stats.py:408
+#, python-format
+msgid "<b>%(pct)d%%</b> (%(x)s of %(y)s)"
+msgstr "<b>%(pct)d%%</b> (%(x)s 源于 %(y)s)"
+
+#: pylib/anki/stats.py:413
+msgid "hours"
+msgstr "小时"
+
+#: pylib/anki/stats.py:418
+#, python-format
+msgid "%(tot)s %(unit)s"
+msgstr "%(tot)s %(unit)s"
+
+#: pylib/anki/stats.py:423
+msgid "Average for days studied"
+msgstr "平均"
+
+#: pylib/anki/stats.py:427
+msgid "If you studied every day"
+msgstr "如果你每天学习"
+
+#: pylib/anki/stats.py:434
+msgid "Average answer time"
+msgstr "平均回答用时"
+
+#: pylib/anki/stats.py:596
+msgid "Delays until reviews are shown again."
+msgstr "延迟直到复习再次出现。"
+
+#: pylib/anki/stats.py:596
+msgid "Intervals"
+msgstr "间隔"
+
+#: pylib/anki/stats.py:599
+msgid "Percentage"
+msgstr "百分比"
+
+#: pylib/anki/stats.py:618
+msgid "Average interval"
+msgstr "平均间隔"
+
+#: pylib/anki/stats.py:619
+msgid "Longest interval"
+msgstr "最长间隔"
+
+#: pylib/anki/stats.py:681
+msgid "Answer Buttons"
+msgstr "回答按钮"
+
+#: pylib/anki/stats.py:681
+msgid "The number of times you have pressed each button."
+msgstr "按下每个按钮的次数."
+
+#: pylib/anki/stats.py:686 qt/aqt/browser.py:1277 qt/aqt/overview.py:231
+msgid "Learning"
+msgstr "正在进行的课程"
+
+#: pylib/anki/stats.py:713
+#, python-format
+msgid "Correct: <b>%(pct)0.2f%%</b><br>(%(good)d of %(tot)d)"
+msgstr "正确: <b>%(pct)0.2f%%</b><br>(%(good)d of %(tot)d)"
+
+#: pylib/anki/stats.py:791
+msgid "Hourly Breakdown"
+msgstr "每小时的分析"
+
+#: pylib/anki/stats.py:791
+msgid "Review success rate for each hour of the day."
+msgstr "当天每小时的复习成功率"
+
 #: pylib/anki/stats.py:796 pylib/anki/stats.py:818
 msgid "% Correct"
 msgstr "% 正确"
+
+#: pylib/anki/stats.py:809
+msgid "4AM"
+msgstr "上午4点"
+
+#: pylib/anki/stats.py:810
+msgid "10AM"
+msgstr "上午10点"
+
+#: pylib/anki/stats.py:811
+msgid "4PM"
+msgstr "下午4点"
+
+#: pylib/anki/stats.py:812
+msgid "10PM"
+msgstr "下午10点"
+
+#: pylib/anki/stats.py:813
+msgid "3AM"
+msgstr "上午3点"
+
+#: pylib/anki/stats.py:821
+msgid "Hours with less than 30 reviews are not shown."
+msgstr "少于 30 次/h 复习的小时数将不会显示."
+
+#: pylib/anki/stats.py:859
+msgid "Young+Learn"
+msgstr "新的+学习中的"
+
+#: pylib/anki/stats.py:860
+msgid "Unseen"
+msgstr "未看"
+
+#: pylib/anki/stats.py:861
+msgid "Suspended+Buried"
+msgstr "暂停+搁置的"
+
+#: pylib/anki/stats.py:873
+msgid "Total cards"
+msgstr "所有卡片"
+
+#: pylib/anki/stats.py:874
+msgid "Total notes"
+msgstr "所有笔记"
+
+#: pylib/anki/stats.py:877
+msgid "Lowest ease"
+msgstr "最低简易度"
+
+#: pylib/anki/stats.py:878
+msgid "Average ease"
+msgstr "平均简易度"
+
+#: pylib/anki/stats.py:879
+msgid "Highest ease"
+msgstr "最高简易度"
+
+#: pylib/anki/stats.py:882
+msgid "A card's <i>ease</i> is the size of the next interval when you answer \"good\" on a review."
+msgstr "卡片的难易程度衡量了你再次回答“犹豫/想起”的时间间隔的大小。"
+
+#: pylib/anki/stats.py:886 qt/aqt/clayout.py:63
+msgid "Card Types"
+msgstr "卡片类型"
+
+#: pylib/anki/stats.py:886
+msgid "The division of cards in your deck(s)."
+msgstr "牌组中的卡片分布"
+
+#. T: Symbols separating first and second column in a statistics table. Eg in "Total:    3 reviews".
+#: pylib/anki/stats.py:898
+msgid ":"
+msgstr "："
+
+#: pylib/anki/stats.py:941
+#, python-format
+msgid "Generated on %s"
+msgstr "已在 %s 上生成"
+
+#: pylib/anki/stats.py:944
+msgid "whole collection"
+msgstr "全部集合"
+
+#: pylib/anki/stats.py:947
+#, python-format
+msgid "Scope: %s"
+msgstr "范围: %s"
+
+#: pylib/anki/stats.py:949
+#, python-format
+msgid "Period: %s"
+msgstr "周期: %s"
+
+#. T: abbreviation of day
+#: pylib/anki/stats.py:982
+msgid "d"
+msgstr "天"
+
+#. T: abbreviation of week
+#: pylib/anki/stats.py:984
+msgid "w"
+msgstr "周"
+
+#. T: abbreviation of month
+#: pylib/anki/stats.py:986
+msgid "mo"
+msgstr "月"
 
 #: pylib/anki/stats.py:1112
 #, python-format
 msgid "%(a)0.1f %(b)s/day"
 msgstr "%(a)0.1f %(b)s/天"
+
+#: qt/aqt/about.py:86
+msgid "Copied to clipboard"
+msgstr "已复制到剪贴板"
+
+#: qt/aqt/about.py:88
+msgid "Copy Debug Info"
+msgstr "复制调试信息"
+
+#: qt/aqt/about.py:97
+msgid "Anki is a friendly, intelligent spaced learning system. It's free and open source."
+msgstr "Anki是一个基于重复学习原理的记忆软件，简单易用，免费并开源。"
+
+#: qt/aqt/about.py:101
+msgid "Anki is licensed under the AGPL3 license. Please see the license file in the source distribution for more information."
+msgstr "Anki以AGPL3协议发布. 请查看源代码分布中的协议文件获得更多信息."
+
+#: qt/aqt/about.py:104
+#, python-format
+msgid "Version %s"
+msgstr "版本 %s"
+
+#: qt/aqt/about.py:110
+#, python-format
+msgid "<a href='%s'>Visit website</a>"
+msgstr "<a href='%s'>访问网页</a>"
+
+#: qt/aqt/about.py:215
+#, python-format
+msgid "Written by Damien Elmes, with patches, translation,    testing and design from:<p>%(cont)s"
+msgstr "作者：Damien Elmes，补丁﹑翻译、测试及设计：<p>%(cont)s"
+
+#: qt/aqt/about.py:221
+msgid "If you have contributed and are not on this list, please get in touch."
+msgstr "如果你做出了贡献而你的名字却没有出现在这个列表里，请联系我们。"
+
+#: qt/aqt/about.py:225
+msgid "A big thanks to all the people who have provided suggestions, bug reports and donations."
+msgstr "向所有提出过建议，报告过bug以及提供过捐助的人们致谢。"
+
+#: qt/aqt/addcards.py:73
+msgid "Add (shortcut: ctrl+enter)"
+msgstr "添加（快捷键：ctrl+enter）"
+
+#: qt/aqt/addcards.py:79 qt/aqt/clayout.py:384 qt/aqt/utils.py:212
+#: qt/aqt/utils.py:213
+msgid "Help"
+msgstr "帮助"
+
+#: qt/aqt/addcards.py:83
+msgid "History"
+msgstr "历史"
+
+#: qt/aqt/addcards.py:89
+#, python-format
+msgid "Shortcut: %s"
+msgstr "快捷键: %s"
+
+#: qt/aqt/addcards.py:149
+#, python-format
+msgid "Edit \"%s\""
+msgstr "编辑 \"%s\""
+
+#: qt/aqt/addcards.py:154
+msgid "(Note deleted)"
+msgstr "笔记已删除"
+
+#: qt/aqt/addcards.py:169
+msgid "The first field is empty."
+msgstr "首字段为空."
+
+#: qt/aqt/addcards.py:178
+msgid "You have a cloze deletion note type but have not made any cloze deletions. Proceed?"
+msgstr "你有一个完形填空类型的笔记，但是还没有制作任何填空内容。仍然要继续吗?"
+
+#: qt/aqt/addcards.py:232
+msgid "Close and lose current input?"
+msgstr "关闭并放弃当前的输入吗？"
+
+#: qt/aqt/addons.py:280
+#, python-format
+msgid "The following add-ons are incompatible with %(name)s and have been disabled: %(found)s"
+msgstr ""
+"The following add-ons are incompatible with and have been disabled: %(found)s\n"
+"下列扩展组件与 %(name)s 不兼容并已被禁用: %(found)s"
+
+#: qt/aqt/addons.py:313
+msgid " (disabled)"
+msgstr "（禁用）"
+
+#: qt/aqt/addons.py:427
+#, python-format
+msgid ""
+"Unable to update or delete add-on. Please start Anki while holding down the shift key to temporarily disable add-ons, then try again.\n"
+"\n"
+"Debug info: %s"
+msgstr ""
+"无法更新或删除扩展组件。请在按下Shift键的同时打开Anki以临时禁用所有扩展组件，然后重试一次。\n"
+"调试信息: %s"
+
+#: qt/aqt/addons.py:471
+msgid "Corrupt add-on file."
+msgstr "无效的扩展文件。"
+
+#: qt/aqt/addons.py:472
+msgid "Invalid add-on manifest."
+msgstr "无效的附加组件清单"
+
+#: qt/aqt/addons.py:475
+msgid "Unknown error: {}"
+msgstr "未知错误：{}"
+
+#: qt/aqt/addons.py:478
+#, python-format
+msgid "Error downloading <i>%(id)s</i>: %(error)s"
+msgstr "下载错误 <i>%(id)s</i>: %(error)s"
+
+#: qt/aqt/addons.py:480
+#, python-format
+msgid "Error installing <i>%(base)s</i>: %(error)s"
+msgstr "错误安装  <i>%(base)s</i>: %(error)s"
+
+#: qt/aqt/addons.py:491
+#, python-format
+msgid "Downloaded %(fname)s"
+msgstr "下载 %(fname)s 成功"
+
+#: qt/aqt/addons.py:493
+#, python-format
+msgid "Installed %(name)s"
+msgstr "已安装 %(name)s"
+
+#: qt/aqt/addons.py:500
+msgid "The following conflicting add-ons were disabled:"
+msgstr "下列发生冲突的扩展组件已被禁用："
+
+#: qt/aqt/addons.py:507
+msgid "This add-on is not compatible with your version of Anki."
+msgstr "此插件与您Anki的版本不兼容。"
+
+#: qt/aqt/addons.py:746
+msgid "(disabled)"
+msgstr "(已禁止)"
+
+#: qt/aqt/addons.py:748
+#, python-format
+msgid "(requires %s)"
+msgstr "(需要%s)"
+
+#: qt/aqt/addons.py:807
+msgid "Please select a single add-on first."
+msgstr "请先选择一个插件。"
+
+#: qt/aqt/addons.py:823
+msgid "Add-on was not downloaded from AnkiWeb."
+msgstr "插件不是来自 AnkiWeb"
+
+#: qt/aqt/addons.py:845
+#, python-format
+msgid "Delete the %(num)d selected add-on?"
+msgid_plural "Delete the %(num)d selected add-ons?"
+msgstr[0] "删除%(num)d个已选择的插件？"
+
+#: qt/aqt/addons.py:868
+msgid "No updates available."
+msgstr "没有可用更新"
+
+#: qt/aqt/addons.py:872
+msgid "Packaged Anki Add-on"
+msgstr "已打包的Anki扩展组件"
+
+#: qt/aqt/addons.py:874
+msgid "Install Add-on(s)"
+msgstr "安装附加组件"
+
+#: qt/aqt/addons.py:885
+msgid "Checking..."
+msgstr "正在检查..."
+
+#: qt/aqt/addons.py:902
+msgid "Add-on has no configuration."
+msgstr "插件没有配置界面"
+
+#: qt/aqt/addons.py:922
+msgid "Browse Add-ons"
+msgstr "浏览插件"
+
+#: qt/aqt/addons.py:937
+msgid "Invalid code."
+msgstr "代码非法。"
+
+#: qt/aqt/addons.py:1011
+msgid "Invalid code, or add-on not available for your version of Anki."
+msgstr "无效代码，或该插件不支持此版本的 Anki"
+
+#: qt/aqt/addons.py:1014 qt/aqt/editor.py:850
+#, python-format
+msgid "Unexpected response code: %s"
+msgstr "未知响应代码：%s"
+
+#: qt/aqt/addons.py:1017
+msgid "Please check your internet connection."
+msgstr "请检查您的互联网连接。"
+
+#: qt/aqt/addons.py:1024
+msgid "Installed successfully."
+msgstr "安装成功。"
+
+#. T: "%(a)d" is the index of the element currently
+#. downloaded. "%(b)d" is the number of element to download,
+#. and "%(kb)0.2f" is the number of downloaded
+#. kilobytes. This lead for example to "Downloading 3/5
+#. (27KB)"
+#: qt/aqt/addons.py:1094
+#, python-format
+msgid "Downloading %(a)d/%(b)d (%(kb)0.2fKB)..."
+msgstr "下载中 %(a)d/%(b)d (%(kb)0.2fKB)..."
+
+#: qt/aqt/addons.py:1113
+msgid "One or more errors occurred:"
+msgstr "发生一个或多个错误："
+
+#: qt/aqt/addons.py:1115
+msgid "Download complete. Please restart Anki to apply changes."
+msgstr "下载结束。请重启Anki来应用变更。"
+
+#: qt/aqt/addons.py:1268
+msgid "The following add-ons have updates available. Install them now?"
+msgstr "以下插件有更新可用。需要现在安装吗？"
+
+#: qt/aqt/addons.py:1310
+msgid "Restored defaults"
+msgstr "已恢复初始状态"
+
+#: qt/aqt/addons.py:1376
+msgid "Invalid configuration: "
+msgstr "配置无效： "
+
+#: qt/aqt/addons.py:1380
+msgid "Invalid configuration: top level object must be a map"
+msgstr "无效配置：顶层对象必须为map。"
+
+#: qt/aqt/addons.py:1410
+#, python-format
+msgid "<b>Important</b>: As add-ons are programs downloaded from the internet, they are potentially malicious.<b>You should only install add-ons you trust.</b><br><br>Are you sure you want to proceed with the installation of the following Anki add-on(s)?<br><br>%(names)s"
+msgstr "<b>重要</b>: 因为插件来自互联网，有可能会是病毒。<b>您应该只安装您信任的加载项。</b><br><br>您确定要继续安装以下Anki插件吗？<br><br>%(names)s"
+
+#: qt/aqt/addons.py:1420
+msgid "Install Anki add-on"
+msgstr "安装Anki插件"
+
+#: qt/aqt/addons.py:1434
+msgid "<b>Please restart Anki to complete the installation.</b>"
+msgstr "<b>请重新启动Anki来完成安装。</b>"
+
+#: qt/aqt/addons.py:1443
+msgid "Installation complete"
+msgstr "安装结束"
+
+#: qt/aqt/addons.py:1446
+msgid "Please report this to the respective add-on author(s)."
+msgstr "请将此报告给相应的扩展组件开发者"
+
+#: qt/aqt/addons.py:1451
+msgid "Add-on installation error"
+msgstr "插件安装错误"
+
+#: qt/aqt/browser.py:172
+msgid "Add-on"
+msgstr "插件"
+
+#: qt/aqt/browser.py:334 qt/aqt/browser.py:340
+msgid "(new)"
+msgstr "(新)"
+
+#: qt/aqt/browser.py:336
+msgid "(learning)"
+msgstr "正在进行的课程"
+
+#: qt/aqt/browser.py:369
+msgid "(filtered)"
+msgstr "已过滤"
+
+#: qt/aqt/browser.py:624
+#, python-format
+msgid "Preview Selected Card (%s)"
+msgstr "预览选择的卡片 (%s)"
+
+#: qt/aqt/browser.py:740
+msgid "Question"
+msgstr "问题"
+
+#: qt/aqt/browser.py:741
+msgid "Answer"
+msgstr "答案"
+
+#: qt/aqt/browser.py:742
+msgid "Card"
+msgstr "卡片"
+
+#: qt/aqt/browser.py:744
+msgid "Sort Field"
+msgstr "排序字段"
+
+#: qt/aqt/browser.py:745
+msgid "Created"
+msgstr "创建时间"
+
+#: qt/aqt/browser.py:749
+msgid "Interval"
+msgstr "间隔"
+
+#: qt/aqt/browser.py:750
+msgid "Ease"
+msgstr "简易度"
+
+#: qt/aqt/browser.py:753 qt/aqt/browser.py:1299 qt/aqt/editor.py:576
+msgid "Tags"
+msgstr "标签"
+
+#: qt/aqt/browser.py:754
+msgid "Note"
+msgstr "笔记"
+
+#: qt/aqt/browser.py:765
+msgid "<type here to search; hit enter to show current deck>"
+msgstr "<在这里输入进行搜索，点击回车键显示牌组>"
+
+#: qt/aqt/browser.py:826
+#, python-format
+msgid "Browse (%(cur)d card shown; %(sel)s)"
+msgid_plural "Browse (%(cur)d cards shown; %(sel)s)"
+msgstr[0] "浏览  (%(cur)d 已显示的卡片; %(sel)s)"
+
+#: qt/aqt/browser.py:832
+#, python-format
+msgid "%d selected"
+msgid_plural "%d selected"
+msgstr[0] "选中 %d 个"
+
+#: qt/aqt/browser.py:942
+msgid "Sorting on this column is not supported. Please choose another."
+msgstr "不支持该列排序, 请选择另一列."
+
+#: qt/aqt/browser.py:997
+msgid "You must have at least one column."
+msgstr "必须至少有一列."
+
+#: qt/aqt/browser.py:1108 qt/aqt/browser.py:1255
+msgid "Whole Collection"
+msgstr "全部集合"
+
+#: qt/aqt/browser.py:1115 qt/aqt/browser.py:1255
+msgid "Current Deck"
+msgstr "当前牌组"
+
+#: qt/aqt/browser.py:1263
+msgid "Added Today"
+msgstr "今天添加的"
+
+#: qt/aqt/browser.py:1264
+msgid "Studied Today"
+msgstr "今天学习的"
+
+#: qt/aqt/browser.py:1265
+msgid "Again Today"
+msgstr "今天再来一次"
+
+#: qt/aqt/browser.py:1272
+msgid "Card State"
+msgstr "卡片状态"
+
+#: qt/aqt/browser.py:1276 qt/aqt/deckbrowser.py:149 qt/aqt/overview.py:229
+msgid "New"
+msgstr "新建"
+
+#: qt/aqt/browser.py:1281
+msgid "Suspended"
+msgstr "已暂停"
+
+#: qt/aqt/browser.py:1282
+msgid "Buried"
+msgstr "被占用"
+
+#: qt/aqt/browser.py:1288
+msgid "No Flag"
+msgstr "无标注"
+
+#: qt/aqt/browser.py:1289
+msgid "Any Flag"
+msgstr "任何标注"
+
+#: qt/aqt/browser.py:1301
+msgid "Clear Unused"
+msgstr "清除未使用的"
+
+#: qt/aqt/browser.py:1329 qt/aqt/toolbar.py:105
+msgid "Decks"
+msgstr "牌组"
+
+#: qt/aqt/browser.py:1349
+msgid "All Card Types"
+msgstr "所有卡片类型"
 
 #. T: name is a card type name. n it's order in the list of card type.
 #. T: this is shown in browser's filter, when seeing the list of card type of a note type.
@@ -73,40 +2121,86 @@ msgstr "%(a)0.1f %(b)s/天"
 msgid "%(n)d: %(name)s"
 msgstr "%(n)d: %(name)s"
 
-#: pylib/anki/stats.py:418
-#, python-format
-msgid "%(tot)s %(unit)s"
-msgstr "%(tot)s %(unit)s"
+#: qt/aqt/browser.py:1378
+msgid "Remove Current Filter..."
+msgstr "移除当前过滤器…"
 
-#: pylib/anki/stats.py:260 pylib/anki/stats.py:318 qt/aqt/clayout.py:560
-#, python-format
-msgid "%d card"
-msgid_plural "%d cards"
-msgstr[0] "%d张卡片"
+#: qt/aqt/browser.py:1380
+msgid "Save Current Filter..."
+msgstr "保存当前过滤器…"
 
-#: qt/aqt/exporting.py:192
-#, python-format
-msgid "%d card exported."
-msgid_plural "%d cards exported."
-msgstr[0] "导出了%d张卡片"
+#: qt/aqt/browser.py:1393
+msgid "Please give your filter a name:"
+msgstr "请命名您的过滤器："
 
-#: pylib/anki/importing/supermemo_xml.py:202
+#: qt/aqt/browser.py:1404
 #, python-format
-msgid "%d card imported."
-msgid_plural "%d cards imported."
-msgstr[0] "导入了%d张卡片"
+msgid "Remove %s from your saved searches?"
+msgstr "将 %s 从您保存的搜索中移除？"
 
-#: qt/aqt/reviewer.py:90
-#, python-format
-msgid "%d card studied in"
-msgid_plural "%d cards studied in"
-msgstr[0] "学习了%d张卡片，用时"
+#: qt/aqt/browser.py:1493
+msgid "Please select cards from only one note type."
+msgstr "请选择同一种笔记类型的卡片."
 
-#: qt/aqt/deckconf.py:169
+#: qt/aqt/browser.py:1547
+msgid "Delete Notes"
+msgstr "删除笔记"
+
+#: qt/aqt/browser.py:1573
 #, python-format
-msgid "%d deck updated."
-msgid_plural "%d decks updated."
-msgstr[0] "上传了%d个牌组"
+msgid "%d note deleted."
+msgid_plural "%d notes deleted."
+msgstr[0] "删除 %d 条笔记"
+
+#: qt/aqt/browser.py:1593
+msgid "Move Cards"
+msgstr "移动卡片"
+
+#: qt/aqt/browser.py:1594 qt/aqt/browser.py:1606
+msgid "Change Deck"
+msgstr "改变牌组"
+
+#: qt/aqt/browser.py:1603
+msgid "Cards can't be manually moved into a filtered deck."
+msgstr "不能手动移动卡片到过滤牌组"
+
+#: qt/aqt/browser.py:1619
+msgid "Enter tags to add:"
+msgstr "输入要添加的标签："
+
+#: qt/aqt/browser.py:1629
+msgid "Add Tags"
+msgstr "添加标签"
+
+#: qt/aqt/browser.py:1639
+msgid "Delete Tags"
+msgstr "删除标签"
+
+#: qt/aqt/browser.py:1641
+msgid "Enter tags to delete:"
+msgstr "输入要删除的标签："
+
+#: qt/aqt/browser.py:1734
+msgid "Only new cards can be repositioned."
+msgstr "只有新卡片可以被重新定位."
+
+#: qt/aqt/browser.py:1744
+#, python-format
+msgid "Queue top: %d"
+msgstr "队首: %d"
+
+#: qt/aqt/browser.py:1745
+#, python-format
+msgid "Queue bottom: %d"
+msgstr "队尾: %d"
+
+#: qt/aqt/browser.py:1884
+msgid "All Fields"
+msgstr "所有字段"
+
+#: qt/aqt/browser.py:1988 qt/aqt/browser.py:2015
+msgid "Tag Duplicates"
+msgstr "复制标签"
 
 #: qt/aqt/browser.py:1994
 #, python-format
@@ -121,17 +2215,467 @@ msgid "%d note"
 msgid_plural "%d notes"
 msgstr[0] "%d条笔记"
 
-#: pylib/anki/importing/noteimp.py:212
+#: qt/aqt/browser.py:1996
 #, python-format
-msgid "%d note added"
-msgid_plural "%d notes added"
-msgstr[0] "添加了%d条笔记"
+msgid "Found %(a)s across %(b)s."
+msgstr "在 %(b)s 中找到 %(a)s 。"
 
-#: qt/aqt/browser.py:1573
+#: qt/aqt/browser.py:2019
+msgid "duplicate"
+msgstr "复制"
+
+#: qt/aqt/browser.py:2023
+msgid "Notes tagged."
+msgstr "已标注的笔记"
+
+#: qt/aqt/browser.py:2180
+msgid "Nothing"
+msgstr "无"
+
+#: qt/aqt/browser.py:2183
 #, python-format
-msgid "%d note deleted."
-msgid_plural "%d notes deleted."
-msgstr[0] "删除 %d 条笔记"
+msgid "Change %s to:"
+msgstr "将%s改为："
+
+#: qt/aqt/browser.py:2263
+msgid "Any cards mapped to nothing will be deleted. If a note has no remaining cards, it will be lost. Are you sure you want to continue?"
+msgstr "所有孤立的卡片都会被删除，没有保存到卡片中的笔记也会丢失，您确定要继续么？"
+
+#: qt/aqt/clayout.py:69
+#, python-format
+msgid "Card Types for %s"
+msgstr "%s的卡片类型"
+
+#: qt/aqt/clayout.py:243
+#, python-format
+msgid "Cloze %d"
+msgstr "填空题 %d"
+
+#: qt/aqt/clayout.py:394
+msgid "Flip"
+msgstr "翻"
+
+#: qt/aqt/clayout.py:399 qt/aqt/sound.py:599
+msgid "Save"
+msgstr "保存"
+
+#: qt/aqt/clayout.py:405 qt/aqt/overview.py:134 qt/aqt/sound.py:602
+msgid "Cancel"
+msgstr "取消"
+
+#: qt/aqt/clayout.py:551
+msgid "At least one card type is required."
+msgstr "至少需要一个卡片类型"
+
+#: qt/aqt/clayout.py:561
+#, python-format
+msgid "Delete the '%(a)s' card type, and its %(b)s?"
+msgstr "确定删除'%(a)s'卡片类型和它的%(b)s吗？"
+
+#: qt/aqt/clayout.py:586 qt/aqt/deckconf.py:148 qt/aqt/fields.py:97
+#: qt/aqt/main.py:305 qt/aqt/models.py:87
+msgid "New name:"
+msgstr "新名称："
+
+#: qt/aqt/clayout.py:600
+#, python-format
+msgid "Enter new card position (1...%s):"
+msgstr "键入新卡片位置 (1...%s):"
+
+#: qt/aqt/clayout.py:622
+#, python-format
+msgid "Card %d"
+msgstr "卡片 %d"
+
+#: qt/aqt/clayout.py:632
+#, python-format
+msgid "This will create %d card. Proceed?"
+msgid_plural "This will create %d cards. Proceed?"
+msgstr[0] "本次操作将创建 %d 张卡片，继续吗？"
+
+#: qt/aqt/clayout.py:661
+msgid "Anki couldn't find the line between the question and answer. Please adjust the template manually to switch the question and answer."
+msgstr "Anki无法区分问题与答案。请手动调整模版以明确问题与答案。"
+
+#: qt/aqt/clayout.py:676
+msgid "Add Card Type..."
+msgstr "添加卡片类型…"
+
+#: qt/aqt/clayout.py:679
+msgid "Remove Card Type..."
+msgstr "移除卡片类型…"
+
+#: qt/aqt/clayout.py:682
+msgid "Rename Card Type..."
+msgstr "重命名卡片类型…"
+
+#: qt/aqt/clayout.py:685
+msgid "Reposition Card Type..."
+msgstr "改变卡片类型…"
+
+#: qt/aqt/clayout.py:692
+msgid " (on)"
+msgstr "(开)"
+
+#: qt/aqt/clayout.py:694
+msgid " (off)"
+msgstr "(关)"
+
+#: qt/aqt/clayout.py:695
+msgid "Deck Override..."
+msgstr "集合覆盖…"
+
+#: qt/aqt/clayout.py:698
+msgid "Browser Appearance..."
+msgstr "浏览器偏好…"
+
+#: qt/aqt/clayout.py:740
+#, python-format
+msgid "Enter deck to place new %s cards in, or leave blank:"
+msgstr "打开牌组以放入 %s 张新卡片, 或者留空:"
+
+#: qt/aqt/customstudy.py:57
+msgid "OK"
+msgstr "确定"
+
+#: qt/aqt/customstudy.py:71
+#, python-format
+msgid "New cards in deck over today limit: %s"
+msgstr "集合中的新卡片超出今日上限：%s"
+
+#: qt/aqt/customstudy.py:72
+msgid "Increase today's new card limit by"
+msgstr "增加了今天的新卡片上限"
+
+#: qt/aqt/customstudy.py:83
+#, python-format
+msgid "Reviews due in deck over today limit: %s"
+msgstr "集合中到期的复习数量超出今日上限：%s"
+
+#: qt/aqt/customstudy.py:84
+msgid "Increase today's review limit by"
+msgstr "增加了今天的复习卡片上限"
+
+#: qt/aqt/customstudy.py:89
+msgid "Review cards forgotten in last"
+msgstr "复习最后忘记的卡片"
+
+#: qt/aqt/customstudy.py:93
+msgid "Review ahead by"
+msgstr "提前复习按"
+
+#: qt/aqt/customstudy.py:96
+msgid "Preview new cards added in the last"
+msgstr "预览加到最后的新卡片"
+
+#: qt/aqt/customstudy.py:100
+msgid "Select"
+msgstr "选择"
+
+#: qt/aqt/customstudy.py:101
+msgid "cards from the deck"
+msgstr "牌组中的卡片"
+
+#: qt/aqt/customstudy.py:103
+msgid "Choose Tags"
+msgstr "选择标签"
+
+#: qt/aqt/customstudy.py:141 qt/aqt/customstudy.py:153
+msgid "Custom Study Session"
+msgstr "自定义学习进程"
+
+#: qt/aqt/customstudy.py:190
+msgid "No cards matched the criteria you provided."
+msgstr "没有卡片满足你提供的标准."
+
+#: qt/aqt/deckbrowser.py:82
+msgid "Name for deck:"
+msgstr "牌组名字:"
+
+#: qt/aqt/deckbrowser.py:243 qt/aqt/sidebar.py:95
+msgid "Rename Deck"
+msgstr "重命名牌组"
+
+#: qt/aqt/deckbrowser.py:246 qt/aqt/sidebar.py:98 qt/aqt/studydeck.py:151
+msgid "New deck name:"
+msgstr "新牌组名称:"
+
+#: qt/aqt/deckbrowser.py:280
+msgid "Delete Deck"
+msgstr "删除牌组"
+
+#: qt/aqt/deckbrowser.py:289
+#, python-format
+msgid " It has %d card."
+msgid_plural " It has %d cards."
+msgstr[0] " 有 %d张卡片"
+
+#: qt/aqt/deckbrowser.py:296
+#, python-format
+msgid "Are you sure you wish to delete %s?"
+msgstr "您确定要删除%s？"
+
+#: qt/aqt/deckbrowser.py:308
+msgid "Get Shared"
+msgstr "获取牌组"
+
+#: qt/aqt/deckbrowser.py:309
+msgid "Create Deck"
+msgstr "创建牌组"
+
+#: qt/aqt/deckbrowser.py:310
+msgid "Import File"
+msgstr "导入文件"
+
+#: qt/aqt/deckbrowser.py:318 qt/aqt/main.py:765 qt/aqt/overview.py:265
+#: qt/aqt/previewer.py:80 qt/aqt/previewer.py:85 qt/aqt/reviewer.py:573
+#: qt/aqt/reviewer.py:584 qt/aqt/reviewer.py:660 qt/aqt/toolbar.py:107
+#: qt/aqt/toolbar.py:114 qt/aqt/toolbar.py:121 qt/aqt/toolbar.py:128
+#: qt/aqt/toolbar.py:144
+#, python-format
+msgid "Shortcut key: %s"
+msgstr "快捷键: %s"
+
+#: qt/aqt/deckchooser.py:34
+msgid "Target Deck (Ctrl+D)"
+msgstr "目标牌组 (Ctrl+D)"
+
+#: qt/aqt/deckchooser.py:51 qt/aqt/deckchooser.py:55 qt/aqt/deckchooser.py:77
+msgid "Default"
+msgstr "默认"
+
+#: qt/aqt/deckchooser.py:87 qt/aqt/modelchooser.py:84
+msgid "Choose"
+msgstr "选择"
+
+#: qt/aqt/deckchooser.py:88
+msgid "Choose Deck"
+msgstr "选择牌组"
+
+#: qt/aqt/deckconf.py:47 qt/aqt/dyndeckconf.py:28 qt/aqt/models.py:161
+#, python-format
+msgid "Options for %s"
+msgstr "%s 学习计划"
+
+#: qt/aqt/deckconf.py:95
+msgid "Set for all subdecks"
+msgstr "对所有子牌组设置"
+
+#: qt/aqt/deckconf.py:113
+msgid "Your changes will affect multiple decks. If you wish to change only the current deck, please add a new options group first."
+msgstr "你的改变将会影响到很多牌组. 如果你只想要改变当前牌组, 请先添加一个学习计划组."
+
+#: qt/aqt/deckconf.py:121
+msgid "New options group name:"
+msgstr "新学习计划组名称:"
+
+#: qt/aqt/deckconf.py:137
+msgid "The default configuration can't be removed."
+msgstr "默认配置不能被删除."
+
+#: qt/aqt/deckconf.py:159
+#, python-format
+msgid "Set all decks below %s to this option group?"
+msgstr "将所有%s下的牌组设置到这个学习计划组?"
+
+#: qt/aqt/deckconf.py:169
+#, python-format
+msgid "%d deck updated."
+msgid_plural "%d decks updated."
+msgstr[0] "上传了%d个牌组"
+
+#: qt/aqt/deckconf.py:197
+#, python-format
+msgid "(parent limit: %d)"
+msgstr "(父牌组限制: %d)"
+
+#: qt/aqt/deckconf.py:276 qt/aqt/dyndeckconf.py:157
+msgid "Steps must be numbers."
+msgstr "步伐必须是数字."
+
+#: qt/aqt/deckconf.py:279 qt/aqt/dyndeckconf.py:160
+msgid "At least one step is required."
+msgstr "请至少选择一个难易度"
+
+#: qt/aqt/dyndeckconf.py:21
+msgid "Build"
+msgstr "创建动态牌组"
+
+#: qt/aqt/dyndeckconf.py:23 qt/aqt/overview.py:255
+msgid "Rebuild"
+msgstr "重建"
+
+#: qt/aqt/dyndeckconf.py:128
+msgid "The provided search did not match any cards. Would you like to revise it?"
+msgstr "您的搜索不能匹配任何卡片。您愿意修改一下您的"
+
+#: qt/aqt/editcurrent.py:20
+msgid "Edit Current"
+msgstr "编辑当前"
+
+#: qt/aqt/editor.py:125
+msgid "Customize Fields"
+msgstr "自定义字段"
+
+#: qt/aqt/editor.py:133
+msgid "Customize Card Templates (Ctrl+L)"
+msgstr "自定义卡片模板 (Ctrl+L)"
+
+#: qt/aqt/editor.py:143
+msgid "Bold text (Ctrl+B)"
+msgstr "加粗（Ctrl+B）"
+
+#: qt/aqt/editor.py:145
+msgid "Italic text (Ctrl+I)"
+msgstr "斜体 (Ctrl+I)"
+
+#: qt/aqt/editor.py:148
+msgid "Underline text (Ctrl+U)"
+msgstr "下划线 (Ctrl+U)"
+
+#: qt/aqt/editor.py:151
+msgid "Superscript (Ctrl++)"
+msgstr "上标(Ctrl++)"
+
+#: qt/aqt/editor.py:153
+msgid "Subscript (Ctrl+=)"
+msgstr "下标(Ctrl+=)"
+
+#: qt/aqt/editor.py:154
+msgid "Remove formatting (Ctrl+R)"
+msgstr "清除格式 (Ctrl+R)"
+
+#: qt/aqt/editor.py:158
+msgid "Set foreground colour (F7)"
+msgstr "设置前景色 (F7)"
+
+#: qt/aqt/editor.py:168
+msgid "Change colour (F8)"
+msgstr "改变颜色（F8）"
+
+#: qt/aqt/editor.py:174
+msgid "Cloze deletion (Ctrl+Shift+C)"
+msgstr "创建填空 (Ctrl+Shift+C)"
+
+#: qt/aqt/editor.py:176
+msgid "Attach pictures/audio/video (F3)"
+msgstr "附加图片/音频/视频 (F3)"
+
+#: qt/aqt/editor.py:178
+msgid "Record audio (F5)"
+msgstr "录制音频 (F5)"
+
+#: qt/aqt/editor.py:200
+msgid "Show Duplicates"
+msgstr "显示重复"
+
+#: qt/aqt/editor.py:580
+msgid "Jump to tags with Ctrl+Shift+T"
+msgstr "用Ctrl+Shift+T跳到标签"
+
+#: qt/aqt/editor.py:644
+msgid "Warning, cloze deletions will not work until you switch the type at the top to Cloze."
+msgstr "警告，在你把上方的笔记类型改成 \"完形填空\" 之前，你的完形填空的填空内容将不会发挥功能。"
+
+#: qt/aqt/editor.py:651
+msgid "To make a cloze deletion on an existing note, you need to change it to a cloze type first, via 'Notes>Change Note Type'"
+msgstr "要为现有的笔记制作一个挖空，你需要通过“笔记>更改笔记类型”，把笔记更改成填空题的类型。"
+
+#: qt/aqt/editor.py:713
+msgid "Media"
+msgstr "媒体"
+
+#: qt/aqt/editor.py:718
+msgid "Add Media"
+msgstr "添加多媒体文件"
+
+#: qt/aqt/editor.py:751
+msgid "Couldn't record audio. Have you installed 'lame'?"
+msgstr "无法录制音频。您是否已安装“lame”？"
+
+#: qt/aqt/editor.py:856
+#, python-format
+msgid "An error occurred while opening %s"
+msgstr "当打开 %s 时出现一个错误"
+
+#: qt/aqt/editor.py:953
+msgid "MathJax inline"
+msgstr "内联MathJax"
+
+#: qt/aqt/editor.py:954
+msgid "MathJax block"
+msgstr "MathJax 字块"
+
+#: qt/aqt/editor.py:955
+msgid "MathJax chemistry"
+msgstr "MathJax 化学"
+
+#: qt/aqt/editor.py:957
+msgid "LaTeX equation"
+msgstr "LaTeX 公式"
+
+#: qt/aqt/editor.py:958
+msgid "LaTeX math env."
+msgstr "LaTeX数学环境"
+
+#: qt/aqt/editor.py:959
+msgid "Edit HTML"
+msgstr "编辑HTML"
+
+#: qt/aqt/editor.py:1209
+msgid "Cut"
+msgstr "剪切"
+
+#: qt/aqt/editor.py:1211 qt/aqt/webview.py:289
+msgid "Copy"
+msgstr "复制"
+
+#: qt/aqt/editor.py:1213
+msgid "Paste"
+msgstr "粘贴"
+
+#: qt/aqt/errors.py:69
+msgid "Unable to access Anki media folder. The permissions on your system's temporary folder may be incorrect."
+msgstr "无法访问Anki多媒体文件夹。您的系统临时文件夹的权限可能不正确。"
+
+#: qt/aqt/errors.py:82
+msgid "Your firewall or antivirus program is preventing Anki from creating a connection to itself. Please add an exception for Anki."
+msgstr "您的防火墙或杀毒软件阻止了 Anki 创建连接，请将 Anki 添加到白名单中。"
+
+#: qt/aqt/errors.py:88
+msgid "Please connect a microphone, and ensure other programs are not using the audio device."
+msgstr "请连接一个麦克风, 并保证其他程序没有在使用音频设备."
+
+#: qt/aqt/errors.py:99
+msgid "Your computer's storage may be full. Please delete some unneeded files, then try again."
+msgstr "您的电脑存储可能已满。请删除不需要的文件，然后重试一次。"
+
+#: qt/aqt/exporting.py:52
+msgid "All Decks"
+msgstr "所有的牌组"
+
+#: qt/aqt/exporting.py:55
+msgid "Selected Notes"
+msgstr "选择的笔记"
+
+#: qt/aqt/exporting.py:58
+msgid "Export..."
+msgstr "导出..."
+
+#: qt/aqt/exporting.py:145
+#, python-format
+msgid "Couldn't save file: %s"
+msgstr "不能保存文件: %s"
+
+#: qt/aqt/exporting.py:154
+#, python-format
+msgid "Exported %d media file"
+msgid_plural "Exported %d media files"
+msgstr[0] "导出了%d个媒体文件"
+
+#: qt/aqt/exporting.py:177
+msgid "Collection exported."
+msgstr "集合导出成功"
 
 #: qt/aqt/exporting.py:183
 #, python-format
@@ -139,696 +2683,51 @@ msgid "%d note exported."
 msgid_plural "%d notes exported."
 msgstr[0] "导出了%d条笔记"
 
-#: pylib/anki/importing/mnemo.py:105
+#: qt/aqt/exporting.py:192
 #, python-format
-msgid "%d note imported."
-msgid_plural "%d notes imported."
-msgstr[0] "导入了%d条笔记"
+msgid "%d card exported."
+msgid_plural "%d cards exported."
+msgstr[0] "导出了%d张卡片"
 
-#: pylib/anki/importing/noteimp.py:224
+#: qt/aqt/fields.py:27
 #, python-format
-msgid "%d note unchanged"
-msgid_plural "%d notes unchanged"
-msgstr[0] "%d 条笔记不变"
+msgid "Fields for %s"
+msgstr "%s 的字段"
 
-#: pylib/anki/importing/noteimp.py:214
+#: qt/aqt/fields.py:90
+msgid "That field name is already used."
+msgstr "卡片该面的文字已被使用。"
+
+#: qt/aqt/fields.py:110
+msgid "Field name:"
+msgstr "字段名称："
+
+#: qt/aqt/fields.py:123
+msgid "Notes require at least one field."
+msgstr "笔记需要至少一个字段."
+
+#: qt/aqt/fields.py:126
 #, python-format
-msgid "%d note updated"
-msgid_plural "%d notes updated"
-msgstr[0] "更新了%d条笔记"
+msgid "Delete field from %s?"
+msgstr "从 %s 删除字段?"
 
-#: qt/aqt/browser.py:832
+#: qt/aqt/fields.py:140
 #, python-format
-msgid "%d selected"
-msgid_plural "%d selected"
-msgstr[0] "选中 %d 个"
+msgid "New position (1...%d):"
+msgstr "新位置 (1...%d):"
 
-#: pylib/anki/models.py:263
+#: qt/aqt/importing.py:46
 #, python-format
-msgid "%s copy"
-msgstr "%s 复制"
-
-#: qt/aqt/reviewer.py:94
-#, python-format
-msgid "%s minute."
-msgid_plural "%s minutes."
-msgstr[0] "%s 分钟"
-
-#: qt/aqt/main.py:1222
-#, python-format
-msgid "%s second"
-msgid_plural "%s seconds"
-msgstr[0] "%s 秒"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:141
-msgid "&About..."
-msgstr "关于(&A)..."
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:147
-msgid "&Browse and Install..."
-msgstr "浏览&安装(&B)"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:303
-msgid "&Cards"
-msgstr "卡片(&C)"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:148
-msgid "&Check Database"
-msgstr "检查数据库 (&C)"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:318
-msgid "&Cram..."
-msgstr "强记所选卡片(&C)"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:300
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:135
-msgid "&Edit"
-msgstr "编辑(&E)"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:343
-msgid "&Export Notes..."
-msgstr "&导出笔记..."
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:151
-msgid "&Export..."
-msgstr "导出(&E)..."
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:136
-msgid "&File"
-msgstr "文件(&F)"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:310
-msgid "&Find"
-msgstr "查找(&F)"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:301
-msgid "&Go"
-msgstr "选择(&G)"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:314
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:149
-msgid "&Guide..."
-msgstr "用户手册(&G)..."
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:302
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:134
-msgid "&Help"
-msgstr "帮助(&H)"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:152
-msgid "&Import..."
-msgstr "导入(&I)..."
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:328
-msgid "&Info..."
-msgstr "关于(&I)"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:309
-msgid "&Invert Selection"
-msgstr "反向选择(&I)"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:312
-msgid "&Next Card"
-msgstr "下一张卡片(&N)"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:305
-msgid "&Notes"
-msgstr "笔记（&N）"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:145
-msgid "&Open Add-ons Folder..."
-msgstr "打开插件文件夹(&O)"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:139
-msgid "&Preferences..."
-msgstr "首选项(&P)..."
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:313
-msgid "&Previous Card"
-msgstr "前一张卡片(&P)"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:306
-msgid "&Reschedule..."
-msgstr "重设学习进度(&R)"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:146
-msgid "&Support Anki..."
-msgstr "支持Anki(&S)"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:150
-msgid "&Switch Profile"
-msgstr "切换用户(&S)"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:137
-msgid "&Tools"
-msgstr "工具(&T)"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:308
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:142
-msgid "&Undo"
-msgstr "撤销(&U)"
-
-#: pylib/anki/importing/csvfile.py:44
-#, python-format
-msgid "'%(row)s' had %(num1)d fields, expected %(num2)d"
-msgstr "'%(row)s' 行有 %(num1)d 个字段, 预期 %(num2)d"
-
-#: pylib/anki/stats.py:154
-#, python-format
-msgid "(%s correct)"
-msgstr "%s正确"
-
-#: qt/aqt/addcards.py:154
-msgid "(Note deleted)"
-msgstr "笔记已删除"
-
-#: qt/aqt/addons.py:746
-msgid "(disabled)"
-msgstr "(已禁止)"
-
-#: pylib/anki/schedv2.py:1261
-msgid "(end)"
-msgstr "(完成)"
-
-#: qt/aqt/browser.py:369
-msgid "(filtered)"
-msgstr "已过滤"
-
-#: qt/aqt/browser.py:336
-msgid "(learning)"
-msgstr "正在进行的课程"
-
-#: qt/aqt/browser.py:334 qt/aqt/browser.py:340
-msgid "(new)"
-msgstr "(新)"
-
-#: qt/aqt/deckconf.py:197
-#, python-format
-msgid "(parent limit: %d)"
-msgstr "(父牌组限制: %d)"
-
-#: qt/aqt/previewer.py:162
-msgid "(please select 1 card)"
-msgstr "(请选择一张卡片)"
-
-#: qt/aqt/addons.py:748
-#, python-format
-msgid "(requires %s)"
-msgstr "(需要%s)"
-
-#: qt/aqt/importing.py:321
-msgid ".anki files are from a very old version of Anki. You can import them with Anki 2.0, available on the Anki website."
-msgstr ".anki文件来自Anki的一个很久之前的版本。您可以使用Anki网站上的Anki 2.0导入它们。"
-
-#: qt/aqt/importing.py:328
-msgid ".anki2 files are not directly importable - please import the .apkg or .zip file you have received instead."
-msgstr ".anki2文件不可直接导入——请导入您接收到的.apkg或.zip文件。"
-
-#: pylib/anki/stats.py:949
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/stats.py:83
-msgid "1 month"
-msgstr "1个月"
-
-#: pylib/anki/stats.py:949
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/stats.py:84
-msgid "1 year"
-msgstr "1年"
-
-#: pylib/anki/stats.py:810
-msgid "10AM"
-msgstr "上午10点"
-
-#: pylib/anki/stats.py:812
-msgid "10PM"
-msgstr "下午10点"
-
-#: pylib/anki/stats.py:813
-msgid "3AM"
-msgstr "上午3点"
-
-#: pylib/anki/stats.py:809
-msgid "4AM"
-msgstr "上午4点"
-
-#: pylib/anki/stats.py:811
-msgid "4PM"
-msgstr "下午4点"
-
-#. T: Symbols separating first and second column in a statistics table. Eg in "Total:    3 reviews".
-#: pylib/anki/stats.py:898
-msgid ":"
-msgstr "："
-
-#: qt/aqt/about.py:110
-#, python-format
-msgid "<a href='%s'>Visit website</a>"
-msgstr "<a href='%s'>访问网页</a>"
-
-#: pylib/anki/stats.py:408
-#, python-format
-msgid "<b>%(pct)d%%</b> (%(x)s of %(y)s)"
-msgstr "<b>%(pct)d%%</b> (%(x)s 源于 %(y)s)"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/exporting.py:77
-msgid "<b>Export format</b>:"
-msgstr "<b>导出格式</b>"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/findreplace.py:88
-msgid "<b>Find</b>:"
-msgstr "<b>查找</b>"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browseropts.py:73
-msgid "<b>Font Size</b>:"
-msgstr "<b>字体大小</b>:"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browseropts.py:72
-msgid "<b>Font</b>:"
-msgstr "<b>字体</b>:"
-
-#: qt/aqt/addons.py:1410
-#, python-format
-msgid "<b>Important</b>: As add-ons are programs downloaded from the internet, they are potentially malicious.<b>You should only install add-ons you trust.</b><br><br>Are you sure you want to proceed with the installation of the following Anki add-on(s)?<br><br>%(names)s"
-msgstr "<b>重要</b>: 因为插件来自互联网，有可能会是病毒。<b>您应该只安装您信任的加载项。</b><br><br>您确定要继续安装以下Anki插件吗？<br><br>%(names)s"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/findreplace.py:90
-msgid "<b>In</b>:"
-msgstr "<b>选择字段</b>:"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/exporting.py:78
-msgid "<b>Include</b>:"
-msgstr "<b>包含</b>:"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browseropts.py:74
-msgid "<b>Line Size</b>:"
-msgstr "<b>行大小</b>:"
-
-#: qt/aqt/addons.py:1434
-msgid "<b>Please restart Anki to complete the installation.</b>"
-msgstr "<b>请重新启动Anki来完成安装。</b>"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/findreplace.py:89
-msgid "<b>Replace With</b>:"
-msgstr "<b>替换</b>:"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:301
-msgid "<b>Synchronisation</b>"
-msgstr "<b>同步</b>"
-
-#: qt/aqt/preferences.py:188
-msgid ""
-"<b>Synchronization</b><br>\n"
-"Not currently enabled; click the sync button in the main window to enable."
-msgstr ""
-"<b>同步</b><br>\n"
-"尚未启用，点击主界面的同步按钮启用。"
-
-#: qt/aqt/update.py:59
-#, python-format
-msgid "<h1>Anki Updated</h1>Anki %s has been released.<br><br>"
-msgstr "<h1>Anki有更新</h1>Anki %s 发布了。<br><br>"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:307
-#, fuzzy
-msgid "<html><head/><body><p><span style=\" font-weight:600;\">Backups</span><br/>Anki will create a backup of your collection each time it is closed.</p></body></html>"
-msgstr "<b>备份</b><br>每次关闭和同步之后Anki都会对你的集合进行备份"
-
-#: qt/aqt/importing.py:258
-msgid "<ignored>"
-msgstr "<忽略>"
-
-#: qt/aqt/main.py:1537
-msgid "<non-unicode text>"
-msgstr "<非unicode文本>"
-
-#: qt/aqt/browser.py:765
-msgid "<type here to search; hit enter to show current deck>"
-msgstr "<在这里输入进行搜索，点击回车键显示牌组>"
-
-#: qt/aqt/about.py:225
-msgid "A big thanks to all the people who have provided suggestions, bug reports and donations."
-msgstr "向所有提出过建议，报告过bug以及提供过捐助的人们致谢。"
-
-#: pylib/anki/stats.py:882
-msgid "A card's <i>ease</i> is the size of the next interval when you answer \"good\" on a review."
-msgstr "卡片的难易程度衡量了你再次回答“犹豫/想起”的时间间隔的大小。"
-
-#: pylib/anki/importing/csvfile.py:56
-#, python-format
-msgid "Aborted: %s"
-msgstr "失败: %s"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/about.py:45
-msgid "About Anki"
-msgstr "关于Anki"
-
-#: qt/aqt/addcards.py:38 qt/aqt/addcards.py:70 qt/aqt/deckconf.py:89
-#: qt/aqt/models.py:57 qt/aqt/studydeck.py:46 qt/aqt/toolbar.py:112
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addcards.py:60
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:103
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/profiles.py:82
-msgid "Add"
-msgstr "添加"
-
-#: qt/aqt/addcards.py:73
-msgid "Add (shortcut: ctrl+enter)"
-msgstr "添加（快捷键：ctrl+enter）"
-
-#: qt/aqt/clayout.py:676
-msgid "Add Card Type..."
-msgstr "添加卡片类型…"
-
-#: qt/aqt/clayout.py:389
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addfield.py:62
-msgid "Add Field"
-msgstr "添加字段"
-
-#: qt/aqt/editor.py:718
-msgid "Add Media"
-msgstr "添加多媒体文件"
-
-#: qt/aqt/studydeck.py:48
-msgid "Add New Deck (Ctrl+N)"
-msgstr "添加新的牌组"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addmodel.py:46
-msgid "Add Note Type"
-msgstr "添加笔记类型"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:333
-msgid "Add Notes..."
-msgstr "添加笔记…"
-
-#: qt/aqt/browser.py:1629
-msgid "Add Tags"
-msgstr "添加标签"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:329
-msgid "Add Tags..."
-msgstr "添加标签..."
-
-#: qt/aqt/browser.py:172
-msgid "Add-on"
-msgstr "插件"
-
-#: qt/aqt/addons.py:902
-msgid "Add-on has no configuration."
-msgstr "插件没有配置界面"
-
-#: qt/aqt/addons.py:1451
-msgid "Add-on installation error"
-msgstr "插件安装错误"
-
-#: qt/aqt/addons.py:823
-msgid "Add-on was not downloaded from AnkiWeb."
-msgstr "插件不是来自 AnkiWeb"
-
-#: qt/aqt/main.py:1600
-msgid "Add-on will be installed when a profile is opened."
-msgstr "登录个人账户后才能安装插件。"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:157
-msgid "Add-ons"
-msgstr "附加组件"
-
-#: qt/aqt/models.py:212
-#, python-format
-msgid "Add: %s"
-msgstr "添加：%s"
-
-#: pylib/anki/importing/anki2.py:163 pylib/anki/stats.py:309
-#: qt/aqt/addcards.py:202
-msgid "Added"
-msgstr "已添加"
-
-#: qt/aqt/browser.py:1263
-msgid "Added Today"
-msgstr "今天添加的"
-
-#: pylib/anki/importing/noteimp.py:139
-#, python-format
-msgid "Added duplicate with first field: %s"
-msgstr "添加首字段%s的副本"
-
-#: qt/aqt/reviewer.py:629 qt/aqt/reviewer.py:633 qt/aqt/reviewer.py:636
-msgid "Again"
-msgstr "生疏/错误"
-
-#: qt/aqt/browser.py:1265
-msgid "Again Today"
-msgstr "今天再来一次"
-
-#: pylib/anki/stats.py:152
-#, python-format
-msgid "Again count: %s"
-msgstr "重复计数: %s"
-
-#: qt/aqt/overview.py:133
-msgid "All Buried Cards"
-msgstr "所有已焚毁卡片"
-
-#: qt/aqt/browser.py:1349
-msgid "All Card Types"
-msgstr "所有卡片类型"
-
-#: qt/aqt/exporting.py:52
-msgid "All Decks"
-msgstr "所有的牌组"
-
-#: qt/aqt/browser.py:1884
-msgid "All Fields"
-msgstr "所有字段"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:119
-msgid "All cards in random order (don't reschedule)"
-msgstr "随机排列的所有卡（不要重新安排）"
-
-#: qt/aqt/main.py:324
-msgid "All cards, notes, and media for this profile will be deleted. Are you sure?"
-msgstr "该本地帐户下所有的卡片、笔记、多媒体文件都会被删除，你确定么？"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:117
-msgid "All review cards in random order"
-msgstr "随机复习所有卡片"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:112
-msgid "Allow HTML in fields"
-msgstr "允许在字段中使用HTML"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:379
-msgid "Always include question side when replaying audio"
-msgstr "播放音频时总是包括问题面"
-
-#: qt/aqt/editor.py:856
-#, python-format
-msgid "An error occurred while opening %s"
-msgstr "当打开 %s 时出现一个错误"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:133
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/setgroup.py:40
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/setlang.py:41
-msgid "Anki"
-msgstr "Anki"
-
-#: pylib/anki/exporting.py:167
-msgid "Anki 2.0 Deck"
-msgstr "Anki 2.0 版牌组"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:293
-msgid "Anki 2.1 scheduler (beta)"
-msgstr "Anki2.1 记忆算法（测试版）"
-
-#: pylib/anki/exporting.py:398
-msgid "Anki Collection Package"
-msgstr "Anki集合文件"
-
-#: pylib/anki/exporting.py:316
-msgid "Anki Deck Package"
-msgstr "Anki 牌组包"
-
-#: qt/aqt/profiles.py:256
-msgid "Anki could not read your profile data. Window sizes and your sync login details have been forgotten."
-msgstr "Anki无法读取您的资料数据。窗口大小和您的同步登录细节已丢失。"
-
-#: qt/aqt/profiles.py:326
-msgid "Anki could not rename your profile because it could not rename the profile folder on disk. Please ensure you have permission to write to Documents/Anki and no other programs are accessing your profile folders, then try again."
-msgstr "因为Anki不能重命名你的配置文件夹，所以不能重命名你的配置文件。请确定你有文档/Anki文件夹的写权限，同时没有其它程序正在访问你的配置文件目录后，再重试。"
-
-#: qt/aqt/clayout.py:661
-msgid "Anki couldn't find the line between the question and answer. Please adjust the template manually to switch the question and answer."
-msgstr "Anki无法区分问题与答案。请手动调整模版以明确问题与答案。"
-
-#: qt/aqt/about.py:97
-msgid "Anki is a friendly, intelligent spaced learning system. It's free and open source."
-msgstr "Anki是一个基于重复学习原理的记忆软件，简单易用，免费并开源。"
-
-#: qt/aqt/about.py:101
-msgid "Anki is licensed under the AGPL3 license. Please see the license file in the source distribution for more information."
-msgstr "Anki以AGPL3协议发布. 请查看源代码分布中的协议文件获得更多信息."
-
-#: qt/aqt/browser.py:741
-msgid "Answer"
-msgstr "答案"
-
-#: pylib/anki/stats.py:681
-msgid "Answer Buttons"
-msgstr "回答按钮"
-
-#: pylib/anki/stats.py:357 pylib/anki/stats.py:692 pylib/anki/stats.py:800
-msgid "Answers"
-msgstr "答案"
-
-#: qt/aqt/browser.py:1289
-msgid "Any Flag"
-msgstr "任何标注"
-
-#: qt/aqt/browser.py:2263
-msgid "Any cards mapped to nothing will be deleted. If a note has no remaining cards, it will be lost. Are you sure you want to continue?"
-msgstr "所有孤立的卡片都会被删除，没有保存到卡片中的笔记也会丢失，您确定要继续么？"
-
-#: pylib/anki/importing/noteimp.py:161
-#, python-format
-msgid "Appeared twice in file: %s"
-msgstr "在文件%s中出现了两次"
-
-#: qt/aqt/deckbrowser.py:296
-#, python-format
-msgid "Are you sure you wish to delete %s?"
-msgstr "您确定要删除%s？"
-
-#: qt/aqt/clayout.py:551
-msgid "At least one card type is required."
-msgstr "至少需要一个卡片类型"
-
-#: qt/aqt/deckconf.py:279 qt/aqt/dyndeckconf.py:160
-msgid "At least one step is required."
-msgstr "请至少选择一个难易度"
-
-#: qt/aqt/editor.py:176
-msgid "Attach pictures/audio/video (F3)"
-msgstr "附加图片/音频/视频 (F3)"
-
-#: qt/aqt/reviewer.py:737
-msgid "Audio +5s"
-msgstr "音频前进5秒"
-
-#: qt/aqt/reviewer.py:736
-msgid "Audio -5s"
-msgstr "音频后退5秒"
-
-#: qt/aqt/main.py:374
-msgid "Automatic syncing and backups have been disabled while restoring. To enable them again, close the profile or restart Anki."
-msgstr "自动同步和备份已关闭，重启 Anki 以启用。"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:378
-msgid "Automatically play audio"
-msgstr "自动播放音频"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:303
-msgid "Automatically sync on profile open/close"
-msgstr "打开本地帐户时自动同步"
-
-#: pylib/anki/stats.py:252 pylib/anki/stats.py:319
-msgid "Average"
-msgstr "平均"
-
-#: pylib/anki/stats.py:434
-msgid "Average answer time"
-msgstr "平均回答用时"
-
-#: pylib/anki/stats.py:878
-msgid "Average ease"
-msgstr "平均简易度"
-
-#: pylib/anki/stats.py:423
-msgid "Average for days studied"
-msgstr "平均"
-
-#: pylib/anki/stats.py:618
-msgid "Average interval"
-msgstr "平均间隔"
-
-#: qt/aqt/previewer.py:83
-msgid "Back Side Only"
-msgstr "仅背面"
-
-#: qt/aqt/main.py:558
-msgid "Backing Up..."
-msgstr "备份中…"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:313
-msgid "Backups"
-msgstr "备份"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:289
-msgid "Basic"
-msgstr "基础"
-
-#: qt/aqt/browser.py:1287 qt/aqt/reviewer.py:719
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:338
-msgid "Blue Flag"
-msgstr "蓝色标注"
-
-#: qt/aqt/editor.py:143
-msgid "Bold text (Ctrl+B)"
-msgstr "加粗（Ctrl+B）"
-
-#: qt/aqt/toolbar.py:119
-msgid "Browse"
-msgstr "浏览"
-
-#: qt/aqt/browser.py:826
-#, python-format
-msgid "Browse (%(cur)d card shown; %(sel)s)"
-msgid_plural "Browse (%(cur)d cards shown; %(sel)s)"
-msgstr[0] "浏览  (%(cur)d 已显示的卡片; %(sel)s)"
-
-#: qt/aqt/addons.py:922
-msgid "Browse Add-ons"
-msgstr "浏览插件"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browserdisp.py:71
-msgid "Browser Appearance"
-msgstr "浏览器外观"
-
-#: qt/aqt/clayout.py:698
-msgid "Browser Appearance..."
-msgstr "浏览器偏好…"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browseropts.py:71
-msgid "Browser Options"
-msgstr "浏览器选项"
-
-#: qt/aqt/dyndeckconf.py:21
-msgid "Build"
-msgstr "创建动态牌组"
-
-#: qt/aqt/browser.py:1282
-msgid "Buried"
-msgstr "被占用"
-
-#: qt/aqt/overview.py:132
-msgid "Buried Siblings"
-msgstr "搁置的关连卡片"
-
-#: qt/aqt/reviewer.py:824 qt/aqt/reviewer.py:830
-msgid "Bury"
-msgstr "本次不复习"
-
-#: qt/aqt/reviewer.py:727
-msgid "Bury Card"
-msgstr "搁置卡片"
-
-#: qt/aqt/reviewer.py:728
-msgid "Bury Note"
-msgstr "搁置笔记"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:349
-msgid "Bury related new cards until the next day"
-msgstr "搁置相关新卡片到隔日"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:360
-msgid "Bury related reviews until the next day"
-msgstr "搁置相关复习到隔日"
+msgid "Map to %s"
+msgstr "对应到 %s"
+
+#: qt/aqt/importing.py:52
+msgid "Map to Tags"
+msgstr "对应到标签"
+
+#: qt/aqt/importing.py:53
+msgid "Ignore field"
+msgstr "忽略字段"
 
 #: qt/aqt/importing.py:123
 msgid ""
@@ -840,547 +2739,106 @@ msgstr ""
 "制表符，逗号等等。如果Anki未能正确检测字符，你\n"
 "可以在这里输入字符。用“\\t“代表制表符。"
 
-#: qt/aqt/clayout.py:405 qt/aqt/overview.py:134 qt/aqt/sound.py:602
-msgid "Cancel"
-msgstr "取消"
+#: qt/aqt/importing.py:137
+msgid "Multi-character separators are not supported. Please enter one character only."
+msgstr "不支持分隔多个字符，请只输入一个字符。"
 
-#: qt/aqt/browser.py:742
-msgid "Card"
-msgstr "卡片"
-
-#: qt/aqt/clayout.py:622
-#, python-format
-msgid "Card %d"
-msgstr "卡片 %d"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:320
-msgid "Card List"
-msgstr "卡片列表窗口"
-
-#: qt/aqt/browser.py:1272
-msgid "Card State"
-msgstr "卡片状态"
-
-#: pylib/anki/stats.py:886 qt/aqt/clayout.py:63
-msgid "Card Types"
-msgstr "卡片类型"
-
-#: qt/aqt/clayout.py:69
-#, python-format
-msgid "Card Types for %s"
-msgstr "%s的卡片类型"
-
-#: qt/aqt/reviewer.py:827
-msgid "Card buried."
-msgstr "已搁置的卡片"
-
-#: qt/aqt/reviewer.py:804
-msgid "Card suspended."
-msgstr "暂停的卡片"
-
-#: qt/aqt/reviewer.py:685
-msgid "Card was a leech."
-msgstr "子卡片为记忆难点"
-
-#: pylib/anki/stats.py:310 pylib/anki/stats.py:962 qt/aqt/editor.py:134
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/changemodel.py:114
-msgid "Cards"
-msgstr "卡片"
-
-#: qt/aqt/browser.py:1603
-msgid "Cards can't be manually moved into a filtered deck."
-msgstr "不能手动移动卡片到过滤牌组"
-
-#: pylib/anki/exporting.py:95
-msgid "Cards in Plain Text"
-msgstr "纯文本卡片"
-
-#: qt/aqt/overview.py:192
-msgid "Cards will be automatically returned to their original decks after you review them."
-msgstr "卡片在复习完后将会自动回到原来的牌组中。"
-
-#: qt/aqt/models.py:66
-msgid "Cards..."
-msgstr "卡片…"
-
-#: pylib/anki/consts.py:108
-msgid "Center"
-msgstr "居中"
-
-#: qt/aqt/importing.py:260
-msgid "Change"
-msgstr "更改"
-
-#: qt/aqt/browser.py:2183
-#, python-format
-msgid "Change %s to:"
-msgstr "将%s改为："
-
-#: qt/aqt/browser.py:1594 qt/aqt/browser.py:1606
-msgid "Change Deck"
-msgstr "改变牌组"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:334
-msgid "Change Deck..."
-msgstr "改变牌组…"
-
-#: qt/aqt/browser.py:2270
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/changemodel.py:111
-msgid "Change Note Type"
-msgstr "改变笔记类型"
-
-#: qt/aqt/modelchooser.py:44
-msgid "Change Note Type (Ctrl+N)"
-msgstr "改变笔记类型(Ctrl+N)"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:315
-msgid "Change Note Type..."
-msgstr "改变笔记类型…"
-
-#: qt/aqt/editor.py:168
-msgid "Change colour (F8)"
-msgstr "改变颜色（F8）"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:286
-msgid "Change deck depending on note type"
-msgstr "根据笔记类型改变牌组"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:70
-msgid "Changes will take effect when Anki is restarted."
-msgstr "重启 Anki 以应用更改"
-
-#: qt/aqt/preferences.py:120 qt/aqt/preferences.py:250
-msgid "Changes will take effect when you restart Anki."
-msgstr "重启Anki后改变将会生效。"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:143
-msgid "Check &Media..."
-msgstr "检查媒体(&M)..."
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:73
-msgid "Check for Updates"
-msgstr "检查更新"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:144
-msgid "Check the files in the media directory"
-msgstr "检查媒体文件目录中的文件"
-
-#: qt/aqt/addons.py:885
-msgid "Checking..."
-msgstr "正在检查..."
-
-#: qt/aqt/deckchooser.py:87 qt/aqt/modelchooser.py:84
-msgid "Choose"
-msgstr "选择"
-
-#: qt/aqt/deckchooser.py:88
-msgid "Choose Deck"
-msgstr "选择牌组"
-
-#: qt/aqt/modelchooser.py:85
-msgid "Choose Note Type"
-msgstr "选择笔记类型"
-
-#: qt/aqt/customstudy.py:103
-msgid "Choose Tags"
-msgstr "选择标签"
-
-#: qt/aqt/browser.py:1301
-msgid "Clear Unused"
-msgstr "清除未使用的"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:340
-msgid "Clear Unused Tags"
-msgstr "删除未被使用的标签"
-
-#: qt/aqt/models.py:217
-#, python-format
-msgid "Clone: %s"
-msgstr "克隆：%s"
-
-#: qt/aqt/addcards.py:75
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:327
-msgid "Close"
-msgstr "关闭"
-
-#: qt/aqt/addcards.py:232
-msgid "Close and lose current input?"
-msgstr "关闭并放弃当前的输入吗？"
-
-#: qt/aqt/main.py:556
-msgid "Closing..."
-msgstr "关闭中…"
-
-#: qt/aqt/clayout.py:243
-#, python-format
-msgid "Cloze %d"
-msgstr "填空题 %d"
-
-#: qt/aqt/editor.py:174
-msgid "Cloze deletion (Ctrl+Shift+C)"
-msgstr "创建填空 (Ctrl+Shift+C)"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/getaddons.py:52
-msgid "Code:"
-msgstr "代码:"
-
-#: qt/aqt/exporting.py:177
-msgid "Collection exported."
-msgstr "集合导出成功"
-
-#: qt/aqt/importing.py:167
-msgid "Colon"
-msgstr "冒号"
+#: qt/aqt/importing.py:159
+msgid "Tab"
+msgstr "制表符"
 
 #: qt/aqt/importing.py:161
 msgid "Comma"
 msgstr "逗号"
 
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:75
-msgid "Config"
-msgstr "设置"
+#: qt/aqt/importing.py:163 qt/aqt/reviewer.py:584
+msgid "Space"
+msgstr "间隔"
 
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addonconf.py:73
-msgid "Configuration"
-msgstr "设置"
+#: qt/aqt/importing.py:165
+msgid "Semicolon"
+msgstr "分号"
 
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:140
-msgid "Configure interface language and options"
-msgstr "设置界面语言和选项"
+#: qt/aqt/importing.py:167
+msgid "Colon"
+msgstr "冒号"
 
-#: qt/aqt/reviewer.py:96
-msgid "Continue"
-msgstr "继续"
-
-#: qt/aqt/about.py:86
-msgid "Copied to clipboard"
-msgstr "已复制到剪贴板"
-
-#: qt/aqt/editor.py:1211 qt/aqt/webview.py:289
-msgid "Copy"
-msgstr "复制"
-
-#: qt/aqt/about.py:88
-msgid "Copy Debug Info"
-msgstr "复制调试信息"
-
-#: qt/aqt/utils.py:148
-msgid "Copy to Clipboard"
-msgstr "复制到剪贴板"
-
-#: pylib/anki/stats.py:173
+#: qt/aqt/importing.py:170
 #, python-format
-msgid "Correct answers on mature cards: %(a)d/%(b)d (%(c).1f%%)"
-msgstr "熟练卡片的正确答案：%(a)d/%(b)d (%(c).1f%%)"
+msgid "Fields separated by: %s"
+msgstr "字段由%s分割"
 
-#: pylib/anki/stats.py:713
+#: qt/aqt/importing.py:176
+msgid "The first field of the note type must be mapped."
+msgstr "笔记类型的首字段必须被映射."
+
+#: qt/aqt/importing.py:211 qt/aqt/importing.py:524
+msgid "Importing complete."
+msgstr "导入成功。"
+
+#: qt/aqt/importing.py:251
 #, python-format
-msgid "Correct: <b>%(pct)0.2f%%</b><br>(%(good)d of %(tot)d)"
-msgstr "正确: <b>%(pct)0.2f%%</b><br>(%(good)d of %(tot)d)"
+msgid "Field <b>%d</b> of file is:"
+msgstr "文件的第<b>%d</b>字段是:"
 
-#: qt/aqt/addons.py:471
-msgid "Corrupt add-on file."
-msgstr "无效的扩展文件。"
+#: qt/aqt/importing.py:254
+msgid "mapped to <b>Tags</b>"
+msgstr "对应到<b>标签</b>"
 
-#: qt/aqt/editor.py:751
-msgid "Couldn't record audio. Have you installed 'lame'?"
-msgstr "无法录制音频。您是否已安装“lame”？"
-
-#: qt/aqt/exporting.py:145
+#: qt/aqt/importing.py:256
 #, python-format
-msgid "Couldn't save file: %s"
-msgstr "不能保存文件: %s"
+msgid "mapped to <b>%s</b>"
+msgstr "对应到<b>%s</b>"
 
-#: pylib/anki/stats.py:350 pylib/anki/stats.py:370
-msgid "Cram"
-msgstr "强记模式"
+#: qt/aqt/importing.py:258
+msgid "<ignored>"
+msgstr "<忽略>"
 
-#: qt/aqt/deckbrowser.py:309
-msgid "Create Deck"
-msgstr "创建牌组"
+#: qt/aqt/importing.py:260
+msgid "Change"
+msgstr "更改"
 
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:155
-msgid "Create Filtered Deck..."
-msgstr "创建筛选的牌组…"
+#: qt/aqt/importing.py:303
+msgid "Selected file was not in UTF-8 format. Please see the importing section of the manual."
+msgstr "选择的文件不是UTF-8格式的。请查看帮助文档的导入部分。"
 
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/modelopts.py:66
-msgid "Create scalable images with dvisvgm"
-msgstr "用 dvisvgm 创建可缩放的图片"
+#: qt/aqt/importing.py:321
+msgid ".anki files are from a very old version of Anki. You can import them with Anki 2.0, available on the Anki website."
+msgstr ".anki文件来自Anki的一个很久之前的版本。您可以使用Anki网站上的Anki 2.0导入它们。"
 
-#: qt/aqt/browser.py:745
-msgid "Created"
-msgstr "创建时间"
+#: qt/aqt/importing.py:328
+msgid ".anki2 files are not directly importable - please import the .apkg or .zip file you have received instead."
+msgstr ".anki2文件不可直接导入——请导入您接收到的.apkg或.zip文件。"
 
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:344
-msgid "Ctrl+Shift+E"
-msgstr "Ctrl+Shift+E"
+#: qt/aqt/importing.py:367
+msgid "Unknown file format."
+msgstr "未知的文件格式."
 
-#: pylib/anki/stats.py:221
-msgid "Cumulative"
-msgstr "累计"
+#: qt/aqt/importing.py:403
+msgid "    Invalid file. Please restore from backup."
+msgstr "无效文件。请从备份恢复。"
 
-#: pylib/anki/stats.py:382
+#: qt/aqt/importing.py:412
+msgid "    Unable to import from a read-only file."
+msgstr "不能从只读文件中导入。"
+
+#: qt/aqt/importing.py:434
+msgid "This file does not appear to be a valid .apkg file. If you're getting this error from a file downloaded from AnkiWeb, chances are that your download failed. Please try again, and if the problem persists, please try again with a different browser."
+msgstr "这个文件不是可用的.apkg文件。如果您是从AnkiWeb下载的这个文件，有可能是您的下载失败了，请重试。如果问题依旧存在，请换一个不同的浏览器重试。"
+
+#: qt/aqt/importing.py:454
+msgid "This will delete your existing collection and replace it with the data in the file you're importing. Are you sure?"
+msgstr "这将会删除你现有的集合并将它替换为你导入的文件中的集合. 是否确认?"
+
+#: qt/aqt/importing.py:494
 #, python-format
-msgid "Cumulative %s"
-msgstr "总和 %s"
+msgid "Processed %d media file"
+msgid_plural "Processed %d media files"
+msgstr[0] "已处理%d个媒体文件"
 
-#: pylib/anki/stats.py:357
-msgid "Cumulative Answers"
-msgstr "累计回答"
-
-#: pylib/anki/stats.py:236 pylib/anki/stats.py:310
-msgid "Cumulative Cards"
-msgstr "累计卡片"
-
-#: qt/aqt/browser.py:1115 qt/aqt/browser.py:1255
-msgid "Current Deck"
-msgstr "当前牌组"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/changemodel.py:112
-msgid "Current note type:"
-msgstr "当前笔记类型："
-
-#: qt/aqt/overview.py:258
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:103
-msgid "Custom Study"
-msgstr "自定义学习"
-
-#: qt/aqt/customstudy.py:141 qt/aqt/customstudy.py:153
-msgid "Custom Study Session"
-msgstr "自定义学习进程"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:149
-msgid "Custom steps (in minutes)"
-msgstr "自定义步长（以分钟计）"
-
-#: qt/aqt/editor.py:133
-msgid "Customize Card Templates (Ctrl+L)"
-msgstr "自定义卡片模板 (Ctrl+L)"
-
-#: qt/aqt/editor.py:125
-msgid "Customize Fields"
-msgstr "自定义字段"
-
-#: qt/aqt/editor.py:1209
-msgid "Cut"
-msgstr "剪切"
-
-#: pylib/anki/stats.py:407
-msgid "Days studied"
-msgstr "打卡天数"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/debug.py:56
-msgid "Debug Console"
-msgstr "调试控制台："
-
-#: qt/aqt/browser.py:743 qt/aqt/deckbrowser.py:147 qt/aqt/deckchooser.py:29
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:108
-msgid "Deck"
-msgstr "牌组"
-
-#: qt/aqt/clayout.py:695
-msgid "Deck Override..."
-msgstr "集合覆盖…"
-
-#: qt/aqt/main.py:1602
-msgid "Deck will be imported when a profile is opened."
-msgstr "当一个本地用户被打开时牌组将会被导入。"
-
-#: qt/aqt/browser.py:1329 qt/aqt/toolbar.py:105
-msgid "Decks"
-msgstr "牌组"
-
-#: pylib/anki/consts.py:119
-msgid "Decreasing intervals"
-msgstr "降低间隔"
-
-#: qt/aqt/deckchooser.py:51 qt/aqt/deckchooser.py:55 qt/aqt/deckchooser.py:77
-msgid "Default"
-msgstr "默认"
-
-#: pylib/anki/stats.py:596
-msgid "Delays until reviews are shown again."
-msgstr "延迟直到复习再次出现。"
-
-#: qt/aqt/deckbrowser.py:234 qt/aqt/deckconf.py:91 qt/aqt/models.py:59
-#: qt/aqt/reviewer.py:812
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:78
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:332
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:104
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/profiles.py:84
-msgid "Delete"
-msgstr "删除"
-
-#: qt/aqt/deckbrowser.py:280
-msgid "Delete Deck"
-msgstr "删除牌组"
-
-#: qt/aqt/reviewer.py:731
-msgid "Delete Note"
-msgstr "删除笔记"
-
-#: qt/aqt/browser.py:1547
-msgid "Delete Notes"
-msgstr "删除笔记"
-
-#: qt/aqt/browser.py:1639
-msgid "Delete Tags"
-msgstr "删除标签"
-
-#: qt/aqt/fields.py:126
-#, python-format
-msgid "Delete field from %s?"
-msgstr "从 %s 删除字段?"
-
-#: qt/aqt/addons.py:845
-#, python-format
-msgid "Delete the %(num)d selected add-on?"
-msgid_plural "Delete the %(num)d selected add-ons?"
-msgstr[0] "删除%(num)d个已选择的插件？"
-
-#: qt/aqt/clayout.py:561
-#, python-format
-msgid "Delete the '%(a)s' card type, and its %(b)s?"
-msgstr "确定删除'%(a)s'卡片类型和它的%(b)s吗？"
-
-#: qt/aqt/models.py:134
-msgid "Delete this note type and all its cards?"
-msgstr "删除该笔记类型及其所有卡片?"
-
-#: qt/aqt/models.py:136
-msgid "Delete this unused note type?"
-msgstr "删除该未使用的笔记类型?"
-
-#: qt/aqt/overview.py:197
-msgid "Deleting this deck from the deck list will return all remaining cards to their original deck."
-msgstr "从牌组列表删除这个牌组将会把所有剩余卡片移动回原始牌组中去。"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:382
-msgid "Description"
-msgstr "描述"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:381
-msgid "Description to show on overview screen, for current deck:"
-msgstr "显示在概览界面上的当前牌组的描述："
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:135
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/editaddon.py:42
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/editcurrent.py:43
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/progress.py:42
-msgid "Dialog"
-msgstr "对话"
-
-#: qt/aqt/addons.py:1115
-msgid "Download complete. Please restart Anki to apply changes."
-msgstr "下载结束。请重启Anki来应用变更。"
-
-#: qt/aqt/addons.py:491
-#, python-format
-msgid "Downloaded %(fname)s"
-msgstr "下载 %(fname)s 成功"
-
-#. T: "%(a)d" is the index of the element currently
-#. downloaded. "%(b)d" is the number of element to download,
-#. and "%(kb)0.2f" is the number of downloaded
-#. kilobytes. This lead for example to "Downloading 3/5
-#. (27KB)"
-#: qt/aqt/addons.py:1094
-#, python-format
-msgid "Downloading %(a)d/%(b)d (%(kb)0.2fKB)..."
-msgstr "下载中 %(a)d/%(b)d (%(kb)0.2fKB)..."
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:115
-msgid "Due cards only"
-msgstr "仅到期卡片"
-
-#: pylib/anki/stats.py:261
-msgid "Due tomorrow"
-msgstr "明天到期"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:138
-msgid "E&xit"
-msgstr "退出(&X)"
-
-#: qt/aqt/browser.py:750
-msgid "Ease"
-msgstr "简易度"
-
-#: qt/aqt/reviewer.py:633 qt/aqt/reviewer.py:639
-msgid "Easy"
-msgstr "顺利/正确"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:353
-msgid "Easy bonus"
-msgstr "简单奖励"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:345
-msgid "Easy interval"
-msgstr "简单间隔"
-
-#: qt/aqt/reviewer.py:572
-msgid "Edit"
-msgstr "编辑"
-
-#: qt/aqt/addcards.py:149
-#, python-format
-msgid "Edit \"%s\""
-msgstr "编辑 \"%s\""
-
-#: qt/aqt/editcurrent.py:20
-msgid "Edit Current"
-msgstr "编辑当前"
-
-#: qt/aqt/editor.py:959
-msgid "Edit HTML"
-msgstr "编辑HTML"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:107
-msgid "Editing Font"
-msgstr "编辑字体"
-
-#: qt/aqt/overview.py:256
-msgid "Empty"
-msgstr "空"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:154
-msgid "Empty Cards..."
-msgstr "空卡片..."
-
-#: pylib/anki/importing/noteimp.py:156
-#, python-format
-msgid "Empty first field: %s"
-msgstr "首字段: %s 为空"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:146
-msgid "Enable second filter"
-msgstr "使用第二个过滤器"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:326
-msgid "End"
-msgstr "结束"
-
-#: qt/aqt/clayout.py:740
-#, python-format
-msgid "Enter deck to place new %s cards in, or leave blank:"
-msgstr "打开牌组以放入 %s 张新卡片, 或者留空:"
-
-#: qt/aqt/clayout.py:600
-#, python-format
-msgid "Enter new card position (1...%s):"
-msgstr "键入新卡片位置 (1...%s):"
-
-#: qt/aqt/browser.py:1619
-msgid "Enter tags to add:"
-msgstr "输入要添加的标签："
-
-#: qt/aqt/browser.py:1641
-msgid "Enter tags to delete:"
-msgstr "输入要删除的标签："
-
-#: qt/aqt/addons.py:478
-#, python-format
-msgid "Error downloading <i>%(id)s</i>: %(error)s"
-msgstr "下载错误 <i>%(id)s</i>: %(error)s"
+#: qt/aqt/importing.py:516
+msgid "The provided file is not a valid .apkg file."
+msgstr "提供的文件不是正确 . apkg文件。"
 
 #: qt/aqt/main.py:123
 #, python-format
@@ -1391,317 +2849,98 @@ msgstr ""
 "启动时出错:\n"
 "%s"
 
-#: pylib/anki/latex.py:176
+#: qt/aqt/main.py:129
+msgid "Shift key was held down. Skipping automatic syncing and add-on loading."
+msgstr "Shift键被按住。跳过自动同步以及插件加载。"
+
+#: qt/aqt/main.py:294 qt/aqt/models.py:123
+msgid "Name:"
+msgstr "名称:"
+
+#: qt/aqt/main.py:297 qt/aqt/main.py:311
+msgid "Name exists."
+msgstr "姓名存在."
+
+#: qt/aqt/main.py:320
+msgid "There must be at least one profile."
+msgstr "必须有至少一个个人配置文件."
+
+#: qt/aqt/main.py:324
+msgid "All cards, notes, and media for this profile will be deleted. Are you sure?"
+msgstr "该本地帐户下所有的卡片、笔记、多媒体文件都会被删除，你确定么？"
+
+#: qt/aqt/main.py:338
+msgid "Replace your collection with an earlier backup?"
+msgstr "用较早的备份替换现有的集合吗？"
+
+#: qt/aqt/main.py:351
+msgid "Revert to backup"
+msgstr "恢复备份"
+
+#: qt/aqt/main.py:364
+msgid "Unable to move existing file to trash - please try restarting your computer."
+msgstr "无法删除现存的文件 - 请重启您的电脑。"
+
+#: qt/aqt/main.py:374
+msgid "Automatic syncing and backups have been disabled while restoring. To enable them again, close the profile or restart Anki."
+msgstr "自动同步和备份已关闭，重启 Anki 以启用。"
+
+#: qt/aqt/main.py:556
+msgid "Closing..."
+msgstr "关闭中…"
+
+#: qt/aqt/main.py:558
+msgid "Backing Up..."
+msgstr "备份中…"
+
+#: qt/aqt/main.py:578
+msgid "Your collection file appears to be corrupt. This can happen when the file is copied or moved while Anki is open, or when the collection is stored on a network or cloud drive. If problems persist after restarting your computer, please open an automatic backup from the profile screen."
+msgstr "您的集合文件似乎已损坏。当Anki还在运行时就拷贝文件或者将其存储于网络或云存储时就会发生这种情况。如果在重启电脑后问题依旧存在，请在资料页面打开一个自动备份。"
+
+#: qt/aqt/main.py:644
+msgid "Optimizing..."
+msgstr "优化中..."
+
+#: qt/aqt/main.py:675
+msgid "Please select a deck."
+msgstr "请选择一个牌组."
+
+#: qt/aqt/main.py:735
+msgid "Waiting for editing to finish."
+msgstr "等待编辑完成."
+
+#: qt/aqt/main.py:736
+msgid "Resume Now"
+msgstr "现在恢复"
+
+#: qt/aqt/main.py:1036
 #, python-format
-msgid "Error executing %s."
-msgstr "执行 %s 错误。"
+msgid "Reverted to state prior to '%s'."
+msgstr "返回到\"%s\"之前的状态。"
 
-#: qt/aqt/addons.py:480
+#: qt/aqt/main.py:1042
 #, python-format
-msgid "Error installing <i>%(base)s</i>: %(error)s"
-msgstr "错误安装  <i>%(base)s</i>: %(error)s"
+msgid "Undo %s"
+msgstr "撤销 %s"
 
-#: qt/aqt/sound.py:502
-#, python-format
-msgid "Error running %s"
-msgstr "运行 %s 出错"
+#: qt/aqt/main.py:1046
+msgid "Undo"
+msgstr "撤销"
 
-#: qt/aqt/deckbrowser.py:232 qt/aqt/exporting.py:124
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/exporting.py:76
-msgid "Export"
-msgstr "导出"
-
-#: qt/aqt/exporting.py:58
-msgid "Export..."
-msgstr "导出..."
-
-#: qt/aqt/exporting.py:154
-#, python-format
-msgid "Exported %d media file"
-msgid_plural "Exported %d media files"
-msgstr[0] "导出了%d个媒体文件"
-
-#: qt/aqt/importing.py:251
-#, python-format
-msgid "Field <b>%d</b> of file is:"
-msgstr "文件的第<b>%d</b>字段是:"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:114
-msgid "Field mapping"
-msgstr "字段对应"
-
-#: qt/aqt/fields.py:110
-msgid "Field name:"
-msgstr "字段名称："
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addfield.py:63
-msgid "Field:"
-msgstr "字段："
-
-#: qt/aqt/editor.py:126 qt/aqt/fields.py:23
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/changemodel.py:115
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:102
-msgid "Fields"
-msgstr "字段"
-
-#: qt/aqt/fields.py:27
-#, python-format
-msgid "Fields for %s"
-msgstr "%s 的字段"
-
-#: qt/aqt/importing.py:170
-#, python-format
-msgid "Fields separated by: %s"
-msgstr "字段由%s分割"
-
-#: qt/aqt/models.py:65
-msgid "Fields..."
-msgstr "字段..."
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:319
-msgid "Fil&ter"
-msgstr "过滤器 (&T)"
-
-#: pylib/anki/importing/mnemo.py:24
-msgid "File version unknown, trying import anyway."
-msgstr "文件版本未知，仍尝试导入。"
-
-#: qt/aqt/browser.py:1319
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:136
-msgid "Filter"
-msgstr "过滤器"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:140
-msgid "Filter 2"
-msgstr "过滤器2"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:299
-msgid "Filter..."
-msgstr "过滤..."
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/studydeck.py:48
-msgid "Filter:"
-msgstr "过滤器:"
+#: qt/aqt/main.py:1122
+msgid "Please use File>Import to import this file."
+msgstr "请使用 文件>导入 来导入这个文件."
 
 #: qt/aqt/main.py:1164 qt/aqt/main.py:1166
 #, python-format
 msgid "Filtered Deck %d"
 msgstr "筛选牌组%d"
 
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:321
-msgid "Find &Duplicates..."
-msgstr "查找重复(&D)"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/finddupes.py:71
-msgid "Find Duplicates"
-msgstr "查找重复"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:317
-msgid "Find and Re&place..."
-msgstr "查找替换(&P)"
-
-#: qt/aqt/browser.py:1909
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/findreplace.py:87
-msgid "Find and Replace"
-msgstr "查找替换"
-
-#: qt/aqt/reviewer.py:95
-msgid "Finish"
-msgstr "结束"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:323
-msgid "First Card"
-msgstr "第一张卡片"
-
-#: pylib/anki/importing/noteimp.py:138
+#: qt/aqt/main.py:1222
 #, python-format
-msgid "First field matched: %s"
-msgstr "首字段匹配的: %s"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:304
-msgid "Flag"
-msgstr "标注"
-
-#: qt/aqt/reviewer.py:698
-msgid "Flag Card"
-msgstr "已标注的卡片"
-
-#: qt/aqt/clayout.py:394
-msgid "Flip"
-msgstr "翻"
-
-#: qt/aqt/profiles.py:312
-msgid "Folder already exists."
-msgstr "文件夹已存在."
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addfield.py:65
-msgid "Font:"
-msgstr "字体："
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/modelopts.py:68
-msgid "Footer"
-msgstr "底部"
-
-#: pylib/anki/latex.py:134
-#, python-format
-msgid "For security reasons, '%s' is not allowed on cards. You can still use it by placing the command in a different package, and importing that package in the LaTeX header instead."
-msgstr "出于安全考虑, '%s' 不允许出现在卡片中. 你依然可以通过把命令放在不同的包中使用, 然后通过在LaTeX文件头中导入包的方式来替代."
-
-#: pylib/anki/stats.py:228
-msgid "Forecast"
-msgstr "预测"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/clayout_top.py:54
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/template.py:73
-msgid "Form"
-msgstr "表格"
-
-#: qt/aqt/browser.py:1996
-#, python-format
-msgid "Found %(a)s across %(b)s."
-msgstr "在 %(b)s 中找到 %(a)s 。"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:380
-msgid "General"
-msgstr "总体"
-
-#: pylib/anki/latex.py:177
-#, python-format
-msgid "Generated file: %s"
-msgstr "生成文件: %s"
-
-#: pylib/anki/stats.py:941
-#, python-format
-msgid "Generated on %s"
-msgstr "已在 %s 上生成"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:71
-msgid "Get Add-ons..."
-msgstr "获取插件…"
-
-#: qt/aqt/deckbrowser.py:308
-msgid "Get Shared"
-msgstr "获取牌组"
-
-#: qt/aqt/reviewer.py:630 qt/aqt/reviewer.py:633 qt/aqt/reviewer.py:638
-msgid "Good"
-msgstr "犹豫/想起"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:346
-msgid "Graduating interval"
-msgstr "毕业间隔"
-
-#: qt/aqt/browser.py:1286 qt/aqt/reviewer.py:713
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:337
-msgid "Green Flag"
-msgstr "绿色标注"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/edithtml.py:39
-msgid "HTML Editor"
-msgstr "HTML编辑器"
-
-#: qt/aqt/reviewer.py:637
-msgid "Hard"
-msgstr "困难/模糊"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:361
-msgid "Hard interval"
-msgstr "困难间隔"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:279
-msgid "Hardware acceleration (faster, may cause display issues)"
-msgstr "硬件加速（更快速，可能导致显示问题）"
-
-#: pylib/anki/latex.py:185
-msgid "Have you installed latex and dvipng/dvisvgm?"
-msgstr "您是否安装了 Latex 和dvipng/dvisvgm？"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/modelopts.py:67
-msgid "Header"
-msgstr "头部"
-
-#: qt/aqt/addcards.py:79 qt/aqt/clayout.py:384 qt/aqt/utils.py:212
-#: qt/aqt/utils.py:213
-msgid "Help"
-msgstr "帮助"
-
-#: pylib/anki/stats.py:879
-msgid "Highest ease"
-msgstr "最高简易度"
-
-#: qt/aqt/addcards.py:83
-msgid "History"
-msgstr "历史"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:324
-msgid "Home"
-msgstr "首页"
-
-#: pylib/anki/stats.py:791
-msgid "Hourly Breakdown"
-msgstr "每小时的分析"
-
-#: pylib/anki/stats.py:377
-msgid "Hours"
-msgstr "小时"
-
-#: pylib/anki/stats.py:821
-msgid "Hours with less than 30 reviews are not shown."
-msgstr "少于 30 次/h 复习的小时数将不会显示."
-
-#: pylib/anki/importing/anki2.py:166
-msgid "Identical"
-msgstr "相同的"
-
-#: qt/aqt/about.py:221
-msgid "If you have contributed and are not on this list, please get in touch."
-msgstr "如果你做出了贡献而你的名字却没有出现在这个列表里，请联系我们。"
-
-#: pylib/anki/stats.py:427
-msgid "If you studied every day"
-msgstr "如果你每天学习"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:375
-msgid "Ignore answer times longer than"
-msgstr "忽略回答时间长于"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/findreplace.py:92
-msgid "Ignore case"
-msgstr "忽略大小写"
-
-#: qt/aqt/importing.py:53
-msgid "Ignore field"
-msgstr "忽略字段"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:110
-msgid "Ignore lines where first field matches existing note"
-msgstr "当首字段匹配时忽略现有笔记"
-
-#: qt/aqt/update.py:64
-msgid "Ignore this update"
-msgstr "忽略这次更新"
-
-#: qt/aqt/importing.py:103 qt/aqt/importing.py:189 qt/aqt/importing.py:311
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/changemap.py:43
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:105
-msgid "Import"
-msgstr "导入"
-
-#: qt/aqt/deckbrowser.py:310
-msgid "Import File"
-msgstr "导入文件"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:111
-msgid "Import even if existing note has same first field"
-msgstr "即使现有笔记含有相同首字段亦导入。"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:106
-msgid "Import options"
-msgstr "导入选项"
-
-#: qt/aqt/importing.py:211 qt/aqt/importing.py:524
-msgid "Importing complete."
-msgstr "导入成功。"
+msgid "%s second"
+msgid_plural "%s seconds"
+msgstr[0] "%s 秒"
 
 #: qt/aqt/main.py:1225
 #, python-format
@@ -1730,1011 +2969,155 @@ msgstr ""
 "\n"
 "和正确时间的差异: %s."
 
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/exporting.py:82
-msgid "Include HTML and media references"
-msgstr "包括HTML和文件引用"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/exporting.py:80
-msgid "Include media"
-msgstr "包含媒体文件"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/exporting.py:79
-msgid "Include scheduling information"
-msgstr "包含学习进度信息"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/exporting.py:81
-msgid "Include tags"
-msgstr "包含标签"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:106
-msgid "Increase today's new card limit"
-msgstr "增加今天的新卡片上限"
-
-#: qt/aqt/customstudy.py:72
-msgid "Increase today's new card limit by"
-msgstr "增加了今天的新卡片上限"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:107
-msgid "Increase today's review card limit"
-msgstr "增加今天的复习卡片上限"
-
-#: qt/aqt/customstudy.py:84
-msgid "Increase today's review limit by"
-msgstr "增加了今天的复习卡片上限"
-
-#: pylib/anki/consts.py:118
-msgid "Increasing intervals"
-msgstr "增加间隔"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/getaddons.py:50
-msgid "Install Add-on"
-msgstr "安装插件"
-
-#: qt/aqt/addons.py:874
-msgid "Install Add-on(s)"
-msgstr "安装附加组件"
-
-#: qt/aqt/addons.py:1420
-msgid "Install Anki add-on"
-msgstr "安装Anki插件"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:72
-msgid "Install from file..."
-msgstr "从文件安装..."
-
-#: qt/aqt/addons.py:1443
-msgid "Installation complete"
-msgstr "安装结束"
-
-#: qt/aqt/addons.py:493
-#, python-format
-msgid "Installed %(name)s"
-msgstr "已安装 %(name)s"
-
-#: qt/aqt/addons.py:1024
-msgid "Installed successfully."
-msgstr "安装成功。"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/setlang.py:42
-msgid "Interface language:"
-msgstr "界面语言:"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:281
-msgid "Interrupt current audio when answering"
-msgstr "回答卡片时中断当前音频播放"
-
-#: qt/aqt/browser.py:749
-msgid "Interval"
-msgstr "间隔"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:355
-msgid "Interval modifier"
-msgstr "间隔调节系数"
-
-#: pylib/anki/stats.py:596
-msgid "Intervals"
-msgstr "间隔"
-
-#: qt/aqt/addons.py:472
-msgid "Invalid add-on manifest."
-msgstr "无效的附加组件清单"
-
-#: qt/aqt/addons.py:1011
-msgid "Invalid code, or add-on not available for your version of Anki."
-msgstr "无效代码，或该插件不支持此版本的 Anki"
-
-#: qt/aqt/addons.py:937
-msgid "Invalid code."
-msgstr "代码非法。"
-
-#: qt/aqt/addons.py:1376
-msgid "Invalid configuration: "
-msgstr "配置无效： "
-
-#: qt/aqt/addons.py:1380
-msgid "Invalid configuration: top level object must be a map"
-msgstr "无效配置：顶层对象必须为map。"
-
 #: qt/aqt/main.py:1288
 msgid "Invalid property found on card. Please use Tools>Check Database, and if the problem comes up again, please ask on the support site."
 msgstr "在卡片中发现无效属性。请使用 工具>检查数据库，如果该问题仍存在，请到网站寻求帮助。"
 
-#: qt/aqt/reviewer.py:687
-msgid "It has been suspended."
-msgstr "已经被暂停."
-
-#: qt/aqt/editor.py:145
-msgid "Italic text (Ctrl+I)"
-msgstr "斜体 (Ctrl+I)"
-
-#: qt/aqt/editor.py:580
-msgid "Jump to tags with Ctrl+Shift+T"
-msgstr "用Ctrl+Shift+T跳到标签"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:308
-msgid "Keep"
-msgstr "保留"
-
-#: qt/aqt/editor.py:956
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/modelopts.py:69
-msgid "LaTeX"
-msgstr "LaTeX"
-
-#: qt/aqt/editor.py:957
-msgid "LaTeX equation"
-msgstr "LaTeX 公式"
-
-#: qt/aqt/editor.py:958
-msgid "LaTeX math env."
-msgstr "LaTeX数学环境"
-
-#: qt/aqt/browser.py:752
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:374
-msgid "Lapses"
-msgstr "遗忘次数"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:325
-msgid "Last Card"
-msgstr "最后一张卡片"
-
-#: pylib/anki/consts.py:123
-msgid "Latest added first"
-msgstr "最后添加的先复习"
-
-#: pylib/anki/stats.py:349 pylib/anki/stats.py:369
-msgid "Learn"
-msgstr "学习"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:297
-msgid "Learn ahead limit"
-msgstr "先学习的上限"
-
-#: pylib/anki/stats.py:160
-#, python-format
-msgid "Learn: %(a)s, Review: %(b)s, Relearn: %(c)s, Filtered: %(d)s"
-msgstr "学习: %(a)s, 复习: %(b)s, 重新学习: %(c)s, 已过滤: %(d)s"
-
-#: pylib/anki/stats.py:686 qt/aqt/browser.py:1277 qt/aqt/overview.py:231
-msgid "Learning"
-msgstr "正在进行的课程"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:368
-msgid "Leech action"
-msgstr "记忆难点动作"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:366
-msgid "Leech threshold"
-msgstr "难点阈值"
-
-#: pylib/anki/consts.py:109
-msgid "Left"
-msgstr "左对齐"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:137
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:141
-msgid "Limit to"
-msgstr "限制为"
-
-#: qt/aqt/utils.py:57
-msgid "Loading..."
-msgstr "正在载入..."
-
-#: pylib/anki/stats.py:619
-msgid "Longest interval"
-msgstr "最长间隔"
-
-#: pylib/anki/stats.py:877
-msgid "Lowest ease"
-msgstr "最低简易度"
-
-#: qt/aqt/modelchooser.py:76
-msgid "Manage"
-msgstr "管理"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:156
-msgid "Manage Note Types"
-msgstr "管理笔记类型"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:341
-msgid "Manage Note Types..."
-msgstr "管理笔记类型…"
-
-#: qt/aqt/browser.py:1337
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:341
-msgid "Manage..."
-msgstr "管理..."
-
-#: qt/aqt/overview.py:131
-msgid "Manually Buried Cards"
-msgstr "已手动焚毁的卡片"
-
-#: qt/aqt/importing.py:46
-#, python-format
-msgid "Map to %s"
-msgstr "对应到 %s"
-
-#: qt/aqt/importing.py:52
-msgid "Map to Tags"
-msgstr "对应到标签"
-
-#: qt/aqt/reviewer.py:726
-msgid "Mark Note"
-msgstr "标注笔记"
-
-#: qt/aqt/editor.py:954
-msgid "MathJax block"
-msgstr "MathJax 字块"
-
-#: qt/aqt/editor.py:955
-msgid "MathJax chemistry"
-msgstr "MathJax 化学"
-
-#: qt/aqt/editor.py:953
-msgid "MathJax inline"
-msgstr "内联MathJax"
-
-#: pylib/anki/stats.py:213 pylib/anki/stats.py:346 pylib/anki/stats.py:366
-#: pylib/anki/stats.py:688 pylib/anki/stats.py:858
-msgid "Mature"
-msgstr "熟练"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:357
-msgid "Maximum interval"
-msgstr "最大间隔"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:356
-msgid "Maximum reviews/day"
-msgstr "最大复习数/天"
-
-#: qt/aqt/editor.py:713
-msgid "Media"
-msgstr "媒体"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:369
-msgid "Minimum interval"
-msgstr "最小间隔"
-
-#: pylib/anki/stats.py:374
-msgid "Minutes"
-msgstr "分钟"
-
-#: pylib/anki/consts.py:100
-msgid "Mix new cards and reviews"
-msgstr "混合新卡片和复习"
-
-#: pylib/anki/importing/__init__.py:15
-msgid "Mnemosyne 2.0 Deck (*.db)"
-msgstr "Mnemosyne 2.0 牌组 (*.db)"
-
-#: qt/aqt/reviewer.py:574
-msgid "More"
-msgstr "更多"
-
-#: pylib/anki/consts.py:120
-msgid "Most lapses"
-msgstr "最多遗忘次数"
-
-#: qt/aqt/browser.py:1593
-msgid "Move Cards"
-msgstr "移动卡片"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/setgroup.py:41
-msgid "Move cards to deck:"
-msgstr "移动卡片到牌组:"
-
-#: qt/aqt/importing.py:137
-msgid "Multi-character separators are not supported. Please enter one character only."
-msgstr "不支持分隔多个字符，请只输入一个字符。"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:311
-msgid "N&ote"
-msgstr "笔记(N&)"
-
-#: qt/aqt/main.py:297 qt/aqt/main.py:311
-msgid "Name exists."
-msgstr "姓名存在."
-
-#: qt/aqt/deckbrowser.py:82
-msgid "Name for deck:"
-msgstr "牌组名字:"
-
-#: qt/aqt/main.py:294 qt/aqt/models.py:123
-msgid "Name:"
-msgstr "名称:"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:306
-msgid "Network"
-msgstr "网络"
-
-#: qt/aqt/browser.py:1276 qt/aqt/deckbrowser.py:149 qt/aqt/overview.py:229
-msgid "New"
-msgstr "新建"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:352
-msgid "New Cards"
-msgstr "新卡片"
-
-#: qt/aqt/customstudy.py:71
-#, python-format
-msgid "New cards in deck over today limit: %s"
-msgstr "集合中的新卡片超出今日上限：%s"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:113
-msgid "New cards only"
-msgstr "仅新卡片"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:347
-msgid "New cards/day"
-msgstr "新卡片/天"
-
-#: qt/aqt/deckbrowser.py:246 qt/aqt/sidebar.py:98 qt/aqt/studydeck.py:151
-msgid "New deck name:"
-msgstr "新牌组名称:"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:365
-msgid "New interval"
-msgstr "新间隔"
-
-#: qt/aqt/clayout.py:586 qt/aqt/deckconf.py:148 qt/aqt/fields.py:97
-#: qt/aqt/main.py:305 qt/aqt/models.py:87
-msgid "New name:"
-msgstr "新名称："
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/changemodel.py:113
-msgid "New note type:"
-msgstr "新笔记类型:"
-
-#: qt/aqt/deckconf.py:121
-msgid "New options group name:"
-msgstr "新学习计划组名称:"
-
-#: qt/aqt/fields.py:140
-#, python-format
-msgid "New position (1...%d):"
-msgstr "新位置 (1...%d):"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:299
-msgid "Next day starts at"
-msgstr "下一天开始"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:284
-msgid "Night mode"
-msgstr "夜间模式"
-
-#: qt/aqt/browser.py:1288
-msgid "No Flag"
-msgstr "无标注"
-
-#: qt/aqt/overview.py:70
-msgid "No cards are due yet."
-msgstr "还没有卡片到期."
-
-#: pylib/anki/stats.py:178
-msgid "No cards have been studied today."
-msgstr "今天无卡片被学习过"
-
-#: qt/aqt/customstudy.py:190
-msgid "No cards matched the criteria you provided."
-msgstr "没有卡片满足你提供的标准."
-
-#: pylib/anki/stats.py:176
-msgid "No mature cards were studied today."
-msgstr "今天没有到期卡片被学习"
-
-#: qt/aqt/addons.py:868
-msgid "No updates available."
-msgstr "没有可用更新"
-
-#: qt/aqt/browser.py:754
-msgid "Note"
-msgstr "笔记"
-
-#: qt/aqt/browser.py:1335 qt/aqt/models.py:36
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/models.py:56
-msgid "Note Types"
-msgstr "笔记类型"
-
-#: qt/aqt/reviewer.py:818
-#, python-format
-msgid "Note and its %d card deleted."
-msgid_plural "Note and its %d cards deleted."
-msgstr[0] "笔记及它的%d张卡片被删除."
-
-#: qt/aqt/reviewer.py:833
-msgid "Note buried."
-msgstr "已搁置的笔记"
-
-#: qt/aqt/reviewer.py:798
-msgid "Note suspended."
-msgstr "暂停的笔记"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:311
-msgid "Note: Media is not backed up. Please create a periodic backup of your Anki folder to be safe."
-msgstr "注意: 媒体文件没有被备份. 为了安全请定期备份你的Anki文件夹."
-
-#: pylib/anki/importing/anki2.py:146
-#, python-format
-msgid "Notes added from file: %d"
-msgstr "从文件中添加的笔记：%d"
-
-#: pylib/anki/importing/anki2.py:134
-#, python-format
-msgid "Notes found in file: %d"
-msgstr "文件中找到的笔记 : %d"
-
-#: pylib/anki/exporting.py:125
-msgid "Notes in Plain Text"
-msgstr "纯文本格式的笔记"
-
-#: qt/aqt/fields.py:123
-msgid "Notes require at least one field."
-msgstr "笔记需要至少一个字段."
-
-#: pylib/anki/importing/anki2.py:149
-#, python-format
-msgid "Notes skipped, as they're already in your collection: %d"
-msgstr "因已存在于您的集合中而跳过的笔记：%d"
-
-#: qt/aqt/browser.py:2023
-msgid "Notes tagged."
-msgstr "已标注的笔记"
-
-#: pylib/anki/importing/anki2.py:138
-#, python-format
-msgid "Notes that could not be imported as note type has changed: %d"
-msgstr "无法作为注释类型导入的笔记已经改变: %d"
-
-#: pylib/anki/importing/anki2.py:143
-#, python-format
-msgid "Notes updated, as file had newer version: %d"
-msgstr "因文件有新版本而更新的笔记：%d"
-
-#: qt/aqt/browser.py:2180
-msgid "Nothing"
-msgstr "无"
-
-#: qt/aqt/customstudy.py:57
-msgid "OK"
-msgstr "确定"
-
-#: pylib/anki/consts.py:116
-msgid "Oldest seen first"
-msgstr "优先查看最旧的"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:305
-msgid "On next sync, force changes in one direction"
-msgstr "在下一次同步时, 强制单方向的改变."
-
-#: qt/aqt/addons.py:1113
-msgid "One or more errors occurred:"
-msgstr "发生一个或多个错误："
-
-#: qt/aqt/browser.py:1734
-msgid "Only new cards can be repositioned."
-msgstr "只有新卡片可以被重新定位."
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/profiles.py:81
-msgid "Open"
-msgstr "打开"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/profiles.py:86
-msgid "Open Backup..."
-msgstr "打开备份..."
-
-#: qt/aqt/main.py:644
-msgid "Optimizing..."
-msgstr "优化中..."
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/finddupes.py:72
-msgid "Optional filter:"
-msgstr "可选过滤器："
-
-#: qt/aqt/clayout.py:111 qt/aqt/deckbrowser.py:230 qt/aqt/deckconf.py:37
-#: qt/aqt/dyndeckconf.py:25 qt/aqt/overview.py:252 qt/aqt/reviewer.py:732
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:144
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:110
-msgid "Options"
-msgstr "选项"
-
-#: qt/aqt/deckconf.py:47 qt/aqt/dyndeckconf.py:28 qt/aqt/models.py:161
-#, python-format
-msgid "Options for %s"
-msgstr "%s 学习计划"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:340
-msgid "Options group:"
-msgstr "学习计划组:"
-
-#: qt/aqt/models.py:70
-msgid "Options..."
-msgstr "选项..."
-
-#: qt/aqt/browser.py:1285 qt/aqt/reviewer.py:707
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:336
-msgid "Orange Flag"
-msgstr "橙色标记"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:344
-msgid "Order"
-msgstr "顺序"
-
-#: pylib/anki/consts.py:121
-msgid "Order added"
-msgstr "增加顺序"
-
-#: pylib/anki/consts.py:122
-msgid "Order due"
-msgstr "到期顺序"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browserdisp.py:73
-msgid "Override back template:"
-msgstr "忽略背面模版"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browserdisp.py:74
-msgid "Override font:"
-msgstr "覆盖字体："
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browserdisp.py:72
-msgid "Override front template:"
-msgstr "忽略正面模版"
-
-#: qt/aqt/addons.py:872
-msgid "Packaged Anki Add-on"
-msgstr "已打包的Anki扩展组件"
-
-#: pylib/anki/importing/__init__.py:14
-msgid "Packaged Anki Deck/Collection (*.apkg *.colpkg *.zip)"
-msgstr "打包的 Anki 牌组/集合 (*.apkg *.colpkg *.zip)"
-
-#: qt/aqt/editor.py:1213
-msgid "Paste"
-msgstr "粘贴"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:282
-msgid "Paste clipboard images as PNG"
-msgstr "把剪切板图像保存为PNG"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:283
-msgid "Paste without shift key strips formatting"
-msgstr "不按Shift键粘贴会删除格式化字符"
-
-#: pylib/anki/importing/__init__.py:17
-msgid "Pauker 1.8 Lesson (*.pau.gz)"
-msgstr "Pauker 1.8 课件 (*.pau.gz)"
-
-#: qt/aqt/reviewer.py:735
-msgid "Pause Audio"
-msgstr "暂停音频"
-
-#: pylib/anki/stats.py:599
-msgid "Percentage"
-msgstr "百分比"
-
-#: pylib/anki/stats.py:949
-#, python-format
-msgid "Period: %s"
-msgstr "周期: %s"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:304
-msgid "Periodically sync media"
-msgstr "定期同步媒体"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reschedule.py:76
-msgid "Place at end of new card queue"
-msgstr "放到新卡片队列队尾"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reschedule.py:77
-msgid "Place in review queue with interval between:"
-msgstr "放入复习队列的时间间隔:"
-
-#: qt/aqt/models.py:130
-msgid "Please add another note type first."
-msgstr "请先加入另一个笔记类型."
-
-#: qt/aqt/addons.py:1017
-msgid "Please check your internet connection."
-msgstr "请检查您的互联网连接。"
-
-#: qt/aqt/errors.py:88
-msgid "Please connect a microphone, and ensure other programs are not using the audio device."
-msgstr "请连接一个麦克风, 并保证其他程序没有在使用音频设备."
+#: qt/aqt/main.py:1343 qt/aqt/main.py:1362
+msgid "The requested change will require a full upload of the database when you next synchronize your collection. If you have reviews or other changes waiting on another device that haven't been synchronized here yet, they will be lost. Continue?"
+msgstr "请求的改变需要在下次同步你的集合时上传整个数据库. 如果你还有在其他设备上未同步的复习或者其他改变, 他们将会丢失, 是否继续?"
+
+#: qt/aqt/main.py:1537
+msgid "<non-unicode text>"
+msgstr "<非unicode文本>"
+
+#: qt/aqt/main.py:1600
+msgid "Add-on will be installed when a profile is opened."
+msgstr "登录个人账户后才能安装插件。"
+
+#: qt/aqt/main.py:1602
+msgid "Deck will be imported when a profile is opened."
+msgstr "当一个本地用户被打开时牌组将会被导入。"
 
 #: qt/aqt/main.py:1609
 msgid "Please ensure a profile is open and Anki is not busy, then try again."
 msgstr "请确保打开了一个配置文件并且Anki没有处于繁忙中，然后再试一次。"
 
-#: qt/aqt/browser.py:1393
-msgid "Please give your filter a name:"
-msgstr "请命名您的过滤器："
+#: qt/aqt/modelchooser.py:44
+msgid "Change Note Type (Ctrl+N)"
+msgstr "改变笔记类型(Ctrl+N)"
 
-#: qt/aqt/profiles.py:307
+#: qt/aqt/modelchooser.py:76
+msgid "Manage"
+msgstr "管理"
+
+#: qt/aqt/modelchooser.py:85
+msgid "Choose Note Type"
+msgstr "选择笔记类型"
+
+#: qt/aqt/models.py:65
+msgid "Fields..."
+msgstr "字段..."
+
+#: qt/aqt/models.py:66
+msgid "Cards..."
+msgstr "卡片…"
+
+#: qt/aqt/models.py:70
+msgid "Options..."
+msgstr "选项..."
+
+#: qt/aqt/models.py:130
+msgid "Please add another note type first."
+msgstr "请先加入另一个笔记类型."
+
+#: qt/aqt/models.py:134
+msgid "Delete this note type and all its cards?"
+msgstr "删除该笔记类型及其所有卡片?"
+
+#: qt/aqt/models.py:136
+msgid "Delete this unused note type?"
+msgstr "删除该未使用的笔记类型?"
+
+#: qt/aqt/models.py:212
 #, python-format
-msgid "Please remove the folder %s and try again."
-msgstr "请删除目录 %s 后再重试。"
+msgid "Add: %s"
+msgstr "添加：%s"
 
-#: qt/aqt/addons.py:1446
-msgid "Please report this to the respective add-on author(s)."
-msgstr "请将此报告给相应的扩展组件开发者"
+#: qt/aqt/models.py:217
+#, python-format
+msgid "Clone: %s"
+msgstr "克隆：%s"
+
+#: qt/aqt/overview.py:70
+msgid "No cards are due yet."
+msgstr "还没有卡片到期."
+
+#: qt/aqt/overview.py:131
+msgid "Manually Buried Cards"
+msgstr "已手动焚毁的卡片"
+
+#: qt/aqt/overview.py:132
+msgid "Buried Siblings"
+msgstr "搁置的关连卡片"
+
+#: qt/aqt/overview.py:133
+msgid "All Buried Cards"
+msgstr "所有已焚毁卡片"
+
+#: qt/aqt/overview.py:137
+msgid "What would you like to unbury?"
+msgstr "您想撤回焚毁操作吗？"
+
+#: qt/aqt/overview.py:188
+msgid "This is a special deck for studying outside of the normal schedule."
+msgstr "这是一个在正常计划外学习的特殊牌组。"
+
+#: qt/aqt/overview.py:192
+msgid "Cards will be automatically returned to their original decks after you review them."
+msgstr "卡片在复习完后将会自动回到原来的牌组中。"
+
+#: qt/aqt/overview.py:197
+msgid "Deleting this deck from the deck list will return all remaining cards to their original deck."
+msgstr "从牌组列表删除这个牌组将会把所有剩余卡片移动回原始牌组中去。"
+
+#: qt/aqt/overview.py:233
+msgid "To Review"
+msgstr "待复习"
+
+#: qt/aqt/overview.py:235
+msgid "Study Now"
+msgstr "现在学习"
+
+#: qt/aqt/overview.py:256
+msgid "Empty"
+msgstr "空"
+
+#: qt/aqt/overview.py:261
+msgid "Unbury"
+msgstr "取消搁置"
 
 #: qt/aqt/preferences.py:72
 msgid "Please restart Anki to complete language change."
 msgstr "请重启 Anki 以完成语言切换"
 
-#: qt/aqt/reviewer.py:387
-msgid "Please run Tools>Empty Cards"
-msgstr "请运行 工具>空卡片"
+#: qt/aqt/preferences.py:120 qt/aqt/preferences.py:250
+msgid "Changes will take effect when you restart Anki."
+msgstr "重启Anki后改变将会生效。"
 
-#: qt/aqt/main.py:675
-msgid "Please select a deck."
-msgstr "请选择一个牌组."
+#: qt/aqt/preferences.py:154
+msgid "This will reset any cards in learning, clear filtered decks, and change the scheduler version. Proceed?"
+msgstr "这将重置所有学习中卡片，清空已筛选卡组并将改变调度器版本。继续吗？"
 
-#: qt/aqt/addons.py:807
-msgid "Please select a single add-on first."
-msgstr "请先选择一个插件。"
-
-#: qt/aqt/browser.py:1493
-msgid "Please select cards from only one note type."
-msgstr "请选择同一种笔记类型的卡片."
-
-#: qt/aqt/studydeck.py:135
-msgid "Please select something."
-msgstr "请选择一些东西."
-
-#: qt/aqt/main.py:1122
-msgid "Please use File>Import to import this file."
-msgstr "请使用 文件>导入 来导入这个文件."
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:278
-msgid "Preferences"
-msgstr "偏好设置"
-
-#: qt/aqt/previewer.py:65
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:298
-msgid "Preview"
-msgstr "预览"
-
-#: qt/aqt/browser.py:624
-#, python-format
-msgid "Preview Selected Card (%s)"
-msgstr "预览选择的卡片 (%s)"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:109
-msgid "Preview new cards"
-msgstr "预览新卡片"
-
-#: qt/aqt/customstudy.py:96
-msgid "Preview new cards added in the last"
-msgstr "预览加到最后的新卡片"
-
-#: qt/aqt/importing.py:494
-#, python-format
-msgid "Processed %d media file"
-msgid_plural "Processed %d media files"
-msgstr[0] "已处理%d个媒体文件"
-
-#: qt/aqt/progress.py:83
-msgid "Processing..."
-msgstr "处理中..."
-
-#: qt/aqt/profiles.py:254
-msgid "Profile Corrupt"
-msgstr "资料损坏。"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/profiles.py:80
-msgid "Profiles"
-msgstr "个人配置文件"
-
-#: qt/aqt/browser.py:740
-msgid "Question"
-msgstr "问题"
-
-#: qt/aqt/browser.py:1745
-#, python-format
-msgid "Queue bottom: %d"
-msgstr "队尾: %d"
-
-#: qt/aqt/browser.py:1744
-#, python-format
-msgid "Queue top: %d"
-msgstr "队首: %d"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/profiles.py:85
-msgid "Quit"
-msgstr "退出"
-
-#: pylib/anki/consts.py:117
-msgid "Random"
-msgstr "随机"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reposition.py:75
-msgid "Randomize order"
-msgstr "随机顺序"
-
-#: qt/aqt/dyndeckconf.py:23 qt/aqt/overview.py:255
-msgid "Rebuild"
-msgstr "重建"
-
-#: qt/aqt/reviewer.py:738
-msgid "Record Own Voice"
-msgstr "录制自己的声音"
-
-#: qt/aqt/editor.py:178
-msgid "Record audio (F5)"
-msgstr "录制音频 (F5)"
-
-#: qt/aqt/sound.py:610
-#, python-format
-msgid "Recording...<br>Time: %0.1f"
-msgstr "录音中...<br>时间: %0.1f"
-
-#: qt/aqt/browser.py:1284 qt/aqt/reviewer.py:701
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:335
-msgid "Red Flag"
-msgstr "红色标注"
-
-#: pylib/anki/consts.py:124
-msgid "Relative overdueness"
-msgstr "按照相对过期程度"
-
-#: pylib/anki/stats.py:348 pylib/anki/stats.py:368
-msgid "Relearn"
-msgstr "重新学习"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:109
-msgid "Remember last input when adding"
-msgstr "当添加时记住上一次输入"
-
-#: qt/aqt/browser.py:1404
-#, python-format
-msgid "Remove %s from your saved searches?"
-msgstr "将 %s 从您保存的搜索中移除？"
-
-#: qt/aqt/clayout.py:679
-msgid "Remove Card Type..."
-msgstr "移除卡片类型…"
-
-#: qt/aqt/browser.py:1378
-msgid "Remove Current Filter..."
-msgstr "移除当前过滤器…"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:330
-msgid "Remove Tags..."
-msgstr "移除标签…"
-
-#: qt/aqt/editor.py:154
-msgid "Remove formatting (Ctrl+R)"
-msgstr "清除格式 (Ctrl+R)"
-
-#: qt/aqt/deckbrowser.py:228 qt/aqt/deckconf.py:93 qt/aqt/models.py:58
-#: qt/aqt/sidebar.py:74
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:105
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/profiles.py:83
-msgid "Rename"
-msgstr "重命名"
-
-#: qt/aqt/clayout.py:682
-msgid "Rename Card Type..."
-msgstr "重命名卡片类型…"
-
-#: qt/aqt/deckbrowser.py:243 qt/aqt/sidebar.py:95
-msgid "Rename Deck"
-msgstr "重命名牌组"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:147
-msgid "Repeat failed cards after"
-msgstr "在 %s 后重复失败的卡片"
-
-#: qt/aqt/main.py:338
-msgid "Replace your collection with an earlier backup?"
-msgstr "用较早的备份替换现有的集合吗？"
+#: qt/aqt/preferences.py:188
+msgid ""
+"<b>Synchronization</b><br>\n"
+"Not currently enabled; click the sync button in the main window to enable."
+msgstr ""
+"<b>同步</b><br>\n"
+"尚未启用，点击主界面的同步按钮启用。"
 
 #: qt/aqt/previewer.py:76 qt/aqt/reviewer.py:734
 msgid "Replay Audio"
 msgstr "重新播放音频"
 
-#: qt/aqt/reviewer.py:739
-msgid "Replay Own Voice"
-msgstr "重新播放自己的声音"
+#: qt/aqt/previewer.py:83
+msgid "Back Side Only"
+msgstr "仅背面"
 
-#: qt/aqt/browser.py:1751
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:106
-msgid "Reposition"
-msgstr "重新定位"
-
-#: qt/aqt/clayout.py:685
-msgid "Reposition Card Type..."
-msgstr "改变卡片类型…"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reposition.py:72
-msgid "Reposition New Cards"
-msgstr "重新定位新卡片"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:322
-msgid "Reposition..."
-msgstr "重新定位..."
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/taglimit.py:63
-msgid "Require one or more of these tags:"
-msgstr "需要这些标签中的一个或者多个:"
-
-#: qt/aqt/browser.py:1777
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reschedule.py:75
-msgid "Reschedule"
-msgstr "重新安排进度"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:145
-msgid "Reschedule cards based on my answers in this deck"
-msgstr "基于我在此牌组中的回答重新定制卡片计划"
-
-#: qt/aqt/addons.py:1310
-msgid "Restored defaults"
-msgstr "已恢复初始状态"
-
-#: qt/aqt/main.py:736
-msgid "Resume Now"
-msgstr "现在恢复"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:108
-msgid "Reverse text direction (RTL)"
-msgstr "文字反向(RTL)"
-
-#: qt/aqt/main.py:351
-msgid "Revert to backup"
-msgstr "恢复备份"
-
-#: qt/aqt/main.py:1036
-#, python-format
-msgid "Reverted to state prior to '%s'."
-msgstr "返回到\"%s\"之前的状态。"
-
-#: pylib/anki/collection.py:577 qt/aqt/browser.py:1278
-msgid "Review"
-msgstr "复习"
-
-#: pylib/anki/stats.py:354
-msgid "Review Count"
-msgstr "复习数量"
-
-#: pylib/anki/stats.py:380
-msgid "Review Time"
-msgstr "复习时间"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:104
-msgid "Review ahead"
-msgstr "提前复习"
-
-#: qt/aqt/customstudy.py:93
-msgid "Review ahead by"
-msgstr "提前复习按"
-
-#: qt/aqt/customstudy.py:89
-msgid "Review cards forgotten in last"
-msgstr "复习最后忘记的卡片"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:105
-msgid "Review forgotten cards"
-msgstr "复习忘记的卡片"
-
-#: pylib/anki/stats.py:791
-msgid "Review success rate for each hour of the day."
-msgstr "当天每小时的复习成功率"
-
-#: pylib/anki/stats.py:819 qt/aqt/browser.py:751
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:363
-msgid "Reviews"
-msgstr "复习"
-
-#: qt/aqt/customstudy.py:83
-#, python-format
-msgid "Reviews due in deck over today limit: %s"
-msgstr "集合中到期的复习数量超出今日上限：%s"
-
-#: pylib/anki/consts.py:110
-msgid "Right"
-msgstr "右对齐"
-
-#: qt/aqt/clayout.py:399 qt/aqt/sound.py:599
-msgid "Save"
-msgstr "保存"
-
-#: qt/aqt/browser.py:1380
-msgid "Save Current Filter..."
-msgstr "保存当前过滤器…"
-
-#: qt/aqt/stats.py:42 qt/aqt/stats.py:67 qt/aqt/stats.py:114
-#: qt/aqt/stats.py:145
-msgid "Save PDF"
-msgstr "保存为 PDF"
-
-#: qt/aqt/stats.py:80 qt/aqt/stats.py:158
-msgid "Saved."
-msgstr "已保存"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:300
-msgid "Scheduling"
-msgstr "安排算法"
-
-#: pylib/anki/stats.py:947
-#, python-format
-msgid "Scope: %s"
-msgstr "范围: %s"
-
-#: qt/aqt/browser.py:1979
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:297
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:138
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:142
-msgid "Search"
-msgstr "搜索"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/finddupes.py:73
-msgid "Search in:"
-msgstr "搜寻位置："
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browseropts.py:75
-msgid "Search within formatting (slow)"
-msgstr "用格式搜索（耗时长）"
-
-#: qt/aqt/customstudy.py:100
-msgid "Select"
-msgstr "选择"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:307
-msgid "Select &All"
-msgstr "全选(&A)"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:316
-msgid "Select &Notes"
-msgstr "选择笔记(&N)"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/taglimit.py:64
-msgid "Select tags to exclude:"
-msgstr "选择排除的标签："
-
-#: qt/aqt/exporting.py:55
-msgid "Selected Notes"
-msgstr "选择的笔记"
-
-#: qt/aqt/importing.py:303
-msgid "Selected file was not in UTF-8 format. Please see the importing section of the manual."
-msgstr "选择的文件不是UTF-8格式的。请查看帮助文档的导入部分。"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/taglimit.py:62
-msgid "Selective Study"
-msgstr "选择性学习"
-
-#: qt/aqt/importing.py:165
-msgid "Semicolon"
-msgstr "分号"
-
-#: qt/aqt/deckconf.py:159
-#, python-format
-msgid "Set all decks below %s to this option group?"
-msgstr "将所有%s下的牌组设置到这个学习计划组?"
-
-#: qt/aqt/deckconf.py:95
-msgid "Set for all subdecks"
-msgstr "对所有子牌组设置"
-
-#: qt/aqt/editor.py:158
-msgid "Set foreground colour (F7)"
-msgstr "设置前景色 (F7)"
-
-#: qt/aqt/main.py:129
-msgid "Shift key was held down. Skipping automatic syncing and add-on loading."
-msgstr "Shift键被按住。跳过自动同步以及插件加载。"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reposition.py:76
-msgid "Shift position of existing cards"
-msgstr "改变已存在卡片状态"
-
-#: qt/aqt/deckbrowser.py:318 qt/aqt/main.py:765 qt/aqt/overview.py:265
-#: qt/aqt/previewer.py:80 qt/aqt/previewer.py:85 qt/aqt/reviewer.py:573
-#: qt/aqt/reviewer.py:584 qt/aqt/reviewer.py:660 qt/aqt/toolbar.py:107
-#: qt/aqt/toolbar.py:114 qt/aqt/toolbar.py:121 qt/aqt/toolbar.py:128
-#: qt/aqt/toolbar.py:144
-#, python-format
-msgid "Shortcut key: %s"
-msgstr "快捷键: %s"
+#: qt/aqt/previewer.py:162
+msgid "(please select 1 card)"
+msgstr "(请选择一张卡片)"
 
 #: qt/aqt/previewer.py:243
 msgid "Shortcut key: Left arrow"
@@ -2744,689 +3127,263 @@ msgstr "快捷键：左方向键"
 msgid "Shortcut key: Right arrow or Enter"
 msgstr "快捷键：右方向键或回车键"
 
-#: qt/aqt/addcards.py:89
+#: qt/aqt/profiles.py:254
+msgid "Profile Corrupt"
+msgstr "资料损坏。"
+
+#: qt/aqt/profiles.py:256
+msgid "Anki could not read your profile data. Window sizes and your sync login details have been forgotten."
+msgstr "Anki无法读取您的资料数据。窗口大小和您的同步登录细节已丢失。"
+
+#: qt/aqt/profiles.py:307
 #, python-format
-msgid "Shortcut: %s"
-msgstr "快捷键: %s"
+msgid "Please remove the folder %s and try again."
+msgstr "请删除目录 %s 后再重试。"
 
-#: qt/aqt/reviewer.py:585
-msgid "Show Answer"
-msgstr "显示答案"
+#: qt/aqt/profiles.py:312
+msgid "Folder already exists."
+msgstr "文件夹已存在."
 
-#: qt/aqt/editor.py:200
-msgid "Show Duplicates"
-msgstr "显示重复"
+#: qt/aqt/profiles.py:326
+msgid "Anki could not rename your profile because it could not rename the profile folder on disk. Please ensure you have permission to write to Documents/Anki and no other programs are accessing your profile folders, then try again."
+msgstr "因为Anki不能重命名你的配置文件夹，所以不能重命名你的配置文件。请确定你有文档/Anki文件夹的写权限，同时没有其它程序正在访问你的配置文件目录后，再重试。"
 
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:377
-msgid "Show answer timer"
-msgstr "显示回答计时器"
+#: qt/aqt/profiles.py:479
+msgid "User 1"
+msgstr "用户1"
 
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:292
-msgid "Show learning cards with larger steps before reviews"
-msgstr "在复习前展示步伐更长且处于学习中的卡牌"
+#: qt/aqt/progress.py:83
+msgid "Processing..."
+msgstr "处理中..."
 
-#: pylib/anki/consts.py:101
-msgid "Show new cards after reviews"
-msgstr "在复习后显示新卡片"
-
-#: pylib/anki/consts.py:102
-msgid "Show new cards before reviews"
-msgstr "先学习新卡片，再复习"
-
-#: pylib/anki/consts.py:94
-msgid "Show new cards in order added"
-msgstr "按创建顺序学习新卡片"
-
-#: pylib/anki/consts.py:93
-msgid "Show new cards in random order"
-msgstr "按随机顺序学习新卡片"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:290
-msgid "Show next review time above answer buttons"
-msgstr "在回答按钮上显示下一次复习时间"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:280
-msgid "Show play buttons on cards with audio"
-msgstr "在卡片上显示音频按钮"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:291
-msgid "Show remaining card count during review"
-msgstr "在复习的时候显示剩余的卡片计数"
-
-#: qt/aqt/browser.py:1031
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:339
-msgid "Sidebar"
-msgstr "侧边栏"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addfield.py:64
-msgid "Size:"
-msgstr "大小："
-
-#: pylib/anki/importing/anki2.py:157
-msgid "Skipped"
-msgstr "已跳过"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:312
-msgid "Some settings will take effect after you restart Anki."
-msgstr "某些设置将在Anki重新启动后生效"
-
-#: qt/aqt/browser.py:744
-msgid "Sort Field"
-msgstr "排序字段"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:111
-msgid "Sort by this field in the browser"
-msgstr "在浏览器中按照此字段排序"
-
-#: qt/aqt/browser.py:942
-msgid "Sorting on this column is not supported. Please choose another."
-msgstr "不支持该列排序, 请选择另一列."
-
-#: qt/aqt/sound.py:323
-msgid "Sound and video on cards will not function until mpv or mplayer is installed."
-msgstr "卡片上的音频及视频将不会被播放，除非已安装mpv或mplayer。"
-
-#: qt/aqt/importing.py:163 qt/aqt/reviewer.py:584
-msgid "Space"
-msgstr "间隔"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reposition.py:73
-msgid "Start position:"
-msgstr "开始位置："
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:342
-msgid "Starting ease"
-msgstr "初始简易度"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/stats.py:80
-msgid "Statistics"
-msgstr "统计"
-
-#: qt/aqt/toolbar.py:126
-msgid "Stats"
-msgstr "统计"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reposition.py:74
-msgid "Step:"
-msgstr "步幅:"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:348
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:364
-msgid "Steps (in minutes)"
-msgstr "步伐 (以分钟计)"
-
-#: qt/aqt/deckconf.py:276 qt/aqt/dyndeckconf.py:157
-msgid "Steps must be numbers."
-msgstr "步伐必须是数字."
-
-#: qt/aqt/browser.py:1264
-msgid "Studied Today"
-msgstr "今天学习的"
-
-#: qt/aqt/studydeck.py:67
-msgid "Study"
-msgstr "学习"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/studydeck.py:47
-msgid "Study Deck"
-msgstr "学习牌组"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:153
-msgid "Study Deck..."
-msgstr "学习牌组..."
-
-#: qt/aqt/overview.py:235
-msgid "Study Now"
-msgstr "现在学习"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:108
-msgid "Study by card state or tag"
-msgstr "按照卡片状态或者标签学习"
-
-#: qt/aqt/editor.py:153
-msgid "Subscript (Ctrl+=)"
-msgstr "下标(Ctrl+=)"
-
-#: pylib/anki/importing/__init__.py:16
-msgid "Supermemo XML export (*.xml)"
-msgstr "Supermemo XML (*.xml)"
-
-#: qt/aqt/editor.py:151
-msgid "Superscript (Ctrl++)"
-msgstr "上标(Ctrl++)"
-
-#: qt/aqt/reviewer.py:796 qt/aqt/reviewer.py:802
-msgid "Suspend"
-msgstr "暂停"
-
-#: qt/aqt/reviewer.py:729
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:371
-msgid "Suspend Card"
-msgstr "暂停卡片"
-
-#: qt/aqt/reviewer.py:730
-msgid "Suspend Note"
-msgstr "暂停笔记"
-
-#: qt/aqt/browser.py:1281
-msgid "Suspended"
-msgstr "已暂停"
-
-#: pylib/anki/stats.py:861
-msgid "Suspended+Buried"
-msgstr "暂停+搁置的"
-
-#: qt/aqt/toolbar.py:143
-msgid "Sync"
-msgstr "同步"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:302
-msgid "Synchronize audio and images too"
-msgstr "同时同步音频和图像"
-
-#: qt/aqt/importing.py:159
-msgid "Tab"
-msgstr "制表符"
-
-#: qt/aqt/browser.py:1988 qt/aqt/browser.py:2015
-msgid "Tag Duplicates"
-msgstr "复制标签"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:372
-msgid "Tag Only"
-msgstr "仅标记"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:113
-msgid "Tag modified notes:"
-msgstr "已修改标签的笔记："
-
-#: qt/aqt/browser.py:753 qt/aqt/browser.py:1299 qt/aqt/editor.py:576
-msgid "Tags"
-msgstr "标签"
-
-#: qt/aqt/deckchooser.py:34
-msgid "Target Deck (Ctrl+D)"
-msgstr "目标牌组 (Ctrl+D)"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/changemap.py:44
-msgid "Target field:"
-msgstr "目标栏目:"
-
-#: pylib/anki/importing/__init__.py:13
-msgid "Text separated by tabs or semicolons (*)"
-msgstr "按制表符或者分号分隔的文本 (*)"
-
-#: qt/aqt/fields.py:90
-msgid "That field name is already used."
-msgstr "卡片该面的文字已被使用。"
-
-#: qt/aqt/deckconf.py:137
-msgid "The default configuration can't be removed."
-msgstr "默认配置不能被删除."
-
-#: pylib/anki/stats.py:886
-msgid "The division of cards in your deck(s)."
-msgstr "牌组中的卡片分布"
-
-#: qt/aqt/addcards.py:169
-msgid "The first field is empty."
-msgstr "首字段为空."
-
-#: qt/aqt/importing.py:176
-msgid "The first field of the note type must be mapped."
-msgstr "笔记类型的首字段必须被映射."
-
-#: qt/aqt/addons.py:280
+#: qt/aqt/reviewer.py:90
 #, python-format
-msgid "The following add-ons are incompatible with %(name)s and have been disabled: %(found)s"
-msgstr ""
-"The following add-ons are incompatible with and have been disabled: %(found)s\n"
-"下列扩展组件与 %(name)s 不兼容并已被禁用: %(found)s"
+msgid "%d card studied in"
+msgid_plural "%d cards studied in"
+msgstr[0] "学习了%d张卡片，用时"
 
-#: qt/aqt/addons.py:1268
-msgid "The following add-ons have updates available. Install them now?"
-msgstr "以下插件有更新可用。需要现在安装吗？"
-
-#: qt/aqt/utils.py:659
+#: qt/aqt/reviewer.py:94
 #, python-format
-msgid "The following character can not be used: %s"
-msgstr "下列字符不能被使用: %s"
+msgid "%s minute."
+msgid_plural "%s minutes."
+msgstr[0] "%s 分钟"
 
-#: qt/aqt/addons.py:500
-msgid "The following conflicting add-ons were disabled:"
-msgstr "下列发生冲突的扩展组件已被禁用："
+#: qt/aqt/reviewer.py:95
+msgid "Finish"
+msgstr "结束"
 
-#: pylib/anki/stats.py:309
-msgid "The number of new cards you have added."
-msgstr "您添加的卡片的数目。"
+#: qt/aqt/reviewer.py:96
+msgid "Continue"
+msgstr "继续"
 
-#: pylib/anki/stats.py:354
-msgid "The number of questions you have answered."
-msgstr "已经回答的问题的数量。"
-
-#: pylib/anki/stats.py:228
-msgid "The number of reviews due in the future."
-msgstr "将来到期的复习的数目"
-
-#: pylib/anki/stats.py:681
-msgid "The number of times you have pressed each button."
-msgstr "按下每个按钮的次数."
-
-#: qt/aqt/importing.py:516
-msgid "The provided file is not a valid .apkg file."
-msgstr "提供的文件不是正确 . apkg文件。"
-
-#: qt/aqt/dyndeckconf.py:128
-msgid "The provided search did not match any cards. Would you like to revise it?"
-msgstr "您的搜索不能匹配任何卡片。您愿意修改一下您的"
-
-#: qt/aqt/main.py:1343 qt/aqt/main.py:1362
-msgid "The requested change will require a full upload of the database when you next synchronize your collection. If you have reviews or other changes waiting on another device that haven't been synchronized here yet, they will be lost. Continue?"
-msgstr "请求的改变需要在下次同步你的集合时上传整个数据库. 如果你还有在其他设备上未同步的复习或者其他改变, 他们将会丢失, 是否继续?"
-
-#: pylib/anki/stats.py:380
-msgid "The time taken to answer the questions."
-msgstr "答题用时"
-
-#: qt/aqt/main.py:320
-msgid "There must be at least one profile."
-msgstr "必须有至少一个个人配置文件."
-
-#: qt/aqt/addons.py:507
-msgid "This add-on is not compatible with your version of Anki."
-msgstr "此插件与您Anki的版本不兼容。"
-
-#: qt/aqt/importing.py:434
-msgid "This file does not appear to be a valid .apkg file. If you're getting this error from a file downloaded from AnkiWeb, chances are that your download failed. Please try again, and if the problem persists, please try again with a different browser."
-msgstr "这个文件不是可用的.apkg文件。如果您是从AnkiWeb下载的这个文件，有可能是您的下载失败了，请重试。如果问题依旧存在，请换一个不同的浏览器重试。"
-
-#: qt/aqt/utils.py:412
-msgid "This file exists. Are you sure you want to overwrite it?"
-msgstr "文件已存在.确定要覆盖吗?"
-
-#: qt/aqt/overview.py:188
-msgid "This is a special deck for studying outside of the normal schedule."
-msgstr "这是一个在正常计划外学习的特殊牌组。"
-
-#: qt/aqt/clayout.py:632
-#, python-format
-msgid "This will create %d card. Proceed?"
-msgid_plural "This will create %d cards. Proceed?"
-msgstr[0] "本次操作将创建 %d 张卡片，继续吗？"
-
-#: qt/aqt/importing.py:454
-msgid "This will delete your existing collection and replace it with the data in the file you're importing. Are you sure?"
-msgstr "这将会删除你现有的集合并将它替换为你导入的文件中的集合. 是否确认?"
-
-#: qt/aqt/preferences.py:154
-msgid "This will reset any cards in learning, clear filtered decks, and change the scheduler version. Proceed?"
-msgstr "这将重置所有学习中卡片，清空已筛选卡组并将改变调度器版本。继续吗？"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:295
-msgid "Timebox time limit"
-msgstr "时间框的时间限制"
-
-#: qt/aqt/overview.py:233
-msgid "To Review"
-msgstr "待复习"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/getaddons.py:51
-msgid "To browse add-ons, please click the browse button below.<br><br>When you've found an add-on you like, please paste its code below. You can paste multiple codes, separated by spaces."
-msgstr "浏览插件请点击下方的“浏览”按钮。<br><br>如果您找到适合您的插件，请将插件代码粘贴到下方的文本框中。您可以输入多个代码，请将代码之间用空格隔开。"
-
-#: qt/aqt/editor.py:651
-msgid "To make a cloze deletion on an existing note, you need to change it to a cloze type first, via 'Notes>Change Note Type'"
-msgstr "要为现有的笔记制作一个挖空，你需要通过“笔记>更改笔记类型”，把笔记更改成填空题的类型。"
-
-#: pylib/anki/stats.py:119 qt/aqt/browser.py:1259
-msgid "Today"
-msgstr "今天"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:77
-msgid "Toggle Enabled"
-msgstr "切换启用状态"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:342
-msgid "Toggle Mark"
-msgstr "切换标记"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:331
-msgid "Toggle Suspend"
-msgstr "开关暂停状态"
-
-#: pylib/anki/stats.py:249 pylib/anki/stats.py:318 pylib/anki/stats.py:418
-msgid "Total"
-msgstr "总计"
-
-#: pylib/anki/stats.py:873
-msgid "Total cards"
-msgstr "所有卡片"
-
-#: pylib/anki/stats.py:874
-msgid "Total notes"
-msgstr "所有笔记"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/findreplace.py:91
-msgid "Treat input as regular expression"
-msgstr "以正则表达式输入"
-
-#: qt/aqt/modelchooser.py:40
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:107
-msgid "Type"
-msgstr "类型"
+#: qt/aqt/reviewer.py:387
+msgid "Please run Tools>Empty Cards"
+msgstr "请运行 工具>空卡片"
 
 #: qt/aqt/reviewer.py:391
 #, python-format
 msgid "Type answer: unknown field %s"
 msgstr "键入答案：未知域 %s"
 
-#: qt/aqt/errors.py:69
-msgid "Unable to access Anki media folder. The permissions on your system's temporary folder may be incorrect."
-msgstr "无法访问Anki多媒体文件夹。您的系统临时文件夹的权限可能不正确。"
+#: qt/aqt/reviewer.py:572
+msgid "Edit"
+msgstr "编辑"
 
-#: qt/aqt/main.py:364
-msgid "Unable to move existing file to trash - please try restarting your computer."
-msgstr "无法删除现存的文件 - 请重启您的电脑。"
+#: qt/aqt/reviewer.py:574
+msgid "More"
+msgstr "更多"
 
-#: qt/aqt/addons.py:427
+#: qt/aqt/reviewer.py:585
+msgid "Show Answer"
+msgstr "显示答案"
+
+#: qt/aqt/reviewer.py:629 qt/aqt/reviewer.py:633 qt/aqt/reviewer.py:636
+msgid "Again"
+msgstr "生疏/错误"
+
+#: qt/aqt/reviewer.py:630 qt/aqt/reviewer.py:633 qt/aqt/reviewer.py:638
+msgid "Good"
+msgstr "犹豫/想起"
+
+#: qt/aqt/reviewer.py:633 qt/aqt/reviewer.py:639
+msgid "Easy"
+msgstr "顺利/正确"
+
+#: qt/aqt/reviewer.py:637
+msgid "Hard"
+msgstr "困难/模糊"
+
+#: qt/aqt/reviewer.py:685
+msgid "Card was a leech."
+msgstr "子卡片为记忆难点"
+
+#: qt/aqt/reviewer.py:687
+msgid "It has been suspended."
+msgstr "已经被暂停."
+
+#: qt/aqt/reviewer.py:698
+msgid "Flag Card"
+msgstr "已标注的卡片"
+
+#: qt/aqt/reviewer.py:726
+msgid "Mark Note"
+msgstr "标注笔记"
+
+#: qt/aqt/reviewer.py:727
+msgid "Bury Card"
+msgstr "搁置卡片"
+
+#: qt/aqt/reviewer.py:728
+msgid "Bury Note"
+msgstr "搁置笔记"
+
+#: qt/aqt/reviewer.py:730
+msgid "Suspend Note"
+msgstr "暂停笔记"
+
+#: qt/aqt/reviewer.py:731
+msgid "Delete Note"
+msgstr "删除笔记"
+
+#: qt/aqt/reviewer.py:735
+msgid "Pause Audio"
+msgstr "暂停音频"
+
+#: qt/aqt/reviewer.py:736
+msgid "Audio -5s"
+msgstr "音频后退5秒"
+
+#: qt/aqt/reviewer.py:737
+msgid "Audio +5s"
+msgstr "音频前进5秒"
+
+#: qt/aqt/reviewer.py:738
+msgid "Record Own Voice"
+msgstr "录制自己的声音"
+
+#: qt/aqt/reviewer.py:739
+msgid "Replay Own Voice"
+msgstr "重新播放自己的声音"
+
+#: qt/aqt/reviewer.py:796 qt/aqt/reviewer.py:802
+msgid "Suspend"
+msgstr "暂停"
+
+#: qt/aqt/reviewer.py:798
+msgid "Note suspended."
+msgstr "暂停的笔记"
+
+#: qt/aqt/reviewer.py:804
+msgid "Card suspended."
+msgstr "暂停的卡片"
+
+#: qt/aqt/reviewer.py:818
 #, python-format
-msgid ""
-"Unable to update or delete add-on. Please start Anki while holding down the shift key to temporarily disable add-ons, then try again.\n"
-"\n"
-"Debug info: %s"
-msgstr ""
-"无法更新或删除扩展组件。请在按下Shift键的同时打开Anki以临时禁用所有扩展组件，然后重试一次。\n"
-"调试信息: %s"
+msgid "Note and its %d card deleted."
+msgid_plural "Note and its %d cards deleted."
+msgstr[0] "笔记及它的%d张卡片被删除."
 
-#: qt/aqt/overview.py:261
-msgid "Unbury"
-msgstr "取消搁置"
+#: qt/aqt/reviewer.py:824 qt/aqt/reviewer.py:830
+msgid "Bury"
+msgstr "本次不复习"
 
-#: qt/aqt/editor.py:148
-msgid "Underline text (Ctrl+U)"
-msgstr "下划线 (Ctrl+U)"
+#: qt/aqt/reviewer.py:827
+msgid "Card buried."
+msgstr "已搁置的卡片"
 
-#: qt/aqt/main.py:1046
-msgid "Undo"
-msgstr "撤销"
-
-#: qt/aqt/main.py:1042
-#, python-format
-msgid "Undo %s"
-msgstr "撤销 %s"
-
-#: qt/aqt/addons.py:1014 qt/aqt/editor.py:850
-#, python-format
-msgid "Unexpected response code: %s"
-msgstr "未知响应代码：%s"
-
-#: qt/aqt/addons.py:475
-msgid "Unknown error: {}"
-msgstr "未知错误：{}"
-
-#: qt/aqt/importing.py:367
-msgid "Unknown file format."
-msgstr "未知的文件格式."
-
-#: pylib/anki/stats.py:860
-msgid "Unseen"
-msgstr "未看"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:109
-msgid "Update existing notes when first field matches"
-msgstr "当首字段匹配时更新现有笔记"
-
-#: pylib/anki/importing/anki2.py:160
-msgid "Updated"
-msgstr "已更新"
-
-#: qt/aqt/profiles.py:479
-msgid "User 1"
-msgstr "用户1"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:287
-msgid "User interface size"
-msgstr "用户界面尺寸"
-
-#: qt/aqt/about.py:104
-#, python-format
-msgid "Version %s"
-msgstr "版本 %s"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:74
-msgid "View Add-on Page"
-msgstr "浏览插件页面"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:76
-msgid "View Files"
-msgstr "查看文件"
-
-#: qt/aqt/main.py:735
-msgid "Waiting for editing to finish."
-msgstr "等待编辑完成."
-
-#: qt/aqt/editor.py:644
-msgid "Warning, cloze deletions will not work until you switch the type at the top to Cloze."
-msgstr "警告，在你把上方的笔记类型改成 \"完形填空\" 之前，你的完形填空的填空内容将不会发挥功能。"
-
-#: qt/aqt/overview.py:137
-msgid "What would you like to unbury?"
-msgstr "您想撤回焚毁操作吗？"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:285
-msgid "When adding, default to current deck"
-msgstr "当添加时，默认是当前牌组"
-
-#: qt/aqt/browser.py:1108 qt/aqt/browser.py:1255
-msgid "Whole Collection"
-msgstr "全部集合"
-
-#: qt/aqt/update.py:63
-msgid "Would you like to download it now?"
-msgstr "你想现在就下载？"
-
-#: qt/aqt/about.py:215
-#, python-format
-msgid "Written by Damien Elmes, with patches, translation,    testing and design from:<p>%(cont)s"
-msgstr "作者：Damien Elmes，补丁﹑翻译、测试及设计：<p>%(cont)s"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:310
-msgid "You can restore backups via File>Switch Profile."
-msgstr "您可以通过 文件->切换用户 来恢复备份。"
-
-#: qt/aqt/addcards.py:178
-msgid "You have a cloze deletion note type but have not made any cloze deletions. Proceed?"
-msgstr "你有一个完形填空类型的笔记，但是还没有制作任何填空内容。仍然要继续吗?"
+#: qt/aqt/reviewer.py:833
+msgid "Note buried."
+msgstr "已搁置的笔记"
 
 #: qt/aqt/reviewer.py:841
 msgid "You haven't recorded your voice yet."
 msgstr "你还没有录制你的声音."
 
-#: qt/aqt/browser.py:997
-msgid "You must have at least one column."
-msgstr "必须至少有一列."
+#: qt/aqt/sound.py:323
+msgid "Sound and video on cards will not function until mpv or mplayer is installed."
+msgstr "卡片上的音频及视频将不会被播放，除非已安装mpv或mplayer。"
 
-#: pylib/anki/stats.py:214 pylib/anki/stats.py:347 pylib/anki/stats.py:367
-#: pylib/anki/stats.py:687
-msgid "Young"
-msgstr "新的"
-
-#: pylib/anki/stats.py:859
-msgid "Young+Learn"
-msgstr "新的+学习中的"
-
-#: qt/aqt/deckconf.py:113
-msgid "Your changes will affect multiple decks. If you wish to change only the current deck, please add a new options group first."
-msgstr "你的改变将会影响到很多牌组. 如果你只想要改变当前牌组, 请先添加一个学习计划组."
-
-#: qt/aqt/main.py:578
-msgid "Your collection file appears to be corrupt. This can happen when the file is copied or moved while Anki is open, or when the collection is stored on a network or cloud drive. If problems persist after restarting your computer, please open an automatic backup from the profile screen."
-msgstr "您的集合文件似乎已损坏。当Anki还在运行时就拷贝文件或者将其存储于网络或云存储时就会发生这种情况。如果在重启电脑后问题依旧存在，请在资料页面打开一个自动备份。"
-
-#: qt/aqt/errors.py:99
-msgid "Your computer's storage may be full. Please delete some unneeded files, then try again."
-msgstr "您的电脑存储可能已满。请删除不需要的文件，然后重试一次。"
-
-#: qt/aqt/errors.py:82
-msgid "Your firewall or antivirus program is preventing Anki from creating a connection to itself. Please add an exception for Anki."
-msgstr "您的防火墙或杀毒软件阻止了 Anki 创建连接，请将 Anki 添加到白名单中。"
-
-#: pylib/anki/decks.py:382
-msgid "[no deck]"
-msgstr "[没有牌组]"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:309
-msgid "backups"
-msgstr "备份"
-
-#: pylib/anki/stats.py:319 qt/aqt/customstudy.py:53
-msgid "cards"
-msgstr "卡片"
-
-#: qt/aqt/customstudy.py:101
-msgid "cards from the deck"
-msgstr "牌组中的卡片"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:139
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:143
-msgid "cards selected by"
-msgstr "卡片选择按"
-
-#: qt/aqt/exporting.py:110
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/stats.py:82
-msgid "collection"
-msgstr "集合"
-
-#. T: abbreviation of day
-#: pylib/anki/stats.py:982
-msgid "d"
-msgstr "天"
-
-#: qt/aqt/customstudy.py:90 qt/aqt/customstudy.py:94 qt/aqt/customstudy.py:97
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:350
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:351
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:358
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:370
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reschedule.py:79
-msgid "days"
-msgstr "天"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/stats.py:81
-msgid "deck"
-msgstr "牌组"
-
-#: pylib/anki/stats.py:949
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/stats.py:85
-msgid "deck life"
-msgstr "牌组使用期"
-
-#: qt/aqt/browser.py:2019
-msgid "duplicate"
-msgstr "复制"
-
-#: pylib/anki/stats.py:413
-msgid "hours"
-msgstr "小时"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:296
-msgid "hours past midnight"
-msgstr "点 (凌晨)"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:367
-msgid "lapses"
-msgstr "遗忘次数"
-
-#: qt/aqt/importing.py:256
+#: qt/aqt/sound.py:502
 #, python-format
-msgid "mapped to <b>%s</b>"
-msgstr "对应到<b>%s</b>"
+msgid "Error running %s"
+msgstr "运行 %s 出错"
 
-#: qt/aqt/importing.py:254
-msgid "mapped to <b>Tags</b>"
-msgstr "对应到<b>标签</b>"
+#: qt/aqt/sound.py:610
+#, python-format
+msgid "Recording...<br>Time: %0.1f"
+msgstr "录音中...<br>时间: %0.1f"
 
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:294
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:298
-msgid "mins"
-msgstr "分钟"
-
-#: pylib/anki/stats.py:384
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:148
-msgid "minutes"
-msgstr "分钟"
-
-#. T: abbreviation of month
-#: pylib/anki/stats.py:986
-msgid "mo"
-msgstr "月"
-
-#: pylib/anki/stats.py:252 pylib/anki/stats.py:360
-msgid "reviews"
-msgstr "复习"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:376
-msgid "seconds"
-msgstr "秒"
+#: qt/aqt/stats.py:42 qt/aqt/stats.py:67 qt/aqt/stats.py:114
+#: qt/aqt/stats.py:145
+msgid "Save PDF"
+msgstr "保存为 PDF"
 
 #: qt/aqt/stats.py:64 qt/aqt/stats.py:142
 msgid "stats"
 msgstr "状态"
 
-#. T: abbreviation of week
-#: pylib/anki/stats.py:984
-msgid "w"
-msgstr "周"
+#: qt/aqt/stats.py:80 qt/aqt/stats.py:158
+msgid "Saved."
+msgstr "已保存"
 
-#: pylib/anki/stats.py:944
-msgid "whole collection"
-msgstr "全部集合"
+#: qt/aqt/studydeck.py:48
+msgid "Add New Deck (Ctrl+N)"
+msgstr "添加新的牌组"
 
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reschedule.py:78
-msgid "~"
-msgstr "~"
+#: qt/aqt/studydeck.py:67
+msgid "Study"
+msgstr "学习"
 
-#~ msgid "Front"
-#~ msgstr "正面"
+#: qt/aqt/studydeck.py:135
+msgid "Please select something."
+msgstr "请选择一些东西."
 
-#~ msgid "Congratulations! You have finished this deck for now."
-#~ msgstr "恭喜！你目前已经完成了这个记忆库。"
+#: qt/aqt/toolbar.py:119
+msgid "Browse"
+msgstr "浏览"
 
-#~ msgid "Deauthorize"
-#~ msgstr "解除授权"
+#: qt/aqt/toolbar.py:126
+msgid "Stats"
+msgstr "统计"
 
-#~ msgid "Show Both Sides"
-#~ msgstr "显示双面"
+#: qt/aqt/toolbar.py:143
+msgid "Sync"
+msgstr "同步"
 
-#~ msgid "Some related or buried cards were delayed until a later session."
-#~ msgstr "一些相关或搁置卡片会被推迟到下一学习周期进行。"
+#: qt/aqt/update.py:59
+#, python-format
+msgid "<h1>Anki Updated</h1>Anki %s has been released.<br><br>"
+msgstr "<h1>Anki有更新</h1>Anki %s 发布了。<br><br>"
 
-#~ msgid ""
-#~ "There are more new cards available, but the daily limit has been\n"
-#~ "reached. You can increase the limit in the options, but please\n"
-#~ "bear in mind that the more new cards you introduce, the higher\n"
-#~ "your short-term review workload will become."
-#~ msgstr ""
-#~ "您仍有新的卡片可以学习，但是已经达到\n"
-#~ "当日限值。您可以在选项中增加限值，但请\n"
-#~ "注意，您学习的新卡片越多，您所需的短期\n"
-#~ "复习量就越大。"
+#: qt/aqt/update.py:63
+msgid "Would you like to download it now?"
+msgstr "你想现在就下载？"
 
-#~ msgid "To see them now, click the Unbury button below."
-#~ msgstr "欲现在查看，请点击“取消搁置”按钮"
+#: qt/aqt/update.py:64
+msgid "Ignore this update"
+msgstr "忽略这次更新"
 
-#~ msgid "To study outside of the normal schedule, click the Custom Study button below."
-#~ msgstr "在正常计划外学习, 请单击下面的自定义学习按钮."
+#: qt/aqt/utils.py:57
+msgid "Loading..."
+msgstr "正在载入..."
 
-#~ msgid ""
-#~ "Today's review limit has been reached, but there are still cards\n"
-#~ "waiting to be reviewed. For optimum memory, consider increasing\n"
-#~ "the daily limit in the options."
-#~ msgstr ""
-#~ "达到了今天的复习限制, 但是仍有卡片等待被复习.\n"
-#~ "为了最佳化记忆, 可以考虑在设置中增大每日限制."
+#: qt/aqt/utils.py:148
+msgid "Copy to Clipboard"
+msgstr "复制到剪贴板"
 
-#~ msgid "Shortcut key: Left or Right arrow"
-#~ msgstr "快捷键：左方向键"
+#: qt/aqt/utils.py:412
+msgid "This file exists. Are you sure you want to overwrite it?"
+msgstr "文件已存在.确定要覆盖吗?"
+
+#: qt/aqt/utils.py:659
+#, python-format
+msgid "The following character can not be used: %s"
+msgstr "下列字符不能被使用: %s"
+
+#. T: include a font for your language on Windows, eg: "Segoe UI", "MS Mincho"
+#: qt/aqt/webview.py:379
+msgid "\"Segoe UI\""
+msgstr "Segoe UI字体"
 
 #~ msgid " (1 of %d)"
 #~ msgstr " (%d分之1)"
@@ -3672,6 +3629,9 @@ msgstr "~"
 #~ msgid "Collection is corrupt. Please see the manual."
 #~ msgstr "集合已经损坏。请查阅手册。"
 
+#~ msgid "Congratulations! You have finished this deck for now."
+#~ msgstr "恭喜！你目前已经完成了这个记忆库。"
+
 #~ msgid "Connecting..."
 #~ msgstr "正在连接..."
 
@@ -3686,6 +3646,9 @@ msgstr "~"
 
 #~ msgid "Date"
 #~ msgstr "日期"
+
+#~ msgid "Deauthorize"
+#~ msgstr "解除授权"
 
 #~ msgid "Delete Cards"
 #~ msgstr "删除卡片"
@@ -3761,6 +3724,9 @@ msgstr "~"
 
 #~ msgid "Fixed note type: %s"
 #~ msgstr "固定的笔记种类: %s"
+
+#~ msgid "Front"
+#~ msgstr "正面"
 
 #~ msgid "Front Preview"
 #~ msgstr "正面预览"
@@ -3840,6 +3806,15 @@ msgstr "~"
 #~ msgid "Server not found. Either your connection is down, or antivirus/firewall software is blocking Anki from connecting to the internet."
 #~ msgstr "服务器没有找到。或者你的链接是中断的，或者杀毒软件/防火墙软件正在阻止Anki链接Internet。"
 
+#~ msgid "Shortcut key: Left or Right arrow"
+#~ msgstr "快捷键：左方向键"
+
+#~ msgid "Show Both Sides"
+#~ msgstr "显示双面"
+
+#~ msgid "Some related or buried cards were delayed until a later session."
+#~ msgstr "一些相关或搁置卡片会被推迟到下一学习周期进行。"
+
 #~ msgid "Stopping..."
 #~ msgstr "正在停止..."
 
@@ -3892,6 +3867,17 @@ msgstr "~"
 #~ msgid "The input you have provided would make an empty question on all cards."
 #~ msgstr "您的输入可能会使所有卡片的问题为空。"
 
+#~ msgid ""
+#~ "There are more new cards available, but the daily limit has been\n"
+#~ "reached. You can increase the limit in the options, but please\n"
+#~ "bear in mind that the more new cards you introduce, the higher\n"
+#~ "your short-term review workload will become."
+#~ msgstr ""
+#~ "您仍有新的卡片可以学习，但是已经达到\n"
+#~ "当日限值。您可以在选项中增加限值，但请\n"
+#~ "注意，您学习的新卡片越多，您所需的短期\n"
+#~ "复习量就越大。"
+
 #~ msgid "This column can't be sorted on, but you can search for individual card types, such as 'card:1'."
 #~ msgstr "无法以该字段排序，但可用卡片类型来筛选（如“card:1”）"
 
@@ -3916,6 +3902,20 @@ msgstr "~"
 
 #~ msgid "Time"
 #~ msgstr "时间"
+
+#~ msgid "To see them now, click the Unbury button below."
+#~ msgstr "欲现在查看，请点击“取消搁置”按钮"
+
+#~ msgid "To study outside of the normal schedule, click the Custom Study button below."
+#~ msgstr "在正常计划外学习, 请单击下面的自定义学习按钮."
+
+#~ msgid ""
+#~ "Today's review limit has been reached, but there are still cards\n"
+#~ "waiting to be reviewed. For optimum memory, consider increasing\n"
+#~ "the daily limit in the options."
+#~ msgstr ""
+#~ "达到了今天的复习限制, 但是仍有卡片等待被复习.\n"
+#~ "为了最佳化记忆, 可以考虑在设置中增大每日限制."
 
 #~ msgid "Total Time"
 #~ msgstr "总计用时"

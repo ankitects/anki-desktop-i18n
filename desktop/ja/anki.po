@@ -17,38 +17,418 @@ msgstr ""
 "X-Crowdin-Project: anki\n"
 "X-Generator: Pontoon\n"
 
-#: qt/aqt/importing.py:403
-#, fuzzy
-msgid "    Invalid file. Please restore from backup."
-msgstr "ファイルが壊れています。バックアップから復元してください。"
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/about.py:45
+msgid "About Anki"
+msgstr "Anki について"
 
-#: qt/aqt/importing.py:412
-#, fuzzy
-msgid "    Unable to import from a read-only file."
-msgstr "読み込み専用ファイルは読み込めません。"
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addcards.py:60
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:103
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/profiles.py:82
+#: qt/aqt/addcards.py:38 qt/aqt/addcards.py:70 qt/aqt/deckconf.py:89
+#: qt/aqt/models.py:57 qt/aqt/studydeck.py:46 qt/aqt/toolbar.py:112
+msgid "Add"
+msgstr "追加"
 
-#: qt/aqt/addons.py:313
-msgid " (disabled)"
-msgstr " (無効)"
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addfield.py:62
+#: qt/aqt/clayout.py:389
+msgid "Add Field"
+msgstr "フィールドを追加"
 
-#: qt/aqt/clayout.py:694
-msgid " (off)"
-msgstr " (無効)"
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addfield.py:63
+msgid "Field:"
+msgstr "フィールド:"
 
-#: qt/aqt/clayout.py:692
-msgid " (on)"
-msgstr " (有効)"
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addfield.py:64
+msgid "Size:"
+msgstr "サイズ:"
 
-#: qt/aqt/deckbrowser.py:289
-#, python-format
-msgid " It has %d card."
-msgid_plural " It has %d cards."
-msgstr[0] " %d枚のカードが含まれています。"
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addfield.py:65
+msgid "Font:"
+msgstr "フォント:"
 
-#. T: include a font for your language on Windows, eg: "Segoe UI", "MS Mincho"
-#: qt/aqt/webview.py:379
-msgid "\"Segoe UI\""
-msgstr "\"Segoe UI\", \"MS PGothic\""
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addmodel.py:46
+msgid "Add Note Type"
+msgstr "ノートタイプを追加"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addonconf.py:73
+msgid "Configuration"
+msgstr "設定"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:70
+msgid "Changes will take effect when Anki is restarted."
+msgstr "変更を反映させるにはAnkiを再起動してください。"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:71
+msgid "Get Add-ons..."
+msgstr "新たにアドオンを取得..."
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:72
+msgid "Install from file..."
+msgstr "ファイルからインストール..."
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:73
+msgid "Check for Updates"
+msgstr "既存アドオンのアップデート"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:74
+msgid "View Add-on Page"
+msgstr "選択中のアドオンの詳細"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:75
+msgid "Config"
+msgstr "設定"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:76
+msgid "View Files"
+msgstr "ファイルを見る"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:77
+msgid "Toggle Enabled"
+msgstr "有効/無効 の切り替え"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:78
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:332
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:104
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/profiles.py:84
+#: qt/aqt/deckbrowser.py:234 qt/aqt/deckconf.py:91 qt/aqt/models.py:59
+#: qt/aqt/reviewer.py:812
+msgid "Delete"
+msgstr "削除"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:297
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:138
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:142
+#: qt/aqt/browser.py:1979
+msgid "Search"
+msgstr "検索"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:298
+#: qt/aqt/previewer.py:65
+msgid "Preview"
+msgstr "プレビュー"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:299
+msgid "Filter..."
+msgstr "フィルター..."
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:300
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:135
+msgid "&Edit"
+msgstr "編集 (&E)"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:301
+msgid "&Go"
+msgstr "移動 (&G)"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:302
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:134
+msgid "&Help"
+msgstr "ヘルプ (&H)"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:303
+msgid "&Cards"
+msgstr "カード(&C)"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:304
+msgid "Flag"
+msgstr "フラグを付ける"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:305
+msgid "&Notes"
+msgstr "ノート(&N)"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:306
+msgid "&Reschedule..."
+msgstr "スケジュールを変更...(&R)"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:307
+msgid "Select &All"
+msgstr "全てを選択 (&A)"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:308
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:142
+msgid "&Undo"
+msgstr "元に戻す (&U)"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:309
+msgid "&Invert Selection"
+msgstr "選択を反転 (&I)"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:310
+msgid "&Find"
+msgstr "検索 (&F)"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:311
+msgid "N&ote"
+msgstr "ノート (&O)"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:312
+msgid "&Next Card"
+msgstr "次のカード (&N)"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:313
+msgid "&Previous Card"
+msgstr "前のカード (&P)"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:314
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:149
+msgid "&Guide..."
+msgstr "ガイド (&G)"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:315
+msgid "Change Note Type..."
+msgstr "ノートタイプを変更..."
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:316
+msgid "Select &Notes"
+msgstr "ノートを選択 (&N)"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:317
+msgid "Find and Re&place..."
+msgstr "検索して置換"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:318
+msgid "&Cram..."
+msgstr "詰め込み学習 (&C)"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:319
+msgid "Fil&ter"
+msgstr "フィルター (&T)"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:320
+msgid "Card List"
+msgstr "カード一覧"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:321
+msgid "Find &Duplicates..."
+msgstr "重複を検索する (&D)..."
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:322
+msgid "Reposition..."
+msgstr "新規カードの表示順序を変更..."
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:323
+msgid "First Card"
+msgstr "最初のカード"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:324
+msgid "Home"
+msgstr "ホーム"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:325
+msgid "Last Card"
+msgstr "最後のカード"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:326
+msgid "End"
+msgstr "終り"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:327
+#: qt/aqt/addcards.py:75
+msgid "Close"
+msgstr "閉じる"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:328
+msgid "&Info..."
+msgstr "カード情報"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:329
+msgid "Add Tags..."
+msgstr "タグを追加..."
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:330
+msgid "Remove Tags..."
+msgstr "タグを除去..."
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:331
+msgid "Toggle Suspend"
+msgstr "保留/保留解除 を切り替える"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:333
+msgid "Add Notes..."
+msgstr "ノートを追加..."
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:334
+msgid "Change Deck..."
+msgstr "デッキを変更..."
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:335
+#: qt/aqt/browser.py:1284 qt/aqt/reviewer.py:701
+msgid "Red Flag"
+msgstr "赤フラグ"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:336
+#: qt/aqt/browser.py:1285 qt/aqt/reviewer.py:707
+msgid "Orange Flag"
+msgstr "橙フラグ"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:337
+#: qt/aqt/browser.py:1286 qt/aqt/reviewer.py:713
+msgid "Green Flag"
+msgstr "緑フラグ"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:338
+#: qt/aqt/browser.py:1287 qt/aqt/reviewer.py:719
+msgid "Blue Flag"
+msgstr "青フラグ"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:339
+#: qt/aqt/browser.py:1031
+msgid "Sidebar"
+msgstr "サイドバー"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:340
+msgid "Clear Unused Tags"
+msgstr "使用されていないタグを削除"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:341
+msgid "Manage Note Types..."
+msgstr "ノートタイプを管理..."
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:342
+msgid "Toggle Mark"
+msgstr "マークを付ける/除去する"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:343
+msgid "&Export Notes..."
+msgstr ""
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:344
+msgid "Ctrl+Shift+E"
+msgstr ""
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browserdisp.py:71
+msgid "Browser Appearance"
+msgstr "検索の表示設定"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browserdisp.py:72
+msgid "Override front template:"
+msgstr "質問のテンプレート:"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browserdisp.py:73
+msgid "Override back template:"
+msgstr "解答のテンプレート:"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browserdisp.py:74
+msgid "Override font:"
+msgstr "フォント:"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browseropts.py:71
+msgid "Browser Options"
+msgstr "検索オプション"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browseropts.py:72
+msgid "<b>Font</b>:"
+msgstr "<b>フォント</b>："
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browseropts.py:73
+msgid "<b>Font Size</b>:"
+msgstr "<b>フォントサイズ</b>："
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browseropts.py:74
+msgid "<b>Line Size</b>:"
+msgstr "<b>行のサイズ</b>:"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browseropts.py:75
+msgid "Search within formatting (slow)"
+msgstr "書式済みの内容の中まで検索 (速度が低下します)"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/changemap.py:43
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:105
+#: qt/aqt/importing.py:103 qt/aqt/importing.py:189 qt/aqt/importing.py:311
+msgid "Import"
+msgstr "読み込む"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/changemap.py:44
+msgid "Target field:"
+msgstr "対象フィールド:"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/changemodel.py:111
+#: qt/aqt/browser.py:2270
+msgid "Change Note Type"
+msgstr "ノートタイプを変更"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/changemodel.py:112
+msgid "Current note type:"
+msgstr "現在のノートタイプ:"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/changemodel.py:113
+msgid "New note type:"
+msgstr "変更後のノートタイプ:"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/changemodel.py:114
+#: pylib/anki/stats.py:310 pylib/anki/stats.py:962 qt/aqt/editor.py:134
+msgid "Cards"
+msgstr "カード"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/changemodel.py:115
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:102
+#: qt/aqt/editor.py:126 qt/aqt/fields.py:23
+msgid "Fields"
+msgstr "フィールド"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/clayout_top.py:54
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/template.py:73
+msgid "Form"
+msgstr "フォーム"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:103
+#: qt/aqt/overview.py:258
+msgid "Custom Study"
+msgstr "カスタム学習"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:104
+msgid "Review ahead"
+msgstr "先取りして学習する"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:105
+msgid "Review forgotten cards"
+msgstr "忘却したカードを復習する"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:106
+msgid "Increase today's new card limit"
+msgstr "今日の新規カードの上限を上げる"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:107
+msgid "Increase today's review card limit"
+msgstr "今日の復習カードの上限を上げる"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:108
+msgid "Study by card state or tag"
+msgstr "カードの状態やタグを選んで学習する"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:109
+msgid "Preview new cards"
+msgstr "新規カードをプレビューする"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:113
+msgid "New cards only"
+msgstr "新規カードのみ"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:115
+msgid "Due cards only"
+msgstr "復習期日に達したカードのみ"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:117
+msgid "All review cards in random order"
+msgstr ""
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:119
+msgid "All cards in random order (don't reschedule)"
+msgstr ""
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:340
+msgid "Options group:"
+msgstr "オプショングループ"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:341
+#: qt/aqt/browser.py:1337
+msgid "Manage..."
+msgstr "管理..."
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:342
+msgid "Starting ease"
+msgstr "復習開始時の「易しさ」（復習間隔の伸び率）"
 
 #: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:343
 #: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:354
@@ -59,14 +439,1680 @@ msgstr "\"Segoe UI\", \"MS PGothic\""
 msgid "%"
 msgstr "%"
 
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:344
+msgid "Order"
+msgstr "順番"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:345
+msgid "Easy interval"
+msgstr "簡単と回答してから復習開始までの間隔"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:346
+msgid "Graduating interval"
+msgstr "最終ステップから復習開始までの間隔"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:347
+msgid "New cards/day"
+msgstr "一日あたりの新規カード出題枚数の上限"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:348
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:364
+msgid "Steps (in minutes)"
+msgstr "学習ステップ（分）"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:349
+msgid "Bury related new cards until the next day"
+msgstr "関連する新規カードを翌日まで延期する"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:350
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:351
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:358
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:370
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reschedule.py:79
+#: qt/aqt/customstudy.py:90 qt/aqt/customstudy.py:94 qt/aqt/customstudy.py:97
+msgid "days"
+msgstr "日"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:352
+msgid "New Cards"
+msgstr "新規カード"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:353
+msgid "Easy bonus"
+msgstr "簡単と答えた時のボーナス"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:355
+msgid "Interval modifier"
+msgstr "復習ペースの調整"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:356
+msgid "Maximum reviews/day"
+msgstr "一日あたりの復習カード出題枚数の上限"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:357
+msgid "Maximum interval"
+msgstr "復習間隔の上限"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:360
+msgid "Bury related reviews until the next day"
+msgstr "関連カードの復習を翌日まで延期する"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:361
+msgid "Hard interval"
+msgstr "難しいから復習開始までの間隔"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:363
+#: pylib/anki/stats.py:819 qt/aqt/browser.py:751
+msgid "Reviews"
+msgstr "復習"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:365
+msgid "New interval"
+msgstr "新しい復習間隔（前回比）"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:366
+msgid "Leech threshold"
+msgstr "無駄（定着困難）カードと判定する忘却回数"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:367
+msgid "lapses"
+msgstr "回"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:368
+msgid "Leech action"
+msgstr "無駄（定着困難）カードへの処置"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:369
+msgid "Minimum interval"
+msgstr "復習間隔の下限"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:371
+#: qt/aqt/reviewer.py:729
+msgid "Suspend Card"
+msgstr "カードを保留"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:372
+msgid "Tag Only"
+msgstr "タグを付けるだけ"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:374
+#: qt/aqt/browser.py:752
+msgid "Lapses"
+msgstr "忘却"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:375
+msgid "Ignore answer times longer than"
+msgstr "統計に利用する解答時間の最大値"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:376
+msgid "seconds"
+msgstr "秒"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:377
+msgid "Show answer timer"
+msgstr "解答タイマーを表示する"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:378
+msgid "Automatically play audio"
+msgstr "音声を自動再生する"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:379
+msgid "Always include question side when replaying audio"
+msgstr "解答の音声・動画の前に質問の音声・動画も再生"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:380
+msgid "General"
+msgstr "一般"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:381
+msgid "Description to show on overview screen, for current deck:"
+msgstr ""
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:382
+msgid "Description"
+msgstr "説明"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/debug.py:56
+msgid "Debug Console"
+msgstr "デバッグコンソール"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:135
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/editaddon.py:42
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/editcurrent.py:43
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/progress.py:42
+msgid "Dialog"
+msgstr "ダイアログ"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:136
+#: qt/aqt/browser.py:1319
+msgid "Filter"
+msgstr "フィルター"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:137
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:141
+msgid "Limit to"
+msgstr "最大枚数"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:139
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:143
+msgid "cards selected by"
+msgstr "枚。出題方法："
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:140
+msgid "Filter 2"
+msgstr "フィルター２"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:144
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:110
+#: qt/aqt/clayout.py:111 qt/aqt/deckbrowser.py:230 qt/aqt/deckconf.py:37
+#: qt/aqt/dyndeckconf.py:25 qt/aqt/overview.py:252 qt/aqt/reviewer.py:732
+msgid "Options"
+msgstr "オプション"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:145
+msgid "Reschedule cards based on my answers in this deck"
+msgstr "このデッキの解答に基づいてカードをスケジュールし直す"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:146
+msgid "Enable second filter"
+msgstr ""
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:147
+msgid "Repeat failed cards after"
+msgstr "後で間違えたカードをやり直す"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:148
+#: pylib/anki/stats.py:384
+msgid "minutes"
+msgstr "分"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:149
+msgid "Custom steps (in minutes)"
+msgstr "カスタム学習ステップ（分）"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/edithtml.py:39
+msgid "HTML Editor"
+msgstr "HTML エディタ"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/exporting.py:76
+#: qt/aqt/deckbrowser.py:232 qt/aqt/exporting.py:124
+msgid "Export"
+msgstr "書き出す"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/exporting.py:77
+msgid "<b>Export format</b>:"
+msgstr "<b>ファイルの形式</b>"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/exporting.py:78
+msgid "<b>Include</b>:"
+msgstr "<b>対象</b>:"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/exporting.py:79
+msgid "Include scheduling information"
+msgstr "スケジュール情報を含める"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/exporting.py:80
+msgid "Include media"
+msgstr "メディアファイルを含める"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/exporting.py:81
+msgid "Include tags"
+msgstr "タグを含める"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/exporting.py:82
+msgid "Include HTML and media references"
+msgstr ""
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:105
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/profiles.py:83
+#: qt/aqt/deckbrowser.py:228 qt/aqt/deckconf.py:93 qt/aqt/models.py:58
+#: qt/aqt/sidebar.py:74
+msgid "Rename"
+msgstr "名前を変更"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:106
+#: qt/aqt/browser.py:1751
+msgid "Reposition"
+msgstr "並び替える"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:107
+msgid "Editing Font"
+msgstr "フォントを編集"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:108
+msgid "Reverse text direction (RTL)"
+msgstr "右から左入力 (RTL)"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:109
+msgid "Remember last input when adding"
+msgstr "追加の際に直前の入力を残す"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:111
+msgid "Sort by this field in the browser"
+msgstr "このフィールドでソート(並び替え)する"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/finddupes.py:71
+msgid "Find Duplicates"
+msgstr "重複を検索"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/finddupes.py:72
+msgid "Optional filter:"
+msgstr "オプションフィルター："
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/finddupes.py:73
+msgid "Search in:"
+msgstr "検索対象："
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/findreplace.py:87
+#: qt/aqt/browser.py:1909
+msgid "Find and Replace"
+msgstr "検索して置換"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/findreplace.py:88
+msgid "<b>Find</b>:"
+msgstr "<b>検索文字列</b>："
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/findreplace.py:89
+msgid "<b>Replace With</b>:"
+msgstr "<b>置換文字列</b>："
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/findreplace.py:90
+msgid "<b>In</b>:"
+msgstr "<b>対象</b>:"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/findreplace.py:91
+msgid "Treat input as regular expression"
+msgstr "入力条件に正規表現を使う"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/findreplace.py:92
+msgid "Ignore case"
+msgstr "大文字小文字を区別しない"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/getaddons.py:50
+msgid "Install Add-on"
+msgstr "アドオンをインストールする"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/getaddons.py:51
+msgid "To browse add-ons, please click the browse button below.<br><br>When you've found an add-on you like, please paste its code below. You can paste multiple codes, separated by spaces."
+msgstr "下の「アドオン一覧」ボタンをクリックすると、使用可能なアドオンの一覧が表示されます。<br><br>使用したいアドオンがある場合は、そのアドオンのコードを下の欄に貼り付けてください。スペースで間隔を空けて複数のコードを入力することも可能です。"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/getaddons.py:52
+msgid "Code:"
+msgstr "コード:"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:106
+msgid "Import options"
+msgstr "読み込みオプション"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:107
+#: qt/aqt/modelchooser.py:40
+msgid "Type"
+msgstr "ノートタイプ"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:108
+#: qt/aqt/browser.py:743 qt/aqt/deckbrowser.py:147 qt/aqt/deckchooser.py:29
+msgid "Deck"
+msgstr "デッキ"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:109
+msgid "Update existing notes when first field matches"
+msgstr "最初のフィールドが一致した場合、既存のノートを更新する。"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:110
+msgid "Ignore lines where first field matches existing note"
+msgstr "最初のフィールドが既存のノートと一致する行は無視する"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:111
+msgid "Import even if existing note has same first field"
+msgstr "最初のフィールドが既存のノートと同じであっても読み込む"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:112
+msgid "Allow HTML in fields"
+msgstr "フィールドに HTML を使う"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:113
+msgid "Tag modified notes:"
+msgstr "タグの修正されたノート："
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:114
+msgid "Field mapping"
+msgstr "フィールドの割り当て"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:133
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/setgroup.py:40
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/setlang.py:41
+msgid "Anki"
+msgstr "Anki"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:136
+msgid "&File"
+msgstr "ファイル (&F)"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:137
+msgid "&Tools"
+msgstr "ツール (&T)"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:138
+msgid "E&xit"
+msgstr "終了 (&X)"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:139
+msgid "&Preferences..."
+msgstr "設定(&P)"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:140
+msgid "Configure interface language and options"
+msgstr "インターフェイス言語とオプションを設定"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:141
+msgid "&About..."
+msgstr "Anki について (&A)"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:143
+msgid "Check &Media..."
+msgstr "メディアをチェック"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:144
+msgid "Check the files in the media directory"
+msgstr "メディアフォルダにあるファイルを検査"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:145
+msgid "&Open Add-ons Folder..."
+msgstr "アドオンフォルダを開く (&O)"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:146
+msgid "&Support Anki..."
+msgstr "Anki への支援 (&S)"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:147
+msgid "&Browse and Install..."
+msgstr "検索とインストール...(&B)"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:148
+msgid "&Check Database"
+msgstr "データベースをチェック (&C)"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:150
+msgid "&Switch Profile"
+msgstr "プロファイルを切り替える (&S)"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:151
+msgid "&Export..."
+msgstr "書き出す (&E)"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:152
+msgid "&Import..."
+msgstr "読み込む (&I)"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:153
+msgid "Study Deck..."
+msgstr "デッキを選択..."
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:154
+msgid "Empty Cards..."
+msgstr "白紙カードをチェック"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:155
+msgid "Create Filtered Deck..."
+msgstr "フィルターデッキを作成..."
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:156
+msgid "Manage Note Types"
+msgstr "ノートタイプを管理"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:157
+msgid "Add-ons"
+msgstr "アドオン"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/modelopts.py:66
+msgid "Create scalable images with dvisvgm"
+msgstr ""
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/modelopts.py:67
+msgid "Header"
+msgstr "ヘッダー"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/modelopts.py:68
+msgid "Footer"
+msgstr "フッター"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/modelopts.py:69
+#: qt/aqt/editor.py:956
+msgid "LaTeX"
+msgstr "LaTeX"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/models.py:56
+#: qt/aqt/browser.py:1335 qt/aqt/models.py:36
+msgid "Note Types"
+msgstr "ノートタイプ"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:278
+msgid "Preferences"
+msgstr "設定"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:279
+msgid "Hardware acceleration (faster, may cause display issues)"
+msgstr ""
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:280
+msgid "Show play buttons on cards with audio"
+msgstr "オーディオを含むカードに再生ボタンを表示する"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:281
+msgid "Interrupt current audio when answering"
+msgstr ""
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:282
+msgid "Paste clipboard images as PNG"
+msgstr "クリップボード画像をPNG形式で貼り付ける"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:283
+msgid "Paste without shift key strips formatting"
+msgstr ""
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:284
+msgid "Night mode"
+msgstr "夜間モード"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:285
+msgid "When adding, default to current deck"
+msgstr "カード追加の時、現在のデッキを既定にする"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:286
+msgid "Change deck depending on note type"
+msgstr "カード追加の時、ノートタイプによってデッキを選択"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:287
+msgid "User interface size"
+msgstr "ユーザーインターフェースのサイズ"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:289
+msgid "Basic"
+msgstr "基本"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:290
+msgid "Show next review time above answer buttons"
+msgstr "次回の復習時期を解答ボタンの上に表示する"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:291
+msgid "Show remaining card count during review"
+msgstr "復習の際にカードの残り枚数を表示する"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:292
+msgid "Show learning cards with larger steps before reviews"
+msgstr "学習中カードのステップを拡大する"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:293
+msgid "Anki 2.1 scheduler (beta)"
+msgstr "Anki 2.1 スケジューラー（ベータ版）"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:294
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:298
+msgid "mins"
+msgstr "分"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:295
+msgid "Timebox time limit"
+msgstr "タイムボックスの時間枠"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:296
+msgid "hours past midnight"
+msgstr "時"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:297
+msgid "Learn ahead limit"
+msgstr "学習の前倒しの限度"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:299
+msgid "Next day starts at"
+msgstr "日付更新時刻"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:300
+#, fuzzy
+msgid "Scheduling"
+msgstr "スケジュールを変更"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:301
+msgid "<b>Synchronisation</b>"
+msgstr "<b>同期</b>"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:302
+msgid "Synchronize audio and images too"
+msgstr "音声と画像も同期する"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:303
+msgid "Automatically sync on profile open/close"
+msgstr "プロファイルを開閉する際に自動的に同期する"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:304
+msgid "Periodically sync media"
+msgstr ""
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:305
+msgid "On next sync, force changes in one direction"
+msgstr "次回の同期は、一方向に変更を強制実行する"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:306
+msgid "Network"
+msgstr "ネットワーク"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:307
+#, fuzzy
+msgid "<html><head/><body><p><span style=\" font-weight:600;\">Backups</span><br/>Anki will create a backup of your collection each time it is closed.</p></body></html>"
+msgstr "<b>バックアップ</b><br>Anki はコレクションは閉じた時と同期した時にバックアップを作成します。"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:308
+msgid "Keep"
+msgstr "保存ファイル数"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:309
+msgid "backups"
+msgstr "バックアップ"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:310
+msgid "You can restore backups via File>Switch Profile."
+msgstr "「ファイル」→「プロファイル切替」でバックアップを復元することができます。"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:311
+msgid "Note: Media is not backed up. Please create a periodic backup of your Anki folder to be safe."
+msgstr "注意: メディア（画像／音声／動画）ファイルはバックアップされていません。安全のために Anki のフォルダを定期的にバックアップしてください。"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:312
+msgid "Some settings will take effect after you restart Anki."
+msgstr "Anki を再起動した後に有効になる設定があります。"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:313
+msgid "Backups"
+msgstr "バックアップ"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/profiles.py:80
+msgid "Profiles"
+msgstr "プロファイル"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/profiles.py:81
+msgid "Open"
+msgstr "開く"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/profiles.py:85
+msgid "Quit"
+msgstr "終了"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/profiles.py:86
+msgid "Open Backup..."
+msgstr "バックアップを開く..."
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reposition.py:72
+msgid "Reposition New Cards"
+msgstr "新規カードの表示順序を変更"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reposition.py:73
+msgid "Start position:"
+msgstr "開始位置:"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reposition.py:74
+msgid "Step:"
+msgstr "間隔:"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reposition.py:75
+msgid "Randomize order"
+msgstr "ランダムに並べ替える"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reposition.py:76
+msgid "Shift position of existing cards"
+msgstr "既存のカードの順序を移動する"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reschedule.py:75
+#: qt/aqt/browser.py:1777
+msgid "Reschedule"
+msgstr "スケジュールを変更"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reschedule.py:76
+msgid "Place at end of new card queue"
+msgstr "新規カードの最後に設定"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reschedule.py:77
+msgid "Place in review queue with interval between:"
+msgstr "次の期間内に復習を設定"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reschedule.py:78
+msgid "~"
+msgstr "~"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/setgroup.py:41
+msgid "Move cards to deck:"
+msgstr "カードをデッキに移動："
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/setlang.py:42
+msgid "Interface language:"
+msgstr "インターフェースの言語"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/stats.py:80
+msgid "Statistics"
+msgstr "統計"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/stats.py:81
+msgid "deck"
+msgstr "デッキ"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/stats.py:82
+#: qt/aqt/exporting.py:110
+msgid "collection"
+msgstr "コレクション"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/stats.py:83
+#: pylib/anki/stats.py:949
+msgid "1 month"
+msgstr "1か月"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/stats.py:84
+#: pylib/anki/stats.py:949
+msgid "1 year"
+msgstr "1年"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/stats.py:85
+#: pylib/anki/stats.py:949
+msgid "deck life"
+msgstr "全期間"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/studydeck.py:47
+msgid "Study Deck"
+msgstr "デッキを学習する"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/studydeck.py:48
+msgid "Filter:"
+msgstr "フィルター："
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/taglimit.py:62
+msgid "Selective Study"
+msgstr "選択学習"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/taglimit.py:63
+msgid "Require one or more of these tags:"
+msgstr "次のタグの中から1つ以上を指定する:"
+
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/taglimit.py:64
+msgid "Select tags to exclude:"
+msgstr "除外するタグの選択:"
+
+#: pylib/anki/collection.py:577 qt/aqt/browser.py:1278
+msgid "Review"
+msgstr "復習"
+
+#: pylib/anki/consts.py:93
+msgid "Show new cards in random order"
+msgstr "新規カードを無作為に選んで表示する"
+
+#: pylib/anki/consts.py:94
+msgid "Show new cards in order added"
+msgstr "新規カードを追加順に表示する"
+
+#: pylib/anki/consts.py:100
+msgid "Mix new cards and reviews"
+msgstr "新規カードと学習カードを混ぜる"
+
+#: pylib/anki/consts.py:101
+msgid "Show new cards after reviews"
+msgstr "復習カードの後に新規カードを学習する"
+
+#: pylib/anki/consts.py:102
+msgid "Show new cards before reviews"
+msgstr "復習カードの前に新規カードを学習する"
+
+#: pylib/anki/consts.py:108
+msgid "Center"
+msgstr "中央揃え"
+
+#: pylib/anki/consts.py:109
+msgid "Left"
+msgstr "左寄せ"
+
+#: pylib/anki/consts.py:110
+msgid "Right"
+msgstr "右寄せ"
+
+#: pylib/anki/consts.py:116
+msgid "Oldest seen first"
+msgstr "前回表示日時が古い順"
+
+#: pylib/anki/consts.py:117
+msgid "Random"
+msgstr "無作為"
+
+#: pylib/anki/consts.py:118
+msgid "Increasing intervals"
+msgstr "間隔が小さい順"
+
+#: pylib/anki/consts.py:119
+msgid "Decreasing intervals"
+msgstr "間隔が大きい順"
+
+#: pylib/anki/consts.py:120
+msgid "Most lapses"
+msgstr "忘却回数が多い順"
+
+#: pylib/anki/consts.py:121
+msgid "Order added"
+msgstr "追加した順番"
+
+#: pylib/anki/consts.py:122
+msgid "Order due"
+msgstr "復習期日が古い順"
+
+#: pylib/anki/consts.py:123
+msgid "Latest added first"
+msgstr "追加時期が新しい順"
+
+#: pylib/anki/consts.py:124
+msgid "Relative overdueness"
+msgstr "期日超過が相対的に大きい順"
+
+#: pylib/anki/decks.py:382
+msgid "[no deck]"
+msgstr "[デッキなし]"
+
+#: pylib/anki/exporting.py:95
+msgid "Cards in Plain Text"
+msgstr "テキストファイル形式のカード"
+
+#: pylib/anki/exporting.py:125
+msgid "Notes in Plain Text"
+msgstr "テキストファイル形式のノート"
+
+#: pylib/anki/exporting.py:167
+msgid "Anki 2.0 Deck"
+msgstr "Anki 2.0 デッキ"
+
+#: pylib/anki/exporting.py:316
+msgid "Anki Deck Package"
+msgstr "Anki デッキパッケージ"
+
+#: pylib/anki/exporting.py:398
+msgid "Anki Collection Package"
+msgstr "Anki コレクションパッケージ"
+
+#: pylib/anki/importing/__init__.py:13
+msgid "Text separated by tabs or semicolons (*)"
+msgstr "テキスト(タブ区切りまたはセミコロン区切り) (*)"
+
+#: pylib/anki/importing/__init__.py:14
+msgid "Packaged Anki Deck/Collection (*.apkg *.colpkg *.zip)"
+msgstr "パッケージ化されたAnkiデッキ／コレクション（*.apkg *.colpkg *.zip）"
+
+#: pylib/anki/importing/__init__.py:15
+msgid "Mnemosyne 2.0 Deck (*.db)"
+msgstr "Mnemosyne 2.0 デッキ (*.db)"
+
+#: pylib/anki/importing/__init__.py:16
+msgid "Supermemo XML export (*.xml)"
+msgstr "Supermemo 用の XML 形式 (*.xml)"
+
+#: pylib/anki/importing/__init__.py:17
+msgid "Pauker 1.8 Lesson (*.pau.gz)"
+msgstr ""
+
+#: pylib/anki/importing/anki2.py:134
+#, python-format
+msgid "Notes found in file: %d"
+msgstr "ファイルのノート：%d"
+
+#: pylib/anki/importing/anki2.py:138
+#, python-format
+msgid "Notes that could not be imported as note type has changed: %d"
+msgstr "ノートタイプが変更されたためインポートできなかったノート：%d"
+
+#: pylib/anki/importing/anki2.py:143
+#, python-format
+msgid "Notes updated, as file had newer version: %d"
+msgstr "ファイル内に最新版が存在するためアップデートされたノート：%d"
+
+#: pylib/anki/importing/anki2.py:146
+#, python-format
+msgid "Notes added from file: %d"
+msgstr "ファイルからノートを追加しました：%d"
+
+#: pylib/anki/importing/anki2.py:149
+#, python-format
+msgid "Notes skipped, as they're already in your collection: %d"
+msgstr "すでにコレクション内に存在するためノートを省略しました：%d"
+
+#: pylib/anki/importing/anki2.py:157
+msgid "Skipped"
+msgstr "除外"
+
+#: pylib/anki/importing/anki2.py:160
+msgid "Updated"
+msgstr "更新"
+
+#: pylib/anki/importing/anki2.py:163 pylib/anki/stats.py:309
+#: qt/aqt/addcards.py:202
+msgid "Added"
+msgstr "追加"
+
+#: pylib/anki/importing/anki2.py:166
+msgid "Identical"
+msgstr "同一"
+
+#: pylib/anki/importing/csvfile.py:44
+#, python-format
+msgid "'%(row)s' had %(num1)d fields, expected %(num2)d"
+msgstr "「%(row)s」には %(num1)d 個のフィールドがありました。予想では %(num2)d 個でした。"
+
+#: pylib/anki/importing/csvfile.py:56
+#, python-format
+msgid "Aborted: %s"
+msgstr "中断: %s"
+
+#: pylib/anki/importing/mnemo.py:24
+msgid "File version unknown, trying import anyway."
+msgstr ""
+
+#: pylib/anki/importing/mnemo.py:105
+#, python-format
+msgid "%d note imported."
+msgid_plural "%d notes imported."
+msgstr[0] "%d 個のノートを読み込みました。"
+
+#: pylib/anki/importing/noteimp.py:138
+#, python-format
+msgid "First field matched: %s"
+msgstr "最初のフィールドが一致しました: %s"
+
+#: pylib/anki/importing/noteimp.py:139
+#, python-format
+msgid "Added duplicate with first field: %s"
+msgstr "最初のフィールドが重複したノートを追加しました: %s"
+
+#: pylib/anki/importing/noteimp.py:156
+#, python-format
+msgid "Empty first field: %s"
+msgstr "最初のフィールドが空白：%s"
+
+#: pylib/anki/importing/noteimp.py:161
+#, python-format
+msgid "Appeared twice in file: %s"
+msgstr "%s は二回ファイルに出てきました"
+
+#: pylib/anki/importing/noteimp.py:212
+#, python-format
+msgid "%d note added"
+msgid_plural "%d notes added"
+msgstr[0] "%d 個のノートを追加しました。"
+
+#: pylib/anki/importing/noteimp.py:214
+#, python-format
+msgid "%d note updated"
+msgid_plural "%d notes updated"
+msgstr[0] "%d 個のノートを更新しました。"
+
+#: pylib/anki/importing/noteimp.py:224
+#, python-format
+msgid "%d note unchanged"
+msgid_plural "%d notes unchanged"
+msgstr[0] "%d 個のノートを変更しませんでした"
+
+#: pylib/anki/importing/supermemo_xml.py:202
+#, python-format
+msgid "%d card imported."
+msgid_plural "%d cards imported."
+msgstr[0] "%d枚のカードを読み込みました。"
+
+#: pylib/anki/latex.py:134
+#, python-format
+msgid "For security reasons, '%s' is not allowed on cards. You can still use it by placing the command in a different package, and importing that package in the LaTeX header instead."
+msgstr "セキュリティ上の理由から'%s' をカードに使用できません。使用するには、別のパッケージにこの命令を配置して、代わりの LaTeX ヘッダを持たせたパッケージで読み込みます。"
+
+#: pylib/anki/latex.py:176
+#, python-format
+msgid "Error executing %s."
+msgstr "%s 実行中にエラーが発生しました。"
+
+#: pylib/anki/latex.py:177
+#, python-format
+msgid "Generated file: %s"
+msgstr "生成ファイル: %s"
+
+#: pylib/anki/latex.py:185
+msgid "Have you installed latex and dvipng/dvisvgm?"
+msgstr "Latexとdvipng/dvisvgmはインストールされていますか？"
+
+#: pylib/anki/models.py:263
+#, python-format
+msgid "%s copy"
+msgstr "%s コピー"
+
+#: pylib/anki/schedv2.py:1261
+msgid "(end)"
+msgstr "(終了)"
+
+#: pylib/anki/stats.py:119 qt/aqt/browser.py:1259
+msgid "Today"
+msgstr "今日"
+
+#: pylib/anki/stats.py:152
+#, python-format
+msgid "Again count: %s"
+msgstr "忘却回数: %s"
+
+#: pylib/anki/stats.py:154
+#, python-format
+msgid "(%s correct)"
+msgstr "(%s 正解)"
+
+#: pylib/anki/stats.py:160
+#, python-format
+msgid "Learn: %(a)s, Review: %(b)s, Relearn: %(c)s, Filtered: %(d)s"
+msgstr "基本学習: %(a)s枚、復習: %(b)s枚、再基本学習: %(c)s枚、フィルター: %(d)s枚"
+
+#: pylib/anki/stats.py:173
+#, python-format
+msgid "Correct answers on mature cards: %(a)d/%(b)d (%(c).1f%%)"
+msgstr "復習(熟知)の正解率: %(a)d/%(b)d (%(c).1f%%)"
+
+#: pylib/anki/stats.py:176
+msgid "No mature cards were studied today."
+msgstr "復習(熟知)の正解率: -- (未復習)"
+
+#: pylib/anki/stats.py:178
+msgid "No cards have been studied today."
+msgstr "今日はまだ1枚もカードを学習していません。"
+
+#: pylib/anki/stats.py:213 pylib/anki/stats.py:346 pylib/anki/stats.py:366
+#: pylib/anki/stats.py:688 pylib/anki/stats.py:858
+msgid "Mature"
+msgstr "復習(熟知)"
+
+#: pylib/anki/stats.py:214 pylib/anki/stats.py:347 pylib/anki/stats.py:367
+#: pylib/anki/stats.py:687
+msgid "Young"
+msgstr "復習(未熟)"
+
+#: pylib/anki/stats.py:221
+msgid "Cumulative"
+msgstr "累積枚数〔折れ線グラフ〕"
+
+#: pylib/anki/stats.py:228
+msgid "Forecast"
+msgstr "予測"
+
+#: pylib/anki/stats.py:228
+msgid "The number of reviews due in the future."
+msgstr "復習期日が来るカードの枚数"
+
+#: pylib/anki/stats.py:236 pylib/anki/stats.py:310
+msgid "Cumulative Cards"
+msgstr "累積枚数〔折れ線グラフ〕"
+
+#: pylib/anki/stats.py:249 pylib/anki/stats.py:318 pylib/anki/stats.py:418
+msgid "Total"
+msgstr "合計"
+
+#: pylib/anki/stats.py:252 pylib/anki/stats.py:319
+msgid "Average"
+msgstr "平均"
+
+#: pylib/anki/stats.py:252 pylib/anki/stats.py:360
+msgid "reviews"
+msgstr "枚の復習カード"
+
+#: pylib/anki/stats.py:260 pylib/anki/stats.py:318 qt/aqt/clayout.py:560
+#, python-format
+msgid "%d card"
+msgid_plural "%d cards"
+msgstr[0] "%d枚のカード"
+
+#: pylib/anki/stats.py:261
+msgid "Due tomorrow"
+msgstr "明日が期日のカード"
+
+#: pylib/anki/stats.py:309
+msgid "The number of new cards you have added."
+msgstr "新規カードの追加枚数"
+
+#: pylib/anki/stats.py:319 qt/aqt/customstudy.py:53
+msgid "cards"
+msgstr "枚"
+
+#: pylib/anki/stats.py:348 pylib/anki/stats.py:368
+msgid "Relearn"
+msgstr "再基本学習"
+
+#: pylib/anki/stats.py:349 pylib/anki/stats.py:369
+msgid "Learn"
+msgstr "基本学習"
+
+#: pylib/anki/stats.py:350 pylib/anki/stats.py:370
+msgid "Cram"
+msgstr "詰め込み学習"
+
+#: pylib/anki/stats.py:354
+msgid "Review Count"
+msgstr "履歴（回答数）"
+
+#: pylib/anki/stats.py:354
+msgid "The number of questions you have answered."
+msgstr "カードに回答した回数"
+
+#: pylib/anki/stats.py:357 pylib/anki/stats.py:692 pylib/anki/stats.py:800
+msgid "Answers"
+msgstr "回答数"
+
+#: pylib/anki/stats.py:357
+msgid "Cumulative Answers"
+msgstr "累積回答数〔折れ線グラフ〕"
+
+#: pylib/anki/stats.py:374
+msgid "Minutes"
+msgstr "分間"
+
+#: pylib/anki/stats.py:377
+msgid "Hours"
+msgstr "時間"
+
+#: pylib/anki/stats.py:380
+msgid "Review Time"
+msgstr "履歴（時間）"
+
+#: pylib/anki/stats.py:380
+msgid "The time taken to answer the questions."
+msgstr "カードの学習に費やした時間"
+
+#: pylib/anki/stats.py:382
+#, python-format
+msgid "Cumulative %s"
+msgstr "累積時間 (%s)〔折れ線グラフ〕"
+
+#: pylib/anki/stats.py:407
+msgid "Days studied"
+msgstr "学習日数"
+
+#: pylib/anki/stats.py:408
+#, python-format
+msgid "<b>%(pct)d%%</b> (%(x)s of %(y)s)"
+msgstr "<b>%(pct)d%%</b>  (%(x)s / %(y)s)"
+
+#: pylib/anki/stats.py:413
+msgid "hours"
+msgstr "時間"
+
+#: pylib/anki/stats.py:418
+#, python-format
+msgid "%(tot)s %(unit)s"
+msgstr "%(tot)s %(unit)s"
+
+#: pylib/anki/stats.py:423
+msgid "Average for days studied"
+msgstr "各学習の平均"
+
+#: pylib/anki/stats.py:427
+msgid "If you studied every day"
+msgstr "毎日学習した場合の平均"
+
+#: pylib/anki/stats.py:434
+msgid "Average answer time"
+msgstr "平均所要時間"
+
+#: pylib/anki/stats.py:596
+msgid "Delays until reviews are shown again."
+msgstr "次の復習予定日"
+
+#: pylib/anki/stats.py:596
+msgid "Intervals"
+msgstr "間隔"
+
+#: pylib/anki/stats.py:599
+msgid "Percentage"
+msgstr "累積比率(%)〔折れ線グラフ〕"
+
+#: pylib/anki/stats.py:618
+msgid "Average interval"
+msgstr "平均間隔"
+
+#: pylib/anki/stats.py:619
+msgid "Longest interval"
+msgstr "最長間隔"
+
+#: pylib/anki/stats.py:681
+msgid "Answer Buttons"
+msgstr "回答ボタン"
+
+#: pylib/anki/stats.py:681
+msgid "The number of times you have pressed each button."
+msgstr "各ボタンを押した回数"
+
+#: pylib/anki/stats.py:686 qt/aqt/browser.py:1277 qt/aqt/overview.py:231
+msgid "Learning"
+msgstr "基本学習（再基本学習も含む）"
+
+#: pylib/anki/stats.py:713
+#, python-format
+msgid "Correct: <b>%(pct)0.2f%%</b><br>(%(good)d of %(tot)d)"
+msgstr "正解: <b>%(pct)0.2f%%</b><br>(%(good)d / %(tot)d)"
+
+#: pylib/anki/stats.py:791
+msgid "Hourly Breakdown"
+msgstr "時間帯ごとの分析"
+
+#: pylib/anki/stats.py:791
+msgid "Review success rate for each hour of the day."
+msgstr "時間帯ごとの正解率"
+
 #: pylib/anki/stats.py:796 pylib/anki/stats.py:818
 msgid "% Correct"
 msgstr "正解率(%)"
+
+#: pylib/anki/stats.py:809
+msgid "4AM"
+msgstr "04:00"
+
+#: pylib/anki/stats.py:810
+msgid "10AM"
+msgstr "10:00"
+
+#: pylib/anki/stats.py:811
+msgid "4PM"
+msgstr "16:00"
+
+#: pylib/anki/stats.py:812
+msgid "10PM"
+msgstr "22:00"
+
+#: pylib/anki/stats.py:813
+msgid "3AM"
+msgstr "03:00"
+
+#: pylib/anki/stats.py:821
+msgid "Hours with less than 30 reviews are not shown."
+msgstr "復習が 30 件以下の時間帯は表示しません。"
+
+#: pylib/anki/stats.py:859
+msgid "Young+Learn"
+msgstr "復習(未熟)+基本学習+再基本学習"
+
+#: pylib/anki/stats.py:860
+msgid "Unseen"
+msgstr "新規"
+
+#: pylib/anki/stats.py:861
+msgid "Suspended+Buried"
+msgstr "保留+延期"
+
+#: pylib/anki/stats.py:873
+msgid "Total cards"
+msgstr "カードの合計枚数"
+
+#: pylib/anki/stats.py:874
+msgid "Total notes"
+msgstr "ノートの合計枚数"
+
+#: pylib/anki/stats.py:877
+msgid "Lowest ease"
+msgstr "易しさの最小値"
+
+#: pylib/anki/stats.py:878
+msgid "Average ease"
+msgstr "易しさの平均値"
+
+#: pylib/anki/stats.py:879
+msgid "Highest ease"
+msgstr "易しさの最大値"
+
+#: pylib/anki/stats.py:882
+msgid "A card's <i>ease</i> is the size of the next interval when you answer \"good\" on a review."
+msgstr "カードの<b>易しさ</b>とは、復習で [普通] を選んだ時に設定する次回の復習間隔の相対値です。"
+
+#: pylib/anki/stats.py:886 qt/aqt/clayout.py:63
+msgid "Card Types"
+msgstr "カードの種類"
+
+#: pylib/anki/stats.py:886
+msgid "The division of cards in your deck(s)."
+msgstr "デッキ内のカードの内訳"
+
+#. T: Symbols separating first and second column in a statistics table. Eg in "Total:    3 reviews".
+#: pylib/anki/stats.py:898
+msgid ":"
+msgstr ":"
+
+#: pylib/anki/stats.py:941
+#, python-format
+msgid "Generated on %s"
+msgstr "作成日時:  %s"
+
+#: pylib/anki/stats.py:944
+msgid "whole collection"
+msgstr "コレクション全体"
+
+#: pylib/anki/stats.py:947
+#, python-format
+msgid "Scope: %s"
+msgstr "範囲: %s"
+
+#: pylib/anki/stats.py:949
+#, python-format
+msgid "Period: %s"
+msgstr "期間: %s"
+
+#. T: abbreviation of day
+#: pylib/anki/stats.py:982
+msgid "d"
+msgstr "日"
+
+#. T: abbreviation of week
+#: pylib/anki/stats.py:984
+msgid "w"
+msgstr "週"
+
+#. T: abbreviation of month
+#: pylib/anki/stats.py:986
+msgid "mo"
+msgstr "か月"
 
 #: pylib/anki/stats.py:1112
 #, python-format
 msgid "%(a)0.1f %(b)s/day"
 msgstr "%(a)0.1f %(b)s/日"
+
+#: qt/aqt/about.py:86
+msgid "Copied to clipboard"
+msgstr "クリップボードにコピーしました。"
+
+#: qt/aqt/about.py:88
+msgid "Copy Debug Info"
+msgstr "デバッグ情報をコピー"
+
+#: qt/aqt/about.py:97
+msgid "Anki is a friendly, intelligent spaced learning system. It's free and open source."
+msgstr "Anki は、誰でも使える知的な分散学習システムです。しかも無料でオープンソース。"
+
+#: qt/aqt/about.py:101
+msgid "Anki is licensed under the AGPL3 license. Please see the license file in the source distribution for more information."
+msgstr "Anki は、AGPL3 ライセンスの下で使用許諾しています。更に詳しい情報をご覧になりたい方は、配布ソースコードの中の LICENSE ファイルをご覧ください。"
+
+#: qt/aqt/about.py:104
+#, python-format
+msgid "Version %s"
+msgstr "バージョン %s"
+
+#: qt/aqt/about.py:110
+#, python-format
+msgid "<a href='%s'>Visit website</a>"
+msgstr "<a href='%s'>公式サイトを開く</a>"
+
+#: qt/aqt/about.py:215
+#, python-format
+msgid "Written by Damien Elmes, with patches, translation,    testing and design from:<p>%(cont)s"
+msgstr "Damien Elmes が作成しました。パッチ、翻訳、テスト、デザインで次の方々にご協力いただきました:<p>%(cont)s"
+
+#: qt/aqt/about.py:221
+msgid "If you have contributed and are not on this list, please get in touch."
+msgstr "貢献していただいたのにお名前がこの一覧に記載されていない方は、どうぞご連絡下さい。"
+
+#: qt/aqt/about.py:225
+msgid "A big thanks to all the people who have provided suggestions, bug reports and donations."
+msgstr "提案、バグ報告、寄付をしてくださった方々に感謝いたします。"
+
+#: qt/aqt/addcards.py:73
+msgid "Add (shortcut: ctrl+enter)"
+msgstr "追加（ショートカット: ctrl+enter）"
+
+#: qt/aqt/addcards.py:79 qt/aqt/clayout.py:384 qt/aqt/utils.py:212
+#: qt/aqt/utils.py:213
+msgid "Help"
+msgstr "ヘルプ"
+
+#: qt/aqt/addcards.py:83
+msgid "History"
+msgstr "履歴"
+
+#: qt/aqt/addcards.py:89
+#, python-format
+msgid "Shortcut: %s"
+msgstr "ショートカット: %s"
+
+#: qt/aqt/addcards.py:149
+#, python-format
+msgid "Edit \"%s\""
+msgstr "「%s」を編集"
+
+#: qt/aqt/addcards.py:154
+msgid "(Note deleted)"
+msgstr "(ノートを削除しました)"
+
+#: qt/aqt/addcards.py:169
+msgid "The first field is empty."
+msgstr "最初のフィールドが空欄です。"
+
+#: qt/aqt/addcards.py:178
+msgid "You have a cloze deletion note type but have not made any cloze deletions. Proceed?"
+msgstr "穴埋め問題のノートタイプがありますが、穴埋め問題を作っていません。続行しますか。"
+
+#: qt/aqt/addcards.py:232
+msgid "Close and lose current input?"
+msgstr "閉じて現在の入力を破棄しますか？"
+
+#: qt/aqt/addons.py:280
+#, python-format
+msgid "The following add-ons are incompatible with %(name)s and have been disabled: %(found)s"
+msgstr "これらのアドオンは%(name)sと互換性がないため無効化されました：%(found)s"
+
+#: qt/aqt/addons.py:313
+msgid " (disabled)"
+msgstr " (無効)"
+
+#: qt/aqt/addons.py:427
+#, python-format
+msgid ""
+"Unable to update or delete add-on. Please start Anki while holding down the shift key to temporarily disable add-ons, then try again.\n"
+"\n"
+"Debug info: %s"
+msgstr ""
+"アドオンを更新または削除することができません。一時的にアドオンを無効にするため、Shiftキーを押したままの状態でAnkiを起動し、その後再度お試しください。\n"
+"\n"
+"デバッグ情報：%s"
+
+#: qt/aqt/addons.py:471
+msgid "Corrupt add-on file."
+msgstr "汚染されたアドオンファイル"
+
+#: qt/aqt/addons.py:472
+msgid "Invalid add-on manifest."
+msgstr ""
+
+#: qt/aqt/addons.py:475
+msgid "Unknown error: {}"
+msgstr "不明なエラー：{}"
+
+#: qt/aqt/addons.py:478
+#, python-format
+msgid "Error downloading <i>%(id)s</i>: %(error)s"
+msgstr "%(id)s のダウンロード中にエラーが発生しました: %(error)s"
+
+#: qt/aqt/addons.py:480
+#, python-format
+msgid "Error installing <i>%(base)s</i>: %(error)s"
+msgstr "%(base)s のインストール中にエラーが発生しました: %(error)s"
+
+#: qt/aqt/addons.py:491
+#, python-format
+msgid "Downloaded %(fname)s"
+msgstr "%(fname)s をダウンロードしました。"
+
+#: qt/aqt/addons.py:493
+#, python-format
+msgid "Installed %(name)s"
+msgstr "%(name)s をインストールしました"
+
+#: qt/aqt/addons.py:500
+msgid "The following conflicting add-ons were disabled:"
+msgstr "これらの競合するアドオンを無効化しました："
+
+#: qt/aqt/addons.py:507
+msgid "This add-on is not compatible with your version of Anki."
+msgstr "このアドオンはご使用のAnkiのバージョンとの互換性がありません。"
+
+#: qt/aqt/addons.py:746
+msgid "(disabled)"
+msgstr ""
+
+#: qt/aqt/addons.py:748
+#, python-format
+msgid "(requires %s)"
+msgstr ""
+
+#: qt/aqt/addons.py:807
+msgid "Please select a single add-on first."
+msgstr "はじめにアドオンを選択してください。"
+
+#: qt/aqt/addons.py:823
+msgid "Add-on was not downloaded from AnkiWeb."
+msgstr "アドオンがAnkiWebからダウンロードされませんでした。"
+
+#: qt/aqt/addons.py:845
+#, python-format
+msgid "Delete the %(num)d selected add-on?"
+msgid_plural "Delete the %(num)d selected add-ons?"
+msgstr[0] "選択した%(num)d個のアドオンを削除しますか？"
+
+#: qt/aqt/addons.py:868
+msgid "No updates available."
+msgstr "利用可能なアップデートはありません。"
+
+#: qt/aqt/addons.py:872
+msgid "Packaged Anki Add-on"
+msgstr "パッケージ化されたAnkiアドオン"
+
+#: qt/aqt/addons.py:874
+msgid "Install Add-on(s)"
+msgstr "アドオンをインストールする"
+
+#: qt/aqt/addons.py:885
+msgid "Checking..."
+msgstr "チェック中..."
+
+#: qt/aqt/addons.py:902
+msgid "Add-on has no configuration."
+msgstr "このアドオンの設定は変更できません。"
+
+#: qt/aqt/addons.py:922
+msgid "Browse Add-ons"
+msgstr "アドオン一覧"
+
+#: qt/aqt/addons.py:937
+msgid "Invalid code."
+msgstr "コードが不正です。"
+
+#: qt/aqt/addons.py:1011
+msgid "Invalid code, or add-on not available for your version of Anki."
+msgstr "無効なコードです。数字が誤っているか、このアドオンがこのバージョンのAnkiに対応していません。"
+
+#: qt/aqt/addons.py:1014 qt/aqt/editor.py:850
+#, python-format
+msgid "Unexpected response code: %s"
+msgstr "予期しない応答コード：%s"
+
+#: qt/aqt/addons.py:1017
+msgid "Please check your internet connection."
+msgstr "インターネット接続を確認してください"
+
+#: qt/aqt/addons.py:1024
+msgid "Installed successfully."
+msgstr "インストールが完了しました。"
+
+#. T: "%(a)d" is the index of the element currently
+#. downloaded. "%(b)d" is the number of element to download,
+#. and "%(kb)0.2f" is the number of downloaded
+#. kilobytes. This lead for example to "Downloading 3/5
+#. (27KB)"
+#: qt/aqt/addons.py:1094
+#, python-format
+msgid "Downloading %(a)d/%(b)d (%(kb)0.2fKB)..."
+msgstr ""
+
+#: qt/aqt/addons.py:1113
+msgid "One or more errors occurred:"
+msgstr ""
+
+#: qt/aqt/addons.py:1115
+msgid "Download complete. Please restart Anki to apply changes."
+msgstr "ダウンロードが完了しました。変更を適用するためにAnkiを再起動してください。"
+
+#: qt/aqt/addons.py:1268
+msgid "The following add-ons have updates available. Install them now?"
+msgstr "以下のアドオンにはアップデート版があります。今すぐインストールしますか？"
+
+#: qt/aqt/addons.py:1310
+msgid "Restored defaults"
+msgstr "初期設定に戻す"
+
+#: qt/aqt/addons.py:1376
+msgid "Invalid configuration: "
+msgstr "無効な設定: "
+
+#: qt/aqt/addons.py:1380
+msgid "Invalid configuration: top level object must be a map"
+msgstr ""
+
+#: qt/aqt/addons.py:1410
+#, python-format
+msgid "<b>Important</b>: As add-ons are programs downloaded from the internet, they are potentially malicious.<b>You should only install add-ons you trust.</b><br><br>Are you sure you want to proceed with the installation of the following Anki add-on(s)?<br><br>%(names)s"
+msgstr ""
+
+#: qt/aqt/addons.py:1420
+msgid "Install Anki add-on"
+msgstr "Ankiアドオンをインストール"
+
+#: qt/aqt/addons.py:1434
+msgid "<b>Please restart Anki to complete the installation.</b>"
+msgstr "<b>インストールを完了させるためにAnkiを再起動してください。</b>"
+
+#: qt/aqt/addons.py:1443
+msgid "Installation complete"
+msgstr "インストール完了"
+
+#: qt/aqt/addons.py:1446
+msgid "Please report this to the respective add-on author(s)."
+msgstr "当該アドオン作成者に報告してください。"
+
+#: qt/aqt/addons.py:1451
+msgid "Add-on installation error"
+msgstr "アドオンインストールのエラー"
+
+#: qt/aqt/browser.py:172
+msgid "Add-on"
+msgstr "アドオン"
+
+#: qt/aqt/browser.py:334 qt/aqt/browser.py:340
+msgid "(new)"
+msgstr "(新規)"
+
+#: qt/aqt/browser.py:336
+msgid "(learning)"
+msgstr "(基本学習中)"
+
+#: qt/aqt/browser.py:369
+msgid "(filtered)"
+msgstr "(フィルター)"
+
+#: qt/aqt/browser.py:624
+#, python-format
+msgid "Preview Selected Card (%s)"
+msgstr "選択したカードをプレビューする  (%s)"
+
+#: qt/aqt/browser.py:740
+msgid "Question"
+msgstr "質問"
+
+#: qt/aqt/browser.py:741
+msgid "Answer"
+msgstr "解答"
+
+#: qt/aqt/browser.py:742
+msgid "Card"
+msgstr "カード"
+
+#: qt/aqt/browser.py:744
+msgid "Sort Field"
+msgstr "ソートフィールド"
+
+#: qt/aqt/browser.py:745
+msgid "Created"
+msgstr "作成日"
+
+#: qt/aqt/browser.py:749
+msgid "Interval"
+msgstr "間隔"
+
+#: qt/aqt/browser.py:750
+msgid "Ease"
+msgstr "易しさ"
+
+#: qt/aqt/browser.py:753 qt/aqt/browser.py:1299 qt/aqt/editor.py:576
+msgid "Tags"
+msgstr "タグ"
+
+#: qt/aqt/browser.py:754
+msgid "Note"
+msgstr "ノート"
+
+#: qt/aqt/browser.py:765
+msgid "<type here to search; hit enter to show current deck>"
+msgstr "<ここに入力すると検索します; enter を押すと現在のデッキを表示します>"
+
+#: qt/aqt/browser.py:826
+#, python-format
+msgid "Browse (%(cur)d card shown; %(sel)s)"
+msgid_plural "Browse (%(cur)d cards shown; %(sel)s)"
+msgstr[0] "ブラウザ  ( %(cur)d枚のカードを表示; %(sel)s)"
+
+#: qt/aqt/browser.py:832
+#, python-format
+msgid "%d selected"
+msgid_plural "%d selected"
+msgstr[0] "%d枚を選択"
+
+#: qt/aqt/browser.py:942
+msgid "Sorting on this column is not supported. Please choose another."
+msgstr "この列で並び替えることはできません。別の列を選択してください。"
+
+#: qt/aqt/browser.py:997
+msgid "You must have at least one column."
+msgstr "最低でも一つの列は必要です。"
+
+#: qt/aqt/browser.py:1108 qt/aqt/browser.py:1255
+msgid "Whole Collection"
+msgstr "コレクション全体"
+
+#: qt/aqt/browser.py:1115 qt/aqt/browser.py:1255
+msgid "Current Deck"
+msgstr "現在のデッキ"
+
+#: qt/aqt/browser.py:1263
+msgid "Added Today"
+msgstr "今日追加したカード"
+
+#: qt/aqt/browser.py:1264
+msgid "Studied Today"
+msgstr "今日学習したカード"
+
+#: qt/aqt/browser.py:1265
+msgid "Again Today"
+msgstr "今日間違えたカード"
+
+#: qt/aqt/browser.py:1272
+msgid "Card State"
+msgstr "カードの状態"
+
+#: qt/aqt/browser.py:1276 qt/aqt/deckbrowser.py:149 qt/aqt/overview.py:229
+msgid "New"
+msgstr "新規"
+
+#: qt/aqt/browser.py:1281
+msgid "Suspended"
+msgstr "保留"
+
+#: qt/aqt/browser.py:1282
+msgid "Buried"
+msgstr "延期"
+
+#: qt/aqt/browser.py:1288
+msgid "No Flag"
+msgstr "フラグなし"
+
+#: qt/aqt/browser.py:1289
+msgid "Any Flag"
+msgstr "フラグあり"
+
+#: qt/aqt/browser.py:1301
+msgid "Clear Unused"
+msgstr "使用されていないタグを削除"
+
+#: qt/aqt/browser.py:1329 qt/aqt/toolbar.py:105
+msgid "Decks"
+msgstr "デッキ"
+
+#: qt/aqt/browser.py:1349
+msgid "All Card Types"
+msgstr "全てのカードタイプ"
 
 #. T: name is a card type name. n it's order in the list of card type.
 #. T: this is shown in browser's filter, when seeing the list of card type of a note type.
@@ -75,40 +2121,86 @@ msgstr "%(a)0.1f %(b)s/日"
 msgid "%(n)d: %(name)s"
 msgstr "%(n)d: %(name)s"
 
-#: pylib/anki/stats.py:418
-#, python-format
-msgid "%(tot)s %(unit)s"
-msgstr "%(tot)s %(unit)s"
+#: qt/aqt/browser.py:1378
+msgid "Remove Current Filter..."
+msgstr "このフィルターを削除"
 
-#: pylib/anki/stats.py:260 pylib/anki/stats.py:318 qt/aqt/clayout.py:560
-#, python-format
-msgid "%d card"
-msgid_plural "%d cards"
-msgstr[0] "%d枚のカード"
+#: qt/aqt/browser.py:1380
+msgid "Save Current Filter..."
+msgstr "このフィルターを保存"
 
-#: qt/aqt/exporting.py:192
-#, python-format
-msgid "%d card exported."
-msgid_plural "%d cards exported."
-msgstr[0] "%d枚のカードを書き出しました。"
+#: qt/aqt/browser.py:1393
+msgid "Please give your filter a name:"
+msgstr "このフィルターに名前を付けてください:"
 
-#: pylib/anki/importing/supermemo_xml.py:202
+#: qt/aqt/browser.py:1404
 #, python-format
-msgid "%d card imported."
-msgid_plural "%d cards imported."
-msgstr[0] "%d枚のカードを読み込みました。"
+msgid "Remove %s from your saved searches?"
+msgstr "フィルター「%s」を削除しますか？"
 
-#: qt/aqt/reviewer.py:90
-#, python-format
-msgid "%d card studied in"
-msgid_plural "%d cards studied in"
-msgstr[0] "今日は%d枚のカードを"
+#: qt/aqt/browser.py:1493
+msgid "Please select cards from only one note type."
+msgstr "一つのノートタイプからカードを選択してください。"
 
-#: qt/aqt/deckconf.py:169
+#: qt/aqt/browser.py:1547
+msgid "Delete Notes"
+msgstr "ノートを削除する"
+
+#: qt/aqt/browser.py:1573
 #, python-format
-msgid "%d deck updated."
-msgid_plural "%d decks updated."
-msgstr[0] "%d 個のデッキを更新しました。"
+msgid "%d note deleted."
+msgid_plural "%d notes deleted."
+msgstr[0] "%d個のノートを削除しました。"
+
+#: qt/aqt/browser.py:1593
+msgid "Move Cards"
+msgstr "カードを移動"
+
+#: qt/aqt/browser.py:1594 qt/aqt/browser.py:1606
+msgid "Change Deck"
+msgstr "デッキを変更"
+
+#: qt/aqt/browser.py:1603
+msgid "Cards can't be manually moved into a filtered deck."
+msgstr "フィルターデッキには手動でカードを移動できません。"
+
+#: qt/aqt/browser.py:1619
+msgid "Enter tags to add:"
+msgstr "タグを追加する："
+
+#: qt/aqt/browser.py:1629
+msgid "Add Tags"
+msgstr "タグを追加"
+
+#: qt/aqt/browser.py:1639
+msgid "Delete Tags"
+msgstr "タグを削除"
+
+#: qt/aqt/browser.py:1641
+msgid "Enter tags to delete:"
+msgstr "タグを削除する："
+
+#: qt/aqt/browser.py:1734
+msgid "Only new cards can be repositioned."
+msgstr "新規カードだけが表示順を変更できます。"
+
+#: qt/aqt/browser.py:1744
+#, python-format
+msgid "Queue top: %d"
+msgstr "先頭: %d"
+
+#: qt/aqt/browser.py:1745
+#, python-format
+msgid "Queue bottom: %d"
+msgstr "最後: %d"
+
+#: qt/aqt/browser.py:1884
+msgid "All Fields"
+msgstr "全てのフィールド"
+
+#: qt/aqt/browser.py:1988 qt/aqt/browser.py:2015
+msgid "Tag Duplicates"
+msgstr "重複にタグを付ける"
 
 #: qt/aqt/browser.py:1994
 #, python-format
@@ -123,17 +2215,468 @@ msgid "%d note"
 msgid_plural "%d notes"
 msgstr[0] "%d 個のノート"
 
-#: pylib/anki/importing/noteimp.py:212
+#: qt/aqt/browser.py:1996
 #, python-format
-msgid "%d note added"
-msgid_plural "%d notes added"
-msgstr[0] "%d 個のノートを追加しました。"
+msgid "Found %(a)s across %(b)s."
+msgstr "%(b)s の中に %(a)s が見つかりました。"
 
-#: qt/aqt/browser.py:1573
+#: qt/aqt/browser.py:2019
+msgid "duplicate"
+msgstr "重複"
+
+#: qt/aqt/browser.py:2023
+msgid "Notes tagged."
+msgstr "ノートにタグを付けました。"
+
+#: qt/aqt/browser.py:2180
+msgid "Nothing"
+msgstr "なし"
+
+#: qt/aqt/browser.py:2183
 #, python-format
-msgid "%d note deleted."
-msgid_plural "%d notes deleted."
-msgstr[0] "%d個のノートを削除しました。"
+msgid "Change %s to:"
+msgstr "%s を以下に変更:"
+
+#: qt/aqt/browser.py:2263
+msgid "Any cards mapped to nothing will be deleted. If a note has no remaining cards, it will be lost. Are you sure you want to continue?"
+msgstr "Nothing に設定したカードは削除されます。ノートにカードが残っていない場合は、そのノートが失われます。それでも処理を続行しますか。"
+
+#: qt/aqt/clayout.py:69
+#, python-format
+msgid "Card Types for %s"
+msgstr "ノート「%s」が使用するカードタイプ"
+
+#: qt/aqt/clayout.py:243
+#, fuzzy, python-format
+msgid "Cloze %d"
+msgstr "穴埋め"
+
+#: qt/aqt/clayout.py:394
+msgid "Flip"
+msgstr "反転"
+
+#: qt/aqt/clayout.py:399 qt/aqt/sound.py:599
+msgid "Save"
+msgstr "保存"
+
+#: qt/aqt/clayout.py:405 qt/aqt/overview.py:134 qt/aqt/sound.py:602
+msgid "Cancel"
+msgstr "キャンセル"
+
+#: qt/aqt/clayout.py:551
+msgid "At least one card type is required."
+msgstr "最低一つのカードタイプが必要です。"
+
+#: qt/aqt/clayout.py:561
+#, python-format
+msgid "Delete the '%(a)s' card type, and its %(b)s?"
+msgstr "カードタイプ '%(a)s'とその %(b)s を削除しますか？"
+
+#: qt/aqt/clayout.py:586 qt/aqt/deckconf.py:148 qt/aqt/fields.py:97
+#: qt/aqt/main.py:305 qt/aqt/models.py:87
+msgid "New name:"
+msgstr "新しい名前:"
+
+#: qt/aqt/clayout.py:600
+#, python-format
+msgid "Enter new card position (1...%s):"
+msgstr "カードの新しい位置を入力してください (1...%s):"
+
+#: qt/aqt/clayout.py:622
+#, python-format
+msgid "Card %d"
+msgstr "カード%d"
+
+#: qt/aqt/clayout.py:632
+#, python-format
+msgid "This will create %d card. Proceed?"
+msgid_plural "This will create %d cards. Proceed?"
+msgstr[0] "%d枚のカードが作成されます。続行しますか？"
+
+#: qt/aqt/clayout.py:661
+msgid "Anki couldn't find the line between the question and answer. Please adjust the template manually to switch the question and answer."
+msgstr "Anki は質問と答えの間に罫線を見つけられませんでした。質問と答えを切り替えるには、テンプレートを手動で調整してください。"
+
+#: qt/aqt/clayout.py:676
+msgid "Add Card Type..."
+msgstr "カードタイプを追加..."
+
+#: qt/aqt/clayout.py:679
+msgid "Remove Card Type..."
+msgstr "このカードタイプを削除"
+
+#: qt/aqt/clayout.py:682
+msgid "Rename Card Type..."
+msgstr "このカードタイプ名を変更..."
+
+#: qt/aqt/clayout.py:685
+msgid "Reposition Card Type..."
+msgstr "このカードタイプの順序を変更..."
+
+#: qt/aqt/clayout.py:692
+msgid " (on)"
+msgstr " (有効)"
+
+#: qt/aqt/clayout.py:694
+msgid " (off)"
+msgstr " (無効)"
+
+#: qt/aqt/clayout.py:695
+msgid "Deck Override..."
+msgstr "デッキを強制指定"
+
+#: qt/aqt/clayout.py:698
+msgid "Browser Appearance..."
+msgstr "検索の表示設定..."
+
+#: qt/aqt/clayout.py:740
+#, python-format
+msgid "Enter deck to place new %s cards in, or leave blank:"
+msgstr "カードタイプ %s から生成される新規カードを追加するデッキを選択してください。ここでデッキを選択すると、「追加」ウィンドウでのデッキの選択は無視されます。未選択（空欄）のままにしておくこともできます。"
+
+#: qt/aqt/customstudy.py:57
+msgid "OK"
+msgstr "OK"
+
+#: qt/aqt/customstudy.py:71
+#, python-format
+msgid "New cards in deck over today limit: %s"
+msgstr "デッキ内の今日の上限を超えている新規カード数：%s"
+
+#: qt/aqt/customstudy.py:72
+msgid "Increase today's new card limit by"
+msgstr "今日の新規カードの上限に上乗せ"
+
+#: qt/aqt/customstudy.py:83
+#, python-format
+msgid "Reviews due in deck over today limit: %s"
+msgstr "デッキ内の今日の上限を超えている復習カード数：%s"
+
+#: qt/aqt/customstudy.py:84
+msgid "Increase today's review limit by"
+msgstr "今日の復習カードの上限に上乗せ"
+
+#: qt/aqt/customstudy.py:89
+msgid "Review cards forgotten in last"
+msgstr "もう一度と回答したカードを復習:：過去"
+
+#: qt/aqt/customstudy.py:93
+msgid "Review ahead by"
+msgstr "先取りする日数"
+
+#: qt/aqt/customstudy.py:96
+msgid "Preview new cards added in the last"
+msgstr "新規カードのプレビュー: 追加日が過去"
+
+#: qt/aqt/customstudy.py:100
+msgid "Select"
+msgstr "選択枚数"
+
+#: qt/aqt/customstudy.py:101
+msgid "cards from the deck"
+msgstr "選択中のデッキから取得"
+
+#: qt/aqt/customstudy.py:103
+msgid "Choose Tags"
+msgstr "タグを選択"
+
+#: qt/aqt/customstudy.py:141 qt/aqt/customstudy.py:153
+msgid "Custom Study Session"
+msgstr "カスタム学習セッション"
+
+#: qt/aqt/customstudy.py:190
+msgid "No cards matched the criteria you provided."
+msgstr "指定した条件に一致するカードはありませんでした。"
+
+#: qt/aqt/deckbrowser.py:82
+msgid "Name for deck:"
+msgstr "デッキ名:"
+
+#: qt/aqt/deckbrowser.py:243 qt/aqt/sidebar.py:95
+msgid "Rename Deck"
+msgstr "デッキ名を変更"
+
+#: qt/aqt/deckbrowser.py:246 qt/aqt/sidebar.py:98 qt/aqt/studydeck.py:151
+msgid "New deck name:"
+msgstr "新しいデッキ名"
+
+#: qt/aqt/deckbrowser.py:280
+msgid "Delete Deck"
+msgstr "デッキを削除"
+
+#: qt/aqt/deckbrowser.py:289
+#, python-format
+msgid " It has %d card."
+msgid_plural " It has %d cards."
+msgstr[0] " %d枚のカードが含まれています。"
+
+#: qt/aqt/deckbrowser.py:296
+#, python-format
+msgid "Are you sure you wish to delete %s?"
+msgstr "本当に %s を削除しますか？"
+
+#: qt/aqt/deckbrowser.py:308
+msgid "Get Shared"
+msgstr "共有デッキをダウンロード"
+
+#: qt/aqt/deckbrowser.py:309
+msgid "Create Deck"
+msgstr "デッキを作成"
+
+#: qt/aqt/deckbrowser.py:310
+msgid "Import File"
+msgstr "ファイルを読み込む"
+
+#: qt/aqt/deckbrowser.py:318 qt/aqt/main.py:765 qt/aqt/overview.py:265
+#: qt/aqt/previewer.py:80 qt/aqt/previewer.py:85 qt/aqt/reviewer.py:573
+#: qt/aqt/reviewer.py:584 qt/aqt/reviewer.py:660 qt/aqt/toolbar.py:107
+#: qt/aqt/toolbar.py:114 qt/aqt/toolbar.py:121 qt/aqt/toolbar.py:128
+#: qt/aqt/toolbar.py:144
+#, python-format
+msgid "Shortcut key: %s"
+msgstr "ショートカットキーは「%s」"
+
+#: qt/aqt/deckchooser.py:34
+msgid "Target Deck (Ctrl+D)"
+msgstr "対象デッキ（Crtl+D）"
+
+#: qt/aqt/deckchooser.py:51 qt/aqt/deckchooser.py:55 qt/aqt/deckchooser.py:77
+msgid "Default"
+msgstr "デフォルト"
+
+#: qt/aqt/deckchooser.py:87 qt/aqt/modelchooser.py:84
+msgid "Choose"
+msgstr "選択"
+
+#: qt/aqt/deckchooser.py:88
+msgid "Choose Deck"
+msgstr "デッキを選択して下さい"
+
+#: qt/aqt/deckconf.py:47 qt/aqt/dyndeckconf.py:28 qt/aqt/models.py:161
+#, python-format
+msgid "Options for %s"
+msgstr "%s のオプション"
+
+#: qt/aqt/deckconf.py:95
+msgid "Set for all subdecks"
+msgstr "全てのサブデッキに適用する"
+
+#: qt/aqt/deckconf.py:113
+msgid "Your changes will affect multiple decks. If you wish to change only the current deck, please add a new options group first."
+msgstr "この変更は複数のデッキに影響が及びます。現在のデッキのみに変更を加えたい時には、まず最初にオプショングループを新規追加してください。"
+
+#: qt/aqt/deckconf.py:121
+msgid "New options group name:"
+msgstr "新しいオプショングループ名:"
+
+#: qt/aqt/deckconf.py:137
+msgid "The default configuration can't be removed."
+msgstr "既定の設定「Default」は削除できません。"
+
+#: qt/aqt/deckconf.py:159
+#, python-format
+msgid "Set all decks below %s to this option group?"
+msgstr "このオプショングループをこのデッキ「%s」内の全てのサブデッキにも適用しますか？"
+
+#: qt/aqt/deckconf.py:169
+#, python-format
+msgid "%d deck updated."
+msgid_plural "%d decks updated."
+msgstr[0] "%d 個のデッキを更新しました。"
+
+#: qt/aqt/deckconf.py:197
+#, python-format
+msgid "(parent limit: %d)"
+msgstr "(元の最大出題数は %d)"
+
+#: qt/aqt/deckconf.py:276 qt/aqt/dyndeckconf.py:157
+msgid "Steps must be numbers."
+msgstr "学習ステップは数字で指定してください。"
+
+#: qt/aqt/deckconf.py:279 qt/aqt/dyndeckconf.py:160
+msgid "At least one step is required."
+msgstr "最低でも一つのステップが必要です。"
+
+#: qt/aqt/dyndeckconf.py:21
+msgid "Build"
+msgstr "作成"
+
+#: qt/aqt/dyndeckconf.py:23 qt/aqt/overview.py:255
+msgid "Rebuild"
+msgstr "再構築"
+
+#: qt/aqt/dyndeckconf.py:128
+msgid "The provided search did not match any cards. Would you like to revise it?"
+msgstr "指定した検索項目は、どのカードにも一致しませんでした。検索項目を変えてみてください。"
+
+#: qt/aqt/editcurrent.py:20
+msgid "Edit Current"
+msgstr "現在のノートを編集"
+
+#: qt/aqt/editor.py:125
+msgid "Customize Fields"
+msgstr "カスタムフィールド"
+
+#: qt/aqt/editor.py:133
+msgid "Customize Card Templates (Ctrl+L)"
+msgstr "カードテンプレートをカストマイズする（Ctrl+L）"
+
+#: qt/aqt/editor.py:143
+msgid "Bold text (Ctrl+B)"
+msgstr "太字 (Ctrl+B)"
+
+#: qt/aqt/editor.py:145
+msgid "Italic text (Ctrl+I)"
+msgstr "斜体 (Ctrl+I)"
+
+#: qt/aqt/editor.py:148
+msgid "Underline text (Ctrl+U)"
+msgstr "下線 (Ctrl+U)"
+
+#: qt/aqt/editor.py:151
+msgid "Superscript (Ctrl++)"
+msgstr "上付き文字 (Ctrl++)"
+
+#: qt/aqt/editor.py:153
+msgid "Subscript (Ctrl+=)"
+msgstr "下付き文字 (Ctrl+=)"
+
+#: qt/aqt/editor.py:154
+msgid "Remove formatting (Ctrl+R)"
+msgstr "全ての書式をクリア (Ctrl+R)"
+
+#: qt/aqt/editor.py:158
+msgid "Set foreground colour (F7)"
+msgstr "文字の色を設定 (F7)"
+
+#: qt/aqt/editor.py:168
+msgid "Change colour (F8)"
+msgstr "色を変更 (F8)"
+
+#: qt/aqt/editor.py:174
+msgid "Cloze deletion (Ctrl+Shift+C)"
+msgstr "穴埋め (Ctrl+Shift+C)"
+
+#: qt/aqt/editor.py:176
+msgid "Attach pictures/audio/video (F3)"
+msgstr "メディア(画像/音声/動画)を追加 (F3)"
+
+#: qt/aqt/editor.py:178
+msgid "Record audio (F5)"
+msgstr "音声を録音 (F5)"
+
+#: qt/aqt/editor.py:200
+msgid "Show Duplicates"
+msgstr "重複を表示する"
+
+#: qt/aqt/editor.py:580
+msgid "Jump to tags with Ctrl+Shift+T"
+msgstr "Ctrl+Shift+T でタグフィールドに移動します。"
+
+#: qt/aqt/editor.py:644
+msgid "Warning, cloze deletions will not work until you switch the type at the top to Cloze."
+msgstr "注意: 穴埋め問題は上部にある「ノートタイプ」の設定を「Cloze」（穴埋め）タイプに変更するまで機能しません。"
+
+#: qt/aqt/editor.py:651
+#, fuzzy
+msgid "To make a cloze deletion on an existing note, you need to change it to a cloze type first, via 'Notes>Change Note Type'"
+msgstr "このノートに穴埋め問題を作るには、まず今のノートタイプを穴埋め問題に対応したノートタイプに変更する必要があります。[編集] > [ノートタイプを変更]から、穴埋め問題に対応したノートタイプを選択してください。（Ankiインストール時から付属しているノートタイプのうちでは、「Cloze」が穴埋め問題に対応しています。）"
+
+#: qt/aqt/editor.py:713
+msgid "Media"
+msgstr "メディア"
+
+#: qt/aqt/editor.py:718
+msgid "Add Media"
+msgstr "メディアを追加"
+
+#: qt/aqt/editor.py:751
+msgid "Couldn't record audio. Have you installed 'lame'?"
+msgstr "音声を録音できませんでした。LAMEを"
+
+#: qt/aqt/editor.py:856
+#, python-format
+msgid "An error occurred while opening %s"
+msgstr "%s を開いた時にエラーが発生しました。"
+
+#: qt/aqt/editor.py:953
+msgid "MathJax inline"
+msgstr "MathJax インライン"
+
+#: qt/aqt/editor.py:954
+msgid "MathJax block"
+msgstr "MathJaxブロック"
+
+#: qt/aqt/editor.py:955
+msgid "MathJax chemistry"
+msgstr "MathJax 化学"
+
+#: qt/aqt/editor.py:957
+msgid "LaTeX equation"
+msgstr "LaTeX インライン数式"
+
+#: qt/aqt/editor.py:958
+msgid "LaTeX math env."
+msgstr "LaTeX ディスプレイ数式"
+
+#: qt/aqt/editor.py:959
+msgid "Edit HTML"
+msgstr "HTML を編集"
+
+#: qt/aqt/editor.py:1209
+msgid "Cut"
+msgstr "カット"
+
+#: qt/aqt/editor.py:1211 qt/aqt/webview.py:289
+msgid "Copy"
+msgstr "コピー"
+
+#: qt/aqt/editor.py:1213
+msgid "Paste"
+msgstr "貼り付け"
+
+#: qt/aqt/errors.py:69
+msgid "Unable to access Anki media folder. The permissions on your system's temporary folder may be incorrect."
+msgstr "Ankiメディアフォルダにアクセスすることができません。あなたのシステム上の一時フォルダのアクセス許可が誤っている可能性があります。"
+
+#: qt/aqt/errors.py:82
+msgid "Your firewall or antivirus program is preventing Anki from creating a connection to itself. Please add an exception for Anki."
+msgstr "ファイアウォールかウイルス対策ソフトがAnkiの接続処理を妨げています。Ankiを例外リストに追加してください。"
+
+#: qt/aqt/errors.py:88
+msgid "Please connect a microphone, and ensure other programs are not using the audio device."
+msgstr "マイクを接続して、他のプログラムがオーディオデバイスを使用していないことを確認してください。"
+
+#: qt/aqt/errors.py:99
+msgid "Your computer's storage may be full. Please delete some unneeded files, then try again."
+msgstr "あなたのコンピュータにストレージ空き容量がありません。不要なファイルを削除し、再度お試しください。"
+
+#: qt/aqt/exporting.py:52
+msgid "All Decks"
+msgstr "全てのデッキ"
+
+#: qt/aqt/exporting.py:55
+msgid "Selected Notes"
+msgstr "選択中のノート"
+
+#: qt/aqt/exporting.py:58
+msgid "Export..."
+msgstr "書き出す..."
+
+#: qt/aqt/exporting.py:145
+#, python-format
+msgid "Couldn't save file: %s"
+msgstr "ファイル %s を保存できませんでした"
+
+#: qt/aqt/exporting.py:154
+#, python-format
+msgid "Exported %d media file"
+msgid_plural "Exported %d media files"
+msgstr[0] "%dのメディアファイルをエキスポート"
+
+#: qt/aqt/exporting.py:177
+msgid "Collection exported."
+msgstr "コレクションを書き出しました。"
 
 #: qt/aqt/exporting.py:183
 #, python-format
@@ -141,696 +2684,51 @@ msgid "%d note exported."
 msgid_plural "%d notes exported."
 msgstr[0] "%d 個のノートを書き出しました。"
 
-#: pylib/anki/importing/mnemo.py:105
+#: qt/aqt/exporting.py:192
 #, python-format
-msgid "%d note imported."
-msgid_plural "%d notes imported."
-msgstr[0] "%d 個のノートを読み込みました。"
+msgid "%d card exported."
+msgid_plural "%d cards exported."
+msgstr[0] "%d枚のカードを書き出しました。"
 
-#: pylib/anki/importing/noteimp.py:224
+#: qt/aqt/fields.py:27
 #, python-format
-msgid "%d note unchanged"
-msgid_plural "%d notes unchanged"
-msgstr[0] "%d 個のノートを変更しませんでした"
+msgid "Fields for %s"
+msgstr "%s のフィールド"
 
-#: pylib/anki/importing/noteimp.py:214
+#: qt/aqt/fields.py:90
+msgid "That field name is already used."
+msgstr "そのフィールド名は既に使用しています。"
+
+#: qt/aqt/fields.py:110
+msgid "Field name:"
+msgstr "フィールド名:"
+
+#: qt/aqt/fields.py:123
+msgid "Notes require at least one field."
+msgstr "ノートには最低一つのフィールドが必要です。"
+
+#: qt/aqt/fields.py:126
 #, python-format
-msgid "%d note updated"
-msgid_plural "%d notes updated"
-msgstr[0] "%d 個のノートを更新しました。"
+msgid "Delete field from %s?"
+msgstr "%s からフィールドを削除しますか？"
 
-#: qt/aqt/browser.py:832
+#: qt/aqt/fields.py:140
 #, python-format
-msgid "%d selected"
-msgid_plural "%d selected"
-msgstr[0] "%d枚を選択"
+msgid "New position (1...%d):"
+msgstr "新しい位置 (1...%d):"
 
-#: pylib/anki/models.py:263
+#: qt/aqt/importing.py:46
 #, python-format
-msgid "%s copy"
-msgstr "%s コピー"
-
-#: qt/aqt/reviewer.py:94
-#, python-format
-msgid "%s minute."
-msgid_plural "%s minutes."
-msgstr[0] "%s 分学習しました。"
-
-#: qt/aqt/main.py:1222
-#, python-format
-msgid "%s second"
-msgid_plural "%s seconds"
-msgstr[0] "%s 秒"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:141
-msgid "&About..."
-msgstr "Anki について (&A)"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:147
-msgid "&Browse and Install..."
-msgstr "検索とインストール...(&B)"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:303
-msgid "&Cards"
-msgstr "カード(&C)"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:148
-msgid "&Check Database"
-msgstr "データベースをチェック (&C)"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:318
-msgid "&Cram..."
-msgstr "詰め込み学習 (&C)"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:300
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:135
-msgid "&Edit"
-msgstr "編集 (&E)"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:343
-msgid "&Export Notes..."
-msgstr ""
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:151
-msgid "&Export..."
-msgstr "書き出す (&E)"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:136
-msgid "&File"
-msgstr "ファイル (&F)"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:310
-msgid "&Find"
-msgstr "検索 (&F)"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:301
-msgid "&Go"
-msgstr "移動 (&G)"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:314
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:149
-msgid "&Guide..."
-msgstr "ガイド (&G)"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:302
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:134
-msgid "&Help"
-msgstr "ヘルプ (&H)"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:152
-msgid "&Import..."
-msgstr "読み込む (&I)"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:328
-msgid "&Info..."
-msgstr "カード情報"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:309
-msgid "&Invert Selection"
-msgstr "選択を反転 (&I)"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:312
-msgid "&Next Card"
-msgstr "次のカード (&N)"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:305
-msgid "&Notes"
-msgstr "ノート(&N)"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:145
-msgid "&Open Add-ons Folder..."
-msgstr "アドオンフォルダを開く (&O)"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:139
-msgid "&Preferences..."
-msgstr "設定(&P)"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:313
-msgid "&Previous Card"
-msgstr "前のカード (&P)"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:306
-msgid "&Reschedule..."
-msgstr "スケジュールを変更...(&R)"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:146
-msgid "&Support Anki..."
-msgstr "Anki への支援 (&S)"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:150
-msgid "&Switch Profile"
-msgstr "プロファイルを切り替える (&S)"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:137
-msgid "&Tools"
-msgstr "ツール (&T)"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:308
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:142
-msgid "&Undo"
-msgstr "元に戻す (&U)"
-
-#: pylib/anki/importing/csvfile.py:44
-#, python-format
-msgid "'%(row)s' had %(num1)d fields, expected %(num2)d"
-msgstr "「%(row)s」には %(num1)d 個のフィールドがありました。予想では %(num2)d 個でした。"
-
-#: pylib/anki/stats.py:154
-#, python-format
-msgid "(%s correct)"
-msgstr "(%s 正解)"
-
-#: qt/aqt/addcards.py:154
-msgid "(Note deleted)"
-msgstr "(ノートを削除しました)"
-
-#: qt/aqt/addons.py:746
-msgid "(disabled)"
-msgstr ""
-
-#: pylib/anki/schedv2.py:1261
-msgid "(end)"
-msgstr "(終了)"
-
-#: qt/aqt/browser.py:369
-msgid "(filtered)"
-msgstr "(フィルター)"
-
-#: qt/aqt/browser.py:336
-msgid "(learning)"
-msgstr "(基本学習中)"
-
-#: qt/aqt/browser.py:334 qt/aqt/browser.py:340
-msgid "(new)"
-msgstr "(新規)"
-
-#: qt/aqt/deckconf.py:197
-#, python-format
-msgid "(parent limit: %d)"
-msgstr "(元の最大出題数は %d)"
-
-#: qt/aqt/previewer.py:162
-msgid "(please select 1 card)"
-msgstr "(カードを一枚選択してください)"
-
-#: qt/aqt/addons.py:748
-#, python-format
-msgid "(requires %s)"
-msgstr ""
-
-#: qt/aqt/importing.py:321
-msgid ".anki files are from a very old version of Anki. You can import them with Anki 2.0, available on the Anki website."
-msgstr ""
-
-#: qt/aqt/importing.py:328
-msgid ".anki2 files are not directly importable - please import the .apkg or .zip file you have received instead."
-msgstr ".anki2ファイルを直接インポートすることはできません。代わりに受信した.apkgまたは.zipファイルをインポートしてください。"
-
-#: pylib/anki/stats.py:949
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/stats.py:83
-msgid "1 month"
-msgstr "1か月"
-
-#: pylib/anki/stats.py:949
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/stats.py:84
-msgid "1 year"
-msgstr "1年"
-
-#: pylib/anki/stats.py:810
-msgid "10AM"
-msgstr "10:00"
-
-#: pylib/anki/stats.py:812
-msgid "10PM"
-msgstr "22:00"
-
-#: pylib/anki/stats.py:813
-msgid "3AM"
-msgstr "03:00"
-
-#: pylib/anki/stats.py:809
-msgid "4AM"
-msgstr "04:00"
-
-#: pylib/anki/stats.py:811
-msgid "4PM"
-msgstr "16:00"
-
-#. T: Symbols separating first and second column in a statistics table. Eg in "Total:    3 reviews".
-#: pylib/anki/stats.py:898
-msgid ":"
-msgstr ":"
-
-#: qt/aqt/about.py:110
-#, python-format
-msgid "<a href='%s'>Visit website</a>"
-msgstr "<a href='%s'>公式サイトを開く</a>"
-
-#: pylib/anki/stats.py:408
-#, python-format
-msgid "<b>%(pct)d%%</b> (%(x)s of %(y)s)"
-msgstr "<b>%(pct)d%%</b>  (%(x)s / %(y)s)"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/exporting.py:77
-msgid "<b>Export format</b>:"
-msgstr "<b>ファイルの形式</b>"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/findreplace.py:88
-msgid "<b>Find</b>:"
-msgstr "<b>検索文字列</b>："
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browseropts.py:73
-msgid "<b>Font Size</b>:"
-msgstr "<b>フォントサイズ</b>："
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browseropts.py:72
-msgid "<b>Font</b>:"
-msgstr "<b>フォント</b>："
-
-#: qt/aqt/addons.py:1410
-#, python-format
-msgid "<b>Important</b>: As add-ons are programs downloaded from the internet, they are potentially malicious.<b>You should only install add-ons you trust.</b><br><br>Are you sure you want to proceed with the installation of the following Anki add-on(s)?<br><br>%(names)s"
-msgstr ""
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/findreplace.py:90
-msgid "<b>In</b>:"
-msgstr "<b>対象</b>:"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/exporting.py:78
-msgid "<b>Include</b>:"
-msgstr "<b>対象</b>:"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browseropts.py:74
-msgid "<b>Line Size</b>:"
-msgstr "<b>行のサイズ</b>:"
-
-#: qt/aqt/addons.py:1434
-msgid "<b>Please restart Anki to complete the installation.</b>"
-msgstr "<b>インストールを完了させるためにAnkiを再起動してください。</b>"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/findreplace.py:89
-msgid "<b>Replace With</b>:"
-msgstr "<b>置換文字列</b>："
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:301
-msgid "<b>Synchronisation</b>"
-msgstr "<b>同期</b>"
-
-#: qt/aqt/preferences.py:188
-msgid ""
-"<b>Synchronization</b><br>\n"
-"Not currently enabled; click the sync button in the main window to enable."
-msgstr ""
-"<b>同期</b><br>\n"
-"現在有効になっていません。有効にするにはメインウィンドウの同期ボタンを押してください。"
-
-#: qt/aqt/update.py:59
-#, python-format
-msgid "<h1>Anki Updated</h1>Anki %s has been released.<br><br>"
-msgstr "<h1>Anki アップデート</h1>Anki %s がリリースされました。<br><br>"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:307
-#, fuzzy
-msgid "<html><head/><body><p><span style=\" font-weight:600;\">Backups</span><br/>Anki will create a backup of your collection each time it is closed.</p></body></html>"
-msgstr "<b>バックアップ</b><br>Anki はコレクションは閉じた時と同期した時にバックアップを作成します。"
-
-#: qt/aqt/importing.py:258
-msgid "<ignored>"
-msgstr "<無視する>"
-
-#: qt/aqt/main.py:1537
-msgid "<non-unicode text>"
-msgstr "<Unicode ではないテキスト>"
-
-#: qt/aqt/browser.py:765
-msgid "<type here to search; hit enter to show current deck>"
-msgstr "<ここに入力すると検索します; enter を押すと現在のデッキを表示します>"
-
-#: qt/aqt/about.py:225
-msgid "A big thanks to all the people who have provided suggestions, bug reports and donations."
-msgstr "提案、バグ報告、寄付をしてくださった方々に感謝いたします。"
-
-#: pylib/anki/stats.py:882
-msgid "A card's <i>ease</i> is the size of the next interval when you answer \"good\" on a review."
-msgstr "カードの<b>易しさ</b>とは、復習で [普通] を選んだ時に設定する次回の復習間隔の相対値です。"
-
-#: pylib/anki/importing/csvfile.py:56
-#, python-format
-msgid "Aborted: %s"
-msgstr "中断: %s"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/about.py:45
-msgid "About Anki"
-msgstr "Anki について"
-
-#: qt/aqt/addcards.py:38 qt/aqt/addcards.py:70 qt/aqt/deckconf.py:89
-#: qt/aqt/models.py:57 qt/aqt/studydeck.py:46 qt/aqt/toolbar.py:112
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addcards.py:60
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:103
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/profiles.py:82
-msgid "Add"
-msgstr "追加"
-
-#: qt/aqt/addcards.py:73
-msgid "Add (shortcut: ctrl+enter)"
-msgstr "追加（ショートカット: ctrl+enter）"
-
-#: qt/aqt/clayout.py:676
-msgid "Add Card Type..."
-msgstr "カードタイプを追加..."
-
-#: qt/aqt/clayout.py:389
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addfield.py:62
-msgid "Add Field"
-msgstr "フィールドを追加"
-
-#: qt/aqt/editor.py:718
-msgid "Add Media"
-msgstr "メディアを追加"
-
-#: qt/aqt/studydeck.py:48
-msgid "Add New Deck (Ctrl+N)"
-msgstr "デッキを新規追加 (Ctrl+N)"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addmodel.py:46
-msgid "Add Note Type"
-msgstr "ノートタイプを追加"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:333
-msgid "Add Notes..."
-msgstr "ノートを追加..."
-
-#: qt/aqt/browser.py:1629
-msgid "Add Tags"
-msgstr "タグを追加"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:329
-msgid "Add Tags..."
-msgstr "タグを追加..."
-
-#: qt/aqt/browser.py:172
-msgid "Add-on"
-msgstr "アドオン"
-
-#: qt/aqt/addons.py:902
-msgid "Add-on has no configuration."
-msgstr "このアドオンの設定は変更できません。"
-
-#: qt/aqt/addons.py:1451
-msgid "Add-on installation error"
-msgstr "アドオンインストールのエラー"
-
-#: qt/aqt/addons.py:823
-msgid "Add-on was not downloaded from AnkiWeb."
-msgstr "アドオンがAnkiWebからダウンロードされませんでした。"
-
-#: qt/aqt/main.py:1600
-msgid "Add-on will be installed when a profile is opened."
-msgstr "プロファイルを開いた時にアドオンがインストールされます。"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:157
-msgid "Add-ons"
-msgstr "アドオン"
-
-#: qt/aqt/models.py:212
-#, python-format
-msgid "Add: %s"
-msgstr "追加: %s"
-
-#: pylib/anki/importing/anki2.py:163 pylib/anki/stats.py:309
-#: qt/aqt/addcards.py:202
-msgid "Added"
-msgstr "追加"
-
-#: qt/aqt/browser.py:1263
-msgid "Added Today"
-msgstr "今日追加したカード"
-
-#: pylib/anki/importing/noteimp.py:139
-#, python-format
-msgid "Added duplicate with first field: %s"
-msgstr "最初のフィールドが重複したノートを追加しました: %s"
-
-#: qt/aqt/reviewer.py:629 qt/aqt/reviewer.py:633 qt/aqt/reviewer.py:636
-msgid "Again"
-msgstr "もう一度"
-
-#: qt/aqt/browser.py:1265
-msgid "Again Today"
-msgstr "今日間違えたカード"
-
-#: pylib/anki/stats.py:152
-#, python-format
-msgid "Again count: %s"
-msgstr "忘却回数: %s"
-
-#: qt/aqt/overview.py:133
-msgid "All Buried Cards"
-msgstr "延期したすべてのカード"
-
-#: qt/aqt/browser.py:1349
-msgid "All Card Types"
-msgstr "全てのカードタイプ"
-
-#: qt/aqt/exporting.py:52
-msgid "All Decks"
-msgstr "全てのデッキ"
-
-#: qt/aqt/browser.py:1884
-msgid "All Fields"
-msgstr "全てのフィールド"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:119
-msgid "All cards in random order (don't reschedule)"
-msgstr ""
-
-#: qt/aqt/main.py:324
-msgid "All cards, notes, and media for this profile will be deleted. Are you sure?"
-msgstr "このプロファイルのカードやノート、画像や音声など、全ては削除されます。よろしいですか？"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:117
-msgid "All review cards in random order"
-msgstr ""
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:112
-msgid "Allow HTML in fields"
-msgstr "フィールドに HTML を使う"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:379
-msgid "Always include question side when replaying audio"
-msgstr "解答の音声・動画の前に質問の音声・動画も再生"
-
-#: qt/aqt/editor.py:856
-#, python-format
-msgid "An error occurred while opening %s"
-msgstr "%s を開いた時にエラーが発生しました。"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:133
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/setgroup.py:40
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/setlang.py:41
-msgid "Anki"
-msgstr "Anki"
-
-#: pylib/anki/exporting.py:167
-msgid "Anki 2.0 Deck"
-msgstr "Anki 2.0 デッキ"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:293
-msgid "Anki 2.1 scheduler (beta)"
-msgstr "Anki 2.1 スケジューラー（ベータ版）"
-
-#: pylib/anki/exporting.py:398
-msgid "Anki Collection Package"
-msgstr "Anki コレクションパッケージ"
-
-#: pylib/anki/exporting.py:316
-msgid "Anki Deck Package"
-msgstr "Anki デッキパッケージ"
-
-#: qt/aqt/profiles.py:256
-msgid "Anki could not read your profile data. Window sizes and your sync login details have been forgotten."
-msgstr "プロファイルデータを読み込むことができません。ウィンドウサイズと同期のためのログイン詳細が除去されています。"
-
-#: qt/aqt/profiles.py:326
-msgid "Anki could not rename your profile because it could not rename the profile folder on disk. Please ensure you have permission to write to Documents/Anki and no other programs are accessing your profile folders, then try again."
-msgstr "プロファイルの名前を変更できませんでした。ディスク上のプロファイルフォルダの名前が変更できないためです。Documents/Anki フォルダへの書き込み権限を設定していて、他のプログラムからプロファイルフォルダへアクセスしていないことを確認してから、もう一度実行してください。"
-
-#: qt/aqt/clayout.py:661
-msgid "Anki couldn't find the line between the question and answer. Please adjust the template manually to switch the question and answer."
-msgstr "Anki は質問と答えの間に罫線を見つけられませんでした。質問と答えを切り替えるには、テンプレートを手動で調整してください。"
-
-#: qt/aqt/about.py:97
-msgid "Anki is a friendly, intelligent spaced learning system. It's free and open source."
-msgstr "Anki は、誰でも使える知的な分散学習システムです。しかも無料でオープンソース。"
-
-#: qt/aqt/about.py:101
-msgid "Anki is licensed under the AGPL3 license. Please see the license file in the source distribution for more information."
-msgstr "Anki は、AGPL3 ライセンスの下で使用許諾しています。更に詳しい情報をご覧になりたい方は、配布ソースコードの中の LICENSE ファイルをご覧ください。"
-
-#: qt/aqt/browser.py:741
-msgid "Answer"
-msgstr "解答"
-
-#: pylib/anki/stats.py:681
-msgid "Answer Buttons"
-msgstr "回答ボタン"
-
-#: pylib/anki/stats.py:357 pylib/anki/stats.py:692 pylib/anki/stats.py:800
-msgid "Answers"
-msgstr "回答数"
-
-#: qt/aqt/browser.py:1289
-msgid "Any Flag"
-msgstr "フラグあり"
-
-#: qt/aqt/browser.py:2263
-msgid "Any cards mapped to nothing will be deleted. If a note has no remaining cards, it will be lost. Are you sure you want to continue?"
-msgstr "Nothing に設定したカードは削除されます。ノートにカードが残っていない場合は、そのノートが失われます。それでも処理を続行しますか。"
-
-#: pylib/anki/importing/noteimp.py:161
-#, python-format
-msgid "Appeared twice in file: %s"
-msgstr "%s は二回ファイルに出てきました"
-
-#: qt/aqt/deckbrowser.py:296
-#, python-format
-msgid "Are you sure you wish to delete %s?"
-msgstr "本当に %s を削除しますか？"
-
-#: qt/aqt/clayout.py:551
-msgid "At least one card type is required."
-msgstr "最低一つのカードタイプが必要です。"
-
-#: qt/aqt/deckconf.py:279 qt/aqt/dyndeckconf.py:160
-msgid "At least one step is required."
-msgstr "最低でも一つのステップが必要です。"
-
-#: qt/aqt/editor.py:176
-msgid "Attach pictures/audio/video (F3)"
-msgstr "メディア(画像/音声/動画)を追加 (F3)"
-
-#: qt/aqt/reviewer.py:737
-msgid "Audio +5s"
-msgstr "オーディオ+5秒"
-
-#: qt/aqt/reviewer.py:736
-msgid "Audio -5s"
-msgstr "オーディオ-5秒"
-
-#: qt/aqt/main.py:374
-msgid "Automatic syncing and backups have been disabled while restoring. To enable them again, close the profile or restart Anki."
-msgstr "復元中、自動で行われる同期とバックアップが無効化されました。プロファイルを閉じ、Ankiを再起動させることで再び自動で行われるようになります。"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:378
-msgid "Automatically play audio"
-msgstr "音声を自動再生する"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:303
-msgid "Automatically sync on profile open/close"
-msgstr "プロファイルを開閉する際に自動的に同期する"
-
-#: pylib/anki/stats.py:252 pylib/anki/stats.py:319
-msgid "Average"
-msgstr "平均"
-
-#: pylib/anki/stats.py:434
-msgid "Average answer time"
-msgstr "平均所要時間"
-
-#: pylib/anki/stats.py:878
-msgid "Average ease"
-msgstr "易しさの平均値"
-
-#: pylib/anki/stats.py:423
-msgid "Average for days studied"
-msgstr "各学習の平均"
-
-#: pylib/anki/stats.py:618
-msgid "Average interval"
-msgstr "平均間隔"
-
-#: qt/aqt/previewer.py:83
-msgid "Back Side Only"
-msgstr ""
-
-#: qt/aqt/main.py:558
-msgid "Backing Up..."
-msgstr "バックアップ中..."
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:313
-msgid "Backups"
-msgstr "バックアップ"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:289
-msgid "Basic"
-msgstr "基本"
-
-#: qt/aqt/browser.py:1287 qt/aqt/reviewer.py:719
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:338
-msgid "Blue Flag"
-msgstr "青フラグ"
-
-#: qt/aqt/editor.py:143
-msgid "Bold text (Ctrl+B)"
-msgstr "太字 (Ctrl+B)"
-
-#: qt/aqt/toolbar.py:119
-msgid "Browse"
-msgstr "検索"
-
-#: qt/aqt/browser.py:826
-#, python-format
-msgid "Browse (%(cur)d card shown; %(sel)s)"
-msgid_plural "Browse (%(cur)d cards shown; %(sel)s)"
-msgstr[0] "ブラウザ  ( %(cur)d枚のカードを表示; %(sel)s)"
-
-#: qt/aqt/addons.py:922
-msgid "Browse Add-ons"
-msgstr "アドオン一覧"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browserdisp.py:71
-msgid "Browser Appearance"
-msgstr "検索の表示設定"
-
-#: qt/aqt/clayout.py:698
-msgid "Browser Appearance..."
-msgstr "検索の表示設定..."
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browseropts.py:71
-msgid "Browser Options"
-msgstr "検索オプション"
-
-#: qt/aqt/dyndeckconf.py:21
-msgid "Build"
-msgstr "作成"
-
-#: qt/aqt/browser.py:1282
-msgid "Buried"
-msgstr "延期"
-
-#: qt/aqt/overview.py:132
-msgid "Buried Siblings"
-msgstr "延期した兄弟カード"
-
-#: qt/aqt/reviewer.py:824 qt/aqt/reviewer.py:830
-msgid "Bury"
-msgstr "延期する"
-
-#: qt/aqt/reviewer.py:727
-msgid "Bury Card"
-msgstr "カードを延期"
-
-#: qt/aqt/reviewer.py:728
-msgid "Bury Note"
-msgstr "ノートを延期"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:349
-msgid "Bury related new cards until the next day"
-msgstr "関連する新規カードを翌日まで延期する"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:360
-msgid "Bury related reviews until the next day"
-msgstr "関連カードの復習を翌日まで延期する"
+msgid "Map to %s"
+msgstr "%s に割り当てる"
+
+#: qt/aqt/importing.py:52
+msgid "Map to Tags"
+msgstr "タグに割り当てる"
+
+#: qt/aqt/importing.py:53
+msgid "Ignore field"
+msgstr "フィールドを無視する"
 
 #: qt/aqt/importing.py:123
 msgid ""
@@ -842,547 +2740,108 @@ msgstr ""
 "もし Anki がこのような文字をうまく識別できないときは、ここで入力してください。\n"
 "タブを使う時は \\t と入力します。"
 
-#: qt/aqt/clayout.py:405 qt/aqt/overview.py:134 qt/aqt/sound.py:602
-msgid "Cancel"
-msgstr "キャンセル"
+#: qt/aqt/importing.py:137
+msgid "Multi-character separators are not supported. Please enter one character only."
+msgstr "複数文字のデリミタを使用することができません。１文字のみ入力してください。"
 
-#: qt/aqt/browser.py:742
-msgid "Card"
-msgstr "カード"
-
-#: qt/aqt/clayout.py:622
-#, python-format
-msgid "Card %d"
-msgstr "カード%d"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:320
-msgid "Card List"
-msgstr "カード一覧"
-
-#: qt/aqt/browser.py:1272
-msgid "Card State"
-msgstr "カードの状態"
-
-#: pylib/anki/stats.py:886 qt/aqt/clayout.py:63
-msgid "Card Types"
-msgstr "カードの種類"
-
-#: qt/aqt/clayout.py:69
-#, python-format
-msgid "Card Types for %s"
-msgstr "ノート「%s」が使用するカードタイプ"
-
-#: qt/aqt/reviewer.py:827
-msgid "Card buried."
-msgstr "カードを延期しました。"
-
-#: qt/aqt/reviewer.py:804
-msgid "Card suspended."
-msgstr "カードを保留しました"
-
-#: qt/aqt/reviewer.py:685
-msgid "Card was a leech."
-msgstr "無駄なカードでした。"
-
-#: pylib/anki/stats.py:310 pylib/anki/stats.py:962 qt/aqt/editor.py:134
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/changemodel.py:114
-msgid "Cards"
-msgstr "カード"
-
-#: qt/aqt/browser.py:1603
-msgid "Cards can't be manually moved into a filtered deck."
-msgstr "フィルターデッキには手動でカードを移動できません。"
-
-#: pylib/anki/exporting.py:95
-msgid "Cards in Plain Text"
-msgstr "テキストファイル形式のカード"
-
-#: qt/aqt/overview.py:192
-msgid "Cards will be automatically returned to their original decks after you review them."
-msgstr "カードは復習が済んだら元のデッキに自動的に戻ります。"
-
-#: qt/aqt/models.py:66
-msgid "Cards..."
-msgstr "カード..."
-
-#: pylib/anki/consts.py:108
-msgid "Center"
-msgstr "中央揃え"
-
-#: qt/aqt/importing.py:260
-msgid "Change"
-msgstr "変更"
-
-#: qt/aqt/browser.py:2183
-#, python-format
-msgid "Change %s to:"
-msgstr "%s を以下に変更:"
-
-#: qt/aqt/browser.py:1594 qt/aqt/browser.py:1606
-msgid "Change Deck"
-msgstr "デッキを変更"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:334
-msgid "Change Deck..."
-msgstr "デッキを変更..."
-
-#: qt/aqt/browser.py:2270
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/changemodel.py:111
-msgid "Change Note Type"
-msgstr "ノートタイプを変更"
-
-#: qt/aqt/modelchooser.py:44
-msgid "Change Note Type (Ctrl+N)"
-msgstr "ノートタイプを変更（Ctrl+N）"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:315
-msgid "Change Note Type..."
-msgstr "ノートタイプを変更..."
-
-#: qt/aqt/editor.py:168
-msgid "Change colour (F8)"
-msgstr "色を変更 (F8)"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:286
-msgid "Change deck depending on note type"
-msgstr "カード追加の時、ノートタイプによってデッキを選択"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:70
-msgid "Changes will take effect when Anki is restarted."
-msgstr "変更を反映させるにはAnkiを再起動してください。"
-
-#: qt/aqt/preferences.py:120 qt/aqt/preferences.py:250
-msgid "Changes will take effect when you restart Anki."
-msgstr "Ankiを再起動させると変更内容が反映されます。"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:143
-msgid "Check &Media..."
-msgstr "メディアをチェック"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:73
-msgid "Check for Updates"
-msgstr "既存アドオンのアップデート"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:144
-msgid "Check the files in the media directory"
-msgstr "メディアフォルダにあるファイルを検査"
-
-#: qt/aqt/addons.py:885
-msgid "Checking..."
-msgstr "チェック中..."
-
-#: qt/aqt/deckchooser.py:87 qt/aqt/modelchooser.py:84
-msgid "Choose"
-msgstr "選択"
-
-#: qt/aqt/deckchooser.py:88
-msgid "Choose Deck"
-msgstr "デッキを選択して下さい"
-
-#: qt/aqt/modelchooser.py:85
-msgid "Choose Note Type"
-msgstr "ノートタイプを選択して下さい"
-
-#: qt/aqt/customstudy.py:103
-msgid "Choose Tags"
-msgstr "タグを選択"
-
-#: qt/aqt/browser.py:1301
-msgid "Clear Unused"
-msgstr "使用されていないタグを削除"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:340
-msgid "Clear Unused Tags"
-msgstr "使用されていないタグを削除"
-
-#: qt/aqt/models.py:217
-#, python-format
-msgid "Clone: %s"
-msgstr "クローン: %s"
-
-#: qt/aqt/addcards.py:75
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:327
-msgid "Close"
-msgstr "閉じる"
-
-#: qt/aqt/addcards.py:232
-msgid "Close and lose current input?"
-msgstr "閉じて現在の入力を破棄しますか？"
-
-#: qt/aqt/main.py:556
-msgid "Closing..."
-msgstr "終了中..."
-
-#: qt/aqt/clayout.py:243
-#, fuzzy, python-format
-msgid "Cloze %d"
-msgstr "穴埋め"
-
-#: qt/aqt/editor.py:174
-msgid "Cloze deletion (Ctrl+Shift+C)"
-msgstr "穴埋め (Ctrl+Shift+C)"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/getaddons.py:52
-msgid "Code:"
-msgstr "コード:"
-
-#: qt/aqt/exporting.py:177
-msgid "Collection exported."
-msgstr "コレクションを書き出しました。"
-
-#: qt/aqt/importing.py:167
-msgid "Colon"
-msgstr "コロン"
+#: qt/aqt/importing.py:159
+msgid "Tab"
+msgstr "タブ"
 
 #: qt/aqt/importing.py:161
 msgid "Comma"
 msgstr "コンマ"
 
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:75
-msgid "Config"
-msgstr "設定"
+#: qt/aqt/importing.py:163 qt/aqt/reviewer.py:584
+msgid "Space"
+msgstr "スペース"
 
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addonconf.py:73
-msgid "Configuration"
-msgstr "設定"
+#: qt/aqt/importing.py:165
+msgid "Semicolon"
+msgstr "セミコロン"
 
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:140
-msgid "Configure interface language and options"
-msgstr "インターフェイス言語とオプションを設定"
+#: qt/aqt/importing.py:167
+msgid "Colon"
+msgstr "コロン"
 
-#: qt/aqt/reviewer.py:96
-msgid "Continue"
-msgstr "継続"
-
-#: qt/aqt/about.py:86
-msgid "Copied to clipboard"
-msgstr "クリップボードにコピーしました。"
-
-#: qt/aqt/editor.py:1211 qt/aqt/webview.py:289
-msgid "Copy"
-msgstr "コピー"
-
-#: qt/aqt/about.py:88
-msgid "Copy Debug Info"
-msgstr "デバッグ情報をコピー"
-
-#: qt/aqt/utils.py:148
-msgid "Copy to Clipboard"
-msgstr "クリップボードへコピー"
-
-#: pylib/anki/stats.py:173
+#: qt/aqt/importing.py:170
 #, python-format
-msgid "Correct answers on mature cards: %(a)d/%(b)d (%(c).1f%%)"
-msgstr "復習(熟知)の正解率: %(a)d/%(b)d (%(c).1f%%)"
+msgid "Fields separated by: %s"
+msgstr "%sで区切ったフィールド"
 
-#: pylib/anki/stats.py:713
+#: qt/aqt/importing.py:176
+msgid "The first field of the note type must be mapped."
+msgstr "ノートタイプの最初のフィールドは割り当てなくてはなりません。"
+
+#: qt/aqt/importing.py:211 qt/aqt/importing.py:524
+msgid "Importing complete."
+msgstr "読み込みが完了しました。"
+
+#: qt/aqt/importing.py:251
 #, python-format
-msgid "Correct: <b>%(pct)0.2f%%</b><br>(%(good)d of %(tot)d)"
-msgstr "正解: <b>%(pct)0.2f%%</b><br>(%(good)d / %(tot)d)"
+msgid "Field <b>%d</b> of file is:"
+msgstr "ファイルの<b>%d</b>番目のフィールドは："
 
-#: qt/aqt/addons.py:471
-msgid "Corrupt add-on file."
-msgstr "汚染されたアドオンファイル"
+#: qt/aqt/importing.py:254
+msgid "mapped to <b>Tags</b>"
+msgstr "<b>タグ</b> に割り当てる"
 
-#: qt/aqt/editor.py:751
-msgid "Couldn't record audio. Have you installed 'lame'?"
-msgstr "音声を録音できませんでした。LAMEを"
-
-#: qt/aqt/exporting.py:145
+#: qt/aqt/importing.py:256
 #, python-format
-msgid "Couldn't save file: %s"
-msgstr "ファイル %s を保存できませんでした"
+msgid "mapped to <b>%s</b>"
+msgstr "<b>%s</b> に割り当てる"
 
-#: pylib/anki/stats.py:350 pylib/anki/stats.py:370
-msgid "Cram"
-msgstr "詰め込み学習"
+#: qt/aqt/importing.py:258
+msgid "<ignored>"
+msgstr "<無視する>"
 
-#: qt/aqt/deckbrowser.py:309
-msgid "Create Deck"
-msgstr "デッキを作成"
+#: qt/aqt/importing.py:260
+msgid "Change"
+msgstr "変更"
 
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:155
-msgid "Create Filtered Deck..."
-msgstr "フィルターデッキを作成..."
+#: qt/aqt/importing.py:303
+msgid "Selected file was not in UTF-8 format. Please see the importing section of the manual."
+msgstr "選択したファイルは UTF-8 形式ではありません。マニュアルの Importing (読み込み) に関する項目をご覧ください。"
 
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/modelopts.py:66
-msgid "Create scalable images with dvisvgm"
+#: qt/aqt/importing.py:321
+msgid ".anki files are from a very old version of Anki. You can import them with Anki 2.0, available on the Anki website."
 msgstr ""
 
-#: qt/aqt/browser.py:745
-msgid "Created"
-msgstr "作成日"
+#: qt/aqt/importing.py:328
+msgid ".anki2 files are not directly importable - please import the .apkg or .zip file you have received instead."
+msgstr ".anki2ファイルを直接インポートすることはできません。代わりに受信した.apkgまたは.zipファイルをインポートしてください。"
 
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:344
-msgid "Ctrl+Shift+E"
-msgstr ""
+#: qt/aqt/importing.py:367
+msgid "Unknown file format."
+msgstr "ファイルの種類が不明。"
 
-#: pylib/anki/stats.py:221
-msgid "Cumulative"
-msgstr "累積枚数〔折れ線グラフ〕"
+#: qt/aqt/importing.py:403
+#, fuzzy
+msgid "    Invalid file. Please restore from backup."
+msgstr "ファイルが壊れています。バックアップから復元してください。"
 
-#: pylib/anki/stats.py:382
+#: qt/aqt/importing.py:412
+#, fuzzy
+msgid "    Unable to import from a read-only file."
+msgstr "読み込み専用ファイルは読み込めません。"
+
+#: qt/aqt/importing.py:434
+msgid "This file does not appear to be a valid .apkg file. If you're getting this error from a file downloaded from AnkiWeb, chances are that your download failed. Please try again, and if the problem persists, please try again with a different browser."
+msgstr "このファイルは、正当な .apkg ファイルではないようです。このエラーが AnkiWeb からダウンロードしたファイルで発生した場合、ダウンロードが失敗した可能性があります。再度ダウンロードしても、この問題が続くようであれば、別のブラウザからもう一度実行してください。"
+
+#: qt/aqt/importing.py:454
+msgid "This will delete your existing collection and replace it with the data in the file you're importing. Are you sure?"
+msgstr "この処理は、既存のコレクションを削除し、今から読み込むファイルのデータに置き換えます。本当に実行しますか？"
+
+#: qt/aqt/importing.py:494
 #, python-format
-msgid "Cumulative %s"
-msgstr "累積時間 (%s)〔折れ線グラフ〕"
+msgid "Processed %d media file"
+msgid_plural "Processed %d media files"
+msgstr[0] "%dのメディアファイルを処理"
 
-#: pylib/anki/stats.py:357
-msgid "Cumulative Answers"
-msgstr "累積回答数〔折れ線グラフ〕"
-
-#: pylib/anki/stats.py:236 pylib/anki/stats.py:310
-msgid "Cumulative Cards"
-msgstr "累積枚数〔折れ線グラフ〕"
-
-#: qt/aqt/browser.py:1115 qt/aqt/browser.py:1255
-msgid "Current Deck"
-msgstr "現在のデッキ"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/changemodel.py:112
-msgid "Current note type:"
-msgstr "現在のノートタイプ:"
-
-#: qt/aqt/overview.py:258
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:103
-msgid "Custom Study"
-msgstr "カスタム学習"
-
-#: qt/aqt/customstudy.py:141 qt/aqt/customstudy.py:153
-msgid "Custom Study Session"
-msgstr "カスタム学習セッション"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:149
-msgid "Custom steps (in minutes)"
-msgstr "カスタム学習ステップ（分）"
-
-#: qt/aqt/editor.py:133
-msgid "Customize Card Templates (Ctrl+L)"
-msgstr "カードテンプレートをカストマイズする（Ctrl+L）"
-
-#: qt/aqt/editor.py:125
-msgid "Customize Fields"
-msgstr "カスタムフィールド"
-
-#: qt/aqt/editor.py:1209
-msgid "Cut"
-msgstr "カット"
-
-#: pylib/anki/stats.py:407
-msgid "Days studied"
-msgstr "学習日数"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/debug.py:56
-msgid "Debug Console"
-msgstr "デバッグコンソール"
-
-#: qt/aqt/browser.py:743 qt/aqt/deckbrowser.py:147 qt/aqt/deckchooser.py:29
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:108
-msgid "Deck"
-msgstr "デッキ"
-
-#: qt/aqt/clayout.py:695
-msgid "Deck Override..."
-msgstr "デッキを強制指定"
-
-#: qt/aqt/main.py:1602
-msgid "Deck will be imported when a profile is opened."
-msgstr "プロファイルを開いた時にデッキを読み込みます。"
-
-#: qt/aqt/browser.py:1329 qt/aqt/toolbar.py:105
-msgid "Decks"
-msgstr "デッキ"
-
-#: pylib/anki/consts.py:119
-msgid "Decreasing intervals"
-msgstr "間隔が大きい順"
-
-#: qt/aqt/deckchooser.py:51 qt/aqt/deckchooser.py:55 qt/aqt/deckchooser.py:77
-msgid "Default"
-msgstr "デフォルト"
-
-#: pylib/anki/stats.py:596
-msgid "Delays until reviews are shown again."
-msgstr "次の復習予定日"
-
-#: qt/aqt/deckbrowser.py:234 qt/aqt/deckconf.py:91 qt/aqt/models.py:59
-#: qt/aqt/reviewer.py:812
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:78
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:332
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:104
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/profiles.py:84
-msgid "Delete"
-msgstr "削除"
-
-#: qt/aqt/deckbrowser.py:280
-msgid "Delete Deck"
-msgstr "デッキを削除"
-
-#: qt/aqt/reviewer.py:731
-msgid "Delete Note"
-msgstr "ノートを削除"
-
-#: qt/aqt/browser.py:1547
-msgid "Delete Notes"
-msgstr "ノートを削除する"
-
-#: qt/aqt/browser.py:1639
-msgid "Delete Tags"
-msgstr "タグを削除"
-
-#: qt/aqt/fields.py:126
-#, python-format
-msgid "Delete field from %s?"
-msgstr "%s からフィールドを削除しますか？"
-
-#: qt/aqt/addons.py:845
-#, python-format
-msgid "Delete the %(num)d selected add-on?"
-msgid_plural "Delete the %(num)d selected add-ons?"
-msgstr[0] "選択した%(num)d個のアドオンを削除しますか？"
-
-#: qt/aqt/clayout.py:561
-#, python-format
-msgid "Delete the '%(a)s' card type, and its %(b)s?"
-msgstr "カードタイプ '%(a)s'とその %(b)s を削除しますか？"
-
-#: qt/aqt/models.py:134
-msgid "Delete this note type and all its cards?"
-msgstr "このノートタイプとその全てのカードを削除してもよろしいですか？"
-
-#: qt/aqt/models.py:136
-msgid "Delete this unused note type?"
-msgstr "この使用されていないノートタイプを削除しますか？"
-
-#: qt/aqt/overview.py:197
-msgid "Deleting this deck from the deck list will return all remaining cards to their original deck."
-msgstr "このデッキを削除すると、残りのカードも全て元のデッキに戻ります。"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:382
-msgid "Description"
-msgstr "説明"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:381
-msgid "Description to show on overview screen, for current deck:"
-msgstr ""
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:135
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/editaddon.py:42
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/editcurrent.py:43
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/progress.py:42
-msgid "Dialog"
-msgstr "ダイアログ"
-
-#: qt/aqt/addons.py:1115
-msgid "Download complete. Please restart Anki to apply changes."
-msgstr "ダウンロードが完了しました。変更を適用するためにAnkiを再起動してください。"
-
-#: qt/aqt/addons.py:491
-#, python-format
-msgid "Downloaded %(fname)s"
-msgstr "%(fname)s をダウンロードしました。"
-
-#. T: "%(a)d" is the index of the element currently
-#. downloaded. "%(b)d" is the number of element to download,
-#. and "%(kb)0.2f" is the number of downloaded
-#. kilobytes. This lead for example to "Downloading 3/5
-#. (27KB)"
-#: qt/aqt/addons.py:1094
-#, python-format
-msgid "Downloading %(a)d/%(b)d (%(kb)0.2fKB)..."
-msgstr ""
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:115
-msgid "Due cards only"
-msgstr "復習期日に達したカードのみ"
-
-#: pylib/anki/stats.py:261
-msgid "Due tomorrow"
-msgstr "明日が期日のカード"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:138
-msgid "E&xit"
-msgstr "終了 (&X)"
-
-#: qt/aqt/browser.py:750
-msgid "Ease"
-msgstr "易しさ"
-
-#: qt/aqt/reviewer.py:633 qt/aqt/reviewer.py:639
-msgid "Easy"
-msgstr "簡単"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:353
-msgid "Easy bonus"
-msgstr "簡単と答えた時のボーナス"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:345
-msgid "Easy interval"
-msgstr "簡単と回答してから復習開始までの間隔"
-
-#: qt/aqt/reviewer.py:572
-msgid "Edit"
-msgstr "編集"
-
-#: qt/aqt/addcards.py:149
-#, python-format
-msgid "Edit \"%s\""
-msgstr "「%s」を編集"
-
-#: qt/aqt/editcurrent.py:20
-msgid "Edit Current"
-msgstr "現在のノートを編集"
-
-#: qt/aqt/editor.py:959
-msgid "Edit HTML"
-msgstr "HTML を編集"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:107
-msgid "Editing Font"
-msgstr "フォントを編集"
-
-#: qt/aqt/overview.py:256
-msgid "Empty"
-msgstr "空にする"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:154
-msgid "Empty Cards..."
-msgstr "白紙カードをチェック"
-
-#: pylib/anki/importing/noteimp.py:156
-#, python-format
-msgid "Empty first field: %s"
-msgstr "最初のフィールドが空白：%s"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:146
-msgid "Enable second filter"
-msgstr ""
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:326
-msgid "End"
-msgstr "終り"
-
-#: qt/aqt/clayout.py:740
-#, python-format
-msgid "Enter deck to place new %s cards in, or leave blank:"
-msgstr "カードタイプ %s から生成される新規カードを追加するデッキを選択してください。ここでデッキを選択すると、「追加」ウィンドウでのデッキの選択は無視されます。未選択（空欄）のままにしておくこともできます。"
-
-#: qt/aqt/clayout.py:600
-#, python-format
-msgid "Enter new card position (1...%s):"
-msgstr "カードの新しい位置を入力してください (1...%s):"
-
-#: qt/aqt/browser.py:1619
-msgid "Enter tags to add:"
-msgstr "タグを追加する："
-
-#: qt/aqt/browser.py:1641
-msgid "Enter tags to delete:"
-msgstr "タグを削除する："
-
-#: qt/aqt/addons.py:478
-#, python-format
-msgid "Error downloading <i>%(id)s</i>: %(error)s"
-msgstr "%(id)s のダウンロード中にエラーが発生しました: %(error)s"
+#: qt/aqt/importing.py:516
+msgid "The provided file is not a valid .apkg file."
+msgstr "指定したファイルは正当な .apkg ファイルではありません。"
 
 #: qt/aqt/main.py:123
 #, python-format
@@ -1393,317 +2852,98 @@ msgstr ""
 "起動中にエラーが発生しました：\n"
 "%s"
 
-#: pylib/anki/latex.py:176
+#: qt/aqt/main.py:129
+msgid "Shift key was held down. Skipping automatic syncing and add-on loading."
+msgstr "シフトキーを押したまま起動しましたので、自動的な同期とアドオンの読み込みを省略しました。"
+
+#: qt/aqt/main.py:294 qt/aqt/models.py:123
+msgid "Name:"
+msgstr "名前:"
+
+#: qt/aqt/main.py:297 qt/aqt/main.py:311
+msgid "Name exists."
+msgstr "使用済みの名前です。"
+
+#: qt/aqt/main.py:320
+msgid "There must be at least one profile."
+msgstr "最低限一つのプロファイルが必要です。"
+
+#: qt/aqt/main.py:324
+msgid "All cards, notes, and media for this profile will be deleted. Are you sure?"
+msgstr "このプロファイルのカードやノート、画像や音声など、全ては削除されます。よろしいですか？"
+
+#: qt/aqt/main.py:338
+msgid "Replace your collection with an earlier backup?"
+msgstr "現在のコレクションの代わりに、今までにバックアップされたコレクションを使用することができます。リストを開きますか？"
+
+#: qt/aqt/main.py:351
+msgid "Revert to backup"
+msgstr "バックアップされたコレクションの復元"
+
+#: qt/aqt/main.py:364
+msgid "Unable to move existing file to trash - please try restarting your computer."
+msgstr "ファイルをゴミ箱に移動することができません。コンピューターを再起動してみてください。"
+
+#: qt/aqt/main.py:374
+msgid "Automatic syncing and backups have been disabled while restoring. To enable them again, close the profile or restart Anki."
+msgstr "復元中、自動で行われる同期とバックアップが無効化されました。プロファイルを閉じ、Ankiを再起動させることで再び自動で行われるようになります。"
+
+#: qt/aqt/main.py:556
+msgid "Closing..."
+msgstr "終了中..."
+
+#: qt/aqt/main.py:558
+msgid "Backing Up..."
+msgstr "バックアップ中..."
+
+#: qt/aqt/main.py:578
+msgid "Your collection file appears to be corrupt. This can happen when the file is copied or moved while Anki is open, or when the collection is stored on a network or cloud drive. If problems persist after restarting your computer, please open an automatic backup from the profile screen."
+msgstr "コレクションが破損しているおそれがあります。このような破損は、Ankiを使用中に中身のファイルの移動やコピーを行った場合や、コレクションをネットワークドライブやクラウドドライブに保管している場合に起きることがあります。コンピューターを再起動しても問題が続く場合は、メニューの[ファイル]>[プロファイル]でプロファイルウィンドウを開き、自動バックアップされたコレクションを使用してください。"
+
+#: qt/aqt/main.py:644
+msgid "Optimizing..."
+msgstr "最適化しています..."
+
+#: qt/aqt/main.py:675
+msgid "Please select a deck."
+msgstr "デッキを選択してください。"
+
+#: qt/aqt/main.py:735
+msgid "Waiting for editing to finish."
+msgstr "編集が終わるのを待っています。"
+
+#: qt/aqt/main.py:736
+msgid "Resume Now"
+msgstr "学習し続ける"
+
+#: qt/aqt/main.py:1036
 #, python-format
-msgid "Error executing %s."
-msgstr "%s 実行中にエラーが発生しました。"
+msgid "Reverted to state prior to '%s'."
+msgstr "「%s」より前の状態に戻りました。"
 
-#: qt/aqt/addons.py:480
+#: qt/aqt/main.py:1042
 #, python-format
-msgid "Error installing <i>%(base)s</i>: %(error)s"
-msgstr "%(base)s のインストール中にエラーが発生しました: %(error)s"
+msgid "Undo %s"
+msgstr "元に戻す - %s"
 
-#: qt/aqt/sound.py:502
-#, python-format
-msgid "Error running %s"
-msgstr "%s を実行中にエラー"
+#: qt/aqt/main.py:1046
+msgid "Undo"
+msgstr "元に戻す"
 
-#: qt/aqt/deckbrowser.py:232 qt/aqt/exporting.py:124
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/exporting.py:76
-msgid "Export"
-msgstr "書き出す"
-
-#: qt/aqt/exporting.py:58
-msgid "Export..."
-msgstr "書き出す..."
-
-#: qt/aqt/exporting.py:154
-#, python-format
-msgid "Exported %d media file"
-msgid_plural "Exported %d media files"
-msgstr[0] "%dのメディアファイルをエキスポート"
-
-#: qt/aqt/importing.py:251
-#, python-format
-msgid "Field <b>%d</b> of file is:"
-msgstr "ファイルの<b>%d</b>番目のフィールドは："
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:114
-msgid "Field mapping"
-msgstr "フィールドの割り当て"
-
-#: qt/aqt/fields.py:110
-msgid "Field name:"
-msgstr "フィールド名:"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addfield.py:63
-msgid "Field:"
-msgstr "フィールド:"
-
-#: qt/aqt/editor.py:126 qt/aqt/fields.py:23
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/changemodel.py:115
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:102
-msgid "Fields"
-msgstr "フィールド"
-
-#: qt/aqt/fields.py:27
-#, python-format
-msgid "Fields for %s"
-msgstr "%s のフィールド"
-
-#: qt/aqt/importing.py:170
-#, python-format
-msgid "Fields separated by: %s"
-msgstr "%sで区切ったフィールド"
-
-#: qt/aqt/models.py:65
-msgid "Fields..."
-msgstr "フィールド..."
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:319
-msgid "Fil&ter"
-msgstr "フィルター (&T)"
-
-#: pylib/anki/importing/mnemo.py:24
-msgid "File version unknown, trying import anyway."
-msgstr ""
-
-#: qt/aqt/browser.py:1319
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:136
-msgid "Filter"
-msgstr "フィルター"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:140
-msgid "Filter 2"
-msgstr "フィルター２"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:299
-msgid "Filter..."
-msgstr "フィルター..."
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/studydeck.py:48
-msgid "Filter:"
-msgstr "フィルター："
+#: qt/aqt/main.py:1122
+msgid "Please use File>Import to import this file."
+msgstr "このファイルを読み込むには、 [ファイル] から [読み込む] を実行してください。"
 
 #: qt/aqt/main.py:1164 qt/aqt/main.py:1166
 #, python-format
 msgid "Filtered Deck %d"
 msgstr "フィルターデッキ %d"
 
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:321
-msgid "Find &Duplicates..."
-msgstr "重複を検索する (&D)..."
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/finddupes.py:71
-msgid "Find Duplicates"
-msgstr "重複を検索"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:317
-msgid "Find and Re&place..."
-msgstr "検索して置換"
-
-#: qt/aqt/browser.py:1909
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/findreplace.py:87
-msgid "Find and Replace"
-msgstr "検索して置換"
-
-#: qt/aqt/reviewer.py:95
-msgid "Finish"
-msgstr "終了"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:323
-msgid "First Card"
-msgstr "最初のカード"
-
-#: pylib/anki/importing/noteimp.py:138
+#: qt/aqt/main.py:1222
 #, python-format
-msgid "First field matched: %s"
-msgstr "最初のフィールドが一致しました: %s"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:304
-msgid "Flag"
-msgstr "フラグを付ける"
-
-#: qt/aqt/reviewer.py:698
-msgid "Flag Card"
-msgstr "カードにフラグを付ける"
-
-#: qt/aqt/clayout.py:394
-msgid "Flip"
-msgstr "反転"
-
-#: qt/aqt/profiles.py:312
-msgid "Folder already exists."
-msgstr "使用済みのフォルダー名です。"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addfield.py:65
-msgid "Font:"
-msgstr "フォント:"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/modelopts.py:68
-msgid "Footer"
-msgstr "フッター"
-
-#: pylib/anki/latex.py:134
-#, python-format
-msgid "For security reasons, '%s' is not allowed on cards. You can still use it by placing the command in a different package, and importing that package in the LaTeX header instead."
-msgstr "セキュリティ上の理由から'%s' をカードに使用できません。使用するには、別のパッケージにこの命令を配置して、代わりの LaTeX ヘッダを持たせたパッケージで読み込みます。"
-
-#: pylib/anki/stats.py:228
-msgid "Forecast"
-msgstr "予測"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/clayout_top.py:54
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/template.py:73
-msgid "Form"
-msgstr "フォーム"
-
-#: qt/aqt/browser.py:1996
-#, python-format
-msgid "Found %(a)s across %(b)s."
-msgstr "%(b)s の中に %(a)s が見つかりました。"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:380
-msgid "General"
-msgstr "一般"
-
-#: pylib/anki/latex.py:177
-#, python-format
-msgid "Generated file: %s"
-msgstr "生成ファイル: %s"
-
-#: pylib/anki/stats.py:941
-#, python-format
-msgid "Generated on %s"
-msgstr "作成日時:  %s"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:71
-msgid "Get Add-ons..."
-msgstr "新たにアドオンを取得..."
-
-#: qt/aqt/deckbrowser.py:308
-msgid "Get Shared"
-msgstr "共有デッキをダウンロード"
-
-#: qt/aqt/reviewer.py:630 qt/aqt/reviewer.py:633 qt/aqt/reviewer.py:638
-msgid "Good"
-msgstr "普通"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:346
-msgid "Graduating interval"
-msgstr "最終ステップから復習開始までの間隔"
-
-#: qt/aqt/browser.py:1286 qt/aqt/reviewer.py:713
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:337
-msgid "Green Flag"
-msgstr "緑フラグ"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/edithtml.py:39
-msgid "HTML Editor"
-msgstr "HTML エディタ"
-
-#: qt/aqt/reviewer.py:637
-msgid "Hard"
-msgstr "難しい"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:361
-msgid "Hard interval"
-msgstr "難しいから復習開始までの間隔"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:279
-msgid "Hardware acceleration (faster, may cause display issues)"
-msgstr ""
-
-#: pylib/anki/latex.py:185
-msgid "Have you installed latex and dvipng/dvisvgm?"
-msgstr "Latexとdvipng/dvisvgmはインストールされていますか？"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/modelopts.py:67
-msgid "Header"
-msgstr "ヘッダー"
-
-#: qt/aqt/addcards.py:79 qt/aqt/clayout.py:384 qt/aqt/utils.py:212
-#: qt/aqt/utils.py:213
-msgid "Help"
-msgstr "ヘルプ"
-
-#: pylib/anki/stats.py:879
-msgid "Highest ease"
-msgstr "易しさの最大値"
-
-#: qt/aqt/addcards.py:83
-msgid "History"
-msgstr "履歴"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:324
-msgid "Home"
-msgstr "ホーム"
-
-#: pylib/anki/stats.py:791
-msgid "Hourly Breakdown"
-msgstr "時間帯ごとの分析"
-
-#: pylib/anki/stats.py:377
-msgid "Hours"
-msgstr "時間"
-
-#: pylib/anki/stats.py:821
-msgid "Hours with less than 30 reviews are not shown."
-msgstr "復習が 30 件以下の時間帯は表示しません。"
-
-#: pylib/anki/importing/anki2.py:166
-msgid "Identical"
-msgstr "同一"
-
-#: qt/aqt/about.py:221
-msgid "If you have contributed and are not on this list, please get in touch."
-msgstr "貢献していただいたのにお名前がこの一覧に記載されていない方は、どうぞご連絡下さい。"
-
-#: pylib/anki/stats.py:427
-msgid "If you studied every day"
-msgstr "毎日学習した場合の平均"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:375
-msgid "Ignore answer times longer than"
-msgstr "統計に利用する解答時間の最大値"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/findreplace.py:92
-msgid "Ignore case"
-msgstr "大文字小文字を区別しない"
-
-#: qt/aqt/importing.py:53
-msgid "Ignore field"
-msgstr "フィールドを無視する"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:110
-msgid "Ignore lines where first field matches existing note"
-msgstr "最初のフィールドが既存のノートと一致する行は無視する"
-
-#: qt/aqt/update.py:64
-msgid "Ignore this update"
-msgstr "このアップデートを無視する"
-
-#: qt/aqt/importing.py:103 qt/aqt/importing.py:189 qt/aqt/importing.py:311
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/changemap.py:43
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:105
-msgid "Import"
-msgstr "読み込む"
-
-#: qt/aqt/deckbrowser.py:310
-msgid "Import File"
-msgstr "ファイルを読み込む"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:111
-msgid "Import even if existing note has same first field"
-msgstr "最初のフィールドが既存のノートと同じであっても読み込む"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:106
-msgid "Import options"
-msgstr "読み込みオプション"
-
-#: qt/aqt/importing.py:211 qt/aqt/importing.py:524
-msgid "Importing complete."
-msgstr "読み込みが完了しました。"
+msgid "%s second"
+msgid_plural "%s seconds"
+msgstr[0] "%s 秒"
 
 #: qt/aqt/main.py:1225
 #, python-format
@@ -1732,1012 +2972,155 @@ msgstr ""
 "\n"
 "正確な時刻からのずれ: %s 秒"
 
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/exporting.py:82
-msgid "Include HTML and media references"
-msgstr ""
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/exporting.py:80
-msgid "Include media"
-msgstr "メディアファイルを含める"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/exporting.py:79
-msgid "Include scheduling information"
-msgstr "スケジュール情報を含める"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/exporting.py:81
-msgid "Include tags"
-msgstr "タグを含める"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:106
-msgid "Increase today's new card limit"
-msgstr "今日の新規カードの上限を上げる"
-
-#: qt/aqt/customstudy.py:72
-msgid "Increase today's new card limit by"
-msgstr "今日の新規カードの上限に上乗せ"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:107
-msgid "Increase today's review card limit"
-msgstr "今日の復習カードの上限を上げる"
-
-#: qt/aqt/customstudy.py:84
-msgid "Increase today's review limit by"
-msgstr "今日の復習カードの上限に上乗せ"
-
-#: pylib/anki/consts.py:118
-msgid "Increasing intervals"
-msgstr "間隔が小さい順"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/getaddons.py:50
-msgid "Install Add-on"
-msgstr "アドオンをインストールする"
-
-#: qt/aqt/addons.py:874
-msgid "Install Add-on(s)"
-msgstr "アドオンをインストールする"
-
-#: qt/aqt/addons.py:1420
-msgid "Install Anki add-on"
-msgstr "Ankiアドオンをインストール"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:72
-msgid "Install from file..."
-msgstr "ファイルからインストール..."
-
-#: qt/aqt/addons.py:1443
-msgid "Installation complete"
-msgstr "インストール完了"
-
-#: qt/aqt/addons.py:493
-#, python-format
-msgid "Installed %(name)s"
-msgstr "%(name)s をインストールしました"
-
-#: qt/aqt/addons.py:1024
-msgid "Installed successfully."
-msgstr "インストールが完了しました。"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/setlang.py:42
-msgid "Interface language:"
-msgstr "インターフェースの言語"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:281
-msgid "Interrupt current audio when answering"
-msgstr ""
-
-#: qt/aqt/browser.py:749
-msgid "Interval"
-msgstr "間隔"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:355
-msgid "Interval modifier"
-msgstr "復習ペースの調整"
-
-#: pylib/anki/stats.py:596
-msgid "Intervals"
-msgstr "間隔"
-
-#: qt/aqt/addons.py:472
-msgid "Invalid add-on manifest."
-msgstr ""
-
-#: qt/aqt/addons.py:1011
-msgid "Invalid code, or add-on not available for your version of Anki."
-msgstr "無効なコードです。数字が誤っているか、このアドオンがこのバージョンのAnkiに対応していません。"
-
-#: qt/aqt/addons.py:937
-msgid "Invalid code."
-msgstr "コードが不正です。"
-
-#: qt/aqt/addons.py:1376
-msgid "Invalid configuration: "
-msgstr "無効な設定: "
-
-#: qt/aqt/addons.py:1380
-msgid "Invalid configuration: top level object must be a map"
-msgstr ""
-
 #: qt/aqt/main.py:1288
 msgid "Invalid property found on card. Please use Tools>Check Database, and if the problem comes up again, please ask on the support site."
 msgstr "カードに無効なプロパティを設定しています。[ツール] から [データベースをチェック] を実行してください。それでもこの問題が解決しない場合は、サポートサイトでご質問ください。"
 
-#: qt/aqt/reviewer.py:687
-msgid "It has been suspended."
-msgstr "保留しました。"
-
-#: qt/aqt/editor.py:145
-msgid "Italic text (Ctrl+I)"
-msgstr "斜体 (Ctrl+I)"
-
-#: qt/aqt/editor.py:580
-msgid "Jump to tags with Ctrl+Shift+T"
-msgstr "Ctrl+Shift+T でタグフィールドに移動します。"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:308
-msgid "Keep"
-msgstr "保存ファイル数"
-
-#: qt/aqt/editor.py:956
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/modelopts.py:69
-msgid "LaTeX"
-msgstr "LaTeX"
-
-#: qt/aqt/editor.py:957
-msgid "LaTeX equation"
-msgstr "LaTeX インライン数式"
-
-#: qt/aqt/editor.py:958
-msgid "LaTeX math env."
-msgstr "LaTeX ディスプレイ数式"
-
-#: qt/aqt/browser.py:752
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:374
-msgid "Lapses"
-msgstr "忘却"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:325
-msgid "Last Card"
-msgstr "最後のカード"
-
-#: pylib/anki/consts.py:123
-msgid "Latest added first"
-msgstr "追加時期が新しい順"
-
-#: pylib/anki/stats.py:349 pylib/anki/stats.py:369
-msgid "Learn"
-msgstr "基本学習"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:297
-msgid "Learn ahead limit"
-msgstr "学習の前倒しの限度"
-
-#: pylib/anki/stats.py:160
-#, python-format
-msgid "Learn: %(a)s, Review: %(b)s, Relearn: %(c)s, Filtered: %(d)s"
-msgstr "基本学習: %(a)s枚、復習: %(b)s枚、再基本学習: %(c)s枚、フィルター: %(d)s枚"
-
-#: pylib/anki/stats.py:686 qt/aqt/browser.py:1277 qt/aqt/overview.py:231
-msgid "Learning"
-msgstr "基本学習（再基本学習も含む）"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:368
-msgid "Leech action"
-msgstr "無駄（定着困難）カードへの処置"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:366
-msgid "Leech threshold"
-msgstr "無駄（定着困難）カードと判定する忘却回数"
-
-#: pylib/anki/consts.py:109
-msgid "Left"
-msgstr "左寄せ"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:137
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:141
-msgid "Limit to"
-msgstr "最大枚数"
-
-#: qt/aqt/utils.py:57
-msgid "Loading..."
-msgstr "読み込み中..."
-
-#: pylib/anki/stats.py:619
-msgid "Longest interval"
-msgstr "最長間隔"
-
-#: pylib/anki/stats.py:877
-msgid "Lowest ease"
-msgstr "易しさの最小値"
-
-#: qt/aqt/modelchooser.py:76
-msgid "Manage"
-msgstr "ノートタイプの管理"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:156
-msgid "Manage Note Types"
-msgstr "ノートタイプを管理"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:341
-msgid "Manage Note Types..."
-msgstr "ノートタイプを管理..."
-
-#: qt/aqt/browser.py:1337
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:341
-msgid "Manage..."
-msgstr "管理..."
-
-#: qt/aqt/overview.py:131
-msgid "Manually Buried Cards"
-msgstr "手動で延期したカード"
-
-#: qt/aqt/importing.py:46
-#, python-format
-msgid "Map to %s"
-msgstr "%s に割り当てる"
-
-#: qt/aqt/importing.py:52
-msgid "Map to Tags"
-msgstr "タグに割り当てる"
-
-#: qt/aqt/reviewer.py:726
-msgid "Mark Note"
-msgstr "ノートにマーク"
-
-#: qt/aqt/editor.py:954
-msgid "MathJax block"
-msgstr "MathJaxブロック"
-
-#: qt/aqt/editor.py:955
-msgid "MathJax chemistry"
-msgstr "MathJax 化学"
-
-#: qt/aqt/editor.py:953
-msgid "MathJax inline"
-msgstr "MathJax インライン"
-
-#: pylib/anki/stats.py:213 pylib/anki/stats.py:346 pylib/anki/stats.py:366
-#: pylib/anki/stats.py:688 pylib/anki/stats.py:858
-msgid "Mature"
-msgstr "復習(熟知)"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:357
-msgid "Maximum interval"
-msgstr "復習間隔の上限"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:356
-msgid "Maximum reviews/day"
-msgstr "一日あたりの復習カード出題枚数の上限"
-
-#: qt/aqt/editor.py:713
-msgid "Media"
-msgstr "メディア"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:369
-msgid "Minimum interval"
-msgstr "復習間隔の下限"
-
-#: pylib/anki/stats.py:374
-msgid "Minutes"
-msgstr "分間"
-
-#: pylib/anki/consts.py:100
-msgid "Mix new cards and reviews"
-msgstr "新規カードと学習カードを混ぜる"
-
-#: pylib/anki/importing/__init__.py:15
-msgid "Mnemosyne 2.0 Deck (*.db)"
-msgstr "Mnemosyne 2.0 デッキ (*.db)"
-
-#: qt/aqt/reviewer.py:574
-msgid "More"
-msgstr "その他"
-
-#: pylib/anki/consts.py:120
-msgid "Most lapses"
-msgstr "忘却回数が多い順"
-
-#: qt/aqt/browser.py:1593
-msgid "Move Cards"
-msgstr "カードを移動"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/setgroup.py:41
-msgid "Move cards to deck:"
-msgstr "カードをデッキに移動："
-
-#: qt/aqt/importing.py:137
-msgid "Multi-character separators are not supported. Please enter one character only."
-msgstr "複数文字のデリミタを使用することができません。１文字のみ入力してください。"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:311
-msgid "N&ote"
-msgstr "ノート (&O)"
-
-#: qt/aqt/main.py:297 qt/aqt/main.py:311
-msgid "Name exists."
-msgstr "使用済みの名前です。"
-
-#: qt/aqt/deckbrowser.py:82
-msgid "Name for deck:"
-msgstr "デッキ名:"
-
-#: qt/aqt/main.py:294 qt/aqt/models.py:123
-msgid "Name:"
-msgstr "名前:"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:306
-msgid "Network"
-msgstr "ネットワーク"
-
-#: qt/aqt/browser.py:1276 qt/aqt/deckbrowser.py:149 qt/aqt/overview.py:229
-msgid "New"
-msgstr "新規"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:352
-msgid "New Cards"
-msgstr "新規カード"
-
-#: qt/aqt/customstudy.py:71
-#, python-format
-msgid "New cards in deck over today limit: %s"
-msgstr "デッキ内の今日の上限を超えている新規カード数：%s"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:113
-msgid "New cards only"
-msgstr "新規カードのみ"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:347
-msgid "New cards/day"
-msgstr "一日あたりの新規カード出題枚数の上限"
-
-#: qt/aqt/deckbrowser.py:246 qt/aqt/sidebar.py:98 qt/aqt/studydeck.py:151
-msgid "New deck name:"
-msgstr "新しいデッキ名"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:365
-msgid "New interval"
-msgstr "新しい復習間隔（前回比）"
-
-#: qt/aqt/clayout.py:586 qt/aqt/deckconf.py:148 qt/aqt/fields.py:97
-#: qt/aqt/main.py:305 qt/aqt/models.py:87
-msgid "New name:"
-msgstr "新しい名前:"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/changemodel.py:113
-msgid "New note type:"
-msgstr "変更後のノートタイプ:"
-
-#: qt/aqt/deckconf.py:121
-msgid "New options group name:"
-msgstr "新しいオプショングループ名:"
-
-#: qt/aqt/fields.py:140
-#, python-format
-msgid "New position (1...%d):"
-msgstr "新しい位置 (1...%d):"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:299
-msgid "Next day starts at"
-msgstr "日付更新時刻"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:284
-msgid "Night mode"
-msgstr "夜間モード"
-
-#: qt/aqt/browser.py:1288
-msgid "No Flag"
-msgstr "フラグなし"
-
-#: qt/aqt/overview.py:70
-msgid "No cards are due yet."
-msgstr "このデッキの今日の課題はまだ残っていますが、どれもまだ学習予定時刻に達していません"
-
-#: pylib/anki/stats.py:178
-msgid "No cards have been studied today."
-msgstr "今日はまだ1枚もカードを学習していません。"
-
-#: qt/aqt/customstudy.py:190
-msgid "No cards matched the criteria you provided."
-msgstr "指定した条件に一致するカードはありませんでした。"
-
-#: pylib/anki/stats.py:176
-msgid "No mature cards were studied today."
-msgstr "復習(熟知)の正解率: -- (未復習)"
-
-#: qt/aqt/addons.py:868
-msgid "No updates available."
-msgstr "利用可能なアップデートはありません。"
-
-#: qt/aqt/browser.py:754
-msgid "Note"
-msgstr "ノート"
-
-#: qt/aqt/browser.py:1335 qt/aqt/models.py:36
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/models.py:56
-msgid "Note Types"
-msgstr "ノートタイプ"
-
-#: qt/aqt/reviewer.py:818
-#, python-format
-msgid "Note and its %d card deleted."
-msgid_plural "Note and its %d cards deleted."
-msgstr[0] "ノートと%d枚のカードを削除しました。"
-
-#: qt/aqt/reviewer.py:833
-msgid "Note buried."
-msgstr "ノートを延期しました。"
-
-#: qt/aqt/reviewer.py:798
-msgid "Note suspended."
-msgstr "ノートを保留しました。"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:311
-msgid "Note: Media is not backed up. Please create a periodic backup of your Anki folder to be safe."
-msgstr "注意: メディア（画像／音声／動画）ファイルはバックアップされていません。安全のために Anki のフォルダを定期的にバックアップしてください。"
-
-#: pylib/anki/importing/anki2.py:146
-#, python-format
-msgid "Notes added from file: %d"
-msgstr "ファイルからノートを追加しました：%d"
-
-#: pylib/anki/importing/anki2.py:134
-#, python-format
-msgid "Notes found in file: %d"
-msgstr "ファイルのノート：%d"
-
-#: pylib/anki/exporting.py:125
-msgid "Notes in Plain Text"
-msgstr "テキストファイル形式のノート"
-
-#: qt/aqt/fields.py:123
-msgid "Notes require at least one field."
-msgstr "ノートには最低一つのフィールドが必要です。"
-
-#: pylib/anki/importing/anki2.py:149
-#, python-format
-msgid "Notes skipped, as they're already in your collection: %d"
-msgstr "すでにコレクション内に存在するためノートを省略しました：%d"
-
-#: qt/aqt/browser.py:2023
-msgid "Notes tagged."
-msgstr "ノートにタグを付けました。"
-
-#: pylib/anki/importing/anki2.py:138
-#, python-format
-msgid "Notes that could not be imported as note type has changed: %d"
-msgstr "ノートタイプが変更されたためインポートできなかったノート：%d"
-
-#: pylib/anki/importing/anki2.py:143
-#, python-format
-msgid "Notes updated, as file had newer version: %d"
-msgstr "ファイル内に最新版が存在するためアップデートされたノート：%d"
-
-#: qt/aqt/browser.py:2180
-msgid "Nothing"
-msgstr "なし"
-
-#: qt/aqt/customstudy.py:57
-msgid "OK"
-msgstr "OK"
-
-#: pylib/anki/consts.py:116
-msgid "Oldest seen first"
-msgstr "前回表示日時が古い順"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:305
-msgid "On next sync, force changes in one direction"
-msgstr "次回の同期は、一方向に変更を強制実行する"
-
-#: qt/aqt/addons.py:1113
-msgid "One or more errors occurred:"
-msgstr ""
-
-#: qt/aqt/browser.py:1734
-msgid "Only new cards can be repositioned."
-msgstr "新規カードだけが表示順を変更できます。"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/profiles.py:81
-msgid "Open"
-msgstr "開く"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/profiles.py:86
-msgid "Open Backup..."
-msgstr "バックアップを開く..."
-
-#: qt/aqt/main.py:644
-msgid "Optimizing..."
-msgstr "最適化しています..."
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/finddupes.py:72
-msgid "Optional filter:"
-msgstr "オプションフィルター："
-
-#: qt/aqt/clayout.py:111 qt/aqt/deckbrowser.py:230 qt/aqt/deckconf.py:37
-#: qt/aqt/dyndeckconf.py:25 qt/aqt/overview.py:252 qt/aqt/reviewer.py:732
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:144
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:110
-msgid "Options"
-msgstr "オプション"
-
-#: qt/aqt/deckconf.py:47 qt/aqt/dyndeckconf.py:28 qt/aqt/models.py:161
-#, python-format
-msgid "Options for %s"
-msgstr "%s のオプション"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:340
-msgid "Options group:"
-msgstr "オプショングループ"
-
-#: qt/aqt/models.py:70
-msgid "Options..."
-msgstr "オプション..."
-
-#: qt/aqt/browser.py:1285 qt/aqt/reviewer.py:707
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:336
-msgid "Orange Flag"
-msgstr "橙フラグ"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:344
-msgid "Order"
-msgstr "順番"
-
-#: pylib/anki/consts.py:121
-msgid "Order added"
-msgstr "追加した順番"
-
-#: pylib/anki/consts.py:122
-msgid "Order due"
-msgstr "復習期日が古い順"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browserdisp.py:73
-msgid "Override back template:"
-msgstr "解答のテンプレート:"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browserdisp.py:74
-msgid "Override font:"
-msgstr "フォント:"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browserdisp.py:72
-msgid "Override front template:"
-msgstr "質問のテンプレート:"
-
-#: qt/aqt/addons.py:872
-msgid "Packaged Anki Add-on"
-msgstr "パッケージ化されたAnkiアドオン"
-
-#: pylib/anki/importing/__init__.py:14
-msgid "Packaged Anki Deck/Collection (*.apkg *.colpkg *.zip)"
-msgstr "パッケージ化されたAnkiデッキ／コレクション（*.apkg *.colpkg *.zip）"
-
-#: qt/aqt/editor.py:1213
-msgid "Paste"
-msgstr "貼り付け"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:282
-msgid "Paste clipboard images as PNG"
-msgstr "クリップボード画像をPNG形式で貼り付ける"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:283
-msgid "Paste without shift key strips formatting"
-msgstr ""
-
-#: pylib/anki/importing/__init__.py:17
-msgid "Pauker 1.8 Lesson (*.pau.gz)"
-msgstr ""
-
-#: qt/aqt/reviewer.py:735
-msgid "Pause Audio"
-msgstr "オーディオを一時停止"
-
-#: pylib/anki/stats.py:599
-msgid "Percentage"
-msgstr "累積比率(%)〔折れ線グラフ〕"
-
-#: pylib/anki/stats.py:949
-#, python-format
-msgid "Period: %s"
-msgstr "期間: %s"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:304
-msgid "Periodically sync media"
-msgstr ""
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reschedule.py:76
-msgid "Place at end of new card queue"
-msgstr "新規カードの最後に設定"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reschedule.py:77
-msgid "Place in review queue with interval between:"
-msgstr "次の期間内に復習を設定"
-
-#: qt/aqt/models.py:130
-msgid "Please add another note type first."
-msgstr "まず別のノートタイプを追加してください。"
-
-#: qt/aqt/addons.py:1017
-msgid "Please check your internet connection."
-msgstr "インターネット接続を確認してください"
-
-#: qt/aqt/errors.py:88
-msgid "Please connect a microphone, and ensure other programs are not using the audio device."
-msgstr "マイクを接続して、他のプログラムがオーディオデバイスを使用していないことを確認してください。"
+#: qt/aqt/main.py:1343 qt/aqt/main.py:1362
+msgid "The requested change will require a full upload of the database when you next synchronize your collection. If you have reviews or other changes waiting on another device that haven't been synchronized here yet, they will be lost. Continue?"
+msgstr "要求した変更を行うには、次回のコレクションの同期の際にデータベースの完全なアップロードが必要です。他の端末で復習やその他の変更を行ってまだ同期が済んでいない場合、これらの変更は失われます。処理を続けますか。"
+
+#: qt/aqt/main.py:1537
+msgid "<non-unicode text>"
+msgstr "<Unicode ではないテキスト>"
+
+#: qt/aqt/main.py:1600
+msgid "Add-on will be installed when a profile is opened."
+msgstr "プロファイルを開いた時にアドオンがインストールされます。"
+
+#: qt/aqt/main.py:1602
+msgid "Deck will be imported when a profile is opened."
+msgstr "プロファイルを開いた時にデッキを読み込みます。"
 
 #: qt/aqt/main.py:1609
 msgid "Please ensure a profile is open and Anki is not busy, then try again."
 msgstr "プロファイルが開いていて、Anki は処理中でないことを確認してから、もう一度実行してください。"
 
-#: qt/aqt/browser.py:1393
-msgid "Please give your filter a name:"
-msgstr "このフィルターに名前を付けてください:"
+#: qt/aqt/modelchooser.py:44
+msgid "Change Note Type (Ctrl+N)"
+msgstr "ノートタイプを変更（Ctrl+N）"
 
-#: qt/aqt/profiles.py:307
+#: qt/aqt/modelchooser.py:76
+msgid "Manage"
+msgstr "ノートタイプの管理"
+
+#: qt/aqt/modelchooser.py:85
+msgid "Choose Note Type"
+msgstr "ノートタイプを選択して下さい"
+
+#: qt/aqt/models.py:65
+msgid "Fields..."
+msgstr "フィールド..."
+
+#: qt/aqt/models.py:66
+msgid "Cards..."
+msgstr "カード..."
+
+#: qt/aqt/models.py:70
+msgid "Options..."
+msgstr "オプション..."
+
+#: qt/aqt/models.py:130
+msgid "Please add another note type first."
+msgstr "まず別のノートタイプを追加してください。"
+
+#: qt/aqt/models.py:134
+msgid "Delete this note type and all its cards?"
+msgstr "このノートタイプとその全てのカードを削除してもよろしいですか？"
+
+#: qt/aqt/models.py:136
+msgid "Delete this unused note type?"
+msgstr "この使用されていないノートタイプを削除しますか？"
+
+#: qt/aqt/models.py:212
 #, python-format
-msgid "Please remove the folder %s and try again."
-msgstr "フォルダー %s を削除してから、もう一度実行してください。"
+msgid "Add: %s"
+msgstr "追加: %s"
 
-#: qt/aqt/addons.py:1446
-msgid "Please report this to the respective add-on author(s)."
-msgstr "当該アドオン作成者に報告してください。"
+#: qt/aqt/models.py:217
+#, python-format
+msgid "Clone: %s"
+msgstr "クローン: %s"
+
+#: qt/aqt/overview.py:70
+msgid "No cards are due yet."
+msgstr "このデッキの今日の課題はまだ残っていますが、どれもまだ学習予定時刻に達していません"
+
+#: qt/aqt/overview.py:131
+msgid "Manually Buried Cards"
+msgstr "手動で延期したカード"
+
+#: qt/aqt/overview.py:132
+msgid "Buried Siblings"
+msgstr "延期した兄弟カード"
+
+#: qt/aqt/overview.py:133
+msgid "All Buried Cards"
+msgstr "延期したすべてのカード"
+
+#: qt/aqt/overview.py:137
+msgid "What would you like to unbury?"
+msgstr "何を延期解除しますか？"
+
+#: qt/aqt/overview.py:188
+msgid "This is a special deck for studying outside of the normal schedule."
+msgstr "これは標準のスケジュールから外れて学習する特別なデッキです。"
+
+#: qt/aqt/overview.py:192
+msgid "Cards will be automatically returned to their original decks after you review them."
+msgstr "カードは復習が済んだら元のデッキに自動的に戻ります。"
+
+#: qt/aqt/overview.py:197
+msgid "Deleting this deck from the deck list will return all remaining cards to their original deck."
+msgstr "このデッキを削除すると、残りのカードも全て元のデッキに戻ります。"
+
+#: qt/aqt/overview.py:233
+msgid "To Review"
+msgstr "復習"
+
+#: qt/aqt/overview.py:235
+msgid "Study Now"
+msgstr "学習開始"
+
+#: qt/aqt/overview.py:256
+msgid "Empty"
+msgstr "空にする"
+
+#: qt/aqt/overview.py:261
+msgid "Unbury"
+msgstr "延期を解除"
 
 #: qt/aqt/preferences.py:72
 msgid "Please restart Anki to complete language change."
 msgstr "Ankiを再起動した後、言語が変更されます。"
 
-#: qt/aqt/reviewer.py:387
-msgid "Please run Tools>Empty Cards"
-msgstr "[ツール] から [白紙カードをチェック] を実行してください。"
+#: qt/aqt/preferences.py:120 qt/aqt/preferences.py:250
+msgid "Changes will take effect when you restart Anki."
+msgstr "Ankiを再起動させると変更内容が反映されます。"
 
-#: qt/aqt/main.py:675
-msgid "Please select a deck."
-msgstr "デッキを選択してください。"
+#: qt/aqt/preferences.py:154
+msgid "This will reset any cards in learning, clear filtered decks, and change the scheduler version. Proceed?"
+msgstr "続行することで、学習中のすべてのカードのリセット、フィルターデッキの除去、スケジューラーのバージョン変更が行われます。よろしいですか？"
 
-#: qt/aqt/addons.py:807
-msgid "Please select a single add-on first."
-msgstr "はじめにアドオンを選択してください。"
-
-#: qt/aqt/browser.py:1493
-msgid "Please select cards from only one note type."
-msgstr "一つのノートタイプからカードを選択してください。"
-
-#: qt/aqt/studydeck.py:135
-msgid "Please select something."
-msgstr "何かを選択してください。"
-
-#: qt/aqt/main.py:1122
-msgid "Please use File>Import to import this file."
-msgstr "このファイルを読み込むには、 [ファイル] から [読み込む] を実行してください。"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:278
-msgid "Preferences"
-msgstr "設定"
-
-#: qt/aqt/previewer.py:65
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:298
-msgid "Preview"
-msgstr "プレビュー"
-
-#: qt/aqt/browser.py:624
-#, python-format
-msgid "Preview Selected Card (%s)"
-msgstr "選択したカードをプレビューする  (%s)"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:109
-msgid "Preview new cards"
-msgstr "新規カードをプレビューする"
-
-#: qt/aqt/customstudy.py:96
-msgid "Preview new cards added in the last"
-msgstr "新規カードのプレビュー: 追加日が過去"
-
-#: qt/aqt/importing.py:494
-#, python-format
-msgid "Processed %d media file"
-msgid_plural "Processed %d media files"
-msgstr[0] "%dのメディアファイルを処理"
-
-#: qt/aqt/progress.py:83
-msgid "Processing..."
-msgstr "処理中..."
-
-#: qt/aqt/profiles.py:254
-msgid "Profile Corrupt"
-msgstr "プロファイルの破損"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/profiles.py:80
-msgid "Profiles"
-msgstr "プロファイル"
-
-#: qt/aqt/browser.py:740
-msgid "Question"
-msgstr "質問"
-
-#: qt/aqt/browser.py:1745
-#, python-format
-msgid "Queue bottom: %d"
-msgstr "最後: %d"
-
-#: qt/aqt/browser.py:1744
-#, python-format
-msgid "Queue top: %d"
-msgstr "先頭: %d"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/profiles.py:85
-msgid "Quit"
-msgstr "終了"
-
-#: pylib/anki/consts.py:117
-msgid "Random"
-msgstr "無作為"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reposition.py:75
-msgid "Randomize order"
-msgstr "ランダムに並べ替える"
-
-#: qt/aqt/dyndeckconf.py:23 qt/aqt/overview.py:255
-msgid "Rebuild"
-msgstr "再構築"
-
-#: qt/aqt/reviewer.py:738
-msgid "Record Own Voice"
-msgstr "自分の声を録音"
-
-#: qt/aqt/editor.py:178
-msgid "Record audio (F5)"
-msgstr "音声を録音 (F5)"
-
-#: qt/aqt/sound.py:610
-#, python-format
-msgid "Recording...<br>Time: %0.1f"
-msgstr "記録中...<br>時間： %0.1f"
-
-#: qt/aqt/browser.py:1284 qt/aqt/reviewer.py:701
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:335
-msgid "Red Flag"
-msgstr "赤フラグ"
-
-#: pylib/anki/consts.py:124
-msgid "Relative overdueness"
-msgstr "期日超過が相対的に大きい順"
-
-#: pylib/anki/stats.py:348 pylib/anki/stats.py:368
-msgid "Relearn"
-msgstr "再基本学習"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:109
-msgid "Remember last input when adding"
-msgstr "追加の際に直前の入力を残す"
-
-#: qt/aqt/browser.py:1404
-#, python-format
-msgid "Remove %s from your saved searches?"
-msgstr "フィルター「%s」を削除しますか？"
-
-#: qt/aqt/clayout.py:679
-msgid "Remove Card Type..."
-msgstr "このカードタイプを削除"
-
-#: qt/aqt/browser.py:1378
-msgid "Remove Current Filter..."
-msgstr "このフィルターを削除"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:330
-msgid "Remove Tags..."
-msgstr "タグを除去..."
-
-#: qt/aqt/editor.py:154
-msgid "Remove formatting (Ctrl+R)"
-msgstr "全ての書式をクリア (Ctrl+R)"
-
-#: qt/aqt/deckbrowser.py:228 qt/aqt/deckconf.py:93 qt/aqt/models.py:58
-#: qt/aqt/sidebar.py:74
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:105
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/profiles.py:83
-msgid "Rename"
-msgstr "名前を変更"
-
-#: qt/aqt/clayout.py:682
-msgid "Rename Card Type..."
-msgstr "このカードタイプ名を変更..."
-
-#: qt/aqt/deckbrowser.py:243 qt/aqt/sidebar.py:95
-msgid "Rename Deck"
-msgstr "デッキ名を変更"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:147
-msgid "Repeat failed cards after"
-msgstr "後で間違えたカードをやり直す"
-
-#: qt/aqt/main.py:338
-msgid "Replace your collection with an earlier backup?"
-msgstr "現在のコレクションの代わりに、今までにバックアップされたコレクションを使用することができます。リストを開きますか？"
+#: qt/aqt/preferences.py:188
+msgid ""
+"<b>Synchronization</b><br>\n"
+"Not currently enabled; click the sync button in the main window to enable."
+msgstr ""
+"<b>同期</b><br>\n"
+"現在有効になっていません。有効にするにはメインウィンドウの同期ボタンを押してください。"
 
 #: qt/aqt/previewer.py:76 qt/aqt/reviewer.py:734
 msgid "Replay Audio"
 msgstr "オーディオを再生"
 
-#: qt/aqt/reviewer.py:739
-msgid "Replay Own Voice"
-msgstr "自分の声を再生"
+#: qt/aqt/previewer.py:83
+msgid "Back Side Only"
+msgstr ""
 
-#: qt/aqt/browser.py:1751
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:106
-msgid "Reposition"
-msgstr "並び替える"
-
-#: qt/aqt/clayout.py:685
-msgid "Reposition Card Type..."
-msgstr "このカードタイプの順序を変更..."
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reposition.py:72
-msgid "Reposition New Cards"
-msgstr "新規カードの表示順序を変更"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:322
-msgid "Reposition..."
-msgstr "新規カードの表示順序を変更..."
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/taglimit.py:63
-msgid "Require one or more of these tags:"
-msgstr "次のタグの中から1つ以上を指定する:"
-
-#: qt/aqt/browser.py:1777
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reschedule.py:75
-msgid "Reschedule"
-msgstr "スケジュールを変更"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:145
-msgid "Reschedule cards based on my answers in this deck"
-msgstr "このデッキの解答に基づいてカードをスケジュールし直す"
-
-#: qt/aqt/addons.py:1310
-msgid "Restored defaults"
-msgstr "初期設定に戻す"
-
-#: qt/aqt/main.py:736
-msgid "Resume Now"
-msgstr "学習し続ける"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:108
-msgid "Reverse text direction (RTL)"
-msgstr "右から左入力 (RTL)"
-
-#: qt/aqt/main.py:351
-msgid "Revert to backup"
-msgstr "バックアップされたコレクションの復元"
-
-#: qt/aqt/main.py:1036
-#, python-format
-msgid "Reverted to state prior to '%s'."
-msgstr "「%s」より前の状態に戻りました。"
-
-#: pylib/anki/collection.py:577 qt/aqt/browser.py:1278
-msgid "Review"
-msgstr "復習"
-
-#: pylib/anki/stats.py:354
-msgid "Review Count"
-msgstr "履歴（回答数）"
-
-#: pylib/anki/stats.py:380
-msgid "Review Time"
-msgstr "履歴（時間）"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:104
-msgid "Review ahead"
-msgstr "先取りして学習する"
-
-#: qt/aqt/customstudy.py:93
-msgid "Review ahead by"
-msgstr "先取りする日数"
-
-#: qt/aqt/customstudy.py:89
-msgid "Review cards forgotten in last"
-msgstr "もう一度と回答したカードを復習:：過去"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:105
-msgid "Review forgotten cards"
-msgstr "忘却したカードを復習する"
-
-#: pylib/anki/stats.py:791
-msgid "Review success rate for each hour of the day."
-msgstr "時間帯ごとの正解率"
-
-#: pylib/anki/stats.py:819 qt/aqt/browser.py:751
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:363
-msgid "Reviews"
-msgstr "復習"
-
-#: qt/aqt/customstudy.py:83
-#, python-format
-msgid "Reviews due in deck over today limit: %s"
-msgstr "デッキ内の今日の上限を超えている復習カード数：%s"
-
-#: pylib/anki/consts.py:110
-msgid "Right"
-msgstr "右寄せ"
-
-#: qt/aqt/clayout.py:399 qt/aqt/sound.py:599
-msgid "Save"
-msgstr "保存"
-
-#: qt/aqt/browser.py:1380
-msgid "Save Current Filter..."
-msgstr "このフィルターを保存"
-
-#: qt/aqt/stats.py:42 qt/aqt/stats.py:67 qt/aqt/stats.py:114
-#: qt/aqt/stats.py:145
-msgid "Save PDF"
-msgstr "PDFで保存"
-
-#: qt/aqt/stats.py:80 qt/aqt/stats.py:158
-msgid "Saved."
-msgstr "保存しました。"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:300
-#, fuzzy
-msgid "Scheduling"
-msgstr "スケジュールを変更"
-
-#: pylib/anki/stats.py:947
-#, python-format
-msgid "Scope: %s"
-msgstr "範囲: %s"
-
-#: qt/aqt/browser.py:1979
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:297
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:138
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:142
-msgid "Search"
-msgstr "検索"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/finddupes.py:73
-msgid "Search in:"
-msgstr "検索対象："
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browseropts.py:75
-msgid "Search within formatting (slow)"
-msgstr "書式済みの内容の中まで検索 (速度が低下します)"
-
-#: qt/aqt/customstudy.py:100
-msgid "Select"
-msgstr "選択枚数"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:307
-msgid "Select &All"
-msgstr "全てを選択 (&A)"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:316
-msgid "Select &Notes"
-msgstr "ノートを選択 (&N)"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/taglimit.py:64
-msgid "Select tags to exclude:"
-msgstr "除外するタグの選択:"
-
-#: qt/aqt/exporting.py:55
-msgid "Selected Notes"
-msgstr "選択中のノート"
-
-#: qt/aqt/importing.py:303
-msgid "Selected file was not in UTF-8 format. Please see the importing section of the manual."
-msgstr "選択したファイルは UTF-8 形式ではありません。マニュアルの Importing (読み込み) に関する項目をご覧ください。"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/taglimit.py:62
-msgid "Selective Study"
-msgstr "選択学習"
-
-#: qt/aqt/importing.py:165
-msgid "Semicolon"
-msgstr "セミコロン"
-
-#: qt/aqt/deckconf.py:159
-#, python-format
-msgid "Set all decks below %s to this option group?"
-msgstr "このオプショングループをこのデッキ「%s」内の全てのサブデッキにも適用しますか？"
-
-#: qt/aqt/deckconf.py:95
-msgid "Set for all subdecks"
-msgstr "全てのサブデッキに適用する"
-
-#: qt/aqt/editor.py:158
-msgid "Set foreground colour (F7)"
-msgstr "文字の色を設定 (F7)"
-
-#: qt/aqt/main.py:129
-msgid "Shift key was held down. Skipping automatic syncing and add-on loading."
-msgstr "シフトキーを押したまま起動しましたので、自動的な同期とアドオンの読み込みを省略しました。"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reposition.py:76
-msgid "Shift position of existing cards"
-msgstr "既存のカードの順序を移動する"
-
-#: qt/aqt/deckbrowser.py:318 qt/aqt/main.py:765 qt/aqt/overview.py:265
-#: qt/aqt/previewer.py:80 qt/aqt/previewer.py:85 qt/aqt/reviewer.py:573
-#: qt/aqt/reviewer.py:584 qt/aqt/reviewer.py:660 qt/aqt/toolbar.py:107
-#: qt/aqt/toolbar.py:114 qt/aqt/toolbar.py:121 qt/aqt/toolbar.py:128
-#: qt/aqt/toolbar.py:144
-#, python-format
-msgid "Shortcut key: %s"
-msgstr "ショートカットキーは「%s」"
+#: qt/aqt/previewer.py:162
+msgid "(please select 1 card)"
+msgstr "(カードを一枚選択してください)"
 
 #: qt/aqt/previewer.py:243
 msgid "Shortcut key: Left arrow"
@@ -2747,686 +3130,263 @@ msgstr "ショートカットキー：左矢印"
 msgid "Shortcut key: Right arrow or Enter"
 msgstr "ショートカットキー：右矢印またはエンターキー"
 
-#: qt/aqt/addcards.py:89
+#: qt/aqt/profiles.py:254
+msgid "Profile Corrupt"
+msgstr "プロファイルの破損"
+
+#: qt/aqt/profiles.py:256
+msgid "Anki could not read your profile data. Window sizes and your sync login details have been forgotten."
+msgstr "プロファイルデータを読み込むことができません。ウィンドウサイズと同期のためのログイン詳細が除去されています。"
+
+#: qt/aqt/profiles.py:307
 #, python-format
-msgid "Shortcut: %s"
-msgstr "ショートカット: %s"
+msgid "Please remove the folder %s and try again."
+msgstr "フォルダー %s を削除してから、もう一度実行してください。"
 
-#: qt/aqt/reviewer.py:585
-msgid "Show Answer"
-msgstr "解答を表示"
+#: qt/aqt/profiles.py:312
+msgid "Folder already exists."
+msgstr "使用済みのフォルダー名です。"
 
-#: qt/aqt/editor.py:200
-msgid "Show Duplicates"
-msgstr "重複を表示する"
+#: qt/aqt/profiles.py:326
+msgid "Anki could not rename your profile because it could not rename the profile folder on disk. Please ensure you have permission to write to Documents/Anki and no other programs are accessing your profile folders, then try again."
+msgstr "プロファイルの名前を変更できませんでした。ディスク上のプロファイルフォルダの名前が変更できないためです。Documents/Anki フォルダへの書き込み権限を設定していて、他のプログラムからプロファイルフォルダへアクセスしていないことを確認してから、もう一度実行してください。"
 
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:377
-msgid "Show answer timer"
-msgstr "解答タイマーを表示する"
+#: qt/aqt/profiles.py:479
+msgid "User 1"
+msgstr "ユーザー 1"
 
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:292
-msgid "Show learning cards with larger steps before reviews"
-msgstr "学習中カードのステップを拡大する"
+#: qt/aqt/progress.py:83
+msgid "Processing..."
+msgstr "処理中..."
 
-#: pylib/anki/consts.py:101
-msgid "Show new cards after reviews"
-msgstr "復習カードの後に新規カードを学習する"
-
-#: pylib/anki/consts.py:102
-msgid "Show new cards before reviews"
-msgstr "復習カードの前に新規カードを学習する"
-
-#: pylib/anki/consts.py:94
-msgid "Show new cards in order added"
-msgstr "新規カードを追加順に表示する"
-
-#: pylib/anki/consts.py:93
-msgid "Show new cards in random order"
-msgstr "新規カードを無作為に選んで表示する"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:290
-msgid "Show next review time above answer buttons"
-msgstr "次回の復習時期を解答ボタンの上に表示する"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:280
-msgid "Show play buttons on cards with audio"
-msgstr "オーディオを含むカードに再生ボタンを表示する"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:291
-msgid "Show remaining card count during review"
-msgstr "復習の際にカードの残り枚数を表示する"
-
-#: qt/aqt/browser.py:1031
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:339
-msgid "Sidebar"
-msgstr "サイドバー"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addfield.py:64
-msgid "Size:"
-msgstr "サイズ:"
-
-#: pylib/anki/importing/anki2.py:157
-msgid "Skipped"
-msgstr "除外"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:312
-msgid "Some settings will take effect after you restart Anki."
-msgstr "Anki を再起動した後に有効になる設定があります。"
-
-#: qt/aqt/browser.py:744
-msgid "Sort Field"
-msgstr "ソートフィールド"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:111
-msgid "Sort by this field in the browser"
-msgstr "このフィールドでソート(並び替え)する"
-
-#: qt/aqt/browser.py:942
-msgid "Sorting on this column is not supported. Please choose another."
-msgstr "この列で並び替えることはできません。別の列を選択してください。"
-
-#: qt/aqt/sound.py:323
-msgid "Sound and video on cards will not function until mpv or mplayer is installed."
-msgstr "カード上の音声と動画は、mpvまたはmplayerがインストールされていないと再生できません。"
-
-#: qt/aqt/importing.py:163 qt/aqt/reviewer.py:584
-msgid "Space"
-msgstr "スペース"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reposition.py:73
-msgid "Start position:"
-msgstr "開始位置:"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:342
-msgid "Starting ease"
-msgstr "復習開始時の「易しさ」（復習間隔の伸び率）"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/stats.py:80
-msgid "Statistics"
-msgstr "統計"
-
-#: qt/aqt/toolbar.py:126
-msgid "Stats"
-msgstr "統計"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reposition.py:74
-msgid "Step:"
-msgstr "間隔:"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:348
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:364
-msgid "Steps (in minutes)"
-msgstr "学習ステップ（分）"
-
-#: qt/aqt/deckconf.py:276 qt/aqt/dyndeckconf.py:157
-msgid "Steps must be numbers."
-msgstr "学習ステップは数字で指定してください。"
-
-#: qt/aqt/browser.py:1264
-msgid "Studied Today"
-msgstr "今日学習したカード"
-
-#: qt/aqt/studydeck.py:67
-msgid "Study"
-msgstr "学習"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/studydeck.py:47
-msgid "Study Deck"
-msgstr "デッキを学習する"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:153
-msgid "Study Deck..."
-msgstr "デッキを選択..."
-
-#: qt/aqt/overview.py:235
-msgid "Study Now"
-msgstr "学習開始"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:108
-msgid "Study by card state or tag"
-msgstr "カードの状態やタグを選んで学習する"
-
-#: qt/aqt/editor.py:153
-msgid "Subscript (Ctrl+=)"
-msgstr "下付き文字 (Ctrl+=)"
-
-#: pylib/anki/importing/__init__.py:16
-msgid "Supermemo XML export (*.xml)"
-msgstr "Supermemo 用の XML 形式 (*.xml)"
-
-#: qt/aqt/editor.py:151
-msgid "Superscript (Ctrl++)"
-msgstr "上付き文字 (Ctrl++)"
-
-#: qt/aqt/reviewer.py:796 qt/aqt/reviewer.py:802
-msgid "Suspend"
-msgstr "保留"
-
-#: qt/aqt/reviewer.py:729
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:371
-msgid "Suspend Card"
-msgstr "カードを保留"
-
-#: qt/aqt/reviewer.py:730
-msgid "Suspend Note"
-msgstr "ノートを保留"
-
-#: qt/aqt/browser.py:1281
-msgid "Suspended"
-msgstr "保留"
-
-#: pylib/anki/stats.py:861
-msgid "Suspended+Buried"
-msgstr "保留+延期"
-
-#: qt/aqt/toolbar.py:143
-msgid "Sync"
-msgstr "同期"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:302
-msgid "Synchronize audio and images too"
-msgstr "音声と画像も同期する"
-
-#: qt/aqt/importing.py:159
-msgid "Tab"
-msgstr "タブ"
-
-#: qt/aqt/browser.py:1988 qt/aqt/browser.py:2015
-msgid "Tag Duplicates"
-msgstr "重複にタグを付ける"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:372
-msgid "Tag Only"
-msgstr "タグを付けるだけ"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:113
-msgid "Tag modified notes:"
-msgstr "タグの修正されたノート："
-
-#: qt/aqt/browser.py:753 qt/aqt/browser.py:1299 qt/aqt/editor.py:576
-msgid "Tags"
-msgstr "タグ"
-
-#: qt/aqt/deckchooser.py:34
-msgid "Target Deck (Ctrl+D)"
-msgstr "対象デッキ（Crtl+D）"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/changemap.py:44
-msgid "Target field:"
-msgstr "対象フィールド:"
-
-#: pylib/anki/importing/__init__.py:13
-msgid "Text separated by tabs or semicolons (*)"
-msgstr "テキスト(タブ区切りまたはセミコロン区切り) (*)"
-
-#: qt/aqt/fields.py:90
-msgid "That field name is already used."
-msgstr "そのフィールド名は既に使用しています。"
-
-#: qt/aqt/deckconf.py:137
-msgid "The default configuration can't be removed."
-msgstr "既定の設定「Default」は削除できません。"
-
-#: pylib/anki/stats.py:886
-msgid "The division of cards in your deck(s)."
-msgstr "デッキ内のカードの内訳"
-
-#: qt/aqt/addcards.py:169
-msgid "The first field is empty."
-msgstr "最初のフィールドが空欄です。"
-
-#: qt/aqt/importing.py:176
-msgid "The first field of the note type must be mapped."
-msgstr "ノートタイプの最初のフィールドは割り当てなくてはなりません。"
-
-#: qt/aqt/addons.py:280
+#: qt/aqt/reviewer.py:90
 #, python-format
-msgid "The following add-ons are incompatible with %(name)s and have been disabled: %(found)s"
-msgstr "これらのアドオンは%(name)sと互換性がないため無効化されました：%(found)s"
+msgid "%d card studied in"
+msgid_plural "%d cards studied in"
+msgstr[0] "今日は%d枚のカードを"
 
-#: qt/aqt/addons.py:1268
-msgid "The following add-ons have updates available. Install them now?"
-msgstr "以下のアドオンにはアップデート版があります。今すぐインストールしますか？"
-
-#: qt/aqt/utils.py:659
+#: qt/aqt/reviewer.py:94
 #, python-format
-msgid "The following character can not be used: %s"
-msgstr "次の文字は使えません: %s"
+msgid "%s minute."
+msgid_plural "%s minutes."
+msgstr[0] "%s 分学習しました。"
 
-#: qt/aqt/addons.py:500
-msgid "The following conflicting add-ons were disabled:"
-msgstr "これらの競合するアドオンを無効化しました："
+#: qt/aqt/reviewer.py:95
+msgid "Finish"
+msgstr "終了"
 
-#: pylib/anki/stats.py:309
-msgid "The number of new cards you have added."
-msgstr "新規カードの追加枚数"
+#: qt/aqt/reviewer.py:96
+msgid "Continue"
+msgstr "継続"
 
-#: pylib/anki/stats.py:354
-msgid "The number of questions you have answered."
-msgstr "カードに回答した回数"
-
-#: pylib/anki/stats.py:228
-msgid "The number of reviews due in the future."
-msgstr "復習期日が来るカードの枚数"
-
-#: pylib/anki/stats.py:681
-msgid "The number of times you have pressed each button."
-msgstr "各ボタンを押した回数"
-
-#: qt/aqt/importing.py:516
-msgid "The provided file is not a valid .apkg file."
-msgstr "指定したファイルは正当な .apkg ファイルではありません。"
-
-#: qt/aqt/dyndeckconf.py:128
-msgid "The provided search did not match any cards. Would you like to revise it?"
-msgstr "指定した検索項目は、どのカードにも一致しませんでした。検索項目を変えてみてください。"
-
-#: qt/aqt/main.py:1343 qt/aqt/main.py:1362
-msgid "The requested change will require a full upload of the database when you next synchronize your collection. If you have reviews or other changes waiting on another device that haven't been synchronized here yet, they will be lost. Continue?"
-msgstr "要求した変更を行うには、次回のコレクションの同期の際にデータベースの完全なアップロードが必要です。他の端末で復習やその他の変更を行ってまだ同期が済んでいない場合、これらの変更は失われます。処理を続けますか。"
-
-#: pylib/anki/stats.py:380
-msgid "The time taken to answer the questions."
-msgstr "カードの学習に費やした時間"
-
-#: qt/aqt/main.py:320
-msgid "There must be at least one profile."
-msgstr "最低限一つのプロファイルが必要です。"
-
-#: qt/aqt/addons.py:507
-msgid "This add-on is not compatible with your version of Anki."
-msgstr "このアドオンはご使用のAnkiのバージョンとの互換性がありません。"
-
-#: qt/aqt/importing.py:434
-msgid "This file does not appear to be a valid .apkg file. If you're getting this error from a file downloaded from AnkiWeb, chances are that your download failed. Please try again, and if the problem persists, please try again with a different browser."
-msgstr "このファイルは、正当な .apkg ファイルではないようです。このエラーが AnkiWeb からダウンロードしたファイルで発生した場合、ダウンロードが失敗した可能性があります。再度ダウンロードしても、この問題が続くようであれば、別のブラウザからもう一度実行してください。"
-
-#: qt/aqt/utils.py:412
-msgid "This file exists. Are you sure you want to overwrite it?"
-msgstr "このファイルは既に存在します。上書きしますか？"
-
-#: qt/aqt/overview.py:188
-msgid "This is a special deck for studying outside of the normal schedule."
-msgstr "これは標準のスケジュールから外れて学習する特別なデッキです。"
-
-#: qt/aqt/clayout.py:632
-#, python-format
-msgid "This will create %d card. Proceed?"
-msgid_plural "This will create %d cards. Proceed?"
-msgstr[0] "%d枚のカードが作成されます。続行しますか？"
-
-#: qt/aqt/importing.py:454
-msgid "This will delete your existing collection and replace it with the data in the file you're importing. Are you sure?"
-msgstr "この処理は、既存のコレクションを削除し、今から読み込むファイルのデータに置き換えます。本当に実行しますか？"
-
-#: qt/aqt/preferences.py:154
-msgid "This will reset any cards in learning, clear filtered decks, and change the scheduler version. Proceed?"
-msgstr "続行することで、学習中のすべてのカードのリセット、フィルターデッキの除去、スケジューラーのバージョン変更が行われます。よろしいですか？"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:295
-msgid "Timebox time limit"
-msgstr "タイムボックスの時間枠"
-
-#: qt/aqt/overview.py:233
-msgid "To Review"
-msgstr "復習"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/getaddons.py:51
-msgid "To browse add-ons, please click the browse button below.<br><br>When you've found an add-on you like, please paste its code below. You can paste multiple codes, separated by spaces."
-msgstr "下の「アドオン一覧」ボタンをクリックすると、使用可能なアドオンの一覧が表示されます。<br><br>使用したいアドオンがある場合は、そのアドオンのコードを下の欄に貼り付けてください。スペースで間隔を空けて複数のコードを入力することも可能です。"
-
-#: qt/aqt/editor.py:651
-#, fuzzy
-msgid "To make a cloze deletion on an existing note, you need to change it to a cloze type first, via 'Notes>Change Note Type'"
-msgstr "このノートに穴埋め問題を作るには、まず今のノートタイプを穴埋め問題に対応したノートタイプに変更する必要があります。[編集] > [ノートタイプを変更]から、穴埋め問題に対応したノートタイプを選択してください。（Ankiインストール時から付属しているノートタイプのうちでは、「Cloze」が穴埋め問題に対応しています。）"
-
-#: pylib/anki/stats.py:119 qt/aqt/browser.py:1259
-msgid "Today"
-msgstr "今日"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:77
-msgid "Toggle Enabled"
-msgstr "有効/無効 の切り替え"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:342
-msgid "Toggle Mark"
-msgstr "マークを付ける/除去する"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:331
-msgid "Toggle Suspend"
-msgstr "保留/保留解除 を切り替える"
-
-#: pylib/anki/stats.py:249 pylib/anki/stats.py:318 pylib/anki/stats.py:418
-msgid "Total"
-msgstr "合計"
-
-#: pylib/anki/stats.py:873
-msgid "Total cards"
-msgstr "カードの合計枚数"
-
-#: pylib/anki/stats.py:874
-msgid "Total notes"
-msgstr "ノートの合計枚数"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/findreplace.py:91
-msgid "Treat input as regular expression"
-msgstr "入力条件に正規表現を使う"
-
-#: qt/aqt/modelchooser.py:40
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:107
-msgid "Type"
-msgstr "ノートタイプ"
+#: qt/aqt/reviewer.py:387
+msgid "Please run Tools>Empty Cards"
+msgstr "[ツール] から [白紙カードをチェック] を実行してください。"
 
 #: qt/aqt/reviewer.py:391
 #, python-format
 msgid "Type answer: unknown field %s"
 msgstr "解答キー入力: 不明なフィールド %s"
 
-#: qt/aqt/errors.py:69
-msgid "Unable to access Anki media folder. The permissions on your system's temporary folder may be incorrect."
-msgstr "Ankiメディアフォルダにアクセスすることができません。あなたのシステム上の一時フォルダのアクセス許可が誤っている可能性があります。"
+#: qt/aqt/reviewer.py:572
+msgid "Edit"
+msgstr "編集"
 
-#: qt/aqt/main.py:364
-msgid "Unable to move existing file to trash - please try restarting your computer."
-msgstr "ファイルをゴミ箱に移動することができません。コンピューターを再起動してみてください。"
+#: qt/aqt/reviewer.py:574
+msgid "More"
+msgstr "その他"
 
-#: qt/aqt/addons.py:427
+#: qt/aqt/reviewer.py:585
+msgid "Show Answer"
+msgstr "解答を表示"
+
+#: qt/aqt/reviewer.py:629 qt/aqt/reviewer.py:633 qt/aqt/reviewer.py:636
+msgid "Again"
+msgstr "もう一度"
+
+#: qt/aqt/reviewer.py:630 qt/aqt/reviewer.py:633 qt/aqt/reviewer.py:638
+msgid "Good"
+msgstr "普通"
+
+#: qt/aqt/reviewer.py:633 qt/aqt/reviewer.py:639
+msgid "Easy"
+msgstr "簡単"
+
+#: qt/aqt/reviewer.py:637
+msgid "Hard"
+msgstr "難しい"
+
+#: qt/aqt/reviewer.py:685
+msgid "Card was a leech."
+msgstr "無駄なカードでした。"
+
+#: qt/aqt/reviewer.py:687
+msgid "It has been suspended."
+msgstr "保留しました。"
+
+#: qt/aqt/reviewer.py:698
+msgid "Flag Card"
+msgstr "カードにフラグを付ける"
+
+#: qt/aqt/reviewer.py:726
+msgid "Mark Note"
+msgstr "ノートにマーク"
+
+#: qt/aqt/reviewer.py:727
+msgid "Bury Card"
+msgstr "カードを延期"
+
+#: qt/aqt/reviewer.py:728
+msgid "Bury Note"
+msgstr "ノートを延期"
+
+#: qt/aqt/reviewer.py:730
+msgid "Suspend Note"
+msgstr "ノートを保留"
+
+#: qt/aqt/reviewer.py:731
+msgid "Delete Note"
+msgstr "ノートを削除"
+
+#: qt/aqt/reviewer.py:735
+msgid "Pause Audio"
+msgstr "オーディオを一時停止"
+
+#: qt/aqt/reviewer.py:736
+msgid "Audio -5s"
+msgstr "オーディオ-5秒"
+
+#: qt/aqt/reviewer.py:737
+msgid "Audio +5s"
+msgstr "オーディオ+5秒"
+
+#: qt/aqt/reviewer.py:738
+msgid "Record Own Voice"
+msgstr "自分の声を録音"
+
+#: qt/aqt/reviewer.py:739
+msgid "Replay Own Voice"
+msgstr "自分の声を再生"
+
+#: qt/aqt/reviewer.py:796 qt/aqt/reviewer.py:802
+msgid "Suspend"
+msgstr "保留"
+
+#: qt/aqt/reviewer.py:798
+msgid "Note suspended."
+msgstr "ノートを保留しました。"
+
+#: qt/aqt/reviewer.py:804
+msgid "Card suspended."
+msgstr "カードを保留しました"
+
+#: qt/aqt/reviewer.py:818
 #, python-format
-msgid ""
-"Unable to update or delete add-on. Please start Anki while holding down the shift key to temporarily disable add-ons, then try again.\n"
-"\n"
-"Debug info: %s"
-msgstr ""
-"アドオンを更新または削除することができません。一時的にアドオンを無効にするため、Shiftキーを押したままの状態でAnkiを起動し、その後再度お試しください。\n"
-"\n"
-"デバッグ情報：%s"
+msgid "Note and its %d card deleted."
+msgid_plural "Note and its %d cards deleted."
+msgstr[0] "ノートと%d枚のカードを削除しました。"
 
-#: qt/aqt/overview.py:261
-msgid "Unbury"
-msgstr "延期を解除"
+#: qt/aqt/reviewer.py:824 qt/aqt/reviewer.py:830
+msgid "Bury"
+msgstr "延期する"
 
-#: qt/aqt/editor.py:148
-msgid "Underline text (Ctrl+U)"
-msgstr "下線 (Ctrl+U)"
+#: qt/aqt/reviewer.py:827
+msgid "Card buried."
+msgstr "カードを延期しました。"
 
-#: qt/aqt/main.py:1046
-msgid "Undo"
-msgstr "元に戻す"
-
-#: qt/aqt/main.py:1042
-#, python-format
-msgid "Undo %s"
-msgstr "元に戻す - %s"
-
-#: qt/aqt/addons.py:1014 qt/aqt/editor.py:850
-#, python-format
-msgid "Unexpected response code: %s"
-msgstr "予期しない応答コード：%s"
-
-#: qt/aqt/addons.py:475
-msgid "Unknown error: {}"
-msgstr "不明なエラー：{}"
-
-#: qt/aqt/importing.py:367
-msgid "Unknown file format."
-msgstr "ファイルの種類が不明。"
-
-#: pylib/anki/stats.py:860
-msgid "Unseen"
-msgstr "新規"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:109
-msgid "Update existing notes when first field matches"
-msgstr "最初のフィールドが一致した場合、既存のノートを更新する。"
-
-#: pylib/anki/importing/anki2.py:160
-msgid "Updated"
-msgstr "更新"
-
-#: qt/aqt/profiles.py:479
-msgid "User 1"
-msgstr "ユーザー 1"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:287
-msgid "User interface size"
-msgstr "ユーザーインターフェースのサイズ"
-
-#: qt/aqt/about.py:104
-#, python-format
-msgid "Version %s"
-msgstr "バージョン %s"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:74
-msgid "View Add-on Page"
-msgstr "選択中のアドオンの詳細"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:76
-msgid "View Files"
-msgstr "ファイルを見る"
-
-#: qt/aqt/main.py:735
-msgid "Waiting for editing to finish."
-msgstr "編集が終わるのを待っています。"
-
-#: qt/aqt/editor.py:644
-msgid "Warning, cloze deletions will not work until you switch the type at the top to Cloze."
-msgstr "注意: 穴埋め問題は上部にある「ノートタイプ」の設定を「Cloze」（穴埋め）タイプに変更するまで機能しません。"
-
-#: qt/aqt/overview.py:137
-msgid "What would you like to unbury?"
-msgstr "何を延期解除しますか？"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:285
-msgid "When adding, default to current deck"
-msgstr "カード追加の時、現在のデッキを既定にする"
-
-#: qt/aqt/browser.py:1108 qt/aqt/browser.py:1255
-msgid "Whole Collection"
-msgstr "コレクション全体"
-
-#: qt/aqt/update.py:63
-msgid "Would you like to download it now?"
-msgstr "今ダウンロードしますか？"
-
-#: qt/aqt/about.py:215
-#, python-format
-msgid "Written by Damien Elmes, with patches, translation,    testing and design from:<p>%(cont)s"
-msgstr "Damien Elmes が作成しました。パッチ、翻訳、テスト、デザインで次の方々にご協力いただきました:<p>%(cont)s"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:310
-msgid "You can restore backups via File>Switch Profile."
-msgstr "「ファイル」→「プロファイル切替」でバックアップを復元することができます。"
-
-#: qt/aqt/addcards.py:178
-msgid "You have a cloze deletion note type but have not made any cloze deletions. Proceed?"
-msgstr "穴埋め問題のノートタイプがありますが、穴埋め問題を作っていません。続行しますか。"
+#: qt/aqt/reviewer.py:833
+msgid "Note buried."
+msgstr "ノートを延期しました。"
 
 #: qt/aqt/reviewer.py:841
 msgid "You haven't recorded your voice yet."
 msgstr "まだ録音してません。"
 
-#: qt/aqt/browser.py:997
-msgid "You must have at least one column."
-msgstr "最低でも一つの列は必要です。"
+#: qt/aqt/sound.py:323
+msgid "Sound and video on cards will not function until mpv or mplayer is installed."
+msgstr "カード上の音声と動画は、mpvまたはmplayerがインストールされていないと再生できません。"
 
-#: pylib/anki/stats.py:214 pylib/anki/stats.py:347 pylib/anki/stats.py:367
-#: pylib/anki/stats.py:687
-msgid "Young"
-msgstr "復習(未熟)"
-
-#: pylib/anki/stats.py:859
-msgid "Young+Learn"
-msgstr "復習(未熟)+基本学習+再基本学習"
-
-#: qt/aqt/deckconf.py:113
-msgid "Your changes will affect multiple decks. If you wish to change only the current deck, please add a new options group first."
-msgstr "この変更は複数のデッキに影響が及びます。現在のデッキのみに変更を加えたい時には、まず最初にオプショングループを新規追加してください。"
-
-#: qt/aqt/main.py:578
-msgid "Your collection file appears to be corrupt. This can happen when the file is copied or moved while Anki is open, or when the collection is stored on a network or cloud drive. If problems persist after restarting your computer, please open an automatic backup from the profile screen."
-msgstr "コレクションが破損しているおそれがあります。このような破損は、Ankiを使用中に中身のファイルの移動やコピーを行った場合や、コレクションをネットワークドライブやクラウドドライブに保管している場合に起きることがあります。コンピューターを再起動しても問題が続く場合は、メニューの[ファイル]>[プロファイル]でプロファイルウィンドウを開き、自動バックアップされたコレクションを使用してください。"
-
-#: qt/aqt/errors.py:99
-msgid "Your computer's storage may be full. Please delete some unneeded files, then try again."
-msgstr "あなたのコンピュータにストレージ空き容量がありません。不要なファイルを削除し、再度お試しください。"
-
-#: qt/aqt/errors.py:82
-msgid "Your firewall or antivirus program is preventing Anki from creating a connection to itself. Please add an exception for Anki."
-msgstr "ファイアウォールかウイルス対策ソフトがAnkiの接続処理を妨げています。Ankiを例外リストに追加してください。"
-
-#: pylib/anki/decks.py:382
-msgid "[no deck]"
-msgstr "[デッキなし]"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:309
-msgid "backups"
-msgstr "バックアップ"
-
-#: pylib/anki/stats.py:319 qt/aqt/customstudy.py:53
-msgid "cards"
-msgstr "枚"
-
-#: qt/aqt/customstudy.py:101
-msgid "cards from the deck"
-msgstr "選択中のデッキから取得"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:139
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:143
-msgid "cards selected by"
-msgstr "枚。出題方法："
-
-#: qt/aqt/exporting.py:110
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/stats.py:82
-msgid "collection"
-msgstr "コレクション"
-
-#. T: abbreviation of day
-#: pylib/anki/stats.py:982
-msgid "d"
-msgstr "日"
-
-#: qt/aqt/customstudy.py:90 qt/aqt/customstudy.py:94 qt/aqt/customstudy.py:97
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:350
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:351
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:358
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:370
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reschedule.py:79
-msgid "days"
-msgstr "日"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/stats.py:81
-msgid "deck"
-msgstr "デッキ"
-
-#: pylib/anki/stats.py:949
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/stats.py:85
-msgid "deck life"
-msgstr "全期間"
-
-#: qt/aqt/browser.py:2019
-msgid "duplicate"
-msgstr "重複"
-
-#: pylib/anki/stats.py:413
-msgid "hours"
-msgstr "時間"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:296
-msgid "hours past midnight"
-msgstr "時"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:367
-msgid "lapses"
-msgstr "回"
-
-#: qt/aqt/importing.py:256
+#: qt/aqt/sound.py:502
 #, python-format
-msgid "mapped to <b>%s</b>"
-msgstr "<b>%s</b> に割り当てる"
+msgid "Error running %s"
+msgstr "%s を実行中にエラー"
 
-#: qt/aqt/importing.py:254
-msgid "mapped to <b>Tags</b>"
-msgstr "<b>タグ</b> に割り当てる"
+#: qt/aqt/sound.py:610
+#, python-format
+msgid "Recording...<br>Time: %0.1f"
+msgstr "記録中...<br>時間： %0.1f"
 
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:294
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:298
-msgid "mins"
-msgstr "分"
-
-#: pylib/anki/stats.py:384
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:148
-msgid "minutes"
-msgstr "分"
-
-#. T: abbreviation of month
-#: pylib/anki/stats.py:986
-msgid "mo"
-msgstr "か月"
-
-#: pylib/anki/stats.py:252 pylib/anki/stats.py:360
-msgid "reviews"
-msgstr "枚の復習カード"
-
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:376
-msgid "seconds"
-msgstr "秒"
+#: qt/aqt/stats.py:42 qt/aqt/stats.py:67 qt/aqt/stats.py:114
+#: qt/aqt/stats.py:145
+msgid "Save PDF"
+msgstr "PDFで保存"
 
 #: qt/aqt/stats.py:64 qt/aqt/stats.py:142
 msgid "stats"
 msgstr "統計"
 
-#. T: abbreviation of week
-#: pylib/anki/stats.py:984
-msgid "w"
-msgstr "週"
+#: qt/aqt/stats.py:80 qt/aqt/stats.py:158
+msgid "Saved."
+msgstr "保存しました。"
 
-#: pylib/anki/stats.py:944
-msgid "whole collection"
-msgstr "コレクション全体"
+#: qt/aqt/studydeck.py:48
+msgid "Add New Deck (Ctrl+N)"
+msgstr "デッキを新規追加 (Ctrl+N)"
 
-#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reschedule.py:78
-msgid "~"
-msgstr "~"
+#: qt/aqt/studydeck.py:67
+msgid "Study"
+msgstr "学習"
 
-#~ msgid "Front"
-#~ msgstr "表面"
+#: qt/aqt/studydeck.py:135
+msgid "Please select something."
+msgstr "何かを選択してください。"
 
-#~ msgid "Congratulations! You have finished this deck for now."
-#~ msgstr "おめでとうございます！　このデッキの今日の課題を全て達成しました！"
+#: qt/aqt/toolbar.py:119
+msgid "Browse"
+msgstr "検索"
 
-#~ msgid "Deauthorize"
-#~ msgstr "認証解除"
+#: qt/aqt/toolbar.py:126
+msgid "Stats"
+msgstr "統計"
 
-#~ msgid "Show Both Sides"
-#~ msgstr "常に両面を表示"
+#: qt/aqt/toolbar.py:143
+msgid "Sync"
+msgstr "同期"
 
-#~ msgid "Some related or buried cards were delayed until a later session."
-#~ msgstr "以後のセッションに先送りした関連カードや延期したカードがあります。"
+#: qt/aqt/update.py:59
+#, python-format
+msgid "<h1>Anki Updated</h1>Anki %s has been released.<br><br>"
+msgstr "<h1>Anki アップデート</h1>Anki %s がリリースされました。<br><br>"
 
-#~ msgid ""
-#~ "There are more new cards available, but the daily limit has been\n"
-#~ "reached. You can increase the limit in the options, but please\n"
-#~ "bear in mind that the more new cards you introduce, the higher\n"
-#~ "your short-term review workload will become."
-#~ msgstr "まだ新規カードは残っていますが、設定した一日の上限に達しました。学習設定より上限を変更することも可能ですが、それにより短期的に一日の復習量が増え、しばらくの間、通常よりも学習負荷がかかりますのでご注意ください。"
+#: qt/aqt/update.py:63
+msgid "Would you like to download it now?"
+msgstr "今ダウンロードしますか？"
 
-#~ msgid "To see them now, click the Unbury button below."
-#~ msgstr "今すぐ表示するには、下にある [延期を解除] ボタンを押してください。"
+#: qt/aqt/update.py:64
+msgid "Ignore this update"
+msgstr "このアップデートを無視する"
 
-#~ msgid "To study outside of the normal schedule, click the Custom Study button below."
-#~ msgstr "標準のスケジュールから外れて学習するには、下の [カスタム学習] ボタンを押してください。"
+#: qt/aqt/utils.py:57
+msgid "Loading..."
+msgstr "読み込み中..."
 
-#~ msgid ""
-#~ "Today's review limit has been reached, but there are still cards\n"
-#~ "waiting to be reviewed. For optimum memory, consider increasing\n"
-#~ "the daily limit in the options."
-#~ msgstr ""
-#~ "復習カードはまだ残ってますが、今日の出題上限に達しました。\n"
-#~ "適正な記憶力に見合った、一日の制限値まで引き上げることを検討してください。"
+#: qt/aqt/utils.py:148
+msgid "Copy to Clipboard"
+msgstr "クリップボードへコピー"
 
-#, fuzzy
-#~ msgid "Shortcut key: Left or Right arrow"
-#~ msgstr "ショートカットキー：左矢印"
+#: qt/aqt/utils.py:412
+msgid "This file exists. Are you sure you want to overwrite it?"
+msgstr "このファイルは既に存在します。上書きしますか？"
+
+#: qt/aqt/utils.py:659
+#, python-format
+msgid "The following character can not be used: %s"
+msgstr "次の文字は使えません: %s"
+
+#. T: include a font for your language on Windows, eg: "Segoe UI", "MS Mincho"
+#: qt/aqt/webview.py:379
+msgid "\"Segoe UI\""
+msgstr "\"Segoe UI\", \"MS PGothic\""
 
 #, python-format
 #~ msgid " (1 of %d)"
@@ -3714,6 +3674,9 @@ msgstr "~"
 #~ msgid "Collection is corrupt. Please see the manual."
 #~ msgstr "コレクションが壊れています。マニュアルをご覧ください。"
 
+#~ msgid "Congratulations! You have finished this deck for now."
+#~ msgstr "おめでとうございます！　このデッキの今日の課題を全て達成しました！"
+
 #~ msgid "Connecting..."
 #~ msgstr "接続中..."
 
@@ -3728,6 +3691,9 @@ msgstr "~"
 
 #~ msgid "Date"
 #~ msgstr "日付"
+
+#~ msgid "Deauthorize"
+#~ msgstr "認証解除"
 
 #~ msgid "Delete Cards"
 #~ msgstr "カードを削除する"
@@ -3817,6 +3783,9 @@ msgstr "~"
 #~ msgid "Fixed note type: %s"
 #~ msgstr "修正したノートタイプ: %s"
 
+#~ msgid "Front"
+#~ msgstr "表面"
+
 #~ msgid "Front Preview"
 #~ msgstr "表面のプレビュー"
 
@@ -3896,6 +3865,16 @@ msgstr "~"
 #~ msgid "Server not found. Either your connection is down, or antivirus/firewall software is blocking Anki from connecting to the internet."
 #~ msgstr "サーバーが見つかりませんでした。接続が中断しているか、アンチウィルスソフトまたはファイアウォールソフトが Anki のインターネット接続を遮断しています。"
 
+#, fuzzy
+#~ msgid "Shortcut key: Left or Right arrow"
+#~ msgstr "ショートカットキー：左矢印"
+
+#~ msgid "Show Both Sides"
+#~ msgstr "常に両面を表示"
+
+#~ msgid "Some related or buried cards were delayed until a later session."
+#~ msgstr "以後のセッションに先送りした関連カードや延期したカードがあります。"
+
 #~ msgid "Stopping..."
 #~ msgstr "同期を中止しています..."
 
@@ -3951,6 +3930,13 @@ msgstr "~"
 #~ msgid "The input you have provided would make an empty question on all cards."
 #~ msgstr "追加するカードは表側が全て白紙になります。"
 
+#~ msgid ""
+#~ "There are more new cards available, but the daily limit has been\n"
+#~ "reached. You can increase the limit in the options, but please\n"
+#~ "bear in mind that the more new cards you introduce, the higher\n"
+#~ "your short-term review workload will become."
+#~ msgstr "まだ新規カードは残っていますが、設定した一日の上限に達しました。学習設定より上限を変更することも可能ですが、それにより短期的に一日の復習量が増え、しばらくの間、通常よりも学習負荷がかかりますのでご注意ください。"
+
 #~ msgid "This column can't be sorted on, but you can search for individual card types, such as 'card:1'."
 #~ msgstr "この列は並び替えできませんが、検索でカードタイプを絞り込むことができます。例）検索欄に「card:1」と入力して検索"
 
@@ -3974,6 +3960,20 @@ msgstr "~"
 
 #~ msgid "Time"
 #~ msgstr "時間"
+
+#~ msgid "To see them now, click the Unbury button below."
+#~ msgstr "今すぐ表示するには、下にある [延期を解除] ボタンを押してください。"
+
+#~ msgid "To study outside of the normal schedule, click the Custom Study button below."
+#~ msgstr "標準のスケジュールから外れて学習するには、下の [カスタム学習] ボタンを押してください。"
+
+#~ msgid ""
+#~ "Today's review limit has been reached, but there are still cards\n"
+#~ "waiting to be reviewed. For optimum memory, consider increasing\n"
+#~ "the daily limit in the options."
+#~ msgstr ""
+#~ "復習カードはまだ残ってますが、今日の出題上限に達しました。\n"
+#~ "適正な記憶力に見合った、一日の制限値まで引き上げることを検討してください。"
 
 #~ msgid "Total Time"
 #~ msgstr "合計時間"
