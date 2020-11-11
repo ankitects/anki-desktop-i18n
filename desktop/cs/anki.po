@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: anki\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-21 12:06+1000\n"
+"POT-Creation-Date: 2020-11-11 19:48+1000\n"
 "PO-Revision-Date: 2020-11-04 08:14+0000\n"
 "Last-Translator: pavreh <pavel-rehak@email.cz>\n"
 "Language-Team: Czech\n"
@@ -17,11 +17,11 @@ msgstr ""
 "X-Crowdin-Project: anki\n"
 "X-Generator: Pontoon\n"
 
-#: qt/aqt/importing.py:411
+#: qt/aqt/importing.py:403
 msgid "    Invalid file. Please restore from backup."
 msgstr "Vadný soubor. Prosím obnovte ze zálohy."
 
-#: qt/aqt/importing.py:420
+#: qt/aqt/importing.py:412
 msgid "    Unable to import from a read-only file."
 msgstr "Nelze importovat ze souboru s právy jen pro čtení."
 
@@ -29,11 +29,11 @@ msgstr "Nelze importovat ze souboru s právy jen pro čtení."
 msgid " (disabled)"
 msgstr " (zakázáno)"
 
-#: qt/aqt/clayout.py:692
+#: qt/aqt/clayout.py:694
 msgid " (off)"
 msgstr " (zakázáno)"
 
-#: qt/aqt/clayout.py:690
+#: qt/aqt/clayout.py:692
 msgid " (on)"
 msgstr " (povoleno)"
 
@@ -46,11 +46,16 @@ msgstr[1] " Má %d karty."
 msgstr[2] " Má %d karet."
 
 #. T: include a font for your language on Windows, eg: "Segoe UI", "MS Mincho"
-#: qt/aqt/webview.py:368
+#: qt/aqt/webview.py:379
 msgid "\"Segoe UI\""
 msgstr "„Segoe UI“"
 
-#: qt/aqt/forms/dconf.py:341 qt/aqt/forms/dconf.py:352 qt/aqt/forms/dconf.py:357 qt/aqt/forms/dconf.py:360 qt/aqt/forms/dconf.py:371 qt/aqt/forms/preferences.py:287
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:343
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:354
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:359
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:362
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:373
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:288
 msgid "%"
 msgstr "%"
 
@@ -65,7 +70,7 @@ msgstr "%(a)0.1f %(b)s/den"
 
 #. T: name is a card type name. n it's order in the list of card type.
 #. T: this is shown in browser's filter, when seeing the list of card type of a note type.
-#: qt/aqt/browser.py:1355
+#: qt/aqt/browser.py:1356
 #, python-format
 msgid "%(n)d: %(name)s"
 msgstr "%(n)d: %(name)s"
@@ -75,7 +80,7 @@ msgstr "%(n)d: %(name)s"
 msgid "%(tot)s %(unit)s"
 msgstr "%(tot)s %(unit)s"
 
-#: pylib/anki/stats.py:260 pylib/anki/stats.py:318 qt/aqt/clayout.py:558
+#: pylib/anki/stats.py:260 pylib/anki/stats.py:318 qt/aqt/clayout.py:560
 #, python-format
 msgid "%d card"
 msgid_plural "%d cards"
@@ -99,7 +104,7 @@ msgstr[0] "importována %d karta."
 msgstr[1] "impotováno %d karet."
 msgstr[2] "importováno %d karet."
 
-#: qt/aqt/reviewer.py:88
+#: qt/aqt/reviewer.py:90
 #, python-format
 msgid "%d card studied in"
 msgid_plural "%d cards studied in"
@@ -115,7 +120,7 @@ msgstr[0] "%d balík aktualizován."
 msgstr[1] "%d balíky aktualizovány."
 msgstr[2] "%d balíků aktualizováno."
 
-#: qt/aqt/browser.py:1987
+#: qt/aqt/browser.py:1994
 #, python-format
 msgid "%d group"
 msgid_plural "%d groups"
@@ -123,7 +128,8 @@ msgstr[0] "%d skupina"
 msgstr[1] "%d skupiny"
 msgstr[2] "%d skupiny"
 
-#: qt/aqt/browser.py:1988 qt/aqt/browser.py:1996 qt/aqt/fields.py:123 qt/aqt/models.py:107
+#: qt/aqt/browser.py:1995 qt/aqt/browser.py:2003 qt/aqt/fields.py:125
+#: qt/aqt/models.py:111
 #, python-format
 msgid "%d note"
 msgid_plural "%d notes"
@@ -139,7 +145,7 @@ msgstr[0] "%d poznámka přidána"
 msgstr[1] "%d poznámky přidány"
 msgstr[2] "%d poznámek přidáno"
 
-#: qt/aqt/browser.py:1570
+#: qt/aqt/browser.py:1573
 #, python-format
 msgid "%d note deleted."
 msgid_plural "%d notes deleted."
@@ -155,7 +161,7 @@ msgstr[0] "%d poznámka exportována."
 msgstr[1] "%d poznámky exportovány."
 msgstr[2] "%d poznámek exportováno."
 
-#: pylib/anki/importing/mnemo.py:104
+#: pylib/anki/importing/mnemo.py:105
 #, python-format
 msgid "%d note imported."
 msgid_plural "%d notes imported."
@@ -179,7 +185,7 @@ msgstr[0] "%d poznámka aktualizována"
 msgstr[1] "%d poznámky aktualizovány"
 msgstr[2] "%d poznámek aktualizováno"
 
-#: qt/aqt/browser.py:823
+#: qt/aqt/browser.py:832
 #, python-format
 msgid "%d selected"
 msgid_plural "%d selected"
@@ -192,7 +198,7 @@ msgstr[2] "%d vybráno"
 msgid "%s copy"
 msgstr "%s kopie"
 
-#: qt/aqt/reviewer.py:92
+#: qt/aqt/reviewer.py:94
 #, python-format
 msgid "%s minute."
 msgid_plural "%s minutes."
@@ -200,7 +206,7 @@ msgstr[0] "%s minuta."
 msgstr[1] "%s minuty."
 msgstr[2] "%s minut."
 
-#: qt/aqt/main.py:1220
+#: qt/aqt/main.py:1222
 #, python-format
 msgid "%s second"
 msgid_plural "%s seconds"
@@ -208,107 +214,111 @@ msgstr[0] "%s sekunda"
 msgstr[1] "%s sekundy"
 msgstr[2] "%s sekund"
 
-#: qt/aqt/forms/main.py:140
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:141
 msgid "&About..."
 msgstr "&O Anki..."
 
-#: qt/aqt/forms/main.py:146
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:147
 msgid "&Browse and Install..."
 msgstr "Prohlížet a instalovat..."
 
-#: qt/aqt/forms/browser.py:301
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:303
 msgid "&Cards"
 msgstr "&Karty"
 
-#: qt/aqt/forms/main.py:147
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:148
 msgid "&Check Database"
 msgstr "&Zkontrolovat databázi"
 
-#: qt/aqt/forms/browser.py:316
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:318
 msgid "&Cram..."
 msgstr "&Biflovat..."
 
-#: qt/aqt/forms/browser.py:298 qt/aqt/forms/main.py:134
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:300
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:135
 msgid "&Edit"
 msgstr "&Upravit"
 
-#: qt/aqt/forms/browser.py:341
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:343
 msgid "&Export Notes..."
 msgstr "&Exportovat poznámky..."
 
-#: qt/aqt/forms/main.py:150
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:151
 msgid "&Export..."
 msgstr "&Exportovat..."
 
-#: qt/aqt/forms/main.py:135
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:136
 msgid "&File"
 msgstr "&Soubor"
 
-#: qt/aqt/forms/browser.py:308
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:310
 msgid "&Find"
 msgstr "&Najít"
 
-#: qt/aqt/forms/browser.py:299
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:301
 msgid "&Go"
 msgstr "&Jdi na"
 
-#: qt/aqt/forms/browser.py:312 qt/aqt/forms/main.py:148
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:314
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:149
 msgid "&Guide..."
 msgstr "&Příručka..."
 
-#: qt/aqt/forms/browser.py:300 qt/aqt/forms/main.py:133
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:302
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:134
 msgid "&Help"
 msgstr "&Nápověda"
 
-#: qt/aqt/forms/main.py:151
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:152
 msgid "&Import..."
 msgstr "&Importovat..."
 
-#: qt/aqt/forms/browser.py:326
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:328
 msgid "&Info..."
 msgstr "&Info..."
 
-#: qt/aqt/forms/browser.py:307
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:309
 msgid "&Invert Selection"
 msgstr "&Invertovat výběr"
 
-#: qt/aqt/forms/browser.py:310
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:312
 msgid "&Next Card"
 msgstr "&Následující karta"
 
-#: qt/aqt/forms/browser.py:303
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:305
 msgid "&Notes"
 msgstr "Poz&námky"
 
-#: qt/aqt/forms/main.py:144
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:145
 msgid "&Open Add-ons Folder..."
 msgstr "&Otevřít složku s doplňky..."
 
-#: qt/aqt/forms/main.py:138
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:139
 msgid "&Preferences..."
 msgstr "&Předvolby..."
 
-#: qt/aqt/forms/browser.py:311
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:313
 msgid "&Previous Card"
 msgstr "&Předchozí karta"
 
-#: qt/aqt/forms/browser.py:304
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:306
 msgid "&Reschedule..."
 msgstr "&Přeplánovat..."
 
-#: qt/aqt/forms/main.py:145
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:146
 msgid "&Support Anki..."
 msgstr "Podpořte &Anki..."
 
-#: qt/aqt/forms/main.py:149
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:150
 msgid "&Switch Profile"
 msgstr "&Přepnout profil"
 
-#: qt/aqt/forms/main.py:136
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:137
 msgid "&Tools"
 msgstr "Nás&troje"
 
-#: qt/aqt/forms/browser.py:306 qt/aqt/forms/main.py:141
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:308
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:142
 msgid "&Undo"
 msgstr "&Zpět"
 
@@ -322,7 +332,7 @@ msgstr "'%(row)s' mělo %(num1)d polí, namísto očekávaných %(num2)d"
 msgid "(%s correct)"
 msgstr "(%s správně)"
 
-#: qt/aqt/addcards.py:149
+#: qt/aqt/addcards.py:154
 msgid "(Note deleted)"
 msgstr "(Poznámka smazána)"
 
@@ -334,15 +344,15 @@ msgstr "(zakázáno)"
 msgid "(end)"
 msgstr "(konec)"
 
-#: qt/aqt/browser.py:367
+#: qt/aqt/browser.py:369
 msgid "(filtered)"
 msgstr "(filtrováno)"
 
-#: qt/aqt/browser.py:334
+#: qt/aqt/browser.py:336
 msgid "(learning)"
 msgstr "(učí se)"
 
-#: qt/aqt/browser.py:332 qt/aqt/browser.py:338
+#: qt/aqt/browser.py:334 qt/aqt/browser.py:340
 msgid "(new)"
 msgstr "(nové)"
 
@@ -360,19 +370,21 @@ msgstr "(prosím vyberte 1 kartu)"
 msgid "(requires %s)"
 msgstr "(vyžaduje %s)"
 
-#: qt/aqt/importing.py:329
+#: qt/aqt/importing.py:321
 msgid ".anki files are from a very old version of Anki. You can import them with Anki 2.0, available on the Anki website."
 msgstr ".anki soubory pocházejí z velmi staré verze Anki. Můžete je importovat pomocí Anki 2.0, který je dostupný na webových stránkách Anki."
 
-#: qt/aqt/importing.py:336
+#: qt/aqt/importing.py:328
 msgid ".anki2 files are not directly importable - please import the .apkg or .zip file you have received instead."
 msgstr ".anki2 soubory nelze importovat přímo - prosím importujte místo toho .apkg nebo .zip soubor, který máte."
 
-#: pylib/anki/stats.py:949 qt/aqt/forms/stats.py:82
+#: pylib/anki/stats.py:949
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/stats.py:83
 msgid "1 month"
 msgstr "1 měsíc"
 
-#: pylib/anki/stats.py:949 qt/aqt/forms/stats.py:83
+#: pylib/anki/stats.py:949
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/stats.py:84
 msgid "1 year"
 msgstr "1 rok"
 
@@ -411,44 +423,36 @@ msgstr "<a href='%s'>Navštivte web</a>"
 msgid "<b>%(pct)d%%</b> (%(x)s of %(y)s)"
 msgstr "<b>%(pct)d%%</b> (%(x)s z %(y)s)"
 
-#: qt/aqt/forms/preferences.py:306
-msgid "<b>Backups</b><br>Anki will create a backup of your collection each time it is closed or synchronized."
-msgstr "<b>Zálohy</b><br>Anki vytvoří zálohu kolekce pokaždé, když se zavře nebo synchronizuje."
-
-#: qt/aqt/forms/exporting.py:75
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/exporting.py:77
 msgid "<b>Export format</b>:"
 msgstr "<b>Formát pro Export</b>:"
 
-#: qt/aqt/forms/findreplace.py:87
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/findreplace.py:88
 msgid "<b>Find</b>:"
 msgstr "<b>Najít</b>:"
 
-#: qt/aqt/forms/browseropts.py:71
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browseropts.py:73
 msgid "<b>Font Size</b>:"
 msgstr "<b>Velikost písma</b>:"
 
-#: qt/aqt/forms/browseropts.py:70
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browseropts.py:72
 msgid "<b>Font</b>:"
 msgstr "<b>Písmo</b>:"
 
 #: qt/aqt/addons.py:1410
 #, python-format
-msgid ""
-"<b>Important</b>: As add-ons are programs downloaded from the internet, they are potentially malicious.<b>You should only install add-ons you trust.</b><br><br>Are you sure you want to proceed with "
-"the installation of the following Anki add-on(s)?<br><br>%(names)s"
-msgstr ""
-"<b>Důležité</b>: Protože doplňky jsou programy stažené z internetu, jsou potencionálně nebezpečné. <b>Měli byste pouze instalovat doplňky, kterým věříte.</b><br><br>Jste si jistí, že chcete "
-"pokračovat v instalaci následujícího Anki doplňku (doplňků)?<br><br>%(names)s"
+msgid "<b>Important</b>: As add-ons are programs downloaded from the internet, they are potentially malicious.<b>You should only install add-ons you trust.</b><br><br>Are you sure you want to proceed with the installation of the following Anki add-on(s)?<br><br>%(names)s"
+msgstr "<b>Důležité</b>: Protože doplňky jsou programy stažené z internetu, jsou potencionálně nebezpečné. <b>Měli byste pouze instalovat doplňky, kterým věříte.</b><br><br>Jste si jistí, že chcete pokračovat v instalaci následujícího Anki doplňku (doplňků)?<br><br>%(names)s"
 
-#: qt/aqt/forms/findreplace.py:89
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/findreplace.py:90
 msgid "<b>In</b>:"
 msgstr "<b>V</b>:"
 
-#: qt/aqt/forms/exporting.py:76
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/exporting.py:78
 msgid "<b>Include</b>:"
 msgstr "<b>Zahrnout</b>:"
 
-#: qt/aqt/forms/browseropts.py:72
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browseropts.py:74
 msgid "<b>Line Size</b>:"
 msgstr "<b>Velikost řádku</b>:"
 
@@ -456,11 +460,11 @@ msgstr "<b>Velikost řádku</b>:"
 msgid "<b>Please restart Anki to complete the installation.</b>"
 msgstr "<b>Prosím restartujte Anki, abyste dokončili instalaci.</b>"
 
-#: qt/aqt/forms/findreplace.py:88
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/findreplace.py:89
 msgid "<b>Replace With</b>:"
 msgstr "<b>Nahradit</b>:"
 
-#: qt/aqt/forms/preferences.py:300
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:301
 msgid "<b>Synchronisation</b>"
 msgstr "<b>Synchronizace</b>"
 
@@ -477,19 +481,24 @@ msgstr ""
 msgid "<h1>Anki Updated</h1>Anki %s has been released.<br><br>"
 msgstr "<h1>Anki aktualizováno</h1>Byla vydána Anki verze %s.<br><br>"
 
-#: qt/aqt/importing.py:266
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:307
+#, fuzzy
+msgid "<html><head/><body><p><span style=\" font-weight:600;\">Backups</span><br/>Anki will create a backup of your collection each time it is closed.</p></body></html>"
+msgstr "<b>Zálohy</b><br>Anki vytvoří zálohu kolekce pokaždé, když se zavře nebo synchronizuje."
+
+#: qt/aqt/importing.py:258
 msgid "<ignored>"
 msgstr "<ignorováno>"
 
-#: qt/aqt/main.py:1534
+#: qt/aqt/main.py:1537
 msgid "<non-unicode text>"
 msgstr "<text, který není v unicode>"
 
-#: qt/aqt/browser.py:758
+#: qt/aqt/browser.py:765
 msgid "<type here to search; hit enter to show current deck>"
 msgstr "<zadejte text k vyhledání; stiskněte klávesu Enter pro zobrazení aktuálního balíku>"
 
-#: qt/aqt/about.py:224
+#: qt/aqt/about.py:225
 msgid "A big thanks to all the people who have provided suggestions, bug reports and donations."
 msgstr "Velký dík všem lidem, kteří dodávali nápady, hlásili chyby a darovali finanční prostředky."
 
@@ -502,28 +511,32 @@ msgstr "<i>Snadnost</i> karty je délka příštího intervalu, pokud při zkou�
 msgid "Aborted: %s"
 msgstr "Zrušeno: %s"
 
-#: qt/aqt/forms/about.py:43
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/about.py:45
 msgid "About Anki"
 msgstr "O Anki"
 
-#: qt/aqt/addcards.py:38 qt/aqt/addcards.py:68 qt/aqt/deckconf.py:89 qt/aqt/models.py:54 qt/aqt/studydeck.py:46 qt/aqt/toolbar.py:112 qt/aqt/forms/addcards.py:58 qt/aqt/forms/fields.py:102
-#: qt/aqt/forms/profiles.py:81
+#: qt/aqt/addcards.py:38 qt/aqt/addcards.py:70 qt/aqt/deckconf.py:89
+#: qt/aqt/models.py:57 qt/aqt/studydeck.py:46 qt/aqt/toolbar.py:112
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addcards.py:60
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:103
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/profiles.py:82
 msgid "Add"
 msgstr "Přidat"
 
-#: qt/aqt/addcards.py:71
+#: qt/aqt/addcards.py:73
 msgid "Add (shortcut: ctrl+enter)"
 msgstr "Přidat (zkratka: ctrl+enter)"
 
-#: qt/aqt/clayout.py:674
+#: qt/aqt/clayout.py:676
 msgid "Add Card Type..."
 msgstr "Přidat typ karty..."
 
-#: qt/aqt/clayout.py:389 qt/aqt/forms/addfield.py:61
+#: qt/aqt/clayout.py:389
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addfield.py:62
 msgid "Add Field"
 msgstr "Přidat pole"
 
-#: qt/aqt/editor.py:709
+#: qt/aqt/editor.py:718
 msgid "Add Media"
 msgstr "Přidat média"
 
@@ -531,23 +544,23 @@ msgstr "Přidat média"
 msgid "Add New Deck (Ctrl+N)"
 msgstr "Přidat nový balík (Ctrl+N)"
 
-#: qt/aqt/forms/addmodel.py:44
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addmodel.py:46
 msgid "Add Note Type"
 msgstr "Přidat typ poznámky"
 
-#: qt/aqt/forms/browser.py:331
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:333
 msgid "Add Notes..."
 msgstr "Přidat poznámky..."
 
-#: qt/aqt/browser.py:1626
+#: qt/aqt/browser.py:1629
 msgid "Add Tags"
 msgstr "Přidat štítky"
 
-#: qt/aqt/forms/browser.py:327
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:329
 msgid "Add Tags..."
 msgstr "Přidat štítky..."
 
-#: qt/aqt/browser.py:170
+#: qt/aqt/browser.py:172
 msgid "Add-on"
 msgstr "Doplněk"
 
@@ -563,24 +576,25 @@ msgstr "Chyba instalace doplňku"
 msgid "Add-on was not downloaded from AnkiWeb."
 msgstr "Doplněk nebyl stažen z AnkiWebu."
 
-#: qt/aqt/main.py:1597
+#: qt/aqt/main.py:1600
 msgid "Add-on will be installed when a profile is opened."
 msgstr "Doplněk se nainstaluje při otevření profilu."
 
-#: qt/aqt/forms/main.py:156
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:157
 msgid "Add-ons"
 msgstr "Doplňky"
 
-#: qt/aqt/models.py:208
+#: qt/aqt/models.py:212
 #, python-format
 msgid "Add: %s"
 msgstr "Přidat: %s"
 
-#: pylib/anki/stats.py:309 pylib/anki/importing/anki2.py:166 qt/aqt/addcards.py:193
+#: pylib/anki/importing/anki2.py:163 pylib/anki/stats.py:309
+#: qt/aqt/addcards.py:202
 msgid "Added"
 msgstr "Přidáno"
 
-#: qt/aqt/browser.py:1265
+#: qt/aqt/browser.py:1263
 msgid "Added Today"
 msgstr "Dnes přidáno"
 
@@ -593,7 +607,7 @@ msgstr "Přidána duplicita s prvním polem: %s"
 msgid "Again"
 msgstr "Znovu"
 
-#: qt/aqt/browser.py:1267
+#: qt/aqt/browser.py:1265
 msgid "Again Today"
 msgstr "Dnes znovu"
 
@@ -606,7 +620,7 @@ msgstr "Počet Znovu: %s"
 msgid "All Buried Cards"
 msgstr "Všechny přeskočené karty"
 
-#: qt/aqt/browser.py:1348
+#: qt/aqt/browser.py:1349
 msgid "All Card Types"
 msgstr "Všechny typy karet"
 
@@ -614,36 +628,38 @@ msgstr "Všechny typy karet"
 msgid "All Decks"
 msgstr "Všechny balíky"
 
-#: qt/aqt/browser.py:1877
+#: qt/aqt/browser.py:1884
 msgid "All Fields"
 msgstr "Všechna pole"
 
-#: qt/aqt/forms/customstudy.py:118
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:119
 msgid "All cards in random order (don't reschedule)"
 msgstr "Všechny kartičky v náhodném pořadí (nepřehazovat)"
 
-#: qt/aqt/main.py:322
+#: qt/aqt/main.py:324
 msgid "All cards, notes, and media for this profile will be deleted. Are you sure?"
 msgstr "Všechny karty, poznámky a média tohoto profilu budou smazány. Jste si jistý?"
 
-#: qt/aqt/forms/customstudy.py:116
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:117
 msgid "All review cards in random order"
 msgstr "Všechny kartičky na opakování v náhodném pořadí"
 
-#: qt/aqt/forms/importing.py:110
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:112
 msgid "Allow HTML in fields"
 msgstr "Povolit  HTML v polích"
 
-#: qt/aqt/forms/dconf.py:377
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:379
 msgid "Always include question side when replaying audio"
 msgstr "Vždy zahrnout stranu s otázkou při přehrávání zvuku"
 
-#: qt/aqt/editor.py:847
+#: qt/aqt/editor.py:856
 #, python-format
 msgid "An error occurred while opening %s"
 msgstr "Při otvírání %s došlo k chybě"
 
-#: qt/aqt/forms/main.py:132 qt/aqt/forms/setgroup.py:38 qt/aqt/forms/setlang.py:39
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:133
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/setgroup.py:40
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/setlang.py:41
 msgid "Anki"
 msgstr "Anki"
 
@@ -651,11 +667,11 @@ msgstr "Anki"
 msgid "Anki 2.0 Deck"
 msgstr "Anki 2.0 balík"
 
-#: qt/aqt/forms/preferences.py:292
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:293
 msgid "Anki 2.1 scheduler (beta)"
 msgstr "Anki 2.1 plánovač (beta)"
 
-#: pylib/anki/exporting.py:397
+#: pylib/anki/exporting.py:398
 msgid "Anki Collection Package"
 msgstr "Balík Anki kolekce"
 
@@ -668,14 +684,10 @@ msgid "Anki could not read your profile data. Window sizes and your sync login d
 msgstr "Anki nemohl přečíst vaše profilová data. Velikosti oken a vaše přihlašovací informace k synchronizaci byly zapomenuty."
 
 #: qt/aqt/profiles.py:326
-msgid ""
-"Anki could not rename your profile because it could not rename the profile folder on disk. Please ensure you have permission to write to Documents/Anki and no other programs are accessing your "
-"profile folders, then try again."
-msgstr ""
-"Anki nemohl přejmenovat Váš profil, protože nešlo přejmenovat složku profilu na disku. Oveřte si, zda máte právo pro zápis do složky Dokumenty/Anki a žádný jiný program právě nepoužívá složku Vašeho"
-" profilu a zkuste to znova."
+msgid "Anki could not rename your profile because it could not rename the profile folder on disk. Please ensure you have permission to write to Documents/Anki and no other programs are accessing your profile folders, then try again."
+msgstr "Anki nemohl přejmenovat Váš profil, protože nešlo přejmenovat složku profilu na disku. Oveřte si, zda máte právo pro zápis do složky Dokumenty/Anki a žádný jiný program právě nepoužívá složku Vašeho profilu a zkuste to znova."
 
-#: qt/aqt/clayout.py:659
+#: qt/aqt/clayout.py:661
 msgid "Anki couldn't find the line between the question and answer. Please adjust the template manually to switch the question and answer."
 msgstr "Anki nebyl schopen načíst váš starý konfigurační soubor. Upravte šablonu ručně pro přepínání otázky a odpovědi."
 
@@ -687,7 +699,7 @@ msgstr "Anki je přátelský, inteligentní systém pro opakování s prodlevami
 msgid "Anki is licensed under the AGPL3 license. Please see the license file in the source distribution for more information."
 msgstr "Anki je licencováno pod licencí AGPL3. Více informací o licenci naleznete v distribuci zdrojového kódu."
 
-#: qt/aqt/browser.py:734
+#: qt/aqt/browser.py:741
 msgid "Answer"
 msgstr "Odpověď"
 
@@ -699,11 +711,11 @@ msgstr "Tlačítka odpovědí"
 msgid "Answers"
 msgstr "Odpovědi"
 
-#: qt/aqt/browser.py:1291
+#: qt/aqt/browser.py:1289
 msgid "Any Flag"
 msgstr "Kterýkoli příznak"
 
-#: qt/aqt/browser.py:2253
+#: qt/aqt/browser.py:2263
 msgid "Any cards mapped to nothing will be deleted. If a note has no remaining cards, it will be lost. Are you sure you want to continue?"
 msgstr "Karty mapované na prázný cíl budou smazány. Nezbývají-li už v poznámce žádné karty, bude poznámka ztracena. Opravdu chcete pokračovat?"
 
@@ -717,7 +729,7 @@ msgstr "Duplicitní kartičky: %s"
 msgid "Are you sure you wish to delete %s?"
 msgstr "Jste si jist, že chcete vymazat %s?"
 
-#: qt/aqt/clayout.py:549
+#: qt/aqt/clayout.py:551
 msgid "At least one card type is required."
 msgstr "Je potřeba alespoň jeden typ karet."
 
@@ -725,7 +737,7 @@ msgstr "Je potřeba alespoň jeden typ karet."
 msgid "At least one step is required."
 msgstr "Je vyžadován alespoň jeden krok."
 
-#: qt/aqt/editor.py:173
+#: qt/aqt/editor.py:176
 msgid "Attach pictures/audio/video (F3)"
 msgstr "Připojit obrázky/zvuk/video (F3)"
 
@@ -737,15 +749,15 @@ msgstr "Zvuk +5 s"
 msgid "Audio -5s"
 msgstr "Zvuk -5 s"
 
-#: qt/aqt/main.py:372
+#: qt/aqt/main.py:374
 msgid "Automatic syncing and backups have been disabled while restoring. To enable them again, close the profile or restart Anki."
 msgstr "Automatická synchronizace a zálohování byly zrušeny během procesu obnovení. Pro obnovení těchto nastavení zavřete profil, nebo restartujte Anki."
 
-#: qt/aqt/forms/dconf.py:376
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:378
 msgid "Automatically play audio"
 msgstr "Automaticky přehrát zvuk"
 
-#: qt/aqt/forms/preferences.py:302
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:303
 msgid "Automatically sync on profile open/close"
 msgstr "Automaticky synchronizovat při otevření a zavření profilu"
 
@@ -773,23 +785,24 @@ msgstr "Průměrný interval"
 msgid "Back Side Only"
 msgstr ""
 
-#: qt/aqt/main.py:556
+#: qt/aqt/main.py:558
 msgid "Backing Up..."
 msgstr "Zálohuje se..."
 
-#: qt/aqt/forms/preferences.py:312
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:313
 msgid "Backups"
 msgstr "Zálohy"
 
-#: qt/aqt/forms/preferences.py:288
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:289
 msgid "Basic"
 msgstr "Základní"
 
-#: qt/aqt/browser.py:1289 qt/aqt/reviewer.py:719 qt/aqt/forms/browser.py:336
+#: qt/aqt/browser.py:1287 qt/aqt/reviewer.py:719
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:338
 msgid "Blue Flag"
 msgstr "Modrý příznak"
 
-#: qt/aqt/editor.py:122
+#: qt/aqt/editor.py:143
 msgid "Bold text (Ctrl+B)"
 msgstr "Tučný text (Ctrl+B)"
 
@@ -797,7 +810,7 @@ msgstr "Tučný text (Ctrl+B)"
 msgid "Browse"
 msgstr "Prohlížet"
 
-#: qt/aqt/browser.py:817
+#: qt/aqt/browser.py:826
 #, python-format
 msgid "Browse (%(cur)d card shown; %(sel)s)"
 msgid_plural "Browse (%(cur)d cards shown; %(sel)s)"
@@ -809,15 +822,15 @@ msgstr[2] "Prohlížet (%(cur)d karet zobrazeno; %(sel)s)"
 msgid "Browse Add-ons"
 msgstr "Procházet doplňky"
 
-#: qt/aqt/forms/browserdisp.py:69
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browserdisp.py:71
 msgid "Browser Appearance"
 msgstr "Zobrazení v prohlížeči"
 
-#: qt/aqt/clayout.py:696
+#: qt/aqt/clayout.py:698
 msgid "Browser Appearance..."
 msgstr "Zobrazení v prohlížeči..."
 
-#: qt/aqt/forms/browseropts.py:69
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browseropts.py:71
 msgid "Browser Options"
 msgstr "Možnosti prohlížeče"
 
@@ -825,7 +838,7 @@ msgstr "Možnosti prohlížeče"
 msgid "Build"
 msgstr "Sestavit"
 
-#: qt/aqt/browser.py:1284
+#: qt/aqt/browser.py:1282
 msgid "Buried"
 msgstr "Přeskočené"
 
@@ -845,15 +858,15 @@ msgstr "Přeskočit kartu"
 msgid "Bury Note"
 msgstr "Přeskočit poznámku"
 
-#: qt/aqt/forms/dconf.py:347
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:349
 msgid "Bury related new cards until the next day"
 msgstr "Přeskočit příbuzné nové karty do příštího dne"
 
-#: qt/aqt/forms/dconf.py:358
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:360
 msgid "Bury related reviews until the next day"
 msgstr "Přeskočit příbuzná opakování do příštího dne"
 
-#: qt/aqt/importing.py:130
+#: qt/aqt/importing.py:123
 msgid ""
 "By default, Anki will detect the character between fields, such as\n"
 "a tab, comma, and so on. If Anki is detecting the character incorrectly,\n"
@@ -863,24 +876,24 @@ msgstr ""
 "jako je tabulátor či čárka. Pokud ho Anki detekuje špatně,\n"
 "můžete ho vložit sem. \\t představuje tabulátor."
 
-#: qt/aqt/clayout.py:405 qt/aqt/overview.py:134 qt/aqt/sound.py:557
+#: qt/aqt/clayout.py:405 qt/aqt/overview.py:134 qt/aqt/sound.py:602
 msgid "Cancel"
 msgstr "Zrušit"
 
-#: qt/aqt/browser.py:735
+#: qt/aqt/browser.py:742
 msgid "Card"
 msgstr "Karta"
 
-#: qt/aqt/clayout.py:620
+#: qt/aqt/clayout.py:622
 #, python-format
 msgid "Card %d"
 msgstr "Karta %d"
 
-#: qt/aqt/forms/browser.py:318
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:320
 msgid "Card List"
 msgstr "Seznam karet"
 
-#: qt/aqt/browser.py:1274
+#: qt/aqt/browser.py:1272
 msgid "Card State"
 msgstr "Stav karty"
 
@@ -905,11 +918,12 @@ msgstr "Karta odložena."
 msgid "Card was a leech."
 msgstr "Karta zařazena mezi pijavice."
 
-#: pylib/anki/stats.py:310 pylib/anki/stats.py:962 qt/aqt/editor.py:192 qt/aqt/forms/changemodel.py:112
+#: pylib/anki/stats.py:310 pylib/anki/stats.py:962 qt/aqt/editor.py:134
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/changemodel.py:114
 msgid "Cards"
 msgstr "Karty"
 
-#: qt/aqt/browser.py:1600
+#: qt/aqt/browser.py:1603
 msgid "Cards can't be manually moved into a filtered deck."
 msgstr "Karty nemůžou být ručně převedeny do filtrovaného balíku."
 
@@ -921,7 +935,7 @@ msgstr "Karty jako prostý text"
 msgid "Cards will be automatically returned to their original decks after you review them."
 msgstr "Po zopakování budou karty automaticky vráceny do jejich originálního balíku."
 
-#: qt/aqt/models.py:63
+#: qt/aqt/models.py:66
 msgid "Cards..."
 msgstr "Karty..."
 
@@ -929,44 +943,45 @@ msgstr "Karty..."
 msgid "Center"
 msgstr "Na střed"
 
-#: qt/aqt/importing.py:268
+#: qt/aqt/importing.py:260
 msgid "Change"
 msgstr "Změnit"
 
-#: qt/aqt/browser.py:2173
+#: qt/aqt/browser.py:2183
 #, python-format
 msgid "Change %s to:"
 msgstr "Změnit %s na:"
 
-#: qt/aqt/browser.py:1591 qt/aqt/browser.py:1603
+#: qt/aqt/browser.py:1594 qt/aqt/browser.py:1606
 msgid "Change Deck"
 msgstr "Změnit balík"
 
-#: qt/aqt/forms/browser.py:332
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:334
 msgid "Change Deck..."
 msgstr "Změnit balík..."
 
-#: qt/aqt/browser.py:2260 qt/aqt/forms/changemodel.py:109
+#: qt/aqt/browser.py:2270
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/changemodel.py:111
 msgid "Change Note Type"
 msgstr "Změň typ poznámky"
 
-#: qt/aqt/modelchooser.py:31
+#: qt/aqt/modelchooser.py:44
 msgid "Change Note Type (Ctrl+N)"
 msgstr "Změň typ poznámky (Ctrl+N)"
 
-#: qt/aqt/forms/browser.py:313
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:315
 msgid "Change Note Type..."
 msgstr "Změnit typ poznámky..."
 
-#: qt/aqt/editor.py:153
+#: qt/aqt/editor.py:168
 msgid "Change colour (F8)"
 msgstr "Změnit barvu (F8)"
 
-#: qt/aqt/forms/preferences.py:285
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:286
 msgid "Change deck depending on note type"
 msgstr "Změnit balík v závislosti na typu poznámky"
 
-#: qt/aqt/forms/addons.py:69
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:70
 msgid "Changes will take effect when Anki is restarted."
 msgstr "Změny se projeví po restartování Anki."
 
@@ -974,15 +989,15 @@ msgstr "Změny se projeví po restartování Anki."
 msgid "Changes will take effect when you restart Anki."
 msgstr "Změny se projeví až po restartování Anki."
 
-#: qt/aqt/forms/main.py:142
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:143
 msgid "Check &Media..."
 msgstr "Zkontrolovat &média..."
 
-#: qt/aqt/forms/addons.py:72
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:73
 msgid "Check for Updates"
 msgstr "Zkontrolovat aktualizace"
 
-#: qt/aqt/forms/main.py:143
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:144
 msgid "Check the files in the media directory"
 msgstr "Zkontrolovat soubory v adresáři médií"
 
@@ -990,7 +1005,7 @@ msgstr "Zkontrolovat soubory v adresáři médií"
 msgid "Checking..."
 msgstr "Kontroluje se..."
 
-#: qt/aqt/deckchooser.py:87 qt/aqt/modelchooser.py:71
+#: qt/aqt/deckchooser.py:87 qt/aqt/modelchooser.py:84
 msgid "Choose"
 msgstr "Zvolit"
 
@@ -998,7 +1013,7 @@ msgstr "Zvolit"
 msgid "Choose Deck"
 msgstr "Vybrat Balík"
 
-#: qt/aqt/modelchooser.py:72
+#: qt/aqt/modelchooser.py:85
 msgid "Choose Note Type"
 msgstr "Vyber typ poznámky"
 
@@ -1006,28 +1021,29 @@ msgstr "Vyber typ poznámky"
 msgid "Choose Tags"
 msgstr "Vyber štítky"
 
-#: qt/aqt/browser.py:1300
+#: qt/aqt/browser.py:1301
 msgid "Clear Unused"
 msgstr "Vymazat nepoužívané"
 
-#: qt/aqt/forms/browser.py:338
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:340
 msgid "Clear Unused Tags"
 msgstr "Vymazat nepoužívané štítky"
 
-#: qt/aqt/models.py:213
+#: qt/aqt/models.py:217
 #, python-format
 msgid "Clone: %s"
 msgstr "Naklonovat: %s"
 
-#: qt/aqt/addcards.py:73 qt/aqt/forms/browser.py:325
+#: qt/aqt/addcards.py:75
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:327
 msgid "Close"
 msgstr "Zavřít"
 
-#: qt/aqt/addcards.py:223
+#: qt/aqt/addcards.py:232
 msgid "Close and lose current input?"
 msgstr "Zavřít a zrušit momentálně vkládaná data?"
 
-#: qt/aqt/main.py:554
+#: qt/aqt/main.py:556
 msgid "Closing..."
 msgstr "Zavírá se..."
 
@@ -1036,11 +1052,11 @@ msgstr "Zavírá se..."
 msgid "Cloze %d"
 msgstr "Doplňovačka %d"
 
-#: qt/aqt/editor.py:170
+#: qt/aqt/editor.py:174
 msgid "Cloze deletion (Ctrl+Shift+C)"
 msgstr "Doplňovačka (Ctrl+Shift+C)"
 
-#: qt/aqt/forms/getaddons.py:50
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/getaddons.py:52
 msgid "Code:"
 msgstr "Kód:"
 
@@ -1048,27 +1064,27 @@ msgstr "Kód:"
 msgid "Collection exported."
 msgstr "Kolekce exportována."
 
-#: qt/aqt/importing.py:174
+#: qt/aqt/importing.py:167
 msgid "Colon"
 msgstr "Dvojtečka"
 
-#: qt/aqt/importing.py:168
+#: qt/aqt/importing.py:161
 msgid "Comma"
 msgstr "Čárka"
 
-#: qt/aqt/forms/addons.py:74
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:75
 msgid "Config"
 msgstr "Nastavení"
 
-#: qt/aqt/forms/addonconf.py:72
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addonconf.py:73
 msgid "Configuration"
 msgstr "Nastavení"
 
-#: qt/aqt/forms/main.py:139
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:140
 msgid "Configure interface language and options"
 msgstr "Nastavit jazyk a volby prostředí"
 
-#: qt/aqt/reviewer.py:94
+#: qt/aqt/reviewer.py:96
 msgid "Continue"
 msgstr "Pokračovat"
 
@@ -1076,7 +1092,7 @@ msgstr "Pokračovat"
 msgid "Copied to clipboard"
 msgstr "Zkopírováno do schránky"
 
-#: qt/aqt/editor.py:1199 qt/aqt/webview.py:285
+#: qt/aqt/editor.py:1211 qt/aqt/webview.py:289
 msgid "Copy"
 msgstr "Kopírovat"
 
@@ -1084,7 +1100,7 @@ msgstr "Kopírovat"
 msgid "Copy Debug Info"
 msgstr "Zkopírovat ladicí informace"
 
-#: qt/aqt/utils.py:142
+#: qt/aqt/utils.py:148
 msgid "Copy to Clipboard"
 msgstr "Zkopírovat do schránky"
 
@@ -1102,7 +1118,7 @@ msgstr "Správně: <b>%(pct)0.2f%%</b><br>(%(good)d z %(tot)d)"
 msgid "Corrupt add-on file."
 msgstr "Poškozený doplňkový soubor."
 
-#: qt/aqt/editor.py:742
+#: qt/aqt/editor.py:751
 msgid "Couldn't record audio. Have you installed 'lame'?"
 msgstr "Zvuk nebylo možné nahrát. Máte nainstalovaný „lame“?"
 
@@ -1119,19 +1135,19 @@ msgstr "Biflovat"
 msgid "Create Deck"
 msgstr "Vytvořit balík"
 
-#: qt/aqt/forms/main.py:154
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:155
 msgid "Create Filtered Deck..."
 msgstr "Vytvořit filtrovaný balík..."
 
-#: qt/aqt/forms/modelopts.py:64
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/modelopts.py:66
 msgid "Create scalable images with dvisvgm"
 msgstr "Vytvářejte škálovatelné obrázky s dvisvgm."
 
-#: qt/aqt/browser.py:738
+#: qt/aqt/browser.py:745
 msgid "Created"
 msgstr "Vytvořeno"
 
-#: qt/aqt/forms/browser.py:342
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:344
 msgid "Ctrl+Shift+E"
 msgstr "Ctrl+Shift+E"
 
@@ -1152,15 +1168,16 @@ msgstr "Kumulativní odpovědi"
 msgid "Cumulative Cards"
 msgstr "Kumulativní karty"
 
-#: qt/aqt/browser.py:1125 qt/aqt/browser.py:1257
+#: qt/aqt/browser.py:1115 qt/aqt/browser.py:1255
 msgid "Current Deck"
 msgstr "Současný balík"
 
-#: qt/aqt/forms/changemodel.py:110
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/changemodel.py:112
 msgid "Current note type:"
 msgstr "Současný typ poznámky:"
 
-#: qt/aqt/overview.py:258 qt/aqt/forms/customstudy.py:102
+#: qt/aqt/overview.py:258
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:103
 msgid "Custom Study"
 msgstr "Vlastní studium"
 
@@ -1168,19 +1185,19 @@ msgstr "Vlastní studium"
 msgid "Custom Study Session"
 msgstr "Vlastní studijní sezení"
 
-#: qt/aqt/forms/dyndconf.py:147
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:149
 msgid "Custom steps (in minutes)"
 msgstr "Vlastní kroky (v minutách)"
 
-#: qt/aqt/editor.py:195
+#: qt/aqt/editor.py:133
 msgid "Customize Card Templates (Ctrl+L)"
 msgstr "Přizpůsobit šablony karet (Ctrl+L)"
 
-#: qt/aqt/editor.py:194
+#: qt/aqt/editor.py:125
 msgid "Customize Fields"
 msgstr "Přizpůsobit pole"
 
-#: qt/aqt/editor.py:1197
+#: qt/aqt/editor.py:1209
 msgid "Cut"
 msgstr "Vyjmout"
 
@@ -1188,19 +1205,20 @@ msgstr "Vyjmout"
 msgid "Days studied"
 msgstr "Studováno dní"
 
-#: qt/aqt/forms/debug.py:55
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/debug.py:56
 msgid "Debug Console"
 msgstr "Ladicí konzole"
 
-#: qt/aqt/browser.py:736 qt/aqt/deckbrowser.py:147 qt/aqt/deckchooser.py:29 qt/aqt/forms/importing.py:106
+#: qt/aqt/browser.py:743 qt/aqt/deckbrowser.py:147 qt/aqt/deckchooser.py:29
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:108
 msgid "Deck"
 msgstr "Balík"
 
-#: qt/aqt/clayout.py:693
+#: qt/aqt/clayout.py:695
 msgid "Deck Override..."
 msgstr "Přepsat balík..."
 
-#: qt/aqt/main.py:1599
+#: qt/aqt/main.py:1602
 msgid "Deck will be imported when a profile is opened."
 msgstr "Balík bude importován při otevření profilu."
 
@@ -1220,8 +1238,12 @@ msgstr "Výchozí"
 msgid "Delays until reviews are shown again."
 msgstr "Prodleva, než budou opakování znova ukázána."
 
-#: qt/aqt/deckbrowser.py:234 qt/aqt/deckconf.py:91 qt/aqt/models.py:56 qt/aqt/reviewer.py:812 qt/aqt/forms/addons.py:77 qt/aqt/forms/browser.py:330 qt/aqt/forms/fields.py:103
-#: qt/aqt/forms/profiles.py:83
+#: qt/aqt/deckbrowser.py:234 qt/aqt/deckconf.py:91 qt/aqt/models.py:59
+#: qt/aqt/reviewer.py:812
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:78
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:332
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:104
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/profiles.py:84
 msgid "Delete"
 msgstr "Smazat"
 
@@ -1233,15 +1255,15 @@ msgstr "Odstranit balík"
 msgid "Delete Note"
 msgstr "Odstranit poznámku"
 
-#: qt/aqt/browser.py:1544
+#: qt/aqt/browser.py:1547
 msgid "Delete Notes"
 msgstr "Odstranit poznámky"
 
-#: qt/aqt/browser.py:1636
+#: qt/aqt/browser.py:1639
 msgid "Delete Tags"
 msgstr "Smazat štítky"
 
-#: qt/aqt/fields.py:124
+#: qt/aqt/fields.py:126
 #, python-format
 msgid "Delete field from %s?"
 msgstr "Vymazat pole z %s?"
@@ -1254,16 +1276,16 @@ msgstr[0] "Smazat %(num)d vybraný doplněk?"
 msgstr[1] "Smazat %(num)d vybrané doplňky?"
 msgstr[2] "Smazat %(num)d vybraných doplňků?"
 
-#: qt/aqt/clayout.py:559
+#: qt/aqt/clayout.py:561
 #, python-format
 msgid "Delete the '%(a)s' card type, and its %(b)s?"
 msgstr "Vymazat typ karty '%(a)s' a jeho %(b)s?"
 
-#: qt/aqt/models.py:130
+#: qt/aqt/models.py:134
 msgid "Delete this note type and all its cards?"
 msgstr "Vymazat tento typ poznámky a všechny jeho karty?"
 
-#: qt/aqt/models.py:132
+#: qt/aqt/models.py:136
 msgid "Delete this unused note type?"
 msgstr "Vymazat tento  nepoužívaný typ poznámek?"
 
@@ -1271,15 +1293,18 @@ msgstr "Vymazat tento  nepoužívaný typ poznámek?"
 msgid "Deleting this deck from the deck list will return all remaining cards to their original deck."
 msgstr "Vymazáním tohoto balíku se všechny zbývající karty vrátí do jejich originálního balíku."
 
-#: qt/aqt/forms/dconf.py:380
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:382
 msgid "Description"
 msgstr "Popisek"
 
-#: qt/aqt/forms/dconf.py:379
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:381
 msgid "Description to show on overview screen, for current deck:"
 msgstr "Popisek, který se zobrazí na obrazovce přehledu; pro současný balík:"
 
-#: qt/aqt/forms/dyndconf.py:133 qt/aqt/forms/editaddon.py:40 qt/aqt/forms/editcurrent.py:41 qt/aqt/forms/progress.py:40
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:135
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/editaddon.py:42
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/editcurrent.py:43
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/progress.py:42
 msgid "Dialog"
 msgstr ""
 
@@ -1302,7 +1327,7 @@ msgstr "Stažen %(fname)s"
 msgid "Downloading %(a)d/%(b)d (%(kb)0.2fKB)..."
 msgstr "Stahování %(a)d/%(b)d (%(kb)0.2f KB)..."
 
-#: qt/aqt/forms/customstudy.py:114
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:115
 msgid "Due cards only"
 msgstr "Jen karty k opakování"
 
@@ -1310,11 +1335,11 @@ msgstr "Jen karty k opakování"
 msgid "Due tomorrow"
 msgstr "Zítra ke zkoušení"
 
-#: qt/aqt/forms/main.py:137
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:138
 msgid "E&xit"
 msgstr "U&končit"
 
-#: qt/aqt/browser.py:743
+#: qt/aqt/browser.py:750
 msgid "Ease"
 msgstr "Snadnost"
 
@@ -1322,19 +1347,19 @@ msgstr "Snadnost"
 msgid "Easy"
 msgstr "Jednoduché"
 
-#: qt/aqt/forms/dconf.py:351
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:353
 msgid "Easy bonus"
 msgstr "Bonus pro snadné"
 
-#: qt/aqt/forms/dconf.py:343
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:345
 msgid "Easy interval"
 msgstr "Snadný interval"
 
-#: qt/aqt/reviewer.py:569
+#: qt/aqt/reviewer.py:572
 msgid "Edit"
 msgstr "Upravit"
 
-#: qt/aqt/addcards.py:144
+#: qt/aqt/addcards.py:149
 #, python-format
 msgid "Edit \"%s\""
 msgstr "Upravit \"%s\""
@@ -1343,11 +1368,11 @@ msgstr "Upravit \"%s\""
 msgid "Edit Current"
 msgstr "Upravit tuto kartu"
 
-#: qt/aqt/editor.py:950
+#: qt/aqt/editor.py:959
 msgid "Edit HTML"
 msgstr "Upravit HTML"
 
-#: qt/aqt/forms/fields.py:106
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:107
 msgid "Editing Font"
 msgstr "Písmo"
 
@@ -1355,7 +1380,7 @@ msgstr "Písmo"
 msgid "Empty"
 msgstr "Vyprázdnit"
 
-#: qt/aqt/forms/main.py:153
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:154
 msgid "Empty Cards..."
 msgstr "Prázdné karty..."
 
@@ -1364,29 +1389,29 @@ msgstr "Prázdné karty..."
 msgid "Empty first field: %s"
 msgstr "Prázdné první pole: %s"
 
-#: qt/aqt/forms/dyndconf.py:144
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:146
 msgid "Enable second filter"
 msgstr "Zapnout druhý filtr"
 
-#: qt/aqt/forms/browser.py:324
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:326
 msgid "End"
 msgstr "Konec"
 
-#: qt/aqt/clayout.py:738
+#: qt/aqt/clayout.py:740
 #, python-format
 msgid "Enter deck to place new %s cards in, or leave blank:"
 msgstr "Zadejte balík pro umístění %s nových karet, nebo nechte prázdné:"
 
-#: qt/aqt/clayout.py:598
+#: qt/aqt/clayout.py:600
 #, python-format
 msgid "Enter new card position (1...%s):"
 msgstr "Pozice nové karty (1...%s)"
 
-#: qt/aqt/browser.py:1616
+#: qt/aqt/browser.py:1619
 msgid "Enter tags to add:"
 msgstr "Zadejte štítky k přidání:"
 
-#: qt/aqt/browser.py:1638
+#: qt/aqt/browser.py:1641
 msgid "Enter tags to delete:"
 msgstr "Zadejte štítky k odstranění:"
 
@@ -1395,7 +1420,7 @@ msgstr "Zadejte štítky k odstranění:"
 msgid "Error downloading <i>%(id)s</i>: %(error)s"
 msgstr "Chyba při stahování <i>%(id)s</i>: %(error)s"
 
-#: qt/aqt/main.py:121
+#: qt/aqt/main.py:123
 #, python-format
 msgid ""
 "Error during startup:\n"
@@ -1414,12 +1439,13 @@ msgstr "Chyba při vykonávání %s."
 msgid "Error installing <i>%(base)s</i>: %(error)s"
 msgstr "Chyba instalace <i>%(base)s</i>: %(error)s"
 
-#: qt/aqt/sound.py:458
+#: qt/aqt/sound.py:502
 #, python-format
 msgid "Error running %s"
 msgstr "Chyba při běhu %s"
 
-#: qt/aqt/deckbrowser.py:232 qt/aqt/exporting.py:124 qt/aqt/forms/exporting.py:74
+#: qt/aqt/deckbrowser.py:232 qt/aqt/exporting.py:124
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/exporting.py:76
 msgid "Export"
 msgstr "Exportovat"
 
@@ -1435,24 +1461,26 @@ msgstr[0] "Exportován %d soubor médií"
 msgstr[1] "Exportovány %d soubory médií"
 msgstr[2] "Exportováno %d souborů médií"
 
-#: qt/aqt/importing.py:259
+#: qt/aqt/importing.py:251
 #, python-format
 msgid "Field <b>%d</b> of file is:"
 msgstr "Pole <b>%d</b> souboru je:"
 
-#: qt/aqt/forms/importing.py:112
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:114
 msgid "Field mapping"
 msgstr "Přiřazení polí"
 
-#: qt/aqt/fields.py:108
+#: qt/aqt/fields.py:110
 msgid "Field name:"
 msgstr "Jméno pole:"
 
-#: qt/aqt/forms/addfield.py:62
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addfield.py:63
 msgid "Field:"
 msgstr "Pole:"
 
-#: qt/aqt/editor.py:191 qt/aqt/fields.py:23 qt/aqt/forms/changemodel.py:113 qt/aqt/forms/fields.py:101
+#: qt/aqt/editor.py:126 qt/aqt/fields.py:23
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/changemodel.py:115
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:102
 msgid "Fields"
 msgstr "Pole"
 
@@ -1461,65 +1489,67 @@ msgstr "Pole"
 msgid "Fields for %s"
 msgstr "Pole pro %s"
 
-#: qt/aqt/importing.py:177
+#: qt/aqt/importing.py:170
 #, python-format
 msgid "Fields separated by: %s"
 msgstr "Pole rozděleny pomocí: %s"
 
-#: qt/aqt/models.py:62
+#: qt/aqt/models.py:65
 msgid "Fields..."
 msgstr "Pole..."
 
-#: qt/aqt/forms/browser.py:317
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:319
 msgid "Fil&ter"
 msgstr "Fil&tr"
 
-#: pylib/anki/importing/mnemo.py:23
+#: pylib/anki/importing/mnemo.py:24
 msgid "File version unknown, trying import anyway."
 msgstr "Verze souboru neznámá, zkouším importovat."
 
-#: qt/aqt/browser.py:1318 qt/aqt/forms/dyndconf.py:134
+#: qt/aqt/browser.py:1319
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:136
 msgid "Filter"
 msgstr "Filtrovat"
 
-#: qt/aqt/forms/dyndconf.py:138
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:140
 msgid "Filter 2"
 msgstr "Filtr 2"
 
-#: qt/aqt/forms/browser.py:297
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:299
 msgid "Filter..."
 msgstr "Filtr..."
 
-#: qt/aqt/forms/studydeck.py:46
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/studydeck.py:48
 msgid "Filter:"
 msgstr "Filtr:"
 
-#: qt/aqt/main.py:1162 qt/aqt/main.py:1164
+#: qt/aqt/main.py:1164 qt/aqt/main.py:1166
 #, python-format
 msgid "Filtered Deck %d"
 msgstr "Filtrovaný balík %d"
 
-#: qt/aqt/forms/browser.py:319
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:321
 msgid "Find &Duplicates..."
 msgstr "Najít &duplikáty..."
 
-#: qt/aqt/forms/finddupes.py:70
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/finddupes.py:71
 msgid "Find Duplicates"
 msgstr "Najít duplikáty"
 
-#: qt/aqt/forms/browser.py:315
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:317
 msgid "Find and Re&place..."
 msgstr "Najít a na&hradit..."
 
-#: qt/aqt/browser.py:1902 qt/aqt/forms/findreplace.py:86
+#: qt/aqt/browser.py:1909
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/findreplace.py:87
 msgid "Find and Replace"
 msgstr "Najít a nahradit"
 
-#: qt/aqt/reviewer.py:93
+#: qt/aqt/reviewer.py:95
 msgid "Finish"
 msgstr "Skončit"
 
-#: qt/aqt/forms/browser.py:321
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:323
 msgid "First Card"
 msgstr "První karta"
 
@@ -1528,7 +1558,7 @@ msgstr "První karta"
 msgid "First field matched: %s"
 msgstr "První pole se shodovalo: %s"
 
-#: qt/aqt/forms/browser.py:302
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:304
 msgid "Flag"
 msgstr "Příznak"
 
@@ -1544,11 +1574,11 @@ msgstr "Překlopit"
 msgid "Folder already exists."
 msgstr "Adresář již existuje."
 
-#: qt/aqt/forms/addfield.py:64
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addfield.py:65
 msgid "Font:"
 msgstr "Písmo:"
 
-#: qt/aqt/forms/modelopts.py:66
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/modelopts.py:68
 msgid "Footer"
 msgstr "Zápatí"
 
@@ -1561,20 +1591,17 @@ msgstr "Z bezpečnostních důvodů není v kartách povoleno '%s'. Můžete to 
 msgid "Forecast"
 msgstr "Předpověď"
 
-#: qt/aqt/forms/clayout_top.py:53 qt/aqt/forms/template.py:72
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/clayout_top.py:54
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/template.py:73
 msgid "Form"
 msgstr "Formulář"
 
-#: qt/aqt/browser.py:1989
+#: qt/aqt/browser.py:1996
 #, python-format
 msgid "Found %(a)s across %(b)s."
 msgstr "Nalezeno %(a)s mezi %(b)s."
 
-#: pylib/anki/exporting.py:382
-msgid "Front"
-msgstr "Líc"
-
-#: qt/aqt/forms/dconf.py:378
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:380
 msgid "General"
 msgstr "Základní"
 
@@ -1588,7 +1615,7 @@ msgstr "Vygenerovaný soubor: %s"
 msgid "Generated on %s"
 msgstr "Vygenerováno v %s"
 
-#: qt/aqt/forms/addons.py:70
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:71
 msgid "Get Add-ons..."
 msgstr "Získat doplňky..."
 
@@ -1600,15 +1627,16 @@ msgstr "Stáhnout sdílené"
 msgid "Good"
 msgstr "Dobré"
 
-#: qt/aqt/forms/dconf.py:344
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:346
 msgid "Graduating interval"
 msgstr "Interval absolvování"
 
-#: qt/aqt/browser.py:1288 qt/aqt/reviewer.py:713 qt/aqt/forms/browser.py:335
+#: qt/aqt/browser.py:1286 qt/aqt/reviewer.py:713
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:337
 msgid "Green Flag"
 msgstr "Zelený příznak"
 
-#: qt/aqt/forms/edithtml.py:37
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/edithtml.py:39
 msgid "HTML Editor"
 msgstr "HTML editor"
 
@@ -1616,11 +1644,11 @@ msgstr "HTML editor"
 msgid "Hard"
 msgstr "Těžké"
 
-#: qt/aqt/forms/dconf.py:359
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:361
 msgid "Hard interval"
 msgstr "Těžký interval"
 
-#: qt/aqt/forms/preferences.py:278
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:279
 msgid "Hardware acceleration (faster, may cause display issues)"
 msgstr "Hardwarová akcelerace (rychlejší, může způsobovat problémy se zobrazením)"
 
@@ -1628,11 +1656,12 @@ msgstr "Hardwarová akcelerace (rychlejší, může způsobovat problémy se zob
 msgid "Have you installed latex and dvipng/dvisvgm?"
 msgstr "Nainstalovali jste si latex a dvipng/dvisvgm?"
 
-#: qt/aqt/forms/modelopts.py:65
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/modelopts.py:67
 msgid "Header"
 msgstr "Záhlaví"
 
-#: qt/aqt/addcards.py:77 qt/aqt/clayout.py:384 qt/aqt/utils.py:206 qt/aqt/utils.py:207
+#: qt/aqt/addcards.py:79 qt/aqt/clayout.py:384 qt/aqt/utils.py:212
+#: qt/aqt/utils.py:213
 msgid "Help"
 msgstr "Nápověda"
 
@@ -1640,11 +1669,11 @@ msgstr "Nápověda"
 msgid "Highest ease"
 msgstr "Nejvyšší snadnost"
 
-#: qt/aqt/addcards.py:81
+#: qt/aqt/addcards.py:83
 msgid "History"
 msgstr "Historie"
 
-#: qt/aqt/forms/browser.py:322
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:324
 msgid "Home"
 msgstr "Domů"
 
@@ -1660,11 +1689,11 @@ msgstr "Hodin"
 msgid "Hours with less than 30 reviews are not shown."
 msgstr "Hodiny s méně než 30 opakováními nejsou zobrazeny."
 
-#: pylib/anki/importing/anki2.py:169
+#: pylib/anki/importing/anki2.py:166
 msgid "Identical"
 msgstr "Totožný"
 
-#: qt/aqt/about.py:220
+#: qt/aqt/about.py:221
 msgid "If you have contributed and are not on this list, please get in touch."
 msgstr "Pokud jste přispěli a nejste na seznamu, ozvěte se prosím."
 
@@ -1672,11 +1701,11 @@ msgstr "Pokud jste přispěli a nejste na seznamu, ozvěte se prosím."
 msgid "If you studied every day"
 msgstr "Při každodenním studiu"
 
-#: qt/aqt/forms/dconf.py:373
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:375
 msgid "Ignore answer times longer than"
 msgstr "Ignorovat odpovědi trvající déle než"
 
-#: qt/aqt/forms/findreplace.py:91
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/findreplace.py:92
 msgid "Ignore case"
 msgstr "Ignorovat velikost písmen"
 
@@ -1684,7 +1713,7 @@ msgstr "Ignorovat velikost písmen"
 msgid "Ignore field"
 msgstr "Ignorovat pole"
 
-#: qt/aqt/forms/importing.py:108
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:110
 msgid "Ignore lines where first field matches existing note"
 msgstr "Ignorovat řádky, kde první pole odpovídá existující poznámce"
 
@@ -1692,7 +1721,9 @@ msgstr "Ignorovat řádky, kde první pole odpovídá existující poznámce"
 msgid "Ignore this update"
 msgstr "Ignorovat aktualizaci"
 
-#: qt/aqt/importing.py:103 qt/aqt/importing.py:197 qt/aqt/importing.py:319 qt/aqt/forms/changemap.py:41 qt/aqt/forms/importing.py:103
+#: qt/aqt/importing.py:103 qt/aqt/importing.py:189 qt/aqt/importing.py:311
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/changemap.py:43
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:105
 msgid "Import"
 msgstr "Importovat"
 
@@ -1700,19 +1731,19 @@ msgstr "Importovat"
 msgid "Import File"
 msgstr "Importovat soubor"
 
-#: qt/aqt/forms/importing.py:109
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:111
 msgid "Import even if existing note has same first field"
 msgstr "Importovat, i když existující poznámka má stejné první pole"
 
-#: qt/aqt/forms/importing.py:104
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:106
 msgid "Import options"
 msgstr "Importovat nastavení"
 
-#: qt/aqt/importing.py:219 qt/aqt/importing.py:532
+#: qt/aqt/importing.py:211 qt/aqt/importing.py:524
 msgid "Importing complete."
 msgstr "Import kompletní."
 
-#: qt/aqt/main.py:1223
+#: qt/aqt/main.py:1225
 #, python-format
 msgid ""
 "In order to ensure your collection works correctly when moved between devices, Anki requires your computer's internal clock to be set correctly. The internal clock can be wrong even if your system is showing the correct local time.\n"
@@ -1739,23 +1770,23 @@ msgstr ""
 "\n"
 "Rozdíl oproti správnému času: %s."
 
-#: qt/aqt/forms/exporting.py:80
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/exporting.py:82
 msgid "Include HTML and media references"
 msgstr "Zahrnout HTML a odkazy na média"
 
-#: qt/aqt/forms/exporting.py:78
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/exporting.py:80
 msgid "Include media"
 msgstr "Zahrnout média"
 
-#: qt/aqt/forms/exporting.py:77
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/exporting.py:79
 msgid "Include scheduling information"
 msgstr "Zachovat informace o plánování"
 
-#: qt/aqt/forms/exporting.py:79
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/exporting.py:81
 msgid "Include tags"
 msgstr "Zahrnout štítky"
 
-#: qt/aqt/forms/customstudy.py:105
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:106
 msgid "Increase today's new card limit"
 msgstr "Zvýšit dnešní limit nových karet"
 
@@ -1763,7 +1794,7 @@ msgstr "Zvýšit dnešní limit nových karet"
 msgid "Increase today's new card limit by"
 msgstr "Zvýšit dnešní limit nových karet o"
 
-#: qt/aqt/forms/customstudy.py:106
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:107
 msgid "Increase today's review card limit"
 msgstr "Zvýšit dnešní limit opakovaných karet"
 
@@ -1775,7 +1806,7 @@ msgstr "Zvýšit dnešní limit opakovaných karet o"
 msgid "Increasing intervals"
 msgstr "Zvyšujícího se intervalu"
 
-#: qt/aqt/forms/getaddons.py:48
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/getaddons.py:50
 msgid "Install Add-on"
 msgstr "Instalace doplňku"
 
@@ -1787,7 +1818,7 @@ msgstr "Instalace doplňku (doplňků)"
 msgid "Install Anki add-on"
 msgstr ""
 
-#: qt/aqt/forms/addons.py:71
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:72
 msgid "Install from file..."
 msgstr "Instalovat ze souboru..."
 
@@ -1804,19 +1835,19 @@ msgstr ""
 msgid "Installed successfully."
 msgstr "Úspěšně nainstalováno."
 
-#: qt/aqt/forms/setlang.py:40
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/setlang.py:42
 msgid "Interface language:"
 msgstr "Jazyk rozhraní:"
 
-#: qt/aqt/forms/preferences.py:280
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:281
 msgid "Interrupt current audio when answering"
 msgstr "Po odpovědi přerušit aktuální audio"
 
-#: qt/aqt/browser.py:742
+#: qt/aqt/browser.py:749
 msgid "Interval"
 msgstr "Interval"
 
-#: qt/aqt/forms/dconf.py:353
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:355
 msgid "Interval modifier"
 msgstr "Modifikátor intervalu"
 
@@ -1844,7 +1875,7 @@ msgstr ""
 msgid "Invalid configuration: top level object must be a map"
 msgstr ""
 
-#: qt/aqt/main.py:1286
+#: qt/aqt/main.py:1288
 msgid "Invalid property found on card. Please use Tools>Check Database, and if the problem comes up again, please ask on the support site."
 msgstr "U karty byly zjišteny špatné vlastnosti. Spusťte prosím Nástroje > Zkontrolovat databázi a pokud problém nastane znova, zeptejte na stránce podpory."
 
@@ -1852,35 +1883,37 @@ msgstr "U karty byly zjišteny špatné vlastnosti. Spusťte prosím Nástroje >
 msgid "It has been suspended."
 msgstr "Odložení provedeno."
 
-#: qt/aqt/editor.py:124
+#: qt/aqt/editor.py:145
 msgid "Italic text (Ctrl+I)"
 msgstr "Kurzíva (Ctrl+I)"
 
-#: qt/aqt/editor.py:571
+#: qt/aqt/editor.py:580
 msgid "Jump to tags with Ctrl+Shift+T"
 msgstr "Skočit na štítky přes Ctrl+Shift+T"
 
-#: qt/aqt/forms/preferences.py:307
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:308
 msgid "Keep"
 msgstr "Zachovat"
 
-#: qt/aqt/editor.py:947 qt/aqt/forms/modelopts.py:67
+#: qt/aqt/editor.py:956
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/modelopts.py:69
 msgid "LaTeX"
 msgstr "LaTeX"
 
-#: qt/aqt/editor.py:948
+#: qt/aqt/editor.py:957
 msgid "LaTeX equation"
 msgstr "Rovnice v LaTeXu"
 
-#: qt/aqt/editor.py:949
+#: qt/aqt/editor.py:958
 msgid "LaTeX math env."
 msgstr "Matem. proměnná LaTeXu"
 
-#: qt/aqt/browser.py:745 qt/aqt/forms/dconf.py:372
+#: qt/aqt/browser.py:752
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:374
 msgid "Lapses"
 msgstr "Chyby"
 
-#: qt/aqt/forms/browser.py:323
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:325
 msgid "Last Card"
 msgstr "Poslední karta"
 
@@ -1892,7 +1925,7 @@ msgstr "Poslední přidané nejdříve"
 msgid "Learn"
 msgstr "Učení"
 
-#: qt/aqt/forms/preferences.py:296
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:297
 msgid "Learn ahead limit"
 msgstr "Učit se navíc"
 
@@ -1901,15 +1934,15 @@ msgstr "Učit se navíc"
 msgid "Learn: %(a)s, Review: %(b)s, Relearn: %(c)s, Filtered: %(d)s"
 msgstr "Učit se: %(a)s, Opakovat: %(b)s, Znovu se učit: %(c)s, Filtrováno: %(d)s"
 
-#: pylib/anki/stats.py:686 qt/aqt/browser.py:1279 qt/aqt/overview.py:231
+#: pylib/anki/stats.py:686 qt/aqt/browser.py:1277 qt/aqt/overview.py:231
 msgid "Learning"
 msgstr "Učení"
 
-#: qt/aqt/forms/dconf.py:366
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:368
 msgid "Leech action"
 msgstr "Akce pro pijavice"
 
-#: qt/aqt/forms/dconf.py:364
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:366
 msgid "Leech threshold"
 msgstr "Práh pro pijavice"
 
@@ -1917,11 +1950,12 @@ msgstr "Práh pro pijavice"
 msgid "Left"
 msgstr "Vlevo"
 
-#: qt/aqt/forms/dyndconf.py:135 qt/aqt/forms/dyndconf.py:139
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:137
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:141
 msgid "Limit to"
 msgstr "Omezit na"
 
-#: qt/aqt/utils.py:51
+#: qt/aqt/utils.py:57
 msgid "Loading..."
 msgstr "Nahrává se..."
 
@@ -1933,19 +1967,20 @@ msgstr "Nejdelší interval"
 msgid "Lowest ease"
 msgstr "Nejnižší snadnost"
 
-#: qt/aqt/modelchooser.py:63
+#: qt/aqt/modelchooser.py:76
 msgid "Manage"
 msgstr "Spravovat"
 
-#: qt/aqt/forms/main.py:155
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:156
 msgid "Manage Note Types"
 msgstr "Správa typů poznámek"
 
-#: qt/aqt/forms/browser.py:339
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:341
 msgid "Manage Note Types..."
 msgstr "Správa typů poznámek..."
 
-#: qt/aqt/browser.py:1337 qt/aqt/forms/dconf.py:339
+#: qt/aqt/browser.py:1337
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:341
 msgid "Manage..."
 msgstr "Spravovat..."
 
@@ -1966,35 +2001,36 @@ msgstr "Přiřadit ke štítkům"
 msgid "Mark Note"
 msgstr "Označit poznámku"
 
-#: qt/aqt/editor.py:945
+#: qt/aqt/editor.py:954
 msgid "MathJax block"
 msgstr ""
 
-#: qt/aqt/editor.py:946
+#: qt/aqt/editor.py:955
 msgid "MathJax chemistry"
 msgstr ""
 
-#: qt/aqt/editor.py:944
+#: qt/aqt/editor.py:953
 msgid "MathJax inline"
 msgstr ""
 
-#: pylib/anki/stats.py:213 pylib/anki/stats.py:346 pylib/anki/stats.py:366 pylib/anki/stats.py:688 pylib/anki/stats.py:858
+#: pylib/anki/stats.py:213 pylib/anki/stats.py:346 pylib/anki/stats.py:366
+#: pylib/anki/stats.py:688 pylib/anki/stats.py:858
 msgid "Mature"
 msgstr "Zralé"
 
-#: qt/aqt/forms/dconf.py:355
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:357
 msgid "Maximum interval"
 msgstr "Maximální interval"
 
-#: qt/aqt/forms/dconf.py:354
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:356
 msgid "Maximum reviews/day"
 msgstr "Maximum opakování za den"
 
-#: qt/aqt/editor.py:704
+#: qt/aqt/editor.py:713
 msgid "Media"
 msgstr "Média"
 
-#: qt/aqt/forms/dconf.py:367
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:369
 msgid "Minimum interval"
 msgstr "Minimální interval"
 
@@ -2010,7 +2046,7 @@ msgstr "Smíchat nové karty a opakování"
 msgid "Mnemosyne 2.0 Deck (*.db)"
 msgstr "Mnemosyne 2.0 balík (*.db)"
 
-#: qt/aqt/reviewer.py:571
+#: qt/aqt/reviewer.py:574
 msgid "More"
 msgstr "Více"
 
@@ -2018,23 +2054,23 @@ msgstr "Více"
 msgid "Most lapses"
 msgstr "Nejvíce zapomínaných"
 
-#: qt/aqt/browser.py:1590
+#: qt/aqt/browser.py:1593
 msgid "Move Cards"
 msgstr "Přemístit kartu"
 
-#: qt/aqt/forms/setgroup.py:39
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/setgroup.py:41
 msgid "Move cards to deck:"
 msgstr "Přemístit karty do balíku:"
 
-#: qt/aqt/importing.py:144
+#: qt/aqt/importing.py:137
 msgid "Multi-character separators are not supported. Please enter one character only."
 msgstr "Víceznakové oddělovače nejsou podporovány. Prosím, vložte pouze jeden znak."
 
-#: qt/aqt/forms/browser.py:309
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:311
 msgid "N&ote"
 msgstr "Poz&námky"
 
-#: qt/aqt/main.py:295 qt/aqt/main.py:309
+#: qt/aqt/main.py:297 qt/aqt/main.py:311
 msgid "Name exists."
 msgstr "Název již existuje."
 
@@ -2042,19 +2078,19 @@ msgstr "Název již existuje."
 msgid "Name for deck:"
 msgstr "Jméno balíku:"
 
-#: qt/aqt/main.py:292 qt/aqt/models.py:119
+#: qt/aqt/main.py:294 qt/aqt/models.py:123
 msgid "Name:"
 msgstr "Název:"
 
-#: qt/aqt/forms/preferences.py:305
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:306
 msgid "Network"
 msgstr "Síť"
 
-#: qt/aqt/browser.py:1278 qt/aqt/deckbrowser.py:149 qt/aqt/overview.py:229
+#: qt/aqt/browser.py:1276 qt/aqt/deckbrowser.py:149 qt/aqt/overview.py:229
 msgid "New"
 msgstr "Nové"
 
-#: qt/aqt/forms/dconf.py:350
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:352
 msgid "New Cards"
 msgstr "Nové karty"
 
@@ -2063,27 +2099,28 @@ msgstr "Nové karty"
 msgid "New cards in deck over today limit: %s"
 msgstr "Nové karty v balíku převyšující dnešní limit: %s"
 
-#: qt/aqt/forms/customstudy.py:112
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:113
 msgid "New cards only"
 msgstr "Jen nové karty"
 
-#: qt/aqt/forms/dconf.py:345
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:347
 msgid "New cards/day"
 msgstr "Nových karet na den"
 
-#: qt/aqt/deckbrowser.py:246 qt/aqt/studydeck.py:151
+#: qt/aqt/deckbrowser.py:246 qt/aqt/sidebar.py:98 qt/aqt/studydeck.py:151
 msgid "New deck name:"
 msgstr "Název nového balíku:"
 
-#: qt/aqt/forms/dconf.py:363
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:365
 msgid "New interval"
 msgstr "Nový interval"
 
-#: qt/aqt/clayout.py:584 qt/aqt/deckconf.py:148 qt/aqt/fields.py:97 qt/aqt/main.py:303 qt/aqt/models.py:84
+#: qt/aqt/clayout.py:586 qt/aqt/deckconf.py:148 qt/aqt/fields.py:97
+#: qt/aqt/main.py:305 qt/aqt/models.py:87
 msgid "New name:"
 msgstr "Nový název:"
 
-#: qt/aqt/forms/changemodel.py:111
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/changemodel.py:113
 msgid "New note type:"
 msgstr "Nový typ poznámky:"
 
@@ -2091,20 +2128,20 @@ msgstr "Nový typ poznámky:"
 msgid "New options group name:"
 msgstr "Nový název skupiny nastavení:"
 
-#: qt/aqt/fields.py:136
+#: qt/aqt/fields.py:140
 #, python-format
 msgid "New position (1...%d):"
 msgstr "Nová pozice (1...%d):"
 
-#: qt/aqt/forms/preferences.py:298
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:299
 msgid "Next day starts at"
 msgstr "Další den začíná v"
 
-#: qt/aqt/forms/preferences.py:283
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:284
 msgid "Night mode"
 msgstr "Noční režim"
 
-#: qt/aqt/browser.py:1290
+#: qt/aqt/browser.py:1288
 msgid "No Flag"
 msgstr "Žádný příznak"
 
@@ -2128,11 +2165,12 @@ msgstr "Žádné zralé karty dnes nebyly studovány."
 msgid "No updates available."
 msgstr "Žádné aktualizace nejsou k dispozici."
 
-#: qt/aqt/browser.py:747
+#: qt/aqt/browser.py:754
 msgid "Note"
 msgstr "Poznámka"
 
-#: qt/aqt/browser.py:1335 qt/aqt/models.py:36 qt/aqt/forms/models.py:54
+#: qt/aqt/browser.py:1335 qt/aqt/models.py:36
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/models.py:56
 msgid "Note Types"
 msgstr "Typy poznámek"
 
@@ -2152,16 +2190,16 @@ msgstr "Poznámka přeskočena."
 msgid "Note suspended."
 msgstr "Poznámka odložena."
 
-#: qt/aqt/forms/preferences.py:310
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:311
 msgid "Note: Media is not backed up. Please create a periodic backup of your Anki folder to be safe."
 msgstr "Upozornění: Média se nezálohují. Prosím vytvořte si pravidelné zálohy vašeho adresáře Anki."
 
-#: pylib/anki/importing/anki2.py:149
+#: pylib/anki/importing/anki2.py:146
 #, python-format
 msgid "Notes added from file: %d"
 msgstr "Poznámky přidané ze souboru: %d"
 
-#: pylib/anki/importing/anki2.py:137
+#: pylib/anki/importing/anki2.py:134
 #, python-format
 msgid "Notes found in file: %d"
 msgstr "Poznámky nalezené v souboru: %d"
@@ -2170,30 +2208,30 @@ msgstr "Poznámky nalezené v souboru: %d"
 msgid "Notes in Plain Text"
 msgstr "Poznámka jako prostý text"
 
-#: qt/aqt/fields.py:121
+#: qt/aqt/fields.py:123
 msgid "Notes require at least one field."
 msgstr "Poznámky vyžadují alespoň jedno pole."
 
-#: pylib/anki/importing/anki2.py:152
+#: pylib/anki/importing/anki2.py:149
 #, python-format
 msgid "Notes skipped, as they're already in your collection: %d"
 msgstr "Přeskočené poznámky, které jsou již v kolekci: %d"
 
-#: qt/aqt/browser.py:2016
+#: qt/aqt/browser.py:2023
 msgid "Notes tagged."
 msgstr "Poznámky oštítkovány."
 
-#: pylib/anki/importing/anki2.py:141
+#: pylib/anki/importing/anki2.py:138
 #, python-format
 msgid "Notes that could not be imported as note type has changed: %d"
 msgstr "Poznámky, které nemohly být importovány, protože se změnil typ poznámky: %d"
 
-#: pylib/anki/importing/anki2.py:146
+#: pylib/anki/importing/anki2.py:143
 #, python-format
 msgid "Notes updated, as file had newer version: %d"
 msgstr "Poznámky aktualizovány, protože soubor měl novější verzi: %d"
 
-#: qt/aqt/browser.py:2170
+#: qt/aqt/browser.py:2180
 msgid "Nothing"
 msgstr "Nic"
 
@@ -2205,7 +2243,7 @@ msgstr "OK"
 msgid "Oldest seen first"
 msgstr "Nejstarší zobrazit nejdříve"
 
-#: qt/aqt/forms/preferences.py:304
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:305
 msgid "On next sync, force changes in one direction"
 msgstr "Při příští synchronizaci vynutit změny v jednom směru"
 
@@ -2213,48 +2251,52 @@ msgstr "Při příští synchronizaci vynutit změny v jednom směru"
 msgid "One or more errors occurred:"
 msgstr "Nastala jedna nebo více chyb:"
 
-#: qt/aqt/browser.py:1728
+#: qt/aqt/browser.py:1734
 msgid "Only new cards can be repositioned."
 msgstr "Přemístěny mohou být jen nové karty."
 
-#: qt/aqt/forms/profiles.py:80
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/profiles.py:81
 msgid "Open"
 msgstr "Otevřít"
 
-#: qt/aqt/forms/profiles.py:85
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/profiles.py:86
 msgid "Open Backup..."
 msgstr "Otevřít zálohu..."
 
-#: qt/aqt/main.py:642
+#: qt/aqt/main.py:644
 msgid "Optimizing..."
 msgstr "Optimalizuje se..."
 
-#: qt/aqt/forms/finddupes.py:71
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/finddupes.py:72
 msgid "Optional filter:"
 msgstr "Volitelný filtr:"
 
-#: qt/aqt/clayout.py:111 qt/aqt/deckbrowser.py:230 qt/aqt/deckconf.py:37 qt/aqt/dyndeckconf.py:25 qt/aqt/overview.py:252 qt/aqt/reviewer.py:732 qt/aqt/forms/dyndconf.py:142 qt/aqt/forms/fields.py:109
+#: qt/aqt/clayout.py:111 qt/aqt/deckbrowser.py:230 qt/aqt/deckconf.py:37
+#: qt/aqt/dyndeckconf.py:25 qt/aqt/overview.py:252 qt/aqt/reviewer.py:732
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:144
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:110
 msgid "Options"
 msgstr "Možnosti"
 
-#: qt/aqt/deckconf.py:47 qt/aqt/dyndeckconf.py:28 qt/aqt/models.py:157
+#: qt/aqt/deckconf.py:47 qt/aqt/dyndeckconf.py:28 qt/aqt/models.py:161
 #, python-format
 msgid "Options for %s"
 msgstr "Možnosti pro %s"
 
-#: qt/aqt/forms/dconf.py:338
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:340
 msgid "Options group:"
 msgstr "Skupina voleb:"
 
-#: qt/aqt/models.py:67
+#: qt/aqt/models.py:70
 msgid "Options..."
 msgstr "Možnosti..."
 
-#: qt/aqt/browser.py:1287 qt/aqt/reviewer.py:707 qt/aqt/forms/browser.py:334
+#: qt/aqt/browser.py:1285 qt/aqt/reviewer.py:707
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:336
 msgid "Orange Flag"
 msgstr "Oranžový příznak"
 
-#: qt/aqt/forms/dconf.py:342
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:344
 msgid "Order"
 msgstr "Pořadí"
 
@@ -2266,15 +2308,15 @@ msgstr "Pořadí přidání"
 msgid "Order due"
 msgstr "Pořadí opakování"
 
-#: qt/aqt/forms/browserdisp.py:71
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browserdisp.py:73
 msgid "Override back template:"
 msgstr "Přepsat šablonu rubu:"
 
-#: qt/aqt/forms/browserdisp.py:72
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browserdisp.py:74
 msgid "Override font:"
 msgstr "Přepsat typ písma:"
 
-#: qt/aqt/forms/browserdisp.py:70
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browserdisp.py:72
 msgid "Override front template:"
 msgstr "Přepsat šablonu líce:"
 
@@ -2286,15 +2328,15 @@ msgstr "Zabalený Anki doplněk"
 msgid "Packaged Anki Deck/Collection (*.apkg *.colpkg *.zip)"
 msgstr "Zabalený Anki balík/kolekce (*.apkg *.colpkg *.zip)"
 
-#: qt/aqt/editor.py:1201
+#: qt/aqt/editor.py:1213
 msgid "Paste"
 msgstr "Vložit"
 
-#: qt/aqt/forms/preferences.py:281
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:282
 msgid "Paste clipboard images as PNG"
 msgstr "Vložit obrázek ze schránky jako PNG"
 
-#: qt/aqt/forms/preferences.py:282
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:283
 msgid "Paste without shift key strips formatting"
 msgstr "Vložit bez klávesy shift bez formátování"
 
@@ -2315,19 +2357,19 @@ msgstr "Procenta"
 msgid "Period: %s"
 msgstr "Období: %s"
 
-#: qt/aqt/forms/preferences.py:303
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:304
 msgid "Periodically sync media"
 msgstr "Pravidelně synchronizovat multimédia"
 
-#: qt/aqt/forms/reschedule.py:74
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reschedule.py:76
 msgid "Place at end of new card queue"
 msgstr "Vložit na konec fronty nových karet"
 
-#: qt/aqt/forms/reschedule.py:75
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reschedule.py:77
 msgid "Place in review queue with interval between:"
 msgstr "Vložit do fronty na opakování s rozestupy:"
 
-#: qt/aqt/models.py:126
+#: qt/aqt/models.py:130
 msgid "Please add another note type first."
 msgstr "Nejprve prosím přidejte jiný typ poznámky."
 
@@ -2339,11 +2381,11 @@ msgstr "Zkontrolujte prosím své připojení k internetu."
 msgid "Please connect a microphone, and ensure other programs are not using the audio device."
 msgstr "Prosím, připojte mikrofon a ujistěte se, že jiný program nepoužívá audio zařízení."
 
-#: qt/aqt/main.py:1606
+#: qt/aqt/main.py:1609
 msgid "Please ensure a profile is open and Anki is not busy, then try again."
 msgstr "Zajistěte, aby byl profil otevřen a aby Anki nebyl zaneprázdněn. Pak to zkuste znovu."
 
-#: qt/aqt/browser.py:1390
+#: qt/aqt/browser.py:1393
 msgid "Please give your filter a name:"
 msgstr "Prosím pojmenujte filtr:"
 
@@ -2360,11 +2402,11 @@ msgstr "Prosím nahlašte tuto věc autorovi/autorům tohoto doplňku."
 msgid "Please restart Anki to complete language change."
 msgstr "Pro dokončení změny jazyka prosím Anki restartujte."
 
-#: qt/aqt/reviewer.py:384
+#: qt/aqt/reviewer.py:387
 msgid "Please run Tools>Empty Cards"
 msgstr "Prosím spusťte Nástroje>Prázdné karty"
 
-#: qt/aqt/main.py:673
+#: qt/aqt/main.py:675
 msgid "Please select a deck."
 msgstr "Prosím vyberte balík."
 
@@ -2372,7 +2414,7 @@ msgstr "Prosím vyberte balík."
 msgid "Please select a single add-on first."
 msgstr "Nejdříve prosím vyberte jeden doplněk."
 
-#: qt/aqt/browser.py:1490
+#: qt/aqt/browser.py:1493
 msgid "Please select cards from only one note type."
 msgstr "Prosím, vyberte karty pouze od jednoho typu poznámky."
 
@@ -2380,24 +2422,25 @@ msgstr "Prosím, vyberte karty pouze od jednoho typu poznámky."
 msgid "Please select something."
 msgstr "Prosím proveďte výběr."
 
-#: qt/aqt/main.py:1120
+#: qt/aqt/main.py:1122
 msgid "Please use File>Import to import this file."
 msgstr "Prosím použijte Soubor>Import pro import tohoto souboru."
 
-#: qt/aqt/forms/preferences.py:277
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:278
 msgid "Preferences"
 msgstr "Předvolby"
 
-#: qt/aqt/previewer.py:65 qt/aqt/forms/browser.py:296
+#: qt/aqt/previewer.py:65
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:298
 msgid "Preview"
 msgstr "Náhled"
 
-#: qt/aqt/browser.py:617
+#: qt/aqt/browser.py:624
 #, python-format
 msgid "Preview Selected Card (%s)"
 msgstr "Náhled vybrané karty (%s)"
 
-#: qt/aqt/forms/customstudy.py:108
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:109
 msgid "Preview new cards"
 msgstr "Náhled nových karet"
 
@@ -2405,7 +2448,7 @@ msgstr "Náhled nových karet"
 msgid "Preview new cards added in the last"
 msgstr "Náhled nových karet přidaných nejpozději"
 
-#: qt/aqt/importing.py:502
+#: qt/aqt/importing.py:494
 #, python-format
 msgid "Processed %d media file"
 msgid_plural "Processed %d media files"
@@ -2413,7 +2456,7 @@ msgstr[0] "Zpracován %d soubor médií"
 msgstr[1] "Zpracovány %d soubory médií"
 msgstr[2] "Zpracováno %d souborů medií"
 
-#: qt/aqt/progress.py:66
+#: qt/aqt/progress.py:83
 msgid "Processing..."
 msgstr "Zpracovává se..."
 
@@ -2421,25 +2464,25 @@ msgstr "Zpracovává se..."
 msgid "Profile Corrupt"
 msgstr ""
 
-#: qt/aqt/forms/profiles.py:79
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/profiles.py:80
 msgid "Profiles"
 msgstr "Profily"
 
-#: qt/aqt/browser.py:733
+#: qt/aqt/browser.py:740
 msgid "Question"
 msgstr "Otázka"
 
-#: qt/aqt/browser.py:1739
+#: qt/aqt/browser.py:1745
 #, python-format
 msgid "Queue bottom: %d"
 msgstr "Konec fronty: %d"
 
-#: qt/aqt/browser.py:1738
+#: qt/aqt/browser.py:1744
 #, python-format
 msgid "Queue top: %d"
 msgstr "Začátek fronty: %d"
 
-#: qt/aqt/forms/profiles.py:84
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/profiles.py:85
 msgid "Quit"
 msgstr "Ukončit"
 
@@ -2447,7 +2490,7 @@ msgstr "Ukončit"
 msgid "Random"
 msgstr "Náhodně"
 
-#: qt/aqt/forms/reposition.py:73
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reposition.py:75
 msgid "Randomize order"
 msgstr "Náhodné řazení"
 
@@ -2459,16 +2502,17 @@ msgstr "Znovu sestavit"
 msgid "Record Own Voice"
 msgstr "Nahrát vlastní zvuk"
 
-#: qt/aqt/editor.py:175
+#: qt/aqt/editor.py:178
 msgid "Record audio (F5)"
 msgstr "Nahrát zvuk (F5)"
 
-#: qt/aqt/sound.py:565
+#: qt/aqt/sound.py:610
 #, python-format
 msgid "Recording...<br>Time: %0.1f"
 msgstr "Nahrává se...<br>Čas: %0.1f"
 
-#: qt/aqt/browser.py:1286 qt/aqt/reviewer.py:701 qt/aqt/forms/browser.py:333
+#: qt/aqt/browser.py:1284 qt/aqt/reviewer.py:701
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:335
 msgid "Red Flag"
 msgstr "Červený příznak"
 
@@ -2480,48 +2524,51 @@ msgstr "Relativní opožděnost"
 msgid "Relearn"
 msgstr "Znovu učené"
 
-#: qt/aqt/forms/fields.py:108
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:109
 msgid "Remember last input when adding"
 msgstr "Při přidávání si pamatovat poslední vstup"
 
-#: qt/aqt/browser.py:1401
+#: qt/aqt/browser.py:1404
 #, python-format
 msgid "Remove %s from your saved searches?"
 msgstr "Odebrat %s z uložených hledání?"
 
-#: qt/aqt/clayout.py:677
+#: qt/aqt/clayout.py:679
 msgid "Remove Card Type..."
 msgstr "Odebrat typ karty..."
 
-#: qt/aqt/browser.py:1375
+#: qt/aqt/browser.py:1378
 msgid "Remove Current Filter..."
 msgstr "Odebrat současný filtr..."
 
-#: qt/aqt/forms/browser.py:328
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:330
 msgid "Remove Tags..."
 msgstr "Odstranit štítky..."
 
-#: qt/aqt/editor.py:133
+#: qt/aqt/editor.py:154
 msgid "Remove formatting (Ctrl+R)"
 msgstr "Odstranit formátování (Ctrl+R)"
 
-#: qt/aqt/deckbrowser.py:228 qt/aqt/deckconf.py:93 qt/aqt/models.py:55 qt/aqt/forms/fields.py:104 qt/aqt/forms/profiles.py:82
+#: qt/aqt/deckbrowser.py:228 qt/aqt/deckconf.py:93 qt/aqt/models.py:58
+#: qt/aqt/sidebar.py:74
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:105
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/profiles.py:83
 msgid "Rename"
 msgstr "Přejmenovat"
 
-#: qt/aqt/clayout.py:680
+#: qt/aqt/clayout.py:682
 msgid "Rename Card Type..."
 msgstr "Přejmenovat typ karty..."
 
-#: qt/aqt/deckbrowser.py:243
+#: qt/aqt/deckbrowser.py:243 qt/aqt/sidebar.py:95
 msgid "Rename Deck"
 msgstr "Přejmenovat balík"
 
-#: qt/aqt/forms/dyndconf.py:145
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:147
 msgid "Repeat failed cards after"
 msgstr "Zopakovat chybné kartičky poté"
 
-#: qt/aqt/main.py:336
+#: qt/aqt/main.py:338
 msgid "Replace your collection with an earlier backup?"
 msgstr "Nahradit kolekci předchozí zálohou?"
 
@@ -2533,31 +2580,33 @@ msgstr "Přehrát zvuk"
 msgid "Replay Own Voice"
 msgstr "Přehrát vlastní zvuk"
 
-#: qt/aqt/browser.py:1744 qt/aqt/forms/fields.py:105
+#: qt/aqt/browser.py:1751
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:106
 msgid "Reposition"
 msgstr "Změnit pořadí"
 
-#: qt/aqt/clayout.py:683
+#: qt/aqt/clayout.py:685
 msgid "Reposition Card Type..."
 msgstr "Změnit pořadí typu karty..."
 
-#: qt/aqt/forms/reposition.py:70
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reposition.py:72
 msgid "Reposition New Cards"
 msgstr "Změnit pořadí nových karet"
 
-#: qt/aqt/forms/browser.py:320
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:322
 msgid "Reposition..."
 msgstr "Změnit pořadí..."
 
-#: qt/aqt/forms/taglimit.py:61
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/taglimit.py:63
 msgid "Require one or more of these tags:"
 msgstr "Vyžadujte jeden nebo více z těchto štítků:"
 
-#: qt/aqt/browser.py:1770 qt/aqt/forms/reschedule.py:73
+#: qt/aqt/browser.py:1777
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reschedule.py:75
 msgid "Reschedule"
 msgstr "Přeplánovat"
 
-#: qt/aqt/forms/dyndconf.py:143
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:145
 msgid "Reschedule cards based on my answers in this deck"
 msgstr "Přeplánování karet založené na mých odpovědích v tomto balíku"
 
@@ -2565,24 +2614,24 @@ msgstr "Přeplánování karet založené na mých odpovědích v tomto balíku"
 msgid "Restored defaults"
 msgstr "Původní nastavení obnovena"
 
-#: qt/aqt/main.py:734
+#: qt/aqt/main.py:736
 msgid "Resume Now"
 msgstr "Pokračovat"
 
-#: qt/aqt/forms/fields.py:107
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:108
 msgid "Reverse text direction (RTL)"
 msgstr "Text zprava doleva (RTL)"
 
-#: qt/aqt/main.py:349
+#: qt/aqt/main.py:351
 msgid "Revert to backup"
 msgstr "Obnovit ze zálohy"
 
-#: qt/aqt/main.py:1034
+#: qt/aqt/main.py:1036
 #, python-format
 msgid "Reverted to state prior to '%s'."
 msgstr "Navráceno ke stavu před '%s'."
 
-#: pylib/anki/collection.py:577 qt/aqt/browser.py:1280
+#: pylib/anki/collection.py:577 qt/aqt/browser.py:1278
 msgid "Review"
 msgstr "Opakování"
 
@@ -2594,7 +2643,7 @@ msgstr "Počet opakování"
 msgid "Review Time"
 msgstr "Čas opakování"
 
-#: qt/aqt/forms/customstudy.py:103
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:104
 msgid "Review ahead"
 msgstr "Opakovat dopředu"
 
@@ -2606,7 +2655,7 @@ msgstr "Opakovat dopředu o"
 msgid "Review cards forgotten in last"
 msgstr "Zopakujte karty zapomenuté v minulých"
 
-#: qt/aqt/forms/customstudy.py:104
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:105
 msgid "Review forgotten cards"
 msgstr "Opakovat zapomenuté karty"
 
@@ -2614,7 +2663,8 @@ msgstr "Opakovat zapomenuté karty"
 msgid "Review success rate for each hour of the day."
 msgstr "Procento úspěšnosti podle hodiny."
 
-#: pylib/anki/stats.py:819 qt/aqt/browser.py:744 qt/aqt/forms/dconf.py:361
+#: pylib/anki/stats.py:819 qt/aqt/browser.py:751
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:363
 msgid "Reviews"
 msgstr "Počet opakování"
 
@@ -2627,15 +2677,16 @@ msgstr "Karty k zopakování v balíku převyšující dnešní limit: %s"
 msgid "Right"
 msgstr "Vpravo"
 
-#: qt/aqt/clayout.py:399 qt/aqt/sound.py:554
+#: qt/aqt/clayout.py:399 qt/aqt/sound.py:599
 msgid "Save"
 msgstr "Uložit"
 
-#: qt/aqt/browser.py:1377
+#: qt/aqt/browser.py:1380
 msgid "Save Current Filter..."
 msgstr "Uložit současný filtr..."
 
-#: qt/aqt/stats.py:42 qt/aqt/stats.py:67 qt/aqt/stats.py:114 qt/aqt/stats.py:145
+#: qt/aqt/stats.py:42 qt/aqt/stats.py:67 qt/aqt/stats.py:114
+#: qt/aqt/stats.py:145
 msgid "Save PDF"
 msgstr "Uložit PDF"
 
@@ -2643,7 +2694,7 @@ msgstr "Uložit PDF"
 msgid "Saved."
 msgstr "Uloženo."
 
-#: qt/aqt/forms/preferences.py:299
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:300
 msgid "Scheduling"
 msgstr "Plánování"
 
@@ -2652,15 +2703,18 @@ msgstr "Plánování"
 msgid "Scope: %s"
 msgstr "Oblast: %s"
 
-#: qt/aqt/browser.py:1972 qt/aqt/forms/browser.py:295 qt/aqt/forms/dyndconf.py:136 qt/aqt/forms/dyndconf.py:140
+#: qt/aqt/browser.py:1979
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:297
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:138
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:142
 msgid "Search"
 msgstr "Hledat"
 
-#: qt/aqt/forms/finddupes.py:72
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/finddupes.py:73
 msgid "Search in:"
 msgstr "Hledat v:"
 
-#: qt/aqt/forms/browseropts.py:73
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browseropts.py:75
 msgid "Search within formatting (slow)"
 msgstr "Hledat ve formátování (pomalé)"
 
@@ -2668,15 +2722,15 @@ msgstr "Hledat ve formátování (pomalé)"
 msgid "Select"
 msgstr "Vybrat"
 
-#: qt/aqt/forms/browser.py:305
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:307
 msgid "Select &All"
 msgstr "Vybrat &vše"
 
-#: qt/aqt/forms/browser.py:314
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:316
 msgid "Select &Notes"
 msgstr "Vybrat poz&námky"
 
-#: qt/aqt/forms/taglimit.py:62
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/taglimit.py:64
 msgid "Select tags to exclude:"
 msgstr "Vynechat štítky:"
 
@@ -2684,15 +2738,15 @@ msgstr "Vynechat štítky:"
 msgid "Selected Notes"
 msgstr "Vybrané poznámky"
 
-#: qt/aqt/importing.py:311
+#: qt/aqt/importing.py:303
 msgid "Selected file was not in UTF-8 format. Please see the importing section of the manual."
 msgstr "Vybraný soubor není ve formátu UTF-8. Blíže viz manuál kapitola Import."
 
-#: qt/aqt/forms/taglimit.py:60
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/taglimit.py:62
 msgid "Selective Study"
 msgstr "Vlastní studium"
 
-#: qt/aqt/importing.py:172
+#: qt/aqt/importing.py:165
 msgid "Semicolon"
 msgstr "Středník"
 
@@ -2705,38 +2759,41 @@ msgstr "Přesunout všechny balíky pod %s do téhle skupiny?"
 msgid "Set for all subdecks"
 msgstr "Nastavit pro všechny podřízené balíky"
 
-#: qt/aqt/editor.py:136
+#: qt/aqt/editor.py:158
 msgid "Set foreground colour (F7)"
 msgstr "Nastavit barvu popředí (F7)"
 
-#: qt/aqt/main.py:127
+#: qt/aqt/main.py:129
 msgid "Shift key was held down. Skipping automatic syncing and add-on loading."
 msgstr "Byla stisknuta klávesa Shift. Přeskočena automatická synchronizace a spouštění doplňků."
 
-#: qt/aqt/forms/reposition.py:74
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reposition.py:76
 msgid "Shift position of existing cards"
 msgstr "Změnit pozici existujících karet"
 
-#: qt/aqt/deckbrowser.py:318 qt/aqt/main.py:763 qt/aqt/overview.py:265 qt/aqt/previewer.py:80 qt/aqt/previewer.py:85 qt/aqt/reviewer.py:570 qt/aqt/reviewer.py:583 qt/aqt/reviewer.py:660
-#: qt/aqt/toolbar.py:107 qt/aqt/toolbar.py:114 qt/aqt/toolbar.py:121 qt/aqt/toolbar.py:128 qt/aqt/toolbar.py:144
+#: qt/aqt/deckbrowser.py:318 qt/aqt/main.py:765 qt/aqt/overview.py:265
+#: qt/aqt/previewer.py:80 qt/aqt/previewer.py:85 qt/aqt/reviewer.py:573
+#: qt/aqt/reviewer.py:584 qt/aqt/reviewer.py:660 qt/aqt/toolbar.py:107
+#: qt/aqt/toolbar.py:114 qt/aqt/toolbar.py:121 qt/aqt/toolbar.py:128
+#: qt/aqt/toolbar.py:144
 #, python-format
 msgid "Shortcut key: %s"
 msgstr "Zkratka: %s"
 
-#: qt/aqt/previewer.py:241
+#: qt/aqt/previewer.py:243
 msgid "Shortcut key: Left arrow"
 msgstr "Zkratka: Vlevo"
 
-#: qt/aqt/previewer.py:246
+#: qt/aqt/previewer.py:248
 msgid "Shortcut key: Right arrow or Enter"
 msgstr "Zkratka: Vpravo nebo Enter"
 
-#: qt/aqt/addcards.py:87
+#: qt/aqt/addcards.py:89
 #, python-format
 msgid "Shortcut: %s"
 msgstr "Zkratka: %s"
 
-#: qt/aqt/reviewer.py:584
+#: qt/aqt/reviewer.py:585
 msgid "Show Answer"
 msgstr "Zobrazit odpověď"
 
@@ -2744,11 +2801,11 @@ msgstr "Zobrazit odpověď"
 msgid "Show Duplicates"
 msgstr "Zobrazit duplikáty"
 
-#: qt/aqt/forms/dconf.py:375
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:377
 msgid "Show answer timer"
 msgstr "Zobrazovat čas odpovědi"
 
-#: qt/aqt/forms/preferences.py:291
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:292
 msgid "Show learning cards with larger steps before reviews"
 msgstr ""
 
@@ -2768,63 +2825,64 @@ msgstr "Zobrazit nové karty v pořadí přidání"
 msgid "Show new cards in random order"
 msgstr "Zobrazit nové karty v náhodném pořadí"
 
-#: qt/aqt/forms/preferences.py:289
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:290
 msgid "Show next review time above answer buttons"
 msgstr "Zobrazovat čas do příštího opakování nad tlačítky"
 
-#: qt/aqt/forms/preferences.py:279
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:280
 msgid "Show play buttons on cards with audio"
 msgstr "Zobrazovat tlačítka přehrát na kartách, které obsahují audio"
 
-#: qt/aqt/forms/preferences.py:290
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:291
 msgid "Show remaining card count during review"
 msgstr "Zobrazovat počet zbývajících karet během opakování"
 
-#: qt/aqt/browser.py:1056 qt/aqt/forms/browser.py:337
+#: qt/aqt/browser.py:1031
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:339
 msgid "Sidebar"
 msgstr "Postranní panel"
 
-#: qt/aqt/forms/addfield.py:63
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addfield.py:64
 msgid "Size:"
 msgstr "Velikost:"
 
-#: pylib/anki/importing/anki2.py:160
+#: pylib/anki/importing/anki2.py:157
 msgid "Skipped"
 msgstr "Přeskočeno"
 
-#: qt/aqt/forms/preferences.py:311
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:312
 msgid "Some settings will take effect after you restart Anki."
 msgstr "Některá nastavení se projeví až po restartu Anki."
 
-#: qt/aqt/browser.py:737
+#: qt/aqt/browser.py:744
 msgid "Sort Field"
 msgstr "Setřídit pole"
 
-#: qt/aqt/forms/fields.py:110
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:111
 msgid "Sort by this field in the browser"
 msgstr "Setřídit prohlížeč dle tohoto pole"
 
-#: qt/aqt/browser.py:932
+#: qt/aqt/browser.py:942
 msgid "Sorting on this column is not supported. Please choose another."
 msgstr "Třízení dle toho sloupce není podporováno. Vyberte prosím jiný."
 
-#: qt/aqt/sound.py:285
+#: qt/aqt/sound.py:323
 msgid "Sound and video on cards will not function until mpv or mplayer is installed."
 msgstr "Zvuk a video na kartách nebude fungovat, dokud nebude nainstalován mpv nebo mplayer."
 
-#: qt/aqt/importing.py:170 qt/aqt/reviewer.py:583
+#: qt/aqt/importing.py:163 qt/aqt/reviewer.py:584
 msgid "Space"
 msgstr "Mezera"
 
-#: qt/aqt/forms/reposition.py:71
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reposition.py:73
 msgid "Start position:"
 msgstr "Počáteční pozice:"
 
-#: qt/aqt/forms/dconf.py:340
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:342
 msgid "Starting ease"
 msgstr "Počáteční 'snadnost'"
 
-#: qt/aqt/forms/stats.py:79
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/stats.py:80
 msgid "Statistics"
 msgstr "Statistiky"
 
@@ -2832,11 +2890,12 @@ msgstr "Statistiky"
 msgid "Stats"
 msgstr "Statistiky"
 
-#: qt/aqt/forms/reposition.py:72
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reposition.py:74
 msgid "Step:"
 msgstr "Krok:"
 
-#: qt/aqt/forms/dconf.py:346 qt/aqt/forms/dconf.py:362
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:348
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:364
 msgid "Steps (in minutes)"
 msgstr "Kroky (v minutách)"
 
@@ -2844,7 +2903,7 @@ msgstr "Kroky (v minutách)"
 msgid "Steps must be numbers."
 msgstr "Kroky musí být v číslech."
 
-#: qt/aqt/browser.py:1266
+#: qt/aqt/browser.py:1264
 msgid "Studied Today"
 msgstr "Dnes nastudováno"
 
@@ -2852,11 +2911,11 @@ msgstr "Dnes nastudováno"
 msgid "Study"
 msgstr "Studovat"
 
-#: qt/aqt/forms/studydeck.py:45
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/studydeck.py:47
 msgid "Study Deck"
 msgstr "Studijní balíky"
 
-#: qt/aqt/forms/main.py:152
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:153
 msgid "Study Deck..."
 msgstr "Studovat balík..."
 
@@ -2864,11 +2923,11 @@ msgstr "Studovat balík..."
 msgid "Study Now"
 msgstr "Studovat teď"
 
-#: qt/aqt/forms/customstudy.py:107
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:108
 msgid "Study by card state or tag"
 msgstr "Studovat podle stavu karty nebo štítku"
 
-#: qt/aqt/editor.py:132
+#: qt/aqt/editor.py:153
 msgid "Subscript (Ctrl+=)"
 msgstr "Dolní index (Ctrl+=)"
 
@@ -2876,7 +2935,7 @@ msgstr "Dolní index (Ctrl+=)"
 msgid "Supermemo XML export (*.xml)"
 msgstr "Supermemo XML export (*.xml)"
 
-#: qt/aqt/editor.py:130
+#: qt/aqt/editor.py:151
 msgid "Superscript (Ctrl++)"
 msgstr "Horní index (Ctrl++)"
 
@@ -2884,7 +2943,8 @@ msgstr "Horní index (Ctrl++)"
 msgid "Suspend"
 msgstr "Odložit"
 
-#: qt/aqt/reviewer.py:729 qt/aqt/forms/dconf.py:369
+#: qt/aqt/reviewer.py:729
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:371
 msgid "Suspend Card"
 msgstr "Odložit kartu"
 
@@ -2892,7 +2952,7 @@ msgstr "Odložit kartu"
 msgid "Suspend Note"
 msgstr "Odložit poznámku"
 
-#: qt/aqt/browser.py:1283
+#: qt/aqt/browser.py:1281
 msgid "Suspended"
 msgstr "Odložené"
 
@@ -2904,27 +2964,27 @@ msgstr "Odložené a přeskočené"
 msgid "Sync"
 msgstr "Synchronizace"
 
-#: qt/aqt/forms/preferences.py:301
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:302
 msgid "Synchronize audio and images too"
 msgstr "Synchronizovat i obrázky a zvuky"
 
-#: qt/aqt/importing.py:166
+#: qt/aqt/importing.py:159
 msgid "Tab"
 msgstr "Tabulátor"
 
-#: qt/aqt/browser.py:1981 qt/aqt/browser.py:2008
+#: qt/aqt/browser.py:1988 qt/aqt/browser.py:2015
 msgid "Tag Duplicates"
 msgstr "Duplikátní štítky"
 
-#: qt/aqt/forms/dconf.py:370
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:372
 msgid "Tag Only"
 msgstr "Jen štítek"
 
-#: qt/aqt/forms/importing.py:111
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:113
 msgid "Tag modified notes:"
 msgstr "Štítek modifikovaných poznámek:"
 
-#: qt/aqt/browser.py:746 qt/aqt/browser.py:1298 qt/aqt/editor.py:567
+#: qt/aqt/browser.py:753 qt/aqt/browser.py:1299 qt/aqt/editor.py:576
 msgid "Tags"
 msgstr "Štítky"
 
@@ -2932,7 +2992,7 @@ msgstr "Štítky"
 msgid "Target Deck (Ctrl+D)"
 msgstr "Cílový balík (Ctrl+D)"
 
-#: qt/aqt/forms/changemap.py:42
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/changemap.py:44
 msgid "Target field:"
 msgstr "Cílové pole:"
 
@@ -2952,11 +3012,11 @@ msgstr "Vychozí konfiguraci nelze odstranit."
 msgid "The division of cards in your deck(s)."
 msgstr "Rozdělení karet na balíky."
 
-#: qt/aqt/addcards.py:164
+#: qt/aqt/addcards.py:169
 msgid "The first field is empty."
 msgstr "První pole je prázdné."
 
-#: qt/aqt/importing.py:183
+#: qt/aqt/importing.py:176
 msgid "The first field of the note type must be mapped."
 msgstr "První pole typu poznámky musí být zobrazeno."
 
@@ -2969,7 +3029,7 @@ msgstr "Následující doplňky nejsou kompatibilní s %(name)s a byly zakázán
 msgid "The following add-ons have updates available. Install them now?"
 msgstr "Následující doplňky mají dostupné aktualizace. Instalovat je nyní?"
 
-#: qt/aqt/utils.py:653
+#: qt/aqt/utils.py:659
 #, python-format
 msgid "The following character can not be used: %s"
 msgstr "Následující znak nemůže být použit: %s"
@@ -2994,7 +3054,7 @@ msgstr "Počet opakování do příště."
 msgid "The number of times you have pressed each button."
 msgstr "Kolikrát jste vybrali každou odpověď."
 
-#: qt/aqt/importing.py:524
+#: qt/aqt/importing.py:516
 msgid "The provided file is not a valid .apkg file."
 msgstr "Toto není validní soubor .apkg."
 
@@ -3002,19 +3062,15 @@ msgstr "Toto není validní soubor .apkg."
 msgid "The provided search did not match any cards. Would you like to revise it?"
 msgstr "Zadaná vyhledávací kritéria neodpovídají žádným kartám. Chcete je upravit?"
 
-#: qt/aqt/main.py:1341 qt/aqt/main.py:1360
-msgid ""
-"The requested change will require a full upload of the database when you next synchronize your collection. If you have reviews or other changes waiting on another device that haven't been "
-"synchronized here yet, they will be lost. Continue?"
-msgstr ""
-"Požadovaná změna způsobí kompletní nahrání databáze na server při příští synchronizaci Vaší sbírky. Máte-li změny nebo naplánované zkoušení na jiném zařízení, které ještě nebyly synchronizovány, "
-"budou ztraceny. Chcete pokračovat?"
+#: qt/aqt/main.py:1343 qt/aqt/main.py:1362
+msgid "The requested change will require a full upload of the database when you next synchronize your collection. If you have reviews or other changes waiting on another device that haven't been synchronized here yet, they will be lost. Continue?"
+msgstr "Požadovaná změna způsobí kompletní nahrání databáze na server při příští synchronizaci Vaší sbírky. Máte-li změny nebo naplánované zkoušení na jiném zařízení, které ještě nebyly synchronizovány, budou ztraceny. Chcete pokračovat?"
 
 #: pylib/anki/stats.py:380
 msgid "The time taken to answer the questions."
 msgstr "Čas na zodpovězení."
 
-#: qt/aqt/main.py:318
+#: qt/aqt/main.py:320
 msgid "There must be at least one profile."
 msgstr "Musí existovat alespoň jeden profil."
 
@@ -3022,13 +3078,11 @@ msgstr "Musí existovat alespoň jeden profil."
 msgid "This add-on is not compatible with your version of Anki."
 msgstr "Tento doplněk není kompatibilní s vaší verzí Anki."
 
-#: qt/aqt/importing.py:442
-msgid ""
-"This file does not appear to be a valid .apkg file. If you're getting this error from a file downloaded from AnkiWeb, chances are that your download failed. Please try again, and if the problem "
-"persists, please try again with a different browser."
+#: qt/aqt/importing.py:434
+msgid "This file does not appear to be a valid .apkg file. If you're getting this error from a file downloaded from AnkiWeb, chances are that your download failed. Please try again, and if the problem persists, please try again with a different browser."
 msgstr "Zdá se, že nejde o validní soubor .apkg. Pokud se vám tato chyba zobrazuje u souboru staženého z AnkiWeb, je možné, že nebyl stažen správně."
 
-#: qt/aqt/utils.py:406
+#: qt/aqt/utils.py:412
 msgid "This file exists. Are you sure you want to overwrite it?"
 msgstr "Soubor již existuje. Opravdu ho chcete přepsat?"
 
@@ -3036,7 +3090,7 @@ msgstr "Soubor již existuje. Opravdu ho chcete přepsat?"
 msgid "This is a special deck for studying outside of the normal schedule."
 msgstr "Toto je speciální balík pro studium mimo normální plán."
 
-#: qt/aqt/clayout.py:630
+#: qt/aqt/clayout.py:632
 #, python-format
 msgid "This will create %d card. Proceed?"
 msgid_plural "This will create %d cards. Proceed?"
@@ -3044,7 +3098,7 @@ msgstr[0] "Bude vytvořena %d karta. Pokračovat?"
 msgstr[1] "Budou vytvořeny %d karty. Pokračovat?"
 msgstr[2] "Bude vytvořeno %d karet. Pokračovat?"
 
-#: qt/aqt/importing.py:462
+#: qt/aqt/importing.py:454
 msgid "This will delete your existing collection and replace it with the data in the file you're importing. Are you sure?"
 msgstr "Tímto se smaže vaše současná kolekce a nahradí se daty ze souboru, který importujete. Jste si jistý?"
 
@@ -3052,7 +3106,7 @@ msgstr "Tímto se smaže vaše současná kolekce a nahradí se daty ze souboru,
 msgid "This will reset any cards in learning, clear filtered decks, and change the scheduler version. Proceed?"
 msgstr "To obnoví všechny karty v procesu učení, vyprázdní filtrované balíky a změní verzi plánovače. Pokračovat?"
 
-#: qt/aqt/forms/preferences.py:294
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:295
 msgid "Timebox time limit"
 msgstr "Limit pro časový box"
 
@@ -3060,29 +3114,27 @@ msgstr "Limit pro časový box"
 msgid "To Review"
 msgstr "K opakování"
 
-#: qt/aqt/forms/getaddons.py:49
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/getaddons.py:51
 msgid "To browse add-ons, please click the browse button below.<br><br>When you've found an add-on you like, please paste its code below. You can paste multiple codes, separated by spaces."
-msgstr ""
-"Chcete-li procházet doplňky, prosím klikněte na tlačítko prohlížet níže.<br><br>Pokud jste našli doplněk, který se vám líbí, prosím vložte jeho kód níže. Je možné vložit více kódů oddělených "
-"mezerami."
+msgstr "Chcete-li procházet doplňky, prosím klikněte na tlačítko prohlížet níže.<br><br>Pokud jste našli doplněk, který se vám líbí, prosím vložte jeho kód níže. Je možné vložit více kódů oddělených mezerami."
 
-#: qt/aqt/editor.py:642
+#: qt/aqt/editor.py:651
 msgid "To make a cloze deletion on an existing note, you need to change it to a cloze type first, via 'Notes>Change Note Type'"
 msgstr "Chcete-li přidat doplňovačku do existující poznámky, musíte její typ nejdřív změnit na doplňovačku přes „Poznámky > Změnit typ poznámky“."
 
-#: pylib/anki/stats.py:119 qt/aqt/browser.py:1261
+#: pylib/anki/stats.py:119 qt/aqt/browser.py:1259
 msgid "Today"
 msgstr "Dnes"
 
-#: qt/aqt/forms/addons.py:76
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:77
 msgid "Toggle Enabled"
 msgstr "Přepnout povolení"
 
-#: qt/aqt/forms/browser.py:340
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:342
 msgid "Toggle Mark"
 msgstr "Přepnout označení"
 
-#: qt/aqt/forms/browser.py:329
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:331
 msgid "Toggle Suspend"
 msgstr "Přepnout odložení"
 
@@ -3098,15 +3150,16 @@ msgstr "Celkem karet"
 msgid "Total notes"
 msgstr "Celkem poznámek"
 
-#: qt/aqt/forms/findreplace.py:90
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/findreplace.py:91
 msgid "Treat input as regular expression"
 msgstr "Pokládat vstup za regulární výraz"
 
-#: qt/aqt/modelchooser.py:26 qt/aqt/forms/importing.py:105
+#: qt/aqt/modelchooser.py:40
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:107
 msgid "Type"
 msgstr "Typ"
 
-#: qt/aqt/reviewer.py:388
+#: qt/aqt/reviewer.py:391
 #, python-format
 msgid "Type answer: unknown field %s"
 msgstr "Napište odpověd: neznámé pole %s"
@@ -3115,7 +3168,7 @@ msgstr "Napište odpověd: neznámé pole %s"
 msgid "Unable to access Anki media folder. The permissions on your system's temporary folder may be incorrect."
 msgstr "Nelze přistoupit ke složce s médii Anki. Práva systémové dočasné složky mohou být nesprávná."
 
-#: qt/aqt/main.py:362
+#: qt/aqt/main.py:364
 msgid "Unable to move existing file to trash - please try restarting your computer."
 msgstr "Nelze přesunout stávající soubor do koše - prosím zkuste restartovat počítač."
 
@@ -3134,20 +3187,20 @@ msgstr ""
 msgid "Unbury"
 msgstr "Zrušit přeskočení"
 
-#: qt/aqt/editor.py:127
+#: qt/aqt/editor.py:148
 msgid "Underline text (Ctrl+U)"
 msgstr "Podtržený text (Ctrl+U)"
 
-#: qt/aqt/main.py:1044
+#: qt/aqt/main.py:1046
 msgid "Undo"
 msgstr "Zpět"
 
-#: qt/aqt/main.py:1040
+#: qt/aqt/main.py:1042
 #, python-format
 msgid "Undo %s"
 msgstr "Zpět %s"
 
-#: qt/aqt/addons.py:1014 qt/aqt/editor.py:841
+#: qt/aqt/addons.py:1014 qt/aqt/editor.py:850
 #, python-format
 msgid "Unexpected response code: %s"
 msgstr "Neočekávaný kód odpovědi: %s"
@@ -3156,7 +3209,7 @@ msgstr "Neočekávaný kód odpovědi: %s"
 msgid "Unknown error: {}"
 msgstr "Neznámá chyba: {}"
 
-#: qt/aqt/importing.py:375
+#: qt/aqt/importing.py:367
 msgid "Unknown file format."
 msgstr "Neznámý formát souboru."
 
@@ -3164,11 +3217,11 @@ msgstr "Neznámý formát souboru."
 msgid "Unseen"
 msgstr "Nenastudované"
 
-#: qt/aqt/forms/importing.py:107
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:109
 msgid "Update existing notes when first field matches"
 msgstr "Aktualizovat existující poznámku, když je první pole stejné"
 
-#: pylib/anki/importing/anki2.py:163
+#: pylib/anki/importing/anki2.py:160
 msgid "Updated"
 msgstr "Aktualizováno"
 
@@ -3176,7 +3229,7 @@ msgstr "Aktualizováno"
 msgid "User 1"
 msgstr "Uživatel 1"
 
-#: qt/aqt/forms/preferences.py:286
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:287
 msgid "User interface size"
 msgstr "Velikost uživatelského rozhraní"
 
@@ -3185,19 +3238,19 @@ msgstr "Velikost uživatelského rozhraní"
 msgid "Version %s"
 msgstr "Verze %s"
 
-#: qt/aqt/forms/addons.py:73
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:74
 msgid "View Add-on Page"
 msgstr "Zobrazit stránku doplňku"
 
-#: qt/aqt/forms/addons.py:75
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:76
 msgid "View Files"
 msgstr "Zobrazit soubory"
 
-#: qt/aqt/main.py:733
+#: qt/aqt/main.py:735
 msgid "Waiting for editing to finish."
 msgstr "Čeká se na dokončení změn."
 
-#: qt/aqt/editor.py:635
+#: qt/aqt/editor.py:644
 msgid "Warning, cloze deletions will not work until you switch the type at the top to Cloze."
 msgstr "Pozor, doplňovačky nebudou fungovat, dokud nezměníte typ výše na Doplňovačku."
 
@@ -3205,11 +3258,11 @@ msgstr "Pozor, doplňovačky nebudou fungovat, dokud nezměníte typ výše na D
 msgid "What would you like to unbury?"
 msgstr ""
 
-#: qt/aqt/forms/preferences.py:284
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:285
 msgid "When adding, default to current deck"
 msgstr "Při přidávání standardně nastaven aktuální balík"
 
-#: qt/aqt/browser.py:1124 qt/aqt/browser.py:1257
+#: qt/aqt/browser.py:1108 qt/aqt/browser.py:1255
 msgid "Whole Collection"
 msgstr "Celá kolekce"
 
@@ -3217,16 +3270,16 @@ msgstr "Celá kolekce"
 msgid "Would you like to download it now?"
 msgstr "Chcete ji stáhnout nyní?"
 
-#: qt/aqt/about.py:214
+#: qt/aqt/about.py:215
 #, python-format
 msgid "Written by Damien Elmes, with patches, translation,    testing and design from:<p>%(cont)s"
 msgstr "Napsáno Damienem Elmesem se záplatami, překlady, testováním a designem od:<p>%(cont)s"
 
-#: qt/aqt/forms/preferences.py:309
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:310
 msgid "You can restore backups via File>Switch Profile."
 msgstr "Můžete obnovit ze zálohy přes Soubor > Přepnout profil."
 
-#: qt/aqt/addcards.py:173
+#: qt/aqt/addcards.py:178
 msgid "You have a cloze deletion note type but have not made any cloze deletions. Proceed?"
 msgstr "Máte zvolený typ poznámky doplňovačka, ale žádné doplňovačky v poznámce nemáte. Pokračovat?"
 
@@ -3234,11 +3287,12 @@ msgstr "Máte zvolený typ poznámky doplňovačka, ale žádné doplňovačky v
 msgid "You haven't recorded your voice yet."
 msgstr "Zatím jste nezaznamenali svůj hlas."
 
-#: qt/aqt/browser.py:987
+#: qt/aqt/browser.py:997
 msgid "You must have at least one column."
 msgstr "Je třeba alespoň jeden sloupec."
 
-#: pylib/anki/stats.py:214 pylib/anki/stats.py:347 pylib/anki/stats.py:367 pylib/anki/stats.py:687
+#: pylib/anki/stats.py:214 pylib/anki/stats.py:347 pylib/anki/stats.py:367
+#: pylib/anki/stats.py:687
 msgid "Young"
 msgstr "Mladé"
 
@@ -3250,13 +3304,9 @@ msgstr "Mladé a nové"
 msgid "Your changes will affect multiple decks. If you wish to change only the current deck, please add a new options group first."
 msgstr "Vaše změny ovlivní vícero balíků. Pokud chcete změnit pouze současný balík, přidejte nejdřív novou skupinu nastavení."
 
-#: qt/aqt/main.py:576
-msgid ""
-"Your collection file appears to be corrupt. This can happen when the file is copied or moved while Anki is open, or when the collection is stored on a network or cloud drive. If problems persist "
-"after restarting your computer, please open an automatic backup from the profile screen."
-msgstr ""
-"Váš soubor kolekce se jeví jako poškozený. To může nastat, když se soubor kopíruje nebo přesouvá, zatímco je Anki otevřeno, nebo když je kolekce uložena na síti nebo kloudovém disku. Jestliže "
-"problém přetrvává po restartování vašeho počítače, prosím otevřete automatickou zálohu z obrazovky s profily."
+#: qt/aqt/main.py:578
+msgid "Your collection file appears to be corrupt. This can happen when the file is copied or moved while Anki is open, or when the collection is stored on a network or cloud drive. If problems persist after restarting your computer, please open an automatic backup from the profile screen."
+msgstr "Váš soubor kolekce se jeví jako poškozený. To může nastat, když se soubor kopíruje nebo přesouvá, zatímco je Anki otevřeno, nebo když je kolekce uložena na síti nebo kloudovém disku. Jestliže problém přetrvává po restartování vašeho počítače, prosím otevřete automatickou zálohu z obrazovky s profily."
 
 #: qt/aqt/errors.py:99
 msgid "Your computer's storage may be full. Please delete some unneeded files, then try again."
@@ -3270,7 +3320,7 @@ msgstr "Váš firewall nebo antivirus program brání Anki vytvořit připojení
 msgid "[no deck]"
 msgstr "[žádný balík]"
 
-#: qt/aqt/forms/preferences.py:308
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:309
 msgid "backups"
 msgstr "zálohy"
 
@@ -3282,11 +3332,13 @@ msgstr "karty"
 msgid "cards from the deck"
 msgstr "karty z balíku"
 
-#: qt/aqt/forms/dyndconf.py:137 qt/aqt/forms/dyndconf.py:141
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:139
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:143
 msgid "cards selected by"
 msgstr "karet setříděných podle"
 
-#: qt/aqt/exporting.py:110 qt/aqt/forms/stats.py:81
+#: qt/aqt/exporting.py:110
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/stats.py:82
 msgid "collection"
 msgstr "kolekce"
 
@@ -3295,20 +3347,25 @@ msgstr "kolekce"
 msgid "d"
 msgstr "dní"
 
-#: qt/aqt/customstudy.py:90 qt/aqt/customstudy.py:94 qt/aqt/customstudy.py:97 qt/aqt/forms/dconf.py:348 qt/aqt/forms/dconf.py:349 qt/aqt/forms/dconf.py:356 qt/aqt/forms/dconf.py:368
-#: qt/aqt/forms/reschedule.py:77
+#: qt/aqt/customstudy.py:90 qt/aqt/customstudy.py:94 qt/aqt/customstudy.py:97
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:350
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:351
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:358
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:370
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reschedule.py:79
 msgid "days"
 msgstr "dny/dní"
 
-#: qt/aqt/forms/stats.py:80
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/stats.py:81
 msgid "deck"
 msgstr "balík"
 
-#: pylib/anki/stats.py:949 qt/aqt/forms/stats.py:84
+#: pylib/anki/stats.py:949
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/stats.py:85
 msgid "deck life"
 msgstr "stáří balíku"
 
-#: qt/aqt/browser.py:2012
+#: qt/aqt/browser.py:2019
 msgid "duplicate"
 msgstr "duplikát"
 
@@ -3316,28 +3373,30 @@ msgstr "duplikát"
 msgid "hours"
 msgstr "hodin"
 
-#: qt/aqt/forms/preferences.py:295
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:296
 msgid "hours past midnight"
 msgstr "hodin po půlnoci"
 
-#: qt/aqt/forms/dconf.py:365
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:367
 msgid "lapses"
 msgstr "chyb"
 
-#: qt/aqt/importing.py:264
+#: qt/aqt/importing.py:256
 #, python-format
 msgid "mapped to <b>%s</b>"
 msgstr "přiřazeno na <b>%s</b>"
 
-#: qt/aqt/importing.py:262
+#: qt/aqt/importing.py:254
 msgid "mapped to <b>Tags</b>"
 msgstr "přiřazeno na <b>Štítky</b>"
 
-#: qt/aqt/forms/preferences.py:293 qt/aqt/forms/preferences.py:297
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:294
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:298
 msgid "mins"
 msgstr "minut"
 
-#: pylib/anki/stats.py:384 qt/aqt/forms/dyndconf.py:146
+#: pylib/anki/stats.py:384
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:148
 msgid "minutes"
 msgstr "minut"
 
@@ -3350,7 +3409,7 @@ msgstr "měs"
 msgid "reviews"
 msgstr "opakování"
 
-#: qt/aqt/forms/dconf.py:374
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:376
 msgid "seconds"
 msgstr "sekund"
 
@@ -3367,9 +3426,12 @@ msgstr "týdnů"
 msgid "whole collection"
 msgstr "celá sbírka"
 
-#: qt/aqt/forms/reschedule.py:76
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reschedule.py:78
 msgid "~"
 msgstr "~"
+
+#~ msgid "Front"
+#~ msgstr "Líc"
 
 #~ msgid "Congratulations! You have finished this deck for now."
 #~ msgstr "Gratuluji! Tento balík máte pro dnešek hotov."
@@ -3812,9 +3874,7 @@ msgstr "~"
 #~ msgid "Note: Some of the history is missing. For more information, please see the browser documentation."
 #~ msgstr "Poznámka: Část historie chybí. Více v dokumentaci."
 
-#~ msgid ""
-#~ "One or more notes were not imported, because they didn't generate any cards. This can happen when you have empty fields or when you have not mapped the content in the text file to the correct "
-#~ "fields."
+#~ msgid "One or more notes were not imported, because they didn't generate any cards. This can happen when you have empty fields or when you have not mapped the content in the text file to the correct fields."
 #~ msgstr "Jedna nebo více poznámek nebylo importováno, protože z nich nevznikly žádné karty. To se stává, pokud máte prázdná pole nebo pokud jste nenamapovali obsah v textovém souboru na správná pole."
 
 #~ msgid "Only one client can access AnkiWeb at a time. If a previous sync failed, please try again in a few minutes."

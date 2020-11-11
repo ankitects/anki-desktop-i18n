@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: anki\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-21 12:06+1000\n"
+"POT-Creation-Date: 2020-11-11 19:48+1000\n"
 "PO-Revision-Date: 2020-09-24 15:04+0000\n"
 "Last-Translator: josephmcg <josephmcginley@gmail.com>\n"
 "Language-Team: Irish\n"
@@ -17,11 +17,11 @@ msgstr ""
 "X-Crowdin-Project: anki\n"
 "X-Generator: Pontoon\n"
 
-#: qt/aqt/importing.py:411
+#: qt/aqt/importing.py:403
 msgid "    Invalid file. Please restore from backup."
 msgstr "Comhad neamhbhailí. Déan aischur ó chúltaca."
 
-#: qt/aqt/importing.py:420
+#: qt/aqt/importing.py:412
 msgid "    Unable to import from a read-only file."
 msgstr "Ní féidir iompórtáil ó chomhad inléite amháin."
 
@@ -29,11 +29,11 @@ msgstr "Ní féidir iompórtáil ó chomhad inléite amháin."
 msgid " (disabled)"
 msgstr "(díchumasaithe)"
 
-#: qt/aqt/clayout.py:692
+#: qt/aqt/clayout.py:694
 msgid " (off)"
 msgstr "(as feidhm)"
 
-#: qt/aqt/clayout.py:690
+#: qt/aqt/clayout.py:692
 msgid " (on)"
 msgstr "(i bhfeidhm)"
 
@@ -48,11 +48,16 @@ msgstr[3] "Tá %d gcárta aige."
 msgstr[4] "Tá %d cárta aige."
 
 #. T: include a font for your language on Windows, eg: "Segoe UI", "MS Mincho"
-#: qt/aqt/webview.py:368
+#: qt/aqt/webview.py:379
 msgid "\"Segoe UI\""
 msgstr "\"Segoe UI\""
 
-#: qt/aqt/forms/dconf.py:341 qt/aqt/forms/dconf.py:352 qt/aqt/forms/dconf.py:357 qt/aqt/forms/dconf.py:360 qt/aqt/forms/dconf.py:371 qt/aqt/forms/preferences.py:287
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:343
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:354
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:359
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:362
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:373
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:288
 msgid "%"
 msgstr "%"
 
@@ -67,7 +72,7 @@ msgstr "%(a)0.1f %(b)s/lá"
 
 #. T: name is a card type name. n it's order in the list of card type.
 #. T: this is shown in browser's filter, when seeing the list of card type of a note type.
-#: qt/aqt/browser.py:1355
+#: qt/aqt/browser.py:1356
 #, python-format
 msgid "%(n)d: %(name)s"
 msgstr "%(n)d: %(name)s"
@@ -77,7 +82,7 @@ msgstr "%(n)d: %(name)s"
 msgid "%(tot)s %(unit)s"
 msgstr "%(tot)s %(unit)s"
 
-#: pylib/anki/stats.py:260 pylib/anki/stats.py:318 qt/aqt/clayout.py:558
+#: pylib/anki/stats.py:260 pylib/anki/stats.py:318 qt/aqt/clayout.py:560
 #, python-format
 msgid "%d card"
 msgid_plural "%d cards"
@@ -107,7 +112,7 @@ msgstr[2] "%d chárta iompórtáilte."
 msgstr[3] "%d gcárta iompórtáilte."
 msgstr[4] "%d cárta iompórtáilte."
 
-#: qt/aqt/reviewer.py:88
+#: qt/aqt/reviewer.py:90
 #, python-format
 msgid "%d card studied in"
 msgid_plural "%d cards studied in"
@@ -127,7 +132,7 @@ msgstr[2] "%d phaca nuashonraithe."
 msgstr[3] "%d bpaca nuashonraithe."
 msgstr[4] "%d paca nuashonraithe."
 
-#: qt/aqt/browser.py:1987
+#: qt/aqt/browser.py:1994
 #, python-format
 msgid "%d group"
 msgid_plural "%d groups"
@@ -137,7 +142,8 @@ msgstr[2] "%d ghrúpa"
 msgstr[3] "%d ngrúpa"
 msgstr[4] "%d grúpa"
 
-#: qt/aqt/browser.py:1988 qt/aqt/browser.py:1996 qt/aqt/fields.py:123 qt/aqt/models.py:107
+#: qt/aqt/browser.py:1995 qt/aqt/browser.py:2003 qt/aqt/fields.py:125
+#: qt/aqt/models.py:111
 #, python-format
 msgid "%d note"
 msgid_plural "%d notes"
@@ -157,7 +163,7 @@ msgstr[2] "%d nóta curtha leis"
 msgstr[3] "%d nóta curtha leis"
 msgstr[4] "%d nóta curtha leis"
 
-#: qt/aqt/browser.py:1570
+#: qt/aqt/browser.py:1573
 #, python-format
 msgid "%d note deleted."
 msgid_plural "%d notes deleted."
@@ -177,7 +183,7 @@ msgstr[2] "%d nóta easpórtáilte."
 msgstr[3] "%d nóta easpórtáilte."
 msgstr[4] "%d nóta easpórtáilte."
 
-#: pylib/anki/importing/mnemo.py:104
+#: pylib/anki/importing/mnemo.py:105
 #, python-format
 msgid "%d note imported."
 msgid_plural "%d notes imported."
@@ -207,7 +213,7 @@ msgstr[2] "%d nóta nuashonraithe"
 msgstr[3] "%d nóta nuashonraithe"
 msgstr[4] "%d nóta nuashonraithe"
 
-#: qt/aqt/browser.py:823
+#: qt/aqt/browser.py:832
 #, python-format
 msgid "%d selected"
 msgid_plural "%d selected"
@@ -222,7 +228,7 @@ msgstr[4] "%d roghnaithe"
 msgid "%s copy"
 msgstr "cóip %s"
 
-#: qt/aqt/reviewer.py:92
+#: qt/aqt/reviewer.py:94
 #, python-format
 msgid "%s minute."
 msgid_plural "%s minutes."
@@ -232,7 +238,7 @@ msgstr[2] "%s nóiméad."
 msgstr[3] "%s nóiméad."
 msgstr[4] "%s nóiméad."
 
-#: qt/aqt/main.py:1220
+#: qt/aqt/main.py:1222
 #, python-format
 msgid "%s second"
 msgid_plural "%s seconds"
@@ -242,107 +248,111 @@ msgstr[2] "%s soicind"
 msgstr[3] "%s soicind"
 msgstr[4] "%s soicind"
 
-#: qt/aqt/forms/main.py:140
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:141
 msgid "&About..."
 msgstr "&Maidir Le..."
 
-#: qt/aqt/forms/main.py:146
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:147
 msgid "&Browse and Install..."
 msgstr "&Brabhsáil agus suiteáil..."
 
-#: qt/aqt/forms/browser.py:301
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:303
 msgid "&Cards"
 msgstr "&Cártaí"
 
-#: qt/aqt/forms/main.py:147
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:148
 msgid "&Check Database"
 msgstr "Seiceáil an &Bunachar Sonraí"
 
-#: qt/aqt/forms/browser.py:316
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:318
 msgid "&Cram..."
 msgstr "&Dianstaidéar..."
 
-#: qt/aqt/forms/browser.py:298 qt/aqt/forms/main.py:134
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:300
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:135
 msgid "&Edit"
 msgstr "Cuir in &eagar"
 
-#: qt/aqt/forms/browser.py:341
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:343
 msgid "&Export Notes..."
 msgstr "&Nótaí Easpórtála..."
 
-#: qt/aqt/forms/main.py:150
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:151
 msgid "&Export..."
 msgstr "&Easpórtáil..."
 
-#: qt/aqt/forms/main.py:135
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:136
 msgid "&File"
 msgstr "&Comhad"
 
-#: qt/aqt/forms/browser.py:308
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:310
 msgid "&Find"
 msgstr "&Aimsigh"
 
-#: qt/aqt/forms/browser.py:299
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:301
 msgid "&Go"
 msgstr "&Téigh"
 
-#: qt/aqt/forms/browser.py:312 qt/aqt/forms/main.py:148
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:314
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:149
 msgid "&Guide..."
 msgstr "&Treoir..."
 
-#: qt/aqt/forms/browser.py:300 qt/aqt/forms/main.py:133
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:302
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:134
 msgid "&Help"
 msgstr "Ca&bhair"
 
-#: qt/aqt/forms/main.py:151
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:152
 msgid "&Import..."
 msgstr "&Iompórtáil..."
 
-#: qt/aqt/forms/browser.py:326
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:328
 msgid "&Info..."
 msgstr "&Eolas..."
 
-#: qt/aqt/forms/browser.py:307
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:309
 msgid "&Invert Selection"
 msgstr "&Malartaigh Atá Roghnaithe"
 
-#: qt/aqt/forms/browser.py:310
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:312
 msgid "&Next Card"
 msgstr "&Céad Cárta Eile"
 
-#: qt/aqt/forms/browser.py:303
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:305
 msgid "&Notes"
 msgstr "&Nótaí"
 
-#: qt/aqt/forms/main.py:144
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:145
 msgid "&Open Add-ons Folder..."
 msgstr "&Oscail Fillteán Breiseán..."
 
-#: qt/aqt/forms/main.py:138
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:139
 msgid "&Preferences..."
 msgstr "&Sainroghanna..."
 
-#: qt/aqt/forms/browser.py:311
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:313
 msgid "&Previous Card"
 msgstr "Cárta &Roimhe Seo"
 
-#: qt/aqt/forms/browser.py:304
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:306
 msgid "&Reschedule..."
 msgstr "&Athsceidealaigh..."
 
-#: qt/aqt/forms/main.py:145
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:146
 msgid "&Support Anki..."
 msgstr "&Cabhraigh le Anki..."
 
-#: qt/aqt/forms/main.py:149
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:150
 msgid "&Switch Profile"
 msgstr "&Athraigh Próifíl"
 
-#: qt/aqt/forms/main.py:136
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:137
 msgid "&Tools"
 msgstr "&Uirlisí"
 
-#: qt/aqt/forms/browser.py:306 qt/aqt/forms/main.py:141
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:308
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:142
 msgid "&Undo"
 msgstr "&Cealaigh"
 
@@ -356,7 +366,7 @@ msgstr "Líon na réimsí ag '%(row)s': %(num1)d (seachas %(num2)d)"
 msgid "(%s correct)"
 msgstr "(%s ceart)"
 
-#: qt/aqt/addcards.py:149
+#: qt/aqt/addcards.py:154
 msgid "(Note deleted)"
 msgstr "(Nóta scriosta)"
 
@@ -368,15 +378,15 @@ msgstr "(díchumasaithe)"
 msgid "(end)"
 msgstr "(críoch)"
 
-#: qt/aqt/browser.py:367
+#: qt/aqt/browser.py:369
 msgid "(filtered)"
 msgstr "(scagtha)"
 
-#: qt/aqt/browser.py:334
+#: qt/aqt/browser.py:336
 msgid "(learning)"
 msgstr "(á bhfoghlaim)"
 
-#: qt/aqt/browser.py:332 qt/aqt/browser.py:338
+#: qt/aqt/browser.py:334 qt/aqt/browser.py:340
 msgid "(new)"
 msgstr "(nua)"
 
@@ -394,19 +404,21 @@ msgstr "(roghnaigh aon chárta amháin le do thoil)"
 msgid "(requires %s)"
 msgstr "(%s ag teastáil)"
 
-#: qt/aqt/importing.py:329
+#: qt/aqt/importing.py:321
 msgid ".anki files are from a very old version of Anki. You can import them with Anki 2.0, available on the Anki website."
 msgstr "Baineann comhaid .anki le leagan fíorshean de Anki. Is féidir iad a iompórtáil le Anki 2.0, atá ar fáil ar suíomh gréasáin Anki."
 
-#: qt/aqt/importing.py:336
+#: qt/aqt/importing.py:328
 msgid ".anki2 files are not directly importable - please import the .apkg or .zip file you have received instead."
 msgstr "Ní féidir iompórtáil díreach a dhéanamh ar chomhaid .anki2. Déan iompórtáil ar an gcomhad .apkg nó .zip ina n-áit."
 
-#: pylib/anki/stats.py:949 qt/aqt/forms/stats.py:82
+#: pylib/anki/stats.py:949
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/stats.py:83
 msgid "1 month"
 msgstr "1 mhí"
 
-#: pylib/anki/stats.py:949 qt/aqt/forms/stats.py:83
+#: pylib/anki/stats.py:949
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/stats.py:84
 msgid "1 year"
 msgstr "1 bhliain"
 
@@ -445,44 +457,36 @@ msgstr "<a href='%s'>Téigh chuig an suíomh gréasáin</a>"
 msgid "<b>%(pct)d%%</b> (%(x)s of %(y)s)"
 msgstr "<b>%(pct)d%%</b> (%(x)s as %(y)s)"
 
-#: qt/aqt/forms/preferences.py:306
-msgid "<b>Backups</b><br>Anki will create a backup of your collection each time it is closed or synchronized."
-msgstr "<b>Cúltacú</b><br>Déanfaidh Anki cúltacú de do chnuasach gach uair a dhúnfar é nó a dhéantar sioncronaigh air."
-
-#: qt/aqt/forms/exporting.py:75
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/exporting.py:77
 msgid "<b>Export format</b>:"
 msgstr "<b>Formáid easpórtála</b>:"
 
-#: qt/aqt/forms/findreplace.py:87
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/findreplace.py:88
 msgid "<b>Find</b>:"
 msgstr "<b>Aimsigh</b>:"
 
-#: qt/aqt/forms/browseropts.py:71
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browseropts.py:73
 msgid "<b>Font Size</b>:"
 msgstr "<b>Clómhéid</b>:"
 
-#: qt/aqt/forms/browseropts.py:70
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browseropts.py:72
 msgid "<b>Font</b>:"
 msgstr "<b>Cló</b>:"
 
 #: qt/aqt/addons.py:1410
 #, python-format
-msgid ""
-"<b>Important</b>: As add-ons are programs downloaded from the internet, they are potentially malicious.<b>You should only install add-ons you trust.</b><br><br>Are you sure you want to proceed with "
-"the installation of the following Anki add-on(s)?<br><br>%(names)s"
-msgstr ""
-"<b>Tabhair Aire</b>: Os rud é go dtagann breiseáin ón idirlín, tá riosca ann go mbeadh siad mailíseach. <b>Ná suiteáil ach breiseáin atá muinín agat iontu.</b><br><br>An bhfuil tú cinnte gur mhaith "
-"leat leanadh ar aghaidh le suiteáil an bhreiseáin (/na mbreiseáin) seo?<br><br>%(names)s"
+msgid "<b>Important</b>: As add-ons are programs downloaded from the internet, they are potentially malicious.<b>You should only install add-ons you trust.</b><br><br>Are you sure you want to proceed with the installation of the following Anki add-on(s)?<br><br>%(names)s"
+msgstr "<b>Tabhair Aire</b>: Os rud é go dtagann breiseáin ón idirlín, tá riosca ann go mbeadh siad mailíseach. <b>Ná suiteáil ach breiseáin atá muinín agat iontu.</b><br><br>An bhfuil tú cinnte gur mhaith leat leanadh ar aghaidh le suiteáil an bhreiseáin (/na mbreiseáin) seo?<br><br>%(names)s"
 
-#: qt/aqt/forms/findreplace.py:89
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/findreplace.py:90
 msgid "<b>In</b>:"
 msgstr "<b>I</b>:"
 
-#: qt/aqt/forms/exporting.py:76
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/exporting.py:78
 msgid "<b>Include</b>:"
 msgstr "<b>San Áireamh</b>:"
 
-#: qt/aqt/forms/browseropts.py:72
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browseropts.py:74
 msgid "<b>Line Size</b>:"
 msgstr "<b>Méid Líne</b>:"
 
@@ -490,11 +494,11 @@ msgstr "<b>Méid Líne</b>:"
 msgid "<b>Please restart Anki to complete the installation.</b>"
 msgstr "<b>Atosaigh Anki chun an suiteáil a chríochnú.</b>"
 
-#: qt/aqt/forms/findreplace.py:88
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/findreplace.py:89
 msgid "<b>Replace With</b>:"
 msgstr "<b>Athchuir</b>:"
 
-#: qt/aqt/forms/preferences.py:300
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:301
 msgid "<b>Synchronisation</b>"
 msgstr "<b>Sioncronú</b>"
 
@@ -511,19 +515,24 @@ msgstr ""
 msgid "<h1>Anki Updated</h1>Anki %s has been released.<br><br>"
 msgstr "<h1>Anki Nuashonraithe</h1>Anki %s ar fáil.<br><br>"
 
-#: qt/aqt/importing.py:266
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:307
+#, fuzzy
+msgid "<html><head/><body><p><span style=\" font-weight:600;\">Backups</span><br/>Anki will create a backup of your collection each time it is closed.</p></body></html>"
+msgstr "<b>Cúltacú</b><br>Déanfaidh Anki cúltacú de do chnuasach gach uair a dhúnfar é nó a dhéantar sioncronaigh air."
+
+#: qt/aqt/importing.py:258
 msgid "<ignored>"
 msgstr "<neamhaird>"
 
-#: qt/aqt/main.py:1534
+#: qt/aqt/main.py:1537
 msgid "<non-unicode text>"
 msgstr "<téacs nach bhfuil in unicode>"
 
-#: qt/aqt/browser.py:758
+#: qt/aqt/browser.py:765
 msgid "<type here to search; hit enter to show current deck>"
 msgstr "<clóscríobh anseo chun cuardach; bruigh an eochair iontrála chun an paca roghnaithe a thaispeáint>"
 
-#: qt/aqt/about.py:224
+#: qt/aqt/about.py:225
 msgid "A big thanks to all the people who have provided suggestions, bug reports and donations."
 msgstr "Míle buíochas le gach duine a thug moltaí, tuairiscí fabht, agus síntiúis."
 
@@ -536,28 +545,32 @@ msgstr "Is é <i>éascaíocht</i> chárta ná fad an céad eatramh eile nuair a 
 msgid "Aborted: %s"
 msgstr "Tobscortha: %s"
 
-#: qt/aqt/forms/about.py:43
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/about.py:45
 msgid "About Anki"
 msgstr "Maidir le Anki"
 
-#: qt/aqt/addcards.py:38 qt/aqt/addcards.py:68 qt/aqt/deckconf.py:89 qt/aqt/models.py:54 qt/aqt/studydeck.py:46 qt/aqt/toolbar.py:112 qt/aqt/forms/addcards.py:58 qt/aqt/forms/fields.py:102
-#: qt/aqt/forms/profiles.py:81
+#: qt/aqt/addcards.py:38 qt/aqt/addcards.py:70 qt/aqt/deckconf.py:89
+#: qt/aqt/models.py:57 qt/aqt/studydeck.py:46 qt/aqt/toolbar.py:112
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addcards.py:60
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:103
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/profiles.py:82
 msgid "Add"
 msgstr "Cuir Leis"
 
-#: qt/aqt/addcards.py:71
+#: qt/aqt/addcards.py:73
 msgid "Add (shortcut: ctrl+enter)"
 msgstr "Cuir Leis (aicearra: Ctrl+Enter)"
 
-#: qt/aqt/clayout.py:674
+#: qt/aqt/clayout.py:676
 msgid "Add Card Type..."
 msgstr "Cuir Cineál Cárta Leis"
 
-#: qt/aqt/clayout.py:389 qt/aqt/forms/addfield.py:61
+#: qt/aqt/clayout.py:389
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addfield.py:62
 msgid "Add Field"
 msgstr "Cuir Réimse Leis"
 
-#: qt/aqt/editor.py:709
+#: qt/aqt/editor.py:718
 msgid "Add Media"
 msgstr "Cuir Meáin Leis"
 
@@ -565,23 +578,23 @@ msgstr "Cuir Meáin Leis"
 msgid "Add New Deck (Ctrl+N)"
 msgstr "Cuir Paca Nua Leis (Ctrl+N)"
 
-#: qt/aqt/forms/addmodel.py:44
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addmodel.py:46
 msgid "Add Note Type"
 msgstr "Cuir Cineál Nóta Leis"
 
-#: qt/aqt/forms/browser.py:331
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:333
 msgid "Add Notes..."
 msgstr "Cuir Nótaí Leis..."
 
-#: qt/aqt/browser.py:1626
+#: qt/aqt/browser.py:1629
 msgid "Add Tags"
 msgstr "Cuir Clibeanna Leis"
 
-#: qt/aqt/forms/browser.py:327
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:329
 msgid "Add Tags..."
 msgstr "Cuir Clibeanna Leis..."
 
-#: qt/aqt/browser.py:170
+#: qt/aqt/browser.py:172
 msgid "Add-on"
 msgstr "Breiseán"
 
@@ -597,24 +610,25 @@ msgstr "Fadhb le suiteáil an bhreiseáin"
 msgid "Add-on was not downloaded from AnkiWeb."
 msgstr "Níor íosládaladh an breiseán ó AnkiWeb."
 
-#: qt/aqt/main.py:1597
+#: qt/aqt/main.py:1600
 msgid "Add-on will be installed when a profile is opened."
 msgstr "Suiteálfar an breiseán nuair a osclaítear próifíl."
 
-#: qt/aqt/forms/main.py:156
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:157
 msgid "Add-ons"
 msgstr "Breiseáin"
 
-#: qt/aqt/models.py:208
+#: qt/aqt/models.py:212
 #, python-format
 msgid "Add: %s"
 msgstr "Cur leis: %s"
 
-#: pylib/anki/stats.py:309 pylib/anki/importing/anki2.py:166 qt/aqt/addcards.py:193
+#: pylib/anki/importing/anki2.py:163 pylib/anki/stats.py:309
+#: qt/aqt/addcards.py:202
 msgid "Added"
 msgstr "Curtha leis"
 
-#: qt/aqt/browser.py:1265
+#: qt/aqt/browser.py:1263
 msgid "Added Today"
 msgstr "Curtha Leis Inniu"
 
@@ -627,7 +641,7 @@ msgstr "Cuirtear dúblach leis, atá '%s' mar chéad réimse aige."
 msgid "Again"
 msgstr "Arís"
 
-#: qt/aqt/browser.py:1267
+#: qt/aqt/browser.py:1265
 msgid "Again Today"
 msgstr "Arís inniu"
 
@@ -640,7 +654,7 @@ msgstr "Arís: %s"
 msgid "All Buried Cards"
 msgstr "Gach Cárta Atá i bhFolach"
 
-#: qt/aqt/browser.py:1348
+#: qt/aqt/browser.py:1349
 msgid "All Card Types"
 msgstr "Gach Cineál Cárta"
 
@@ -648,36 +662,38 @@ msgstr "Gach Cineál Cárta"
 msgid "All Decks"
 msgstr "Gach Paca"
 
-#: qt/aqt/browser.py:1877
+#: qt/aqt/browser.py:1884
 msgid "All Fields"
 msgstr "Gach Réimse"
 
-#: qt/aqt/forms/customstudy.py:118
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:119
 msgid "All cards in random order (don't reschedule)"
 msgstr "Cártaí ar fad, in ord randamach (ná déan athsceidealú)"
 
-#: qt/aqt/main.py:322
+#: qt/aqt/main.py:324
 msgid "All cards, notes, and media for this profile will be deleted. Are you sure?"
 msgstr "Scriosfar gach cárta, nóta agus meán don phróifíil seo. An bhfuil tú cinnte?"
 
-#: qt/aqt/forms/customstudy.py:116
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:117
 msgid "All review cards in random order"
 msgstr "Cártaí athbhreithnithe ar fad, in ord randamach"
 
-#: qt/aqt/forms/importing.py:110
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:112
 msgid "Allow HTML in fields"
 msgstr "Ceadaigh HTML i réimsí"
 
-#: qt/aqt/forms/dconf.py:377
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:379
 msgid "Always include question side when replaying audio"
 msgstr "Cas an cheist i gcónaí nuair a athsheinntear fuaim."
 
-#: qt/aqt/editor.py:847
+#: qt/aqt/editor.py:856
 #, python-format
 msgid "An error occurred while opening %s"
 msgstr "Bhí fadhb nuair a osclaíodh %s"
 
-#: qt/aqt/forms/main.py:132 qt/aqt/forms/setgroup.py:38 qt/aqt/forms/setlang.py:39
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:133
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/setgroup.py:40
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/setlang.py:41
 msgid "Anki"
 msgstr "Anki"
 
@@ -685,11 +701,11 @@ msgstr "Anki"
 msgid "Anki 2.0 Deck"
 msgstr "Paca Anki 2.0"
 
-#: qt/aqt/forms/preferences.py:292
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:293
 msgid "Anki 2.1 scheduler (beta)"
 msgstr "Sceidealóir Anki 2.1 (beta)"
 
-#: pylib/anki/exporting.py:397
+#: pylib/anki/exporting.py:398
 msgid "Anki Collection Package"
 msgstr "Pacáiste Cnuasaigh Anki"
 
@@ -702,14 +718,10 @@ msgid "Anki could not read your profile data. Window sizes and your sync login d
 msgstr "Níor éirigh le Anki sonraí do phróifíl a léamh. Tá méid na bhfuinneog agus do chuid dintiúir dearmadta."
 
 #: qt/aqt/profiles.py:326
-msgid ""
-"Anki could not rename your profile because it could not rename the profile folder on disk. Please ensure you have permission to write to Documents/Anki and no other programs are accessing your "
-"profile folders, then try again."
-msgstr ""
-"Níor éirigh le Anki an phróifíl a athainmniú, de bharr nárbh fhéidir an fillteán a athainmniú. Déan cinnte go bufuil cead scríobha comhaid agat ar Documents/Anki agus nach bhfuil bogearra ar bith "
-"eile ag úsáíd do chuid fillteáin phróifíle. Ansin bain triail eile as."
+msgid "Anki could not rename your profile because it could not rename the profile folder on disk. Please ensure you have permission to write to Documents/Anki and no other programs are accessing your profile folders, then try again."
+msgstr "Níor éirigh le Anki an phróifíl a athainmniú, de bharr nárbh fhéidir an fillteán a athainmniú. Déan cinnte go bufuil cead scríobha comhaid agat ar Documents/Anki agus nach bhfuil bogearra ar bith eile ag úsáíd do chuid fillteáin phróifíle. Ansin bain triail eile as."
 
-#: qt/aqt/clayout.py:659
+#: qt/aqt/clayout.py:661
 msgid "Anki couldn't find the line between the question and answer. Please adjust the template manually to switch the question and answer."
 msgstr "Níor aimsigh Anki an líne idir an ceist agus an freagra. Deisigh an teimpléad de láimh, chun an cheist agus an freagra a mhalartú."
 
@@ -721,7 +733,7 @@ msgstr "Córas foghlama athchleachtadh tréimhsiúil is ea Anki. Tá sé cliste 
 msgid "Anki is licensed under the AGPL3 license. Please see the license file in the source distribution for more information."
 msgstr "Ceadúnaítear Anki faoi réir an cheadúnas AGPL3. Féach an comhad cheadúnais sa dáileadh foinseach chun tuilleadh eolais a fháil."
 
-#: qt/aqt/browser.py:734
+#: qt/aqt/browser.py:741
 msgid "Answer"
 msgstr "Freagra"
 
@@ -733,11 +745,11 @@ msgstr "Cnaipí Freagra"
 msgid "Answers"
 msgstr "Freagraí"
 
-#: qt/aqt/browser.py:1291
+#: qt/aqt/browser.py:1289
 msgid "Any Flag"
 msgstr "Brat ar bith"
 
-#: qt/aqt/browser.py:2253
+#: qt/aqt/browser.py:2263
 msgid "Any cards mapped to nothing will be deleted. If a note has no remaining cards, it will be lost. Are you sure you want to continue?"
 msgstr "Scriosfar aon chártaí nach mapálann go dtí rud ar bith. Muna bhfuil cártaí ar bith fágtha ag nóta, caillfear é. An bhfuil tú cinnte gur mhaith leat leanúint ar aghaidh?"
 
@@ -751,7 +763,7 @@ msgstr "Faoi dhó sa chomhad: %s"
 msgid "Are you sure you wish to delete %s?"
 msgstr "An bhfuil tú cinnte gur mhaith leat %s a scriosadh?"
 
-#: qt/aqt/clayout.py:549
+#: qt/aqt/clayout.py:551
 msgid "At least one card type is required."
 msgstr "Teastaíonn ar a laghad cineál amháin cárta."
 
@@ -759,7 +771,7 @@ msgstr "Teastaíonn ar a laghad cineál amháin cárta."
 msgid "At least one step is required."
 msgstr "Teastaíonn ar a laghad céim amháin."
 
-#: qt/aqt/editor.py:173
+#: qt/aqt/editor.py:176
 msgid "Attach pictures/audio/video (F3)"
 msgstr "Cuir pictiúir/fuaim/fís leis (F3)"
 
@@ -771,15 +783,15 @@ msgstr "Fuaim +5s"
 msgid "Audio -5s"
 msgstr "Fuaim -5s"
 
-#: qt/aqt/main.py:372
+#: qt/aqt/main.py:374
 msgid "Automatic syncing and backups have been disabled while restoring. To enable them again, close the profile or restart Anki."
 msgstr "Tá sioncronú uathoibríoch agus cúltacaí díchumasaithe agus ais aischuir ar siúl. Chun iad a chur ar fáil arís, dún an phróifíl nó athtosaigh Anki."
 
-#: qt/aqt/forms/dconf.py:376
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:378
 msgid "Automatically play audio"
 msgstr "Cas fuaimeanna go uathoibríoch"
 
-#: qt/aqt/forms/preferences.py:302
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:303
 msgid "Automatically sync on profile open/close"
 msgstr "Déan sioncronú go huathoibríoch nuair a dhúntar/osclaítear próifíl"
 
@@ -807,23 +819,24 @@ msgstr "Meáneatramh"
 msgid "Back Side Only"
 msgstr "Taobh Thiar Amháin"
 
-#: qt/aqt/main.py:556
+#: qt/aqt/main.py:558
 msgid "Backing Up..."
 msgstr "Ag cúltacú"
 
-#: qt/aqt/forms/preferences.py:312
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:313
 msgid "Backups"
 msgstr "Cúltacaí"
 
-#: qt/aqt/forms/preferences.py:288
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:289
 msgid "Basic"
 msgstr "Bunúsach"
 
-#: qt/aqt/browser.py:1289 qt/aqt/reviewer.py:719 qt/aqt/forms/browser.py:336
+#: qt/aqt/browser.py:1287 qt/aqt/reviewer.py:719
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:338
 msgid "Blue Flag"
 msgstr "Bratach ghorm"
 
-#: qt/aqt/editor.py:122
+#: qt/aqt/editor.py:143
 msgid "Bold text (Ctrl+B)"
 msgstr "Téacs trom (Ctrl+B)"
 
@@ -831,7 +844,7 @@ msgstr "Téacs trom (Ctrl+B)"
 msgid "Browse"
 msgstr "Brabhsáil"
 
-#: qt/aqt/browser.py:817
+#: qt/aqt/browser.py:826
 #, python-format
 msgid "Browse (%(cur)d card shown; %(sel)s)"
 msgid_plural "Browse (%(cur)d cards shown; %(sel)s)"
@@ -845,15 +858,15 @@ msgstr[4] "Brabhsáil (%(cur)d cárta léirithe; %(sel)s)"
 msgid "Browse Add-ons"
 msgstr "Brabhsáil Breiseáin"
 
-#: qt/aqt/forms/browserdisp.py:69
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browserdisp.py:71
 msgid "Browser Appearance"
 msgstr "Cuma an Bhrabhsálaí"
 
-#: qt/aqt/clayout.py:696
+#: qt/aqt/clayout.py:698
 msgid "Browser Appearance..."
 msgstr "Cuma an Bhrabhsálaí..."
 
-#: qt/aqt/forms/browseropts.py:69
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browseropts.py:71
 msgid "Browser Options"
 msgstr "Roghanna Brabhsálaí"
 
@@ -861,7 +874,7 @@ msgstr "Roghanna Brabhsálaí"
 msgid "Build"
 msgstr "Leagan"
 
-#: qt/aqt/browser.py:1284
+#: qt/aqt/browser.py:1282
 msgid "Buried"
 msgstr "I bhFolach"
 
@@ -881,41 +894,39 @@ msgstr "Cuir Cárta i bhFolach"
 msgid "Bury Note"
 msgstr "Cuir Nóta i bhFolach"
 
-#: qt/aqt/forms/dconf.py:347
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:349
 msgid "Bury related new cards until the next day"
 msgstr "Cuir cartaí nua gaolmhara i bhfolach go dtí an lá dar gcionn"
 
-#: qt/aqt/forms/dconf.py:358
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:360
 msgid "Bury related reviews until the next day"
 msgstr "Cuir athbhreithnithe gaolmhara i bhfolach go dtí an lá dar gcionn"
 
-#: qt/aqt/importing.py:130
+#: qt/aqt/importing.py:123
 msgid ""
 "By default, Anki will detect the character between fields, such as\n"
 "a tab, comma, and so on. If Anki is detecting the character incorrectly,\n"
 "you can enter it here. Use \\t to represent tab."
-msgstr ""
-"De réir réamhshocraithe, braithfidh Anki an carachtar idir réimsí (táb nó camóg, cuir i gcás).  Má bhraitheann Anki an carachtar mícheart, is féidir é a chuir isteach anseo.  Úsáid \\t chun táb a "
-"chur isteach."
+msgstr "De réir réamhshocraithe, braithfidh Anki an carachtar idir réimsí (táb nó camóg, cuir i gcás).  Má bhraitheann Anki an carachtar mícheart, is féidir é a chuir isteach anseo.  Úsáid \\t chun táb a chur isteach."
 
-#: qt/aqt/clayout.py:405 qt/aqt/overview.py:134 qt/aqt/sound.py:557
+#: qt/aqt/clayout.py:405 qt/aqt/overview.py:134 qt/aqt/sound.py:602
 msgid "Cancel"
 msgstr "Cealaigh"
 
-#: qt/aqt/browser.py:735
+#: qt/aqt/browser.py:742
 msgid "Card"
 msgstr "Cárta"
 
-#: qt/aqt/clayout.py:620
+#: qt/aqt/clayout.py:622
 #, python-format
 msgid "Card %d"
 msgstr "Cárta %d"
 
-#: qt/aqt/forms/browser.py:318
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:320
 msgid "Card List"
 msgstr "Liosta Cártaí"
 
-#: qt/aqt/browser.py:1274
+#: qt/aqt/browser.py:1272
 msgid "Card State"
 msgstr "Staid Chárta"
 
@@ -940,11 +951,12 @@ msgstr "Cárta ar fionraí."
 msgid "Card was a leech."
 msgstr "Súmaire arbh é an chárta."
 
-#: pylib/anki/stats.py:310 pylib/anki/stats.py:962 qt/aqt/editor.py:192 qt/aqt/forms/changemodel.py:112
+#: pylib/anki/stats.py:310 pylib/anki/stats.py:962 qt/aqt/editor.py:134
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/changemodel.py:114
 msgid "Cards"
 msgstr "Cártaí"
 
-#: qt/aqt/browser.py:1600
+#: qt/aqt/browser.py:1603
 msgid "Cards can't be manually moved into a filtered deck."
 msgstr "Ní féidir cártaí a bhogadh isteach de láimh i bpaca scagtha."
 
@@ -956,7 +968,7 @@ msgstr "Cártaí i ngnáth-théacs"
 msgid "Cards will be automatically returned to their original decks after you review them."
 msgstr "Cuirfear gach cárta ar ais sa phaca céanna as ar tháinig sé tar éis duit athbrheithniú a dhéanamh air."
 
-#: qt/aqt/models.py:63
+#: qt/aqt/models.py:66
 msgid "Cards..."
 msgstr "Cártaí..."
 
@@ -964,44 +976,45 @@ msgstr "Cártaí..."
 msgid "Center"
 msgstr "Lár"
 
-#: qt/aqt/importing.py:268
+#: qt/aqt/importing.py:260
 msgid "Change"
 msgstr "Athraigh"
 
-#: qt/aqt/browser.py:2173
+#: qt/aqt/browser.py:2183
 #, python-format
 msgid "Change %s to:"
 msgstr "Athraigh %s go:"
 
-#: qt/aqt/browser.py:1591 qt/aqt/browser.py:1603
+#: qt/aqt/browser.py:1594 qt/aqt/browser.py:1606
 msgid "Change Deck"
 msgstr "Athraigh Paca"
 
-#: qt/aqt/forms/browser.py:332
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:334
 msgid "Change Deck..."
 msgstr "Athraigh Paca..."
 
-#: qt/aqt/browser.py:2260 qt/aqt/forms/changemodel.py:109
+#: qt/aqt/browser.py:2270
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/changemodel.py:111
 msgid "Change Note Type"
 msgstr "Athraigh Cineál Nóta"
 
-#: qt/aqt/modelchooser.py:31
+#: qt/aqt/modelchooser.py:44
 msgid "Change Note Type (Ctrl+N)"
 msgstr "Athraigh Cineál nóta (Ctrl+N)"
 
-#: qt/aqt/forms/browser.py:313
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:315
 msgid "Change Note Type..."
 msgstr "Athraigh Cineál Nóta..."
 
-#: qt/aqt/editor.py:153
+#: qt/aqt/editor.py:168
 msgid "Change colour (F8)"
 msgstr "Athraigh dath (F8)"
 
-#: qt/aqt/forms/preferences.py:285
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:286
 msgid "Change deck depending on note type"
 msgstr "Athraigh paca de réir an chineál nóta"
 
-#: qt/aqt/forms/addons.py:69
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:70
 msgid "Changes will take effect when Anki is restarted."
 msgstr "Tiocfaidh na athruithe i bhfeidhm nuair a atosófar Anki."
 
@@ -1009,15 +1022,15 @@ msgstr "Tiocfaidh na athruithe i bhfeidhm nuair a atosófar Anki."
 msgid "Changes will take effect when you restart Anki."
 msgstr "Tiocfaidh na athruithe i bhfeidhm nuair a atosófar Anki."
 
-#: qt/aqt/forms/main.py:142
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:143
 msgid "Check &Media..."
 msgstr "Seiceáil &Meáin..."
 
-#: qt/aqt/forms/addons.py:72
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:73
 msgid "Check for Updates"
 msgstr "Seiceáil an bhfuil nuashonrú ann"
 
-#: qt/aqt/forms/main.py:143
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:144
 msgid "Check the files in the media directory"
 msgstr "Seiceáil na comhaid san fhillteán meán"
 
@@ -1025,7 +1038,7 @@ msgstr "Seiceáil na comhaid san fhillteán meán"
 msgid "Checking..."
 msgstr "Ag seiceáil..."
 
-#: qt/aqt/deckchooser.py:87 qt/aqt/modelchooser.py:71
+#: qt/aqt/deckchooser.py:87 qt/aqt/modelchooser.py:84
 msgid "Choose"
 msgstr "Roghnaigh"
 
@@ -1033,7 +1046,7 @@ msgstr "Roghnaigh"
 msgid "Choose Deck"
 msgstr "Roghnaigh Paca"
 
-#: qt/aqt/modelchooser.py:72
+#: qt/aqt/modelchooser.py:85
 msgid "Choose Note Type"
 msgstr "Roghnaigh Cineál Nóta"
 
@@ -1041,28 +1054,29 @@ msgstr "Roghnaigh Cineál Nóta"
 msgid "Choose Tags"
 msgstr "Roghnaigh Clibeanna"
 
-#: qt/aqt/browser.py:1300
+#: qt/aqt/browser.py:1301
 msgid "Clear Unused"
 msgstr "Glan Ábhar Neamhúsáidte"
 
-#: qt/aqt/forms/browser.py:338
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:340
 msgid "Clear Unused Tags"
 msgstr "Glan Clibeanna Neamhúsáidte"
 
-#: qt/aqt/models.py:213
+#: qt/aqt/models.py:217
 #, python-format
 msgid "Clone: %s"
 msgstr "Clónáil: %s"
 
-#: qt/aqt/addcards.py:73 qt/aqt/forms/browser.py:325
+#: qt/aqt/addcards.py:75
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:327
 msgid "Close"
 msgstr "Dún"
 
-#: qt/aqt/addcards.py:223
+#: qt/aqt/addcards.py:232
 msgid "Close and lose current input?"
 msgstr "Dún (agus caill ionchur atá ar bun)?"
 
-#: qt/aqt/main.py:554
+#: qt/aqt/main.py:556
 msgid "Closing..."
 msgstr "Ag dúnadh..."
 
@@ -1071,11 +1085,11 @@ msgstr "Ag dúnadh..."
 msgid "Cloze %d"
 msgstr "Iomlánú %d"
 
-#: qt/aqt/editor.py:170
+#: qt/aqt/editor.py:174
 msgid "Cloze deletion (Ctrl+Shift+C)"
 msgstr "Sliocht Iomlánaithe (Ctrl+Shift+C)"
 
-#: qt/aqt/forms/getaddons.py:50
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/getaddons.py:52
 msgid "Code:"
 msgstr "Cód:"
 
@@ -1083,27 +1097,27 @@ msgstr "Cód:"
 msgid "Collection exported."
 msgstr "Cnuasacht easpórtáilte."
 
-#: qt/aqt/importing.py:174
+#: qt/aqt/importing.py:167
 msgid "Colon"
 msgstr "Idirstad"
 
-#: qt/aqt/importing.py:168
+#: qt/aqt/importing.py:161
 msgid "Comma"
 msgstr "Camóg"
 
-#: qt/aqt/forms/addons.py:74
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:75
 msgid "Config"
 msgstr "Cumraíocht"
 
-#: qt/aqt/forms/addonconf.py:72
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addonconf.py:73
 msgid "Configuration"
 msgstr "Cumraíocht"
 
-#: qt/aqt/forms/main.py:139
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:140
 msgid "Configure interface language and options"
 msgstr "Cumraigh teanga agus roghanna an chomhéadain"
 
-#: qt/aqt/reviewer.py:94
+#: qt/aqt/reviewer.py:96
 msgid "Continue"
 msgstr "Lean ar aghaidh"
 
@@ -1111,7 +1125,7 @@ msgstr "Lean ar aghaidh"
 msgid "Copied to clipboard"
 msgstr "Cóip curtha sa ghearrthaisce"
 
-#: qt/aqt/editor.py:1199 qt/aqt/webview.py:285
+#: qt/aqt/editor.py:1211 qt/aqt/webview.py:289
 msgid "Copy"
 msgstr "Cóipeáil"
 
@@ -1119,7 +1133,7 @@ msgstr "Cóipeáil"
 msgid "Copy Debug Info"
 msgstr "Cóipeáil sonraí dífhabhtaigh"
 
-#: qt/aqt/utils.py:142
+#: qt/aqt/utils.py:148
 msgid "Copy to Clipboard"
 msgstr "Cóipeáil don gearrthaisce"
 
@@ -1137,7 +1151,7 @@ msgstr "Ceart: <b>%(pct)0.2f%%</b><br>(%(good)d as %(tot)d)"
 msgid "Corrupt add-on file."
 msgstr "Comhad breiseáin truaillithe."
 
-#: qt/aqt/editor.py:742
+#: qt/aqt/editor.py:751
 msgid "Couldn't record audio. Have you installed 'lame'?"
 msgstr "Ní féidir taifead fuaime a dhéanamh. An bhfuil 'lame' suite?"
 
@@ -1154,19 +1168,19 @@ msgstr "Díonstaidéar"
 msgid "Create Deck"
 msgstr "Cruthaigh Paca"
 
-#: qt/aqt/forms/main.py:154
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:155
 msgid "Create Filtered Deck..."
 msgstr "Cruthaigh paca scagtha..."
 
-#: qt/aqt/forms/modelopts.py:64
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/modelopts.py:66
 msgid "Create scalable images with dvisvgm"
 msgstr "Crughaigh íomhánna inscálaithe le dvisvgm"
 
-#: qt/aqt/browser.py:738
+#: qt/aqt/browser.py:745
 msgid "Created"
 msgstr "Cruthaithe"
 
-#: qt/aqt/forms/browser.py:342
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:344
 msgid "Ctrl+Shift+E"
 msgstr "Ctrl+Shift+E"
 
@@ -1187,15 +1201,16 @@ msgstr "Freagraí Carnach"
 msgid "Cumulative Cards"
 msgstr "Cártaí Carnach"
 
-#: qt/aqt/browser.py:1125 qt/aqt/browser.py:1257
+#: qt/aqt/browser.py:1115 qt/aqt/browser.py:1255
 msgid "Current Deck"
 msgstr "Paca reatha"
 
-#: qt/aqt/forms/changemodel.py:110
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/changemodel.py:112
 msgid "Current note type:"
 msgstr "Cineál reatha nóta:"
 
-#: qt/aqt/overview.py:258 qt/aqt/forms/customstudy.py:102
+#: qt/aqt/overview.py:258
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:103
 msgid "Custom Study"
 msgstr "Staidéar ar Leith"
 
@@ -1203,19 +1218,19 @@ msgstr "Staidéar ar Leith"
 msgid "Custom Study Session"
 msgstr "Seisiún Staidéir ar Leith"
 
-#: qt/aqt/forms/dyndconf.py:147
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:149
 msgid "Custom steps (in minutes)"
 msgstr "Céimeanna saincheaptha (nóiméid)"
 
-#: qt/aqt/editor.py:195
+#: qt/aqt/editor.py:133
 msgid "Customize Card Templates (Ctrl+L)"
 msgstr "Saincheap Teimpléid Chártaí (Ctrl+L)"
 
-#: qt/aqt/editor.py:194
+#: qt/aqt/editor.py:125
 msgid "Customize Fields"
 msgstr "Saincheap Réimsí"
 
-#: qt/aqt/editor.py:1197
+#: qt/aqt/editor.py:1209
 msgid "Cut"
 msgstr "Gearr"
 
@@ -1223,19 +1238,20 @@ msgstr "Gearr"
 msgid "Days studied"
 msgstr "Laethanta gníomhacha"
 
-#: qt/aqt/forms/debug.py:55
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/debug.py:56
 msgid "Debug Console"
 msgstr "Consól Dífhabhtaithe"
 
-#: qt/aqt/browser.py:736 qt/aqt/deckbrowser.py:147 qt/aqt/deckchooser.py:29 qt/aqt/forms/importing.py:106
+#: qt/aqt/browser.py:743 qt/aqt/deckbrowser.py:147 qt/aqt/deckchooser.py:29
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:108
 msgid "Deck"
 msgstr "Paca"
 
-#: qt/aqt/clayout.py:693
+#: qt/aqt/clayout.py:695
 msgid "Deck Override..."
 msgstr "Sárú Paca..."
 
-#: qt/aqt/main.py:1599
+#: qt/aqt/main.py:1602
 msgid "Deck will be imported when a profile is opened."
 msgstr "Déanfar an paca a iompórtáil nuair a osclaítear próifíl."
 
@@ -1255,8 +1271,12 @@ msgstr "Réamhshocrú"
 msgid "Delays until reviews are shown again."
 msgstr "Cé chomh fhada a bheidh le fanacht idir amharcanna ar chártaí."
 
-#: qt/aqt/deckbrowser.py:234 qt/aqt/deckconf.py:91 qt/aqt/models.py:56 qt/aqt/reviewer.py:812 qt/aqt/forms/addons.py:77 qt/aqt/forms/browser.py:330 qt/aqt/forms/fields.py:103
-#: qt/aqt/forms/profiles.py:83
+#: qt/aqt/deckbrowser.py:234 qt/aqt/deckconf.py:91 qt/aqt/models.py:59
+#: qt/aqt/reviewer.py:812
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:78
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:332
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:104
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/profiles.py:84
 msgid "Delete"
 msgstr "Scrios"
 
@@ -1268,15 +1288,15 @@ msgstr "Scrios Paca"
 msgid "Delete Note"
 msgstr "Scrios Nóta"
 
-#: qt/aqt/browser.py:1544
+#: qt/aqt/browser.py:1547
 msgid "Delete Notes"
 msgstr "Scrios Nótaí"
 
-#: qt/aqt/browser.py:1636
+#: qt/aqt/browser.py:1639
 msgid "Delete Tags"
 msgstr "Scrios Clibeanna"
 
-#: qt/aqt/fields.py:124
+#: qt/aqt/fields.py:126
 #, python-format
 msgid "Delete field from %s?"
 msgstr "Scrios réimse ó %s?"
@@ -1291,16 +1311,16 @@ msgstr[2] "Scrios %(num)d bhreiseán roghnaithe?"
 msgstr[3] "Scrios %(num)d mbreiseán roghnaithe?"
 msgstr[4] "Scrios %(num)d breiseán roghnaithe?"
 
-#: qt/aqt/clayout.py:559
+#: qt/aqt/clayout.py:561
 #, python-format
 msgid "Delete the '%(a)s' card type, and its %(b)s?"
 msgstr "Scrios an cineál cárta '%(a)s' agus na %(b)s a ghabhann leis?"
 
-#: qt/aqt/models.py:130
+#: qt/aqt/models.py:134
 msgid "Delete this note type and all its cards?"
 msgstr "Scrios an cineál seo nóta agus a chuid cártaí go léir?"
 
-#: qt/aqt/models.py:132
+#: qt/aqt/models.py:136
 msgid "Delete this unused note type?"
 msgstr "Scrios an cineál nóta neamhúsáidte seo?"
 
@@ -1308,15 +1328,18 @@ msgstr "Scrios an cineál nóta neamhúsáidte seo?"
 msgid "Deleting this deck from the deck list will return all remaining cards to their original deck."
 msgstr "Má scriostar an paca seo ón liosta pacaí, cuirfear gach cárta ann (faoi seach) ar ais sa phaca a bhí sé ann ón gcéad lá."
 
-#: qt/aqt/forms/dconf.py:380
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:382
 msgid "Description"
 msgstr "Cur síos"
 
-#: qt/aqt/forms/dconf.py:379
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:381
 msgid "Description to show on overview screen, for current deck:"
 msgstr "Cur síos le taispeáint ar scáileán achoimre, don phaca reatha:"
 
-#: qt/aqt/forms/dyndconf.py:133 qt/aqt/forms/editaddon.py:40 qt/aqt/forms/editcurrent.py:41 qt/aqt/forms/progress.py:40
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:135
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/editaddon.py:42
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/editcurrent.py:43
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/progress.py:42
 msgid "Dialog"
 msgstr "Dialóg"
 
@@ -1339,7 +1362,7 @@ msgstr "%(fname)s Íoslódáilte"
 msgid "Downloading %(a)d/%(b)d (%(kb)0.2fKB)..."
 msgstr "Á íoslódáil: %(a)d/%(b)d (%(kb)0.2fKB)..."
 
-#: qt/aqt/forms/customstudy.py:114
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:115
 msgid "Due cards only"
 msgstr "Cártaí dlite amháin"
 
@@ -1347,11 +1370,11 @@ msgstr "Cártaí dlite amháin"
 msgid "Due tomorrow"
 msgstr "Dlite amárach"
 
-#: qt/aqt/forms/main.py:137
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:138
 msgid "E&xit"
 msgstr "&Scoir"
 
-#: qt/aqt/browser.py:743
+#: qt/aqt/browser.py:750
 msgid "Ease"
 msgstr "Éascaíocht"
 
@@ -1359,19 +1382,19 @@ msgstr "Éascaíocht"
 msgid "Easy"
 msgstr "Éasca"
 
-#: qt/aqt/forms/dconf.py:351
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:353
 msgid "Easy bonus"
 msgstr "Bónas éasca"
 
-#: qt/aqt/forms/dconf.py:343
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:345
 msgid "Easy interval"
 msgstr "Eatramh éasca"
 
-#: qt/aqt/reviewer.py:569
+#: qt/aqt/reviewer.py:572
 msgid "Edit"
 msgstr "Cuir in eagar"
 
-#: qt/aqt/addcards.py:144
+#: qt/aqt/addcards.py:149
 #, python-format
 msgid "Edit \"%s\""
 msgstr "Cuir in eagar \"%s\""
@@ -1380,11 +1403,11 @@ msgstr "Cuir in eagar \"%s\""
 msgid "Edit Current"
 msgstr "Cuir ábhar reatha in Eagar"
 
-#: qt/aqt/editor.py:950
+#: qt/aqt/editor.py:959
 msgid "Edit HTML"
 msgstr "Cuir HTML in eagar"
 
-#: qt/aqt/forms/fields.py:106
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:107
 msgid "Editing Font"
 msgstr "Eagarthóireacht chlófhoirne"
 
@@ -1392,7 +1415,7 @@ msgstr "Eagarthóireacht chlófhoirne"
 msgid "Empty"
 msgstr "Folamh"
 
-#: qt/aqt/forms/main.py:153
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:154
 msgid "Empty Cards..."
 msgstr "Cártaí Folmha..."
 
@@ -1401,29 +1424,29 @@ msgstr "Cártaí Folmha..."
 msgid "Empty first field: %s"
 msgstr "Céad réimse folamh: %s"
 
-#: qt/aqt/forms/dyndconf.py:144
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:146
 msgid "Enable second filter"
 msgstr "Cur scagaire eile i bhfeidhm"
 
-#: qt/aqt/forms/browser.py:324
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:326
 msgid "End"
 msgstr "Deireadh"
 
-#: qt/aqt/clayout.py:738
+#: qt/aqt/clayout.py:740
 #, python-format
 msgid "Enter deck to place new %s cards in, or leave blank:"
 msgstr "Paca chun cártaí nua %s a chur ann (nó fág bán):"
 
-#: qt/aqt/clayout.py:598
+#: qt/aqt/clayout.py:600
 #, python-format
 msgid "Enter new card position (1...%s):"
 msgstr "Áit do chárta nua (1...%s):"
 
-#: qt/aqt/browser.py:1616
+#: qt/aqt/browser.py:1619
 msgid "Enter tags to add:"
 msgstr "Clibeanna nua le cur leis:"
 
-#: qt/aqt/browser.py:1638
+#: qt/aqt/browser.py:1641
 msgid "Enter tags to delete:"
 msgstr "Clibeanna le scriosadh:"
 
@@ -1432,7 +1455,7 @@ msgstr "Clibeanna le scriosadh:"
 msgid "Error downloading <i>%(id)s</i>: %(error)s"
 msgstr "Botún ag íoslódáil <i>%(id)s</i>: %(error)s"
 
-#: qt/aqt/main.py:121
+#: qt/aqt/main.py:123
 #, python-format
 msgid ""
 "Error during startup:\n"
@@ -1451,12 +1474,13 @@ msgstr "Botún ag déanamh %s."
 msgid "Error installing <i>%(base)s</i>: %(error)s"
 msgstr "Botún ag suiteáil <i>%(base)s</i>: %(error)s"
 
-#: qt/aqt/sound.py:458
+#: qt/aqt/sound.py:502
 #, python-format
 msgid "Error running %s"
 msgstr "Botún ag déanamh %s"
 
-#: qt/aqt/deckbrowser.py:232 qt/aqt/exporting.py:124 qt/aqt/forms/exporting.py:74
+#: qt/aqt/deckbrowser.py:232 qt/aqt/exporting.py:124
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/exporting.py:76
 msgid "Export"
 msgstr "Easpórtáil"
 
@@ -1474,24 +1498,26 @@ msgstr[2] "%d chomhad meán easpórtáilte"
 msgstr[3] "%d gcomhad meán easpórtáilte"
 msgstr[4] "%d comhad meán easpórtáilte"
 
-#: qt/aqt/importing.py:259
+#: qt/aqt/importing.py:251
 #, python-format
 msgid "Field <b>%d</b> of file is:"
 msgstr "Is é réimse <b>%d</b> den chomhad ná:"
 
-#: qt/aqt/forms/importing.py:112
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:114
 msgid "Field mapping"
 msgstr "Mapáil réimsí"
 
-#: qt/aqt/fields.py:108
+#: qt/aqt/fields.py:110
 msgid "Field name:"
 msgstr "Ainm réimse:"
 
-#: qt/aqt/forms/addfield.py:62
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addfield.py:63
 msgid "Field:"
 msgstr "Réimse:"
 
-#: qt/aqt/editor.py:191 qt/aqt/fields.py:23 qt/aqt/forms/changemodel.py:113 qt/aqt/forms/fields.py:101
+#: qt/aqt/editor.py:126 qt/aqt/fields.py:23
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/changemodel.py:115
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:102
 msgid "Fields"
 msgstr "Réimsí"
 
@@ -1500,65 +1526,67 @@ msgstr "Réimsí"
 msgid "Fields for %s"
 msgstr "Réimsí do %s"
 
-#: qt/aqt/importing.py:177
+#: qt/aqt/importing.py:170
 #, python-format
 msgid "Fields separated by: %s"
 msgstr "Réimsí scartha ag: %s"
 
-#: qt/aqt/models.py:62
+#: qt/aqt/models.py:65
 msgid "Fields..."
 msgstr "Réimsí..."
 
-#: qt/aqt/forms/browser.py:317
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:319
 msgid "Fil&ter"
 msgstr "&Scagaire"
 
-#: pylib/anki/importing/mnemo.py:23
+#: pylib/anki/importing/mnemo.py:24
 msgid "File version unknown, trying import anyway."
 msgstr "Leagan comhaid anaithnid, iompórtáil ar bun mar sin féin."
 
-#: qt/aqt/browser.py:1318 qt/aqt/forms/dyndconf.py:134
+#: qt/aqt/browser.py:1319
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:136
 msgid "Filter"
 msgstr "Scagaire"
 
-#: qt/aqt/forms/dyndconf.py:138
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:140
 msgid "Filter 2"
 msgstr "Scagaire 2"
 
-#: qt/aqt/forms/browser.py:297
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:299
 msgid "Filter..."
 msgstr "Scagaire..."
 
-#: qt/aqt/forms/studydeck.py:46
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/studydeck.py:48
 msgid "Filter:"
 msgstr "Scagaire:"
 
-#: qt/aqt/main.py:1162 qt/aqt/main.py:1164
+#: qt/aqt/main.py:1164 qt/aqt/main.py:1166
 #, python-format
 msgid "Filtered Deck %d"
 msgstr "Paca Scagtha %d"
 
-#: qt/aqt/forms/browser.py:319
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:321
 msgid "Find &Duplicates..."
 msgstr "Aimsigh &Dúblaigh..."
 
-#: qt/aqt/forms/finddupes.py:70
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/finddupes.py:71
 msgid "Find Duplicates"
 msgstr "Aimsigh Dúblaigh"
 
-#: qt/aqt/forms/browser.py:315
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:317
 msgid "Find and Re&place..."
 msgstr "&Aimsigh agus Athchuir..."
 
-#: qt/aqt/browser.py:1902 qt/aqt/forms/findreplace.py:86
+#: qt/aqt/browser.py:1909
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/findreplace.py:87
 msgid "Find and Replace"
 msgstr "Aimsigh agus Athchuir"
 
-#: qt/aqt/reviewer.py:93
+#: qt/aqt/reviewer.py:95
 msgid "Finish"
 msgstr "Críochnaigh"
 
-#: qt/aqt/forms/browser.py:321
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:323
 msgid "First Card"
 msgstr "Céad Cárta"
 
@@ -1567,7 +1595,7 @@ msgstr "Céad Cárta"
 msgid "First field matched: %s"
 msgstr "Céad réimse faighte: %s"
 
-#: qt/aqt/forms/browser.py:302
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:304
 msgid "Flag"
 msgstr "Brat"
 
@@ -1583,11 +1611,11 @@ msgstr "Cas timpeall"
 msgid "Folder already exists."
 msgstr "Fillteán ann cheanna féin."
 
-#: qt/aqt/forms/addfield.py:64
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addfield.py:65
 msgid "Font:"
 msgstr "Clófoireann:"
 
-#: qt/aqt/forms/modelopts.py:66
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/modelopts.py:68
 msgid "Footer"
 msgstr "Buntásc"
 
@@ -1600,20 +1628,17 @@ msgstr "Ar son an slándala, ní cheadaítear '%s' ar chártaí. Is féidir é a
 msgid "Forecast"
 msgstr "Réamhaisnéis"
 
-#: qt/aqt/forms/clayout_top.py:53 qt/aqt/forms/template.py:72
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/clayout_top.py:54
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/template.py:73
 msgid "Form"
 msgstr "Foirm"
 
-#: qt/aqt/browser.py:1989
+#: qt/aqt/browser.py:1996
 #, python-format
 msgid "Found %(a)s across %(b)s."
 msgstr "%(a)s aimsithe thar %(b)s."
 
-#: pylib/anki/exporting.py:382
-msgid "Front"
-msgstr "Tosach"
-
-#: qt/aqt/forms/dconf.py:378
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:380
 msgid "General"
 msgstr "Ginearálta"
 
@@ -1627,7 +1652,7 @@ msgstr "Comhad cruthaithe: %s"
 msgid "Generated on %s"
 msgstr "Cruthaithe ar %s"
 
-#: qt/aqt/forms/addons.py:70
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:71
 msgid "Get Add-ons..."
 msgstr "Faigh Breiseáin..."
 
@@ -1639,15 +1664,16 @@ msgstr "Faigh ar Roinneadh"
 msgid "Good"
 msgstr "Maith"
 
-#: qt/aqt/forms/dconf.py:344
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:346
 msgid "Graduating interval"
 msgstr "Uaseatramh"
 
-#: qt/aqt/browser.py:1288 qt/aqt/reviewer.py:713 qt/aqt/forms/browser.py:335
+#: qt/aqt/browser.py:1286 qt/aqt/reviewer.py:713
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:337
 msgid "Green Flag"
 msgstr "Bratach Glas"
 
-#: qt/aqt/forms/edithtml.py:37
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/edithtml.py:39
 msgid "HTML Editor"
 msgstr "Eagarthóir HTML"
 
@@ -1655,11 +1681,11 @@ msgstr "Eagarthóir HTML"
 msgid "Hard"
 msgstr "Deacair"
 
-#: qt/aqt/forms/dconf.py:359
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:361
 msgid "Hard interval"
 msgstr "Eatramh deacair"
 
-#: qt/aqt/forms/preferences.py:278
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:279
 msgid "Hardware acceleration (faster, may cause display issues)"
 msgstr "Luathaithe crua-earraí (níos tapaidh, ach seans go mbeidh fadhb ann)"
 
@@ -1667,11 +1693,12 @@ msgstr "Luathaithe crua-earraí (níos tapaidh, ach seans go mbeidh fadhb ann)"
 msgid "Have you installed latex and dvipng/dvisvgm?"
 msgstr "An bhfuil LaTeX agus dvipng/dvisvgm suite?"
 
-#: qt/aqt/forms/modelopts.py:65
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/modelopts.py:67
 msgid "Header"
 msgstr "Ceanntásc"
 
-#: qt/aqt/addcards.py:77 qt/aqt/clayout.py:384 qt/aqt/utils.py:206 qt/aqt/utils.py:207
+#: qt/aqt/addcards.py:79 qt/aqt/clayout.py:384 qt/aqt/utils.py:212
+#: qt/aqt/utils.py:213
 msgid "Help"
 msgstr "Cabhair"
 
@@ -1679,11 +1706,11 @@ msgstr "Cabhair"
 msgid "Highest ease"
 msgstr "Uaséascaíocht"
 
-#: qt/aqt/addcards.py:81
+#: qt/aqt/addcards.py:83
 msgid "History"
 msgstr "Stair"
 
-#: qt/aqt/forms/browser.py:322
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:324
 msgid "Home"
 msgstr "Baile"
 
@@ -1699,11 +1726,11 @@ msgstr "Uair"
 msgid "Hours with less than 30 reviews are not shown."
 msgstr "Ní thaispeáintear uaireanta le níos lú ná 30 athbhreithnithe."
 
-#: pylib/anki/importing/anki2.py:169
+#: pylib/anki/importing/anki2.py:166
 msgid "Identical"
 msgstr "Mar an gcéanna"
 
-#: qt/aqt/about.py:220
+#: qt/aqt/about.py:221
 msgid "If you have contributed and are not on this list, please get in touch."
 msgstr "Má thug tú cuideacht ach níl tú ar an liosta, téigh i dteagmháil linn."
 
@@ -1711,11 +1738,11 @@ msgstr "Má thug tú cuideacht ach níl tú ar an liosta, téigh i dteagmháil l
 msgid "If you studied every day"
 msgstr "Má rinne tú staidéar gach lá"
 
-#: qt/aqt/forms/dconf.py:373
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:375
 msgid "Ignore answer times longer than"
 msgstr "Déan neamhaird ar freagraí a thógann os cionn"
 
-#: qt/aqt/forms/findreplace.py:91
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/findreplace.py:92
 msgid "Ignore case"
 msgstr "Déan neamhaird ar cás"
 
@@ -1723,7 +1750,7 @@ msgstr "Déan neamhaird ar cás"
 msgid "Ignore field"
 msgstr "Déan neamhaird ar réimse"
 
-#: qt/aqt/forms/importing.py:108
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:110
 msgid "Ignore lines where first field matches existing note"
 msgstr "Déan neamhaird ar línte más ionann an chéad réimse agus nóta eile"
 
@@ -1731,7 +1758,9 @@ msgstr "Déan neamhaird ar línte más ionann an chéad réimse agus nóta eile"
 msgid "Ignore this update"
 msgstr "Déan neamhaird ar an nuashonrú seo"
 
-#: qt/aqt/importing.py:103 qt/aqt/importing.py:197 qt/aqt/importing.py:319 qt/aqt/forms/changemap.py:41 qt/aqt/forms/importing.py:103
+#: qt/aqt/importing.py:103 qt/aqt/importing.py:189 qt/aqt/importing.py:311
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/changemap.py:43
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:105
 msgid "Import"
 msgstr "Iompórtáil"
 
@@ -1739,19 +1768,19 @@ msgstr "Iompórtáil"
 msgid "Import File"
 msgstr "Iompórtáil Comhad"
 
-#: qt/aqt/forms/importing.py:109
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:111
 msgid "Import even if existing note has same first field"
 msgstr "Iompórtáil, fiú más ionann an chéad réimse agus nóta eile"
 
-#: qt/aqt/forms/importing.py:104
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:106
 msgid "Import options"
 msgstr "Roghanna iompórtála"
 
-#: qt/aqt/importing.py:219 qt/aqt/importing.py:532
+#: qt/aqt/importing.py:211 qt/aqt/importing.py:524
 msgid "Importing complete."
 msgstr "Iompórtáil críochnaithe."
 
-#: qt/aqt/main.py:1223
+#: qt/aqt/main.py:1225
 #, python-format
 msgid ""
 "In order to ensure your collection works correctly when moved between devices, Anki requires your computer's internal clock to be set correctly. The internal clock can be wrong even if your system is showing the correct local time.\n"
@@ -1777,23 +1806,23 @@ msgstr ""
 "\n"
 "Difear ón am cruinn: %s."
 
-#: qt/aqt/forms/exporting.py:80
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/exporting.py:82
 msgid "Include HTML and media references"
 msgstr "Cuir HTML agus tagairt meán san áireamh"
 
-#: qt/aqt/forms/exporting.py:78
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/exporting.py:80
 msgid "Include media"
 msgstr "Meáin san áireamh"
 
-#: qt/aqt/forms/exporting.py:77
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/exporting.py:79
 msgid "Include scheduling information"
 msgstr "Sonraí sceidealaithe san áireamh"
 
-#: qt/aqt/forms/exporting.py:79
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/exporting.py:81
 msgid "Include tags"
 msgstr "Clibeanna san áireamh"
 
-#: qt/aqt/forms/customstudy.py:105
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:106
 msgid "Increase today's new card limit"
 msgstr "Ardaigh uasmhéid na gcártaí nua d'inniu"
 
@@ -1801,7 +1830,7 @@ msgstr "Ardaigh uasmhéid na gcártaí nua d'inniu"
 msgid "Increase today's new card limit by"
 msgstr "Ardaigh uasmhéid na gcártaí nua d'inniu de"
 
-#: qt/aqt/forms/customstudy.py:106
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:107
 msgid "Increase today's review card limit"
 msgstr "Ardaigh uasmhéid athbhreithniithe cártaí d'inniu"
 
@@ -1813,7 +1842,7 @@ msgstr "Ardaigh uasmhéid athbhreithnithe cártaí d'inniu de"
 msgid "Increasing intervals"
 msgstr "Eatraimh ag dul i méid"
 
-#: qt/aqt/forms/getaddons.py:48
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/getaddons.py:50
 msgid "Install Add-on"
 msgstr "Suiteáil breiseán"
 
@@ -1825,7 +1854,7 @@ msgstr "Suiteáin Breiseá(i)n"
 msgid "Install Anki add-on"
 msgstr "Suiteáil breiseán Anki"
 
-#: qt/aqt/forms/addons.py:71
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:72
 msgid "Install from file..."
 msgstr "Suiteáil ó chomhad..."
 
@@ -1842,19 +1871,19 @@ msgstr "%(name)s suiteáilte"
 msgid "Installed successfully."
 msgstr "Suiteáilte i gceart."
 
-#: qt/aqt/forms/setlang.py:40
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/setlang.py:42
 msgid "Interface language:"
 msgstr "Teanga comhéadain:"
 
-#: qt/aqt/forms/preferences.py:280
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:281
 msgid "Interrupt current audio when answering"
 msgstr "Bris isteach ar fhuaim chun freagra a thabhairt"
 
-#: qt/aqt/browser.py:742
+#: qt/aqt/browser.py:749
 msgid "Interval"
 msgstr "Eatramh"
 
-#: qt/aqt/forms/dconf.py:353
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:355
 msgid "Interval modifier"
 msgstr "Athraitheoir eatraimh"
 
@@ -1882,7 +1911,7 @@ msgstr "Cumraíocht neamhbhailí:"
 msgid "Invalid configuration: top level object must be a map"
 msgstr "Cumraíocht neamhbhailí: Caithfidh go mbeadh mapáil ar barr"
 
-#: qt/aqt/main.py:1286
+#: qt/aqt/main.py:1288
 msgid "Invalid property found on card. Please use Tools>Check Database, and if the problem comes up again, please ask on the support site."
 msgstr "Airí neamhbhailí ar an gcárta. Úsáid Uirlisí>Seiceáil Bunachar Sonraí, agus má fheiceann tú an fadhb arís, cuir ceist ar an suíomh tacaíochta."
 
@@ -1890,35 +1919,37 @@ msgstr "Airí neamhbhailí ar an gcárta. Úsáid Uirlisí>Seiceáil Bunachar So
 msgid "It has been suspended."
 msgstr "Tá sé ar fionraí."
 
-#: qt/aqt/editor.py:124
+#: qt/aqt/editor.py:145
 msgid "Italic text (Ctrl+I)"
 msgstr "Cló iodálach (Ctrl+I)"
 
-#: qt/aqt/editor.py:571
+#: qt/aqt/editor.py:580
 msgid "Jump to tags with Ctrl+Shift+T"
 msgstr "Léim go Chlibeanna le Ctrl+Shift+T"
 
-#: qt/aqt/forms/preferences.py:307
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:308
 msgid "Keep"
 msgstr "Coinnigh"
 
-#: qt/aqt/editor.py:947 qt/aqt/forms/modelopts.py:67
+#: qt/aqt/editor.py:956
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/modelopts.py:69
 msgid "LaTeX"
 msgstr "LaTeX"
 
-#: qt/aqt/editor.py:948
+#: qt/aqt/editor.py:957
 msgid "LaTeX equation"
 msgstr "Cothromóid LaTeX"
 
-#: qt/aqt/editor.py:949
+#: qt/aqt/editor.py:958
 msgid "LaTeX math env."
 msgstr "Timpeallacht mata LaTeX."
 
-#: qt/aqt/browser.py:745 qt/aqt/forms/dconf.py:372
+#: qt/aqt/browser.py:752
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:374
 msgid "Lapses"
 msgstr "Clistí"
 
-#: qt/aqt/forms/browser.py:323
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:325
 msgid "Last Card"
 msgstr "Cárta Deireanach"
 
@@ -1930,7 +1961,7 @@ msgstr "Taispeáin cártaí is úire i dtosach"
 msgid "Learn"
 msgstr "Foghlaim"
 
-#: qt/aqt/forms/preferences.py:296
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:297
 msgid "Learn ahead limit"
 msgstr "Srian 'Foghlaim ar aghaidh'"
 
@@ -1939,15 +1970,15 @@ msgstr "Srian 'Foghlaim ar aghaidh'"
 msgid "Learn: %(a)s, Review: %(b)s, Relearn: %(c)s, Filtered: %(d)s"
 msgstr "Foghlaim: %(a)s, Athbhreithniú: %(b)s, Athfhoghlaim: %(c)s, Scagtha: %(d)s"
 
-#: pylib/anki/stats.py:686 qt/aqt/browser.py:1279 qt/aqt/overview.py:231
+#: pylib/anki/stats.py:686 qt/aqt/browser.py:1277 qt/aqt/overview.py:231
 msgid "Learning"
 msgstr "Á bhfoghlaim"
 
-#: qt/aqt/forms/dconf.py:366
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:368
 msgid "Leech action"
 msgstr "Beart do súmairí"
 
-#: qt/aqt/forms/dconf.py:364
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:366
 msgid "Leech threshold"
 msgstr "Tairseach súmairí"
 
@@ -1955,11 +1986,12 @@ msgstr "Tairseach súmairí"
 msgid "Left"
 msgstr "Fágtha"
 
-#: qt/aqt/forms/dyndconf.py:135 qt/aqt/forms/dyndconf.py:139
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:137
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:141
 msgid "Limit to"
 msgstr "Srian:"
 
-#: qt/aqt/utils.py:51
+#: qt/aqt/utils.py:57
 msgid "Loading..."
 msgstr "Ag lódáil..."
 
@@ -1971,19 +2003,20 @@ msgstr "Eatramh is faide"
 msgid "Lowest ease"
 msgstr "Éascaíocht is ísle"
 
-#: qt/aqt/modelchooser.py:63
+#: qt/aqt/modelchooser.py:76
 msgid "Manage"
 msgstr "Bainistigh"
 
-#: qt/aqt/forms/main.py:155
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:156
 msgid "Manage Note Types"
 msgstr "Bainistigh Cineálacha Nótaí"
 
-#: qt/aqt/forms/browser.py:339
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:341
 msgid "Manage Note Types..."
 msgstr "Bainistigh Cineálacha Nótaí..."
 
-#: qt/aqt/browser.py:1337 qt/aqt/forms/dconf.py:339
+#: qt/aqt/browser.py:1337
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:341
 msgid "Manage..."
 msgstr "Bainistigh..."
 
@@ -2004,35 +2037,36 @@ msgstr "Mapáil chuig clibeanna"
 msgid "Mark Note"
 msgstr "Marcáil Nóta"
 
-#: qt/aqt/editor.py:945
+#: qt/aqt/editor.py:954
 msgid "MathJax block"
 msgstr "MathJax bloc"
 
-#: qt/aqt/editor.py:946
+#: qt/aqt/editor.py:955
 msgid "MathJax chemistry"
 msgstr "MathJax Ceimic"
 
-#: qt/aqt/editor.py:944
+#: qt/aqt/editor.py:953
 msgid "MathJax inline"
 msgstr "MathJax inlíne"
 
-#: pylib/anki/stats.py:213 pylib/anki/stats.py:346 pylib/anki/stats.py:366 pylib/anki/stats.py:688 pylib/anki/stats.py:858
+#: pylib/anki/stats.py:213 pylib/anki/stats.py:346 pylib/anki/stats.py:366
+#: pylib/anki/stats.py:688 pylib/anki/stats.py:858
 msgid "Mature"
 msgstr "Aibí"
 
-#: qt/aqt/forms/dconf.py:355
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:357
 msgid "Maximum interval"
 msgstr "Eatraimh is faide"
 
-#: qt/aqt/forms/dconf.py:354
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:356
 msgid "Maximum reviews/day"
 msgstr "Athbhreithniú/lá is airde"
 
-#: qt/aqt/editor.py:704
+#: qt/aqt/editor.py:713
 msgid "Media"
 msgstr "Meáin"
 
-#: qt/aqt/forms/dconf.py:367
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:369
 msgid "Minimum interval"
 msgstr "Eatraimh is giorra"
 
@@ -2048,7 +2082,7 @@ msgstr "Meascaigh cártaí nua agus athbhreithnithe"
 msgid "Mnemosyne 2.0 Deck (*.db)"
 msgstr "Paca Mnemosyne 2.0 (*.db)"
 
-#: qt/aqt/reviewer.py:571
+#: qt/aqt/reviewer.py:574
 msgid "More"
 msgstr "Tuilleadh"
 
@@ -2056,23 +2090,23 @@ msgstr "Tuilleadh"
 msgid "Most lapses"
 msgstr "Líon is mó de chlistí"
 
-#: qt/aqt/browser.py:1590
+#: qt/aqt/browser.py:1593
 msgid "Move Cards"
 msgstr "Aistrigh Cártaí"
 
-#: qt/aqt/forms/setgroup.py:39
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/setgroup.py:41
 msgid "Move cards to deck:"
 msgstr "Aistrigh cártaí go paca:"
 
-#: qt/aqt/importing.py:144
+#: qt/aqt/importing.py:137
 msgid "Multi-character separators are not supported. Please enter one character only."
 msgstr "Ní ghlactar le deighilteoirí ilcharactararacha. Cuir isteach carachtar amháin."
 
-#: qt/aqt/forms/browser.py:309
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:311
 msgid "N&ote"
 msgstr "&Nóta"
 
-#: qt/aqt/main.py:295 qt/aqt/main.py:309
+#: qt/aqt/main.py:297 qt/aqt/main.py:311
 msgid "Name exists."
 msgstr "Ainm ann cheana féin."
 
@@ -2080,19 +2114,19 @@ msgstr "Ainm ann cheana féin."
 msgid "Name for deck:"
 msgstr "Ainm don phaca:"
 
-#: qt/aqt/main.py:292 qt/aqt/models.py:119
+#: qt/aqt/main.py:294 qt/aqt/models.py:123
 msgid "Name:"
 msgstr "Ainm:"
 
-#: qt/aqt/forms/preferences.py:305
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:306
 msgid "Network"
 msgstr "Líonra"
 
-#: qt/aqt/browser.py:1278 qt/aqt/deckbrowser.py:149 qt/aqt/overview.py:229
+#: qt/aqt/browser.py:1276 qt/aqt/deckbrowser.py:149 qt/aqt/overview.py:229
 msgid "New"
 msgstr "Nua"
 
-#: qt/aqt/forms/dconf.py:350
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:352
 msgid "New Cards"
 msgstr "Cártaí Nua"
 
@@ -2101,27 +2135,28 @@ msgstr "Cártaí Nua"
 msgid "New cards in deck over today limit: %s"
 msgstr "Cártaí nua sa phaca thar srian an lae inniu: %s"
 
-#: qt/aqt/forms/customstudy.py:112
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:113
 msgid "New cards only"
 msgstr "Cártaí nua amháin"
 
-#: qt/aqt/forms/dconf.py:345
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:347
 msgid "New cards/day"
 msgstr "Cártaí nua/lá"
 
-#: qt/aqt/deckbrowser.py:246 qt/aqt/studydeck.py:151
+#: qt/aqt/deckbrowser.py:246 qt/aqt/sidebar.py:98 qt/aqt/studydeck.py:151
 msgid "New deck name:"
 msgstr "Ainm an phaca nua:"
 
-#: qt/aqt/forms/dconf.py:363
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:365
 msgid "New interval"
 msgstr "Eatramh nua"
 
-#: qt/aqt/clayout.py:584 qt/aqt/deckconf.py:148 qt/aqt/fields.py:97 qt/aqt/main.py:303 qt/aqt/models.py:84
+#: qt/aqt/clayout.py:586 qt/aqt/deckconf.py:148 qt/aqt/fields.py:97
+#: qt/aqt/main.py:305 qt/aqt/models.py:87
 msgid "New name:"
 msgstr "Ainm nua:"
 
-#: qt/aqt/forms/changemodel.py:111
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/changemodel.py:113
 msgid "New note type:"
 msgstr "Cineál nua nóta:"
 
@@ -2129,20 +2164,20 @@ msgstr "Cineál nua nóta:"
 msgid "New options group name:"
 msgstr "Ainm do roghaghrúa nua:"
 
-#: qt/aqt/fields.py:136
+#: qt/aqt/fields.py:140
 #, python-format
 msgid "New position (1...%d):"
 msgstr "Áit nua (1...%d):"
 
-#: qt/aqt/forms/preferences.py:298
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:299
 msgid "Next day starts at"
 msgstr "Tosaíonn an chéad lá eile ag"
 
-#: qt/aqt/forms/preferences.py:283
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:284
 msgid "Night mode"
 msgstr "Modh oíche"
 
-#: qt/aqt/browser.py:1290
+#: qt/aqt/browser.py:1288
 msgid "No Flag"
 msgstr "Gan Brat"
 
@@ -2166,11 +2201,12 @@ msgstr "Níl athbhreithniú déanta ar aon chártaí aibí inniu."
 msgid "No updates available."
 msgstr "Níl nuashonrú ar fáil."
 
-#: qt/aqt/browser.py:747
+#: qt/aqt/browser.py:754
 msgid "Note"
 msgstr "Nóta"
 
-#: qt/aqt/browser.py:1335 qt/aqt/models.py:36 qt/aqt/forms/models.py:54
+#: qt/aqt/browser.py:1335 qt/aqt/models.py:36
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/models.py:56
 msgid "Note Types"
 msgstr "Cineálacha Nótaí"
 
@@ -2192,16 +2228,16 @@ msgstr "Nóta i bhfolach."
 msgid "Note suspended."
 msgstr "Nóta ar fionraí."
 
-#: qt/aqt/forms/preferences.py:310
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:311
 msgid "Note: Media is not backed up. Please create a periodic backup of your Anki folder to be safe."
 msgstr "Nóta: Níl cúltaca de do mheáin. Ar son na sábháilteachta, déan cúltacú rialta den fhillteán Anki."
 
-#: pylib/anki/importing/anki2.py:149
+#: pylib/anki/importing/anki2.py:146
 #, python-format
 msgid "Notes added from file: %d"
 msgstr "Nótaí nua ó chomhad: %d"
 
-#: pylib/anki/importing/anki2.py:137
+#: pylib/anki/importing/anki2.py:134
 #, python-format
 msgid "Notes found in file: %d"
 msgstr "Nótaí sa chomhad: %d"
@@ -2210,30 +2246,30 @@ msgstr "Nótaí sa chomhad: %d"
 msgid "Notes in Plain Text"
 msgstr "Nótaí gnáth-théacs"
 
-#: qt/aqt/fields.py:121
+#: qt/aqt/fields.py:123
 msgid "Notes require at least one field."
 msgstr "Teastaíonn réimse amháin (ar a laghad) i nótaí."
 
-#: pylib/anki/importing/anki2.py:152
+#: pylib/anki/importing/anki2.py:149
 #, python-format
 msgid "Notes skipped, as they're already in your collection: %d"
 msgstr "Nótaí a bhí sa chnuasach cheana féin: %d"
 
-#: qt/aqt/browser.py:2016
+#: qt/aqt/browser.py:2023
 msgid "Notes tagged."
 msgstr "Nótaí clibeáilte."
 
-#: pylib/anki/importing/anki2.py:141
+#: pylib/anki/importing/anki2.py:138
 #, python-format
 msgid "Notes that could not be imported as note type has changed: %d"
 msgstr "Nótaí nár iompórtáladh de bharr athrú cló-aghaidhe: %d"
 
-#: pylib/anki/importing/anki2.py:146
+#: pylib/anki/importing/anki2.py:143
 #, python-format
 msgid "Notes updated, as file had newer version: %d"
 msgstr "Nótaí nuashonraithe (leagan níos úire sa chomhad): %d"
 
-#: qt/aqt/browser.py:2170
+#: qt/aqt/browser.py:2180
 msgid "Nothing"
 msgstr "Dada"
 
@@ -2245,7 +2281,7 @@ msgstr "OK"
 msgid "Oldest seen first"
 msgstr "Is sine i dtosach"
 
-#: qt/aqt/forms/preferences.py:304
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:305
 msgid "On next sync, force changes in one direction"
 msgstr "An chéad sionc eile: athruithe i dtreo áirithe amháin"
 
@@ -2253,48 +2289,52 @@ msgstr "An chéad sionc eile: athruithe i dtreo áirithe amháin"
 msgid "One or more errors occurred:"
 msgstr "Thárla botún (nó botúin):"
 
-#: qt/aqt/browser.py:1728
+#: qt/aqt/browser.py:1734
 msgid "Only new cards can be repositioned."
 msgstr "Ní féidr ach cártaí nua a bhogadh."
 
-#: qt/aqt/forms/profiles.py:80
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/profiles.py:81
 msgid "Open"
 msgstr "Oscail"
 
-#: qt/aqt/forms/profiles.py:85
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/profiles.py:86
 msgid "Open Backup..."
 msgstr "Oscail cúltacú..."
 
-#: qt/aqt/main.py:642
+#: qt/aqt/main.py:644
 msgid "Optimizing..."
 msgstr "Ag optamú..."
 
-#: qt/aqt/forms/finddupes.py:71
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/finddupes.py:72
 msgid "Optional filter:"
 msgstr "Scagaire roghnach:"
 
-#: qt/aqt/clayout.py:111 qt/aqt/deckbrowser.py:230 qt/aqt/deckconf.py:37 qt/aqt/dyndeckconf.py:25 qt/aqt/overview.py:252 qt/aqt/reviewer.py:732 qt/aqt/forms/dyndconf.py:142 qt/aqt/forms/fields.py:109
+#: qt/aqt/clayout.py:111 qt/aqt/deckbrowser.py:230 qt/aqt/deckconf.py:37
+#: qt/aqt/dyndeckconf.py:25 qt/aqt/overview.py:252 qt/aqt/reviewer.py:732
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:144
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:110
 msgid "Options"
 msgstr "Roghanna"
 
-#: qt/aqt/deckconf.py:47 qt/aqt/dyndeckconf.py:28 qt/aqt/models.py:157
+#: qt/aqt/deckconf.py:47 qt/aqt/dyndeckconf.py:28 qt/aqt/models.py:161
 #, python-format
 msgid "Options for %s"
 msgstr "Roghanna do %s"
 
-#: qt/aqt/forms/dconf.py:338
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:340
 msgid "Options group:"
 msgstr "Roghaghrúpa:"
 
-#: qt/aqt/models.py:67
+#: qt/aqt/models.py:70
 msgid "Options..."
 msgstr "Roghanna..."
 
-#: qt/aqt/browser.py:1287 qt/aqt/reviewer.py:707 qt/aqt/forms/browser.py:334
+#: qt/aqt/browser.py:1285 qt/aqt/reviewer.py:707
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:336
 msgid "Orange Flag"
 msgstr "Brat oráiste"
 
-#: qt/aqt/forms/dconf.py:342
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:344
 msgid "Order"
 msgstr "Ord"
 
@@ -2306,15 +2346,15 @@ msgstr "Ord úire"
 msgid "Order due"
 msgstr "Ord dlite"
 
-#: qt/aqt/forms/browserdisp.py:71
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browserdisp.py:73
 msgid "Override back template:"
 msgstr "Sáraigh teimpléad cúil:"
 
-#: qt/aqt/forms/browserdisp.py:72
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browserdisp.py:74
 msgid "Override font:"
 msgstr "Sáraigh clófhoireann:"
 
-#: qt/aqt/forms/browserdisp.py:70
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browserdisp.py:72
 msgid "Override front template:"
 msgstr "Sáraigh teimpléad thosaigh:"
 
@@ -2326,15 +2366,15 @@ msgstr "Breiseán Anki i bpacáiste"
 msgid "Packaged Anki Deck/Collection (*.apkg *.colpkg *.zip)"
 msgstr "Paca/Cnuascach Anki i bpacáiste (*.apkg *.colpkg *.zip)"
 
-#: qt/aqt/editor.py:1201
+#: qt/aqt/editor.py:1213
 msgid "Paste"
 msgstr "Greamaigh"
 
-#: qt/aqt/forms/preferences.py:281
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:282
 msgid "Paste clipboard images as PNG"
 msgstr "Greamaigh íomhánna gearrthaisce mar PNG"
 
-#: qt/aqt/forms/preferences.py:282
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:283
 msgid "Paste without shift key strips formatting"
 msgstr "SHIFT chun greamú gan formáidiú"
 
@@ -2355,19 +2395,19 @@ msgstr "Céatadán"
 msgid "Period: %s"
 msgstr "Tréimhse: %s"
 
-#: qt/aqt/forms/preferences.py:303
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:304
 msgid "Periodically sync media"
 msgstr "Sionc meáin go tréimhsiúil"
 
-#: qt/aqt/forms/reschedule.py:74
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reschedule.py:76
 msgid "Place at end of new card queue"
 msgstr "Cuir chun deireadh scuaine na gcártaí nua"
 
-#: qt/aqt/forms/reschedule.py:75
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reschedule.py:77
 msgid "Place in review queue with interval between:"
 msgstr "Cuir i scuaine athbhreithnithe le eatramh idir:"
 
-#: qt/aqt/models.py:126
+#: qt/aqt/models.py:130
 msgid "Please add another note type first."
 msgstr "Cur cineál eile nóta ar dtús."
 
@@ -2379,11 +2419,11 @@ msgstr "Seiceáil nasc líonra."
 msgid "Please connect a microphone, and ensure other programs are not using the audio device."
 msgstr "Ceangail mícreafón, agus cinntigh nach bhfuil an gléas in úsáid ag clár eile."
 
-#: qt/aqt/main.py:1606
+#: qt/aqt/main.py:1609
 msgid "Please ensure a profile is open and Anki is not busy, then try again."
 msgstr "Le próifíl ar oscailt agus gan Anki a bheith róghnóthach: bain triail arís as."
 
-#: qt/aqt/browser.py:1390
+#: qt/aqt/browser.py:1393
 msgid "Please give your filter a name:"
 msgstr "Ainmnigh an scagaire:"
 
@@ -2400,11 +2440,11 @@ msgstr "Cuir teachtaireacht chuig údar an bhreiseáin."
 msgid "Please restart Anki to complete language change."
 msgstr "Atosaigh Anki chun athrú teanga a chríochnú."
 
-#: qt/aqt/reviewer.py:384
+#: qt/aqt/reviewer.py:387
 msgid "Please run Tools>Empty Cards"
 msgstr "Úsáid Úirlisí->Cártaí Folmha"
 
-#: qt/aqt/main.py:673
+#: qt/aqt/main.py:675
 msgid "Please select a deck."
 msgstr "Roghnaigh paca."
 
@@ -2412,7 +2452,7 @@ msgstr "Roghnaigh paca."
 msgid "Please select a single add-on first."
 msgstr "Roghnaigh breiseán amháin."
 
-#: qt/aqt/browser.py:1490
+#: qt/aqt/browser.py:1493
 msgid "Please select cards from only one note type."
 msgstr "Roghnaigh cártaí d'aon chineál nóta amháin."
 
@@ -2420,24 +2460,25 @@ msgstr "Roghnaigh cártaí d'aon chineál nóta amháin."
 msgid "Please select something."
 msgstr "Roghnaigh rud éigin."
 
-#: qt/aqt/main.py:1120
+#: qt/aqt/main.py:1122
 msgid "Please use File>Import to import this file."
 msgstr "Úsáid Comhad>Iompórtáil chun an comhad a iompórtáil."
 
-#: qt/aqt/forms/preferences.py:277
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:278
 msgid "Preferences"
 msgstr "Roghanna"
 
-#: qt/aqt/previewer.py:65 qt/aqt/forms/browser.py:296
+#: qt/aqt/previewer.py:65
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:298
 msgid "Preview"
 msgstr "Réamhamharc"
 
-#: qt/aqt/browser.py:617
+#: qt/aqt/browser.py:624
 #, python-format
 msgid "Preview Selected Card (%s)"
 msgstr "Réamhamharc ar chárta roghnaithe (%s)"
 
-#: qt/aqt/forms/customstudy.py:108
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:109
 msgid "Preview new cards"
 msgstr "Réamhamharc ar chártaí nua"
 
@@ -2445,7 +2486,7 @@ msgstr "Réamhamharc ar chártaí nua"
 msgid "Preview new cards added in the last"
 msgstr "Réamhamharc ar chártaí nua le linn"
 
-#: qt/aqt/importing.py:502
+#: qt/aqt/importing.py:494
 #, python-format
 msgid "Processed %d media file"
 msgid_plural "Processed %d media files"
@@ -2455,7 +2496,7 @@ msgstr[2] "%d chomhad meáin próiseálte"
 msgstr[3] "%d gcomhad meáin próiseálte"
 msgstr[4] "%d comhad meáin próiseálte"
 
-#: qt/aqt/progress.py:66
+#: qt/aqt/progress.py:83
 msgid "Processing..."
 msgstr "Ag próiseáil..."
 
@@ -2463,25 +2504,25 @@ msgstr "Ag próiseáil..."
 msgid "Profile Corrupt"
 msgstr "Próifíl Truaillithe"
 
-#: qt/aqt/forms/profiles.py:79
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/profiles.py:80
 msgid "Profiles"
 msgstr "Próifílí"
 
-#: qt/aqt/browser.py:733
+#: qt/aqt/browser.py:740
 msgid "Question"
 msgstr "Ceist"
 
-#: qt/aqt/browser.py:1739
+#: qt/aqt/browser.py:1745
 #, python-format
 msgid "Queue bottom: %d"
 msgstr "Bun scuaine: %d"
 
-#: qt/aqt/browser.py:1738
+#: qt/aqt/browser.py:1744
 #, python-format
 msgid "Queue top: %d"
 msgstr "Barr scuaine; %d"
 
-#: qt/aqt/forms/profiles.py:84
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/profiles.py:85
 msgid "Quit"
 msgstr "Scoir"
 
@@ -2489,7 +2530,7 @@ msgstr "Scoir"
 msgid "Random"
 msgstr "Randamach"
 
-#: qt/aqt/forms/reposition.py:73
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reposition.py:75
 msgid "Randomize order"
 msgstr "Cuir in ord randamach"
 
@@ -2501,16 +2542,17 @@ msgstr "Tóg arís"
 msgid "Record Own Voice"
 msgstr "Taifead do ghuth"
 
-#: qt/aqt/editor.py:175
+#: qt/aqt/editor.py:178
 msgid "Record audio (F5)"
 msgstr "Déan taifead ar fhuaim (F5)"
 
-#: qt/aqt/sound.py:565
+#: qt/aqt/sound.py:610
 #, python-format
 msgid "Recording...<br>Time: %0.1f"
 msgstr "Ag taifead...<br>Am: %0.1f"
 
-#: qt/aqt/browser.py:1286 qt/aqt/reviewer.py:701 qt/aqt/forms/browser.py:333
+#: qt/aqt/browser.py:1284 qt/aqt/reviewer.py:701
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:335
 msgid "Red Flag"
 msgstr "Brat Dearg"
 
@@ -2522,48 +2564,51 @@ msgstr "De réir deireanaí"
 msgid "Relearn"
 msgstr "Athfhoghlaim"
 
-#: qt/aqt/forms/fields.py:108
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:109
 msgid "Remember last input when adding"
 msgstr "Coinnigh ábhar le linn ionchuir"
 
-#: qt/aqt/browser.py:1401
+#: qt/aqt/browser.py:1404
 #, python-format
 msgid "Remove %s from your saved searches?"
 msgstr "Bain %s ó chuardaigh sábháilte?"
 
-#: qt/aqt/clayout.py:677
+#: qt/aqt/clayout.py:679
 msgid "Remove Card Type..."
 msgstr "Bain Amach Cineál Cárta..."
 
-#: qt/aqt/browser.py:1375
+#: qt/aqt/browser.py:1378
 msgid "Remove Current Filter..."
 msgstr "Bain an Scagaire Seo..."
 
-#: qt/aqt/forms/browser.py:328
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:330
 msgid "Remove Tags..."
 msgstr "Bain Clibeanna..."
 
-#: qt/aqt/editor.py:133
+#: qt/aqt/editor.py:154
 msgid "Remove formatting (Ctrl+R)"
 msgstr "Bain foirmáidiú (Ctrl+R)"
 
-#: qt/aqt/deckbrowser.py:228 qt/aqt/deckconf.py:93 qt/aqt/models.py:55 qt/aqt/forms/fields.py:104 qt/aqt/forms/profiles.py:82
+#: qt/aqt/deckbrowser.py:228 qt/aqt/deckconf.py:93 qt/aqt/models.py:58
+#: qt/aqt/sidebar.py:74
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:105
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/profiles.py:83
 msgid "Rename"
 msgstr "Athainmnigh"
 
-#: qt/aqt/clayout.py:680
+#: qt/aqt/clayout.py:682
 msgid "Rename Card Type..."
 msgstr "Athainmnigh Cineál Cárta..."
 
-#: qt/aqt/deckbrowser.py:243
+#: qt/aqt/deckbrowser.py:243 qt/aqt/sidebar.py:95
 msgid "Rename Deck"
 msgstr "Athainmnigh Paca"
 
-#: qt/aqt/forms/dyndconf.py:145
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:147
 msgid "Repeat failed cards after"
 msgstr "Athdhéan cártaí mícheart tar éis"
 
-#: qt/aqt/main.py:336
+#: qt/aqt/main.py:338
 msgid "Replace your collection with an earlier backup?"
 msgstr "Úsáid cúltacú níos sine in áit do chnuasach?"
 
@@ -2575,31 +2620,33 @@ msgstr "Cas Fuaim Arís"
 msgid "Replay Own Voice"
 msgstr "Cas Do Ghugh Féin Arís"
 
-#: qt/aqt/browser.py:1744 qt/aqt/forms/fields.py:105
+#: qt/aqt/browser.py:1751
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:106
 msgid "Reposition"
 msgstr "Bog"
 
-#: qt/aqt/clayout.py:683
+#: qt/aqt/clayout.py:685
 msgid "Reposition Card Type..."
 msgstr "Bog Cineál Cárta..."
 
-#: qt/aqt/forms/reposition.py:70
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reposition.py:72
 msgid "Reposition New Cards"
 msgstr "Bog Cártaí Nua"
 
-#: qt/aqt/forms/browser.py:320
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:322
 msgid "Reposition..."
 msgstr "Bog..."
 
-#: qt/aqt/forms/taglimit.py:61
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/taglimit.py:63
 msgid "Require one or more of these tags:"
 msgstr "Teastaigh ceann/cinn de na clibeanna seo:"
 
-#: qt/aqt/browser.py:1770 qt/aqt/forms/reschedule.py:73
+#: qt/aqt/browser.py:1777
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reschedule.py:75
 msgid "Reschedule"
 msgstr "Athsceidealaigh"
 
-#: qt/aqt/forms/dyndconf.py:143
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:145
 msgid "Reschedule cards based on my answers in this deck"
 msgstr "Athsceidealaigh cártaí de réir freagraí don phaca seo"
 
@@ -2607,24 +2654,24 @@ msgstr "Athsceidealaigh cártaí de réir freagraí don phaca seo"
 msgid "Restored defaults"
 msgstr "Tabhair ar ais na réamhshocruithe"
 
-#: qt/aqt/main.py:734
+#: qt/aqt/main.py:736
 msgid "Resume Now"
 msgstr "Fill Ar an Staidéar"
 
-#: qt/aqt/forms/fields.py:107
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:108
 msgid "Reverse text direction (RTL)"
 msgstr "Cas an téacs droim ar ais"
 
-#: qt/aqt/main.py:349
+#: qt/aqt/main.py:351
 msgid "Revert to backup"
 msgstr "Fill ar chúlbhrat"
 
-#: qt/aqt/main.py:1034
+#: qt/aqt/main.py:1036
 #, python-format
 msgid "Reverted to state prior to '%s'."
 msgstr "Fillte chuig staid roimh '%s'."
 
-#: pylib/anki/collection.py:577 qt/aqt/browser.py:1280
+#: pylib/anki/collection.py:577 qt/aqt/browser.py:1278
 msgid "Review"
 msgstr "Athbhreithniú"
 
@@ -2636,7 +2683,7 @@ msgstr "Líon na n-athbhreithnithe"
 msgid "Review Time"
 msgstr "Am Athbhreithnithe"
 
-#: qt/aqt/forms/customstudy.py:103
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:104
 msgid "Review ahead"
 msgstr "Athbhreithnigh ar aghaidh"
 
@@ -2648,7 +2695,7 @@ msgstr "Athbhreithnigh ar aghaidh le"
 msgid "Review cards forgotten in last"
 msgstr "Athbhreithnigh cártaí dearmadta le linn"
 
-#: qt/aqt/forms/customstudy.py:104
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:105
 msgid "Review forgotten cards"
 msgstr "Athbhreithnigh ar chártaí dearmadta"
 
@@ -2656,7 +2703,8 @@ msgstr "Athbhreithnigh ar chártaí dearmadta"
 msgid "Review success rate for each hour of the day."
 msgstr "Staitisticí de réir gach uair an chloig den lá."
 
-#: pylib/anki/stats.py:819 qt/aqt/browser.py:744 qt/aqt/forms/dconf.py:361
+#: pylib/anki/stats.py:819 qt/aqt/browser.py:751
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:363
 msgid "Reviews"
 msgstr "Athbhreithnithe"
 
@@ -2669,15 +2717,16 @@ msgstr "Cártaí dlite sa phaca thar srian an lae inniú: %s"
 msgid "Right"
 msgstr "Ceart"
 
-#: qt/aqt/clayout.py:399 qt/aqt/sound.py:554
+#: qt/aqt/clayout.py:399 qt/aqt/sound.py:599
 msgid "Save"
 msgstr "Sábháil"
 
-#: qt/aqt/browser.py:1377
+#: qt/aqt/browser.py:1380
 msgid "Save Current Filter..."
 msgstr "Sábháil an Scagaire Seo..."
 
-#: qt/aqt/stats.py:42 qt/aqt/stats.py:67 qt/aqt/stats.py:114 qt/aqt/stats.py:145
+#: qt/aqt/stats.py:42 qt/aqt/stats.py:67 qt/aqt/stats.py:114
+#: qt/aqt/stats.py:145
 msgid "Save PDF"
 msgstr "Sábháil PDF"
 
@@ -2685,7 +2734,7 @@ msgstr "Sábháil PDF"
 msgid "Saved."
 msgstr "Sábháilte."
 
-#: qt/aqt/forms/preferences.py:299
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:300
 msgid "Scheduling"
 msgstr "Ag Sceidealú"
 
@@ -2694,15 +2743,18 @@ msgstr "Ag Sceidealú"
 msgid "Scope: %s"
 msgstr "Scóip: %s"
 
-#: qt/aqt/browser.py:1972 qt/aqt/forms/browser.py:295 qt/aqt/forms/dyndconf.py:136 qt/aqt/forms/dyndconf.py:140
+#: qt/aqt/browser.py:1979
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:297
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:138
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:142
 msgid "Search"
 msgstr "Cuardaigh"
 
-#: qt/aqt/forms/finddupes.py:72
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/finddupes.py:73
 msgid "Search in:"
 msgstr "Cuardaigh i:"
 
-#: qt/aqt/forms/browseropts.py:73
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browseropts.py:75
 msgid "Search within formatting (slow)"
 msgstr "Cuardaigh san fhormáidiú (mall)"
 
@@ -2710,15 +2762,15 @@ msgstr "Cuardaigh san fhormáidiú (mall)"
 msgid "Select"
 msgstr "Roghnaigh"
 
-#: qt/aqt/forms/browser.py:305
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:307
 msgid "Select &All"
 msgstr "Roghnaigh &Uile"
 
-#: qt/aqt/forms/browser.py:314
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:316
 msgid "Select &Notes"
 msgstr "Roghnaigh &Nótaí"
 
-#: qt/aqt/forms/taglimit.py:62
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/taglimit.py:64
 msgid "Select tags to exclude:"
 msgstr "Roghnaí clibeanna le fágáil as:"
 
@@ -2726,15 +2778,15 @@ msgstr "Roghnaí clibeanna le fágáil as:"
 msgid "Selected Notes"
 msgstr "Nótaí Roghnaithe"
 
-#: qt/aqt/importing.py:311
+#: qt/aqt/importing.py:303
 msgid "Selected file was not in UTF-8 format. Please see the importing section of the manual."
 msgstr "Cathfidh an comhad a bheith i bhformáid UTF-8. Féach ar \"Iompórtáil\" sa lámhleabhar."
 
-#: qt/aqt/forms/taglimit.py:60
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/taglimit.py:62
 msgid "Selective Study"
 msgstr "Staidéar Roghnaitheach"
 
-#: qt/aqt/importing.py:172
+#: qt/aqt/importing.py:165
 msgid "Semicolon"
 msgstr "Leathstad"
 
@@ -2747,38 +2799,41 @@ msgstr "Iompaigh gach paca faoi %s chuig an grúpa roghanna seo?"
 msgid "Set for all subdecks"
 msgstr "Socraigh do gach fo-phaca"
 
-#: qt/aqt/editor.py:136
+#: qt/aqt/editor.py:158
 msgid "Set foreground colour (F7)"
 msgstr "Socraigh daith an tosaigh (F7)"
 
-#: qt/aqt/main.py:127
+#: qt/aqt/main.py:129
 msgid "Shift key was held down. Skipping automatic syncing and add-on loading."
 msgstr "SHIFT brúite. Fágfar sioncronú agus breiseáin ar lár an uair seo."
 
-#: qt/aqt/forms/reposition.py:74
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reposition.py:76
 msgid "Shift position of existing cards"
 msgstr "Aistrigh cártaí atá ann cheana féin"
 
-#: qt/aqt/deckbrowser.py:318 qt/aqt/main.py:763 qt/aqt/overview.py:265 qt/aqt/previewer.py:80 qt/aqt/previewer.py:85 qt/aqt/reviewer.py:570 qt/aqt/reviewer.py:583 qt/aqt/reviewer.py:660
-#: qt/aqt/toolbar.py:107 qt/aqt/toolbar.py:114 qt/aqt/toolbar.py:121 qt/aqt/toolbar.py:128 qt/aqt/toolbar.py:144
+#: qt/aqt/deckbrowser.py:318 qt/aqt/main.py:765 qt/aqt/overview.py:265
+#: qt/aqt/previewer.py:80 qt/aqt/previewer.py:85 qt/aqt/reviewer.py:573
+#: qt/aqt/reviewer.py:584 qt/aqt/reviewer.py:660 qt/aqt/toolbar.py:107
+#: qt/aqt/toolbar.py:114 qt/aqt/toolbar.py:121 qt/aqt/toolbar.py:128
+#: qt/aqt/toolbar.py:144
 #, python-format
 msgid "Shortcut key: %s"
 msgstr "Cnaipe aicearra: %s"
 
-#: qt/aqt/previewer.py:241
+#: qt/aqt/previewer.py:243
 msgid "Shortcut key: Left arrow"
 msgstr "Cnaipe aicearra: Saighead chlé"
 
-#: qt/aqt/previewer.py:246
+#: qt/aqt/previewer.py:248
 msgid "Shortcut key: Right arrow or Enter"
 msgstr "Cnaipe aicearra: Saighead dheis nó ENTER"
 
-#: qt/aqt/addcards.py:87
+#: qt/aqt/addcards.py:89
 #, python-format
 msgid "Shortcut: %s"
 msgstr "Aicearra: %s"
 
-#: qt/aqt/reviewer.py:584
+#: qt/aqt/reviewer.py:585
 msgid "Show Answer"
 msgstr "Taispeáin Freagra"
 
@@ -2786,11 +2841,11 @@ msgstr "Taispeáin Freagra"
 msgid "Show Duplicates"
 msgstr "Taispeáin Dúblaigh"
 
-#: qt/aqt/forms/dconf.py:375
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:377
 msgid "Show answer timer"
 msgstr "Taispeáin clog"
 
-#: qt/aqt/forms/preferences.py:291
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:292
 msgid "Show learning cards with larger steps before reviews"
 msgstr "Taispeáin cártaí á bhfhoghlaim i dtús i gcónaí"
 
@@ -2810,63 +2865,64 @@ msgstr "Taispeáin cártaí nua san ord inar cruthaíodh iad"
 msgid "Show new cards in random order"
 msgstr "Taispeáin cártaí nua in ord randamach"
 
-#: qt/aqt/forms/preferences.py:289
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:290
 msgid "Show next review time above answer buttons"
 msgstr "Taispeáin am don chéad athbhreithniú eile thar chnaipí freagra"
 
-#: qt/aqt/forms/preferences.py:279
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:280
 msgid "Show play buttons on cards with audio"
 msgstr "Taispeáin cnaipe 'seinm' ar chártaí le fuaim"
 
-#: qt/aqt/forms/preferences.py:290
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:291
 msgid "Show remaining card count during review"
 msgstr "Taispeáin líon na gcártaí atá fanta le linn athbhreithnigh"
 
-#: qt/aqt/browser.py:1056 qt/aqt/forms/browser.py:337
+#: qt/aqt/browser.py:1031
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:339
 msgid "Sidebar"
 msgstr "Taobh-bharra"
 
-#: qt/aqt/forms/addfield.py:63
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addfield.py:64
 msgid "Size:"
 msgstr "Méid:"
 
-#: pylib/anki/importing/anki2.py:160
+#: pylib/anki/importing/anki2.py:157
 msgid "Skipped"
 msgstr "Fágtha ar lár"
 
-#: qt/aqt/forms/preferences.py:311
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:312
 msgid "Some settings will take effect after you restart Anki."
 msgstr "Tiocfaidh socruithe áirithe i bhfeidhm nuair a atosófar Anki."
 
-#: qt/aqt/browser.py:737
+#: qt/aqt/browser.py:744
 msgid "Sort Field"
 msgstr "Réimse Sórtála"
 
-#: qt/aqt/forms/fields.py:110
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:111
 msgid "Sort by this field in the browser"
 msgstr "Úsáid an réimse seo mar bhunús sórtála sa bhrabhsálaí"
 
-#: qt/aqt/browser.py:932
+#: qt/aqt/browser.py:942
 msgid "Sorting on this column is not supported. Please choose another."
 msgstr "Ní féidir sórtáil de réir an cholúin seo. Roghnaigh ceann eile."
 
-#: qt/aqt/sound.py:285
+#: qt/aqt/sound.py:323
 msgid "Sound and video on cards will not function until mpv or mplayer is installed."
 msgstr "Ní bheidh feidhm ag fuaim ná fís ar chártai gan mpv ná mplayer a bheith suite."
 
-#: qt/aqt/importing.py:170 qt/aqt/reviewer.py:583
+#: qt/aqt/importing.py:163 qt/aqt/reviewer.py:584
 msgid "Space"
 msgstr "Spás"
 
-#: qt/aqt/forms/reposition.py:71
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reposition.py:73
 msgid "Start position:"
 msgstr "Áit thosaigh:"
 
-#: qt/aqt/forms/dconf.py:340
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:342
 msgid "Starting ease"
 msgstr "Éascacht thosaigh"
 
-#: qt/aqt/forms/stats.py:79
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/stats.py:80
 msgid "Statistics"
 msgstr "Staitisticí"
 
@@ -2874,11 +2930,12 @@ msgstr "Staitisticí"
 msgid "Stats"
 msgstr "Staitisticí"
 
-#: qt/aqt/forms/reposition.py:72
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reposition.py:74
 msgid "Step:"
 msgstr "Céim:"
 
-#: qt/aqt/forms/dconf.py:346 qt/aqt/forms/dconf.py:362
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:348
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:364
 msgid "Steps (in minutes)"
 msgstr "Céimeanna (nóiméid)"
 
@@ -2886,7 +2943,7 @@ msgstr "Céimeanna (nóiméid)"
 msgid "Steps must be numbers."
 msgstr "Úsáid uimhreacha do céimeanna."
 
-#: qt/aqt/browser.py:1266
+#: qt/aqt/browser.py:1264
 msgid "Studied Today"
 msgstr "Staidéartha inniu"
 
@@ -2894,11 +2951,11 @@ msgstr "Staidéartha inniu"
 msgid "Study"
 msgstr "Déan staidéar"
 
-#: qt/aqt/forms/studydeck.py:45
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/studydeck.py:47
 msgid "Study Deck"
 msgstr "Paca Staidéir"
 
-#: qt/aqt/forms/main.py:152
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:153
 msgid "Study Deck..."
 msgstr "Paca Staidéir..."
 
@@ -2906,11 +2963,11 @@ msgstr "Paca Staidéir..."
 msgid "Study Now"
 msgstr "Déan staidéar anois"
 
-#: qt/aqt/forms/customstudy.py:107
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:108
 msgid "Study by card state or tag"
 msgstr "Déan staidear de réir staid chárta nó de réir clibe"
 
-#: qt/aqt/editor.py:132
+#: qt/aqt/editor.py:153
 msgid "Subscript (Ctrl+=)"
 msgstr "Foscript (Ctrl+=)"
 
@@ -2918,7 +2975,7 @@ msgstr "Foscript (Ctrl+=)"
 msgid "Supermemo XML export (*.xml)"
 msgstr "Easpórtáil Supermemo XML (*.xml)"
 
-#: qt/aqt/editor.py:130
+#: qt/aqt/editor.py:151
 msgid "Superscript (Ctrl++)"
 msgstr "Forscript (Ctrl++)"
 
@@ -2926,7 +2983,8 @@ msgstr "Forscript (Ctrl++)"
 msgid "Suspend"
 msgstr "Cuir ar fionraí"
 
-#: qt/aqt/reviewer.py:729 qt/aqt/forms/dconf.py:369
+#: qt/aqt/reviewer.py:729
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:371
 msgid "Suspend Card"
 msgstr "Cuir Cárta ar Fionraí"
 
@@ -2934,7 +2992,7 @@ msgstr "Cuir Cárta ar Fionraí"
 msgid "Suspend Note"
 msgstr "Cuir Nóta ar Fionraí"
 
-#: qt/aqt/browser.py:1283
+#: qt/aqt/browser.py:1281
 msgid "Suspended"
 msgstr "Ar fionraí"
 
@@ -2946,27 +3004,27 @@ msgstr "Ar Fionraí + i bhFolach"
 msgid "Sync"
 msgstr "Sionc"
 
-#: qt/aqt/forms/preferences.py:301
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:302
 msgid "Synchronize audio and images too"
 msgstr "Sioncronaigh fuaim agus iomhánna freisin"
 
-#: qt/aqt/importing.py:166
+#: qt/aqt/importing.py:159
 msgid "Tab"
 msgstr "Táb"
 
-#: qt/aqt/browser.py:1981 qt/aqt/browser.py:2008
+#: qt/aqt/browser.py:1988 qt/aqt/browser.py:2015
 msgid "Tag Duplicates"
 msgstr "Clibeáil Dúblaigh"
 
-#: qt/aqt/forms/dconf.py:370
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:372
 msgid "Tag Only"
 msgstr "Clibeáil Amháin"
 
-#: qt/aqt/forms/importing.py:111
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:113
 msgid "Tag modified notes:"
 msgstr "Clibeáil nótaí athraithe:"
 
-#: qt/aqt/browser.py:746 qt/aqt/browser.py:1298 qt/aqt/editor.py:567
+#: qt/aqt/browser.py:753 qt/aqt/browser.py:1299 qt/aqt/editor.py:576
 msgid "Tags"
 msgstr "Clibeanna"
 
@@ -2974,7 +3032,7 @@ msgstr "Clibeanna"
 msgid "Target Deck (Ctrl+D)"
 msgstr "Spriocphaca (Ctrl+D)"
 
-#: qt/aqt/forms/changemap.py:42
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/changemap.py:44
 msgid "Target field:"
 msgstr "Sprioc-réimse:"
 
@@ -2994,11 +3052,11 @@ msgstr "Ní féidir réamhshocruithe a bhaint."
 msgid "The division of cards in your deck(s)."
 msgstr "Miondealú na gcártaí i do phaca(í)."
 
-#: qt/aqt/addcards.py:164
+#: qt/aqt/addcards.py:169
 msgid "The first field is empty."
 msgstr "Tá an chéad réimse folamh."
 
-#: qt/aqt/importing.py:183
+#: qt/aqt/importing.py:176
 msgid "The first field of the note type must be mapped."
 msgstr "Caithfidh an chéad réimse den chineál nóta a bheith mapáilte."
 
@@ -3011,7 +3069,7 @@ msgstr "Díchumasaíodh na breiseán seo (nach n-oibríonn in éineacht le %(nam
 msgid "The following add-ons have updates available. Install them now?"
 msgstr "Is féidir na breiseáin seo a nuashonrú. Déan anois é?"
 
-#: qt/aqt/utils.py:653
+#: qt/aqt/utils.py:659
 #, python-format
 msgid "The following character can not be used: %s"
 msgstr "Ní féidir an carachtar seo a úsáid: %s"
@@ -3036,7 +3094,7 @@ msgstr "Líon na n-athbhreithnithe a bheidh le déanamh amach anseo"
 msgid "The number of times you have pressed each button."
 msgstr "Cé mhéid uair ar bhrúigh tú gach cnaipe"
 
-#: qt/aqt/importing.py:524
+#: qt/aqt/importing.py:516
 msgid "The provided file is not a valid .apkg file."
 msgstr "Níl an comhad sin bailí mar chomhad .apkg."
 
@@ -3044,18 +3102,15 @@ msgstr "Níl an comhad sin bailí mar chomhad .apkg."
 msgid "The provided search did not match any cards. Would you like to revise it?"
 msgstr "Níor aimsíodh aon chárta. Déan cúardach eile?"
 
-#: qt/aqt/main.py:1341 qt/aqt/main.py:1360
-msgid ""
-"The requested change will require a full upload of the database when you next synchronize your collection. If you have reviews or other changes waiting on another device that haven't been "
-"synchronized here yet, they will be lost. Continue?"
-msgstr ""
-"Don athrú seo, teastóidh uaslódáil iomlán de do bhunachar sonraí ar an gcéad sioncronú eile. Má tá athbhreithnithe nó athruithe eile ar ghléas eile nár sioncronú fós, caillfear iad. Lean ar aghaidh?"
+#: qt/aqt/main.py:1343 qt/aqt/main.py:1362
+msgid "The requested change will require a full upload of the database when you next synchronize your collection. If you have reviews or other changes waiting on another device that haven't been synchronized here yet, they will be lost. Continue?"
+msgstr "Don athrú seo, teastóidh uaslódáil iomlán de do bhunachar sonraí ar an gcéad sioncronú eile. Má tá athbhreithnithe nó athruithe eile ar ghléas eile nár sioncronú fós, caillfear iad. Lean ar aghaidh?"
 
 #: pylib/anki/stats.py:380
 msgid "The time taken to answer the questions."
 msgstr "An méid ama caite ag freagrú na gceisteanna."
 
-#: qt/aqt/main.py:318
+#: qt/aqt/main.py:320
 msgid "There must be at least one profile."
 msgstr "Teastaíon próifíl amháin ar a laghad."
 
@@ -3063,13 +3118,11 @@ msgstr "Teastaíon próifíl amháin ar a laghad."
 msgid "This add-on is not compatible with your version of Anki."
 msgstr "Ní oibríonn an breiseán seo leis an leagan seo de Anki."
 
-#: qt/aqt/importing.py:442
-msgid ""
-"This file does not appear to be a valid .apkg file. If you're getting this error from a file downloaded from AnkiWeb, chances are that your download failed. Please try again, and if the problem "
-"persists, please try again with a different browser."
+#: qt/aqt/importing.py:434
+msgid "This file does not appear to be a valid .apkg file. If you're getting this error from a file downloaded from AnkiWeb, chances are that your download failed. Please try again, and if the problem persists, please try again with a different browser."
 msgstr "Ní comhad bailí .apkg é seo. Má fuair tú ó AnkiWeb é, seans gur theip ar an íoslódáil. Bain triail eile as, agus má tá an fadhb agat fós, bain triail as le brabhsálaí eile."
 
-#: qt/aqt/utils.py:406
+#: qt/aqt/utils.py:412
 msgid "This file exists. Are you sure you want to overwrite it?"
 msgstr "Tá an comhad seo ann cheanna, agus forscríobhfar é. Cinnte?"
 
@@ -3077,7 +3130,7 @@ msgstr "Tá an comhad seo ann cheanna, agus forscríobhfar é. Cinnte?"
 msgid "This is a special deck for studying outside of the normal schedule."
 msgstr "Paca ar leith é seo le haghaidh staidéir taobh amuigh den ghnáthsceideal."
 
-#: qt/aqt/clayout.py:630
+#: qt/aqt/clayout.py:632
 #, python-format
 msgid "This will create %d card. Proceed?"
 msgid_plural "This will create %d cards. Proceed?"
@@ -3087,7 +3140,7 @@ msgstr[2] "Cruthóidh é seo %d chárta. Lean ar aghaidh?"
 msgstr[3] "Cruthóidh é seo %d gcárta. Lean ar aghaidh?"
 msgstr[4] "Cruthóidh é seo %d cárta. Lean ar aghaidh?"
 
-#: qt/aqt/importing.py:462
+#: qt/aqt/importing.py:454
 msgid "This will delete your existing collection and replace it with the data in the file you're importing. Are you sure?"
 msgstr "Scriosfaidh sé seo do chnuasach, agus cuirfear na sonraí ón gcomhad nua ina h-áit. An bhfuil tú cinnte?"
 
@@ -3095,7 +3148,7 @@ msgstr "Scriosfaidh sé seo do chnuasach, agus cuirfear na sonraí ón gcomhad n
 msgid "This will reset any cards in learning, clear filtered decks, and change the scheduler version. Proceed?"
 msgstr "Athshocróidh sé seo cártaí atá á bhfoghlaim, glanfaidh sé pacaí scagtha, agus athróidh sé leagan an sceidealóir. Lean ar aghaidh?"
 
-#: qt/aqt/forms/preferences.py:294
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:295
 msgid "Timebox time limit"
 msgstr "Teorainn ama don tréimhse shocraithe"
 
@@ -3103,29 +3156,27 @@ msgstr "Teorainn ama don tréimhse shocraithe"
 msgid "To Review"
 msgstr "Le athbhreithniú"
 
-#: qt/aqt/forms/getaddons.py:49
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/getaddons.py:51
 msgid "To browse add-ons, please click the browse button below.<br><br>When you've found an add-on you like, please paste its code below. You can paste multiple codes, separated by spaces."
-msgstr ""
-"Chun breiseáin a bhrabhsáil, buail an chnaipe 'brabhsáil' thíos.<br><br>Roghnaigh breiseán, agus greamaigh a chód anseo thíos. Is féidir roinnt códanna a ghreamaigh - úsáid spás chun iad a "
-"dheighilt."
+msgstr "Chun breiseáin a bhrabhsáil, buail an chnaipe 'brabhsáil' thíos.<br><br>Roghnaigh breiseán, agus greamaigh a chód anseo thíos. Is féidir roinnt códanna a ghreamaigh - úsáid spás chun iad a dheighilt."
 
-#: qt/aqt/editor.py:642
+#: qt/aqt/editor.py:651
 msgid "To make a cloze deletion on an existing note, you need to change it to a cloze type first, via 'Notes>Change Note Type'"
 msgstr "Chun sliocht iomlánú a dhéanamh ar nóta, caithfear cineál an nóta a athrú i dtosach, trí 'Nótaí>Athraigh Cineál Nóta'"
 
-#: pylib/anki/stats.py:119 qt/aqt/browser.py:1261
+#: pylib/anki/stats.py:119 qt/aqt/browser.py:1259
 msgid "Today"
 msgstr "Inniu"
 
-#: qt/aqt/forms/addons.py:76
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:77
 msgid "Toggle Enabled"
 msgstr "Díchumasaigh/Athchumasaigh"
 
-#: qt/aqt/forms/browser.py:340
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:342
 msgid "Toggle Mark"
 msgstr "Scoránaigh Marc"
 
-#: qt/aqt/forms/browser.py:329
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:331
 msgid "Toggle Suspend"
 msgstr "Scoránaigh 'Ar Fionraí'"
 
@@ -3141,15 +3192,16 @@ msgstr "Cártaí uilig"
 msgid "Total notes"
 msgstr "Nótaí uilig"
 
-#: qt/aqt/forms/findreplace.py:90
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/findreplace.py:91
 msgid "Treat input as regular expression"
 msgstr "Slonn rialta (regex) atá san ionchur seo."
 
-#: qt/aqt/modelchooser.py:26 qt/aqt/forms/importing.py:105
+#: qt/aqt/modelchooser.py:40
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:107
 msgid "Type"
 msgstr "Cineál"
 
-#: qt/aqt/reviewer.py:388
+#: qt/aqt/reviewer.py:391
 #, python-format
 msgid "Type answer: unknown field %s"
 msgstr "Réimse anaithnithid %s"
@@ -3158,7 +3210,7 @@ msgstr "Réimse anaithnithid %s"
 msgid "Unable to access Anki media folder. The permissions on your system's temporary folder may be incorrect."
 msgstr "Níl riocht ar fillteán meáin Anki. Seiceáil na ceadanna ar an bhfillteán sealadach ar do ríomhaire."
 
-#: qt/aqt/main.py:362
+#: qt/aqt/main.py:364
 msgid "Unable to move existing file to trash - please try restarting your computer."
 msgstr "Ní féidir an comhad a aistriú gon bhruscar - atosaigh an ríomhaire."
 
@@ -3177,20 +3229,20 @@ msgstr ""
 msgid "Unbury"
 msgstr "Tarraing amach (ábhar atá i bhfolach)"
 
-#: qt/aqt/editor.py:127
+#: qt/aqt/editor.py:148
 msgid "Underline text (Ctrl+U)"
 msgstr "Folínigh (Ctrl+U)"
 
-#: qt/aqt/main.py:1044
+#: qt/aqt/main.py:1046
 msgid "Undo"
 msgstr "Cealaigh"
 
-#: qt/aqt/main.py:1040
+#: qt/aqt/main.py:1042
 #, python-format
 msgid "Undo %s"
 msgstr "Cealaigh %s"
 
-#: qt/aqt/addons.py:1014 qt/aqt/editor.py:841
+#: qt/aqt/addons.py:1014 qt/aqt/editor.py:850
 #, python-format
 msgid "Unexpected response code: %s"
 msgstr "Cód freagra mí-oiriúnach: %s"
@@ -3199,7 +3251,7 @@ msgstr "Cód freagra mí-oiriúnach: %s"
 msgid "Unknown error: {}"
 msgstr "Earráid anaithnid: {}"
 
-#: qt/aqt/importing.py:375
+#: qt/aqt/importing.py:367
 msgid "Unknown file format."
 msgstr "Formáid anaithnid."
 
@@ -3207,11 +3259,11 @@ msgstr "Formáid anaithnid."
 msgid "Unseen"
 msgstr "Nach bhfuil feicthe"
 
-#: qt/aqt/forms/importing.py:107
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:109
 msgid "Update existing notes when first field matches"
 msgstr "Nuashonraigh nótaí más ionann luach an chéad réimse"
 
-#: pylib/anki/importing/anki2.py:163
+#: pylib/anki/importing/anki2.py:160
 msgid "Updated"
 msgstr "Nuashonraithe"
 
@@ -3219,7 +3271,7 @@ msgstr "Nuashonraithe"
 msgid "User 1"
 msgstr "Úsáideoir 1"
 
-#: qt/aqt/forms/preferences.py:286
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:287
 msgid "User interface size"
 msgstr "Méid an chomhéadain"
 
@@ -3228,19 +3280,19 @@ msgstr "Méid an chomhéadain"
 msgid "Version %s"
 msgstr "Leagan %s"
 
-#: qt/aqt/forms/addons.py:73
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:74
 msgid "View Add-on Page"
 msgstr "Féach Leathanach na mBreiseán"
 
-#: qt/aqt/forms/addons.py:75
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:76
 msgid "View Files"
 msgstr "Amharc ar chomhaid"
 
-#: qt/aqt/main.py:733
+#: qt/aqt/main.py:735
 msgid "Waiting for editing to finish."
 msgstr "Ag fanacht ar eagarthóireacht"
 
-#: qt/aqt/editor.py:635
+#: qt/aqt/editor.py:644
 msgid "Warning, cloze deletions will not work until you switch the type at the top to Cloze."
 msgstr "Rabhadh, Caithfear 'Iomlánú' a roghnadh mar chineál thuas chun go bhfeidhmeoidh sleachta iomlánaithe."
 
@@ -3248,11 +3300,11 @@ msgstr "Rabhadh, Caithfear 'Iomlánú' a roghnadh mar chineál thuas chun go bhf
 msgid "What would you like to unbury?"
 msgstr "Céard ar mhaith leat tarraingt amach?"
 
-#: qt/aqt/forms/preferences.py:284
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:285
 msgid "When adding, default to current deck"
 msgstr "De ghnáth, cuir cártaí nua leis an bpaca atá oscailte"
 
-#: qt/aqt/browser.py:1124 qt/aqt/browser.py:1257
+#: qt/aqt/browser.py:1108 qt/aqt/browser.py:1255
 msgid "Whole Collection"
 msgstr "Cnuasach Iomlán"
 
@@ -3260,16 +3312,16 @@ msgstr "Cnuasach Iomlán"
 msgid "Would you like to download it now?"
 msgstr "Íoslódáil anois?"
 
-#: qt/aqt/about.py:214
+#: qt/aqt/about.py:215
 #, python-format
 msgid "Written by Damien Elmes, with patches, translation,    testing and design from:<p>%(cont)s"
 msgstr "Damian Elmes a scríobh, le paistí, aistriúcháin, tástáil agus dearadh ó:<p>%(cont)s"
 
-#: qt/aqt/forms/preferences.py:309
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:310
 msgid "You can restore backups via File>Switch Profile."
 msgstr "Chun cúltacaí a thabhairt ar ais: Comhad>Athraigh Próifíl"
 
-#: qt/aqt/addcards.py:173
+#: qt/aqt/addcards.py:178
 msgid "You have a cloze deletion note type but have not made any cloze deletions. Proceed?"
 msgstr "Is 'sliocht iomlánú' e an cineál seo nóta, ach níl sliocht iomlánú curtha ann. Lean ar aghaidh?"
 
@@ -3277,11 +3329,12 @@ msgstr "Is 'sliocht iomlánú' e an cineál seo nóta, ach níl sliocht iomlán�
 msgid "You haven't recorded your voice yet."
 msgstr "Níor thaifead tú do ghuth fós."
 
-#: qt/aqt/browser.py:987
+#: qt/aqt/browser.py:997
 msgid "You must have at least one column."
 msgstr "Teastaíonn colún amháin (ar a laghad)."
 
-#: pylib/anki/stats.py:214 pylib/anki/stats.py:347 pylib/anki/stats.py:367 pylib/anki/stats.py:687
+#: pylib/anki/stats.py:214 pylib/anki/stats.py:347 pylib/anki/stats.py:367
+#: pylib/anki/stats.py:687
 msgid "Young"
 msgstr "Óg"
 
@@ -3293,13 +3346,9 @@ msgstr "Óg+Foghlaim"
 msgid "Your changes will affect multiple decks. If you wish to change only the current deck, please add a new options group first."
 msgstr "Beidh tionchar ag na hathruithe seo ar roinnt pacaí. Chun an paca seo amháin a athrú, cruthaigh roghaghrúpa nua."
 
-#: qt/aqt/main.py:576
-msgid ""
-"Your collection file appears to be corrupt. This can happen when the file is copied or moved while Anki is open, or when the collection is stored on a network or cloud drive. If problems persist "
-"after restarting your computer, please open an automatic backup from the profile screen."
-msgstr ""
-"Tá comhad an chnuasaigh truaillithe. Tig leis seo a tharlú nuair a chóipeáiltear (nó a bhogtar) an comhad agus Anki ar oscailt, nó nuair atá an cnuasamh lonnaithe ar thiomántán líonra nó ar "
-"néalthiomántán. Má tá an fadhb seo fós ann tar éis an ríomhaire a atosnú, oscail cúltacú uathoibríoch ón bhfuinneog phróifíl."
+#: qt/aqt/main.py:578
+msgid "Your collection file appears to be corrupt. This can happen when the file is copied or moved while Anki is open, or when the collection is stored on a network or cloud drive. If problems persist after restarting your computer, please open an automatic backup from the profile screen."
+msgstr "Tá comhad an chnuasaigh truaillithe. Tig leis seo a tharlú nuair a chóipeáiltear (nó a bhogtar) an comhad agus Anki ar oscailt, nó nuair atá an cnuasamh lonnaithe ar thiomántán líonra nó ar néalthiomántán. Má tá an fadhb seo fós ann tar éis an ríomhaire a atosnú, oscail cúltacú uathoibríoch ón bhfuinneog phróifíl."
 
 #: qt/aqt/errors.py:99
 msgid "Your computer's storage may be full. Please delete some unneeded files, then try again."
@@ -3313,7 +3362,7 @@ msgstr "Tá balla dóiteáin nó clár frithvíreas ag cur bac ar Anki ó nasc a
 msgid "[no deck]"
 msgstr "[gan paca]"
 
-#: qt/aqt/forms/preferences.py:308
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:309
 msgid "backups"
 msgstr "cúltacaí"
 
@@ -3325,11 +3374,13 @@ msgstr "cártaí"
 msgid "cards from the deck"
 msgstr "cártaí ón bpaca"
 
-#: qt/aqt/forms/dyndconf.py:137 qt/aqt/forms/dyndconf.py:141
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:139
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:143
 msgid "cards selected by"
 msgstr "cártaí roghnaithe de réir"
 
-#: qt/aqt/exporting.py:110 qt/aqt/forms/stats.py:81
+#: qt/aqt/exporting.py:110
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/stats.py:82
 msgid "collection"
 msgstr "cnuasach"
 
@@ -3338,20 +3389,25 @@ msgstr "cnuasach"
 msgid "d"
 msgstr "l"
 
-#: qt/aqt/customstudy.py:90 qt/aqt/customstudy.py:94 qt/aqt/customstudy.py:97 qt/aqt/forms/dconf.py:348 qt/aqt/forms/dconf.py:349 qt/aqt/forms/dconf.py:356 qt/aqt/forms/dconf.py:368
-#: qt/aqt/forms/reschedule.py:77
+#: qt/aqt/customstudy.py:90 qt/aqt/customstudy.py:94 qt/aqt/customstudy.py:97
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:350
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:351
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:358
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:370
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reschedule.py:79
 msgid "days"
 msgstr "lá"
 
-#: qt/aqt/forms/stats.py:80
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/stats.py:81
 msgid "deck"
 msgstr "paca"
 
-#: pylib/anki/stats.py:949 qt/aqt/forms/stats.py:84
+#: pylib/anki/stats.py:949
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/stats.py:85
 msgid "deck life"
 msgstr "saol an phaca"
 
-#: qt/aqt/browser.py:2012
+#: qt/aqt/browser.py:2019
 msgid "duplicate"
 msgstr "dúblach"
 
@@ -3359,28 +3415,30 @@ msgstr "dúblach"
 msgid "hours"
 msgstr "uaire"
 
-#: qt/aqt/forms/preferences.py:295
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:296
 msgid "hours past midnight"
 msgstr "uaire tar éis meán oíche"
 
-#: qt/aqt/forms/dconf.py:365
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:367
 msgid "lapses"
 msgstr "clistí"
 
-#: qt/aqt/importing.py:264
+#: qt/aqt/importing.py:256
 #, python-format
 msgid "mapped to <b>%s</b>"
 msgstr "mapáilte go <b>%s</b>"
 
-#: qt/aqt/importing.py:262
+#: qt/aqt/importing.py:254
 msgid "mapped to <b>Tags</b>"
 msgstr "mapáilte go <b>Clibeanna</b>"
 
-#: qt/aqt/forms/preferences.py:293 qt/aqt/forms/preferences.py:297
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:294
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:298
 msgid "mins"
 msgstr "nóim"
 
-#: pylib/anki/stats.py:384 qt/aqt/forms/dyndconf.py:146
+#: pylib/anki/stats.py:384
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:148
 msgid "minutes"
 msgstr "nóiméad"
 
@@ -3393,7 +3451,7 @@ msgstr "mí"
 msgid "reviews"
 msgstr "léirmheasanna"
 
-#: qt/aqt/forms/dconf.py:374
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:376
 msgid "seconds"
 msgstr "soicind"
 
@@ -3410,9 +3468,12 @@ msgstr "seachtaine"
 msgid "whole collection"
 msgstr "an cnuasach ar fad"
 
-#: qt/aqt/forms/reschedule.py:76
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reschedule.py:78
 msgid "~"
 msgstr "-"
+
+#~ msgid "Front"
+#~ msgstr "Tosach"
 
 #~ msgid "Congratulations! You have finished this deck for now."
 #~ msgstr "Comhghairdeas! Tá an paca seo críochnaithe agat go fóill."

@@ -1,9 +1,9 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: anki\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-21 12:06+1000\n"
+"POT-Creation-Date: 2020-11-11 19:48+1000\n"
 "PO-Revision-Date: 2020-09-23 19:51+0000\n"
 "Last-Translator: abdo <abd.nh25@gmail.com>\n"
 "Language-Team: Arabic\n"
@@ -17,11 +17,11 @@ msgstr ""
 "X-Crowdin-Project: anki\n"
 "X-Generator: Pontoon\n"
 
-#: qt/aqt/importing.py:411
+#: qt/aqt/importing.py:403
 msgid "    Invalid file. Please restore from backup."
 msgstr "ملف غير صالح، الرجاء الاسترجاع من النسخ الاحتياطية."
 
-#: qt/aqt/importing.py:420
+#: qt/aqt/importing.py:412
 msgid "    Unable to import from a read-only file."
 msgstr "يتعذر الاستيراد من ملف محمي ضد الكتابة."
 
@@ -29,11 +29,11 @@ msgstr "يتعذر الاستيراد من ملف محمي ضد الكتابة."
 msgid " (disabled)"
 msgstr " (غير مفعل)"
 
-#: qt/aqt/clayout.py:692
+#: qt/aqt/clayout.py:694
 msgid " (off)"
 msgstr " (غير مفعل)"
 
-#: qt/aqt/clayout.py:690
+#: qt/aqt/clayout.py:692
 msgid " (on)"
 msgstr " (مفعل)"
 
@@ -49,11 +49,16 @@ msgstr[4] " فيها %d بطاقة."
 msgstr[5] " فيها %d بطاقة."
 
 #. T: include a font for your language on Windows, eg: "Segoe UI", "MS Mincho"
-#: qt/aqt/webview.py:368
+#: qt/aqt/webview.py:379
 msgid "\"Segoe UI\""
 msgstr "\"Segoe UI\""
 
-#: qt/aqt/forms/dconf.py:341 qt/aqt/forms/dconf.py:352 qt/aqt/forms/dconf.py:357 qt/aqt/forms/dconf.py:360 qt/aqt/forms/dconf.py:371 qt/aqt/forms/preferences.py:287
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:343
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:354
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:359
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:362
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:373
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:288
 msgid "%"
 msgstr "%"
 
@@ -68,7 +73,7 @@ msgstr "%(a)0.1f %(b)s/يوم"
 
 #. T: name is a card type name. n it's order in the list of card type.
 #. T: this is shown in browser's filter, when seeing the list of card type of a note type.
-#: qt/aqt/browser.py:1355
+#: qt/aqt/browser.py:1356
 #, python-format
 msgid "%(n)d: %(name)s"
 msgstr "%(n)d: %(name)s"
@@ -78,7 +83,7 @@ msgstr "%(n)d: %(name)s"
 msgid "%(tot)s %(unit)s"
 msgstr "%(tot)s %(unit)s"
 
-#: pylib/anki/stats.py:260 pylib/anki/stats.py:318 qt/aqt/clayout.py:558
+#: pylib/anki/stats.py:260 pylib/anki/stats.py:318 qt/aqt/clayout.py:560
 #, python-format
 msgid "%d card"
 msgid_plural "%d cards"
@@ -111,7 +116,7 @@ msgstr[3] "تم استيراد %d بطاقات."
 msgstr[4] "تم استيراد %d بطاقة."
 msgstr[5] "تم استيراد %d بطاقة."
 
-#: qt/aqt/reviewer.py:88
+#: qt/aqt/reviewer.py:90
 #, python-format
 msgid "%d card studied in"
 msgid_plural "%d cards studied in"
@@ -133,7 +138,7 @@ msgstr[3] "تم تحديث %d رزمات."
 msgstr[4] "تم تحديث %d رزمة."
 msgstr[5] "تم تحديث %d رزمة."
 
-#: qt/aqt/browser.py:1987
+#: qt/aqt/browser.py:1994
 #, python-format
 msgid "%d group"
 msgid_plural "%d groups"
@@ -144,7 +149,8 @@ msgstr[3] "%d مجموعات"
 msgstr[4] "%d مجموعة"
 msgstr[5] "%d مجموعة"
 
-#: qt/aqt/browser.py:1988 qt/aqt/browser.py:1996 qt/aqt/fields.py:123 qt/aqt/models.py:107
+#: qt/aqt/browser.py:1995 qt/aqt/browser.py:2003 qt/aqt/fields.py:125
+#: qt/aqt/models.py:111
 #, python-format
 msgid "%d note"
 msgid_plural "%d notes"
@@ -166,7 +172,7 @@ msgstr[3] "أضيفت %d ملحوظات"
 msgstr[4] "أضيفت %d ملحوظة"
 msgstr[5] "أضيفت %d ملحوظة"
 
-#: qt/aqt/browser.py:1570
+#: qt/aqt/browser.py:1573
 #, python-format
 msgid "%d note deleted."
 msgid_plural "%d notes deleted."
@@ -188,7 +194,7 @@ msgstr[3] "تم تصدير %d ملحوظات."
 msgstr[4] "تم تصدير %d ملحوظة."
 msgstr[5] "تم تصدير %d ملحوظة."
 
-#: pylib/anki/importing/mnemo.py:104
+#: pylib/anki/importing/mnemo.py:105
 #, python-format
 msgid "%d note imported."
 msgid_plural "%d notes imported."
@@ -221,7 +227,7 @@ msgstr[3] "تم تحديث %d ملحوظات"
 msgstr[4] "تم تحديث %d ملحوظة"
 msgstr[5] "تم تحديث %d ملحوظة"
 
-#: qt/aqt/browser.py:823
+#: qt/aqt/browser.py:832
 #, python-format
 msgid "%d selected"
 msgid_plural "%d selected"
@@ -237,7 +243,7 @@ msgstr[5] "%d محددة"
 msgid "%s copy"
 msgstr "%s نسخ"
 
-#: qt/aqt/reviewer.py:92
+#: qt/aqt/reviewer.py:94
 #, python-format
 msgid "%s minute."
 msgid_plural "%s minutes."
@@ -248,7 +254,7 @@ msgstr[3] "%s دقائق."
 msgstr[4] "%s دقيقة."
 msgstr[5] "%s دقيقة."
 
-#: qt/aqt/main.py:1220
+#: qt/aqt/main.py:1222
 #, python-format
 msgid "%s second"
 msgid_plural "%s seconds"
@@ -259,107 +265,111 @@ msgstr[3] "%s ثوانٍ"
 msgstr[4] "%s ثانية"
 msgstr[5] "%s ثانية"
 
-#: qt/aqt/forms/main.py:140
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:141
 msgid "&About..."
 msgstr "&حول..."
 
-#: qt/aqt/forms/main.py:146
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:147
 msgid "&Browse and Install..."
 msgstr "&استكشف وثبّت"
 
-#: qt/aqt/forms/browser.py:301
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:303
 msgid "&Cards"
 msgstr "&بطاقات"
 
-#: qt/aqt/forms/main.py:147
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:148
 msgid "&Check Database"
 msgstr "فحص &قاعدة البيانات"
 
-#: qt/aqt/forms/browser.py:316
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:318
 msgid "&Cram..."
 msgstr "&دراسة مستعجلة..."
 
-#: qt/aqt/forms/browser.py:298 qt/aqt/forms/main.py:134
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:300
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:135
 msgid "&Edit"
 msgstr "&تحرير"
 
-#: qt/aqt/forms/browser.py:341
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:343
 msgid "&Export Notes..."
 msgstr "&تصدير ملحوظات..."
 
-#: qt/aqt/forms/main.py:150
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:151
 msgid "&Export..."
 msgstr "ت&صدير..."
 
-#: qt/aqt/forms/main.py:135
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:136
 msgid "&File"
 msgstr "&ملف"
 
-#: qt/aqt/forms/browser.py:308
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:310
 msgid "&Find"
 msgstr "&بحث"
 
-#: qt/aqt/forms/browser.py:299
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:301
 msgid "&Go"
 msgstr "&ذهاب"
 
-#: qt/aqt/forms/browser.py:312 qt/aqt/forms/main.py:148
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:314
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:149
 msgid "&Guide..."
 msgstr "&تعليمات..."
 
-#: qt/aqt/forms/browser.py:300 qt/aqt/forms/main.py:133
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:302
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:134
 msgid "&Help"
 msgstr "م&ساعدة"
 
-#: qt/aqt/forms/main.py:151
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:152
 msgid "&Import..."
 msgstr "&استيراد..."
 
-#: qt/aqt/forms/browser.py:326
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:328
 msgid "&Info..."
 msgstr "&معلومات..."
 
-#: qt/aqt/forms/browser.py:307
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:309
 msgid "&Invert Selection"
 msgstr "&عكس المحدد"
 
-#: qt/aqt/forms/browser.py:310
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:312
 msgid "&Next Card"
 msgstr "&البطاقة التالية"
 
-#: qt/aqt/forms/browser.py:303
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:305
 msgid "&Notes"
 msgstr "&ملحوظات"
 
-#: qt/aqt/forms/main.py:144
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:145
 msgid "&Open Add-ons Folder..."
 msgstr "&فتح مجلد الإضافات..."
 
-#: qt/aqt/forms/main.py:138
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:139
 msgid "&Preferences..."
 msgstr "&تفضيلات..."
 
-#: qt/aqt/forms/browser.py:311
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:313
 msgid "&Previous Card"
 msgstr "&البطاقة السابقة"
 
-#: qt/aqt/forms/browser.py:304
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:306
 msgid "&Reschedule..."
 msgstr "&إعادة جدولة..."
 
-#: qt/aqt/forms/main.py:145
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:146
 msgid "&Support Anki..."
 msgstr "&ادعم أنكي..."
 
-#: qt/aqt/forms/main.py:149
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:150
 msgid "&Switch Profile"
 msgstr "&تبديل الملف الشخصي"
 
-#: qt/aqt/forms/main.py:136
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:137
 msgid "&Tools"
 msgstr "أ&دوات"
 
-#: qt/aqt/forms/browser.py:306 qt/aqt/forms/main.py:141
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:308
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:142
 msgid "&Undo"
 msgstr "&تراجع"
 
@@ -373,7 +383,7 @@ msgstr "'%(row)s' له %(num1)d حقل، لكن المتوقع وجود %(num2)d
 msgid "(%s correct)"
 msgstr "(%s صحيح)"
 
-#: qt/aqt/addcards.py:149
+#: qt/aqt/addcards.py:154
 msgid "(Note deleted)"
 msgstr "(ملحوظة محذوفة)"
 
@@ -385,15 +395,15 @@ msgstr "(غير مفعلة)"
 msgid "(end)"
 msgstr "(النهاية)"
 
-#: qt/aqt/browser.py:367
+#: qt/aqt/browser.py:369
 msgid "(filtered)"
 msgstr "(مفلترة)"
 
-#: qt/aqt/browser.py:334
+#: qt/aqt/browser.py:336
 msgid "(learning)"
 msgstr "(في طور التعلم)"
 
-#: qt/aqt/browser.py:332 qt/aqt/browser.py:338
+#: qt/aqt/browser.py:334 qt/aqt/browser.py:340
 msgid "(new)"
 msgstr "(جديدة)"
 
@@ -411,19 +421,21 @@ msgstr "(اختر بطاقة واحدة من فضلك)"
 msgid "(requires %s)"
 msgstr "(يتطلب %s)"
 
-#: qt/aqt/importing.py:329
+#: qt/aqt/importing.py:321
 msgid ".anki files are from a very old version of Anki. You can import them with Anki 2.0, available on the Anki website."
 msgstr "ملفات anki. تعود إلى إصدار قديم جدًا من أنكي. تستطيع استيرادها من خلال أنكي 2.0، متوفر على موقع أنكي على الإنترنت."
 
-#: qt/aqt/importing.py:336
+#: qt/aqt/importing.py:328
 msgid ".anki2 files are not directly importable - please import the .apkg or .zip file you have received instead."
 msgstr "ملفات anki2. غير متوافقة - الرجاء استيراد ملف apkg. أو zip. الذي تلقيته بدلًا من ذلك."
 
-#: pylib/anki/stats.py:949 qt/aqt/forms/stats.py:82
+#: pylib/anki/stats.py:949
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/stats.py:83
 msgid "1 month"
 msgstr "شهر واحد"
 
-#: pylib/anki/stats.py:949 qt/aqt/forms/stats.py:83
+#: pylib/anki/stats.py:949
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/stats.py:84
 msgid "1 year"
 msgstr "عام واحد"
 
@@ -462,44 +474,36 @@ msgstr "<a href='%s'> زر الموقع الالكتروني</a>"
 msgid "<b>%(pct)d%%</b> (%(x)s of %(y)s)"
 msgstr "<b>%(pct)d%%</b>(%(x)s من %(y)s)"
 
-#: qt/aqt/forms/preferences.py:306
-msgid "<b>Backups</b><br>Anki will create a backup of your collection each time it is closed or synchronized."
-msgstr "<b>النسخ الاحتياطي</b><br>أنكي سينشئ نسخة احتياطية لمجموعتك كلما أُغلق أو تمت مزامنته."
-
-#: qt/aqt/forms/exporting.py:75
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/exporting.py:77
 msgid "<b>Export format</b>:"
 msgstr "<b>صيغة التصدير</b>:"
 
-#: qt/aqt/forms/findreplace.py:87
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/findreplace.py:88
 msgid "<b>Find</b>:"
 msgstr "<b>بحث</b>:"
 
-#: qt/aqt/forms/browseropts.py:71
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browseropts.py:73
 msgid "<b>Font Size</b>:"
 msgstr "<b>حجم الخط</b>:"
 
-#: qt/aqt/forms/browseropts.py:70
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browseropts.py:72
 msgid "<b>Font</b>:"
 msgstr "<b>الخط</b>:"
 
 #: qt/aqt/addons.py:1410
 #, python-format
-msgid ""
-"<b>Important</b>: As add-ons are programs downloaded from the internet, they are potentially malicious.<b>You should only install add-ons you trust.</b><br><br>Are you sure you want to proceed with "
-"the installation of the following Anki add-on(s)?<br><br>%(names)s"
-msgstr ""
-"<b>هام</b>: حيث إن الإضافات هي برامج منزلة من الإنترنت، فمن المحتمل أن تكون ضارة.<b>يُنصح بتنصيب الإضافات التي تثق بها فقط.</b><br><br>هل أنت متأكد من رغبتك في الاستمرار بتنصيب الإضافة/الإضافات "
-"التالية؟<br><br>%(names)s"
+msgid "<b>Important</b>: As add-ons are programs downloaded from the internet, they are potentially malicious.<b>You should only install add-ons you trust.</b><br><br>Are you sure you want to proceed with the installation of the following Anki add-on(s)?<br><br>%(names)s"
+msgstr "<b>هام</b>: حيث إن الإضافات هي برامج منزلة من الإنترنت، فمن المحتمل أن تكون ضارة.<b>يُنصح بتنصيب الإضافات التي تثق بها فقط.</b><br><br>هل أنت متأكد من رغبتك في الاستمرار بتنصيب الإضافة/الإضافات التالية؟<br><br>%(names)s"
 
-#: qt/aqt/forms/findreplace.py:89
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/findreplace.py:90
 msgid "<b>In</b>:"
 msgstr "<b>في</b>:"
 
-#: qt/aqt/forms/exporting.py:76
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/exporting.py:78
 msgid "<b>Include</b>:"
 msgstr "<b>اشتمل</b>"
 
-#: qt/aqt/forms/browseropts.py:72
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browseropts.py:74
 msgid "<b>Line Size</b>:"
 msgstr "<b>حجم السطر</b>:"
 
@@ -507,11 +511,11 @@ msgstr "<b>حجم السطر</b>:"
 msgid "<b>Please restart Anki to complete the installation.</b>"
 msgstr "<b>أعد تشغيل أنكي لإكمال التنصيب.</b>"
 
-#: qt/aqt/forms/findreplace.py:88
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/findreplace.py:89
 msgid "<b>Replace With</b>:"
 msgstr "<b>استبدال بـ</b>:"
 
-#: qt/aqt/forms/preferences.py:300
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:301
 msgid "<b>Synchronisation</b>"
 msgstr "<b>مزامنة</b>"
 
@@ -528,19 +532,24 @@ msgstr ""
 msgid "<h1>Anki Updated</h1>Anki %s has been released.<br><br>"
 msgstr "<h1>تم تحديث أنكي</h1>تم إصدار أنكي %s.<br><br>"
 
-#: qt/aqt/importing.py:266
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:307
+#, fuzzy
+msgid "<html><head/><body><p><span style=\" font-weight:600;\">Backups</span><br/>Anki will create a backup of your collection each time it is closed.</p></body></html>"
+msgstr "<b>النسخ الاحتياطي</b><br>أنكي سينشئ نسخة احتياطية لمجموعتك كلما أُغلق أو تمت مزامنته."
+
+#: qt/aqt/importing.py:258
 msgid "<ignored>"
 msgstr "<مهمل>"
 
-#: qt/aqt/main.py:1534
+#: qt/aqt/main.py:1537
 msgid "<non-unicode text>"
 msgstr "<نص بترميز مختلف عن يونيكود>"
 
-#: qt/aqt/browser.py:758
+#: qt/aqt/browser.py:765
 msgid "<type here to search; hit enter to show current deck>"
 msgstr "<اكتب هنا للبحث؛ اضغط زر enter لعرض الرزمة الحالية>"
 
-#: qt/aqt/about.py:224
+#: qt/aqt/about.py:225
 msgid "A big thanks to all the people who have provided suggestions, bug reports and donations."
 msgstr "شكرًا جزيلًا لكل الأشخاص الذين زودونا باقتراحاتهم، وتقارير الأخطاء، وتبرعاتهم."
 
@@ -553,28 +562,32 @@ msgstr "<i>سهولة</i> بطاقة هي حجم الفاصل الزمني ال�
 msgid "Aborted: %s"
 msgstr "أُحبِط: %s"
 
-#: qt/aqt/forms/about.py:43
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/about.py:45
 msgid "About Anki"
 msgstr "حول أنكي"
 
-#: qt/aqt/addcards.py:38 qt/aqt/addcards.py:68 qt/aqt/deckconf.py:89 qt/aqt/models.py:54 qt/aqt/studydeck.py:46 qt/aqt/toolbar.py:112 qt/aqt/forms/addcards.py:58 qt/aqt/forms/fields.py:102
-#: qt/aqt/forms/profiles.py:81
+#: qt/aqt/addcards.py:38 qt/aqt/addcards.py:70 qt/aqt/deckconf.py:89
+#: qt/aqt/models.py:57 qt/aqt/studydeck.py:46 qt/aqt/toolbar.py:112
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addcards.py:60
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:103
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/profiles.py:82
 msgid "Add"
 msgstr "إضافة"
 
-#: qt/aqt/addcards.py:71
+#: qt/aqt/addcards.py:73
 msgid "Add (shortcut: ctrl+enter)"
 msgstr "(ctrl+enter :اختصار) إضافة"
 
-#: qt/aqt/clayout.py:674
+#: qt/aqt/clayout.py:676
 msgid "Add Card Type..."
 msgstr "إضافة نوع بطاقة..."
 
-#: qt/aqt/clayout.py:389 qt/aqt/forms/addfield.py:61
+#: qt/aqt/clayout.py:389
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addfield.py:62
 msgid "Add Field"
 msgstr "إضافة حقل"
 
-#: qt/aqt/editor.py:709
+#: qt/aqt/editor.py:718
 msgid "Add Media"
 msgstr "إضافة وسائط"
 
@@ -582,23 +595,23 @@ msgstr "إضافة وسائط"
 msgid "Add New Deck (Ctrl+N)"
 msgstr "(Ctrl+N) إضافة رزمة جديدة"
 
-#: qt/aqt/forms/addmodel.py:44
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addmodel.py:46
 msgid "Add Note Type"
 msgstr "إضافة نوع ملحوظة"
 
-#: qt/aqt/forms/browser.py:331
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:333
 msgid "Add Notes..."
 msgstr "إضافة ملحوظات..."
 
-#: qt/aqt/browser.py:1626
+#: qt/aqt/browser.py:1629
 msgid "Add Tags"
 msgstr "إضافة وسوم"
 
-#: qt/aqt/forms/browser.py:327
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:329
 msgid "Add Tags..."
 msgstr "إضافة وسوم..."
 
-#: qt/aqt/browser.py:170
+#: qt/aqt/browser.py:172
 msgid "Add-on"
 msgstr "إضافة"
 
@@ -614,24 +627,25 @@ msgstr "خطأ عند تنصيب الإضافة"
 msgid "Add-on was not downloaded from AnkiWeb."
 msgstr "لم تُنزَّل الإضافة من أنكي ويب."
 
-#: qt/aqt/main.py:1597
+#: qt/aqt/main.py:1600
 msgid "Add-on will be installed when a profile is opened."
 msgstr "ستُنصّب الإضافة عند فتح ملف شخصي."
 
-#: qt/aqt/forms/main.py:156
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:157
 msgid "Add-ons"
 msgstr "إضافات"
 
-#: qt/aqt/models.py:208
+#: qt/aqt/models.py:212
 #, python-format
 msgid "Add: %s"
 msgstr "إضافة: %s"
 
-#: pylib/anki/stats.py:309 pylib/anki/importing/anki2.py:166 qt/aqt/addcards.py:193
+#: pylib/anki/importing/anki2.py:163 pylib/anki/stats.py:309
+#: qt/aqt/addcards.py:202
 msgid "Added"
 msgstr "أُضيفت"
 
-#: qt/aqt/browser.py:1265
+#: qt/aqt/browser.py:1263
 msgid "Added Today"
 msgstr "مضافة اليوم"
 
@@ -644,7 +658,7 @@ msgstr "أضيفت ملحوظة حقلها الأول مكرر: %s"
 msgid "Again"
 msgstr "مجددًا"
 
-#: qt/aqt/browser.py:1267
+#: qt/aqt/browser.py:1265
 msgid "Again Today"
 msgstr "البطاقات المجابة بـ «مجددًا» اليوم"
 
@@ -657,7 +671,7 @@ msgstr "عدد البطاقات المجابة بـ «مجددًا»: %s"
 msgid "All Buried Cards"
 msgstr "كل البطاقات المدفونة"
 
-#: qt/aqt/browser.py:1348
+#: qt/aqt/browser.py:1349
 msgid "All Card Types"
 msgstr "كل أنواع البطاقات"
 
@@ -665,36 +679,38 @@ msgstr "كل أنواع البطاقات"
 msgid "All Decks"
 msgstr "كل الرزم"
 
-#: qt/aqt/browser.py:1877
+#: qt/aqt/browser.py:1884
 msgid "All Fields"
 msgstr "كل الحقول"
 
-#: qt/aqt/forms/customstudy.py:118
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:119
 msgid "All cards in random order (don't reschedule)"
 msgstr "كل البطاقات بترتيب عشوائي (بدون إعادة جدولة)"
 
-#: qt/aqt/main.py:322
+#: qt/aqt/main.py:324
 msgid "All cards, notes, and media for this profile will be deleted. Are you sure?"
 msgstr "كل البطاقات، والملحوظات، والوسائط لهذا الملف الشخصي ستُحذف. هل أنت متأكد؟"
 
-#: qt/aqt/forms/customstudy.py:116
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:117
 msgid "All review cards in random order"
 msgstr "كل البطاقات التي تحتاج مراجعة بترتيب عشوائي"
 
-#: qt/aqt/forms/importing.py:110
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:112
 msgid "Allow HTML in fields"
 msgstr "السماح بـ HTML في الحقول"
 
-#: qt/aqt/forms/dconf.py:377
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:379
 msgid "Always include question side when replaying audio"
 msgstr "تضمين أصوات جانب السؤال عند إعادة تشغيل الملفات الصوتية دائمًا"
 
-#: qt/aqt/editor.py:847
+#: qt/aqt/editor.py:856
 #, python-format
 msgid "An error occurred while opening %s"
 msgstr "حدث خطأ عند فتح %s"
 
-#: qt/aqt/forms/main.py:132 qt/aqt/forms/setgroup.py:38 qt/aqt/forms/setlang.py:39
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:133
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/setgroup.py:40
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/setlang.py:41
 msgid "Anki"
 msgstr "أنكي"
 
@@ -702,11 +718,11 @@ msgstr "أنكي"
 msgid "Anki 2.0 Deck"
 msgstr "رزمة أنكي 2.0"
 
-#: qt/aqt/forms/preferences.py:292
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:293
 msgid "Anki 2.1 scheduler (beta)"
 msgstr "مجدول أنكي 2.1 (تجريبي)"
 
-#: pylib/anki/exporting.py:397
+#: pylib/anki/exporting.py:398
 msgid "Anki Collection Package"
 msgstr "حزمة مجموعة أنكي"
 
@@ -719,14 +735,10 @@ msgid "Anki could not read your profile data. Window sizes and your sync login d
 msgstr "لم يستطع أنكي قراءة بيانات ملفك الشخصي. أحجام النوافذ ومعلومات دخول المزامنة تم نسيانها."
 
 #: qt/aqt/profiles.py:326
-msgid ""
-"Anki could not rename your profile because it could not rename the profile folder on disk. Please ensure you have permission to write to Documents/Anki and no other programs are accessing your "
-"profile folders, then try again."
-msgstr ""
-"لم يستطع أنكي إعادة تسمية ملفك الشخصي لعدم استطاعته إعادة تسمية مجلد الملف الشخصي على القرص. تأكد من أن لديك الإذن بالكتابة إلى مجلد مستندات/أنكي وأنه لا توجد برامج أخرى تحاول الوصول إلى مجلدات ملفك"
-" الشخصي، ثم أعد المحاولة."
+msgid "Anki could not rename your profile because it could not rename the profile folder on disk. Please ensure you have permission to write to Documents/Anki and no other programs are accessing your profile folders, then try again."
+msgstr "لم يستطع أنكي إعادة تسمية ملفك الشخصي لعدم استطاعته إعادة تسمية مجلد الملف الشخصي على القرص. تأكد من أن لديك الإذن بالكتابة إلى مجلد مستندات/أنكي وأنه لا توجد برامج أخرى تحاول الوصول إلى مجلدات ملفك الشخصي، ثم أعد المحاولة."
 
-#: qt/aqt/clayout.py:659
+#: qt/aqt/clayout.py:661
 msgid "Anki couldn't find the line between the question and answer. Please adjust the template manually to switch the question and answer."
 msgstr "أنكي لا يستطيع إيجاد الخط الفاصل بين جانبي السؤال والجواب. الرجاء ضبط القالب يدويًا لتبديل مكان السؤال والجواب."
 
@@ -738,7 +750,7 @@ msgstr "أنكي هو نظام ذكي وسهل الاستخدام للتعلم �
 msgid "Anki is licensed under the AGPL3 license. Please see the license file in the source distribution for more information."
 msgstr "أنكي مرخص تحت رخصة AGPL 3. الرجاء إلقاء نظرة على ملف الرخصة في نسخة المصدر لمزيد من المعلومات."
 
-#: qt/aqt/browser.py:734
+#: qt/aqt/browser.py:741
 msgid "Answer"
 msgstr "جواب"
 
@@ -750,11 +762,11 @@ msgstr "أزرار الجواب"
 msgid "Answers"
 msgstr "الأجوبة"
 
-#: qt/aqt/browser.py:1291
+#: qt/aqt/browser.py:1289
 msgid "Any Flag"
 msgstr "أي مؤشر"
 
-#: qt/aqt/browser.py:2253
+#: qt/aqt/browser.py:2263
 msgid "Any cards mapped to nothing will be deleted. If a note has no remaining cards, it will be lost. Are you sure you want to continue?"
 msgstr "البطاقات غير المُوزعة ستُحذف. إذا لم يتبقَّ لملحوظة أي بطاقة، ستُحذف. هل أنت متأكد من الاستمرار؟"
 
@@ -768,7 +780,7 @@ msgstr "ظهر مرتين في الملف: %s"
 msgid "Are you sure you wish to delete %s?"
 msgstr "هل أنت متأكد من حذف %s؟"
 
-#: qt/aqt/clayout.py:549
+#: qt/aqt/clayout.py:551
 msgid "At least one card type is required."
 msgstr "يلزم نوع بطاقة واحد على الأقل."
 
@@ -776,7 +788,7 @@ msgstr "يلزم نوع بطاقة واحد على الأقل."
 msgid "At least one step is required."
 msgstr "يلزم خطوة واحدة على الأقل."
 
-#: qt/aqt/editor.py:173
+#: qt/aqt/editor.py:176
 msgid "Attach pictures/audio/video (F3)"
 msgstr "ألحق صور/ملفات صوتية/فيديو (F3)"
 
@@ -788,15 +800,15 @@ msgstr "الصوت +5 ث"
 msgid "Audio -5s"
 msgstr "الصوت -5 ث"
 
-#: qt/aqt/main.py:372
+#: qt/aqt/main.py:374
 msgid "Automatic syncing and backups have been disabled while restoring. To enable them again, close the profile or restart Anki."
 msgstr "تم إيقاف المزامنة التلقائية والنسخ الاحتياطي عند استرجاع النسخة الاحتياطية. لتفعيلهما مجددًا، أغلق الملف الشخصي أو أعد تشغيل أنكي."
 
-#: qt/aqt/forms/dconf.py:376
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:378
 msgid "Automatically play audio"
 msgstr "تشغيل التسجيلات الصوتية تلقائيًا"
 
-#: qt/aqt/forms/preferences.py:302
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:303
 msgid "Automatically sync on profile open/close"
 msgstr "مزامنة تلقائية عند فتح الملف الشخصي وإغلاقه"
 
@@ -824,23 +836,24 @@ msgstr "معدل الفاصل الزمني"
 msgid "Back Side Only"
 msgstr "الجانب الخلفي فقط"
 
-#: qt/aqt/main.py:556
+#: qt/aqt/main.py:558
 msgid "Backing Up..."
 msgstr "يجري النسخ الاحتياطي..."
 
-#: qt/aqt/forms/preferences.py:312
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:313
 msgid "Backups"
 msgstr "نُسخ احتياطية"
 
-#: qt/aqt/forms/preferences.py:288
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:289
 msgid "Basic"
 msgstr "أساسي"
 
-#: qt/aqt/browser.py:1289 qt/aqt/reviewer.py:719 qt/aqt/forms/browser.py:336
+#: qt/aqt/browser.py:1287 qt/aqt/reviewer.py:719
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:338
 msgid "Blue Flag"
 msgstr "مؤشر أزرق"
 
-#: qt/aqt/editor.py:122
+#: qt/aqt/editor.py:143
 msgid "Bold text (Ctrl+B)"
 msgstr "خط غامق (Ctrl+B)"
 
@@ -848,7 +861,7 @@ msgstr "خط غامق (Ctrl+B)"
 msgid "Browse"
 msgstr "تصفّح"
 
-#: qt/aqt/browser.py:817
+#: qt/aqt/browser.py:826
 #, python-format
 msgid "Browse (%(cur)d card shown; %(sel)s)"
 msgid_plural "Browse (%(cur)d cards shown; %(sel)s)"
@@ -863,15 +876,15 @@ msgstr[5] "تصفّح (%(cur)d بطاقة معروضة؛ %(sel)s)"
 msgid "Browse Add-ons"
 msgstr "تصفّح الإضافات"
 
-#: qt/aqt/forms/browserdisp.py:69
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browserdisp.py:71
 msgid "Browser Appearance"
 msgstr "مظهر المتصفّح"
 
-#: qt/aqt/clayout.py:696
+#: qt/aqt/clayout.py:698
 msgid "Browser Appearance..."
 msgstr "مظهر المتصفّح..."
 
-#: qt/aqt/forms/browseropts.py:69
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browseropts.py:71
 msgid "Browser Options"
 msgstr "خيارات المتصفح"
 
@@ -879,7 +892,7 @@ msgstr "خيارات المتصفح"
 msgid "Build"
 msgstr "إنشاء"
 
-#: qt/aqt/browser.py:1284
+#: qt/aqt/browser.py:1282
 msgid "Buried"
 msgstr "مدفونة"
 
@@ -899,15 +912,15 @@ msgstr "دفن البطاقة"
 msgid "Bury Note"
 msgstr "دفن الملحوظة"
 
-#: qt/aqt/forms/dconf.py:347
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:349
 msgid "Bury related new cards until the next day"
 msgstr "دفن البطاقات الجديدة ذات الصلة حتى اليوم التالي"
 
-#: qt/aqt/forms/dconf.py:358
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:360
 msgid "Bury related reviews until the next day"
 msgstr "دفن المراجعات ذات الصلة حتى اليوم التالي"
 
-#: qt/aqt/importing.py:130
+#: qt/aqt/importing.py:123
 msgid ""
 "By default, Anki will detect the character between fields, such as\n"
 "a tab, comma, and so on. If Anki is detecting the character incorrectly,\n"
@@ -917,24 +930,24 @@ msgstr ""
 "التاب (tab)، والفاصلة، وما إلى ذلك افتراضيًا. إذا كان كشف أنكي عن هذه الرموز خاطئًا؛\n"
 "تستطيع إدخالها هنا. استخدم t\\ لتمثيل التاب."
 
-#: qt/aqt/clayout.py:405 qt/aqt/overview.py:134 qt/aqt/sound.py:557
+#: qt/aqt/clayout.py:405 qt/aqt/overview.py:134 qt/aqt/sound.py:602
 msgid "Cancel"
 msgstr "إلغاء"
 
-#: qt/aqt/browser.py:735
+#: qt/aqt/browser.py:742
 msgid "Card"
 msgstr "بطاقة"
 
-#: qt/aqt/clayout.py:620
+#: qt/aqt/clayout.py:622
 #, python-format
 msgid "Card %d"
 msgstr "البطاقة %d"
 
-#: qt/aqt/forms/browser.py:318
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:320
 msgid "Card List"
 msgstr "قائمة البطاقات"
 
-#: qt/aqt/browser.py:1274
+#: qt/aqt/browser.py:1272
 msgid "Card State"
 msgstr "حالة البطاقة"
 
@@ -959,11 +972,12 @@ msgstr "عُلِّقت البطاقة."
 msgid "Card was a leech."
 msgstr "كانت البطاقة بطاقة مستعصية."
 
-#: pylib/anki/stats.py:310 pylib/anki/stats.py:962 qt/aqt/editor.py:192 qt/aqt/forms/changemodel.py:112
+#: pylib/anki/stats.py:310 pylib/anki/stats.py:962 qt/aqt/editor.py:134
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/changemodel.py:114
 msgid "Cards"
 msgstr "البطاقات"
 
-#: qt/aqt/browser.py:1600
+#: qt/aqt/browser.py:1603
 msgid "Cards can't be manually moved into a filtered deck."
 msgstr "لا يمكن نقل البطاقات يدويًا إلى رزمة مفلترة."
 
@@ -975,7 +989,7 @@ msgstr "بطاقات بصيغة نصية"
 msgid "Cards will be automatically returned to their original decks after you review them."
 msgstr "ستعود البطاقات إلى رزمها الأصلية بعد أن تراجعها."
 
-#: qt/aqt/models.py:63
+#: qt/aqt/models.py:66
 msgid "Cards..."
 msgstr "بطاقات..."
 
@@ -983,44 +997,45 @@ msgstr "بطاقات..."
 msgid "Center"
 msgstr "وسط"
 
-#: qt/aqt/importing.py:268
+#: qt/aqt/importing.py:260
 msgid "Change"
 msgstr "تعديل"
 
-#: qt/aqt/browser.py:2173
+#: qt/aqt/browser.py:2183
 #, python-format
 msgid "Change %s to:"
 msgstr "تغيير %s الى:"
 
-#: qt/aqt/browser.py:1591 qt/aqt/browser.py:1603
+#: qt/aqt/browser.py:1594 qt/aqt/browser.py:1606
 msgid "Change Deck"
 msgstr "تغيير الرزمة"
 
-#: qt/aqt/forms/browser.py:332
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:334
 msgid "Change Deck..."
 msgstr "تغيير الرزمة..."
 
-#: qt/aqt/browser.py:2260 qt/aqt/forms/changemodel.py:109
+#: qt/aqt/browser.py:2270
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/changemodel.py:111
 msgid "Change Note Type"
 msgstr "تغيير نوع الملحوظة"
 
-#: qt/aqt/modelchooser.py:31
+#: qt/aqt/modelchooser.py:44
 msgid "Change Note Type (Ctrl+N)"
 msgstr "(Ctrl+N) تغيير نوع الملحوظة"
 
-#: qt/aqt/forms/browser.py:313
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:315
 msgid "Change Note Type..."
 msgstr "تغيير نوع الملحوظة..."
 
-#: qt/aqt/editor.py:153
+#: qt/aqt/editor.py:168
 msgid "Change colour (F8)"
 msgstr "غيّر اللون (F8)"
 
-#: qt/aqt/forms/preferences.py:285
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:286
 msgid "Change deck depending on note type"
 msgstr "تغيير الرزمة اعتمادًا على نوع الملحوظة"
 
-#: qt/aqt/forms/addons.py:69
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:70
 msgid "Changes will take effect when Anki is restarted."
 msgstr "ستجري التغييرات عند إعادة تشغيل أنكي."
 
@@ -1028,15 +1043,15 @@ msgstr "ستجري التغييرات عند إعادة تشغيل أنكي."
 msgid "Changes will take effect when you restart Anki."
 msgstr "ستجري التغييرات عند إعادة تشغيل أنكي."
 
-#: qt/aqt/forms/main.py:142
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:143
 msgid "Check &Media..."
 msgstr "فحص ال&وسائط..."
 
-#: qt/aqt/forms/addons.py:72
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:73
 msgid "Check for Updates"
 msgstr "تحقق من وجود تحديثات"
 
-#: qt/aqt/forms/main.py:143
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:144
 msgid "Check the files in the media directory"
 msgstr "فحص الملفات في مجلد الوسائط"
 
@@ -1044,7 +1059,7 @@ msgstr "فحص الملفات في مجلد الوسائط"
 msgid "Checking..."
 msgstr "يجري الفحص..."
 
-#: qt/aqt/deckchooser.py:87 qt/aqt/modelchooser.py:71
+#: qt/aqt/deckchooser.py:87 qt/aqt/modelchooser.py:84
 msgid "Choose"
 msgstr "اختيار"
 
@@ -1052,7 +1067,7 @@ msgstr "اختيار"
 msgid "Choose Deck"
 msgstr "اختيار رزمة"
 
-#: qt/aqt/modelchooser.py:72
+#: qt/aqt/modelchooser.py:85
 msgid "Choose Note Type"
 msgstr "اختيار نوع ملحوظة"
 
@@ -1060,28 +1075,29 @@ msgstr "اختيار نوع ملحوظة"
 msgid "Choose Tags"
 msgstr "اختيار وسوم"
 
-#: qt/aqt/browser.py:1300
+#: qt/aqt/browser.py:1301
 msgid "Clear Unused"
 msgstr "حذف الوسوم غير المستخدمة"
 
-#: qt/aqt/forms/browser.py:338
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:340
 msgid "Clear Unused Tags"
 msgstr "حذف الوسوم غير المستخدمة"
 
-#: qt/aqt/models.py:213
+#: qt/aqt/models.py:217
 #, python-format
 msgid "Clone: %s"
 msgstr "استنساخ: %s"
 
-#: qt/aqt/addcards.py:73 qt/aqt/forms/browser.py:325
+#: qt/aqt/addcards.py:75
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:327
 msgid "Close"
 msgstr "إغلاق"
 
-#: qt/aqt/addcards.py:223
+#: qt/aqt/addcards.py:232
 msgid "Close and lose current input?"
 msgstr "هل تريد الإغلاق وفقدان المدخلات الحالية؟"
 
-#: qt/aqt/main.py:554
+#: qt/aqt/main.py:556
 msgid "Closing..."
 msgstr "يجري الإغلاق..."
 
@@ -1090,11 +1106,11 @@ msgstr "يجري الإغلاق..."
 msgid "Cloze %d"
 msgstr "ملء فراغات %d"
 
-#: qt/aqt/editor.py:170
+#: qt/aqt/editor.py:174
 msgid "Cloze deletion (Ctrl+Shift+C)"
 msgstr "عبارة ملء فراغات (Ctrl+Shift+C)"
 
-#: qt/aqt/forms/getaddons.py:50
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/getaddons.py:52
 msgid "Code:"
 msgstr "الرمز:"
 
@@ -1102,27 +1118,27 @@ msgstr "الرمز:"
 msgid "Collection exported."
 msgstr "تم تصدير المجموعة."
 
-#: qt/aqt/importing.py:174
+#: qt/aqt/importing.py:167
 msgid "Colon"
 msgstr "نقطتان"
 
-#: qt/aqt/importing.py:168
+#: qt/aqt/importing.py:161
 msgid "Comma"
 msgstr "فاصلة"
 
-#: qt/aqt/forms/addons.py:74
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:75
 msgid "Config"
 msgstr "إعداد"
 
-#: qt/aqt/forms/addonconf.py:72
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addonconf.py:73
 msgid "Configuration"
 msgstr "إعداد"
 
-#: qt/aqt/forms/main.py:139
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:140
 msgid "Configure interface language and options"
 msgstr "ضبط لغة الواجهة والخيارات"
 
-#: qt/aqt/reviewer.py:94
+#: qt/aqt/reviewer.py:96
 msgid "Continue"
 msgstr "تابع"
 
@@ -1130,7 +1146,7 @@ msgstr "تابع"
 msgid "Copied to clipboard"
 msgstr "تم النسخ إلى الحافظة"
 
-#: qt/aqt/editor.py:1199 qt/aqt/webview.py:285
+#: qt/aqt/editor.py:1211 qt/aqt/webview.py:289
 msgid "Copy"
 msgstr "نسخ"
 
@@ -1138,7 +1154,7 @@ msgstr "نسخ"
 msgid "Copy Debug Info"
 msgstr "نسخ معلومات التصحيح"
 
-#: qt/aqt/utils.py:142
+#: qt/aqt/utils.py:148
 msgid "Copy to Clipboard"
 msgstr "نسخ إلى الحافظة"
 
@@ -1156,7 +1172,7 @@ msgstr "صحيح: <b>%(pct)0.2f%%</b><br>(%(good)d من %(tot)d)"
 msgid "Corrupt add-on file."
 msgstr "ملف إضافة تالف."
 
-#: qt/aqt/editor.py:742
+#: qt/aqt/editor.py:751
 msgid "Couldn't record audio. Have you installed 'lame'?"
 msgstr "لا يمكن تسجيل الصوت. هل نصبّت 'lame'؟"
 
@@ -1173,19 +1189,19 @@ msgstr "دراسة مستعجلة"
 msgid "Create Deck"
 msgstr "رزمة جديدة"
 
-#: qt/aqt/forms/main.py:154
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:155
 msgid "Create Filtered Deck..."
 msgstr "إنشاء رزمة مفلترة..."
 
-#: qt/aqt/forms/modelopts.py:64
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/modelopts.py:66
 msgid "Create scalable images with dvisvgm"
 msgstr "أنشئ صور قابلة للتمديد بواسطة dvisvgm"
 
-#: qt/aqt/browser.py:738
+#: qt/aqt/browser.py:745
 msgid "Created"
 msgstr "تاريخ الإنشاء"
 
-#: qt/aqt/forms/browser.py:342
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:344
 msgid "Ctrl+Shift+E"
 msgstr "Ctrl+Shift+E"
 
@@ -1206,15 +1222,16 @@ msgstr "أجوبة تراكمية"
 msgid "Cumulative Cards"
 msgstr "بطاقات تراكمية"
 
-#: qt/aqt/browser.py:1125 qt/aqt/browser.py:1257
+#: qt/aqt/browser.py:1115 qt/aqt/browser.py:1255
 msgid "Current Deck"
 msgstr "الرزمة الحالية"
 
-#: qt/aqt/forms/changemodel.py:110
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/changemodel.py:112
 msgid "Current note type:"
 msgstr "نوع الملحوظة الحالي:"
 
-#: qt/aqt/overview.py:258 qt/aqt/forms/customstudy.py:102
+#: qt/aqt/overview.py:258
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:103
 msgid "Custom Study"
 msgstr "دراسة مخصصة"
 
@@ -1222,19 +1239,19 @@ msgstr "دراسة مخصصة"
 msgid "Custom Study Session"
 msgstr "جلسة دراسة مخصصة"
 
-#: qt/aqt/forms/dyndconf.py:147
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:149
 msgid "Custom steps (in minutes)"
 msgstr "خطوات مخصصة (بالدقيقة)"
 
-#: qt/aqt/editor.py:195
+#: qt/aqt/editor.py:133
 msgid "Customize Card Templates (Ctrl+L)"
 msgstr "خصص قوالب البطاقات (Ctrl+L)"
 
-#: qt/aqt/editor.py:194
+#: qt/aqt/editor.py:125
 msgid "Customize Fields"
 msgstr "خصص الحقول"
 
-#: qt/aqt/editor.py:1197
+#: qt/aqt/editor.py:1209
 msgid "Cut"
 msgstr "قص"
 
@@ -1242,19 +1259,20 @@ msgstr "قص"
 msgid "Days studied"
 msgstr "أيام الدراسة"
 
-#: qt/aqt/forms/debug.py:55
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/debug.py:56
 msgid "Debug Console"
 msgstr "كونسول التصحيح"
 
-#: qt/aqt/browser.py:736 qt/aqt/deckbrowser.py:147 qt/aqt/deckchooser.py:29 qt/aqt/forms/importing.py:106
+#: qt/aqt/browser.py:743 qt/aqt/deckbrowser.py:147 qt/aqt/deckchooser.py:29
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:108
 msgid "Deck"
 msgstr "رزمة"
 
-#: qt/aqt/clayout.py:693
+#: qt/aqt/clayout.py:695
 msgid "Deck Override..."
 msgstr "رزمة مهيمنة..."
 
-#: qt/aqt/main.py:1599
+#: qt/aqt/main.py:1602
 msgid "Deck will be imported when a profile is opened."
 msgstr "سيتم استيراد الرزمة عند فتح ملف شخصي."
 
@@ -1274,8 +1292,12 @@ msgstr "افتراضية"
 msgid "Delays until reviews are shown again."
 msgstr "الفواصل الزمنية بين المراجعات."
 
-#: qt/aqt/deckbrowser.py:234 qt/aqt/deckconf.py:91 qt/aqt/models.py:56 qt/aqt/reviewer.py:812 qt/aqt/forms/addons.py:77 qt/aqt/forms/browser.py:330 qt/aqt/forms/fields.py:103
-#: qt/aqt/forms/profiles.py:83
+#: qt/aqt/deckbrowser.py:234 qt/aqt/deckconf.py:91 qt/aqt/models.py:59
+#: qt/aqt/reviewer.py:812
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:78
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:332
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:104
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/profiles.py:84
 msgid "Delete"
 msgstr "حذف"
 
@@ -1287,15 +1309,15 @@ msgstr "حذف الرزمة"
 msgid "Delete Note"
 msgstr "حذف الملحوظة"
 
-#: qt/aqt/browser.py:1544
+#: qt/aqt/browser.py:1547
 msgid "Delete Notes"
 msgstr "حذف الملحوظات"
 
-#: qt/aqt/browser.py:1636
+#: qt/aqt/browser.py:1639
 msgid "Delete Tags"
 msgstr "حذف وسوم"
 
-#: qt/aqt/fields.py:124
+#: qt/aqt/fields.py:126
 #, python-format
 msgid "Delete field from %s?"
 msgstr "هل تريد حذف الحقل من %s؟"
@@ -1311,16 +1333,16 @@ msgstr[3] "هل تريد حذف %(num)d إضافات محددة؟"
 msgstr[4] "هل تريد حذف %(num)d إضافة محددة؟"
 msgstr[5] "هل تريد حذف %(num)d إضافة محددة؟"
 
-#: qt/aqt/clayout.py:559
+#: qt/aqt/clayout.py:561
 #, python-format
 msgid "Delete the '%(a)s' card type, and its %(b)s?"
 msgstr "هل تريد حذف نوع البطاقة '%(a)s'، و %(b)s؟"
 
-#: qt/aqt/models.py:130
+#: qt/aqt/models.py:134
 msgid "Delete this note type and all its cards?"
 msgstr "هل تريد حذف نوع الملحوظة هذا وكل بطاقاته؟"
 
-#: qt/aqt/models.py:132
+#: qt/aqt/models.py:136
 msgid "Delete this unused note type?"
 msgstr "هل تريد حذف نوع الملحوظة غير المستخدم هذا؟"
 
@@ -1328,15 +1350,18 @@ msgstr "هل تريد حذف نوع الملحوظة غير المستخدم ه�
 msgid "Deleting this deck from the deck list will return all remaining cards to their original deck."
 msgstr ".سيؤدي حذف هذه الرزمة من قائمة الرزم إلى عودة كل البطاقات المتبقية إلى رزمتها الأصلية"
 
-#: qt/aqt/forms/dconf.py:380
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:382
 msgid "Description"
 msgstr "وصف"
 
-#: qt/aqt/forms/dconf.py:379
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:381
 msgid "Description to show on overview screen, for current deck:"
 msgstr "وصف خاص بالرزمة الحالية يظهر في نافذة الموجز:"
 
-#: qt/aqt/forms/dyndconf.py:133 qt/aqt/forms/editaddon.py:40 qt/aqt/forms/editcurrent.py:41 qt/aqt/forms/progress.py:40
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:135
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/editaddon.py:42
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/editcurrent.py:43
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/progress.py:42
 msgid "Dialog"
 msgstr "نافذة"
 
@@ -1359,7 +1384,7 @@ msgstr "نُزِّل %(fname)s"
 msgid "Downloading %(a)d/%(b)d (%(kb)0.2fKB)..."
 msgstr "يجري تنزيل %(a)d/%(b)d (%(kb)0.2f كيلوبايت)..."
 
-#: qt/aqt/forms/customstudy.py:114
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:115
 msgid "Due cards only"
 msgstr "البطاقات المستحقة فقط"
 
@@ -1367,11 +1392,11 @@ msgstr "البطاقات المستحقة فقط"
 msgid "Due tomorrow"
 msgstr "مستحقة غدًا"
 
-#: qt/aqt/forms/main.py:137
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:138
 msgid "E&xit"
 msgstr "&خروج"
 
-#: qt/aqt/browser.py:743
+#: qt/aqt/browser.py:750
 msgid "Ease"
 msgstr "سهولة"
 
@@ -1379,19 +1404,19 @@ msgstr "سهولة"
 msgid "Easy"
 msgstr "سهل"
 
-#: qt/aqt/forms/dconf.py:351
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:353
 msgid "Easy bonus"
 msgstr "مكافأة البطاقات السهلة"
 
-#: qt/aqt/forms/dconf.py:343
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:345
 msgid "Easy interval"
 msgstr "الفاصل الزمني للبطاقات السهلة"
 
-#: qt/aqt/reviewer.py:569
+#: qt/aqt/reviewer.py:572
 msgid "Edit"
 msgstr "تحرير"
 
-#: qt/aqt/addcards.py:144
+#: qt/aqt/addcards.py:149
 #, python-format
 msgid "Edit \"%s\""
 msgstr "تحرير \"%s\""
@@ -1400,11 +1425,11 @@ msgstr "تحرير \"%s\""
 msgid "Edit Current"
 msgstr "تحرير البطاقة الحالية"
 
-#: qt/aqt/editor.py:950
+#: qt/aqt/editor.py:959
 msgid "Edit HTML"
 msgstr "تحرير HTML"
 
-#: qt/aqt/forms/fields.py:106
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:107
 msgid "Editing Font"
 msgstr "خط التحرير"
 
@@ -1412,7 +1437,7 @@ msgstr "خط التحرير"
 msgid "Empty"
 msgstr "إفراغ"
 
-#: qt/aqt/forms/main.py:153
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:154
 msgid "Empty Cards..."
 msgstr "بحث عن بطاقات فارغة..."
 
@@ -1421,29 +1446,29 @@ msgstr "بحث عن بطاقات فارغة..."
 msgid "Empty first field: %s"
 msgstr "الحقل الأول فارغ: %s"
 
-#: qt/aqt/forms/dyndconf.py:144
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:146
 msgid "Enable second filter"
 msgstr "تفعيل فلتر ثانٍ"
 
-#: qt/aqt/forms/browser.py:324
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:326
 msgid "End"
 msgstr "‏‏النهاية"
 
-#: qt/aqt/clayout.py:738
+#: qt/aqt/clayout.py:740
 #, python-format
 msgid "Enter deck to place new %s cards in, or leave blank:"
 msgstr "أدخل اسم الرزمة التي تريد وضع %s بطاقة جديدة فيها، أو اترك الحقل فارغًا:"
 
-#: qt/aqt/clayout.py:598
+#: qt/aqt/clayout.py:600
 #, python-format
 msgid "Enter new card position (1...%s):"
 msgstr "أدخل موضع البطاقة الجديد (1...%s):"
 
-#: qt/aqt/browser.py:1616
+#: qt/aqt/browser.py:1619
 msgid "Enter tags to add:"
 msgstr "أدخل الوسوم التي تريد إضافتها:"
 
-#: qt/aqt/browser.py:1638
+#: qt/aqt/browser.py:1641
 msgid "Enter tags to delete:"
 msgstr "أدخل الوسوم التي تريد حذفها:"
 
@@ -1452,7 +1477,7 @@ msgstr "أدخل الوسوم التي تريد حذفها:"
 msgid "Error downloading <i>%(id)s</i>: %(error)s"
 msgstr "حدث خطأ عند تنزيل <i>%(id)s</i>: %(error)s"
 
-#: qt/aqt/main.py:121
+#: qt/aqt/main.py:123
 #, python-format
 msgid ""
 "Error during startup:\n"
@@ -1471,12 +1496,13 @@ msgstr "حدث خطأ عند تنفيذ %s."
 msgid "Error installing <i>%(base)s</i>: %(error)s"
 msgstr "حدث خطأ عند تنصيب <i>%(base)s</i>: %(error)s"
 
-#: qt/aqt/sound.py:458
+#: qt/aqt/sound.py:502
 #, python-format
 msgid "Error running %s"
 msgstr "حدث خطأ عند تشغيل %s"
 
-#: qt/aqt/deckbrowser.py:232 qt/aqt/exporting.py:124 qt/aqt/forms/exporting.py:74
+#: qt/aqt/deckbrowser.py:232 qt/aqt/exporting.py:124
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/exporting.py:76
 msgid "Export"
 msgstr "تصدير"
 
@@ -1495,24 +1521,26 @@ msgstr[3] "صُدِّر %d ملفات وسائط"
 msgstr[4] "صُدِّر %d ملف وسائط"
 msgstr[5] "صُدِّر %d ملف وسائط"
 
-#: qt/aqt/importing.py:259
+#: qt/aqt/importing.py:251
 #, python-format
 msgid "Field <b>%d</b> of file is:"
 msgstr "الحقل رقم <b>%d</b> من الملف هو:"
 
-#: qt/aqt/forms/importing.py:112
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:114
 msgid "Field mapping"
 msgstr "توزيع الحقول"
 
-#: qt/aqt/fields.py:108
+#: qt/aqt/fields.py:110
 msgid "Field name:"
 msgstr "اسم الحقل:"
 
-#: qt/aqt/forms/addfield.py:62
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addfield.py:63
 msgid "Field:"
 msgstr "حقل:"
 
-#: qt/aqt/editor.py:191 qt/aqt/fields.py:23 qt/aqt/forms/changemodel.py:113 qt/aqt/forms/fields.py:101
+#: qt/aqt/editor.py:126 qt/aqt/fields.py:23
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/changemodel.py:115
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:102
 msgid "Fields"
 msgstr "الحقول"
 
@@ -1521,65 +1549,67 @@ msgstr "الحقول"
 msgid "Fields for %s"
 msgstr "حقول %s"
 
-#: qt/aqt/importing.py:177
+#: qt/aqt/importing.py:170
 #, python-format
 msgid "Fields separated by: %s"
 msgstr "الحقول مفصولة بـ: %s"
 
-#: qt/aqt/models.py:62
+#: qt/aqt/models.py:65
 msgid "Fields..."
 msgstr "حقول..."
 
-#: qt/aqt/forms/browser.py:317
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:319
 msgid "Fil&ter"
 msgstr "&فلترة"
 
-#: pylib/anki/importing/mnemo.py:23
+#: pylib/anki/importing/mnemo.py:24
 msgid "File version unknown, trying import anyway."
 msgstr "إصدار الملف غير معروف، سيُحاول الاستيراد على أي حال."
 
-#: qt/aqt/browser.py:1318 qt/aqt/forms/dyndconf.py:134
+#: qt/aqt/browser.py:1319
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:136
 msgid "Filter"
 msgstr "فلتر"
 
-#: qt/aqt/forms/dyndconf.py:138
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:140
 msgid "Filter 2"
 msgstr "فلتر 2"
 
-#: qt/aqt/forms/browser.py:297
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:299
 msgid "Filter..."
 msgstr "فلتر..."
 
-#: qt/aqt/forms/studydeck.py:46
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/studydeck.py:48
 msgid "Filter:"
 msgstr "فلتر:"
 
-#: qt/aqt/main.py:1162 qt/aqt/main.py:1164
+#: qt/aqt/main.py:1164 qt/aqt/main.py:1166
 #, python-format
 msgid "Filtered Deck %d"
 msgstr "رزمة مفلترة %d"
 
-#: qt/aqt/forms/browser.py:319
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:321
 msgid "Find &Duplicates..."
 msgstr "بحث عن &ملحوظات مكررة..."
 
-#: qt/aqt/forms/finddupes.py:70
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/finddupes.py:71
 msgid "Find Duplicates"
 msgstr "بحث عن ملحوظات مكررة"
 
-#: qt/aqt/forms/browser.py:315
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:317
 msgid "Find and Re&place..."
 msgstr "بحث واستبد&ال..."
 
-#: qt/aqt/browser.py:1902 qt/aqt/forms/findreplace.py:86
+#: qt/aqt/browser.py:1909
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/findreplace.py:87
 msgid "Find and Replace"
 msgstr "بحث واستبدل"
 
-#: qt/aqt/reviewer.py:93
+#: qt/aqt/reviewer.py:95
 msgid "Finish"
 msgstr "إنهاء"
 
-#: qt/aqt/forms/browser.py:321
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:323
 msgid "First Card"
 msgstr "البطاقة الأولى"
 
@@ -1588,7 +1618,7 @@ msgstr "البطاقة الأولى"
 msgid "First field matched: %s"
 msgstr "الحقل الأول مطابق: %s"
 
-#: qt/aqt/forms/browser.py:302
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:304
 msgid "Flag"
 msgstr "مؤشر"
 
@@ -1604,11 +1634,11 @@ msgstr "قلب"
 msgid "Folder already exists."
 msgstr "المجلد موجود مسبقًا."
 
-#: qt/aqt/forms/addfield.py:64
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addfield.py:65
 msgid "Font:"
 msgstr "خط:"
 
-#: qt/aqt/forms/modelopts.py:66
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/modelopts.py:68
 msgid "Footer"
 msgstr "هامش"
 
@@ -1621,20 +1651,17 @@ msgstr "لأسباب أمنية، '%s' غير مسموح به في البطاق�
 msgid "Forecast"
 msgstr "توقعات"
 
-#: qt/aqt/forms/clayout_top.py:53 qt/aqt/forms/template.py:72
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/clayout_top.py:54
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/template.py:73
 msgid "Form"
 msgstr "نموذج"
 
-#: qt/aqt/browser.py:1989
+#: qt/aqt/browser.py:1996
 #, python-format
 msgid "Found %(a)s across %(b)s."
 msgstr "وجد %(a)s في %(b)s."
 
-#: pylib/anki/exporting.py:382
-msgid "Front"
-msgstr "أمام"
-
-#: qt/aqt/forms/dconf.py:378
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:380
 msgid "General"
 msgstr "عام"
 
@@ -1648,7 +1675,7 @@ msgstr "الملف المُنشَئ: %s"
 msgid "Generated on %s"
 msgstr "أُنشِئ في %s"
 
-#: qt/aqt/forms/addons.py:70
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:71
 msgid "Get Add-ons..."
 msgstr "تنزيل إضافات..."
 
@@ -1660,15 +1687,16 @@ msgstr "الحصول على رزم مشتركة"
 msgid "Good"
 msgstr "جيد"
 
-#: qt/aqt/forms/dconf.py:344
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:346
 msgid "Graduating interval"
 msgstr "الفاصل الزمني بين آخر خطوة وأول مراجعة"
 
-#: qt/aqt/browser.py:1288 qt/aqt/reviewer.py:713 qt/aqt/forms/browser.py:335
+#: qt/aqt/browser.py:1286 qt/aqt/reviewer.py:713
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:337
 msgid "Green Flag"
 msgstr "مؤشر أخضر"
 
-#: qt/aqt/forms/edithtml.py:37
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/edithtml.py:39
 msgid "HTML Editor"
 msgstr "محرر HTML"
 
@@ -1676,11 +1704,11 @@ msgstr "محرر HTML"
 msgid "Hard"
 msgstr "صعب"
 
-#: qt/aqt/forms/dconf.py:359
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:361
 msgid "Hard interval"
 msgstr "الفاصل الزمني للبطاقات الصعبة"
 
-#: qt/aqt/forms/preferences.py:278
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:279
 msgid "Hardware acceleration (faster, may cause display issues)"
 msgstr "تسريع عتاد الجهاز (أسرع، لكن قد يسبب مشاكل في العرض)"
 
@@ -1688,11 +1716,12 @@ msgstr "تسريع عتاد الجهاز (أسرع، لكن قد يسبب مشا
 msgid "Have you installed latex and dvipng/dvisvgm?"
 msgstr "هل نصّبت latex و dvipng/dvisvgm؟"
 
-#: qt/aqt/forms/modelopts.py:65
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/modelopts.py:67
 msgid "Header"
 msgstr "مقدمة"
 
-#: qt/aqt/addcards.py:77 qt/aqt/clayout.py:384 qt/aqt/utils.py:206 qt/aqt/utils.py:207
+#: qt/aqt/addcards.py:79 qt/aqt/clayout.py:384 qt/aqt/utils.py:212
+#: qt/aqt/utils.py:213
 msgid "Help"
 msgstr "مساعدة"
 
@@ -1700,11 +1729,11 @@ msgstr "مساعدة"
 msgid "Highest ease"
 msgstr "السهولة العليا"
 
-#: qt/aqt/addcards.py:81
+#: qt/aqt/addcards.py:83
 msgid "History"
 msgstr "السجل"
 
-#: qt/aqt/forms/browser.py:322
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:324
 msgid "Home"
 msgstr "الصفحة الرئيسية"
 
@@ -1720,11 +1749,11 @@ msgstr "ساعات"
 msgid "Hours with less than 30 reviews are not shown."
 msgstr ".الساعات ذات عدد مراجعات أقل من 30 غير ظاهرة"
 
-#: pylib/anki/importing/anki2.py:169
+#: pylib/anki/importing/anki2.py:166
 msgid "Identical"
 msgstr "مطابق"
 
-#: qt/aqt/about.py:220
+#: qt/aqt/about.py:221
 msgid "If you have contributed and are not on this list, please get in touch."
 msgstr "إذا ساهمت في البرنامج واسمك ليس في القائمة، اتصل بنا من فضلك."
 
@@ -1732,11 +1761,11 @@ msgstr "إذا ساهمت في البرنامج واسمك ليس في القا�
 msgid "If you studied every day"
 msgstr "إذا درست كل يوم"
 
-#: qt/aqt/forms/dconf.py:373
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:375
 msgid "Ignore answer times longer than"
 msgstr "تجاهل فترات الإجابة التي هي أطول من"
 
-#: qt/aqt/forms/findreplace.py:91
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/findreplace.py:92
 msgid "Ignore case"
 msgstr "لا تميّز بين الأحرف الصغيرة والكبيرة"
 
@@ -1744,7 +1773,7 @@ msgstr "لا تميّز بين الأحرف الصغيرة والكبيرة"
 msgid "Ignore field"
 msgstr "تجاهل الحقل"
 
-#: qt/aqt/forms/importing.py:108
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:110
 msgid "Ignore lines where first field matches existing note"
 msgstr "تجاهل السطور التي يطابق حقلها الأول ملحوظة موجودة"
 
@@ -1752,7 +1781,9 @@ msgstr "تجاهل السطور التي يطابق حقلها الأول ملح
 msgid "Ignore this update"
 msgstr "تجاهل هذا التحديث"
 
-#: qt/aqt/importing.py:103 qt/aqt/importing.py:197 qt/aqt/importing.py:319 qt/aqt/forms/changemap.py:41 qt/aqt/forms/importing.py:103
+#: qt/aqt/importing.py:103 qt/aqt/importing.py:189 qt/aqt/importing.py:311
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/changemap.py:43
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:105
 msgid "Import"
 msgstr "استيراد"
 
@@ -1760,19 +1791,19 @@ msgstr "استيراد"
 msgid "Import File"
 msgstr "استيراد ملف"
 
-#: qt/aqt/forms/importing.py:109
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:111
 msgid "Import even if existing note has same first field"
 msgstr "إضافة حتى لو كان لملحوظة موجودة مسبقًا الحقل الأول نفسه"
 
-#: qt/aqt/forms/importing.py:104
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:106
 msgid "Import options"
 msgstr "خيارات الاستيراد"
 
-#: qt/aqt/importing.py:219 qt/aqt/importing.py:532
+#: qt/aqt/importing.py:211 qt/aqt/importing.py:524
 msgid "Importing complete."
 msgstr "اكتمل الاستيراد."
 
-#: qt/aqt/main.py:1223
+#: qt/aqt/main.py:1225
 #, python-format
 msgid ""
 "In order to ensure your collection works correctly when moved between devices, Anki requires your computer's internal clock to be set correctly. The internal clock can be wrong even if your system is showing the correct local time.\n"
@@ -1799,23 +1830,23 @@ msgstr ""
 "\n"
 "الاختلاف عن الوقت الصحيح: %s."
 
-#: qt/aqt/forms/exporting.py:80
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/exporting.py:82
 msgid "Include HTML and media references"
 msgstr "تضمين HTML ومراجع الوسائط"
 
-#: qt/aqt/forms/exporting.py:78
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/exporting.py:80
 msgid "Include media"
 msgstr "تضمين الوسائط"
 
-#: qt/aqt/forms/exporting.py:77
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/exporting.py:79
 msgid "Include scheduling information"
 msgstr "تضمين معلومات الجدولة"
 
-#: qt/aqt/forms/exporting.py:79
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/exporting.py:81
 msgid "Include tags"
 msgstr "تضمين الوسوم"
 
-#: qt/aqt/forms/customstudy.py:105
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:106
 msgid "Increase today's new card limit"
 msgstr "رفع حد البطاقات الجديدة لليوم"
 
@@ -1823,7 +1854,7 @@ msgstr "رفع حد البطاقات الجديدة لليوم"
 msgid "Increase today's new card limit by"
 msgstr "رفع حد البطاقات الجديدة لليوم بـ"
 
-#: qt/aqt/forms/customstudy.py:106
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:107
 msgid "Increase today's review card limit"
 msgstr "رفع حد مراجعات اليوم"
 
@@ -1835,7 +1866,7 @@ msgstr "رفع حد مراجعات اليوم بـ"
 msgid "Increasing intervals"
 msgstr "فواصل زمنية متزايدة"
 
-#: qt/aqt/forms/getaddons.py:48
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/getaddons.py:50
 msgid "Install Add-on"
 msgstr "تنصيب إضافة"
 
@@ -1847,7 +1878,7 @@ msgstr "تنصيب إضافة/إضافات"
 msgid "Install Anki add-on"
 msgstr "تنصيب إضافة أنكي"
 
-#: qt/aqt/forms/addons.py:71
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:72
 msgid "Install from file..."
 msgstr "تنصيب من ملف..."
 
@@ -1864,19 +1895,19 @@ msgstr "نُصِّب %(name)s"
 msgid "Installed successfully."
 msgstr "نُصِّب بنجاح."
 
-#: qt/aqt/forms/setlang.py:40
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/setlang.py:42
 msgid "Interface language:"
 msgstr "لغة الواجهة:"
 
-#: qt/aqt/forms/preferences.py:280
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:281
 msgid "Interrupt current audio when answering"
 msgstr "إيقاف التسجيل الصوتي الحالي عند الإجابة"
 
-#: qt/aqt/browser.py:742
+#: qt/aqt/browser.py:749
 msgid "Interval"
 msgstr "فاصل زمني"
 
-#: qt/aqt/forms/dconf.py:353
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:355
 msgid "Interval modifier"
 msgstr "مُعدِّل الفاصل الزمني"
 
@@ -1904,7 +1935,7 @@ msgstr "إعدادات غير صالحة:"
 msgid "Invalid configuration: top level object must be a map"
 msgstr "إعدادات غير صالحة: يجب أن يكون الكائن العلوي خارطة"
 
-#: qt/aqt/main.py:1286
+#: qt/aqt/main.py:1288
 msgid "Invalid property found on card. Please use Tools>Check Database, and if the problem comes up again, please ask on the support site."
 msgstr "وُجِدت خاصية غير صالحة للبطاقة. استخدم أدوات>فحص قاعدة البيانات، وإذا استمرت المشكلة، يرجى الاستعلام من خلال موقع الدعم."
 
@@ -1912,35 +1943,37 @@ msgstr "وُجِدت خاصية غير صالحة للبطاقة. استخدم �
 msgid "It has been suspended."
 msgstr "عُلِّقت."
 
-#: qt/aqt/editor.py:124
+#: qt/aqt/editor.py:145
 msgid "Italic text (Ctrl+I)"
 msgstr "خط مائل (Ctrl+I)"
 
-#: qt/aqt/editor.py:571
+#: qt/aqt/editor.py:580
 msgid "Jump to tags with Ctrl+Shift+T"
 msgstr "انتقل إلى الوسوم باستخدام Ctrl+Shift+T"
 
-#: qt/aqt/forms/preferences.py:307
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:308
 msgid "Keep"
 msgstr "احتفظ بـ"
 
-#: qt/aqt/editor.py:947 qt/aqt/forms/modelopts.py:67
+#: qt/aqt/editor.py:956
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/modelopts.py:69
 msgid "LaTeX"
 msgstr "LaTeX"
 
-#: qt/aqt/editor.py:948
+#: qt/aqt/editor.py:957
 msgid "LaTeX equation"
 msgstr "معادلة LaTeX"
 
-#: qt/aqt/editor.py:949
+#: qt/aqt/editor.py:958
 msgid "LaTeX math env."
 msgstr "بيئة LaTeX الرياضية"
 
-#: qt/aqt/browser.py:745 qt/aqt/forms/dconf.py:372
+#: qt/aqt/browser.py:752
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:374
 msgid "Lapses"
 msgstr "سقطات"
 
-#: qt/aqt/forms/browser.py:323
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:325
 msgid "Last Card"
 msgstr "البطاقة الأخيرة"
 
@@ -1952,7 +1985,7 @@ msgstr "المضافة مؤخرًا أولًا"
 msgid "Learn"
 msgstr "في طور التعلم"
 
-#: qt/aqt/forms/preferences.py:296
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:297
 msgid "Learn ahead limit"
 msgstr "حد التعلم المبكر"
 
@@ -1961,15 +1994,15 @@ msgstr "حد التعلم المبكر"
 msgid "Learn: %(a)s, Review: %(b)s, Relearn: %(c)s, Filtered: %(d)s"
 msgstr "تعلم: %(a)s، مراجعة: %(b)s، تعلم مجددًا: %(c)s، مفلتر: %(d)s"
 
-#: pylib/anki/stats.py:686 qt/aqt/browser.py:1279 qt/aqt/overview.py:231
+#: pylib/anki/stats.py:686 qt/aqt/browser.py:1277 qt/aqt/overview.py:231
 msgid "Learning"
 msgstr "في طور التعلم"
 
-#: qt/aqt/forms/dconf.py:366
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:368
 msgid "Leech action"
 msgstr "تدبير البطاقات المستعصية"
 
-#: qt/aqt/forms/dconf.py:364
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:366
 msgid "Leech threshold"
 msgstr "عتبة البطاقات المستعصية"
 
@@ -1977,11 +2010,12 @@ msgstr "عتبة البطاقات المستعصية"
 msgid "Left"
 msgstr "يسار"
 
-#: qt/aqt/forms/dyndconf.py:135 qt/aqt/forms/dyndconf.py:139
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:137
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:141
 msgid "Limit to"
 msgstr "عدد البطاقات الأقصى"
 
-#: qt/aqt/utils.py:51
+#: qt/aqt/utils.py:57
 msgid "Loading..."
 msgstr "يجري التحميل..."
 
@@ -1993,19 +2027,20 @@ msgstr "الفاصل الزمني الأطول"
 msgid "Lowest ease"
 msgstr "السهولة الصغرى"
 
-#: qt/aqt/modelchooser.py:63
+#: qt/aqt/modelchooser.py:76
 msgid "Manage"
 msgstr "إدارة"
 
-#: qt/aqt/forms/main.py:155
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:156
 msgid "Manage Note Types"
 msgstr "إدارة أنواع الملحوظات"
 
-#: qt/aqt/forms/browser.py:339
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:341
 msgid "Manage Note Types..."
 msgstr "إدارة أنواع الملحوظات..."
 
-#: qt/aqt/browser.py:1337 qt/aqt/forms/dconf.py:339
+#: qt/aqt/browser.py:1337
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:341
 msgid "Manage..."
 msgstr "إدارة..."
 
@@ -2026,35 +2061,36 @@ msgstr "إيزاع إلى الوسوم"
 msgid "Mark Note"
 msgstr "تعليم الملحوظة"
 
-#: qt/aqt/editor.py:945
+#: qt/aqt/editor.py:954
 msgid "MathJax block"
 msgstr "كتلة MathJax"
 
-#: qt/aqt/editor.py:946
+#: qt/aqt/editor.py:955
 msgid "MathJax chemistry"
 msgstr "MathJax كيمياء"
 
-#: qt/aqt/editor.py:944
+#: qt/aqt/editor.py:953
 msgid "MathJax inline"
 msgstr "MathJax مضمَّن"
 
-#: pylib/anki/stats.py:213 pylib/anki/stats.py:346 pylib/anki/stats.py:366 pylib/anki/stats.py:688 pylib/anki/stats.py:858
+#: pylib/anki/stats.py:213 pylib/anki/stats.py:346 pylib/anki/stats.py:366
+#: pylib/anki/stats.py:688 pylib/anki/stats.py:858
 msgid "Mature"
 msgstr "ناضجة"
 
-#: qt/aqt/forms/dconf.py:355
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:357
 msgid "Maximum interval"
 msgstr "الفاصل الزمني الأقصى"
 
-#: qt/aqt/forms/dconf.py:354
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:356
 msgid "Maximum reviews/day"
 msgstr "عدد المراجعات الأقصى في اليوم"
 
-#: qt/aqt/editor.py:704
+#: qt/aqt/editor.py:713
 msgid "Media"
 msgstr "وسائط"
 
-#: qt/aqt/forms/dconf.py:367
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:369
 msgid "Minimum interval"
 msgstr "الفاصل الزمني الأصغر"
 
@@ -2070,7 +2106,7 @@ msgstr "خلط البطاقات الجديدة والمراجعات"
 msgid "Mnemosyne 2.0 Deck (*.db)"
 msgstr "رزمة Mnemosyne 2.0 (*.db)"
 
-#: qt/aqt/reviewer.py:571
+#: qt/aqt/reviewer.py:574
 msgid "More"
 msgstr "المزيد"
 
@@ -2078,23 +2114,23 @@ msgstr "المزيد"
 msgid "Most lapses"
 msgstr "الأكثر سقطات"
 
-#: qt/aqt/browser.py:1590
+#: qt/aqt/browser.py:1593
 msgid "Move Cards"
 msgstr "نقل البطاقات"
 
-#: qt/aqt/forms/setgroup.py:39
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/setgroup.py:41
 msgid "Move cards to deck:"
 msgstr "نقل البطاقات إلى رزمة:"
 
-#: qt/aqt/importing.py:144
+#: qt/aqt/importing.py:137
 msgid "Multi-character separators are not supported. Please enter one character only."
 msgstr "الفواصل المكونة من أكثر من رمز غير مدعومة. الرجاء إدخال رمز واحد فقط."
 
-#: qt/aqt/forms/browser.py:309
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:311
 msgid "N&ote"
 msgstr "م&لحوظة"
 
-#: qt/aqt/main.py:295 qt/aqt/main.py:309
+#: qt/aqt/main.py:297 qt/aqt/main.py:311
 msgid "Name exists."
 msgstr "يوجد ملف شخصي بالاسم نفسه."
 
@@ -2102,19 +2138,19 @@ msgstr "يوجد ملف شخصي بالاسم نفسه."
 msgid "Name for deck:"
 msgstr "اسم الرزمة:"
 
-#: qt/aqt/main.py:292 qt/aqt/models.py:119
+#: qt/aqt/main.py:294 qt/aqt/models.py:123
 msgid "Name:"
 msgstr "اسم:"
 
-#: qt/aqt/forms/preferences.py:305
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:306
 msgid "Network"
 msgstr "الشبكة"
 
-#: qt/aqt/browser.py:1278 qt/aqt/deckbrowser.py:149 qt/aqt/overview.py:229
+#: qt/aqt/browser.py:1276 qt/aqt/deckbrowser.py:149 qt/aqt/overview.py:229
 msgid "New"
 msgstr "جديدة"
 
-#: qt/aqt/forms/dconf.py:350
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:352
 msgid "New Cards"
 msgstr "بطاقات جديدة"
 
@@ -2123,27 +2159,28 @@ msgstr "بطاقات جديدة"
 msgid "New cards in deck over today limit: %s"
 msgstr "عدد البطاقات الجديدة في الرزمة فوق الحد اليومي: %s"
 
-#: qt/aqt/forms/customstudy.py:112
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:113
 msgid "New cards only"
 msgstr "البطاقات الجديدة فقط"
 
-#: qt/aqt/forms/dconf.py:345
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:347
 msgid "New cards/day"
 msgstr "عدد البطاقات الجديدة في اليوم"
 
-#: qt/aqt/deckbrowser.py:246 qt/aqt/studydeck.py:151
+#: qt/aqt/deckbrowser.py:246 qt/aqt/sidebar.py:98 qt/aqt/studydeck.py:151
 msgid "New deck name:"
 msgstr "اسم الرزمة الجديد:"
 
-#: qt/aqt/forms/dconf.py:363
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:365
 msgid "New interval"
 msgstr "الفاصل الزمني الجديد"
 
-#: qt/aqt/clayout.py:584 qt/aqt/deckconf.py:148 qt/aqt/fields.py:97 qt/aqt/main.py:303 qt/aqt/models.py:84
+#: qt/aqt/clayout.py:586 qt/aqt/deckconf.py:148 qt/aqt/fields.py:97
+#: qt/aqt/main.py:305 qt/aqt/models.py:87
 msgid "New name:"
 msgstr "الاسم الجديد:"
 
-#: qt/aqt/forms/changemodel.py:111
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/changemodel.py:113
 msgid "New note type:"
 msgstr "نوع الملحوظة الجديد:"
 
@@ -2151,20 +2188,20 @@ msgstr "نوع الملحوظة الجديد:"
 msgid "New options group name:"
 msgstr "اسم مجموعة الخيارات الجديدة:"
 
-#: qt/aqt/fields.py:136
+#: qt/aqt/fields.py:140
 #, python-format
 msgid "New position (1...%d):"
 msgstr "الموضع الجديد: (1...%d):"
 
-#: qt/aqt/forms/preferences.py:298
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:299
 msgid "Next day starts at"
 msgstr "يبدأ اليوم التالي في"
 
-#: qt/aqt/forms/preferences.py:283
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:284
 msgid "Night mode"
 msgstr "الوضع الليلي"
 
-#: qt/aqt/browser.py:1290
+#: qt/aqt/browser.py:1288
 msgid "No Flag"
 msgstr "لا مؤشر"
 
@@ -2188,11 +2225,12 @@ msgstr "لم تدرس أي بطاقة ناضجة اليوم."
 msgid "No updates available."
 msgstr "لا تتوفر أي تحديثات."
 
-#: qt/aqt/browser.py:747
+#: qt/aqt/browser.py:754
 msgid "Note"
 msgstr "ملحوظة"
 
-#: qt/aqt/browser.py:1335 qt/aqt/models.py:36 qt/aqt/forms/models.py:54
+#: qt/aqt/browser.py:1335 qt/aqt/models.py:36
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/models.py:56
 msgid "Note Types"
 msgstr "أنواع الملحوظة"
 
@@ -2215,16 +2253,16 @@ msgstr "دُفِنت الملحوظة."
 msgid "Note suspended."
 msgstr "عُلِّقت الملحوظة."
 
-#: qt/aqt/forms/preferences.py:310
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:311
 msgid "Note: Media is not backed up. Please create a periodic backup of your Anki folder to be safe."
 msgstr "ملحوظة: الوسائط غير منسوخة احتياطيًا. الرجاء نسخ مجلد أنكي الخاص بك احتياطيًا من وقت لآخر."
 
-#: pylib/anki/importing/anki2.py:149
+#: pylib/anki/importing/anki2.py:146
 #, python-format
 msgid "Notes added from file: %d"
 msgstr "عدد الملحوظات المضافة من الملف: %d"
 
-#: pylib/anki/importing/anki2.py:137
+#: pylib/anki/importing/anki2.py:134
 #, python-format
 msgid "Notes found in file: %d"
 msgstr "عدد الملحوظات الموجودة في الملف: %d"
@@ -2233,30 +2271,30 @@ msgstr "عدد الملحوظات الموجودة في الملف: %d"
 msgid "Notes in Plain Text"
 msgstr "ملحوظات بصيغة نصية"
 
-#: qt/aqt/fields.py:121
+#: qt/aqt/fields.py:123
 msgid "Notes require at least one field."
 msgstr "تتطلب الملحوظات حقلًا واحدًا على الأقل."
 
-#: pylib/anki/importing/anki2.py:152
+#: pylib/anki/importing/anki2.py:149
 #, python-format
 msgid "Notes skipped, as they're already in your collection: %d"
 msgstr "عدد الملحوظات المتخطاة لكونها موجودة في مجموعتك: %d"
 
-#: qt/aqt/browser.py:2016
+#: qt/aqt/browser.py:2023
 msgid "Notes tagged."
 msgstr "أُضيف وسم إلى الملحوظات."
 
-#: pylib/anki/importing/anki2.py:141
+#: pylib/anki/importing/anki2.py:138
 #, python-format
 msgid "Notes that could not be imported as note type has changed: %d"
 msgstr "الملحوظات التي لا يمكن استيرادها لأن نوع الملحوظة قد تغيّر: %d"
 
-#: pylib/anki/importing/anki2.py:146
+#: pylib/anki/importing/anki2.py:143
 #, python-format
 msgid "Notes updated, as file had newer version: %d"
 msgstr "عدد الملحوظات المحدثة لأن الملف له إصدار أحدث: %d"
 
-#: qt/aqt/browser.py:2170
+#: qt/aqt/browser.py:2180
 msgid "Nothing"
 msgstr "ﻻ شيء"
 
@@ -2268,7 +2306,7 @@ msgstr "موافق"
 msgid "Oldest seen first"
 msgstr "الأقدم أولًا"
 
-#: qt/aqt/forms/preferences.py:304
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:305
 msgid "On next sync, force changes in one direction"
 msgstr "فرض التغييرات في جانب واحد عند المزامنة التالية"
 
@@ -2276,48 +2314,52 @@ msgstr "فرض التغييرات في جانب واحد عند المزامنة
 msgid "One or more errors occurred:"
 msgstr "حدث خطأ أو أكثر:"
 
-#: qt/aqt/browser.py:1728
+#: qt/aqt/browser.py:1734
 msgid "Only new cards can be repositioned."
 msgstr "يمكن إعادة موضعة البطاقات الجديدة فقط."
 
-#: qt/aqt/forms/profiles.py:80
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/profiles.py:81
 msgid "Open"
 msgstr "فتح"
 
-#: qt/aqt/forms/profiles.py:85
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/profiles.py:86
 msgid "Open Backup..."
 msgstr "فتح نسخة احتياطية..."
 
-#: qt/aqt/main.py:642
+#: qt/aqt/main.py:644
 msgid "Optimizing..."
 msgstr "تحسين..."
 
-#: qt/aqt/forms/finddupes.py:71
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/finddupes.py:72
 msgid "Optional filter:"
 msgstr "فلتر اختياري:"
 
-#: qt/aqt/clayout.py:111 qt/aqt/deckbrowser.py:230 qt/aqt/deckconf.py:37 qt/aqt/dyndeckconf.py:25 qt/aqt/overview.py:252 qt/aqt/reviewer.py:732 qt/aqt/forms/dyndconf.py:142 qt/aqt/forms/fields.py:109
+#: qt/aqt/clayout.py:111 qt/aqt/deckbrowser.py:230 qt/aqt/deckconf.py:37
+#: qt/aqt/dyndeckconf.py:25 qt/aqt/overview.py:252 qt/aqt/reviewer.py:732
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:144
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:110
 msgid "Options"
 msgstr "خيارات"
 
-#: qt/aqt/deckconf.py:47 qt/aqt/dyndeckconf.py:28 qt/aqt/models.py:157
+#: qt/aqt/deckconf.py:47 qt/aqt/dyndeckconf.py:28 qt/aqt/models.py:161
 #, python-format
 msgid "Options for %s"
 msgstr "خيارات %s"
 
-#: qt/aqt/forms/dconf.py:338
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:340
 msgid "Options group:"
 msgstr "مجموعة الخيارات:"
 
-#: qt/aqt/models.py:67
+#: qt/aqt/models.py:70
 msgid "Options..."
 msgstr "خيارات..."
 
-#: qt/aqt/browser.py:1287 qt/aqt/reviewer.py:707 qt/aqt/forms/browser.py:334
+#: qt/aqt/browser.py:1285 qt/aqt/reviewer.py:707
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:336
 msgid "Orange Flag"
 msgstr "مؤشر برتقالي"
 
-#: qt/aqt/forms/dconf.py:342
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:344
 msgid "Order"
 msgstr "الترتيب"
 
@@ -2329,15 +2371,15 @@ msgstr "تاريخ الإضافة"
 msgid "Order due"
 msgstr "تاريخ الاستحقاق"
 
-#: qt/aqt/forms/browserdisp.py:71
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browserdisp.py:73
 msgid "Override back template:"
 msgstr "استبدال القالب الخلفي:"
 
-#: qt/aqt/forms/browserdisp.py:72
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browserdisp.py:74
 msgid "Override font:"
 msgstr "تغيير الخط:"
 
-#: qt/aqt/forms/browserdisp.py:70
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browserdisp.py:72
 msgid "Override front template:"
 msgstr "استبدال القالب الأمامي:"
 
@@ -2349,15 +2391,15 @@ msgstr "حزمة إضافة أنكي"
 msgid "Packaged Anki Deck/Collection (*.apkg *.colpkg *.zip)"
 msgstr "حزمة رزمة/مجموعة أنكي (*.apkg *.colpkg *.zip)"
 
-#: qt/aqt/editor.py:1201
+#: qt/aqt/editor.py:1213
 msgid "Paste"
 msgstr "لصق"
 
-#: qt/aqt/forms/preferences.py:281
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:282
 msgid "Paste clipboard images as PNG"
 msgstr "لصق الصور من الحافظة بصيغة PNG"
 
-#: qt/aqt/forms/preferences.py:282
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:283
 msgid "Paste without shift key strips formatting"
 msgstr "اللصق بدون الضغط على زر shift يزيل التنسيق"
 
@@ -2378,19 +2420,19 @@ msgstr "النسبة المئوية"
 msgid "Period: %s"
 msgstr "المدة: %s"
 
-#: qt/aqt/forms/preferences.py:303
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:304
 msgid "Periodically sync media"
 msgstr "مزامنة الوسائط من وقت لآخر"
 
-#: qt/aqt/forms/reschedule.py:74
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reschedule.py:76
 msgid "Place at end of new card queue"
 msgstr "ضع في آخر صف البطاقات الجديدة"
 
-#: qt/aqt/forms/reschedule.py:75
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reschedule.py:77
 msgid "Place in review queue with interval between:"
 msgstr "ضع في صف المراجعات بفاصل زمني بين:"
 
-#: qt/aqt/models.py:126
+#: qt/aqt/models.py:130
 msgid "Please add another note type first."
 msgstr "الرجاء إضافة نوع ملحوظة آخر أولًا."
 
@@ -2402,11 +2444,11 @@ msgstr "الرجاء التحقق من الاتصال بالإنترنت."
 msgid "Please connect a microphone, and ensure other programs are not using the audio device."
 msgstr "الرجاء إيصال ميكروفون، والتحقق من أن البرامج الأخرى لا تستخدم جهاز الصوت."
 
-#: qt/aqt/main.py:1606
+#: qt/aqt/main.py:1609
 msgid "Please ensure a profile is open and Anki is not busy, then try again."
 msgstr "الرجاء التحقق من وجود ملف شخصي مفتوح وأن أنكي غير مشغول، ثم المحاولة مجددًا."
 
-#: qt/aqt/browser.py:1390
+#: qt/aqt/browser.py:1393
 msgid "Please give your filter a name:"
 msgstr "أعطِ الفلتر اسمًا:"
 
@@ -2423,11 +2465,11 @@ msgstr "الرجاء الإبلاغ عن ذلك لمؤلف الإضافة."
 msgid "Please restart Anki to complete language change."
 msgstr "أعد تشغيل أنكي لتغيير اللغة."
 
-#: qt/aqt/reviewer.py:384
+#: qt/aqt/reviewer.py:387
 msgid "Please run Tools>Empty Cards"
 msgstr "استخدم أدوات>بحث عن بطاقات فارغة"
 
-#: qt/aqt/main.py:673
+#: qt/aqt/main.py:675
 msgid "Please select a deck."
 msgstr "اختر رزمة."
 
@@ -2435,7 +2477,7 @@ msgstr "اختر رزمة."
 msgid "Please select a single add-on first."
 msgstr "اختر إضافة واحدة أولًا."
 
-#: qt/aqt/browser.py:1490
+#: qt/aqt/browser.py:1493
 msgid "Please select cards from only one note type."
 msgstr "اختر بطاقات من نوع ملحوظة واحد فقط."
 
@@ -2443,24 +2485,25 @@ msgstr "اختر بطاقات من نوع ملحوظة واحد فقط."
 msgid "Please select something."
 msgstr "اختر شيئًا."
 
-#: qt/aqt/main.py:1120
+#: qt/aqt/main.py:1122
 msgid "Please use File>Import to import this file."
 msgstr "استخدم ملف>استيراد لاستيراد هذا الملف."
 
-#: qt/aqt/forms/preferences.py:277
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:278
 msgid "Preferences"
 msgstr "تفضيلات"
 
-#: qt/aqt/previewer.py:65 qt/aqt/forms/browser.py:296
+#: qt/aqt/previewer.py:65
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:298
 msgid "Preview"
 msgstr "معاينة"
 
-#: qt/aqt/browser.py:617
+#: qt/aqt/browser.py:624
 #, python-format
 msgid "Preview Selected Card (%s)"
 msgstr "عاين البطاقة المحددة (%s)"
 
-#: qt/aqt/forms/customstudy.py:108
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:109
 msgid "Preview new cards"
 msgstr "معاينة البطاقات الجديدة"
 
@@ -2468,7 +2511,7 @@ msgstr "معاينة البطاقات الجديدة"
 msgid "Preview new cards added in the last"
 msgstr "معاينة البطاقات الجديدة المضافة في آخر"
 
-#: qt/aqt/importing.py:502
+#: qt/aqt/importing.py:494
 #, python-format
 msgid "Processed %d media file"
 msgid_plural "Processed %d media files"
@@ -2479,7 +2522,7 @@ msgstr[3] "عولج %d ملفات وسائط"
 msgstr[4] "عولج %d ملف وسائط"
 msgstr[5] "عولج %d ملف وسائط"
 
-#: qt/aqt/progress.py:66
+#: qt/aqt/progress.py:83
 msgid "Processing..."
 msgstr "تجري المعالجة..."
 
@@ -2487,25 +2530,25 @@ msgstr "تجري المعالجة..."
 msgid "Profile Corrupt"
 msgstr "الملف الشخصي تالف"
 
-#: qt/aqt/forms/profiles.py:79
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/profiles.py:80
 msgid "Profiles"
 msgstr "ملفات شخصية"
 
-#: qt/aqt/browser.py:733
+#: qt/aqt/browser.py:740
 msgid "Question"
 msgstr "سؤال"
 
-#: qt/aqt/browser.py:1739
+#: qt/aqt/browser.py:1745
 #, python-format
 msgid "Queue bottom: %d"
 msgstr "أسفل الصف: %d"
 
-#: qt/aqt/browser.py:1738
+#: qt/aqt/browser.py:1744
 #, python-format
 msgid "Queue top: %d"
 msgstr "أعلى الصف: %d"
 
-#: qt/aqt/forms/profiles.py:84
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/profiles.py:85
 msgid "Quit"
 msgstr "خروج"
 
@@ -2513,7 +2556,7 @@ msgstr "خروج"
 msgid "Random"
 msgstr "عشوائي"
 
-#: qt/aqt/forms/reposition.py:73
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reposition.py:75
 msgid "Randomize order"
 msgstr "ترتيب عشوائي"
 
@@ -2525,16 +2568,17 @@ msgstr "إعادة إنشاء"
 msgid "Record Own Voice"
 msgstr "تسجيل صوتك"
 
-#: qt/aqt/editor.py:175
+#: qt/aqt/editor.py:178
 msgid "Record audio (F5)"
 msgstr "سجّل صوتًا (F5)"
 
-#: qt/aqt/sound.py:565
+#: qt/aqt/sound.py:610
 #, python-format
 msgid "Recording...<br>Time: %0.1f"
 msgstr "يجري التسجيل..<br>المدة: %0.1f"
 
-#: qt/aqt/browser.py:1286 qt/aqt/reviewer.py:701 qt/aqt/forms/browser.py:333
+#: qt/aqt/browser.py:1284 qt/aqt/reviewer.py:701
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:335
 msgid "Red Flag"
 msgstr "مؤشر أحمر"
 
@@ -2546,48 +2590,51 @@ msgstr "التأخر النسبي"
 msgid "Relearn"
 msgstr "في طور إعادة التعلم"
 
-#: qt/aqt/forms/fields.py:108
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:109
 msgid "Remember last input when adding"
 msgstr "تذكّر المدخلات الأخيرة عند الإضافة"
 
-#: qt/aqt/browser.py:1401
+#: qt/aqt/browser.py:1404
 #, python-format
 msgid "Remove %s from your saved searches?"
 msgstr "هل تريد حذف %s من فلاترك المحفوظة؟"
 
-#: qt/aqt/clayout.py:677
+#: qt/aqt/clayout.py:679
 msgid "Remove Card Type..."
 msgstr "حذف نوع البطاقة..."
 
-#: qt/aqt/browser.py:1375
+#: qt/aqt/browser.py:1378
 msgid "Remove Current Filter..."
 msgstr "احذف الفلتر الحالي..."
 
-#: qt/aqt/forms/browser.py:328
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:330
 msgid "Remove Tags..."
 msgstr "حذف وسوم..."
 
-#: qt/aqt/editor.py:133
+#: qt/aqt/editor.py:154
 msgid "Remove formatting (Ctrl+R)"
 msgstr "أزل التنسيق (Ctrl+R)"
 
-#: qt/aqt/deckbrowser.py:228 qt/aqt/deckconf.py:93 qt/aqt/models.py:55 qt/aqt/forms/fields.py:104 qt/aqt/forms/profiles.py:82
+#: qt/aqt/deckbrowser.py:228 qt/aqt/deckconf.py:93 qt/aqt/models.py:58
+#: qt/aqt/sidebar.py:74
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:105
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/profiles.py:83
 msgid "Rename"
 msgstr "إعادة تسمية"
 
-#: qt/aqt/clayout.py:680
+#: qt/aqt/clayout.py:682
 msgid "Rename Card Type..."
 msgstr "تغيير اسم نوع البطاقة..."
 
-#: qt/aqt/deckbrowser.py:243
+#: qt/aqt/deckbrowser.py:243 qt/aqt/sidebar.py:95
 msgid "Rename Deck"
 msgstr "تغيير اسم الرزمة"
 
-#: qt/aqt/forms/dyndconf.py:145
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:147
 msgid "Repeat failed cards after"
 msgstr "تكرار البطاقات غير الناجحة بعد"
 
-#: qt/aqt/main.py:336
+#: qt/aqt/main.py:338
 msgid "Replace your collection with an earlier backup?"
 msgstr "هل تريد استبدال مجموعتك بنسخة احتياطية؟"
 
@@ -2599,31 +2646,33 @@ msgstr "إعادة تشغيل الصوت"
 msgid "Replay Own Voice"
 msgstr "إعادة تشغيل صوتك"
 
-#: qt/aqt/browser.py:1744 qt/aqt/forms/fields.py:105
+#: qt/aqt/browser.py:1751
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:106
 msgid "Reposition"
 msgstr "تغيير الموضع"
 
-#: qt/aqt/clayout.py:683
+#: qt/aqt/clayout.py:685
 msgid "Reposition Card Type..."
 msgstr "تغيير موضع نوع البطاقة..."
 
-#: qt/aqt/forms/reposition.py:70
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reposition.py:72
 msgid "Reposition New Cards"
 msgstr "تغيير موضع البطاقات الجديدة"
 
-#: qt/aqt/forms/browser.py:320
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:322
 msgid "Reposition..."
 msgstr "تغيير الموضع..."
 
-#: qt/aqt/forms/taglimit.py:61
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/taglimit.py:63
 msgid "Require one or more of these tags:"
 msgstr "يلزم واحد أو أكثر من هذه الوسوم:"
 
-#: qt/aqt/browser.py:1770 qt/aqt/forms/reschedule.py:73
+#: qt/aqt/browser.py:1777
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reschedule.py:75
 msgid "Reschedule"
 msgstr "إعادة جدولة"
 
-#: qt/aqt/forms/dyndconf.py:143
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:145
 msgid "Reschedule cards based on my answers in this deck"
 msgstr "إعادة جدولة البطاقات بناءً على أجوبتي في هذه الرزمة"
 
@@ -2631,24 +2680,24 @@ msgstr "إعادة جدولة البطاقات بناءً على أجوبتي ف
 msgid "Restored defaults"
 msgstr "أُعيدت الإعدادات الافتراضية"
 
-#: qt/aqt/main.py:734
+#: qt/aqt/main.py:736
 msgid "Resume Now"
 msgstr "استكمل الآن"
 
-#: qt/aqt/forms/fields.py:107
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:108
 msgid "Reverse text direction (RTL)"
 msgstr "قلب اتجاه النص (من اليمين إلى اليسار)"
 
-#: qt/aqt/main.py:349
+#: qt/aqt/main.py:351
 msgid "Revert to backup"
 msgstr "إعادة إلى نسخة احتياطية"
 
-#: qt/aqt/main.py:1034
+#: qt/aqt/main.py:1036
 #, python-format
 msgid "Reverted to state prior to '%s'."
 msgstr "أعيد إلى حالة قبل '%s'."
 
-#: pylib/anki/collection.py:577 qt/aqt/browser.py:1280
+#: pylib/anki/collection.py:577 qt/aqt/browser.py:1278
 msgid "Review"
 msgstr "مراجعة"
 
@@ -2660,7 +2709,7 @@ msgstr "عدد المراجعات"
 msgid "Review Time"
 msgstr "مدة المراجعة"
 
-#: qt/aqt/forms/customstudy.py:103
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:104
 msgid "Review ahead"
 msgstr "المراجعة مبكرًا"
 
@@ -2672,7 +2721,7 @@ msgstr "المراجعة مبكرًا بمدة"
 msgid "Review cards forgotten in last"
 msgstr "مراجعة البطاقات المنسية في آخر"
 
-#: qt/aqt/forms/customstudy.py:104
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:105
 msgid "Review forgotten cards"
 msgstr "مراجعة البطاقات المنسية"
 
@@ -2680,7 +2729,8 @@ msgstr "مراجعة البطاقات المنسية"
 msgid "Review success rate for each hour of the day."
 msgstr ".معدل المراجعات الناجحة لكل ساعة من اليوم"
 
-#: pylib/anki/stats.py:819 qt/aqt/browser.py:744 qt/aqt/forms/dconf.py:361
+#: pylib/anki/stats.py:819 qt/aqt/browser.py:751
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:363
 msgid "Reviews"
 msgstr "مراجعات"
 
@@ -2693,15 +2743,16 @@ msgstr "عدد المراجعات المستحقة في الرزمة فوق ال
 msgid "Right"
 msgstr "يمين"
 
-#: qt/aqt/clayout.py:399 qt/aqt/sound.py:554
+#: qt/aqt/clayout.py:399 qt/aqt/sound.py:599
 msgid "Save"
 msgstr "حفظ"
 
-#: qt/aqt/browser.py:1377
+#: qt/aqt/browser.py:1380
 msgid "Save Current Filter..."
 msgstr "حفظ الفلتر الحالي..."
 
-#: qt/aqt/stats.py:42 qt/aqt/stats.py:67 qt/aqt/stats.py:114 qt/aqt/stats.py:145
+#: qt/aqt/stats.py:42 qt/aqt/stats.py:67 qt/aqt/stats.py:114
+#: qt/aqt/stats.py:145
 msgid "Save PDF"
 msgstr "حفظ كـ PDF"
 
@@ -2709,7 +2760,7 @@ msgstr "حفظ كـ PDF"
 msgid "Saved."
 msgstr "تم الحفظ."
 
-#: qt/aqt/forms/preferences.py:299
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:300
 msgid "Scheduling"
 msgstr "إعادة جدولة"
 
@@ -2718,15 +2769,18 @@ msgstr "إعادة جدولة"
 msgid "Scope: %s"
 msgstr "النطاق: %s"
 
-#: qt/aqt/browser.py:1972 qt/aqt/forms/browser.py:295 qt/aqt/forms/dyndconf.py:136 qt/aqt/forms/dyndconf.py:140
+#: qt/aqt/browser.py:1979
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:297
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:138
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:142
 msgid "Search"
 msgstr "بحث"
 
-#: qt/aqt/forms/finddupes.py:72
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/finddupes.py:73
 msgid "Search in:"
 msgstr "بحث في:"
 
-#: qt/aqt/forms/browseropts.py:73
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browseropts.py:75
 msgid "Search within formatting (slow)"
 msgstr "البحث خلال المحتوى المنسق (بطيء)"
 
@@ -2734,15 +2788,15 @@ msgstr "البحث خلال المحتوى المنسق (بطيء)"
 msgid "Select"
 msgstr "تحديد"
 
-#: qt/aqt/forms/browser.py:305
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:307
 msgid "Select &All"
 msgstr "تحديد ال&كل"
 
-#: qt/aqt/forms/browser.py:314
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:316
 msgid "Select &Notes"
 msgstr "تحديد ال&ملحوظات"
 
-#: qt/aqt/forms/taglimit.py:62
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/taglimit.py:64
 msgid "Select tags to exclude:"
 msgstr "حدد وسوم لإقصائها:"
 
@@ -2750,15 +2804,15 @@ msgstr "حدد وسوم لإقصائها:"
 msgid "Selected Notes"
 msgstr "الملحوظات المحددة"
 
-#: qt/aqt/importing.py:311
+#: qt/aqt/importing.py:303
 msgid "Selected file was not in UTF-8 format. Please see the importing section of the manual."
 msgstr "الملف المحدد ليس بصيغة UTF-8. الرجاء الرجوع إلى قسم الاستيراد في دليل الاستخدام."
 
-#: qt/aqt/forms/taglimit.py:60
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/taglimit.py:62
 msgid "Selective Study"
 msgstr "دراسة انتقائية"
 
-#: qt/aqt/importing.py:172
+#: qt/aqt/importing.py:165
 msgid "Semicolon"
 msgstr "فاصلة منقوطة"
 
@@ -2771,38 +2825,41 @@ msgstr "هل تريد ضبط كل الرزم التابعة لـ %s لتستخد
 msgid "Set for all subdecks"
 msgstr "ضبط لكل الرزم الفرعية"
 
-#: qt/aqt/editor.py:136
+#: qt/aqt/editor.py:158
 msgid "Set foreground colour (F7)"
 msgstr "ضبط لون النص (F7)"
 
-#: qt/aqt/main.py:127
+#: qt/aqt/main.py:129
 msgid "Shift key was held down. Skipping automatic syncing and add-on loading."
 msgstr "كان زر shift مضغوطًا. تجاوز النسخ الاحتياطي والإضافات."
 
-#: qt/aqt/forms/reposition.py:74
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reposition.py:76
 msgid "Shift position of existing cards"
 msgstr "غير موضع البطاقات الموجودة"
 
-#: qt/aqt/deckbrowser.py:318 qt/aqt/main.py:763 qt/aqt/overview.py:265 qt/aqt/previewer.py:80 qt/aqt/previewer.py:85 qt/aqt/reviewer.py:570 qt/aqt/reviewer.py:583 qt/aqt/reviewer.py:660
-#: qt/aqt/toolbar.py:107 qt/aqt/toolbar.py:114 qt/aqt/toolbar.py:121 qt/aqt/toolbar.py:128 qt/aqt/toolbar.py:144
+#: qt/aqt/deckbrowser.py:318 qt/aqt/main.py:765 qt/aqt/overview.py:265
+#: qt/aqt/previewer.py:80 qt/aqt/previewer.py:85 qt/aqt/reviewer.py:573
+#: qt/aqt/reviewer.py:584 qt/aqt/reviewer.py:660 qt/aqt/toolbar.py:107
+#: qt/aqt/toolbar.py:114 qt/aqt/toolbar.py:121 qt/aqt/toolbar.py:128
+#: qt/aqt/toolbar.py:144
 #, python-format
 msgid "Shortcut key: %s"
 msgstr "اختصار: %s"
 
-#: qt/aqt/previewer.py:241
+#: qt/aqt/previewer.py:243
 msgid "Shortcut key: Left arrow"
 msgstr "اختصار: السهم الأيسر"
 
-#: qt/aqt/previewer.py:246
+#: qt/aqt/previewer.py:248
 msgid "Shortcut key: Right arrow or Enter"
 msgstr "اختصار: السهم الأيمن أو Enter"
 
-#: qt/aqt/addcards.py:87
+#: qt/aqt/addcards.py:89
 #, python-format
 msgid "Shortcut: %s"
 msgstr "اختصار: %s"
 
-#: qt/aqt/reviewer.py:584
+#: qt/aqt/reviewer.py:585
 msgid "Show Answer"
 msgstr "إظهار الجواب"
 
@@ -2810,11 +2867,11 @@ msgstr "إظهار الجواب"
 msgid "Show Duplicates"
 msgstr "إظهار الملحوظات المكررة"
 
-#: qt/aqt/forms/dconf.py:375
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:377
 msgid "Show answer timer"
 msgstr "إظهار مؤقت الإجابة"
 
-#: qt/aqt/forms/preferences.py:291
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:292
 msgid "Show learning cards with larger steps before reviews"
 msgstr "عرض بطاقات التعلم ذات الخطوات الأكبر قبل المراجعات"
 
@@ -2834,63 +2891,64 @@ msgstr "إظهار البطاقات الجديدة حسب تاريخ الإضا�
 msgid "Show new cards in random order"
 msgstr "إظهار البطاقات الجديدة بترتيب عشوائي"
 
-#: qt/aqt/forms/preferences.py:289
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:290
 msgid "Show next review time above answer buttons"
 msgstr "إظهار وقت المراجعة التالية فوق أزرار الإجابة"
 
-#: qt/aqt/forms/preferences.py:279
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:280
 msgid "Show play buttons on cards with audio"
 msgstr "إظهار أزرار التشغيل في البطاقات التي فيها تسجيلات صوتية"
 
-#: qt/aqt/forms/preferences.py:290
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:291
 msgid "Show remaining card count during review"
 msgstr "إظهار عدد البطاقات المتبقية أثناء المراجعة"
 
-#: qt/aqt/browser.py:1056 qt/aqt/forms/browser.py:337
+#: qt/aqt/browser.py:1031
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:339
 msgid "Sidebar"
 msgstr "الشريط الجانبي"
 
-#: qt/aqt/forms/addfield.py:63
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addfield.py:64
 msgid "Size:"
 msgstr "حجم:"
 
-#: pylib/anki/importing/anki2.py:160
+#: pylib/anki/importing/anki2.py:157
 msgid "Skipped"
 msgstr "مُتخطَّى"
 
-#: qt/aqt/forms/preferences.py:311
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:312
 msgid "Some settings will take effect after you restart Anki."
 msgstr "ستُفعَّل بعض الإعدادات بعد إعادة تشغيل أنكي."
 
-#: qt/aqt/browser.py:737
+#: qt/aqt/browser.py:744
 msgid "Sort Field"
 msgstr "حقل الفرز"
 
-#: qt/aqt/forms/fields.py:110
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:111
 msgid "Sort by this field in the browser"
 msgstr "فرز حسب هذا الحقل في المتصفح"
 
-#: qt/aqt/browser.py:932
+#: qt/aqt/browser.py:942
 msgid "Sorting on this column is not supported. Please choose another."
 msgstr "الفرز حسب هذا العمود غير مدعوم. اختر حقلًا آخر."
 
-#: qt/aqt/sound.py:285
+#: qt/aqt/sound.py:323
 msgid "Sound and video on cards will not function until mpv or mplayer is installed."
 msgstr "لن يعمل الصوت والفيديو في البطاقات حتى تنصّب mpv أو mplayer."
 
-#: qt/aqt/importing.py:170 qt/aqt/reviewer.py:583
+#: qt/aqt/importing.py:163 qt/aqt/reviewer.py:584
 msgid "Space"
 msgstr "مفتاح المسافة"
 
-#: qt/aqt/forms/reposition.py:71
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reposition.py:73
 msgid "Start position:"
 msgstr "موضع البدء:"
 
-#: qt/aqt/forms/dconf.py:340
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:342
 msgid "Starting ease"
 msgstr "سهولة أولية"
 
-#: qt/aqt/forms/stats.py:79
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/stats.py:80
 msgid "Statistics"
 msgstr "إحصائيات"
 
@@ -2898,11 +2956,12 @@ msgstr "إحصائيات"
 msgid "Stats"
 msgstr "إحصائيات"
 
-#: qt/aqt/forms/reposition.py:72
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reposition.py:74
 msgid "Step:"
 msgstr "الخطوة:"
 
-#: qt/aqt/forms/dconf.py:346 qt/aqt/forms/dconf.py:362
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:348
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:364
 msgid "Steps (in minutes)"
 msgstr "الخطوات (بالدقيقة)"
 
@@ -2910,7 +2969,7 @@ msgstr "الخطوات (بالدقيقة)"
 msgid "Steps must be numbers."
 msgstr "يجب أن تكون الخطوات أرقامًا."
 
-#: qt/aqt/browser.py:1266
+#: qt/aqt/browser.py:1264
 msgid "Studied Today"
 msgstr "دُرِست اليوم"
 
@@ -2918,11 +2977,11 @@ msgstr "دُرِست اليوم"
 msgid "Study"
 msgstr "دراسة"
 
-#: qt/aqt/forms/studydeck.py:45
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/studydeck.py:47
 msgid "Study Deck"
 msgstr "دراسة رزمة"
 
-#: qt/aqt/forms/main.py:152
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:153
 msgid "Study Deck..."
 msgstr "دراسة رزمة..."
 
@@ -2930,11 +2989,11 @@ msgstr "دراسة رزمة..."
 msgid "Study Now"
 msgstr "ادرس الآن"
 
-#: qt/aqt/forms/customstudy.py:107
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:108
 msgid "Study by card state or tag"
 msgstr "دراسة حسب حالة البطاقة أو الوسم"
 
-#: qt/aqt/editor.py:132
+#: qt/aqt/editor.py:153
 msgid "Subscript (Ctrl+=)"
 msgstr "رمز سفلي (Ctrl+=)"
 
@@ -2942,7 +3001,7 @@ msgstr "رمز سفلي (Ctrl+=)"
 msgid "Supermemo XML export (*.xml)"
 msgstr "تصدير (xml.*) Supermemo XML"
 
-#: qt/aqt/editor.py:130
+#: qt/aqt/editor.py:151
 msgid "Superscript (Ctrl++)"
 msgstr "رمز علوي (Ctrl++)"
 
@@ -2950,7 +3009,8 @@ msgstr "رمز علوي (Ctrl++)"
 msgid "Suspend"
 msgstr "تعليق"
 
-#: qt/aqt/reviewer.py:729 qt/aqt/forms/dconf.py:369
+#: qt/aqt/reviewer.py:729
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:371
 msgid "Suspend Card"
 msgstr "تعليق البطاقة"
 
@@ -2958,7 +3018,7 @@ msgstr "تعليق البطاقة"
 msgid "Suspend Note"
 msgstr "تعليق الملحوظة"
 
-#: qt/aqt/browser.py:1283
+#: qt/aqt/browser.py:1281
 msgid "Suspended"
 msgstr "معلقة"
 
@@ -2970,27 +3030,27 @@ msgstr "معلقة+مدفونة"
 msgid "Sync"
 msgstr "مزامنة"
 
-#: qt/aqt/forms/preferences.py:301
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:302
 msgid "Synchronize audio and images too"
 msgstr "مزامنة التسجيلات الصوتية والصور أيضًا"
 
-#: qt/aqt/importing.py:166
+#: qt/aqt/importing.py:159
 msgid "Tab"
 msgstr "مفتاح Tab"
 
-#: qt/aqt/browser.py:1981 qt/aqt/browser.py:2008
+#: qt/aqt/browser.py:1988 qt/aqt/browser.py:2015
 msgid "Tag Duplicates"
 msgstr "إضافة وسم للملحوظات المكررة"
 
-#: qt/aqt/forms/dconf.py:370
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:372
 msgid "Tag Only"
 msgstr "إضافة وسم فقط"
 
-#: qt/aqt/forms/importing.py:111
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:113
 msgid "Tag modified notes:"
 msgstr "أضف وسم إلى الملحوظات المعدلة:"
 
-#: qt/aqt/browser.py:746 qt/aqt/browser.py:1298 qt/aqt/editor.py:567
+#: qt/aqt/browser.py:753 qt/aqt/browser.py:1299 qt/aqt/editor.py:576
 msgid "Tags"
 msgstr "وسوم"
 
@@ -2998,7 +3058,7 @@ msgstr "وسوم"
 msgid "Target Deck (Ctrl+D)"
 msgstr "(Ctrl+D) الرزمة المعنية"
 
-#: qt/aqt/forms/changemap.py:42
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/changemap.py:44
 msgid "Target field:"
 msgstr "الحقل المعني:"
 
@@ -3018,11 +3078,11 @@ msgstr "لا يمكن حذف مجموعة الخيارات الافتراضية.
 msgid "The division of cards in your deck(s)."
 msgstr ".تقسيم البطاقات في رزمتك/رزمك"
 
-#: qt/aqt/addcards.py:164
+#: qt/aqt/addcards.py:169
 msgid "The first field is empty."
 msgstr "الحقل الأول فارغ."
 
-#: qt/aqt/importing.py:183
+#: qt/aqt/importing.py:176
 msgid "The first field of the note type must be mapped."
 msgstr "يجب إيزاع الحقل الأول من نوع الملحوظة."
 
@@ -3035,7 +3095,7 @@ msgstr "الإضافات التالية غير متوافقة مع %(name)s وت
 msgid "The following add-ons have updates available. Install them now?"
 msgstr "الإضافات التالية لها تحديثات. هل تريد تنصيبها الآن؟"
 
-#: qt/aqt/utils.py:653
+#: qt/aqt/utils.py:659
 #, python-format
 msgid "The following character can not be used: %s"
 msgstr "لا يمكن استخدام الرمز التالي: %s"
@@ -3060,7 +3120,7 @@ msgstr ".عدد المراجعات المستحقة في المستقبل"
 msgid "The number of times you have pressed each button."
 msgstr "عدد مرات نقر كل زر."
 
-#: qt/aqt/importing.py:524
+#: qt/aqt/importing.py:516
 msgid "The provided file is not a valid .apkg file."
 msgstr "الملف المعطى ليس ملف .apkg صالحًا."
 
@@ -3068,17 +3128,15 @@ msgstr "الملف المعطى ليس ملف .apkg صالحًا."
 msgid "The provided search did not match any cards. Would you like to revise it?"
 msgstr "لم يطابق الفلتر المعطى أي بطاقة. هل تريد تعديله؟"
 
-#: qt/aqt/main.py:1341 qt/aqt/main.py:1360
-msgid ""
-"The requested change will require a full upload of the database when you next synchronize your collection. If you have reviews or other changes waiting on another device that haven't been "
-"synchronized here yet, they will be lost. Continue?"
+#: qt/aqt/main.py:1343 qt/aqt/main.py:1362
+msgid "The requested change will require a full upload of the database when you next synchronize your collection. If you have reviews or other changes waiting on another device that haven't been synchronized here yet, they will be lost. Continue?"
 msgstr "يتطلب التغيير المطلوب رفعًا كاملًا لقاعدة البيانات عند مزامنة مجموعتك مجددًا. إذا كانت لديك مراجعات وتغييرات أخرى في جهاز آخر غير مُزامَنة هنا ، ستفقدها. هل تريد الاستمرار؟"
 
 #: pylib/anki/stats.py:380
 msgid "The time taken to answer the questions."
 msgstr "الوقت المستغرق للإجابة عن الأسئلة."
 
-#: qt/aqt/main.py:318
+#: qt/aqt/main.py:320
 msgid "There must be at least one profile."
 msgstr "يلزم وجود ملف شخصي واحد على الأقل."
 
@@ -3086,13 +3144,11 @@ msgstr "يلزم وجود ملف شخصي واحد على الأقل."
 msgid "This add-on is not compatible with your version of Anki."
 msgstr "هذه الإضافة غير متوافقة مع إصدار أنكي الخاص بك."
 
-#: qt/aqt/importing.py:442
-msgid ""
-"This file does not appear to be a valid .apkg file. If you're getting this error from a file downloaded from AnkiWeb, chances are that your download failed. Please try again, and if the problem "
-"persists, please try again with a different browser."
+#: qt/aqt/importing.py:434
+msgid "This file does not appear to be a valid .apkg file. If you're getting this error from a file downloaded from AnkiWeb, chances are that your download failed. Please try again, and if the problem persists, please try again with a different browser."
 msgstr "لا يبدو الملف ملف .apkg صالحًا. إذا كان الملف منزلَّا من أنكي ويب، من المحتمل أن التنزيل فشل. حاول مجددًا، وإذا استمرت المشكلة، حاول مجددًا باستخدام متصفح مختلف."
 
-#: qt/aqt/utils.py:406
+#: qt/aqt/utils.py:412
 msgid "This file exists. Are you sure you want to overwrite it?"
 msgstr "هذا الملف موجود. هل أنت متأكد أنك تريد استبداله؟"
 
@@ -3100,7 +3156,7 @@ msgstr "هذا الملف موجود. هل أنت متأكد أنك تريد ا�
 msgid "This is a special deck for studying outside of the normal schedule."
 msgstr "هذه رزمة خاصة للدراسة خارج الجدول المعتاد."
 
-#: qt/aqt/clayout.py:630
+#: qt/aqt/clayout.py:632
 #, python-format
 msgid "This will create %d card. Proceed?"
 msgid_plural "This will create %d cards. Proceed?"
@@ -3111,7 +3167,7 @@ msgstr[3] "سينشئ هذا %d بطاقات. هل تريد الاستمرار؟
 msgstr[4] "سينشئ هذا %d بطاقة. هل تريد الاستمرار؟"
 msgstr[5] "سينشئ هذا %d بطاقة. هل تريد الاستمرار؟"
 
-#: qt/aqt/importing.py:462
+#: qt/aqt/importing.py:454
 msgid "This will delete your existing collection and replace it with the data in the file you're importing. Are you sure?"
 msgstr "سيحذف هذا مجموعتك الحالية ويستبدلها بالبيانات في الملف الذي تستورده. هل أنت متأكد؟"
 
@@ -3119,7 +3175,7 @@ msgstr "سيحذف هذا مجموعتك الحالية ويستبدلها با�
 msgid "This will reset any cards in learning, clear filtered decks, and change the scheduler version. Proceed?"
 msgstr "سيؤدي هذا إلى إعادة البطاقات في طور التعلم إلى بطاقات جديدة، ومسح الرزم المفلترة، وتغيير إصدار المجدول. هل تريد الاستمرار؟"
 
-#: qt/aqt/forms/preferences.py:294
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:295
 msgid "Timebox time limit"
 msgstr "مهلة مربع الوقت"
 
@@ -3127,27 +3183,27 @@ msgstr "مهلة مربع الوقت"
 msgid "To Review"
 msgstr "للمراجعة"
 
-#: qt/aqt/forms/getaddons.py:49
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/getaddons.py:51
 msgid "To browse add-ons, please click the browse button below.<br><br>When you've found an add-on you like, please paste its code below. You can paste multiple codes, separated by spaces."
 msgstr "لتصفح الإضافات، اضغط زر تصفح في الأسفل.<br><br>عندما تجد إضافة تعجبك، الصق رمزها في الأسفل. تستطيع لصق عدة رموز، مفصولة بفراغات."
 
-#: qt/aqt/editor.py:642
+#: qt/aqt/editor.py:651
 msgid "To make a cloze deletion on an existing note, you need to change it to a cloze type first, via 'Notes>Change Note Type'"
 msgstr "لصنع عبارة ملء فراغات في ملحوظة موجودة، عليك تغيير نوعها إلى نوع ملء الفراغات أولًا، عبر 'ملحوظات>تغيير نوع الملحوظة'"
 
-#: pylib/anki/stats.py:119 qt/aqt/browser.py:1261
+#: pylib/anki/stats.py:119 qt/aqt/browser.py:1259
 msgid "Today"
 msgstr "اليوم"
 
-#: qt/aqt/forms/addons.py:76
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:77
 msgid "Toggle Enabled"
 msgstr "تفعيل/إيقاف"
 
-#: qt/aqt/forms/browser.py:340
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:342
 msgid "Toggle Mark"
 msgstr "وضع/إزالة علامة"
 
-#: qt/aqt/forms/browser.py:329
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:331
 msgid "Toggle Suspend"
 msgstr "تفعيل/تعليق"
 
@@ -3163,15 +3219,16 @@ msgstr "إجمالي البطاقات"
 msgid "Total notes"
 msgstr "إجمالي الملحوظات"
 
-#: qt/aqt/forms/findreplace.py:90
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/findreplace.py:91
 msgid "Treat input as regular expression"
 msgstr "عامل المدخلات كتعبير نمطي"
 
-#: qt/aqt/modelchooser.py:26 qt/aqt/forms/importing.py:105
+#: qt/aqt/modelchooser.py:40
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:107
 msgid "Type"
 msgstr "النوع"
 
-#: qt/aqt/reviewer.py:388
+#: qt/aqt/reviewer.py:391
 #, python-format
 msgid "Type answer: unknown field %s"
 msgstr "أدخل الجواب: حقل غير معروف %s"
@@ -3180,7 +3237,7 @@ msgstr "أدخل الجواب: حقل غير معروف %s"
 msgid "Unable to access Anki media folder. The permissions on your system's temporary folder may be incorrect."
 msgstr "يتعذر الوصول إلى مجلد وسائط أنكي. قد تكون أذونات المجلد المؤقت لنظامك غير صحيحة."
 
-#: qt/aqt/main.py:362
+#: qt/aqt/main.py:364
 msgid "Unable to move existing file to trash - please try restarting your computer."
 msgstr "يتعذر نقل الملف إلى المهملات - حاول إعادة تشغيل حاسوبك."
 
@@ -3199,20 +3256,20 @@ msgstr ""
 msgid "Unbury"
 msgstr "نكش"
 
-#: qt/aqt/editor.py:127
+#: qt/aqt/editor.py:148
 msgid "Underline text (Ctrl+U)"
 msgstr "ضع خطًا تحت النص (Ctrl+U)"
 
-#: qt/aqt/main.py:1044
+#: qt/aqt/main.py:1046
 msgid "Undo"
 msgstr "تراجع"
 
-#: qt/aqt/main.py:1040
+#: qt/aqt/main.py:1042
 #, python-format
 msgid "Undo %s"
 msgstr "تراجع عن %s"
 
-#: qt/aqt/addons.py:1014 qt/aqt/editor.py:841
+#: qt/aqt/addons.py:1014 qt/aqt/editor.py:850
 #, python-format
 msgid "Unexpected response code: %s"
 msgstr "رمز استجابة غير متوقع: %s"
@@ -3221,7 +3278,7 @@ msgstr "رمز استجابة غير متوقع: %s"
 msgid "Unknown error: {}"
 msgstr "خطأ غير معروف: {}"
 
-#: qt/aqt/importing.py:375
+#: qt/aqt/importing.py:367
 msgid "Unknown file format."
 msgstr "صيغة ملف غير معروفة."
 
@@ -3229,11 +3286,11 @@ msgstr "صيغة ملف غير معروفة."
 msgid "Unseen"
 msgstr "لم تُرى"
 
-#: qt/aqt/forms/importing.py:107
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:109
 msgid "Update existing notes when first field matches"
 msgstr "تحديث الملحوظات الموجودة عند تطابق الحقل الأول"
 
-#: pylib/anki/importing/anki2.py:163
+#: pylib/anki/importing/anki2.py:160
 msgid "Updated"
 msgstr "تم التحديث"
 
@@ -3241,7 +3298,7 @@ msgstr "تم التحديث"
 msgid "User 1"
 msgstr "مستخدم 1"
 
-#: qt/aqt/forms/preferences.py:286
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:287
 msgid "User interface size"
 msgstr "حجم واجهة المستخدم"
 
@@ -3250,19 +3307,19 @@ msgstr "حجم واجهة المستخدم"
 msgid "Version %s"
 msgstr "الإصدار %s"
 
-#: qt/aqt/forms/addons.py:73
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:74
 msgid "View Add-on Page"
 msgstr "زيارة صفحة الإضافة"
 
-#: qt/aqt/forms/addons.py:75
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:76
 msgid "View Files"
 msgstr "إظهار الملفات"
 
-#: qt/aqt/main.py:733
+#: qt/aqt/main.py:735
 msgid "Waiting for editing to finish."
 msgstr "بانتظار انتهاء التحرير."
 
-#: qt/aqt/editor.py:635
+#: qt/aqt/editor.py:644
 msgid "Warning, cloze deletions will not work until you switch the type at the top to Cloze."
 msgstr "تحذير، عبارات ملء الفراغات لن تعمل حتى تغيّر النوع في الأعلى إلى نوع ملء الفراغات."
 
@@ -3270,11 +3327,11 @@ msgstr "تحذير، عبارات ملء الفراغات لن تعمل حتى �
 msgid "What would you like to unbury?"
 msgstr "ما الذي تريد نكشه؟"
 
-#: qt/aqt/forms/preferences.py:284
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:285
 msgid "When adding, default to current deck"
 msgstr "معاملة الرزمة الحالية كرزمة افتراضية عند إضافة بطاقات"
 
-#: qt/aqt/browser.py:1124 qt/aqt/browser.py:1257
+#: qt/aqt/browser.py:1108 qt/aqt/browser.py:1255
 msgid "Whole Collection"
 msgstr "كل المجموعة"
 
@@ -3282,16 +3339,16 @@ msgstr "كل المجموعة"
 msgid "Would you like to download it now?"
 msgstr "هل ترغب في تحميله الآن؟"
 
-#: qt/aqt/about.py:214
+#: qt/aqt/about.py:215
 #, python-format
 msgid "Written by Damien Elmes, with patches, translation,    testing and design from:<p>%(cont)s"
 msgstr "تأليف Damien Elmes، مع مساهمات،    وترجمة، واختبار، وتصميم من:<p>%(cont)s"
 
-#: qt/aqt/forms/preferences.py:309
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:310
 msgid "You can restore backups via File>Switch Profile."
 msgstr "تستطيع استعادة النسخ الاحتياطية من خلال ملف>تبديل الملف الشخصي."
 
-#: qt/aqt/addcards.py:173
+#: qt/aqt/addcards.py:178
 msgid "You have a cloze deletion note type but have not made any cloze deletions. Proceed?"
 msgstr "أنت تستخدم نوع ملحوظات ملء الفراغات لكنك لم تصنع أي عبارة ملء فراغات. هل تريد الاستمرار؟"
 
@@ -3299,11 +3356,12 @@ msgstr "أنت تستخدم نوع ملحوظات ملء الفراغات لكن
 msgid "You haven't recorded your voice yet."
 msgstr "لم تسجّل صوتك بعد."
 
-#: qt/aqt/browser.py:987
+#: qt/aqt/browser.py:997
 msgid "You must have at least one column."
 msgstr "يجب أن يكون هناك عمود واحد على الأقل."
 
-#: pylib/anki/stats.py:214 pylib/anki/stats.py:347 pylib/anki/stats.py:367 pylib/anki/stats.py:687
+#: pylib/anki/stats.py:214 pylib/anki/stats.py:347 pylib/anki/stats.py:367
+#: pylib/anki/stats.py:687
 msgid "Young"
 msgstr "يافعة"
 
@@ -3315,13 +3373,9 @@ msgstr "يافعة+تعلم"
 msgid "Your changes will affect multiple decks. If you wish to change only the current deck, please add a new options group first."
 msgstr "ستؤثر التغييرات التي تجريها على رزم عديدة. إذا كنت ترغب في تغيير الرزمة الحالية فقط، أضف مجموعة خيارات جديدة أولًا."
 
-#: qt/aqt/main.py:576
-msgid ""
-"Your collection file appears to be corrupt. This can happen when the file is copied or moved while Anki is open, or when the collection is stored on a network or cloud drive. If problems persist "
-"after restarting your computer, please open an automatic backup from the profile screen."
-msgstr ""
-"تبدو مجموعتك تالفة. قد يحدث هذا عندما يُنسخ الملف أو يُنقل أثناء عمل أنكي، أو عندما تكون مجموعتك مخزنة على شبكة أو قرص في السحابة. إذا استمرت المشكلة بعد إعادة تشغيل حاسوبك، افتح نسخة احتياطية من "
-"خلال نافذة الملفات الشخصية."
+#: qt/aqt/main.py:578
+msgid "Your collection file appears to be corrupt. This can happen when the file is copied or moved while Anki is open, or when the collection is stored on a network or cloud drive. If problems persist after restarting your computer, please open an automatic backup from the profile screen."
+msgstr "تبدو مجموعتك تالفة. قد يحدث هذا عندما يُنسخ الملف أو يُنقل أثناء عمل أنكي، أو عندما تكون مجموعتك مخزنة على شبكة أو قرص في السحابة. إذا استمرت المشكلة بعد إعادة تشغيل حاسوبك، افتح نسخة احتياطية من خلال نافذة الملفات الشخصية."
 
 #: qt/aqt/errors.py:99
 msgid "Your computer's storage may be full. Please delete some unneeded files, then try again."
@@ -3335,7 +3389,7 @@ msgstr "جدار الحماية أو برنامج مكافحة الفيروسا�
 msgid "[no deck]"
 msgstr "[لا رزمة]"
 
-#: qt/aqt/forms/preferences.py:308
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:309
 msgid "backups"
 msgstr "نسخ احتياطية"
 
@@ -3347,11 +3401,13 @@ msgstr "بطاقات"
 msgid "cards from the deck"
 msgstr "بطاقات من الرزمة"
 
-#: qt/aqt/forms/dyndconf.py:137 qt/aqt/forms/dyndconf.py:141
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:139
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:143
 msgid "cards selected by"
 msgstr "بطاقة محددة حسب"
 
-#: qt/aqt/exporting.py:110 qt/aqt/forms/stats.py:81
+#: qt/aqt/exporting.py:110
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/stats.py:82
 msgid "collection"
 msgstr "مجموعة"
 
@@ -3360,20 +3416,25 @@ msgstr "مجموعة"
 msgid "d"
 msgstr "ي"
 
-#: qt/aqt/customstudy.py:90 qt/aqt/customstudy.py:94 qt/aqt/customstudy.py:97 qt/aqt/forms/dconf.py:348 qt/aqt/forms/dconf.py:349 qt/aqt/forms/dconf.py:356 qt/aqt/forms/dconf.py:368
-#: qt/aqt/forms/reschedule.py:77
+#: qt/aqt/customstudy.py:90 qt/aqt/customstudy.py:94 qt/aqt/customstudy.py:97
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:350
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:351
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:358
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:370
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reschedule.py:79
 msgid "days"
 msgstr "أيام"
 
-#: qt/aqt/forms/stats.py:80
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/stats.py:81
 msgid "deck"
 msgstr "رزمة"
 
-#: pylib/anki/stats.py:949 qt/aqt/forms/stats.py:84
+#: pylib/anki/stats.py:949
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/stats.py:85
 msgid "deck life"
 msgstr "مدى حياة الرزمة"
 
-#: qt/aqt/browser.py:2012
+#: qt/aqt/browser.py:2019
 msgid "duplicate"
 msgstr "مكرر"
 
@@ -3381,28 +3442,30 @@ msgstr "مكرر"
 msgid "hours"
 msgstr "ساعة"
 
-#: qt/aqt/forms/preferences.py:295
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:296
 msgid "hours past midnight"
 msgstr "ساعة بعد منتصف الليل"
 
-#: qt/aqt/forms/dconf.py:365
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:367
 msgid "lapses"
 msgstr "سقطات"
 
-#: qt/aqt/importing.py:264
+#: qt/aqt/importing.py:256
 #, python-format
 msgid "mapped to <b>%s</b>"
 msgstr "مُوزع إلى <b>%s</b>"
 
-#: qt/aqt/importing.py:262
+#: qt/aqt/importing.py:254
 msgid "mapped to <b>Tags</b>"
 msgstr "مُوزع إلى <b>وسوم</b>"
 
-#: qt/aqt/forms/preferences.py:293 qt/aqt/forms/preferences.py:297
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:294
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:298
 msgid "mins"
 msgstr "دقيقة"
 
-#: pylib/anki/stats.py:384 qt/aqt/forms/dyndconf.py:146
+#: pylib/anki/stats.py:384
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:148
 msgid "minutes"
 msgstr "دقيقة"
 
@@ -3415,7 +3478,7 @@ msgstr "ش"
 msgid "reviews"
 msgstr "مراجعات"
 
-#: qt/aqt/forms/dconf.py:374
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:376
 msgid "seconds"
 msgstr "‏‏ثوانِ"
 
@@ -3432,9 +3495,12 @@ msgstr "أ"
 msgid "whole collection"
 msgstr "كل المجموعة"
 
-#: qt/aqt/forms/reschedule.py:76
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reschedule.py:78
 msgid "~"
 msgstr "~"
+
+#~ msgid "Front"
+#~ msgstr "أمام"
 
 #~ msgid "Congratulations! You have finished this deck for now."
 #~ msgstr "تهانينا! لقد انتهيت من هذه الرزمة الآن."

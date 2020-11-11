@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: anki\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-21 12:06+1000\n"
+"POT-Creation-Date: 2020-11-11 19:48+1000\n"
 "PO-Revision-Date: 2020-05-18 15:57+0000\n"
 "Last-Translator: Adam78 <szegi.adam@gmail.com>\n"
 "Language-Team: Hungarian\n"
@@ -17,12 +17,12 @@ msgstr ""
 "X-Crowdin-Project: anki\n"
 "X-Generator: Pontoon\n"
 
-#: qt/aqt/importing.py:411
+#: qt/aqt/importing.py:403
 #, fuzzy
 msgid "    Invalid file. Please restore from backup."
 msgstr "Érvénytelen fájl. Kérlek, állítsd vissza az egyik biztonsági mentést."
 
-#: qt/aqt/importing.py:420
+#: qt/aqt/importing.py:412
 #, fuzzy
 msgid "    Unable to import from a read-only file."
 msgstr "Csak olvasható fájlból nem lehetséges az importálás."
@@ -31,11 +31,11 @@ msgstr "Csak olvasható fájlból nem lehetséges az importálás."
 msgid " (disabled)"
 msgstr " (kikapcsolva)"
 
-#: qt/aqt/clayout.py:692
+#: qt/aqt/clayout.py:694
 msgid " (off)"
 msgstr " (ki)"
 
-#: qt/aqt/clayout.py:690
+#: qt/aqt/clayout.py:692
 msgid " (on)"
 msgstr " (be)"
 
@@ -47,13 +47,16 @@ msgstr[0] " %d kártyát tartalmaz."
 msgstr[1] " %d kártyát tartalmaz."
 
 #. T: include a font for your language on Windows, eg: "Segoe UI", "MS Mincho"
-#: qt/aqt/webview.py:368
+#: qt/aqt/webview.py:379
 msgid "\"Segoe UI\""
 msgstr "\"Segoe UI\""
 
-#: qt/aqt/forms/dconf.py:341 qt/aqt/forms/dconf.py:352
-#: qt/aqt/forms/dconf.py:357 qt/aqt/forms/dconf.py:360
-#: qt/aqt/forms/dconf.py:371 qt/aqt/forms/preferences.py:287
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:343
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:354
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:359
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:362
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:373
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:288
 msgid "%"
 msgstr "%"
 
@@ -68,7 +71,7 @@ msgstr "%(a)0.1f %(b)s/nap"
 
 #. T: name is a card type name. n it's order in the list of card type.
 #. T: this is shown in browser's filter, when seeing the list of card type of a note type.
-#: qt/aqt/browser.py:1355
+#: qt/aqt/browser.py:1356
 #, python-format
 msgid "%(n)d: %(name)s"
 msgstr "%(n)d: %(name)s"
@@ -78,7 +81,7 @@ msgstr "%(n)d: %(name)s"
 msgid "%(tot)s %(unit)s"
 msgstr "%(tot)s %(unit)s"
 
-#: pylib/anki/stats.py:260 pylib/anki/stats.py:318 qt/aqt/clayout.py:558
+#: pylib/anki/stats.py:260 pylib/anki/stats.py:318 qt/aqt/clayout.py:560
 #, python-format
 msgid "%d card"
 msgid_plural "%d cards"
@@ -99,7 +102,7 @@ msgid_plural "%d cards imported."
 msgstr[0] "%d kártya importálva."
 msgstr[1] "%d kártya importálva."
 
-#: qt/aqt/reviewer.py:88
+#: qt/aqt/reviewer.py:90
 #, python-format
 msgid "%d card studied in"
 msgid_plural "%d cards studied in"
@@ -113,15 +116,15 @@ msgid_plural "%d decks updated."
 msgstr[0] "%d pakli frissítve."
 msgstr[1] "%d pakli frissítve."
 
-#: qt/aqt/browser.py:1987
+#: qt/aqt/browser.py:1994
 #, python-format
 msgid "%d group"
 msgid_plural "%d groups"
 msgstr[0] "%d csoport"
 msgstr[1] "%d csoport"
 
-#: qt/aqt/browser.py:1988 qt/aqt/browser.py:1996 qt/aqt/fields.py:123
-#: qt/aqt/models.py:107
+#: qt/aqt/browser.py:1995 qt/aqt/browser.py:2003 qt/aqt/fields.py:125
+#: qt/aqt/models.py:111
 #, python-format
 msgid "%d note"
 msgid_plural "%d notes"
@@ -135,7 +138,7 @@ msgid_plural "%d notes added"
 msgstr[0] "%d jegyzet hozzáadva"
 msgstr[1] "%d jegyzet hozzáadva"
 
-#: qt/aqt/browser.py:1570
+#: qt/aqt/browser.py:1573
 #, python-format
 msgid "%d note deleted."
 msgid_plural "%d notes deleted."
@@ -149,7 +152,7 @@ msgid_plural "%d notes exported."
 msgstr[0] "%d jegyzet exportálva."
 msgstr[1] "%d jegyzet exportálva."
 
-#: pylib/anki/importing/mnemo.py:104
+#: pylib/anki/importing/mnemo.py:105
 #, python-format
 msgid "%d note imported."
 msgid_plural "%d notes imported."
@@ -170,7 +173,7 @@ msgid_plural "%d notes updated"
 msgstr[0] "%d jegyzet frissítve"
 msgstr[1] "%d jegyzet frissítve"
 
-#: qt/aqt/browser.py:823
+#: qt/aqt/browser.py:832
 #, python-format
 msgid "%d selected"
 msgid_plural "%d selected"
@@ -182,121 +185,125 @@ msgstr[1] "%d kiválasztva"
 msgid "%s copy"
 msgstr "%s másolata"
 
-#: qt/aqt/reviewer.py:92
+#: qt/aqt/reviewer.py:94
 #, python-format
 msgid "%s minute."
 msgid_plural "%s minutes."
 msgstr[0] "%s perc alatt."
 msgstr[1] "%s perc alatt."
 
-#: qt/aqt/main.py:1220
+#: qt/aqt/main.py:1222
 #, python-format
 msgid "%s second"
 msgid_plural "%s seconds"
 msgstr[0] "%s mp"
 msgstr[1] "%s mp"
 
-#: qt/aqt/forms/main.py:140
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:141
 msgid "&About..."
 msgstr "&Névjegy..."
 
-#: qt/aqt/forms/main.py:146
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:147
 msgid "&Browse and Install..."
 msgstr "&Böngészés és telepítés..."
 
-#: qt/aqt/forms/browser.py:301
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:303
 msgid "&Cards"
 msgstr "&Kártyák"
 
-#: qt/aqt/forms/main.py:147
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:148
 msgid "&Check Database"
 msgstr "&Adatbázis ellenőrzése"
 
-#: qt/aqt/forms/browser.py:316
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:318
 msgid "&Cram..."
 msgstr "&Magolás..."
 
-#: qt/aqt/forms/browser.py:298 qt/aqt/forms/main.py:134
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:300
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:135
 msgid "&Edit"
 msgstr "&Szerkesztés"
 
-#: qt/aqt/forms/browser.py:341
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:343
 msgid "&Export Notes..."
 msgstr "&Jegyzetek exportálása..."
 
-#: qt/aqt/forms/main.py:150
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:151
 msgid "&Export..."
 msgstr "&Exportálás..."
 
-#: qt/aqt/forms/main.py:135
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:136
 msgid "&File"
 msgstr "&Fájl"
 
-#: qt/aqt/forms/browser.py:308
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:310
 msgid "&Find"
 msgstr "&Keresés"
 
-#: qt/aqt/forms/browser.py:299
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:301
 msgid "&Go"
 msgstr "&Ugrás"
 
-#: qt/aqt/forms/browser.py:312 qt/aqt/forms/main.py:148
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:314
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:149
 msgid "&Guide..."
 msgstr "&Útmutató..."
 
-#: qt/aqt/forms/browser.py:300 qt/aqt/forms/main.py:133
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:302
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:134
 msgid "&Help"
 msgstr "&Súgó"
 
-#: qt/aqt/forms/main.py:151
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:152
 msgid "&Import..."
 msgstr "&Importálás..."
 
-#: qt/aqt/forms/browser.py:326
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:328
 msgid "&Info..."
 msgstr "&Információ..."
 
-#: qt/aqt/forms/browser.py:307
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:309
 msgid "&Invert Selection"
 msgstr "Kijelölés meg&fordítása"
 
-#: qt/aqt/forms/browser.py:310
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:312
 msgid "&Next Card"
 msgstr "K&övetkező kártya"
 
-#: qt/aqt/forms/browser.py:303
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:305
 msgid "&Notes"
 msgstr "&Jegyzetek"
 
-#: qt/aqt/forms/main.py:144
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:145
 msgid "&Open Add-ons Folder..."
 msgstr "Bővítmények mappájának megnyitása..."
 
-#: qt/aqt/forms/main.py:138
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:139
 msgid "&Preferences..."
 msgstr "&Testreszabás..."
 
-#: qt/aqt/forms/browser.py:311
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:313
 msgid "&Previous Card"
 msgstr "&Előző kártya"
 
-#: qt/aqt/forms/browser.py:304
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:306
 msgid "&Reschedule..."
 msgstr "&Átütemezés..."
 
-#: qt/aqt/forms/main.py:145
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:146
 msgid "&Support Anki..."
 msgstr "Az &Anki támogatása..."
 
-#: qt/aqt/forms/main.py:149
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:150
 msgid "&Switch Profile"
 msgstr "&Profilváltás"
 
-#: qt/aqt/forms/main.py:136
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:137
 msgid "&Tools"
 msgstr "&Eszközök"
 
-#: qt/aqt/forms/browser.py:306 qt/aqt/forms/main.py:141
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:308
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:142
 msgid "&Undo"
 msgstr "&Visszavonás"
 
@@ -310,7 +317,7 @@ msgstr "'%(row)s' mezőinek száma %(num1)d, ennyinek kéne lennie: %(num2)d"
 msgid "(%s correct)"
 msgstr "(%s helyes)"
 
-#: qt/aqt/addcards.py:149
+#: qt/aqt/addcards.py:154
 msgid "(Note deleted)"
 msgstr "Jegyzet törölve"
 
@@ -322,15 +329,15 @@ msgstr "(letiltva)"
 msgid "(end)"
 msgstr "(vége)"
 
-#: qt/aqt/browser.py:367
+#: qt/aqt/browser.py:369
 msgid "(filtered)"
 msgstr "(szűrt)"
 
-#: qt/aqt/browser.py:334
+#: qt/aqt/browser.py:336
 msgid "(learning)"
 msgstr "(tanulás)"
 
-#: qt/aqt/browser.py:332 qt/aqt/browser.py:338
+#: qt/aqt/browser.py:334 qt/aqt/browser.py:340
 msgid "(new)"
 msgstr "(új)"
 
@@ -348,19 +355,21 @@ msgstr "(kérjük, 1 kártyát válasszon ki)"
 msgid "(requires %s)"
 msgstr "(%s szükséges hozzá)"
 
-#: qt/aqt/importing.py:329
+#: qt/aqt/importing.py:321
 msgid ".anki files are from a very old version of Anki. You can import them with Anki 2.0, available on the Anki website."
 msgstr "Az .anki kiterjesztésű fájlok az Anki nagyon régi változatából származnak. Importálásukat az Anki 2.0 segítségével végezheti el, amelyet az Anki honlapjáról tölthet le."
 
-#: qt/aqt/importing.py:336
+#: qt/aqt/importing.py:328
 msgid ".anki2 files are not directly importable - please import the .apkg or .zip file you have received instead."
 msgstr "Az .anki2 kiterjesztésű fájlok nem importálhatóak közvetlenül. Kérjük, importálja az .apkg vagy .zip kiterjesztésű fájlokat helyettük."
 
-#: pylib/anki/stats.py:949 qt/aqt/forms/stats.py:82
+#: pylib/anki/stats.py:949
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/stats.py:83
 msgid "1 month"
 msgstr "1 hónap"
 
-#: pylib/anki/stats.py:949 qt/aqt/forms/stats.py:83
+#: pylib/anki/stats.py:949
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/stats.py:84
 msgid "1 year"
 msgstr "1 év"
 
@@ -399,23 +408,19 @@ msgstr "<a href='%s'>Honlap megtekintése</a>"
 msgid "<b>%(pct)d%%</b> (%(x)s of %(y)s)"
 msgstr "<b>%(pct)d%%</b> (%(y)s közül %(x)s)"
 
-#: qt/aqt/forms/preferences.py:306
-msgid "<b>Backups</b><br>Anki will create a backup of your collection each time it is closed or synchronized."
-msgstr "<b>Biztonsági másolat</b><br>Bezáráskor és szinkronizáláskor az Anki mindig készít egy biztonsági másolatot az Ön gyűjteményéről."
-
-#: qt/aqt/forms/exporting.py:75
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/exporting.py:77
 msgid "<b>Export format</b>:"
 msgstr "<b>Exportálás formátuma</b>:"
 
-#: qt/aqt/forms/findreplace.py:87
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/findreplace.py:88
 msgid "<b>Find</b>:"
 msgstr "<b>Keresés</b>:"
 
-#: qt/aqt/forms/browseropts.py:71
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browseropts.py:73
 msgid "<b>Font Size</b>:"
 msgstr "<b>Betűméret</b>:"
 
-#: qt/aqt/forms/browseropts.py:70
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browseropts.py:72
 msgid "<b>Font</b>:"
 msgstr "<b>Betűtípus</b>:"
 
@@ -424,15 +429,15 @@ msgstr "<b>Betűtípus</b>:"
 msgid "<b>Important</b>: As add-ons are programs downloaded from the internet, they are potentially malicious.<b>You should only install add-ons you trust.</b><br><br>Are you sure you want to proceed with the installation of the following Anki add-on(s)?<br><br>%(names)s"
 msgstr "<b>Fontos </b>: Mivel a kiegészítők az internetről letöltött programok, potenciálisan rosszindulatúak is lehetnek.<b> Csak a megbízható kiegészítőket telepítse.</b><br><br>Biztosan folytatni akarja az alábbi Anki-kiegészítő(k) telepítését?<br><br> %(names)s"
 
-#: qt/aqt/forms/findreplace.py:89
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/findreplace.py:90
 msgid "<b>In</b>:"
 msgstr "<b>Ebben</b>:"
 
-#: qt/aqt/forms/exporting.py:76
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/exporting.py:78
 msgid "<b>Include</b>:"
 msgstr "<b>Beillesztés</b>:"
 
-#: qt/aqt/forms/browseropts.py:72
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browseropts.py:74
 msgid "<b>Line Size</b>:"
 msgstr "<b>Sorméret</b>:"
 
@@ -440,11 +445,11 @@ msgstr "<b>Sorméret</b>:"
 msgid "<b>Please restart Anki to complete the installation.</b>"
 msgstr "<b>Kérjük, a telepítés befejezéséhez indítsa újra az Ankit.</b>"
 
-#: qt/aqt/forms/findreplace.py:88
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/findreplace.py:89
 msgid "<b>Replace With</b>:"
 msgstr "<b>Csere erre</b>:"
 
-#: qt/aqt/forms/preferences.py:300
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:301
 msgid "<b>Synchronisation</b>"
 msgstr "<b>Szinkronizálás</b>"
 
@@ -461,19 +466,24 @@ msgstr ""
 msgid "<h1>Anki Updated</h1>Anki %s has been released.<br><br>"
 msgstr "<h1>Frissült az Anki</h1>Megjelent az Anki %s verziója.<br><br>"
 
-#: qt/aqt/importing.py:266
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:307
+#, fuzzy
+msgid "<html><head/><body><p><span style=\" font-weight:600;\">Backups</span><br/>Anki will create a backup of your collection each time it is closed.</p></body></html>"
+msgstr "<b>Biztonsági másolat</b><br>Bezáráskor és szinkronizáláskor az Anki mindig készít egy biztonsági másolatot az Ön gyűjteményéről."
+
+#: qt/aqt/importing.py:258
 msgid "<ignored>"
 msgstr "<figyelmen kívül hagyva>"
 
-#: qt/aqt/main.py:1534
+#: qt/aqt/main.py:1537
 msgid "<non-unicode text>"
 msgstr "<nem unicode-os szöveg>"
 
-#: qt/aqt/browser.py:758
+#: qt/aqt/browser.py:765
 msgid "<type here to search; hit enter to show current deck>"
 msgstr "<itt adja meg, amit keres; az aktuális pakli megnyitásához nyomjon Entert>"
 
-#: qt/aqt/about.py:224
+#: qt/aqt/about.py:225
 msgid "A big thanks to all the people who have provided suggestions, bug reports and donations."
 msgstr "Hálás köszönet mindenkinek a tanácsokért, a hibajelentésekért és az adományokért!"
 
@@ -486,30 +496,32 @@ msgstr "Egy kártya <i>könnyűsége</i> azt jelenti, hogy mekkora időköz (há
 msgid "Aborted: %s"
 msgstr "Megszakítva: %s"
 
-#: qt/aqt/forms/about.py:43
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/about.py:45
 msgid "About Anki"
 msgstr "Az Anki névjegye"
 
-#: qt/aqt/addcards.py:38 qt/aqt/addcards.py:68 qt/aqt/deckconf.py:89
-#: qt/aqt/models.py:54 qt/aqt/studydeck.py:46 qt/aqt/toolbar.py:112
-#: qt/aqt/forms/addcards.py:58 qt/aqt/forms/fields.py:102
-#: qt/aqt/forms/profiles.py:81
+#: qt/aqt/addcards.py:38 qt/aqt/addcards.py:70 qt/aqt/deckconf.py:89
+#: qt/aqt/models.py:57 qt/aqt/studydeck.py:46 qt/aqt/toolbar.py:112
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addcards.py:60
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:103
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/profiles.py:82
 msgid "Add"
 msgstr "Hozzáadás"
 
-#: qt/aqt/addcards.py:71
+#: qt/aqt/addcards.py:73
 msgid "Add (shortcut: ctrl+enter)"
 msgstr "Hozzáadás (gyorsbillentyű: Ctrl+Enter)"
 
-#: qt/aqt/clayout.py:674
+#: qt/aqt/clayout.py:676
 msgid "Add Card Type..."
 msgstr "Kártyatípus hozzáadása..."
 
-#: qt/aqt/clayout.py:389 qt/aqt/forms/addfield.py:61
+#: qt/aqt/clayout.py:389
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addfield.py:62
 msgid "Add Field"
 msgstr "Mező hozzáadása"
 
-#: qt/aqt/editor.py:709
+#: qt/aqt/editor.py:718
 msgid "Add Media"
 msgstr "Média hozzáadása"
 
@@ -517,23 +529,23 @@ msgstr "Média hozzáadása"
 msgid "Add New Deck (Ctrl+N)"
 msgstr "Új pakli hozzáadása (Ctrl+N)"
 
-#: qt/aqt/forms/addmodel.py:44
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addmodel.py:46
 msgid "Add Note Type"
 msgstr "Jegyzettípus hozzáadása"
 
-#: qt/aqt/forms/browser.py:331
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:333
 msgid "Add Notes..."
 msgstr "Jegyzetek hozzáadása..."
 
-#: qt/aqt/browser.py:1626
+#: qt/aqt/browser.py:1629
 msgid "Add Tags"
 msgstr "Címke hozzáadása"
 
-#: qt/aqt/forms/browser.py:327
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:329
 msgid "Add Tags..."
 msgstr "Címkék hozzáadása…"
 
-#: qt/aqt/browser.py:170
+#: qt/aqt/browser.py:172
 msgid "Add-on"
 msgstr "&Bővítmények"
 
@@ -549,25 +561,25 @@ msgstr "Kiegészítő-telepítési hiba"
 msgid "Add-on was not downloaded from AnkiWeb."
 msgstr "A bővítmény nem töltődött le az AnkiWebről."
 
-#: qt/aqt/main.py:1597
+#: qt/aqt/main.py:1600
 msgid "Add-on will be installed when a profile is opened."
 msgstr "A kiegészítő telepítésére egy profil megnyitásakor kerül majd sor."
 
-#: qt/aqt/forms/main.py:156
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:157
 msgid "Add-ons"
 msgstr "Bővítmények"
 
-#: qt/aqt/models.py:208
+#: qt/aqt/models.py:212
 #, python-format
 msgid "Add: %s"
 msgstr "Hozzáadás: %s"
 
-#: pylib/anki/stats.py:309 pylib/anki/importing/anki2.py:166
-#: qt/aqt/addcards.py:193
+#: pylib/anki/importing/anki2.py:163 pylib/anki/stats.py:309
+#: qt/aqt/addcards.py:202
 msgid "Added"
 msgstr "Hozzáadva"
 
-#: qt/aqt/browser.py:1265
+#: qt/aqt/browser.py:1263
 msgid "Added Today"
 msgstr "Ma hozzáadottak"
 
@@ -580,7 +592,7 @@ msgstr "Első mezőben egyező változat hozzáadva: %s"
 msgid "Again"
 msgstr "Újra"
 
-#: qt/aqt/browser.py:1267
+#: qt/aqt/browser.py:1265
 msgid "Again Today"
 msgstr "Mai „újra” értékelésűek"
 
@@ -593,7 +605,7 @@ msgstr "„Újra” válaszok száma: %s"
 msgid "All Buried Cards"
 msgstr "Minden félretett kártya"
 
-#: qt/aqt/browser.py:1348
+#: qt/aqt/browser.py:1349
 msgid "All Card Types"
 msgstr "Az összes kártyatípus"
 
@@ -601,37 +613,38 @@ msgstr "Az összes kártyatípus"
 msgid "All Decks"
 msgstr "Minden pakli"
 
-#: qt/aqt/browser.py:1877
+#: qt/aqt/browser.py:1884
 msgid "All Fields"
 msgstr "Minden mező"
 
-#: qt/aqt/forms/customstudy.py:118
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:119
 msgid "All cards in random order (don't reschedule)"
 msgstr "Az összes kártya véletlenszerű sorrendben (ne ütemezze újra)"
 
-#: qt/aqt/main.py:322
+#: qt/aqt/main.py:324
 msgid "All cards, notes, and media for this profile will be deleted. Are you sure?"
 msgstr "Az ehhez a profilhoz tartozó összes kártya, jegyzet és médiaállomány törlődni fog. Valóban ezt akarja?"
 
-#: qt/aqt/forms/customstudy.py:116
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:117
 msgid "All review cards in random order"
 msgstr "Az összes ismétlőkártya véletlenszerű sorrendben"
 
-#: qt/aqt/forms/importing.py:110
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:112
 msgid "Allow HTML in fields"
 msgstr "HTML-formázás engedélyezése a mezőkben"
 
-#: qt/aqt/forms/dconf.py:377
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:379
 msgid "Always include question side when replaying audio"
 msgstr "Mindig tartalmazzon kérdési oldalt hang lejátszásakor"
 
-#: qt/aqt/editor.py:847
+#: qt/aqt/editor.py:856
 #, python-format
 msgid "An error occurred while opening %s"
 msgstr "Az alábbi fájl megnyitása során hiba történt: %s"
 
-#: qt/aqt/forms/main.py:132 qt/aqt/forms/setgroup.py:38
-#: qt/aqt/forms/setlang.py:39
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:133
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/setgroup.py:40
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/setlang.py:41
 msgid "Anki"
 msgstr "Anki"
 
@@ -639,11 +652,11 @@ msgstr "Anki"
 msgid "Anki 2.0 Deck"
 msgstr "Az Anki 2.0-ban készült pakli"
 
-#: qt/aqt/forms/preferences.py:292
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:293
 msgid "Anki 2.1 scheduler (beta)"
 msgstr "Anki 2.1 ütemező (béta)"
 
-#: pylib/anki/exporting.py:397
+#: pylib/anki/exporting.py:398
 msgid "Anki Collection Package"
 msgstr "Anki-gyűjteménycsomag"
 
@@ -659,7 +672,7 @@ msgstr "Az Ankinak nem sikerült beolvasnia az Ön profiladatait. A beállított
 msgid "Anki could not rename your profile because it could not rename the profile folder on disk. Please ensure you have permission to write to Documents/Anki and no other programs are accessing your profile folders, then try again."
 msgstr "Az Anki nem tudta átnevezni az Ön profilját, mert a profil mappája nem nevezhető át a merevlemezen. Kérjük, ellenőrizze, van-e Önnek írási jogosultsága a Documents/Anki mappához, és nem használja-e más program az Ön profilmappáit, majd próbálkozzon újra."
 
-#: qt/aqt/clayout.py:659
+#: qt/aqt/clayout.py:661
 msgid "Anki couldn't find the line between the question and answer. Please adjust the template manually to switch the question and answer."
 msgstr "Az Anki nem találja a kérdés és a válasz közti vonalat. Kérjük, módosítsa kézzel a sablont, hogy váltani lehessen kérdés-válasz között."
 
@@ -671,7 +684,7 @@ msgstr "Az Anki egy barátságos, intelligens, időzítésen alapuló oktatópro
 msgid "Anki is licensed under the AGPL3 license. Please see the license file in the source distribution for more information."
 msgstr "Az Anki az AGPL3 licenc alatt áll. A további tájékozódáshoz, kérjük, nézze meg a forrásdisztribúcióban szereplő licencfájlt."
 
-#: qt/aqt/browser.py:734
+#: qt/aqt/browser.py:741
 msgid "Answer"
 msgstr "Válasz"
 
@@ -683,11 +696,11 @@ msgstr "Válaszgombok"
 msgid "Answers"
 msgstr "Válaszok"
 
-#: qt/aqt/browser.py:1291
+#: qt/aqt/browser.py:1289
 msgid "Any Flag"
 msgstr "Bármilyen jelölés"
 
-#: qt/aqt/browser.py:2253
+#: qt/aqt/browser.py:2263
 msgid "Any cards mapped to nothing will be deleted. If a note has no remaining cards, it will be lost. Are you sure you want to continue?"
 msgstr "Minden olyan kártya törlődni fog, amely nincs hozzárendelve semmihez. Ha egy jegyzethez nem tartozik több kártya, akkor törlődik. Valóban ezt akarja?"
 
@@ -701,7 +714,7 @@ msgstr "Kétszer szerepelt ebben a fájlban: %s"
 msgid "Are you sure you wish to delete %s?"
 msgstr "Valóban törölni akarja ezt: %s ?"
 
-#: qt/aqt/clayout.py:549
+#: qt/aqt/clayout.py:551
 msgid "At least one card type is required."
 msgstr "Legalább egy kártyatípus szükséges."
 
@@ -709,7 +722,7 @@ msgstr "Legalább egy kártyatípus szükséges."
 msgid "At least one step is required."
 msgstr "Legalább egy lépés szükséges"
 
-#: qt/aqt/editor.py:173
+#: qt/aqt/editor.py:176
 msgid "Attach pictures/audio/video (F3)"
 msgstr "Képek / audio / videó csatolása (F3)"
 
@@ -721,15 +734,15 @@ msgstr "Hang +5mp"
 msgid "Audio -5s"
 msgstr "Hang -5mp"
 
-#: qt/aqt/main.py:372
+#: qt/aqt/main.py:374
 msgid "Automatic syncing and backups have been disabled while restoring. To enable them again, close the profile or restart Anki."
 msgstr "Az automatikus szinkronizálás és a biztonsági mentések le vannak tiltva a visszaállítás során. Ha újra engedélyezni szeretné őket, zárja be a profilt vagy indítsa újra az Anki alkalmazást."
 
-#: qt/aqt/forms/dconf.py:376
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:378
 msgid "Automatically play audio"
 msgstr "Hang automatikus lejátszása"
 
-#: qt/aqt/forms/preferences.py:302
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:303
 msgid "Automatically sync on profile open/close"
 msgstr "Automatikus szinkronizálás a profil megnyitásakor és bezárásakor"
 
@@ -757,23 +770,24 @@ msgstr "Átlagos időköz"
 msgid "Back Side Only"
 msgstr ""
 
-#: qt/aqt/main.py:556
+#: qt/aqt/main.py:558
 msgid "Backing Up..."
 msgstr "Biztonsági mentés..."
 
-#: qt/aqt/forms/preferences.py:312
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:313
 msgid "Backups"
 msgstr "Biztonsági mentések"
 
-#: qt/aqt/forms/preferences.py:288
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:289
 msgid "Basic"
 msgstr "Alap"
 
-#: qt/aqt/browser.py:1289 qt/aqt/reviewer.py:719 qt/aqt/forms/browser.py:336
+#: qt/aqt/browser.py:1287 qt/aqt/reviewer.py:719
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:338
 msgid "Blue Flag"
 msgstr "Megjelölés kékkel"
 
-#: qt/aqt/editor.py:122
+#: qt/aqt/editor.py:143
 msgid "Bold text (Ctrl+B)"
 msgstr "Félkövér szöveg (Ctrl+B)"
 
@@ -781,7 +795,7 @@ msgstr "Félkövér szöveg (Ctrl+B)"
 msgid "Browse"
 msgstr "Böngésző"
 
-#: qt/aqt/browser.py:817
+#: qt/aqt/browser.py:826
 #, python-format
 msgid "Browse (%(cur)d card shown; %(sel)s)"
 msgid_plural "Browse (%(cur)d cards shown; %(sel)s)"
@@ -792,15 +806,15 @@ msgstr[1] "Böngészés (%(cur)d kártya megjelenítve; %(sel)s)"
 msgid "Browse Add-ons"
 msgstr "Bővítmények keresése"
 
-#: qt/aqt/forms/browserdisp.py:69
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browserdisp.py:71
 msgid "Browser Appearance"
 msgstr "Böngésző-megjelenés"
 
-#: qt/aqt/clayout.py:696
+#: qt/aqt/clayout.py:698
 msgid "Browser Appearance..."
 msgstr "Böngésző-megjelenés"
 
-#: qt/aqt/forms/browseropts.py:69
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browseropts.py:71
 msgid "Browser Options"
 msgstr "Böngészőbeállítások"
 
@@ -808,7 +822,7 @@ msgstr "Böngészőbeállítások"
 msgid "Build"
 msgstr "Összeállítás"
 
-#: qt/aqt/browser.py:1284
+#: qt/aqt/browser.py:1282
 msgid "Buried"
 msgstr "Félretéve"
 
@@ -828,15 +842,15 @@ msgstr "Kártya félretevése"
 msgid "Bury Note"
 msgstr "Jegyzet félretevése"
 
-#: qt/aqt/forms/dconf.py:347
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:349
 msgid "Bury related new cards until the next day"
 msgstr "Kapcsolódó új kártyák félretevése másnapig"
 
-#: qt/aqt/forms/dconf.py:358
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:360
 msgid "Bury related reviews until the next day"
 msgstr "Kapcsolódó ismétlések félretevése másnapig"
 
-#: qt/aqt/importing.py:130
+#: qt/aqt/importing.py:123
 msgid ""
 "By default, Anki will detect the character between fields, such as\n"
 "a tab, comma, and so on. If Anki is detecting the character incorrectly,\n"
@@ -846,24 +860,24 @@ msgstr ""
 "a tabulátort, a vesszőt stb. Ha rosszul ismerné fel, akkor itt megadhatja.\n"
 "A tabulátort a \\t jelöli."
 
-#: qt/aqt/clayout.py:405 qt/aqt/overview.py:134 qt/aqt/sound.py:557
+#: qt/aqt/clayout.py:405 qt/aqt/overview.py:134 qt/aqt/sound.py:602
 msgid "Cancel"
 msgstr "Mégsem"
 
-#: qt/aqt/browser.py:735
+#: qt/aqt/browser.py:742
 msgid "Card"
 msgstr "Kártya"
 
-#: qt/aqt/clayout.py:620
+#: qt/aqt/clayout.py:622
 #, python-format
 msgid "Card %d"
 msgstr "%d. kártya"
 
-#: qt/aqt/forms/browser.py:318
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:320
 msgid "Card List"
 msgstr "Kártya&lista"
 
-#: qt/aqt/browser.py:1274
+#: qt/aqt/browser.py:1272
 msgid "Card State"
 msgstr "Kártyaállapot"
 
@@ -888,12 +902,12 @@ msgstr "Kártya felfüggesztve."
 msgid "Card was a leech."
 msgstr "Ezt a kártyát mumusként tároltam el."
 
-#: pylib/anki/stats.py:310 pylib/anki/stats.py:962 qt/aqt/editor.py:192
-#: qt/aqt/forms/changemodel.py:112
+#: pylib/anki/stats.py:310 pylib/anki/stats.py:962 qt/aqt/editor.py:134
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/changemodel.py:114
 msgid "Cards"
 msgstr "Kártyák"
 
-#: qt/aqt/browser.py:1600
+#: qt/aqt/browser.py:1603
 msgid "Cards can't be manually moved into a filtered deck."
 msgstr "A kártyákat nem lehet kézzel a szűrt pakliba tenni."
 
@@ -905,7 +919,7 @@ msgstr "Kártyák egyszerű szövegként"
 msgid "Cards will be automatically returned to their original decks after you review them."
 msgstr "A kártyák ismétlés után automatikusan visszakerülnek az eredeti paklijukba."
 
-#: qt/aqt/models.py:63
+#: qt/aqt/models.py:66
 msgid "Cards..."
 msgstr "Kártyák..."
 
@@ -913,44 +927,45 @@ msgstr "Kártyák..."
 msgid "Center"
 msgstr "Közép"
 
-#: qt/aqt/importing.py:268
+#: qt/aqt/importing.py:260
 msgid "Change"
 msgstr "Módosítás"
 
-#: qt/aqt/browser.py:2173
+#: qt/aqt/browser.py:2183
 #, python-format
 msgid "Change %s to:"
 msgstr "%s módosítása erre:"
 
-#: qt/aqt/browser.py:1591 qt/aqt/browser.py:1603
+#: qt/aqt/browser.py:1594 qt/aqt/browser.py:1606
 msgid "Change Deck"
 msgstr "Áthelyezés"
 
-#: qt/aqt/forms/browser.py:332
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:334
 msgid "Change Deck..."
 msgstr "Pakliváltás..."
 
-#: qt/aqt/browser.py:2260 qt/aqt/forms/changemodel.py:109
+#: qt/aqt/browser.py:2270
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/changemodel.py:111
 msgid "Change Note Type"
 msgstr "Jegyzettípus módosítása"
 
-#: qt/aqt/modelchooser.py:31
+#: qt/aqt/modelchooser.py:44
 msgid "Change Note Type (Ctrl+N)"
 msgstr "Jegyzettípus módosítása (Ctrl+N)"
 
-#: qt/aqt/forms/browser.py:313
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:315
 msgid "Change Note Type..."
 msgstr "Jegyzet&típus módosítása..."
 
-#: qt/aqt/editor.py:153
+#: qt/aqt/editor.py:168
 msgid "Change colour (F8)"
 msgstr "Színváltás (F8)"
 
-#: qt/aqt/forms/preferences.py:285
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:286
 msgid "Change deck depending on note type"
 msgstr "Pakliváltás a jegyzettípus függvényében"
 
-#: qt/aqt/forms/addons.py:69
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:70
 msgid "Changes will take effect when Anki is restarted."
 msgstr "A módosítások akkor lépnek érvénybe, amikor az Anki újraindult."
 
@@ -958,15 +973,15 @@ msgstr "A módosítások akkor lépnek érvénybe, amikor az Anki újraindult."
 msgid "Changes will take effect when you restart Anki."
 msgstr "A módosítások akkor lépnek érvénybe, amikor újraindítja az Ankit."
 
-#: qt/aqt/forms/main.py:142
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:143
 msgid "Check &Media..."
 msgstr "&Média ellenőrzése..."
 
-#: qt/aqt/forms/addons.py:72
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:73
 msgid "Check for Updates"
 msgstr "Frissítések keresése"
 
-#: qt/aqt/forms/main.py:143
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:144
 msgid "Check the files in the media directory"
 msgstr "A médiamappában lévő fájlok ellenőrzése"
 
@@ -974,7 +989,7 @@ msgstr "A médiamappában lévő fájlok ellenőrzése"
 msgid "Checking..."
 msgstr "Ellenőrzés..."
 
-#: qt/aqt/deckchooser.py:87 qt/aqt/modelchooser.py:71
+#: qt/aqt/deckchooser.py:87 qt/aqt/modelchooser.py:84
 msgid "Choose"
 msgstr "Kiválasztás"
 
@@ -982,7 +997,7 @@ msgstr "Kiválasztás"
 msgid "Choose Deck"
 msgstr "Pakli kiválasztása"
 
-#: qt/aqt/modelchooser.py:72
+#: qt/aqt/modelchooser.py:85
 msgid "Choose Note Type"
 msgstr "Jegyzettípus kiválasztása"
 
@@ -990,28 +1005,29 @@ msgstr "Jegyzettípus kiválasztása"
 msgid "Choose Tags"
 msgstr "Címkék kiválasztása"
 
-#: qt/aqt/browser.py:1300
+#: qt/aqt/browser.py:1301
 msgid "Clear Unused"
 msgstr "Távolítsa el az árva kulcsszavakat"
 
-#: qt/aqt/forms/browser.py:338
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:340
 msgid "Clear Unused Tags"
 msgstr "Törölje a nem használt címkéket"
 
-#: qt/aqt/models.py:213
+#: qt/aqt/models.py:217
 #, python-format
 msgid "Clone: %s"
 msgstr "Klónozás: %s"
 
-#: qt/aqt/addcards.py:73 qt/aqt/forms/browser.py:325
+#: qt/aqt/addcards.py:75
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:327
 msgid "Close"
 msgstr "Bezárás"
 
-#: qt/aqt/addcards.py:223
+#: qt/aqt/addcards.py:232
 msgid "Close and lose current input?"
 msgstr "Bezárja az ablakot és veszni hagyja a beírt adatokat?"
 
-#: qt/aqt/main.py:554
+#: qt/aqt/main.py:556
 msgid "Closing..."
 msgstr "Bezárás..."
 
@@ -1020,11 +1036,11 @@ msgstr "Bezárás..."
 msgid "Cloze %d"
 msgstr "Lyukas szöveg"
 
-#: qt/aqt/editor.py:170
+#: qt/aqt/editor.py:174
 msgid "Cloze deletion (Ctrl+Shift+C)"
 msgstr "Kitöltő törlés (Ctrl+Shift+C)"
 
-#: qt/aqt/forms/getaddons.py:50
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/getaddons.py:52
 msgid "Code:"
 msgstr "Kód:"
 
@@ -1032,27 +1048,27 @@ msgstr "Kód:"
 msgid "Collection exported."
 msgstr "Gyűjtemény exportált."
 
-#: qt/aqt/importing.py:174
+#: qt/aqt/importing.py:167
 msgid "Colon"
 msgstr "Kettőspont"
 
-#: qt/aqt/importing.py:168
+#: qt/aqt/importing.py:161
 msgid "Comma"
 msgstr "Vessző"
 
-#: qt/aqt/forms/addons.py:74
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:75
 msgid "Config"
 msgstr "Beállítás"
 
-#: qt/aqt/forms/addonconf.py:72
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addonconf.py:73
 msgid "Configuration"
 msgstr "Konfigurálás"
 
-#: qt/aqt/forms/main.py:139
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:140
 msgid "Configure interface language and options"
 msgstr "Felület nyelvének és beállításainak módosítása"
 
-#: qt/aqt/reviewer.py:94
+#: qt/aqt/reviewer.py:96
 msgid "Continue"
 msgstr "Folytatás"
 
@@ -1060,7 +1076,7 @@ msgstr "Folytatás"
 msgid "Copied to clipboard"
 msgstr "Átmásolva a vágólapra"
 
-#: qt/aqt/editor.py:1199 qt/aqt/webview.py:285
+#: qt/aqt/editor.py:1211 qt/aqt/webview.py:289
 msgid "Copy"
 msgstr "Másolás"
 
@@ -1068,7 +1084,7 @@ msgstr "Másolás"
 msgid "Copy Debug Info"
 msgstr "Hibakeresési információ másolása"
 
-#: qt/aqt/utils.py:142
+#: qt/aqt/utils.py:148
 msgid "Copy to Clipboard"
 msgstr "Másolás vágólapra"
 
@@ -1086,7 +1102,7 @@ msgstr "Helyes: <b>%(pct)0.2f%%</b><br>(%(tot)d közül %(good)d)"
 msgid "Corrupt add-on file."
 msgstr "Sérült kiegészítő fájl."
 
-#: qt/aqt/editor.py:742
+#: qt/aqt/editor.py:751
 msgid "Couldn't record audio. Have you installed 'lame'?"
 msgstr "Nem sikerült hangfelvételt készíteni. Telepítette a 'lame'-et?"
 
@@ -1103,19 +1119,19 @@ msgstr "Magolás"
 msgid "Create Deck"
 msgstr "Pakli létrehozása"
 
-#: qt/aqt/forms/main.py:154
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:155
 msgid "Create Filtered Deck..."
 msgstr "&Szűrt pakli létrehozása..."
 
-#: qt/aqt/forms/modelopts.py:64
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/modelopts.py:66
 msgid "Create scalable images with dvisvgm"
 msgstr "Méretezhető képek készítése a dvisvgm segítségével"
 
-#: qt/aqt/browser.py:738
+#: qt/aqt/browser.py:745
 msgid "Created"
 msgstr "Létrehozva"
 
-#: qt/aqt/forms/browser.py:342
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:344
 msgid "Ctrl+Shift+E"
 msgstr "Ctrl+Shift+E"
 
@@ -1136,15 +1152,16 @@ msgstr "Válaszok kumulatív száma"
 msgid "Cumulative Cards"
 msgstr "Kártyák kumulatív száma"
 
-#: qt/aqt/browser.py:1125 qt/aqt/browser.py:1257
+#: qt/aqt/browser.py:1115 qt/aqt/browser.py:1255
 msgid "Current Deck"
 msgstr "Aktuális pakli"
 
-#: qt/aqt/forms/changemodel.py:110
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/changemodel.py:112
 msgid "Current note type:"
 msgstr "Aktuális jegyzettípus:"
 
-#: qt/aqt/overview.py:258 qt/aqt/forms/customstudy.py:102
+#: qt/aqt/overview.py:258
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:103
 msgid "Custom Study"
 msgstr "Egyéni tanulás"
 
@@ -1152,19 +1169,19 @@ msgstr "Egyéni tanulás"
 msgid "Custom Study Session"
 msgstr "Egyéni tanulásmenet"
 
-#: qt/aqt/forms/dyndconf.py:147
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:149
 msgid "Custom steps (in minutes)"
 msgstr "Egyéni lépések (percben)"
 
-#: qt/aqt/editor.py:195
+#: qt/aqt/editor.py:133
 msgid "Customize Card Templates (Ctrl+L)"
 msgstr "Testreszabhatja a kártyasablonokat (Ctrl+L)"
 
-#: qt/aqt/editor.py:194
+#: qt/aqt/editor.py:125
 msgid "Customize Fields"
 msgstr "Testreszabhatja a mezőket"
 
-#: qt/aqt/editor.py:1197
+#: qt/aqt/editor.py:1209
 msgid "Cut"
 msgstr "Kivágás"
 
@@ -1172,20 +1189,20 @@ msgstr "Kivágás"
 msgid "Days studied"
 msgstr "Tanulással töltött napok"
 
-#: qt/aqt/forms/debug.py:55
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/debug.py:56
 msgid "Debug Console"
 msgstr "Hibakereső konzol"
 
-#: qt/aqt/browser.py:736 qt/aqt/deckbrowser.py:147 qt/aqt/deckchooser.py:29
-#: qt/aqt/forms/importing.py:106
+#: qt/aqt/browser.py:743 qt/aqt/deckbrowser.py:147 qt/aqt/deckchooser.py:29
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:108
 msgid "Deck"
 msgstr "Pakli"
 
-#: qt/aqt/clayout.py:693
+#: qt/aqt/clayout.py:695
 msgid "Deck Override..."
 msgstr "A pakli felülbírálása ..."
 
-#: qt/aqt/main.py:1599
+#: qt/aqt/main.py:1602
 msgid "Deck will be imported when a profile is opened."
 msgstr "A pakli importálására egy profil megnyitásakor kerül majd sor."
 
@@ -1205,9 +1222,12 @@ msgstr "Alapértelmezés"
 msgid "Delays until reviews are shown again."
 msgstr "A következő ismétlésig hátralevő idő"
 
-#: qt/aqt/deckbrowser.py:234 qt/aqt/deckconf.py:91 qt/aqt/models.py:56
-#: qt/aqt/reviewer.py:812 qt/aqt/forms/addons.py:77 qt/aqt/forms/browser.py:330
-#: qt/aqt/forms/fields.py:103 qt/aqt/forms/profiles.py:83
+#: qt/aqt/deckbrowser.py:234 qt/aqt/deckconf.py:91 qt/aqt/models.py:59
+#: qt/aqt/reviewer.py:812
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:78
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:332
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:104
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/profiles.py:84
 msgid "Delete"
 msgstr "Törlés"
 
@@ -1219,15 +1239,15 @@ msgstr "Pakli törlése"
 msgid "Delete Note"
 msgstr "Jegyzet törlése"
 
-#: qt/aqt/browser.py:1544
+#: qt/aqt/browser.py:1547
 msgid "Delete Notes"
 msgstr "Jegyzetek törlése"
 
-#: qt/aqt/browser.py:1636
+#: qt/aqt/browser.py:1639
 msgid "Delete Tags"
 msgstr "Címke törlése"
 
-#: qt/aqt/fields.py:124
+#: qt/aqt/fields.py:126
 #, python-format
 msgid "Delete field from %s?"
 msgstr "Törli a mezőt ebből: %s?"
@@ -1239,16 +1259,16 @@ msgid_plural "Delete the %(num)d selected add-ons?"
 msgstr[0] "Törli a %(num)d kiválasztott kiegészítőt?"
 msgstr[1] "Törli a %(num)d kiválasztott kiegészítőket?"
 
-#: qt/aqt/clayout.py:559
+#: qt/aqt/clayout.py:561
 #, python-format
 msgid "Delete the '%(a)s' card type, and its %(b)s?"
 msgstr "Töröljem a '%(a)s' kártyatípust és annak %(b)s tartalmát?"
 
-#: qt/aqt/models.py:130
+#: qt/aqt/models.py:134
 msgid "Delete this note type and all its cards?"
 msgstr "Törlöd ezt a jegyzettípust és az összes hozzá tartozó kártyát?"
 
-#: qt/aqt/models.py:132
+#: qt/aqt/models.py:136
 msgid "Delete this unused note type?"
 msgstr "Törli ezt a nem használt jegyzettípust?"
 
@@ -1256,16 +1276,18 @@ msgstr "Törli ezt a nem használt jegyzettípust?"
 msgid "Deleting this deck from the deck list will return all remaining cards to their original deck."
 msgstr "Ha törli ezt a paklit a paklik listájából, akkor a fennmaradó kártyák is mind visszakerülnek az eredeti paklijukba."
 
-#: qt/aqt/forms/dconf.py:380
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:382
 msgid "Description"
 msgstr "Leírás"
 
-#: qt/aqt/forms/dconf.py:379
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:381
 msgid "Description to show on overview screen, for current deck:"
 msgstr "A jelenlegi pakliról az áttekintő képernyőn megjelenő leírás:"
 
-#: qt/aqt/forms/dyndconf.py:133 qt/aqt/forms/editaddon.py:40
-#: qt/aqt/forms/editcurrent.py:41 qt/aqt/forms/progress.py:40
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:135
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/editaddon.py:42
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/editcurrent.py:43
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/progress.py:42
 msgid "Dialog"
 msgstr "Párbeszéd"
 
@@ -1288,7 +1310,7 @@ msgstr "Letöltve %(fname)s"
 msgid "Downloading %(a)d/%(b)d (%(kb)0.2fKB)..."
 msgstr "Letöltve %(a)d/%(b)d (%(kb)0.2fKB)..."
 
-#: qt/aqt/forms/customstudy.py:114
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:115
 msgid "Due cards only"
 msgstr "Csak az esedékes kártyák"
 
@@ -1296,11 +1318,11 @@ msgstr "Csak az esedékes kártyák"
 msgid "Due tomorrow"
 msgstr "Holnap esedékes"
 
-#: qt/aqt/forms/main.py:137
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:138
 msgid "E&xit"
 msgstr "&Kilépés"
 
-#: qt/aqt/browser.py:743
+#: qt/aqt/browser.py:750
 msgid "Ease"
 msgstr "Könnyűség"
 
@@ -1308,19 +1330,19 @@ msgstr "Könnyűség"
 msgid "Easy"
 msgstr "Könnyű"
 
-#: qt/aqt/forms/dconf.py:351
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:353
 msgid "Easy bonus"
 msgstr "Könnyű válasznál adott bónusz"
 
-#: qt/aqt/forms/dconf.py:343
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:345
 msgid "Easy interval"
 msgstr "Könnyű válasz időköze"
 
-#: qt/aqt/reviewer.py:569
+#: qt/aqt/reviewer.py:572
 msgid "Edit"
 msgstr "Szerkesztés"
 
-#: qt/aqt/addcards.py:144
+#: qt/aqt/addcards.py:149
 #, python-format
 msgid "Edit \"%s\""
 msgstr "„%s” szerkesztése"
@@ -1329,11 +1351,11 @@ msgstr "„%s” szerkesztése"
 msgid "Edit Current"
 msgstr "Aktuális jegyzet szerkesztése"
 
-#: qt/aqt/editor.py:950
+#: qt/aqt/editor.py:959
 msgid "Edit HTML"
 msgstr "HTML szerkesztése"
 
-#: qt/aqt/forms/fields.py:106
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:107
 msgid "Editing Font"
 msgstr "Szerkesztési betűtípus"
 
@@ -1341,7 +1363,7 @@ msgstr "Szerkesztési betűtípus"
 msgid "Empty"
 msgstr "Kiürítés"
 
-#: qt/aqt/forms/main.py:153
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:154
 msgid "Empty Cards..."
 msgstr "&Üres kártyák..."
 
@@ -1350,29 +1372,29 @@ msgstr "&Üres kártyák..."
 msgid "Empty first field: %s"
 msgstr "Üres az első mezője: %s"
 
-#: qt/aqt/forms/dyndconf.py:144
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:146
 msgid "Enable second filter"
 msgstr "A második szűrő engedélyezése"
 
-#: qt/aqt/forms/browser.py:324
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:326
 msgid "End"
 msgstr "Vége"
 
-#: qt/aqt/clayout.py:738
+#: qt/aqt/clayout.py:740
 #, python-format
 msgid "Enter deck to place new %s cards in, or leave blank:"
 msgstr "Adja meg, melyik pakliba kerüljön a %s nevű új kártya, vagy hagyja üresen:"
 
-#: qt/aqt/clayout.py:598
+#: qt/aqt/clayout.py:600
 #, python-format
 msgid "Enter new card position (1...%s):"
 msgstr "Adja meg az új kártya sorrendi helyét (1–%s.):"
 
-#: qt/aqt/browser.py:1616
+#: qt/aqt/browser.py:1619
 msgid "Enter tags to add:"
 msgstr "Hozzáadandó címkék:"
 
-#: qt/aqt/browser.py:1638
+#: qt/aqt/browser.py:1641
 msgid "Enter tags to delete:"
 msgstr "Törlendő címkék:"
 
@@ -1381,7 +1403,7 @@ msgstr "Törlendő címkék:"
 msgid "Error downloading <i>%(id)s</i>: %(error)s"
 msgstr "Hiba történt a letöltéskor <i>%(id)s</i>: %(error)s"
 
-#: qt/aqt/main.py:121
+#: qt/aqt/main.py:123
 #, python-format
 msgid ""
 "Error during startup:\n"
@@ -1400,13 +1422,13 @@ msgstr "Hiba ennek végrehajtása során: %s"
 msgid "Error installing <i>%(base)s</i>: %(error)s"
 msgstr "Hiba történt a telepítéskor <i>%(base)s</i>: %(error)s"
 
-#: qt/aqt/sound.py:458
+#: qt/aqt/sound.py:502
 #, python-format
 msgid "Error running %s"
 msgstr "Hiba %s futtatásakor"
 
 #: qt/aqt/deckbrowser.py:232 qt/aqt/exporting.py:124
-#: qt/aqt/forms/exporting.py:74
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/exporting.py:76
 msgid "Export"
 msgstr "Exportálás"
 
@@ -1421,25 +1443,26 @@ msgid_plural "Exported %d media files"
 msgstr[0] "%d médiafájl exportálva"
 msgstr[1] "%d médiafájl exportálva"
 
-#: qt/aqt/importing.py:259
+#: qt/aqt/importing.py:251
 #, python-format
 msgid "Field <b>%d</b> of file is:"
 msgstr "A fájl <b>%d</b>. mezője:"
 
-#: qt/aqt/forms/importing.py:112
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:114
 msgid "Field mapping"
 msgstr "Mezőleképezés"
 
-#: qt/aqt/fields.py:108
+#: qt/aqt/fields.py:110
 msgid "Field name:"
 msgstr "Mezőnév:"
 
-#: qt/aqt/forms/addfield.py:62
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addfield.py:63
 msgid "Field:"
 msgstr "Mező:"
 
-#: qt/aqt/editor.py:191 qt/aqt/fields.py:23 qt/aqt/forms/changemodel.py:113
-#: qt/aqt/forms/fields.py:101
+#: qt/aqt/editor.py:126 qt/aqt/fields.py:23
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/changemodel.py:115
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:102
 msgid "Fields"
 msgstr "Mezők"
 
@@ -1448,65 +1471,67 @@ msgstr "Mezők"
 msgid "Fields for %s"
 msgstr "Mezők ehhez: %s"
 
-#: qt/aqt/importing.py:177
+#: qt/aqt/importing.py:170
 #, python-format
 msgid "Fields separated by: %s"
 msgstr "Mezők határolójele: %s"
 
-#: qt/aqt/models.py:62
+#: qt/aqt/models.py:65
 msgid "Fields..."
 msgstr "Mezők..."
 
-#: qt/aqt/forms/browser.py:317
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:319
 msgid "Fil&ter"
 msgstr "Szűrő"
 
-#: pylib/anki/importing/mnemo.py:23
+#: pylib/anki/importing/mnemo.py:24
 msgid "File version unknown, trying import anyway."
 msgstr "A fájl verziója ismeretlen, de azért megpróbál importálni belőle."
 
-#: qt/aqt/browser.py:1318 qt/aqt/forms/dyndconf.py:134
+#: qt/aqt/browser.py:1319
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:136
 msgid "Filter"
 msgstr "Szűrő"
 
-#: qt/aqt/forms/dyndconf.py:138
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:140
 msgid "Filter 2"
 msgstr "Szűrő 2"
 
-#: qt/aqt/forms/browser.py:297
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:299
 msgid "Filter..."
 msgstr "Szűrő..."
 
-#: qt/aqt/forms/studydeck.py:46
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/studydeck.py:48
 msgid "Filter:"
 msgstr "Szűrés:"
 
-#: qt/aqt/main.py:1162 qt/aqt/main.py:1164
+#: qt/aqt/main.py:1164 qt/aqt/main.py:1166
 #, python-format
 msgid "Filtered Deck %d"
 msgstr "%d. szűrt pakli"
 
-#: qt/aqt/forms/browser.py:319
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:321
 msgid "Find &Duplicates..."
 msgstr "&Azonosak keresése..."
 
-#: qt/aqt/forms/finddupes.py:70
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/finddupes.py:71
 msgid "Find Duplicates"
 msgstr "Azonosak keresése"
 
-#: qt/aqt/forms/browser.py:315
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:317
 msgid "Find and Re&place..."
 msgstr "&Keresés és csere..."
 
-#: qt/aqt/browser.py:1902 qt/aqt/forms/findreplace.py:86
+#: qt/aqt/browser.py:1909
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/findreplace.py:87
 msgid "Find and Replace"
 msgstr "Keresés és csere"
 
-#: qt/aqt/reviewer.py:93
+#: qt/aqt/reviewer.py:95
 msgid "Finish"
 msgstr "Befejezés"
 
-#: qt/aqt/forms/browser.py:321
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:323
 msgid "First Card"
 msgstr "Els&ő kártya"
 
@@ -1515,7 +1540,7 @@ msgstr "Els&ő kártya"
 msgid "First field matched: %s"
 msgstr "Az első mező megegyezik: %s"
 
-#: qt/aqt/forms/browser.py:302
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:304
 msgid "Flag"
 msgstr "Jelölés"
 
@@ -1531,11 +1556,11 @@ msgstr "Átfordítás"
 msgid "Folder already exists."
 msgstr "A mappa már létezik."
 
-#: qt/aqt/forms/addfield.py:64
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addfield.py:65
 msgid "Font:"
 msgstr "Betűtípus:"
 
-#: qt/aqt/forms/modelopts.py:66
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/modelopts.py:68
 msgid "Footer"
 msgstr "Lábléc"
 
@@ -1548,20 +1573,17 @@ msgstr "'%s' biztonsági okból nem megengedett a kártyákon. Úgy lehet haszn�
 msgid "Forecast"
 msgstr "Előrejelzés"
 
-#: qt/aqt/forms/clayout_top.py:53 qt/aqt/forms/template.py:72
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/clayout_top.py:54
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/template.py:73
 msgid "Form"
 msgstr "Űrlap"
 
-#: qt/aqt/browser.py:1989
+#: qt/aqt/browser.py:1996
 #, python-format
 msgid "Found %(a)s across %(b)s."
 msgstr "%(b)s közül %(a)s találat."
 
-#: pylib/anki/exporting.py:382
-msgid "Front"
-msgstr "Előlap"
-
-#: qt/aqt/forms/dconf.py:378
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:380
 msgid "General"
 msgstr "Általános"
 
@@ -1575,7 +1597,7 @@ msgstr "Létrehozva: %s fájl."
 msgid "Generated on %s"
 msgstr "Létrehozás ideje: %s"
 
-#: qt/aqt/forms/addons.py:70
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:71
 msgid "Get Add-ons..."
 msgstr "Bővítmények beszerzése..."
 
@@ -1587,15 +1609,16 @@ msgstr "Megosztott tartalmak"
 msgid "Good"
 msgstr "Jó"
 
-#: qt/aqt/forms/dconf.py:344
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:346
 msgid "Graduating interval"
 msgstr "Előrelépési időköz"
 
-#: qt/aqt/browser.py:1288 qt/aqt/reviewer.py:713 qt/aqt/forms/browser.py:335
+#: qt/aqt/browser.py:1286 qt/aqt/reviewer.py:713
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:337
 msgid "Green Flag"
 msgstr "Megjelölés zölddel"
 
-#: qt/aqt/forms/edithtml.py:37
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/edithtml.py:39
 msgid "HTML Editor"
 msgstr "HTML-szerkesztő"
 
@@ -1603,11 +1626,11 @@ msgstr "HTML-szerkesztő"
 msgid "Hard"
 msgstr "Nehéz"
 
-#: qt/aqt/forms/dconf.py:359
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:361
 msgid "Hard interval"
 msgstr "Nehéz válasz időköze"
 
-#: qt/aqt/forms/preferences.py:278
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:279
 msgid "Hardware acceleration (faster, may cause display issues)"
 msgstr "Hardvergyorsítás (gyorsabb, de megjelenítési problémákat okozhat)"
 
@@ -1615,12 +1638,12 @@ msgstr "Hardvergyorsítás (gyorsabb, de megjelenítési problémákat okozhat)"
 msgid "Have you installed latex and dvipng/dvisvgm?"
 msgstr "Telepítette a latex-et és a dvipng/dvisvgm fájlt?"
 
-#: qt/aqt/forms/modelopts.py:65
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/modelopts.py:67
 msgid "Header"
 msgstr "Fejléc"
 
-#: qt/aqt/addcards.py:77 qt/aqt/clayout.py:384 qt/aqt/utils.py:206
-#: qt/aqt/utils.py:207
+#: qt/aqt/addcards.py:79 qt/aqt/clayout.py:384 qt/aqt/utils.py:212
+#: qt/aqt/utils.py:213
 msgid "Help"
 msgstr "Súgó"
 
@@ -1628,11 +1651,11 @@ msgstr "Súgó"
 msgid "Highest ease"
 msgstr "Legkönnyebb"
 
-#: qt/aqt/addcards.py:81
+#: qt/aqt/addcards.py:83
 msgid "History"
 msgstr "Előzmény"
 
-#: qt/aqt/forms/browser.py:322
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:324
 msgid "Home"
 msgstr "Kezdőlap"
 
@@ -1648,11 +1671,11 @@ msgstr "Órák"
 msgid "Hours with less than 30 reviews are not shown."
 msgstr "Azok az órák, amikor 30-nál kevesebb ismétlés történt, nem szerepelnek az ábrán."
 
-#: pylib/anki/importing/anki2.py:169
+#: pylib/anki/importing/anki2.py:166
 msgid "Identical"
 msgstr "Megegyező"
 
-#: qt/aqt/about.py:220
+#: qt/aqt/about.py:221
 msgid "If you have contributed and are not on this list, please get in touch."
 msgstr "Ha Ön is közreműködött, és még sincs rajta ezen a listán, kérjük, jelezze."
 
@@ -1660,11 +1683,11 @@ msgstr "Ha Ön is közreműködött, és még sincs rajta ezen a listán, kérj�
 msgid "If you studied every day"
 msgstr "Ha mindennap tanulna"
 
-#: qt/aqt/forms/dconf.py:373
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:375
 msgid "Ignore answer times longer than"
 msgstr "Ennél hosszabb válaszidő figyelmen kívül hagyása:"
 
-#: qt/aqt/forms/findreplace.py:91
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/findreplace.py:92
 msgid "Ignore case"
 msgstr "Kis- vagy nagybetű nem számít"
 
@@ -1672,7 +1695,7 @@ msgstr "Kis- vagy nagybetű nem számít"
 msgid "Ignore field"
 msgstr "Mező figyelmen kívül hagyása"
 
-#: qt/aqt/forms/importing.py:108
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:110
 msgid "Ignore lines where first field matches existing note"
 msgstr "Hagyja ki azokat a sorokat, ahol az első mező egyezik egy meglévő jegyzettel"
 
@@ -1680,8 +1703,9 @@ msgstr "Hagyja ki azokat a sorokat, ahol az első mező egyezik egy meglévő je
 msgid "Ignore this update"
 msgstr "Frissítés kihagyása"
 
-#: qt/aqt/importing.py:103 qt/aqt/importing.py:197 qt/aqt/importing.py:319
-#: qt/aqt/forms/changemap.py:41 qt/aqt/forms/importing.py:103
+#: qt/aqt/importing.py:103 qt/aqt/importing.py:189 qt/aqt/importing.py:311
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/changemap.py:43
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:105
 msgid "Import"
 msgstr "Importálás"
 
@@ -1689,19 +1713,19 @@ msgstr "Importálás"
 msgid "Import File"
 msgstr "Fájl importálása"
 
-#: qt/aqt/forms/importing.py:109
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:111
 msgid "Import even if existing note has same first field"
 msgstr "Akkor is importálja, ha egy meglévő jegyzetnek azonos az első mezője"
 
-#: qt/aqt/forms/importing.py:104
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:106
 msgid "Import options"
 msgstr "Beállítások importálása"
 
-#: qt/aqt/importing.py:219 qt/aqt/importing.py:532
+#: qt/aqt/importing.py:211 qt/aqt/importing.py:524
 msgid "Importing complete."
 msgstr "Az importálás befejeződött."
 
-#: qt/aqt/main.py:1223
+#: qt/aqt/main.py:1225
 #, python-format
 msgid ""
 "In order to ensure your collection works correctly when moved between devices, Anki requires your computer's internal clock to be set correctly. The internal clock can be wrong even if your system is showing the correct local time.\n"
@@ -1728,23 +1752,23 @@ msgstr ""
 "\n"
 "A pontos időtől való eltérés: %s."
 
-#: qt/aqt/forms/exporting.py:80
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/exporting.py:82
 msgid "Include HTML and media references"
 msgstr "HTML-lel és média-hivatkozásokkal együtt"
 
-#: qt/aqt/forms/exporting.py:78
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/exporting.py:80
 msgid "Include media"
 msgstr "Médiaállománnyal együtt"
 
-#: qt/aqt/forms/exporting.py:77
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/exporting.py:79
 msgid "Include scheduling information"
 msgstr "Ütemezési adatokkal együtt"
 
-#: qt/aqt/forms/exporting.py:79
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/exporting.py:81
 msgid "Include tags"
 msgstr "Címkékkel együtt"
 
-#: qt/aqt/forms/customstudy.py:105
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:106
 msgid "Increase today's new card limit"
 msgstr "Új kártyák mai limitjének növelése"
 
@@ -1752,7 +1776,7 @@ msgstr "Új kártyák mai limitjének növelése"
 msgid "Increase today's new card limit by"
 msgstr "Új kártyák mai limitjének növelése ennyivel:"
 
-#: qt/aqt/forms/customstudy.py:106
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:107
 msgid "Increase today's review card limit"
 msgstr "Ismétlőkártyák mai limitjének növelése"
 
@@ -1764,7 +1788,7 @@ msgstr "Ismétlőkártyák mai limitjének növelése ennyivel:"
 msgid "Increasing intervals"
 msgstr "időközök emelkedő sorrendjében"
 
-#: qt/aqt/forms/getaddons.py:48
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/getaddons.py:50
 msgid "Install Add-on"
 msgstr "Kiegészítő telepítése"
 
@@ -1776,7 +1800,7 @@ msgstr "Kiegészítő telepítése"
 msgid "Install Anki add-on"
 msgstr "Kiegészítő telepítése"
 
-#: qt/aqt/forms/addons.py:71
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:72
 msgid "Install from file..."
 msgstr "Telepítés fájlból ..."
 
@@ -1793,19 +1817,19 @@ msgstr "Telepítve %(name)s"
 msgid "Installed successfully."
 msgstr "Telepítés sikeres."
 
-#: qt/aqt/forms/setlang.py:40
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/setlang.py:42
 msgid "Interface language:"
 msgstr "Felhasználói felület nyelve:"
 
-#: qt/aqt/forms/preferences.py:280
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:281
 msgid "Interrupt current audio when answering"
 msgstr "Aktuális hanganyag megszakítása válaszadáskor"
 
-#: qt/aqt/browser.py:742
+#: qt/aqt/browser.py:749
 msgid "Interval"
 msgstr "Időköz"
 
-#: qt/aqt/forms/dconf.py:353
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:355
 msgid "Interval modifier"
 msgstr "Időköz-módosító"
 
@@ -1833,7 +1857,7 @@ msgstr "Érvénytelen konfiguráció:"
 msgid "Invalid configuration: top level object must be a map"
 msgstr "Érvénytelen konfiguráció: a felső szintű objektumnak térképnek kell lennie"
 
-#: qt/aqt/main.py:1286
+#: qt/aqt/main.py:1288
 msgid "Invalid property found on card. Please use Tools>Check Database, and if the problem comes up again, please ask on the support site."
 msgstr "A kártyán érvénytelen tulajdonság található. Kérjük, használja az Eszközök > Adatbázis ellenőrzése menüpontot, és ha a probléma ismét jelentkezik, forduljon a támogatási honlaphoz."
 
@@ -1841,35 +1865,37 @@ msgstr "A kártyán érvénytelen tulajdonság található. Kérjük, használja
 msgid "It has been suspended."
 msgstr "Felfüggesztve."
 
-#: qt/aqt/editor.py:124
+#: qt/aqt/editor.py:145
 msgid "Italic text (Ctrl+I)"
 msgstr "Dőlt szöveg (Ctrl+I)"
 
-#: qt/aqt/editor.py:571
+#: qt/aqt/editor.py:580
 msgid "Jump to tags with Ctrl+Shift+T"
 msgstr "Címkékre ugrás: Ctrl+Shift+T."
 
-#: qt/aqt/forms/preferences.py:307
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:308
 msgid "Keep"
 msgstr "Megőrzendő:"
 
-#: qt/aqt/editor.py:947 qt/aqt/forms/modelopts.py:67
+#: qt/aqt/editor.py:956
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/modelopts.py:69
 msgid "LaTeX"
 msgstr "LaTeX"
 
-#: qt/aqt/editor.py:948
+#: qt/aqt/editor.py:957
 msgid "LaTeX equation"
 msgstr "LaTeX-képlet"
 
-#: qt/aqt/editor.py:949
+#: qt/aqt/editor.py:958
 msgid "LaTeX math env."
 msgstr "LaTeX matematikai környezet"
 
-#: qt/aqt/browser.py:745 qt/aqt/forms/dconf.py:372
+#: qt/aqt/browser.py:752
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:374
 msgid "Lapses"
 msgstr "Elakadások"
 
-#: qt/aqt/forms/browser.py:323
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:325
 msgid "Last Card"
 msgstr "U&tolsó kártya"
 
@@ -1881,7 +1907,7 @@ msgstr "a legutóbb hozzáadottak előre"
 msgid "Learn"
 msgstr "Tanulás"
 
-#: qt/aqt/forms/preferences.py:296
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:297
 msgid "Learn ahead limit"
 msgstr "Előrehozott tanulás határa"
 
@@ -1890,15 +1916,15 @@ msgstr "Előrehozott tanulás határa"
 msgid "Learn: %(a)s, Review: %(b)s, Relearn: %(c)s, Filtered: %(d)s"
 msgstr "Tanulás: %(a)s, ismétlés: %(b)s, újratanulás: %(c)s, szűrtek száma: %(d)s"
 
-#: pylib/anki/stats.py:686 qt/aqt/browser.py:1279 qt/aqt/overview.py:231
+#: pylib/anki/stats.py:686 qt/aqt/browser.py:1277 qt/aqt/overview.py:231
 msgid "Learning"
 msgstr "Tanulás"
 
-#: qt/aqt/forms/dconf.py:366
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:368
 msgid "Leech action"
 msgstr "Mumus-szavak kezelése"
 
-#: qt/aqt/forms/dconf.py:364
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:366
 msgid "Leech threshold"
 msgstr "Mumus-szavak küszöbértéke"
 
@@ -1906,11 +1932,12 @@ msgstr "Mumus-szavak küszöbértéke"
 msgid "Left"
 msgstr "Bal"
 
-#: qt/aqt/forms/dyndconf.py:135 qt/aqt/forms/dyndconf.py:139
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:137
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:141
 msgid "Limit to"
 msgstr "Legfeljebb"
 
-#: qt/aqt/utils.py:51
+#: qt/aqt/utils.py:57
 msgid "Loading..."
 msgstr "Betöltés…"
 
@@ -1922,19 +1949,20 @@ msgstr "Leghosszabb időköz"
 msgid "Lowest ease"
 msgstr "Legkevésbé könnyű"
 
-#: qt/aqt/modelchooser.py:63
+#: qt/aqt/modelchooser.py:76
 msgid "Manage"
 msgstr "Műveletek"
 
-#: qt/aqt/forms/main.py:155
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:156
 msgid "Manage Note Types"
 msgstr "Jegyzettípusok kezelése"
 
-#: qt/aqt/forms/browser.py:339
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:341
 msgid "Manage Note Types..."
 msgstr "&Jegyzettípusok kezelése..."
 
-#: qt/aqt/browser.py:1337 qt/aqt/forms/dconf.py:339
+#: qt/aqt/browser.py:1337
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:341
 msgid "Manage..."
 msgstr "Műveletek..."
 
@@ -1955,15 +1983,15 @@ msgstr "Hozzárendelés címkékhez"
 msgid "Mark Note"
 msgstr "Jegyzet megjelölése"
 
-#: qt/aqt/editor.py:945
+#: qt/aqt/editor.py:954
 msgid "MathJax block"
 msgstr "MathJax blokk"
 
-#: qt/aqt/editor.py:946
+#: qt/aqt/editor.py:955
 msgid "MathJax chemistry"
 msgstr "MathJax kémia"
 
-#: qt/aqt/editor.py:944
+#: qt/aqt/editor.py:953
 msgid "MathJax inline"
 msgstr "MathJax elem"
 
@@ -1972,19 +2000,19 @@ msgstr "MathJax elem"
 msgid "Mature"
 msgstr "Veterán"
 
-#: qt/aqt/forms/dconf.py:355
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:357
 msgid "Maximum interval"
 msgstr "Maximális időköz"
 
-#: qt/aqt/forms/dconf.py:354
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:356
 msgid "Maximum reviews/day"
 msgstr "Napi maximális ismétlések száma"
 
-#: qt/aqt/editor.py:704
+#: qt/aqt/editor.py:713
 msgid "Media"
 msgstr "Médiaállomány"
 
-#: qt/aqt/forms/dconf.py:367
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:369
 msgid "Minimum interval"
 msgstr "Minimális időköz"
 
@@ -2000,7 +2028,7 @@ msgstr "Új kártyák és ismétlések vegyesen"
 msgid "Mnemosyne 2.0 Deck (*.db)"
 msgstr "Mnemosyne 2.0-ban készült pakli (*.db)"
 
-#: qt/aqt/reviewer.py:571
+#: qt/aqt/reviewer.py:574
 msgid "More"
 msgstr "Egyebek"
 
@@ -2008,23 +2036,23 @@ msgstr "Egyebek"
 msgid "Most lapses"
 msgstr "a legtöbb elakadás"
 
-#: qt/aqt/browser.py:1590
+#: qt/aqt/browser.py:1593
 msgid "Move Cards"
 msgstr "Kártyák áthelyezése"
 
-#: qt/aqt/forms/setgroup.py:39
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/setgroup.py:41
 msgid "Move cards to deck:"
 msgstr "Kártyák áthelyezése ebbe a pakliba:"
 
-#: qt/aqt/importing.py:144
+#: qt/aqt/importing.py:137
 msgid "Multi-character separators are not supported. Please enter one character only."
 msgstr "A többkarakteres elválasztójel nem támogatott. Kérjük, csak egy karaktert írjon be."
 
-#: qt/aqt/forms/browser.py:309
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:311
 msgid "N&ote"
 msgstr "&Jegyzet"
 
-#: qt/aqt/main.py:295 qt/aqt/main.py:309
+#: qt/aqt/main.py:297 qt/aqt/main.py:311
 msgid "Name exists."
 msgstr "Ez a név már létezik."
 
@@ -2032,19 +2060,19 @@ msgstr "Ez a név már létezik."
 msgid "Name for deck:"
 msgstr "Pakli neve:"
 
-#: qt/aqt/main.py:292 qt/aqt/models.py:119
+#: qt/aqt/main.py:294 qt/aqt/models.py:123
 msgid "Name:"
 msgstr "Név:"
 
-#: qt/aqt/forms/preferences.py:305
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:306
 msgid "Network"
 msgstr "Hálózat"
 
-#: qt/aqt/browser.py:1278 qt/aqt/deckbrowser.py:149 qt/aqt/overview.py:229
+#: qt/aqt/browser.py:1276 qt/aqt/deckbrowser.py:149 qt/aqt/overview.py:229
 msgid "New"
 msgstr "Új"
 
-#: qt/aqt/forms/dconf.py:350
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:352
 msgid "New Cards"
 msgstr "Új kártyák"
 
@@ -2053,28 +2081,28 @@ msgstr "Új kártyák"
 msgid "New cards in deck over today limit: %s"
 msgstr "Mai új kártyák száma korlátozva: %s"
 
-#: qt/aqt/forms/customstudy.py:112
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:113
 msgid "New cards only"
 msgstr "Csak az új kártyák"
 
-#: qt/aqt/forms/dconf.py:345
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:347
 msgid "New cards/day"
 msgstr "Napi új kártyák száma"
 
-#: qt/aqt/deckbrowser.py:246 qt/aqt/studydeck.py:151
+#: qt/aqt/deckbrowser.py:246 qt/aqt/sidebar.py:98 qt/aqt/studydeck.py:151
 msgid "New deck name:"
 msgstr "Új pakli neve:"
 
-#: qt/aqt/forms/dconf.py:363
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:365
 msgid "New interval"
 msgstr "Új időköz"
 
-#: qt/aqt/clayout.py:584 qt/aqt/deckconf.py:148 qt/aqt/fields.py:97
-#: qt/aqt/main.py:303 qt/aqt/models.py:84
+#: qt/aqt/clayout.py:586 qt/aqt/deckconf.py:148 qt/aqt/fields.py:97
+#: qt/aqt/main.py:305 qt/aqt/models.py:87
 msgid "New name:"
 msgstr "Új név:"
 
-#: qt/aqt/forms/changemodel.py:111
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/changemodel.py:113
 msgid "New note type:"
 msgstr "Új jegyzettípus:"
 
@@ -2082,20 +2110,20 @@ msgstr "Új jegyzettípus:"
 msgid "New options group name:"
 msgstr "Új opciócsoport neve:"
 
-#: qt/aqt/fields.py:136
+#: qt/aqt/fields.py:140
 #, python-format
 msgid "New position (1...%d):"
 msgstr "Új sorrendi helye (1–%d.):"
 
-#: qt/aqt/forms/preferences.py:298
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:299
 msgid "Next day starts at"
 msgstr "Új nap kezdete:"
 
-#: qt/aqt/forms/preferences.py:283
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:284
 msgid "Night mode"
 msgstr "Éjszakai mód"
 
-#: qt/aqt/browser.py:1290
+#: qt/aqt/browser.py:1288
 msgid "No Flag"
 msgstr "Nincs jelölés"
 
@@ -2119,11 +2147,12 @@ msgstr "Ma még nem tanult veterán kártyákat."
 msgid "No updates available."
 msgstr "Nincs elérhető frissítés."
 
-#: qt/aqt/browser.py:747
+#: qt/aqt/browser.py:754
 msgid "Note"
 msgstr "Jegyzettípus"
 
-#: qt/aqt/browser.py:1335 qt/aqt/models.py:36 qt/aqt/forms/models.py:54
+#: qt/aqt/browser.py:1335 qt/aqt/models.py:36
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/models.py:56
 msgid "Note Types"
 msgstr "Jegyzettípusok"
 
@@ -2142,16 +2171,16 @@ msgstr "Jegyzet félretéve"
 msgid "Note suspended."
 msgstr "Jegyzet felfüggesztve"
 
-#: qt/aqt/forms/preferences.py:310
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:311
 msgid "Note: Media is not backed up. Please create a periodic backup of your Anki folder to be safe."
 msgstr "Megjegyzés: a médiaállományról nem készül biztonsági mentés. Kérjük, készítsen mentést rendszeresen az Anki-mappájáról."
 
-#: pylib/anki/importing/anki2.py:149
+#: pylib/anki/importing/anki2.py:146
 #, python-format
 msgid "Notes added from file: %d"
 msgstr "Megjegyzések a fájlból hozzáadva: %d"
 
-#: pylib/anki/importing/anki2.py:137
+#: pylib/anki/importing/anki2.py:134
 #, python-format
 msgid "Notes found in file: %d"
 msgstr "Megjegyzések a fájlban: %d"
@@ -2160,30 +2189,30 @@ msgstr "Megjegyzések a fájlban: %d"
 msgid "Notes in Plain Text"
 msgstr "Jegyzetek formázatlan szövegként"
 
-#: qt/aqt/fields.py:121
+#: qt/aqt/fields.py:123
 msgid "Notes require at least one field."
 msgstr "Egy jegyzeten legalább egy mezőnek lennie kell."
 
-#: pylib/anki/importing/anki2.py:152
+#: pylib/anki/importing/anki2.py:149
 #, python-format
 msgid "Notes skipped, as they're already in your collection: %d"
 msgstr "A jegyzetek kihagyásra kerültek, mivel már szerepelnek a gyűjteményben: %d"
 
-#: qt/aqt/browser.py:2016
+#: qt/aqt/browser.py:2023
 msgid "Notes tagged."
 msgstr "Jegyzetek felcímkézve."
 
-#: pylib/anki/importing/anki2.py:141
+#: pylib/anki/importing/anki2.py:138
 #, python-format
 msgid "Notes that could not be imported as note type has changed: %d"
 msgstr "Jegyzetek, amelyeket nem lehetett importálni, mert a jegyzettípus megváltozott: %d"
 
-#: pylib/anki/importing/anki2.py:146
+#: pylib/anki/importing/anki2.py:143
 #, python-format
 msgid "Notes updated, as file had newer version: %d"
 msgstr "A jegyzetek frissítve, mivel a fájl újabb verziójú volt: %d"
 
-#: qt/aqt/browser.py:2170
+#: qt/aqt/browser.py:2180
 msgid "Nothing"
 msgstr "Semmi"
 
@@ -2195,7 +2224,7 @@ msgstr "OK"
 msgid "Oldest seen first"
 msgstr "a legrégebben látottak előre"
 
-#: qt/aqt/forms/preferences.py:304
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:305
 msgid "On next sync, force changes in one direction"
 msgstr "A legközelebbi szinkronizáláskor kényszerítsen módosítást az egyik irányban."
 
@@ -2203,50 +2232,52 @@ msgstr "A legközelebbi szinkronizáláskor kényszerítsen módosítást az egy
 msgid "One or more errors occurred:"
 msgstr "Egy vagy több hiba történt:"
 
-#: qt/aqt/browser.py:1728
+#: qt/aqt/browser.py:1734
 msgid "Only new cards can be repositioned."
 msgstr "Csak az új kártyák sorrendi helye módosítható."
 
-#: qt/aqt/forms/profiles.py:80
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/profiles.py:81
 msgid "Open"
 msgstr "Megnyitás"
 
-#: qt/aqt/forms/profiles.py:85
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/profiles.py:86
 msgid "Open Backup..."
 msgstr "Biztonsági mentés megnyitása..."
 
-#: qt/aqt/main.py:642
+#: qt/aqt/main.py:644
 msgid "Optimizing..."
 msgstr "Optimalizálás..."
 
-#: qt/aqt/forms/finddupes.py:71
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/finddupes.py:72
 msgid "Optional filter:"
 msgstr "Opcionális szűrő:"
 
 #: qt/aqt/clayout.py:111 qt/aqt/deckbrowser.py:230 qt/aqt/deckconf.py:37
 #: qt/aqt/dyndeckconf.py:25 qt/aqt/overview.py:252 qt/aqt/reviewer.py:732
-#: qt/aqt/forms/dyndconf.py:142 qt/aqt/forms/fields.py:109
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:144
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:110
 msgid "Options"
 msgstr "Beállítások"
 
-#: qt/aqt/deckconf.py:47 qt/aqt/dyndeckconf.py:28 qt/aqt/models.py:157
+#: qt/aqt/deckconf.py:47 qt/aqt/dyndeckconf.py:28 qt/aqt/models.py:161
 #, python-format
 msgid "Options for %s"
 msgstr "Beállítások ehhez: %s"
 
-#: qt/aqt/forms/dconf.py:338
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:340
 msgid "Options group:"
 msgstr "Opciócsoport:"
 
-#: qt/aqt/models.py:67
+#: qt/aqt/models.py:70
 msgid "Options..."
 msgstr "Beállítások…"
 
-#: qt/aqt/browser.py:1287 qt/aqt/reviewer.py:707 qt/aqt/forms/browser.py:334
+#: qt/aqt/browser.py:1285 qt/aqt/reviewer.py:707
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:336
 msgid "Orange Flag"
 msgstr "Megjelölés naranccsal"
 
-#: qt/aqt/forms/dconf.py:342
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:344
 msgid "Order"
 msgstr "Sorrend"
 
@@ -2258,15 +2289,15 @@ msgstr "a hozzáadás sorrendjében"
 msgid "Order due"
 msgstr "esedékesség ideje szerint"
 
-#: qt/aqt/forms/browserdisp.py:71
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browserdisp.py:73
 msgid "Override back template:"
 msgstr "Hátlapsablon felülbírálása:"
 
-#: qt/aqt/forms/browserdisp.py:72
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browserdisp.py:74
 msgid "Override font:"
 msgstr "Betűtípus felülbírálása:"
 
-#: qt/aqt/forms/browserdisp.py:70
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browserdisp.py:72
 msgid "Override front template:"
 msgstr "Előlapsablon felülbírálása:"
 
@@ -2278,15 +2309,15 @@ msgstr "Tömörített Anki-kiterjesztés"
 msgid "Packaged Anki Deck/Collection (*.apkg *.colpkg *.zip)"
 msgstr "Tömörített Anki-pakli/-gyűjtemény (*.apkg *.colpkg *.zip)"
 
-#: qt/aqt/editor.py:1201
+#: qt/aqt/editor.py:1213
 msgid "Paste"
 msgstr "Beillesztés"
 
-#: qt/aqt/forms/preferences.py:281
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:282
 msgid "Paste clipboard images as PNG"
 msgstr "Vágólapon lévő képek beillesztése PNG-ként"
 
-#: qt/aqt/forms/preferences.py:282
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:283
 msgid "Paste without shift key strips formatting"
 msgstr "SHIFT nélküli beillesztéskor a formázás törlése"
 
@@ -2307,19 +2338,19 @@ msgstr "Százalék"
 msgid "Period: %s"
 msgstr "Időszak: %s"
 
-#: qt/aqt/forms/preferences.py:303
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:304
 msgid "Periodically sync media"
 msgstr ""
 
-#: qt/aqt/forms/reschedule.py:74
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reschedule.py:76
 msgid "Place at end of new card queue"
 msgstr "Új kártyák listájának végére"
 
-#: qt/aqt/forms/reschedule.py:75
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reschedule.py:77
 msgid "Place in review queue with interval between:"
 msgstr "Ismétlőkártyák listájára a megadott határok közti időközzel:"
 
-#: qt/aqt/models.py:126
+#: qt/aqt/models.py:130
 msgid "Please add another note type first."
 msgstr "Kérjük, adjon meg előbb egy új jegyzettípust."
 
@@ -2331,11 +2362,11 @@ msgstr "Ellenőrizze internetkapcsolatát."
 msgid "Please connect a microphone, and ensure other programs are not using the audio device."
 msgstr "Kérjük, csatlakoztasson mikrofont a géphez, és győződjön meg róla, hogy más program nem használja a hangeszközt."
 
-#: qt/aqt/main.py:1606
+#: qt/aqt/main.py:1609
 msgid "Please ensure a profile is open and Anki is not busy, then try again."
 msgstr "Kérjük, győződjön meg róla, hogy valamelyik profil meg legyen nyitva, az Anki pedig ne legyen elfoglalt, majd próbálkozzon újra."
 
-#: qt/aqt/browser.py:1390
+#: qt/aqt/browser.py:1393
 msgid "Please give your filter a name:"
 msgstr "Kérjük, adja meg a szűrő nevét:"
 
@@ -2352,11 +2383,11 @@ msgstr "Kérjük, jelentse ezt a megfelelő kiegészítő szerzőnek."
 msgid "Please restart Anki to complete language change."
 msgstr "A nyelv módosításának befejezéséhez, kérjük, indítsa újra az Ankit."
 
-#: qt/aqt/reviewer.py:384
+#: qt/aqt/reviewer.py:387
 msgid "Please run Tools>Empty Cards"
 msgstr "Kérjük, futtassa az Eszközök > Üres kártyák menüpontot."
 
-#: qt/aqt/main.py:673
+#: qt/aqt/main.py:675
 msgid "Please select a deck."
 msgstr "Kérjük, válasszon egy paklit."
 
@@ -2364,7 +2395,7 @@ msgstr "Kérjük, válasszon egy paklit."
 msgid "Please select a single add-on first."
 msgstr "Először válasszon ki egy kiegészítőt."
 
-#: qt/aqt/browser.py:1490
+#: qt/aqt/browser.py:1493
 msgid "Please select cards from only one note type."
 msgstr "Kérjük, egyazon jegyzettípusból válasszon kártyákat."
 
@@ -2372,24 +2403,25 @@ msgstr "Kérjük, egyazon jegyzettípusból válasszon kártyákat."
 msgid "Please select something."
 msgstr "Kérjük, válasszon ki valamit."
 
-#: qt/aqt/main.py:1120
+#: qt/aqt/main.py:1122
 msgid "Please use File>Import to import this file."
 msgstr "Kérjük, a Fájl > Importálás menüponttal importálja ezt a fájlt."
 
-#: qt/aqt/forms/preferences.py:277
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:278
 msgid "Preferences"
 msgstr "Testreszabás"
 
-#: qt/aqt/previewer.py:65 qt/aqt/forms/browser.py:296
+#: qt/aqt/previewer.py:65
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:298
 msgid "Preview"
 msgstr "Előnézet"
 
-#: qt/aqt/browser.py:617
+#: qt/aqt/browser.py:624
 #, python-format
 msgid "Preview Selected Card (%s)"
 msgstr "Kiválasztott kártya előnézete (%s)"
 
-#: qt/aqt/forms/customstudy.py:108
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:109
 msgid "Preview new cards"
 msgstr "Új kártyák előnézete"
 
@@ -2397,14 +2429,14 @@ msgstr "Új kártyák előnézete"
 msgid "Preview new cards added in the last"
 msgstr "Az elmúlt időszakban hozzáadott új kártyák előnézete:"
 
-#: qt/aqt/importing.py:502
+#: qt/aqt/importing.py:494
 #, python-format
 msgid "Processed %d media file"
 msgid_plural "Processed %d media files"
 msgstr[0] "%d médiafájl feldolgozva"
 msgstr[1] "%d médiafájl feldolgozva"
 
-#: qt/aqt/progress.py:66
+#: qt/aqt/progress.py:83
 msgid "Processing..."
 msgstr "Feldolgozás…"
 
@@ -2412,25 +2444,25 @@ msgstr "Feldolgozás…"
 msgid "Profile Corrupt"
 msgstr "Profil sérült"
 
-#: qt/aqt/forms/profiles.py:79
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/profiles.py:80
 msgid "Profiles"
 msgstr "Profilok"
 
-#: qt/aqt/browser.py:733
+#: qt/aqt/browser.py:740
 msgid "Question"
 msgstr "Kérdés"
 
-#: qt/aqt/browser.py:1739
+#: qt/aqt/browser.py:1745
 #, python-format
 msgid "Queue bottom: %d"
 msgstr "Sor vége: %d"
 
-#: qt/aqt/browser.py:1738
+#: qt/aqt/browser.py:1744
 #, python-format
 msgid "Queue top: %d"
 msgstr "Sor eleje: %d"
 
-#: qt/aqt/forms/profiles.py:84
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/profiles.py:85
 msgid "Quit"
 msgstr "Kilépés"
 
@@ -2438,7 +2470,7 @@ msgstr "Kilépés"
 msgid "Random"
 msgstr "véletlenszerűen"
 
-#: qt/aqt/forms/reposition.py:73
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reposition.py:75
 msgid "Randomize order"
 msgstr "Véletlenszerű sorrend"
 
@@ -2450,16 +2482,17 @@ msgstr "Újraépítés"
 msgid "Record Own Voice"
 msgstr "Saját hang felvétele"
 
-#: qt/aqt/editor.py:175
+#: qt/aqt/editor.py:178
 msgid "Record audio (F5)"
 msgstr "Hang rögzítése (F5)"
 
-#: qt/aqt/sound.py:565
+#: qt/aqt/sound.py:610
 #, python-format
 msgid "Recording...<br>Time: %0.1f"
 msgstr "Felvétel...<br>Idő: %0.1f"
 
-#: qt/aqt/browser.py:1286 qt/aqt/reviewer.py:701 qt/aqt/forms/browser.py:333
+#: qt/aqt/browser.py:1284 qt/aqt/reviewer.py:701
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:335
 msgid "Red Flag"
 msgstr "Megjelölés pirossal"
 
@@ -2471,49 +2504,51 @@ msgstr "relatív elmaradás"
 msgid "Relearn"
 msgstr "Újratanulás"
 
-#: qt/aqt/forms/fields.py:108
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:109
 msgid "Remember last input when adding"
 msgstr "Legutóbbi szöveg megjelenítése hozzáadáskor"
 
-#: qt/aqt/browser.py:1401
+#: qt/aqt/browser.py:1404
 #, python-format
 msgid "Remove %s from your saved searches?"
 msgstr "Eltávolítja %s-t a mentett keresései közül?"
 
-#: qt/aqt/clayout.py:677
+#: qt/aqt/clayout.py:679
 msgid "Remove Card Type..."
 msgstr "Kártyatípus eltávolítása ..."
 
-#: qt/aqt/browser.py:1375
+#: qt/aqt/browser.py:1378
 msgid "Remove Current Filter..."
 msgstr "Aktuális szűrő eltávolítása..."
 
-#: qt/aqt/forms/browser.py:328
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:330
 msgid "Remove Tags..."
 msgstr "Címkék eltávolítása..."
 
-#: qt/aqt/editor.py:133
+#: qt/aqt/editor.py:154
 msgid "Remove formatting (Ctrl+R)"
 msgstr "A formázás eltávolítása (Ctrl+R)"
 
-#: qt/aqt/deckbrowser.py:228 qt/aqt/deckconf.py:93 qt/aqt/models.py:55
-#: qt/aqt/forms/fields.py:104 qt/aqt/forms/profiles.py:82
+#: qt/aqt/deckbrowser.py:228 qt/aqt/deckconf.py:93 qt/aqt/models.py:58
+#: qt/aqt/sidebar.py:74
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:105
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/profiles.py:83
 msgid "Rename"
 msgstr "Átnevezés"
 
-#: qt/aqt/clayout.py:680
+#: qt/aqt/clayout.py:682
 msgid "Rename Card Type..."
 msgstr "Kártyatípus átnevezése ..."
 
-#: qt/aqt/deckbrowser.py:243
+#: qt/aqt/deckbrowser.py:243 qt/aqt/sidebar.py:95
 msgid "Rename Deck"
 msgstr "Pakli átnevezése"
 
-#: qt/aqt/forms/dyndconf.py:145
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:147
 msgid "Repeat failed cards after"
 msgstr "Sikertelen kártyák ismétlése ennyi idő után:"
 
-#: qt/aqt/main.py:336
+#: qt/aqt/main.py:338
 msgid "Replace your collection with an earlier backup?"
 msgstr "Lecseréli gyűjteményét egy korábbi biztonsági másolatra?"
 
@@ -2525,31 +2560,33 @@ msgstr "Hang lejátszása újból"
 msgid "Replay Own Voice"
 msgstr "Saját hang lejátszása"
 
-#: qt/aqt/browser.py:1744 qt/aqt/forms/fields.py:105
+#: qt/aqt/browser.py:1751
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:106
 msgid "Reposition"
 msgstr "Sorrendmódosítás"
 
-#: qt/aqt/clayout.py:683
+#: qt/aqt/clayout.py:685
 msgid "Reposition Card Type..."
 msgstr "Helyzetkártya típusa ..."
 
-#: qt/aqt/forms/reposition.py:70
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reposition.py:72
 msgid "Reposition New Cards"
 msgstr "Új kártyák sorrendjének módosítása"
 
-#: qt/aqt/forms/browser.py:320
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:322
 msgid "Reposition..."
 msgstr "&Sorrendmódosítás..."
 
-#: qt/aqt/forms/taglimit.py:61
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/taglimit.py:63
 msgid "Require one or more of these tags:"
 msgstr "Az alábbi címkék közül legalább egy szerepeljen:"
 
-#: qt/aqt/browser.py:1770 qt/aqt/forms/reschedule.py:73
+#: qt/aqt/browser.py:1777
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reschedule.py:75
 msgid "Reschedule"
 msgstr "Átütemezés"
 
-#: qt/aqt/forms/dyndconf.py:143
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:145
 msgid "Reschedule cards based on my answers in this deck"
 msgstr "Kártyák átütemezése az e pakliban adott válaszaimnak megfelelően"
 
@@ -2557,24 +2594,24 @@ msgstr "Kártyák átütemezése az e pakliban adott válaszaimnak megfelelően"
 msgid "Restored defaults"
 msgstr "Visszaállított alapértékek"
 
-#: qt/aqt/main.py:734
+#: qt/aqt/main.py:736
 msgid "Resume Now"
 msgstr "Folytatás most"
 
-#: qt/aqt/forms/fields.py:107
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:108
 msgid "Reverse text direction (RTL)"
 msgstr "Jobbról balra írt szöveg (RTL)"
 
-#: qt/aqt/main.py:349
+#: qt/aqt/main.py:351
 msgid "Revert to backup"
 msgstr "Vissza a biztonsági mentéshez"
 
-#: qt/aqt/main.py:1034
+#: qt/aqt/main.py:1036
 #, python-format
 msgid "Reverted to state prior to '%s'."
 msgstr "'%s' előtti állapotba visszaállítva"
 
-#: pylib/anki/collection.py:577 qt/aqt/browser.py:1280
+#: pylib/anki/collection.py:577 qt/aqt/browser.py:1278
 msgid "Review"
 msgstr "Ismétlés"
 
@@ -2586,7 +2623,7 @@ msgstr "Ismétlések száma"
 msgid "Review Time"
 msgstr "Ismétlésre fordított idő"
 
-#: qt/aqt/forms/customstudy.py:103
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:104
 msgid "Review ahead"
 msgstr "Előzetes ismétlés"
 
@@ -2598,7 +2635,7 @@ msgstr "Előzetes ismétlés erre az időszakra:"
 msgid "Review cards forgotten in last"
 msgstr "Az elmúlt időszakban elfelejtett ismétlőkártyák:"
 
-#: qt/aqt/forms/customstudy.py:104
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:105
 msgid "Review forgotten cards"
 msgstr "Elfelejtett kártyák ismétlése"
 
@@ -2606,7 +2643,8 @@ msgstr "Elfelejtett kártyák ismétlése"
 msgid "Review success rate for each hour of the day."
 msgstr "Ismétlés sikerességének aránya a nap egyes óráiban"
 
-#: pylib/anki/stats.py:819 qt/aqt/browser.py:744 qt/aqt/forms/dconf.py:361
+#: pylib/anki/stats.py:819 qt/aqt/browser.py:751
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:363
 msgid "Reviews"
 msgstr "Ismétlések"
 
@@ -2619,11 +2657,11 @@ msgstr "Ma esedékes ismétlések száma korlátozva: %s"
 msgid "Right"
 msgstr "Jobb"
 
-#: qt/aqt/clayout.py:399 qt/aqt/sound.py:554
+#: qt/aqt/clayout.py:399 qt/aqt/sound.py:599
 msgid "Save"
 msgstr "Mentés"
 
-#: qt/aqt/browser.py:1377
+#: qt/aqt/browser.py:1380
 msgid "Save Current Filter..."
 msgstr "Aktuális szűrő mentése ..."
 
@@ -2636,7 +2674,7 @@ msgstr "Mentés PDF-ként"
 msgid "Saved."
 msgstr "Mentve."
 
-#: qt/aqt/forms/preferences.py:299
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:300
 #, fuzzy
 msgid "Scheduling"
 msgstr "Átütemezés"
@@ -2646,16 +2684,18 @@ msgstr "Átütemezés"
 msgid "Scope: %s"
 msgstr "Hatókör: %s"
 
-#: qt/aqt/browser.py:1972 qt/aqt/forms/browser.py:295
-#: qt/aqt/forms/dyndconf.py:136 qt/aqt/forms/dyndconf.py:140
+#: qt/aqt/browser.py:1979
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:297
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:138
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:142
 msgid "Search"
 msgstr "Keresés"
 
-#: qt/aqt/forms/finddupes.py:72
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/finddupes.py:73
 msgid "Search in:"
 msgstr "Keresés ebben:"
 
-#: qt/aqt/forms/browseropts.py:73
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browseropts.py:75
 msgid "Search within formatting (slow)"
 msgstr "Keresés a formázásban (lassú)"
 
@@ -2663,15 +2703,15 @@ msgstr "Keresés a formázásban (lassú)"
 msgid "Select"
 msgstr "Kijelölés"
 
-#: qt/aqt/forms/browser.py:305
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:307
 msgid "Select &All"
 msgstr "&Összes kijelölése"
 
-#: qt/aqt/forms/browser.py:314
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:316
 msgid "Select &Notes"
 msgstr "&Jegyzet kiválasztása"
 
-#: qt/aqt/forms/taglimit.py:62
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/taglimit.py:64
 msgid "Select tags to exclude:"
 msgstr "Kizárandó címkék:"
 
@@ -2679,15 +2719,15 @@ msgstr "Kizárandó címkék:"
 msgid "Selected Notes"
 msgstr "Kijelölt jegyzetek"
 
-#: qt/aqt/importing.py:311
+#: qt/aqt/importing.py:303
 msgid "Selected file was not in UTF-8 format. Please see the importing section of the manual."
 msgstr "A kiválasztott fájl nem UTF-8 formátumú. Kérjük, nézze meg az útmutató importálásra vonatkozó részét."
 
-#: qt/aqt/forms/taglimit.py:60
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/taglimit.py:62
 msgid "Selective Study"
 msgstr "Célzott tanulás"
 
-#: qt/aqt/importing.py:172
+#: qt/aqt/importing.py:165
 msgid "Semicolon"
 msgstr "Pontosvessző"
 
@@ -2700,41 +2740,41 @@ msgstr "%s alatti összes paklira is ez az opciócsoport vonatkozzon?"
 msgid "Set for all subdecks"
 msgstr "Beállítás minden alpaklira is"
 
-#: qt/aqt/editor.py:136
+#: qt/aqt/editor.py:158
 msgid "Set foreground colour (F7)"
 msgstr "Az előlap színének beállítása (F7)"
 
-#: qt/aqt/main.py:127
+#: qt/aqt/main.py:129
 msgid "Shift key was held down. Skipping automatic syncing and add-on loading."
 msgstr "A Shift gomb le van nyomva. Az automatikus szinkronizálás és a kiegészítők betöltése elmarad."
 
-#: qt/aqt/forms/reposition.py:74
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reposition.py:76
 msgid "Shift position of existing cards"
 msgstr "Meglévő kártyák eltolása"
 
-#: qt/aqt/deckbrowser.py:318 qt/aqt/main.py:763 qt/aqt/overview.py:265
-#: qt/aqt/previewer.py:80 qt/aqt/previewer.py:85 qt/aqt/reviewer.py:570
-#: qt/aqt/reviewer.py:583 qt/aqt/reviewer.py:660 qt/aqt/toolbar.py:107
+#: qt/aqt/deckbrowser.py:318 qt/aqt/main.py:765 qt/aqt/overview.py:265
+#: qt/aqt/previewer.py:80 qt/aqt/previewer.py:85 qt/aqt/reviewer.py:573
+#: qt/aqt/reviewer.py:584 qt/aqt/reviewer.py:660 qt/aqt/toolbar.py:107
 #: qt/aqt/toolbar.py:114 qt/aqt/toolbar.py:121 qt/aqt/toolbar.py:128
 #: qt/aqt/toolbar.py:144
 #, python-format
 msgid "Shortcut key: %s"
 msgstr "Gyorsbillentyű: %s"
 
-#: qt/aqt/previewer.py:241
+#: qt/aqt/previewer.py:243
 msgid "Shortcut key: Left arrow"
 msgstr "Gyorsbillentyű: balra nyíl"
 
-#: qt/aqt/previewer.py:246
+#: qt/aqt/previewer.py:248
 msgid "Shortcut key: Right arrow or Enter"
 msgstr "Gyorsbillentyű: jobbra nyíl vagy Enter"
 
-#: qt/aqt/addcards.py:87
+#: qt/aqt/addcards.py:89
 #, python-format
 msgid "Shortcut: %s"
 msgstr "Gyorsbillentyű: %s"
 
-#: qt/aqt/reviewer.py:584
+#: qt/aqt/reviewer.py:585
 msgid "Show Answer"
 msgstr "Válasz megjelenítése"
 
@@ -2742,11 +2782,11 @@ msgstr "Válasz megjelenítése"
 msgid "Show Duplicates"
 msgstr "Azonosak megjelenítése"
 
-#: qt/aqt/forms/dconf.py:375
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:377
 msgid "Show answer timer"
 msgstr "Időmérés kijelzése válaszadáskor"
 
-#: qt/aqt/forms/preferences.py:291
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:292
 msgid "Show learning cards with larger steps before reviews"
 msgstr "Előbb a nagyobb lépésekkel ellátott tanulókártyákat mutassa, aztán az ismételendőket"
 
@@ -2766,63 +2806,64 @@ msgstr "Az újakat a hozzáadás sorrendjében mutassa"
 msgid "Show new cards in random order"
 msgstr "Az újakat véletlenszerűen mutassa"
 
-#: qt/aqt/forms/preferences.py:289
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:290
 msgid "Show next review time above answer buttons"
 msgstr "Következő ismétlés idejének kijelzése a válaszgombok fölött"
 
-#: qt/aqt/forms/preferences.py:279
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:280
 msgid "Show play buttons on cards with audio"
 msgstr "Lejátszás gomb megjelenítése a hanganyagot tartalmazó kártyákon"
 
-#: qt/aqt/forms/preferences.py:290
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:291
 msgid "Show remaining card count during review"
 msgstr "Hátralévő kártyák számának kijelzése ismétléskor"
 
-#: qt/aqt/browser.py:1056 qt/aqt/forms/browser.py:337
+#: qt/aqt/browser.py:1031
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:339
 msgid "Sidebar"
 msgstr "Oldalsáv"
 
-#: qt/aqt/forms/addfield.py:63
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addfield.py:64
 msgid "Size:"
 msgstr "Méret:"
 
-#: pylib/anki/importing/anki2.py:160
+#: pylib/anki/importing/anki2.py:157
 msgid "Skipped"
 msgstr "Kihagyva"
 
-#: qt/aqt/forms/preferences.py:311
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:312
 msgid "Some settings will take effect after you restart Anki."
 msgstr "Egyes beállítások csak az Anki újraindítása után lépnek életbe."
 
-#: qt/aqt/browser.py:737
+#: qt/aqt/browser.py:744
 msgid "Sort Field"
 msgstr "Rendezési mező"
 
-#: qt/aqt/forms/fields.py:110
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/fields.py:111
 msgid "Sort by this field in the browser"
 msgstr "Rendezéskor ezt a mezőt vegye alapul a böngésző"
 
-#: qt/aqt/browser.py:932
+#: qt/aqt/browser.py:942
 msgid "Sorting on this column is not supported. Please choose another."
 msgstr "E szerint az oszlop szerint nem lehet rendezni. Kérjük, válasszon másikat."
 
-#: qt/aqt/sound.py:285
+#: qt/aqt/sound.py:323
 msgid "Sound and video on cards will not function until mpv or mplayer is installed."
 msgstr "A kártyán lévő hang és videó nem működik, amíg az mpv vagy az mplayer nincs telepítve."
 
-#: qt/aqt/importing.py:170 qt/aqt/reviewer.py:583
+#: qt/aqt/importing.py:163 qt/aqt/reviewer.py:584
 msgid "Space"
 msgstr "Szóköz"
 
-#: qt/aqt/forms/reposition.py:71
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reposition.py:73
 msgid "Start position:"
 msgstr "Kiindulási helyzet:"
 
-#: qt/aqt/forms/dconf.py:340
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:342
 msgid "Starting ease"
 msgstr "Kiindulási könnyűség"
 
-#: qt/aqt/forms/stats.py:79
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/stats.py:80
 msgid "Statistics"
 msgstr "Statisztikák"
 
@@ -2830,11 +2871,12 @@ msgstr "Statisztikák"
 msgid "Stats"
 msgstr "Statisztikák"
 
-#: qt/aqt/forms/reposition.py:72
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reposition.py:74
 msgid "Step:"
 msgstr "Lépés:"
 
-#: qt/aqt/forms/dconf.py:346 qt/aqt/forms/dconf.py:362
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:348
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:364
 msgid "Steps (in minutes)"
 msgstr "Lépések (percben)"
 
@@ -2842,7 +2884,7 @@ msgstr "Lépések (percben)"
 msgid "Steps must be numbers."
 msgstr "A lépéseknek számoknak kell lenniük."
 
-#: qt/aqt/browser.py:1266
+#: qt/aqt/browser.py:1264
 msgid "Studied Today"
 msgstr "Ma tanultak"
 
@@ -2850,11 +2892,11 @@ msgstr "Ma tanultak"
 msgid "Study"
 msgstr "Tanulás"
 
-#: qt/aqt/forms/studydeck.py:45
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/studydeck.py:47
 msgid "Study Deck"
 msgstr "Tanulópakli"
 
-#: qt/aqt/forms/main.py:152
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/main.py:153
 msgid "Study Deck..."
 msgstr "Tanuló&pakli..."
 
@@ -2862,11 +2904,11 @@ msgstr "Tanuló&pakli..."
 msgid "Study Now"
 msgstr "Kezdjük!"
 
-#: qt/aqt/forms/customstudy.py:107
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/customstudy.py:108
 msgid "Study by card state or tag"
 msgstr "Tanulás a kártyák állapota vagy címkéje szerint"
 
-#: qt/aqt/editor.py:132
+#: qt/aqt/editor.py:153
 msgid "Subscript (Ctrl+=)"
 msgstr "Alsó index (Ctrl+=)"
 
@@ -2874,7 +2916,7 @@ msgstr "Alsó index (Ctrl+=)"
 msgid "Supermemo XML export (*.xml)"
 msgstr "XML-be exportált Supermemo-fájl (*.xml)"
 
-#: qt/aqt/editor.py:130
+#: qt/aqt/editor.py:151
 msgid "Superscript (Ctrl++)"
 msgstr "Felülírás (Ctrl++)"
 
@@ -2882,7 +2924,8 @@ msgstr "Felülírás (Ctrl++)"
 msgid "Suspend"
 msgstr "Felfüggesztés"
 
-#: qt/aqt/reviewer.py:729 qt/aqt/forms/dconf.py:369
+#: qt/aqt/reviewer.py:729
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:371
 msgid "Suspend Card"
 msgstr "Kártya felfüggesztése"
 
@@ -2890,7 +2933,7 @@ msgstr "Kártya felfüggesztése"
 msgid "Suspend Note"
 msgstr "Jegyzet felfüggesztése"
 
-#: qt/aqt/browser.py:1283
+#: qt/aqt/browser.py:1281
 msgid "Suspended"
 msgstr "Felfüggesztve"
 
@@ -2902,27 +2945,27 @@ msgstr "Felfüggesztett+félretett"
 msgid "Sync"
 msgstr "Szinkronizálás"
 
-#: qt/aqt/forms/preferences.py:301
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:302
 msgid "Synchronize audio and images too"
 msgstr "Hang- és képanyag szinkronizálása is"
 
-#: qt/aqt/importing.py:166
+#: qt/aqt/importing.py:159
 msgid "Tab"
 msgstr "Tabulátor"
 
-#: qt/aqt/browser.py:1981 qt/aqt/browser.py:2008
+#: qt/aqt/browser.py:1988 qt/aqt/browser.py:2015
 msgid "Tag Duplicates"
 msgstr "Azonosak felcímkézése"
 
-#: qt/aqt/forms/dconf.py:370
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:372
 msgid "Tag Only"
 msgstr "Csak címke"
 
-#: qt/aqt/forms/importing.py:111
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:113
 msgid "Tag modified notes:"
 msgstr "Módosított jegyzetek felcímkézése:"
 
-#: qt/aqt/browser.py:746 qt/aqt/browser.py:1298 qt/aqt/editor.py:567
+#: qt/aqt/browser.py:753 qt/aqt/browser.py:1299 qt/aqt/editor.py:576
 msgid "Tags"
 msgstr "Címkék"
 
@@ -2930,7 +2973,7 @@ msgstr "Címkék"
 msgid "Target Deck (Ctrl+D)"
 msgstr "Célpakli (Ctrl+D)"
 
-#: qt/aqt/forms/changemap.py:42
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/changemap.py:44
 msgid "Target field:"
 msgstr "Kívánt mező:"
 
@@ -2950,11 +2993,11 @@ msgstr "Az alapértelmezett beállítás nem törölhető."
 msgid "The division of cards in your deck(s)."
 msgstr "A pakli(jai)ban lévő kártyák megoszlása"
 
-#: qt/aqt/addcards.py:164
+#: qt/aqt/addcards.py:169
 msgid "The first field is empty."
 msgstr "Az első mező üres."
 
-#: qt/aqt/importing.py:183
+#: qt/aqt/importing.py:176
 msgid "The first field of the note type must be mapped."
 msgstr "A jegyzettípus első mezőjének kapcsolódnia kell a kártyák tartalmához."
 
@@ -2967,7 +3010,7 @@ msgstr "A következő kiegészítők nem kompatibilisek a %(name)s névvel és l
 msgid "The following add-ons have updates available. Install them now?"
 msgstr "Az alábbi kiegészítőkhöz frissítések érhetők el. Telepíti most ezeket?"
 
-#: qt/aqt/utils.py:653
+#: qt/aqt/utils.py:659
 #, python-format
 msgid "The following character can not be used: %s"
 msgstr "Az alábbi karakter nem használható: %s"
@@ -2992,7 +3035,7 @@ msgstr "A továbbiakban esedékes ismétlések száma"
 msgid "The number of times you have pressed each button."
 msgstr "Az egyes gombok lenyomásának száma"
 
-#: qt/aqt/importing.py:524
+#: qt/aqt/importing.py:516
 msgid "The provided file is not a valid .apkg file."
 msgstr "A megadott fájl nem érvényes .apkg állomány."
 
@@ -3000,7 +3043,7 @@ msgstr "A megadott fájl nem érvényes .apkg állomány."
 msgid "The provided search did not match any cards. Would you like to revise it?"
 msgstr "A megadott keresésnek egyetlen kártya sem felelt meg. Szeretné módosítani?"
 
-#: qt/aqt/main.py:1341 qt/aqt/main.py:1360
+#: qt/aqt/main.py:1343 qt/aqt/main.py:1362
 msgid "The requested change will require a full upload of the database when you next synchronize your collection. If you have reviews or other changes waiting on another device that haven't been synchronized here yet, they will be lost. Continue?"
 msgstr "A kívánt módosításhoz a teljes adatbázist fel kell tölteni, amikor legközelebb szinkronizálja a gyűjteményt. Ha Ön más eszközön olyan változtatást végzett, amit még nem szinkronizált, akkor az most el fog veszni. Akarja folytatni?"
 
@@ -3008,7 +3051,7 @@ msgstr "A kívánt módosításhoz a teljes adatbázist fel kell tölteni, amiko
 msgid "The time taken to answer the questions."
 msgstr "A kérdések megválaszolásával eltöltött idő"
 
-#: qt/aqt/main.py:318
+#: qt/aqt/main.py:320
 msgid "There must be at least one profile."
 msgstr "Legalább egy profilnak lennie kell."
 
@@ -3016,11 +3059,11 @@ msgstr "Legalább egy profilnak lennie kell."
 msgid "This add-on is not compatible with your version of Anki."
 msgstr "Ez a kiegészítő nem kompatibilis az Anki verziójával."
 
-#: qt/aqt/importing.py:442
+#: qt/aqt/importing.py:434
 msgid "This file does not appear to be a valid .apkg file. If you're getting this error from a file downloaded from AnkiWeb, chances are that your download failed. Please try again, and if the problem persists, please try again with a different browser."
 msgstr "Úgy tűnik, ez nem érvényes .apkg fájl. Ha ezt a hibaüzenetet egy AnkiWebről letöltött fájlból kapta, a letöltés valószínűleg sikertelen volt. Kérjük, próbálja újra, és ha a probléma továbbra is fennáll, próbálkozzon egy másik böngészővel."
 
-#: qt/aqt/utils.py:406
+#: qt/aqt/utils.py:412
 msgid "This file exists. Are you sure you want to overwrite it?"
 msgstr "A fájl már létezik. Biztosan felül szeretné írni?"
 
@@ -3028,14 +3071,14 @@ msgstr "A fájl már létezik. Biztosan felül szeretné írni?"
 msgid "This is a special deck for studying outside of the normal schedule."
 msgstr "Ez egy speciális pakli, amely a szokásos ütemezésen kívüli tanulásra szolgál."
 
-#: qt/aqt/clayout.py:630
+#: qt/aqt/clayout.py:632
 #, python-format
 msgid "This will create %d card. Proceed?"
 msgid_plural "This will create %d cards. Proceed?"
 msgstr[0] "Ez %d kártyát fog létrehozni. Folytatni kívánja?"
 msgstr[1] "Ez %d kártyát fog létrehozni. Folytatni kívánja?"
 
-#: qt/aqt/importing.py:462
+#: qt/aqt/importing.py:454
 msgid "This will delete your existing collection and replace it with the data in the file you're importing. Are you sure?"
 msgstr "Ez a művelet törli a meglévő gyűjteményét, és a most importált fájlból származó adatokkal írja felül. Valóban ezt akarja?"
 
@@ -3043,7 +3086,7 @@ msgstr "Ez a művelet törli a meglévő gyűjteményét, és a most importált 
 msgid "This will reset any cards in learning, clear filtered decks, and change the scheduler version. Proceed?"
 msgstr "Ez alaphelyzetbe állítja a tanuláshoz szükséges összes kártyát, törli a szűrt paklikat, és visszaállítja az ütemezőt. Biztos benne?"
 
-#: qt/aqt/forms/preferences.py:294
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:295
 msgid "Timebox time limit"
 msgstr "Időkeret"
 
@@ -3051,28 +3094,28 @@ msgstr "Időkeret"
 msgid "To Review"
 msgstr "Ismételendő"
 
-#: qt/aqt/forms/getaddons.py:49
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/getaddons.py:51
 msgid "To browse add-ons, please click the browse button below.<br><br>When you've found an add-on you like, please paste its code below. You can paste multiple codes, separated by spaces."
 msgstr "Bővítmények kereséséhez kattintson a lenti keresés gombra.<br><br>Ha megtalálta a kívánt bővítményt, kérjük, illessze be annak kódját alulra. Több kódot is beilleszthet, szóközökkel elválasztva."
 
-#: qt/aqt/editor.py:642
+#: qt/aqt/editor.py:651
 #, fuzzy
 msgid "To make a cloze deletion on an existing note, you need to change it to a cloze type first, via 'Notes>Change Note Type'"
 msgstr "Ha egy meglévő jegyzetet lyukas szövegként (cloze) szeretnél használni, előbb át kell állítani „lyukas szöveg” típusra a Szerkesztés > Jegyzettípus módosítása menüponttal."
 
-#: pylib/anki/stats.py:119 qt/aqt/browser.py:1261
+#: pylib/anki/stats.py:119 qt/aqt/browser.py:1259
 msgid "Today"
 msgstr "Ma"
 
-#: qt/aqt/forms/addons.py:76
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:77
 msgid "Toggle Enabled"
 msgstr "Engedélyezés átváltása"
 
-#: qt/aqt/forms/browser.py:340
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:342
 msgid "Toggle Mark"
 msgstr "Megjelölés átváltása"
 
-#: qt/aqt/forms/browser.py:329
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/browser.py:331
 msgid "Toggle Suspend"
 msgstr "Kártya felfüggesztése"
 
@@ -3088,15 +3131,16 @@ msgstr "Kártyák összesen"
 msgid "Total notes"
 msgstr "Jegyzetek összesen"
 
-#: qt/aqt/forms/findreplace.py:90
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/findreplace.py:91
 msgid "Treat input as regular expression"
 msgstr "A bevitt szöveg reguláris kifejezésként értendő"
 
-#: qt/aqt/modelchooser.py:26 qt/aqt/forms/importing.py:105
+#: qt/aqt/modelchooser.py:40
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:107
 msgid "Type"
 msgstr "Típus"
 
-#: qt/aqt/reviewer.py:388
+#: qt/aqt/reviewer.py:391
 #, python-format
 msgid "Type answer: unknown field %s"
 msgstr "Válasz megadása: ismeretlen %s mező"
@@ -3105,7 +3149,7 @@ msgstr "Válasz megadása: ismeretlen %s mező"
 msgid "Unable to access Anki media folder. The permissions on your system's temporary folder may be incorrect."
 msgstr "Nem lehet elérni az Anki médiamappát. Lehet, hogy a rendszer ideiglenes mappájának engedélyei helytelenek."
 
-#: qt/aqt/main.py:362
+#: qt/aqt/main.py:364
 msgid "Unable to move existing file to trash - please try restarting your computer."
 msgstr "Nem lehet a meglévő fájlt a kukába helyezni - kérjük, indítsa újra számítógépét."
 
@@ -3124,20 +3168,20 @@ msgstr ""
 msgid "Unbury"
 msgstr "Félretevés megszüntetése"
 
-#: qt/aqt/editor.py:127
+#: qt/aqt/editor.py:148
 msgid "Underline text (Ctrl+U)"
 msgstr "Aláhúzott szöveg (Ctrl+U)"
 
-#: qt/aqt/main.py:1044
+#: qt/aqt/main.py:1046
 msgid "Undo"
 msgstr "Visszavonás"
 
-#: qt/aqt/main.py:1040
+#: qt/aqt/main.py:1042
 #, python-format
 msgid "Undo %s"
 msgstr "Visszavonás: %s"
 
-#: qt/aqt/addons.py:1014 qt/aqt/editor.py:841
+#: qt/aqt/addons.py:1014 qt/aqt/editor.py:850
 #, python-format
 msgid "Unexpected response code: %s"
 msgstr "Váratlan válaszkód: %s"
@@ -3146,7 +3190,7 @@ msgstr "Váratlan válaszkód: %s"
 msgid "Unknown error: {}"
 msgstr "Ismeretlen hiba: {}"
 
-#: qt/aqt/importing.py:375
+#: qt/aqt/importing.py:367
 msgid "Unknown file format."
 msgstr "Ismeretlen fájlformátum."
 
@@ -3154,11 +3198,11 @@ msgstr "Ismeretlen fájlformátum."
 msgid "Unseen"
 msgstr "Megtanulatlan"
 
-#: qt/aqt/forms/importing.py:107
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/importing.py:109
 msgid "Update existing notes when first field matches"
 msgstr "Meglévő jegyzet frissítése, ha első mezője egyezik"
 
-#: pylib/anki/importing/anki2.py:163
+#: pylib/anki/importing/anki2.py:160
 msgid "Updated"
 msgstr "Frissítve"
 
@@ -3166,7 +3210,7 @@ msgstr "Frissítve"
 msgid "User 1"
 msgstr "1. felhasználó"
 
-#: qt/aqt/forms/preferences.py:286
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:287
 msgid "User interface size"
 msgstr "A felhasználói felület mérete"
 
@@ -3175,19 +3219,19 @@ msgstr "A felhasználói felület mérete"
 msgid "Version %s"
 msgstr "%s verzió"
 
-#: qt/aqt/forms/addons.py:73
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:74
 msgid "View Add-on Page"
 msgstr "Kiegészítő oldal megtekintése"
 
-#: qt/aqt/forms/addons.py:75
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/addons.py:76
 msgid "View Files"
 msgstr "Fájlok megtekintése"
 
-#: qt/aqt/main.py:733
+#: qt/aqt/main.py:735
 msgid "Waiting for editing to finish."
 msgstr "Várakozás a szerkesztés befejezésére"
 
-#: qt/aqt/editor.py:635
+#: qt/aqt/editor.py:644
 msgid "Warning, cloze deletions will not work until you switch the type at the top to Cloze."
 msgstr "Figyelem: a lyukas szöveg addig nem működik, amíg a fenti típust be nem állítod Lyukas szövegre."
 
@@ -3195,11 +3239,11 @@ msgstr "Figyelem: a lyukas szöveg addig nem működik, amíg a fenti típust be
 msgid "What would you like to unbury?"
 msgstr "Mit szeretne tartani?"
 
-#: qt/aqt/forms/preferences.py:284
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:285
 msgid "When adding, default to current deck"
 msgstr "Bővítéskor az aktuális pakli legyen az alapértelmezés"
 
-#: qt/aqt/browser.py:1124 qt/aqt/browser.py:1257
+#: qt/aqt/browser.py:1108 qt/aqt/browser.py:1255
 msgid "Whole Collection"
 msgstr "Teljes gyűjtemény"
 
@@ -3207,16 +3251,16 @@ msgstr "Teljes gyűjtemény"
 msgid "Would you like to download it now?"
 msgstr "Szeretnéd most letölteni?"
 
-#: qt/aqt/about.py:214
+#: qt/aqt/about.py:215
 #, python-format
 msgid "Written by Damien Elmes, with patches, translation,    testing and design from:<p>%(cont)s"
 msgstr "Írta: Damien Elmes, javításokkal, fordítással, teszteléssel és tervezéssel:   <p>%(cont)s<p>%(cont)s"
 
-#: qt/aqt/forms/preferences.py:309
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:310
 msgid "You can restore backups via File>Switch Profile."
 msgstr "A biztonsági mentéseket visszaállíthatja a Fájl> Profilváltás menüponttal."
 
-#: qt/aqt/addcards.py:173
+#: qt/aqt/addcards.py:178
 msgid "You have a cloze deletion note type but have not made any cloze deletions. Proceed?"
 msgstr "Van egy lyukasszöveg-jegyzettípusod, de még nem hoztál létre lyukas szöveget. Folytatod?"
 
@@ -3224,7 +3268,7 @@ msgstr "Van egy lyukasszöveg-jegyzettípusod, de még nem hoztál létre lyukas
 msgid "You haven't recorded your voice yet."
 msgstr "Még nem vetted fel a hangodat."
 
-#: qt/aqt/browser.py:987
+#: qt/aqt/browser.py:997
 msgid "You must have at least one column."
 msgstr "Legalább egy oszlopnak lennie kell."
 
@@ -3241,7 +3285,7 @@ msgstr "Frissen tanult"
 msgid "Your changes will affect multiple decks. If you wish to change only the current deck, please add a new options group first."
 msgstr "A módosításai több paklit is érintenek. Ha csak az aktuális paklit szeretné módosítani, kérjük, hozzon létre előbb ehhez egy új opciócsoportot."
 
-#: qt/aqt/main.py:576
+#: qt/aqt/main.py:578
 msgid "Your collection file appears to be corrupt. This can happen when the file is copied or moved while Anki is open, or when the collection is stored on a network or cloud drive. If problems persist after restarting your computer, please open an automatic backup from the profile screen."
 msgstr "A gyűjteményfájl sérültnek tűnik. Ez akkor fordulhat elő, amikor a fájlt lemásolja vagy áthelyezi, miközben Anki nyitva van, vagy amikor a gyűjteményt hálózati vagy felhőmeghajtón tárolja. Ha a számítógép újraindítása után továbbra is problémák merülnek fel, kérjük, nyisson meg egy automatikus biztonsági másolatot."
 
@@ -3257,7 +3301,7 @@ msgstr "Tűzfala vagy víruskereső programja nem teszi lehetővé az Anki szám
 msgid "[no deck]"
 msgstr "[nincs pakli]"
 
-#: qt/aqt/forms/preferences.py:308
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:309
 msgid "backups"
 msgstr "megelőző változat másolata"
 
@@ -3269,11 +3313,13 @@ msgstr "kártya"
 msgid "cards from the deck"
 msgstr "kártyát a pakliból"
 
-#: qt/aqt/forms/dyndconf.py:137 qt/aqt/forms/dyndconf.py:141
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:139
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:143
 msgid "cards selected by"
 msgstr "kártya, kiválasztásuk alapja:"
 
-#: qt/aqt/exporting.py:110 qt/aqt/forms/stats.py:81
+#: qt/aqt/exporting.py:110
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/stats.py:82
 msgid "collection"
 msgstr "gyűjtemény"
 
@@ -3283,21 +3329,24 @@ msgid "d"
 msgstr "n"
 
 #: qt/aqt/customstudy.py:90 qt/aqt/customstudy.py:94 qt/aqt/customstudy.py:97
-#: qt/aqt/forms/dconf.py:348 qt/aqt/forms/dconf.py:349
-#: qt/aqt/forms/dconf.py:356 qt/aqt/forms/dconf.py:368
-#: qt/aqt/forms/reschedule.py:77
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:350
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:351
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:358
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:370
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reschedule.py:79
 msgid "days"
 msgstr "nap"
 
-#: qt/aqt/forms/stats.py:80
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/stats.py:81
 msgid "deck"
 msgstr "pakli"
 
-#: pylib/anki/stats.py:949 qt/aqt/forms/stats.py:84
+#: pylib/anki/stats.py:949
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/stats.py:85
 msgid "deck life"
 msgstr "pakli élettartama"
 
-#: qt/aqt/browser.py:2012
+#: qt/aqt/browser.py:2019
 msgid "duplicate"
 msgstr "másodpéldány"
 
@@ -3305,28 +3354,30 @@ msgstr "másodpéldány"
 msgid "hours"
 msgstr "óra"
 
-#: qt/aqt/forms/preferences.py:295
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:296
 msgid "hours past midnight"
 msgstr "órával éjfél után"
 
-#: qt/aqt/forms/dconf.py:365
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:367
 msgid "lapses"
 msgstr "elakadás"
 
-#: qt/aqt/importing.py:264
+#: qt/aqt/importing.py:256
 #, python-format
 msgid "mapped to <b>%s</b>"
 msgstr "hozzárendelve ehhez: <b>%s</b>"
 
-#: qt/aqt/importing.py:262
+#: qt/aqt/importing.py:254
 msgid "mapped to <b>Tags</b>"
 msgstr "hozzárendelve ehhez: <b>Címkék</b>"
 
-#: qt/aqt/forms/preferences.py:293 qt/aqt/forms/preferences.py:297
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:294
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/preferences.py:298
 msgid "mins"
 msgstr "perc"
 
-#: pylib/anki/stats.py:384 qt/aqt/forms/dyndconf.py:146
+#: pylib/anki/stats.py:384
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dyndconf.py:148
 msgid "minutes"
 msgstr "perc"
 
@@ -3339,7 +3390,7 @@ msgstr "hó"
 msgid "reviews"
 msgstr "ismétlés"
 
-#: qt/aqt/forms/dconf.py:374
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/dconf.py:376
 msgid "seconds"
 msgstr "másodperc"
 
@@ -3356,9 +3407,12 @@ msgstr "hét"
 msgid "whole collection"
 msgstr "teljes gyűjtemény"
 
-#: qt/aqt/forms/reschedule.py:76
+#: bazel-out/darwin-fastbuild/bin/qt/aqt/forms/reschedule.py:78
 msgid "~"
 msgstr "~"
+
+#~ msgid "Front"
+#~ msgstr "Előlap"
 
 #~ msgid "Congratulations! You have finished this deck for now."
 #~ msgstr "Gratulálok! Mára Ön végzett ezzel a paklival."
